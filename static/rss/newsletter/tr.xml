@@ -15,12 +15,154 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 24 Nov 2024 19:07:57 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 25 Nov 2024 19:40:15 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/tr.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Sun, 24 Nov 2024 00:00:00 GMT</pubDate>
+        <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[tr]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-11-25]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/11/25&#39;</h2>
+<h1>2024-11-25</h1>
+<h2><a href="https://www.5snb.club/posts/2023/do-not-stab/">RFC 35140: HTTP Bıçaklamama (2023)</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42232040">Tepkiler</a></h3>
+<ul>
+<li>RFC 35140, bir tarayıcının varsayılan ayarının kurgusal bıçaklama endüstrisini olumsuz etkilemesinin ardından terk edilen &quot;Bıçaklamama&quot; HTTP başlığının kullanım dışı bırakılmasını mizahi bir şekilde eleştirir.</li>
+<li>Bir &quot;Genel Saldırı Kontrolü&quot; başlığının tanıtılması, açıkça vazgeçmeyi gerektiren, kullanıcı rıza mekanizmalarını ve sorumluluğun kurumlardan bireylere kaydırılmasını hicvediyor.</li>
+<li>Bu hiciv, mahremiyet, veri takibi ve kurumsal çıkarlara karşı düzenlemelerin uygulanmasındaki zorluklar da dahil olmak üzere daha geniş toplumsal sorunları ele alıyor.</li>
+</ul>
+<h2><a href="https://www.starlink.com/business/direct-to-cell">Starlink Doğrudan Hücreye</a></h2>
+<ul>
+<li>Starlink Direct to Cell, SpaceX tarafından sunulan yeni bir hizmet olup, LTE telefonlar için küresel metin, ses ve veri erişimi sağlayarak karada, göllerde ve kıyı sularında bağlantı sağlamaktadır.</li>
+<li>Servis, 2024 yılında metin hizmetleriyle başlayacak, ardından 2025 yılında ses, veri ve IoT (Nesnelerin İnterneti) desteği ile devam edecek ve donanım değişiklikleri veya özel uygulamalara ihtiyaç duymayacak.</li>
+<li>Bu gelişme, SpaceX&#39;in telekomünikasyon alanındaki genişlemesini vurgulamakta olup, ek ekipman gerektirmeden kesintisiz bağlantı sağlamaktadır.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42230103">Tepkiler</a></h3>
+<ul>
+<li>Starlink&#39;in dikey entegrasyonu ve maliyet etkin fırlatmaları, onu uydu internet endüstrisinde lider bir güç olarak konumlandırıyor ve minimal rekabetle karşı karşıya bırakıyor.</li>
+<li>Kimileri Starlink&#39;in hakimiyetini tekelci olarak görürken, diğerleri yenilik ve yabancı askeri desteğin gelecekte rekabeti teşvik edebileceğine inanıyor.</li>
+<li>Uydu fırlatmalarının yüksek maliyeti büyük bir engel teşkil ediyor, ancak yeniden kullanılabilir roket teknolojisindeki ilerlemeler rekabet ortamını değiştirebilir.</li>
+</ul>
+<h2><a href="https://danielmangum.com/posts/this-website-is-hosted-on-bluesky/">Bu web sitesi Bluesky üzerinde barındırılmaktadır.</a></h2>
+<ul>
+<li>Bluesky tarafından kullanılan AT Protokolü, Kişisel Veri Sunucuları (PDS) aracılığıyla barındırmayı destekleyerek, amaçlanan kullanımların ötesindeki esnekliğini sergiler.- Bluesky&#39;deki içerik, kayıtlar ve bloblar olarak organize edilir; bloblar, medya gibi daha büyük veriler olup, kayıtlarda referans verilmeden önce yüklenmelidir.- Protokolün genişletilebilirliği, web sitelerinin barındırılması gibi yaratıcı uygulamalara olanak tanır ve gelecekte yeni kullanım durumlarına yol açabilir.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42230392">Tepkiler</a></h3>
+<ul>
+<li>Bluesky&#39;de barındırılan web sitesi, RSS beslemelerinin barındırılması ve DOOM WAD&#39;leri gibi verilerin depolanması da dahil olmak üzere potansiyel kullanımları hakkında tartışmalar başlattı ve içerik denetimi ile yasal sorunlar hakkında endişeler dile getirildi.</li>
+<li>Karşılaştırmalar, AT Protokolü&#39;nün kamusal doğasını ve merkezi olmayan veri depolama potansiyelini vurgulayarak, MySpace gibi geçmiş platformlarla yapılmaktadır.</li>
+<li>Kullanıcılar, bazıları Bluesky&#39;nin moderasyon yetenekleri konusunda şüpheci iken, diğerleri onu umut verici yeni bir platform olarak görüyor.</li>
+</ul>
+<h2><a href="https://www.benji.dog/articles/git-config/">Git kimliklerimi nasıl yapılandırırım</a></h2>
+<ul>
+<li>Yazı, dizin yollarına veya uzak URL&#39;lere dayalı olarak farklı ayarların yapılmasına olanak tanıyan koşullu yapılandırmalar için <code>includeIf</code> kullanarak Git kimliklerinin yapılandırılmasını tartışıyor.</li>
+<li>Yazar, <code>~/.ssh/config</code> dosyasında farklı <code>Host</code> değerleri kullanarak ve Git yapılandırmalarını <code>insteadOf</code> ile ayarlayarak birden fazla Git kimliğini ve SSH anahtarını yönetme yöntemini paylaşıyor.</li>
+<li>Bu gönderi, uzak URL&#39;lere dayalı koşullu Git yapılandırmaları için <code>hasconfig:remote.*.url:!</code> kullanarak yeni bir yaklaşımı vurguluyor ve Git kimliklerini yönetmede esnekliği artırıyor.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42233524">Tepkiler</a></h3>
+<ul>
+<li>Git yapılandırmasındaki <code>includeIf</code> yönergesi, kimlik yönetimini kolaylaştırarak, depo URL&#39;sine dayalı olarak farklı ayarların otomatik olarak uygulanmasına olanak tanır.</li>
+<li>Bu yöntem, kullanıcıların iş ile ilgili depolar için belirli kullanıcı ayrıntılarını ve SSH anahtarlarını ayarlamalarını sağlar, kişisel ve iş projeleri arasında sorunsuz geçişi kolaylaştırır.</li>
+<li>Çalışma ve kişisel projeler için ayrı makineler veya kullanıcı hesapları kullanarak güvenlik ve gizliliği daha da artırabilirsiniz.</li>
+</ul>
+<h2><a href="https://sqlitestudio.pl/">SQLiteStudio: SQLite veritabanlarını oluşturun, düzenleyin, göz atın</a></h2>
+<ul>
+<li>SQLiteStudio, önceki sürüm 3.4.5&#39;teki &quot;siyah SQL kod satırı&quot; sorununu ele alan ve iki ek sorunu çözen 3.4.6 sürümünü yayınladı.</li>
+<li>Bu yazılım, açık kaynaklı, platformlar arası ve taşınabilir olup, GPL lisansı altında ücretsiz olarak sunulmakta ve Windows, Linux ve MacOS X ile uyumludur.</li>
+<li>Özellikle, SQLiteStudio kurulum gerektirmez, bu da kullanıcılar için SQLite veritabanlarını oluşturmayı, düzenlemeyi ve gözden geçirmeyi kolaylaştırır.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42232000">Tepkiler</a></h3>
+<ul>
+<li>SQLiteStudio, taşınabilirliği ve güçlü özellikleriyle övülen, SQLite veritabanlarını oluşturmak, düzenlemek ve göz atmak için tasarlanmış kullanıcı dostu bir araçtır.</li>
+<li>Bu, karmaşık veritabanı görevlerini yönetmeye yardımcı olan ve hem profesyonellere hem de öğrencilere görsel geri bildirim sunan Varlık-İlişki Diyagramları (ERD) desteğini içerir.</li>
+<li>Bazı kullanıcılar platforma özgü sorunlarla karşılaşmış olsa da, SQLiteStudio genellikle güvenilir ve verimli bir SQLite yönetim aracı olarak kabul edilir.</li>
+</ul>
+<h2><a href="https://herecomesthemoon.net/2024/11/two-factions-of-cpp/">C++&#39;un iki fraksiyonu</a></h2>
+<ul>
+<li>C++ topluluğu, gelişmiş özellikler arayan modern teknoloji şirketleri ile eski sistemlere bağımlı olan eski kullanıcılar arasında bölünmüş durumda ve bu durum dilin evriminde bir gerilim yaratıyor.- C++ Evrim Çalışma Grubu&#39;nun geriye dönük uyumluluğa odaklanması, modern özellikler ve güvenlik talebiyle çelişiyor ve bu da bazı büyük teknoloji oyuncuları arasında memnuniyetsizliğe yol açıyor.- Bu zorluklara yanıt olarak, ABD hükümeti ve Google gibi şirketler, geriye dönük uyumluluktan ziyade güvenlik ve modern yeteneklere öncelik veren Rust gibi alternatif dilleri araştırıyor veya geliştiriyor.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42231489">Tepkiler</a></h3>
+<ul>
+<li>C++ topluluğu, eski kod tabanlarını koruma ve modern, daha güvenli dil özelliklerini benimseme arasında bölünmüş durumda, otomatik test olmadan yeniden yapılandırma zorluklarına odaklanıyor.</li>
+<li>Makale, Google&#39;ın C++ standartlar komitesindeki önemli etkisini ve mevcut kodu bozmadan dili geliştirmenin zorluğunu vurguluyor.</li>
+<li>Benzer hizip bölünmeleri ve dil evrimindeki karmaşıklıklar, Python ve Rust gibi diğer programlama dillerinde de gözlemlenmektedir.</li>
+</ul>
+<h2><a href="https://mashable.com/article/bluesky-gaining-ground-on-competitor-meta-threads">Bluesky, önemli olan tüm açılardan Threads&#39;i geçmenin eşiğinde.</a></h2>
+<ul>
+<li>Bluesky, başlangıçta Jack Dorsey ile ilişkilendirilen merkeziyetsiz bir platform, ivme kazanıyor ve şu anda Meta&#39;nın Threads&#39;ine yaklaşarak 3,5 milyon günlük aktif kullanıcıya sahip.</li>
+<li>Platform, gazeteciler ve akademisyenlerin daha açık bir kamu söylemi arayışıyla Elon Musk&#39;ın X&#39;inden göç etmesiyle, 5 Kasım seçimlerinden bu yana %300 kullanıcı artışı yaşadı.</li>
+<li>Bluesky&#39;nin büyümesi, kesintiler ve dolandırıcılıklar gibi sorunlarla karşı karşıya kalsa da, Meta CEO&#39;su Mark Zuckerberg&#39;in Threads&#39;te siyasi içeriği sınırlama kararı, cazibesini artırıyor.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42231148">Tepkiler</a></h3>
+<ul>
+<li>Bluesky, kullanıcıları özel etiketler, algoritma seçimi ve kronolojik akış gibi özelliklerle cezbediyor ve Threads&#39;e kıyasla daha kullanıcı kontrollü bir deneyim sunuyor.</li>
+<li>Bu, kullanıcı tercihine odaklanması ve algoritmik müdahaleyi azaltması nedeniyle X&#39;e (eski adıyla Twitter) potansiyel bir alternatif olarak görülmektedir.</li>
+<li>Artan popülaritesine rağmen, Bluesky&#39;nin sürdürülebilirliği ve para kazanma potansiyeli hakkındaki endişeler devam ediyor, çünkü daha köklü platformlarla karşılaştırıldığında hala erken geliştirme aşamalarında bulunuyor.</li>
+</ul>
+<h2><a href="https://chipsandcheese.com/p/pushing-amds-infinity-fabric-to-its">AMD&#39;nin Infinity Fabric&#39;ini Sınırlarına Zorlamak</a></h2>
+<ul>
+<li>AMD&#39;nin Zen mimarisinin bir parçası olan Infinity Fabric, CPU çekirdeklerini bağlar ve bellek gecikmesini yönetir. Zen 5, daha hızlı DDR5 ve daha iyi trafik yönetimi sayesinde geliştirilmiş bant genişliği yönetimi gösteriyor.</li>
+<li>Zen 2, daha eski bir mimari olmasına rağmen, Çekirdek Kompleksi (CCX) ve Çekirdek Kompleksi Yonga (CCD) darboğazları hakkında içgörüler sağlar.</li>
+<li>Tipik uygulamalar, oyunlar gibi, bant genişliğini zorlamazken, RawTherapee gibi zorlu iş yükleri, özellikle Zen 4&#39;te ağır yük altında gecikme yönetimi güçlü ve sınırlamalarını ortaya çıkarabilir.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42230355">Tepkiler</a></h3>
+<ul>
+<li>Bu tartışma, AMD&#39;nin Infinity Fabric&#39;i ve bellek bant genişliği kısıtlamaları üzerinde yoğunlaşıyor ve Apple&#39;ın Silicon yetenekleriyle karşılaştırmalar yapılıyor.</li>
+<li>Kullanıcılar, Apple&#39;ın M1 Max&#39;inin 400GB/s bant genişliğine ulaşma iddiasının uygulanabilirliğini tartışıyor ve AMD&#39;nin Zen 3 ile Apple&#39;ın mimarisi arasındaki çekirdek kullanımı farklarına dikkat çekiyor.</li>
+<li>Konuşma ayrıca, Heterojen Bellek Erişimi (NUMA) yapılandırmasının önemini ve yeni ortaya çıkan CPU mimarileri için yazılımı optimize etmenin karmaşıklıklarını vurgulamaktadır.</li>
+</ul>
+<h2><a href="https://www.sqlite.org/lang_with.html#outlandish_recursive_query_examples">SQLite: Alışılmadık Özyinelemeli Sorgu Örnekleri</a></h2>
+<ul>
+<li>SQL&#39;deki Ortak Tablo İfadeleri (CTE&#39;ler), tek bir ifade için geçici görünümler olarak hizmet eder ve iki türü vardır: sıradan ve özyinelemeli, sırasıyla karmaşık sorguları basitleştirir ve hiyerarşik verileri işler.</li>
+<li>CTE&#39;ler, WITH ifadesi kullanılarak oluşturulur ve tek bir ifadede birden fazla CTE içerebilir, özyinelemeli CTE&#39;ler ise UNION veya UNION ALL operatörlerini kullanmak gibi belirli kurallar gerektirir.</li>
+<li>Materyalizasyon ipuçları, SQLite sürüm 3.35.0 ve sonrasında mevcut olup, sorgu planlayıcısına CTE uygulaması konusunda rehberlik eder, CREATE TRIGGER içinde WITH kullanılamaması gibi sınırlamaları vardır.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42230384">Tepkiler</a></h3>
+<ul>
+<li>SQLite&#39;nin özyinelemeli Ortak Tablo İfadeleri (CTE&#39;ler), sorguların kendilerine referans vermesine izin vererek döngüler gibi çalışır, bu da Sudoku bulmacalarını çözmek veya geçiş kapanışlarını hesaplamak gibi karmaşık görevler için kullanışlıdır.</li>
+<li>Özellikle &quot;WITH&quot; ve &quot;WITH RECURSIVE&quot; sözdiziminin ustalığı, bir sorguyu başlatıp yeni sonuçlar üretilmeyene kadar özyinelemeli olarak çalıştıran özyinelemeli CTE&#39;leri etkili bir şekilde kullanmak için esastır.</li>
+<li>Özyinelemeli CTE&#39;leri zor bulanlar için, O&#39;Reilly SQL Cep Kılavuzu gibi kaynaklar ve ilişkisel cebir hakkında sağlam bir anlayış, karmaşık SQL sorgularını basitleştirmede faydalı olabilir.</li>
+</ul>
+<h2><a href="https://timdellinger.substack.com/p/hey-wait-is-employee-performance">Hey, bekle – çalışan performansı Gauss dağılımı gösteriyor mu?</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42236841">Tepkiler</a></h3>
+<ul>
+<li>Makale, çalışan performansının Gauss (normal) dağılımını izlediği varsayımına meydan okuyor ve bu görüşün, şirketlerde modası geçmiş performans yönetimi uygulamalarına yol açabileceğini öne sürüyor.</li>
+<li>Çalışanların en alt %5&#39;ini elemenin eleştirisini yaparak, bireysel performans yerine birleşik verimliliğe odaklanmayı savunur ve performansın, az sayıda çalışanın çıktıya önemli ölçüde daha fazla katkıda bulunduğu bir Pareto dağılımını takip edebileceğini önerir.</li>
+<li>Bu tartışma, performans değerlendirmesi, işe alım uygulamaları ve yönetimin çalışan başarısını etkilemedeki rolü üzerine çeşitli bakış açılarını kapsamaktadır.</li>
+</ul>
+<h2><a href="https://articles.foletta.org/post/2024-01-08-a-day-in-the-life-the-bgp-table/">Bir Gün: Küresel BGP Tablosu</a></h2>
+<ul>
+<li>Makale, küresel BGP (Sınır Geçidi Protokolü) tablosunun günlük dalgalanmalarını inceleyerek, alışılmadık yol öznitelikleri ve dalgalanan yollar gibi kısa vadeli davranışlara odaklanıyor.</li>
+<li>Yazar, bgpsee adlı bir aracı kullanarak BGP mesajlarını analiz eder ve yol güncellemeleri, döngüsel davranışlar ve aşırı AS (Otonom Sistem) yol uzunlukları hakkında içgörüler ortaya çıkarır.</li>
+<li>BGP sisteminin karmaşıklığını ve dayanıklılığını vurgulayan bu keşif, küresel internet yönlendirmesinin karmaşık dinamiklerini vurgularken, cevaplardan çok daha fazla soru ortaya çıkarıyor.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42233565">Tepkiler</a></h3>
+<ul>
+<li>Makale, aşırı BGP dalgalanmasını azaltmak için rota dalgalanması ve rota sönümleme uygulaması gibi konulara odaklanarak küresel Sınır Geçidi Protokolü (BGP) tablosunu ele alıyor.</li>
+<li>Bir kullanıcı, EpicUp 140.99.244.0/23 ön ekinin dalgalanmasını vurgulayarak bunun azaltılması gerektiğini öne sürerken, bir diğeri ise geçmişteki yanlış yapılandırmalar ve gelişmiş yönlendirici yetenekleri nedeniyle rota azaltmanın artık daha az yaygın olduğunu belirtiyor.</li>
+<li>BGP tuhaflıkları, İnternet Servis Sağlayıcılarından (ISP&#39;ler) tarihsel bilgiler ve BGP verilerini analiz etmekle ilgilenenler için kaynaklar, potansiyel projeler için önerilerle birlikte tartışmaya dahil edilmiştir.</li>
+</ul>
+<h2><a href="https://www.cam.ac.uk/research/news/wildlife-monitoring-technologies-used-to-intimidate-and-spy-on-women-study-finds">Kadınları korkutmak ve gözetlemek için kullanılan yaban hayatı izleme teknolojileri</a></h2>
+<ul>
+<li>Cambridge araştırmacıları, Hindistan&#39;da yaban hayatı izleme teknolojilerinin, örneğin kamera tuzakları ve dronların, kadınları gözetlemek için kötüye kullanıldığını keşfetti; bu durum, kadınların ruh sağlığını ve güvenliğini etkiliyor.- Başlangıçta koruma amaçlı tasarlanan bu teknolojilerin, yerel yetkililer tarafından kadınları sindirmek için kullanıldığı ve haklarının ihlal edildiği bildiriliyor.- Çalışma, bu tür teknolojilerin uygulanmasının sosyal etkilerinin dikkatlice değerlendirilmesi gerektiğini vurguluyor.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42232289">Tepkiler</a></h3>
+<ul>
+<li>Yaban hayatı izleme teknolojileri, örneğin kamera tuzakları, Hindistan ormanlarında kadınları korkutmak ve gözetlemek için kötüye kullanılıyor, bu da önemli mahremiyet ve ruh sağlığı endişelerini artırıyor. Bu kötüye kullanım, özellikle mevcut kadın hakları sorunları olan bölgelerde, gözetim ve mahremiyetle ilgili daha geniş küresel sorunları vurguluyor ve yalnızca Hindistan ile sınırlı değil. Bu sorunların ele alınması, mahremiyeti korumak ve tüm bireylerin güvenliğini sağlamak için daha sıkı yasaların uygulanması ve kültürel değişimler gibi karmaşık çözümler gerektiriyor.</li>
+</ul>
+<head>
+  <meta property="og:title" content="RFC 35140: HTTP Bıçaklamama (2023)" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=RFC%2035140%3A%20HTTP%20B%C4%B1%C3%A7aklamama%20(2023)&subheading=25%20Kas%C4%B1m%202024%20Pazartesi%3A%20Hacker%20Haber%20%C3%96zeti" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/tr/2024/11/25</link>
+            <guid isPermaLink="false">2024-11-25T00:00:00.000Z</guid>
+            <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-11-24]]></title>
             <description
@@ -1255,80 +1397,6 @@
             <link>https://hn.cho.sh/tr/2024/11/16</link>
             <guid isPermaLink="false">2024-11-16T00:00:00.000Z</guid>
             <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-11-15]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/11/15&#39;</h2>
-<h1>2024-11-15</h1>
-<h2><a href="https://github.com/BAndysc/AvaloniaVisualBasic6">Visual Basic 6 IDE, C# dilinde yeniden oluşturuldu</a></h2>
-<ul>
-<li>Avalonia Visual Basic 6, Avalonia kullanılarak klasik Visual Basic 6 Entegre Geliştirme Ortamı&#39;nın (IDE) C# ile yeniden oluşturulmuş bir versiyonudur ve eğlenceli, ticari olmayan bir proje olarak tasarlanmıştır. Proje, görsel bir tasarımcı, VB6 proje kaydetme/yükleme uyumluluğu ve sınırlı VB6 dil desteği gibi özellikler içermektedir. Masaüstü sürümünü oluşturmak genellikle .NET 9.0 gerektirir, ancak bazı değişikliklerle .NET 8.0 da kullanılabilir; derleme <code>dotnet build</code> kullanılarak, IDE ve çalışma zamanı için yayınlama ise <code>dotnet publish</code> ile yapılır.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42141587">Tepkiler</a></h3>
-<ul>
-<li>Visual Basic 6 Entegre Geliştirme Ortamı (IDE), C# kullanılarak yeniden oluşturuldu ve GitHub&#39;da erişilebilir hale getirildi, VB6 ile başlayan geliştiriciler arasında nostalji yarattı.</li>
-<li>Proje, çapraz platform bir UI çerçevesi olan Avalonia&#39;yı kullanıyor ve temel VB6 özelliklerini destekliyor, ancak hala devam eden bir çalışma.</li>
-<li>Bu girişim, olumlu geri bildirimler alarak, grafiksel kullanıcı arayüzü (GUI) araç setlerinin evrimi ve VB6&#39;nın günümüz araçlarına kıyasla sadeliği üzerine daha fazla geliştirme ve tartışma ilgisini ateşledi.</li>
-</ul>
-<h2><a href="https://legiscope.com/blog/hidden-productivity-drain-cookie-banners.html">Avrupa&#39;da çerez bildirimlerinin neden olduğu ekonomik ve verimlilik kayıplarının analizi</a></h2>
-<ul>
-<li>Avrupalılar, kullanıcı gizliliğini korumayı amaçlayan AB Direktifi 2002/58&#39;in bir gerekliliği olan çerez onay bildirimleriyle etkileşimde bulunarak her yıl toplamda 575 milyon saat harcıyor. Bu harcanan zamanın ekonomik etkisi önemli olup, yıllık 14.375 milyar €&#39;ya mal olmakta, bu da AB&#39;nin GSYİH&#39;sinin %0,10&#39;una eşdeğer ve 287.500 tam zamanlı işe benzer bir verimlilik kaybını temsil etmektedir. Ekonomik ve verimlilik yüklerini hafifletmek için, özellikle küçük ve orta ölçekli işletmeleri etkileyen direktifin acilen gözden geçirilmesi çağrısı yapılmaktadır.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42141843">Tepkiler</a></h3>
-<ul>
-<li>Avrupa &quot;çerez yasası&quot;, izleme için bilgilendirilmiş onay gerektirir, ancak çerez banner&#39;larının kullanılmasını özel olarak zorunlu kılmaz; şirketler uyum sağlamak için banner&#39;ları tercih eder.</li>
-<li>Yaygın bir sorun, şirketlerin izleme çerezlerini varsayılan olarak ayarlayarak ve net bir reddetme seçeneği sunmayan afişler sağlayarak onayı yanlış bir şekilde uygulamalarıdır, bu da uyumsuzdur.</li>
-<li>Yasanın amacı tüketici haklarını korumaktır, ancak şirketler genellikle kullanıcıları hayal kırıklığına uğratmak için &#39;kötü niyetli uyum&#39; sergilemektedir, bu da daha sıkı uygulama ve potansiyel olarak tarayıcı tabanlı onay ayarlarının çözümler olarak önerilmesine yol açmaktadır.</li>
-</ul>
-<h2><a href="https://www.relativty.com/">Relativty: 200 dolara açık kaynaklı bir VR başlığı</a></h2>
-<ul>
-<li>Relativty, gençler Maxim Perumal ve Gabriel Combe tarafından geliştirilen, tüketici ürünü yerine bir kendin yap projesi olarak tasarlanan, yaklaşık 200 dolara mal olan açık kaynaklı bir sanal gerçeklik (VR) başlığıdır. Başlık, SteamVR oyunlarını destekler ve herhangi bir kamera kullanarak deneysel konum ölçeklendirme özelliğine sahiptir, Atmel SAM3X8E ARM Cortex-M3 işlemciye dayalı bir anakarta sahiptir. Yaratıcılar, bağımsız bir VR başlığı geliştirmek için Unai adında yeni bir şirket kuruyorlar ve şu anda işe alım yapıyorlar, daha fazla bilgi web sitelerinde mevcuttur.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42143269">Tepkiler</a></h3>
-<ul>
-<li>Relativty, Oculus Go gibi eski modellere benzer şekilde 3DoF (üç özgürlük derecesi) izleme özelliğine sahip, 200 dolarlık açık kaynaklı bir VR başlığıdır, ancak daha etkileyici olan 6DoF (altı özgürlük derecesi) izleme özelliğinden yoksundur.- HadesVR, Relativty&#39;den geliştirilen ve 3DoF sistemlerine kıyasla artırılmış bir daldırma ve azaltılmış hareket hastalığı sunan 6DoF açık kaynaklı bir projedir.- Meta&#39;nın Quest başlıklarıyla ilgili gizlilik endişeleri, bazı kullanıcıları alternatifleri düşünmeye yönlendiriyor ve Relativty&#39;nin sınırlamalarına rağmen eğitim projeleri için potansiyel bulunmaktadır.</li>
-</ul>
-<h2><a href="https://techcrunch.com/2024/11/14/new-apple-security-feature-reboots-iphones-after-3-days-researchers-confirm/">Yeni Apple güvenlik özelliği, 3 gün sonra iPhone&#39;ları yeniden başlatıyor, araştırmacılar doğruladı.</a></h2>
-<ul>
-<li>Apple&#39;ın iOS 18&#39;i, iPhone&#39;ların 72 saat boyunca kilitlenmeden kalması durumunda otomatik olarak yeniden başlatılmasını sağlayan &quot;etkinliksizlik yeniden başlatma&quot; özelliğini tanıtıyor ve bu da güvenli şifreleme anahtarlarını güvenli alan yongasında koruyarak güvenliği artırıyor.</li>
-<li>Bu özellik, hırsızlığa ve eski adli bilişim araçlarına karşı veri korumasını artırır, ancak kolluk kuvvetleri için cihazlardan veri çıkarma konusunda zorluklar sunar.</li>
-<li>Magnet Forensics gibi güvenlik araştırmacıları ve şirketler bu özelliği doğruladı ve Apple&#39;ın güvenlik önlemleri ile kolluk kuvvetlerinin veri erişim ihtiyaçları arasındaki devam eden gerilimi vurguladı.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42143265">Tepkiler</a></h3>
-<ul>
-<li>Apple&#39;ın yeni güvenlik özelliği, potansiyel kötü amaçlı yazılımları veya hataları temizleyerek güvenliği sağlamak amacıyla, 72 saatlik hareketsizlikten sonra iPhone&#39;ları otomatik olarak yeniden başlatıyor. Bu özellik, güvenli bir durumu sağlamak için her 24 saatte bir yeniden başlatılan ödeme terminallerinin güvenlik protokollerine benzer. Bazı kullanıcılar olası bağlantı kesintileri konusunda endişelerini dile getirirken, bu özellik genellikle gelişmiş güvenliğe yönelik olumlu bir adım olarak görülüyor ve yeniden başlatma aralığının yapılandırılabilir hale getirilmesi öneriliyor.</li>
-</ul>
-<h2><a href="https://computerhistory.org/blog/in-memoriam-thomas-e-kurtz-1928-2024/">Thomas E. Kurtz öldü</a></h2>
-<ul>
-<li>Thomas E. Kurtz, BASIC programlama dilinin ortak mucidi, 12 Kasım 2024&#39;te vefat etti ve bilişim alanında önemli bir miras bıraktı.</li>
-<li>Kurtz, BASIC&#39;e geniş çapta erişim sağlayarak ve nesiller boyu bilgi işlem ve yazılım geliştirmeyi etkileyerek Dartmouth Zaman Paylaşım Sistemi&#39;nin geliştirilmesinde önemli bir rol oynadı.</li>
-<li>1993 yılında emekli olmadan önce Dartmouth&#39;ta liderlik rolleri üstlendi, BASIC standartlarına katkıda bulundu ve 1994 yılında Bilgisayar Makineleri Derneği (ACM) Üyesi olarak onurlandırıldı.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42141761">Tepkiler</a></h3>
-<ul>
-<li>Thomas E. Kurtz, BASIC programlama dilinin ortak yaratıcısı, vefat etti ve bu durum, birçok kişinin anılarını ve katkılarından dolayı minnettarlıklarını paylaşmasına neden oldu. BASIC, bilgisayar kullanımını demokratikleştirmede önemli bir rol oynadı, programlamayı uzman olmayanlar için erişilebilir hale getirdi ve bir nesil programcıya ilham verdi. Kurtz&#39;un John Kemeny ile birlikte Dartmouth&#39;taki çalışmaları, zaman paylaşımı sistemlerinin ve eğitim amaçlı bilgisayar kullanımının geliştirilmesinde önemliydi ve teknoloji endüstrisi üzerinde kalıcı bir etki bıraktı.</li>
-</ul>
-<h2><a href="https://github.com/epasveer/seer">Seer: Linux için GDB&#39;ye yönelik bir GUI ön yüzü</a></h2>
-<ul>
-<li>Seer, Linux üzerinde GNU Hata Ayıklayıcı (gdb) için grafiksel bir kullanıcı arayüzü (GUI) ön yüzüdür ve kullanıcı deneyimini basit bir arayüzle geliştirmek için tasarlanmıştır. Ernie Pasveer tarafından geliştirilen Seer, Linux, C++17, &quot;mi&quot; yorumlayıcılı gdb, CMake 3.1.0+ ve QT6 gerektirir ve 2.3 sürümünden itibaren Qt5&#39;i artık desteklemez. Ana özellikler arasında kaynak dosya yönetimi, değişken takibi ve kesme noktası yönetimi bulunur ve destek ile detaylı talimatlar GitHub&#39;da veya e-posta yoluyla mevcuttur.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42146338">Tepkiler</a></h3>
-<ul>
-<li>Seer, Linux üzerinde GNU Hata Ayıklayıcı (GDB) için bir grafik kullanıcı arayüzüdür (GUI), ancak kullanıcılar, çalışmayan yazı tipi değişiklikleri ve değişken üzerine gelme hataları gibi sorunlar bildirmektedir.</li>
-<li>Mevcut kusurlarına rağmen, Seer daha da geliştirildiğinde potansiyele sahiptir ve kullanıcılar, sadeliği ve güvenilirliği ile tanınan Gede gibi diğer araçlarla karşılaştırmaktadır.</li>
-<li>Metin, GDB&#39;nin yerleşik metin kullanıcı arayüzü (TUI), Neovim, gdb-dashboard ve DDD gibi çeşitli hata ayıklama tercihlerini vurgulamakta, bazı kullanıcılar karmaşık senaryolar için hata ayıklayıcılar yerine günlük kaydını tercih etmektedir.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Visual Basic 6 IDE, C# dilinde yeniden oluşturuldu" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Visual%20Basic%206%20IDE%2C%20C%23%20dilinde%20yeniden%20olu%C5%9Fturuldu&subheading=15%20Kas%C4%B1m%202024%20Cuma%3A%20Hacker%20Haber%20%C3%96zeti" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/tr/2024/11/15</link>
-            <guid isPermaLink="false">2024-11-15T00:00:00.000Z</guid>
-            <pubDate>Fri, 15 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

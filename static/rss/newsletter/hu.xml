@@ -15,12 +15,154 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 24 Nov 2024 19:07:56 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 25 Nov 2024 19:40:15 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/hu.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Sun, 24 Nov 2024 00:00:00 GMT</pubDate>
+        <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[hu]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-11-25]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/11/25&#39;</h2>
+<h1>2024-11-25</h1>
+<h2><a href="https://www.5snb.club/posts/2023/do-not-stab/">„RFC 35140: HTTP Ne-Szúrj (2023)”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42232040">Reakciók</a></h3>
+<ul>
+<li>„Az RFC 35140 humorosan kritizálja a &quot;Do-Not-Stab&quot; HTTP fejléc elavulását, amelyet egy böngésző alapértelmezett beállítása miatt hagytak el, ami negatívan befolyásolta a kitalált szúrási iparágat.”</li>
+<li>„A „General Assault Control” fejléc bevezetése, amely kifejezett leiratkozást igényel, szatirikusan ábrázolja a felhasználói beleegyezési mechanizmusokat és a felelősség áthelyezését az intézményektől az egyénekre.”</li>
+<li>„A szatíra szélesebb társadalmi kérdéseket érint, beleértve a magánélet védelmét, az adatok nyomon követését, valamint a vállalati érdekekkel szembeni szabályozások érvényesítésének nehézségeit.”</li>
+</ul>
+<h2><a href="https://www.starlink.com/business/direct-to-cell">„Starlink Közvetlenül a Mobilra”</a></h2>
+<ul>
+<li>„A Starlink Direct to Cell a SpaceX új szolgáltatása, amely globális szöveges, hang- és adat-hozzáférést biztosít LTE telefonok számára, biztosítva a kapcsolatot szárazföldön, tavakon és part menti vizeken.”</li>
+<li>„A szolgáltatás 2024-ben szöveges szolgáltatásokkal kezdődik, majd 2025-ben hang-, adat- és IoT (dolgok internete) támogatással folytatódik, anélkül, hogy hardverváltoztatásokra vagy speciális alkalmazásokra lenne szükség.”</li>
+<li>„Ez a fejlemény kiemeli a SpaceX terjeszkedését a telekommunikáció területén, zökkenőmentes kapcsolatot biztosítva további berendezések nélkül.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42230103">Reakciók</a></h3>
+<ul>
+<li>„A Starlink vertikális integrációja és költséghatékony indításai révén vezető szerepet tölt be a műholdas internet iparágban, minimális versennyel szembesülve.”</li>
+<li>„Míg egyesek a Starlink dominanciáját monopolista jellegűnek tekintik, mások úgy vélik, hogy az innováció és a külföldi katonai támogatás elősegítheti a jövőbeli versenyt.”</li>
+<li>„A műholdindítások magas költsége jelentős akadályt jelent, de az újrafelhasználható rakétatechnológia fejlődése megváltoztathatja a versenyképes környezetet.”</li>
+</ul>
+<h2><a href="https://danielmangum.com/posts/this-website-is-hosted-on-bluesky/">„Ez a weboldal a Bluesky-n van hosztolva”</a></h2>
+<ul>
+<li>„Az AT protokoll, amelyet a Bluesky használ, támogatja a személyes adatszerverek (PDS) általi hosztolást, bemutatva annak rugalmasságát a tervezett felhasználásokon túl. - A Bluesky tartalma rekordokba és blobokba van rendezve, ahol a blobok nagyobb adatok, mint például a média, amelyeket fel kell tölteni, mielőtt a rekordokban hivatkoznának rájuk. - A protokoll kiterjeszthetősége lehetővé teszi a kreatív alkalmazásokat, mint például a weboldalak hosztolását, ami potenciálisan új felhasználási esetekhez vezethet a jövőben.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42230392">Reakciók</a></h3>
+<ul>
+<li>„A Bluesky-n hosztolt weboldal megkezdte a vitákat annak lehetséges felhasználásairól, beleértve az RSS-hírcsatornák hosztolását és az olyan adatok tárolását, mint a DOOM WAD-ok, valamint a tartalom moderálásával és jogi kérdésekkel kapcsolatos aggodalmakat.”</li>
+<li>„Összehasonlításokat végeznek a múltbeli platformokkal, mint például a MySpace, kiemelve az AT Protocol nyilvános jellegét és a decentralizált adat tárolásának lehetőségét.”</li>
+<li>„A felhasználók megosztottak: egyesek szkeptikusak a Bluesky moderációs képességeivel kapcsolatban, míg mások ígéretes új platformként tekintenek rá.”</li>
+</ul>
+<h2><a href="https://www.benji.dog/articles/git-config/">„Hogyan konfigurálom a Git identitásaimat”</a></h2>
+<ul>
+<li>„A bejegyzés a Git identitások konfigurálásáról szól az <code>includeIf</code> használatával feltételes konfigurációkhoz, lehetővé téve a különböző beállításokat könyvtárútvonalak vagy távoli URL-ek alapján.”</li>
+<li>„A szerző megoszt egy módszert arra, hogyan kezelhetünk több Git identitást és SSH kulcsot azáltal, hogy különböző <code>Host</code> értékeket használunk a <code>~/.ssh/config</code> fájlban, és a Git konfigurációkat az <code>insteadOf</code> segítségével állítjuk be.”</li>
+<li>„A bejegyzés egy új megközelítést emel ki, amely a <code>hasconfig:remote.*.url:!</code> használatával feltételes Git konfigurációkat tesz lehetővé a távoli URL-ek alapján, növelve a rugalmasságot a Git identitások kezelésében.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42233524">Reakciók</a></h3>
+<ul>
+<li>„A <code>includeIf</code> utasítás a Git konfigurációban lehetővé teszi a különböző beállítások automatikus alkalmazását a tároló URL-je alapján, megkönnyítve ezzel az identitáskezelést.”</li>
+<li>„Ez a módszer lehetővé teszi a felhasználók számára, hogy megadjanak konkrét felhasználói adatokat és SSH kulcsokat a munkával kapcsolatos tárolókhoz, megkönnyítve ezzel a zökkenőmentes váltást a személyes és a munkahelyi projektek között.”</li>
+<li>„A biztonság és a magánélet fenntartása tovább fokozható azzal, ha külön gépeket vagy felhasználói fiókokat használunk a munka és a személyes projektek számára.”</li>
+</ul>
+<h2><a href="https://sqlitestudio.pl/">SQLiteStudio: SQLite adatbázisok létrehozása, szerkesztése, böngészése</a></h2>
+<ul>
+<li>„Az SQLiteStudio kiadta a 3.4.6-os verziót, amely megoldja a 3.4.5-ös verzióban felmerült „fekete SQL kódsor” problémát, valamint két további problémát is orvosol.”</li>
+<li>„Ez a szoftver nyílt forráskódú, többplatformos és hordozható, ingyenesen elérhető a GPL licenc alatt, és kompatibilis a Windows, Linux és MacOS X rendszerekkel.”</li>
+<li>„Különösen figyelemre méltó, hogy az SQLiteStudio nem igényel telepítést, ami kényelmessé teszi a felhasználók számára az SQLite adatbázisok létrehozását, szerkesztését és böngészését.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42232000">Reakciók</a></h3>
+<ul>
+<li>„Az SQLiteStudio egy felhasználóbarát eszköz, amelyet SQLite adatbázisok létrehozására, szerkesztésére és böngészésére terveztek, és dicsérik hordozhatóságáért és erőteljes funkcióiért.”</li>
+<li>„Tartalmazza az Entitás-Kapcsolat Diagramok (ERD) támogatását, amely segít a bonyolult adatbázis-feladatok kezelésében, és vizuális visszajelzést nyújt, ami mind a szakemberek, mind a diákok számára előnyös.”</li>
+<li>„Bár néhány felhasználó platformspecifikus problémákkal találkozott, az SQLiteStudio-t általában megbízható és hatékony SQLite kezelőeszközként tartják számon.”</li>
+</ul>
+<h2><a href="https://herecomesthemoon.net/2024/11/two-factions-of-cpp/">„A C++ két frakciója”</a></h2>
+<ul>
+<li>„A C++ közösség megosztott a modern technológiai cégek, amelyek fejlett funkciókat keresnek, és a régi rendszerekre támaszkodó felhasználók között, ami feszültséget teremt a nyelv fejlődésében. A C++ Evolution Working Group visszafelé kompatibilitásra összpontosító megközelítése ütközik a modern funkciók és biztonság iránti igénnyel, ami elégedetlenséget okoz néhány nagy technológiai szereplő körében. Ezekre a kihívásokra válaszul az amerikai kormány és olyan cégek, mint a Google, alternatív nyelveket, például a Rustot vizsgálják vagy fejlesztik, amelyek a biztonságot és a modern képességeket helyezik előtérbe a visszafelé kompatibilitással szemben.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42231489">Reakciók</a></h3>
+<ul>
+<li>„A C++ közösség megosztott a régi kódbázisok fenntartása és a modern, biztonságosabb nyelvi funkciók elfogadása között, különös tekintettel a refaktorálás kihívásaira automatizált tesztelés nélkül.”</li>
+<li>„A cikk kiemeli a Google jelentős befolyását a C++ szabványbizottságban, valamint a nyelv fejlesztésének nehézségeit anélkül, hogy megzavarnák a meglévő kódot.”</li>
+<li>„Hasonló frakcionális megosztottságok és a nyelvfejlődés összetettségei figyelhetők meg más programozási nyelvekben is, mint például a Python és a Rust.”</li>
+</ul>
+<h2><a href="https://mashable.com/article/bluesky-gaining-ground-on-competitor-meta-threads">„A Bluesky azon a ponton van, hogy minden lényeges szempontból megelőzze a Threads-t.”</a></h2>
+<ul>
+<li>„A Bluesky, egy decentralizált platform, amelyet kezdetben Jack Dorsey-hoz kapcsoltak, egyre nagyobb népszerűségnek örvend, és már 3,5 millió napi aktív felhasználóval rendelkezik, ezzel közelítve a Meta Threads-hez.”</li>
+<li>„A platform 300%-os felhasználói növekedést tapasztalt a november 5-i választások óta, mivel újságírók és akadémikusok Elon Musk X-jéről migrálnak, nyitottabb nyilvános párbeszédet keresve.”</li>
+<li>„A Bluesky növekedését olyan problémák nehezítik, mint a leállások és a csalások, de vonzerejét erősíti, hogy a Meta vezérigazgatója, Mark Zuckerberg úgy döntött, hogy korlátozza a politikai tartalmakat a Threads platformon.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42231148">Reakciók</a></h3>
+<ul>
+<li>„A Bluesky olyan funkciókkal vonzza a felhasználókat, mint az egyedi címkék, az algoritmus választás és a kronológiai hírfolyam, ezáltal egy felhasználó-központúbb élményt kínál a Threads-hez képest.”</li>
+<li>„Ezt potenciális alternatívaként tekintik az X (korábban Twitter) helyett, mivel a felhasználói választásra és a csökkentett algoritmikus beavatkozásra összpontosít.”</li>
+<li>„Annak ellenére, hogy egyre népszerűbb, továbbra is aggodalmak merülnek fel a Bluesky fenntarthatóságával és bevételszerzési lehetőségeivel kapcsolatban, mivel még mindig a fejlesztés korai szakaszában van a már megalapozottabb platformokhoz képest.”</li>
+</ul>
+<h2><a href="https://chipsandcheese.com/p/pushing-amds-infinity-fabric-to-its">„Az AMD Infinity Fabric határainak feszegetése”</a></h2>
+<ul>
+<li>„Az AMD Infinity Fabric, amely a Zen architektúra része, összekapcsolja a CPU magokat és kezeli a memória késleltetését, a Zen 5 pedig javított sávszélesség-kezelést mutat a gyorsabb DDR5 és a jobb forgalomkezelés miatt.”</li>
+<li>„A Zen 2 betekintést nyújt a Core Complex (CCX) és a Core Complex Die (CCD) szűk keresztmetszeteibe, bár ez egy régebbi architektúra.”</li>
+<li>„Míg a tipikus alkalmazások, mint például a játékok, nem terhelik meg a sávszélességet, az igényes munkaterhelések, mint például a RawTherapee, felfedhetik a késleltetéskezelés erősségeit és korlátait, különösen a Zen 4 esetében nagy terhelés alatt.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42230355">Reakciók</a></h3>
+<ul>
+<li>„A vita az AMD Infinity Fabric és a memória sávszélesség korlátai körül forog, összehasonlítva az Apple Silicon képességeivel.”</li>
+<li>„A felhasználók vitatják az olyan állítások megvalósíthatóságát, mint például az Apple M1 Max 400 GB/s sávszélességének elérése, megjegyezve a maghasználat különbségeit az AMD Zen 3 és az Apple architektúrája között.”</li>
+<li>„A beszélgetés kiemeli a Nem Egységes Memória Hozzáférés (NUMA) konfiguráció jelentőségét és a szoftver optimalizálásának bonyolultságát a feltörekvő CPU architektúrákhoz.”</li>
+</ul>
+<h2><a href="https://www.sqlite.org/lang_with.html#outlandish_recursive_query_examples">„SQLite: Szokatlan rekurzív lekérdezési példák”</a></h2>
+<ul>
+<li>„A közös táblakifejezések (CTE-k) az SQL-ben ideiglenes nézetekként szolgálnak egyetlen utasításhoz, két típussal: hagyományos és rekurzív, amelyek egyszerűsítik az összetett lekérdezéseket, illetve kezelik a hierarchikus adatokat.”</li>
+<li>„A CTE-ket egy WITH záradékkal hozzák létre, és egyetlen utasításban több CTE-t is tartalmazhatnak, a rekurzív CTE-k pedig speciális szabályokat igényelnek, mint például a UNION vagy UNION ALL operátorok használata.”</li>
+<li>„Az anyagiasítási tippek, amelyek a SQLite 3.35.0 és újabb verzióiban érhetők el, útmutatást adnak a lekérdezéstervezőnek a CTE megvalósításához, korlátozásokkal, mint például a WITH használatának képtelensége a CREATE TRIGGER-ben.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42230384">Reakciók</a></h3>
+<ul>
+<li>„Az SQLite rekurzív közös táblakifejezései (CTE-k) úgy működnek, mint a ciklusok, lehetővé téve, hogy a lekérdezések önmagukra hivatkozzanak, ami hasznos összetett feladatokhoz, például Sudoku rejtvények megoldásához vagy tranzitív lezárások kiszámításához.”</li>
+<li>„A szintaxis elsajátítása, különösen a &quot;WITH&quot; és a &quot;WITH RECURSIVE&quot; használata, elengedhetetlen a rekurzív CTE-k hatékony alkalmazásához, amelyek úgy működnek, hogy egy lekérdezést indítanak el, majd rekurzívan hajtják végre, amíg nem keletkeznek új eredmények.”</li>
+<li>„Azok számára, akik nehéznek találják a rekurzív CTE-ket, az O&#39;Reilly SQL Pocket Guide-hoz hasonló források és a relációs algebra alapos megértése hasznos lehet a bonyolult SQL lekérdezések egyszerűsítésében.”</li>
+</ul>
+<h2><a href="https://timdellinger.substack.com/p/hey-wait-is-employee-performance">„Hé, várj – a munkavállalói teljesítmény Gauss-eloszlású?”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42236841">Reakciók</a></h3>
+<ul>
+<li>„A cikk megkérdőjelezi azt a feltételezést, hogy az alkalmazottak teljesítménye Gauss-eloszlást (normál eloszlást) követ, és azt sugallja, hogy ez a nézet elavult teljesítménymenedzsment gyakorlatokhoz vezethet a vállalatoknál.”</li>
+<li>„Kritizálja azt a gyakorlatot, hogy az alkalmazottak alsó 5%-át leépítik, és a kombinált termelékenységre való összpontosítást javasolja az egyéni teljesítmény helyett. Azt is felveti, hogy a teljesítmény esetleg Pareto-eloszlást követhet, ahol néhány alkalmazott jelentősen többel járul hozzá a termeléshez.”</li>
+<li>„A vita különböző nézőpontokat ölel fel a teljesítményértékelésről, a felvételi gyakorlatokról és a vezetőség szerepéről az alkalmazottak sikerének befolyásolásában.”</li>
+</ul>
+<h2><a href="https://articles.foletta.org/post/2024-01-08-a-day-in-the-life-the-bgp-table/">„Egy nap az életben: A globális BGP tábla”</a></h2>
+<ul>
+<li>„A cikk a globális BGP (Border Gateway Protocol) táblázat napi ingadozásait vizsgálja, különös tekintettel a rövid távú viselkedésekre, mint például a szokatlan útvonal attribútumok és a flapping útvonalak.”</li>
+<li>„Egy bgpsee nevű eszközt használva a szerző elemzi a BGP üzeneteket, hogy betekintést nyerjen az útvonalfrissítésekbe, ciklikus viselkedésekbe és extrém AS (Autonóm Rendszer) útvonalhosszakba.”</li>
+<li>„A feltárás kiemeli a BGP rendszer összetettségét és ellenálló képességét, hangsúlyozva a globális internetes útválasztás bonyolult dinamikáját, annak ellenére, hogy több kérdést vet fel, mint amennyit megválaszol.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42233565">Reakciók</a></h3>
+<ul>
+<li>„A cikk a globális Border Gateway Protocol (BGP) táblázattal foglalkozik, különös tekintettel az útvonal-ingadozás problémáira és az útvonalcsillapítás gyakorlatára, amelyet a túlzott BGP változások mérséklésére alkalmaznak.”</li>
+<li>„Egy felhasználó kiemeli az EpicUp 140.99.244.0/23 prefix csapkodását, javasolva, hogy csillapítani kellene, míg egy másik megjegyzi, hogy az útvonalcsillapítás manapság kevésbé gyakori a korábbi hibás konfigurációk és a fejlettebb router képességek miatt.”</li>
+<li>„A megbeszélés tartalmazza a BGP furcsaságait, történelmi betekintéseket az internetszolgáltatóktól (ISP-k), valamint forrásokat azok számára, akik érdeklődnek a BGP adatok elemzése iránt, javaslatokkal lehetséges projektekhez.”</li>
+</ul>
+<h2><a href="https://www.cam.ac.uk/research/news/wildlife-monitoring-technologies-used-to-intimidate-and-spy-on-women-study-finds">„Vadvilág megfigyelési technológiák, amelyeket nők megfélemlítésére és megfigyelésére használnak”</a></h2>
+<ul>
+<li>„A Cambridge-i kutatók felfedezték, hogy a vadvilág megfigyelésére szolgáló technológiákat, mint például a kameracsapdákat és drónokat, Indiában visszaélésre használják a nők megfigyelésére, ami hatással van mentális egészségükre és biztonságukra. Ezeket a technológiákat eredetileg természetvédelmi célokra szánták, de a jelentések szerint a helyi hatóságok a nőket megfélemlítésére használják, megsértve ezzel jogaikat. A tanulmány hangsúlyozza, hogy alaposan meg kell fontolni az ilyen technológiák alkalmazásának társadalmi hatásait.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42232289">Reakciók</a></h3>
+<ul>
+<li>„A vadon élő állatok megfigyelésére szolgáló technológiákat, mint például a kameracsapdákat, indiai erdőkben visszaélésre használják, hogy megfélemlítsék és megfigyeljék a nőket, ami jelentős adatvédelmi és mentális egészségügyi aggályokat vet fel. Ez a visszaélés rámutat a megfigyelés és az adatvédelem globális problémáira, különösen olyan régiókban, ahol már meglévő női jogi kihívások vannak, és nem korlátozódik kizárólag Indiára. E problémák kezelése összetett megoldásokat igényel, beleértve szigorúbb törvények bevezetését és kulturális változásokat az adatvédelem védelme és minden egyén biztonságának biztosítása érdekében.”</li>
+</ul>
+<head>
+  <meta property="og:title" content="„RFC 35140: HTTP Ne-Szúrj (2023)”" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9ERFC%2035140%3A%20HTTP%20Ne-Sz%C3%BArj%20(2023)%E2%80%9D&subheading=2024.%20november%2025.%2C%20h%C3%A9tf%C5%91%3A%20Hacker%20News%20%C3%96sszefoglal%C3%B3" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/hu/2024/11/25</link>
+            <guid isPermaLink="false">2024-11-25T00:00:00.000Z</guid>
+            <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-11-24]]></title>
             <description
@@ -1255,80 +1397,6 @@
             <link>https://hn.cho.sh/hu/2024/11/16</link>
             <guid isPermaLink="false">2024-11-16T00:00:00.000Z</guid>
             <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-11-15]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/11/15&#39;</h2>
-<h1>2024-11-15</h1>
-<h2><a href="https://github.com/BAndysc/AvaloniaVisualBasic6">„Visual Basic 6 IDE újraalkotva C#-ban”</a></h2>
-<ul>
-<li>„Az Avalonia Visual Basic 6 egy C# újraalkotása a klasszikus Visual Basic 6 Integrált Fejlesztői Környezetnek (IDE) Avalonia használatával, amely szórakoztató, nem kereskedelmi projektként készült. A projekt olyan funkciókat tartalmaz, mint a vizuális tervező, a VB6 projekt mentésének/betöltésének kompatibilitása, és korlátozott támogatás a VB6 nyelvhez. Az asztali verzió építése általában .NET 9.0-t igényel, de .NET 8.0 is használható módosításokkal; a fordítás <code>dotnet build</code> használatával történik, a közzététel pedig <code>dotnet publish</code> segítségével mind az IDE, mind a futtatókörnyezet esetében.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42141587">Reakciók</a></h3>
-<ul>
-<li>„A Visual Basic 6 integrált fejlesztői környezetet (IDE) újraalkották C# nyelven, és elérhető a GitHubon, nosztalgiát keltve azokban a fejlesztőkben, akik a VB6-tal kezdték.”</li>
-<li>„A projekt az Avalonia-t, egy platformfüggetlen UI keretrendszert alkalmaz, és támogatja az alapvető VB6 funkciókat, bár még mindig fejlesztés alatt áll.”</li>
-<li>„A kezdeményezés pozitív visszajelzéseket kapott, ami további fejlesztések iránti érdeklődést váltott ki, valamint vitákat indított a grafikus felhasználói felület (GUI) eszközkészletek fejlődéséről és a VB6 egyszerűségéről a mai eszközökhöz képest.”</li>
-</ul>
-<h2><a href="https://legiscope.com/blog/hidden-productivity-drain-cookie-banners.html">„Az Európában a süti bannerek által okozott gazdasági és termelékenységi veszteségek elemzése”</a></h2>
-<ul>
-<li>„Az európaiak évente összesen 575 millió órát töltenek a süti-hozzájárulási bannerekkel való interakcióval, ami az EU 2002/58-as irányelvének követelménye, amely a felhasználói adatvédelem védelmét célozza. Ennek az időráfordításnak a gazdasági hatása jelentős, évente 14,375 milliárd euróba kerül, ami az EU GDP-jének 0,10%-ának felel meg, és a termelékenység csökkenését jelenti, ami 287 500 teljes munkaidős állásnak felel meg. Sürgős felhívás van az irányelv felülvizsgálatára, hogy enyhítsék a gazdasági és termelékenységi terheket, különösen a kis- és középvállalkozásokat érintően.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42141843">Reakciók</a></h3>
-<ul>
-<li>„Az európai „süti törvény” megköveteli a tájékozott beleegyezést a nyomon követéshez, de nem írja elő kifejezetten a süti bannerek használatát; a vállalatok a bannerek alkalmazását választják a megfelelés érdekében.”</li>
-<li>„Egy gyakori probléma, hogy a vállalatok helytelenül valósítják meg a hozzájárulást azáltal, hogy alapértelmezés szerint nyomkövető sütiket állítanak be, és olyan bannereket biztosítanak, amelyek nem tartalmaznak egyértelmű elutasítási lehetőséget, ami nem felel meg az előírásoknak.”</li>
-<li>„A törvény célja a fogyasztói jogok védelme, de a vállalatok gyakran „rosszindulatú megfeleléssel” próbálják megnehezíteni a felhasználók dolgát, ami szigorúbb végrehajtást és potenciális böngészőalapú beleegyezési beállításokat javasol megoldásként.”</li>
-</ul>
-<h2><a href="https://www.relativty.com/">„Relativty: Egy nyílt forráskódú VR headset 200 dollárért”</a></h2>
-<ul>
-<li>„A Relativty egy nyílt forráskódú virtuális valóság (VR) headset, amelyet Maxim Perumal és Gabriel Combe tinédzserek fejlesztettek ki, és inkább egy barkácsprojektként készült, mint fogyasztói termékként, körülbelül 200 dolláros költséggel. A headset támogatja a SteamVR játékokat, és kísérleti pozicionális méretezést kínál bármilyen kamerával, az Atmel SAM3X8E ARM Cortex-M3 processzoron alapuló alaplappal. Az alkotók egy új céget, az Unai-t indítják el, hogy egy önálló VR headsetet fejlesszenek, és jelenleg toboroznak, további információk a weboldalukon érhetők el.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42143269">Reakciók</a></h3>
-<ul>
-<li>„A Relativty egy 200 dolláros nyílt forráskódú VR headset, amely 3DoF (három szabadságfok) követéssel rendelkezik, hasonlóan a régebbi modellekhez, mint például az Oculus Go, de hiányzik belőle a még inkább magával ragadó 6DoF (hat szabadságfok) követés. A HadesVR egy 6DoF nyílt forráskódú projekt, amelyet a Relativty-ből fejlesztettek ki, és fokozottabb elmerülést és csökkentett mozgásbetegséget kínál a 3DoF rendszerekhez képest. A Meta Quest headsetekkel kapcsolatos adatvédelmi aggályok miatt néhány felhasználó alternatívák után kutat, és van lehetőség oktatási projektekre a Relativty használatával annak korlátai ellenére is.”</li>
-</ul>
-<h2><a href="https://techcrunch.com/2024/11/14/new-apple-security-feature-reboots-iphones-after-3-days-researchers-confirm/">„Az új Apple biztonsági funkció 3 nap után újraindítja az iPhone-okat, erősítik meg a kutatók”</a></h2>
-<ul>
-<li>„Az Apple iOS 18 bevezeti a „tétlenségi újraindítás” funkciót, amely automatikusan újraindítja az iPhone-okat, ha 72 órán keresztül feloldva maradnak, ezáltal növelve a biztonságot azáltal, hogy az enkódolási kulcsokat a biztonságos enklávé chipben védi.”</li>
-<li>„Ez a funkció növeli az adatvédelmet a lopás és az elavult kriminalisztikai eszközök ellen, de kihívásokat jelent a bűnüldöző szervek számára az eszközökből történő adatkinyerés során.”</li>
-<li>„Biztonsági kutatók és olyan cégek, mint a Magnet Forensics, megerősítették a funkciót, kiemelve az Apple biztonsági intézkedései és a bűnüldöző szervek adat-hozzáférési igényei közötti folyamatos feszültséget.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42143265">Reakciók</a></h3>
-<ul>
-<li>„Az Apple új biztonsági funkciója automatikusan újraindítja az iPhone-okat 72 óra inaktivitás után, azzal a céllal, hogy fenntartsa a biztonságot az esetleges rosszindulatú szoftverek vagy hibák eltávolításával. Ez a funkció hasonló a fizetési terminálok biztonsági protokolljaihoz, amelyek 24 óránként újraindulnak, hogy biztosítsák a biztonságos állapotot. Bár néhány felhasználó aggódik a lehetséges kapcsolati zavarok miatt, a funkciót általában pozitív lépésnek tekintik a fokozott biztonság felé, azzal a javaslattal, hogy az újraindítási intervallum legyen konfigurálható.”</li>
-</ul>
-<h2><a href="https://computerhistory.org/blog/in-memoriam-thomas-e-kurtz-1928-2024/">„Thomas E. Kurtz meghalt”</a></h2>
-<ul>
-<li>„Thomas E. Kurtz, a BASIC programozási nyelv társfeltalálója, 2024. november 12-én elhunyt, jelentős örökséget hagyva maga után a számítástechnika terén.”</li>
-<li>„Kurtz kulcsszerepet játszott a Dartmouth Timesharing System kifejlesztésében, amely lehetővé tette a BASIC széles körű hozzáférését, és generációkra hatott a számítástechnika és a szoftverfejlesztés terén.”</li>
-<li>„Vezető szerepeket töltött be a Dartmouthnál, hozzájárult a BASIC szabványokhoz, 1993-ban nyugdíjba vonult, és 1994-ben az Association for Computing Machinery (ACM) tagjaként tüntették ki.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42141761">Reakciók</a></h3>
-<ul>
-<li>„Thomas E. Kurtz, a BASIC programozási nyelv társalapítója, elhunyt, ami sokakat arra késztetett, hogy megosszák emlékeiket és hálájukat az ő hozzájárulásaiért. - A BASIC kulcsszerepet játszott a számítástechnika demokratizálásában, a programozást elérhetővé téve a nem szakértők számára, és inspirálva egy programozói generációt. - Kurtz munkája a Dartmouth-on, John Kemeny mellett, jelentős volt az időmegosztó rendszerek és az oktatási számítástechnika fejlesztésében, maradandó hatást hagyva a technológiai iparra.”</li>
-</ul>
-<h2><a href="https://github.com/epasveer/seer">„Seer: Egy GUI felület a GDB-hez Linuxra”</a></h2>
-<ul>
-<li>„A Seer egy grafikus felhasználói felület (GUI) frontend a GNU Debugger (gdb) számára Linuxon, amelyet a felhasználói élmény javítására terveztek egy egyszerű felülettel. - Ernie Pasveer által fejlesztett Seer Linuxot, C++17-et, gdb-t &quot;mi&quot; tolmácsolóval, CMake 3.1.0+-t és QT6-ot igényel, és a 2.3-as verziótól kezdve már nem támogatja a Qt5-öt. - Főbb jellemzői közé tartozik a forrásfájl-kezelés, a változók nyomon követése és a töréspontok kezelése, támogatással és részletes útmutatásokkal elérhető a GitHubon vagy e-mailben.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42146338">Reakciók</a></h3>
-<ul>
-<li>„A Seer egy grafikus felhasználói felület (GUI) a GNU Debugger (GDB) számára Linuxon, de a felhasználók olyan problémákról számolnak be, mint a nem működő betűtípus-változtatások és a változók fölé húzásakor jelentkező hibák.”</li>
-<li>„Annak ellenére, hogy jelenleg vannak hibái, a Seer potenciállal rendelkezik, ha továbbfejlesztik, a felhasználók pedig más eszközökhöz, például a Gede-hez hasonlítják, amelyet egyszerűsége és megbízhatósága miatt említenek.”</li>
-<li>„A megbeszélések különböző hibakeresési preferenciákat emelnek ki, beleértve a GDB beépített szöveges felhasználói felületét (TUI), a Neovim-et, a gdb-dashboard-ot és a DDD-t, miközben néhány felhasználó a naplózást részesíti előnyben a hibakeresők helyett összetett helyzetekben.”</li>
-</ul>
-<head>
-  <meta property="og:title" content="„Visual Basic 6 IDE újraalkotva C#-ban”" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EVisual%20Basic%206%20IDE%20%C3%BAjraalkotva%20C%23-ban%E2%80%9D&subheading=2024.%20november%2015.%2C%20p%C3%A9ntek%3A%20Hacker%20News%20%C3%96sszefoglal%C3%B3" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/hu/2024/11/15</link>
-            <guid isPermaLink="false">2024-11-15T00:00:00.000Z</guid>
-            <pubDate>Fri, 15 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

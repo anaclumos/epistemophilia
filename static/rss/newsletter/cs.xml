@@ -15,12 +15,154 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 24 Nov 2024 19:07:56 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 25 Nov 2024 19:40:14 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/cs.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Sun, 24 Nov 2024 00:00:00 GMT</pubDate>
+        <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[cs]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-11-25]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/11/25&#39;</h2>
+<h1>2024-11-25</h1>
+<h2><a href="https://www.5snb.club/posts/2023/do-not-stab/">„RFC 35140: HTTP Do-Not-Stab (2023)“</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42232040">Reakce</a></h3>
+<ul>
+<li>„RFC 35140 humorně kritizuje zrušení HTTP hlavičky „Do-Not-Stab“, která byla opuštěna poté, co výchozí nastavení prohlížeče negativně ovlivnilo fiktivní průmysl bodání.“</li>
+<li>„Zavedení hlavičky „Obecná kontrola útoku“, která vyžaduje explicitní odhlášení, satirizuje mechanismy souhlasu uživatelů a přesun odpovědnosti z institucí na jednotlivce.“</li>
+<li>„Satira se zabývá širšími společenskými problémy, včetně soukromí, sledování dat a obtížemi při prosazování regulací proti zájmům korporací.“</li>
+</ul>
+<h2><a href="https://www.starlink.com/business/direct-to-cell">„Starlink Direct to Cell“</a></h2>
+<ul>
+<li>„Starlink Direct to Cell je nová služba od SpaceX, která nabízí globální přístup k textovým zprávám, hlasovým hovorům a datům pro LTE telefony, zajišťující konektivitu na pevnině, jezerech a pobřežních vodách.“</li>
+<li>„Služba začne v roce 2024 s textovými službami, následovat bude podpora hlasu, dat a IoT (Internet věcí) v roce 2025, a to bez nutnosti změn hardwaru nebo speciálních aplikací.“</li>
+<li>„Tento vývoj zdůrazňuje expanzi společnosti SpaceX do oblasti telekomunikací, poskytující bezproblémové připojení bez nutnosti dalšího vybavení.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42230103">Reakce</a></h3>
+<ul>
+<li>„Vertikální integrace a nákladově efektivní starty Starlinku jej staví do pozice vedoucí síly v odvětví satelitního internetu, čelící minimální konkurenci.“</li>
+<li>„Zatímco někteří považují dominanci Starlinku za monopolistickou, jiní věří, že inovace a zahraniční vojenská podpora by mohly podpořit budoucí konkurenci.“</li>
+<li>„Vysoké náklady na vypouštění satelitů představují hlavní překážku, ale pokroky v technologii znovupoužitelných raket by mohly změnit konkurenční prostředí.“</li>
+</ul>
+<h2><a href="https://danielmangum.com/posts/this-website-is-hosted-on-bluesky/">„Tato webová stránka je hostována na Bluesky“</a></h2>
+<ul>
+<li>„Protokol AT, který používá Bluesky, podporuje hosting prostřednictvím osobních datových serverů (PDS), což ukazuje jeho flexibilitu nad rámec zamýšlených použití. Obsah na Bluesky je organizován do záznamů a blobů, přičemž bloby představují větší data jako média, která musí být nahrána předtím, než jsou odkazována v záznamech. Rozšiřitelnost protokolu umožňuje kreativní aplikace, jako je hosting webových stránek, což může v budoucnu vést k novým způsobům využití.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42230392">Reakce</a></h3>
+<ul>
+<li>„Webová stránka hostovaná na Bluesky zahájila diskuse o svých potenciálních využitích, včetně hostování RSS kanálů a ukládání dat jako DOOM WADs, stejně jako obavy ohledně moderování obsahu a právních otázek.“</li>
+<li>„Srovnání se provádějí s minulými platformami jako MySpace, což zdůrazňuje veřejnou povahu AT protokolu a jeho potenciál pro decentralizované ukládání dat.“</li>
+<li>„Uživatelé jsou rozděleni, někteří jsou skeptičtí ohledně moderovacích schopností Bluesky, zatímco jiní jej považují za slibnou novou platformu.“</li>
+</ul>
+<h2><a href="https://www.benji.dog/articles/git-config/">„Jak konfiguruji své Git identity“</a></h2>
+<ul>
+<li>„Příspěvek se zabývá konfigurací identit v Gitu pomocí <code>includeIf</code> pro podmíněné konfigurace, což umožňuje různé nastavení na základě cest k adresářům nebo vzdálených URL.“</li>
+<li>„Autor sdílí metodu, jak spravovat více identit Git a SSH klíčů pomocí různých hodnot <code>Host</code> v <code>~/.ssh/config</code> a úpravou konfigurací Git pomocí <code>insteadOf</code>.“</li>
+<li>„Příspěvek zdůrazňuje nový přístup využívající <code>hasconfig:remote.*.url:!</code> pro podmíněné konfigurace Git na základě vzdálených URL, což zvyšuje flexibilitu při správě identit Git.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42233524">Reakce</a></h3>
+<ul>
+<li>„Direktiva <code>includeIf</code> v konfiguraci Gitu umožňuje automatické použití různých nastavení na základě URL úložiště, což zjednodušuje správu identity.“</li>
+<li>„Tato metoda umožňuje uživatelům nastavit specifické uživatelské údaje a SSH klíče pro pracovní repozitáře, což usnadňuje plynulé přepínání mezi osobními a pracovními projekty.“</li>
+<li>„Zachování bezpečnosti a soukromí lze dále zlepšit používáním samostatných zařízení nebo uživatelských účtů pro pracovní a osobní projekty.“</li>
+</ul>
+<h2><a href="https://sqlitestudio.pl/">„SQLiteStudio: Vytvářejte, upravujte a procházejte SQLite databáze“</a></h2>
+<ul>
+<li>„SQLiteStudio vydalo verzi 3.4.6, která řeší problém s „černou řádkou SQL kódu“ z předchozí verze 3.4.5 a opravuje další dvě chyby.“</li>
+<li>„Tento software je open-source, multiplatformní a přenosný, dostupný zdarma pod licencí GPL a kompatibilní s Windows, Linuxem a MacOS X.“</li>
+<li>„Pozoruhodně, SQLiteStudio nevyžaduje žádnou instalaci, což uživatelům usnadňuje vytváření, úpravy a prohlížení SQLite databází.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42232000">Reakce</a></h3>
+<ul>
+<li>„SQLiteStudio je uživatelsky přívětivý nástroj navržený pro vytváření, úpravy a prohlížení SQLite databází, oceňovaný pro svou přenosnost a silné funkce.“</li>
+<li>„Zahrnuje podporu pro diagramy entitně-relačního modelu (ERD), což pomáhá při řešení složitých úkolů s databázemi a nabízí vizuální zpětnou vazbu, což je přínosné jak pro profesionály, tak pro studenty.“</li>
+<li>„Ačkoli někteří uživatelé narazili na problémy specifické pro platformu, SQLiteStudio je obecně považován za spolehlivý a efektivní nástroj pro správu SQLite.“</li>
+</ul>
+<h2><a href="https://herecomesthemoon.net/2024/11/two-factions-of-cpp/">„Dvě frakce C++“</a></h2>
+<ul>
+<li>„Komunita C++ je rozdělena mezi moderní technologické společnosti, které hledají pokročilé funkce, a uživatele starších systémů, kteří se spoléhají na zastaralé systémy, což vytváří napětí ve vývoji jazyka. Zaměření pracovní skupiny pro evoluci C++ na zpětnou kompatibilitu je v rozporu s požadavkem na moderní funkce a bezpečnost, což vede k nespokojenosti mezi některými významnými technologickými hráči. V reakci na tyto výzvy zkoumá americká vláda a společnosti jako Google alternativní jazyky, jako je Rust, které upřednostňují bezpečnost a moderní schopnosti před zpětnou kompatibilitou.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42231489">Reakce</a></h3>
+<ul>
+<li>„Komunita C++ je rozdělena mezi udržování starších kódových základen a přijímání moderních, bezpečnějších jazykových funkcí, přičemž se zaměřuje na výzvy spojené s refaktoringem bez automatizovaného testování.“</li>
+<li>„Článek zdůrazňuje významný vliv společnosti Google v komisi pro standardy C++ a obtížnost vývoje jazyka, aniž by došlo k narušení stávajícího kódu.“</li>
+<li>„Podobné frakční rozdíly a složitosti ve vývoji jazyka jsou zaznamenány i v jiných programovacích jazycích, jako jsou Python a Rust.“</li>
+</ul>
+<h2><a href="https://mashable.com/article/bluesky-gaining-ground-on-competitor-meta-threads">„Bluesky je na pokraji překonání Threads ve všech ohledech, na kterých záleží.“</a></h2>
+<ul>
+<li>„Bluesky, decentralizovaná platforma původně spojená s Jackem Dorseyem, získává na popularitě a nyní má 3,5 milionu denně aktivních uživatelů, čímž se přibližuje k Meta&#39;s Threads.“</li>
+<li>„Platforma zaznamenala 300% nárůst uživatelů od voleb 5. listopadu, protože novináři a akademici přecházejí z platformy X Elona Muska, hledajíce otevřenější veřejnou diskusi.“</li>
+<li>„Růst Bluesky je ohrožen problémy, jako jsou výpadky a podvody, ale jeho přitažlivost je posílena rozhodnutím generálního ředitele Meta Marka Zuckerberga omezit politický obsah na Threads.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42231148">Reakce</a></h3>
+<ul>
+<li>„Bluesky přitahuje uživatele funkcemi, jako jsou vlastní štítky, volba algoritmu a chronologický přehled, což nabízí více uživatelsky řízený zážitek ve srovnání s Threads.“</li>
+<li>„Je považována za potenciální alternativu k X (dříve Twitter) díky svému zaměření na volbu uživatele a snížené algoritmické zásahy.“</li>
+<li>„Navzdory rostoucí popularitě přetrvávají obavy o udržitelnost a zpeněžení Bluesky, protože je stále v raných fázích vývoje ve srovnání s více zavedenými platformami.“</li>
+</ul>
+<h2><a href="https://chipsandcheese.com/p/pushing-amds-infinity-fabric-to-its">„Tlačení AMD Infinity Fabric na jeho hranici“</a></h2>
+<ul>
+<li>„Infinity Fabric od AMD, součást architektury Zen, propojuje jádra CPU a spravuje latenci paměti, přičemž Zen 5 vykazuje zlepšenou manipulaci s šířkou pásma díky rychlejší DDR5 a lepšímu řízení provozu.“</li>
+<li>„Zen 2 poskytuje vhledy do úzkých míst Core Complex (CCX) a Core Complex Die (CCD), i když se jedná o starší architekturu.“</li>
+<li>„Zatímco typické aplikace jako hry nevyžadují vysokou šířku pásma, náročné úlohy jako RawTherapee mohou odhalit silné a slabé stránky v řízení latence, zejména u Zen 4 při vysokém zatížení.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42230355">Reakce</a></h3>
+<ul>
+<li>„Diskuse se soustředí na AMD&#39;s Infinity Fabric a omezení šířky pásma paměti, srovnávající se schopnostmi Apple Silicon.“</li>
+<li>„Uživatelé diskutují o proveditelnosti tvrzení, jako je dosažení šířky pásma 400 GB/s u Apple M1 Max, přičemž si všímají rozdílů ve využití jader mezi architekturou AMD Zen 3 a Apple.“</li>
+<li>„Konverzace také zdůrazňuje význam konfigurace Non-Uniform Memory Access (NUMA) a složitosti optimalizace softwaru pro nové architektury CPU.“</li>
+</ul>
+<h2><a href="https://www.sqlite.org/lang_with.html#outlandish_recursive_query_examples">„SQLite: Neobvyklé příklady rekurzivních dotazů“</a></h2>
+<ul>
+<li>„Běžné tabulkové výrazy (CTE) v SQL slouží jako dočasné pohledy pro jeden příkaz, přičemž existují dva typy: běžné a rekurzivní, které zjednodušují složité dotazy a zpracovávají hierarchická data.“</li>
+<li>„CTE se vytvářejí pomocí klauzule WITH a mohou zahrnovat více CTE v jednom příkazu, přičemž rekurzivní CTE vyžadují specifická pravidla, jako je použití operátorů UNION nebo UNION ALL.“</li>
+<li>„Materiálizační nápovědy, dostupné ve verzi SQLite 3.35.0 a novější, vedou plánovač dotazů při implementaci CTE, s omezeními, jako je nemožnost použití WITH v CREATE TRIGGER.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42230384">Reakce</a></h3>
+<ul>
+<li>„Rekurzivní Common Table Expressions (CTEs) v SQLite fungují jako smyčky, což umožňuje dotazům odkazovat na sebe, což je užitečné pro složité úkoly, jako je řešení Sudoku nebo výpočet tranzitivních uzávěrů.“</li>
+<li>„Ovládnutí syntaxe, zejména „WITH“ a „WITH RECURSIVE“, je nezbytné pro efektivní využití rekurzivních CTE, které fungují tak, že inicializují dotaz a provádějí se rekurzivně, dokud nejsou generovány žádné nové výsledky.“</li>
+<li>„Pro ty, kteří považují rekurzivní CTE za náročné, mohou být užitečné zdroje jako O&#39;Reilly SQL Pocket Guide a pevné porozumění relační algebře při zjednodušování složitých SQL dotazů.“</li>
+</ul>
+<h2><a href="https://timdellinger.substack.com/p/hey-wait-is-employee-performance">„Hej, počkej – je výkon zaměstnanců Gaussovsky rozložen?“</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42236841">Reakce</a></h3>
+<ul>
+<li>„Článek zpochybňuje předpoklad, že výkon zaměstnanců následuje Gaussovo (normální) rozdělení, a naznačuje, že tento pohled může vést k zastaralým praktikám řízení výkonu v korporacích.“</li>
+<li>„Kritizuje praxi ořezávání spodních 5 % zaměstnanců, obhajuje zaměření na kombinovanou produktivitu spíše než na individuální výkon a navrhuje, že výkon by mohl následovat Paretovo rozdělení, kde několik zaměstnanců přispívá k výstupu výrazně více.“</li>
+<li>„Diskuse zahrnuje různé pohledy na hodnocení výkonu, náborové praktiky a roli managementu při ovlivňování úspěchu zaměstnanců.“</li>
+</ul>
+<h2><a href="https://articles.foletta.org/post/2024-01-08-a-day-in-the-life-the-bgp-table/">„Den v životě: Globální BGP tabulka“</a></h2>
+<ul>
+<li>„Článek se zabývá denními výkyvy globální tabulky BGP (Border Gateway Protocol), zaměřuje se na krátkodobé chování, jako jsou neobvyklé atributy cest a kolísající cesty.“</li>
+<li>„Pomocí nástroje nazvaného bgpsee autor analyzuje BGP zprávy, aby odhalil poznatky o aktualizacích cest, cyklickém chování a extrémních délkách cest AS (Autonomního systému).“</li>
+<li>„Průzkum zdůrazňuje složitost a odolnost systému BGP, přičemž klade důraz na složité dynamiky globálního směrování internetu, i když vyvolává více otázek než odpovědí.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42233565">Reakce</a></h3>
+<ul>
+<li>„Článek se zabývá globální tabulkou Border Gateway Protocol (BGP), zaměřuje se na problémy jako je kolísání tras a praxe tlumení tras za účelem zmírnění nadměrného BGP churnu.“</li>
+<li>„Uživatel upozorňuje na kolísání prefixu EpicUp 140.99.244.0/23 a navrhuje, že by mělo být potlačeno, zatímco jiný poznamenává, že potlačování tras je nyní méně běžné kvůli minulým chybným konfiguracím a vylepšeným schopnostem směrovačů.“</li>
+<li>„Diskuse zahrnuje zvláštnosti BGP, historické poznatky od poskytovatelů internetových služeb (ISP) a zdroje pro ty, kteří mají zájem o analýzu dat BGP, s návrhy na možné projekty.“</li>
+</ul>
+<h2><a href="https://www.cam.ac.uk/research/news/wildlife-monitoring-technologies-used-to-intimidate-and-spy-on-women-study-finds">„Technologie monitorování divoké přírody používané k zastrašování a špehování žen“</a></h2>
+<ul>
+<li>„Výzkumníci z Cambridge zjistili, že technologie pro monitorování divoké přírody, jako jsou fotopasti a drony, jsou v Indii zneužívány ke špehování žen, což ovlivňuje jejich duševní zdraví a bezpečnost. Tyto technologie, původně určené pro účely ochrany přírody, jsou údajně používány místními úřady k zastrašování žen, čímž dochází k porušování jejich práv. Studie zdůrazňuje potřebu pečlivého zvážení sociálních dopadů nasazení takových technologií.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42232289">Reakce</a></h3>
+<ul>
+<li>„Technologie pro monitorování divoké přírody, jako jsou fotopasti, jsou v indických lesích zneužívány k zastrašování a špehování žen, což vyvolává významné obavy o soukromí a duševní zdraví. Toto zneužívání poukazuje na širší globální problémy sledování a soukromí, zejména v regionech s existujícími výzvami v oblasti práv žen, a není omezeno pouze na Indii. Řešení těchto problémů vyžaduje složitá řešení, včetně zavedení přísnějších zákonů a kulturních změn k ochraně soukromí a zajištění bezpečnosti pro všechny jednotlivce.“</li>
+</ul>
+<head>
+  <meta property="og:title" content="„RFC 35140: HTTP Do-Not-Stab (2023)“" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9ERFC%2035140%3A%20HTTP%20Do-Not-Stab%20(2023)%E2%80%9C&subheading=pond%C4%9Bl%C3%AD%2025.%20listopadu%202024%3A%20Hacker%20News%20Shrnut%C3%AD" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/cs/2024/11/25</link>
+            <guid isPermaLink="false">2024-11-25T00:00:00.000Z</guid>
+            <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-11-24]]></title>
             <description
@@ -1255,80 +1397,6 @@
             <link>https://hn.cho.sh/cs/2024/11/16</link>
             <guid isPermaLink="false">2024-11-16T00:00:00.000Z</guid>
             <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-11-15]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/11/15&#39;</h2>
-<h1>2024-11-15</h1>
-<h2><a href="https://github.com/BAndysc/AvaloniaVisualBasic6">„Visual Basic 6 IDE znovu vytvořený v C#“</a></h2>
-<ul>
-<li>„Avalonia Visual Basic 6 je rekreace klasického integrovaného vývojového prostředí (IDE) Visual Basic 6 v jazyce C# s využitím Avalonia, zamýšlená jako zábavný, nekomerční projekt. Projekt zahrnuje funkce jako vizuální návrhář, kompatibilitu s ukládáním/načítáním projektů VB6 a omezenou podporu jazyka VB6. Pro sestavení desktopové verze je obvykle vyžadováno .NET 9.0, ale s úpravami lze použít i .NET 8.0; kompilace se provádí pomocí <code>dotnet build</code> a publikování pomocí <code>dotnet publish</code> jak pro IDE, tak pro runtime.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42141587">Reakce</a></h3>
-<ul>
-<li>„Integrované vývojové prostředí (IDE) Visual Basic 6 bylo znovu vytvořeno pomocí C# a je dostupné na GitHubu, což vyvolává nostalgii mezi vývojáři, kteří začínali s VB6.“</li>
-<li>„Projekt využívá Avalonia, multiplatformní UI framework, a podporuje základní funkce VB6, i když je stále ve fázi vývoje.“</li>
-<li>„Iniciativa obdržela pozitivní zpětnou vazbu, což vyvolalo zájem o další rozvoj a diskuse o vývoji sad nástrojů grafického uživatelského rozhraní (GUI) a jednoduchosti VB6 ve srovnání se současnými nástroji.“</li>
-</ul>
-<h2><a href="https://legiscope.com/blog/hidden-productivity-drain-cookie-banners.html">„Analýza ekonomických a produktivních ztrát způsobených cookie bannery v Evropě“</a></h2>
-<ul>
-<li>„Evropané každoročně stráví 575 milionů hodin interakcí s bannery pro souhlas s cookies, což je požadavek směrnice EU 2002/58, která má za cíl chránit soukromí uživatelů. Ekonomický dopad tohoto času je značný, stojí 14,375 miliardy eur ročně, což odpovídá 0,10 % HDP EU, a představuje ztrátu produktivity srovnatelnou s 287 500 plnými pracovními úvazky. Existuje výzva k naléhavé revizi směrnice, aby se zmírnily ekonomické a produktivní zátěže, které zvláště postihují malé a střední podniky.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42141843">Reakce</a></h3>
-<ul>
-<li>„Evropský „zákon o cookies“ vyžaduje informovaný souhlas pro sledování, ale konkrétně nepředepisuje použití bannerů s cookies; společnosti se rozhodují pro bannery, aby vyhověly předpisům.“</li>
-<li>„Běžným problémem je, že společnosti nesprávně implementují souhlas tím, že nastavují sledovací cookies jako výchozí a poskytují bannery bez jasné možnosti odmítnutí, což není v souladu s předpisy.“</li>
-<li>„Záměrem zákona je chránit práva spotřebitelů, ale společnosti se často uchylují k „zlovolnému dodržování předpisů“, aby uživatele frustrovaly, což naznačuje přísnější vymáhání a potenciální nastavení souhlasu na úrovni prohlížeče jako řešení.“</li>
-</ul>
-<h2><a href="https://www.relativty.com/">„Relativty: Otevřený VR headset za 200 dolarů“</a></h2>
-<ul>
-<li>Relativty je open-source headset pro virtuální realitu (VR) vyvinutý teenagery Maximem Perumalem a Gabrielem Combem, navržený jako projekt pro kutily spíše než jako spotřebitelský produkt, s cenou přibližně 200 dolarů. Headset podporuje hry na platformě SteamVR a nabízí experimentální škálování pozice pomocí jakékoli kamery, s základní deskou založenou na procesoru Atmel SAM3X8E ARM Cortex-M3. Tvůrci zakládají novou společnost Unai, která se zaměří na vývoj samostatného VR headsetu, a momentálně nabírají zaměstnance, přičemž více informací je k dispozici na jejich webových stránkách.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42143269">Reakce</a></h3>
-<ul>
-<li>„Relativty je open-source VR headset za 200 dolarů s 3DoF (tři stupně volnosti) sledováním, podobně jako starší modely jako Oculus Go, ale postrádá více pohlcující 6DoF (šest stupňů volnosti) sledování. HadesVR je 6DoF open-source projekt vyvinutý z Relativty, který nabízí lepší ponoření a sníženou nevolnost z pohybu ve srovnání se systémy 3DoF. Obavy o soukromí u headsetů Meta Quest vedou některé uživatele k úvahám o alternativách a existuje potenciál pro vzdělávací projekty využívající Relativty navzdory jeho omezením.“</li>
-</ul>
-<h2><a href="https://techcrunch.com/2024/11/14/new-apple-security-feature-reboots-iphones-after-3-days-researchers-confirm/">„Nová bezpečnostní funkce Applu restartuje iPhony po 3 dnech, potvrzují výzkumníci“</a></h2>
-<ul>
-<li>„iOS 18 od Apple zavádí funkci „restart při nečinnosti“, která automaticky restartuje iPhony, pokud zůstanou odemčené po dobu 72 hodin, čímž zvyšuje bezpečnost zabezpečením šifrovacích klíčů v čipu secure enclave.“</li>
-<li>„Tato funkce zvyšuje ochranu dat proti krádeži a zastaralým forenzním nástrojům, ale představuje výzvy pro orgány činné v trestním řízení při extrakci dat ze zařízení.“</li>
-<li>„Bezpečnostní výzkumníci a společnosti jako Magnet Forensics potvrdili tuto funkci, čímž zdůraznili pokračující napětí mezi bezpečnostními opatřeními Applu a potřebami orgánů činných v trestním řízení pro přístup k datům.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42143265">Reakce</a></h3>
-<ul>
-<li>„Nová bezpečnostní funkce Applu automaticky restartuje iPhony po 72 hodinách nečinnosti, s cílem udržet bezpečnost odstraněním potenciálního malwaru nebo chyb. Tato funkce je podobná bezpečnostním protokolům platebních terminálů, které se restartují každých 24 hodin, aby zajistily bezpečný stav. Zatímco někteří uživatelé vyjadřují obavy ohledně možných přerušení připojení, funkce je obecně považována za pozitivní krok k posílení bezpečnosti, s návrhy na možnost konfigurovat interval restartu.“</li>
-</ul>
-<h2><a href="https://computerhistory.org/blog/in-memoriam-thomas-e-kurtz-1928-2024/">„Thomas E. Kurtz zemřel“</a></h2>
-<ul>
-<li>„Thomas E. Kurtz, spoluautor programovacího jazyka BASIC, zemřel 12. listopadu 2024, zanechávaje za sebou významné dědictví v oblasti výpočetní techniky.“</li>
-<li>„Kurtz sehrál klíčovou roli ve vývoji systému sdílení času Dartmouth, což umožnilo široký přístup k jazyku BASIC a ovlivnilo generace vývoje výpočetní techniky a softwaru.“</li>
-<li>„Zastával vedoucí pozice na Dartmouthu, přispěl k standardům BASIC, odešel do důchodu v roce 1993 a byl oceněn jako Fellow Asociace pro výpočetní techniku (ACM) v roce 1994.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42141761">Reakce</a></h3>
-<ul>
-<li>„Thomas E. Kurtz, spolutvůrce programovacího jazyka BASIC, zemřel, což přimělo mnohé sdílet vzpomínky a vděčnost za jeho přínosy. BASIC sehrál klíčovou roli v demokratizaci výpočetní techniky, zpřístupnil programování neodborníkům a inspiroval generaci programátorů. Kurtzova práce na Dartmouthu, společně s Johnem Kemenym, byla významná ve vývoji systémů sdílení času a vzdělávacího výpočetnictví, což zanechalo trvalý dopad na technologický průmysl.“</li>
-</ul>
-<h2><a href="https://github.com/epasveer/seer">„Seer: Grafické uživatelské rozhraní pro GDB pro Linux“</a></h2>
-<ul>
-<li>„Seer je grafické uživatelské rozhraní (GUI) pro GNU Debugger (gdb) na Linuxu, navržené pro zlepšení uživatelského zážitku pomocí jednoduchého rozhraní. Vyvinutý Erniem Pasveerem, Seer vyžaduje Linux, C++17, gdb s interpretem &quot;mi&quot;, CMake 3.1.0+ a QT6, a od verze 2.3 již nepodporuje Qt5. Klíčové funkce zahrnují správu zdrojových souborů, sledování proměnných a správu zarážek, s podporou a podrobnými instrukcemi dostupnými na GitHubu nebo prostřednictvím e-mailu.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42146338">Reakce</a></h3>
-<ul>
-<li>„Seer je grafické uživatelské rozhraní (GUI) pro GNU Debugger (GDB) na Linuxu, ale uživatelé hlásí problémy, jako jsou nefunkční změny písma a chyby při najetí myší na proměnné.“</li>
-<li>„Navzdory svým současným nedostatkům má Seer potenciál, pokud bude dále rozvíjen, přičemž uživatelé jej srovnávají s jinými nástroji, jako je Gede, který je známý svou jednoduchostí a spolehlivostí.“</li>
-<li>„Diskuse zdůrazňují různé preference při ladění, včetně vestavěného textového uživatelského rozhraní (TUI) GDB, Neovim, gdb-dashboard a DDD, přičemž někteří uživatelé upřednostňují logování před ladicími programy pro složité scénáře.“</li>
-</ul>
-<head>
-  <meta property="og:title" content="„Visual Basic 6 IDE znovu vytvořený v C#“" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EVisual%20Basic%206%20IDE%20znovu%20vytvo%C5%99en%C3%BD%20v%20C%23%E2%80%9C&subheading=p%C3%A1tek%2015.%20listopadu%202024%3A%20Hacker%20News%20Shrnut%C3%AD" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/cs/2024/11/15</link>
-            <guid isPermaLink="false">2024-11-15T00:00:00.000Z</guid>
-            <pubDate>Fri, 15 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

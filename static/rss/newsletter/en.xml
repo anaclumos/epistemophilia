@@ -15,12 +15,154 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 24 Nov 2024 19:07:56 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 25 Nov 2024 19:40:15 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/en.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Sun, 24 Nov 2024 00:00:00 GMT</pubDate>
+        <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-11-25]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/11/25&#39;</h2>
+<h1>2024-11-25</h1>
+<h2><a href="https://www.5snb.club/posts/2023/do-not-stab/">RFC 35140: HTTP Do-Not-Stab (2023)</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42232040">Reactions</a></h3>
+<ul>
+<li>RFC 35140 humorously critiques the deprecation of the &quot;Do-Not-Stab&quot; HTTP header, which was abandoned after a browser&#39;s default setting negatively impacted the fictional stabbing industry.</li>
+<li>The introduction of a &quot;General Assault Control&quot; header, requiring explicit opt-out, satirizes user consent mechanisms and the shift of responsibility from institutions to individuals.</li>
+<li>The satire addresses broader societal issues, including privacy, data tracking, and the difficulties of enforcing regulations against corporate interests.</li>
+</ul>
+<h2><a href="https://www.starlink.com/business/direct-to-cell">Starlink Direct to Cell</a></h2>
+<ul>
+<li>Starlink Direct to Cell is a new service by SpaceX offering global text, voice, and data access for LTE phones, ensuring connectivity on land, lakes, and coastal waters.</li>
+<li>The service will begin with text services in 2024, followed by voice, data, and IoT (Internet of Things) support in 2025, without needing hardware changes or special apps.</li>
+<li>This development highlights SpaceX&#39;s expansion into telecommunications, providing seamless connectivity without additional equipment.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42230103">Reactions</a></h3>
+<ul>
+<li>Starlink&#39;s vertical integration and cost-effective launches position it as a leading force in the satellite internet industry, facing minimal competition.</li>
+<li>While some view Starlink&#39;s dominance as monopolistic, others believe innovation and foreign military support might foster future competition.</li>
+<li>The high cost of satellite launches is a major hurdle, but advancements in reusable rocket technology could alter the competitive landscape.</li>
+</ul>
+<h2><a href="https://danielmangum.com/posts/this-website-is-hosted-on-bluesky/">This website is hosted on Bluesky</a></h2>
+<ul>
+<li>The AT Protocol, used by Bluesky, supports hosting via Personal Data Servers (PDS), showcasing its flexibility beyond intended uses.- Content on Bluesky is organized into records and blobs, with blobs being larger data like media, which must be uploaded before being referenced in records.- The protocol&#39;s extensibility allows for creative applications, such as hosting websites, potentially leading to new use cases in the future.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42230392">Reactions</a></h3>
+<ul>
+<li>The website hosted on Bluesky has initiated discussions about its potential uses, including hosting RSS feeds and storing data like DOOM WADs, as well as concerns about content moderation and legal issues.</li>
+<li>Comparisons are being made to past platforms like MySpace, highlighting the AT Protocol&#39;s public nature and its potential for decentralized data storage.</li>
+<li>Users are divided, with some skeptical about Bluesky&#39;s moderation capabilities, while others view it as a promising new platform.</li>
+</ul>
+<h2><a href="https://www.benji.dog/articles/git-config/">How I configure my Git identities</a></h2>
+<ul>
+<li>The post discusses configuring Git identities using <code>includeIf</code> for conditional configurations, allowing different settings based on directory paths or remote URLs.</li>
+<li>The author shares a method to manage multiple Git identities and SSH keys by using different <code>Host</code> values in <code>~/.ssh/config</code> and adjusting Git configurations with <code>insteadOf</code>.</li>
+<li>The post highlights a new approach using <code>hasconfig:remote.*.url:!</code> for conditional Git configurations based on remote URLs, enhancing flexibility in managing Git identities.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42233524">Reactions</a></h3>
+<ul>
+<li>The <code>includeIf</code> directive in Git config allows automatic application of different settings based on the repository&#39;s URL, streamlining identity management.</li>
+<li>This method enables users to set specific user details and SSH keys for work-related repositories, facilitating seamless switching between personal and work projects.</li>
+<li>Maintaining security and privacy can be further enhanced by using separate machines or user accounts for work and personal projects.</li>
+</ul>
+<h2><a href="https://sqlitestudio.pl/">SQLiteStudio: Create, edit, browse SQLite databases</a></h2>
+<ul>
+<li>SQLiteStudio has released version 3.4.6, addressing the &quot;black SQL code line&quot; issue from the previous version 3.4.5 and resolving two additional issues.</li>
+<li>This software is open-source, cross-platform, and portable, available for free under the GPL license, and compatible with Windows, Linux, and MacOS X.</li>
+<li>Notably, SQLiteStudio requires no installation, making it convenient for users to create, edit, and browse SQLite databases.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42232000">Reactions</a></h3>
+<ul>
+<li>SQLiteStudio is a user-friendly tool designed for creating, editing, and browsing SQLite databases, praised for its portability and powerful features.</li>
+<li>It includes support for Entity-Relationship Diagrams (ERD), which aids in handling complex database tasks and offers visual feedback, benefiting both professionals and students.</li>
+<li>While some users have encountered platform-specific issues, SQLiteStudio is generally regarded as a reliable and efficient SQLite management tool.</li>
+</ul>
+<h2><a href="https://herecomesthemoon.net/2024/11/two-factions-of-cpp/">The two factions of C++</a></h2>
+<ul>
+<li>The C++ community is split between modern tech companies seeking advanced features and legacy users reliant on outdated systems, creating a tension in the language&#39;s evolution.- The C++ Evolution Working Group&#39;s focus on backward compatibility conflicts with the demand for modern features and safety, leading to dissatisfaction among some major tech players.- In response to these challenges, the US government and companies like Google are exploring or developing alternative languages, such as Rust, which prioritize safety and modern capabilities over backward compatibility.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42231489">Reactions</a></h3>
+<ul>
+<li>The C++ community is divided between maintaining legacy codebases and adopting modern, safer language features, with a focus on the challenges of refactoring without automated testing.</li>
+<li>The article highlights Google&#39;s significant influence in the C++ standards committee and the difficulty of evolving the language without disrupting existing code.</li>
+<li>Similar factional divides and complexities in language evolution are noted in other programming languages like Python and Rust.</li>
+</ul>
+<h2><a href="https://mashable.com/article/bluesky-gaining-ground-on-competitor-meta-threads">Bluesky is on the verge of overtaking Threads in all the ways that matter</a></h2>
+<ul>
+<li>Bluesky, a decentralized platform initially associated with Jack Dorsey, is gaining traction and now has 3.5 million daily active users, closing in on Meta&#39;s Threads.</li>
+<li>The platform experienced a 300% user increase since the November 5 election, as journalists and academics migrate from Elon Musk&#39;s X, seeking more open public discourse.</li>
+<li>Bluesky&#39;s growth is challenged by issues such as outages and scams, but its appeal is strengthened by Meta CEO Mark Zuckerberg&#39;s decision to limit political content on Threads.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42231148">Reactions</a></h3>
+<ul>
+<li>Bluesky is attracting users with features such as custom labels, algorithm choice, and a chronological feed, offering a more user-controlled experience compared to Threads.</li>
+<li>It is viewed as a potential alternative to X (formerly Twitter) due to its focus on user choice and reduced algorithmic interference.</li>
+<li>Despite its growing popularity, concerns about Bluesky&#39;s sustainability and monetization persist, as it is still in its early development stages compared to more established platforms.</li>
+</ul>
+<h2><a href="https://chipsandcheese.com/p/pushing-amds-infinity-fabric-to-its">Pushing AMD&#39;s Infinity Fabric to Its Limit</a></h2>
+<ul>
+<li>AMD&#39;s Infinity Fabric, part of the Zen architecture, connects CPU cores and manages memory latency, with Zen 5 showing improved bandwidth handling due to faster DDR5 and better traffic management.</li>
+<li>Zen 2 provides insights into Core Complex (CCX) and Core Complex Die (CCD) bottlenecks, though it&#39;s an older architecture.</li>
+<li>While typical applications like games don&#39;t stress bandwidth, demanding workloads like RawTherapee can reveal latency management strengths and limitations, particularly in Zen 4 under heavy load.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42230355">Reactions</a></h3>
+<ul>
+<li>The discussion centers on AMD&#39;s Infinity Fabric and the constraints of memory bandwidth, with comparisons to Apple&#39;s Silicon capabilities.</li>
+<li>Users debate the feasibility of claims like Apple&#39;s M1 Max achieving 400GB/s bandwidth, noting differences in core utilization between AMD&#39;s Zen 3 and Apple&#39;s architecture.</li>
+<li>The conversation also highlights the significance of Non-Uniform Memory Access (NUMA) configuration and the complexities of optimizing software for emerging CPU architectures.</li>
+</ul>
+<h2><a href="https://www.sqlite.org/lang_with.html#outlandish_recursive_query_examples">SQLite: Outlandish Recursive Query Examples</a></h2>
+<ul>
+<li>Common Table Expressions (CTEs) in SQL serve as temporary views for a single statement, with two types: ordinary and recursive, simplifying complex queries and handling hierarchical data, respectively.</li>
+<li>CTEs are created using a WITH clause and can include multiple CTEs in a single statement, with recursive CTEs requiring specific rules like using UNION or UNION ALL operators.</li>
+<li>Materialization hints, available in SQLite version 3.35.0 and later, guide the query planner on CTE implementation, with limitations such as the inability to use WITH in CREATE TRIGGER.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42230384">Reactions</a></h3>
+<ul>
+<li>SQLite&#39;s recursive Common Table Expressions (CTEs) function like loops, allowing queries to reference themselves, which is useful for complex tasks such as solving Sudoku puzzles or calculating transitive closures.</li>
+<li>Mastery of the syntax, particularly &quot;WITH&quot; and &quot;WITH RECURSIVE,&quot; is essential for effectively utilizing recursive CTEs, which operate by seeding a query and executing recursively until no new results are generated.</li>
+<li>For those finding recursive CTEs challenging, resources like the O&#39;Reilly SQL Pocket Guide and a solid understanding of relational algebra can be beneficial in simplifying complex SQL queries.</li>
+</ul>
+<h2><a href="https://timdellinger.substack.com/p/hey-wait-is-employee-performance">Hey, wait – is employee performance Gaussian distributed?</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42236841">Reactions</a></h3>
+<ul>
+<li>The article challenges the assumption that employee performance follows a Gaussian (normal) distribution, suggesting that this view may lead to outdated performance management practices in corporations.</li>
+<li>It critiques the practice of trimming the bottom 5% of employees, advocating for a focus on combined productivity rather than individual performance, and proposes that performance might follow a Pareto distribution, where a few employees contribute significantly more to output.</li>
+<li>The discussion encompasses various perspectives on performance evaluation, hiring practices, and the role of management in influencing employee success.</li>
+</ul>
+<h2><a href="https://articles.foletta.org/post/2024-01-08-a-day-in-the-life-the-bgp-table/">A Day in the Life: The Global BGP Table</a></h2>
+<ul>
+<li>The article delves into the daily fluctuations of the global BGP (Border Gateway Protocol) table, focusing on short-term behaviors such as unusual path attributes and flapping paths.</li>
+<li>Using a tool called bgpsee, the author analyzes BGP messages to uncover insights into path updates, cyclic behaviors, and extreme AS (Autonomous System) path lengths.</li>
+<li>The exploration highlights the complexity and resilience of the BGP system, emphasizing the intricate dynamics of global internet routing despite raising more questions than answers.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42233565">Reactions</a></h3>
+<ul>
+<li>The article addresses the global Border Gateway Protocol (BGP) table, focusing on issues such as route flapping and the practice of route dampening to mitigate excessive BGP churn.</li>
+<li>A user highlights the flapping of the EpicUp 140.99.244.0/23 prefix, suggesting it should be dampened, while another notes that route dampening is less common now due to past misconfigurations and enhanced router capabilities.</li>
+<li>The discussion includes BGP quirks, historical insights from Internet Service Providers (ISPs), and resources for those interested in analyzing BGP data, with suggestions for potential projects.</li>
+</ul>
+<h2><a href="https://www.cam.ac.uk/research/news/wildlife-monitoring-technologies-used-to-intimidate-and-spy-on-women-study-finds">Wildlife monitoring technologies used to intimidate and spy on women</a></h2>
+<ul>
+<li>Cambridge researchers discovered that wildlife monitoring technologies, such as camera traps and drones, are being misused in India to spy on women, impacting their mental health and safety.- These technologies, originally intended for conservation purposes, are reportedly used by local authorities to intimidate women, infringing on their rights.- The study emphasizes the need for careful consideration of the social impacts of deploying such technologies.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42232289">Reactions</a></h3>
+<ul>
+<li>Wildlife monitoring technologies, such as camera traps, are being misused in Indian forests to intimidate and spy on women, raising significant privacy and mental health concerns.- This misuse underscores broader global issues of surveillance and privacy, particularly in regions with existing women&#39;s rights challenges, and is not confined to India alone.- Addressing these issues requires complex solutions, including the implementation of stricter laws and cultural shifts to safeguard privacy and ensure safety for all individuals.</li>
+</ul>
+<head>
+  <meta property="og:title" content="RFC 35140: HTTP Do-Not-Stab (2023)" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=RFC%2035140%3A%20HTTP%20Do-Not-Stab%20(2023)&subheading=Monday%2C%20November%2025%2C%202024%3A%20Hacker%20News%20Summary" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/2024/11/25</link>
+            <guid isPermaLink="false">2024-11-25T00:00:00.000Z</guid>
+            <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-11-24]]></title>
             <description
@@ -1255,80 +1397,6 @@
             <link>https://hn.cho.sh/2024/11/16</link>
             <guid isPermaLink="false">2024-11-16T00:00:00.000Z</guid>
             <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-11-15]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/11/15&#39;</h2>
-<h1>2024-11-15</h1>
-<h2><a href="https://github.com/BAndysc/AvaloniaVisualBasic6">Visual Basic 6 IDE recreated in C#</a></h2>
-<ul>
-<li>Avalonia Visual Basic 6 is a C# recreation of the classic Visual Basic 6 Integrated Development Environment (IDE) using Avalonia, intended as a fun, non-commercial project.- The project includes features like a visual designer, compatibility with VB6 project saving/loading, and limited support for the VB6 language.- Building the desktop version typically requires .NET 9.0, but .NET 8.0 can be used with modifications; compilation is done using <code>dotnet build</code>, and publishing with <code>dotnet publish</code> for both the IDE and runtime.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42141587">Reactions</a></h3>
-<ul>
-<li>A Visual Basic 6 Integrated Development Environment (IDE) has been recreated using C# and is accessible on GitHub, generating nostalgia among developers who started with VB6.</li>
-<li>The project employs Avalonia, a cross-platform UI framework, and supports basic VB6 features, though it remains a work in progress.</li>
-<li>The initiative has received positive feedback, sparking interest in further development and discussions on the evolution of graphical user interface (GUI) toolkits and the simplicity of VB6 compared to contemporary tools.</li>
-</ul>
-<h2><a href="https://legiscope.com/blog/hidden-productivity-drain-cookie-banners.html">Analysis of economic and productivity losses caused by cookie banners in Europe</a></h2>
-<ul>
-<li>Europeans collectively spend 575 million hours each year interacting with cookie consent banners, a requirement of the EU Directive 2002/58, which aims to protect user privacy.- The economic impact of this time spent is substantial, costing €14.375 billion annually, equivalent to 0.10% of the EU&#39;s GDP, and represents a productivity loss akin to 287,500 full-time jobs.- There is a call for urgent revision of the directive to alleviate economic and productivity burdens, particularly affecting small and medium-sized enterprises.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42141843">Reactions</a></h3>
-<ul>
-<li>The European &quot;cookie law&quot; requires informed consent for tracking, but does not specifically mandate the use of cookie banners; companies opt for banners to comply.</li>
-<li>A common issue is companies incorrectly implementing consent by setting tracking cookies by default and providing banners without a clear reject option, which is non-compliant.</li>
-<li>The law&#39;s intent is to protect consumer rights, but companies often engage in &quot;malicious compliance&quot; to frustrate users, suggesting stricter enforcement and potential browser-based consent settings as solutions.</li>
-</ul>
-<h2><a href="https://www.relativty.com/">Relativty: An open-source VR headset for $200</a></h2>
-<ul>
-<li>Relativty is an open-source virtual reality (VR) headset developed by teenagers Maxim Perumal and Gabriel Combe, designed as a DIY project rather than a consumer product, costing approximately $200.- The headset supports SteamVR games and features experimental positional-scaling using any camera, with a motherboard based on the Atmel SAM3X8E ARM Cortex-M3 processor.- The creators are launching a new company, Unai, to develop a standalone VR headset, and they are currently hiring, with more information available on their website.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42143269">Reactions</a></h3>
-<ul>
-<li>Relativty is a $200 open-source VR headset with 3DoF (three degrees of freedom) tracking, similar to older models like Oculus Go, but lacks the more immersive 6DoF (six degrees of freedom) tracking.- HadesVR is a 6DoF open-source project developed from Relativty, offering enhanced immersion and reduced motion sickness compared to 3DoF systems.- Privacy concerns with Meta&#39;s Quest headsets are prompting some users to consider alternatives, and there is potential for educational projects using Relativty despite its limitations.</li>
-</ul>
-<h2><a href="https://techcrunch.com/2024/11/14/new-apple-security-feature-reboots-iphones-after-3-days-researchers-confirm/">New Apple security feature reboots iPhones after 3 days, researchers confirm</a></h2>
-<ul>
-<li>Apple&#39;s iOS 18 introduces an &quot;inactivity reboot&quot; feature that automatically restarts iPhones if they remain unlocked for 72 hours, enhancing security by securing encryption keys in the secure enclave chip.</li>
-<li>This feature increases data protection against theft and outdated forensic tools but presents challenges for law enforcement in data extraction from devices.</li>
-<li>Security researchers and companies like Magnet Forensics have confirmed the feature, highlighting the ongoing tension between Apple&#39;s security measures and law enforcement&#39;s data access needs.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42143265">Reactions</a></h3>
-<ul>
-<li>Apple&#39;s new security feature automatically reboots iPhones after 72 hours of inactivity, aiming to maintain security by clearing potential malware or errors.- This feature is akin to the security protocols of payment terminals, which reboot every 24 hours to ensure a secure state.- While some users express concerns about potential connectivity disruptions, the feature is generally viewed as a positive step towards enhanced security, with suggestions to make the reboot interval configurable.</li>
-</ul>
-<h2><a href="https://computerhistory.org/blog/in-memoriam-thomas-e-kurtz-1928-2024/">Thomas E. Kurtz has died</a></h2>
-<ul>
-<li>Thomas E. Kurtz, co-inventor of the BASIC programming language, passed away on November 12, 2024, leaving a significant legacy in computing.</li>
-<li>Kurtz played a crucial role in developing the Dartmouth Timesharing System, enabling widespread access to BASIC and influencing generations of computing and software development.</li>
-<li>He held leadership roles at Dartmouth, contributed to BASIC standards, retired in 1993, and was honored as a Fellow of the Association for Computing Machinery (ACM) in 1994.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42141761">Reactions</a></h3>
-<ul>
-<li>Thomas E. Kurtz, co-creator of the BASIC programming language, has passed away, prompting many to share memories and gratitude for his contributions.- BASIC played a crucial role in democratizing computing, making programming accessible to non-experts and inspiring a generation of programmers.- Kurtz&#39;s work at Dartmouth, alongside John Kemeny, was significant in the development of time-sharing systems and educational computing, leaving a lasting impact on the tech industry.</li>
-</ul>
-<h2><a href="https://github.com/epasveer/seer">Seer: A GUI front end to GDB for Linux</a></h2>
-<ul>
-<li>Seer is a graphical user interface (GUI) frontend for the GNU Debugger (gdb) on Linux, designed to enhance user experience with a simple interface.- Developed by Ernie Pasveer, Seer requires Linux, C++17, gdb with &quot;mi&quot; interpreter, CMake 3.1.0+, and QT6, and it no longer supports Qt5 beyond version 2.3.- Key features include source file management, variable tracking, and breakpoint management, with support and detailed instructions available on GitHub or via email.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42146338">Reactions</a></h3>
-<ul>
-<li>Seer is a graphical user interface (GUI) for the GNU Debugger (GDB) on Linux, but users report issues such as non-functional font changes and variable hover errors.</li>
-<li>Despite its current flaws, Seer has potential if further developed, with users comparing it to other tools like Gede, which is noted for its simplicity and reliability.</li>
-<li>Discussions highlight various debugging preferences, including GDB&#39;s built-in text user interface (TUI), Neovim, gdb-dashboard, and DDD, with some users favoring logging over debuggers for complex scenarios.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Visual Basic 6 IDE recreated in C#" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Visual%20Basic%206%20IDE%20recreated%20in%20C%23&subheading=Friday%2C%20November%2015%2C%202024%3A%20Hacker%20News%20Summary" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/2024/11/15</link>
-            <guid isPermaLink="false">2024-11-15T00:00:00.000Z</guid>
-            <pubDate>Fri, 15 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
