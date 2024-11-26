@@ -1,0 +1,292 @@
+[
+  {
+    "id": 42240678,
+    "title": "Amazon S3에 Put-If-Match(비교 및 교환) 기능 추가",
+    "originLink": "https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-s3-functionality-conditional-writes/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42240678",
+    "commentBody": "",
+    "originSummary": [
+      "Amazon S3는 조건부 쓰기를 도입하여 객체가 수정되지 않은 경우에만 업데이트를 가능하게 하며, 객체의 ETag를 검증하여 동시 덮어쓰기를 방지합니다. 이 기능은 HTTP의 if-none-match 헤더와 유사하며, 클라이언트가 if-match 헤더를 사용하여 쓰기 전에 ETag 일관성을 보장할 수 있게 하여 분산 애플리케이션의 효율성을 향상시킵니다. 모든 AWS 리전에서 추가 비용 없이 사용할 수 있으며, AWS SDK, API 또는 CLI를 사용하여 구현할 수 있으며, 자세한 내용은 S3 사용자 가이드에서 확인할 수 있습니다."
+    ],
+    "commentSummary": [
+      "Amazon S3는 Put-If-Match라는 새로운 기능을 출시했습니다. 이 기능은 비교 및 교환 작업처럼 작동하여 버전 일치를 기반으로 조건부 객체 쓰기를 허용합니다. 이 기능은 동기화 및 동시성 제어를 개선하여 개발자가 추가 인프라 없이 S3에서 데이터베이스를 구축하는 것과 같은 더 복잡한 작업을 수행할 수 있게 합니다. 이번 업데이트는 Amazon S3를 Google Cloud Storage 및 Azure Blob Storage와 같은 다른 클라우드 스토리지 서비스에서 제공하는 유사한 기능과 일치시킵니다."
+    ],
+    "points": 468,
+    "commentCount": 145,
+    "retryCount": 0,
+    "time": 1732572691
+  },
+  {
+    "id": 42243500,
+    "title": "우리가 Golang을 계속 사용하기 위해 스스로에게 하는 거짓말 (2022)",
+    "originLink": "https://fasterthanli.me/articles/lies-we-tell-ourselves-to-keep-using-golang",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42243500",
+    "commentBody": "",
+    "originSummary": [
+      "이 기사는 Golang을 비판하며 비동기 런타임과 가비지 컬렉터 같은 매력적인 기능이 있지만, 합계 유형의 부재와 불충분한 오류 처리와 같은 중요한 단점도 있다고 지적합니다. Go의 단순함이 겉보기에는 매력적일 수 있지만, 이는 생산 환경에서 숨겨진 복잡성과 도전에 이르게 할 수 있으며, 이러한 문제를 인식하는 것이 중요하다고 강조합니다. 기사는 Go를 Rust와 비교하며, Rust가 도전 과제를 가지고 있음에도 불구하고 복잡성을 관리하고 코드의 정확성을 보장하는 데 더 강력한 솔루션을 제공한다고 제안합니다."
+    ],
+    "commentSummary": [
+      "이 기사는 Go의 오류 처리 방식을 비판하며, 일부 사람들이 더 우아하다고 생각하는 Rust의 보다 정교한 접근 방식과 대조하고 있습니다.",
+      "의견이 분분하다: 어떤 사람들은 Go의 단순함과 명시적인 오류 처리를 높이 평가하는 반면, 다른 사람들은 그것이 지루하고 오류가 발생하기 쉽다고 생각한다.",
+      "비판에도 불구하고, Go는 그 단순함과 대기업들에 의한 광범위한 채택 덕분에 여전히 인기가 있다."
+    ],
+    "points": 281,
+    "commentCount": 366,
+    "retryCount": 0,
+    "time": 1732608093
+  },
+  {
+    "id": 42242971,
+    "title": "사이버트럭의 여러 리콜",
+    "originLink": "https://www.wired.com/story/cybertrucks-many-recalls-make-it-worse-than-91-percent-of-all-2024-vehicles/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42242971",
+    "commentBody": "",
+    "originSummary": [
+      "테슬라 사이버트럭은 출시 이후 여러 차례 리콜을 겪었으며, 최근에는 2,400대 이상의 차량에 영향을 미치는 결함 있는 드라이브 인버터와 관련된 리콜이 발생하여 신뢰성에 대한 우려를 불러일으키고 있습니다.",
+      "품질 문제에도 불구하고, 사이버트럭의 독특한 디자인은 여전히 구매자들을 끌어들이고 있지만, 유럽 안전 기준을 충족하지 못하는 점이 시장 범위를 제한하고 있다.",
+      "리콜은 규제의 효과를 보여주지만, 특히 엘론 머스크가 미국 규제에 미치는 상당한 영향력을 고려할 때 테슬라의 브랜드 평판에 해를 끼칠 수 있습니다."
+    ],
+    "commentSummary": [],
+    "points": 267,
+    "commentCount": 393,
+    "retryCount": 0,
+    "time": 1732601537
+  },
+  {
+    "id": 42243746,
+    "title": "데이터에 따르면 Y Combinator는 종종 다른 YC 회사들을 복제하는 스타트업을 지원합니다.",
+    "originLink": "https://techcrunch.com/2024/11/22/y-combinator-often-backs-startups-that-duplicate-other-yc-companies-data-shows-its-not-just-ai-code-editors/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42243746",
+    "commentBody": "",
+    "originSummary": [
+      "Y Combinator(YC)는 유명한 스타트업 엑셀러레이터로, Airbnb와 Stripe와 같은 성공적인 회사를 출범시킨 것으로 알려져 있지만, 많은 YC 스타트업들이 이전 YC 회사들과 유사하거나 동일한 제품을 개발하고 있습니다.",
+      "PearAI 논란은 이 경향을 부각시켰는데, PearAI가 다른 YC 제품을 복제했다는 비난을 받았으나 YC CEO인 Garry Tan은 선택과 혁신의 중요성을 언급하며 이 관행을 옹호했다.",
+      "Deckmatch의 YC 트렌드 분석에 따르면 인기 있는 스타트업 카테고리에는 AI 코드 편집기, 레스토랑 PoS 시스템, 비즈니스 금융 도구가 포함되며, 암호화폐 거래와 같은 일부 분야는 관심이 감소하고 있는 것으로 나타났습니다."
+    ],
+    "commentSummary": [
+      "Y Combinator는 종종 다른 YC 지원 기업을 모방하는 스타트업에 투자하며, 독창적인 아이디어보다 창업자의 잠재력을 우선시합니다. 이 전략은 유사한 개념에 대한 베팅을 분산하는 방법으로 간주되며, 성공은 종종 아이디어의 독창성보다는 실행력과 타이밍에 달려 있습니다. 일부는 이를 이해 상충의 가능성으로 보지만, 동일한 분야의 여러 회사를 지원하여 시장을 검증하고 성공 가능성을 높이는 것은 일반적인 벤처 캐피털 관행입니다."
+    ],
+    "points": 240,
+    "commentCount": 133,
+    "retryCount": 0,
+    "time": 1732611000
+  },
+  {
+    "id": 42241851,
+    "title": "Fly.io 장애 - 해결됨",
+    "originLink": "https://status.flyio.net",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42241851",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Fly.io는 일시적인 장애를 겪었으나 해결되었으며, 과거 사건들로 인해 플랫폼의 신뢰성에 대한 사용자들의 우려를 불러일으켰습니다. 사용자들은 Fly.io를 Railway와 Cloudflare 같은 대안과 비교하며 신뢰성, 기능, 사용자 경험의 차이점을 강조했습니다. 이러한 도전에도 불구하고 일부 사용자들은 Fly.io의 사용 용이성과 경쟁력 있는 가격을 높이 평가하며, 논의에서는 높은 가용성과 의존성 모니터링의 중요성이 강조되었습니다."
+    ],
+    "points": 227,
+    "commentCount": 217,
+    "retryCount": 0,
+    "time": 1732585645
+  },
+  {
+    "id": 42239721,
+    "title": "자동차 라이다 기술에 대한 간단한 소개",
+    "originLink": "https://www.viksnewsletter.com/p/short-intro-to-automotive-lidar",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239721",
+    "commentBody": "",
+    "originSummary": [
+      "Vik의 뉴스레터는 자동차 라이다 기술을 깊이 탐구하며, 이는 적외선 레이저를 사용하여 고해상도 이미지를 생성할 수 있는 능력 덕분에 자율주행차에 필수적입니다. 뉴스레터는 파장 선택, 광검출기, 비행 시간 및 주파수 변조 연속파와 같은 거리 측정 기술을 포함한 라이다의 작동 원리를 논의합니다. 또한 기계식 및 고체 상태 옵션과 같은 다양한 라이다 시스템을 검토하여 비용을 절감하고 자율주행차의 광범위한 채택을 위해 기술을 향상시키는 것을 목표로 합니다."
+    ],
+    "commentSummary": [
+      "자동차 라이다 기술은 발전하고 있으며, Velodyne의 회전 스캐너가 높은 비용에도 불구하고 사용되고 있는 반면, 플래시 라이다와 MEMS 미러와 같은 대안은 시장 및 기술적 도전에 직면해 있습니다.",
+      "Waymo가 회전식 라이다를 계속 사용하는 것은, 특히 차량의 취약한 모서리에서도, 보다 저렴하고 통합된 솔루션의 필요성을 강조합니다. 이는 펄스 라이다가 연속 시스템에 비해 간섭을 줄여주기 때문입니다.",
+      "Lidar는 고해상도 이미징을 제공하고 저조도 조건에서도 잘 작동하지만, 비용 문제로 인해 Tesla와 같은 일부 회사가 선호하는 카메라 기반 시스템과 경쟁하고 있으며, 이는 자율 주행에 대한 최적의 접근 방식에 대한 지속적인 논쟁을 촉발하고 있습니다."
+    ],
+    "points": 219,
+    "commentCount": 157,
+    "retryCount": 0,
+    "time": 1732565547
+  },
+  {
+    "id": 42239952,
+    "title": "REAL-ID 규정을 읽기 위해 신분증이 필요합니까?",
+    "originLink": "https://papersplease.org/wp/2024/11/25/do-you-need-id-to-read-the-real-id-rules/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239952",
+    "commentBody": "",
+    "originSummary": [
+      "미국 교통안전청(TSA)의 새로운 디지털 ID 규칙에 접근하려는 시도는 REAL-ID 법안과 관련된 문제를 드러냈습니다. 이 규칙은 공개적으로 접근할 수 없으며 접근을 위해 신분증이 필요하여 비밀 법률과 적법 절차에 대한 우려를 불러일으켰습니다.",
+      "TSA의 디지털 ID 표준은 민간 문서에서 파생된 것으로, 앱, 기기 및 정부 기관 간의 복잡한 상호작용을 포함하며, 기록된 ID 사용에 대한 개인정보 보호 우려가 있습니다.",
+      "저자는 TSA의 관행이 대중의 접근 권리를 침해한다고 주장하며, 이 문제를 연방 관보국에 보고하여 규칙 철회를 요청했습니다."
+    ],
+    "commentSummary": [
+      "논의는 REAL-ID 규칙에 접근하기 위해 신분증이 필요하다는 점을 중심으로 진행되며, 일부 사용자들은 TSA의 보안 조치의 효과에 의문을 제기하고 있습니다. - 모바일 운전면허증(mDLs)과 이로 인한 프라이버시 문제에 대한 우려가 제기되고 있습니다. - 사용자들은 TSA의 효과와 보안 연극의 개념에 대해 회의적이며, REAL-ID와 mDLs 같은 디지털 신분증의 장기적인 영향에 대해서도 의문을 제기하고 있습니다."
+    ],
+    "points": 212,
+    "commentCount": 82,
+    "retryCount": 0,
+    "time": 1732567234
+  },
+  {
+    "id": 42244814,
+    "title": "J. Kenji Lopez-Alt (2021)의 양파 문제에 대한 해결책",
+    "originLink": "https://medium.com/@drspoulsen/a-solution-to-the-onion-problem-of-j-kenji-l%C3%B3pez-alt-c3c4ab22e67c",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42244814",
+    "commentBody": "",
+    "originSummary": [
+      "이 게시물은 '양파 문제'를 다루고 있으며, 이는 슬라이스의 부피 변동을 최소화하여 균일성을 달성하기 위해 양파를 자르는 것과 관련이 있습니다. 미적분학을 사용한 수학적 탐구를 통해 최적의 절단 지점이 양파 중심에서 55.73066% 아래라는 것이 밝혀졌으며, 이를 '진정한 양파 상수'라고 명명했습니다. 이 발견은 중심에서 60% 아래로 자르라는 이전의 제안을 정밀하게 개선하여 더 균일한 양파 슬라이스를 위한 방법을 제공합니다."
+    ],
+    "commentSummary": [
+      "이 논의는 J. Kenji Lopez-Alt에 의해 영감을 받은 양파를 고르게 자르는 수학적 모델을 탐구하며, 반원 디스크 표현을 사용하여 기하학을 단순화하고 슬라이스 크기 변동을 최소화합니다. 사용자들은 양파의 3D 구조와 비균일한 층을 고려하여 모델의 실용성과 정확성에 대해 토론하며, 대체 절단 방법이나 도구를 제안합니다. 또한, 대화는 Adam Ragusea와 같은 음식 인물을 참조하여 균일성과 요리 선호도 간의 균형을 고려합니다."
+    ],
+    "points": 177,
+    "commentCount": 67,
+    "retryCount": 0,
+    "time": 1732621091
+  },
+  {
+    "id": 42239607,
+    "title": "Redis는 모든 OSS Redis 라이브러리를 장악하려고 하고 있습니다.",
+    "originLink": "https://twitter.com/TomHacohen/status/1861137484249252093",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239607",
+    "commentBody": "",
+    "originSummary": [
+      "Redis는 보고에 따르면 Jedis, Lettuce, redis-py와 같은 인기 있는 라이브러리를 포함하여 모든 오픈 소스 소프트웨어(OSS) Redis 라이브러리를 통제하고 있다고 합니다.",
+      "현재 이 라이브러리들은 작동하지 않으며, 또 다른 라이브러리인 redis-rs도 잠재적인 제어 또는 종료에 직면해 있습니다.",
+      "이 상황은 개발자들이 자신의 애플리케이션에서 Redis 통합을 위해 이러한 라이브러리에 의존하기 때문에 중요합니다."
+    ],
+    "commentSummary": [
+      "Redis Inc.는 오픈 소스 Redis 라이브러리를 통제하기 시작하여 논란을 일으키고 있으며, 일부 개발자들은 상표권 집행 문제로 인해 Redis 종속성을 제거하고 있습니다.",
+      "redis-py, Lettuce, Jedis와 같은 라이브러리는 Valkey와 같은 경쟁자에 대한 방어 전략으로 Redis Inc.의 공식 조직 하에 이동되었습니다.",
+      "커뮤니티는 상표권 주장과 잠재적인 공급업체 종속에 대해 우려하고 있으며, Valkey와 Kvrocks와 같은 대안에 대한 논의를 촉발하고 오픈 소스 프로젝트에서 상표권 집행의 어려움을 강조하고 있습니다."
+    ],
+    "points": 150,
+    "commentCount": 81,
+    "retryCount": 0,
+    "time": 1732564808
+  },
+  {
+    "id": 42243755,
+    "title": "Setelinleikkaus: 핀란드 사람들이 인플레이션을 억제하기 위해 현금을 반으로 잘랐을 때",
+    "originLink": "http://jpkoning.blogspot.com/2024/11/setelinleikkaus-when-finns-snipped.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42243755",
+    "commentBody": "",
+    "originSummary": [
+      "1945년 핀란드는 제2차 세계 대전 이후의 인플레이션을 억제하기 위해 시민들이 큰 지폐를 반으로 자르도록 요구하는 '세텔린레이카우스' 정책을 시행했습니다. 이 정책에서는 한쪽 절반은 가치를 유지하고 다른 절반은 정부 채권이 되었습니다. 그러나 이 정책은 물리적 현금만을 대상으로 했기 때문에 비효율적이었으며, 이는 벨기에와 같은 다른 유럽 국가에서의 더 성공적인 개혁과는 달랐습니다. 이 기사는 미래의 인플레이션 통제가 디지털 계좌 동결을 포함할 수 있다고 추측하며, 이는 더 정밀하지만 잠재적으로 논란이 될 수 있는 방법입니다."
+    ],
+    "commentSummary": [
+      "1945년 핀란드는 인플레이션 문제를 독특하게 해결하기 위해 지폐를 반으로 잘라내는 방법을 사용했는데, 이는 금리를 조정하는 현대적인 방법과 대조적이다.",
+      "이 역사적 접근 방식은 중앙은행이 금리를 통해 인플레이션을 관리하고 공개 시장 조작을 수행하는 현재의 통화 정책에 대한 논의를 촉발했습니다.",
+      "디지털 화폐의 잠재적인 미래 통제, 특히 중앙은행 디지털 화폐를 통한 통제는 개인 재정에 대한 정부의 감독이 증가할 것이라는 우려를 불러일으킵니다."
+    ],
+    "points": 145,
+    "commentCount": 131,
+    "retryCount": 0,
+    "time": 1732611120
+  },
+  {
+    "id": 42239487,
+    "title": "기도, 배치 및 면죄: 이슬람 기도 양탄자에 대한 피터 흐리스토프의 견해 (2015)",
+    "originLink": "https://www.metmuseum.org/perspectives/peter-hristoff-islamic-prayer-rugs",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239487",
+    "commentBody": "",
+    "originSummary": [
+      "Peter Hristoff의 예술 작품은 특히 기도용 양탄자를 매개로 하여 예술과 영성의 교차점을 탐구하며, 1997년부터 시작되었습니다. 그의 작품은 드로잉과 실크스크린 프린트를 포함하여, 터키의 양탄자와 킬림에서 영감을 받아 상징적 의미를 지닌 개인 일기로 보는 쌀 종이에 그려진 더 큰 '양탄자' 작품으로 발전합니다. Hristoff의 작품은 기쁨과 슬픔이 혼합된 '밝은 슬픔'을 구현하며, 이는 바르톨로메오 총대주교의 글에서 영향을 받았고, 인간 본성의 영적 및 물리적 측면을 계속 탐구합니다."
+    ],
+    "commentSummary": [
+      "Peter Hristoff의 기사는 이슬람 기도용 양탄자의 중요성을 탐구하며, 하나님의 무한함을 상징하는 테셀레이션과 같은 복잡한 디자인을 강조합니다. 이 기사는 이슬람에서의 구상 예술 금지로 인해 이슬람 유물에서 서예와 기하학적 패턴이 사용되는 것을 논의합니다. 또한 기도용 양탄자의 역사적 및 문화적 맥락을 강조하며, 기독교를 포함한 다양한 종교 전통에서의 사용과 그 실용적 및 영적 역할을 언급합니다."
+    ],
+    "points": 123,
+    "commentCount": 61,
+    "retryCount": 0,
+    "time": 1732563945
+  },
+  {
+    "id": 42239263,
+    "title": "데노 vs. 오라클: 자바스크립트 상표 취소",
+    "originLink": "https://deno.com/blog/deno-v-oracle",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239263",
+    "commentBody": "",
+    "originSummary": [
+      "Deno는 'JavaScript'에 대한 Oracle의 상표를 취소하여 이를 공공재로 만들고 사용에 대한 법적 장벽을 제거하기 위해 미국 특허청(USPTO)에 청원을 제출했습니다.",
+      "청원서는 'JavaScript'가 일반적인 용어이며, 오라클이 상표 갱신 시 사기를 저질렀고, 오라클이 사용하지 않음으로써 상표를 포기했다고 주장합니다.",
+      "14,000명이 넘는 개발자가 Deno의 움직임을 지지하고 있으며, Oracle은 2025년 1월 4일까지 응답해야 하며, Deno는 모든 진행 상황을 커뮤니티와 공유할 준비가 되어 있습니다."
+    ],
+    "commentSummary": [
+      "Deno는 미국 특허청(USPTO)에 오라클의 JavaScript 상표를 취소해 달라는 청원을 제출하여 상표 윤리와 커뮤니티 이익에 대한 논쟁을 촉발했습니다.",
+      "논의는 Deno의 Node 패키지 관리자(NPM)와의 호환성 및 더 넓은 JavaScript 생태계에 미치는 영향에 관한 것으로, JavaScript의 미래와 런타임 환경에 대한 다양한 의견을 반영하고 있습니다.",
+      "의견이 분분한 가운데, 일부는 오라클의 상표 사용을 비윤리적으로 보고 있으며, 다른 사람들은 데노의 의도를 의심하며 이것이 홍보 전략일 수 있다고 제안하고 있다."
+    ],
+    "points": 120,
+    "commentCount": 23,
+    "retryCount": 0,
+    "time": 1732562433
+  },
+  {
+    "id": 42244987,
+    "title": "Jekyll용 SQLite 플러그인",
+    "originLink": "https://github.com/captn3m0/jekyll-sqlite",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42244987",
+    "commentBody": "",
+    "originSummary": [
+      "저자는 인기 있는 정적 사이트 생성기인 Jekyll 내에서 데이터 조작 기능을 향상시키기 위해 Jekyll SQLite 플러그인을 개발했습니다.",
+      "이 플러그인은 사용자가 데이터 조작을 위한 SQL 쿼리를 수행할 수 있게 하여 복잡한 데이터 작업을 처리하는 데 있어 Jekyll의 템플릿 언어인 Liquid의 한계를 해결합니다.",
+      "이 플러그인은 Northwind 데이터셋을 사용하여 1년 동안 실제 환경에서 성공적으로 사용되었으며, 저자는 개선을 위한 피드백과 제안을 요청하고 있습니다."
+    ],
+    "commentSummary": [
+      "Jekyll SQLite 플러그인은 Jekyll에서 SQLite를 데이터 소스로 사용할 수 있게 하여 SQL을 통한 데이터 조작 기능을 향상시킵니다. 이 플러그인은 Jekyll의 Datafiles 및 Data Pages 생성기 기능과 통합되어 전통적인 CSV/JSON/YAML 형식을 넘어 복잡한 데이터 처리를 가능하게 합니다. 이 플러그인은 1년 동안 운영되었으며, 정적 사이트 생성을 보다 동적이고 유연하게 만들어준다는 긍정적인 피드백을 받고 있습니다."
+    ],
+    "points": 119,
+    "commentCount": 35,
+    "retryCount": 0,
+    "time": 1732623091
+  },
+  {
+    "id": 42241702,
+    "title": "조기 백발: 최신 정보와 함께하는 리뷰",
+    "originLink": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6290285/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42241702",
+    "commentBody": "",
+    "originSummary": [
+      "조기 백발(PGH)은 백인에서는 20세 이전, 아프리카계 미국인에서는 30세 이전에 머리가 하얗게 변하는 것으로 정의되며, 이는 자존감에 영향을 미칩니다. PGH의 원인은 완전히 이해되지 않았지만 노화 장애, 자가면역 질환, 산화 스트레스와 관련이 있으며 흡연과 영양 결핍과 같은 요인이 기여합니다. PGH의 일반적인 치료법으로는 염색약과 영양 보충제가 있으며, 연구에 따르면 PGH는 감정적 요인, 유전적 소인, 환경적 영향과 관련이 있는 것으로 나타났습니다."
+    ],
+    "commentSummary": [
+      "조기 백발은 비타민 B12 결핍과 관련이 있으며, 특히 비타민 B12를 제대로 흡수할 수 없는 상태인 악성 빈혈을 가진 개인에게서 나타납니다. B12 결핍을 진단하는 것은 어려울 수 있는데, 이는 보충제가 B12 수치를 인위적으로 증가시킬 수 있고, 일부 개인은 특정 형태의 B12를 활성 형태로 전환할 수 없어 '역설적 B12 결핍'을 초래할 수 있기 때문입니다. 스트레스, 유전, 자가면역 갑상선염과 같은 건강 상태도 백발에 기여하며, 일부 보충제가 도움이 될 수 있지만 백발을 되돌리는 입증된 방법은 없습니다."
+    ],
+    "points": 110,
+    "commentCount": 98,
+    "retryCount": 0,
+    "time": 1732583700
+  },
+  {
+    "id": 42245170,
+    "title": "LLVM 기반의 비가상화",
+    "originLink": "https://blog.thalium.re/posts/llvm-powered-devirtualization/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42245170",
+    "commentBody": "",
+    "originSummary": [
+      "Thalium에서의 인턴십은 LLVM이라는 컴파일러 프레임워크를 사용하여 가상화된 바이너리를 디옵스케이트하는 데 중점을 두었으며, 특히 악성코드의 맥락에서 코드를 더 이해하기 쉽게 만드는 것이 목표였습니다. 가상화는 Tigress와 VMProtect 같은 도구들이 사용하는 강력한 난독화 기법으로, 프로그램을 가상 명령어로 인코딩하여 리버스 엔지니어링을 복잡하게 만듭니다. 이 프로젝트는 동적 오염 분석을 성공적으로 사용하여 Tigress로 난독화된 바이너리의 제어 흐름 그래프를 재구성했지만, 순수 함수와 단일 실행 경로로 제한되었습니다."
+    ],
+    "commentSummary": [
+      "LLVM 기반의 비가상화는 가상 함수 호출을 최적화하여 성능을 향상시키며, 이는 일반적으로 동적 특성 때문에 더 느립니다.",
+      "Bochs라는 CPU 에뮬레이터는 i7에서 펜티엄 4 프로세서를 효율적으로 에뮬레이트할 수 있으며, 심지어 가상 머신 탐지기를 우회할 수도 있습니다.",
+      "Bochs 디버거는 특히 악성 코드 및 코드 난독화 도구를 분석하고 대응하는 데 효과적이어서 보안 연구에 귀중한 도구가 됩니다."
+    ],
+    "points": 107,
+    "commentCount": 1,
+    "retryCount": 0,
+    "time": 1732624714
+  }
+]

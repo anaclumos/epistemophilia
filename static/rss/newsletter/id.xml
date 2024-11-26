@@ -15,12 +15,166 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 25 Nov 2024 19:40:15 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Nov 2024 19:20:17 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/id.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
+        <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[id]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-11-26]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/11/26&#39;</h2>
+<h1>2024-11-26</h1>
+<h2><a href="https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-s3-functionality-conditional-writes/">Amazon S3 Menambahkan Put-If-Match (Bandingkan-dan-Tukar)</a></h2>
+<ul>
+<li>Amazon S3 memperkenalkan penulisan bersyarat, memungkinkan pembaruan hanya jika sebuah objek tetap tidak dimodifikasi, mencegah penulisan ulang bersamaan dengan memverifikasi ETag objek. Fitur ini, mirip dengan header HTTP if-none-match, memungkinkan klien menggunakan header if-match untuk memastikan konsistensi ETag sebelum menulis, meningkatkan efisiensi untuk aplikasi terdistribusi. Tersedia tanpa biaya tambahan di semua Wilayah AWS, implementasi dapat dilakukan menggunakan AWS SDK, API, atau CLI, dengan detail lebih lanjut di Panduan Pengguna S3.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42240678">Reaksi</a></h3>
+<ul>
+<li>Amazon S3 telah meluncurkan fitur baru yang disebut Put-If-Match, yang berfungsi seperti operasi compare-and-swap, memungkinkan penulisan objek bersyarat berdasarkan pencocokan versi. Fitur ini meningkatkan sinkronisasi dan kontrol konkurensi, memungkinkan pengembang untuk melakukan operasi yang lebih kompleks, seperti membangun basis data di S3 tanpa infrastruktur tambahan. Pembaruan ini membuat Amazon S3 sejalan dengan fitur serupa yang ditawarkan oleh layanan penyimpanan awan lainnya seperti Google Cloud Storage dan Azure Blob Storage.</li>
+</ul>
+<h2><a href="https://fasterthanli.me/articles/lies-we-tell-ourselves-to-keep-using-golang">Lies we tell ourselves to keep using Golang (2022)</a></h2>
+<ul>
+<li>Artikel tersebut mengkritik Golang, mencatat bahwa meskipun memiliki fitur menarik seperti runtime asinkron dan pengumpul sampah, Golang juga memiliki kelemahan signifikan, seperti ketiadaan tipe jumlah dan penanganan kesalahan yang tidak memadai. Artikel ini berpendapat bahwa kesederhanaan yang dipersepsikan dari Go bisa menipu, yang mengarah pada kompleksitas tersembunyi dan tantangan di lingkungan produksi, dan menekankan pentingnya mengenali masalah ini daripada mengadopsi Go semata-mata karena kemudahan penggunaannya. Artikel ini membandingkan Go dengan Rust, menyarankan bahwa meskipun Rust memiliki tantangan, Rust memberikan solusi yang lebih kuat untuk mengelola kompleksitas dan memastikan kebenaran kode.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42243500">Reaksi</a></h3>
+<ul>
+<li>Artikel tersebut mengkritik penanganan kesalahan dalam Go, dengan membandingkannya dengan pendekatan Rust yang lebih canggih, yang oleh beberapa orang dianggap lebih elegan.</li>
+<li>Terdapat perbedaan pendapat: beberapa orang menghargai kesederhanaan dan penanganan kesalahan eksplisit dari Go, sementara yang lain menganggapnya membosankan dan rentan terhadap kesalahan.</li>
+<li>Meskipun ada kritik, Go tetap populer karena kesederhanaannya dan adopsi yang luas oleh perusahaan-perusahaan besar.</li>
+</ul>
+<h2><a href="https://www.wired.com/story/cybertrucks-many-recalls-make-it-worse-than-91-percent-of-all-2024-vehicles/">Berbagai Penarikan Kembali Cybertruck</a></h2>
+<ul>
+<li>Tesla Cybertruck telah mengalami beberapa penarikan kembali sejak peluncurannya, dengan yang terbaru melibatkan inverter penggerak yang rusak yang mempengaruhi lebih dari 2.400 unit, menimbulkan kekhawatiran tentang keandalannya.</li>
+<li>Meskipun ada masalah kualitas, desain unik Cybertruck terus menarik pembeli, meskipun ketidakmampuannya untuk memenuhi standar keselamatan Eropa membatasi jangkauan pasarnya.</li>
+<li>Penarikan kembali, meskipun menunjukkan efektivitas regulasi, dapat merusak reputasi merek Tesla, terutama mengingat pengaruh signifikan Elon Musk terhadap regulasi di AS.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42242971">Reaksi</a></h3>
+<h2><a href="https://techcrunch.com/2024/11/22/y-combinator-often-backs-startups-that-duplicate-other-yc-companies-data-shows-its-not-just-ai-code-editors/">Y Combinator sering mendukung startup yang menduplikasi perusahaan YC lainnya, data menunjukkan</a></h2>
+<ul>
+<li>Y Combinator (YC), sebuah akselerator startup terkemuka, dikenal karena meluncurkan perusahaan-perusahaan sukses seperti Airbnb dan Stripe, tetapi banyak dari startupnya membangun produk yang serupa atau identik dengan perusahaan YC sebelumnya.</li>
+<li>Kontroversi PearAI menyoroti tren ini, di mana PearAI dituduh meniru produk YC lainnya, namun CEO YC Garry Tan membela praktik tersebut, dengan menyebut pentingnya pilihan dan inovasi.</li>
+<li>Analisis tren YC oleh Deckmatch menunjukkan bahwa kategori startup yang populer meliputi editor kode AI, sistem PoS restoran, dan alat keuangan bisnis, dengan beberapa area seperti perdagangan kripto mengalami penurunan minat.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42243746">Reaksi</a></h3>
+<ul>
+<li>Y Combinator sering berinvestasi dalam startup yang meniru perusahaan lain yang didukung oleh YC, dengan memprioritaskan potensi pendiri daripada ide yang unik. Strategi ini dipandang sebagai cara untuk mengurangi risiko pada konsep yang serupa, karena kesuksesan sering kali bergantung pada pelaksanaan dan waktu, bukan pada orisinalitas ide. Meskipun beberapa orang melihat ini sebagai potensi konflik kepentingan, ini adalah praktik umum dalam modal ventura untuk mendanai beberapa perusahaan di sektor yang sama guna memvalidasi pasar dan meningkatkan kemungkinan keberhasilan.</li>
+</ul>
+<h2><a href="https://status.flyio.net">Pemadaman Fly.io – telah diselesaikan</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42241851">Reaksi</a></h3>
+<ul>
+<li>Fly.io mengalami gangguan sementara, yang telah diselesaikan, tetapi hal ini menimbulkan kekhawatiran pengguna tentang keandalan platform tersebut karena insiden-insiden sebelumnya. Pengguna membandingkan Fly.io dengan alternatif seperti Railway dan Cloudflare, menyoroti perbedaan dalam keandalan, fitur, dan pengalaman pengguna. Meskipun ada tantangan, beberapa pengguna menghargai Fly.io karena kemudahan penggunaannya dan harga yang kompetitif, sementara diskusi menekankan pentingnya ketersediaan tinggi dan pemantauan ketergantungan.</li>
+</ul>
+<h2><a href="https://www.viksnewsletter.com/p/short-intro-to-automotive-lidar">Pengantar Singkat tentang Teknologi Lidar Otomotif</a></h2>
+<ul>
+<li>Newsletter Vik membahas teknologi lidar otomotif, yang penting untuk mobil self-driving karena kemampuannya menghasilkan gambar resolusi tinggi menggunakan laser inframerah. Newsletter ini membahas prinsip operasi lidar, termasuk pilihan panjang gelombang, fotodetektor, dan teknik pengukuran jarak seperti Time-of-Flight dan Frequency Modulated Continuous Wave. Selain itu, juga meneliti berbagai sistem lidar, seperti opsi mekanis dan solid-state, dengan tujuan mengurangi biaya dan meningkatkan teknologi untuk adopsi yang lebih luas dalam kendaraan otonom.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239721">Reaksi</a></h3>
+<ul>
+<li>Teknologi lidar otomotif sedang berkembang, dengan pemindai berputar seperti milik Velodyne yang digunakan meskipun biayanya tinggi, sementara alternatif seperti flash lidar dan cermin MEMS menghadapi tantangan pasar dan teknis.</li>
+<li>Penggunaan berkelanjutan lidar berputar oleh Waymo, bahkan di sudut-sudut kendaraan yang rentan, menekankan kebutuhan akan solusi yang lebih terjangkau dan terintegrasi, karena lidar berdenyut menawarkan gangguan yang lebih rendah dibandingkan dengan sistem kontinu.</li>
+<li>Lidar menyediakan pencitraan beresolusi tinggi dan berfungsi dengan baik dalam kondisi cahaya rendah, tetapi menghadapi persaingan dari sistem berbasis kamera, yang disukai beberapa perusahaan, seperti Tesla, karena alasan biaya, memicu perdebatan yang berkelanjutan tentang pendekatan terbaik untuk mengemudi otonom.</li>
+</ul>
+<h2><a href="https://papersplease.org/wp/2024/11/25/do-you-need-id-to-read-the-real-id-rules/">Apakah Anda memerlukan ID untuk membaca aturan REAL-ID?</a></h2>
+<ul>
+<li>Upaya untuk mengakses aturan ID digital baru TSA mengungkapkan masalah dengan Undang-Undang REAL-ID, karena aturan tersebut tidak dapat diakses secara publik dan memerlukan ID untuk akses, menimbulkan kekhawatiran tentang hukum rahasia dan proses hukum yang adil.</li>
+<li>TSA memiliki standar ID digital yang berasal dari dokumen pribadi, yang melibatkan interaksi kompleks antara aplikasi, perangkat, dan lembaga pemerintah, dengan kekhawatiran privasi terkait penggunaan ID yang dicatat.</li>
+<li>Penulis berpendapat bahwa praktik TSA melanggar hak akses publik dan telah melaporkan masalah ini ke Kantor Pendaftaran Federal, dengan tujuan untuk menarik kembali aturan tersebut.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239952">Reaksi</a></h3>
+<ul>
+<li>Diskusi berpusat pada kebutuhan memiliki ID untuk mengakses aturan REAL-ID, dengan beberapa pengguna mempertanyakan efektivitas langkah-langkah keamanan TSA. Kekhawatiran muncul tentang implikasi dari lisensi pengemudi seluler (mDLs) dan masalah privasi yang mungkin ditimbulkannya. Pengguna menyatakan skeptisisme tentang efektivitas TSA dan konsep teater keamanan, sambil juga mempertanyakan implikasi jangka panjang dari ID digital seperti REAL-ID dan mDLs.</li>
+</ul>
+<h2><a href="https://medium.com/@drspoulsen/a-solution-to-the-onion-problem-of-j-kenji-l%C3%B3pez-alt-c3c4ab22e67c">Solusi untuk masalah The Onion dari J. Kenji Lopez-Alt (2021)</a></h2>
+<ul>
+<li>Tulisan tersebut membahas &quot;Masalah Bawang,&quot; yang melibatkan pemotongan bawang untuk mencapai varians minimal dalam volume irisan demi keseragaman. - Sebuah eksplorasi matematis menggunakan kalkulus menentukan titik potong optimal adalah 55,73066% di bawah pusat bawang, yang disebut sebagai &quot;konstanta bawang sejati.&quot; - Temuan ini menyempurnakan saran sebelumnya untuk memotong menuju titik 60% di bawah pusat, memberikan metode yang lebih tepat untuk irisan bawang yang merata.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42244814">Reaksi</a></h3>
+<ul>
+<li>Diskusi tersebut mengeksplorasi model matematika untuk memotong bawang secara merata, terinspirasi oleh J. Kenji Lopez-Alt, dengan menggunakan representasi setengah lingkaran untuk menyederhanakan geometri dan meminimalkan variasi ukuran irisan. Pengguna memperdebatkan kepraktisan dan akurasi model tersebut, dengan mempertimbangkan struktur 3D bawang dan lapisan yang tidak seragam, serta menyarankan metode atau alat pemotongan alternatif. Percakapan juga mempertimbangkan keseimbangan antara keseragaman dan preferensi kuliner, merujuk pada tokoh kuliner seperti Adam Ragusea.</li>
+</ul>
+<h2><a href="https://twitter.com/TomHacohen/status/1861137484249252093">Redis sedang berusaha mengambil alih semua pustaka Redis OSS.</a></h2>
+<ul>
+<li>Redis dilaporkan mengambil alih semua perpustakaan perangkat lunak sumber terbuka (OSS) Redis, yang mencakup perpustakaan populer seperti Jedis, Lettuce, dan redis-py.</li>
+<li>Perpustakaan-perpustakaan ini saat ini sedang tidak berfungsi, dan perpustakaan lain, redis-rs, juga menghadapi potensi pengendalian atau penutupan.</li>
+<li>Situasi ini penting karena mempengaruhi pengembang yang bergantung pada pustaka-pustaka ini untuk integrasi Redis dalam aplikasi mereka.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239607">Reaksi</a></h3>
+<ul>
+<li>Redis Inc. mengambil alih kendali atas pustaka Redis sumber terbuka, memicu kontroversi dan menyebabkan beberapa pengembang menghapus ketergantungan Redis karena masalah penegakan merek dagang.</li>
+<li>Libraries seperti redis-py, Lettuce, dan Jedis telah dipindahkan di bawah organisasi resmi Redis Inc., yang dilihat sebagai strategi defensif melawan pesaing seperti Valkey.</li>
+<li>Komunitas khawatir tentang klaim merek dagang dan potensi penguncian vendor, yang mendorong diskusi tentang alternatif seperti Valkey dan Kvrocks, serta menyoroti tantangan penegakan merek dagang dalam proyek sumber terbuka.</li>
+</ul>
+<h2><a href="http://jpkoning.blogspot.com/2024/11/setelinleikkaus-when-finns-snipped.html">Setelinleikkaus: Ketika Orang Finlandia Memotong Uang Tunai Mereka Menjadi Dua untuk Menekan Inflasi</a></h2>
+<ul>
+<li>Pada tahun 1945, Finlandia menerapkan &quot;setelinleikkaus,&quot; sebuah kebijakan yang mengharuskan warga untuk memotong uang kertas besar menjadi dua untuk melawan inflasi pasca-Perang Dunia II, dengan satu bagian tetap memiliki nilai dan bagian lainnya menjadi obligasi pemerintah. Kebijakan ini tidak efektif karena hanya menargetkan uang tunai fisik, yang merupakan bagian kecil dari suplai uang, berbeda dengan reformasi yang lebih berhasil di negara-negara Eropa lainnya seperti Belgia. Artikel tersebut berspekulasi bahwa pengendalian inflasi di masa depan mungkin melibatkan pembekuan akun digital, sebuah metode yang lebih tepat tetapi berpotensi kontroversial.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42243755">Reaksi</a></h3>
+<ul>
+<li>Pada tahun 1945, Finlandia secara unik menangani inflasi dengan memotong uang kertas menjadi dua, berbeda dengan metode modern seperti menyesuaikan suku bunga.</li>
+<li>Pendekatan historis ini telah memicu diskusi tentang kebijakan moneter saat ini, di mana bank sentral mengelola inflasi melalui suku bunga dan operasi pasar terbuka.</li>
+<li>Terkendali masa depan uang digital, mungkin melalui mata uang digital bank sentral, menimbulkan kekhawatiran tentang peningkatan pengawasan pemerintah terhadap keuangan pribadi.</li>
+</ul>
+<h2><a href="https://www.metmuseum.org/perspectives/peter-hristoff-islamic-prayer-rugs">Doa, Penempatan, dan Pengampunan: Peter Hristoff tentang Karpet Doa Islam (2015)</a></h2>
+<ul>
+<li>Artwork Peter Hristoff menyelami persimpangan antara seni dan spiritualitas, terutama melalui media permadani doa, dimulai dari tahun 1997. Karya-karyanya, termasuk gambar dan cetakan serigrafi, berkembang menjadi potongan &quot;karpet&quot; yang lebih besar di atas kertas beras, terinspirasi oleh permadani dan kilim Turki, yang ia pandang sebagai buku harian pribadi dengan makna simbolis. Karya Hristoff mewujudkan &quot;kesedihan cerah,&quot; perpaduan antara kegembiraan dan kesedihan, dipengaruhi oleh tulisan-tulisan Patriark Bartholomew, dan terus mengeksplorasi aspek spiritual dan fisik dari sifat manusia.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239487">Reaksi</a></h3>
+<ul>
+<li>Artikel Peter Hristoff mengeksplorasi pentingnya sajadah Islam, menekankan desainnya yang rumit, seperti tesselasi, yang melambangkan ketakterbatasan Tuhan. Artikel ini membahas larangan seni representasional dalam Islam, yang mengarah pada penggunaan kaligrafi dan pola geometris dalam artefak Islam. Artikel ini menyoroti konteks sejarah dan budaya sajadah, mencatat penggunaannya di berbagai tradisi agama, termasuk Kristen, serta peran praktis dan spiritualnya.</li>
+</ul>
+<h2><a href="https://deno.com/blog/deno-v-oracle">Deno vs. Oracle: Membatalkan Merek Dagang JavaScript</a></h2>
+<ul>
+<li>Deno telah mengajukan petisi kepada Kantor Paten dan Merek Dagang Amerika Serikat (USPTO) untuk membatalkan merek dagang Oracle atas &quot;JavaScript,&quot; dengan tujuan menjadikannya barang publik dan menghilangkan hambatan hukum untuk penggunaannya.</li>
+<li>Petisi tersebut berargumen bahwa &quot;JavaScript&quot; adalah istilah generik, Oracle melakukan penipuan dalam memperbarui merek dagang, dan Oracle telah meninggalkan merek dagang tersebut karena tidak digunakan.</li>
+<li>Lebih dari 14.000 pengembang mendukung langkah Deno, dan Oracle memiliki waktu hingga 4 Januari 2025 untuk merespons, dengan Deno siap membagikan semua proses dengan komunitas.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239263">Reaksi</a></h3>
+<ul>
+<li>Deno telah mengajukan petisi kepada Kantor Paten dan Merek Dagang Amerika Serikat (USPTO) untuk membatalkan merek dagang Oracle atas JavaScript, memicu perdebatan tentang etika merek dagang dan manfaat bagi komunitas.</li>
+<li>Teks tersebut membahas kompatibilitas Deno dengan Node Package Manager (NPM) dan dampaknya terhadap ekosistem JavaScript yang lebih luas, mencerminkan perbedaan pendapat tentang masa depan JavaScript dan lingkungan runtime.</li>
+<li>Opini terbagi, dengan beberapa orang melihat penggunaan merek dagang Oracle sebagai tidak etis, sementara yang lain mempertanyakan niat Deno, menyarankan bahwa itu mungkin merupakan strategi hubungan masyarakat.</li>
+</ul>
+<h2><a href="https://github.com/captn3m0/jekyll-sqlite">Plugin SQLite untuk Jekyll</a></h2>
+<ul>
+<li>Penulis telah mengembangkan plugin Jekyll SQLite untuk meningkatkan kemampuan manipulasi data dalam Jekyll, sebuah generator situs statis yang populer.</li>
+<li>Plugin ini memungkinkan pengguna untuk melakukan kueri SQL untuk pengolahan data, mengatasi keterbatasan Liquid, bahasa templating Jekyll, dalam menangani operasi data yang kompleks.</li>
+<li>Plugin ini telah berhasil digunakan dalam produksi selama setahun, ditunjukkan dengan dataset Northwind, dan penulis mengundang masukan serta saran untuk perbaikan.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42244987">Reaksi</a></h3>
+<ul>
+<li>A Jekyll SQLite plugin memungkinkan penggunaan SQLite sebagai sumber data di Jekyll, meningkatkan kemampuan manipulasi data dengan SQL. Ini mengintegrasikan fitur generator Datafiles dan Data Pages Jekyll, memungkinkan penanganan data yang lebih kompleks di luar format tradisional CSV/JSON/YAML. Plugin ini telah digunakan dalam produksi selama setahun, menerima umpan balik positif karena membuat pembuatan situs statis menjadi lebih dinamis dan fleksibel.</li>
+</ul>
+<h2><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6290285/">Uban Dini: Tinjauan dengan Pembaruan</a></h2>
+<ul>
+<li>Rambut beruban prematur (PGH) didefinisikan sebagai rambut beruban sebelum usia 20 tahun pada orang Kaukasia dan sebelum 30 tahun pada orang Afrika-Amerika, yang mempengaruhi harga diri. Penyebab PGH belum sepenuhnya dipahami tetapi dikaitkan dengan gangguan penuaan, penyakit autoimun, dan stres oksidatif, dengan faktor-faktor seperti merokok dan kekurangan nutrisi turut berkontribusi. Perawatan umum untuk PGH meliputi pewarna rambut dan suplemen nutrisi, dengan studi yang menunjukkan adanya hubungan antara PGH dan faktor emosional, predisposisi genetik, serta pengaruh lingkungan.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42241702">Reaksi</a></h3>
+<ul>
+<li>Rambut beruban prematur dikaitkan dengan kekurangan vitamin B12, terutama pada individu dengan anemia pernisiosa, suatu kondisi di mana tubuh tidak dapat menyerap B12 dengan baik. Mendiagnosis kekurangan B12 bisa menjadi tantangan karena suplementasi dapat secara artifisial meningkatkan kadar B12, dan beberapa individu tidak dapat mengubah bentuk tertentu dari B12 menjadi bentuk aktif, yang mengarah pada &quot;kekurangan B12 paradoks.&quot; Faktor-faktor seperti stres, genetika, dan kondisi kesehatan seperti tiroid autoimun juga berkontribusi pada uban, dan meskipun beberapa suplemen mungkin membantu, tidak ada metode yang terbukti untuk membalikkan rambut beruban.</li>
+</ul>
+<h2><a href="https://blog.thalium.re/posts/llvm-powered-devirtualization/">Devirtualisasi yang didukung oleh LLVM</a></h2>
+<ul>
+<li>The internship di Thalium berfokus pada deobfuscating biner yang tervirtualisasi menggunakan LLVM, sebuah kerangka kerja kompilator, untuk membuat kode lebih mudah dipahami, terutama dalam konteks malware. Virtualisasi, sebuah teknik obfuscation yang kuat yang digunakan oleh alat seperti Tigress dan VMProtect, mengkodekan program menjadi instruksi virtual, membuat rekayasa balik menjadi kompleks. Proyek ini berhasil menggunakan analisis taint dinamis untuk merekonstruksi grafik aliran kontrol dari biner yang diobfuscate oleh Tigress, meskipun terbatas pada fungsi murni dan jalur eksekusi tunggal.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42245170">Reaksi</a></h3>
+<ul>
+<li>Devirtualisasi yang didukung oleh LLVM meningkatkan kinerja dengan mengoptimalkan panggilan fungsi virtual, yang biasanya lebih lambat karena sifatnya yang dinamis.</li>
+<li>Bochs, sebuah emulator CPU, dapat dengan efisien mengemulasikan prosesor Pentium 4 pada i7, bahkan melewati detektor mesin virtual.</li>
+<li>Debugger Bochs sangat efektif dalam menganalisis dan melawan malware serta pengabur kode, menjadikannya alat yang berharga untuk penelitian keamanan.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Amazon S3 Menambahkan Put-If-Match (Bandingkan-dan-Tukar)" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Amazon%20S3%20Menambahkan%20Put-If-Match%20(Bandingkan-dan-Tukar)&subheading=Selasa%2C%2026%20November%202024%3A%20Ringkasan%20Berita%20Peretas" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/id/2024/11/26</link>
+            <guid isPermaLink="false">2024-11-26T00:00:00.000Z</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-11-25]]></title>
             <description
@@ -1216,187 +1370,6 @@
             <link>https://hn.cho.sh/id/2024/11/17</link>
             <guid isPermaLink="false">2024-11-17T00:00:00.000Z</guid>
             <pubDate>Sun, 17 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-11-16]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/11/16&#39;</h2>
-<h1>2024-11-16</h1>
-<h2><a href="https://www.half-life.com/en/halflife2/20th">Half-Life 2: Pembaruan Ulang Tahun ke-20</a></h2>
-<ul>
-<li>Valve telah merilis Pembaruan Ulang Tahun ke-20 Half-Life 2 di Steam, yang menampilkan konten baru dan peningkatan. Pembaruan ini mencakup komentar pengembang, dukungan Steam Workshop, grafis yang ditingkatkan, dan perbaikan bug, serta pengaturan gamepad dan input baru. Pembaruan ini juga menggabungkan ekspansi Episode Satu dan Dua, dan menawarkan konten tambahan seperti wallpaper dan soundtrack untuk diunduh.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42151865">Reaksi</a></h3>
-<ul>
-<li>Pembaharuan Ulang Tahun ke-20 Half-Life 2 sekarang tersedia, menyediakan game dan episode sekuelnya secara gratis di Steam hingga tanggal 18, termasuk perbaikan bug dan peningkatan.</li>
-<li>Tindakan pembaruan ini telah memicu kembali diskusi tentang warisan permainan tersebut, kemungkinan adanya Half-Life 3, dan filosofi pengembangan Valve.</li>
-<li>Penggemar didorong untuk menjelajahi halaman peringatan untuk menemukan kejutan tersembunyi, dan pembaruan ini telah diterima dengan baik karena perhatiannya terhadap detail dan kesempatan untuk mengunjungi kembali permainan klasik.</li>
-</ul>
-<h2><a href="https://anderegg.ca/2024/11/15/maybe-bluesky-has-won">Mungkin Bluesky telah &#39;menang&#39;</a></h2>
-<ul>
-<li>Bluesky semakin mendapatkan perhatian sebagai alternatif untuk X, tetapi belum sepenuhnya terdesentralisasi atau terfederasi, karena masih bergantung pada servernya sendiri. Platform ini menggunakan AT Protocol, yang mencakup Server Data Pribadi, Relays, dan Tampilan Aplikasi, memungkinkan pengguna untuk meng-host data mereka sendiri, meskipun ini memerlukan keahlian teknis dan bisa mahal. Meskipun Bluesky gratis dan menawarkan fitur seperti nama pengguna berbasis domain dan moderasi yang dapat disesuaikan, model keuangannya bergantung pada penjualan domain, menimbulkan pertanyaan tentang keberlanjutan jangka panjangnya.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42150278">Reaksi</a></h3>
-<ul>
-<li>Bluesky mendapatkan perhatian sebagai alternatif yang lebih menyenangkan dibandingkan Mastodon, dengan menawarkan sistem penyaringan yang mengurangi konten politik yang memecah belah.</li>
-<li>Pengguna menghargai kesederhanaan dan kontrol atas visibilitas konten di Bluesky, membandingkannya dengan Twitter pada masa awal, meskipun kekhawatiran tentang keterbukaan dan penggunaan data tetap ada.</li>
-<li>Platform ini mengalami pertumbuhan seiring dengan migrasi pengguna dari Twitter, yang dianggap semakin sarat muatan politik, menunjukkan potensi Bluesky untuk menjadi pemain media sosial yang signifikan.</li>
-</ul>
-<h2><a href="https://www.roadandtrack.com/news/a62919131/tesla-has-highest-fatal-accident-rate-of-all-auto-brands-study/">Tesla memiliki tingkat kecelakaan fatal tertinggi di antara semua merek mobil, menurut sebuah studi.</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42150443">Reaksi</a></h3>
-<ul>
-<li>Sebuah studi menunjukkan bahwa Tesla memiliki tingkat kecelakaan fatal tertinggi di antara merek mobil, meskipun memiliki fitur keselamatan yang canggih.</li>
-<li>Tinjauan tersebut menunjukkan bahwa perilaku pengemudi dan kondisi secara signifikan berkontribusi pada tingginya tingkat kecelakaan, memicu perdebatan tentang politik, pengaruh media, dan desain mobil.</li>
-<li>Metodologi studi dan dampak demografi pengemudi, serta fitur mobil seperti layar sentuh dan berat kendaraan, menjadi subjek pengawasan dan diskusi.</li>
-</ul>
-<h2><a href="https://www.sportingnews.com/us/boxing/news/netflix-buffering-livestream-issues-boxing-jake-paul-mike-tyson/327ee972d4b14d90cc370461">Masalah buffering Netflix: Penggemar tinju mengeluhkan pertarungan Jake Paul vs. Mike Tyson</a></h2>
-<ul>
-<li>Penggemar tinju mengalami masalah buffering di Netflix selama pertarungan Jake Paul vs. Mike Tyson, yang menyebabkan lag, analisis terputus-putus, dan layar hitam.</li>
-<li>Masalah streaming telah menimbulkan kekhawatiran tentang kemampuan Netflix untuk menangani acara olahraga langsung, terutama dengan jadwal pertandingan NFL yang akan datang pada Hari Natal.</li>
-<li>Beberapa penonton memilih siaran langsung Antonio Brown di X, yang menarik perhatian signifikan dengan 6,4 juta penonton.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42153953">Reaksi</a></h3>
-<ul>
-<li>Netflix mengalami masalah buffering yang signifikan selama pertarungan Jake Paul vs. Mike Tyson, yang mengakibatkan banyak keluhan tentang kualitas streaming langsung.</li>
-<li>Kritikus menunjukkan bahwa infrastruktur Netflix, yang terutama dirancang untuk konten pra-rekaman, mungkin tidak cocok untuk streaming langsung, tidak seperti platform seperti YouTube dan Amazon.</li>
-<li>Insiden tersebut menyoroti tantangan yang dihadapi Netflix dalam pasar streaming olahraga langsung, terutama dengan acara-acara mendatang seperti pertandingan NFL di depan mata.</li>
-</ul>
-<h2><a href="https://llamaocr.com/">Llama-OCR: Dokumen ke Markdown</a></h2>
-<ul>
-<li>Postingan tersebut memperkenalkan metode untuk mengonversi gambar ke dalam format markdown menggunakan llama-ocr dan Together AI OCR, yang merupakan alat pengenalan karakter optik.</li>
-<li>Pengguna dapat mengunggah gambar untuk menerima markdown terstruktur, memudahkan ekstraksi teks dan pemformatan dari gambar.</li>
-<li>Contoh kode dalam JavaScript disediakan, menunjukkan cara menggunakan pustaka llama-ocr untuk memproses file gambar dan mendapatkan output markdown.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42154410">Reaksi</a></h3>
-<ul>
-<li>Llama-OCR adalah alat yang mengubah dokumen menjadi format Markdown menggunakan Llama 3.2 vision dan tersedia sebagai paket npm.</li>
-<li>Pembaruan di masa depan direncanakan untuk menyertakan fitur seperti pemrosesan PDF dan keluaran JSON, meskipun pengguna saat ini melaporkan pengalaman yang beragam dengan penanganan gambar dan konsistensi keluaran.</li>
-<li>Alat ini dihosting di together.ai, dengan diskusi yang sedang berlangsung tentang kinerjanya dan potensi perbaikan, termasuk saran untuk menggunakan model lokal atau alat OCR alternatif untuk akurasi yang lebih baik.</li>
-</ul>
-<h2><a href="https://bsky.bad-example.com/consuming-the-firehose-cheaply/">Memanfaatkan Bluesky firehose dengan biaya kurang dari $2,50/bulan</a></h2>
-<ul>
-<li>Data publik Bluesky, yang terdiri dari 15 juta pengguna, tersedia melalui umpan JSON websocket bernama Jetstream, memungkinkan pemantauan jaringan secara real-time.</li>
-<li>Sebuah aplikasi sederhana dikembangkan untuk mendengarkan peristiwa penghapusan dari umpan Jetstream, menampilkan teks yang dihapus secara anonim untuk sementara waktu.</li>
-<li>Tetapan ini beroperasi pada instance terkecil Fly dengan biaya $2,24/bulan, secara efisien mengelola acara pos, penyaringan konten, caching teks, dan menyiarkan pos yang dihapus, meskipun aplikasi yang lebih kompleks mungkin menghadapi tantangan skalabilitas.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42152362">Reaksi</a></h3>
-<ul>
-<li>Bluesky menawarkan cara yang hemat biaya untuk mengakses aliran datanya, yang dikenal sebagai &quot;firehose,&quot; dengan biaya di bawah $2,50/bulan, menarik minat pengguna.</li>
-<li>Platform ini dikenal karena fitur-fitur seperti menggunakan situs web sebagai nama pengguna dan berbagi gambar dengan mudah di iOS, yang dibandingkan dengan Twitter pada masa awal.</li>
-<li>Struktur terdesentralisasi dan pengembangan yang didorong oleh komunitas dari Bluesky menyoroti fokusnya pada akses data terbuka, yang berlawanan dengan pembatasan saat ini di Twitter.</li>
-</ul>
-<h2><a href="https://lists.freebsd.org/archives/freebsd-hackers/2024-November/004068.html">Kesimpulan Pertama: Lenovo T14s dengan CPU Qualcomm Snapdragon ARM64</a></h2>
-<ul>
-<li>Teks: Lenovo T14s dengan CPU Qualcomm Snapdragon ARM64 sedang dievaluasi, menyoroti pergeseran dari arsitektur X86 tradisional karena dianggap tidak efisien.</li>
-<li>Pengaturan awal pada FreeBSD-current memerlukan patch khusus ARM64, dengan beberapa komponen perangkat keras seperti layar dan NVME berfungsi, tetapi yang lain seperti keyboard dan port USB-C tidak berfungsi.</li>
-<li>Pengujian kinerja menunjukkan bahwa perangkat tersebut membangun dunia dalam 3210 detik dengan menggunakan 24 Wh energi, yang dikaitkan dengan 12 CPU nyata yang dimilikinya, sehingga menghasilkan rekomendasi positif.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42150933">Reaksi</a></h3>
-<ul>
-<li>Tanggapan terhadap Lenovo T14s dengan CPU Qualcomm Snapdragon ARM64 beragam, dengan pengguna mencatat masalah seperti keyboard, mouse, dan port USB-C yang tidak berfungsi.</li>
-<li>Perbandingan dibuat dengan ponsel Linux, menyoroti keterbatasan serupa dan tantangan kompatibilitas dengan desktop ARM Linux.</li>
-<li>Meskipun ada masalah saat ini, terdapat optimisme tentang perbaikan di masa depan dan dukungan pengemudi yang lebih baik untuk arsitektur ARM di laptop Lenovo.</li>
-</ul>
-<h2><a href="https://yggdrasil-network.github.io/">Jaringan Yggdrasil</a></h2>
-<ul>
-<li>Yggdrasil adalah skema perutean eksperimental yang bertujuan untuk menyediakan alternatif terdesentralisasi dan tahan masa depan terhadap protokol perutean Internet saat ini, terutama untuk jaringan mesh skala besar. Ini menawarkan fitur seperti skalabilitas, pemulihan mandiri, enkripsi, dan dukungan lintas platform, berfungsi pada berbagai sistem operasi termasuk Linux, macOS, Windows, iOS, dan Android. Meskipun masih dalam tahap alfa, Yggdrasil stabil untuk penggunaan sehari-hari, menawarkan perutean IPv6 terenkripsi end-to-end dan dapat dikonfigurasi melalui jaringan IPv4 dan IPv6.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42155780">Reaksi</a></h3>
-<ul>
-<li>Yggdrasil Network adalah protokol perutean eksperimental yang berfokus pada desentralisasi dan skalabilitas, terinspirasi oleh cjdns tetapi tanpa hierarki yang ketat.</li>
-<li>Meskipun tidak memiliki spesifikasi protokol yang jelas, Yggdrasil telah berkembang dengan pembaruan signifikan pada versi 0.4 dan 0.5, meningkatkan latensi jaringan.</li>
-<li>Tata cara ini menggunakan alamat IPv6 yang berasal dari kunci publik, yang dapat menyebabkan tabrakan alamat, dan tidak dirancang terutama untuk anonimitas.</li>
-</ul>
-<h2><a href="https://github.com/hengyoush/kyanos">Kyanos: alat analisis masalah jaringan berbasis eBPF</a></h2>
-<ul>
-<li>Kyanos adalah alat berbasis eBPF yang dirancang untuk analisis jaringan, mampu menangkap dan menganalisis berbagai permintaan jaringan seperti HTTP, Redis, dan MySQL.</li>
-<li>Itu menampilkan opsi penyaringan lalu lintas yang canggih berdasarkan IP, port, proses, kontainer, dan protokol, bersama dengan wawasan latensi tingkat kernel dan dekripsi lalu lintas SSL otomatis.</li>
-<li>Alat ini ringan, memerlukan ketergantungan minimal, dan kompatibel dengan versi kernel Linux 3.10 dan 4.14 atau lebih tinggi, sehingga dapat diakses oleh berbagai macam pengguna.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42154583">Reaksi</a></h3>
-<ul>
-<li>Kyanos adalah alat analisis jaringan yang berbasis eBPF (extended Berkeley Packet Filter), yang menawarkan wawasan real-time untuk pemecahan masalah dan optimalisasi kinerja.</li>
-<li>Itu saat ini mendukung protokol tertentu, termasuk HTTP, MySQL, dan Redis, yang oleh beberapa pengguna dianggap sebagai keterbatasan.</li>
-<li>Diskusi menyoroti relevansi teknologi seperti RDMA (Remote Direct Memory Access) dan OFED (OpenFabrics Enterprise Distribution) dalam komputasi berkinerja tinggi, serta menyebutkan sebuah buku untuk pembelajaran lebih lanjut tentang eBPF.</li>
-</ul>
-<h2><a href="https://twitter.com/DSCCRoss/status/1857208745014776215">M4 MacBook Pro menggunakan film titik kuantum (QD) daripada film fosfor merah KSF</a></h2>
-<ul>
-<li>MacBook Pro (M4) baru dari Apple memperkenalkan penggunaan film titik kuantum (QD), menggantikan film fosfor merah KSF yang sebelumnya digunakan.</li>
-<li>Tindakan beralih ke film QD menandai perubahan signifikan, karena sebelumnya Apple lebih memilih KSF karena efisiensinya dan sifatnya yang bebas kadmium.</li>
-<li>Pembaharuan ini menyoroti upaya berkelanjutan Apple untuk meningkatkan teknologi tampilan pada perangkatnya.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42152928">Reaksi</a></h3>
-<ul>
-<li>MacBook Pro M4 yang baru telah beralih dari menggunakan film fosfor KSF merah ke film titik kuantum, seperti yang diidentifikasi melalui analisis spektrum daripada pengumuman resmi dari Apple.</li>
-<li>Quantum dot diharapkan dapat meningkatkan gamut warna dan kinerja gerakan pada layar, meskipun waktu respons masih menjadi perhatian untuk layar MacBook.</li>
-<li>Apple bekerja sama dengan produsen layar seperti Samsung, LG, dan BOE untuk penelitian dan pengembangan guna memenuhi persyaratan produk tertentu.</li>
-</ul>
-<h2><a href="https://www.zach.be/p/yc-is-wrong-about-llms-for-chip-design">YC salah tentang LLM untuk desain chip</a></h2>
-<ul>
-<li>Usulan YC untuk menggunakan Model Bahasa Besar (LLM) dalam desain chip dikritik karena tidak dapat menyamai keahlian insinyur manusia dalam menciptakan arsitektur chip yang inovatif.</li>
-<li>Walaupun LLM mungkin menurunkan biaya desain, mereka tidak mungkin merevolusi desain chip di pasar bernilai tinggi, mirip dengan upaya sebelumnya seperti sintesis tingkat tinggi (HLS).</li>
-<li>LLM dapat bermanfaat dalam proses verifikasi, berpotensi mengatasi kekurangan bakat di bidang ini, tetapi mereka tidak diharapkan untuk menghasilkan chip yang lebih unggul atau membuka pasar baru.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42156516">Reaksi</a></h3>
-<ul>
-<li>Teks tersebut menyoroti skeptisisme tentang efektivitas Model Bahasa Besar (LLM) dalam desain chip, dengan perbandingan terhadap siklus hype teknologi masa lalu seperti blockchain. Kritikus berpendapat bahwa LLM terlalu dibesar-besarkan dan belum dapat diandalkan untuk tugas desain chip yang kompleks, yang memerlukan keahlian mendalam di luar kemampuan AI saat ini. Ada ketidakpastian tentang apakah kemajuan di masa depan akan dapat mengatasi keterbatasan LLM dalam bidang khusus dengan data pelatihan yang terbatas.</li>
-</ul>
-<h2><a href="https://arstechnica.com/tech-policy/2024/11/ftc-to-launch-investigation-into-microsofts-cloud-business/">FTC akan meluncurkan investigasi terhadap bisnis cloud Microsoft</a></h2>
-<ul>
-<li>FTC sedang menyelidiki bisnis cloud Microsoft terkait potensi praktik anti-persaingan, terutama mengenai ketentuan lisensi Azure.</li>
-<li>Allegasi tersebut mencakup peningkatan biaya dan ketidakcocokan Office 365 dengan platform cloud pesaing, yang membuat pelanggan kesulitan untuk beralih.</li>
-<li>Investigasi ini merupakan bagian dari upaya regulasi yang lebih luas oleh FTC, dengan pengawasan serupa dari regulator di Inggris dan Uni Eropa, seiring dengan terus berkembangnya pasar cloud.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42152068">Reaksi</a></h3>
-<ul>
-<li>FTC sedang menyelidiki bisnis cloud Microsoft terkait potensi praktik anti-persaingan, termasuk menaikkan biaya untuk pelanggan yang beralih penyedia dan membuat Office 365 tidak kompatibel dengan layanan cloud pesaing.</li>
-<li>Investigasi ini merupakan bagian dari pemeriksaan yang lebih besar terhadap perusahaan teknologi besar, mencerminkan kekhawatiran yang berkelanjutan tentang kekuatan pasar dan praktik bisnis mereka.</li>
-<li>Terdapat perdebatan mengenai motivasi FTC, dengan pendapat yang terbagi tentang apakah tindakan tersebut merupakan regulasi yang diperlukan terhadap raksasa teknologi atau didorong oleh kepentingan politik.</li>
-</ul>
-<h2><a href="https://arstechnica.com/gadgets/2024/11/i-too-installed-an-open-source-garage-door-opener-and-am-loving-it/">Memasang pembuka pintu garasi open source, dan saya menyukainya</a></h2>
-<ul>
-<li>OpenGarage adalah pembuka pintu garasi sumber terbuka yang terintegrasi dengan mulus dengan Home Assistant, menawarkan kontrol dan kustomisasi yang ditingkatkan untuk otomatisasi rumah.</li>
-<li>Itu terdiri dari papan ESP kecil dengan sensor ultrasonik, yang dapat dikendalikan melalui peramban web atau aplikasi seluler, membuat pemasangan menjadi sederhana.</li>
-<li>OpenGarage memungkinkan otomatisasi tugas, seperti menyalakan lampu ketika pintu garasi terbuka, menyoroti fleksibilitas dan daya tariknya bagi para penggemar otomasi rumah DIY.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42150376">Reaksi</a></h3>
-<ul>
-<li>Tulisan tersebut membahas penggunaan pembuka pintu garasi sumber terbuka, menyoroti fleksibilitas dan kontrol lokalnya dibandingkan dengan model berbasis langganan seperti myQ.</li>
-<li>Pengguna menyatakan frustrasi dengan model langganan myQ dan kurangnya dukungan pihak ketiga, yang membuat mereka mencari alternatif seperti RATGDO, Meross, dan ESPHome.</li>
-<li>Para penggemar otomasi rumah mengintegrasikan solusi sumber terbuka ini dengan sistem seperti MQTT, Home Assistant, dan Z-Wave untuk meningkatkan fungsionalitas dan kontrol yang mulus.</li>
-</ul>
-<h2><a href="https://labs.quansight.org/blog/dataframe-group-by">Agregasi group-by non-elementer di Polars vs pandas</a></h2>
-<ul>
-<li>Di PyData Berlin 2024, Polars, sebuah pustaka pemrosesan data, disorot karena fitur-fitur canggihnya seperti eksekusi malas, integrasi Rust, dan multithreading.</li>
-<li>Suatu inovasi signifikan dari Polars adalah dukungannya untuk agregasi group-by non-elementer, yang memungkinkan pengguna melakukan operasi kompleks dengan lebih efisien dibandingkan dengan pandas.</li>
-<li>Blog tersebut menyarankan bahwa perpustakaan dataframe baru seharusnya berinovasi melampaui API pandas, dengan Polars sebagai contoh melalui sintaksis yang ekspresif dan kemampuan manipulasi data yang ditingkatkan.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42152076">Reaksi</a></h3>
-<ul>
-<li>Polars semakin populer dibandingkan Pandas untuk operasi group-by non-dasar karena kemiripannya dengan Apache Spark dan kecepatan yang lebih unggul. Pengguna menghargai Polars karena kinerjanya yang cepat dan pengaturan yang sederhana, terutama dengan dataset yang lebih kecil, meskipun ekosistem Pandas sudah mapan. Keputusan antara menggunakan Pandas atau Polars dipengaruhi oleh kasus penggunaan spesifik, persyaratan kinerja, dan preferensi pengguna, dengan beberapa memilih SQL atau DuckDB untuk tugas data yang kompleks.</li>
-</ul>
-<h2><a href="https://eclecticlight.co/2024/11/14/m4-macs-cant-virtualise-older-macos/">M4 Mac tidak dapat memvirtualisasi macOS versi lama</a></h2>
-<ul>
-<li>M4 Mac tidak dapat memvirtualisasikan versi macOS yang lebih lama dari 13.4 Ventura, yang mengakibatkan layar hitam saat mencoba boot untuk mesin virtual (VM) macOS yang lebih lama.</li>
-<li>Tampaknya masalah ini muncul pada fase awal boot kernel, dan untuk menyelesaikannya, Apple perlu memperbarui kernel macOS yang lebih lama, yang kemungkinan tidak akan terjadi.</li>
-<li>M1, M2, dan M3 Mac dapat memvirtualisasikan macOS Monterey 12.0.1 dan yang lebih baru, tetapi Big Sur tidak dapat divirtualisasikan pada silikon Apple mana pun.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42157086">Reaksi</a></h3>
-<ul>
-<li>M4 Mac tidak dapat memvirtualisasikan versi macOS yang lebih lama dari 13.4 Ventura, menimbulkan tantangan bagi pengembang yang perlu menguji aplikasi pada sistem yang lebih lama.</li>
-<li>Tidak adanya solusi kontainer bawaan untuk macOS mempersulit proses integrasi berkelanjutan (CI), yang penting untuk pengujian dan penerapan otomatis.</li>
-<li>Anka menyediakan solusi parsial dengan memungkinkan gambar mesin virtual (VM) macOS, tetapi lisensi perangkat lunak Apple membatasi ini hanya untuk dua VM, yang membuat frustrasi para pengembang yang memerlukan pengujian untuk kompatibilitas mundur.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Half-Life 2: Pembaruan Ulang Tahun ke-20" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Half-Life%202%3A%20Pembaruan%20Ulang%20Tahun%20ke-20&subheading=Sabtu%2C%2016%20November%202024%3A%20Ringkasan%20Berita%20Peretas" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/id/2024/11/16</link>
-            <guid isPermaLink="false">2024-11-16T00:00:00.000Z</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

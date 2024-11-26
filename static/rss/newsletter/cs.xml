@@ -15,12 +15,166 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 25 Nov 2024 19:40:14 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Nov 2024 19:20:17 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/cs.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
+        <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[cs]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-11-26]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/11/26&#39;</h2>
+<h1>2024-11-26</h1>
+<h2><a href="https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-s3-functionality-conditional-writes/">„Amazon S3 přidává funkci Put-If-Match (porovnat a vyměnit)“</a></h2>
+<ul>
+<li>„Amazon S3 zavádí podmíněné zápisy, které umožňují aktualizace pouze v případě, že objekt zůstane nezměněn, čímž se zabrání souběžným přepisům ověřením ETag objektu. Tato funkce, podobná HTTP hlavičce if-none-match, umožňuje klientům použít hlavičku if-match k zajištění konzistence ETag před zápisem, což zvyšuje efektivitu pro distribuované aplikace. K dispozici bez dalších nákladů ve všech regionech AWS, implementace může být provedena pomocí AWS SDK, API nebo CLI, s dalšími podrobnostmi v uživatelské příručce S3.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42240678">Reakce</a></h3>
+<ul>
+<li>„Amazon S3 spustil novou funkci nazvanou Put-If-Match, která funguje jako operace porovnání a výměny, umožňující podmíněné zapisování objektů na základě shody verzí. Tato funkce zlepšuje synchronizaci a řízení souběžnosti, což umožňuje vývojářům provádět složitější operace, jako je budování databází na S3 bez další infrastruktury. Aktualizace přináší Amazon S3 do souladu s podobnými funkcemi nabízenými jinými cloudovými úložišti, jako jsou Google Cloud Storage a Azure Blob Storage.“</li>
+</ul>
+<h2><a href="https://fasterthanli.me/articles/lies-we-tell-ourselves-to-keep-using-golang">„Lži, které si říkáme, abychom nadále používali Golang (2022)“</a></h2>
+<ul>
+<li>„Článek kritizuje Golang, přičemž poznamenává, že ačkoli má přitažlivé vlastnosti jako asynchronní runtime a garbage collector, má také významné nedostatky, jako je absence sum typů a nedostatečné zpracování chyb. Tvrdí, že Go je vnímaná jednoduchost může být klamná, což vede ke skrytým složitostem a výzvám v produkčních prostředích, a zdůrazňuje důležitost rozpoznání těchto problémů, než přijmout Go pouze pro jeho snadnost použití. Článek porovnává Go s Rustem, naznačujíc, že navzdory výzvám Rust poskytuje robustnější řešení pro řízení složitosti a zajištění správnosti kódu.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42243500">Reakce</a></h3>
+<ul>
+<li>„Článek kritizuje zpracování chyb v Go, přičemž ho porovnává s propracovanějším přístupem Rustu, který někteří považují za elegantnější.“</li>
+<li>„Existuje rozdíl v názorech: někteří oceňují jednoduchost Go a explicitní zpracování chyb, zatímco jiní to považují za únavné a náchylné k chybám.“</li>
+<li>„Navzdory kritikám zůstává Go populární díky své jednoduchosti a širokému přijetí velkými společnostmi.“</li>
+</ul>
+<h2><a href="https://www.wired.com/story/cybertrucks-many-recalls-make-it-worse-than-91-percent-of-all-2024-vehicles/">„Mnoho svolávacích akcí Cybertrucku“</a></h2>
+<ul>
+<li>„Tesla Cybertruck zažil od svého uvedení na trh několik svolávacích akcí, přičemž poslední se týká vadných pohonných měničů ovlivňujících více než 2 400 jednotek, což vyvolává obavy o jeho spolehlivost.“</li>
+<li>„Navzdory problémům s kvalitou unikátní design Cybertrucku nadále přitahuje kupce, i když jeho neschopnost splnit evropské bezpečnostní normy omezuje jeho tržní dosah.“</li>
+<li>„Stažení z trhu, ačkoli ukazuje účinnost regulace, může poškodit pověst značky Tesla, zvláště vzhledem k významnému vlivu Elona Muska na americké regulace.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42242971">Reakce</a></h3>
+<h2><a href="https://techcrunch.com/2024/11/22/y-combinator-often-backs-startups-that-duplicate-other-yc-companies-data-shows-its-not-just-ai-code-editors/">„Y Combinator často podporuje startupy, které duplikují jiné YC společnosti, ukazují data“</a></h2>
+<ul>
+<li>„Y Combinator (YC), významný startupový akcelerátor, je známý tím, že spustil úspěšné společnosti jako Airbnb a Stripe, ale mnoho jeho startupů vytváří podobné nebo totožné produkty jako předchozí společnosti YC.“</li>
+<li>„Kontroverze kolem PearAI zdůraznila tento trend, kdy byla PearAI obviněna z klonování jiného produktu YC, přesto generální ředitel YC Garry Tan obhajoval tuto praxi s odkazem na důležitost volby a inovace.“</li>
+<li>„Analýza trendů YC od společnosti Deckmatch ukazuje, že mezi oblíbené kategorie startupů patří AI editory kódu, systémy PoS pro restaurace a nástroje pro podnikové finance, přičemž v některých oblastech, jako je obchodování s kryptoměnami, je patrný pokles zájmu.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42243746">Reakce</a></h3>
+<ul>
+<li>„Y Combinator často investuje do startupů, které replikují jiné společnosti podporované YC, přičemž upřednostňuje potenciál zakladatelů před jedinečnými nápady. Tato strategie je vnímána jako způsob, jak vsadit na podobné koncepty, protože úspěch často závisí na realizaci a načasování spíše než na originalitě nápadu. Zatímco někteří to považují za možný střet zájmů, je běžnou praxí rizikového kapitálu financovat více společností ve stejném sektoru, aby se ověřily trhy a zvýšila pravděpodobnost úspěchu.“</li>
+</ul>
+<h2><a href="https://status.flyio.net">„Výpadek Fly.io – vyřešeno“</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42241851">Reakce</a></h3>
+<ul>
+<li>„Fly.io zažilo dočasný výpadek, který byl vyřešen, ale vyvolal obavy uživatelů ohledně spolehlivosti platformy kvůli minulým incidentům. Uživatelé srovnávali Fly.io s alternativami jako Railway a Cloudflare, přičemž zdůrazňovali rozdíly ve spolehlivosti, funkcích a uživatelských zkušenostech. Navzdory výzvám někteří uživatelé oceňují Fly.io pro jeho snadné použití a konkurenceschopné ceny, zatímco diskuse zdůraznily důležitost vysoké dostupnosti a monitorování závislostí.“</li>
+</ul>
+<h2><a href="https://www.viksnewsletter.com/p/short-intro-to-automotive-lidar">„Krátký úvod do technologie automobilového lidaru“</a></h2>
+<ul>
+<li>„Vikův zpravodaj se zabývá technologií automobilového lidaru, která je klíčová pro autonomní vozidla díky své schopnosti vytvářet vysokorozlišovací obrazy pomocí infračervených laserů. Zpravodaj se věnuje principům fungování lidaru, včetně volby vlnových délek, fotodetektorů a metod měření vzdálenosti, jako je Time-of-Flight a Frequency Modulated Continuous Wave. Rovněž zkoumá různé systémy lidaru, jako jsou mechanické a pevné varianty, s cílem snížit náklady a vylepšit technologii pro širší využití v autonomních vozidlech.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239721">Reakce</a></h3>
+<ul>
+<li>„Automobilová technologie lidar se vyvíjí, přičemž se používají rotační skenery jako ty od společnosti Velodyne, a to navzdory jejich vysokým nákladům, zatímco alternativy jako flash lidar a MEMS zrcadla čelí tržním a technickým výzvám.“</li>
+<li>„Pokračující používání rotačních lidarů společností Waymo, i v zranitelných rozích vozidel, zdůrazňuje potřebu cenově dostupnějších a integrovaných řešení, protože pulzní lidar nabízí snížené rušení ve srovnání s kontinuálními systémy.“</li>
+<li>„Lidar poskytuje vysoce rozlišené snímkování a dobře funguje za špatných světelných podmínek, ale čelí konkurenci ze strany systémů založených na kamerách, které některé společnosti, jako například Tesla, preferují z důvodů nákladů, což podněcuje probíhající debaty o nejlepším přístupu k autonomnímu řízení.“</li>
+</ul>
+<h2><a href="https://papersplease.org/wp/2024/11/25/do-you-need-id-to-read-the-real-id-rules/">„Potřebujete průkaz totožnosti k přečtení pravidel REAL-ID?“</a></h2>
+<ul>
+<li>„Pokus o přístup k novým pravidlům digitálního ID TSA odhalil problémy se zákonem REAL-ID, protože pravidla nejsou veřejně přístupná a pro přístup vyžadují ID, což vyvolává obavy ohledně tajných zákonů a řádného procesu.“</li>
+<li>„Standardy digitálního ID TSA, odvozené ze soukromých dokumentů, zahrnují složité interakce mezi aplikacemi, zařízeními a vládními agenturami, přičemž existují obavy o soukromí ohledně zaznamenávání používání ID.“</li>
+<li>„Autor tvrdí, že praktiky TSA porušují práva veřejného přístupu a nahlásil tento problém Úřadu pro federální registr, přičemž usiluje o stažení pravidla.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239952">Reakce</a></h3>
+<ul>
+<li>„Diskuse se točí kolem nutnosti mít průkaz totožnosti pro přístup k pravidlům REAL-ID, přičemž někteří uživatelé zpochybňují účinnost bezpečnostních opatření TSA. - Jsou vyjádřeny obavy ohledně dopadů mobilních řidičských průkazů (mDL) a možných problémů s ochranou soukromí, které mohou představovat. - Uživatelé vyjadřují skepsi ohledně účinnosti TSA a konceptu bezpečnostního divadla, zatímco také zpochybňují dlouhodobé důsledky digitálních průkazů totožnosti, jako jsou REAL-ID a mDL.“</li>
+</ul>
+<h2><a href="https://medium.com/@drspoulsen/a-solution-to-the-onion-problem-of-j-kenji-l%C3%B3pez-alt-c3c4ab22e67c">„Řešení problému s cibulí od J. Kenji Lopez-Alt (2021)“</a></h2>
+<ul>
+<li>„Příspěvek se zabývá „cibulovým problémem“, který spočívá v krájení cibule tak, aby bylo dosaženo minimální odchylky v objemech plátků pro jejich jednotnost. Matematický průzkum pomocí kalkulu určil, že optimální bod řezu je 55,73066 % pod středem cibule, což je označováno jako „pravá cibulová konstanta“. Tento nález upřesňuje předchozí návrh krájet směrem k bodu 60 % pod středem, čímž poskytuje přesnější metodu pro rovnoměrné plátky cibule.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42244814">Reakce</a></h3>
+<ul>
+<li>„Diskuse zkoumá matematický model pro rovnoměrné krájení cibule, inspirovaný J. Kenji Lopez-Altem, který využívá reprezentaci půldisku k zjednodušení geometrie a minimalizaci rozptylu velikosti plátků. Uživatelé debatují o praktičnosti a přesnosti modelu, zohledňujíce 3D strukturu cibule a nerovnoměrné vrstvy, a navrhují alternativní metody nebo nástroje pro krájení. Konverzace také zvažuje rovnováhu mezi rovnoměrností a kulinářskými preferencemi, přičemž odkazuje na osobnosti z oblasti gastronomie, jako je Adam Ragusea.“</li>
+</ul>
+<h2><a href="https://twitter.com/TomHacohen/status/1861137484249252093">„Redis se snaží převzít všechny OSS knihovny Redis.“</a></h2>
+<ul>
+<li>„Redis údajně přebírá kontrolu nad veškerými open-source softwarovými (OSS) knihovnami Redis, mezi které patří populární knihovny jako Jedis, Lettuce a redis-py.“</li>
+<li>„Tyto knihovny jsou momentálně nefunkční a další knihovna, redis-rs, také čelí potenciálnímu převzetí kontroly nebo uzavření.“</li>
+<li>„Tato situace je významná, protože ovlivňuje vývojáře, kteří se spoléhají na tyto knihovny pro integraci Redis ve svých aplikacích.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239607">Reakce</a></h3>
+<ul>
+<li>„Společnost Redis Inc. přebírá kontrolu nad open-source knihovnami Redis, což vyvolává kontroverze a vede některé vývojáře k odstranění závislostí na Redis kvůli problémům s vymáháním ochranné známky.“</li>
+<li>„Knihovny jako redis-py, Lettuce a Jedis byly přesunuty pod oficiální organizaci Redis Inc., což je vnímáno jako obranná strategie proti konkurentům, jako je Valkey.“</li>
+<li>„Komunita se obává nároků na ochranné známky a potenciálního uzamčení dodavatelů, což vyvolává diskuse o alternativách jako Valkey a Kvrocks a zdůrazňuje výzvy při prosazování ochranných známek v open-source projektech.“</li>
+</ul>
+<h2><a href="http://jpkoning.blogspot.com/2024/11/setelinleikkaus-when-finns-snipped.html">„Setelinleikkaus: Když Finové přestřihli své peníze na polovinu, aby zkrotili inflaci“</a></h2>
+<ul>
+<li>„V roce 1945 Finsko zavedlo politiku nazvanou „setelinleikkaus“, která vyžadovala, aby občané rozstřihli velké bankovky na polovinu jako opatření proti inflaci po druhé světové válce, přičemž jedna polovina si zachovala hodnotu a druhá se stala vládní obligací. Tato politika byla neúčinná, protože se zaměřovala pouze na fyzickou hotovost, což byla menší část peněžní zásoby, na rozdíl od úspěšnějších reforem v jiných evropských zemích, jako je Belgie. Článek spekuluje, že budoucí kontrola inflace by mohla zahrnovat zmrazení digitálních účtů, což je přesnější, ale potenciálně kontroverzní metoda.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42243755">Reakce</a></h3>
+<ul>
+<li>„V roce 1945 Finsko unikátně řešilo inflaci tím, že fyzicky přestřihlo bankovky na polovinu, což kontrastuje s moderními metodami, jako je úprava úrokových sazeb.“</li>
+<li>„Tento historický přístup vyvolal diskuse o současné měnové politice, kde centrální banky řídí inflaci prostřednictvím úrokových sazeb a operací na volném trhu.“</li>
+<li>„Potenciální budoucí kontrola digitálních peněz, možná prostřednictvím digitálních měn centrálních bank, vyvolává obavy z rostoucího dohledu vlády nad osobními financemi.“</li>
+</ul>
+<h2><a href="https://www.metmuseum.org/perspectives/peter-hristoff-islamic-prayer-rugs">„Modlitba, umístění a rozhřešení: Peter Hristoff o islámských modlitebních kobercích (2015)“</a></h2>
+<ul>
+<li>„Dílo Petera Hristoffa se zabývá průnikem umění a spirituality, zejména prostřednictvím modlitebních koberců, počínaje rokem 1997. Jeho tvorba, včetně kreseb a serigrafií, se vyvíjí do větších „kobercových“ kusů na rýžovém papíře, inspirovaných tureckými koberci a kilimy, které vnímá jako osobní deníky se symbolickými významy. Hristoffova práce ztělesňuje „jasný smutek“, směs radosti a zármutku, ovlivněnou spisy patriarchy Bartoloměje, a nadále zkoumá duchovní a fyzické aspekty lidské přirozenosti.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239487">Reakce</a></h3>
+<ul>
+<li>„Článek Petera Hristoffa zkoumá význam islámských modlitebních koberců, přičemž zdůrazňuje jejich složité vzory, jako jsou teselace, které symbolizují Boží nekonečnost. Článek se zabývá islámským zákazem zobrazovacího umění, což vede k využívání kaligrafie a geometrických vzorů v islámských artefaktech. Zdůrazňuje historický a kulturní kontext modlitebních koberců, přičemž poukazuje na jejich využití v různých náboženských tradicích, včetně křesťanství, a jejich praktické a duchovní role.“</li>
+</ul>
+<h2><a href="https://deno.com/blog/deno-v-oracle">„Deno vs. Oracle: Zrušení ochranné známky JavaScript“</a></h2>
+<ul>
+<li>„Deno podal žádost u Úřadu pro patenty a ochranné známky Spojených států (USPTO) o zrušení ochranné známky společnosti Oracle na „JavaScript“, s cílem učinit z něj veřejné dobro a odstranit právní překážky jeho používání.“</li>
+<li>„Petice tvrdí, že „JavaScript“ je obecný termín, Oracle se dopustil podvodu při obnově ochranné známky a Oracle opustil ochrannou známku kvůli jejímu nepoužívání.“</li>
+<li>„Více než 14 000 vývojářů podporuje krok Deno a Oracle má čas do 4. ledna 2025 na odpověď, přičemž Deno je připraveno sdílet veškeré postupy s komunitou.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239263">Reakce</a></h3>
+<ul>
+<li>„Deno podal žádost u Úřadu pro patenty a ochranné známky Spojených států (USPTO) o zrušení ochranné známky Oracle na JavaScript, což vyvolalo debatu o etice ochranných známek a přínosech pro komunitu.“</li>
+<li>„Diskuse se týká kompatibility Deno s Node Package Managerem (NPM) a jeho dopadu na širší ekosystém JavaScriptu, což odráží rozdílné názory na budoucnost JavaScriptu a běhových prostředí.“</li>
+<li>„Názory jsou rozdělené, někteří považují použití ochranné známky Oracle za neetické, zatímco jiní zpochybňují úmysly Deno a naznačují, že by to mohla být strategie pro styk s veřejností.“</li>
+</ul>
+<h2><a href="https://github.com/captn3m0/jekyll-sqlite">„Plugin SQLite pro Jekyll“</a></h2>
+<ul>
+<li>„Autor vyvinul plugin Jekyll SQLite, aby vylepšil možnosti manipulace s daty v rámci Jekyllu, populárního generátoru statických webů.“</li>
+<li>„Tento plugin umožňuje uživatelům provádět SQL dotazy pro manipulaci s daty, čímž řeší omezení Liquid, šablonovacího jazyka Jekyll, při zpracování složitých datových operací.“</li>
+<li>„Plugin byl úspěšně používán v produkci po dobu jednoho roku, což bylo demonstrováno na datasetu Northwind, a autor vyzývá k zasílání zpětné vazby a návrhů na zlepšení.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42244987">Reakce</a></h3>
+<ul>
+<li>„Plugin Jekyll SQLite umožňuje použití SQLite jako zdroje dat v Jekyllu, čímž zlepšuje schopnosti manipulace s daty pomocí SQL. Integruje funkce Jekyllu jako Datafiles a generátor Data Pages, což umožňuje složitější práci s daty nad rámec tradičních formátů CSV/JSON/YAML. Plugin je v provozu již rok a získává pozitivní ohlasy za to, že statickou generaci stránek činí dynamičtější a flexibilnější.“</li>
+</ul>
+<h2><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6290285/">„Předčasné šedivění vlasů: Přehled s aktualizacemi“</a></h2>
+<ul>
+<li>„Předčasné šedivění vlasů (PGH) je definováno jako šedivění před 20. rokem u bělochů a před 30. rokem u Afroameričanů, což ovlivňuje sebevědomí. Příčiny PGH nejsou plně pochopeny, ale jsou spojovány s poruchami stárnutí, autoimunitními chorobami a oxidačním stresem, přičemž faktory jako kouření a nedostatky ve výživě přispívají. Běžné léčby PGH zahrnují barvy na vlasy a výživové doplňky, přičemž studie naznačují souvislosti mezi PGH a emocionálními faktory, genetickými predispozicemi a vlivy prostředí.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42241702">Reakce</a></h3>
+<ul>
+<li>„Předčasné šedivění vlasů je spojováno s nedostatkem vitaminu B12, zejména u jedinců s perniciózní anémií, což je stav, kdy tělo nemůže správně vstřebávat B12. Diagnostikování nedostatku B12 může být obtížné, protože suplementace může uměle zvýšit hladiny B12 a někteří jedinci nemohou přeměnit určité formy B12 na aktivní formy, což vede k „paradoxnímu nedostatku B12“. Faktory jako stres, genetika a zdravotní stavy jako autoimunitní tyreoiditida také přispívají k šedivění a i když některé doplňky mohou pomoci, neexistuje žádná osvědčená metoda, jak zvrátit šedivění vlasů.“</li>
+</ul>
+<h2><a href="https://blog.thalium.re/posts/llvm-powered-devirtualization/">„Devirtualizace poháněná LLVM“</a></h2>
+<ul>
+<li>„Stáž v Thalium se zaměřovala na deobfuskaci virtualizovaných binárních souborů pomocí LLVM, což je kompilátorový rámec, aby byl kód srozumitelnější, zejména v kontextu malwaru. Virtualizace, silná obfuskace technika používaná nástroji jako Tigress a VMProtect, kóduje programy do virtuálních instrukcí, což činí reverzní inženýrství složitým. Projekt úspěšně využil dynamickou analýzu taintů k rekonstrukci grafu řízení toku Tigress-obfuskovaných binárních souborů, i když byl omezen na čisté funkce a jednotlivé exekuční cesty.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42245170">Reakce</a></h3>
+<ul>
+<li>„Devirtualizace poháněná LLVM zlepšuje výkon optimalizací volání virtuálních funkcí, které jsou obvykle pomalejší kvůli své dynamické povaze.“</li>
+<li>„Bochs, emulátor CPU, dokáže efektivně emulovat procesor Pentium 4 na i7, dokonce i obejít detektory virtuálních strojů.“</li>
+<li>„Debugger Bochs je obzvláště účinný při analýze a potírání malwaru a obfuskátorů kódu, což z něj činí cenný nástroj pro bezpečnostní výzkum.“</li>
+</ul>
+<head>
+  <meta property="og:title" content="„Amazon S3 přidává funkci Put-If-Match (porovnat a vyměnit)“" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EAmazon%20S3%20p%C5%99id%C3%A1v%C3%A1%20funkci%20Put-If-Match%20(porovnat%20a%20vym%C4%9Bnit)%E2%80%9C&subheading=%C3%BAter%C3%BD%2026.%20listopadu%202024%3A%20Hacker%20News%20Shrnut%C3%AD" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/cs/2024/11/26</link>
+            <guid isPermaLink="false">2024-11-26T00:00:00.000Z</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-11-25]]></title>
             <description
@@ -1216,187 +1370,6 @@
             <link>https://hn.cho.sh/cs/2024/11/17</link>
             <guid isPermaLink="false">2024-11-17T00:00:00.000Z</guid>
             <pubDate>Sun, 17 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-11-16]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/11/16&#39;</h2>
-<h1>2024-11-16</h1>
-<h2><a href="https://www.half-life.com/en/halflife2/20th">„Half-Life 2: Aktualizace k 20. výročí“</a></h2>
-<ul>
-<li>„Valve vydalo na Steamu aktualizaci k 20. výročí Half-Life 2, která obsahuje nový obsah a vylepšení. Aktualizace zahrnuje komentáře vývojářů, podporu Steam Workshop, vylepšenou grafiku a opravy chyb, spolu s novými nastaveními gamepadu a vstupu. Dále zahrnuje rozšíření Episode One a Two a nabízí další obsah, jako jsou tapety a soundtracky ke stažení.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42151865">Reakce</a></h3>
-<ul>
-<li>„Aktualizace k 20. výročí Half-Life 2 je nyní k dispozici, hra a její pokračování jsou zdarma na Steamu do 18., včetně oprav chyb a vylepšení.“</li>
-<li>„Aktualizace znovu rozproudila diskuse o odkazu hry, možnosti Half-Life 3 a vývojové filozofii společnosti Valve.“</li>
-<li>„Fanoušci jsou vyzýváni, aby prozkoumali výroční stránku kvůli skrytým překvapením, a aktualizace byla dobře přijata díky své pozornosti k detailům a možnosti znovu navštívit klasickou hru.“</li>
-</ul>
-<h2><a href="https://anderegg.ca/2024/11/15/maybe-bluesky-has-won">„Možná Bluesky „vyhrál““</a></h2>
-<ul>
-<li>„Bluesky získává na popularitě jako alternativa k X, ale ještě není plně decentralizovaný nebo federovaný, protože se spoléhá na vlastní servery. Platforma využívá AT protokol, který zahrnuje osobní datové servery, relé a zobrazení aplikací, což uživatelům umožňuje hostovat vlastní data, i když to vyžaduje technické znalosti a může být nákladné. I když je Bluesky zdarma a nabízí funkce jako uživatelská jména založená na doménách a přizpůsobitelnou moderaci, jeho finanční model závisí na prodeji domén, což vyvolává otázky o jeho dlouhodobé udržitelnosti.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42150278">Reakce</a></h3>
-<ul>
-<li>„Bluesky získává pozornost jako příjemnější alternativa k Mastodonu, nabízející filtrační systém, který snižuje množství rozdělujícího politického obsahu.“</li>
-<li>„Uživatelé oceňují jednoduchost Bluesky a kontrolu nad viditelností obsahu, přičemž jej srovnávají s raným Twitterem, ačkoli přetrvávají obavy ohledně jeho otevřenosti a využívání dat.“</li>
-<li>„Platforma zažívá růst, protože uživatelé přecházejí z Twitteru, který je vnímán jako stále více politicky nabitý, což naznačuje potenciál Bluesky stát se významným hráčem na poli sociálních médií.“</li>
-</ul>
-<h2><a href="https://www.roadandtrack.com/news/a62919131/tesla-has-highest-fatal-accident-rate-of-all-auto-brands-study/">„Tesla má nejvyšší míru smrtelných nehod ze všech automobilových značek, zjistila studie.“</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42150443">Reakce</a></h3>
-<ul>
-<li>„Studie naznačuje, že Tesla má nejvyšší míru smrtelných nehod mezi automobilovými značkami, a to i přes své pokročilé bezpečnostní prvky.“</li>
-<li>„Studie naznačuje, že chování řidičů a podmínky významně přispívají k vysoké nehodovosti, což vyvolává debaty o politice, vlivu médií a designu automobilů.“</li>
-<li>„Metodologie studie a vliv demografických údajů řidičů, stejně jako vlastnosti automobilů, jako jsou dotykové obrazovky a hmotnost vozidla, jsou předmětem zkoumání a diskuse.“</li>
-</ul>
-<h2><a href="https://www.sportingnews.com/us/boxing/news/netflix-buffering-livestream-issues-boxing-jake-paul-mike-tyson/327ee972d4b14d90cc370461">„Problémy s načítáním na Netflixu: Fanoušci boxu si stěžují na zápas Jake Paul vs. Mike Tyson“</a></h2>
-<ul>
-<li>Fanoušci boxu se během zápasu Jakea Paula proti Mikeu Tysonovi na Netflixu setkali s problémy s ukládáním do vyrovnávací paměti, což vedlo k zpoždění, trhané analýze a černým obrazovkám.</li>
-<li>„Problémy se streamováním vyvolaly obavy ohledně schopnosti Netflixu zvládnout živé sportovní události, zejména s nadcházejícími zápasy NFL naplánovanými na Štědrý den.“</li>
-<li>„Někteří diváci se rozhodli pro živé vysílání Antonia Browna na X, které přitáhlo značnou pozornost s 6,4 miliony diváků.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42153953">Reakce</a></h3>
-<ul>
-<li>„Netflix zažil vážné problémy s ukládáním do vyrovnávací paměti během zápasu Jake Paul vs. Mike Tyson, což vedlo k četným stížnostem na kvalitu živého streamování.“</li>
-<li>„Kritici poukazují na to, že infrastruktura Netflixu, která je primárně navržena pro předem nahraný obsah, nemusí být tak dobře přizpůsobena pro živé vysílání, na rozdíl od platforem jako YouTube a Amazon.“</li>
-<li>„Incident zdůrazňuje výzvy, kterým Netflix čelí na trhu živého sportovního vysílání, zejména s budoucími událostmi, jako jsou zápasy NFL, na obzoru.“</li>
-</ul>
-<h2><a href="https://llamaocr.com/">„Llama-OCR: Dokument do Markdown“</a></h2>
-<ul>
-<li>„Příspěvek představuje metodu, jak převést obrázky do formátu markdown pomocí llama-ocr a Together AI OCR, což jsou nástroje pro optické rozpoznávání znaků.“</li>
-<li>„Uživatelé mohou nahrát obrázek, aby obdrželi strukturovaný markdown, což usnadňuje extrakci a formátování textu z obrázků.“</li>
-<li>„Příklad kódu v JavaScriptu je poskytnut, který demonstruje, jak použít knihovnu llama-ocr ke zpracování obrazového souboru a získání výstupu ve formátu markdown.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42154410">Reakce</a></h3>
-<ul>
-<li>„Llama-OCR je nástroj, který převádí dokumenty do formátu Markdown pomocí Llama 3.2 vision a je dostupný jako balíček npm.“</li>
-<li>„Budoucí aktualizace plánují zahrnout funkce jako je zpracování PDF a výstup ve formátu JSON, ačkoli současní uživatelé hlásí smíšené zkušenosti s manipulací s obrázky a konzistencí výstupu.“</li>
-<li>„Nástroj je hostován na together.ai, přičemž probíhají diskuse o jeho výkonu a možných vylepšeních, včetně návrhů na použití lokálních modelů nebo alternativních OCR nástrojů pro lepší přesnost.“</li>
-</ul>
-<h2><a href="https://bsky.bad-example.com/consuming-the-firehose-cheaply/">„Spotřebovávání datového proudu Bluesky za méně než 2,50 USD/měsíc“</a></h2>
-<ul>
-<li>„Veřejná data Bluesky, zahrnující 15 milionů uživatelů, jsou dostupná prostřednictvím websocket JSON kanálu nazvaného Jetstream, což umožňuje monitorování sítě v reálném čase.“</li>
-<li>„Byla vyvinuta jednoduchá aplikace, která naslouchá událostem mazání z kanálu Jetstream a dočasně zobrazuje anonymizovaný smazaný text.“</li>
-<li>„Aplikace běží na nejmenší instanci Fly za 2,24 USD měsíčně, efektivně spravuje události příspěvků, filtrování obsahu, ukládání textu do mezipaměti a vysílání smazaných příspěvků, i když složitější aplikace mohou čelit problémům se škálovatelností.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42152362">Reakce</a></h3>
-<ul>
-<li>„Bluesky nabízí cenově výhodný způsob přístupu k jeho datovému proudu, známému jako „firehose“, za méně než 2,50 USD/měsíc, což přitahuje zájem uživatelů.“</li>
-<li>„Platforma je známá funkcemi, jako je používání webové stránky jako uživatelského jména a snadné sdílení obrázků na iOS, což vyvolává srovnání s raným Twitterem.“</li>
-<li>„Decentralizovaná struktura a komunitou řízený vývoj Bluesky zdůrazňují jeho zaměření na otevřený přístup k datům, což je v kontrastu s aktuálními omezeními Twitteru.“</li>
-</ul>
-<h2><a href="https://lists.freebsd.org/archives/freebsd-hackers/2024-November/004068.html">„První dojmy: Lenovo T14s s procesorem Qualcomm Snapdragon ARM64“</a></h2>
-<ul>
-<li>„Lenovo T14s s procesorem Qualcomm Snapdragon ARM64 je hodnocen, což poukazuje na posun od tradiční architektury X86 kvůli vnímaným neefektivnostem.“</li>
-<li>„Počáteční nastavení na FreeBSD-current vyžadovalo ARM64-specifické záplaty, přičemž některé hardwarové komponenty jako obrazovka a NVME fungovaly, ale jiné jako klávesnice a USB-C porty nefungovaly.“</li>
-<li>„Výkonnostní testy ukázaly, že zařízení vytvořilo svět za 3210 sekund s využitím 24 Wh energie, což je přičítáno jeho 12 reálným CPU, což vedlo k pozitivnímu doporučení.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42150933">Reakce</a></h3>
-<ul>
-<li>„Lenovo T14s s procesorem Qualcomm Snapdragon ARM64 dostává smíšené recenze, přičemž uživatelé poukazují na problémy, jako je nefunkční klávesnice, myš a porty USB-C.“</li>
-<li>„Jsou prováděna srovnání s telefony s Linuxem, která zdůrazňují podobná omezení a problémy s kompatibilitou s ARM Linux desktopy.“</li>
-<li>„Navzdory současným problémům existuje optimismus ohledně budoucích vylepšení a lepší podpory ovladačů pro architekturu ARM v noteboocích Lenovo.“</li>
-</ul>
-<h2><a href="https://yggdrasil-network.github.io/">„Síť Yggdrasil“</a></h2>
-<ul>
-<li>„Yggdrasil je experimentální směrovací schéma zaměřené na poskytování decentralizované a budoucí alternativy k současným internetovým směrovacím protokolům, zejména pro rozsáhlé mesh sítě. Nabízí funkce jako škálovatelnost, samoléčení, šifrování a podporu napříč platformami, fungující na různých operačních systémech včetně Linuxu, macOS, Windows, iOS a Androidu. I přes to, že je ve fázi alfa, je Yggdrasil stabilní pro každodenní použití, nabízí koncové šifrované směrování IPv6 a může být konfigurován jak přes sítě IPv4, tak IPv6.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42155780">Reakce</a></h3>
-<ul>
-<li>„Yggdrasil Network je experimentální směrovací protokol zaměřený na decentralizaci a škálovatelnost, inspirovaný cjdns, ale bez přísné hierarchie.“</li>
-<li>„Navzdory absenci jasné specifikace protokolu se Yggdrasil vyvinul s významnými aktualizacemi ve verzích 0.4 a 0.5, které zlepšily latenci sítě.“</li>
-<li>„Protokol používá adresy IPv6 odvozené z veřejných klíčů, což by mohlo vést ke kolizím adres, a není primárně navržen pro anonymitu.“</li>
-</ul>
-<h2><a href="https://github.com/hengyoush/kyanos">„Kyanos: nástroj pro analýzu síťových problémů založený na eBPF“</a></h2>
-<ul>
-<li>„Kyanos je nástroj založený na eBPF určený pro analýzu sítě, schopný zachytávat a analyzovat různé síťové požadavky, jako jsou HTTP, Redis a MySQL.“</li>
-<li>„Obsahuje pokročilé možnosti filtrování provozu podle IP, portu, procesu, kontejneru a protokolu, spolu s přehledy latence na úrovni jádra a automatickým dešifrováním SSL provozu.“</li>
-<li>„Nástroj je lehký, vyžaduje minimální závislosti a je kompatibilní s verzemi jádra Linuxu 3.10 a 4.14 nebo vyššími, což ho činí přístupným pro širokou škálu uživatelů.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42154583">Reakce</a></h3>
-<ul>
-<li>„Kyanos je nástroj pro analýzu sítí založený na eBPF (rozšířený Berkeley Packet Filter), který nabízí přehledy v reálném čase pro řešení problémů a optimalizaci výkonu.“</li>
-<li>„V současné době podporuje specifické protokoly, včetně HTTP, MySQL a Redis, což někteří uživatelé považují za omezení.“</li>
-<li>„Diskuse zdůrazňují význam technologií, jako je RDMA (Remote Direct Memory Access) a OFED (OpenFabrics Enterprise Distribution) v oblasti vysoce výkonného počítání, a zároveň zmiňují knihu pro další studium o eBPF.“</li>
-</ul>
-<h2><a href="https://twitter.com/DSCCRoss/status/1857208745014776215">„M4 MacBook Pro používají kvantovou tečkovou (QD) fólii namísto červené KSF fosforové fólie.“</a></h2>
-<ul>
-<li>„Nový MacBook Pro (M4) od společnosti Apple zavádí použití kvantové tečky (QD) filmu, který nahrazuje dříve používaný červený KSF fosforový film.“</li>
-<li>„Přechod na QD film představuje významnou změnu, protože Apple dříve upřednostňoval KSF pro jeho účinnost a vlastnosti bez obsahu kadmia.“</li>
-<li>„Tato aktualizace zdůrazňuje pokračující úsilí společnosti Apple o vylepšení technologie displejů ve svých zařízeních.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42152928">Reakce</a></h3>
-<ul>
-<li>„Nové MacBooky Pro M4 přešly z používání červeného KSF fosforového filmu na film s kvantovými tečkami, což bylo zjištěno prostřednictvím spektrální analýzy, nikoli oficiálním oznámením od Apple.“</li>
-<li>„Očekává se, že kvantové tečky zlepší barevný gamut a pohybový výkon displejů, ačkoli doba odezvy je stále problémem pro displeje MacBooků.“</li>
-<li>„Apple spolupracuje s výrobci displejů, jako jsou Samsung, LG a BOE, na výzkumu a vývoji, aby splnili specifické požadavky na produkty.“</li>
-</ul>
-<h2><a href="https://www.zach.be/p/yc-is-wrong-about-llms-for-chip-design">„YC se mýlí ohledně LLM pro návrh čipů“</a></h2>
-<ul>
-<li>„Návrh YC na využití velkých jazykových modelů (LLM) pro návrh čipů je kritizován za to, že neodpovídá odbornosti lidských inženýrů při vytváření inovativních architektur čipů.“</li>
-<li>„I když LLM mohou snížit náklady na návrh, je nepravděpodobné, že by revolucionalizovaly návrh čipů na trzích s vysokou hodnotou, podobně jako minulé pokusy jako vysokourovňová syntéza (HLS).“</li>
-<li>„LLM by mohly být přínosné v procesech ověřování, potenciálně řešit nedostatek talentů v této oblasti, ale neočekává se, že by produkovaly lepší čipy nebo otevíraly nové trhy.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42156516">Reakce</a></h3>
-<ul>
-<li>„Diskuse zdůrazňuje skepsi ohledně účinnosti velkých jazykových modelů (LLM) v návrhu čipů, srovnávajíc je s minulými cykly technologického nadšení, jako je blockchain. Kritici tvrdí, že LLM jsou přeceňovány a zatím nejsou spolehlivé pro složité úkoly návrhu čipů, které vyžadují hlubokou odbornost přesahující současné schopnosti AI. Existuje nejistota, zda budoucí pokroky překonají omezení LLM ve specializovaných oblastech s omezenými tréninkovými daty.“</li>
-</ul>
-<h2><a href="https://arstechnica.com/tech-policy/2024/11/ftc-to-launch-investigation-into-microsofts-cloud-business/">„FTC zahájí vyšetřování cloudového podnikání společnosti Microsoft“</a></h2>
-<ul>
-<li>„Federální obchodní komise (FTC) vyšetřuje cloudové podnikání společnosti Microsoft kvůli možným protisoutěžním praktikám, zejména pokud jde o licenční podmínky Azure.“</li>
-<li>„Obvinění zahrnují zvýšené poplatky a nekompatibilitu Office 365 s konkurenčními cloudovými platformami, což zákazníkům ztěžuje přechod.“</li>
-<li>„Toto vyšetřování je součástí širšího regulačního úsilí FTC, přičemž podobnou kontrolu provádějí i regulátoři ve Spojeném království a EU, protože trh s cloudovými službami nadále roste.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42152068">Reakce</a></h3>
-<ul>
-<li>„Federální obchodní komise (FTC) vyšetřuje cloudové podnikání společnosti Microsoft kvůli možným protisoutěžním praktikám, včetně zvyšování poplatků pro zákazníky, kteří přecházejí k jiným poskytovatelům, a znekompatibilnění Office 365 s konkurenčními cloudovými službami.“</li>
-<li>„Toto vyšetřování je součástí širšího zkoumání velkých technologických společností, což odráží trvalé obavy ohledně jejich tržní síly a obchodních praktik.“</li>
-<li>„Existuje debata ohledně motivací FTC, přičemž názory se rozcházejí v tom, zda jsou tyto kroky nezbytnou regulací technologických gigantů nebo politicky motivované.“</li>
-</ul>
-<h2><a href="https://arstechnica.com/gadgets/2024/11/i-too-installed-an-open-source-garage-door-opener-and-am-loving-it/">„Nainstaloval jsem open source otvírač garážových vrat a jsem z toho nadšený.“</a></h2>
-<ul>
-<li>„OpenGarage je open-source otvírač garážových vrat, který se bezproblémově integruje s Home Assistant, což nabízí vylepšenou kontrolu a přizpůsobení pro domácí automatizaci.“</li>
-<li>„Skládá se z malé desky ESP s ultrazvukovým senzorem, kterou lze ovládat přes webový prohlížeč nebo mobilní aplikaci, což usnadňuje instalaci.“</li>
-<li>„OpenGarage umožňuje automatizaci úkolů, jako je zapnutí světel při otevření garážových vrat, což zdůrazňuje jeho všestrannost a přitažlivost pro nadšence do domácí automatizace typu DIY.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42150376">Reakce</a></h3>
-<ul>
-<li>„Příspěvek se zabývá použitím open-source otvíračů garážových vrat, zdůrazňuje jejich flexibilitu a místní kontrolu ve srovnání s modely založenými na předplatném, jako je myQ.“</li>
-<li>„Uživatelé vyjadřují frustraci z předplatitelského modelu myQ a nedostatku podpory třetích stran, což je vede k hledání alternativ, jako jsou RATGDO, Meross a ESPHome.“</li>
-<li>„Nadšenci do automatizace domácnosti integrují tato open-source řešení se systémy jako MQTT, Home Assistant a Z-Wave pro vylepšenou funkčnost a bezproblémové ovládání.“</li>
-</ul>
-<h2><a href="https://labs.quansight.org/blog/dataframe-group-by">„Nezákladní agregace pomocí group-by v Polars vs pandas“</a></h2>
-<ul>
-<li>„Na PyData Berlin 2024 byla knihovna pro zpracování dat Polars vyzdvižena pro své pokročilé funkce, jako je líné vykonávání, integrace s Rustem a multithreading.“</li>
-<li>„Významnou inovací Polars je jeho podpora neelementárních agregací při seskupování, což uživatelům umožňuje provádět složité operace efektivněji než v pandas.“</li>
-<li>„Blog naznačuje, že nové knihovny pro práci s datovými rámci by měly inovovat nad rámec API pandas, přičemž Polars slouží jako příklad díky své expresivní syntaxi a vylepšeným schopnostem manipulace s daty.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42152076">Reakce</a></h3>
-<ul>
-<li>„Polars se stává populárnějším než Pandas pro ne-základní operace group-by díky své podobnosti s Apache Spark a vyšší rychlosti. Uživatelé oceňují Polars pro jeho rychlý výkon a jednoduché nastavení, zejména u menších datových sad, navzdory zavedenému ekosystému Pandas. Rozhodnutí mezi použitím Pandas nebo Polars je ovlivněno konkrétními případy použití, požadavky na výkon a preferencemi uživatelů, přičemž někteří volí SQL nebo DuckDB pro složité datové úkoly.“</li>
-</ul>
-<h2><a href="https://eclecticlight.co/2024/11/14/m4-macs-cant-virtualise-older-macos/">„M4 Macy nemohou virtualizovat starší macOS“</a></h2>
-<ul>
-<li>„M4 Macy nejsou schopny virtualizovat verze macOS starší než 13.4 Ventura, což vede k černé obrazovce při pokusech o spuštění starších virtuálních strojů (VM) macOS.“</li>
-<li>„Problém pravděpodobně vzniká již v rané fázi spouštění jádra a jeho vyřešení by vyžadovalo, aby Apple aktualizoval starší jádra macOS, což je nepravděpodobné.“</li>
-<li>„Macy s čipy M1, M2 a M3 mohou virtualizovat macOS Monterey 12.0.1 a novější, ale Big Sur nelze virtualizovat na žádném Apple Silicon.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42157086">Reakce</a></h3>
-<ul>
-<li>„M4 Macy nejsou schopny virtualizovat verze macOS starší než 13.4 Ventura, což představuje výzvy pro vývojáře, kteří potřebují testovat aplikace na starších systémech.“</li>
-<li>„Absence vestavěného řešení kontejnerů pro macOS komplikuje procesy kontinuální integrace (CI), které jsou nezbytné pro automatizované testování a nasazení.“</li>
-<li>„Anka poskytuje částečné řešení tím, že umožňuje obrazy virtuálních strojů (VM) pro macOS, ale softwarová licence společnosti Apple to omezuje na dva VM, což frustruje vývojáře, kteří potřebují testování pro zpětnou kompatibilitu.“</li>
-</ul>
-<head>
-  <meta property="og:title" content="„Half-Life 2: Aktualizace k 20. výročí“" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EHalf-Life%202%3A%20Aktualizace%20k%2020.%20v%C3%BDro%C4%8D%C3%AD%E2%80%9C&subheading=sobota%2016.%20listopadu%202024%3A%20Hacker%20News%20Shrnut%C3%AD" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/cs/2024/11/16</link>
-            <guid isPermaLink="false">2024-11-16T00:00:00.000Z</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

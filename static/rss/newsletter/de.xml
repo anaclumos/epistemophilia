@@ -15,12 +15,166 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 25 Nov 2024 19:40:15 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Nov 2024 19:20:17 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/de.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
+        <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[de]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-11-26]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/11/26&#39;</h2>
+<h1>2024-11-26</h1>
+<h2><a href="https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-s3-functionality-conditional-writes/">„Amazon S3 fügt Put-If-Match (Compare-and-Swap) hinzu“</a></h2>
+<ul>
+<li>„Amazon S3 führt bedingte Schreibvorgänge ein, die Aktualisierungen nur dann ermöglichen, wenn ein Objekt unverändert bleibt, und verhindert so gleichzeitige Überschreibungen durch Überprüfung des ETags des Objekts. Diese Funktion, ähnlich dem HTTP-Header if-none-match, ermöglicht es Clients, den if-match-Header zu verwenden, um die Konsistenz des ETags vor dem Schreiben sicherzustellen, was die Effizienz für verteilte Anwendungen erhöht. Ohne zusätzliche Kosten in allen AWS-Regionen verfügbar, kann die Implementierung mit dem AWS SDK, API oder CLI erfolgen, mit weiteren Details im S3-Benutzerhandbuch.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42240678">Reaktionen</a></h3>
+<ul>
+<li>„Amazon S3 hat ein neues Feature namens Put-If-Match eingeführt, das wie eine Compare-and-Swap-Operation funktioniert und bedingtes Schreiben von Objekten basierend auf Versionsabgleich ermöglicht. Dieses Feature verbessert die Synchronisation und die Steuerung der Nebenläufigkeit, wodurch Entwickler komplexere Operationen durchführen können, wie zum Beispiel den Aufbau von Datenbanken auf S3 ohne zusätzliche Infrastruktur. Das Update bringt Amazon S3 in Einklang mit ähnlichen Funktionen, die von anderen Cloud-Speicherdiensten wie Google Cloud Storage und Azure Blob Storage angeboten werden.“</li>
+</ul>
+<h2><a href="https://fasterthanli.me/articles/lies-we-tell-ourselves-to-keep-using-golang">„Lügen, die wir uns selbst erzählen, um weiterhin Golang zu verwenden (2022)“</a></h2>
+<ul>
+<li>„Der Artikel kritisiert Golang und stellt fest, dass es zwar ansprechende Merkmale wie eine asynchrone Laufzeitumgebung und einen Garbage Collector bietet, aber auch erhebliche Nachteile aufweist, wie das Fehlen von Summentypen und unzureichendes Fehlerhandling. Er argumentiert, dass die wahrgenommene Einfachheit von Go täuschen kann, was zu versteckten Komplexitäten und Herausforderungen in Produktionsumgebungen führt, und betont die Wichtigkeit, diese Probleme zu erkennen, anstatt Go nur wegen seiner Benutzerfreundlichkeit zu übernehmen. Der Artikel vergleicht Go mit Rust und schlägt vor, dass Rust trotz seiner Herausforderungen robustere Lösungen zur Bewältigung von Komplexität und zur Sicherstellung der Codekorrektheit bietet.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42243500">Reaktionen</a></h3>
+<ul>
+<li>„Der Artikel kritisiert die Fehlerbehandlung von Go und vergleicht sie mit dem anspruchsvolleren Ansatz von Rust, den einige als eleganter empfinden.“</li>
+<li>„Es gibt eine Meinungsverschiedenheit: Einige schätzen die Einfachheit von Go und die explizite Fehlerbehandlung, während andere sie als mühsam und fehleranfällig empfinden.“</li>
+<li>„Trotz Kritik bleibt Go aufgrund seiner Einfachheit und der weit verbreiteten Akzeptanz durch große Unternehmen beliebt.“</li>
+</ul>
+<h2><a href="https://www.wired.com/story/cybertrucks-many-recalls-make-it-worse-than-91-percent-of-all-2024-vehicles/">„Viele Rückrufe des Cybertrucks“</a></h2>
+<ul>
+<li>„Der Tesla Cybertruck hat seit seiner Markteinführung mehrere Rückrufe erlebt, wobei der jüngste fehlerhafte Antriebswechselrichter betrifft, die über 2.400 Einheiten betreffen und Bedenken hinsichtlich seiner Zuverlässigkeit aufkommen lassen.“</li>
+<li>„Trotz Qualitätsproblemen zieht das einzigartige Design des Cybertrucks weiterhin Käufer an, obwohl seine Unfähigkeit, die europäischen Sicherheitsstandards zu erfüllen, seine Marktreichweite einschränkt.“</li>
+<li>„Die Rückrufe, die die Wirksamkeit der Regulierung demonstrieren, könnten Teslas Markenreputation schaden, insbesondere angesichts des erheblichen Einflusses von Elon Musk auf die US-Vorschriften.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42242971">Reaktionen</a></h3>
+<h2><a href="https://techcrunch.com/2024/11/22/y-combinator-often-backs-startups-that-duplicate-other-yc-companies-data-shows-its-not-just-ai-code-editors/">„Y Combinator unterstützt oft Startups, die andere YC-Unternehmen duplizieren, wie Daten zeigen“</a></h2>
+<ul>
+<li>„Y Combinator (YC), ein prominenter Startup-Beschleuniger, ist bekannt dafür, erfolgreiche Unternehmen wie Airbnb und Stripe zu starten, aber viele seiner Startups entwickeln ähnliche oder identische Produkte wie frühere YC-Unternehmen.“</li>
+<li>„Die PearAI-Kontroverse hob diesen Trend hervor, bei dem PearAI beschuldigt wurde, ein anderes YC-Produkt geklont zu haben, doch YC-CEO Garry Tan verteidigte die Praxis und verwies auf die Bedeutung von Wahlmöglichkeiten und Innovation.“</li>
+<li>„Die Analyse von Deckmatch zu YC-Trends zeigt, dass beliebte Startup-Kategorien AI-Code-Editoren, Restaurant-PoS-Systeme und Finanztools für Unternehmen umfassen, während in einigen Bereichen wie dem Kryptohandel das Interesse abnimmt.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42243746">Reaktionen</a></h3>
+<ul>
+<li>„Y Combinator investiert häufig in Startups, die andere von YC unterstützte Unternehmen nachahmen, wobei der Schwerpunkt auf dem Potenzial der Gründer liegt und nicht auf einzigartigen Ideen. Diese Strategie wird als eine Möglichkeit gesehen, Wetten auf ähnliche Konzepte abzusichern, da der Erfolg oft von der Umsetzung und dem Timing abhängt und nicht von der Originalität der Idee. Während einige dies als potenziellen Interessenkonflikt betrachten, ist es eine gängige Praxis im Risikokapital, mehrere Unternehmen im selben Sektor zu finanzieren, um Märkte zu validieren und die Erfolgschancen zu erhöhen.“</li>
+</ul>
+<h2><a href="https://status.flyio.net">„Fly.io-Ausfall – behoben“</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42241851">Reaktionen</a></h3>
+<ul>
+<li>„Fly.io erlebte einen vorübergehenden Ausfall, der behoben wurde, aber bei den Nutzern Bedenken hinsichtlich der Zuverlässigkeit der Plattform aufgrund früherer Vorfälle aufwarf. - Nutzer verglichen Fly.io mit Alternativen wie Railway und Cloudflare und hoben Unterschiede in Zuverlässigkeit, Funktionen und Nutzererfahrungen hervor. - Trotz der Herausforderungen schätzen einige Nutzer Fly.io für seine Benutzerfreundlichkeit und wettbewerbsfähige Preisgestaltung, während Diskussionen die Bedeutung von hoher Verfügbarkeit und Überwachung von Abhängigkeiten betonten.“</li>
+</ul>
+<h2><a href="https://www.viksnewsletter.com/p/short-intro-to-automotive-lidar">„Eine kurze Einführung in die Lidar-Technologie für Automobile“</a></h2>
+<ul>
+<li>„Viks Newsletter befasst sich mit der automobilen Lidar-Technologie, die für selbstfahrende Autos von entscheidender Bedeutung ist, da sie hochauflösende Bilder mit Infrarotlasern erzeugen kann. Der Newsletter erörtert die Funktionsprinzipien von Lidar, einschließlich der Wahl der Wellenlänge, Photodetektoren und Entfernungsmessverfahren wie Time-of-Flight und Frequency Modulated Continuous Wave. Außerdem werden verschiedene Lidar-Systeme untersucht, wie mechanische und Festkörperoptionen, mit dem Ziel, die Kosten zu senken und die Technologie für eine breitere Einführung in autonomen Fahrzeugen zu verbessern.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239721">Reaktionen</a></h3>
+<ul>
+<li>„Die Automobil-Lidar-Technologie entwickelt sich weiter, wobei rotierende Scanner wie die von Velodyne trotz ihrer hohen Kosten eingesetzt werden, während Alternativen wie Flash-Lidar und MEMS-Spiegel mit Markt- und technischen Herausforderungen konfrontiert sind.“</li>
+<li>„Waymos fortgesetzte Nutzung von rotierenden Lidars, selbst in anfälligen Fahrzeugecken, unterstreicht die Notwendigkeit erschwinglicherer und integrierter Lösungen, da gepulste Lidar-Systeme im Vergleich zu kontinuierlichen Systemen eine geringere Interferenz bieten.“</li>
+<li>„Lidar bietet hochauflösende Bildgebung und funktioniert gut bei schlechten Lichtverhältnissen, steht jedoch im Wettbewerb mit kamerabasierten Systemen, die einige Unternehmen, wie Tesla, aus Kostengründen bevorzugen, was anhaltende Debatten über den besten Ansatz für autonomes Fahren anheizt.“</li>
+</ul>
+<h2><a href="https://papersplease.org/wp/2024/11/25/do-you-need-id-to-read-the-real-id-rules/">„Brauchen Sie einen Ausweis, um die REAL-ID-Regeln zu lesen?“</a></h2>
+<ul>
+<li>„Ein Versuch, auf die neuen digitalen ID-Regeln der TSA zuzugreifen, offenbarte Probleme mit dem REAL-ID-Gesetz, da die Regeln nicht öffentlich zugänglich sind und ein Ausweis für den Zugang erforderlich ist, was Bedenken hinsichtlich geheimer Gesetze und des ordnungsgemäßen Verfahrens aufwirft.“</li>
+<li>„Die digitalen ID-Standards der TSA, die aus privaten Dokumenten abgeleitet sind, beinhalten komplexe Interaktionen zwischen Apps, Geräten und Regierungsbehörden, wobei Bedenken hinsichtlich der Privatsphäre bei der protokollierten Nutzung von IDs bestehen.“</li>
+<li>„Der Autor argumentiert, dass die Praktiken der TSA die Rechte auf öffentlichen Zugang verletzen und hat das Problem dem Office of the Federal Register gemeldet, um den Rückzug der Regel zu erwirken.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239952">Reaktionen</a></h3>
+<ul>
+<li>„Die Diskussion dreht sich um die Notwendigkeit, einen Ausweis zu haben, um auf REAL-ID-Regeln zuzugreifen, wobei einige Nutzer die Wirksamkeit der Sicherheitsmaßnahmen der TSA in Frage stellen. - Es werden Bedenken hinsichtlich der Auswirkungen von mobilen Führerscheinen (mDLs) und der damit verbundenen Datenschutzprobleme geäußert. - Nutzer äußern Skepsis gegenüber der Wirksamkeit der TSA und dem Konzept des Sicherheitstheaters und hinterfragen gleichzeitig die langfristigen Auswirkungen digitaler Ausweise wie REAL-ID und mDLs.“</li>
+</ul>
+<h2><a href="https://medium.com/@drspoulsen/a-solution-to-the-onion-problem-of-j-kenji-l%C3%B3pez-alt-c3c4ab22e67c">„Eine Lösung für das Zwiebelproblem von J. Kenji Lopez-Alt (2021)“</a></h2>
+<ul>
+<li>„Der Beitrag behandelt das „Zwiebelproblem“, bei dem es darum geht, Zwiebeln so zu schneiden, dass die Volumenvarianz der Scheiben für eine gleichmäßige Verteilung minimiert wird. Eine mathematische Untersuchung unter Verwendung der Analysis ergab, dass der optimale Schnittpunkt 55,73066 % unterhalb des Zentrums der Zwiebel liegt, was als „wahre Zwiebelkonstante“ bezeichnet wird. Diese Erkenntnis verfeinert einen früheren Vorschlag, der das Schneiden zu einem Punkt 60 % unterhalb des Zentrums empfahl, und bietet eine präzisere Methode für gleichmäßige Zwiebelscheiben.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42244814">Reaktionen</a></h3>
+<ul>
+<li>„Die Diskussion untersucht ein mathematisches Modell zum gleichmäßigen Schneiden von Zwiebeln, inspiriert von J. Kenji Lopez-Alt, das eine Halbscheiben-Darstellung verwendet, um die Geometrie zu vereinfachen und die Varianz der Scheibengröße zu minimieren. Die Benutzer debattieren über die Praktikabilität und Genauigkeit des Modells, unter Berücksichtigung der 3D-Struktur der Zwiebel und ihrer ungleichmäßigen Schichten, und schlagen alternative Schneidemethoden oder Werkzeuge vor. Die Unterhaltung berücksichtigt auch das Gleichgewicht zwischen Gleichmäßigkeit und kulinarischen Vorlieben und verweist auf Persönlichkeiten aus der Lebensmittelbranche wie Adam Ragusea.“</li>
+</ul>
+<h2><a href="https://twitter.com/TomHacohen/status/1861137484249252093">„Redis versucht, alle OSS Redis-Bibliotheken zu übernehmen.“</a></h2>
+<ul>
+<li>„Berichten zufolge übernimmt Redis die Kontrolle über alle Open-Source-Software (OSS) Redis-Bibliotheken, zu denen beliebte wie Jedis, Lettuce und redis-py gehören.“</li>
+<li>„Diese Bibliotheken sind derzeit nicht verfügbar, und eine weitere Bibliothek, redis-rs, steht ebenfalls vor einer möglichen Übernahme oder Abschaltung.“</li>
+<li>„Diese Situation ist bedeutsam, da sie Entwickler betrifft, die auf diese Bibliotheken für die Redis-Integration in ihren Anwendungen angewiesen sind.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239607">Reaktionen</a></h3>
+<ul>
+<li>„Redis Inc. übernimmt die Kontrolle über Open-Source-Redis-Bibliotheken, was Kontroversen auslöst und dazu führt, dass einige Entwickler Redis-Abhängigkeiten aufgrund von Markenrechtsdurchsetzungsproblemen entfernen.“</li>
+<li>„Bibliotheken wie redis-py, Lettuce und Jedis wurden unter die offizielle Organisation von Redis Inc. gestellt, was als defensive Strategie gegen Konkurrenten wie Valkey angesehen wird.“</li>
+<li>„Die Gemeinschaft ist besorgt über Markenansprüche und potenzielle Anbieterbindung, was Diskussionen über Alternativen wie Valkey und Kvrocks anregt und die Herausforderungen der Markendurchsetzung in Open-Source-Projekten hervorhebt.“</li>
+</ul>
+<h2><a href="http://jpkoning.blogspot.com/2024/11/setelinleikkaus-when-finns-snipped.html">„Setelinleikkaus: Als die Finnen ihr Bargeld halbierten, um die Inflation zu zügeln“</a></h2>
+<ul>
+<li>„1945 führte Finnland die „Setelinleikkaus“ ein, eine Politik, die Bürger dazu verpflichtete, große Banknoten zur Bekämpfung der Inflation nach dem Zweiten Weltkrieg in zwei Hälften zu schneiden, wobei eine Hälfte ihren Wert behielt und die andere zu einer Staatsanleihe wurde. Die Maßnahme war ineffektiv, da sie nur physisches Bargeld betraf, das einen kleinen Teil der Geldmenge ausmachte, im Gegensatz zu erfolgreicheren Reformen in anderen europäischen Ländern wie Belgien. Der Artikel spekuliert, dass die zukünftige Inflationskontrolle möglicherweise digitale Kontosperrungen umfassen könnte, eine präzisere, aber potenziell umstrittene Methode.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42243755">Reaktionen</a></h3>
+<ul>
+<li>„1945 ging Finnland auf einzigartige Weise mit der Inflation um, indem es Banknoten physisch halbierte, im Gegensatz zu modernen Methoden wie der Anpassung der Zinssätze.“</li>
+<li>„Dieser historische Ansatz hat Diskussionen über die aktuelle Geldpolitik ausgelöst, bei der Zentralbanken die Inflation durch Zinssätze und Offenmarktgeschäfte steuern.“</li>
+<li>„Die potenzielle zukünftige Kontrolle von digitalem Geld, möglicherweise durch digitale Zentralbankwährungen, wirft Bedenken hinsichtlich einer verstärkten staatlichen Überwachung der persönlichen Finanzen auf.“</li>
+</ul>
+<h2><a href="https://www.metmuseum.org/perspectives/peter-hristoff-islamic-prayer-rugs">„Gebet, Platzierung und Absolution: Peter Hristoff über islamische Gebetsteppiche (2015)“</a></h2>
+<ul>
+<li>„Peter Hristoffs Kunstwerke erforschen die Schnittstelle von Kunst und Spiritualität, insbesondere durch das Medium der Gebetsteppiche, beginnend ab 1997. Seine Kreationen, darunter Zeichnungen und Serigraphien, entwickeln sich zu größeren „Teppich“-Stücken auf Reispapier, inspiriert von türkischen Teppichen und Kilims, die er als persönliche Tagebücher mit symbolischen Bedeutungen betrachtet. Hristoffs Werk verkörpert eine „helle Traurigkeit“, eine Mischung aus Freude und Trauer, beeinflusst von den Schriften des Patriarchen Bartholomäus, und erforscht weiterhin die spirituellen und physischen Aspekte der menschlichen Natur.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239487">Reaktionen</a></h3>
+<ul>
+<li>„Peter Hristoffs Artikel untersucht die Bedeutung islamischer Gebetsteppiche und betont deren komplexe Designs, wie z.B. Tessellationen, die die Unendlichkeit Gottes symbolisieren. Der Artikel behandelt das islamische Verbot von gegenständlicher Kunst, was zur Verwendung von Kalligraphie und geometrischen Mustern in islamischen Artefakten führt. Er hebt den historischen und kulturellen Kontext von Gebetsteppichen hervor und weist auf deren Verwendung in verschiedenen religiösen Traditionen, einschließlich des Christentums, sowie auf ihre praktischen und spirituellen Rollen hin.“</li>
+</ul>
+<h2><a href="https://deno.com/blog/deno-v-oracle">„Deno vs. Oracle: Aufhebung der JavaScript-Marke“</a></h2>
+<ul>
+<li>„Deno hat beim United States Patent and Trademark Office (USPTO) eine Petition eingereicht, um Oracles Markenzeichen auf „JavaScript“ zu annullieren, mit dem Ziel, es zu einem öffentlichen Gut zu machen und rechtliche Hürden für seine Nutzung zu beseitigen.“</li>
+<li>„Die Petition argumentiert, dass „JavaScript“ ein generischer Begriff ist, Oracle Betrug bei der Erneuerung der Marke begangen hat und Oracle die Marke durch Nichtbenutzung aufgegeben hat.“</li>
+<li>„Über 14.000 Entwickler unterstützen den Schritt von Deno, und Oracle hat bis zum 4. Januar 2025 Zeit zu reagieren, wobei Deno bereit ist, alle Verfahren mit der Gemeinschaft zu teilen.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239263">Reaktionen</a></h3>
+<ul>
+<li>„Deno hat beim United States Patent and Trademark Office (USPTO) eine Petition eingereicht, um Oracles Markenzeichen auf JavaScript zu annullieren, was eine Debatte über Markenzeichenethik und Gemeinschaftsvorteile ausgelöst hat.“</li>
+<li>„Die Diskussion betrifft die Kompatibilität von Deno mit dem Node Package Manager (NPM) und deren Auswirkungen auf das breitere JavaScript-Ökosystem, wobei unterschiedliche Meinungen über die Zukunft von JavaScript und Laufzeitumgebungen zum Ausdruck kommen.“</li>
+<li>„Die Meinungen sind geteilt: Einige betrachten die Verwendung des Markenzeichens durch Oracle als unethisch, während andere die Absichten von Deno hinterfragen und vermuten, es könnte sich um eine PR-Strategie handeln.“</li>
+</ul>
+<h2><a href="https://github.com/captn3m0/jekyll-sqlite">„SQLite-Plugin für Jekyll“</a></h2>
+<ul>
+<li>„Der Autor hat ein Jekyll SQLite-Plugin entwickelt, um die Datenmanipulationsfähigkeiten innerhalb von Jekyll, einem beliebten statischen Website-Generator, zu verbessern.“</li>
+<li>„Dieses Plugin ermöglicht es Benutzern, SQL-Abfragen zur Datenaufbereitung durchzuführen und behebt die Einschränkungen von Liquid, der Templating-Sprache von Jekyll, bei der Handhabung komplexer Datenoperationen.“</li>
+<li>„Das Plugin wurde erfolgreich ein Jahr lang in der Produktion eingesetzt, demonstriert mit dem Northwind-Datensatz, und der Autor lädt zu Feedback und Verbesserungsvorschlägen ein.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42244987">Reaktionen</a></h3>
+<ul>
+<li>„Ein Jekyll SQLite-Plugin ermöglicht die Verwendung von SQLite als Datenquelle in Jekyll und verbessert die Datenmanipulationsfähigkeiten mit SQL. Es integriert die Datafiles- und Data Pages-Generatorfunktionen von Jekyll, was eine komplexe Datenverarbeitung über die traditionellen CSV/JSON/YAML-Formate hinaus ermöglicht. Das Plugin ist seit einem Jahr in Produktion und erhält positives Feedback dafür, dass es die statische Seitengenerierung dynamischer und flexibler macht.“</li>
+</ul>
+<h2><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6290285/">„Vorzeitiges Ergrauen der Haare: Überprüfung mit Aktualisierungen“</a></h2>
+<ul>
+<li>„Vorzeitiges Ergrauen der Haare (PGH) wird definiert als Ergrauen vor dem 20. Lebensjahr bei Kaukasiern und vor dem 30. Lebensjahr bei Afroamerikanern, was das Selbstwertgefühl beeinträchtigt. Die Ursachen von PGH sind nicht vollständig verstanden, stehen jedoch im Zusammenhang mit Alterserkrankungen, Autoimmunerkrankungen und oxidativem Stress, wobei Faktoren wie Rauchen und Ernährungsdefizite eine Rolle spielen. Häufige Behandlungen für PGH umfassen Haarfärbemittel und Nahrungsergänzungsmittel, wobei Studien auf Zusammenhänge zwischen PGH und emotionalen Faktoren, genetischen Veranlagungen und Umwelteinflüssen hinweisen.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42241702">Reaktionen</a></h3>
+<ul>
+<li>„Vorzeitiges Ergrauen der Haare wird mit einem Vitamin-B12-Mangel in Verbindung gebracht, insbesondere bei Personen mit perniziöser Anämie, einer Erkrankung, bei der der Körper B12 nicht richtig aufnehmen kann. Die Diagnose eines B12-Mangels kann schwierig sein, da eine Supplementierung die B12-Werte künstlich erhöhen kann und einige Personen bestimmte Formen von B12 nicht in aktive Formen umwandeln können, was zu einem „paradoxen B12-Mangel“ führt. Faktoren wie Stress, Genetik und Gesundheitszustände wie Autoimmunthyreoiditis tragen ebenfalls zum Ergrauen bei, und obwohl einige Nahrungsergänzungsmittel helfen können, gibt es keine nachgewiesene Methode, um graue Haare rückgängig zu machen.“</li>
+</ul>
+<h2><a href="https://blog.thalium.re/posts/llvm-powered-devirtualization/">„LLVM-gestützte Devirtualisierung“</a></h2>
+<ul>
+<li>„Das Praktikum bei Thalium konzentrierte sich auf die Entschlüsselung virtualisierter Binärdateien unter Verwendung von LLVM, einem Compiler-Framework, um Code verständlicher zu machen, insbesondere im Kontext von Malware. - Virtualisierung, eine starke Verschleierungstechnik, die von Tools wie Tigress und VMProtect verwendet wird, kodiert Programme in virtuelle Anweisungen, was das Reverse Engineering komplex macht. - Das Projekt nutzte erfolgreich die dynamische Taint-Analyse, um den Kontrollflussgraphen von Tigress-verschleierten Binärdateien zu rekonstruieren, obwohl es auf reine Funktionen und einzelne Ausführungspfade beschränkt war.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42245170">Reaktionen</a></h3>
+<ul>
+<li>„LLVM-gestützte Devirtualisierung verbessert die Leistung, indem sie virtuelle Funktionsaufrufe optimiert, die aufgrund ihrer dynamischen Natur typischerweise langsamer sind.“</li>
+<li>„Bochs, ein CPU-Emulator, kann effizient einen Pentium 4-Prozessor auf einem i7 emulieren und dabei sogar virtuelle Maschinen-Detektoren umgehen.“</li>
+<li>„Der Bochs-Debugger ist besonders effektiv bei der Analyse und Bekämpfung von Malware und Code-Obfuskatoren, was ihn zu einem wertvollen Werkzeug für die Sicherheitsforschung macht.“</li>
+</ul>
+<head>
+  <meta property="og:title" content="„Amazon S3 fügt Put-If-Match (Compare-and-Swap) hinzu“" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EAmazon%20S3%20f%C3%BCgt%20Put-If-Match%20(Compare-and-Swap)%20hinzu%E2%80%9C&subheading=Dienstag%2C%2026.%20November%202024%3A%20Hacker%20News%20Zusammenfassung" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/de/2024/11/26</link>
+            <guid isPermaLink="false">2024-11-26T00:00:00.000Z</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-11-25]]></title>
             <description
@@ -1216,187 +1370,6 @@
             <link>https://hn.cho.sh/de/2024/11/17</link>
             <guid isPermaLink="false">2024-11-17T00:00:00.000Z</guid>
             <pubDate>Sun, 17 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-11-16]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/11/16&#39;</h2>
-<h1>2024-11-16</h1>
-<h2><a href="https://www.half-life.com/en/halflife2/20th">„Half-Life 2: 20. Jubiläums-Update“</a></h2>
-<ul>
-<li>„Valve hat das Half-Life 2 20th Anniversary Update auf Steam veröffentlicht, das neue Inhalte und Verbesserungen bietet. Das Update umfasst Entwicklerkommentare, Steam Workshop-Unterstützung, verbesserte Grafiken und Fehlerbehebungen sowie neue Gamepad- und Eingabeeinstellungen. Es beinhaltet auch die Erweiterungen Episode One und Two und bietet zusätzlich Inhalte wie herunterladbare Hintergrundbilder und Soundtracks.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42151865">Reaktionen</a></h3>
-<ul>
-<li>„Das 20. Jubiläums-Update von Half-Life 2 ist jetzt verfügbar und bietet das Spiel sowie seine Fortsetzungsepisoden bis zum 18. kostenlos auf Steam an, einschließlich Fehlerbehebungen und Verbesserungen.“</li>
-<li>„Das Update hat Diskussionen über das Erbe des Spiels, die Möglichkeit eines Half-Life 3 und die Entwicklungsphilosophie von Valve neu entfacht.“</li>
-<li>„Fans werden ermutigt, die Jubiläumsseite nach Easter Eggs zu durchsuchen, und das Update wurde für seine Detailgenauigkeit und die Möglichkeit, ein klassisches Spiel erneut zu erleben, gut aufgenommen.“</li>
-</ul>
-<h2><a href="https://anderegg.ca/2024/11/15/maybe-bluesky-has-won">„Vielleicht hat Bluesky „gewonnen““</a></h2>
-<ul>
-<li>„Bluesky gewinnt an Bedeutung als Alternative zu X, ist jedoch noch nicht vollständig dezentralisiert oder föderiert und stützt sich auf eigene Server. Die Plattform verwendet das AT-Protokoll, das persönliche Datenserver, Relays und App-Ansichten umfasst und es den Nutzern ermöglicht, ihre eigenen Daten zu hosten, obwohl dies technisches Fachwissen erfordert und kostspielig sein kann. Während Bluesky kostenlos ist und Funktionen wie domänenbasierte Benutzernamen und anpassbare Moderation bietet, hängt sein Finanzmodell von Domainverkäufen ab, was Fragen zu seiner langfristigen Nachhaltigkeit aufwirft.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42150278">Reaktionen</a></h3>
-<ul>
-<li>„Bluesky gewinnt an Aufmerksamkeit als angenehmere Alternative zu Mastodon, da es ein Filtersystem bietet, das spaltende politische Inhalte reduziert.“</li>
-<li>„Benutzer schätzen die Einfachheit von Bluesky und die Kontrolle über die Sichtbarkeit von Inhalten, wobei Vergleiche zu den frühen Tagen von Twitter gezogen werden, obwohl Bedenken hinsichtlich seiner Offenheit und Datennutzung bestehen bleiben.“</li>
-<li>„Die Plattform verzeichnet ein Wachstum, da Nutzer von Twitter abwandern, das als zunehmend politisch aufgeladen wahrgenommen wird, was auf das Potenzial von Bluesky hinweist, ein bedeutender Akteur im Bereich der sozialen Medien zu werden.“</li>
-</ul>
-<h2><a href="https://www.roadandtrack.com/news/a62919131/tesla-has-highest-fatal-accident-rate-of-all-auto-brands-study/">„Tesla hat die höchste tödliche Unfallrate aller Automarken, wie eine Studie zeigt.“</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42150443">Reaktionen</a></h3>
-<ul>
-<li>„Eine Studie zeigt, dass Tesla trotz seiner fortschrittlichen Sicherheitsmerkmale die höchste tödliche Unfallrate unter den Automarken aufweist.“</li>
-<li>„Die Studie legt nahe, dass das Verhalten der Fahrer und die Bedingungen erheblich zur hohen Unfallrate beitragen, was Debatten über Politik, Medieneinfluss und Autodesign auslöst.“</li>
-<li>„Die Methodik der Studie und die Auswirkungen von Fahrerdemografien sowie Fahrzeugmerkmale wie Touchscreens und Fahrzeuggewicht sind Gegenstand von Prüfung und Diskussion.“</li>
-</ul>
-<h2><a href="https://www.sportingnews.com/us/boxing/news/netflix-buffering-livestream-issues-boxing-jake-paul-mike-tyson/327ee972d4b14d90cc370461">„Netflix-Pufferprobleme: Boxfans beschweren sich über Jake Paul vs. Mike Tyson“</a></h2>
-<ul>
-<li>„Boxfans hatten während des Kampfes zwischen Jake Paul und Mike Tyson auf Netflix mit Pufferproblemen zu kämpfen, was zu Verzögerungen, abgehackten Analysen und schwarzen Bildschirmen führte.“</li>
-<li>„Die Streaming-Probleme haben Bedenken hinsichtlich der Fähigkeit von Netflix aufgeworfen, Live-Sportveranstaltungen zu bewältigen, insbesondere mit den bevorstehenden NFL-Spielen, die für den Weihnachtstag geplant sind.“</li>
-<li>„Einige Zuschauer entschieden sich für Antonio Browns Livestream auf X, der mit 6,4 Millionen Zuschauern erhebliche Aufmerksamkeit erregte.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42153953">Reaktionen</a></h3>
-<ul>
-<li>„Netflix hatte während des Kampfes zwischen Jake Paul und Mike Tyson erhebliche Pufferprobleme, was zu zahlreichen Beschwerden über die Qualität des Live-Streamings führte.“</li>
-<li>„Kritiker weisen darauf hin, dass die Infrastruktur von Netflix, die hauptsächlich für vorab aufgezeichnete Inhalte konzipiert ist, möglicherweise nicht gut für Live-Streaming geeignet ist, im Gegensatz zu Plattformen wie YouTube und Amazon.“</li>
-<li>„Der Vorfall unterstreicht die Herausforderungen von Netflix im Bereich des Live-Sport-Streamings, insbesondere mit zukünftigen Veranstaltungen wie NFL-Spielen am Horizont.“</li>
-</ul>
-<h2><a href="https://llamaocr.com/">„Llama-OCR: Dokument zu Markdown“</a></h2>
-<ul>
-<li>„Der Beitrag stellt eine Methode vor, um Bilder mithilfe von llama-ocr und Together AI OCR, beides Werkzeuge zur optischen Zeichenerkennung, in das Markdown-Format zu konvertieren.“</li>
-<li>„Benutzer können ein Bild hochladen, um strukturiertes Markdown zu erhalten, was die einfachere Textextraktion und -formatierung aus Bildern erleichtert.“</li>
-<li>„Beispielcode in JavaScript wird bereitgestellt, der demonstriert, wie die llama-ocr-Bibliothek verwendet wird, um eine Bilddatei zu verarbeiten und Markdown-Ausgabe zu erhalten.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42154410">Reaktionen</a></h3>
-<ul>
-<li>„Llama-OCR ist ein Tool, das Dokumente mit Llama 3.2 Vision in das Markdown-Format umwandelt und als npm-Paket verfügbar ist.“</li>
-<li>„Zukünftige Updates sollen Funktionen wie PDF-Parsing und JSON-Ausgabe umfassen, obwohl aktuelle Nutzer gemischte Erfahrungen mit der Bildverarbeitung und der Konsistenz der Ausgabe berichten.“</li>
-<li>„Das Tool wird auf together.ai gehostet, mit laufenden Diskussionen über seine Leistung und mögliche Verbesserungen, einschließlich Vorschlägen zur Verwendung lokaler Modelle oder alternativer OCR-Tools für eine bessere Genauigkeit.“</li>
-</ul>
-<h2><a href="https://bsky.bad-example.com/consuming-the-firehose-cheaply/">„Den Bluesky-Datenstrom für weniger als 2,50 $/Monat konsumieren“</a></h2>
-<ul>
-<li>„Die öffentlichen Daten von Bluesky, die 15 Millionen Nutzer umfassen, sind über einen Websocket-JSON-Feed namens Jetstream verfügbar, der eine Echtzeitüberwachung des Netzwerks ermöglicht.“</li>
-<li>„Eine einfache Anwendung wurde entwickelt, um Löschereignisse aus dem Jetstream-Feed zu empfangen und anonymisierte gelöschte Texte kurzzeitig anzuzeigen.“</li>
-<li>„Die App läuft auf der kleinsten Instanz von Fly für 2,24 $/Monat und verwaltet effizient Post-Events, Inhaltsfilterung, Text-Caching und das Broadcasting gelöschter Posts, obwohl komplexere Anwendungen möglicherweise Skalierbarkeitsprobleme haben könnten.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42152362">Reaktionen</a></h3>
-<ul>
-<li>„Bluesky bietet eine kostengünstige Möglichkeit, auf seinen Datenstrom, bekannt als „Firehose“, für unter 2,50 $/Monat zuzugreifen, was das Interesse der Nutzer weckt.“</li>
-<li>„Die Plattform ist bekannt für Funktionen wie die Verwendung einer Website als Benutzername und das einfache Teilen von Bildern auf iOS, was Vergleiche mit dem frühen Twitter zieht.“</li>
-<li>„Blueskys dezentrale Struktur und gemeinschaftsorientierte Entwicklung unterstreichen seinen Fokus auf offenen Datenzugang, im Gegensatz zu den aktuellen Einschränkungen von Twitter.“</li>
-</ul>
-<h2><a href="https://lists.freebsd.org/archives/freebsd-hackers/2024-November/004068.html">„Erster Eindruck: Lenovo T14s mit Qualcomm Snapdragon ARM64 CPU“</a></h2>
-<ul>
-<li>„Das Lenovo T14s mit einem Qualcomm Snapdragon ARM64 CPU wird evaluiert, was einen Wechsel von der traditionellen X86-Architektur aufgrund wahrgenommener Ineffizienzen hervorhebt.“</li>
-<li>„Die anfängliche Einrichtung auf FreeBSD-current erforderte ARM64-spezifische Patches, wobei einige Hardwarekomponenten wie der Bildschirm und NVME funktionierten, andere wie die Tastatur und die USB-C-Anschlüsse jedoch nicht funktionierten.“</li>
-<li>„Leistungstests zeigten, dass das Gerät die Welt in 3210 Sekunden unter Verwendung von 24 Wh Energie aufbaute, was seinen 12 realen CPUs zugeschrieben wird, was zu einer positiven Empfehlung führte.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42150933">Reaktionen</a></h3>
-<ul>
-<li>„Das Lenovo T14s mit Qualcomm Snapdragon ARM64 CPU erhält gemischte Bewertungen, wobei Benutzer Probleme wie nicht funktionierende Tastatur, Maus und USB-C-Anschlüsse bemerken.“</li>
-<li>„Vergleiche werden mit Linux-Telefonen gezogen, wobei ähnliche Einschränkungen und Kompatibilitätsprobleme mit ARM-Linux-Desktops hervorgehoben werden.“</li>
-<li>„Trotz aktueller Probleme gibt es Optimismus hinsichtlich zukünftiger Verbesserungen und besserer Treiberunterstützung für die ARM-Architektur in Lenovo-Laptops.“</li>
-</ul>
-<h2><a href="https://yggdrasil-network.github.io/">„Yggdrasil-Netzwerk“</a></h2>
-<ul>
-<li>„Yggdrasil ist ein experimentelles Routing-Schema, das darauf abzielt, eine dezentrale und zukunftssichere Alternative zu den aktuellen Internet-Routing-Protokollen bereitzustellen, insbesondere für groß angelegte Mesh-Netzwerke. Es bietet Funktionen wie Skalierbarkeit, Selbstheilung, Verschlüsselung und plattformübergreifende Unterstützung und funktioniert auf verschiedenen Betriebssystemen, einschließlich Linux, macOS, Windows, iOS und Android. Trotz des Alpha-Stadiums ist Yggdrasil stabil für den täglichen Gebrauch und bietet Ende-zu-Ende-verschlüsseltes IPv6-Routing, das sowohl über IPv4- als auch IPv6-Netzwerke konfiguriert werden kann.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42155780">Reaktionen</a></h3>
-<ul>
-<li>„Yggdrasil Network ist ein experimentelles Routing-Protokoll, das sich auf Dezentralisierung und Skalierbarkeit konzentriert und von cjdns inspiriert ist, jedoch ohne eine strikte Hierarchie.“</li>
-<li>„Trotz fehlender klarer Protokollspezifikation hat sich Yggdrasil mit bedeutenden Updates in den Versionen 0.4 und 0.5 weiterentwickelt und die Netzwerklatenz verbessert.“</li>
-<li>„Das Protokoll verwendet IPv6-Adressen, die aus öffentlichen Schlüsseln abgeleitet sind, was zu Adresskollisionen führen könnte, und ist nicht in erster Linie für Anonymität ausgelegt.“</li>
-</ul>
-<h2><a href="https://github.com/hengyoush/kyanos">„Kyanos: eBPF-basiertes Tool zur Analyse von Netzwerkproblemen“</a></h2>
-<ul>
-<li>„Kyanos ist ein auf eBPF basierendes Tool, das für die Netzwerkanalyse entwickelt wurde und in der Lage ist, verschiedene Netzwerk-Anfragen wie HTTP, Redis und MySQL zu erfassen und zu analysieren.“</li>
-<li>„Es bietet erweiterte Traffic-Filteroptionen nach IP, Port, Prozess, Container und Protokoll sowie Latenzeinblicke auf Kernel-Ebene und automatische SSL-Traffic-Entschlüsselung.“</li>
-<li>„Das Tool ist leichtgewichtig, erfordert minimale Abhängigkeiten und ist mit Linux-Kernel-Versionen 3.10 und 4.14 oder höher kompatibel, was es für eine breite Benutzergruppe zugänglich macht.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42154583">Reaktionen</a></h3>
-<ul>
-<li>„Kyanos ist ein Netzwerkanalysetool, das auf eBPF (extended Berkeley Packet Filter) basiert und Echtzeiteinblicke für die Fehlersuche und Leistungsoptimierung bietet.“</li>
-<li>„Es unterstützt derzeit spezifische Protokolle, darunter HTTP, MySQL und Redis, was einige Benutzer als Einschränkung ansehen.“</li>
-<li>„Diskussionen heben die Relevanz von Technologien wie RDMA (Remote Direct Memory Access) und OFED (OpenFabrics Enterprise Distribution) im Hochleistungsrechnen hervor, neben einem Hinweis auf ein Buch für weiterführendes Lernen über eBPF.“</li>
-</ul>
-<h2><a href="https://twitter.com/DSCCRoss/status/1857208745014776215">„M4 MacBook Pros verwenden eine Quantum-Dot (QD)-Folie anstelle einer roten KSF-Phosphorfolie.“</a></h2>
-<ul>
-<li>„Apples neues MacBook Pro (M4) führt die Verwendung von Quantum-Dot-Film (QD) ein und ersetzt damit den zuvor verwendeten roten KSF-Phosphorfilm.“</li>
-<li>„Der Wechsel zu QD-Film stellt eine bedeutende Veränderung dar, da Apple zuvor KSF aufgrund seiner Effizienz und cadmiumfreien Eigenschaften bevorzugt hatte.“</li>
-<li>„Dieses Update hebt Apples fortwährende Bemühungen hervor, die Displaytechnologie in seinen Geräten zu verbessern.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42152928">Reaktionen</a></h3>
-<ul>
-<li>„Die neuen M4 MacBook Pros haben von der Verwendung eines roten KSF-Phosphorfilms zu einem Quantum-Dot-Film gewechselt, wie durch Spektralanalyse festgestellt wurde, anstatt durch eine offizielle Ankündigung von Apple.“</li>
-<li>„Es wird erwartet, dass Quantenpunkte den Farbumfang und die Bewegungsleistung der Displays verbessern, obwohl die Reaktionszeiten für MacBook-Displays nach wie vor ein Problem darstellen.“</li>
-<li>„Apple arbeitet mit Display-Herstellern wie Samsung, LG und BOE zusammen, um Forschung und Entwicklung durchzuführen und spezifische Produktanforderungen zu erfüllen.“</li>
-</ul>
-<h2><a href="https://www.zach.be/p/yc-is-wrong-about-llms-for-chip-design">„YC liegt falsch, was LLMs für das Chipdesign betrifft“</a></h2>
-<ul>
-<li>„Der Vorschlag von YC, Large Language Models (LLMs) für das Chipdesign zu verwenden, wird kritisiert, da er nicht mit der Expertise menschlicher Ingenieure bei der Schaffung innovativer Chiparchitekturen mithalten kann.“</li>
-<li>„Während LLMs die Designkosten senken könnten, ist es unwahrscheinlich, dass sie das Chipdesign in hochpreisigen Märkten revolutionieren werden, ähnlich wie frühere Versuche wie die High-Level-Synthese (HLS).“</li>
-<li>„LLMs könnten in Verifizierungsprozessen von Vorteil sein und möglicherweise den Fachkräftemangel in diesem Bereich angehen, aber es wird nicht erwartet, dass sie überlegene Chips produzieren oder neue Märkte erschließen.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42156516">Reaktionen</a></h3>
-<ul>
-<li>„Die Diskussion hebt die Skepsis gegenüber der Wirksamkeit von Large Language Models (LLMs) im Chipdesign hervor und zieht Vergleiche zu früheren Technologie-Hype-Zyklen wie der Blockchain. Kritiker argumentieren, dass LLMs überbewertet sind und noch nicht zuverlässig für komplexe Chipdesign-Aufgaben, die tiefes Fachwissen erfordern, das über die aktuellen KI-Fähigkeiten hinausgeht. Es besteht Unsicherheit darüber, ob zukünftige Fortschritte die Einschränkungen von LLMs in spezialisierten Bereichen mit begrenzten Trainingsdaten überwinden werden.“</li>
-</ul>
-<h2><a href="https://arstechnica.com/tech-policy/2024/11/ftc-to-launch-investigation-into-microsofts-cloud-business/">„FTC wird Untersuchung in Microsofts Cloud-Geschäft einleiten“</a></h2>
-<ul>
-<li>„Die FTC untersucht das Cloud-Geschäft von Microsoft auf potenziell wettbewerbswidrige Praktiken, insbesondere im Hinblick auf die Lizenzbedingungen von Azure.“</li>
-<li>„Zu den Vorwürfen gehören erhöhte Gebühren und die Inkompatibilität von Office 365 mit konkurrierenden Cloud-Plattformen, was es für Kunden schwierig macht, zu wechseln.“</li>
-<li>„Diese Untersuchung ist Teil einer umfassenderen regulatorischen Anstrengung der FTC, mit ähnlicher Prüfung durch britische und EU-Regulierungsbehörden, da der Cloud-Markt weiterhin wächst.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42152068">Reaktionen</a></h3>
-<ul>
-<li>„Die FTC untersucht das Cloud-Geschäft von Microsoft auf potenziell wettbewerbswidrige Praktiken, einschließlich der Erhöhung von Gebühren für Kunden, die den Anbieter wechseln, und der Inkompatibilität von Office 365 mit konkurrierenden Cloud-Diensten.“</li>
-<li>„Diese Untersuchung ist Teil einer größeren Prüfung von großen Technologieunternehmen, die anhaltende Bedenken hinsichtlich ihrer Marktmacht und Geschäftspraktiken widerspiegelt.“</li>
-<li>„Es gibt eine Debatte über die Beweggründe der FTC, wobei die Meinungen darüber geteilt sind, ob die Maßnahmen eine notwendige Regulierung der Technologieriesen oder politisch motiviert sind.“</li>
-</ul>
-<h2><a href="https://arstechnica.com/gadgets/2024/11/i-too-installed-an-open-source-garage-door-opener-and-am-loving-it/">„Habe einen Open-Source-Garagentoröffner installiert und bin begeistert davon.“</a></h2>
-<ul>
-<li>„OpenGarage ist ein Open-Source-Garagentoröffner, der nahtlos mit Home Assistant integriert wird und erweiterte Steuerungs- und Anpassungsmöglichkeiten für die Heimautomatisierung bietet.“</li>
-<li>„Es besteht aus einem kleinen ESP-Board mit einem Ultraschallsensor, der über einen Webbrowser oder eine mobile App steuerbar ist, was die Installation einfach macht.“</li>
-<li>„OpenGarage ermöglicht die Automatisierung von Aufgaben, wie das Einschalten von Lichtern, wenn das Garagentor geöffnet wird, und unterstreicht damit seine Vielseitigkeit und Attraktivität für Heimautomatisierungs-Enthusiasten.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42150376">Reaktionen</a></h3>
-<ul>
-<li>„Der Beitrag diskutiert die Verwendung von Open-Source-Garagentoröffnern und hebt deren Flexibilität und lokale Kontrolle im Vergleich zu abonnementbasierten Modellen wie myQ hervor.“</li>
-<li>„Benutzer äußern Frustration über das Abonnementmodell von myQ und den Mangel an Unterstützung durch Dritte, was sie dazu veranlasst, Alternativen wie RATGDO, Meross und ESPHome zu erkunden.“</li>
-<li>„Heimautomatisierungs-Enthusiasten integrieren diese Open-Source-Lösungen mit Systemen wie MQTT, Home Assistant und Z-Wave für erweiterte Funktionalität und nahtlose Steuerung.“</li>
-</ul>
-<h2><a href="https://labs.quansight.org/blog/dataframe-group-by">„Nicht-elementare Group-by-Aggregationen in Polars vs. pandas“</a></h2>
-<ul>
-<li>„Auf der PyData Berlin 2024 wurde Polars, eine Datenverarbeitungslibrary, für seine fortschrittlichen Funktionen wie Lazy Execution, Rust-Integration und Multithreading hervorgehoben.“</li>
-<li>„Eine bedeutende Innovation von Polars ist die Unterstützung nicht-elementarer Group-by-Aggregationen, die es den Nutzern ermöglicht, komplexe Operationen effizienter als mit pandas durchzuführen.“</li>
-<li>„Der Blog schlägt vor, dass neue Dataframe-Bibliotheken über die API von Pandas hinaus innovativ sein sollten, wobei Polars als Beispiel durch seine ausdrucksstarke Syntax und erweiterten Datenmanipulationsfähigkeiten dient.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42152076">Reaktionen</a></h3>
-<ul>
-<li>„Polars wird bei nicht grundlegenden Group-by-Operationen immer beliebter als Pandas, da es Apache Spark ähnelt und eine überlegene Geschwindigkeit bietet. Benutzer schätzen Polars für seine schnelle Leistung und einfache Einrichtung, insbesondere bei kleineren Datensätzen, trotz des etablierten Ökosystems von Pandas. Die Entscheidung zwischen der Verwendung von Pandas oder Polars wird von spezifischen Anwendungsfällen, Leistungsanforderungen und Benutzerpräferenzen beeinflusst, wobei einige sich für SQL oder DuckDB für komplexe Datenaufgaben entscheiden.“</li>
-</ul>
-<h2><a href="https://eclecticlight.co/2024/11/14/m4-macs-cant-virtualise-older-macos/">„M4-Macs können ältere macOS-Versionen nicht virtualisieren“</a></h2>
-<ul>
-<li>„M4-Macs können macOS-Versionen vor 13.4 Ventura nicht virtualisieren, was bei Startversuchen älterer macOS-virtueller Maschinen (VMs) zu einem schwarzen Bildschirm führt.“</li>
-<li>„Das Problem tritt wahrscheinlich früh in der Kernel-Boot-Phase auf, und um es zu beheben, müsste Apple ältere macOS-Kernel aktualisieren, was unwahrscheinlich ist.“</li>
-<li>„M1-, M2- und M3-Macs können macOS Monterey 12.0.1 und später virtualisieren, aber Big Sur kann auf keinem Apple-Silizium virtualisiert werden.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42157086">Reaktionen</a></h3>
-<ul>
-<li>„M4-Macs können macOS-Versionen vor 13.4 Ventura nicht virtualisieren, was für Entwickler, die Anwendungen auf älteren Systemen testen müssen, Herausforderungen darstellt.“</li>
-<li>„Das Fehlen einer integrierten Container-Lösung für macOS erschwert die Prozesse der kontinuierlichen Integration (CI), die für automatisierte Tests und Bereitstellungen unerlässlich sind.“</li>
-<li>„Anka bietet eine teilweise Lösung, indem es macOS-VM-Images (virtuelle Maschinen) ermöglicht, aber die Softwarelizenz von Apple beschränkt dies auf zwei VMs, was Entwickler frustriert, die Tests für die Abwärtskompatibilität benötigen.“</li>
-</ul>
-<head>
-  <meta property="og:title" content="„Half-Life 2: 20. Jubiläums-Update“" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EHalf-Life%202%3A%2020.%20Jubil%C3%A4ums-Update%E2%80%9C&subheading=Samstag%2C%2016.%20November%202024%3A%20Hacker%20News%20Zusammenfassung" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/de/2024/11/16</link>
-            <guid isPermaLink="false">2024-11-16T00:00:00.000Z</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

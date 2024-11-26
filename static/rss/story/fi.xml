@@ -15,11 +15,211 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 25 Nov 2024 19:40:14 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Nov 2024 19:20:17 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/story/fi.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
+        <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
         <language><![CDATA[fi]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Amazon S3 lisää Put-If-Match (vertaa ja vaihda) -toiminnon]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Amazon S3 esittelee ehdolliset kirjoitukset, jotka mahdollistavat päivitykset vain, jos objekti pysyy muuttumattomana, estäen samanaikaiset ylikirjoitukset tarkistamalla objektin ETagin. Tämä ominaisuus, joka on samanlainen kuin HTTP:n if-none-match-otsake, sallii asiakkaiden käyttää if-match-otsaketta varmistaakseen ETagin yhdenmukaisuuden ennen kirjoittamista, parantaen tehokkuutta hajautetuissa sovelluksissa. Saatavilla ilman lisäkustannuksia kaikissa AWS-alueilla, toteutus voidaan tehdä AWS SDK:n, API:n tai CLI:n avulla, ja lisätietoja löytyy S3-käyttäjäoppaasta.</li>
+</ul>
+]]></description>
+            <link>https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-s3-functionality-conditional-writes/</link>
+            <guid
+        isPermaLink="false"
+      >2024-11-26T00:00:00.000ZAmazon S3 lisää Put-If-Match (vertaa ja vaihda) -toiminnon</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Valheita, joita kerromme itsellemme jatkaaksemme Golangin käyttöä (2022)]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Artikkeli kritisoi Golangia, huomauttaen, että vaikka siinä on houkuttelevia ominaisuuksia, kuten asynkroninen ajonaikainen ympäristö ja roskienkerääjä, siinä on myös merkittäviä haittoja, kuten summatyyppien puuttuminen ja riittämätön virheenkäsittely. Se väittää, että Gon koettu yksinkertaisuus voi olla harhaanjohtavaa, mikä johtaa piilotettuihin monimutkaisuuksiin ja haasteisiin tuotantoympäristöissä, ja korostaa näiden ongelmien tunnistamisen tärkeyttä sen sijaan, että Go otettaisiin käyttöön pelkästään sen helppokäyttöisyyden vuoksi. Artikkeli vertaa Go:ta Rustiin, ehdottaen, että huolimatta Rustin haasteista, se tarjoaa vankempia ratkaisuja monimutkaisuuden hallintaan ja koodin oikeellisuuden varmistamiseen.</li>
+</ul>
+]]></description>
+            <link>https://fasterthanli.me/articles/lies-we-tell-ourselves-to-keep-using-golang</link>
+            <guid
+        isPermaLink="false"
+      >2024-11-26T00:00:00.000ZValheita, joita kerromme itsellemme jatkaaksemme Golangin käyttöä (2022)</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Cybertruckin monet takaisinkutsut]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Tesla Cybertruck on kokenut useita takaisinkutsuja lanseerauksensa jälkeen, joista viimeisin koskee viallisia ajoinverttereitä, jotka vaikuttavat yli 2 400 yksikköön, herättäen huolta sen luotettavuudesta.</li>
+<li>Huolimatta laatuongelmista, Cybertruckin ainutlaatuinen muotoilu jatkaa ostajien houkuttelemista, vaikka sen kyvyttömyys täyttää Euroopan turvallisuusstandardit rajoittaa sen markkina-aluetta.</li>
+<li>Vaikka takaisinkutsut osoittavat sääntelyn tehokkuutta, ne voivat vahingoittaa Teslan brändimainetta, erityisesti kun otetaan huomioon Elon Muskin merkittävä vaikutusvalta Yhdysvaltain sääntelyyn.</li>
+</ul>
+]]></description>
+            <link
+      >https://www.wired.com/story/cybertrucks-many-recalls-make-it-worse-than-91-percent-of-all-2024-vehicles/</link>
+            <guid isPermaLink="false">2024-11-26T00:00:00.000ZCybertruckin monet takaisinkutsut</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title
+      ><![CDATA[Y Combinator tukee usein startup-yrityksiä, jotka kopioivat muita YC-yrityksiä, tiedot osoittavat]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Y Combinator (YC), merkittävä startup-kiihdyttämö, tunnetaan menestyvien yritysten, kuten Airbnb:n ja Stripen, lanseeraamisesta, mutta monet sen startupit kehittävät samanlaisia tai identtisiä tuotteita kuin aiemmat YC-yritykset.</li>
+<li>PearAI-kohu korosti tätä suuntausta, jossa PearAI:ta syytettiin toisen YC-tuotteen kopioimisesta, mutta YC:n toimitusjohtaja Garry Tan puolusti käytäntöä viitaten valinnan ja innovaation tärkeyteen.</li>
+<li>Deckmatchin analyysi YC-trendeistä osoittaa, että suosittuja startup-kategorioita ovat muun muassa tekoälykoodieditorit, ravintoloiden kassajärjestelmät ja yritysrahoitustyökalut, kun taas joillakin alueilla, kuten kryptovaluuttakaupassa, kiinnostus on vähentynyt.</li>
+</ul>
+]]></description>
+            <link
+      >https://techcrunch.com/2024/11/22/y-combinator-often-backs-startups-that-duplicate-other-yc-companies-data-shows-its-not-just-ai-code-editors/</link>
+            <guid
+        isPermaLink="false"
+      >2024-11-26T00:00:00.000ZY Combinator tukee usein startup-yrityksiä, jotka kopioivat muita YC-yrityksiä, tiedot osoittavat</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Fly.io:n katkos – ratkaistu]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://status.flyio.net</link>
+            <guid isPermaLink="false">2024-11-26T00:00:00.000ZFly.io:n katkos – ratkaistu</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Lyhyt johdanto automaattiseen Lidar-teknologiaan]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Vikin uutiskirje käsittelee autojen lidar-teknologiaa, joka on elintärkeä itseajaville autoille sen kyvyn vuoksi tuottaa korkean resoluution kuvia infrapunalasereilla. Uutiskirjeessä käsitellään lidarin toimintaperiaatteita, mukaan lukien aallonpituusvalinnat, valoilmaisimet ja etäisyyden mittaustekniikat, kuten Time-of-Flight ja Frequency Modulated Continuous Wave. Siinä tarkastellaan myös erilaisia lidar-järjestelmiä, kuten mekaanisia ja kiinteän tilan vaihtoehtoja, tavoitteena alentaa kustannuksia ja parantaa teknologiaa laajempaa käyttöä varten autonomisissa ajoneuvoissa.</li>
+</ul>
+]]></description>
+            <link>https://www.viksnewsletter.com/p/short-intro-to-automotive-lidar</link>
+            <guid isPermaLink="false">2024-11-26T00:00:00.000ZLyhyt johdanto automaattiseen Lidar-teknologiaan</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Tarvitsetko henkilöllisyystodistuksen lukeaksesi REAL-ID-säännöt?]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Yritys päästä käsiksi TSA:n uusiin digitaalisen henkilöllisyystodistuksen sääntöihin paljasti ongelmia REAL-ID-laissa, sillä säännöt eivät ole julkisesti saatavilla ja niiden käyttö edellyttää henkilöllisyystodistusta, mikä herättää huolta salaisista laeista ja oikeudenmukaisesta menettelystä.</li>
+<li>TSAn digitaalisen henkilöllisyystodistuksen standardit, jotka on johdettu yksityisistä asiakirjoista, sisältävät monimutkaisia vuorovaikutuksia sovellusten, laitteiden ja valtion virastojen välillä, ja niihin liittyy yksityisyyshuolia kirjattujen henkilöllisyystodistusten käytöstä.</li>
+<li>Kirjoittaja väittää, että TSA:n käytännöt rikkovat julkisia käyttöoikeuksia ja on raportoinut asiasta liittovaltion rekisteritoimistolle, pyrkien säännön peruuttamiseen.</li>
+</ul>
+]]></description>
+            <link>https://papersplease.org/wp/2024/11/25/do-you-need-id-to-read-the-real-id-rules/</link>
+            <guid
+        isPermaLink="false"
+      >2024-11-26T00:00:00.000ZTarvitsetko henkilöllisyystodistuksen lukeaksesi REAL-ID-säännöt?</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ratkaisu J. Kenji Lopez-Altin (2021) The Onion -ongelmaan]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Kirjoitus käsittelee &quot;sipuliongelmaa&quot;, joka liittyy sipulien leikkaamiseen siten, että viipaleiden tilavuuden vaihtelu on mahdollisimman vähäistä yhtenäisyyden saavuttamiseksi. - Matemaattinen tutkimus, jossa käytettiin laskentaa, määritti optimaalisen leikkauskohdan olevan 55,73066 % sipulin keskikohdan alapuolella, jota kutsutaan &quot;todelliseksi sipulivakioksi&quot;. - Tämä löytö tarkentaa aiempaa ehdotusta leikata kohti kohtaa, joka on 60 % keskikohdan alapuolella, tarjoten tarkemman menetelmän tasaisille sipuliviipaleille.</li>
+</ul>
+]]></description>
+            <link
+      >https://medium.com/@drspoulsen/a-solution-to-the-onion-problem-of-j-kenji-l%C3%B3pez-alt-c3c4ab22e67c</link>
+            <guid
+        isPermaLink="false"
+      >2024-11-26T00:00:00.000ZRatkaisu J. Kenji Lopez-Altin (2021) The Onion -ongelmaan</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Redis yrittää ottaa haltuunsa kaikki avoimen lähdekoodin Redis-kirjastot.]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Redis on tiettävästi ottamassa hallintaansa kaikki avoimen lähdekoodin ohjelmistot (OSS) Redis-kirjastot, joihin kuuluvat suositut kirjastot kuten Jedis, Lettuce ja redis-py.</li>
+<li>Nämä kirjastot ovat tällä hetkellä poissa käytöstä, ja toinen kirjasto, redis-rs, on myös mahdollisesti hallinnan tai sulkemisen kohteena.</li>
+<li>Tämä tilanne on merkittävä, koska se vaikuttaa kehittäjiin, jotka luottavat näihin kirjastoihin Redis-integraatiossa sovelluksissaan.</li>
+</ul>
+]]></description>
+            <link>https://twitter.com/TomHacohen/status/1861137484249252093</link>
+            <guid
+        isPermaLink="false"
+      >2024-11-26T00:00:00.000ZRedis yrittää ottaa haltuunsa kaikki avoimen lähdekoodin Redis-kirjastot.</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title
+      ><![CDATA[Setelinleikkaus: Kun suomalaiset leikkasivat rahansa puoliksi hillitäkseen inflaatiota]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Vuonna 1945 Suomi toteutti &quot;setelinleikkauksen&quot;, politiikan, joka vaati kansalaisia leikkaamaan suuret setelit puoliksi toisen maailmansodan jälkeisen inflaation torjumiseksi, jolloin toinen puolikas säilytti arvonsa ja toinen muuttui valtion obligaatioiksi. Politiikka oli tehoton, koska se kohdistui vain fyysiseen käteiseen, joka oli vain pieni osa rahavarannosta, toisin kuin menestyksekkäämmät uudistukset muissa Euroopan maissa, kuten Belgiassa. Artikkelissa spekuloidaan, että tulevaisuuden inflaation hallinta saattaa sisältää digitaalisten tilien jäädyttämisiä, mikä olisi tarkempi mutta mahdollisesti kiistanalainen menetelmä.</li>
+</ul>
+]]></description>
+            <link>http://jpkoning.blogspot.com/2024/11/setelinleikkaus-when-finns-snipped.html</link>
+            <guid
+        isPermaLink="false"
+      >2024-11-26T00:00:00.000ZSetelinleikkaus: Kun suomalaiset leikkasivat rahansa puoliksi hillitäkseen inflaatiota</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title
+      ><![CDATA[Rukous, sijoittelu ja anteeksianto: Peter Hristoff islamilaisista rukousmatoista (2015)]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Peter Hristoffin taide tutkii taiteen ja henkisyyden risteyskohtaa erityisesti rukousmattojen kautta vuodesta 1997 alkaen. Hänen teoksensa, mukaan lukien piirustukset ja serigrafiat, kehittyvät suuremmiksi &quot;matto&quot; teoksiksi riisipaperille, saaden inspiraationsa turkkilaisista matoista ja kilimeistä, joita hän pitää henkilökohtaisina päiväkirjoina, joilla on symbolisia merkityksiä. Hristoffin työ ilmentää &quot;kirkasta surua&quot;, iloa ja surua yhdistävää sekoitusta, johon vaikuttavat patriarkka Bartholomeoksen kirjoitukset, ja jatkaa ihmisen henkisten ja fyysisten puolien tutkimista.</li>
+</ul>
+]]></description>
+            <link>https://www.metmuseum.org/perspectives/peter-hristoff-islamic-prayer-rugs</link>
+            <guid
+        isPermaLink="false"
+      >2024-11-26T00:00:00.000ZRukous, sijoittelu ja anteeksianto: Peter Hristoff islamilaisista rukousmatoista (2015)</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Deno vs. Oracle: JavaScript-tavaramerkin peruuttaminen]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Deno on jättänyt hakemuksen Yhdysvaltain patentti- ja tavaramerkkivirastolle (USPTO) peruuttaakseen Oraclen tavaramerkin &quot;JavaScript&quot;, pyrkien tekemään siitä julkisen hyödykkeen ja poistamaan sen käyttöön liittyvät oikeudelliset esteet.</li>
+<li>Vetoomuksessa väitetään, että &quot;JavaScript&quot; on yleisnimi, Oracle on syyllistynyt petokseen uudistaessaan tavaramerkin, ja Oracle on hylännyt tavaramerkin käyttämättömyyden vuoksi.</li>
+<li>Yli 14 000 kehittäjää tukee Denon siirtoa, ja Oraclen on vastattava 4. tammikuuta 2025 mennessä, jolloin Deno on valmis jakamaan kaikki toimenpiteet yhteisön kanssa.</li>
+</ul>
+]]></description>
+            <link>https://deno.com/blog/deno-v-oracle</link>
+            <guid
+        isPermaLink="false"
+      >2024-11-26T00:00:00.000ZDeno vs. Oracle: JavaScript-tavaramerkin peruuttaminen</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[SQLite-laajennus Jekyllille]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Kirjoittaja on kehittänyt Jekyll SQLite -laajennuksen parantaakseen tietojen käsittelymahdollisuuksia Jekyllissä, suositussa staattisessa sivustogeneraattorissa.</li>
+<li>Tämä lisäosa mahdollistaa käyttäjille SQL-kyselyiden suorittamisen datan käsittelyyn, mikä ratkaisee Liquidin, Jekyllin mallinnuskielen, rajoitukset monimutkaisten dataoperaatioiden käsittelyssä.</li>
+<li>Lisäosaa on käytetty menestyksekkäästi tuotannossa vuoden ajan, mikä on osoitettu Northwind-aineistolla, ja tekijä kutsuu antamaan palautetta ja parannusehdotuksia.</li>
+</ul>
+]]></description>
+            <link>https://github.com/captn3m0/jekyll-sqlite</link>
+            <guid isPermaLink="false">2024-11-26T00:00:00.000ZSQLite-laajennus Jekyllille</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ennenaikainen hiusten harmaantuminen: Katsaus ja päivitykset]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Ennenaikainen hiusten harmaantuminen (PGH) määritellään harmaantumiseksi ennen 20 vuoden ikää kaukasialaisilla ja ennen 30 vuoden ikää afroamerikkalaisilla, mikä vaikuttaa itsetuntoon. PGH:n syitä ei täysin ymmärretä, mutta ne liittyvät ikääntymishäiriöihin, autoimmuunisairauksiin ja oksidatiiviseen stressiin, ja tekijät kuten tupakointi ja ravitsemukselliset puutteet vaikuttavat asiaan. Yleisiä hoitokeinoja PGH:lle ovat hiusvärit ja ravintolisät, ja tutkimukset osoittavat yhteyksiä PGH:n ja emotionaalisten tekijöiden, geneettisten alttiuksien sekä ympäristövaikutusten välillä.</li>
+</ul>
+]]></description>
+            <link>https://pmc.ncbi.nlm.nih.gov/articles/PMC6290285/</link>
+            <guid
+        isPermaLink="false"
+      >2024-11-26T00:00:00.000ZEnnenaikainen hiusten harmaantuminen: Katsaus ja päivitykset</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[LLVM-pohjainen devirtualisointi]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Harjoittelu Thaliumilla keskittyi virtualisoitujen binäärien deobfuskaatioon käyttämällä LLVM:ää, joka on kääntäjäkehys, jotta koodi olisi ymmärrettävämpää, erityisesti haittaohjelmien yhteydessä. - Virtualisointi, vahva obfuskointitekniikka, jota työkalut kuten Tigress ja VMProtect käyttävät, koodaa ohjelmat virtuaalisiin ohjeisiin, mikä tekee käänteismuokkauksesta monimutkaista. - Projekti käytti menestyksekkäästi dynaamista tahra-analyysiä Tigress-obfuskoitujen binäärien ohjausvirtauskaavion rekonstruoimiseen, vaikka se rajoittui puhtaisiin funktioihin ja yksittäisiin suoritusteihin.</li>
+</ul>
+]]></description>
+            <link>https://blog.thalium.re/posts/llvm-powered-devirtualization/</link>
+            <guid isPermaLink="false">2024-11-26T00:00:00.000ZLLVM-pohjainen devirtualisointi</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[RFC 35140: HTTP Älä-pistä (2023)]]></title>
             <description><![CDATA[<p>- </p>
@@ -1387,219 +1587,6 @@
             <link>https://bitfieldconsulting.com/posts/constraints</link>
             <guid isPermaLink="false">2024-11-17T00:00:00.000ZRajoitteet Go-pelissä</guid>
             <pubDate>Sun, 17 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Half-Life 2: 20-vuotisjuhlapäivitys]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Valve on julkaissut Half-Life 2:n 20-vuotisjuhlapäivityksen Steamissa, joka sisältää uutta sisältöä ja parannuksia. Päivitys sisältää kehittäjien kommentteja, Steam Workshop -tuen, parannetun grafiikan ja virheenkorjauksia sekä uusia peliohjaimen ja syöttöasetuksia. Se sisältää myös Episode One ja Two -laajennukset ja tarjoaa lisäsisältöä, kuten taustakuvia ja ääniraitoja ladattavaksi.</li>
-</ul>
-]]></description>
-            <link>https://www.half-life.com/en/halflife2/20th</link>
-            <guid isPermaLink="false">2024-11-16T00:00:00.000ZHalf-Life 2: 20-vuotisjuhlapäivitys</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Ehkä Bluesky on "voittanut"]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Bluesky saa jalansijaa vaihtoehtona X:lle, mutta se ei ole vielä täysin hajautettu tai liittoutunut, vaan se luottaa omiin palvelimiinsa. - Alusta käyttää AT-protokollaa, joka sisältää henkilökohtaisia tietopalvelimia, releitä ja sovellusnäkymiä, mikä mahdollistaa käyttäjien oman datan isännöinnin, vaikka tämä vaatii teknistä osaamista ja voi olla kallista. - Vaikka Bluesky on ilmainen ja tarjoaa ominaisuuksia, kuten verkkotunnuspohjaisia käyttäjänimiä ja muokattavaa moderointia, sen taloudellinen malli riippuu verkkotunnusmyynnistä, mikä herättää kysymyksiä sen pitkän aikavälin kestävyydestä.</li>
-</ul>
-]]></description>
-            <link>https://anderegg.ca/2024/11/15/maybe-bluesky-has-won</link>
-            <guid isPermaLink="false">2024-11-16T00:00:00.000ZEhkä Bluesky on &quot;voittanut&quot;</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title
-      ><![CDATA[Teslalla on korkein kuolemaan johtaneiden onnettomuuksien määrä kaikista automerkeistä, tutkimus paljastaa]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link
-      >https://www.roadandtrack.com/news/a62919131/tesla-has-highest-fatal-accident-rate-of-all-auto-brands-study/</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-16T00:00:00.000ZTeslalla on korkein kuolemaan johtaneiden onnettomuuksien määrä kaikista automerkeistä, tutkimus paljastaa</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title
-      ><![CDATA[Netflixin puskurointiongelmat: Nyrkkeilyn fanit valittavat Jake Paul vs. Mike Tyson -ottelusta]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Netflixin käyttäjät kokivat puskurointiongelmia Jake Paul vs. Mike Tyson -ottelun aikana, mikä johti viiveeseen, katkonaisiin analyyseihin ja mustiin ruutuihin.</li>
-<li>Suoratoisto-ongelmat ovat herättäneet huolta Netflixin kyvystä käsitellä urheilutapahtumien suoratoistoa, erityisesti kun joulupäivälle on suunniteltu tulevia NFL-pelejä.</li>
-<li>Jotkut katsojat valitsivat Antonio Brownin suoratoiston X:ssä, joka keräsi merkittävää huomiota 6,4 miljoonalla katsojalla.</li>
-</ul>
-]]></description>
-            <link
-      >https://www.sportingnews.com/us/boxing/news/netflix-buffering-livestream-issues-boxing-jake-paul-mike-tyson/327ee972d4b14d90cc370461</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-16T00:00:00.000ZNetflixin puskurointiongelmat: Nyrkkeilyn fanit valittavat Jake Paul vs. Mike Tyson -ottelusta</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Llama-OCR: Asiakirjasta Markdowniksi]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Julkaisu esittelee menetelmän, jolla kuvat voidaan muuntaa markdown-muotoon käyttämällä llama-ocr:ää ja Together AI OCR:ää, jotka ovat optisen merkkien tunnistuksen työkaluja.</li>
-<li>Käyttäjät voivat ladata kuvan saadakseen jäsenneltyä markdownia, mikä helpottaa tekstin poimimista ja muotoilua kuvista.</li>
-<li>Esimerkki JavaScript-koodista on annettu, joka havainnollistaa, kuinka käyttää llama-ocr-kirjastoa kuvatiedoston käsittelyyn ja markdown-tulosteen saamiseen.</li>
-</ul>
-]]></description>
-            <link>https://llamaocr.com/</link>
-            <guid isPermaLink="false">2024-11-16T00:00:00.000ZLlama-OCR: Asiakirjasta Markdowniksi</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Bluesky-tulvan kuluttaminen alle 2,50 dollarilla kuukaudessa]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Blueskyn julkiset tiedot, jotka käsittävät 15 miljoonaa käyttäjää, ovat saatavilla websocket JSON -syötteen nimeltä Jetstream kautta, mahdollistaen reaaliaikaisen verkon seurannan.</li>
-<li>Yksinkertainen sovellus kehitettiin kuuntelemaan poistotapahtumia Jetstream-syötteestä, näyttäen hetkellisesti anonymisoitua poistettua tekstiä.</li>
-<li>Appi toimii Flyn pienimmällä instanssilla hintaan 2,24 dollaria kuukaudessa, hallinnoiden tehokkaasti postitapahtumia, sisällön suodatusta, tekstin välimuistia ja poistettujen viestien lähettämistä, vaikka monimutkaisemmat sovellukset saattavat kohdata skaalautuvuushaasteita.</li>
-</ul>
-]]></description>
-            <link>https://bsky.bad-example.com/consuming-the-firehose-cheaply/</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-16T00:00:00.000ZBluesky-tulvan kuluttaminen alle 2,50 dollarilla kuukaudessa</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Ensivaikutelmat: Lenovo T14s Qualcomm Snapdragon ARM64 -prosessorilla]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Lenovo T14s -kannettavaa, jossa on Qualcomm Snapdragon ARM64 -prosessori, arvioidaan, mikä korostaa siirtymää perinteisestä X86-arkkitehtuurista havaittujen tehottomuuksien vuoksi.</li>
-<li>Alkuasennus FreeBSD-currentilla vaati ARM64-spesifisiä korjauksia, jolloin jotkin laitteistokomponentit, kuten näyttö ja NVME, toimivat, mutta toiset, kuten näppäimistö ja USB-C-portit, eivät toimineet.</li>
-<li>Suorituskykytestaus osoitti, että laite rakensi maailman 3210 sekunnissa käyttäen 24 Wh energiaa, mikä johtui sen 12 todellisesta suorittimesta, ja johti myönteiseen suositukseen.</li>
-</ul>
-]]></description>
-            <link>https://lists.freebsd.org/archives/freebsd-hackers/2024-November/004068.html</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-16T00:00:00.000ZEnsivaikutelmat: Lenovo T14s Qualcomm Snapdragon ARM64 -prosessorilla</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Yggdrasil-verkko]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Yggdrasil on kokeellinen reititysjärjestelmä, jonka tavoitteena on tarjota hajautettu ja tulevaisuuden kestävä vaihtoehto nykyisille Internetin reititysprotokollille, erityisesti suurille mesh-verkoille. Se tarjoaa ominaisuuksia, kuten skaalautuvuus, itsensä korjaaminen, salaus ja monialustatuki, toimien eri käyttöjärjestelmissä, kuten Linux, macOS, Windows, iOS ja Android. Vaikka Yggdrasil on vielä alfa-vaiheessa, se on vakaa päivittäiseen käyttöön, tarjoten päästä päähän salatun IPv6-reitityksen ja sen voi konfiguroida sekä IPv4- että IPv6-verkoissa.</li>
-</ul>
-]]></description>
-            <link>https://yggdrasil-network.github.io/</link>
-            <guid isPermaLink="false">2024-11-16T00:00:00.000ZYggdrasil-verkko</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Kyanos: eBPF-pohjainen verkko-ongelmien analysointityökalu]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Kyanos on eBPF-pohjainen työkalu, joka on suunniteltu verkkoanalyysiin ja kykenee kaappaamaan ja analysoimaan erilaisia verkkopyyntöjä, kuten HTTP, Redis ja MySQL.</li>
-<li>Se sisältää kehittyneitä liikenteen suodatusvaihtoehtoja IP:n, portin, prosessin, säilön ja protokollan mukaan sekä ytimen tason viiveanalyysin ja automaattisen SSL-liikenteen salauksen purun.</li>
-<li>Työkalu on kevyt, vaatii vain vähän riippuvuuksia ja on yhteensopiva Linux-ytimen versioiden 3.10 ja 4.14 tai sitä uudempien kanssa, mikä tekee siitä helposti saatavilla laajalle käyttäjäkunnalle.</li>
-</ul>
-]]></description>
-            <link>https://github.com/hengyoush/kyanos</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-16T00:00:00.000ZKyanos: eBPF-pohjainen verkko-ongelmien analysointityökalu</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title
-      ><![CDATA[M4 MacBook Pro -laitteet käyttävät kvanttipistekalvoa (QD) punaisen KSF-fosforikalvon sijaan.]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Applen uusi MacBook Pro (M4) esittelee kvanttipistekalvon (QD) käytön, korvaten aiemmin käytetyn punaisen KSF-fosforikalvon.</li>
-<li>Siirtyminen QD-kalvoon merkitsee merkittävää muutosta, sillä Apple oli aiemmin suosinut KSF:ää sen tehokkuuden ja kadmiumittomien ominaisuuksien vuoksi.</li>
-<li>Tämä päivitys korostaa Applen jatkuvia pyrkimyksiä parantaa laitteidensa näyttöteknologiaa.</li>
-</ul>
-]]></description>
-            <link>https://twitter.com/DSCCRoss/status/1857208745014776215</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-16T00:00:00.000ZM4 MacBook Pro -laitteet käyttävät kvanttipistekalvoa (QD) punaisen KSF-fosforikalvon sijaan.</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[YC on väärässä LLM:ien käytöstä sirujen suunnittelussa]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>YC:n ehdotus käyttää suuria kielimalleja (LLM) sirujen suunnittelussa saa kritiikkiä, koska se ei vastaa ihmisten insinöörien asiantuntemusta innovatiivisten siruarkkitehtuurien luomisessa.</li>
-<li>Vaikka LLM:t saattavat alentaa suunnittelukustannuksia, ne eivät todennäköisesti mullista sirujen suunnittelua korkean arvon markkinoilla, kuten aiemmat yritykset, kuten korkean tason synteesi (HLS).</li>
-<li>LLM:t voisivat olla hyödyllisiä varmennusprosesseissa, mahdollisesti lievittäen alan osaajapulaa, mutta niiden ei odoteta tuottavan parempia siruja tai avaavan uusia markkinoita.</li>
-</ul>
-]]></description>
-            <link>https://www.zach.be/p/yc-is-wrong-about-llms-for-chip-design</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-16T00:00:00.000ZYC on väärässä LLM:ien käytöstä sirujen suunnittelussa</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[FTC aloittaa tutkimuksen Microsoftin pilviliiketoiminnasta]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>FTC tutkii Microsoftin pilviliiketoimintaa mahdollisten kilpailunvastaisten käytäntöjen vuoksi, erityisesti liittyen Azuren lisenssiehtoihin.</li>
-<li>Väitteisiin kuuluu maksujen korottaminen ja Office 365:n yhteensopimattomuus kilpailevien pilvialustojen kanssa, mikä tekee asiakkaiden siirtymisestä haastavaa.</li>
-<li>Tämä tutkimus on osa laajempaa FTC:n sääntelytoimenpidettä, johon liittyy samanlaista tarkastelua Ison-Britannian ja EU:n sääntelyviranomaisilta, kun pilvimarkkinat jatkavat laajentumistaan.</li>
-</ul>
-]]></description>
-            <link
-      >https://arstechnica.com/tech-policy/2024/11/ftc-to-launch-investigation-into-microsofts-cloud-business/</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-16T00:00:00.000ZFTC aloittaa tutkimuksen Microsoftin pilviliiketoiminnasta</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Asensin avoimen lähdekoodin autotallin oven avaajan, ja pidän siitä kovasti.]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>OpenGarage on avoimen lähdekoodin autotallin oven avaaja, joka integroituu saumattomasti Home Assistantin kanssa tarjoten parannettua hallintaa ja mukauttamista kotiautomaatioon.</li>
-<li>Se koostuu pienestä ESP-kortista, jossa on ultraäänisensori, ja sitä voidaan ohjata verkkoselaimen tai mobiilisovelluksen kautta, mikä tekee asennuksesta yksinkertaista.</li>
-<li>OpenGarage mahdollistaa tehtävien automatisoinnin, kuten valojen sytyttämisen autotallin oven avautuessa, mikä korostaa sen monipuolisuutta ja houkuttelevuutta tee-se-itse-kotiautomaatioharrastajille.</li>
-</ul>
-]]></description>
-            <link
-      >https://arstechnica.com/gadgets/2024/11/i-too-installed-an-open-source-garage-door-opener-and-am-loving-it/</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-16T00:00:00.000ZAsensin avoimen lähdekoodin autotallin oven avaajan, ja pidän siitä kovasti.</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Ei-alkuperäiset ryhmittely-yhteenvedot Polarissa vs pandasissa]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>PyData Berlin 2024 -tapahtumassa Polars, tietojenkäsittelykirjasto, nostettiin esiin edistyneistä ominaisuuksistaan, kuten laiska suoritus, Rust-integraatio ja monisäikeisyys.</li>
-<li>Merkittävä innovaatio Polarsissa on sen tuki ei-alkuperäisille ryhmittely-yhteenvedoille, mikä mahdollistaa käyttäjille monimutkaisten operaatioiden suorittamisen tehokkaammin kuin pandas.</li>
-<li>Blogi ehdottaa, että uusien dataframe-kirjastojen tulisi innovoida pidemmälle kuin pandas-API, ja Polars toimii esimerkkinä ilmeikkään syntaksinsa ja parannettujen datan käsittelyominaisuuksiensa kautta.</li>
-</ul>
-]]></description>
-            <link>https://labs.quansight.org/blog/dataframe-group-by</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-16T00:00:00.000ZEi-alkuperäiset ryhmittely-yhteenvedot Polarissa vs pandasissa</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[M4 Macit eivät voi virtualisoida vanhempia macOS-versioita]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>M4 Macit eivät pysty virtualisoimaan macOS-versioita, jotka ovat vanhempia kuin 13.4 Ventura, mikä johtaa mustaan näyttöön, kun yritetään käynnistää vanhempia macOS-virtuaalikoneita (VM).</li>
-<li>Asia todennäköisesti ilmenee varhaisessa vaiheessa ytimen käynnistysvaiheessa, ja sen ratkaiseminen edellyttäisi, että Apple päivittäisi vanhempia macOS-ytimiä, mikä on epätodennäköistä.</li>
-<li>M1-, M2- ja M3-Mac-tietokoneet voivat virtualisoida macOS Monterey 12.0.1:n ja uudemmat, mutta Big Suria ei voida virtualisoida millään Apple-silikonilla.</li>
-</ul>
-]]></description>
-            <link>https://eclecticlight.co/2024/11/14/m4-macs-cant-virtualise-older-macos/</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-16T00:00:00.000ZM4 Macit eivät voi virtualisoida vanhempia macOS-versioita</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

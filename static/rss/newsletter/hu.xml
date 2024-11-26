@@ -15,12 +15,166 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 25 Nov 2024 19:40:15 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Nov 2024 19:20:17 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/hu.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
+        <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[hu]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-11-26]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/11/26&#39;</h2>
+<h1>2024-11-26</h1>
+<h2><a href="https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-s3-functionality-conditional-writes/">„Az Amazon S3 hozzáadja a Put-If-Match (Összehasonlítás és csere) funkciót”</a></h2>
+<ul>
+<li>„Az Amazon S3 bevezeti a feltételes írásokat, amelyek lehetővé teszik a frissítéseket csak akkor, ha egy objektum változatlan marad, megakadályozva az egyidejű felülírásokat az objektum ETag-jának ellenőrzésével. Ez a funkció, amely hasonló a HTTP if-none-match fejlécéhez, lehetővé teszi az ügyfelek számára, hogy az if-match fejlécet használják az ETag konzisztencia biztosítására írás előtt, növelve a hatékonyságot az elosztott alkalmazások számára. Minden AWS régióban elérhető további költség nélkül, a megvalósítás az AWS SDK, API vagy CLI használatával történhet, további részletek az S3 Felhasználói Útmutatóban találhatók.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42240678">Reakciók</a></h3>
+<ul>
+<li>„Az Amazon S3 bevezetett egy új funkciót, amely a Put-If-Match nevet viseli, és úgy működik, mint egy összehasonlító és csere művelet, lehetővé téve a feltételes objektumírást verzióegyezés alapján. Ez a funkció javítja a szinkronizációt és a párhuzamosság-ellenőrzést, lehetővé téve a fejlesztők számára, hogy összetettebb műveleteket hajtsanak végre, például adatbázisokat építsenek az S3-on további infrastruktúra nélkül. A frissítés az Amazon S3-t összhangba hozza más felhőalapú tárolási szolgáltatások, mint például a Google Cloud Storage és az Azure Blob Storage által kínált hasonló funkciókkal.”</li>
+</ul>
+<h2><a href="https://fasterthanli.me/articles/lies-we-tell-ourselves-to-keep-using-golang">„Hazugságok, amiket mondunk magunknak, hogy továbbra is használjuk a Golangot (2022)”</a></h2>
+<ul>
+<li>„A cikk kritikát fogalmaz meg a Golanggal kapcsolatban, megjegyezve, hogy bár vonzó tulajdonságai vannak, mint például az aszinkron futási környezet és a szemétgyűjtő, jelentős hátrányai is vannak, mint például az összeg típusok hiánya és az elégtelen hibakezelés. Azt állítja, hogy a Go egyszerűségének vélt előnyei megtévesztőek lehetnek, rejtett összetettségeket és kihívásokat okozva a termelési környezetekben, és hangsúlyozza annak fontosságát, hogy ezeket a problémákat felismerjük, ahelyett, hogy csak a használatának könnyűsége miatt fogadnánk el a Go-t. A cikk összehasonlítja a Go-t a Rusttal, azt sugallva, hogy a Rust kihívásai ellenére robusztusabb megoldásokat kínál a komplexitás kezelésére és a kód helyességének biztosítására.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42243500">Reakciók</a></h3>
+<ul>
+<li>„A cikk bírálja a Go hibakezelését, szembeállítva azt a Rust kifinomultabb megközelítésével, amelyet egyesek elegánsabbnak találnak.”</li>
+<li>„Van egy véleménykülönbség: egyesek értékelik a Go egyszerűségét és az explicit hibakezelést, míg mások unalmasnak és hibára hajlamosnak találják.”</li>
+<li>„A kritikák ellenére a Go továbbra is népszerű marad egyszerűsége és a nagyvállalatok általi széles körű elfogadottsága miatt.”</li>
+</ul>
+<h2><a href="https://www.wired.com/story/cybertrucks-many-recalls-make-it-worse-than-91-percent-of-all-2024-vehicles/">„Cybertruck számos visszahívása”</a></h2>
+<ul>
+<li>„A Tesla Cybertruck több visszahívást is tapasztalt a bevezetése óta, a legutóbbi a hibás hajtásinverterekkel kapcsolatos, amelyek több mint 2 400 egységet érintenek, ami aggodalmakat vet fel a megbízhatóságával kapcsolatban.”</li>
+<li>„A minőségi problémák ellenére a Cybertruck egyedi formaterve továbbra is vonzza a vásárlókat, bár az európai biztonsági előírásoknak való meg nem felelés korlátozza piaci elérhetőségét.”</li>
+<li>„A visszahívások, miközben a szabályozási hatékonyságot mutatják, árthatnak a Tesla márkahírnevének, különösen tekintettel Elon Musk jelentős befolyására az amerikai szabályozásokra.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42242971">Reakciók</a></h3>
+<h2><a href="https://techcrunch.com/2024/11/22/y-combinator-often-backs-startups-that-duplicate-other-yc-companies-data-shows-its-not-just-ai-code-editors/">„Az adatok azt mutatják, hogy a Y Combinator gyakran támogat olyan startupokat, amelyek más YC vállalatokat másolnak.”</a></h2>
+<ul>
+<li>„A Y Combinator (YC), egy neves startup gyorsító, olyan sikeres vállalatok elindításáról ismert, mint az Airbnb és a Stripe, de sok startupja hasonló vagy azonos termékeket épít a korábbi YC vállalatokhoz.”</li>
+<li>„A PearAI botrány rávilágított erre a trendre, amikor a PearAI-t azzal vádolták, hogy lemásolt egy másik YC terméket, ám a YC vezérigazgatója, Garry Tan megvédte a gyakorlatot, hivatkozva a választás és az innováció fontosságára.”</li>
+<li>„A Deckmatch elemzése a YC trendekről azt mutatja, hogy a népszerű startup kategóriák közé tartoznak az AI kód szerkesztők, az éttermi PoS rendszerek és az üzleti pénzügyi eszközök, míg néhány területen, mint például a kriptokereskedelem, csökkenő érdeklődés tapasztalható.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42243746">Reakciók</a></h3>
+<ul>
+<li>„A Y Combinator gyakran fektet be olyan startupokba, amelyek más YC által támogatott vállalatokat másolnak, előtérbe helyezve az alapítók potenciálját az egyedi ötletekkel szemben. - Ezt a stratégiát úgy tekintik, mint egy módot arra, hogy hasonló koncepciókra fogadjanak, mivel a siker gyakran inkább a végrehajtáson és az időzítésen múlik, mint az ötlet eredetiségén. - Míg egyesek ezt potenciális érdekellentétként látják, a kockázati tőke gyakorlatában gyakori, hogy több vállalatot is finanszíroznak ugyanabban a szektorban, hogy érvényesítsék a piacokat és növeljék a siker valószínűségét.”</li>
+</ul>
+<h2><a href="https://status.flyio.net">„Fly.io leállás – megoldva”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42241851">Reakciók</a></h3>
+<ul>
+<li>„A Fly.io egy ideiglenes leállást tapasztalt, amelyet megoldottak, de ez felvetette a felhasználók aggodalmait a platform megbízhatóságával kapcsolatban a korábbi incidensek miatt. A felhasználók összehasonlították a Fly.io-t más alternatívákkal, mint például a Railway és a Cloudflare, kiemelve a megbízhatóság, a funkciók és a felhasználói élmények közötti különbségeket. A kihívások ellenére néhány felhasználó értékeli a Fly.io-t annak könnyű használhatósága és versenyképes árazása miatt, miközben a megbeszélések hangsúlyozták a magas rendelkezésre állás és a függőségek monitorozásának fontosságát.”</li>
+</ul>
+<h2><a href="https://www.viksnewsletter.com/p/short-intro-to-automotive-lidar">„Rövid bevezetés az autóipari Lidar technológiába”</a></h2>
+<ul>
+<li>„Vik hírlevele az autóipari lidar technológiát tárgyalja, amely létfontosságú az önvezető autók számára, mivel képes nagy felbontású képeket előállítani infravörös lézerek segítségével. A hírlevél bemutatja a lidar működési elveit, beleértve a hullámhossz-választást, a fotodetektorokat és a távolságmérési technikákat, mint például a Time-of-Flight és a Frequency Modulated Continuous Wave. Emellett különböző lidar rendszereket is vizsgál, mint például a mechanikus és szilárdtest opciókat, azzal a céllal, hogy csökkentsék a költségeket és fejlesszék a technológiát az autonóm járművek szélesebb körű elterjedése érdekében.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239721">Reakciók</a></h3>
+<ul>
+<li>„Az autóipari lidar technológia fejlődik, a forgó szkennereket, mint például a Velodyne-é, használják a magas költségek ellenére, míg az alternatívák, mint a flash lidar és a MEMS tükrök, piaci és technikai kihívásokkal szembesülnek.”</li>
+<li>„A Waymo továbbra is használja a forgó lidart, még a járművek sérülékeny sarkaiban is, ami hangsúlyozza az olcsóbb és integráltabb megoldások iránti igényt, mivel a pulzáló lidar kevesebb interferenciát kínál a folyamatos rendszerekhez képest.”</li>
+<li>„A Lidar nagy felbontású képalkotást biztosít és jól teljesít gyenge fényviszonyok között, de versenyben áll a kamerás rendszerekkel, amelyeket egyes vállalatok, mint például a Tesla, költségokokból előnyben részesítenek, ami folyamatos vitákat gerjeszt az autonóm vezetés legjobb megközelítéséről.”</li>
+</ul>
+<h2><a href="https://papersplease.org/wp/2024/11/25/do-you-need-id-to-read-the-real-id-rules/">„Szükséges személyazonosító igazolvány a REAL-ID szabályok elolvasásához?”</a></h2>
+<ul>
+<li>„Egy kísérlet a TSA új digitális azonosító szabályainak elérésére rávilágított a REAL-ID törvény problémáira, mivel a szabályok nem nyilvánosan hozzáférhetők, és az elérésükhöz azonosítóra van szükség, ami aggodalmakat vet fel a titkos törvények és a jogi eljárás tekintetében.”</li>
+<li>„A TSA digitális azonosító szabványai, amelyek magánjellegű dokumentumokból származnak, bonyolult interakciókat foglalnak magukban alkalmazások, eszközök és kormányzati ügynökségek között, miközben adatvédelmi aggályok merülnek fel a naplózott azonosító használatával kapcsolatban.”</li>
+<li>„A szerző azzal érvel, hogy a TSA gyakorlatai sértik a nyilvános hozzáférési jogokat, és jelentette az ügyet a Szövetségi Nyilvántartási Hivatalnak, kérve a szabály visszavonását.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239952">Reakciók</a></h3>
+<ul>
+<li>„A vita középpontjában az áll, hogy szükséges-e az azonosító a REAL-ID szabályokhoz való hozzáféréshez, miközben néhány felhasználó megkérdőjelezi a TSA biztonsági intézkedéseinek hatékonyságát. - Aggodalmak merülnek fel a mobil vezetői engedélyek (mDL) és az általuk felvetett adatvédelmi kérdések kapcsán. - A felhasználók szkeptikusak a TSA hatékonyságával és a biztonsági színház fogalmával kapcsolatban, miközben megkérdőjelezik a digitális azonosítók, mint a REAL-ID és az mDL, hosszú távú következményeit is.”</li>
+</ul>
+<h2><a href="https://medium.com/@drspoulsen/a-solution-to-the-onion-problem-of-j-kenji-l%C3%B3pez-alt-c3c4ab22e67c">„Megoldás J. Kenji Lopez-Alt (2021) The Onion problémájára”</a></h2>
+<ul>
+<li>„A bejegyzés az „Onion Problem”-mal foglalkozik, amely az egyenletes szeletelés érdekében azonos térfogatú hagymaszeletek elérését célozza meg. - Egy matematikai vizsgálat, amely kalkulust alkalmazott, meghatározta, hogy az optimális vágási pont a hagyma középpontjától 55,73066%-kal lejjebb található, amit „valódi hagymakonstansnak” neveztek el. - Ez az eredmény finomítja a korábbi javaslatot, amely a középponttól 60%-kal lejjebb történő vágást ajánlotta, így pontosabb módszert biztosít az egyenletes hagymaszeletekhez.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42244814">Reakciók</a></h3>
+<ul>
+<li>„A vita egy matematikai modellt tárgyal, amely az egyenletes hagymavágást célozza meg, J. Kenji Lopez-Alt inspirációja alapján, félkör alakú ábrázolást használva a geometria egyszerűsítésére és a szeletméret eltérésének minimalizálására. - A felhasználók vitatják a modell gyakorlatiasságát és pontosságát, figyelembe véve a hagyma 3D szerkezetét és nem egyenletes rétegeit, és alternatív vágási módszereket vagy eszközöket javasolnak. - A beszélgetés azt is megvizsgálja, hogyan lehet egyensúlyt teremteni az egyenletesség és a kulináris preferenciák között, utalva olyan gasztronómiai személyiségekre, mint Adam Ragusea.”</li>
+</ul>
+<h2><a href="https://twitter.com/TomHacohen/status/1861137484249252093">„A Redis megpróbálja átvenni az összes OSS Redis könyvtár irányítását”</a></h2>
+<ul>
+<li>„A jelentések szerint a Redis átveszi az irányítást az összes nyílt forráskódú szoftver (OSS) Redis könyvtár felett, amelyek közé tartoznak a népszerű Jedis, Lettuce és redis-py is.”</li>
+<li>„Ezek a könyvtárak jelenleg nem működnek, és egy másik könyvtár, a redis-rs, szintén potenciális irányítási vagy leállítási problémákkal néz szembe.”</li>
+<li>„Ez a helyzet jelentős, mivel hatással van azokra a fejlesztőkre, akik ezekre a könyvtárakra támaszkodnak a Redis integrációhoz az alkalmazásaikban.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239607">Reakciók</a></h3>
+<ul>
+<li>„A Redis Inc. átveszi az irányítást a nyílt forráskódú Redis könyvtárak felett, ami vitákat vált ki, és néhány fejlesztőt arra késztet, hogy eltávolítsa a Redis függőségeket a védjegy érvényesítési problémák miatt.”</li>
+<li>„Az olyan könyvtárak, mint a redis-py, a Lettuce és a Jedis, a Redis Inc. hivatalos szervezetének irányítása alá kerültek, amit védekező stratégiának tekintenek a Valkey-hez hasonló versenytársakkal szemben.”</li>
+<li>„A közösség aggódik a védjegyigények és a potenciális szállítói bezártság miatt, ami arra ösztönzi a beszélgetéseket, hogy alternatívákat, mint például a Valkey és a Kvrocks, vizsgáljanak meg, és rávilágít a védjegyérvényesítés kihívásaira a nyílt forráskódú projektekben.”</li>
+</ul>
+<h2><a href="http://jpkoning.blogspot.com/2024/11/setelinleikkaus-when-finns-snipped.html">„Setelinleikkaus: Amikor a finnek félbevágták a készpénzüket az infláció megfékezése érdekében”</a></h2>
+<ul>
+<li>„1945-ben Finnország bevezette a &quot;setelinleikkaus&quot; nevű intézkedést, amely arra kötelezte a polgárokat, hogy vágják félbe a nagy címletű bankjegyeket a második világháború utáni infláció leküzdése érdekében, az egyik felük megőrizte az értékét, míg a másik kormánykötvénnyé vált. Az intézkedés hatástalan volt, mivel csak a fizikai készpénzt célozta meg, ami a pénzkínálatnak csak egy kis részét képezte, ellentétben más európai országok, például Belgium sikeresebb reformjaival. A cikk azt találgatja, hogy a jövőbeni inflációs kontroll digitális számlabefagyasztásokat vonhat maga után, ami pontosabb, de potenciálisan vitatott módszer lehet.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42243755">Reakciók</a></h3>
+<ul>
+<li>„1945-ben Finnország egyedülálló módon kezelte az inflációt azzal, hogy fizikailag félbevágta a bankjegyeket, szemben a modern módszerekkel, mint például a kamatlábak módosítása.”</li>
+<li>„Ez a történelmi megközelítés vitákat indított el a jelenlegi monetáris politikáról, ahol a központi bankok a kamatlábak és a nyíltpiaci műveletek révén kezelik az inflációt.”</li>
+<li>„A digitális pénz jövőbeli ellenőrzésének lehetősége, esetleg központi banki digitális valuták révén, aggodalmakat vet fel a személyes pénzügyek kormányzati felügyeletének növekedése miatt.”</li>
+</ul>
+<h2><a href="https://www.metmuseum.org/perspectives/peter-hristoff-islamic-prayer-rugs">„Ima, Elhelyezés és Feloldozás: Peter Hristoff az iszlám imaszőnyegekről (2015)”</a></h2>
+<ul>
+<li>„Peter Hristoff művészete a művészet és a spiritualitás metszéspontját vizsgálja, különösen az imaszőnyegek médiumán keresztül, 1997-től kezdődően. Alkotásai, beleértve a rajzokat és a szitanyomatokat, nagyobb „szőnyeg” darabokká fejlődnek rizspapíron, amelyeket a török szőnyegek és kilimek inspirálnak, és amelyeket személyes naplókként tekint, szimbolikus jelentésekkel. Hristoff munkái a „ragyogó szomorúságot” testesítik meg, amely az öröm és a bánat keveréke, és amelyet Bartholomeosz pátriárka írásai befolyásoltak, és továbbra is az emberi természet spirituális és fizikai aspektusait kutatják.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239487">Reakciók</a></h3>
+<ul>
+<li>„Peter Hristoff cikke az iszlám imaszőnyegek jelentőségét vizsgálja, hangsúlyozva azok bonyolult mintáit, mint például a tesszellációkat, amelyek Isten végtelenségét szimbolizálják. A cikk tárgyalja a reprezentatív művészet iszlám tilalmát, ami a kalligráfia és a geometriai minták használatához vezetett az iszlám műtárgyakban. Kiemeli az imaszőnyegek történelmi és kulturális kontextusát, megjegyezve azok használatát különböző vallási hagyományokban, beleértve a kereszténységet is, valamint gyakorlati és spirituális szerepüket.”</li>
+</ul>
+<h2><a href="https://deno.com/blog/deno-v-oracle">„Deno vs. Oracle: A JavaScript védjegy törlése”</a></h2>
+<ul>
+<li>„Deno petíciót nyújtott be az Egyesült Államok Szabadalmi és Védjegyhivatalához (USPTO), hogy törölje az Oracle „JavaScript” védjegyét, azzal a céllal, hogy közkinccsé tegye, és eltávolítsa a használatával kapcsolatos jogi akadályokat.”</li>
+<li>„A petíció azzal érvel, hogy a „JavaScript” egy általános kifejezés, az Oracle csalást követett el a védjegy megújításakor, és az Oracle elhagyta a védjegyet a nemhasználat révén.”</li>
+<li>„Több mint 14 000 fejlesztő támogatja a Deno lépését, és az Oracle-nek 2025. január 4-ig van ideje válaszolni, miközben a Deno készen áll arra, hogy minden eljárást megosszon a közösséggel.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239263">Reakciók</a></h3>
+<ul>
+<li>„A Deno petíciót nyújtott be az Egyesült Államok Szabadalmi és Védjegyhivatalához (USPTO), hogy töröljék az Oracle JavaScript védjegyét, ami vitát váltott ki a védjegy etika és a közösségi előnyök kapcsán.”</li>
+<li>„A vita a Deno kompatibilitásáról szól a Node Package Managerrel (NPM) és annak hatásáról a szélesebb JavaScript ökoszisztémára, tükrözve a különböző véleményeket a JavaScript jövőjéről és a futtatási környezetekről.”</li>
+<li>„A vélemények megoszlanak: egyesek etikátlannak tartják az Oracle védjegyhasználatát, míg mások megkérdőjelezik a Deno szándékait, azt sugallva, hogy ez talán egy PR-stratégia lehet.”</li>
+</ul>
+<h2><a href="https://github.com/captn3m0/jekyll-sqlite">„SQLite bővítmény Jekyllhez”</a></h2>
+<ul>
+<li>„A szerző kifejlesztett egy Jekyll SQLite bővítményt, hogy javítsa az adatok manipulálási képességeit a Jekyllben, egy népszerű statikus weboldal generátorban.”</li>
+<li>„Ez a bővítmény lehetővé teszi a felhasználók számára, hogy SQL lekérdezéseket hajtsanak végre az adatok kezelésére, megoldva a Liquid, Jekyll sablonnyelvének korlátait a bonyolult adatkezelési műveletek kezelésében.”</li>
+<li>„A bővítményt sikeresen használták a gyakorlatban egy éven keresztül, amit a Northwind adathalmazzal is bemutattak, és a szerző visszajelzéseket és javaslatokat vár a fejlesztéshez.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42244987">Reakciók</a></h3>
+<ul>
+<li>„A Jekyll SQLite plugin lehetővé teszi az SQLite használatát adatforrásként a Jekyll-ben, ezáltal javítva az adatok manipulálási képességeit SQL-lel. - Integrálja a Jekyll Datafiles és Data Pages generátor funkcióit, lehetővé téve az összetett adatkezelést a hagyományos CSV/JSON/YAML formátumokon túl. - A plugin már egy éve van használatban, és pozitív visszajelzéseket kapott, mivel a statikus webhelygenerálást dinamikusabbá és rugalmasabbá teszi.”</li>
+</ul>
+<h2><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6290285/">„A haj korai őszülése: Áttekintés frissítésekkel”</a></h2>
+<ul>
+<li>„A korai őszülés (PGH) a kaukázusiaknál 20 éves kor előtt, az afroamerikaiaknál pedig 30 éves kor előtt jelentkező őszülést jelenti, ami hatással van az önbecsülésre. A PGH okai nem teljesen ismertek, de összefüggésbe hozhatók öregedési rendellenességekkel, autoimmun betegségekkel és oxidatív stresszel, valamint olyan tényezőkkel, mint a dohányzás és a táplálkozási hiányosságok. A PGH gyakori kezelései közé tartoznak a hajfestékek és a táplálékkiegészítők, és tanulmányok utalnak a PGH és az érzelmi tényezők, genetikai hajlamok, valamint környezeti hatások közötti kapcsolatokra.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42241702">Reakciók</a></h3>
+<ul>
+<li>„A korai őszülés összefüggésbe hozható a B12-vitamin hiányával, különösen azoknál, akiknél vészes vérszegénység áll fenn, ami egy olyan állapot, amikor a szervezet nem képes megfelelően felszívni a B12-vitamint. A B12-hiány diagnosztizálása nehéz lehet, mivel a kiegészítők mesterségesen növelhetik a B12-szintet, és egyes egyének nem képesek bizonyos B12-formákat aktív formákká alakítani, ami &quot;paradox B12-hiányhoz&quot; vezethet. Az olyan tényezők, mint a stressz, a genetika és az egészségügyi állapotok, például az autoimmun pajzsmirigybetegség szintén hozzájárulnak az őszüléshez, és bár egyes kiegészítők segíthetnek, nincs bizonyított módszer az ősz haj visszafordítására.”</li>
+</ul>
+<h2><a href="https://blog.thalium.re/posts/llvm-powered-devirtualization/">„LLVM-alapú devirtualizáció”</a></h2>
+<ul>
+<li>„A Thaliumnál végzett gyakorlat a virtualizált binárisok deobfuszkálására összpontosított az LLVM, egy fordítókeret segítségével, hogy a kód érthetőbbé váljon, különösen a rosszindulatú szoftverek kontextusában. A virtualizáció, amelyet olyan eszközök használnak, mint a Tigress és a VMProtect, erős obfuszkációs technika, amely a programokat virtuális utasításokká kódolja, így a visszafejtés bonyolulttá válik. A projekt sikeresen alkalmazta a dinamikus szennyezés elemzést a Tigress által obfuszkált binárisok vezérlési folyamatábrájának rekonstruálására, bár ez csak tiszta függvényekre és egyetlen végrehajtási útvonalra korlátozódott.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42245170">Reakciók</a></h3>
+<ul>
+<li>„Az LLVM-alapú devirtualizáció javítja a teljesítményt azáltal, hogy optimalizálja a virtuális függvényhívásokat, amelyek általában lassabbak a dinamikus természetük miatt.”</li>
+<li>„A Bochs, egy CPU emulátor, hatékonyan képes emulálni egy Pentium 4 processzort egy i7-en, még a virtuális gép detektorokat is megkerülve.”</li>
+<li>„A Bochs hibakereső különösen hatékony a rosszindulatú szoftverek és a kód elhomályosítók elemzésében és ellensúlyozásában, így értékes eszköz a biztonsági kutatások számára.”</li>
+</ul>
+<head>
+  <meta property="og:title" content="„Az Amazon S3 hozzáadja a Put-If-Match (Összehasonlítás és csere) funkciót”" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EAz%20Amazon%20S3%20hozz%C3%A1adja%20a%20Put-If-Match%20(%C3%96sszehasonl%C3%ADt%C3%A1s%20%C3%A9s%20csere)%20funkci%C3%B3t%E2%80%9D&subheading=2024.%20november%2026.%2C%20kedd%3A%20Hacker%20News%20%C3%96sszefoglal%C3%B3" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/hu/2024/11/26</link>
+            <guid isPermaLink="false">2024-11-26T00:00:00.000Z</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-11-25]]></title>
             <description
@@ -1216,187 +1370,6 @@
             <link>https://hn.cho.sh/hu/2024/11/17</link>
             <guid isPermaLink="false">2024-11-17T00:00:00.000Z</guid>
             <pubDate>Sun, 17 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-11-16]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/11/16&#39;</h2>
-<h1>2024-11-16</h1>
-<h2><a href="https://www.half-life.com/en/halflife2/20th">„Half-Life 2: 20. évfordulós frissítés”</a></h2>
-<ul>
-<li>„A Valve kiadta a Half-Life 2 20. évfordulós frissítését a Steamen, amely új tartalmakat és fejlesztéseket tartalmaz. A frissítés magában foglalja a fejlesztői kommentárokat, a Steam Workshop támogatást, a továbbfejlesztett grafikát és hibajavításokat, valamint új gamepad és bemeneti beállításokat. Emellett tartalmazza az Episode One és Two bővítményeket, és további tartalmakat, mint például háttérképek és hanganyagok letöltésre.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42151865">Reakciók</a></h3>
-<ul>
-<li>„A Half-Life 2 20. évfordulós frissítése most elérhető, amely a játékot és annak folytatásait ingyenesen elérhetővé teszi a Steamen 18-áig, beleértve a hibajavításokat és fejlesztéseket.”</li>
-<li>„A frissítés újraélesztette a játék örökségéről, a Half-Life 3 lehetőségéről és a Valve fejlesztési filozófiájáról szóló vitákat.”</li>
-<li>„A rajongókat arra ösztönzik, hogy fedezzék fel az évfordulós oldalt húsvéti tojásokért, és a frissítést jól fogadták a részletekre való odafigyeléséért és a klasszikus játék újraélésének lehetőségéért.”</li>
-</ul>
-<h2><a href="https://anderegg.ca/2024/11/15/maybe-bluesky-has-won">„Talán a Bluesky „nyert””</a></h2>
-<ul>
-<li>„A Bluesky egyre népszerűbb alternatívaként jelenik meg az X helyett, de még nem teljesen decentralizált vagy federált, mivel saját szervereire támaszkodik. - A platform az AT protokollt alkalmazza, amely magában foglalja a személyes adatszervereket, reléket és alkalmazásnézeteket, lehetővé téve a felhasználók számára, hogy saját adataikat tárolják, bár ez technikai szakértelmet igényel és költséges lehet. - Míg a Bluesky ingyenes és olyan funkciókat kínál, mint a domain alapú felhasználónevek és testreszabható moderáció, pénzügyi modellje a domain értékesítésekre támaszkodik, ami kérdéseket vet fel a hosszú távú fenntarthatóságával kapcsolatban.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42150278">Reakciók</a></h3>
-<ul>
-<li>„A Bluesky egyre nagyobb figyelmet kap, mint a Mastodon kellemesebb alternatívája, mivel egy olyan szűrőrendszert kínál, amely csökkenti a megosztó politikai tartalmakat.”</li>
-<li>„A felhasználók értékelik a Bluesky egyszerűségét és a tartalom láthatóságának ellenőrzését, összehasonlítva a korai Twitterrel, bár továbbra is aggályok merülnek fel annak nyitottságával és adatfelhasználásával kapcsolatban.”</li>
-<li>„A platform növekedést tapasztal, mivel a felhasználók a Twitterről vándorolnak át, amelyet egyre inkább politikailag túlfűtöttnek tartanak, ami jelzi, hogy a Bluesky potenciálisan jelentős szereplővé válhat a közösségi média terén.”</li>
-</ul>
-<h2><a href="https://www.roadandtrack.com/news/a62919131/tesla-has-highest-fatal-accident-rate-of-all-auto-brands-study/">„A tanulmány szerint a Tesla rendelkezik a legmagasabb halálos baleseti aránnyal az összes autómárka közül.”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42150443">Reakciók</a></h3>
-<ul>
-<li>„Egy tanulmány szerint a Tesla rendelkezik a legmagasabb halálos baleseti aránnyal az autómárkák között, annak ellenére, hogy fejlett biztonsági funkciókkal rendelkezik.”</li>
-<li>„A tanulmány azt sugallja, hogy a vezetői viselkedés és a körülmények jelentősen hozzájárulnak a magas baleseti arányhoz, vitákat indítva a politikáról, a média befolyásáról és az autótervezésről.”</li>
-<li>„A tanulmány módszertana, valamint a vezetők demográfiai jellemzőinek és az autó tulajdonságainak, mint például az érintőképernyők és a jármű súlya, hatása vizsgálat és vita tárgyát képezik.”</li>
-</ul>
-<h2><a href="https://www.sportingnews.com/us/boxing/news/netflix-buffering-livestream-issues-boxing-jake-paul-mike-tyson/327ee972d4b14d90cc370461">„Netflix pufferelési problémák: A bokszrajongók panaszkodnak a Jake Paul vs. Mike Tyson mérkőzésre”</a></h2>
-<ul>
-<li>„A bokszrajongók pufferelési problémákkal szembesültek a Netflixen a Jake Paul vs. Mike Tyson mérkőzés során, ami késést, akadozó elemzést és fekete képernyőket eredményezett.”</li>
-<li>„A streaming problémák aggodalmakat vetettek fel a Netflix azon képességével kapcsolatban, hogy képes-e kezelni az élő sporteseményeket, különösen a közelgő NFL-mérkőzésekkel, amelyeket karácsony napjára terveztek.”</li>
-<li>„Néhány néző Antonio Brown X-en közvetített élő adását választotta, amely jelentős figyelmet keltett 6,4 millió nézővel.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42153953">Reakciók</a></h3>
-<ul>
-<li>„A Netflix jelentős pufferelési problémákat tapasztalt a Jake Paul vs. Mike Tyson mérkőzés során, ami számos panaszt eredményezett az élő közvetítés minőségével kapcsolatban.”</li>
-<li>„A kritikusok rámutatnak, hogy a Netflix infrastruktúrája, amelyet elsősorban előre rögzített tartalmakra terveztek, lehet, hogy nem alkalmas az élő közvetítésre, ellentétben olyan platformokkal, mint a YouTube és az Amazon.”</li>
-<li>„Az eset rávilágít a Netflix kihívásaira az élő sportközvetítések piacán, különösen a jövőbeli események, például az NFL-mérkőzések kapcsán.”</li>
-</ul>
-<h2><a href="https://llamaocr.com/">„Llama-OCR: Dokumentum Markdown formátumba”</a></h2>
-<ul>
-<li>„A bejegyzés bemutat egy módszert, amely képeket alakít át markdown formátumba a llama-ocr és a Together AI OCR segítségével, amelyek optikai karakterfelismerő eszközök.”</li>
-<li>„A felhasználók feltölthetnek egy képet, hogy strukturált markdown-t kapjanak, ami megkönnyíti a szöveg kinyerését és formázását a képekből.”</li>
-<li>„Példa kódot biztosítunk JavaScriptben, amely bemutatja, hogyan használható a llama-ocr könyvtár egy képfájl feldolgozására és markdown kimenet elérésére.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42154410">Reakciók</a></h3>
-<ul>
-<li>„A Llama-OCR egy eszköz, amely a dokumentumokat Markdown formátumba alakítja Llama 3.2 vision segítségével, és elérhető npm csomagként.”</li>
-<li>„A jövőbeli frissítések tervezett funkciói közé tartozik a PDF elemzés és a JSON kimenet, bár a jelenlegi felhasználók vegyes tapasztalatokról számolnak be a képfeldolgozás és a kimenet következetessége terén.”</li>
-<li>„Az eszköz a together.ai oldalon van elhelyezve, és folyamatos megbeszélések folynak a teljesítményéről és a lehetséges fejlesztésekről, beleértve a helyi modellek vagy alternatív OCR eszközök használatára vonatkozó javaslatokat a jobb pontosság érdekében.”</li>
-</ul>
-<h2><a href="https://bsky.bad-example.com/consuming-the-firehose-cheaply/">„A Bluesky adatfolyam fogyasztása kevesebb mint 2,50 USD/hó”</a></h2>
-<ul>
-<li>„A Bluesky nyilvános adatai, amelyek 15 millió felhasználót tartalmaznak, elérhetők egy Jetstream nevű websocket JSON feeden keresztül, amely valós idejű hálózati megfigyelést tesz lehetővé.”</li>
-<li>„Egy egyszerű alkalmazást fejlesztettek ki, amely figyeli a törlési eseményeket a Jetstream hírcsatornából, és pillanatnyilag megjeleníti az anonimizált törölt szöveget.”</li>
-<li>„Az alkalmazás a Fly legkisebb példányán működik havi 2,24 dollárért, hatékonyan kezeli a bejegyzéseket, a tartalomszűrést, a szöveg gyorsítótárazását és a törölt bejegyzések közvetítését, bár a bonyolultabb alkalmazások esetében skálázhatósági problémák merülhetnek fel.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42152362">Reakciók</a></h3>
-<ul>
-<li>„A Bluesky költséghatékony módot kínál az adatfolyamához való hozzáférésre, amelyet „firehose”-ként ismernek, kevesebb mint 2,50 dollár/hó áron, ami felkelti a felhasználók érdeklődését.”</li>
-<li>„A platformot olyan funkciók jellemzik, mint a weboldal használata felhasználónévként és az egyszerű képek megosztása iOS-en, ami korai Twitterhez hasonlít.”</li>
-<li>„A Bluesky decentralizált struktúrája és közösségvezérelt fejlesztése kiemeli a nyílt adathozzáférésre való összpontosítását, szemben a Twitter jelenlegi korlátozásaival.”</li>
-</ul>
-<h2><a href="https://lists.freebsd.org/archives/freebsd-hackers/2024-November/004068.html">„Első benyomások: Lenovo T14s Qualcomm Snapdragon ARM64 CPU-val”</a></h2>
-<ul>
-<li>„A Lenovo T14s Qualcomm Snapdragon ARM64 processzorral kerül értékelésre, ami a hagyományos X86 architektúrától való elmozdulást jelzi a vélt hatékonyságbeli hiányosságok miatt.”</li>
-<li>„A FreeBSD-current kezdeti beállítása ARM64-specifikus javításokat igényelt, néhány hardverkomponens, mint például a képernyő és az NVME működött, de mások, mint a billentyűzet és az USB-C portok nem működtek.”</li>
-<li>„A teljesítménytesztelés kimutatta, hogy a készülék 3210 másodperc alatt építette fel a világot 24 Wh energia felhasználásával, ami 12 valódi CPU-jának köszönhető, és ez pozitív ajánlást eredményezett.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42150933">Reakciók</a></h3>
-<ul>
-<li>„A Lenovo T14s Qualcomm Snapdragon ARM64 CPU-val vegyes értékeléseket kap, a felhasználók olyan problémákat említenek, mint a nem működő billentyűzet, egér és USB-C portok.”</li>
-<li>„Összehasonlításokat vonnak a Linux telefonokkal, kiemelve a hasonló korlátokat és kompatibilitási kihívásokat az ARM Linux asztali gépekkel.”</li>
-<li>„A jelenlegi problémák ellenére optimizmus van a jövőbeli fejlesztések és a jobb illesztőprogram-támogatás iránt az ARM architektúrához a Lenovo laptopok esetében.”</li>
-</ul>
-<h2><a href="https://yggdrasil-network.github.io/">„Yggdrasil Hálózat”</a></h2>
-<ul>
-<li>„Az Yggdrasil egy kísérleti útválasztási séma, amely a jelenlegi internetes útválasztási protokollok decentralizált és jövőbiztos alternatíváját kívánja nyújtani, különösen a nagyszabású hálózati hálózatok számára. Olyan funkciókat kínál, mint a skálázhatóság, az önjavítás, a titkosítás és a platformok közötti támogatás, különböző operációs rendszereken működve, beleértve a Linuxot, a macOS-t, a Windowst, az iOS-t és az Androidot. Annak ellenére, hogy alfa szakaszban van, az Yggdrasil stabil a mindennapi használatra, végponttól végpontig titkosított IPv6 útválasztást kínál, és konfigurálható mind IPv4, mind IPv6 hálózatokon.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42155780">Reakciók</a></h3>
-<ul>
-<li>„Az Yggdrasil Network egy kísérleti útválasztási protokoll, amely a decentralizációra és a skálázhatóságra összpontosít, a cjdns által inspirálva, de szigorú hierarchia nélkül.”</li>
-<li>„Annak ellenére, hogy nincs egyértelmű protokoll specifikáció, az Yggdrasil jelentős frissítésekkel fejlődött a 0.4 és 0.5 verziókban, javítva a hálózati késleltetést.”</li>
-<li>„A protokoll olyan IPv6 címeket használ, amelyek nyilvános kulcsokból származnak, ami címütközésekhez vezethet, és nem elsősorban anonimitásra lett tervezve.”</li>
-</ul>
-<h2><a href="https://github.com/hengyoush/kyanos">„Kyanos: eBPF-alapú hálózati problémaelemző eszköz”</a></h2>
-<ul>
-<li>„A Kyanos egy eBPF-alapú eszköz, amelyet hálózati elemzésre terveztek, és képes különféle hálózati kérések, például HTTP, Redis és MySQL rögzítésére és elemzésére.”</li>
-<li>„Fejlett forgalomszűrési lehetőségeket kínál IP, port, folyamat, konténer és protokoll alapján, valamint kernel szintű késleltetési betekintéseket és automatikus SSL forgalom visszafejtést.”</li>
-<li>„Az eszköz könnyű, minimális függőségeket igényel, és kompatibilis a 3.10-es és 4.14-es vagy újabb Linux kernel verziókkal, így széles körű felhasználók számára elérhető.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42154583">Reakciók</a></h3>
-<ul>
-<li>„A Kyanos egy hálózatelemző eszköz, amely az eBPF-re (kiterjesztett Berkeley Packet Filter) épül, valós idejű betekintést nyújt a hibaelhárításhoz és a teljesítmény optimalizálásához.”</li>
-<li>„Jelenleg támogat bizonyos protokollokat, beleértve a HTTP-t, a MySQL-t és a Redis-t, amit néhány felhasználó korlátozásként értékel.”</li>
-<li>„A megbeszélések kiemelik az olyan technológiák jelentőségét, mint az RDMA (Remote Direct Memory Access) és az OFED (OpenFabrics Enterprise Distribution) a nagy teljesítményű számítástechnikában, valamint említést tesznek egy könyvről, amely további tanulást kínál az eBPF-ről.”</li>
-</ul>
-<h2><a href="https://twitter.com/DSCCRoss/status/1857208745014776215">„Az M4 MacBook Pro modellek kvantumpontos (QD) filmet használnak a vörös KSF foszfor film helyett.”</a></h2>
-<ul>
-<li>„Az Apple új MacBook Pro (M4) modellje bevezeti a kvantumpontos (QD) film használatát, amely a korábban használt vörös KSF foszfor filmet váltja fel.”</li>
-<li>„A QD filmre való áttérés jelentős változást jelent, mivel az Apple korábban a KSF-et részesítette előnyben annak hatékonysága és kadmiummentes tulajdonságai miatt.”</li>
-<li>„Ez a frissítés kiemeli az Apple folyamatos erőfeszítéseit a kijelzőtechnológia fejlesztésére az eszközeiben.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42152928">Reakciók</a></h3>
-<ul>
-<li>„Az új M4 MacBook Pro modellek a spektrum analízis alapján a korábban használt piros KSF foszfor film helyett kvantumpontos filmet alkalmaznak, bár erről hivatalos Apple bejelentés nem történt.”</li>
-<li>„A kvantumpontok várhatóan javítják a kijelzők színtartományát és mozgásteljesítményét, bár a válaszidők továbbra is aggodalomra adnak okot a MacBook kijelzők esetében.”</li>
-<li>„Az Apple együttműködik kijelzőgyártókkal, mint például a Samsung, az LG és a BOE, hogy kutatás-fejlesztési tevékenységeket végezzenek a konkrét termékkövetelmények teljesítése érdekében.”</li>
-</ul>
-<h2><a href="https://www.zach.be/p/yc-is-wrong-about-llms-for-chip-design">„YC téved az LLM-ek chiptervezésben való alkalmazásával kapcsolatban”</a></h2>
-<ul>
-<li>„A YC javaslata, hogy Nagy Nyelvi Modelleket (LLM-eket) használjanak chiptervezéshez, kritikát kapott, mert nem éri el az emberi mérnökök szakértelmét az innovatív chiparchitektúrák létrehozásában.”</li>
-<li>„Míg az LLM-ek csökkenthetik a tervezési költségeket, valószínűtlen, hogy forradalmasítanák a chiptervezést a magas értékű piacokon, hasonlóan a korábbi próbálkozásokhoz, mint például a magas szintű szintézis (HLS).”</li>
-<li>„Az LLM-ek hasznosak lehetnek a hitelesítési folyamatokban, potenciálisan kezelve a tehetséghiányt ezen a területen, de nem várható el tőlük, hogy jobb chipeket állítsanak elő vagy új piacokat nyissanak meg.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42156516">Reakciók</a></h3>
-<ul>
-<li>„A vita kiemeli a szkepticizmust a Nagy Nyelvi Modellek (LLM-ek) hatékonyságával kapcsolatban a chiptervezés terén, összehasonlítva a múltbeli technológiai felhajtási ciklusokkal, mint például a blokklánc.- A kritikusok azt állítják, hogy az LLM-ek túlértékeltek, és még nem megbízhatóak a bonyolult chiptervezési feladatokhoz, amelyek mély szakértelmet igényelnek, ami meghaladja a jelenlegi AI képességeket.- Bizonytalanság van abban, hogy a jövőbeli fejlesztések képesek lesznek-e leküzdeni az LLM-ek korlátait a speciális területeken, ahol korlátozott a képzési adatok mennyisége.”</li>
-</ul>
-<h2><a href="https://arstechnica.com/tech-policy/2024/11/ftc-to-launch-investigation-into-microsofts-cloud-business/">„Az FTC vizsgálatot indít a Microsoft felhőszolgáltatásaival kapcsolatban”</a></h2>
-<ul>
-<li>„Az FTC vizsgálja a Microsoft felhőszolgáltatását a lehetséges versenyellenes gyakorlatok miatt, különös tekintettel az Azure licencelési feltételeire.”</li>
-<li>„A vádak között szerepel a díjak emelése és az Office 365 inkompatibilitása a rivális felhőplatformokkal, ami megnehezíti az ügyfelek számára a váltást.”</li>
-<li>„Ez a vizsgálat az FTC szélesebb körű szabályozási erőfeszítéseinek része, hasonló vizsgálatokkal az Egyesült Királyság és az EU szabályozói részéről, miközben a felhőpiac tovább bővül.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42152068">Reakciók</a></h3>
-<ul>
-<li>„Az FTC vizsgálja a Microsoft felhőalapú üzletágát a lehetséges versenyellenes gyakorlatok miatt, beleértve azokat az eseteket, amikor díjakat emelnek az ügyfelek számára, akik szolgáltatót váltanak, és az Office 365-öt inkompatibilissé teszik a versenytárs felhőszolgáltatásokkal.”</li>
-<li>„Ez a vizsgálat a nagy technológiai vállalatok átfogóbb vizsgálatának része, amely a piaci erejükkel és üzleti gyakorlataikkal kapcsolatos folyamatos aggodalmakat tükrözi.”</li>
-<li>„Vita van az FTC motivációival kapcsolatban, megoszlanak a vélemények arról, hogy az intézkedések a technológiai óriások szükséges szabályozását jelentik-e, vagy politikai indíttatásúak.”</li>
-</ul>
-<h2><a href="https://arstechnica.com/gadgets/2024/11/i-too-installed-an-open-source-garage-door-opener-and-am-loving-it/">„Telepítettem egy nyílt forráskódú garázsajtó-nyitót, és imádom”</a></h2>
-<ul>
-<li>„Az OpenGarage egy nyílt forráskódú garázsnyitó, amely zökkenőmentesen integrálódik a Home Assistant rendszerrel, így fokozott irányítást és testreszabhatóságot kínál az otthoni automatizáláshoz.”</li>
-<li>„Ez egy kis ESP panelből áll, amely ultrahangos érzékelővel van ellátva, és webböngészőn vagy mobilalkalmazáson keresztül vezérelhető, így a telepítés egyszerű.”</li>
-<li>„Az OpenGarage lehetővé teszi a feladatok automatizálását, például a lámpák bekapcsolását, amikor a garázsajtó kinyílik, kiemelve ezzel sokoldalúságát és vonzerejét a barkács otthoni automatizálás rajongói számára.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42150376">Reakciók</a></h3>
-<ul>
-<li>„A bejegyzés az open-source garázsnyitók használatát tárgyalja, kiemelve azok rugalmasságát és helyi irányítását a myQ-hoz hasonló előfizetéses modellekkel szemben.”</li>
-<li>„A felhasználók frusztrációjukat fejezik ki a myQ előfizetéses modellje és a harmadik fél támogatásának hiánya miatt, ami arra készteti őket, hogy alternatívákat keressenek, mint például a RATGDO, a Meross és az ESPHome.”</li>
-<li>„Az otthoni automatizálás rajongói ezeket a nyílt forráskódú megoldásokat olyan rendszerekkel integrálják, mint az MQTT, a Home Assistant és a Z-Wave, a fokozott funkcionalitás és a zökkenőmentes irányítás érdekében.”</li>
-</ul>
-<h2><a href="https://labs.quansight.org/blog/dataframe-group-by">„Nem elemi csoportosítási aggregációk a Polars és a pandas könyvtárakban”</a></h2>
-<ul>
-<li>„A PyData Berlin 2024 rendezvényen a Polars, egy adatfeldolgozó könyvtár, kiemelésre került fejlett funkciói miatt, mint például a késleltetett végrehajtás, a Rust integráció és a többszálúság.”</li>
-<li>„A Polars egyik jelentős újítása a nem elemi csoportosítási aggregációk támogatása, amely lehetővé teszi a felhasználók számára, hogy összetett műveleteket hatékonyabban hajtsanak végre, mint a pandas esetében.”</li>
-<li>„A blog azt javasolja, hogy az új adatkeret-könyvtáraknak a pandas API-ján túl kellene innoválniuk, példaként említve a Polarst, amely kifejező szintaxisával és fejlett adatmanipulációs képességeivel tűnik ki.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42152076">Reakciók</a></h3>
-<ul>
-<li>„A Polars egyre népszerűbbé válik a Pandas-szal szemben a nem alapvető csoportosítási műveletek esetében, mivel hasonlít az Apache Spark-ra és gyorsabb. - A felhasználók értékelik a Polars gyors teljesítményét és egyszerű beállítását, különösen kisebb adathalmazok esetén, annak ellenére, hogy a Pandas már jól bejáratott ökoszisztémával rendelkezik. - A Pandas vagy Polars használatának döntése a konkrét felhasználási esetek, teljesítménykövetelmények és felhasználói preferenciák alapján történik, néhányan pedig az SQL vagy a DuckDB mellett döntenek összetett adatfeladatokhoz.”</li>
-</ul>
-<h2><a href="https://eclecticlight.co/2024/11/14/m4-macs-cant-virtualise-older-macos/">„Az M4 Mac-ek nem tudják virtualizálni a régebbi macOS verziókat.”</a></h2>
-<ul>
-<li>„Az M4 Mac gépek nem képesek virtualizálni a 13.4 Ventura előtti macOS verziókat, ami fekete képernyőt eredményez a régebbi macOS virtuális gépek (VM-ek) indítási kísérletei során.”</li>
-<li>„A probléma valószínűleg a kernel indítási fázisának elején merül fel, és megoldása azt igényelné, hogy az Apple frissítse a régebbi macOS kerneleket, ami valószínűtlen.”</li>
-<li>„Az M1, M2 és M3 Mac-ek képesek virtualizálni a macOS Monterey 12.0.1 és későbbi verzióit, de a Big Sur nem virtualizálható semmilyen Apple szilíciumon.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42157086">Reakciók</a></h3>
-<ul>
-<li>„Az M4 Mac gépek nem képesek virtualizálni a macOS 13.4 Ventura előtti verzióit, ami kihívásokat jelent a fejlesztők számára, akiknek szükségük van alkalmazások tesztelésére régebbi rendszereken.”</li>
-<li>„A beépített konténermegoldás hiánya a macOS számára bonyolítja a folyamatos integrációs (CI) folyamatokat, amelyek elengedhetetlenek az automatizált teszteléshez és telepítéshez.”</li>
-<li>„Anka részleges megoldást nyújt azáltal, hogy lehetővé teszi macOS virtuális gép (VM) képek használatát, de az Apple szoftverlicence ezt két VM-re korlátozza, ami frusztrálja azokat a fejlesztőket, akiknek szükségük van a visszamenőleges kompatibilitás tesztelésére.”</li>
-</ul>
-<head>
-  <meta property="og:title" content="„Half-Life 2: 20. évfordulós frissítés”" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EHalf-Life%202%3A%2020.%20%C3%A9vfordul%C3%B3s%20friss%C3%ADt%C3%A9s%E2%80%9D&subheading=2024.%20november%2016.%2C%20szombat%3A%20Hacker%20News%20%C3%96sszefoglal%C3%B3" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/hu/2024/11/16</link>
-            <guid isPermaLink="false">2024-11-16T00:00:00.000Z</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

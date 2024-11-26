@@ -15,12 +15,166 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 25 Nov 2024 19:40:15 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Nov 2024 19:20:18 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/tr.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
+        <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[tr]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-11-26]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/11/26&#39;</h2>
+<h1>2024-11-26</h1>
+<h2><a href="https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-s3-functionality-conditional-writes/">Amazon S3, Eşleşirse Koy (Karşılaştır ve Değiştir) Özelliğini Ekliyor</a></h2>
+<ul>
+<li>Amazon S3, bir nesne değiştirilmeden kaldığı sürece güncellemeleri etkinleştiren koşullu yazma işlemlerini tanıtarak, nesnenin ETag&#39;ini doğrulayarak eşzamanlı üzerine yazmaları önler.- HTTP if-none-match başlığına benzer bu özellik, istemcilerin yazmadan önce ETag tutarlılığını sağlamak için if-match başlığını kullanmasına olanak tanır ve dağıtılmış uygulamalar için verimliliği artırır.- Ekstra bir maliyet olmadan tüm AWS Bölgelerinde kullanılabilir, uygulama AWS SDK, API veya CLI kullanılarak yapılabilir ve daha fazla ayrıntı S3 Kullanıcı Kılavuzunda bulunabilir.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42240678">Tepkiler</a></h3>
+<ul>
+<li>Amazon S3, sürüm eşleşmesine dayalı koşullu nesne yazımına izin veren, karşılaştır ve değiştir işlemi gibi çalışan Put-If-Match adlı yeni bir özellik başlattı.- Bu özellik, senkronizasyon ve eşzamanlılık kontrolünü geliştirerek, geliştiricilerin S3 üzerinde ekstra altyapıya ihtiyaç duymadan veritabanları oluşturmak gibi daha karmaşık işlemler gerçekleştirmelerini sağlıyor.- Güncelleme, Amazon S3&#39;ü Google Cloud Storage ve Azure Blob Storage gibi diğer bulut depolama hizmetleri tarafından sunulan benzer özelliklerle uyumlu hale getiriyor.</li>
+</ul>
+<h2><a href="https://fasterthanli.me/articles/lies-we-tell-ourselves-to-keep-using-golang">2022&#39;de Golang kullanmaya devam etmek için kendimize söylediğimiz yalanlar</a></h2>
+<ul>
+<li>Makale, Golang&#39;ı eleştiriyor ve asenkron çalışma zamanı ve çöp toplayıcı gibi çekici özelliklere sahip olmasına rağmen, toplam türlerin yokluğu ve yetersiz hata yönetimi gibi önemli dezavantajları olduğunu belirtiyor. Go&#39;nun algılanan sadeliğinin aldatıcı olabileceğini, üretim ortamlarında gizli karmaşıklıklara ve zorluklara yol açabileceğini savunuyor ve bu sorunları tanımanın, Go&#39;yu yalnızca kullanım kolaylığı için benimsemekten daha önemli olduğunu vurguluyor. Makale, Go&#39;yu Rust ile karşılaştırarak, Rust&#39;ın zorluklarına rağmen karmaşıklığı yönetmek ve kod doğruluğunu sağlamak için daha sağlam çözümler sunduğunu öne sürüyor.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42243500">Tepkiler</a></h3>
+<ul>
+<li>Makale, Go&#39;nun hata yönetimini eleştiriyor ve bazıları tarafından daha zarif bulunan Rust&#39;ın daha sofistike yaklaşımıyla karşılaştırıyor.</li>
+<li>Fikir ayrılığı var: Bazıları Go&#39;nun sadeliğini ve açık hata yönetimini takdir ederken, diğerleri bunu sıkıcı ve hataya açık buluyor.</li>
+<li>Eleştirilere rağmen, Go, sadeliği ve büyük şirketler tarafından yaygın olarak benimsenmesi nedeniyle popülerliğini koruyor.</li>
+</ul>
+<h2><a href="https://www.wired.com/story/cybertrucks-many-recalls-make-it-worse-than-91-percent-of-all-2024-vehicles/">Cybertruck&#39;ın Birçok Geri Çağrılması</a></h2>
+<ul>
+<li>Tesla Cybertruck, piyasaya sürülmesinden bu yana birçok geri çağırma yaşadı ve en sonuncusu, 2.400&#39;den fazla birimi etkileyen hatalı sürücü invertörleri ile ilgili olup, güvenilirliği konusunda endişeleri artırdı.</li>
+<li>Kalite sorunlarına rağmen, Cybertruck&#39;ın benzersiz tasarımı alıcıları çekmeye devam ediyor, ancak Avrupa güvenlik standartlarını karşılayamaması pazar erişimini sınırlıyor.</li>
+<li>Bu geri çağırmalar, düzenleyici etkinliği gösterirken, Elon Musk&#39;ın ABD düzenlemeleri üzerindeki önemli etkisi göz önüne alındığında, Tesla&#39;nın marka itibarına zarar verebilir.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42242971">Tepkiler</a></h3>
+<h2><a href="https://techcrunch.com/2024/11/22/y-combinator-often-backs-startups-that-duplicate-other-yc-companies-data-shows-its-not-just-ai-code-editors/">Veriler, Y Combinator&#39;un sıklıkla diğer YC şirketlerini kopyalayan girişimleri desteklediğini gösteriyor.</a></h2>
+<ul>
+<li>Y Combinator (YC), önde gelen bir girişim hızlandırıcısı, Airbnb ve Stripe gibi başarılı şirketleri başlatmasıyla tanınır, ancak birçok girişimi, önceki YC şirketlerine benzer veya aynı ürünler geliştirir.</li>
+<li>PearAI tartışması, PearAI&#39;nin başka bir YC ürününü kopyalamakla suçlandığı bu eğilimi vurguladı, ancak YC CEO&#39;su Garry Tan, seçimin ve yeniliğin önemini belirterek bu uygulamayı savundu.</li>
+<li>Deckmatch&#39;in YC trendleri analizi, popüler girişim kategorilerinin AI kod editörleri, restoran PoS sistemleri ve iş finans araçlarını içerdiğini, kripto ticareti gibi bazı alanlarda ise ilginin azaldığını gösteriyor.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42243746">Tepkiler</a></h3>
+<ul>
+<li>Y Combinator, genellikle diğer YC destekli şirketleri taklit eden girişimlere yatırım yapar ve benzersiz fikirlerden ziyade kurucuların potansiyelini önceliklendirir. - Bu strateji, benzer konseptler üzerine bahisleri koruma yöntemi olarak görülür, çünkü başarı genellikle fikrin özgünlüğünden ziyade uygulama ve zamanlamaya bağlıdır. - Bazıları bunu potansiyel bir çıkar çatışması olarak görse de, aynı sektördeki birden fazla şirketi finanse etmek, pazarları doğrulamak ve başarı olasılığını artırmak için yaygın bir girişim sermayesi uygulamasıdır.</li>
+</ul>
+<h2><a href="https://status.flyio.net">Fly.io kesintisi – çözüldü</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42241851">Tepkiler</a></h3>
+<ul>
+<li>Fly.io geçici bir kesinti yaşadı ve bu sorun çözüldü, ancak geçmişteki olaylar nedeniyle platformun güvenilirliği hakkında kullanıcı endişeleri arttı.- Kullanıcılar, Fly.io&#39;yu Railway ve Cloudflare gibi alternatiflerle karşılaştırarak güvenilirlik, özellikler ve kullanıcı deneyimleri açısından farklılıkları vurguladı.- Zorluklara rağmen, bazı kullanıcılar Fly.io&#39;yu kullanım kolaylığı ve rekabetçi fiyatlandırması nedeniyle değerli bulurken, tartışmalar yüksek erişilebilirlik ve bağımlılıkların izlenmesinin önemini vurguladı.</li>
+</ul>
+<h2><a href="https://www.viksnewsletter.com/p/short-intro-to-automotive-lidar">Automotiv Lidar Teknolojisine Kısa Bir Giriş</a></h2>
+<ul>
+<li>Vik&#39;in Bülteni, otomotiv lidar teknolojisine derinlemesine bakış sunuyor; bu teknoloji, kızılötesi lazerler kullanarak yüksek çözünürlüklü görüntüler üretebilme yeteneği sayesinde otonom araçlar için hayati önem taşıyor. Bülten, lidarın çalışma prensiplerini, dalga boyu seçimlerini, fotodedektörleri ve Uçuş Süresi ile Frekans Modüleli Sürekli Dalga gibi mesafe ölçüm tekniklerini tartışıyor. Ayrıca, maliyetleri düşürmek ve otonom araçlarda daha geniş bir benimseme için teknolojiyi geliştirme amacıyla mekanik ve katı hal seçenekleri gibi çeşitli lidar sistemlerini inceliyor.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239721">Tepkiler</a></h3>
+<ul>
+<li>Otomotiv lidar teknolojisi gelişiyor, Velodyne gibi döner tarayıcılar yüksek maliyetlerine rağmen kullanılırken, flash lidar ve MEMS aynalar gibi alternatifler pazar ve teknik zorluklarla karşı karşıya kalıyor.</li>
+<li>Waymo&#39;nun, savunmasız araç köşelerinde bile döner lidarları kullanmaya devam etmesi, daha uygun maliyetli ve entegre çözümlere olan ihtiyacı vurguluyor, çünkü darbeli lidar, sürekli sistemlere kıyasla daha az parazit sunuyor.</li>
+<li>Lidar, yüksek çözünürlüklü görüntüleme sağlar ve düşük ışık koşullarında iyi performans gösterir, ancak bazı şirketlerin, örneğin Tesla&#39;nın, maliyet nedenleriyle tercih ettiği kamera tabanlı sistemlerden rekabetle karşı karşıyadır ve bu durum, otonom sürüş için en iyi yaklaşım konusunda devam eden tartışmaları körüklemektedir.</li>
+</ul>
+<h2><a href="https://papersplease.org/wp/2024/11/25/do-you-need-id-to-read-the-real-id-rules/">REAL-ID kurallarını okumak için kimliğe ihtiyacınız var mı?</a></h2>
+<ul>
+<li>TSA&#39;nın yeni dijital kimlik kurallarına erişim girişimi, kuralların kamuya açık olmaması ve erişim için kimlik gerektirmesi nedeniyle, gizli yasalar ve adil yargılanma süreci hakkında endişeler uyandırarak, REAL-ID Yasası ile ilgili sorunları ortaya çıkardı.</li>
+<li>TSA&#39;nın dijital kimlik standartları, özel belgelerden türetilmiş olup, uygulamalar, cihazlar ve devlet kurumları arasında karmaşık etkileşimleri içerir ve kaydedilen kimlik kullanımıyla ilgili gizlilik endişeleri bulunmaktadır.</li>
+<li>Yazar, TSA&#39;nın uygulamalarının kamu erişim haklarını ihlal ettiğini savunuyor ve kuralın geri çekilmesi için Federal Kayıt Ofisi&#39;ne konuyu bildirdiğini belirtiyor.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239952">Tepkiler</a></h3>
+<ul>
+<li>Bu tartışma, REAL-ID kurallarına erişim için kimlik bulundurmanın gerekliliği etrafında dönüyor ve bazı kullanıcılar TSA&#39;nın güvenlik önlemlerinin etkinliğini sorguluyor.- Mobil sürücü belgeleri (mDL&#39;ler) ve bunların ortaya çıkarabileceği gizlilik sorunları hakkında endişeler dile getiriliyor.- Kullanıcılar, TSA&#39;nın etkinliği ve güvenlik tiyatrosu kavramı hakkında şüphelerini ifade ederken, REAL-ID ve mDL&#39;ler gibi dijital kimliklerin uzun vadeli etkilerini de sorguluyorlar.</li>
+</ul>
+<h2><a href="https://medium.com/@drspoulsen/a-solution-to-the-onion-problem-of-j-kenji-l%C3%B3pez-alt-c3c4ab22e67c">J. Kenji Lopez-Alt&#39;ın (2021) Soğan Problemi için bir çözüm</a></h2>
+<ul>
+<li>Yazı, soğan dilimlerinin hacimlerinde minimal varyansı sağlamak için soğanları kesmeyi içeren &quot;Soğan Problemi&quot;ni ele alıyor.- Kalkülüs kullanılarak yapılan matematiksel bir keşif, optimal kesme noktasının soğanın merkezinin %55.73066 altında olduğunu belirledi ve bu, &quot;gerçek soğan sabiti&quot; olarak adlandırıldı.- Bu bulgu, daha önce önerilen merkezin %60 altına doğru kesme önerisini rafine ederek, daha eşit soğan dilimleri için daha kesin bir yöntem sunuyor.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42244814">Tepkiler</a></h3>
+<ul>
+<li>Bu tartışma, J. Kenji Lopez-Alt&#39;tan esinlenerek, soğanları eşit şekilde kesmek için bir matematiksel modeli inceliyor. Model, geometriyi basitleştirmek ve dilim boyutu varyansını en aza indirmek için yarım disk temsili kullanıyor. Kullanıcılar, soğanın 3D yapısı ve düzensiz katmanlarını göz önünde bulundurarak modelin pratikliği ve doğruluğunu tartışıyor ve alternatif kesme yöntemleri veya araçlar öneriyor. Konuşma ayrıca, Adam Ragusea gibi yemek kişiliklerine atıfta bulunarak, tekdüzelik ve mutfak tercihleri arasındaki dengeyi de ele alıyor.</li>
+</ul>
+<h2><a href="https://twitter.com/TomHacohen/status/1861137484249252093">Redis, tüm OSS Redis kütüphanelerini ele geçirmeye çalışıyor.</a></h2>
+<ul>
+<li>Redis&#39;in, Jedis, Lettuce ve redis-py gibi popüler olanlar da dahil olmak üzere tüm açık kaynaklı yazılım (OSS) Redis kütüphanelerinin kontrolünü ele geçirdiği bildiriliyor.</li>
+<li>Bu kütüphaneler şu anda kapalı ve başka bir kütüphane olan redis-rs de potansiyel kontrol veya kapatma ile karşı karşıya.</li>
+<li>Bu durum, uygulamalarında Redis entegrasyonu için bu kütüphanelere güvenen geliştiricileri etkilediği için önemlidir.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239607">Tepkiler</a></h3>
+<ul>
+<li>Redis Inc., açık kaynaklı Redis kütüphanelerinin kontrolünü ele alıyor, bu da tartışmalara yol açıyor ve bazı geliştiricilerin ticari marka uygulama sorunları nedeniyle Redis bağımlılıklarını kaldırmasına neden oluyor.</li>
+<li>redis-py, Lettuce ve Jedis gibi kütüphaneler, Valkey gibi rakiplere karşı savunma stratejisi olarak Redis Inc.&#39;in resmi organizasyonu altına taşındı.</li>
+<li>Topluluk, ticari marka iddiaları ve potansiyel satıcı kilitlenmesi konusunda endişeli, bu da Valkey ve Kvrocks gibi alternatifler üzerine tartışmalara yol açıyor ve açık kaynak projelerinde ticari marka uygulama zorluklarını vurguluyor.</li>
+</ul>
+<h2><a href="http://jpkoning.blogspot.com/2024/11/setelinleikkaus-when-finns-snipped.html">Setelinleikkaus: Finliler enflasyonu dizginlemek için paralarını ikiye böldüklerinde</a></h2>
+<ul>
+<li>1945 yılında Finlandiya, II. Dünya Savaşı sonrası enflasyonla mücadele etmek için vatandaşların büyük banknotları yarıya kesmelerini gerektiren &quot;setelinleikkaus&quot; adlı bir politika uyguladı; banknotun bir yarısı değerini korurken, diğer yarısı devlet tahvili haline geliyordu. Bu politika, Belçika gibi diğer Avrupa ülkelerindeki daha başarılı reformların aksine, para arzının küçük bir kısmını oluşturan fiziksel nakdi hedef aldığı için etkisizdi. Makale, gelecekte enflasyon kontrolünün daha hassas ancak potansiyel olarak tartışmalı bir yöntem olan dijital hesap dondurmalarını içerebileceğini öne sürüyor.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42243755">Tepkiler</a></h3>
+<ul>
+<li>1945&#39;te Finlandiya, enflasyonu modern yöntemler olan faiz oranlarını ayarlamak yerine, banknotları fiziksel olarak ikiye keserek benzersiz bir şekilde ele aldı.</li>
+<li>Bu tarihsel yaklaşım, merkez bankalarının faiz oranları ve açık piyasa işlemleri yoluyla enflasyonu yönettiği mevcut para politikası üzerine tartışmaları ateşledi.</li>
+<li>Merkezi banka dijital para birimleri aracılığıyla dijital paranın gelecekteki potansiyel kontrolü, kişisel finanslar üzerinde artan hükümet denetimi hakkında endişeler uyandırıyor.</li>
+</ul>
+<h2><a href="https://www.metmuseum.org/perspectives/peter-hristoff-islamic-prayer-rugs">Namaz, Yerleştirme ve Bağışlanma: Peter Hristoff&#39;un İslami Namaz Halıları Üzerine (2015)</a></h2>
+<ul>
+<li>Peter Hristoff&#39;un sanatı, özellikle 1997&#39;den itibaren dua halıları aracılığıyla sanat ve maneviyatın kesişimine dalıyor. Çizimler ve serigrafi baskılar da dahil olmak üzere eserleri, Türk halıları ve kilimlerinden ilham alarak pirinç kağıdı üzerine daha büyük &quot;halı&quot; parçalarına dönüşüyor ve bunları sembolik anlamlarla kişisel günlükler olarak görüyor. Hristoff&#39;un çalışmaları, Patrik Bartholomeos&#39;un yazılarından etkilenen ve insan doğasının manevi ve fiziksel yönlerini keşfetmeye devam eden, neşe ve kederin bir karışımı olan &quot;parlak hüzün&quot;ü somutlaştırıyor.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239487">Tepkiler</a></h3>
+<ul>
+<li>Peter Hristoff&#39;un makalesi, İslami namaz halılarının önemini araştırıyor ve Tanrı&#39;nın sonsuzluğunu simgeleyen mozaik desenler gibi karmaşık tasarımlarını vurguluyor. Makale, İslam&#39;da temsilî sanat yasağını ele alarak, İslami eserlerde hat sanatı ve geometrik desenlerin kullanımına yol açtığını tartışıyor. Namaz halılarının tarihî ve kültürel bağlamını vurguluyor, Hristiyanlık da dahil olmak üzere çeşitli dini geleneklerdeki kullanımını ve pratik ile manevi rollerini belirtiyor.</li>
+</ul>
+<h2><a href="https://deno.com/blog/deno-v-oracle">Metin: Deno vs. Oracle: JavaScript Ticari Markasının İptali</a></h2>
+<ul>
+<li>Deno, &quot;JavaScript&quot; üzerindeki Oracle ticari markasını iptal ettirmek amacıyla Amerika Birleşik Devletleri Patent ve Ticari Marka Ofisi&#39;ne (USPTO) bir dilekçe verdi ve bu terimi kamu malı haline getirerek kullanımındaki yasal engelleri kaldırmayı hedefliyor.</li>
+<li>Başvuru, &quot;JavaScript&quot;in genel bir terim olduğunu, Oracle&#39;ın ticari markayı yenilerken sahtekarlık yaptığını ve Oracle&#39;ın ticari markayı kullanmama yoluyla terk ettiğini savunuyor.</li>
+<li>14.000&#39;den fazla geliştirici Deno&#39;nun hamlesini destekliyor ve Oracle&#39;ın yanıt vermesi için 4 Ocak 2025&#39;e kadar süresi var, Deno ise tüm süreçleri toplulukla paylaşmaya hazır.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239263">Tepkiler</a></h3>
+<ul>
+<li>Deno, Oracle&#39;ın JavaScript üzerindeki ticari markasını iptal ettirmek için Amerika Birleşik Devletleri Patent ve Ticari Marka Ofisi&#39;ne (USPTO) bir dilekçe verdi ve bu durum ticari marka etiği ve topluluk yararları üzerine bir tartışma başlattı.</li>
+<li>Deno&#39;nun Node Package Manager (NPM) ile uyumluluğu ve bunun daha geniş JavaScript ekosistemi üzerindeki etkisi hakkındaki tartışma, JavaScript&#39;in geleceği ve çalışma zamanı ortamları konusundaki farklı görüşleri yansıtıyor.</li>
+<li>Fikirler bölünmüş durumda, bazıları Oracle&#39;ın ticari marka kullanımını etik dışı olarak görürken, diğerleri Deno&#39;nun niyetlerini sorguluyor ve bunun bir halkla ilişkiler stratejisi olabileceğini öne sürüyor.</li>
+</ul>
+<h2><a href="https://github.com/captn3m0/jekyll-sqlite">Jekyll için SQLite Eklentisi</a></h2>
+<ul>
+<li>Yazar, popüler bir statik site oluşturucu olan Jekyll içinde veri işleme yeteneklerini geliştirmek için bir Jekyll SQLite eklentisi geliştirmiştir.</li>
+<li>Bu eklenti, kullanıcıların karmaşık veri işlemlerini yönetmede Liquid, Jekyll&#39;in şablon dili, sınırlamalarını ele alarak veri düzenleme için SQL sorguları gerçekleştirmesine olanak tanır.</li>
+<li>Plugin, bir yıldır üretimde başarıyla kullanılmış, Northwind veri kümesi ile gösterilmiştir ve yazar, geri bildirim ve iyileştirme önerileri beklemektedir.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42244987">Tepkiler</a></h3>
+<ul>
+<li>Bir Jekyll SQLite eklentisi, Jekyll&#39;de veri kaynağı olarak SQLite kullanımını mümkün kılarak SQL ile veri işleme yeteneklerini artırır.- Jekyll&#39;in Veri Dosyaları ve Veri Sayfaları oluşturucu özelliklerini entegre eder, geleneksel CSV/JSON/YAML formatlarının ötesinde karmaşık veri işlemesine olanak tanır.- Eklenti bir yıldır üretimde olup, statik site oluşturmayı daha dinamik ve esnek hale getirdiği için olumlu geri bildirimler almıştır.</li>
+</ul>
+<h2><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6290285/">Saçın Erken Beyazlaması: Güncellemelerle Birlikte İnceleme</a></h2>
+<ul>
+<li>Saçların erken beyazlaması (PGH), Kafkasyalılarda 20 yaşından önce ve Afrikalı Amerikalılarda 30 yaşından önce beyazlama olarak tanımlanır ve özsaygıyı etkiler. PGH&#39;nin nedenleri tam olarak anlaşılamamıştır ancak yaşlanma bozuklukları, otoimmün hastalıklar ve oksidatif stres ile ilişkilidir; sigara içme ve beslenme eksiklikleri gibi faktörler katkıda bulunur. PGH için yaygın tedaviler arasında saç boyaları ve besin takviyeleri bulunur; çalışmalar PGH ile duygusal faktörler, genetik yatkınlıklar ve çevresel etkiler arasında bağlantılar olduğunu göstermektedir.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42241702">Tepkiler</a></h3>
+<ul>
+<li>Saçların erken beyazlaması, özellikle vücudun B12&#39;yi düzgün bir şekilde ememediği bir durum olan pernisiyöz anemisi olan bireylerde, B12 vitamini eksikliği ile ilişkilidir. B12 eksikliğini teşhis etmek zor olabilir çünkü takviye almak B12 seviyelerini yapay olarak artırabilir ve bazı bireyler B12&#39;nin belirli formlarını aktif formlara dönüştüremez, bu da &quot;paradoksal B12 eksikliği&quot;ne yol açar. Stres, genetik ve otoimmün tiroidizm gibi sağlık durumları da beyazlamaya katkıda bulunur ve bazı takviyeler yardımcı olabilirken, beyaz saçları tersine çevirmenin kanıtlanmış bir yöntemi yoktur.</li>
+</ul>
+<h2><a href="https://blog.thalium.re/posts/llvm-powered-devirtualization/">LLVM destekli sanallaştırma kaldırma</a></h2>
+<ul>
+<li>Thalium&#39;daki staj, özellikle kötü amaçlı yazılımlar bağlamında kodu daha anlaşılır hale getirmek için bir derleyici çerçevesi olan LLVM kullanarak sanallaştırılmış ikili dosyaların gizliliğini kaldırmaya odaklandı. - Tigress ve VMProtect gibi araçlar tarafından kullanılan güçlü bir gizleme tekniği olan sanallaştırma, programları sanal talimatlara kodlayarak tersine mühendisliği karmaşık hale getirir. - Proje, dinamik leke analizi kullanarak Tigress ile gizlenmiş ikili dosyaların kontrol akış grafiğini yeniden yapılandırmada başarılı oldu, ancak bu yalnızca saf fonksiyonlar ve tek yürütme yolları ile sınırlıydı.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42245170">Tepkiler</a></h3>
+<ul>
+<li>LLVM destekli sanallaştırma, sanal işlev çağrılarını optimize ederek performansı artırır, çünkü bu çağrılar genellikle dinamik yapıları nedeniyle daha yavaştır.</li>
+<li>Bochs, bir CPU emülatörü, sanal makine dedektörlerini bile atlayarak bir i7 üzerinde bir Pentium 4 işlemciyi verimli bir şekilde emüle edebilir.</li>
+<li>Bochs hata ayıklayıcı, kötü amaçlı yazılımları ve kod karıştırıcıları analiz etmede ve bunlara karşı koymada özellikle etkilidir, bu da onu güvenlik araştırmaları için değerli bir araç haline getirir.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Amazon S3, Eşleşirse Koy (Karşılaştır ve Değiştir) Özelliğini Ekliyor" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Amazon%20S3%2C%20E%C5%9Fle%C5%9Firse%20Koy%20(Kar%C5%9F%C4%B1la%C5%9Ft%C4%B1r%20ve%20De%C4%9Fi%C5%9Ftir)%20%C3%96zelli%C4%9Fini%20Ekliyor&subheading=26%20Kas%C4%B1m%202024%20Sal%C4%B1%3A%20Hacker%20Haber%20%C3%96zeti" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/tr/2024/11/26</link>
+            <guid isPermaLink="false">2024-11-26T00:00:00.000Z</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-11-25]]></title>
             <description
@@ -1216,187 +1370,6 @@
             <link>https://hn.cho.sh/tr/2024/11/17</link>
             <guid isPermaLink="false">2024-11-17T00:00:00.000Z</guid>
             <pubDate>Sun, 17 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-11-16]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/11/16&#39;</h2>
-<h1>2024-11-16</h1>
-<h2><a href="https://www.half-life.com/en/halflife2/20th">Half-Life 2: 20. Yıl Dönümü Güncellemesi</a></h2>
-<ul>
-<li>Valve, Half-Life 2&#39;nin 20. Yıldönümü Güncellemesini Steam&#39;de yayınladı ve bu güncelleme yeni içerikler ve iyileştirmeler içeriyor.- Güncelleme, geliştirici yorumları, Steam Workshop desteği, geliştirilmiş grafikler ve hata düzeltmelerinin yanı sıra yeni gamepad ve giriş ayarlarını da içeriyor.- Ayrıca Episode One ve Two genişlemelerini de bünyesinde barındırıyor ve duvar kağıtları ve ses parçaları gibi ek içerikler indirilebilir olarak sunuluyor.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42151865">Tepkiler</a></h3>
-<ul>
-<li>Half-Life 2&#39;nin 20. Yıldönümü Güncellemesi şimdi mevcut, oyunu ve devam bölümlerini 18&#39;ine kadar Steam&#39;de ücretsiz olarak sunuyor, hata düzeltmeleri ve iyileştirmeler içeriyor.</li>
-<li>Bu güncelleme, oyunun mirası, bir Half-Life 3 olasılığı ve Valve&#39;ın geliştirme felsefesi hakkında tartışmaları yeniden alevlendirdi.</li>
-<li>Hayranlar, Paskalya yumurtalarını keşfetmek için yıl dönümü sayfasını incelemeye teşvik ediliyor ve güncelleme, detaylara gösterilen özen ve klasik bir oyunu yeniden ziyaret etme fırsatı nedeniyle beğeni topladı.</li>
-</ul>
-<h2><a href="https://anderegg.ca/2024/11/15/maybe-bluesky-has-won">Belki Bluesky &#39;kazandı&#39;</a></h2>
-<ul>
-<li>Bluesky, X&#39;e alternatif olarak ilgi kazanıyor, ancak henüz tamamen merkeziyetsiz veya federatif değil ve kendi sunucularına dayanıyor.- Platform, Kişisel Veri Sunucuları, Aktarıcılar ve Uygulama Görünümleri içeren AT Protokolünü kullanıyor, bu da kullanıcıların kendi verilerini barındırmasına olanak tanıyor, ancak bu teknik bilgi gerektiriyor ve maliyetli olabilir.- Bluesky ücretsiz olup, alan adı tabanlı kullanıcı adları ve özelleştirilebilir moderasyon gibi özellikler sunarken, finansal modeli alan adı satışlarına dayanıyor ve bu da uzun vadeli sürdürülebilirliği hakkında sorular doğuruyor.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42150278">Tepkiler</a></h3>
-<ul>
-<li>Bluesky, bölücü siyasi içeriği azaltan bir filtreleme sistemi sunarak Mastodon&#39;a daha hoş bir alternatif olarak dikkat çekiyor.</li>
-<li>Kullanıcılar, Bluesky&#39;nin sadeliğini ve içerik görünürlüğü üzerindeki kontrolünü takdir ediyor, bu da erken dönem Twitter ile karşılaştırmalara yol açıyor, ancak açıklığı ve veri kullanımı konusundaki endişeler devam ediyor.</li>
-<li>Platform, kullanıcıların giderek daha fazla siyasi yüklü olarak algılanan Twitter&#39;dan geçiş yapmasıyla büyüme yaşıyor, bu da Bluesky&#39;nin önemli bir sosyal medya oyuncusu olma potansiyelini gösteriyor.</li>
-</ul>
-<h2><a href="https://www.roadandtrack.com/news/a62919131/tesla-has-highest-fatal-accident-rate-of-all-auto-brands-study/">Bir araştırma, Tesla&#39;nın tüm otomobil markaları arasında en yüksek ölümcül kaza oranına sahip olduğunu buldu.</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42150443">Tepkiler</a></h3>
-<ul>
-<li>Bir çalışma, Tesla&#39;nın gelişmiş güvenlik özelliklerine rağmen otomobil markaları arasında en yüksek ölümcül kaza oranına sahip olduğunu gösteriyor.</li>
-<li>Çalışma, sürücü davranışları ve koşullarının yüksek kaza oranına önemli ölçüde katkıda bulunduğunu öne sürerek, siyaset, medya etkisi ve otomobil tasarımı üzerine tartışmaları ateşliyor.</li>
-<li>Çalışmanın metodolojisi ve sürücü demografisi üzerindeki etkisi, dokunmatik ekranlar ve araç ağırlığı gibi araba özellikleri, inceleme ve tartışma konularıdır.</li>
-</ul>
-<h2><a href="https://www.sportingnews.com/us/boxing/news/netflix-buffering-livestream-issues-boxing-jake-paul-mike-tyson/327ee972d4b14d90cc370461">Netflix arabelleğe alma sorunları: Boks hayranları Jake Paul vs. Mike Tyson hakkında şikayet ediyor</a></h2>
-<ul>
-<li>Jake Paul ve Mike Tyson dövüşü sırasında boks hayranları, Netflix&#39;te tamponlama sorunlarıyla karşılaştı ve bu da gecikmelere, kesik analizlere ve siyah ekranlara yol açtı.</li>
-<li>Yayın sorunları, özellikle Noel Günü için planlanan NFL maçlarıyla birlikte, Netflix&#39;in canlı spor etkinliklerini yönetme yeteneği hakkında endişeleri artırdı.</li>
-<li>Bazı izleyiciler, 6.4 milyon izleyiciyle büyük ilgi gören Antonio Brown&#39;un X&#39;teki canlı yayınına yöneldi.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42153953">Tepkiler</a></h3>
-<ul>
-<li>Netflix, Jake Paul ve Mike Tyson dövüşü sırasında büyük tamponlama sorunları yaşadı ve bu durum canlı yayın kalitesi hakkında birçok şikayete yol açtı.</li>
-<li>Eleştirmenler, Netflix&#39;in öncelikle önceden kaydedilmiş içerik için tasarlanmış altyapısının, YouTube ve Amazon gibi platformların aksine, canlı yayın için uygun olmayabileceğine dikkat çekiyor.</li>
-<li>Bu olay, özellikle gelecekteki NFL oyunları gibi etkinliklerle birlikte, Netflix&#39;in canlı spor yayıncılığı pazarındaki zorluklarını vurguluyor.</li>
-</ul>
-<h2><a href="https://llamaocr.com/">Llama-OCR: Belgeden Markdown&#39;a</a></h2>
-<ul>
-<li>Bu gönderi, optik karakter tanıma araçları olan llama-ocr ve Together AI OCR kullanarak görüntüleri markdown formatına dönüştürme yöntemini tanıtmaktadır.</li>
-<li>Kullanıcılar, görüntülerden metin çıkarma ve biçimlendirmeyi kolaylaştıran yapılandırılmış markdown almak için bir görüntü yükleyebilirler.</li>
-<li>JavaScript&#39;te örnek kod sağlanmıştır, bir görüntü dosyasını işlemek ve markdown çıktısı elde etmek için llama-ocr kütüphanesinin nasıl kullanılacağını göstermektedir.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42154410">Tepkiler</a></h3>
-<ul>
-<li>Llama-OCR, belgeleri Llama 3.2 görselini kullanarak Markdown formatına dönüştüren ve bir npm paketi olarak mevcut olan bir araçtır.</li>
-<li>PDF ayrıştırma ve JSON çıktısı gibi özellikleri içerecek gelecekteki güncellemeler planlanıyor, ancak mevcut kullanıcılar görüntü işleme ve çıktı tutarlılığı konusunda karışık deneyimler bildiriyor.</li>
-<li>Bu araç together.ai üzerinde barındırılmakta olup, performansı ve olası iyileştirmeleri hakkında devam eden tartışmalar bulunmaktadır. Daha iyi doğruluk için yerel modellerin veya alternatif OCR araçlarının kullanılması önerileri de dahil edilmiştir.</li>
-</ul>
-<h2><a href="https://bsky.bad-example.com/consuming-the-firehose-cheaply/">Bluesky veri akışını ayda 2,50 dolardan daha az bir maliyetle tüketmek</a></h2>
-<ul>
-<li>Bluesky&#39;nin 15 milyon kullanıcıdan oluşan kamuya açık verileri, Jetstream adlı bir websocket JSON akışı aracılığıyla gerçek zamanlı ağ izlemeyi mümkün kılarak kullanılabilir.</li>
-<li>Jetstream akışından silme olaylarını dinlemek için basit bir uygulama geliştirildi ve anonimleştirilmiş silinmiş metni anlık olarak görüntüledi.</li>
-<li>Uygulama, Fly&#39;ın en küçük örneğinde aylık 2,24 dolara çalışarak etkin bir şekilde gönderi olaylarını yönetir, içerik filtreleme, metin önbellekleme ve silinen gönderilerin yayınlanmasını sağlar, ancak daha karmaşık uygulamalar ölçeklenebilirlik sorunlarıyla karşılaşabilir.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42152362">Tepkiler</a></h3>
-<ul>
-<li>Bluesky, kullanıcı ilgisini çeken &quot;firehose&quot; olarak bilinen veri akışına aylık 2,50 doların altında bir maliyetle erişim sağlayan uygun maliyetli bir yol sunuyor.</li>
-<li>Platform, bir web sitesini kullanıcı adı olarak kullanma ve iOS&#39;ta kolay görüntü paylaşımı gibi özellikleriyle dikkat çekiyor ve erken dönem Twitter ile karşılaştırmalar yapılıyor.</li>
-<li>Bluesky&#39;nin merkezi olmayan yapısı ve topluluk odaklı geliştirmesi, açık veri erişimine odaklandığını vurgularken, Twitter&#39;ın mevcut kısıtlamalarıyla tezat oluşturuyor.</li>
-</ul>
-<h2><a href="https://lists.freebsd.org/archives/freebsd-hackers/2024-November/004068.html">İlk İzlenimler: Qualcomm Snapdragon ARM64 CPU&#39;lu Lenovo T14s</a></h2>
-<ul>
-<li>Qualcomm Snapdragon ARM64 CPU&#39;ya sahip Lenovo T14s değerlendiriliyor ve bu, geleneksel X86 mimarisinden algılanan verimsizlikler nedeniyle bir değişimi vurguluyor.</li>
-<li>FreeBSD-current üzerinde ilk kurulum, ekran ve NVME gibi bazı donanım bileşenlerinin çalıştığı, ancak klavye ve USB-C portları gibi diğerlerinin çalışmadığı ARM64&#39;e özgü yamalar gerektiriyordu.</li>
-<li>Performans testi, cihazın 12 gerçek CPU&#39;suna atfedilen 24 Wh enerji kullanarak dünyayı 3210 saniyede inşa ettiğini gösterdi ve bu da olumlu bir tavsiyeye yol açtı.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42150933">Tepkiler</a></h3>
-<ul>
-<li>Qualcomm Snapdragon ARM64 CPU&#39;ya sahip Lenovo T14s, kullanıcıların klavye, fare ve USB-C portları gibi işlevsel olmayan sorunları belirttiği karışık yorumlar alıyor.</li>
-<li>Karşılaştırmalar, benzer sınırlamalar ve ARM Linux masaüstleriyle uyumluluk sorunlarını vurgulayarak Linux telefonlarına yapılmaktadır.</li>
-<li>Mevcut sorunlara rağmen, Lenovo dizüstü bilgisayarlarda ARM mimarisi için gelecekteki iyileştirmeler ve daha iyi sürücü desteği konusunda iyimserlik var.</li>
-</ul>
-<h2><a href="https://yggdrasil-network.github.io/">Yggdrasil Ağı</a></h2>
-<ul>
-<li>Yggdrasil, özellikle büyük ölçekli mesh ağlar için mevcut İnternet yönlendirme protokollerine merkezi olmayan ve geleceğe yönelik bir alternatif sağlamayı amaçlayan deneysel bir yönlendirme şemasıdır. Ölçeklenebilirlik, kendi kendini iyileştirme, şifreleme ve çapraz platform desteği gibi özellikler sunar ve Linux, macOS, Windows, iOS ve Android dahil olmak üzere çeşitli işletim sistemlerinde çalışır. Alpha aşamasında olmasına rağmen, Yggdrasil günlük kullanım için kararlıdır, uçtan uca şifreli IPv6 yönlendirme sunar ve hem IPv4 hem de IPv6 ağları üzerinden yapılandırılabilir.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42155780">Tepkiler</a></h3>
-<ul>
-<li>Yggdrasil Ağı, cjdns&#39;ten esinlenerek ancak katı bir hiyerarşi olmadan, merkeziyetsizlik ve ölçeklenebilirliğe odaklanan deneysel bir yönlendirme protokolüdür.</li>
-<li>Yggdrasil, belirli bir protokol spesifikasyonundan yoksun olmasına rağmen, 0.4 ve 0.5 sürümlerinde önemli güncellemelerle gelişerek ağ gecikmesini iyileştirmiştir.</li>
-<li>Protokol, adres çakışmalarına yol açabilecek ve öncelikli olarak anonimlik için tasarlanmamış olan, genel anahtarlardan türetilen IPv6 adreslerini kullanır.</li>
-</ul>
-<h2><a href="https://github.com/hengyoush/kyanos">Kyanos: eBPF tabanlı ağ sorunları analiz aracı</a></h2>
-<ul>
-<li>Kyanos, HTTP, Redis ve MySQL gibi çeşitli ağ isteklerini yakalayabilen ve analiz edebilen, ağ analizi için tasarlanmış eBPF tabanlı bir araçtır.</li>
-<li>IP, port, süreç, konteyner ve protokol bazında gelişmiş trafik filtreleme seçeneklerinin yanı sıra, çekirdek seviyesinde gecikme içgörüleri ve otomatik SSL trafik şifre çözme özelliklerine sahiptir.</li>
-<li>Bu araç hafif, minimum bağımlılık gerektirir ve 3.10 ve 4.14 veya daha yüksek Linux çekirdek sürümleriyle uyumludur, bu da onu geniş bir kullanıcı kitlesi için erişilebilir kılar.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42154583">Tepkiler</a></h3>
-<ul>
-<li>Kyanos, sorun giderme ve performans optimizasyonu için gerçek zamanlı içgörüler sunan, eBPF (genişletilmiş Berkeley Paket Filtresi) tabanlı bir ağ analizi aracıdır.</li>
-<li>Şu anda bazı kullanıcıların bir sınırlama olarak gördüğü belirli protokolleri, HTTP, MySQL ve Redis&#39;i desteklemektedir.</li>
-<li>RDMA (Uzak Doğrudan Bellek Erişimi) ve OFED (OpenFabrics Enterprise Dağıtımı) gibi teknolojilerin yüksek performanslı bilişimdeki önemine vurgu yapan tartışmalar, eBPF hakkında daha fazla bilgi edinmek için bir kitaptan bahsediyor.</li>
-</ul>
-<h2><a href="https://twitter.com/DSCCRoss/status/1857208745014776215">M4 MacBook Pro&#39;lar, kırmızı KSF fosfor film yerine kuantum nokta (QD) filmi kullanır.</a></h2>
-<ul>
-<li>Apple&#39;ın yeni MacBook Pro (M4) modeli, daha önce kullanılan kırmızı KSF fosfor film yerine kuantum nokta (QD) film kullanımını tanıtıyor.</li>
-<li>QD filme geçiş, Apple&#39;ın daha önce verimliliği ve kadmiyum içermeyen özellikleri nedeniyle KSF&#39;yi tercih etmesi nedeniyle önemli bir değişikliği işaret ediyor.</li>
-<li>Bu güncelleme, Apple&#39;ın cihazlarındaki ekran teknolojisini geliştirme konusundaki devam eden çabalarını vurgulamaktadır.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42152928">Tepkiler</a></h3>
-<ul>
-<li>Yeni M4 MacBook Pro&#39;lar, resmi bir Apple duyurusu yerine spektrum analizi yoluyla tespit edildiği üzere, kırmızı KSF fosfor filminden kuantum nokta filmine geçiş yaptı.</li>
-<li>Quantum noktaların, MacBook ekranları için yanıt süreleri hala bir endişe kaynağı olsa da, ekranların renk gamını ve hareket performansını artırması bekleniyor.</li>
-<li>Apple, belirli ürün gereksinimlerini karşılamak için araştırma ve geliştirme amacıyla Samsung, LG ve BOE gibi ekran üreticileriyle iş birliği yapmaktadır.</li>
-</ul>
-<h2><a href="https://www.zach.be/p/yc-is-wrong-about-llms-for-chip-design">YC, çip tasarımı için LLM&#39;ler konusunda yanılıyor</a></h2>
-<ul>
-<li>YC&#39;nin çip tasarımı için Büyük Dil Modellerini (LLM&#39;ler) kullanma önerisi, yenilikçi çip mimarileri oluşturma konusunda insan mühendislerin uzmanlığına eşdeğer olmaması nedeniyle eleştiriliyor.</li>
-<li>LLM&#39;ler tasarım maliyetlerini düşürebilirken, geçmişteki yüksek seviyeli sentez (HLS) gibi girişimlere benzer şekilde, yüksek değerli pazarlarda çip tasarımını devrim niteliğinde değiştirmeleri olası değildir.</li>
-<li>LLM&#39;ler, bu alandaki yetenek eksikliğini potansiyel olarak ele alarak doğrulama süreçlerinde faydalı olabilir, ancak üstün çipler üretmeleri veya yeni pazarlar açmaları beklenmemektedir.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42156516">Tepkiler</a></h3>
-<ul>
-<li>Metin, çip tasarımında Büyük Dil Modellerinin (LLM&#39;ler) etkinliği konusundaki şüpheciliği vurguluyor ve blockchain gibi geçmişteki teknoloji abartı döngüleriyle karşılaştırmalar yapıyor.- Eleştirmenler, LLM&#39;lerin abartıldığını ve mevcut AI yeteneklerinin ötesinde derin uzmanlık gerektiren karmaşık çip tasarım görevleri için henüz güvenilir olmadığını savunuyor.- Gelecekteki gelişmelerin, sınırlı eğitim verisine sahip uzmanlaşmış alanlarda LLM&#39;lerin sınırlamalarını aşıp aşamayacağı konusunda belirsizlik var.</li>
-</ul>
-<h2><a href="https://arstechnica.com/tech-policy/2024/11/ftc-to-launch-investigation-into-microsofts-cloud-business/">FTC, Microsoft&#39;un bulut işine yönelik soruşturma başlatacak</a></h2>
-<ul>
-<li>FTC, özellikle Azure&#39;un lisanslama koşullarıyla ilgili olarak, Microsoft&#39;un bulut işini potansiyel rekabete aykırı uygulamalar için araştırıyor.</li>
-<li>İddialar, artan ücretler ve Office 365&#39;in rakip bulut platformlarıyla uyumsuzluğunu, müşterilerin geçiş yapmasını zorlaştırdığını içeriyor.</li>
-<li>Bu soruşturma, bulut pazarı genişlemeye devam ederken, FTC tarafından yürütülen daha geniş bir düzenleyici çabanın parçasıdır ve benzer incelemeler İngiltere ve AB düzenleyicileri tarafından da yapılmaktadır.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42152068">Tepkiler</a></h3>
-<ul>
-<li>FTC, Microsoft&#39;un bulut işini potansiyel rekabete aykırı uygulamalar için araştırıyor; bu uygulamalar arasında sağlayıcı değiştiren müşteriler için ücretleri artırmak ve Office 365&#39;i rakip bulut hizmetleriyle uyumsuz hale getirmek yer alıyor.</li>
-<li>Bu soruşturma, büyük teknoloji şirketlerinin piyasa gücü ve iş uygulamaları hakkındaki devam eden endişeleri yansıtan daha geniş bir incelemenin parçasıdır.</li>
-<li>FTC&#39;nin motivasyonları konusunda bir tartışma var, görüşler bu eylemlerin teknoloji devlerinin gerekli bir düzenlemesi mi yoksa siyasi güdümlü mü olduğu konusunda bölünmüş durumda.</li>
-</ul>
-<h2><a href="https://arstechnica.com/gadgets/2024/11/i-too-installed-an-open-source-garage-door-opener-and-am-loving-it/">Bir açık kaynaklı garaj kapısı açıcı kurdum ve bayıldım.</a></h2>
-<ul>
-<li>OpenGarage, ev otomasyonu için gelişmiş kontrol ve özelleştirme sunan, Home Assistant ile sorunsuz bir şekilde entegre olan açık kaynaklı bir garaj kapısı açıcıdır.</li>
-<li>Kurulumu kolaylaştıran, web tarayıcısı veya mobil uygulama aracılığıyla kontrol edilebilen ultrasonik sensörlü küçük bir ESP kartından oluşur.</li>
-<li>OpenGarage, garaj kapısı açıldığında ışıkları açmak gibi görevlerin otomasyonuna olanak tanır ve bu da onu DIY ev otomasyonu meraklıları için çok yönlü ve çekici kılar.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42150376">Tepkiler</a></h3>
-<ul>
-<li>Yazı, açık kaynaklı garaj kapısı açıcılarının kullanımını tartışıyor ve bunların, myQ gibi abonelik tabanlı modellere kıyasla esneklik ve yerel kontrol sağladığını vurguluyor.</li>
-<li>Kullanıcılar, myQ&#39;nun abonelik modeli ve üçüncü taraf desteğinin eksikliği nedeniyle hayal kırıklığı yaşıyor ve bu durum onları RATGDO, Meross ve ESPHome gibi alternatifleri keşfetmeye yönlendiriyor.</li>
-<li>Ev otomasyonu meraklıları, geliştirilmiş işlevsellik ve sorunsuz kontrol için bu açık kaynaklı çözümleri MQTT, Home Assistant ve Z-Wave gibi sistemlerle entegre ediyor.</li>
-</ul>
-<h2><a href="https://labs.quansight.org/blog/dataframe-group-by">Polars ve pandas&#39;ta temel olmayan group-by toplama işlemleri</a></h2>
-<ul>
-<li>PyData Berlin 2024&#39;te, Polars adlı veri işleme kütüphanesi, tembel yürütme, Rust entegrasyonu ve çoklu iş parçacığı gibi gelişmiş özellikleriyle öne çıkarıldı.</li>
-<li>Polars&#39;ın önemli bir yeniliği, kullanıcıların pandas&#39;tan daha verimli bir şekilde karmaşık işlemler yapmalarına olanak tanıyan, temel olmayan grup bazlı toplama işlemlerine destek vermesidir.</li>
-<li>Blog, yeni dataframe kütüphanelerinin pandas&#39;ın API&#39;sinin ötesinde yenilik yapması gerektiğini öne sürüyor ve Polars&#39;ı, etkileyici sözdizimi ve geliştirilmiş veri işleme yetenekleriyle bir örnek olarak sunuyor.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42152076">Tepkiler</a></h3>
-<ul>
-<li>Polars, Apache Spark&#39;a benzerliği ve üstün hızı nedeniyle temel olmayan group-by işlemleri için Pandas&#39;a göre daha popüler hale geliyor. Kullanıcılar, Pandas&#39;ın yerleşik ekosistemine rağmen, özellikle daha küçük veri kümeleriyle hızlı performansı ve basit kurulumu nedeniyle Polars&#39;ı değerli buluyor. Pandas veya Polars kullanma kararı, belirli kullanım durumları, performans gereksinimleri ve kullanıcı tercihleri tarafından etkileniyor; bazıları karmaşık veri görevleri için SQL veya DuckDB&#39;yi tercih ediyor.</li>
-</ul>
-<h2><a href="https://eclecticlight.co/2024/11/14/m4-macs-cant-virtualise-older-macos/">M4 Mac&#39;ler eski macOS sürümlerini sanallaştıramaz.</a></h2>
-<ul>
-<li>M4 Mac&#39;ler, 13.4 Ventura&#39;dan önceki macOS sürümlerini sanallaştıramıyor, bu da eski macOS sanal makineleri (VM&#39;leri) için başlatma denemeleri sırasında siyah ekranla sonuçlanıyor.</li>
-<li>Bu sorun muhtemelen çekirdek önyükleme aşamasının başlarında ortaya çıkıyor ve çözülmesi, Apple&#39;ın eski macOS çekirdeklerini güncellemesini gerektirecektir, bu da pek olası değildir.</li>
-<li>M1, M2 ve M3 Mac&#39;ler macOS Monterey 12.0.1 ve sonrasını sanallaştırabilir, ancak Big Sur hiçbir Apple silikonunda sanallaştırılamaz.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42157086">Tepkiler</a></h3>
-<ul>
-<li>M4 Mac&#39;ler, 13.4 Ventura&#39;dan daha eski macOS sürümlerini sanallaştıramıyor, bu da eski sistemlerde uygulamaları test etmesi gereken geliştiriciler için zorluklar yaratıyor.</li>
-<li>macOS için yerleşik bir konteyner çözümünün olmaması, otomatik test ve dağıtım için gerekli olan sürekli entegrasyon (CI) süreçlerini karmaşıklaştırmaktadır.</li>
-<li>Anka, macOS sanal makine (VM) görüntülerine izin vererek kısmi bir çözüm sunar, ancak Apple&#39;ın yazılım lisansı bunu iki VM ile sınırlandırır, bu da geriye dönük uyumluluk testi yapması gereken geliştiricileri hayal kırıklığına uğratır.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Half-Life 2: 20. Yıl Dönümü Güncellemesi" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Half-Life%202%3A%2020.%20Y%C4%B1l%20D%C3%B6n%C3%BCm%C3%BC%20G%C3%BCncellemesi&subheading=16%20Kas%C4%B1m%202024%20Cumartesi%3A%20Hacker%20Haber%20%C3%96zeti" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/tr/2024/11/16</link>
-            <guid isPermaLink="false">2024-11-16T00:00:00.000Z</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

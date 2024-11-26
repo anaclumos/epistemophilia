@@ -1,0 +1,292 @@
+[
+  {
+    "id": 42240678,
+    "title": "“Amazon S3 增加了 Put-If-Match(比较并交换)功能”",
+    "originLink": "https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-s3-functionality-conditional-writes/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42240678",
+    "commentBody": "",
+    "originSummary": [
+      "“Amazon S3引入了条件写入功能，仅在对象未被修改的情况下进行更新，通过验证对象的ETag防止并发覆盖。- 这一功能类似于HTTP的if-none-match头，允许客户端使用if-match头在写入前确保ETag一致性，从而提高分布式应用程序的效率。- 该功能在所有AWS区域均可免费使用，可以通过AWS SDK、API或CLI实现，更多详情请参阅S3用户指南。”"
+    ],
+    "commentSummary": [
+      "Amazon S3推出了一项名为Put-If-Match的新功能，该功能类似于比较并交换操作，允许基于版本匹配的条件对象写入。这一功能改进了同步和并发控制，使开发人员能够执行更复杂的操作，例如在S3上构建数据库而无需额外的基础设施。此次更新使Amazon S3与其他云存储服务(如Google Cloud Storage和Azure Blob Storage)提供的类似功能保持一致。"
+    ],
+    "points": 468,
+    "commentCount": 145,
+    "retryCount": 0,
+    "time": 1732572691
+  },
+  {
+    "id": 42243500,
+    "title": "“我们告诉自己继续使用Golang的谎言(2022)”",
+    "originLink": "https://fasterthanli.me/articles/lies-we-tell-ourselves-to-keep-using-golang",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42243500",
+    "commentBody": "",
+    "originSummary": [
+      "“这篇文章批评了Golang，指出尽管它有异步运行时和垃圾收集器等吸引人的特性，但也存在重大缺陷，如缺乏和类型以及不充分的错误处理。文章认为，Go的表面简单性可能具有欺骗性，导致在生产环境中隐藏的复杂性和挑战，并强调认识到这些问题的重要性，而不是仅仅因为易用性而采用Go。文章将Go与Rust进行对比，建议尽管Rust存在挑战，但它在管理复杂性和确保代码正确性方面提供了更强大的解决方案。”"
+    ],
+    "commentSummary": [
+      "“这篇文章批评了 Go 的错误处理，并将其与 Rust 更复杂的方法进行对比，后者被一些人认为更优雅。”",
+      "“在意见上存在分歧：有些人欣赏 Go 的简洁性和明确的错误处理，而另一些人则认为它繁琐且容易出错。”",
+      "“尽管受到批评，Go 语言由于其简单性和被大公司广泛采用而仍然很受欢迎。”"
+    ],
+    "points": 281,
+    "commentCount": 366,
+    "retryCount": 0,
+    "time": 1732608093
+  },
+  {
+    "id": 42242971,
+    "title": "“Cybertruck的多次召回”",
+    "originLink": "https://www.wired.com/story/cybertrucks-many-recalls-make-it-worse-than-91-percent-of-all-2024-vehicles/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42242971",
+    "commentBody": "",
+    "originSummary": [
+      "“特斯拉Cybertruck自推出以来经历了多次召回，最新的一次涉及故障驱动逆变器，影响超过2400辆，引发了对其可靠性的担忧。”",
+      "“尽管存在质量问题，Cybertruck 独特的设计仍然吸引着买家，但其未能达到欧洲安全标准的能力限制了其市场范围。”",
+      "“召回事件虽然展示了监管的有效性，但可能会损害特斯拉的品牌声誉，尤其是在考虑到埃隆·马斯克对美国法规的重大影响时。”"
+    ],
+    "commentSummary": [],
+    "points": 267,
+    "commentCount": 393,
+    "retryCount": 0,
+    "time": 1732601537
+  },
+  {
+    "id": 42243746,
+    "title": "“数据显示，Y Combinator 经常支持复制其他 YC 公司的初创企业。”",
+    "originLink": "https://techcrunch.com/2024/11/22/y-combinator-often-backs-startups-that-duplicate-other-yc-companies-data-shows-its-not-just-ai-code-editors/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42243746",
+    "commentBody": "",
+    "originSummary": [
+      "“Y Combinator (YC) 是一家知名的创业加速器，以推出成功公司如 Airbnb 和 Stripe 而闻名，但其许多初创公司构建的产品与之前的 YC 公司相似或相同。”",
+      "“PearAI 的争议突显了这一趋势，PearAI 被指控克隆了另一个 YC 产品，但 YC 的 CEO Garry Tan 为这一做法辩护，称选择和创新的重要性。”",
+      "“Deckmatch对YC趋势的分析显示，受欢迎的创业类别包括AI代码编辑器、餐厅PoS系统和商业金融工具，而一些领域如加密货币交易的兴趣有所下降。”"
+    ],
+    "commentSummary": [
+      "Y Combinator经常投资于复制其他YC支持公司的初创企业，优先考虑创始人的潜力而非独特的想法。这一策略被视为对类似概念进行对冲的方式，因为成功往往取决于执行和时机，而不是想法的原创性。虽然有些人认为这可能存在利益冲突，但在风险投资中，资助同一领域的多家公司以验证市场并提高成功的可能性是一种常见做法。"
+    ],
+    "points": 240,
+    "commentCount": 133,
+    "retryCount": 0,
+    "time": 1732611000
+  },
+  {
+    "id": 42241851,
+    "title": "“Fly.io 停机问题 - 已解决”",
+    "originLink": "https://status.flyio.net",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42241851",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "“Fly.io经历了一次临时中断，虽然问题已解决，但由于过去的事件，这引发了用户对平台可靠性的担忧。- 用户将Fly.io与Railway和Cloudflare等替代方案进行比较，强调了在可靠性、功能和用户体验方面的差异。- 尽管面临挑战，一些用户仍然看重Fly.io的易用性和具有竞争力的定价，同时讨论中强调了高可用性和监控依赖性的重要性。”"
+    ],
+    "points": 227,
+    "commentCount": 217,
+    "retryCount": 0,
+    "time": 1732585645
+  },
+  {
+    "id": 42239721,
+    "title": "“汽车激光雷达技术简要介绍”",
+    "originLink": "https://www.viksnewsletter.com/p/short-intro-to-automotive-lidar",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239721",
+    "commentBody": "",
+    "originSummary": [
+      "“Vik的新闻通讯深入探讨了汽车激光雷达技术，这对于自动驾驶汽车至关重要，因为它能够使用红外激光生成高分辨率图像。- 新闻通讯讨论了激光雷达的操作原理，包括波长选择、光电探测器和测距技术，如飞行时间和频率调制连续波。- 它还研究了各种激光雷达系统，如机械和固态选项，旨在降低成本并增强技术，以便在自动驾驶车辆中更广泛地应用。”"
+    ],
+    "commentSummary": [
+      "“汽车激光雷达技术正在发展，尽管旋转扫描仪如Velodyne的产品成本高昂，但仍在使用，而闪光激光雷达和MEMS镜等替代方案则面临市场和技术挑战。”",
+      "“Waymo在易受损的车辆角落继续使用旋转激光雷达，这凸显了对更经济实惠和集成解决方案的需求，因为脉冲激光雷达相比连续系统提供了更少的干扰。”",
+      "“激光雷达提供高分辨率成像，并在低光条件下表现良好，但面临来自基于摄像头系统的竞争，一些公司，如特斯拉，出于成本原因更喜欢使用摄像头系统，这引发了关于自动驾驶最佳方法的持续争论。”"
+    ],
+    "points": 219,
+    "commentCount": 157,
+    "retryCount": 0,
+    "time": 1732565547
+  },
+  {
+    "id": 42239952,
+    "title": "“阅读 REAL-ID 规则需要身份证吗？”",
+    "originLink": "https://papersplease.org/wp/2024/11/25/do-you-need-id-to-read-the-real-id-rules/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239952",
+    "commentBody": "",
+    "originSummary": [
+      "“试图访问TSA的新数字身份证规则时，暴露了REAL-ID法案的问题，因为这些规则无法公开访问且需要身份证明才能访问，这引发了对秘密法律和正当程序的担忧。”",
+      "“美国运输安全管理局的数字身份证标准源自私人文件，涉及应用程序、设备和政府机构之间的复杂互动，同时对记录的身份证使用情况存在隐私担忧。”",
+      "“作者认为，TSA的做法侵犯了公众的访问权，并已向联邦公报办公室报告了这一问题，寻求撤销该规则。”"
+    ],
+    "commentSummary": [
+      "“讨论围绕着需要身份证才能访问REAL-ID规则展开，一些用户质疑TSA安全措施的有效性。- 有人对移动驾照(mDLs)及其可能带来的隐私问题表示担忧。- 用户对TSA的有效性和安全演习的概念表示怀疑，同时也质疑REAL-ID和mDLs等数字身份证的长期影响。”"
+    ],
+    "points": 212,
+    "commentCount": 82,
+    "retryCount": 0,
+    "time": 1732567234
+  },
+  {
+    "id": 42244814,
+    "title": "“J. Kenji Lopez-Alt(2021年)提出的洋葱问题的解决方案”",
+    "originLink": "https://medium.com/@drspoulsen/a-solution-to-the-onion-problem-of-j-kenji-l%C3%B3pez-alt-c3c4ab22e67c",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42244814",
+    "commentBody": "",
+    "originSummary": [
+      "“这篇文章讨论了‘洋葱问题’，即如何切洋葱以实现切片体积的最小方差，从而达到均匀性。- 通过使用微积分进行的数学探索确定了最佳切割点是在洋葱中心下方55.73066%的位置，被称为‘真正的洋葱常数’。- 这一发现改进了之前建议的在中心下方60%处切割的方法，提供了一种更精确的均匀洋葱切片方法。”"
+    ],
+    "commentSummary": [
+      "“讨论探讨了一种切洋葱均匀的数学模型，该模型受J. Kenji Lopez-Alt的启发，使用半圆盘表示法来简化几何形状并最小化切片大小的差异。用户们对该模型的实用性和准确性展开了辩论，考虑到洋葱的三维结构和不均匀的层次，并提出了替代的切割方法或工具。对话还考虑了均匀性与烹饪偏好之间的平衡，提到了像Adam Ragusea这样的美食人物。”"
+    ],
+    "points": 177,
+    "commentCount": 67,
+    "retryCount": 0,
+    "time": 1732621091
+  },
+  {
+    "id": 42239607,
+    "title": "“Redis 正试图接管所有的 OSS Redis 库。”",
+    "originLink": "https://twitter.com/TomHacohen/status/1861137484249252093",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239607",
+    "commentBody": "",
+    "originSummary": [
+      "据报道，Redis 正在接管所有开源软件 (OSS) Redis 库，其中包括像 Jedis、Lettuce 和 redis-py 这样的流行库。",
+      "“这些库目前已关闭，另一个库 redis-rs 也面临潜在的控制或关闭。”",
+      "“这种情况很重要，因为它影响了依赖这些库在其应用程序中进行Redis集成的开发人员。”"
+    ],
+    "commentSummary": [
+      "“Redis公司正在接管开源Redis库，这引发了争议，并导致一些开发人员因商标执行问题而移除Redis依赖项。”",
+      "“像 redis-py、Lettuce 和 Jedis 这样的库已经被移到 Redis Inc. 的官方组织下，这被视为对抗 Valkey 等竞争对手的防御策略。”",
+      "“社区担心商标索赔和潜在的供应商锁定问题，这促使人们讨论像 Valkey 和 Kvrocks 这样的替代方案，并强调了在开源项目中执行商标的挑战。”"
+    ],
+    "points": 150,
+    "commentCount": 81,
+    "retryCount": 0,
+    "time": 1732564808
+  },
+  {
+    "id": 42243755,
+    "title": "“Setelinleikkaus：当芬兰人将现金剪成两半以抑制通货膨胀时”",
+    "originLink": "http://jpkoning.blogspot.com/2024/11/setelinleikkaus-when-finns-snipped.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42243755",
+    "commentBody": "",
+    "originSummary": [
+      "“1945年，芬兰实施了“setelinleikkaus”政策，要求公民将大额纸币剪成两半，以应对二战后的通货膨胀，其中一半保留价值，另一半成为政府债券。- 该政策无效，因为它仅针对实体现金，而这只是货币供应的一小部分，不像比利时等其他欧洲国家更成功的改革。- 文章推测，未来的通胀控制可能涉及冻结数字账户，这是一种更精确但可能有争议的方法。”"
+    ],
+    "commentSummary": [
+      "“1945年，芬兰通过将纸币物理剪半的方式独特地解决了通货膨胀，这与现代调整利率的方法形成了对比。”",
+      "“这种历史方法引发了关于当前货币政策的讨论，其中中央银行通过利率和公开市场操作来管理通货膨胀。”",
+      "“数字货币的潜在未来控制，可能通过中央银行数字货币，引发了对政府加强个人财务监督的担忧。”"
+    ],
+    "points": 145,
+    "commentCount": 131,
+    "retryCount": 0,
+    "time": 1732611120
+  },
+  {
+    "id": 42239487,
+    "title": "“祈祷、摆放与赦免：彼得·赫里斯托夫谈伊斯兰祈祷毯(2015)”",
+    "originLink": "https://www.metmuseum.org/perspectives/peter-hristoff-islamic-prayer-rugs",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239487",
+    "commentBody": "",
+    "originSummary": [
+      "“彼得·赫里斯托夫的艺术作品深入探讨了艺术与灵性之间的交集，特别是通过祈祷毯这一媒介，自1997年开始。他的创作，包括素描和丝网印刷品，逐渐演变成在宣纸上创作的大型“地毯”作品，灵感来自土耳其地毯和基里姆，他将其视为具有象征意义的个人日记。赫里斯托夫的作品体现了“明亮的悲伤”，一种由喜悦和悲伤交织而成的情感，受到巴尔多禄茂宗主教著作的影响，并继续探索人性精神和物质方面。”"
+    ],
+    "commentSummary": [
+      "“彼得·赫里斯托夫的文章探讨了伊斯兰祈祷毯的重要性，强调了其复杂的设计，如镶嵌图案，象征着上帝的无限性。文章讨论了伊斯兰教对具象艺术的禁令，导致在伊斯兰工艺品中使用书法和几何图案。文章还强调了祈祷毯的历史和文化背景，指出其在包括基督教在内的各种宗教传统中的使用，以及其实际和精神作用。”"
+    ],
+    "points": 123,
+    "commentCount": 61,
+    "retryCount": 0,
+    "time": 1732563945
+  },
+  {
+    "id": 42239263,
+    "title": "“Deno与Oracle：取消JavaScript商标”",
+    "originLink": "https://deno.com/blog/deno-v-oracle",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239263",
+    "commentBody": "",
+    "originSummary": [
+      "“Deno已向美国专利商标局(USPTO)提交了一份请愿书，要求取消Oracle对“JavaScript”的商标注册，旨在将其变为公共资源，并消除其使用的法律障碍。”",
+      "“请愿书认为，“JavaScript”是一个通用术语，甲骨文在续签商标时犯下了欺诈行为，并且甲骨文通过不使用而放弃了该商标。”",
+      "“超过14,000名开发者支持Deno的举动，Oracle必须在2025年1月4日之前作出回应，Deno准备与社区分享所有进展。”"
+    ],
+    "commentSummary": [
+      "“Deno已向美国专利商标局(USPTO)提交了一份请愿书，要求取消Oracle对JavaScript的商标，引发了关于商标伦理和社区利益的辩论。”",
+      "“讨论涉及Deno与Node Package Manager (NPM) 的兼容性及其对更广泛的JavaScript生态系统的影响，反映了对JavaScript未来和运行时环境的不同看法。”",
+      "“意见不一，有些人认为甲骨文的商标使用不道德，而另一些人则质疑Deno的意图，认为这可能是一种公关策略。”"
+    ],
+    "points": 120,
+    "commentCount": 23,
+    "retryCount": 0,
+    "time": 1732562433
+  },
+  {
+    "id": 42244987,
+    "title": "Jekyll 的 SQLite 插件",
+    "originLink": "https://github.com/captn3m0/jekyll-sqlite",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42244987",
+    "commentBody": "",
+    "originSummary": [
+      "“作者开发了一个Jekyll SQLite插件，以增强Jekyll(一种流行的静态网站生成器)中的数据处理能力。”",
+      "“此插件允许用户执行 SQL 查询以进行数据整理，解决 Liquid(Jekyll 的模板语言)在处理复杂数据操作方面的局限性。”",
+      "“该插件已成功在生产中使用了一年，并通过 Northwind 数据集进行了演示。作者邀请反馈和改进建议。”"
+    ],
+    "commentSummary": [
+      "“Jekyll SQLite 插件使得在 Jekyll 中使用 SQLite 作为数据源成为可能，增强了使用 SQL 进行数据操作的能力。- 它集成了 Jekyll 的 Datafiles 和 Data Pages 生成器功能，允许进行超越传统 CSV/JSON/YAML 格式的复杂数据处理。- 该插件已投入使用一年，因使静态网站生成更加动态和灵活而获得了积极的反馈。”"
+    ],
+    "points": 119,
+    "commentCount": 35,
+    "retryCount": 0,
+    "time": 1732623091
+  },
+  {
+    "id": 42241702,
+    "title": "“头发过早变白：更新综述”",
+    "originLink": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6290285/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42241702",
+    "commentBody": "",
+    "originSummary": [
+      "“头发过早变白(PGH)被定义为白种人在20岁之前变白，非洲裔美国人在30岁之前变白，这会影响自尊心。- PGH的原因尚不完全清楚，但与衰老疾病、自身免疫性疾病和氧化应激有关，吸烟和营养缺乏等因素也有贡献。- PGH的常见治疗方法包括染发剂和营养补充剂，研究表明PGH与情感因素、遗传倾向和环境影响有关。”"
+    ],
+    "commentSummary": [
+      "“头发过早变白与维生素B12缺乏有关，特别是在患有恶性贫血的人群中，这是一种身体无法正常吸收B12的状况。- 诊断B12缺乏可能具有挑战性，因为补充剂可能会人为地提高B12水平，而有些人无法将某些形式的B12转化为活性形式，导致“矛盾的B12缺乏”。- 压力、遗传和健康状况如自身免疫性甲状腺炎等因素也会导致头发变白，虽然一些补充剂可能有帮助，但没有经过验证的方法可以逆转头发变白。”"
+    ],
+    "points": 110,
+    "commentCount": 98,
+    "retryCount": 0,
+    "time": 1732583700
+  },
+  {
+    "id": 42245170,
+    "title": "“基于LLVM的去虚拟化”",
+    "originLink": "https://blog.thalium.re/posts/llvm-powered-devirtualization/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42245170",
+    "commentBody": "",
+    "originSummary": [
+      "“在Thalium的实习中，重点是使用LLVM(一种编译器框架)对虚拟化的二进制文件进行去混淆，以使代码更易于理解，特别是在恶意软件的背景下。- 虚拟化是一种强大的混淆技术，被Tigress和VMProtect等工具使用，将程序编码为虚拟指令，使逆向工程变得复杂。- 项目成功地使用动态污点分析重建了Tigress混淆二进制文件的控制流图，尽管它仅限于纯函数和单一执行路径。”"
+    ],
+    "commentSummary": [
+      "“基于LLVM的去虚拟化通过优化虚函数调用来提高性能，因为虚函数调用通常由于其动态特性而较慢。”",
+      "“Bochs，一个CPU模拟器，可以在i7处理器上高效地模拟Pentium 4处理器，甚至可以绕过虚拟机检测器。”",
+      "“Bochs调试器在分析和对抗恶意软件以及代码混淆器方面特别有效，使其成为安全研究的宝贵工具。”"
+    ],
+    "points": 107,
+    "commentCount": 1,
+    "retryCount": 0,
+    "time": 1732624714
+  }
+]

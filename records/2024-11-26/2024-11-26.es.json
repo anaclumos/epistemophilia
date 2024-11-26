@@ -1,0 +1,292 @@
+[
+  {
+    "id": 42240678,
+    "title": "Amazon S3 añade Put-If-Match (Comparar e Intercambiar)",
+    "originLink": "https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-s3-functionality-conditional-writes/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42240678",
+    "commentBody": "",
+    "originSummary": [
+      "Amazon S3 introduce escrituras condicionales, permitiendo actualizaciones solo si un objeto permanece sin modificar, previniendo sobrescrituras concurrentes al verificar el ETag del objeto. Esta característica, similar al encabezado HTTP if-none-match, permite a los clientes usar el encabezado if-match para asegurar la consistencia del ETag antes de escribir, mejorando la eficiencia para aplicaciones distribuidas. Disponible sin costo adicional en todas las regiones de AWS, la implementación se puede realizar utilizando el AWS SDK, API o CLI, con más detalles en la Guía del Usuario de S3."
+    ],
+    "commentSummary": [
+      "Amazon S3 ha lanzado una nueva función llamada Put-If-Match, que actúa como una operación de comparar e intercambiar, permitiendo la escritura condicional de objetos basada en la coincidencia de versiones. Esta función mejora la sincronización y el control de concurrencia, permitiendo a los desarrolladores realizar operaciones más complejas, como construir bases de datos en S3 sin infraestructura adicional. La actualización alinea a Amazon S3 con funciones similares ofrecidas por otros servicios de almacenamiento en la nube como Google Cloud Storage y Azure Blob Storage."
+    ],
+    "points": 468,
+    "commentCount": 145,
+    "retryCount": 0,
+    "time": 1732572691
+  },
+  {
+    "id": 42243500,
+    "title": "Leyes que nos decimos a nosotros mismos para seguir usando Golang (2022)",
+    "originLink": "https://fasterthanli.me/articles/lies-we-tell-ourselves-to-keep-using-golang",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42243500",
+    "commentBody": "",
+    "originSummary": [
+      "La crítica al artículo sobre Golang señala que, aunque tiene características atractivas como un tiempo de ejecución asincrónico y un recolector de basura, también presenta desventajas significativas, como la ausencia de tipos suma y un manejo de errores inadecuado. Argumenta que la simplicidad percibida de Go puede ser engañosa, llevando a complejidades ocultas y desafíos en entornos de producción, y enfatiza la importancia de reconocer estos problemas en lugar de adoptar Go únicamente por su facilidad de uso. El artículo contrasta Go con Rust, sugiriendo que a pesar de los desafíos de Rust, ofrece soluciones más robustas para gestionar la complejidad y asegurar la corrección del código."
+    ],
+    "commentSummary": [
+      "La crítica del artículo se centra en el manejo de errores de Go, contrastándolo con el enfoque más sofisticado de Rust, que algunos consideran más elegante.",
+      "Existe una división de opiniones: algunos aprecian la simplicidad de Go y su manejo explícito de errores, mientras que otros lo encuentran tedioso y propenso a errores.",
+      "A pesar de las críticas, Go sigue siendo popular debido a su simplicidad y adopción generalizada por grandes empresas."
+    ],
+    "points": 281,
+    "commentCount": 366,
+    "retryCount": 0,
+    "time": 1732608093
+  },
+  {
+    "id": 42242971,
+    "title": "Las numerosas retiradas del Cybertruck",
+    "originLink": "https://www.wired.com/story/cybertrucks-many-recalls-make-it-worse-than-91-percent-of-all-2024-vehicles/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42242971",
+    "commentBody": "",
+    "originSummary": [
+      "La Tesla Cybertruck ha experimentado múltiples retiradas desde su lanzamiento, siendo la última relacionada con inversores de tracción defectuosos que afectan a más de 2,400 unidades, lo que genera preocupaciones sobre su fiabilidad.",
+      "A pesar de los problemas de calidad, el diseño único del Cybertruck sigue atrayendo a los compradores, aunque su incapacidad para cumplir con los estándares de seguridad europeos limita su alcance en el mercado.",
+      "Los retiros, aunque demuestran la efectividad regulatoria, pueden dañar la reputación de la marca Tesla, especialmente dado el significativo influjo de Elon Musk en las regulaciones de EE. UU."
+    ],
+    "commentSummary": [],
+    "points": 267,
+    "commentCount": 393,
+    "retryCount": 0,
+    "time": 1732601537
+  },
+  {
+    "id": 42243746,
+    "title": "Y Combinator a menudo respalda startups que duplican a otras empresas de YC, según muestran los datos",
+    "originLink": "https://techcrunch.com/2024/11/22/y-combinator-often-backs-startups-that-duplicate-other-yc-companies-data-shows-its-not-just-ai-code-editors/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42243746",
+    "commentBody": "",
+    "originSummary": [
+      "Y Combinator (YC), una destacada aceleradora de startups, es conocida por lanzar empresas exitosas como Airbnb y Stripe, pero muchas de sus startups crean productos similares o idénticos a los de empresas anteriores de YC.",
+      "La controversia de PearAI destacó esta tendencia, donde PearAI fue acusado de clonar otro producto de YC, sin embargo, el CEO de YC, Garry Tan, defendió la práctica, citando la importancia de la elección y la innovación.",
+      "El análisis de Deckmatch sobre las tendencias de YC muestra que las categorías populares de startups incluyen editores de código de IA, sistemas PoS para restaurantes y herramientas de finanzas empresariales, mientras que algunas áreas como el comercio de criptomonedas están viendo un interés decreciente."
+    ],
+    "commentSummary": [
+      "Y Combinator invierte frecuentemente en startups que replican a otras empresas respaldadas por YC, priorizando el potencial de los fundadores sobre las ideas únicas. Esta estrategia se ve como una forma de cubrir apuestas en conceptos similares, ya que el éxito a menudo depende de la ejecución y el momento, más que de la originalidad de la idea. Aunque algunos ven esto como un posible conflicto de intereses, es una práctica común en el capital de riesgo financiar múltiples empresas en el mismo sector para validar mercados y aumentar la probabilidad de éxito."
+    ],
+    "points": 240,
+    "commentCount": 133,
+    "retryCount": 0,
+    "time": 1732611000
+  },
+  {
+    "id": 42241851,
+    "title": "Interrupción de Fly.io – resuelta",
+    "originLink": "https://status.flyio.net",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42241851",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Fly.io experimentó una interrupción temporal, que fue resuelta, pero generó preocupaciones entre los usuarios sobre la fiabilidad de la plataforma debido a incidentes pasados. Los usuarios compararon Fly.io con alternativas como Railway y Cloudflare, destacando diferencias en fiabilidad, características y experiencias de usuario. A pesar de los desafíos, algunos usuarios valoran Fly.io por su facilidad de uso y precios competitivos, mientras que las discusiones enfatizaron la importancia de la alta disponibilidad y el monitoreo de dependencias."
+    ],
+    "points": 227,
+    "commentCount": 217,
+    "retryCount": 0,
+    "time": 1732585645
+  },
+  {
+    "id": 42239721,
+    "title": "Una breve introducción a la tecnología Lidar automotriz",
+    "originLink": "https://www.viksnewsletter.com/p/short-intro-to-automotive-lidar",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239721",
+    "commentBody": "",
+    "originSummary": [
+      "El boletín de Vik explora la tecnología lidar automotriz, que es vital para los coches autónomos debido a su capacidad para producir imágenes de alta resolución utilizando láseres infrarrojos. El boletín discute los principios de funcionamiento del lidar, incluyendo la elección de longitudes de onda, fotodetectores y técnicas de medición como el Tiempo de Vuelo y la Onda Continua Modulada en Frecuencia. También examina varios sistemas lidar, como las opciones mecánicas y de estado sólido, con el objetivo de reducir costos y mejorar la tecnología para una adopción más amplia en vehículos autónomos."
+    ],
+    "commentSummary": [
+      "Las tecnologías lidar automotrices están evolucionando, con escáneres rotativos como los de Velodyne siendo utilizados a pesar de su alto costo, mientras que alternativas como el lidar flash y los espejos MEMS enfrentan desafíos de mercado y técnicos.",
+      "El uso continuo de lidars rotativos por parte de Waymo, incluso en las esquinas vulnerables de los vehículos, subraya la necesidad de soluciones más asequibles e integradas, ya que el lidar pulsado ofrece una interferencia reducida en comparación con los sistemas continuos.",
+      "Lidar proporciona imágenes de alta resolución y funciona bien en condiciones de poca luz, pero enfrenta competencia de los sistemas basados en cámaras, que algunas empresas, como Tesla, prefieren por razones de costo, alimentando debates en curso sobre el mejor enfoque para la conducción autónoma."
+    ],
+    "points": 219,
+    "commentCount": 157,
+    "retryCount": 0,
+    "time": 1732565547
+  },
+  {
+    "id": 42239952,
+    "title": "¿Necesitas identificación para leer las reglas de REAL-ID?",
+    "originLink": "https://papersplease.org/wp/2024/11/25/do-you-need-id-to-read-the-real-id-rules/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239952",
+    "commentBody": "",
+    "originSummary": [
+      "Un intento de acceder a las nuevas reglas de identificación digital de la TSA reveló problemas con la Ley REAL-ID, ya que las reglas no son accesibles públicamente y requieren identificación para el acceso, lo que genera preocupaciones sobre leyes secretas y el debido proceso.",
+      "La normativa de identificación digital de la TSA, derivada de documentos privados, implica interacciones complejas entre aplicaciones, dispositivos y agencias gubernamentales, con preocupaciones de privacidad sobre el registro del uso de identificaciones.",
+      "El autor sostiene que las prácticas de la TSA violan los derechos de acceso público y ha informado del problema a la Oficina del Registro Federal, solicitando la retirada de la norma."
+    ],
+    "commentSummary": [
+      "La discusión gira en torno a la necesidad de tener una identificación para acceder a las reglas de REAL-ID, con algunos usuarios cuestionando la efectividad de las medidas de seguridad de la TSA. Se plantean preocupaciones sobre las implicaciones de las licencias de conducir móviles (mDLs) y los problemas de privacidad que pueden presentar. Los usuarios expresan escepticismo sobre la efectividad de la TSA y el concepto de teatro de seguridad, al tiempo que cuestionan las implicaciones a largo plazo de las identificaciones digitales como REAL-ID y mDLs."
+    ],
+    "points": 212,
+    "commentCount": 82,
+    "retryCount": 0,
+    "time": 1732567234
+  },
+  {
+    "id": 42244814,
+    "title": "Una solución al problema de The Onion de J. Kenji Lopez-Alt (2021)",
+    "originLink": "https://medium.com/@drspoulsen/a-solution-to-the-onion-problem-of-j-kenji-l%C3%B3pez-alt-c3c4ab22e67c",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42244814",
+    "commentBody": "",
+    "originSummary": [
+      "La publicación aborda el \"Problema de la Cebolla\", que implica cortar cebollas para lograr una mínima variación en los volúmenes de las rodajas para uniformidad. Una exploración matemática utilizando cálculo determinó que el punto de corte óptimo es 55.73066% por debajo del centro de la cebolla, denominado la \"constante verdadera de la cebolla\". Este hallazgo refina una sugerencia previa de cortar hacia un punto 60% por debajo del centro, proporcionando un método más preciso para rodajas de cebolla uniformes."
+    ],
+    "commentSummary": [
+      "La discusión explora un modelo matemático para cortar cebollas de manera uniforme, inspirado por J. Kenji Lopez-Alt, utilizando una representación de medio disco para simplificar la geometría y minimizar la variación en el tamaño de las rodajas. Los usuarios debaten sobre la practicidad y precisión del modelo, considerando la estructura 3D de la cebolla y sus capas no uniformes, y sugieren métodos o herramientas de corte alternativas. La conversación también considera el equilibrio entre la uniformidad y las preferencias culinarias, haciendo referencia a personalidades gastronómicas como Adam Ragusea."
+    ],
+    "points": 177,
+    "commentCount": 67,
+    "retryCount": 0,
+    "time": 1732621091
+  },
+  {
+    "id": 42239607,
+    "title": "Redis está intentando hacerse cargo de todas las bibliotecas OSS de Redis",
+    "originLink": "https://twitter.com/TomHacohen/status/1861137484249252093",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239607",
+    "commentBody": "",
+    "originSummary": [
+      "Se informa que Redis está tomando el control de todas las bibliotecas de software de código abierto (OSS) de Redis, que incluyen las populares como Jedis, Lettuce y redis-py.",
+      "Estas bibliotecas están actualmente caídas, y otra biblioteca, redis-rs, también enfrenta un posible control o cierre.",
+      "Esta situación es significativa ya que afecta a los desarrolladores que dependen de estas bibliotecas para la integración de Redis en sus aplicaciones."
+    ],
+    "commentSummary": [
+      "Redis Inc. está tomando el control de las bibliotecas de Redis de código abierto, lo que ha generado controversia y ha llevado a algunos desarrolladores a eliminar las dependencias de Redis debido a problemas de aplicación de marcas registradas.",
+      "Bibliotecas como redis-py, Lettuce y Jedis han sido trasladadas a la organización oficial de Redis Inc., vista como una estrategia defensiva contra competidores como Valkey.",
+      "La comunidad está preocupada por las reclamaciones de marcas registradas y el posible bloqueo de proveedores, lo que ha llevado a discusiones sobre alternativas como Valkey y Kvrocks, y ha resaltado los desafíos de la aplicación de marcas registradas en proyectos de código abierto."
+    ],
+    "points": 150,
+    "commentCount": 81,
+    "retryCount": 0,
+    "time": 1732564808
+  },
+  {
+    "id": 42243755,
+    "title": "Setelinleikkaus: Cuando los finlandeses cortaron su efectivo por la mitad para frenar la inflación",
+    "originLink": "http://jpkoning.blogspot.com/2024/11/setelinleikkaus-when-finns-snipped.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42243755",
+    "commentBody": "",
+    "originSummary": [
+      "En 1945, Finlandia implementó el \"setelinleikkaus\", una política que requería que los ciudadanos cortaran los billetes grandes por la mitad para combatir la inflación posterior a la Segunda Guerra Mundial, con una mitad conservando valor y la otra convirtiéndose en un bono del gobierno. La política fue ineficaz ya que solo se dirigía al efectivo físico, una parte menor de la oferta monetaria, a diferencia de reformas más exitosas en otros países europeos como Bélgica. El artículo especula que el control de la inflación en el futuro podría implicar congelaciones de cuentas digitales, un método más preciso pero potencialmente controvertido."
+    ],
+    "commentSummary": [
+      "En 1945, Finlandia abordó de manera única la inflación cortando físicamente los billetes por la mitad, en contraste con los métodos modernos como el ajuste de las tasas de interés.",
+      "Este enfoque histórico ha suscitado debates sobre la política monetaria actual, donde los bancos centrales gestionan la inflación a través de las tasas de interés y las operaciones de mercado abierto.",
+      "La posible futura regulación del dinero digital, posiblemente a través de monedas digitales de bancos centrales, genera preocupaciones sobre un mayor control gubernamental de las finanzas personales."
+    ],
+    "points": 145,
+    "commentCount": 131,
+    "retryCount": 0,
+    "time": 1732611120
+  },
+  {
+    "id": 42239487,
+    "title": "Oración, colocación y absolución: Peter Hristoff sobre las alfombras de oración islámicas (2015)",
+    "originLink": "https://www.metmuseum.org/perspectives/peter-hristoff-islamic-prayer-rugs",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239487",
+    "commentBody": "",
+    "originSummary": [
+      "El arte de Peter Hristoff explora la intersección entre el arte y la espiritualidad, particularmente a través del medio de las alfombras de oración, comenzando en 1997. Sus creaciones, que incluyen dibujos y serigrafías, evolucionan hacia piezas más grandes de \"alfombras\" en papel de arroz, inspiradas en alfombras y kilims turcos, que él ve como diarios personales con significados simbólicos. La obra de Hristoff encarna una \"tristeza brillante,\" una mezcla de alegría y tristeza, influenciada por los escritos del Patriarca Bartolomé, y continúa explorando los aspectos espirituales y físicos de la naturaleza humana."
+    ],
+    "commentSummary": [
+      "El artículo de Peter Hristoff explora la importancia de las alfombras de oración islámicas, enfatizando sus intrincados diseños, como los teselados, que simbolizan la infinitud de Dios. El artículo discute la prohibición islámica del arte representacional, lo que lleva al uso de la caligrafía y los patrones geométricos en los artefactos islámicos. Destaca el contexto histórico y cultural de las alfombras de oración, señalando su uso en diversas tradiciones religiosas, incluida la cristiana, y sus roles prácticos y espirituales."
+    ],
+    "points": 123,
+    "commentCount": 61,
+    "retryCount": 0,
+    "time": 1732563945
+  },
+  {
+    "id": 42239263,
+    "title": "Deno vs. Oracle: Cancelación de la marca registrada de JavaScript",
+    "originLink": "https://deno.com/blog/deno-v-oracle",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239263",
+    "commentBody": "",
+    "originSummary": [
+      "Deno ha presentado una petición ante la Oficina de Patentes y Marcas de los Estados Unidos (USPTO) para cancelar la marca registrada de Oracle sobre \"JavaScript\", con el objetivo de convertirlo en un bien público y eliminar las barreras legales para su uso.",
+      "La petición argumenta que 'JavaScript' es un término genérico, Oracle cometió fraude al renovar la marca registrada, y Oracle ha abandonado la marca registrada por falta de uso.",
+      "Más de 14,000 desarrolladores apoyan el movimiento de Deno, y Oracle tiene hasta el 4 de enero de 2025 para responder, con Deno listo para compartir todos los procedimientos con la comunidad."
+    ],
+    "commentSummary": [
+      "Deno ha presentado una petición ante la Oficina de Patentes y Marcas de los Estados Unidos (USPTO) para cancelar la marca registrada de Oracle sobre JavaScript, lo que ha generado un debate sobre la ética de las marcas y los beneficios para la comunidad.",
+      "La discusión involucra la compatibilidad de Deno con Node Package Manager (NPM) y su impacto en el ecosistema más amplio de JavaScript, reflejando opiniones divergentes sobre el futuro de JavaScript y los entornos de ejecución.",
+      "Las opiniones están divididas, con algunos viendo el uso de la marca registrada por parte de Oracle como poco ético, mientras que otros cuestionan las intenciones de Deno, sugiriendo que podría ser una estrategia de relaciones públicas."
+    ],
+    "points": 120,
+    "commentCount": 23,
+    "retryCount": 0,
+    "time": 1732562433
+  },
+  {
+    "id": 42244987,
+    "title": "Plugin SQLite para Jekyll",
+    "originLink": "https://github.com/captn3m0/jekyll-sqlite",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42244987",
+    "commentBody": "",
+    "originSummary": [
+      "El autor ha desarrollado un complemento de Jekyll SQLite para mejorar las capacidades de manipulación de datos dentro de Jekyll, un popular generador de sitios estáticos.",
+      "Este complemento permite a los usuarios realizar consultas SQL para manipulación de datos, abordando las limitaciones de Liquid, el lenguaje de plantillas de Jekyll, en el manejo de operaciones de datos complejas.",
+      "El complemento se ha utilizado con éxito en producción durante un año, demostrado con el conjunto de datos de Northwind, y el autor invita a recibir comentarios y sugerencias para mejorar."
+    ],
+    "commentSummary": [
+      "Un complemento de Jekyll para SQLite permite el uso de SQLite como fuente de datos en Jekyll, mejorando las capacidades de manipulación de datos con SQL. Integra las características de generador de Datafiles y Data Pages de Jekyll, permitiendo un manejo de datos más complejo más allá de los formatos tradicionales CSV/JSON/YAML. El complemento ha estado en producción durante un año, recibiendo comentarios positivos por hacer que la generación de sitios estáticos sea más dinámica y flexible."
+    ],
+    "points": 119,
+    "commentCount": 35,
+    "retryCount": 0,
+    "time": 1732623091
+  },
+  {
+    "id": 42241702,
+    "title": "Canas prematuras: Revisión con actualizaciones",
+    "originLink": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6290285/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42241702",
+    "commentBody": "",
+    "originSummary": [
+      "El encanecimiento prematuro del cabello (PGH) se define como el encanecimiento antes de los 20 años en caucásicos y antes de los 30 en afroamericanos, afectando la autoestima. Las causas del PGH no se comprenden completamente, pero están asociadas con trastornos del envejecimiento, enfermedades autoinmunes y estrés oxidativo, con factores como el tabaquismo y las deficiencias nutricionales contribuyendo. Los tratamientos comunes para el PGH incluyen tintes para el cabello y suplementos nutricionales, con estudios que indican vínculos entre el PGH y factores emocionales, predisposiciones genéticas e influencias ambientales."
+    ],
+    "commentSummary": [
+      "El encanecimiento prematuro del cabello está asociado con la deficiencia de vitamina B12, particularmente en individuos con anemia perniciosa, una condición en la que el cuerpo no puede absorber adecuadamente la B12. Diagnosticar la deficiencia de B12 puede ser un desafío, ya que la suplementación puede aumentar artificialmente los niveles de B12, y algunas personas no pueden convertir ciertas formas de B12 en formas activas, lo que lleva a una \"deficiencia paradójica de B12\". Factores como el estrés, la genética y condiciones de salud como el hipotiroidismo autoinmune también contribuyen al encanecimiento, y aunque algunos suplementos pueden ayudar, no existe un método comprobado para revertir el cabello canoso."
+    ],
+    "points": 110,
+    "commentCount": 98,
+    "retryCount": 0,
+    "time": 1732583700
+  },
+  {
+    "id": 42245170,
+    "title": "Desvirtualización impulsada por LLVM",
+    "originLink": "https://blog.thalium.re/posts/llvm-powered-devirtualization/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42245170",
+    "commentBody": "",
+    "originSummary": [
+      "La pasantía en Thalium se centró en desofuscar binarios virtualizados utilizando LLVM, un marco de compiladores, para hacer el código más comprensible, especialmente en el contexto del malware. La virtualización, una técnica de ofuscación fuerte utilizada por herramientas como Tigress y VMProtect, codifica programas en instrucciones virtuales, haciendo que la ingeniería inversa sea compleja. El proyecto utilizó con éxito el análisis de contaminación dinámica para reconstruir el gráfico de flujo de control de binarios ofuscados por Tigress, aunque se limitó a funciones puras y rutas de ejecución únicas."
+    ],
+    "commentSummary": [
+      "Desvirtualización impulsada por LLVM mejora el rendimiento al optimizar las llamadas a funciones virtuales, que suelen ser más lentas debido a su naturaleza dinámica.",
+      "Bochs, un emulador de CPU, puede emular eficientemente un procesador Pentium 4 en un i7, incluso pasando por alto los detectores de máquinas virtuales.",
+      "El depurador Bochs es particularmente efectivo en el análisis y contrarresto de malware y ofuscadores de código, lo que lo convierte en una herramienta valiosa para la investigación de seguridad."
+    ],
+    "points": 107,
+    "commentCount": 1,
+    "retryCount": 0,
+    "time": 1732624714
+  }
+]

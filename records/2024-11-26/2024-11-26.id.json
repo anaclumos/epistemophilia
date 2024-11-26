@@ -1,0 +1,292 @@
+[
+  {
+    "id": 42240678,
+    "title": "Amazon S3 Menambahkan Put-If-Match (Bandingkan-dan-Tukar)",
+    "originLink": "https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-s3-functionality-conditional-writes/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42240678",
+    "commentBody": "",
+    "originSummary": [
+      "Amazon S3 memperkenalkan penulisan bersyarat, memungkinkan pembaruan hanya jika sebuah objek tetap tidak dimodifikasi, mencegah penulisan ulang bersamaan dengan memverifikasi ETag objek. Fitur ini, mirip dengan header HTTP if-none-match, memungkinkan klien menggunakan header if-match untuk memastikan konsistensi ETag sebelum menulis, meningkatkan efisiensi untuk aplikasi terdistribusi. Tersedia tanpa biaya tambahan di semua Wilayah AWS, implementasi dapat dilakukan menggunakan AWS SDK, API, atau CLI, dengan detail lebih lanjut di Panduan Pengguna S3."
+    ],
+    "commentSummary": [
+      "Amazon S3 telah meluncurkan fitur baru yang disebut Put-If-Match, yang berfungsi seperti operasi compare-and-swap, memungkinkan penulisan objek bersyarat berdasarkan pencocokan versi. Fitur ini meningkatkan sinkronisasi dan kontrol konkurensi, memungkinkan pengembang untuk melakukan operasi yang lebih kompleks, seperti membangun basis data di S3 tanpa infrastruktur tambahan. Pembaruan ini membuat Amazon S3 sejalan dengan fitur serupa yang ditawarkan oleh layanan penyimpanan awan lainnya seperti Google Cloud Storage dan Azure Blob Storage."
+    ],
+    "points": 468,
+    "commentCount": 145,
+    "retryCount": 0,
+    "time": 1732572691
+  },
+  {
+    "id": 42243500,
+    "title": "Lies we tell ourselves to keep using Golang (2022)",
+    "originLink": "https://fasterthanli.me/articles/lies-we-tell-ourselves-to-keep-using-golang",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42243500",
+    "commentBody": "",
+    "originSummary": [
+      "Artikel tersebut mengkritik Golang, mencatat bahwa meskipun memiliki fitur menarik seperti runtime asinkron dan pengumpul sampah, Golang juga memiliki kelemahan signifikan, seperti ketiadaan tipe jumlah dan penanganan kesalahan yang tidak memadai. Artikel ini berpendapat bahwa kesederhanaan yang dipersepsikan dari Go bisa menipu, yang mengarah pada kompleksitas tersembunyi dan tantangan di lingkungan produksi, dan menekankan pentingnya mengenali masalah ini daripada mengadopsi Go semata-mata karena kemudahan penggunaannya. Artikel ini membandingkan Go dengan Rust, menyarankan bahwa meskipun Rust memiliki tantangan, Rust memberikan solusi yang lebih kuat untuk mengelola kompleksitas dan memastikan kebenaran kode."
+    ],
+    "commentSummary": [
+      "Artikel tersebut mengkritik penanganan kesalahan dalam Go, dengan membandingkannya dengan pendekatan Rust yang lebih canggih, yang oleh beberapa orang dianggap lebih elegan.",
+      "Terdapat perbedaan pendapat: beberapa orang menghargai kesederhanaan dan penanganan kesalahan eksplisit dari Go, sementara yang lain menganggapnya membosankan dan rentan terhadap kesalahan.",
+      "Meskipun ada kritik, Go tetap populer karena kesederhanaannya dan adopsi yang luas oleh perusahaan-perusahaan besar."
+    ],
+    "points": 281,
+    "commentCount": 366,
+    "retryCount": 0,
+    "time": 1732608093
+  },
+  {
+    "id": 42242971,
+    "title": "Berbagai Penarikan Kembali Cybertruck",
+    "originLink": "https://www.wired.com/story/cybertrucks-many-recalls-make-it-worse-than-91-percent-of-all-2024-vehicles/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42242971",
+    "commentBody": "",
+    "originSummary": [
+      "Tesla Cybertruck telah mengalami beberapa penarikan kembali sejak peluncurannya, dengan yang terbaru melibatkan inverter penggerak yang rusak yang mempengaruhi lebih dari 2.400 unit, menimbulkan kekhawatiran tentang keandalannya.",
+      "Meskipun ada masalah kualitas, desain unik Cybertruck terus menarik pembeli, meskipun ketidakmampuannya untuk memenuhi standar keselamatan Eropa membatasi jangkauan pasarnya.",
+      "Penarikan kembali, meskipun menunjukkan efektivitas regulasi, dapat merusak reputasi merek Tesla, terutama mengingat pengaruh signifikan Elon Musk terhadap regulasi di AS."
+    ],
+    "commentSummary": [],
+    "points": 267,
+    "commentCount": 393,
+    "retryCount": 0,
+    "time": 1732601537
+  },
+  {
+    "id": 42243746,
+    "title": "Y Combinator sering mendukung startup yang menduplikasi perusahaan YC lainnya, data menunjukkan",
+    "originLink": "https://techcrunch.com/2024/11/22/y-combinator-often-backs-startups-that-duplicate-other-yc-companies-data-shows-its-not-just-ai-code-editors/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42243746",
+    "commentBody": "",
+    "originSummary": [
+      "Y Combinator (YC), sebuah akselerator startup terkemuka, dikenal karena meluncurkan perusahaan-perusahaan sukses seperti Airbnb dan Stripe, tetapi banyak dari startupnya membangun produk yang serupa atau identik dengan perusahaan YC sebelumnya.",
+      "Kontroversi PearAI menyoroti tren ini, di mana PearAI dituduh meniru produk YC lainnya, namun CEO YC Garry Tan membela praktik tersebut, dengan menyebut pentingnya pilihan dan inovasi.",
+      "Analisis tren YC oleh Deckmatch menunjukkan bahwa kategori startup yang populer meliputi editor kode AI, sistem PoS restoran, dan alat keuangan bisnis, dengan beberapa area seperti perdagangan kripto mengalami penurunan minat."
+    ],
+    "commentSummary": [
+      "Y Combinator sering berinvestasi dalam startup yang meniru perusahaan lain yang didukung oleh YC, dengan memprioritaskan potensi pendiri daripada ide yang unik. Strategi ini dipandang sebagai cara untuk mengurangi risiko pada konsep yang serupa, karena kesuksesan sering kali bergantung pada pelaksanaan dan waktu, bukan pada orisinalitas ide. Meskipun beberapa orang melihat ini sebagai potensi konflik kepentingan, ini adalah praktik umum dalam modal ventura untuk mendanai beberapa perusahaan di sektor yang sama guna memvalidasi pasar dan meningkatkan kemungkinan keberhasilan."
+    ],
+    "points": 240,
+    "commentCount": 133,
+    "retryCount": 0,
+    "time": 1732611000
+  },
+  {
+    "id": 42241851,
+    "title": "Pemadaman Fly.io – telah diselesaikan",
+    "originLink": "https://status.flyio.net",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42241851",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Fly.io mengalami gangguan sementara, yang telah diselesaikan, tetapi hal ini menimbulkan kekhawatiran pengguna tentang keandalan platform tersebut karena insiden-insiden sebelumnya. Pengguna membandingkan Fly.io dengan alternatif seperti Railway dan Cloudflare, menyoroti perbedaan dalam keandalan, fitur, dan pengalaman pengguna. Meskipun ada tantangan, beberapa pengguna menghargai Fly.io karena kemudahan penggunaannya dan harga yang kompetitif, sementara diskusi menekankan pentingnya ketersediaan tinggi dan pemantauan ketergantungan."
+    ],
+    "points": 227,
+    "commentCount": 217,
+    "retryCount": 0,
+    "time": 1732585645
+  },
+  {
+    "id": 42239721,
+    "title": "Pengantar Singkat tentang Teknologi Lidar Otomotif",
+    "originLink": "https://www.viksnewsletter.com/p/short-intro-to-automotive-lidar",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239721",
+    "commentBody": "",
+    "originSummary": [
+      "Newsletter Vik membahas teknologi lidar otomotif, yang penting untuk mobil self-driving karena kemampuannya menghasilkan gambar resolusi tinggi menggunakan laser inframerah. Newsletter ini membahas prinsip operasi lidar, termasuk pilihan panjang gelombang, fotodetektor, dan teknik pengukuran jarak seperti Time-of-Flight dan Frequency Modulated Continuous Wave. Selain itu, juga meneliti berbagai sistem lidar, seperti opsi mekanis dan solid-state, dengan tujuan mengurangi biaya dan meningkatkan teknologi untuk adopsi yang lebih luas dalam kendaraan otonom."
+    ],
+    "commentSummary": [
+      "Teknologi lidar otomotif sedang berkembang, dengan pemindai berputar seperti milik Velodyne yang digunakan meskipun biayanya tinggi, sementara alternatif seperti flash lidar dan cermin MEMS menghadapi tantangan pasar dan teknis.",
+      "Penggunaan berkelanjutan lidar berputar oleh Waymo, bahkan di sudut-sudut kendaraan yang rentan, menekankan kebutuhan akan solusi yang lebih terjangkau dan terintegrasi, karena lidar berdenyut menawarkan gangguan yang lebih rendah dibandingkan dengan sistem kontinu.",
+      "Lidar menyediakan pencitraan beresolusi tinggi dan berfungsi dengan baik dalam kondisi cahaya rendah, tetapi menghadapi persaingan dari sistem berbasis kamera, yang disukai beberapa perusahaan, seperti Tesla, karena alasan biaya, memicu perdebatan yang berkelanjutan tentang pendekatan terbaik untuk mengemudi otonom."
+    ],
+    "points": 219,
+    "commentCount": 157,
+    "retryCount": 0,
+    "time": 1732565547
+  },
+  {
+    "id": 42239952,
+    "title": "Apakah Anda memerlukan ID untuk membaca aturan REAL-ID?",
+    "originLink": "https://papersplease.org/wp/2024/11/25/do-you-need-id-to-read-the-real-id-rules/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239952",
+    "commentBody": "",
+    "originSummary": [
+      "Upaya untuk mengakses aturan ID digital baru TSA mengungkapkan masalah dengan Undang-Undang REAL-ID, karena aturan tersebut tidak dapat diakses secara publik dan memerlukan ID untuk akses, menimbulkan kekhawatiran tentang hukum rahasia dan proses hukum yang adil.",
+      "TSA memiliki standar ID digital yang berasal dari dokumen pribadi, yang melibatkan interaksi kompleks antara aplikasi, perangkat, dan lembaga pemerintah, dengan kekhawatiran privasi terkait penggunaan ID yang dicatat.",
+      "Penulis berpendapat bahwa praktik TSA melanggar hak akses publik dan telah melaporkan masalah ini ke Kantor Pendaftaran Federal, dengan tujuan untuk menarik kembali aturan tersebut."
+    ],
+    "commentSummary": [
+      "Diskusi berpusat pada kebutuhan memiliki ID untuk mengakses aturan REAL-ID, dengan beberapa pengguna mempertanyakan efektivitas langkah-langkah keamanan TSA. Kekhawatiran muncul tentang implikasi dari lisensi pengemudi seluler (mDLs) dan masalah privasi yang mungkin ditimbulkannya. Pengguna menyatakan skeptisisme tentang efektivitas TSA dan konsep teater keamanan, sambil juga mempertanyakan implikasi jangka panjang dari ID digital seperti REAL-ID dan mDLs."
+    ],
+    "points": 212,
+    "commentCount": 82,
+    "retryCount": 0,
+    "time": 1732567234
+  },
+  {
+    "id": 42244814,
+    "title": "Solusi untuk masalah The Onion dari J. Kenji Lopez-Alt (2021)",
+    "originLink": "https://medium.com/@drspoulsen/a-solution-to-the-onion-problem-of-j-kenji-l%C3%B3pez-alt-c3c4ab22e67c",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42244814",
+    "commentBody": "",
+    "originSummary": [
+      "Tulisan tersebut membahas \"Masalah Bawang,\" yang melibatkan pemotongan bawang untuk mencapai varians minimal dalam volume irisan demi keseragaman. - Sebuah eksplorasi matematis menggunakan kalkulus menentukan titik potong optimal adalah 55,73066% di bawah pusat bawang, yang disebut sebagai \"konstanta bawang sejati.\" - Temuan ini menyempurnakan saran sebelumnya untuk memotong menuju titik 60% di bawah pusat, memberikan metode yang lebih tepat untuk irisan bawang yang merata."
+    ],
+    "commentSummary": [
+      "Diskusi tersebut mengeksplorasi model matematika untuk memotong bawang secara merata, terinspirasi oleh J. Kenji Lopez-Alt, dengan menggunakan representasi setengah lingkaran untuk menyederhanakan geometri dan meminimalkan variasi ukuran irisan. Pengguna memperdebatkan kepraktisan dan akurasi model tersebut, dengan mempertimbangkan struktur 3D bawang dan lapisan yang tidak seragam, serta menyarankan metode atau alat pemotongan alternatif. Percakapan juga mempertimbangkan keseimbangan antara keseragaman dan preferensi kuliner, merujuk pada tokoh kuliner seperti Adam Ragusea."
+    ],
+    "points": 177,
+    "commentCount": 67,
+    "retryCount": 0,
+    "time": 1732621091
+  },
+  {
+    "id": 42239607,
+    "title": "Redis sedang berusaha mengambil alih semua pustaka Redis OSS.",
+    "originLink": "https://twitter.com/TomHacohen/status/1861137484249252093",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239607",
+    "commentBody": "",
+    "originSummary": [
+      "Redis dilaporkan mengambil alih semua perpustakaan perangkat lunak sumber terbuka (OSS) Redis, yang mencakup perpustakaan populer seperti Jedis, Lettuce, dan redis-py.",
+      "Perpustakaan-perpustakaan ini saat ini sedang tidak berfungsi, dan perpustakaan lain, redis-rs, juga menghadapi potensi pengendalian atau penutupan.",
+      "Situasi ini penting karena mempengaruhi pengembang yang bergantung pada pustaka-pustaka ini untuk integrasi Redis dalam aplikasi mereka."
+    ],
+    "commentSummary": [
+      "Redis Inc. mengambil alih kendali atas pustaka Redis sumber terbuka, memicu kontroversi dan menyebabkan beberapa pengembang menghapus ketergantungan Redis karena masalah penegakan merek dagang.",
+      "Libraries seperti redis-py, Lettuce, dan Jedis telah dipindahkan di bawah organisasi resmi Redis Inc., yang dilihat sebagai strategi defensif melawan pesaing seperti Valkey.",
+      "Komunitas khawatir tentang klaim merek dagang dan potensi penguncian vendor, yang mendorong diskusi tentang alternatif seperti Valkey dan Kvrocks, serta menyoroti tantangan penegakan merek dagang dalam proyek sumber terbuka."
+    ],
+    "points": 150,
+    "commentCount": 81,
+    "retryCount": 0,
+    "time": 1732564808
+  },
+  {
+    "id": 42243755,
+    "title": "Setelinleikkaus: Ketika Orang Finlandia Memotong Uang Tunai Mereka Menjadi Dua untuk Menekan Inflasi",
+    "originLink": "http://jpkoning.blogspot.com/2024/11/setelinleikkaus-when-finns-snipped.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42243755",
+    "commentBody": "",
+    "originSummary": [
+      "Pada tahun 1945, Finlandia menerapkan \"setelinleikkaus,\" sebuah kebijakan yang mengharuskan warga untuk memotong uang kertas besar menjadi dua untuk melawan inflasi pasca-Perang Dunia II, dengan satu bagian tetap memiliki nilai dan bagian lainnya menjadi obligasi pemerintah. Kebijakan ini tidak efektif karena hanya menargetkan uang tunai fisik, yang merupakan bagian kecil dari suplai uang, berbeda dengan reformasi yang lebih berhasil di negara-negara Eropa lainnya seperti Belgia. Artikel tersebut berspekulasi bahwa pengendalian inflasi di masa depan mungkin melibatkan pembekuan akun digital, sebuah metode yang lebih tepat tetapi berpotensi kontroversial."
+    ],
+    "commentSummary": [
+      "Pada tahun 1945, Finlandia secara unik menangani inflasi dengan memotong uang kertas menjadi dua, berbeda dengan metode modern seperti menyesuaikan suku bunga.",
+      "Pendekatan historis ini telah memicu diskusi tentang kebijakan moneter saat ini, di mana bank sentral mengelola inflasi melalui suku bunga dan operasi pasar terbuka.",
+      "Terkendali masa depan uang digital, mungkin melalui mata uang digital bank sentral, menimbulkan kekhawatiran tentang peningkatan pengawasan pemerintah terhadap keuangan pribadi."
+    ],
+    "points": 145,
+    "commentCount": 131,
+    "retryCount": 0,
+    "time": 1732611120
+  },
+  {
+    "id": 42239487,
+    "title": "Doa, Penempatan, dan Pengampunan: Peter Hristoff tentang Karpet Doa Islam (2015)",
+    "originLink": "https://www.metmuseum.org/perspectives/peter-hristoff-islamic-prayer-rugs",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239487",
+    "commentBody": "",
+    "originSummary": [
+      "Artwork Peter Hristoff menyelami persimpangan antara seni dan spiritualitas, terutama melalui media permadani doa, dimulai dari tahun 1997. Karya-karyanya, termasuk gambar dan cetakan serigrafi, berkembang menjadi potongan \"karpet\" yang lebih besar di atas kertas beras, terinspirasi oleh permadani dan kilim Turki, yang ia pandang sebagai buku harian pribadi dengan makna simbolis. Karya Hristoff mewujudkan \"kesedihan cerah,\" perpaduan antara kegembiraan dan kesedihan, dipengaruhi oleh tulisan-tulisan Patriark Bartholomew, dan terus mengeksplorasi aspek spiritual dan fisik dari sifat manusia."
+    ],
+    "commentSummary": [
+      "Artikel Peter Hristoff mengeksplorasi pentingnya sajadah Islam, menekankan desainnya yang rumit, seperti tesselasi, yang melambangkan ketakterbatasan Tuhan. Artikel ini membahas larangan seni representasional dalam Islam, yang mengarah pada penggunaan kaligrafi dan pola geometris dalam artefak Islam. Artikel ini menyoroti konteks sejarah dan budaya sajadah, mencatat penggunaannya di berbagai tradisi agama, termasuk Kristen, serta peran praktis dan spiritualnya."
+    ],
+    "points": 123,
+    "commentCount": 61,
+    "retryCount": 0,
+    "time": 1732563945
+  },
+  {
+    "id": 42239263,
+    "title": "Deno vs. Oracle: Membatalkan Merek Dagang JavaScript",
+    "originLink": "https://deno.com/blog/deno-v-oracle",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239263",
+    "commentBody": "",
+    "originSummary": [
+      "Deno telah mengajukan petisi kepada Kantor Paten dan Merek Dagang Amerika Serikat (USPTO) untuk membatalkan merek dagang Oracle atas \"JavaScript,\" dengan tujuan menjadikannya barang publik dan menghilangkan hambatan hukum untuk penggunaannya.",
+      "Petisi tersebut berargumen bahwa \"JavaScript\" adalah istilah generik, Oracle melakukan penipuan dalam memperbarui merek dagang, dan Oracle telah meninggalkan merek dagang tersebut karena tidak digunakan.",
+      "Lebih dari 14.000 pengembang mendukung langkah Deno, dan Oracle memiliki waktu hingga 4 Januari 2025 untuk merespons, dengan Deno siap membagikan semua proses dengan komunitas."
+    ],
+    "commentSummary": [
+      "Deno telah mengajukan petisi kepada Kantor Paten dan Merek Dagang Amerika Serikat (USPTO) untuk membatalkan merek dagang Oracle atas JavaScript, memicu perdebatan tentang etika merek dagang dan manfaat bagi komunitas.",
+      "Teks tersebut membahas kompatibilitas Deno dengan Node Package Manager (NPM) dan dampaknya terhadap ekosistem JavaScript yang lebih luas, mencerminkan perbedaan pendapat tentang masa depan JavaScript dan lingkungan runtime.",
+      "Opini terbagi, dengan beberapa orang melihat penggunaan merek dagang Oracle sebagai tidak etis, sementara yang lain mempertanyakan niat Deno, menyarankan bahwa itu mungkin merupakan strategi hubungan masyarakat."
+    ],
+    "points": 120,
+    "commentCount": 23,
+    "retryCount": 0,
+    "time": 1732562433
+  },
+  {
+    "id": 42244987,
+    "title": "Plugin SQLite untuk Jekyll",
+    "originLink": "https://github.com/captn3m0/jekyll-sqlite",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42244987",
+    "commentBody": "",
+    "originSummary": [
+      "Penulis telah mengembangkan plugin Jekyll SQLite untuk meningkatkan kemampuan manipulasi data dalam Jekyll, sebuah generator situs statis yang populer.",
+      "Plugin ini memungkinkan pengguna untuk melakukan kueri SQL untuk pengolahan data, mengatasi keterbatasan Liquid, bahasa templating Jekyll, dalam menangani operasi data yang kompleks.",
+      "Plugin ini telah berhasil digunakan dalam produksi selama setahun, ditunjukkan dengan dataset Northwind, dan penulis mengundang masukan serta saran untuk perbaikan."
+    ],
+    "commentSummary": [
+      "A Jekyll SQLite plugin memungkinkan penggunaan SQLite sebagai sumber data di Jekyll, meningkatkan kemampuan manipulasi data dengan SQL. Ini mengintegrasikan fitur generator Datafiles dan Data Pages Jekyll, memungkinkan penanganan data yang lebih kompleks di luar format tradisional CSV/JSON/YAML. Plugin ini telah digunakan dalam produksi selama setahun, menerima umpan balik positif karena membuat pembuatan situs statis menjadi lebih dinamis dan fleksibel."
+    ],
+    "points": 119,
+    "commentCount": 35,
+    "retryCount": 0,
+    "time": 1732623091
+  },
+  {
+    "id": 42241702,
+    "title": "Uban Dini: Tinjauan dengan Pembaruan",
+    "originLink": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6290285/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42241702",
+    "commentBody": "",
+    "originSummary": [
+      "Rambut beruban prematur (PGH) didefinisikan sebagai rambut beruban sebelum usia 20 tahun pada orang Kaukasia dan sebelum 30 tahun pada orang Afrika-Amerika, yang mempengaruhi harga diri. Penyebab PGH belum sepenuhnya dipahami tetapi dikaitkan dengan gangguan penuaan, penyakit autoimun, dan stres oksidatif, dengan faktor-faktor seperti merokok dan kekurangan nutrisi turut berkontribusi. Perawatan umum untuk PGH meliputi pewarna rambut dan suplemen nutrisi, dengan studi yang menunjukkan adanya hubungan antara PGH dan faktor emosional, predisposisi genetik, serta pengaruh lingkungan."
+    ],
+    "commentSummary": [
+      "Rambut beruban prematur dikaitkan dengan kekurangan vitamin B12, terutama pada individu dengan anemia pernisiosa, suatu kondisi di mana tubuh tidak dapat menyerap B12 dengan baik. Mendiagnosis kekurangan B12 bisa menjadi tantangan karena suplementasi dapat secara artifisial meningkatkan kadar B12, dan beberapa individu tidak dapat mengubah bentuk tertentu dari B12 menjadi bentuk aktif, yang mengarah pada \"kekurangan B12 paradoks.\" Faktor-faktor seperti stres, genetika, dan kondisi kesehatan seperti tiroid autoimun juga berkontribusi pada uban, dan meskipun beberapa suplemen mungkin membantu, tidak ada metode yang terbukti untuk membalikkan rambut beruban."
+    ],
+    "points": 110,
+    "commentCount": 98,
+    "retryCount": 0,
+    "time": 1732583700
+  },
+  {
+    "id": 42245170,
+    "title": "Devirtualisasi yang didukung oleh LLVM",
+    "originLink": "https://blog.thalium.re/posts/llvm-powered-devirtualization/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42245170",
+    "commentBody": "",
+    "originSummary": [
+      "The internship di Thalium berfokus pada deobfuscating biner yang tervirtualisasi menggunakan LLVM, sebuah kerangka kerja kompilator, untuk membuat kode lebih mudah dipahami, terutama dalam konteks malware. Virtualisasi, sebuah teknik obfuscation yang kuat yang digunakan oleh alat seperti Tigress dan VMProtect, mengkodekan program menjadi instruksi virtual, membuat rekayasa balik menjadi kompleks. Proyek ini berhasil menggunakan analisis taint dinamis untuk merekonstruksi grafik aliran kontrol dari biner yang diobfuscate oleh Tigress, meskipun terbatas pada fungsi murni dan jalur eksekusi tunggal."
+    ],
+    "commentSummary": [
+      "Devirtualisasi yang didukung oleh LLVM meningkatkan kinerja dengan mengoptimalkan panggilan fungsi virtual, yang biasanya lebih lambat karena sifatnya yang dinamis.",
+      "Bochs, sebuah emulator CPU, dapat dengan efisien mengemulasikan prosesor Pentium 4 pada i7, bahkan melewati detektor mesin virtual.",
+      "Debugger Bochs sangat efektif dalam menganalisis dan melawan malware serta pengabur kode, menjadikannya alat yang berharga untuk penelitian keamanan."
+    ],
+    "points": 107,
+    "commentCount": 1,
+    "retryCount": 0,
+    "time": 1732624714
+  }
+]

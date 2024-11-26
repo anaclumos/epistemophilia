@@ -15,11 +15,194 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 25 Nov 2024 19:40:14 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Nov 2024 19:20:17 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/story/zh-Hant.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
+        <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
         <language><![CDATA[zh-Hant]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Amazon S3 新增 Put-If-Match(比較並交換)功能]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Amazon S3 引入了條件寫入功能，僅在物件未被修改的情況下進行更新，透過驗證物件的 ETag 來防止同時覆寫。這項功能類似於 HTTP 的 if-none-match 標頭，允許客戶端使用 if-match 標頭來確保在寫入前 ETag 的一致性，提升分散式應用程式的效率。此功能在所有 AWS 區域均無需額外費用即可使用，實作可透過 AWS SDK、API 或 CLI 進行，更多詳情請參閱 S3 使用者指南。</li>
+</ul>
+]]></description>
+            <link>https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-s3-functionality-conditional-writes/</link>
+            <guid isPermaLink="false">2024-11-26T00:00:00.000ZAmazon S3 新增 Put-If-Match(比較並交換)功能</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[「我們告訴自己以繼續使用 Golang 的謊言(2022)」]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>這篇文章批評了 Golang，指出儘管它具有非同步運行時和垃圾回收器等吸引人的特點，但也存在重大缺點，例如缺乏和類型以及不充分的錯誤處理。文章認為，Go 的簡單性可能具有欺騙性，導致在生產環境中出現隱藏的複雜性和挑戰，並強調認識這些問題的重要性，而不是僅僅因為易用性而採用 Go。文章將 Go 與 Rust 進行對比，指出儘管 Rust 存在挑戰，但它在管理複雜性和確保程式碼正確性方面提供了更強大的解決方案。</li>
+</ul>
+]]></description>
+            <link>https://fasterthanli.me/articles/lies-we-tell-ourselves-to-keep-using-golang</link>
+            <guid isPermaLink="false">2024-11-26T00:00:00.000Z「我們告訴自己以繼續使用 Golang 的謊言(2022)」</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[「Cybertruck 的多次召回」]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>自從推出以來，特斯拉 Cybertruck 已經經歷了多次召回，最新的一次涉及故障的驅動逆變器，影響超過 2,400 輛車，這引發了對其可靠性的擔憂。</li>
+<li>儘管存在品質問題，Cybertruck 獨特的設計仍然吸引買家，然而其無法符合歐洲安全標準的缺陷限制了其市場範圍。</li>
+<li>儘管召回事件顯示了監管的有效性，但可能會損害特斯拉的品牌聲譽，特別是在考量到伊隆·馬斯克對美國監管具有重大影響力的情況下。</li>
+</ul>
+]]></description>
+            <link
+      >https://www.wired.com/story/cybertrucks-many-recalls-make-it-worse-than-91-percent-of-all-2024-vehicles/</link>
+            <guid isPermaLink="false">2024-11-26T00:00:00.000Z「Cybertruck 的多次召回」</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[「數據顯示，Y Combinator 經常支持與其他 YC 公司重複的初創企業」]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Y Combinator(YC)是一個知名的創業加速器，以推出成功的公司如 Airbnb 和 Stripe 而聞名，但其許多新創公司開發的產品與之前的 YC 公司相似或相同。</li>
+<li>PearAI 爭議突顯了這一趨勢，PearAI 被指控複製了另一個 YC 產品，但 YC 執行長 Garry Tan 為此行為辯護，強調選擇和創新的重要性。</li>
+<li>Deckmatch 對 YC 趨勢的分析顯示，受歡迎的新創公司類別包括 AI 程式碼編輯器、餐廳 PoS 系統和商業財務工具，而某些領域如加密貨幣交易的興趣則有所減少。</li>
+</ul>
+]]></description>
+            <link
+      >https://techcrunch.com/2024/11/22/y-combinator-often-backs-startups-that-duplicate-other-yc-companies-data-shows-its-not-just-ai-code-editors/</link>
+            <guid
+        isPermaLink="false"
+      >2024-11-26T00:00:00.000Z「數據顯示，Y Combinator 經常支持與其他 YC 公司重複的初創企業」</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Fly.io 停機問題已解決]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://status.flyio.net</link>
+            <guid isPermaLink="false">2024-11-26T00:00:00.000ZFly.io 停機問題已解決</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[A Short Introduction to Automotive Lidar Technology]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>「Vik 的電子報深入探討汽車光達技術，這對於自駕車來說至關重要，因為它能夠使用紅外線雷射產生高解析度影像。電子報討論了光達的運作原理，包括波長選擇、光電探測器以及飛行時間和頻率調變連續波等測距技術。它還檢視了各種光達系統，如機械式和固態選項，目的是降低成本並提升技術，以便在自動駕駛車輛中更廣泛地採用。」</li>
+</ul>
+]]></description>
+            <link>https://www.viksnewsletter.com/p/short-intro-to-automotive-lidar</link>
+            <guid isPermaLink="false">2024-11-26T00:00:00.000ZA Short Introduction to Automotive Lidar Technology</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[你需要身份證才能閱讀 REAL-ID 規則嗎？]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>試圖查閱美國運輸安全管理局(TSA)新的數位身份識別規則時，揭示了《真實身份法案》(REAL-ID Act)存在的問題，因為這些規則無法公開獲取且需要身份證明才能查閱，這引發了對秘密法律和正當程序的擔憂。</li>
+<li>美國運輸安全管理局(TSA)的數位身份識別標準源自於私人文件，涉及應用程式、裝置和政府機構之間的複雜互動，並伴隨著對身份識別使用記錄的隱私疑慮。</li>
+<li>作者主張，TSA 的做法侵犯了公眾的使用權，並已向聯邦公報辦公室報告此問題，尋求撤回該規則。</li>
+</ul>
+]]></description>
+            <link>https://papersplease.org/wp/2024/11/25/do-you-need-id-to-read-the-real-id-rules/</link>
+            <guid isPermaLink="false">2024-11-26T00:00:00.000Z你需要身份證才能閱讀 REAL-ID 規則嗎？</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[「J. Kenji Lopez-Alt(2021)提出的洋蔥問題解決方案」]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>「這篇文章探討了“洋蔥問題”，即如何切洋蔥以達到切片體積的最小變異以獲得均勻性。- 使用微積分進行的數學探索確定了最佳切割點位於洋蔥中心下方的55.73066%，稱為“真正的洋蔥常數”。- 這一發現修正了先前建議的切割至中心下方60%的點，提供了一種更精確的方法來獲得均勻的洋蔥切片。」</li>
+</ul>
+]]></description>
+            <link
+      >https://medium.com/@drspoulsen/a-solution-to-the-onion-problem-of-j-kenji-l%C3%B3pez-alt-c3c4ab22e67c</link>
+            <guid isPermaLink="false">2024-11-26T00:00:00.000Z「J. Kenji Lopez-Alt(2021)提出的洋蔥問題解決方案」</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Redis 正試圖接管所有的 OSS Redis 函式庫]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>據報導，Redis 正在接管所有開源軟體 (OSS) Redis 函式庫，其中包括像 Jedis、Lettuce 和 redis-py 這些受歡迎的函式庫。</li>
+<li>這些函式庫目前無法使用，另一個函式庫 redis-rs 也面臨潛在的控制或關閉問題。</li>
+<li>這種情況很重要，因為它影響到依賴這些函式庫來在其應用程式中進行 Redis 整合的開發者。</li>
+</ul>
+]]></description>
+            <link>https://twitter.com/TomHacohen/status/1861137484249252093</link>
+            <guid isPermaLink="false">2024-11-26T00:00:00.000ZRedis 正試圖接管所有的 OSS Redis 函式庫</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Setelinleikkaus：當芬蘭人將現金剪成兩半以抑制通貨膨脹]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>「1945 年，芬蘭實施了“setelinleikkaus”政策，要求公民將大額鈔票剪成兩半，以應對二戰後的通貨膨脹，其中一半保留價值，另一半則成為政府債券。該政策效果不佳，因為它僅針對實體現金，而這只是貨幣供應的一小部分，與比利時等其他歐洲國家更成功的改革不同。文章推測，未來的通貨膨脹控制可能涉及凍結數位帳戶，這是一種更精確但可能具爭議的方法。」</li>
+</ul>
+]]></description>
+            <link>http://jpkoning.blogspot.com/2024/11/setelinleikkaus-when-finns-snipped.html</link>
+            <guid
+        isPermaLink="false"
+      >2024-11-26T00:00:00.000ZSetelinleikkaus：當芬蘭人將現金剪成兩半以抑制通貨膨脹</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[「祈禱、擺放與赦免：彼得·赫里斯托夫談伊斯蘭祈禱毯(2015)」]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>彼得·赫里斯托夫的藝術作品深入探討藝術與靈性之間的交集，特別是透過祈禱毯這一媒介，自1997年開始。他的創作，包括素描和絲網印刷，逐漸演變成在宣紙上製作的大型「地毯」作品，靈感來自土耳其地毯和克里姆地毯，他將其視為具有象徵意義的個人日記。赫里斯托夫的作品體現了「明亮的悲傷」，這是一種喜悅與悲傷的融合，受到巴爾多祿茂宗主教著作的影響，並持續探索人類本性的靈性和物質層面。</li>
+</ul>
+]]></description>
+            <link>https://www.metmuseum.org/perspectives/peter-hristoff-islamic-prayer-rugs</link>
+            <guid
+        isPermaLink="false"
+      >2024-11-26T00:00:00.000Z「祈禱、擺放與赦免：彼得·赫里斯托夫談伊斯蘭祈禱毯(2015)」</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[「Deno 與 Oracle：取消 JavaScript 商標」]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>「Deno 已向美國專利商標局(USPTO)提交請願書，要求取消 Oracle 對「JavaScript」的商標註冊，旨在將其變為公共資源，並消除其使用上的法律障礙。」</li>
+<li>該請願書主張「JavaScript」是一個通用術語，Oracle 在商標續展時犯下欺詐行為，並且 Oracle 因未使用而放棄了該商標。</li>
+<li>超過 14,000 名開發者支持 Deno 的行動，Oracle 必須在 2025 年 1 月 4 日之前作出回應，Deno 準備與社群分享所有進展。</li>
+</ul>
+]]></description>
+            <link>https://deno.com/blog/deno-v-oracle</link>
+            <guid isPermaLink="false">2024-11-26T00:00:00.000Z「Deno 與 Oracle：取消 JavaScript 商標」</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Jekyll 的 SQLite 插件]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>作者開發了一個 Jekyll SQLite 外掛程式，以增強 Jekyll 這個受歡迎的靜態網站生成器中的資料操作能力。</li>
+<li>此外掛程式允許使用者執行 SQL 查詢以進行資料整理，解決 Liquid(Jekyll 的模板語言)在處理複雜資料操作時的限制。</li>
+<li>該插件已成功在生產環境中使用了一年，並以 Northwind 資料集進行了展示。作者邀請提供反饋和改進建議。</li>
+</ul>
+]]></description>
+            <link>https://github.com/captn3m0/jekyll-sqlite</link>
+            <guid isPermaLink="false">2024-11-26T00:00:00.000ZJekyll 的 SQLite 插件</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[「頭髮早白：更新回顧」]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>早髮性白髮(PGH)被定義為白種人在20歲之前和非裔美國人在30歲之前出現白髮，這會影響自尊心。- PGH的原因尚未完全了解，但與老化疾病、自體免疫疾病和氧化壓力有關，吸菸和營養缺乏等因素也有影響。- 常見的PGH治療方法包括染髮劑和營養補充劑，研究顯示PGH與情緒因素、遺傳傾向和環境影響有關聯。</li>
+</ul>
+]]></description>
+            <link>https://pmc.ncbi.nlm.nih.gov/articles/PMC6290285/</link>
+            <guid isPermaLink="false">2024-11-26T00:00:00.000Z「頭髮早白：更新回顧」</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[基於 LLVM 的去虛擬化]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>在 Thalium 的實習專注於使用 LLVM(編譯器框架)來解混淆虛擬化的二進位檔案，以使程式碼更易於理解，特別是在惡意軟體的背景下。- 虛擬化是一種強大的混淆技術，由 Tigress 和 VMProtect 等工具使用，將程式編碼為虛擬指令，使逆向工程變得複雜。- 該專案成功地使用動態汙點分析重建了 Tigress 混淆的二進位檔案的控制流圖，儘管它僅限於純函數和單一執行路徑。</li>
+</ul>
+]]></description>
+            <link>https://blog.thalium.re/posts/llvm-powered-devirtualization/</link>
+            <guid isPermaLink="false">2024-11-26T00:00:00.000Z基於 LLVM 的去虛擬化</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[「RFC 35140：HTTP 不刺傷(2023)」]]></title>
             <description><![CDATA[<p>- </p>
@@ -1280,200 +1463,6 @@
             <link>https://bitfieldconsulting.com/posts/constraints</link>
             <guid isPermaLink="false">2024-11-17T00:00:00.000ZGo 語言中的限制</guid>
             <pubDate>Sun, 17 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Half-Life 2：20 週年更新]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>「Valve 已在 Steam 上發布了《半條命 2》20 週年更新，新增了內容和增強功能。此次更新包括開發者評論、Steam 工作坊支援、改進的圖形和錯誤修正，還有新的遊戲手柄和輸入設定。它還整合了《第一章》和《第二章》的擴展包，並提供了額外的內容，如桌布和原聲帶供下載。」</li>
-</ul>
-]]></description>
-            <link>https://www.half-life.com/en/halflife2/20th</link>
-            <guid isPermaLink="false">2024-11-16T00:00:00.000ZHalf-Life 2：20 週年更新</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[也許 Bluesky 已經「贏了」]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>「Bluesky 正逐漸成為 X 的替代方案，但尚未完全去中心化或聯邦化，仍依賴其自有伺服器。該平台使用 AT 協議，其中包括個人資料伺服器、中繼站和應用程式視圖，允許用戶自行託管資料，但這需要技術專業知識且可能成本高昂。雖然 Bluesky 是免費的，並提供基於網域的用戶名和可自訂的審核功能，但其財務模式依賴於網域銷售，這對其長期的可持續性提出了疑問。」</li>
-</ul>
-]]></description>
-            <link>https://anderegg.ca/2024/11/15/maybe-bluesky-has-won</link>
-            <guid isPermaLink="false">2024-11-16T00:00:00.000Z也許 Bluesky 已經「贏了」</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[研究發現，特斯拉在所有汽車品牌中擁有最高的致命事故率]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link
-      >https://www.roadandtrack.com/news/a62919131/tesla-has-highest-fatal-accident-rate-of-all-auto-brands-study/</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-16T00:00:00.000Z研究發現，特斯拉在所有汽車品牌中擁有最高的致命事故率</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Netflix 緩衝問題：拳擊迷抱怨傑克·保羅對戰麥克·泰森]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>拳擊迷在 Netflix 觀看傑克·保羅對戰麥克·泰森的比賽時遇到了緩衝問題，導致延遲、分析不流暢和黑屏。</li>
-<li>串流問題引發了對 Netflix 處理現場體育賽事能力的擔憂，尤其是在即將到來的聖誕節當天安排的 NFL 比賽。</li>
-<li>有些觀眾選擇觀看 Antonio Brown 在 X 平台上的直播，該直播吸引了 640 萬觀眾的關注。</li>
-</ul>
-]]></description>
-            <link
-      >https://www.sportingnews.com/us/boxing/news/netflix-buffering-livestream-issues-boxing-jake-paul-mike-tyson/327ee972d4b14d90cc370461</link>
-            <guid isPermaLink="false">2024-11-16T00:00:00.000ZNetflix 緩衝問題：拳擊迷抱怨傑克·保羅對戰麥克·泰森</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Llama-OCR：文件轉換為 Markdown]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>這篇文章介紹了一種使用 llama-ocr 和 Together AI OCR 將圖片轉換為 markdown 格式的方法，這些都是光學字符識別工具。</li>
-<li>使用者可以上傳圖片以獲得結構化的 Markdown，從而更輕鬆地從圖片中提取和格式化文字。</li>
-<li>「提供的 JavaScript 範例程式碼展示了如何使用 llama-ocr 函式庫來處理影像檔案並獲得 Markdown 輸出。」</li>
-</ul>
-]]></description>
-            <link>https://llamaocr.com/</link>
-            <guid isPermaLink="false">2024-11-16T00:00:00.000ZLlama-OCR：文件轉換為 Markdown</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[以每月不到 2.50 美元的價格使用 Bluesky 數據流]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>「Bluesky 的公開數據，包括 1500 萬用戶，透過名為 Jetstream 的 websocket JSON 資料流提供，能夠進行即時網路監控。」</li>
-<li>「開發了一個簡單的應用程式，用於監聽來自 Jetstream 資料流的刪除事件，並暫時顯示匿名化的刪除文字。」</li>
-<li>該應用程式運行在 Fly 的最小實例上，每月費用為 2.24 美元，能有效管理貼文事件、內容過濾、文字快取和廣播已刪除的貼文，儘管更複雜的應用程式可能面臨擴展性挑戰。</li>
-</ul>
-]]></description>
-            <link>https://bsky.bad-example.com/consuming-the-firehose-cheaply/</link>
-            <guid isPermaLink="false">2024-11-16T00:00:00.000Z以每月不到 2.50 美元的價格使用 Bluesky 數據流</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[「第一印象：搭載高通 Snapdragon ARM64 處理器的 Lenovo T14s」]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>「搭載高通 Snapdragon ARM64 CPU 的 Lenovo T14s 正在進行評估，這突顯出由於傳統 X86 架構被認為效率不佳而產生的轉變。」</li>
-<li>「在 FreeBSD-current 上的初始設置需要 ARM64 特定的補丁，部分硬體元件如螢幕和 NVME 可以運作，但其他如鍵盤和 USB-C 埠則無法運作。」</li>
-<li>效能測試顯示，該裝置在3210秒內使用24瓦時的能量建構了世界，這歸功於其12個實體CPU，從而獲得了正面的推薦。</li>
-</ul>
-]]></description>
-            <link>https://lists.freebsd.org/archives/freebsd-hackers/2024-November/004068.html</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-16T00:00:00.000Z「第一印象：搭載高通 Snapdragon ARM64 處理器的 Lenovo T14s」</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Yggdrasil 網路]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Yggdrasil 是一種實驗性的路由方案，旨在為當前的網際網路路由協定提供一個去中心化且具未來性的替代方案，特別是針對大規模的網狀網路。它提供了可擴展性、自我修復、加密和跨平台支持等功能，能夠在各種作業系統上運行，包括 Linux、macOS、Windows、iOS 和 Android。儘管仍處於 alpha 階段，Yggdrasil 已經穩定到可以日常使用，提供端到端加密的 IPv6 路由，並且可以在 IPv4 和 IPv6 網路上進行配置。</li>
-</ul>
-]]></description>
-            <link>https://yggdrasil-network.github.io/</link>
-            <guid isPermaLink="false">2024-11-16T00:00:00.000ZYggdrasil 網路</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Kyanos：基於 eBPF 的網路問題分析工具]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Kyanos 是一款基於 eBPF 的工具，專為網路分析設計，能夠捕捉和分析各種網路請求，如 HTTP、Redis 和 MySQL。</li>
-<li>它具有先進的流量過濾選項，可依據 IP、埠、程序、容器和協定進行過濾，並提供核心層級的延遲洞察以及自動 SSL 流量解密功能。</li>
-<li>該工具輕量化，所需相依性極少，並且相容於 Linux 核心版本 3.10 和 4.14 或更高版本，使其對廣大使用者來說都很容易使用。</li>
-</ul>
-]]></description>
-            <link>https://github.com/hengyoush/kyanos</link>
-            <guid isPermaLink="false">2024-11-16T00:00:00.000ZKyanos：基於 eBPF 的網路問題分析工具</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[M4 MacBook Pro 使用量子點(QD)薄膜，而非紅色 KSF 磷光體薄膜]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>蘋果的新款 MacBook Pro (M4) 引入了量子點 (QD) 薄膜，取代了先前使用的紅色 KSF 磷光體薄膜。</li>
-<li>轉向 QD 薄膜標誌著一個重要的變化，因為蘋果公司先前偏好使用 KSF，因其效率高且不含鎘的特性。</li>
-<li>此更新強調了蘋果持續致力於提升其裝置顯示技術的努力。</li>
-</ul>
-]]></description>
-            <link>https://twitter.com/DSCCRoss/status/1857208745014776215</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-16T00:00:00.000ZM4 MacBook Pro 使用量子點(QD)薄膜，而非紅色 KSF 磷光體薄膜</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[YC 對於用於晶片設計的 LLMs 的看法是錯誤的]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>YC 提議使用大型語言模型(LLMs)進行晶片設計，但遭到批評，認為其無法與人類工程師在創新晶片架構設計方面的專業能力相匹敵。</li>
-<li>雖然大型語言模型可能降低設計成本，但它們不太可能在高價值市場中徹底改變晶片設計，這類似於過去像高階合成(HLS)等的嘗試。</li>
-<li>LLM 在驗證過程中可能有助益，潛在地解決此領域的人才短缺問題，但預期不會生產出更優秀的晶片或開拓新市場。</li>
-</ul>
-]]></description>
-            <link>https://www.zach.be/p/yc-is-wrong-about-llms-for-chip-design</link>
-            <guid isPermaLink="false">2024-11-16T00:00:00.000ZYC 對於用於晶片設計的 LLMs 的看法是錯誤的</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[FTC 將對微軟的雲端業務展開調查]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>美國聯邦貿易委員會正在調查微軟的雲端業務，特別是針對 Azure 的授權條款，是否存在潛在的反競爭行為。</li>
-<li>指控包括提高費用以及 Office 365 與競爭對手的雲端平台不相容，這使得客戶在轉換時面臨挑戰。</li>
-<li>「此調查是美國聯邦貿易委員會(FTC)更廣泛監管努力的一部分，隨著雲端市場持續擴展，英國和歐盟的監管機構也進行了類似的審查。」</li>
-</ul>
-]]></description>
-            <link
-      >https://arstechnica.com/tech-policy/2024/11/ftc-to-launch-investigation-into-microsofts-cloud-business/</link>
-            <guid isPermaLink="false">2024-11-16T00:00:00.000ZFTC 將對微軟的雲端業務展開調查</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[安裝了一個開源的車庫門開啟器，我非常喜歡它]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>OpenGarage 是一款開源的車庫門開啟器，能夠無縫整合至 Home Assistant，為家庭自動化提供更佳的控制和客製化功能。</li>
-<li>它由一個小型 ESP 板和一個超音波感測器組成，可以透過網頁瀏覽器或行動應用程式進行控制，使安裝變得簡單明瞭。</li>
-<li>OpenGarage 允許自動化任務，例如當車庫門打開時自動開燈，這突顯了其多功能性和對 DIY 家庭自動化愛好者的吸引力。</li>
-</ul>
-]]></description>
-            <link
-      >https://arstechnica.com/gadgets/2024/11/i-too-installed-an-open-source-garage-door-opener-and-am-loving-it/</link>
-            <guid isPermaLink="false">2024-11-16T00:00:00.000Z安裝了一個開源的車庫門開啟器，我非常喜歡它</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Polars 與 pandas 中的非基本 group-by 聚合]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>「在 PyData Berlin 2024 大會上，Polars 這個資料處理函式庫因其進階功能而受到矚目，例如延遲執行、Rust 整合和多執行緒處理。」</li>
-<li>Polars 的一項重要創新是其對非基本 group-by 聚合的支持，這使得用戶能夠比 pandas 更高效地執行複雜操作。</li>
-<li>該部落格建議新的資料框架庫應該在 pandas 的 API 之外進行創新，Polars 就是一個例子，透過其表達性語法和增強的資料操作能力來實現。</li>
-</ul>
-]]></description>
-            <link>https://labs.quansight.org/blog/dataframe-group-by</link>
-            <guid isPermaLink="false">2024-11-16T00:00:00.000ZPolars 與 pandas 中的非基本 group-by 聚合</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[M4 Mac 無法虛擬化舊版 macOS]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>M4 Mac 無法虛擬化 macOS 13.4 Ventura 之前的版本，導致在啟動較舊的 macOS 虛擬機(VM)時出現黑屏。</li>
-<li>問題可能在核心啟動階段的早期出現，解決此問題需要 Apple 更新較舊的 macOS 核心，這是不太可能的。</li>
-<li>M1、M2 和 M3 的 Mac 可以虛擬化 macOS Monterey 12.0.1 及更高版本，但 Big Sur 無法在任何 Apple 矽晶片上進行虛擬化。</li>
-</ul>
-]]></description>
-            <link>https://eclecticlight.co/2024/11/14/m4-macs-cant-virtualise-older-macos/</link>
-            <guid isPermaLink="false">2024-11-16T00:00:00.000ZM4 Mac 無法虛擬化舊版 macOS</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

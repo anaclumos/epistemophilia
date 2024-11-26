@@ -15,12 +15,166 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 25 Nov 2024 19:40:15 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Nov 2024 19:20:17 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/da.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Mon, 25 Nov 2024 00:00:00 GMT</pubDate>
+        <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[da]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-11-26]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/11/26&#39;</h2>
+<h1>2024-11-26</h1>
+<h2><a href="https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-s3-functionality-conditional-writes/">Amazon S3 tilføjer Put-If-Match (Sammenlign-og-Byt)</a></h2>
+<ul>
+<li>Amazon S3 introducerer betingede skrivninger, der muliggør opdateringer kun, hvis et objekt forbliver uændret, hvilket forhindrer samtidige overskrivninger ved at verificere objektets ETag. Denne funktion, der ligner HTTP if-none-match headeren, tillader klienter at bruge if-match headeren for at sikre ETag-konsistens før skrivning, hvilket forbedrer effektiviteten for distribuerede applikationer. Tilgængelig uden ekstra omkostninger i alle AWS-regioner, kan implementeringen udføres ved hjælp af AWS SDK, API eller CLI, med yderligere detaljer i S3 User Guide.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42240678">Reaktioner</a></h3>
+<ul>
+<li>Amazon S3 har lanceret en ny funktion kaldet Put-If-Match, som fungerer som en compare-and-swap-operation, der tillader betinget objekt-skrivning baseret på versionsmatchning. Denne funktion forbedrer synkronisering og samtidighedskontrol, hvilket gør det muligt for udviklere at udføre mere komplekse operationer, såsom at bygge databaser på S3 uden ekstra infrastruktur. Opdateringen bringer Amazon S3 på linje med lignende funktioner, der tilbydes af andre cloud-lagringstjenester som Google Cloud Storage og Azure Blob Storage.</li>
+</ul>
+<h2><a href="https://fasterthanli.me/articles/lies-we-tell-ourselves-to-keep-using-golang">De løgne vi fortæller os selv for at blive ved med at bruge Golang (2022)</a></h2>
+<ul>
+<li>Artiklen kritiserer Golang og bemærker, at selvom det har tiltalende funktioner som en asynkron runtime og en garbage collector, har det også betydelige ulemper, såsom fraværet af sumtyper og utilstrækkelig fejlhåndtering. Den argumenterer for, at Go&#39;s opfattede enkelhed kan være vildledende, hvilket fører til skjulte kompleksiteter og udfordringer i produktionsmiljøer, og understreger vigtigheden af at anerkende disse problemer frem for at adoptere Go udelukkende for dets brugervenlighed. Artiklen sammenligner Go med Rust og antyder, at på trods af Rusts udfordringer, tilbyder det mere robuste løsninger til at håndtere kompleksitet og sikre korrekthed i koden.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42243500">Reaktioner</a></h3>
+<ul>
+<li>Artiklen kritiserer Go&#39;s fejlhåndtering og sammenligner den med Rust&#39;s mere sofistikerede tilgang, som nogle finder mere elegant.</li>
+<li>Der er en meningsforskel: nogle værdsætter Go&#39;s enkelhed og eksplicitte fejlhåndtering, mens andre finder det kedeligt og fejlbehæftet.</li>
+<li>På trods af kritik forbliver Go populært på grund af dets enkelhed og udbredte anvendelse af store virksomheder.</li>
+</ul>
+<h2><a href="https://www.wired.com/story/cybertrucks-many-recalls-make-it-worse-than-91-percent-of-all-2024-vehicles/">Cybertrucks mange tilbagekaldelser</a></h2>
+<ul>
+<li>Tesla Cybertruck har oplevet flere tilbagekaldelser siden lanceringen, med den seneste involverende defekte drivinvertere, der påvirker over 2.400 enheder, hvilket rejser bekymringer om dens pålidelighed.</li>
+<li>På trods af kvalitetsproblemer fortsætter Cybertrucks unikke design med at tiltrække købere, selvom dens manglende evne til at opfylde europæiske sikkerhedsstandarder begrænser dens markedsrækkevidde.</li>
+<li>Tilbagekaldelserne, mens de demonstrerer regulatorisk effektivitet, kan skade Teslas brandomdømme, især i betragtning af Elon Musks betydelige indflydelse på amerikanske reguleringer.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42242971">Reaktioner</a></h3>
+<h2><a href="https://techcrunch.com/2024/11/22/y-combinator-often-backs-startups-that-duplicate-other-yc-companies-data-shows-its-not-just-ai-code-editors/">Y Combinator støtter ofte startups, der duplikerer andre YC-virksomheder, viser data.</a></h2>
+<ul>
+<li>Y Combinator (YC), en fremtrædende startup-accelerator, er kendt for at lancere succesfulde virksomheder som Airbnb og Stripe, men mange af dens startups bygger lignende eller identiske produkter som tidligere YC-virksomheder.</li>
+<li>PearAI-kontroversen fremhævede denne tendens, hvor PearAI blev anklaget for at klone et andet YC-produkt, men YC&#39;s CEO Garry Tan forsvarede praksissen og henviste til vigtigheden af valg og innovation.</li>
+<li>Deckmatchs analyse af YC-trends viser, at populære startup-kategorier inkluderer AI-kodeeditorer, restaurant-PoS-systemer og forretningsfinansieringsværktøjer, mens nogle områder som kryptohandel oplever faldende interesse.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42243746">Reaktioner</a></h3>
+<ul>
+<li>Y Combinator investerer ofte i startups, der replikerer andre YC-støttede virksomheder, og prioriterer grundlæggernes potentiale over unikke idéer. - Denne strategi ses som en måde at sikre sig mod lignende koncepter, da succes ofte afhænger af udførelse og timing snarere end originaliteten af idéen. - Mens nogle ser dette som en potentiel interessekonflikt, er det en almindelig praksis inden for venturekapital at finansiere flere virksomheder i samme sektor for at validere markeder og øge sandsynligheden for succes.</li>
+</ul>
+<h2><a href="https://status.flyio.net">Fly.io nedbrud – løst</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42241851">Reaktioner</a></h3>
+<ul>
+<li>Fly.io oplevede et midlertidigt nedbrud, som blev løst, men det rejste brugerbekymringer om platformens pålidelighed på grund af tidligere hændelser. Brugere sammenlignede Fly.io med alternativer som Railway og Cloudflare og fremhævede forskelle i pålidelighed, funktioner og brugeroplevelser. På trods af udfordringerne værdsætter nogle brugere Fly.io for dets brugervenlighed og konkurrencedygtige priser, mens diskussioner understregede vigtigheden af høj tilgængelighed og overvågning af afhængigheder.</li>
+</ul>
+<h2><a href="https://www.viksnewsletter.com/p/short-intro-to-automotive-lidar">En kort introduktion til bilindustriens Lidar-teknologi</a></h2>
+<ul>
+<li>Vik&#39;s Nyhedsbrev dykker ned i bilindustriens lidar-teknologi, som er afgørende for selvkørende biler på grund af dens evne til at producere højopløsningsbilleder ved hjælp af infrarøde lasere. Nyhedsbrevet diskuterer lidars driftsprincipper, herunder valg af bølgelængder, fotodetektorer og afstandsmålingsteknikker som Time-of-Flight og Frequency Modulated Continuous Wave. Det undersøger også forskellige lidar-systemer, såsom mekaniske og solid-state muligheder, med det formål at reducere omkostningerne og forbedre teknologien for bredere anvendelse i autonome køretøjer.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239721">Reaktioner</a></h3>
+<ul>
+<li>Automotive lidar-teknologi er under udvikling, hvor roterende scannere som Velodynes anvendes på trods af deres høje omkostninger, mens alternativer som flash-lidar og MEMS-spejle står over for markeds- og tekniske udfordringer.</li>
+<li>Waymos fortsatte brug af roterende lidarer, selv i sårbare køretøjshjørner, understreger behovet for mere overkommelige og integrerede løsninger, da pulserende lidar tilbyder reduceret interferens sammenlignet med kontinuerlige systemer.</li>
+<li>Lidar giver højopløselige billeder og fungerer godt under dårlige lysforhold, men står over for konkurrence fra kamerabaserede systemer, som nogle virksomheder, såsom Tesla, foretrækker af omkostningsmæssige årsager, hvilket giver næring til igangværende debatter om den bedste tilgang til autonom kørsel.</li>
+</ul>
+<h2><a href="https://papersplease.org/wp/2024/11/25/do-you-need-id-to-read-the-real-id-rules/">Har du brug for ID for at læse REAL-ID reglerne?</a></h2>
+<ul>
+<li>Et forsøg på at få adgang til TSA&#39;s nye regler for digital-ID afslørede problemer med REAL-ID-loven, da reglerne ikke er offentligt tilgængelige og kræver ID for adgang, hvilket vækker bekymring om hemmelige love og retfærdig rettergang.</li>
+<li>TSAs digitale ID-standarder, der er afledt af private dokumenter, involverer komplekse interaktioner mellem apps, enheder og offentlige myndigheder, med bekymringer om privatlivets fred vedrørende logget ID-brug.</li>
+<li>Forfatteren hævder, at TSA&#39;s praksis krænker offentlighedens adgangsrettigheder og har rapporteret problemet til Office of the Federal Register med henblik på at få reglen trukket tilbage.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239952">Reaktioner</a></h3>
+<ul>
+<li>Diskussionen drejer sig om nødvendigheden af at have et ID for at få adgang til REAL-ID regler, hvor nogle brugere stiller spørgsmålstegn ved effektiviteten af TSA&#39;s sikkerhedsforanstaltninger. - Der rejses bekymringer om konsekvenserne af mobile kørekort (mDLs) og de privatlivsproblemer, de kan medføre. - Brugere udtrykker skepsis over for TSA&#39;s effektivitet og konceptet om sikkerhedsteater, mens de også stiller spørgsmålstegn ved de langsigtede konsekvenser af digitale ID&#39;er som REAL-ID og mDLs.</li>
+</ul>
+<h2><a href="https://medium.com/@drspoulsen/a-solution-to-the-onion-problem-of-j-kenji-l%C3%B3pez-alt-c3c4ab22e67c">En løsning på The Onion-problemet af J. Kenji Lopez-Alt (2021)</a></h2>
+<ul>
+<li>Indlægget omhandler &quot;løgproblemet,&quot; som indebærer at skære løg for at opnå minimal variation i skivernes volumen for ensartethed. - En matematisk udforskning ved hjælp af calculus fastslog, at det optimale skærepunkt er 55,73066% under løgets centrum, betegnet som &quot;den sande løgkonstant.&quot; - Denne opdagelse forfiner et tidligere forslag om at skære mod et punkt 60% under centrum, hvilket giver en mere præcis metode til jævne løgskiver.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42244814">Reaktioner</a></h3>
+<ul>
+<li>Diskussionen udforsker en matematisk model til at skære løg jævnt, inspireret af J. Kenji Lopez-Alt, ved at bruge en halvcirkelrepræsentation for at forenkle geometrien og minimere variationen i skivestørrelse. Brugere debatterer modellens praktiske anvendelighed og nøjagtighed, idet de tager højde for løgets 3D-struktur og ikke-ensartede lag, og foreslår alternative skæremetoder eller værktøjer. Samtalen overvejer også balancen mellem ensartethed og kulinariske præferencer, med henvisning til madpersonligheder som Adam Ragusea.</li>
+</ul>
+<h2><a href="https://twitter.com/TomHacohen/status/1861137484249252093">Redis forsøger at overtage alle OSS Redis-bibliotekerne</a></h2>
+<ul>
+<li>Redis overtager angiveligt kontrollen over al open source-software (OSS) Redis-biblioteker, som inkluderer populære som Jedis, Lettuce og redis-py.</li>
+<li>Disse biblioteker er i øjeblikket nede, og et andet bibliotek, redis-rs, står også over for potentiel kontrol eller nedlukning.</li>
+<li>Dette er en betydningsfuld situation, da den påvirker udviklere, der er afhængige af disse biblioteker til Redis-integration i deres applikationer.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239607">Reaktioner</a></h3>
+<ul>
+<li>Redis Inc. overtager kontrollen over open source Redis-biblioteker, hvilket skaber kontroverser og får nogle udviklere til at fjerne Redis-afhængigheder på grund af problemer med varemærkeforvaltning.</li>
+<li>Biblioteker som redis-py, Lettuce og Jedis er blevet flyttet under Redis Inc.&#39;s officielle organisation, set som en defensiv strategi mod konkurrenter som Valkey.</li>
+<li>Fællesskabet er bekymret over varemærkekrav og potentiel leverandørlåsning, hvilket fører til diskussioner om alternativer som Valkey og Kvrocks og fremhæver udfordringerne ved varemærkegennemførelse i open source-projekter.</li>
+</ul>
+<h2><a href="http://jpkoning.blogspot.com/2024/11/setelinleikkaus-when-finns-snipped.html">Setelinleikkaus: Da finnerne klippede deres kontanter i halve for at dæmpe inflationen</a></h2>
+<ul>
+<li>I 1945 implementerede Finland &quot;setelinleikkaus,&quot; en politik, der krævede, at borgerne skar store pengesedler i halve for at bekæmpe inflationen efter Anden Verdenskrig, hvor den ene halvdel bevarede værdi, og den anden blev til en statsobligation. Politikken var ineffektiv, da den kun rettede sig mod fysiske kontanter, en mindre del af pengemængden, i modsætning til mere succesfulde reformer i andre europæiske lande som Belgien. Artiklen spekulerer i, at fremtidig inflationskontrol muligvis kan involvere digitale kontofrysninger, en mere præcis, men potentielt kontroversiel metode.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42243755">Reaktioner</a></h3>
+<ul>
+<li>I 1945 håndterede Finland inflation på en unik måde ved fysisk at skære pengesedler i halve, i modsætning til moderne metoder som at justere renten.</li>
+<li>Denne historiske tilgang har sat gang i diskussioner om den nuværende pengepolitik, hvor centralbanker styrer inflationen gennem rentesatser og åbne markedsoperationer.</li>
+<li>Den potentielle fremtidige kontrol med digitale penge, muligvis via centralbankers digitale valutaer, vækker bekymring om øget statslig overvågning af personlige finanser.</li>
+</ul>
+<h2><a href="https://www.metmuseum.org/perspectives/peter-hristoff-islamic-prayer-rugs">Prayer, Placement, and Absolution: Peter Hristoff om islamiske bedetæpper (2015)</a></h2>
+<ul>
+<li>Peter Hristoffs kunstværker udforsker krydsfeltet mellem kunst og spiritualitet, især gennem mediet bedetæpper, begyndende fra 1997. Hans kreationer, herunder tegninger og serigrafitryk, udvikler sig til større &quot;tæppe&quot; stykker på rispapir, inspireret af tyrkiske tæpper og kilims, som han betragter som personlige dagbøger med symbolske betydninger. Hristoffs arbejde legemliggør &quot;lysende tristhed,&quot; en blanding af glæde og sorg, påvirket af patriark Bartholomæus&#39; skrifter, og fortsætter med at udforske de åndelige og fysiske aspekter af menneskets natur.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239487">Reaktioner</a></h3>
+<ul>
+<li>Peter Hristoffs artikel udforsker betydningen af islamiske bønnetæpper og fremhæver deres indviklede designs, såsom tessellationer, der symboliserer Guds uendelighed. Artiklen diskuterer det islamiske forbud mod repræsentativ kunst, hvilket fører til brugen af kalligrafi og geometriske mønstre i islamiske artefakter. Den fremhæver den historiske og kulturelle kontekst af bønnetæpper og bemærker deres anvendelse på tværs af forskellige religiøse traditioner, herunder kristendommen, samt deres praktiske og spirituelle roller.</li>
+</ul>
+<h2><a href="https://deno.com/blog/deno-v-oracle">Aflysning af JavaScript-varemærket: Deno vs. Oracle</a></h2>
+<ul>
+<li>Deno har indgivet en anmodning til United States Patent and Trademark Office (USPTO) om at annullere Oracles varemærke på &quot;JavaScript&quot; med det formål at gøre det til et offentligt gode og fjerne juridiske barrierer for dets anvendelse.</li>
+<li>Anmodningen hævder, at &quot;JavaScript&quot; er et generisk udtryk, at Oracle begik bedrageri ved at forny varemærket, og at Oracle har opgivet varemærket gennem manglende brug.</li>
+<li>Over 14.000 udviklere støtter Denos initiativ, og Oracle har indtil den 4. januar 2025 til at svare, hvor Deno er klar til at dele alle forløb med fællesskabet.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42239263">Reaktioner</a></h3>
+<ul>
+<li>Deno har indgivet en anmodning til United States Patent and Trademark Office (USPTO) om at annullere Oracles varemærke på JavaScript, hvilket har udløst en debat om varemærkeetik og samfundsmæssige fordele.</li>
+<li>Diskussionen involverer Denos kompatibilitet med Node Package Manager (NPM) og dens indvirkning på det bredere JavaScript-økosystem, hvilket afspejler forskellige meninger om JavaScripts fremtid og runtime-miljøer.</li>
+<li>Holdningerne er delte, hvor nogle betragter Oracles varemærkebrug som uetisk, mens andre stiller spørgsmålstegn ved Denos intentioner og antyder, at det kunne være en PR-strategi.</li>
+</ul>
+<h2><a href="https://github.com/captn3m0/jekyll-sqlite">SQLite-plugin til Jekyll</a></h2>
+<ul>
+<li>Forfatteren har udviklet et Jekyll SQLite-plugin for at forbedre datamanipulationsevnerne inden for Jekyll, en populær statisk site-generator.</li>
+<li>Dette plugin giver brugerne mulighed for at udføre SQL-forespørgsler til databehandling, hvilket løser begrænsningerne i Liquid, Jekylls skabelonsprog, når det kommer til håndtering af komplekse dataoperationer.</li>
+<li>Pluginet er blevet brugt med succes i produktion i et år, demonstreret med Northwind-datasættet, og forfatteren inviterer til feedback og forslag til forbedringer.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42244987">Reaktioner</a></h3>
+<ul>
+<li>En Jekyll SQLite-plugin muliggør brugen af SQLite som en datakilde i Jekyll, hvilket forbedrer datamanipulationsevnerne med SQL. - Den integrerer Jekylls Datafiles og Data Pages generatorfunktioner, hvilket tillader kompleks datahåndtering ud over traditionelle CSV/JSON/YAML-formater. - Pluginet har været i produktion i et år og har modtaget positiv feedback for at gøre genereringen af statiske sider mere dynamisk og fleksibel.</li>
+</ul>
+<h2><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6290285/">Præmatur gråning af hår: Gennemgang med opdateringer</a></h2>
+<ul>
+<li>Præmatur gråning af hår (PGH) defineres som gråning før 20-årsalderen hos kaukasiere og før 30-årsalderen hos afroamerikanere, hvilket påvirker selvværdet. Årsagerne til PGH er ikke fuldt ud forstået, men er forbundet med aldringssygdomme, autoimmune sygdomme og oxidativt stress, hvor faktorer som rygning og ernæringsmæssige mangler bidrager. Almindelige behandlinger for PGH inkluderer hårfarver og kosttilskud, med studier der indikerer forbindelser mellem PGH og følelsesmæssige faktorer, genetiske dispositioner og miljømæssige påvirkninger.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42241702">Reaktioner</a></h3>
+<ul>
+<li>Præmatur gråning af hår er forbundet med vitamin B12-mangel, især hos personer med perniciøs anæmi, en tilstand hvor kroppen ikke kan optage B12 ordentligt. At diagnosticere B12-mangel kan være udfordrende, da tilskud kan øge B12-niveauerne kunstigt, og nogle personer kan ikke omdanne visse former for B12 til aktive former, hvilket fører til &quot;paradoksal B12-mangel.&quot; Faktorer som stress, genetik og helbredstilstande som autoimmun thyreoiditis bidrager også til gråning, og selvom nogle kosttilskud kan hjælpe, er der ingen dokumenteret metode til at vende grå hår.</li>
+</ul>
+<h2><a href="https://blog.thalium.re/posts/llvm-powered-devirtualization/">LLVM-drevet devirtualisering</a></h2>
+<ul>
+<li>Praktikopholdet hos Thalium fokuserede på at deobfuskere virtualiserede binære filer ved hjælp af LLVM, en compiler-ramme, for at gøre koden mere forståelig, især i forbindelse med malware. - Virtualisering, en stærk obfuskeringsteknik brugt af værktøjer som Tigress og VMProtect, koder programmer til virtuelle instruktioner, hvilket gør reverse engineering komplekst. - Projektet brugte med succes dynamisk taint-analyse til at rekonstruere kontrolflowgrafen af Tigress-obfuskerede binære filer, selvom det var begrænset til rene funktioner og enkelte eksekveringsveje.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42245170">Reaktioner</a></h3>
+<ul>
+<li>LLVM-drevet devirtualisering forbedrer ydeevnen ved at optimere virtuelle funktionskald, som typisk er langsommere på grund af deres dynamiske natur.</li>
+<li>Bochs, en CPU-emulator, kan effektivt emulere en Pentium 4-processor på en i7, selv ved at omgå detektorer for virtuelle maskiner.</li>
+<li>Bochs-debuggeren er særligt effektiv til at analysere og modvirke malware og kodeobfuskatorer, hvilket gør den til et værdifuldt værktøj for sikkerhedsforskning.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Amazon S3 tilføjer Put-If-Match (Sammenlign-og-Byt)" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Amazon%20S3%20tilf%C3%B8jer%20Put-If-Match%20(Sammenlign-og-Byt)&subheading=tirsdag%20den%2026.%20november%202024%3A%20Resum%C3%A9%20af%20Hacker%20News" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/da/2024/11/26</link>
+            <guid isPermaLink="false">2024-11-26T00:00:00.000Z</guid>
+            <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-11-25]]></title>
             <description
@@ -1216,187 +1370,6 @@
             <link>https://hn.cho.sh/da/2024/11/17</link>
             <guid isPermaLink="false">2024-11-17T00:00:00.000Z</guid>
             <pubDate>Sun, 17 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-11-16]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/11/16&#39;</h2>
-<h1>2024-11-16</h1>
-<h2><a href="https://www.half-life.com/en/halflife2/20th">Half-Life 2: 20-års jubilæumsopdatering</a></h2>
-<ul>
-<li>Valve har udgivet Half-Life 2 20-års jubilæumsopdateringen på Steam, som indeholder nyt indhold og forbedringer. Opdateringen inkluderer udviklerkommentarer, Steam Workshop-support, forbedret grafik og fejlrettelser samt nye gamepad- og inputindstillinger. Den indeholder også Episode One og Two-udvidelserne og tilbyder ekstra indhold som wallpapers og soundtracks til download.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42151865">Reaktioner</a></h3>
-<ul>
-<li>Half-Life 2&#39;s 20-års jubilæumsopdatering er nu tilgængelig, og giver spillet og dets efterfølgende episoder gratis på Steam indtil den 18., inklusive fejlrettelser og forbedringer.</li>
-<li>Opdateringen har genoplivet diskussioner om spillets arv, muligheden for en Half-Life 3, og Valves udviklingsfilosofi.</li>
-<li>Fans opfordres til at udforske jubilæumssiden for påskeæg, og opdateringen er blevet godt modtaget for sin sans for detaljer og muligheden for at genopleve et klassisk spil.</li>
-</ul>
-<h2><a href="https://anderegg.ca/2024/11/15/maybe-bluesky-has-won">Måske har Bluesky &quot;vundet&quot;</a></h2>
-<ul>
-<li>Bluesky vinder frem som et alternativ til X, men det er endnu ikke fuldt decentraliseret eller federeret, da det er afhængigt af sine egne servere. Platformen anvender AT-protokollen, som inkluderer personlige dataservere, relæer og app-visninger, der giver brugerne mulighed for at hoste deres egne data, selvom dette kræver teknisk ekspertise og kan være dyrt. Mens Bluesky er gratis og tilbyder funktioner som domænebaserede brugernavne og tilpasselig moderation, afhænger dens finansielle model af domænesalg, hvilket rejser spørgsmål om dens langsigtede bæredygtighed.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42150278">Reaktioner</a></h3>
-<ul>
-<li>Bluesky får opmærksomhed som et mere behageligt alternativ til Mastodon, da det tilbyder et filtreringssystem, der reducerer splittende politisk indhold.</li>
-<li>Brugere værdsætter Blueskys enkelhed og kontrol over synligheden af indhold, og drager sammenligninger til det tidlige Twitter, selvom bekymringer om dets åbenhed og brug af data fortsætter.</li>
-<li>Platformen oplever vækst, da brugere migrerer fra Twitter, som opfattes som stadig mere politisk ladet, hvilket indikerer Blueskys potentiale til at blive en betydelig aktør inden for sociale medier.</li>
-</ul>
-<h2><a href="https://www.roadandtrack.com/news/a62919131/tesla-has-highest-fatal-accident-rate-of-all-auto-brands-study/">Tesla har den højeste dødsulykkesrate af alle bilmærker, viser undersøgelse</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42150443">Reaktioner</a></h3>
-<ul>
-<li>En undersøgelse indikerer, at Tesla har den højeste dødsulykkesrate blandt bilmærker, på trods af sine avancerede sikkerhedsfunktioner.</li>
-<li>Undersøgelsen antyder, at føreradfærd og forhold i høj grad bidrager til den høje ulykkesrate, hvilket har udløst debatter om politik, medieindflydelse og bildesign.</li>
-<li>Undersøgelsens metodologi og indflydelsen af førerdemografi samt bilfunktioner som touchskærme og køretøjets vægt er genstand for granskning og diskussion.</li>
-</ul>
-<h2><a href="https://www.sportingnews.com/us/boxing/news/netflix-buffering-livestream-issues-boxing-jake-paul-mike-tyson/327ee972d4b14d90cc370461">Netflix buffering problemer: Boksefans klager over Jake Paul vs. Mike Tyson</a></h2>
-<ul>
-<li>Boxingfans oplevede bufferingproblemer på Netflix under Jake Paul vs. Mike Tyson-kampen, hvilket førte til forsinkelser, hakkende analyser og sorte skærme.</li>
-<li>Streamingproblemerne har rejst bekymringer om Netflix&#39; evne til at håndtere live sportsbegivenheder, især med kommende NFL-kampe planlagt til juledag.</li>
-<li>Enkelte seere valgte Antonio Browns livestream på X, som tiltrak betydelig opmærksomhed med 6,4 millioner seere.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42153953">Reaktioner</a></h3>
-<ul>
-<li>Netflix oplevede store bufferingproblemer under Jake Paul vs. Mike Tyson-kampen, hvilket resulterede i adskillige klager over kvaliteten af live-streamingen.</li>
-<li>Kritikere påpeger, at Netflix&#39; infrastruktur, som primært er designet til forudindspillet indhold, muligvis ikke er velegnet til live streaming, i modsætning til platforme som YouTube og Amazon.</li>
-<li>Den hændelse understreger Netflix&#39; udfordringer på markedet for live sportsstreaming, især med fremtidige begivenheder som NFL-kampe i horisonten.</li>
-</ul>
-<h2><a href="https://llamaocr.com/">Llama-OCR: Dokument til Markdown</a></h2>
-<ul>
-<li>Indlægget introducerer en metode til at konvertere billeder til markdown-format ved hjælp af llama-ocr og Together AI OCR, som er værktøjer til optisk tegngenkendelse.</li>
-<li>Brugere kan uploade et billede for at modtage struktureret markdown, hvilket letter nemmere tekstudtræk og formatering fra billeder.</li>
-<li>Eksempelkode i JavaScript er givet, der demonstrerer, hvordan man bruger llama-ocr-biblioteket til at behandle en billedfil og opnå markdown-output.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42154410">Reaktioner</a></h3>
-<ul>
-<li>Llama-OCR er et værktøj, der konverterer dokumenter til Markdown-format ved hjælp af Llama 3.2 vision og er tilgængeligt som en npm-pakke.</li>
-<li>Fremtidige opdateringer planlægges at inkludere funktioner som PDF-parsing og JSON-output, selvom nuværende brugere rapporterer blandede oplevelser med billedhåndtering og outputkonsistens.</li>
-<li>Værktøjet er hostet på together.ai, med igangværende diskussioner om dets ydeevne og potentielle forbedringer, herunder forslag til at bruge lokale modeller eller alternative OCR-værktøjer for bedre nøjagtighed.</li>
-</ul>
-<h2><a href="https://bsky.bad-example.com/consuming-the-firehose-cheaply/">At forbruge Bluesky firehose for mindre end $2,50/måned</a></h2>
-<ul>
-<li>Blueskys offentlige data, der omfatter 15 millioner brugere, er tilgængelige via en websocket JSON-feed kaldet Jetstream, hvilket muliggør realtidsnetværksovervågning.</li>
-<li>En simpel applikation blev udviklet til at lytte efter slettebegivenheder fra Jetstream-feedet, og den viser anonymiseret slettet tekst i et kort øjeblik.</li>
-<li>Appen kører på Fly&#39;s mindste instans for $2,24/måned og håndterer effektivt postbegivenheder, indholdsfiltrering, tekstcaching og udsendelse af slettede opslag, selvom mere komplekse applikationer kan stå over for skalerbarhedsudfordringer.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42152362">Reaktioner</a></h3>
-<ul>
-<li>Bluesky tilbyder en omkostningseffektiv måde at få adgang til sin datastrøm, kendt som &quot;firehose&quot;, for under 2,50 USD om måneden, hvilket tiltrækker brugerinteresse.</li>
-<li>Platformen er kendt for funktioner som at bruge en hjemmeside som brugernavn og nem billeddeling på iOS, hvilket drager sammenligninger til det tidlige Twitter.</li>
-<li>Blueskys decentraliserede struktur og fællesskabsdrevne udvikling fremhæver dets fokus på åben dataadgang, i modsætning til Twitters nuværende begrænsninger.</li>
-</ul>
-<h2><a href="https://lists.freebsd.org/archives/freebsd-hackers/2024-November/004068.html">Førstehåndsindtryk: Lenovo T14s med Qualcomm Snapdragon ARM64 CPU</a></h2>
-<ul>
-<li>Lenovo T14s med en Qualcomm Snapdragon ARM64 CPU bliver evalueret, hvilket fremhæver et skift fra den traditionelle X86-arkitektur på grund af opfattede ineffektiviteter.</li>
-<li>Den indledende opsætning på FreeBSD-current krævede ARM64-specifikke patches, hvor nogle hardwarekomponenter som skærmen og NVME fungerede, men andre som tastaturet og USB-C-portene ikke fungerede.</li>
-<li>Ydelsestest viste, at enheden byggede verden på 3210 sekunder ved brug af 24 Wh energi, hvilket tilskrives dens 12 ægte CPU&#39;er, hvilket førte til en positiv anbefaling.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42150933">Reaktioner</a></h3>
-<ul>
-<li>Lenovo T14s med Qualcomm Snapdragon ARM64 CPU modtager blandede anmeldelser, hvor brugere bemærker problemer som ikke-fungerende tastatur, mus og USB-C-porte.</li>
-<li>Sammenligninger trækkes til Linux-telefoner, der fremhæver lignende begrænsninger og kompatibilitetsudfordringer med ARM Linux-desktops.</li>
-<li>På trods af nuværende problemer er der optimisme omkring fremtidige forbedringer og bedre driverstøtte til ARM-arkitektur i Lenovo-bærbare computere.</li>
-</ul>
-<h2><a href="https://yggdrasil-network.github.io/">Yggdrasil-netværk</a></h2>
-<ul>
-<li>Yggdrasil er en eksperimentel routingordning, der sigter mod at give et decentraliseret og fremtidssikret alternativ til de nuværende internet-routingprotokoller, især for store mesh-netværk. Den tilbyder funktioner som skalerbarhed, selvhelbredelse, kryptering og platformuafhængig support, der fungerer på forskellige operativsystemer, herunder Linux, macOS, Windows, iOS og Android. På trods af at være i alfa-stadiet, er Yggdrasil stabil til daglig brug, tilbyder end-to-end krypteret IPv6-routing og kan konfigureres over både IPv4- og IPv6-netværk.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42155780">Reaktioner</a></h3>
-<ul>
-<li>Yggdrasil Network er en eksperimentel routingprotokol fokuseret på decentralisering og skalerbarhed, inspireret af cjdns, men uden en streng hierarki.</li>
-<li>På trods af manglen på en klar protokolspecifikation har Yggdrasil udviklet sig med betydelige opdateringer i versionerne 0.4 og 0.5, hvilket har forbedret netværkslatensen.</li>
-<li>Protokollen bruger IPv6-adresser, der er afledt af offentlige nøgler, hvilket kan føre til adressekollisioner, og den er ikke primært designet til anonymitet.</li>
-</ul>
-<h2><a href="https://github.com/hengyoush/kyanos">Kyanos: eBPF-baseret værktøj til analyse af netværksproblemer</a></h2>
-<ul>
-<li>Kyanos er et eBPF-baseret værktøj designet til netværksanalyse, i stand til at opfange og analysere forskellige netværksanmodninger såsom HTTP, Redis og MySQL.</li>
-<li>Den har avancerede trafikfiltreringsmuligheder efter IP, port, proces, container og protokol, sammen med kerne-niveau latenindsigt og automatisk SSL-trafikdekryptering.</li>
-<li>Værktøjet er letvægts, kræver minimale afhængigheder og er kompatibelt med Linux-kernelversioner 3.10 og 4.14 eller højere, hvilket gør det tilgængeligt for en bred vifte af brugere.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42154583">Reaktioner</a></h3>
-<ul>
-<li>Kyanos er et netværksanalysetool baseret på eBPF (extended Berkeley Packet Filter), der tilbyder realtidsindsigt til fejlfinding og optimering af ydeevne.</li>
-<li>Den understøtter i øjeblikket specifikke protokoller, herunder HTTP, MySQL og Redis, hvilket nogle brugere ser som en begrænsning.</li>
-<li>Diskussioner fremhæver relevansen af teknologier som RDMA (Remote Direct Memory Access) og OFED (OpenFabrics Enterprise Distribution) inden for højtydende databehandling, sammen med en omtale af en bog til yderligere læring om eBPF.</li>
-</ul>
-<h2><a href="https://twitter.com/DSCCRoss/status/1857208745014776215">M4 MacBook Pro bruger en kvanteprik (QD) film i stedet for en rød KSF fosforfilm</a></h2>
-<ul>
-<li>Apples nye MacBook Pro (M4) introducerer brugen af kvanteprik (QD) film, som erstatter den tidligere anvendte røde KSF fosforfilm.</li>
-<li>Skiftet til QD-film markerer en betydelig ændring, da Apple tidligere havde foretrukket KSF for dets effektivitet og kadmiumfri egenskaber.</li>
-<li>Denne opdatering fremhæver Apples løbende bestræbelser på at forbedre skærmteknologien i sine enheder.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42152928">Reaktioner</a></h3>
-<ul>
-<li>De nye M4 MacBook Pro&#39;er er skiftet fra at bruge en rød KSF-fosforfilm til en kvanteprikfilm, som identificeret gennem spektrumanalyse snarere end en officiel meddelelse fra Apple.</li>
-<li>Kvanteprikker forventes at forbedre farvespektret og bevægelsesydelsen på skærmene, selvom responstider stadig er en bekymring for MacBook-skærme.</li>
-<li>Apple samarbejder med skærmproducenter som Samsung, LG og BOE om forskning og udvikling for at opfylde specifikke produktkrav.</li>
-</ul>
-<h2><a href="https://www.zach.be/p/yc-is-wrong-about-llms-for-chip-design">YC tager fejl om LLM&#39;er til chipdesign</a></h2>
-<ul>
-<li>YC&#39;s forslag om at bruge store sprogmodeller (LLMs) til chipdesign kritiseres for ikke at matche menneskelige ingeniørers ekspertise i at skabe innovative chiparkitekturer.</li>
-<li>Selvom LLM&#39;er muligvis kan sænke designomkostningerne, er det usandsynligt, at de vil revolutionere chipdesign i højværdimarkeder, ligesom tidligere forsøg som high-level synthesis (HLS).</li>
-<li>LLM&#39;er kunne være gavnlige i verificeringsprocesser og potentielt afhjælpe talentmanglen på dette område, men de forventes ikke at producere overlegne chips eller åbne nye markeder.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42156516">Reaktioner</a></h3>
-<ul>
-<li>Diskussionen fremhæver skepsis omkring effektiviteten af store sprogmodeller (LLMs) i chipdesign, med sammenligninger til tidligere teknologihypecyklusser som blockchain. Kritikere hævder, at LLMs er overhypede og endnu ikke pålidelige til komplekse chipdesigntasks, som kræver dyb ekspertise ud over de nuværende AI-evner. Der er usikkerhed om, hvorvidt fremtidige fremskridt vil overvinde begrænsningerne af LLMs i specialiserede felter med begrænset træningsdata.</li>
-</ul>
-<h2><a href="https://arstechnica.com/tech-policy/2024/11/ftc-to-launch-investigation-into-microsofts-cloud-business/">FTC indleder undersøgelse af Microsofts cloud-forretning</a></h2>
-<ul>
-<li>FTC undersøger Microsofts cloud-forretning for potentielle konkurrencebegrænsende praksisser, især vedrørende Azures licensbetingelser.</li>
-<li>Beskyldningerne omfatter øgede gebyrer og Office 365&#39;s inkompatibilitet med konkurrerende cloud-platforme, hvilket gør det udfordrende for kunder at skifte.</li>
-<li>Undersøgelsen er en del af en bredere reguleringsindsats fra FTC, med lignende granskning fra britiske og EU-regulatorer, da cloud-markedet fortsætter med at ekspandere.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42152068">Reaktioner</a></h3>
-<ul>
-<li>FTC undersøger Microsofts cloud-forretning for potentielle konkurrencebegrænsende praksisser, herunder at hæve gebyrer for kunder, der skifter udbydere, og gøre Office 365 inkompatibel med konkurrerende cloud-tjenester.</li>
-<li>Undersøgelsen er en del af en større undersøgelse af store teknologivirksomheder, hvilket afspejler de vedvarende bekymringer om deres markedsmagt og forretningspraksis.</li>
-<li>Der er debat om FTC&#39;s motiver, med delte meninger om, hvorvidt handlingerne er en nødvendig regulering af teknologigiganter eller politisk motiverede.</li>
-</ul>
-<h2><a href="https://arstechnica.com/gadgets/2024/11/i-too-installed-an-open-source-garage-door-opener-and-am-loving-it/">Installerede en open source garageportåbner, og jeg elsker det</a></h2>
-<ul>
-<li>OpenGarage er en open-source garageportåbner, der integrerer problemfrit med Home Assistant, og tilbyder forbedret kontrol og tilpasning til hjemmeautomatisering.</li>
-<li>Den består af et lille ESP-kort med en ultralydssensor, der kan styres via en webbrowser eller mobilapp, hvilket gør installationen enkel.</li>
-<li>OpenGarage muliggør automatisering af opgaver, såsom at tænde lys, når garageporten åbner, hvilket fremhæver dets alsidighed og tiltrækningskraft for gør-det-selv-entusiaster inden for hjemmeautomatisering.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42150376">Reaktioner</a></h3>
-<ul>
-<li>Indlægget diskuterer brugen af open-source garageportåbnere og fremhæver deres fleksibilitet og lokale kontrol sammenlignet med abonnementsbaserede modeller som myQ.</li>
-<li>Brugere udtrykker frustration over myQ&#39;s abonnementsmodel og mangel på tredjepartsstøtte, hvilket får dem til at undersøge alternativer som RATGDO, Meross og ESPHome.</li>
-<li>Home automation-entusiaster integrerer disse open source-løsninger med systemer som MQTT, Home Assistant og Z-Wave for forbedret funktionalitet og problemfri kontrol.</li>
-</ul>
-<h2><a href="https://labs.quansight.org/blog/dataframe-group-by">Ikke-elementære group-by-aggregeringer i Polars vs pandas</a></h2>
-<ul>
-<li>Ved PyData Berlin 2024 blev Polars, et databehandlingsbibliotek, fremhævet for sine avancerede funktioner såsom lazy execution, Rust-integration og multithreading.</li>
-<li>En væsentlig innovation ved Polars er dens understøttelse af ikke-elementære group-by-aggregeringer, hvilket gør det muligt for brugere at udføre komplekse operationer mere effektivt end med pandas.</li>
-<li>Bloggen foreslår, at nye dataframe-biblioteker bør innovere ud over pandas&#39; API, med Polars som et eksempel gennem sin udtryksfulde syntaks og forbedrede datamanipulationsevner.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42152076">Reaktioner</a></h3>
-<ul>
-<li>Polars bliver mere populær end Pandas til ikke-basiske group-by operationer på grund af dens lighed med Apache Spark og overlegne hastighed. Brugere værdsætter Polars for dens hurtige ydeevne og enkle opsætning, især med mindre datasæt, på trods af Pandas&#39; etablerede økosystem. Beslutningen mellem at bruge Pandas eller Polars påvirkes af specifikke anvendelsestilfælde, ydeevnekrav og brugerpræferencer, hvor nogle vælger SQL eller DuckDB til komplekse datatasks.</li>
-</ul>
-<h2><a href="https://eclecticlight.co/2024/11/14/m4-macs-cant-virtualise-older-macos/">M4 Macs kan ikke virtualisere ældre macOS</a></h2>
-<ul>
-<li>M4 Macs kan ikke virtualisere macOS-versioner tidligere end 13.4 Ventura, hvilket resulterer i en sort skærm under opstartsforsøg for ældre macOS virtuelle maskiner (VM&#39;er).</li>
-<li>Problemet opstår sandsynligvis tidligt i kerneopstartsfasen, og for at løse det ville det kræve, at Apple opdaterer ældre macOS-kerner, hvilket er usandsynligt.</li>
-<li>M1, M2 og M3 Macs kan virtualisere macOS Monterey 12.0.1 og senere, men Big Sur kan ikke virtualiseres på nogen Apple-silicium.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42157086">Reaktioner</a></h3>
-<ul>
-<li>M4 Macs kan ikke virtualisere macOS-versioner tidligere end 13.4 Ventura, hvilket skaber udfordringer for udviklere, der har brug for at teste applikationer på ældre systemer.</li>
-<li>Fraværet af en indbygget containerløsning til macOS komplicerer kontinuerlige integrationsprocesser (CI), som er essentielle for automatiseret test og implementering.</li>
-<li>Anka giver en delvis løsning ved at tillade macOS virtuelle maskine (VM) billeder, men Apples softwarelicens begrænser dette til to VMer, hvilket frustrerer udviklere, der har brug for testning for bagudkompatibilitet.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Half-Life 2: 20-års jubilæumsopdatering" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Half-Life%202%3A%2020-%C3%A5rs%20jubil%C3%A6umsopdatering&subheading=l%C3%B8rdag%20den%2016.%20november%202024%3A%20Resum%C3%A9%20af%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/da/2024/11/16</link>
-            <guid isPermaLink="false">2024-11-16T00:00:00.000Z</guid>
-            <pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
