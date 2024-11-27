@@ -15,12 +15,179 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 26 Nov 2024 19:20:17 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 27 Nov 2024 19:11:21 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/id.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[id]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-11-27]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/11/27&#39;</h2>
+<h1>2024-11-27</h1>
+<h2><a href="https://play.google.com/store/apps/details?id=com.actureunlock&hl=en_US">App yang bertanya &#39;kenapa?&#39; setiap kali Anda membuka kunci ponsel Anda</a></h2>
+<ul>
+<li>Intenty adalah sebuah aplikasi yang mendorong pengguna untuk mengembangkan kebiasaan penggunaan ponsel yang lebih sehat melalui pengingat kesadaran saat membuka kunci perangkat mereka. Aplikasi ini menekankan privasi dengan beroperasi sepenuhnya secara lokal tanpa iklan atau pelacakan, dan menggunakan izin Android semata-mata untuk fungsionalitas tanpa pengumpulan data. Dengan desain minimalis dan kustomisasi cerdas, Intenty memiliki peringkat 4,4 bintang dan lebih dari 10.000 unduhan, menarik bagi pengguna yang ingin mengurangi penggunaan ponsel yang tidak sadar.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42254156">Reaksi</a></h3>
+<ul>
+<li>Sebuat aplikasi yang meminta pengguna dengan pertanyaan &quot;mengapa?&quot; saat membuka kunci ponsel mereka sedang mendapatkan perhatian di Hacker News karena potensinya untuk mengurangi gangguan.</li>
+<li>Pengguna menemukan aplikasi ini bermanfaat tetapi terkadang tidak nyaman untuk tugas cepat, yang mengarah pada saran perbaikan seperti pengacakan prompt atau memungkinkan pengabaian khusus aplikasi.</li>
+<li>Pengembang sedang mempertimbangkan masukan pengguna untuk pembaruan, termasuk opsi pembelian satu kali alih-alih model berlangganan.</li>
+</ul>
+<h2><a href="https://www.downtowndougbrown.com/2024/11/the-capacitor-that-apple-soldered-incorrectly-at-the-factory/">Tegangan yang disolder Apple secara tidak benar di pabrik</a></h2>
+<ul>
+<li>Doug Brown menyoroti kesalahan manufaktur pada Apple Macintosh LC III, di mana sebuah kapasitor dipasang terbalik, yang berpotensi menyebabkan masalah.</li>
+<li>Macintosh LC III, yang diproduksi antara tahun 1993 dan 1994 untuk pasar pendidikan, tidak mengalami penarikan besar meskipun ada kesalahan ini.</li>
+<li>Brown menyarankan untuk berhati-hati saat mengganti kapasitor, terutama dengan kapasitor tantalum modern, dan merekomendasikan untuk memasangnya dengan benar, bertentangan dengan petunjuk silkscreen pada PCB.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42253119">Reaksi</a></h3>
+<ul>
+<li>Apple secara keliru memasang kapasitor terbalik pada komputer berusia 34 tahun, menyoroti pentingnya orientasi kapasitor yang benar, terutama untuk kapasitor elektrolitik, yang memiliki polaritas dan dapat gagal jika dipasang secara tidak benar.</li>
+<li>Insiden ini telah memicu diskusi tentang umur panjang produk dan perencanaan usang, dengan beberapa orang menyarankan bahwa elektronik modern sengaja dirancang untuk memiliki masa pakai yang lebih pendek guna meningkatkan penjualan.</li>
+<li>Tentu saja, situasi ini mengingatkan pada kesalahan manufaktur di masa lalu oleh perusahaan lain, seperti Commodore, yang menunjukkan masalah berulang dalam industri teknologi.</li>
+</ul>
+<h2><a href="https://benhouston3d.com/blog/why-i-left-kubernetes-for-google-cloud-run">Saya Tidak Membutuhkan Kubernetes, dan Anda Mungkin Juga Tidak</a></h2>
+<ul>
+<li>Penulis beralih dari Kubernetes ke Google Cloud Run, dengan menyebutkan kompleksitas, biaya, dan autoscaling yang lambat dari Kubernetes sebagai kelemahan. Google Cloud Run disorot sebagai alternatif yang lebih sederhana dan hemat biaya, hanya membebankan biaya untuk penggunaan CPU dan memori yang sebenarnya, serta menawarkan penskalaan cepat tanpa beban manajemen Kubernetes. Penulis menggunakan GitHub Actions untuk integrasi berkelanjutan/penerapan berkelanjutan (CI/CD), basis data yang dikelola, dan pesan pub-sub, menekankan kesesuaian Cloud Run untuk proyek yang membutuhkan kesederhanaan dan efisiensi dibandingkan fitur luas Kubernetes.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42252336">Reaksi</a></h3>
+<ul>
+<li>Artikel tersebut mengkritik Kubernetes karena dianggap terlalu kompleks dan sering kali tidak diperlukan untuk proyek-proyek yang lebih kecil, dengan menyarankan solusi yang lebih sederhana seperti satu mesin virtual (VM) atau server mungkin lebih efisien.</li>
+<li>Itu menyoroti tantangan dalam mengelola Kubernetes, termasuk kompleksitas tambahan dari berbagai add-on dan kecenderungan beberapa insinyur untuk memperumit sistem.</li>
+<li>Kesepakatannya adalah bahwa meskipun Kubernetes berharga, itu tidak selalu menjadi pilihan terbaik untuk operasi skala kecil, di mana kesederhanaan bisa lebih bermanfaat.</li>
+</ul>
+<h2><a href="https://krebsonsecurity.com/2024/11/hacker-in-snowflake-extortions-may-be-a-u-s-soldier/">Hacker dalam pemerasan Snowflake mungkin adalah seorang tentara AS</a></h2>
+<ul>
+<li>Dua individu ditangkap karena pencurian data dari perusahaan yang menggunakan Snowflake, sementara tersangka ketiga, yang dikenal sebagai &quot;Kiberphant0m,&quot; masih buron dan diyakini sebagai seorang tentara Angkatan Darat AS di Korea Selatan.</li>
+<li>Kelompok tersebut terlibat dalam penjualan data curian dan memeras perusahaan, dengan AT&amp;T dilaporkan membayar $370,000 untuk menghapus catatan yang dicuri.</li>
+<li>Pejabat Kanada telah menangkap Alexander Moucka, dan John Erin Binns dipenjara di Turki, keduanya terkait dengan pelanggaran tersebut, sementara Kiberphant0m tetap aktif di forum kejahatan siber.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42251799">Reaksi</a></h3>
+<ul>
+<li>Seorang peretas yang terlibat dalam pemerasan terhadap Snowflake, yang diidentifikasi sebagai Kiberphant0m, sedang dalam penyelidikan, dengan spekulasi tentang kemungkinan keterkaitan dengan militer AS.</li>
+<li>Kiberphant0m menyangkal adanya hubungan militer, menyarankan bahwa itu adalah taktik menipu, meskipun para analis meragukan ini akan efektif dalam menyesatkan penyelidik.</li>
+<li>Tindakan ceroboh peretas, seperti memposting foto dengan seragam militer, menyoroti kesulitan dalam menjaga keamanan operasional dan menghindari jejak digital.</li>
+</ul>
+<h2><a href="https://zetaoffice.net/">ZetaOffice: LibreOffice di Peramban</a></h2>
+<ul>
+<li>ZetaOffice Web memperkenalkan LibreOffice ke peramban web, memungkinkan akses dari perangkat apa pun dengan opsi untuk hosting mandiri atau menggunakan Jaringan Pengiriman Konten (CDN) untuk kontrol data. Suite ini mencakup Writer, Calc, dan Impress untuk pengolahan kata, spreadsheet, dan presentasi, dan tersedia untuk web dan desktop di Linux dan Windows, memastikan kompatibilitas dokumen. ZetaOffice menawarkan perangkat lunak sumber terbuka dengan opsi berbayar untuk penggunaan CDN dan dukungan, serta terintegrasi dengan sistem yang ada melalui API LibreOffice UNO, berfungsi secara efisien di peramban modern.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42249746">Reaksi</a></h3>
+<ul>
+<li>ZetaOffice, versi berbasis peramban dari LibreOffice, menghadapi kritik terkait masalah kinerja dan kegunaan, termasuk input yang rusak dan rendering teks.</li>
+<li>Terdapat perdebatan yang sedang berlangsung tentang apakah menggunakan kanvas atau menargetkan DOM (Document Object Model) lebih baik untuk merender tata letak dokumen dalam suite kantor berbasis web.</li>
+<li>Terlepas dari tantangan, ZetaOffice bertujuan untuk memberikan pengalaman lintas platform yang konsisten dan juga tersedia sebagai aplikasi desktop asli.</li>
+</ul>
+<h2><a href="https://www.techradar.com/pro/security/d-link-says-it-wont-patch-60-000-older-modems-as-theyre-not-worth-saving">D-Link mengatakan tidak akan memperbaiki 60 ribu modem lama</a></h2>
+<ul>
+<li>D-Link telah mengumumkan bahwa mereka tidak akan menyediakan patch keamanan untuk 60.000 modem lama yang telah mencapai status akhir masa pakai, dan mendorong pengguna untuk meningkatkan ke model yang lebih baru.</li>
+<li>Kerentanan keamanan yang belum ditambal dapat memungkinkan peretas untuk mengambil alih perangkat ini, menimbulkan risiko yang signifikan.</li>
+<li>Sebagian besar modem yang terkena dampak berada di Taiwan, dan bagi pengguna yang tidak dapat melakukan upgrade, D-Link merekomendasikan untuk membatasi akses jarak jauh dan menggunakan kata sandi yang aman sebagai langkah pencegahan.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42249790">Reaksi</a></h3>
+<ul>
+<li>D-Link telah memutuskan untuk tidak menambal kerentanan pada 60.000 modem lama, yang membuatnya rentan terhadap risiko keamanan, sehingga menimbulkan kekhawatiran tentang keamanan perangkat dan tanggung jawab produsen.</li>
+<li>Pengumuman tersebut telah memicu diskusi tentang pentingnya dukungan jangka panjang dan potensi manfaat dari solusi sumber terbuka seperti OpenWRT untuk menjaga keamanan perangkat.</li>
+<li>Terdapat saran untuk mandat hukum yang mewajibkan produsen memberikan pembaruan keamanan atau merilis firmware kepada publik ketika perangkat mencapai akhir masa pakainya, yang menyoroti masalah industri yang lebih luas.</li>
+</ul>
+<h2><a href="https://www.technicianonline.com/news/popular-nc-state-professor-marshall-brain-dies-alleges-retaliation-for-ethics-complaints/article_152e5c80-ac2e-11ef-8b3f-036ac3c8d9bf.html">Marshall Brain meninggal beberapa jam setelah menuduh adanya pembalasan di NC State</a></h2>
+<ul>
+<li>Profesor NC State Marshall Brain, pendiri HowStuffWorks.com, ditemukan meninggal di kantornya pada 20 November, setelah menuduh adanya pembalasan dari pejabat universitas.</li>
+<li>Brain mengklaim bahwa dia dipaksa untuk pensiun setelah adanya keluhan etika, tetapi universitas belum memberikan komentar mengenai tuduhan ini atau kematiannya.</li>
+<li>Para mantan mahasiswa dan rekan kerja telah menyatakan kekecewaan atas sikap diam universitas, menyoroti sifat berkelanjutan dari cerita yang sedang berkembang ini.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42251656">Reaksi</a></h3>
+<ul>
+<li>Marshall Brain, mantan profesor di NC State, meninggal dunia setelah mengklaim adanya pembalasan dari administrator universitas karena keluhan etisnya.</li>
+<li>Kasusnya menyoroti ketegangan antara idealisme dan realitas, menggambarkan potensi bahaya dari menuntut pertanggungjawaban mereka yang berkuasa.</li>
+<li>Tindakannya mendorong diskusi tentang efektivitas sistem pelaporan internal dan dinamika kekuasaan yang lebih luas di dalam institusi akademik.</li>
+</ul>
+<h2><a href="https://ianthehenry.com/posts/janet-for-mortals/">Janet untuk Manusia Biasa (2023)</a></h2>
+<ul>
+<li>Penulis telah merilis buku online gratis berjudul &quot;Janet for Mortals,&quot; yang berfokus pada bahasa pemrograman Janet, yang memerlukan waktu 20 minggu untuk ditulis. Buku ini mencakup 44.000 kata dan dilengkapi dengan situs web yang menampilkan REPL (Read-Eval-Print Loop) untuk pembelajaran interaktif. Buku dan proyek terkait, seperti binding perpustakaan C++ dan kerangka pengujian, telah mendapatkan perhatian positif di platform seperti Hacker News.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42253241">Reaksi</a></h3>
+<ul>
+<li>&quot;Janet for Mortals&quot; adalah sebuah buku yang menawarkan REPL (Read-Eval-Print Loop) interaktif yang dapat diakses melalui tombol escape, memungkinkan pengguna untuk bereksperimen dengan bahasa pemrograman Janet langsung di browser mereka tanpa perlu instalasi.</li>
+<li>Janet diakui karena kemudahan dalam menyematkan dan membuat Bahasa Spesifik Domain (DSL), meskipun beberapa pengguna mencatat bahwa dokumentasinya dapat ditingkatkan.</li>
+<li>Tata bahasa yang menarik dari buku tersebut dan fitur unik dari bahasanya telah menghasilkan minat dan umpan balik positif, meskipun ada beberapa perdebatan mengenai judul buku tersebut.</li>
+</ul>
+<h2><a href="https://www.jeffgeerling.com/blog/2024/raspberry-pi-cm5-2-3x-faster-drop-upgrade-mostly">Raspberry Pi CM5 adalah peningkatan yang lebih cepat dan dapat langsung digunakan</a></h2>
+<ul>
+<li>Tombol Raspberry Pi Compute Module 5 (CM5) adalah peningkatan signifikan dari CM4, menawarkan kinerja 2-3 kali lebih cepat, USB 3, dan kompatibilitas PCIe Gen 3 sambil mempertahankan faktor bentuk yang sama.</li>
+<li>CM5 dihargai serupa dengan CM4, dengan model 8GB dimulai dari $75, dan mencakup CPU yang lebih cepat, RAM, dan grafis yang ditingkatkan, meskipun menggunakan lebih banyak daya pada kapasitas penuh.</li>
+<li>IO board yang diperbarui juga dirilis seharga $20, menampilkan daya USB-C dan peningkatan lainnya, menyoroti dukungan dan modularitas CM5 meskipun ada persaingan dari komputer papan tunggal (SBC) lainnya.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42254379">Reaksi</a></h3>
+<ul>
+<li>Terdapat peningkatan kinerja yang signifikan pada Raspberry Pi CM5 dibandingkan dengan CM4, dengan kecepatan 2-3 kali lebih cepat, dan dilengkapi dengan peningkatan USB 3.</li>
+<li>Meski versi 8GB mempertahankan harganya, versi lainnya lebih mahal, dan beberapa pengguna mencatat bahwa papan lainnya mungkin memiliki spesifikasi yang lebih baik.</li>
+<li>Meskipun ada peningkatan perangkat keras, CM5 tidak memiliki dukungan pengkodean perangkat keras tetapi dapat mendekode H.265, dan komunitas serta dukungan kuat Raspberry Pi tetap menjadi keunggulan utama.</li>
+</ul>
+<h2><a href="https://arstechnica.com/tech-policy/2024/11/isps-say-their-excellent-customer-service-is-why-users-dont-switch-providers/">ISP mengatakan bahwa &quot;layanan pelanggan yang luar biasa&quot; adalah alasan mengapa pengguna tidak beralih penyedia.</a></h2>
+<ul>
+<li>Kelompok lobi ISP berpendapat bahwa persaingan memastikan standar layanan pelanggan yang tinggi, sehingga peraturan tambahan tidak diperlukan, karena layanan yang buruk akan mendorong pelanggan untuk beralih penyedia.</li>
+<li>Regulator di California dan Oregon melaporkan ketidakpuasan pelanggan yang meluas, menyoroti masalah seperti waktu tunggu yang lama dan masalah penagihan, yang bertentangan dengan klaim ISP.</li>
+<li>FCC sedang meninjau praktik layanan pelanggan, tetapi dengan kepemimpinan Brendan Carr, yang ditunjuk oleh Presiden terpilih Trump, peraturan baru tidak mungkin diterapkan, karena fokus bergeser ke arah pengurangan beban regulasi.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42251564">Reaksi</a></h3>
+<ul>
+<li>ISP mengaitkan retensi pelanggan dengan &quot;layanan pelanggan yang sangat baik,&quot; tetapi banyak yang percaya bahwa hal itu disebabkan oleh kurangnya persaingan di area tertentu.</li>
+<li>Di daerah dengan pilihan ISP yang terbatas, pengguna sering tetap dengan penyedia mereka saat ini meskipun tidak puas dengan kualitas layanan.</li>
+<li>Upaya di negara-negara seperti Australia dan Kanada untuk mengatur pasar dan meningkatkan persaingan menghadapi tantangan yang berkelanjutan, dengan pengguna menyerukan persaingan yang nyata dan regulasi yang lebih baik.</li>
+</ul>
+<h2><a href="https://news.ycombinator.com/item?id=42256093">Rekomendasi untuk seorang SWE yang ingin mempercepat pemahaman tentang AI terbaru</a></h2>
+<ul>
+<li>Pengguna sedang aktif mencari sumber yang dapat diandalkan untuk pembaruan terbaru dalam Kecerdasan Buatan (AI), terutama melalui blog teknologi yang mirip dengan Hacker News (HN).</li>
+<li>Mereka memiliki pengalaman menggunakan ChatGPT dan OpenAI API, khususnya versi 3.5, yang menunjukkan minat praktis dalam alat AI.</li>
+<li>Pengguna menemukan blog Simon Willison tetapi merasa kurang kohesif, menyarankan perlunya sumber informasi AI yang lebih terstruktur dan komprehensif.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42256093">Reaksi</a></h3>
+<ul>
+<li>Insinyur perangkat lunak dapat meningkatkan keterampilan AI mereka dengan berpartisipasi dalam kompetisi Kaggle, yang menawarkan pengalaman belajar praktis dan langsung.</li>
+<li>Memperoleh informasi melalui blog teknologi, buletin, dan saluran YouTube seperti Simon Willison&#39;s, AI Supremacy, dan 3Blue1Brown dapat memberikan pengetahuan dasar dan terkini tentang AI.</li>
+<li>Berinteraksi dengan komunitas AI di platform seperti Reddit dan Twitter, serta menjelajahi sumber daya pendidikan seperti buku dan kursus online dari MIT xPRO, dapat memperdalam pemahaman dan menjaga insinyur tetap terbarui dengan tren AI terbaru.</li>
+</ul>
+<h2><a href="https://www.washingtonpost.com/technology/2024/11/26/openai-sora-ai-video-model-artists-protest/">OpenAI menghentikan sementara model video Sora setelah seniman membocorkan akses sebagai bentuk protes</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42252806">Reaksi</a></h3>
+<ul>
+<li>OpenAI menghentikan model video Sora setelah para seniman membocorkan akses sebagai protes atas partisipasi yang tidak dibayar, meskipun tidak ada janji kompensasi. Protes ini menimbulkan kekhawatiran tentang AI yang berpotensi menggantikan seniman dan menyoroti masalah etika terkait tenaga kerja yang tidak dibayar dalam pengembangan AI. Beberapa orang melihat protes ini sebagai upaya strategis untuk menarik perhatian pada isu-isu yang lebih luas dalam industri ini.</li>
+</ul>
+<h2><a href="https://www.nytimes.com/2024/11/26/us/usps-new-mail-trucks.html">Ya, itu &#39;terlihat seperti bebek,&#39; tetapi pengangkut seperti truk surat USPS yang baru</a></h2>
+<ul>
+<li>The U.S. Postal Service memperkenalkan truk surat listrik baru sebagai bagian dari rencana modernisasi senilai $9,6 miliar, menawarkan fitur seperti pendingin udara, ruang kargo yang lebih luas, dan peningkatan keselamatan.</li>
+<li>Awalnya dimaksudkan untuk sebagian besar menggunakan tenaga gas, 75% dari armada sekarang akan menjadi listrik karena tantangan hukum, menandai pergeseran signifikan menuju keberlanjutan.</li>
+<li>Meskipun desainnya tidak konvensional, truk-truk tersebut telah diterima dengan baik karena kenyamanan dan efisiensinya, menggabungkan masukan dari pengantar pos dan menyertakan fitur-fitur seperti permukaan anti-selip, kantung udara, dan sistem penghindaran tabrakan.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42249545">Reaksi</a></h3>
+<ul>
+<li>Tampilan baru truk pos USPS menekankan visibilitas dan keselamatan, dengan kap mesin yang rendah dan bumper besar untuk meningkatkan keselamatan pejalan kaki dan kenyamanan pengemudi, terutama di lingkungan perkotaan.</li>
+<li>Meski penampilannya yang tidak konvensional telah memicu perdebatan, truk ini dirancang untuk ketahanan, mirip dengan Grumman LLV yang telah lama beroperasi.</li>
+<li>Tata letak juga berfokus pada peningkatan kondisi pekerja pos dan mencakup opsi untuk kendaraan listrik guna memenuhi tuntutan pengiriman modern.</li>
+</ul>
+<h2><a href="https://volfpeter.github.io/htmy/">Htmy – Mesin rendering asinkron, murni-Python</a></h2>
+<ul>
+<li>htmy&quot; adalah mesin rendering murni-Python yang mendukung komponen fungsi asinkron dan sinkron, manajemen konteks mirip React, dan tag HTML bawaan, menjadikannya serbaguna untuk berbagai kebutuhan pengembangan web. Ini menawarkan fitur seperti dukungan Markdown, internasionalisasi berbasis JSON, dan integrasi mudah dengan kerangka kerja backend atau frontend apa pun, meningkatkan adaptabilitas dan kustomisasinya. Perpustakaan ini bersifat open-source di bawah lisensi MIT, mendorong kontribusi komunitas, dan dapat diinstal melalui PyPI menggunakan <code>pip install htmy</code>.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42251919">Reaksi</a></h3>
+<ul>
+<li>Htmy adalah mesin rendering HTML asinkron yang sepenuhnya menggunakan Python, memicu perdebatan mengenai kebanyakan kata dibandingkan dengan Jinja dan kebutuhan akan asinkron dalam rendering HTML.</li>
+<li>Diskusi tersebut menyoroti potensi manfaat dari async untuk pengambilan data dinamis dalam desain berbasis komponen, meskipun pendapat bervariasi tentang apakah hal itu mempersulit kode.</li>
+<li>Htmy bertujuan untuk menyediakan solusi rendering yang fleksibel, tetapi keunggulannya dibandingkan alat yang sudah mapan seperti Jinja masih dalam pembahasan.</li>
+</ul>
+<head>
+  <meta property="og:title" content="App yang bertanya 'kenapa?' setiap kali Anda membuka kunci ponsel Anda" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=App%20yang%20bertanya%20'kenapa%3F'%20setiap%20kali%20Anda%20membuka%20kunci%20ponsel%20Anda&subheading=Rabu%2C%2027%20November%202024%3A%20Ringkasan%20Berita%20Peretas" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/id/2024/11/27</link>
+            <guid isPermaLink="false">2024-11-27T00:00:00.000Z</guid>
+            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-11-26]]></title>
             <description
@@ -1192,184 +1359,6 @@
             <link>https://hn.cho.sh/id/2024/11/18</link>
             <guid isPermaLink="false">2024-11-18T00:00:00.000Z</guid>
             <pubDate>Mon, 18 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-11-17]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/11/17&#39;</h2>
-<h1>2024-11-17</h1>
-<h2><a href="https://michaelcharl.es/aubrey/en/code/new-rebeccapurple-css-logo">CSS mendapatkan logo baru dan menggunakan warna <code>rebeccapurple</code></a></h2>
-<ul>
-<li>CSS telah memperkenalkan logo baru, yang dipilih melalui pemungutan suara komunitas di GitHub, menampilkan warna rebeccapurple (#663399). Warna rebeccapurple ditambahkan ke spesifikasi CSS pada tahun 2014 untuk menghormati putri Eric Meyer, Rebecca, yang meninggal karena kanker otak pada usia enam tahun. Desain logo baru ini konsisten dengan gaya visual teknologi web lainnya seperti JavaScript dan TypeScript.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42161919">Reaksi</a></h3>
-<ul>
-<li>CSS telah memperkenalkan logo baru yang menampilkan warna <code>rebeccapurple</code>, sebagai penghormatan kepada putri Eric Meyer, Rebecca, yang meninggal pada usia muda.</li>
-<li>Nama warna <code>rebeccapurple</code> dipilih karena Rebecca lebih suka dipanggil dengan nama lengkapnya, menambahkan makna pribadi dan emosional bagi komunitas teknologi.</li>
-<li>Tampilan logo tersebut selaras dengan teknologi web lainnya seperti JavaScript dan WebAssembly, menekankan kesederhanaan dan kesatuan dalam pengembangan web.</li>
-</ul>
-<h2><a href="https://firehose3d.theo.io/">Firehose Bluesky dilihat dalam gaya screensaver Windows XP</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42159786">Reaksi</a></h3>
-<ul>
-<li>Diskusi tersebut menyoroti nostalgia terhadap akses data terbuka di awal internet, dengan menggunakan Bluesky firehose sebagai simbol dari era tersebut.</li>
-<li>Pengguna mengungkapkan keinginan untuk kembali ke kreativitas dan inovasi masa lalu, dengan membandingkannya dengan lingkungan web saat ini yang lebih tertutup dan korporat.</li>
-<li>Terdapat percakapan mengenai potensi protokol federasi dan peer-to-peer untuk menghidupkan kembali semangat keterbukaan internet awal, dengan perbandingan terhadap keterbukaan awal Twitter dan kekhawatiran tentang kemungkinan Bluesky membatasi akses.</li>
-</ul>
-<h2><a href="https://github.com/rudyrucker/chaos">Chaos: The Software karya James Gleick</a></h2>
-<ul>
-<li>CHAOS: The Software&quot; karya James Gleick adalah rilis gratis dari program Autodesk DOS tahun 1991, yang sekarang tersedia di bawah lisensi GNU, memungkinkan pengguna untuk memodifikasi dan berbagi kode tersebut.</li>
-<li>Teks tersebut: Program ini, terinspirasi oleh buku Gleick &quot;Chaos: Making a New Science,&quot; mencakup enam modul yang berfokus pada fraktal dan sistem kacau, dan dapat dijalankan di platform mana pun menggunakan DOSBox.</li>
-<li>Pembaruan utama mencakup peningkatan resolusi tampilan dan penghapusan program DOS TSR lama metashel.exe, dengan kontribusi yang dibagikan melalui repositori Chaos di GitHub.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42160647">Reaksi</a></h3>
-<ul>
-<li>Buku James Gleick &quot;Chaos&quot; telah secara signifikan menginspirasi pembaca, memicu minat dalam matematika, fraktal, dan sistem kompleks.</li>
-<li>Banyak pembaca berbagi cerita pribadi tentang bagaimana buku tersebut mempengaruhi jalur karier mereka dan eksperimen dengan komputer awal serta rendering fraktal.</li>
-<li>Partisipasi Rudy Rucker menambah daya tarik, karena kontribusinya pada fiksi ilmiah dan matematika juga telah menginspirasi banyak orang, menyoroti dampak abadi dan nostalgia dari buku tersebut.</li>
-</ul>
-<h2><a href="https://www.atlasobscura.com/articles/how-to-echolocate">Ajari diri Anda untuk melakukan ekolokasi (2018)</a></h2>
-<ul>
-<li>Daniel Kish, yang tunanetra, mengembangkan metode navigasi menggunakan ekolokasi, mirip dengan kelelawar, dengan menghasilkan suara klik dan menginterpretasikan gema.</li>
-<li>Ekolokasi dapat meningkatkan kepercayaan diri dan kemandirian bagi individu tunanetra dan dapat dipelajari oleh orang yang dapat melihat juga.</li>
-<li>Panduan ini menguraikan langkah-langkah untuk belajar ekolokasi, termasuk melatih kesadaran suara, menggunakan penutup mata, dan memulai di lingkungan yang tenang dengan suara klik sederhana.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42160071">Reaksi</a></h3>
-<ul>
-<li>Insinyur pencampuran audio menggunakan teknik ekolokasi untuk menentukan penempatan suara dalam sebuah campuran, dengan mempertimbangkan faktor-faktor seperti kedekatan dan ketinggian.</li>
-<li>Ekolokasi melibatkan pengiriman suara dan mendengarkan gema, mirip dengan cara kelelawar dan kapal selam beroperasi, dan berbeda dari sekadar menemukan sumber suara.</li>
-<li>Manusia dapat mempelajari ekolokasi untuk menavigasi ruang, sebuah keterampilan yang dapat ditingkatkan dengan latihan, dan beberapa individu tunanetra menggunakannya untuk navigasi, didukung oleh berbagai alat dan teknik.</li>
-</ul>
-<h2><a href="https://bsky.jazco.dev/stats">Bluesky saat ini mendapatkan lebih dari 1 juta pengguna per hari</a></h2>
-<ul>
-<li>Atlasstatsrepo Explorercleanup menyediakan statistik agregat untuk postingan di indeks Bluesky milik Jaz, dengan pengumpulan data dimulai pada 1 Mei 2023.</li>
-<li>Tidak termasuk Total Pengguna, statistik tidak lengkap setelah 15 November 2024, karena peningkatan aktivitas.</li>
-<li>Jumlah Total Pengguna bersumber dari API Bluesky, tidak termasuk akun bot besar, untuk memastikan representasi pengguna yang lebih akurat.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42159713">Reaksi</a></h3>
-<ul>
-<li>Bluesky mengalami pertumbuhan yang cepat, mendapatkan lebih dari 1 juta pengguna setiap hari, saat pengguna membahas fitur-fiturnya dan membandingkannya dengan platform seperti Mastodon dan Twitter.</li>
-<li>Fitur utama yang sedang dibahas meliputi fitur blokir publik, ketiadaan iklan, dan kurangnya kontrol algoritmik, dengan perdebatan mengenai potensinya untuk percakapan yang bermakna versus konten yang didorong oleh keterlibatan.</li>
-<li>Pertumbuhan platform ini sebagian disebabkan oleh antarmuka yang sudah dikenal oleh pengguna Twitter dan perubahan kebijakan Twitter baru-baru ini, meskipun beberapa pengguna tetap skeptis tentang daya tarik jangka panjangnya dan potensi masalah dengan privasi data dan desentralisasi.</li>
-</ul>
-<h2><a href="https://myelectricsparks.com/four-dead-tesla-doors-fail-open-crash-fire/">Empat orang tewas dalam kebakaran karena pintu Tesla gagal terbuka setelah kecelakaan</a></h2>
-<ul>
-<li>Insiden kecelakaan Tesla Model Y di Toronto pada 24 Oktober mengakibatkan empat korban jiwa dan menimbulkan kekhawatiran tentang mekanisme pintu elektronik Tesla, karena gagal terbuka, menjebak penumpang di dalamnya. Insiden ini telah memicu penyelidikan terhadap baterai dan mekanisme pintu mobil tersebut, dengan kritik yang diarahkan pada tuas pelepas manual Tesla yang dianggap dirancang dengan buruk. Peristiwa tragis ini telah memicu perdebatan yang lebih luas mengenai fitur keselamatan kendaraan listrik, terutama yang berfokus pada sistem keluar darurat.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42158391">Reaksi</a></h3>
-<ul>
-<li>Insiden fatal di Toronto yang melibatkan Tesla Model Y mengakibatkan empat kematian karena pintu elektronik mobil gagal terbuka setelah tabrakan.</li>
-<li>Kritik telah diarahkan pada desain Tesla, yang memerlukan pelepasan manual tersembunyi untuk pintu, yang dianggap tidak intuitif selama keadaan darurat.</li>
-<li>Insiden tersebut telah memperkuat diskusi mengenai fitur keselamatan kendaraan listrik, menyoroti perlunya mekanisme darurat yang lebih ramah pengguna.</li>
-</ul>
-<h2><a href="https://blog.voyageai.com/2024/11/12/voyage-multimodal-3/">Model embedding serba guna untuk teks, gambar, dan tangkapan layar yang diselingi</a></h2>
-<ul>
-<li>Voyage-multimodal-3 adalah model baru yang dirancang untuk embedding multimodal, meningkatkan generasi berbasis pengambilan (RAG) dan pencarian semantik dengan memproses teks dan gambar secara bersamaan.</li>
-<li>Itu mencapai peningkatan akurasi pengambilan sebesar 19,63% dibandingkan model terbaik berikutnya di 20 dataset, mengungguli model seperti OpenAI CLIP dan Cohere multimodal v3.</li>
-<li>Tersedia sekarang, model ini menawarkan 200 juta token pertama secara gratis, dan unggul dalam pencarian campuran-modality, bahkan dengan rasio tangkapan layar yang tinggi.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42162622">Reaksi</a></h3>
-<ul>
-<li>Model embedding serba guna dari VoyageAI menghadapi tantangan dengan pencarian campuran-modalitas karena adanya &quot;kesenjangan modalitas,&quot; di mana vektor teks lebih selaras dengan teks yang tidak relevan daripada gambar yang relevan.</li>
-<li>Gemini, sebuah model multimodal asli, dilatih pada berbagai modalitas sejak awal, tetapi kurang efektif untuk pencarian semantik dibandingkan dengan model embedding khusus.</li>
-<li>Model-model VoyageAI saat ini hanya tersedia melalui API, tetapi perusahaan sedang mempertimbangkan alat open-source dan opsi penerapan lainnya untuk meningkatkan aksesibilitas dan kegunaan.</li>
-</ul>
-<h2><a href="https://erikmcclure.com/blog/stop-making-me-memorize-borrow-checker/">Berhenti membuat saya menghafal pemeriksa pinjaman</a></h2>
-<ul>
-<li>Penulis membahas tantangan dengan pemeriksa pinjaman Rust, yang sering kali memerlukan refaktorisasi kode besar-besaran ketika tidak dapat menangani situasi tertentu.</li>
-<li>Kerumitan Rust, terutama dengan lifetimes dan async, mengharuskan pengembang untuk menghafal aturan agar terhindar dari refactoring yang sering, menjadikannya lebih menantang dibandingkan beberapa bahasa yang lebih sederhana.</li>
-<li>Walaupun Rust meningkatkan keamanan dibandingkan C++ dengan mencegah perilaku yang tidak terdefinisi, kompleksitasnya dan kebutuhan akan alat IDE yang lebih baik mendorong beberapa pengembang untuk mencari alternatif yang lebih ramah pengguna.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42160501">Reaksi</a></h3>
-<ul>
-<li>Pengendali pinjaman Rust dan aturan ketat keamanan memori dapat menjadi tantangan bagi pengembang yang terbiasa dengan bahasa seperti C++, yang berpotensi mempengaruhi produktivitas dalam lingkungan yang bergerak cepat.</li>
-<li>Beberapa pengembang merasa bahwa fitur-fitur Rust meningkatkan praktik pengkodean dengan mencegah bug, sementara yang lain merasa bahwa hal itu membuat refaktorisasi kode menjadi membosankan.</li>
-<li>Ada perdebatan tentang apakah akan menggunakan Rust secara selektif untuk bagian-bagian yang kritis terhadap kinerja atau sepenuhnya mengadopsi idiom-idiomnya untuk memanfaatkan keuntungannya.</li>
-</ul>
-<h2><a href="https://logica.dev/">Logica – Bahasa pemrograman logika deklaratif untuk data</a></h2>
-<ul>
-<li>Logica adalah bahasa pemrograman logika sumber terbuka yang dirancang untuk manipulasi data yang intuitif, memperluas sintaks pemrograman logika untuk dikompilasi menjadi SQL agar mudah diakses oleh mesin SQL.</li>
-<li>Itu menggunakan predikat, mirip dengan fungsi dalam Python atau Java, untuk menyederhanakan kueri yang kompleks dan menangani pemrosesan data secara efisien, menjadikannya cocok untuk insinyur dan ilmuwan data.</li>
-<li>Logica kompatibel dengan BigQuery, SQLite, dan PostgreSQL, dan meskipun mudah dipelajari dan diinstal dengan tutorial yang tersedia, ini bukan produk resmi yang didukung oleh Google.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42158445">Reaksi</a></h3>
-<ul>
-<li>Logica adalah bahasa pemrograman logika deklaratif yang dikembangkan oleh Google, dirancang untuk mengatasi keterbatasan SQL, terutama dalam kueri data yang kompleks.</li>
-<li>Itu bersifat sumber terbuka dan merupakan bagian dari keluarga Datalog, yang memungkinkan bahasa kueri komposisional dan komponen yang dapat digunakan kembali, tetapi memiliki adopsi yang terbatas dan dipelihara oleh satu pengembang.</li>
-<li>Walaupun Logica menunjukkan potensi untuk menyederhanakan kueri yang kompleks dan meningkatkan modularitas, sintaksis dan manfaat praktisnya dibandingkan dengan SQL masih menjadi subjek perdebatan di antara pengguna.</li>
-</ul>
-<h2><a href="https://ezzeriesa.notion.site/1-week-with-David-Beazley-and-SICP-4c440389cf1e43f48fe67c969967f655#58ee6b0435b24e26bd624b33ffed94df">Segala Sesuatu Hanyalah Fungsi: Wawasan Menakjubkan dari SICP dan David Beazley</a></h2>
-<ul>
-<li>David Beazley mengajar kursus SICP (Structure and Interpretation of Computer Programs) pada akhir tahun 2022 yang memberikan wawasan mendalam tentang komputasi, mirip dengan pemahaman tentang kompilator.</li>
-<li>Tugas kursus melibatkan pembuatan model komputasi sederhana menggunakan Scheme, sebuah dialek Lisp, dan membuat interpreter Scheme dalam Python, yang meningkatkan pemahaman tentang kesamaan bahasa.</li>
-<li>Racket, sebuah varian dari Scheme, digunakan karena kemudahan pengaturannya, mencakup dasar-dasar seperti bilangan bulat, operasi, dan bentuk khusus seperti &#39;define&#39; untuk penugasan variabel.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42164541">Reaksi</a></h3>
-<ul>
-<li>Artikel tersebut mengeksplorasi pengkodean status sebagai fungsi murni, mengambil wawasan dari SICP (Structure and Interpretation of Computer Programs) dan David Beazley, dengan fokus pada pemrograman fungsional.</li>
-<li>Itu menggunakan contoh JavaScript dari monad Maybe untuk menggambarkan keanggunan pengkodean fungsional untuk berbagai jenis data.</li>
-<li>Diskusi tersebut mengkritik platform Notion karena masalah kinerja dan navigasi, sambil juga merefleksikan nilai edukatif dari SICP dan kepraktisan pemrograman fungsional dalam aplikasi dunia nyata.</li>
-</ul>
-<h2><a href="https://github.com/oracle/bpftune">Bpftune menggunakan BPF untuk menyetel otomatis sistem Linux</a></h2>
-<ul>
-<li>bpftune adalah alat yang menggunakan BPF (Berkeley Packet Filter) untuk secara otomatis menyesuaikan pengaturan sistem, mengatasi tantangan dalam mengelola banyak pengaturan kernel Linux di lingkungan cloud. Alat ini beroperasi dengan overhead minimal, mencatat perubahan kebijakan, dan menghormati pengaturan administrator dengan menonaktifkan penyesuaian otomatis bila diperlukan, menggunakan pendekatan push-pull untuk mengoptimalkan alokasi sumber daya. Alat ini tidak memerlukan konfigurasi, mencakup berbagai penyesuai untuk komponen sistem, dan dilisensikan di bawah GPL-2.0, mendukung operasi layanan dan latar depan dengan pencatatan ke syslog.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42163597">Reaksi</a></h3>
-<ul>
-<li>Bpftune adalah alat yang menggunakan BPF (Berkeley Packet Filter) untuk secara otomatis mengoptimalkan sistem Linux, dengan tujuan tanpa konfigurasi dan menarik bagi pengguna yang lebih menyukai otomatisasi.</li>
-<li>Beberapa pengguna khawatir tentang potensi masalah sistem akibat penyimpangan dari konfigurasi standar, menyoroti pentingnya memahami perubahan untuk mendiagnosis masalah secara efektif.</li>
-<li>Alat ini menawarkan &quot;mode saran&quot; untuk meninjau penyesuaian yang disarankan sebelum diterapkan, memberikan keseimbangan antara otomatisasi dan kontrol pengguna.</li>
-</ul>
-<h2><a href="https://xogot.com/">Xogot – Godot untuk iPad</a></h2>
-<ul>
-<li>Xogot Godot, sebuah aplikasi baru, kini tersedia untuk iPad, dengan opsi pendaftaran pratinjau bagi pengguna yang tertarik.</li>
-<li>Miguel de Icaza akan mempresentasikan di GodotCon 2024, memberikan wawasan tentang aplikasi dan fitur-fiturnya.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42161223">Reaksi</a></h3>
-<ul>
-<li>Xogot adalah versi dari mesin game Godot yang disesuaikan untuk iPad, memungkinkan pengembangan game langsung pada perangkat tersebut, yang dibuat oleh Miguel de Icaza, dikenal karena Mono dan Xamarin.</li>
-<li>Teraplikasi ini juga dapat beroperasi pada Meta Quest dan berpotensi pada VisionOS, mencerminkan kebijakan terbaru Apple yang kini mengizinkan lingkungan pengembangan semacam itu pada iOS, meskipun dengan batasan tertentu.</li>
-<li>Xogot bukanlah sumber terbuka, memicu diskusi tentang dampaknya dan perbandingan dengan proyek serupa seperti Redot.</li>
-</ul>
-<h2><a href="https://www.chemistryworld.com/news/meteorite-200-times-larger-than-one-that-killed-dinosaurs-reset-early-life/4020391.article">Pengaruh dampak meteorit raksasa terhadap lingkungan dan kehidupan Paleoarkean</a></h2>
-<ul>
-<li>Tabrakan meteorit kolosal lebih dari 3 miliar tahun yang lalu secara signifikan mempengaruhi kehidupan mikroba awal, awalnya menyebabkan kehancuran tetapi kemudian menyediakan nutrisi penting bagi beberapa mikroba untuk berkembang.</li>
-<li>Penemuan bukti dampak kuno ini ditemukan di Afrika Selatan, di mana lapisan sferul menunjukkan peristiwa meteorit masa lalu, menyoroti skala dampaknya yang lebih besar daripada yang menyebabkan kepunahan dinosaurus.</li>
-<li>Tumbukan tersebut memperkenalkan besi dan fosfor yang dapat diakses secara hayati ke permukaan laut, memfasilitasi pemulihan mikroba dan menunjukkan bahwa dampak besar, meskipun awalnya merugikan, dapat menguntungkan ekosistem awal.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42160716">Reaksi</a></h3>
-<ul>
-<li>Sebuah makalah terbaru membahas dampak meteorit raksasa selama era Paleoarkean, menyoroti efek lingkungan dan biologis yang signifikan, seperti tsunami dan perubahan atmosfer. Meskipun terjadi gangguan, bentuk kehidupan awal kemungkinan pulih dengan cepat, dengan peningkatan nutrisi dan besi yang berpotensi mendorong pertumbuhan mikroba. Makalah ini juga membahas kesalahpahaman tentang kepunahan dinosaurus, mencatat bahwa beberapa dinosaurus bertahan dan berevolusi menjadi burung modern, sambil mengakui tantangan dalam menafsirkan peristiwa kuno.</li>
-</ul>
-<h2><a href="https://github.com/veloplanner/map-matrix">Claude AI membangun aplikasi React untuk saya guna membandingkan peta secara berdampingan</a></h2>
-<ul>
-<li>Map Matrix adalah alat yang memungkinkan pengguna untuk membandingkan beberapa peta secara bersamaan, awalnya dikembangkan untuk veloplanner.com menggunakan Claude AI.</li>
-<li>Tahap pengembangan dipermudah dengan menggunakan Claude AI untuk dengan cepat menghasilkan prototipe dan kemudian ditingkatkan dengan Cursor AI dan model claude-3.5-sonnet.</li>
-<li>Pengguna dapat menambahkan sumber peta kustom, dengan konfigurasi yang disimpan secara lokal, dan pengembang dapat mengatur alat ini menggunakan perintah <code>npm install</code> dan <code>npm run dev</code>.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42164141">Reaksi</a></h3>
-<ul>
-<li>Claude AI berperan penting dalam pembuatan aplikasi React untuk perbandingan peta, dengan sebagian besar kode dihasilkan oleh AI. Pengguna melaporkan keuntungan seperti percepatan pengembangan dan pengurangan kebutuhan akan pengetahuan teknis yang mendalam, serta tantangan termasuk keterbatasan AI seperti halusinasi dan kode yang tidak berfungsi. Alat AI seperti Claude dan Cursor AI dihargai untuk pembuatan prototipe cepat dan pengembangan proyek kecil, meskipun ada kekhawatiran tentang peningkatan persaingan dan potensi plagiarisme.</li>
-</ul>
-<h2><a href="https://bitfieldconsulting.com/posts/constraints">Pembatasan dalam Go</a></h2>
-<ul>
-<li>Artikel ini adalah bagian terakhir dari seri tentang generik dalam bahasa pemrograman Go, yang secara khusus berfokus pada batasan, fitur baru.- Batasan dalam generik Go membatasi jenis yang dapat digunakan dalam fungsi generik, memungkinkan operasi yang lebih tepat dengan menggunakan antarmuka dasar seperti <code>fmt.Stringer</code>.- Seri ini menyoroti berbagai jenis batasan, seperti batasan set tipe, gabungan, irisan, dan literal antarmuka, serta mendorong eksplorasi lebih lanjut melalui buku &quot;Know Go&quot; oleh John Arundel.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42162878">Reaksi</a></h3>
-<ul>
-<li>Pembatas generik Go memperkenalkan kompleksitas, yang bertentangan dengan fokus bahasa tersebut pada kesederhanaan, karena perbedaan antara &quot;mengimplementasikan&quot; dan &quot;memenuhi&quot; sebuah pembatas serta keterbatasan pada isi pembatas.</li>
-<li>Kompleksitas ini sebagian disebabkan oleh penambahan generik ke dalam Go, yang awalnya tidak dirancang untuk mendukungnya, memicu perdebatan tentang kebutuhan dan dampaknya terhadap komunitas.</li>
-<li>Meskipun kompleks, generik dianggap bermanfaat untuk kode perpustakaan, meskipun beberapa pengembang mempertanyakan kebutuhan mereka untuk kasus penggunaan tertentu.</li>
-</ul>
-<head>
-  <meta property="og:title" content="CSS mendapatkan logo baru dan menggunakan warna `rebeccapurple`" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=CSS%20mendapatkan%20logo%20baru%20dan%20menggunakan%20warna%20%60rebeccapurple%60&subheading=Minggu%2C%2017%20November%202024%3A%20Ringkasan%20Berita%20Peretas" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/id/2024/11/17</link>
-            <guid isPermaLink="false">2024-11-17T00:00:00.000Z</guid>
-            <pubDate>Sun, 17 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

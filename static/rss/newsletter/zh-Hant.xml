@@ -15,12 +15,179 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 26 Nov 2024 19:20:18 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 27 Nov 2024 19:11:21 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/zh-Hant.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Tue, 26 Nov 2024 00:00:00 GMT</pubDate>
+        <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-11-27]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/11/27&#39;</h2>
+<h1>2024-11-27</h1>
+<h2><a href="https://play.google.com/store/apps/details?id=com.actureunlock&hl=en_US">每次解鎖手機時都會問「為什麼？」的應用程式</a></h2>
+<ul>
+<li>Intenty 是一款應用程式，透過在解鎖裝置時的提醒來鼓勵使用者培養更健康的手機使用習慣。- 該應用程式強調隱私，完全在本地運行，沒有廣告或追蹤，並且僅使用 Android 權限來實現功能而不收集數據。- 憑藉簡約的設計和智能化的自訂功能，Intenty 擁有 4.4 星的評分和超過 10,000 次的下載量，吸引了希望減少無意識手機使用的用戶。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42254156">評論</a></h3>
+<ul>
+<li>一款在用戶解鎖手機時提示「為什麼？」的應用程式，因其有可能減少分心而在 Hacker News 上引起關注。</li>
+<li>使用者發現該應用程式很有幫助，但有時在執行快速任務時會感到不便，因此提出了一些改進建議，例如隨機化提示或允許特定應用程式的繞過功能。</li>
+<li>「開發者正在考慮用戶反饋以進行更新，包括提供一次性購買選項以取代訂閱模式。」</li>
+</ul>
+<h2><a href="https://www.downtowndougbrown.com/2024/11/the-capacitor-that-apple-soldered-incorrectly-at-the-factory/">蘋果在工廠中焊接錯誤的電容器</a></h2>
+<ul>
+<li>「Doug Brown 指出 Apple 的 Macintosh LC III 存在一個製造錯誤，其中一個電容器被反向安裝，可能會導致問題。」</li>
+<li>Macintosh LC III 是在 1993 年至 1994 年間為教育市場生產的，儘管存在這個錯誤，但並未進行大規模召回。</li>
+<li>Brown 建議在更換電容器時要小心，特別是現代鉭電容器，並建議正確安裝它們，而不是依照 PCB 的絲印指示。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42253119">評論</a></h3>
+<ul>
+<li>蘋果公司在一台34年前的電腦上錯誤地反向安裝了一個電容器，這突顯了正確安裝電容器方向的重要性，特別是對於具有極性的電解電容器，如果安裝不正確可能會失效。</li>
+<li>這起事件引發了關於產品壽命和計畫性淘汰的討論，有人認為現代電子產品被故意設計成壽命較短，以促進銷售。</li>
+<li>這種情況讓人想起其他公司過去的製造錯誤，例如 Commodore，這顯示出科技產業中反覆出現的問題。</li>
+</ul>
+<h2><a href="https://benhouston3d.com/blog/why-i-left-kubernetes-for-google-cloud-run">「我不需要 Kubernetes，你可能也不需要」</a></h2>
+<ul>
+<li>作者從 Kubernetes 轉向 Google Cloud Run，指出 Kubernetes 的複雜性、成本和緩慢的自動擴展是其缺點。- Google Cloud Run 被強調為一個更簡單、具成本效益的替代方案，只對實際的 CPU 和記憶體使用收費，並提供快速擴展而無需 Kubernetes 的管理負擔。- 作者使用 GitHub Actions 進行持續整合/持續部署(CI/CD)、管理資料庫和發布-訂閱訊息，強調 Cloud Run 對於需要簡單性和效率的專案比起 Kubernetes 的廣泛功能更為合適。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42252336">評論</a></h3>
+<ul>
+<li>這篇文章批評 Kubernetes 過於複雜，對於較小的專案來說通常是不必要的，並建議使用更簡單的解決方案，如單一虛擬機(VM)或伺服器可能更有效率。</li>
+<li>這突顯了管理 Kubernetes 的挑戰，包括來自各種附加元件的額外複雜性以及某些工程師使系統複雜化的傾向。</li>
+<li>共識是，雖然 Kubernetes 很有價值，但對於較小規模的運營來說，它並不總是最佳選擇，因為簡單性可能更有利。</li>
+</ul>
+<h2><a href="https://krebsonsecurity.com/2024/11/hacker-in-snowflake-extortions-may-be-a-u-s-soldier/">在 Snowflake 勒索案中的駭客可能是一名美國士兵</a></h2>
+<ul>
+<li>「兩名個人因從使用 Snowflake 的公司竊取資料而被逮捕，而第三名嫌疑犯，代號為『Kiberphant0m』，仍在逃，據信是駐韓美軍士兵。」</li>
+<li>「該團體涉及販售被竊取的數據並勒索公司，據報導，AT&amp;T支付了37萬美元以刪除被竊取的記錄。」</li>
+<li>加拿大當局已逮捕了亞歷山大·穆卡，而約翰·艾琳·賓斯則在土耳其被監禁，兩人均與這些入侵事件有關，然而 Kiberphant0m 仍活躍於網路犯罪論壇。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42251799">評論</a></h3>
+<ul>
+<li>一名參與勒索 Snowflake 的駭客，身份為 Kiberphant0m，目前正接受調查，並有傳言稱其可能與美國軍方有關聯。</li>
+<li>Kiberphant0m 否認與軍事有任何關聯，暗示這是一種欺騙策略，儘管分析師懷疑這樣做能否有效誤導調查人員。</li>
+<li>駭客的粗心行為，例如發布穿著軍裝的照片，突顯了在維持作業安全和避免數位痕跡方面的困難。</li>
+</ul>
+<h2><a href="https://zetaoffice.net/">「ZetaOffice：瀏覽器中的 LibreOffice」</a></h2>
+<ul>
+<li>ZetaOffice Web 將 LibreOffice 引入網頁瀏覽器，讓使用者能夠從任何裝置存取，並提供自我託管或使用內容傳遞網路(CDN)以控制資料的選項。- 該套件包括 Writer、Calc 和 Impress，用於文字處理、試算表和簡報，並可在 Linux 和 Windows 的網頁及桌面上使用，確保文件相容性。- ZetaOffice 提供開源軟體，並有付費選項可使用 CDN 和支援，透過 LibreOffice UNO API 與現有系統整合，在現代瀏覽器中高效運作。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42249746">評論</a></h3>
+<ul>
+<li>ZetaOffice 是一個基於瀏覽器的 LibreOffice 版本，因效能和可用性問題而受到批評，包括輸入和文字渲染的問題。</li>
+<li>「目前正在討論使用畫布或是直接操作 DOM(文件物件模型)哪一種方式更適合在網頁版辦公套件中呈現文件版面。」</li>
+<li>儘管面臨挑戰，ZetaOffice 仍致力於提供一致的跨平台體驗，並且也提供原生桌面應用程式。</li>
+</ul>
+<h2><a href="https://www.techradar.com/pro/security/d-link-says-it-wont-patch-60-000-older-modems-as-theyre-not-worth-saving">「D-Link 表示不會修補 6 萬台舊款數據機」</a></h2>
+<ul>
+<li>「D-Link 宣布將不再為已達到生命週期終止狀態的 60,000 台舊款數據機提供安全性更新，並敦促用戶升級至較新的型號。」</li>
+<li>未修補的安全漏洞可能讓駭客控制這些裝置，構成重大風險。</li>
+<li>大多數受影響的數據機位於台灣，對於無法升級的用戶，D-Link 建議限制遠端存取並使用安全密碼作為預防措施。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42249790">評論</a></h3>
+<ul>
+<li>「D-Link 已決定不修補 60,000 台舊型數據機的漏洞，使其暴露於安全風險之中，這引發了對設備安全性和製造商責任的擔憂。」</li>
+<li>這項公告引發了關於長期支援重要性以及像 OpenWRT 這樣的開源解決方案在維護設備安全方面潛在好處的討論。</li>
+<li>有建議要求法律規定製造商在設備達到使用壽命終止時提供安全更新或向公眾發布韌體，這突顯了一個更廣泛的產業問題。</li>
+</ul>
+<h2><a href="https://www.technicianonline.com/news/popular-nc-state-professor-marshall-brain-dies-alleges-retaliation-for-ethics-complaints/article_152e5c80-ac2e-11ef-8b3f-036ac3c8d9bf.html">「馬歇爾·布萊恩在指控北卡羅來納州立大學報復後數小時去世」</a></h2>
+<ul>
+<li>北卡羅來納州立大學教授 Marshall Brain，HowStuffWorks.com 的創辦人，於 11 月 20 日被發現死於他的辦公室，此前他曾指控大學官員進行報復。</li>
+<li>「布萊恩聲稱他因倫理投訴而被迫退休，但大學對這些指控或他的死並未發表評論。」</li>
+<li>前學生和同事對於大學的沉默表示失望，強調了這個不斷發展的事件的持續性。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42251656">評論</a></h3>
+<ul>
+<li>馬歇爾·布萊恩(Marshall Brain)，一位曾任教於北卡羅來納州立大學的教授，在聲稱因其道德投訴而遭到大學管理層報復後去世。</li>
+<li>他的案例突顯了理想主義與現實之間的緊張關係，說明了追究掌權者責任的潛在危險。</li>
+<li>該事件引發了對內部舉報系統效能及學術機構內更廣泛權力動態的討論。</li>
+</ul>
+<h2><a href="https://ianthehenry.com/posts/janet-for-mortals/">「Janet for Mortals (2023)」</a></h2>
+<ul>
+<li>作者發布了一本名為《Janet for Mortals》的免費線上書籍，專注於Janet程式語言，這本書花了20週的時間撰寫。- 書中包含44,000字，並附有一個網站，提供REPL(讀取-求值-輸出循環)以供互動學習。- 這本書及相關專案，如C++函式庫綁定和測試框架，在Hacker News等平台上獲得了正面關注。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42253241">評論</a></h3>
+<ul>
+<li>《Janet for Mortals》是一本書，提供一個可透過 Esc 鍵存取的互動式 REPL(讀取-求值-輸出循環)，讓使用者能夠直接在瀏覽器中實驗 Janet 程式語言，而無需安裝。</li>
+<li>Janet 因其易於嵌入和創建領域專用語言(DSL)而受到認可，儘管有些使用者指出其文件可以改進。</li>
+<li>儘管對書名有一些爭議，這本書引人入勝的風格和語言的獨特特點已經引起了興趣並獲得了正面的回饋。</li>
+</ul>
+<h2><a href="https://www.jeffgeerling.com/blog/2024/raspberry-pi-cm5-2-3x-faster-drop-upgrade-mostly">「Raspberry Pi CM5 是一個更快速的即插即用升級」</a></h2>
+<ul>
+<li>Raspberry Pi Compute Module 5(CM5)是對CM4的一次重大升級，提供2到3倍的性能提升，支援USB 3和PCIe Gen 3相容性，同時保持相同的外形尺寸。</li>
+<li>CM5 的定價與 CM4 相似，8GB 型號起價為 75 美元，並配備更快的 CPU、RAM 和改進的圖形性能，儘管在全負載運行時耗電量更高。</li>
+<li>「一款更新的 IO 板也已推出，售價為 20 美元，具備 USB-C 電源和其他增強功能，突顯了 CM5 的支援和模組化設計，儘管面臨其他單板電腦(SBC)的競爭。」</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42254379">評論</a></h3>
+<ul>
+<li>「Raspberry Pi CM5 相較於 CM4 提供了顯著的性能提升，速度提高了 2-3 倍，並且包含了 USB 3 的升級。」</li>
+<li>雖然 8GB 版本維持其價格，但其他版本則較為昂貴，有些使用者指出其他主板可能有更好的規格。</li>
+<li>「儘管硬體有所改進，CM5 缺乏硬體編碼支援，但可以解碼 H.265，而 Raspberry Pi 的強大社群和支援仍然是其主要優勢。」</li>
+</ul>
+<h2><a href="https://arstechnica.com/tech-policy/2024/11/isps-say-their-excellent-customer-service-is-why-users-dont-switch-providers/">網際網路服務供應商表示，他們的「優質客戶服務」是用戶不更換供應商的原因</a></h2>
+<ul>
+<li>「ISP 遊說團體主張，競爭確保了高水準的客戶服務標準，使得額外的法規變得不必要，因為劣質服務會促使客戶轉換服務提供商。」</li>
+<li>加州和俄勒岡州的監管機構報告顧客普遍不滿，強調了如長時間等待和帳單問題等問題，這與網際網路服務供應商的聲稱相矛盾。</li>
+<li>FCC 正在審查客戶服務的做法，但由於布蘭登·卡爾的領導，他是由當選總統川普任命的，因此不太可能出台新規，因為重點轉向減少監管負擔。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42251564">評論</a></h3>
+<ul>
+<li>網際網路服務供應商將客戶留存歸因於他們的「優秀客戶服務」，但許多人認為這是由於某些地區缺乏競爭所致。</li>
+<li>在網際網路服務供應商選擇有限的地區，使用者即使對服務品質不滿意，通常仍會繼續使用目前的供應商。</li>
+<li>澳洲和加拿大等國在市場監管和促進競爭方面的努力面臨持續挑戰，用戶呼籲實現真正的競爭和改進的監管措施。</li>
+</ul>
+<h2><a href="https://news.ycombinator.com/item?id=42256093">給尋求了解最新 AI 動態的軟體工程師的建議</a></h2>
+<ul>
+<li>該用戶正在積極尋找有關人工智慧(AI)最新動態的可靠來源，特別是透過類似 Hacker News(HN)的科技部落格。</li>
+<li>他們有使用 ChatGPT 和 OpenAI API 的經驗，特別是版本 3.5，這表明他們對 AI 工具有實際的興趣。</li>
+<li>使用者找到了 Simon Willison 的部落格，但覺得缺乏連貫性，建議需要更有結構和全面的 AI 資訊來源。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42256093">評論</a></h3>
+<ul>
+<li>軟體工程師可以透過參加 Kaggle 比賽來提升他們的 AI 技能，這些比賽提供了實際的動手學習經驗。</li>
+<li>透過科技部落格、電子報和 YouTube 頻道，如 Simon Willison&#39;s、AI Supremacy 和 3Blue1Brown，保持資訊更新可以提供基礎和最新的 AI 知識。</li>
+<li>參與 Reddit 和 Twitter 等平台上的 AI 社群，以及探索來自 MIT xPRO 的書籍和線上課程等教育資源，可以加深理解並讓工程師掌握最新的 AI 趨勢。</li>
+</ul>
+<h2><a href="https://www.washingtonpost.com/technology/2024/11/26/openai-sora-ai-video-model-artists-protest/">OpenAI 暫停影片模型 Sora，因藝術家洩露訪問權限以示抗議</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42252806">評論</a></h3>
+<ul>
+<li>「OpenAI 暫停了其影片模型 Sora，因為藝術家在抗議未支付參與費用的情況下洩露了訪問權限，儘管並未承諾補償。這次抗議引發了對 AI 可能取代藝術家的擔憂，並突顯了與 AI 開發中未支付勞動相關的倫理問題。有些人認為這次抗議是為了引起業界對這些更廣泛問題的關注而進行的策略性努力。」</li>
+</ul>
+<h2><a href="https://www.nytimes.com/2024/11/26/us/usps-new-mail-trucks.html">是的，它『看起來像鴨子』，但像新的 USPS 郵件卡車這樣的運輸工具很受歡迎</a></h2>
+<ul>
+<li>美國郵政署正在推出新的電動郵件卡車，作為96億美元現代化計畫的一部分，提供空調、增加的貨物空間和增強的安全性等功能。</li>
+<li>「原本計劃主要使用燃氣動力的車隊，因法律挑戰，現在有75%將改為電動車，這標誌著向可持續發展的一個重大轉變。」</li>
+<li>儘管設計不尋常，這些卡車因其舒適性和效率而受到好評，並結合了郵遞員的意見，包含防滑表面、安全氣囊和防撞系統等功能。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42249545">評論</a></h3>
+<ul>
+<li>新的 USPS 郵件卡車設計強調可見性和安全性，具有低引擎蓋和大型保險桿，以增強行人安全和駕駛員舒適性，特別是在城市環境中。</li>
+<li>雖然其非傳統的外觀引發了爭議，但這款卡車的設計注重耐用性，類似於長期服役的 Grumman LLV。</li>
+<li>「該設計還著重於改善郵政工作人員的工作條件，並包含電動車選項以滿足現代配送需求。」</li>
+</ul>
+<h2><a href="https://volfpeter.github.io/htmy/">Htmy – 非同步、純 Python 的渲染引擎</a></h2>
+<ul>
+<li>「htmy」是一個純 Python 的渲染引擎，支援非同步和同步函數元件、類似 React 的上下文管理，以及內建的 HTML 標籤，使其在各種網頁開發需求中具有多功能性。它提供了如 Markdown 支援、基於 JSON 的國際化，以及與任何後端或前端框架的輕鬆整合等功能，增強了其適應性和自訂性。該函式庫在 MIT 許可下開源，鼓勵社群貢獻，並可透過 PyPI 使用 <code>pip install htmy</code> 進行安裝。」</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42251919">評論</a></h3>
+<ul>
+<li>Htmy 是一個非同步、純 Python 的 HTML 渲染引擎，引發了關於其與 Jinja 相比的冗長性以及在 HTML 渲染中使用非同步的必要性的討論。</li>
+<li>討論強調了在基於元件的設計中，使用非同步進行動態資料擷取的潛在好處，儘管對於它是否使程式碼變得複雜的看法不一。</li>
+<li>Htmy 旨在提供一個靈活的渲染解決方案，但其相較於像 Jinja 這樣的成熟工具的優勢仍在討論中。</li>
+</ul>
+<head>
+  <meta property="og:title" content="每次解鎖手機時都會問「為什麼？」的應用程式" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E6%AF%8F%E6%AC%A1%E8%A7%A3%E9%8E%96%E6%89%8B%E6%A9%9F%E6%99%82%E9%83%BD%E6%9C%83%E5%95%8F%E3%80%8C%E7%82%BA%E4%BB%80%E9%BA%BC%EF%BC%9F%E3%80%8D%E7%9A%84%E6%87%89%E7%94%A8%E7%A8%8B%E5%BC%8F&subheading=2024%E5%B9%B411%E6%9C%8827%E6%97%A5%20%E6%98%9F%E6%9C%9F%E4%B8%89%3A%20Hacker%20News%20%E6%91%98%E8%A6%81" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/zh/Hant/2024/11/27</link>
+            <guid isPermaLink="false">2024-11-27T00:00:00.000Z</guid>
+            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-11-26]]></title>
             <description
@@ -1192,184 +1359,6 @@
             <link>https://hn.cho.sh/zh/Hant/2024/11/18</link>
             <guid isPermaLink="false">2024-11-18T00:00:00.000Z</guid>
             <pubDate>Mon, 18 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-11-17]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/11/17&#39;</h2>
-<h1>2024-11-17</h1>
-<h2><a href="https://michaelcharl.es/aubrey/en/code/new-rebeccapurple-css-logo">CSS 有了新的標誌，並使用了 <code>rebeccapurple</code> 顏色。</a></h2>
-<ul>
-<li>「CSS 推出了一個新標誌，這是通過 GitHub 上的社群投票選出的，特色是使用了 rebeccapurple(#663399)這種顏色。- rebeccapurple 這個顏色在 2014 年被加入到 CSS 規範中，以紀念 Eric Meyer 的女兒 Rebecca，她在六歲時因腦癌去世。- 新標誌的設計風格與其他網頁技術如 JavaScript 和 TypeScript 的視覺風格一致。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42161919">評論</a></h3>
-<ul>
-<li>「CSS 推出了一個新標誌，採用了 <code>rebeccapurple</code> 顏色，以此向 Eric Meyer 的女兒 Rebecca 致敬，她在年幼時不幸去世。」</li>
-<li>選擇 <code>rebeccapurple</code> 這個顏色是因為 Rebecca 喜歡被叫全名，這為科技社群增添了個人和情感上的意義。</li>
-<li>這個標誌的設計與其他網路技術如 JavaScript 和 WebAssembly 保持一致，強調了網頁開發中的簡單性和統一性。</li>
-</ul>
-<h2><a href="https://firehose3d.theo.io/">「以 Windows XP 螢幕保護程式風格觀看 Bluesky 資料流」</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42159786">評論</a></h3>
-<ul>
-<li>討論中強調了對早期網際網路開放數據存取的懷舊情感，並以 Bluesky 的資料流作為那個時代的象徵。</li>
-<li>使用者表達了希望回到過去創意和創新的願望，並將其與當今更封閉和企業化的網路環境形成對比。</li>
-<li>「有一場關於聯邦和點對點協議潛力的對話，討論它們如何能夠重振早期互聯網的開放精神，並與 Twitter 最初的開放性進行比較，同時也對 Bluesky 可能限制訪問的問題表示擔憂。」</li>
-</ul>
-<h2><a href="https://github.com/rudyrucker/chaos">「詹姆斯·葛雷克的《混沌：軟體》」</a></h2>
-<ul>
-<li>James Gleick 的《CHAOS: The Software》是一款1991年由 Autodesk 發行的 DOS 程式，現已在 GNU 授權下免費發布，允許使用者修改和分享程式碼。</li>
-<li>該程式受到格萊克的著作《混沌：開創一門新科學》的啟發，包含六個專注於分形和混沌系統的模組，並可在任何使用 DOSBox 的平台上運行。</li>
-<li>主要更新包括提升顯示解析度以及移除舊的 DOS TSR 程式 metashel.exe，並透過 Chaos GitHub 儲存庫分享貢獻。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42160647">評論</a></h3>
-<ul>
-<li>詹姆斯·格萊克的書《混沌》極大地啟發了讀者，激發了對數學、分形和複雜系統的興趣。</li>
-<li>許多讀者分享了這本書如何影響他們的職業道路，以及他們在早期電腦和分形渲染方面的實驗的個人故事。</li>
-<li>「Rudy Rucker 的參與增添了趣味，因為他對科幻小說和數學的貢獻也啟發了許多人，突顯了這本書的持久影響力和懷舊情懷。」</li>
-</ul>
-<h2><a href="https://www.atlasobscura.com/articles/how-to-echolocate">「自學回聲定位 (2018)」</a></h2>
-<ul>
-<li>丹尼爾·基什(Daniel Kish)是一位盲人，他開發了一種利用回聲定位進行導航的方法，類似於蝙蝠，透過發出喀喀聲並解讀回聲來實現。</li>
-<li>Echolocation 可以增強盲人的自信和獨立性，且有視力的人也能學習。</li>
-<li>本指南概述了學習回聲定位的步驟，包括練習聲音意識、使用眼罩，以及在安靜的環境中以簡單的點擊聲開始。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42160071">評論</a></h3>
-<ul>
-<li>「音訊混音工程師使用回聲定位技術來確定聲音在混音中的位置，考量的因素包括距離和高度。」</li>
-<li>Echolocation 涉及發出聲音並聆聽回聲，類似於蝙蝠和潛水艇的運作方式，這與僅僅定位聲音來源是不同的。</li>
-<li>人類可以學習回聲定位來導航空間，這項技能可以透過練習來增強，一些盲人使用它來導航，並輔以各種工具和技術。</li>
-</ul>
-<h2><a href="https://bsky.jazco.dev/stats">Bluesky 目前每天增加超過 100 萬用戶</a></h2>
-<ul>
-<li>Atlasstatsrepo Explorercleanup 提供 Jaz 的 Bluesky 索引中貼文的彙總統計數據，數據收集始於 2023 年 5 月 1 日。</li>
-<li>由於活動增加，2024 年 11 月 15 日之後的統計數據(不包括總用戶數)不完整。</li>
-<li>總用戶數是從 Bluesky API 獲取的，排除了大型機器人帳戶，以確保更準確的用戶代表性。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42159713">評論</a></h3>
-<ul>
-<li>Bluesky 正在經歷快速增長，每天新增超過 100 萬用戶，使用者們討論其功能並將其與 Mastodon 和 Twitter 等平台進行比較。</li>
-<li>正在討論的主要功能包括公開封鎖功能、無廣告以及缺乏演算法控制，並且對其在促進有意義對話與以互動為導向的內容之間的潛力進行辯論。</li>
-<li>該平台的成長部分歸功於其對 Twitter 用戶來說熟悉的介面以及 Twitter 最近政策的變更，儘管一些用戶對其長期吸引力和資料隱私及去中心化的潛在問題仍持懷疑態度。</li>
-</ul>
-<h2><a href="https://myelectricsparks.com/four-dead-tesla-doors-fail-open-crash-fire/">特斯拉車禍後車門無法打開，火災造成四人死亡</a></h2>
-<ul>
-<li>「10 月 24 日在多倫多發生的一起特斯拉 Model Y 車禍導致四人死亡，並引發了對特斯拉電子車門機制的擔憂，因為車門無法打開，乘客被困在車內。這起事件促使對車輛的電池和車門機制進行調查，並批評特斯拉的手動釋放槓桿設計不佳。這一悲劇事件引發了對電動車安全功能的更廣泛討論，特別是針對緊急逃生系統。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42158391">評論</a></h3>
-<ul>
-<li>「多倫多發生一起涉及特斯拉 Model Y 的致命事故，因車輛的電子車門在撞擊後無法打開，導致四人死亡。」</li>
-<li>批評指向特斯拉的設計，因為其車門需要隱藏的手動釋放裝置，在緊急情況下被認為不夠直觀。</li>
-<li>這起事件加劇了對電動車安全特性的討論，突顯出更具使用者友好的緊急機制的必要性。</li>
-</ul>
-<h2><a href="https://blog.voyageai.com/2024/11/12/voyage-multimodal-3/">整合型嵌入模型，用於交錯的文字、圖片和截圖</a></h2>
-<ul>
-<li>Voyage-multimodal-3 是一個新模型，專為多模態嵌入設計，通過同時處理文本和圖像來增強檢索增強生成(RAG)和語義搜索。</li>
-<li>在 20 個數據集上，其檢索準確率比次佳模型提高了 19.63%，超越了像 OpenAI CLIP 和 Cohere multimodal v3 這樣的模型。</li>
-<li>該模型現已推出，前兩億個代幣免費提供，並且在混合模態搜尋中表現出色，即使是高截圖比例的情況下也不例外。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42162622">評論</a></h3>
-<ul>
-<li>VoyageAI 的全方位嵌入模型在混合模態搜尋中面臨挑戰，這是由於「模態差距」，即文字向量與不相關的文字比與相關的圖像更為接近。</li>
-<li>Gemini 是一個原生多模態模型，從一開始就接受各種模態的訓練，但在語義搜尋方面，其效果不如專用的嵌入模型。</li>
-<li>VoyageAI 的模型目前僅透過 API 提供，但公司正在考慮開放原始碼工具和其他部署選項，以提升可及性和使用性。</li>
-</ul>
-<h2><a href="https://erikmcclure.com/blog/stop-making-me-memorize-borrow-checker/">別再讓我記住借用檢查器了</a></h2>
-<ul>
-<li>作者討論了 Rust 的借用檢查器所面臨的挑戰，當它無法處理特定情況時，通常需要進行大規模的程式碼重構。</li>
-<li>Rust 的複雜性，特別是在生命週期和非同步處理方面，要求開發者記住規則以避免頻繁的重構，這使得它比一些較簡單的語言更具挑戰性。</li>
-<li>雖然 Rust 通過防止未定義行為來提高相較於 C++ 的安全性，但其複雜性和對更好 IDE 工具的需求使得一些開發者尋求更易於使用的替代方案。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42160501">評論</a></h3>
-<ul>
-<li>「Rust 的借用檢查器和嚴格的記憶體安全規則對於習慣使用 C++ 等語言的開發者來說可能具有挑戰性，這可能會影響在快速變化環境中的生產力。」</li>
-<li>雖然有些開發者認為 Rust 的功能通過防止錯誤來提升編碼實踐，但也有些人覺得它使得程式碼重構變得繁瑣。</li>
-<li>「目前存在一個爭論，即是否應該在性能關鍵的部分選擇性地使用 Rust，還是應該全面採用其慣用法以充分發揮其優勢。」</li>
-</ul>
-<h2><a href="https://logica.dev/">Logica – 用於資料的宣告式邏輯程式語言</a></h2>
-<ul>
-<li>Logica 是一種開源的邏輯程式語言，旨在進行直觀的資料操作，透過擴展邏輯程式語法來編譯成 SQL，以便輕鬆存取 SQL 引擎。</li>
-<li>它使用類似於 Python 或 Java 中的函數的謂詞來簡化複雜的查詢並有效地處理數據，使其適合工程師和數據科學家。</li>
-<li>Logica 與 BigQuery、SQLite 和 PostgreSQL 相容，雖然有可用的教程使其易於學習和安裝，但它並不是 Google 官方支援的產品。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42158445">評論</a></h3>
-<ul>
-<li>Logica 是由 Google 開發的一種宣告式邏輯程式語言，旨在克服 SQL 的限制，特別是在複雜資料查詢方面。</li>
-<li>它是開源的，屬於Datalog家族的一部分，這使得它具有組合式查詢語言和可重用的組件，但其採用率有限，且由單一開發者維護。</li>
-<li>「雖然 Logica 展現了簡化複雜查詢和提升模組化的潛力，但其語法和相較於 SQL 的實際效益仍是使用者間討論的話題。」</li>
-</ul>
-<h2><a href="https://ezzeriesa.notion.site/1-week-with-David-Beazley-and-SICP-4c440389cf1e43f48fe67c969967f655#58ee6b0435b24e26bd624b33ffed94df">「一切皆為函數：來自 SICP 和 David Beazley 的震撼見解」</a></h2>
-<ul>
-<li>David Beazley 在 2022 年底的 SICP(計算機程序的構造與解釋)課程提供了對計算的深入見解，類似於理解編譯器。</li>
-<li>「課程涉及使用 Scheme(一種 Lisp 方言)構建一個簡單的計算模型，並在 Python 中創建一個 Scheme 解釋器，以增強對語言共通性的理解。」</li>
-<li>Racket 是一種 Scheme 的變體，因其易於設置而被使用，涵蓋了基本內容如整數、運算以及特殊形式，例如用於變數賦值的 &#39;define&#39;。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42164541">評論</a></h3>
-<ul>
-<li>「本文探討將狀態編碼為純函數，從《計算機程序的構造與解釋》(SICP)和 David Beazley 的見解中汲取靈感，並著重於函數式編程。」</li>
-<li>它使用一個 JavaScript 的 Maybe monad 範例來說明各種資料型別的函數編碼之優雅。</li>
-<li>討論批評了 Notion 平台的效能和導航問題，同時也反思了《計算機程式的結構與解釋》(SICP)的教育價值以及函數式編程在實際應用中的實用性。</li>
-</ul>
-<h2><a href="https://github.com/oracle/bpftune">「Bpftune 使用 BPF 自動調整 Linux 系統」</a></h2>
-<ul>
-<li>「bpftune 是一個工具，使用 BPF(Berkeley Packet Filter)來自動調整系統設定，解決在雲端環境中管理大量 Linux 核心可調參數的挑戰。- 它以最小的負擔運行，記錄政策變更，並在必要時通過禁用自動調整來尊重管理員的設定，使用推拉方式來優化資源分配。- 該工具為零配置，包含各種系統元件的調整器，並在 GPL-2.0 授權下運行，支持服務和前景操作，並記錄到 syslog。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42163597">評論</a></h3>
-<ul>
-<li>「Bpftune 是一個使用 BPF(Berkeley Packet Filter)來自動優化 Linux 系統的工具，旨在達到零配置，並吸引喜好自動化的使用者。」</li>
-<li>有些使用者擔心由於偏離標準配置而可能引發的系統問題，這突顯了了解變更以有效診斷問題的重要性。</li>
-<li>該工具提供「建議模式」，以便在實施前審查建議的調整，提供自動化與使用者控制之間的平衡。</li>
-</ul>
-<h2><a href="https://xogot.com/">Xogot – iPad 版的 Godot</a></h2>
-<ul>
-<li>「Xogot Godot，一款新的應用程式，現已在 iPad 上推出，並提供預覽註冊選項給有興趣的使用者。」</li>
-<li>「Miguel de Icaza 將在 GodotCon 2024 上進行演講，提供有關該應用程式及其功能的見解。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42161223">評論</a></h3>
-<ul>
-<li>Xogot 是一個專為 iPad 量身打造的 Godot 遊戲引擎版本，允許在設備上直接進行遊戲開發，由以 Mono 和 Xamarin 聞名的 Miguel de Icaza 創建。</li>
-<li>該應用程式也可以在 Meta Quest 上運行，並可能在 VisionOS 上運行，這反映了蘋果更新的政策，現在允許在 iOS 上使用此類開發環境，儘管有某些限制。</li>
-<li>Xogot 並非開源，這引發了關於其影響的討論，並與類似專案如 Redot 進行比較。</li>
-</ul>
-<h2><a href="https://www.chemistryworld.com/news/meteorite-200-times-larger-than-one-that-killed-dinosaurs-reset-early-life/4020391.article">「巨型隕石撞擊對古太古代環境與生命的影響」</a></h2>
-<ul>
-<li>「超過三十億年前的一次巨大隕石撞擊對早期微生物生命產生了重大影響，最初造成了毀滅性破壞，但隨後為某些微生物提供了必需的養分，使其得以繁衍生息。」</li>
-<li>在南非發現了這次古老撞擊的證據，球粒層顯示過去的隕石事件，突顯了這次撞擊的規模，這次撞擊比導致恐龍滅絕的那次更大。</li>
-<li>這次撞擊將生物可利用的鐵和磷引入海洋表面，促進了微生物的恢復，這表明大型撞擊儘管最初有害，卻可能對早期生態系統有益。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42160716">評論</a></h3>
-<ul>
-<li>「一篇近期的論文討論了太古宙時期的一次巨大隕石撞擊，強調其對環境和生物的重大影響，例如海嘯和大氣變化。儘管有這些擾動，早期生命形式可能迅速恢復，增加的養分和鐵可能促進了微生物的生長。該論文還針對恐龍滅絕的誤解進行了說明，指出一些恐龍存活下來並演化成現代鳥類，同時也承認解釋古代事件的挑戰。」</li>
-</ul>
-<h2><a href="https://github.com/veloplanner/map-matrix">Claude AI 幫我建立了一個 React 應用程式，用來並排比較地圖</a></h2>
-<ul>
-<li>Map Matrix 是一個工具，讓使用者能夠同時比較多張地圖，最初是為 veloplanner.com 使用 Claude AI 開發的。</li>
-<li>「透過使用 Claude AI 快速生成原型，開發過程得以簡化，隨後再利用 Cursor AI 和 claude-3.5-sonnet 模型進行強化。」</li>
-<li>使用者可以新增自訂地圖來源，配置將儲存在本地端，開發者可以使用 <code>npm install</code> 和 <code>npm run dev</code> 指令來設置工具。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42164141">評論</a></h3>
-<ul>
-<li>Claude AI 在創建用於地圖比較的 React 應用程式中發揮了重要作用，其中大部分程式碼由 AI 生成。- 使用者報告了優勢，例如加速開發和減少對深厚技術知識的需求，以及挑戰，包括 AI 的限制如幻覺和無法運行的程式碼。- 儘管對競爭加劇和潛在抄襲的擔憂，像 Claude 和 Cursor AI 這樣的 AI 工具因其快速原型設計和小型專案開發而受到重視。</li>
-</ul>
-<h2><a href="https://bitfieldconsulting.com/posts/constraints">Go 語言中的限制</a></h2>
-<ul>
-<li>這篇文章是有關 Go 程式語言中泛型的系列文章的最後一篇，特別著重於約束這一新功能。- Go 泛型中的約束限制了可以在泛型函式中使用的類型，透過使用像 <code>fmt.Stringer</code> 這樣的基本介面，允許更精確的操作。- 這個系列文章強調了各種約束類型，例如類型集合約束、聯集、交集和介面字面量，並鼓勵透過 John Arundel 的《Know Go》一書進一步探索。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42162878">評論</a></h3>
-<ul>
-<li>Go 的泛型約束引入了複雜性，這與該語言專注於簡單性的特點形成對比，原因在於「實現」和「滿足」約束之間的差異以及對約束內容的限制。</li>
-<li>這種複雜性部分歸因於將泛型功能加入 Go 語言，因為 Go 最初並未設計支持泛型，這引發了關於其必要性和對社群影響的討論。</li>
-<li>「儘管具有複雜性，泛型被認為對於函式庫程式碼是有益的，儘管有些開發者對於特定使用情境質疑其必要性。」</li>
-</ul>
-<head>
-  <meta property="og:title" content="CSS 有了新的標誌，並使用了 `rebeccapurple` 顏色。" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=CSS%20%E6%9C%89%E4%BA%86%E6%96%B0%E7%9A%84%E6%A8%99%E8%AA%8C%EF%BC%8C%E4%B8%A6%E4%BD%BF%E7%94%A8%E4%BA%86%20%60rebeccapurple%60%20%E9%A1%8F%E8%89%B2%E3%80%82&subheading=2024%E5%B9%B411%E6%9C%8817%E6%97%A5%20%E6%98%9F%E6%9C%9F%E6%97%A5%3A%20Hacker%20News%20%E6%91%98%E8%A6%81" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/zh/Hant/2024/11/17</link>
-            <guid isPermaLink="false">2024-11-17T00:00:00.000Z</guid>
-            <pubDate>Sun, 17 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
