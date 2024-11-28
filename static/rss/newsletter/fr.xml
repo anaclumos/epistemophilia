@@ -15,12 +15,175 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 27 Nov 2024 19:11:21 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 28 Nov 2024 19:19:12 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/fr.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
+        <pubDate>Thu, 28 Nov 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[fr]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-11-28]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/11/28&#39;</h2>
+<h1>2024-11-28</h1>
+<h2><a href="https://github.com/xairy/lights-out">Un logiciel malveillant peut désactiver la LED de la webcam et enregistrer des vidéos, comme démontré sur le ThinkPad X230.</a></h2>
+<ul>
+<li>Le dépôt propose des outils pour manipuler la LED de la webcam sur un ThinkPad X230, illustrant comment un logiciel malveillant pourrait potentiellement enregistrer des vidéos sans notification de la LED. - Le processus implique de reprogrammer le firmware de la webcam via USB, une technique qui pourrait être appliquée à divers ordinateurs portables, en utilisant des scripts pour la manipulation du firmware et le contrôle de la LED. - La webcam utilise un contrôleur Ricoh R5U8710, et la prudence est de mise car le reflashage pourrait endommager la webcam ; des informations supplémentaires sont disponibles dans la conférence &quot;Lights Out&quot; à POC 2024.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42259278">Réactions</a></h3>
+<ul>
+<li>Les logiciels malveillants ont la capacité de désactiver les voyants LED des webcams et d&#39;enregistrer des vidéos à l&#39;insu de l&#39;utilisateur, comme cela a été démontré sur un ThinkPad X230. Contrairement aux MacBooks, qui ont des voyants LED câblés pour signaler l&#39;utilisation de la caméra, de nombreux autres ordinateurs portables n&#39;ont pas cette fonctionnalité, ce qui soulève des préoccupations en matière de confidentialité. Pour renforcer la sécurité, les experts recommandent d&#39;utiliser des caches physiques ou des interrupteurs pour les webcams et les microphones afin de prévenir tout accès non autorisé et de protéger les informations sensibles.</li>
+</ul>
+<h2><a href="https://news.ycombinator.com/item?id=42264427">Hetzner réduit le trafic sur les VPS américains</a></h2>
+<ul>
+<li>Le tarif des serveurs Cloud (lignes CCX et CPX) et des équilibreurs de charge à Ashburn et Hillsboro, aux États-Unis, est en cours de mise à jour. - De nouveaux prix et montants de trafic s&#39;appliqueront aux serveurs nouvellement créés et redimensionnés à partir du 1er décembre 2024, tandis que les serveurs existants verront des changements à partir du 1er février 2025. - La mise à jour vise à offrir des prix plus équitables basés sur les conditions locales, tandis que les prix de dépassement de trafic restent inchangés.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42264427">Réactions</a></h3>
+<ul>
+<li>Hetzner révise son modèle de tarification pour les serveurs Cloud et les équilibreurs de charge aux États-Unis, réduisant le trafic inclus de 20 To à seulement 1 To et augmentant les prix.</li>
+<li>« Les changements entreront en vigueur en décembre 2024 pour les nouveaux serveurs et en février 2025 pour les serveurs existants, dans le but d&#39;équilibrer les coûts entre les utilisateurs à faibles et à fortes ressources. »</li>
+<li>La décision a conduit à des débats sur l&#39;équité et les stratégies commerciales, certains utilisateurs étant mécontents de la réduction drastique du trafic inclus.</li>
+</ul>
+<h2><a href="https://www.abc.net.au/news/2024-11-28/social-media-age-ban-passes-parliament/104647138">Australie : Les enfants de moins de 16 ans seront interdits de réseaux sociaux après l&#39;adoption des lois par le Sénat</a></h2>
+<ul>
+<li>Le gouvernement australien a adopté une nouvelle législation interdisant aux enfants de moins de 16 ans d&#39;utiliser les réseaux sociaux, dans le but de protéger la santé mentale.</li>
+<li>Les entreprises de médias sociaux ont un an pour se conformer, sous peine d&#39;amendes pouvant atteindre 50 millions de dollars en cas de non-conformité, tandis que les utilisateurs et les parents ne font face à aucune pénalité.</li>
+<li>Cette loi ne s&#39;applique pas aux applications de messagerie, aux jeux en ligne ou aux services éducatifs, et a reçu des réactions mitigées de la part des experts en santé mentale, des politiciens et des entreprises technologiques.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42264733">Réactions</a></h3>
+<ul>
+<li>L&#39;Australie s&#39;apprête à interdire aux enfants de moins de 16 ans d&#39;utiliser les réseaux sociaux, nécessitant une vérification d&#39;identité pour confirmer l&#39;âge, ce qui a suscité des préoccupations en matière de confidentialité.</li>
+<li>Les critiques s&#39;inquiètent que cela puisse donner au gouvernement l&#39;accès aux données des réseaux sociaux et diminuer l&#39;anonymat des utilisateurs, certains suggérant que les médias traditionnels soutiennent la loi pour limiter la concurrence des réseaux sociaux.</li>
+<li>Il est incertain que la loi soit efficace et appliquée, avec des lacunes potentielles et des défis dans sa mise en œuvre.</li>
+</ul>
+<h2><a href="https://qwenlm.github.io/blog/qwq-32b-preview/">QwQ : LLM de raisonnement O1 d&#39;Alibaba</a></h2>
+<ul>
+<li>QwQ (Qwen avec Questions) est un modèle d&#39;IA conçu pour explorer les problèmes avec curiosité et enquête philosophique, remettant constamment en question ses hypothèses.</li>
+<li>Malgré des limitations telles que le mélange des langues et les boucles de raisonnement récursif, QwQ excelle dans les domaines techniques, obtenant des scores élevés sur des benchmarks comme GPQA, AIME, MATH-500 et LiveCodeBench.</li>
+<li>Le modèle démontre de solides capacités de résolution de problèmes en mathématiques et en programmation, contribuant au parcours continu de compréhension du raisonnement de l&#39;IA et de l&#39;intelligence des machines.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42259184">Réactions</a></h3>
+<ul>
+<li>QwQ d&#39;Alibaba, un modèle de langage de grande envergure (LLM) axé sur le raisonnement, attire l&#39;attention pour ses performances impressionnantes sur divers matériels, y compris les MacBooks, et sa capacité à résoudre des tâches complexes avec des explications détaillées.</li>
+<li>Les discussions autour de QwQ incluent ses exigences matérielles, les problèmes potentiels de censure sur des sujets sensibles, ainsi que ses capacités d&#39;ouverture et de raisonnement, malgré certaines limitations notées.</li>
+<li>La conversation met en lumière les implications plus larges des LLM open-source et les dynamiques concurrentielles dans le domaine du développement de l&#39;intelligence artificielle.</li>
+</ul>
+<h2><a href="https://lithub.com/in-praise-of-print-why-reading-remains-essential-in-an-era-of-epistemological-collapse/">Éloge de l&#39;imprimé : la lecture est essentielle à une époque d&#39;effondrement épistémologique</a></h2>
+<ul>
+<li>Ed Simon souligne l&#39;importance durable de la lecture imprimée, en se référant aux « Élégies de Gutenberg » de Sven Birkerts pour mettre en avant les préoccupations concernant l&#39;impact des médias numériques sur la lecture approfondie et la désinformation.</li>
+<li>Simon soutient que les livres imprimés offrent une expérience unique et immersive que les médias numériques ne peuvent reproduire, favorisant l&#39;introspection et la confidentialité loin du bruit constant d&#39;Internet.</li>
+<li>Il conclut que préserver la littératie et la lecture approfondie est essentiel pour maintenir la pensée individuelle et résister à l&#39;influence omniprésente de la technologie numérique.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42263834">Réactions</a></h3>
+<ul>
+<li>Le débat entre la lecture imprimée et numérique se concentre sur les préoccupations concernant l&#39;impact des médias numériques sur l&#39;engagement profond avec le contenu. Les partisans de la lecture numérique citent la commodité et l&#39;accessibilité, tandis que les critiques s&#39;inquiètent de ses effets sur la pensée critique et la durée d&#39;attention. Cette discussion reflète des enjeux plus larges de l&#39;influence de la technologie sur la consommation d&#39;information et l&#39;équilibre entre le progrès technologique et l&#39;acquisition de connaissances traditionnelles.</li>
+</ul>
+<h2><a href="https://github.com/abus-aikorea/voice-pro">Voice-Pro – La magie du clonage vocal par IA : Transformez n&#39;importe quelle voix en 15 secondes</a></h2>
+<ul>
+<li>Voice-Pro est une interface utilisateur Web Gradio open-source conçue pour la manipulation audio avancée, y compris le clonage de voix sans échantillon et un changeur de voix avec plus de 50 voix de célébrités.</li>
+<li>Il propose des fonctionnalités telles que le téléchargement audio de YouTube, l&#39;isolation vocale, la synthèse vocale multilingue et la traduction, en utilisant les moteurs Whisper.</li>
+<li>Voice-Pro est particulièrement bénéfique pour les créateurs de contenu, les développeurs et les passionnés d&#39;audio, avec des ressources disponibles sur GitHub et des tutoriels vidéo sur YouTube.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42261909">Réactions</a></h3>
+<ul>
+<li>Voice-Pro est un outil d&#39;IA open-source qui permet le clonage vocal en 15 secondes, avec un clonage vocal sans échantillon et un changeur de voix comprenant plus de 50 voix de célébrités. Il inclut des fonctionnalités telles que le téléchargement audio de YouTube, l&#39;isolation vocale, et la synthèse vocale multilingue ainsi que la traduction, propulsées par les moteurs Whisper, et est disponible sur GitHub. Malgré son potentiel créatif, il y a des préoccupations concernant son utilisation abusive pour le vol d&#39;identité et les escroqueries, et il ne prend actuellement pas en charge Linux ou MacOS, avec des questions sur l&#39;installation et les coûts cachés.</li>
+</ul>
+<h2><a href="https://www.bbc.co.uk/news/articles/cje050wz22qo">Les marchés alimentaires de 850 ans de Londres vont fermer</a></h2>
+<ul>
+<li>Les marchés historiques de Smithfield et Billingsgate à Londres, significatifs pour leur histoire de 850 ans, fermeront d&#39;ici 2028 alors que la Corporation de la Cité de Londres retire son soutien. - Les marchés, connus comme les plus grands marchés de gros de viande et de poisson d&#39;intérieur du Royaume-Uni, seront remplacés par de nouveaux développements, les commerçants recevant une compensation et une assistance pour leur relocalisation. - Les plans de déplacement des marchés à Dagenham ont été abandonnés en raison de coûts élevés, soulevant des inquiétudes quant à l&#39;approvisionnement futur en poisson à Londres et marquant une perte de tradition.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42260027">Réactions</a></h3>
+<ul>
+<li>Les marchés alimentaires historiques de Londres, tels que Smithfield et Billingsgate, sont prévus pour fermer, la Corporation de la Cité de Londres les présentant comme un &quot;nouveau chapitre positif&quot; pour les commerçants. - Les critiques suggèrent que les fermetures visent à faciliter le développement immobilier, transformant la zone en un centre commercial, ce qui suscite des inquiétudes quant à la perte du patrimoine culturel. - La décision attend l&#39;approbation parlementaire, avec des préoccupations concernant l&#39;impact négatif potentiel sur les entreprises locales.</li>
+</ul>
+<h2><a href="https://store.steampowered.com/app/2800590/picoCAD/">picoCAD – un petit modélisateur pour de petits modèles</a></h2>
+<ul>
+<li>picoCAD, un outil de modélisation 3D pour créer des modèles de style rétro, a été lancé le 27 novembre 2024 par Apskeppet, s&#39;adressant à la fois aux débutants et aux experts. - L&#39;outil est disponible pour Windows et macOS, avec un prix de lancement de 5,09 $ jusqu&#39;au 4 décembre 2024. - Les utilisateurs sont encouragés à rejoindre la communauté et à explorer les tutoriels pour améliorer leur créativité avec picoCAD.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42262734">Réactions</a></h3>
+<ul>
+<li>picoCAD est un outil de modélisation 3D simple, apprécié pour sa simplicité et sa facilité d&#39;utilisation, notamment pour créer des modèles low-poly, par rapport à des logiciels plus complexes comme Blender. Développé par Johan Peitz, picoCAD permet l&#39;exportation aux formats obj/mtl, bien qu&#39;il manque d&#39;exportation binaire native sur Picotron. Les utilisateurs apprécient son esthétique unique et sa simplicité, le comparant souvent à d&#39;autres outils comme Crocotile et Kenney Shape.</li>
+</ul>
+<h2><a href="https://arxiv.org/abs/2411.16544">Auto-étiquetage flottant</a></h2>
+<ul>
+<li>Le document présente le « self-tagging », une méthode pour encoder les informations de type au sein d&#39;objets de 64 bits, optimisant ainsi la disposition de la mémoire pour les langages dynamiques sans sacrifier l&#39;espace de données.</li>
+<li>Le marquage automatique améliore le temps d&#39;exécution dans les benchmarks intensifs en flottants de 2,3 fois en Scheme et de 2,7 fois en JavaScript, offrant une alternative plus efficace aux méthodes existantes comme les pointeurs marqués et le marquage NaN.</li>
+<li>Cette approche permet un encodage efficace à la fois des données et du type, améliorant les performances sans affecter les autres opérations, ce qui en fait une solution prometteuse pour la gestion des flottants en double précision 64 bits IEEE754 dans les langages dynamiques.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42260030">Réactions</a></h3>
+<ul>
+<li>Le document présente le « Float Self-Tagging », une technique visant à optimiser le stockage des flottants dans les langages de programmation dynamiques en utilisant les bits de poids fort pour le marquage, permettant à la plupart des flottants de rester non encapsulés et améliorant ainsi les performances.</li>
+<li>Les critiques de l&#39;article soutiennent que ses comparaisons sont imparfaites et recommandent de tester par rapport à des méthodes établies telles que le NaN-tagging, qui est une technique pour encoder des informations supplémentaires dans les valeurs NaN (Not-a-Number) des nombres à virgule flottante.</li>
+<li>Cette technique est remarquée pour sa simplicité et son potentiel, avec des méthodes similaires déjà mises en œuvre dans des langages comme Koka et CRuby, et des optimisations connexes observées dans des systèmes comme l&#39;Objective-C d&#39;Apple et la machine virtuelle Java (JVM).</li>
+</ul>
+<h2><a href="https://www.ftm.nl/artikelen/ruzie-tussen-ziekenhuis-en-farma-industrie-over-goedkeuring-kankermedicijn">Développer un médicament contre le cancer sans Big Pharma : cet hôpital montre que c&#39;est possible</a></h2>
+<ul>
+<li>Les coûts croissants des soins de santé aux Pays-Bas sont attribués à la bureaucratie, au gaspillage et aux soins inutiles, mettant en évidence des inefficacités systémiques.</li>
+<li>Un hôpital néerlandais a développé un médicament contre le cancer indépendamment des grandes entreprises pharmaceutiques, offrant un traitement cinq fois moins cher qu&#39;une thérapie américaine comparable, démontrant le potentiel des hôpitaux à but non lucratif pour réduire les coûts des soins de santé.</li>
+<li>Malgré l&#39;innovation, le processus d&#39;enregistrement coûteux et complexe de l&#39;Agence européenne des médicaments (EMA) dissuade les hôpitaux ; cependant, l&#39;hôpital AVL a financé une étude de phase 3 grâce à des dons, visant l&#39;approbation de l&#39;EMA pour maintenir leur thérapie abordable face à la concurrence pharmaceutique coûteuse.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42260017">Réactions</a></h3>
+<ul>
+<li>Un hôpital a réussi à développer un médicament contre le cancer de manière indépendante, démontrant que le développement de médicaments peut se faire sans l&#39;implication des grandes entreprises pharmaceutiques. Le processus traditionnel de développement de médicaments est critiqué pour être coûteux et influencé par des facteurs non scientifiques, tels que l&#39;ego et la politique. La discussion met en avant les complexités du développement de médicaments, y compris les défis réglementaires et le taux d&#39;échec élevé des médicaments lors des essais cliniques.</li>
+</ul>
+<h2><a href="https://www.sheldonbrown.com/AluminumBikeProject.html">Projet de vélo en aluminium du MIT 1974 (2016)</a></h2>
+<ul>
+<li>En 1974, le M.I.T. a organisé un cours où les participants, dont Marc Rosenbaum et Harriet Fell, ont construit des cadres de vélo en aluminium, avec le design de Rosenbaum étant le vélo de piste le plus léger de l&#39;époque. - Le vélo de Rosenbaum, fabriqué en aluminium 6061-T6 et en titane, comportait des tubes de plus grand diamètre et des roulements de précision, pesant 12 livres et 5 onces, et est maintenant exposé au musée du M.I.T. - Le cadre de Harriet Fell a été impliqué dans un litige de brevet entre Cannondale et Klein, Cannondale l&#39;utilisant pour contester le brevet de Klein en revendiquant un art antérieur.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42261053">Réactions</a></h3>
+<ul>
+<li>En 1974, le MIT a envisagé l&#39;aluminium pour les cadres de vélo, rejetant le magnésium en raison de sa fragilité et de ses problèmes de corrosion, bien que les alliages modernes de magnésium comme le LPSO montrent un potentiel. - Les tentatives historiques avec des cadres en magnésium, comme ceux de Kirk, ont souvent échoué en raison des faiblesses du matériau, tandis que la fibre de carbone et le titane sont privilégiés pour leur résistance et leur flexibilité. - Malgré les avancées en matière de matériaux, le poids reste un point central dans la conception des vélos, avec un accent croissant sur l&#39;aérodynamisme et le confort du cycliste.</li>
+</ul>
+<h2><a href="https://infosec.exchange/@0xabad1dea/113543212666056329">Dell publie des mises à jour non signées sur leur site web qui ne parviennent pas à s&#39;installer</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42261707">Réactions</a></h3>
+<ul>
+<li>Dell a publié des mises à jour non signées sur leur site web, entraînant des échecs d&#39;installation et soulevant des préoccupations de sécurité concernant une éventuelle exploitation par des pirates.</li>
+<li>Les utilisateurs ont signalé des discordances entre les catalogues de mises à jour et les signatures, certains problèmes ayant été résolus suite à des plaintes, mais des critiques persistent concernant la gestion des mises à jour de Dell.</li>
+<li>La situation souligne le besoin crucial de vérifier les mises à jour logicielles pour garantir la sécurité et la fiabilité sur diverses plateformes, y compris Apple et Linux.</li>
+</ul>
+<h2><a href="https://spectrum.ieee.org/semiconductor-fabrication">Le récit oublié de la façon dont IBM a inventé la fabrique automatisée</a></h2>
+<ul>
+<li>En 1970, Bill Harding d&#39;IBM a lancé le projet SWIFT, visant à automatiser la fabrication de plaquettes pour produire des circuits intégrés (IC) en moins d&#39;une journée, une réduction significative par rapport au processus typique d&#39;un mois. SWIFT a réalisé un délai d&#39;exécution de 5 heures par couche, un exploit encore inégalé, et a introduit des innovations telles que le traitement automatisé et le contrôle en temps réel, fondamentaux pour la fabrication moderne de semi-conducteurs. Malgré sa brève existence, les avancées du projet SWIFT et le leadership visionnaire de Harding ont considérablement influencé l&#39;évolution des techniques de production de semi-conducteurs.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42260364">Réactions</a></h3>
+<ul>
+<li>IBM a autrefois été à la pointe de la fabrication automatisée, visant une intégration verticale complète depuis les matières premières jusqu&#39;aux logiciels, rendant les puces personnalisées plus viables que les options standard. En raison des coûts élevés liés à l&#39;avancement technologique, de nombreuses entreprises, y compris IBM, ont externalisé la production ou séparé leurs installations de fabrication. Les efforts actuels, tels que l&#39;Atomic Semi de Jim Keller, se concentrent sur la rentabilité des petites séries de fabrication, explorant des innovations comme les ASIC structurés (circuits intégrés spécifiques à une application) et la lithographie sans masque pour réduire les coûts et améliorer l&#39;accessibilité au silicium personnalisé.</li>
+</ul>
+<h2><a href="https://www.gamesradar.com/games/publishers-are-absolutely-terrified-preserved-video-games-would-be-used-for-recreational-purposes-so-the-us-copyright-office-has-struck-down-a-major-effort-for-game-preservation/">Le bureau américain du droit d&#39;auteur a annulé un effort majeur pour la préservation des jeux</a></h2>
+<ul>
+<li>Le Bureau du droit d&#39;auteur des États-Unis a rejeté une demande d&#39;exemption DMCA qui visait à permettre aux bibliothèques de partager à distance l&#39;accès numérique aux jeux vidéo préservés, concluant ainsi une campagne de trois ans menée par la Video Game History Foundation (VGHF) et le Software Preservation Network.</li>
+<li>Le projet d&#39;exemption aurait facilité une bibliothèque numérique pour que les historiens et les chercheurs puissent accéder à des jeux épuisés, mais a été refusé en raison de préoccupations concernant un usage récréatif potentiel et un préjudice pour le marché, comme l&#39;ont soutenu les groupes de l&#39;industrie.</li>
+<li>Le VGHF a exprimé sa déception, critiquant la décision comme étant fortement influencée par le lobbying de l&#39;industrie, qui a privilégié les intérêts de l&#39;industrie au détriment de l&#39;accès public aux jeux historiques.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42259133">Réactions</a></h3>
+<ul>
+<li>Le Bureau du droit d&#39;auteur des États-Unis a rejeté une proposition visant à préserver les jeux vidéo, en raison de préoccupations selon lesquelles ces jeux pourraient être utilisés à des fins récréatives plutôt que de préservation.</li>
+<li>Cette décision a suscité des discussions parmi les passionnés de jeux rétro, qui soutiennent que les jeux plus anciens offrent plus de plaisir et de nostalgie par rapport aux jeux modernes.</li>
+<li>Les critiques de la décision estiment que les lois actuelles sur le droit d&#39;auteur sont trop restrictives, entravant la préservation des médias culturels et historiques, et suggèrent de raccourcir les durées de droit d&#39;auteur pour promouvoir l&#39;innovation et permettre aux œuvres plus anciennes d&#39;entrer plus tôt dans le domaine public.</li>
+</ul>
+<h2><a href="https://www.nature.com/articles/s41593-023-01514-1">Inférer l&#39;activité neuronale avant la plasticité pour un apprentissage au-delà de la rétropropagation</a></h2>
+<ul>
+<li>L&#39;article présente la « configuration prospective », un nouveau principe d&#39;attribution de crédit dans l&#39;apprentissage, comme une alternative à la méthode traditionnelle de rétropropagation.</li>
+<li>Une configuration prospective implique que les réseaux neuronaux prédisent les schémas d&#39;activité neuronale souhaités avant d&#39;ajuster les poids synaptiques, améliorant ainsi l&#39;efficacité et l&#39;efficacité de l&#39;apprentissage.</li>
+<li>Cette méthode s&#39;aligne plus étroitement avec l&#39;activité neuronale observée dans les études humaines et animales et peut offrir des avantages dans les systèmes d&#39;apprentissage biologiques et artificiels par rapport à la rétropropagation.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42259185">Réactions</a></h3>
+<ul>
+<li>Une nouvelle théorie, la « configuration prospective », est proposée pour expliquer comment le cerveau aborde le problème de l&#39;attribution de crédit, se différenciant de la méthode de rétropropagation utilisée dans les réseaux de neurones artificiels (RNA).</li>
+<li>Selon la théorie, les changements d&#39;activité neuronale précèdent les modifications du poids synaptique, ce qui contraste avec la rétropropagation où les changements de poids entraînent une activité neuronale modifiée.</li>
+<li>Cette approche pourrait mieux s&#39;aligner avec les processus biologiques et pourrait fournir des perspectives pour développer des algorithmes d&#39;apprentissage plus efficaces, contribuant aux débats sur les similitudes et les différences entre l&#39;apprentissage de l&#39;IA et celui du cerveau humain.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Un logiciel malveillant peut désactiver la LED de la webcam et enregistrer des vidéos, comme démontré sur le ThinkPad X230." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Un%20logiciel%20malveillant%20peut%20d%C3%A9sactiver%20la%20LED%20de%20la%20webcam%20et%20enregistrer%20des%20vid%C3%A9os%2C%20comme%20d%C3%A9montr%C3%A9%20sur%20le%20ThinkPad%20X230.&subheading=jeudi%2028%20novembre%202024%3A%20R%C3%A9sum%C3%A9%20de%20Hacker%20News" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/fr/2024/11/28</link>
+            <guid isPermaLink="false">2024-11-28T00:00:00.000Z</guid>
+            <pubDate>Thu, 28 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-11-27]]></title>
             <description
@@ -1198,167 +1361,6 @@
             <link>https://hn.cho.sh/fr/2024/11/19</link>
             <guid isPermaLink="false">2024-11-19T00:00:00.000Z</guid>
             <pubDate>Tue, 19 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-11-18]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/11/18&#39;</h2>
-<h1>2024-11-18</h1>
-<h2><a href="https://naehrdine.blogspot.com/2024/11/reverse-engineering-ios-18-inactivity.html">Ingénierie inverse du redémarrage d&#39;inactivité d&#39;iOS 18</a></h2>
-<ul>
-<li>iOS 18 a introduit une fonctionnalité de redémarrage en cas d&#39;inactivité qui redémarre automatiquement les iPhones après 3 jours d&#39;inactivité pour renforcer la sécurité. - Cette fonctionnalité fait passer les appareils de l&#39;état plus vulnérable Après le Premier Déverrouillage (AFU) à l&#39;état plus sécurisé Avant le Premier Déverrouillage (BFU), protégeant ainsi les données des utilisateurs. - Le processeur Secure Enclave (SEP) surveille le dernier temps de déverrouillage et déclenche un redémarrage si l&#39;appareil est inactif pendant plus de 3 jours, réduisant ainsi efficacement le risque de vol et d&#39;accès non autorisé, bien que cela présente des défis pour les forces de l&#39;ordre dans l&#39;extraction de données.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42167633">Réactions</a></h3>
-<ul>
-<li>iOS 18 introduit une fonctionnalité de sécurité qui redémarre les appareils après trois jours d&#39;inactivité, les ramenant à un état &quot;Avant le Premier Déverrouillage&quot; (BFU) pour renforcer la protection des données.</li>
-<li>Cette fonctionnalité vise à empêcher l&#39;accès non autorisé aux données, garantissant que les données sensibles ne sont accessibles qu&#39;après le déverrouillage actif par l&#39;utilisateur, ce qui impacte l&#39;extraction de données par les forces de l&#39;ordre et peut potentiellement incommoder les utilisateurs.</li>
-<li>Le post explore l&#39;équilibre entre les mesures de sécurité et l&#39;expérience utilisateur, en soulignant les défis et les implications de cette nouvelle fonctionnalité.</li>
-</ul>
-<h2><a href="https://ondsel.com/blog/goodbye/">Nous fermons Ondsel</a></h2>
-<ul>
-<li>Ondsel ferme le 30 octobre 2024, en raison de l&#39;incapacité à atteindre le succès commercial ou un modèle d&#39;affaires durable, malgré le soutien de la communauté.</li>
-<li>Les contributions significatives à FreeCAD incluent un nouvel atelier d&#39;assemblage, un solveur de contraintes 3D, et des améliorations à Sketcher et TechDraw, qui resteront tous open-source.</li>
-<li>Bien qu&#39;Ondsel ES ne publiera pas la version 2024.3, d&#39;anciens membres de l&#39;équipe continueront à contribuer à FreeCAD, et les utilisateurs auront le temps de télécharger leurs données avant la fermeture du serveur.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42169998">Réactions</a></h3>
-<ul>
-<li>Ondsel, un contributeur à FreeCAD, ferme ses portes mais a laissé un impact positif sur le développement du logiciel.</li>
-<li>Le débat souligne les défis auxquels les outils de CAO open-source sont confrontés pour rivaliser avec les logiciels commerciaux, en mettant en avant la nécessité d&#39;une accessibilité financière et d&#39;interfaces conviviales.</li>
-<li>Malgré la fermeture d&#39;Ondsel, la communauté apprécie ses contributions et reste optimiste quant aux avancées continues dans les solutions CAD open-source.</li>
-</ul>
-<h2><a href="https://devblogs.microsoft.com/oldnewthing/20241112-00/?p=110507">Pourquoi l&#39;installation de Windows 95 utilisait-elle trois systèmes d&#39;exploitation ?</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42166606">Réactions</a></h3>
-<ul>
-<li>Le programme d&#39;installation de Windows 95 utilisait trois systèmes d&#39;exploitation : DOS, une version minimale de Windows 3.1 et Windows 95, pour garantir la compatibilité et faciliter l&#39;installation. - Le processus d&#39;installation commençait avec DOS, qui lançait ensuite un environnement Windows 3.1 basique pour faciliter l&#39;installation de Windows 95, permettant ainsi des mises à niveau à partir de systèmes plus anciens. - Cette discussion souligne l&#39;évolution de Windows et les défis de l&#39;équilibre entre la compatibilité et l&#39;introduction de nouvelles fonctionnalités.</li>
-</ul>
-<h2><a href="https://michaels.world/2023/11/i-was-banned-from-the-hcaptcha-accessibility-account-for-not-being-blind/">J&#39;ai été banni du compte d&#39;accessibilité hCaptcha pour ne pas être aveugle (2023)</a></h2>
-<ul>
-<li>Un utilisateur a été banni du compte d&#39;accessibilité hCaptcha malgré sa cécité, soulignant des défauts potentiels dans les mesures d&#39;accessibilité de hCaptcha. - L&#39;incident met en évidence les risques de dépendre de sociétés qui peuvent intentionnellement rendre leurs produits inaccessibles, avec des solutions de contournement peu fiables. - L&#39;utilisateur conseille la prudence à ceux qui dépendent de ces services et suggère de partager cet avertissement, en particulier avec les webmasters utilisant hCaptcha.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42171164">Réactions</a></h3>
-<ul>
-<li>Un utilisateur aveugle a été banni du compte d&#39;accessibilité hCaptcha, mettant en lumière des problèmes avec les revendications d&#39;accessibilité et le système de hCaptcha. - De nombreux utilisateurs, quelle que soit leur capacité visuelle, trouvent les défis de hCaptcha difficiles et discriminatoires, soulevant des préoccupations quant à son efficacité et son inclusivité. - Le problème plus large est l&#39;inaccessibilité générale et l&#39;inefficacité des captchas, avec un appel à des solutions améliorées qui renforcent l&#39;expérience utilisateur et la confidentialité.</li>
-</ul>
-<h2><a href="https://maxbo.me/a-html-file-is-all-you-need.html">Blocs-notes HTML réactifs</a></h2>
-<ul>
-<li>L&#39;article discute de l&#39;utilisation de HTML comme une plateforme unifiée pour la publication scientifique, éliminant le besoin de multiples outils comme Jupyter ou LaTeX. Il présente la création de carnets HTML réactifs avec des éléments interactifs en utilisant des bibliothèques telles qu&#39;Observable, Pyodide et WebR. Le potentiel de HTML pour simplifier le processus de publication est mis en avant, avec une mention de la bibliothèque @celine/celine pour un développement ultérieur.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42170740">Réactions</a></h3>
-<ul>
-<li>Le débat porte sur l&#39;utilisation de HTML comme base pour les carnets de calcul, avec des critiques sur les implémentations actuelles et des suggestions pour un système plus déclaratif appelé Heximal.</li>
-<li>Des comparaisons sont faites avec des outils existants comme Jupyter, Pluto et Raku, mettant en évidence les défis en matière de persistance et d&#39;ergonomie.</li>
-<li>Il y a de l&#39;enthousiasme quant au potentiel de l&#39;analyse exploratoire des données et de la publication, mais des préoccupations concernant la complexité introduite par les technologies web sont également soulevées.</li>
-</ul>
-<h2><a href="https://github.com/trynova/nova">Nova JavaScript Engine</a></h2>
-<ul>
-<li>Un nouveau moteur JavaScript est en cours de développement en utilisant une conception orientée données, qui optimise le stockage et l&#39;accès aux données. - Les caractéristiques clés incluent le stockage des données dans des vecteurs spécifiques au type et l&#39;utilisation d&#39;index discriminés par type pour les références de tas, améliorant ainsi les performances. - Les objets sont divisés en vecteurs spécifiques au type et fragmentés pour éviter la lecture des parties inutilisées, améliorant ainsi l&#39;efficacité.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42168166">Réactions</a></h3>
-<ul>
-<li>Nova est un moteur JavaScript expérimental qui utilise une conception orientée données, organisant les données en vecteurs spécifiques au type pour améliorer l&#39;efficacité et les performances.</li>
-<li>Contrairement aux moteurs traditionnels tels que le V8, Nova se concentre sur le stockage compact des données et évite les écarts d&#39;alignement, bien qu&#39;il manque actuellement d&#39;un compilateur Just-In-Time (JIT) et utilise un interpréteur de bytecode.</li>
-<li>Le projet vise à mettre en œuvre la spécification complète d&#39;ECMAScript, avec un développement en cours et des plans futurs pour des benchmarks et des comparaisons de performances.</li>
-</ul>
-<h2><a href="https://fleetwood.dev/posts/you-could-have-designed-SOTA-positional-encoding">Vous auriez pu concevoir un encodage positionnel à la pointe de la technologie</a></h2>
-<ul>
-<li>Le post examine le développement de l&#39;encodage positionnel dans les modèles de transformateurs, en mettant l&#39;accent sur l&#39;encodage positionnel rotatif (RoPE) utilisé dans des modèles avancés comme LLama 3.2. Il discute de la nécessité de l&#39;information positionnelle dans les mécanismes d&#39;auto-attention pour comprendre les relations entre les tokens, en comparant diverses méthodes d&#39;encodage et leurs limitations. RoPE est introduit comme une méthode qui encode les positions relatives par des rotations, améliorant la performance sans changer l&#39;information sémantique, avec des extensions potentielles aux données multidimensionnelles.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42166948">Réactions</a></h3>
-<ul>
-<li>Le débat se concentre sur l&#39;encodage positionnel dans les transformateurs, soulignant son rôle dans l&#39;aide aux modèles pour comprendre l&#39;ordre des tokens, ce qui est essentiel pour calculer les scores d&#39;attention dans le mécanisme Query, Key, Value (QKV). - Divers schémas d&#39;encodage, tels que RoPE, sont mentionnés pour leur capacité à permettre un positionnement flexible des tokens sans avoir besoin de réentraîner le modèle. - Les participants partagent leurs expériences et défis avec la mise en œuvre de ces encodages et expriment leur appréciation pour les clarifications fournies, avec des ressources supplémentaires et des discussions sur des sujets connexes comme l&#39;encodage de contexte et l&#39;efficacité des méthodes d&#39;encodage incluses.</li>
-</ul>
-<h2><a href="https://www.wired.com/story/alan-filion-torswats-guilty-plea-federal-charges-swatting/">Un adolescent derrière des centaines de fausses alertes plaide coupable à des accusations fédérales</a></h2>
-<ul>
-<li>Alan Filion, un Californien de 18 ans, a plaidé coupable de charges fédérales pour avoir mené plus de 375 attaques de swatting, ciblant des écoles, des institutions religieuses et des politiciens américains. Opérant sous le pseudonyme &quot;Torswats&quot;, Filion faisait partie d&#39;un groupe international de swatting, semant la peur et le chaos à travers les États-Unis. Il risque jusqu&#39;à cinq ans de prison pour chacun des quatre chefs d&#39;accusation de menaces interétatiques, sa date de condamnation n&#39;ayant pas encore été déterminée.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42168652">Réactions</a></h3>
-<ul>
-<li>Un adolescent a plaidé coupable à des accusations fédérales pour avoir orchestré plus de 375 incidents de swatting, qui consistent à passer de faux appels d&#39;urgence pour déclencher des interventions policières armées.</li>
-<li>Le jeune utilisait des pseudonymes en ligne et facturait ces services sur Telegram, soulignant la facilité de l&#39;usurpation d&#39;appel et les dangers du swatting, qui peuvent mener à des confrontations violentes.</li>
-<li>Ce cas souligne la nécessité d&#39;améliorer les protocoles de réponse de la police et la responsabilité, ainsi que la possibilité d&#39;une peine de 20 ans, bien que le temps réel puisse être réduit en raison du statut de mineur.</li>
-</ul>
-<h2><a href="https://arxiv.org/abs/2210.00714">Il est temps de remplacer TCP dans le centre de données (2023)</a></h2>
-<ul>
-<li>Le document critique le TCP (Transmission Control Protocol) comme étant obsolète pour les centres de données modernes, en citant des problèmes tels que l&#39;orientation des flux et la livraison des paquets dans l&#39;ordre.- Il propose Homa comme un remplacement, qui répond à ces limitations du TCP mais n&#39;est pas compatible avec l&#39;API de TCP.- L&#39;adoption de Homa pourrait être facilitée par une intégration avec des cadres RPC (Remote Procedure Call), le rendant plus accessible pour une utilisation généralisée.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42168997">Réactions</a></h3>
-<ul>
-<li>Remplacer le TCP (Transmission Control Protocol) dans les centres de données est difficile en raison de la nécessité d&#39;un support matériel étendu et d&#39;une expertise spécialisée. Bien que des alternatives comme QUIC (Quick UDP Internet Connections) et InfiniBand existent, leur adoption est limitée en raison de la complexité de l&#39;intégration et des problèmes de compatibilité avec les systèmes existants. Malgré ses limitations, la présence établie du TCP et le coût élevé de la transition vers de nouveaux protocoles suggèrent qu&#39;il continuera à dominer les centres de données dans un avenir prévisible.</li>
-</ul>
-<h2><a href="https://apps.apple.com/gb/app/islet-diabetes/id6453168642">Mon application que j&#39;ai créée pour m&#39;aider à gérer mon diabète</a></h2>
-<ul>
-<li>Joshua, un étudiant, a développé Islet, une application de gestion du diabète propulsée par GPT-4o-mini, désormais disponible sur l&#39;App Store.</li>
-<li>L&#39;application était initialement un projet d&#39;été et offre des fonctionnalités telles que la gestion de l&#39;insuline, le comptage des glucides, le suivi de la glycémie, des suggestions de repas personnalisées et le suivi des activités.</li>
-<li>Islet démontre le potentiel de l&#39;IA dans la résolution de problèmes de santé réels, en particulier pour les personnes atteintes de diabète de type 1.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42168491">Réactions</a></h3>
-<ul>
-<li>Joshua, un étudiant, a développé Islet, une application de gestion du diabète utilisant GPT-4o-mini, désormais disponible sur l&#39;App Store, pour aider à gérer l&#39;insuline, le comptage des glucides et la glycémie. - L&#39;application propose des suggestions de repas, suit l&#39;activité et offre des insights, mais elle est encore à ses débuts, et les retours sont les bienvenus pour l&#39;amélioration. - Des préoccupations ont été soulevées concernant son statut de dispositif médical et la confidentialité des données, soulignant l&#39;importance de traiter ces questions dans les applications de gestion de la santé.</li>
-</ul>
-<h2><a href="https://www.tofugu.com/japan/japanese-black-companies/">Comment les entreprises noires japonaises oppriment les travailleurs (2014)</a></h2>
-<ul>
-<li>Le terme « entreprise noire » décrit des lieux de travail exploitants, en particulier dans les industries de cols blancs, originaires du Japon et ayant gagné en notoriété au début des années 2000. Le « Black Corporations Award » a été créé en 2012 pour mettre en lumière les pires contrevenants, Watami Foodservice Co. étant fréquemment reconnue pour son mauvais traitement des employés. Une liste de contrôle par l&#39;avocat Yoshiyuki Iwasa aide à identifier les entreprises noires, avec des critères tels que les heures supplémentaires non payées et les environnements de travail abusifs, tandis que le ministère japonais de la Santé, du Travail et du Bien-être s&#39;efforce de résoudre ces problèmes.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42169615">Réactions</a></h3>
-<ul>
-<li>Les « entreprises noires » japonaises exploitent les travailleurs en menaçant d&#39;engager des poursuites judiciaires s&#39;ils tentent de démissionner, créant ainsi un environnement de travail difficile.</li>
-<li>Les travailleurs sous contrat au Japon font face à des restrictions légales concernant la résiliation de leur contrat avant son terme, ce qui met en lumière un problème plus large de culture de travail oppressive.</li>
-<li>Le modèle d&#39;emploi « à volonté » américain est contrasté, permettant aux employés de partir sans préavis mais manquant de sécurité d&#39;emploi, et est encore compliqué par le lien entre l&#39;emploi et les soins de santé.</li>
-</ul>
-<h2><a href="https://metropolisjapan.com/resignation-agencies/">Les travailleurs japonais se tournent vers les agences de démission</a></h2>
-<ul>
-<li>Une enquête de Mynavi Corp. indique une augmentation de l&#39;utilisation des agences de démission au Japon, avec 20 % des travailleurs dans la vingtaine utilisant ces services pour quitter leur emploi.</li>
-<li>Les agences de démission, telles que Momuri, aident les jeunes travailleurs à quitter des emplois qui affectent négativement leur santé mentale, en gérant le processus de démission moyennant des frais.</li>
-<li>Cette tendance signifie un changement générationnel vers la valorisation du bien-être mental et la remise en question des normes de travail traditionnelles japonaises, ce qui pourrait conduire à une culture de travail plus équilibrée.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42169027">Réactions</a></h3>
-<ul>
-<li>Les travailleurs japonais se tournent vers des agences de démission pour les aider à quitter leur emploi, car certaines entreprises créent des obstacles pour les employés souhaitant démissionner.</li>
-<li>Cette tendance souligne les défis culturels dans l&#39;environnement de travail au Japon, où les employés ressentent souvent de la culpabilité et de la pression lorsqu&#39;ils tentent de quitter un emploi.</li>
-<li>Les agences de démission facilitent le processus de démission, permettant aux employés d&#39;éviter la confrontation directe, et contribuent à des discussions plus larges sur la culture du travail au Japon et ses effets sur les employés.</li>
-</ul>
-<h2><a href="https://www.cbsnews.com/news/bhutan-emigration-crisis-60-minutes/">Le Bhoutan, après avoir donné la priorité au bonheur, fait maintenant face à une crise existentielle</a></h2>
-<ul>
-<li>Le Bhoutan connaît une émigration significative de jeunes, malgré l&#39;offre de soins de santé gratuits, d&#39;éducation et d&#39;une économie en croissance, car ils recherchent de meilleures opportunités d&#39;emploi à l&#39;étranger, notamment en Australie.</li>
-<li>En réponse, le roi du Bhoutan prévoit de développer la ville de la pleine conscience de Gelephu, conçue par l&#39;architecte danois Bjarke Ingels, pour créer des emplois et attirer les jeunes, en se concentrant sur le développement durable et les valeurs bhoutanaises.</li>
-<li>Le succès de ce projet est considéré comme vital pour l&#39;avenir du Bhoutan, certains citoyens, comme la journaliste Namgay Zam, étant inspirés pour soutenir l&#39;initiative et rester dans le pays.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42172281">Réactions</a></h3>
-<ul>
-<li>Le Bhoutan connaît une tendance où les jeunes quittent le pays pour chercher de meilleures opportunités à l&#39;étranger, motivés par le matérialisme et l&#39;exposition à d&#39;autres cultures.</li>
-<li>Malgré son accent sur le Bonheur National Brut, le Bhoutan est confronté à des défis liés à la croissance économique et à la mondialisation, entraînant une fuite des cerveaux alors que les personnes éduquées cherchent à gagner plus ailleurs.</li>
-<li>Le pays a un potentiel de développement futur grâce à sa culture unique, ses ressources énergétiques et ses projets pour une nouvelle ville, mais il doit également faire face à des problèmes importants tels que les tensions ethniques et les pressions économiques.</li>
-</ul>
-<h2><a href="https://museumofbadart.org/">Musée de l&#39;Art Mauvais</a></h2>
-<ul>
-<li>Le Musée de l&#39;Art Mauvais (MOBA) est un musée unique à Boston dédié à l&#39;exposition d&#39;œuvres d&#39;art humoristiquement imparfaites qui ne seraient généralement pas présentées dans les musées traditionnels.</li>
-<li>Situé à l&#39;intérieur de Dorchester Brewing Co, MOBA offre une entrée gratuite, permettant aux visiteurs de profiter à la fois de l&#39;art et des offres de la brasserie, telles que des bières artisanales et de la nourriture de M&amp;M Barbecue.</li>
-<li>MOBA est présenté dans une vidéo de 7 minutes par WSBE RI PBS sur YouTube, et en tant qu&#39;organisation à but non lucratif, elle accepte des dons déductibles d&#39;impôts pour soutenir sa mission.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42168503">Réactions</a></h3>
-<ul>
-<li>Le Musée de l&#39;Art Mauvais (MOBA) à Boston est dédié à l&#39;exposition d&#39;œuvres d&#39;art que les musées traditionnels pourraient rejeter, célébrant à la fois la créativité et l&#39;échec. - Les opinions sur le MOBA sont partagées ; certains apprécient son approche unique, tandis que d&#39;autres le critiquent pour potentiellement se moquer des artistes amateurs. - La collection du MOBA est remarquée pour son humour et sa sincérité, et l&#39;entrée est gratuite à son emplacement au sein de la Dorchester Brewing Co.</li>
-</ul>
-<h2><a href="https://lwn.net/Articles/997958/">Le noyau Linux 6.12 a été publié</a></h2>
-<ul>
-<li>Le noyau 6.12 a été publié par Linus Torvalds, conformément au calendrier de publication régulier, et est significatif en tant que version de support à long terme (LTS) pour 2024. - Les principales caractéristiques incluent la prise en charge de l&#39;extension de superposition de permissions Arm, des améliorations des atténuations Spectre, et l&#39;achèvement du support de la préemption en temps réel, améliorant les performances et la sécurité du système. - Cette version pourrait inciter les distributions à activer Rust et devrait être utilisée dans Debian 13 et ses dérivés, avec des améliorations dans la gestion de tailles de blocs plus grandes dans le système de fichiers XFS et des outils de performance comme perf.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42169418">Réactions</a></h3>
-<ul>
-<li>Le noyau Linux 6.12 a été publié en tant que version à support à long terme (LTS), ce qui signifie qu&#39;il bénéficiera d&#39;une maintenance et de mises à jour prolongées.</li>
-<li>Les caractéristiques clés de cette version incluent le support en temps réel, SCHED_EXT (une nouvelle classe de planification) et la compatibilité avec le Raspberry Pi 5, améliorant ainsi son utilité pour divers matériels.</li>
-<li>Cette version prend également en charge la puce réseau des cartes mères X870E Taichi, bénéfique pour les stations de travail basées sur AM5, et suit le schéma de versionnement typique du noyau Linux avec des versions majeures toutes les 8 semaines.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Ingénierie inverse du redémarrage d'inactivité d'iOS 18" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Ing%C3%A9nierie%20inverse%20du%20red%C3%A9marrage%20d'inactivit%C3%A9%20d'iOS%2018&subheading=lundi%2018%20novembre%202024%3A%20R%C3%A9sum%C3%A9%20de%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/fr/2024/11/18</link>
-            <guid isPermaLink="false">2024-11-18T00:00:00.000Z</guid>
-            <pubDate>Mon, 18 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
