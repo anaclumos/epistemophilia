@@ -15,11 +15,101 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 30 Nov 2024 19:06:06 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 01 Dec 2024 19:06:12 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/story/ja.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Sat, 30 Nov 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
         <language><![CDATA[ja]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[アドベント・オブ・コード 2024]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Advent of Codeは、エリック・ワストルによって作成されたアドベントカレンダーで、あらゆるスキルレベルに適したプログラミングパズルが特徴です。これらのパズルは、どのプログラミング言語でも解くことができます。</li>
+<li>「パズルは古いハードウェアでも効率的に動作するように設計されており、コンピュータサイエンスの背景を必要とせずに、練習、面接、または娯楽を目的としています。」</li>
+<li>「参加者は、自分の経験を共有し、例を用いて解決策を試し、必要に応じて助けを求めることが奨励されています。ただし、パズルの解決にAIを使用しないことや、商標ルールを尊重することなどのガイドラインを遵守する必要があります。」</li>
+</ul>
+]]></description>
+            <link>https://adventofcode.com/2024/about</link>
+            <guid isPermaLink="false">2024-12-01T00:00:00.000Zアドベント・オブ・コード 2024</guid>
+            <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title
+      ><![CDATA[「マイクロソフトのみが信頼するブラジルの認証局が、google.comの証明書を発行しました」]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://follow.agwa.name/notice/AoZSMI38xcA3TrN1sm</link>
+            <guid
+        isPermaLink="false"
+      >2024-12-01T00:00:00.000Z「マイクロソフトのみが信頼するブラジルの認証局が、google.comの証明書を発行しました」</guid>
+            <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title
+      ><![CDATA[「オープンソースのプライベートホームセキュリティカメラシステム(エンドツーエンド暗号化)」]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>「著者は、OpenMLSを使用したエンドツーエンドの暗号化によりプライバシーに焦点を当てたホームセキュリティカメラシステム「Privastead」を開発し、主にRustで実装しました。- Privasteadはプライバシーに関心のある人々のためにオープンソース化されており、セットアップには互換性のあるIPカメラ、ローカルマシン、サーバー、およびAndroidスマートフォンが必要です。- 現在、このシステムは1台のIPカメラとAndroidのみをサポートしていますが、著者はその機能を強化するためにコミュニティからのフィードバックと貢献を求めています。」</li>
+</ul>
+]]></description>
+            <link>https://github.com/privastead/privastead</link>
+            <guid
+        isPermaLink="false"
+      >2024-12-01T00:00:00.000Z「オープンソースのプライベートホームセキュリティカメラシステム(エンドツーエンド暗号化)」</guid>
+            <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title
+      ><![CDATA[「Ntfs2btrfsは、NTFSファイルシステムをオープンソースのBtrfsにインプレースで変換します」]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Ntfs2btrfsは、NTFSファイルシステムをBtrfsにその場で変換するために設計されたツールで、元のイメージをリフリンクコピーとして保存し、潜在的なスペース回復を可能にします。</li>
+<li>「このツールは、WindowsとLinuxの両方で利用可能であり、各プラットフォームに特化したインストール手順と依存関係が含まれています。また、圧縮サポートやNTFSへのロールバックといった機能も備えています。」</li>
+<li>「制限事項には、古い拡張属性、大きな代替データストリーム(ADS)、および暗号化ファイルのサポートの欠如が含まれ、BtrfsファイルシステムからWindowsを起動するためには特定の条件が必要です。」</li>
+</ul>
+]]></description>
+            <link>https://github.com/maharmstone/ntfs2btrfs</link>
+            <guid
+        isPermaLink="false"
+      >2024-12-01T00:00:00.000Z「Ntfs2btrfsは、NTFSファイルシステムをオープンソースのBtrfsにインプレースで変換します」</guid>
+            <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[「AMD、Zen 4のループバッファを無効化」]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>「AMDは、Zen 4 CPUにおいてループバッファを無効にしました。この機能は性能向上ではなく、電力最適化を目的としています。性能テストでは、ループバッファが無効になってもほとんど違いがないことが示されています。これは、オペレーションキャッシュが十分な帯域幅で補っているためです。ハードウェアのバグが原因でループバッファを無効にする決定がなされた可能性がありますが、性能や電力消費に大きな影響を与えることはないと考えられ、この機能はAMDによって広く文書化されていませんでした。」</li>
+</ul>
+]]></description>
+            <link>https://chipsandcheese.com/p/amd-disables-zen-4s-loop-buffer</link>
+            <guid isPermaLink="false">2024-12-01T00:00:00.000Z「AMD、Zen 4のループバッファを無効化」</guid>
+            <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[「OpenWRT One 発表: OpenWrt専用に設計された初のルーター」]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>「ソフトウェア・フリーダム・コンセルバンシー(SFC)とOpenWrtは、ソフトウェアの自由と修理の権利を促進するために設計された無線ルーター、OpenWrt Oneを発売しました。価格はケース付きで89ドル、ボードのみで68.42ドルです。」</li>
+<li>「ルーターは壊れにくく、完全にコピーレフトに準拠しており、MediaTek MT7981B SoC、MT7976C WiFi、1 GiB DDR4 RAMを搭載し、Power over Ethernet(PoE)とUSB-C電源をサポートし、上級ユーザー向けにUSBシリアルインターフェースを備えています。」</li>
+<li>「このデバイスはFCCに準拠しており、ソフトウェアの修理権が規制要件と一致できることを示しています。また、購入ごとにソフトウェア・フリーダム・コンサバンシーのOpenWrtに10ドルの寄付が含まれています。」</li>
+</ul>
+]]></description>
+            <link>https://sfconservancy.org/news/2024/nov/29/openwrt-one-wireless-router-now-ships-black-friday/</link>
+            <guid
+        isPermaLink="false"
+      >2024-12-01T00:00:00.000Z「OpenWRT One 発表: OpenWrt専用に設計された初のルーター」</guid>
+            <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[「ジェフ・ディーンがEDA業界にアルファチップについて応答」]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://twitter.com/JeffDean/status/1858540085794451906</link>
+            <guid
+        isPermaLink="false"
+      >2024-12-01T00:00:00.000Z「ジェフ・ディーンがEDA業界にアルファチップについて応答」</guid>
+            <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title
       ><![CDATA[「このボタンは何をするの？ – 私の新しい車には謎の、そして説明書に載っていないスイッチがある」]]></title>
@@ -1294,210 +1384,6 @@
             <link>https://tailwindcss.com/blog/tailwindcss-v4-beta</link>
             <guid isPermaLink="false">2024-11-22T00:00:00.000ZTailwind CSS v4.0 ベータ1</guid>
             <pubDate>Fri, 22 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[「ICCがネタニヤフ、ガラント、ハマス幹部に対して逮捕状を発行」]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link
-      >https://www.icc-cpi.int/news/situation-state-palestine-icc-pre-trial-chamber-i-rejects-state-israels-challenges</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-21T00:00:00.000Z「ICCがネタニヤフ、ガラント、ハマス幹部に対して逮捕状を発行」</guid>
-            <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[誰もが数学的思考をする能力があり、それから利益を得ることができる]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>「数学者のデイビッド・ベシスは、直感と論理のバランスを取る数学的思考が、創造性と理解力を高めるために誰にとっても有益であると主張しています。彼の著書『Mathematica: A Secret World of Intuition and Curiosity』の中で、ベシスは数学的思考を理性と本能の対話に例え、ヨガに似ているとし、練習を通じて発展させるスキルとして強調しています。ベシスは数学を普遍的な人生の教訓と見なし、それが喜び、明快さ、自信をもたらすことができると考え、問題解決だけでなく自己啓発の一形態であると示唆しています。」</li>
-</ul>
-]]></description>
-            <link>https://www.quantamagazine.org/mathematical-thinking-isnt-what-you-think-it-is-20241118/</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-21T00:00:00.000Z誰もが数学的思考をする能力があり、それから利益を得ることができる</guid>
-            <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[「Z-Libraryは学生が学問的貧困を克服するのを助けると研究が発見」]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>「ジャーナル・オブ・ユニバーシティ・ティーチング・アンド・ラーニング・プラクティスに掲載された研究は、無料の書籍や学術記事を提供するシャドウライブラリであるZ-Libraryの利用を調査し、高額な費用と限られたアクセスが主な動機であることを強調しています。」</li>
-<li>「中国の大学院生を含む多くの人々は、Z-Libraryを学術的貧困に対抗するために利用しており、プラットフォームが直面する法的問題にもかかわらず、学術的成功に不可欠であると見なしています。」</li>
-<li>「この研究は、大学や出版社がコンテンツへの無料アクセスを増やし、デジタル格差を埋め、そうしたリソースに依存する学生のニーズに対応することを推奨しています。」</li>
-</ul>
-]]></description>
-            <link
-      >https://torrentfreak.com/z-library-helps-students-to-overcome-academic-poverty-study-finds-241120/</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-21T00:00:00.000Z「Z-Libraryは学生が学問的貧困を克服するのを助けると研究が発見」</guid>
-            <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[体重減少薬がマウスとヒト細胞の筋肉を縮小させることが判明]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>「アルバータ大学の研究によると、オゼンピックのような体重減少薬は心臓や筋肉の縮小を引き起こす可能性があり、長期的な健康への影響が懸念されています。」</li>
-<li>「この研究では、マウスとヒトの細胞の両方で心筋の喪失が観察され、研究者はこれらの薬剤の使用者における心臓の健康を監視することを推奨しています。」</li>
-<li>「専門家は、これらの薬による体重減少の最大40%が筋肉である可能性があると示唆しており、治療中に適切な栄養とレジスタンストレーニングを通じて筋肉量を維持するようユーザーに勧めています。」</li>
-</ul>
-]]></description>
-            <link>https://www.ualberta.ca/en/folio/2024/11/weight-loss-drug-found-to-shrink-heart-muscle.html</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-21T00:00:00.000Z体重減少薬がマウスとヒト細胞の筋肉を縮小させることが判明</guid>
-            <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[「2018年のオランダにおける一般的な都市の交差点」]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>「オランダの都市交差点、例えばスヘルトーヘンボスの交差点は、自動車交通、サイクリスト、歩行者を含むすべての道路利用者の安全性と効率性を優先するように設計されています。」</li>
-<li>「主な特徴には、保護された自転車道、隆起した交差点、明確な道路標示、非自動車交通を優先する優先ルールが含まれ、信号機の必要性を減らします。」</li>
-<li>「このデザインアプローチは、多様な交通タイプに対応するための革新的で思慮深いインフラ計画を通じたオランダの取り組みを強調しています。」</li>
-</ul>
-]]></description>
-            <link>https://bicycledutch.wordpress.com/2018/02/20/a-common-urban-intersection-in-the-netherlands/</link>
-            <guid isPermaLink="false">2024-11-21T00:00:00.000Z「2018年のオランダにおける一般的な都市の交差点」</guid>
-            <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title
-      ><![CDATA[「グーグルは『ベストCBDグミ』の検索でフォーブスのようなサイトが支配することを許さなくなる」]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>「Googleは、確立されたウェブサイトがそのドメイン権限を利用して無関係な第三者の製品推奨を促進する「パラサイトSEO」に対処するために、サイトの評判悪用ポリシーを改訂しました。」</li>
-<li>「この更新により、フォーブスやタイムのようなサイトの検索ランキングが低下しました。これらのサイトはアフィリエイトコンテンツにこの戦術を使用していました。」</li>
-<li>「この方針変更は、検索結果に対する搾取的なSEO手法の影響を減らすことで、検索体験を向上させることを目的としています。」</li>
-</ul>
-]]></description>
-            <link
-      >https://arstechnica.com/gadgets/2024/11/google-cracks-down-on-parasite-seo-punishing-established-publishers/</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-21T00:00:00.000Z「グーグルは『ベストCBDグミ』の検索でフォーブスのようなサイトが支配することを許さなくなる」</guid>
-            <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title
-      ><![CDATA[Electrobun: TypeScriptで書かれたクロスプラットフォームのデスクトップアプリケーション]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>「Electrobunは、Typescriptを使用して高速で小型のクロスプラットフォームデスクトップアプリケーションを開発するためのツールであり、実行にはbunを、ネイティブバインディングにはzigを活用しています。」</li>
-<li>「最新バージョンのElectrobun v0.0.13は、<code>$ bun install electrobun</code>でインストールでき、コンパクトなアプリバンドル(約12MB)と最小限の更新(最小で4KB)を提供します。」</li>
-<li>「それは、開発者が5分でコーディングを開始し、10分でアプリケーションを配布できる統合ワークフローを提供し、分離されたプロセスと簡単なリモートプロシージャコール(RPC)機能により効率的なパフォーマンスを保証します。」</li>
-</ul>
-]]></description>
-            <link>https://electrobun.dev/</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-21T00:00:00.000ZElectrobun: TypeScriptで書かれたクロスプラットフォームのデスクトップアプリケーション</guid>
-            <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[PHP 8.4]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>「PHP 8.4.1は、計算プロパティのためのプロパティフックやプロパティアクセス制御の非対称可視性を含む重要なアップデートを導入しています。- 強化点には、HTML5サポートを備えた更新されたDOM API、新しい配列関数、そしてパフォーマンス向上のための新しいJIT(Just-In-Time)実装が含まれます。- 非推奨機能には、バンドルされていない拡張機能や特定の定数と関数の変更が含まれ、ユーザーにより良いパフォーマンスと構文のためのアップグレードを促しています。」</li>
-</ul>
-]]></description>
-            <link>https://www.php.net/releases/8.4/en.php</link>
-            <guid isPermaLink="false">2024-11-21T00:00:00.000ZPHP 8.4</guid>
-            <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[「Golangにおけるハイラムの法則」]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>「ハイラムの法則は、Googleのエンジニアであるハイラム・ライトにちなんで名付けられたもので、十分な数のAPIユーザーがいると、すべての観察可能な動作が誰かによって依存されるため、変更がリスクを伴うことを示唆しています。」</li>
-<li>「Goプログラミング言語では、「http: request body too large」のようなエラーメッセージを変更すると、これらのメッセージに依存する既存のコードが混乱する可能性があり、これはハイラムの法則を示しています。」</li>
-<li>「この概念はGoに特有のものではなく、JavaScriptのような他の言語にも見られ、意図しない依存関係を最小限に抑えるようにシステムを設計することの重要性を強調しています。」</li>
-</ul>
-]]></description>
-            <link>https://abenezer.org/blog/hyrum-law-in-golang</link>
-            <guid isPermaLink="false">2024-11-21T00:00:00.000Z「Golangにおけるハイラムの法則」</guid>
-            <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[「私たちはコンポスト監視技術をオープンソース化しました」]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>「モンティ・コンポスト社は、オープンソース技術を通じて住宅用および産業用の堆肥化効率を向上させることに焦点を当てたスタートアップ企業です。この技術は、Raspberry PiやArduinoのようなプラットフォームと統合し、ガス、温度、湿度、気圧を監視するセンサーを使用し、データはCSVファイルとしてエクスポート可能です。最初は堆肥の監視用に設計されましたが、この技術はモノのインターネット(IoT)や環境監視アプリケーションにも適応可能です。」</li>
-</ul>
-]]></description>
-            <link>https://github.com/gtls64/MontyHome-Hackers-Guide</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-21T00:00:00.000Z「私たちはコンポスト監視技術をオープンソース化しました」</guid>
-            <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[「『デーモン・コア』のミーム化」]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>「『デーモン・コア』は、2つの致命的な核事故に関連しており、しばしばかわいいアニメキャラクターとの予期しない組み合わせで暗いインターネットミームとして登場しています。2019年以降のこのミームの人気は、悪趣味とされながらも広く認識されるようになったニッチな興味を浮き彫りにしています。『デーモン・コア』は第二次世界大戦のために意図された3番目のプルトニウムコアであり、その日本起源がミーム化に複雑さを加えています。」</li>
-</ul>
-]]></description>
-            <link>https://doomsdaymachines.net/p/the-meme-ification-of-the-demon-core</link>
-            <guid isPermaLink="false">2024-11-21T00:00:00.000Z「『デーモン・コア』のミーム化」</guid>
-            <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[「マトリックス：リアルタイムインタラクションによる無限の地平線世界生成」]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>マトリックスプロジェクトは、映画のコンセプトに触発され、高品質なビジュアルとフレームレベルの精度を備えたリアルタイムで没入型のデジタルユニバースを開発しています。</li>
-<li>「それは、Swin-DPMのような高度なモデルを利用して無限に長いビデオを生成し、動的な環境のリアルタイム制御と探索を可能にします。」</li>
-<li>「プロジェクトは、研究とイノベーションを促進するためにデータをオープンソース化し、仮想と現実の世界を融合させた多様なシーンを紹介する予定です。」</li>
-</ul>
-]]></description>
-            <link>https://thematrix1999.github.io/</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-21T00:00:00.000Z「マトリックス：リアルタイムインタラクションによる無限の地平線世界生成」</guid>
-            <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ほぼ公式の自転車道のみをたどる自転車ルートプランナー]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>「新しい自転車ツーリングルートプランナーアプリが開発されました。このアプリは既存の自転車インフラを活用し、ユーザーが地図や公式トレイルを通じてルートを探索できるように設計されています。現在、このアプリはヨーロッパをカバーしており、最適なルート計画のためにOpenStreetMapデータを使用しています。将来的には北米や世界的な拡大が計画されています。技術的には、ルート検索にGraphhopperを使用し、Next.js 14とTypescriptで構築され、.NETバックエンドを使用しています。地図タイルはMapTilerから提供されていますが、セルフホスティングが計画されています。」</li>
-</ul>
-]]></description>
-            <link>https://trailimap.com/</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-21T00:00:00.000Zほぼ公式の自転車道のみをたどる自転車ルートプランナー</guid>
-            <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title
-      ><![CDATA[「ボーイングは、石鹸ディスペンサーについて市場価格を8,000%上回る価格で米空軍に過剰請求した」]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link
-      >https://www.reuters.com/business/aerospace-defense/boeing-overcharged-air-force-nearly-8000-soap-dispensers-watchdog-alleges-2024-10-29/</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-21T00:00:00.000Z「ボーイングは、石鹸ディスペンサーについて市場価格を8,000%上回る価格で米空軍に過剰請求した」</guid>
-            <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[「ヨーロッパのインターネットの回復力が海底ケーブルの切断による影響を軽減する」]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>「最近のバルト海でのケーブル切断、特にBCSイースト・ウエストインターリンクとC-Lion1ケーブルは、強靭なインフラのおかげでヨーロッパのインターネット接続に大きな影響を与えませんでした。」</li>
-<li>「ヨーロッパの強固なインターネットインフラは、複数の海底および陸上接続を備えており、代替ルートを提供することでそのような事故の影響を最小限に抑えています。」</li>
-<li>「Cloudflare Radarは、グローバルなインターネット接続を積極的に監視し、ソーシャルメディアやブログ投稿を通じて更新情報を提供し、障害を防ぐための冗長ネットワークアーキテクチャの重要性を強調しています。」</li>
-</ul>
-]]></description>
-            <link>https://blog.cloudflare.com/resilient-internet-connectivity-baltic-cable-cuts/</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-21T00:00:00.000Z「ヨーロッパのインターネットの回復力が海底ケーブルの切断による影響を軽減する」</guid>
-            <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

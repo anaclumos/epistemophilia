@@ -1,0 +1,134 @@
+[
+  {
+    "id": 42287231,
+    "title": "アドベント・オブ・コード 2024",
+    "originLink": "https://adventofcode.com/2024/about",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42287231",
+    "commentBody": "",
+    "originSummary": [
+      "Advent of Codeは、エリック・ワストルによって作成されたアドベントカレンダーで、あらゆるスキルレベルに適したプログラミングパズルが特徴です。これらのパズルは、どのプログラミング言語でも解くことができます。",
+      "「パズルは古いハードウェアでも効率的に動作するように設計されており、コンピュータサイエンスの背景を必要とせずに、練習、面接、または娯楽を目的としています。」",
+      "「参加者は、自分の経験を共有し、例を用いて解決策を試し、必要に応じて助けを求めることが奨励されています。ただし、パズルの解決にAIを使用しないことや、商標ルールを尊重することなどのガイドラインを遵守する必要があります。」"
+    ],
+    "commentSummary": [
+      "「Advent of Code 2024が始まり、参加者たちは創造的な問題解決に取り組み、その経験を共有しています。- 一部の参加者は、標準ライブラリを使用しないC言語や、SwiftやAdaといった新しいプログラミング言語を試すなど、独自のアプローチを模索しています。- リーダーボードへのAIの影響についての懸念もありますが、このイベントは主に個人の楽しみ、学習、コミュニティの交流を促進しています。」"
+    ],
+    "points": 726,
+    "commentCount": 277,
+    "retryCount": 0,
+    "time": 1733044175
+  },
+  {
+    "id": 42284202,
+    "title": "「マイクロソフトのみが信頼するブラジルの認証局が、google.comの証明書を発行しました」",
+    "originLink": "https://follow.agwa.name/notice/AoZSMI38xcA3TrN1sm",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42284202",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "「マイクロソフトだけが信頼するブラジルの認証局(CA)が、Googleの認証局認可(CAA)ルールに違反して、google.comの証明書を発行しました。」",
+      "この事件は、他の主要なブラウザが信頼していない中で、CAの信頼性とそれを信頼するというマイクロソフトの決定に関する懸念を引き起こしています。",
+      "「この証明書は中間者攻撃を容易にし、攻撃者がGoogleを装ってマルウェアを配布することを可能にする可能性があり、CAの信頼決定におけるより厳格な監視と透明性の必要性を強調しています。」"
+    ],
+    "points": 438,
+    "commentCount": 181,
+    "retryCount": 0,
+    "time": 1733002503
+  },
+  {
+    "id": 42284412,
+    "title": "「オープンソースのプライベートホームセキュリティカメラシステム(エンドツーエンド暗号化)」",
+    "originLink": "https://github.com/privastead/privastead",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42284412",
+    "commentBody": "",
+    "originSummary": [
+      "「著者は、OpenMLSを使用したエンドツーエンドの暗号化によりプライバシーに焦点を当てたホームセキュリティカメラシステム「Privastead」を開発し、主にRustで実装しました。- Privasteadはプライバシーに関心のある人々のためにオープンソース化されており、セットアップには互換性のあるIPカメラ、ローカルマシン、サーバー、およびAndroidスマートフォンが必要です。- 現在、このシステムは1台のIPカメラとAndroidのみをサポートしていますが、著者はその機能を強化するためにコミュニティからのフィードバックと貢献を求めています。」"
+    ],
+    "commentSummary": [
+      "「Privasteadは、既存のソリューションにおけるプライバシーの懸念に対処するために開発されたオープンソースのホームセキュリティカメラシステムであり、OpenMLSを介したエンドツーエンドの暗号化を利用しています。このシステムは主にRustで実装されており、動作にはサポートされているIPカメラ、ローカルマシン、サーバー、およびAndroidスマートフォンが必要です。このプロジェクトはGitHubで公開されており、コミュニティからのフィードバックや機能向上のための貢献を求めています。」"
+    ],
+    "points": 386,
+    "commentCount": 109,
+    "retryCount": 0,
+    "time": 1733004829
+  },
+  {
+    "id": 42283950,
+    "title": "「Ntfs2btrfsは、NTFSファイルシステムをオープンソースのBtrfsにインプレースで変換します」",
+    "originLink": "https://github.com/maharmstone/ntfs2btrfs",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42283950",
+    "commentBody": "",
+    "originSummary": [
+      "Ntfs2btrfsは、NTFSファイルシステムをBtrfsにその場で変換するために設計されたツールで、元のイメージをリフリンクコピーとして保存し、潜在的なスペース回復を可能にします。",
+      "「このツールは、WindowsとLinuxの両方で利用可能であり、各プラットフォームに特化したインストール手順と依存関係が含まれています。また、圧縮サポートやNTFSへのロールバックといった機能も備えています。」",
+      "「制限事項には、古い拡張属性、大きな代替データストリーム(ADS)、および暗号化ファイルのサポートの欠如が含まれ、BtrfsファイルシステムからWindowsを起動するためには特定の条件が必要です。」"
+    ],
+    "commentSummary": [
+      "「Ntfs2btrfsは、NTFS(New Technology File System)からBtrfs(B-tree File System)へのインプレース変換を可能にするツールであり、大量データ転送のためのその有用性とタイミングについての議論を引き起こしています。」",
+      "「ユーザーはBtrfsに対して混合した経験を共有しており、スナップショットのような機能を評価しつつ、過去の安定性の問題を思い出しています。また、ZFSやbcachefsのような他のファイルシステムについても議論しています。」",
+      "「この会話は、ファイルシステム管理の複雑さとリスクを強調しており、一部のユーザーは変換ツールよりもバックアップと新しいフォーマットを推奨しています。」"
+    ],
+    "points": 367,
+    "commentCount": 133,
+    "retryCount": 0,
+    "time": 1732999808
+  },
+  {
+    "id": 42283933,
+    "title": "「AMD、Zen 4のループバッファを無効化」",
+    "originLink": "https://chipsandcheese.com/p/amd-disables-zen-4s-loop-buffer",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42283933",
+    "commentBody": "",
+    "originSummary": [
+      "「AMDは、Zen 4 CPUにおいてループバッファを無効にしました。この機能は性能向上ではなく、電力最適化を目的としています。性能テストでは、ループバッファが無効になってもほとんど違いがないことが示されています。これは、オペレーションキャッシュが十分な帯域幅で補っているためです。ハードウェアのバグが原因でループバッファを無効にする決定がなされた可能性がありますが、性能や電力消費に大きな影響を与えることはないと考えられ、この機能はAMDによって広く文書化されていませんでした。」"
+    ],
+    "commentSummary": [
+      "「AMDは、未公開のハードウェアの脆弱性が原因で、Zen 4 CPUのループバッファを無効にしました。その結果、特定の状況でわずかな性能低下が生じています。ループバッファは電力効率と性能を向上させるために設計されていましたが、その削除は大きな利点を提供していなかった可能性を示しています。ループバッファを静かに無効にするという決定は、透明性とハードウェアの脆弱性管理に関する懸念を引き起こしています。」"
+    ],
+    "points": 271,
+    "commentCount": 105,
+    "retryCount": 0,
+    "time": 1732999655
+  },
+  {
+    "id": 42285689,
+    "title": "「OpenWRT One 発表: OpenWrt専用に設計された初のルーター」",
+    "originLink": "https://sfconservancy.org/news/2024/nov/29/openwrt-one-wireless-router-now-ships-black-friday/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42285689",
+    "commentBody": "",
+    "originSummary": [
+      "「ソフトウェア・フリーダム・コンセルバンシー(SFC)とOpenWrtは、ソフトウェアの自由と修理の権利を促進するために設計された無線ルーター、OpenWrt Oneを発売しました。価格はケース付きで89ドル、ボードのみで68.42ドルです。」",
+      "「ルーターは壊れにくく、完全にコピーレフトに準拠しており、MediaTek MT7981B SoC、MT7976C WiFi、1 GiB DDR4 RAMを搭載し、Power over Ethernet(PoE)とUSB-C電源をサポートし、上級ユーザー向けにUSBシリアルインターフェースを備えています。」",
+      "「このデバイスはFCCに準拠しており、ソフトウェアの修理権が規制要件と一致できることを示しています。また、購入ごとにソフトウェア・フリーダム・コンサバンシーのOpenWrtに10ドルの寄付が含まれています。」"
+    ],
+    "commentSummary": [
+      "「OpenWRT Oneは、OpenWrtオープンソースファームウェア専用に設計された最初のルーターで、89ドルで発売されました。これは、コピーレフトの遵守とFCC規制のバランスを取ることを目的としていますが、Wi-Fi機能のためにいくつかのプロプライエタリなバイナリブロブを含んでいます。このリリースは、ネットワークハードウェアにおける柔軟性を高めるためにルーターとWi-Fi機能を分離することの利点についての議論を引き起こしました。」"
+    ],
+    "points": 242,
+    "commentCount": 109,
+    "retryCount": 0,
+    "time": 1733020464
+  },
+  {
+    "id": 42285128,
+    "title": "「ジェフ・ディーンがEDA業界にアルファチップについて応答」",
+    "originLink": "https://twitter.com/JeffDean/status/1858540085794451906",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42285128",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "「ジェフ・ディーンは、GoogleのAlphaChipに関する批判に対して、批評家たちが前提となる再現手順、例えば事前トレーニングを遵守していないと指摘しました。この議論は、AlphaChipの性能が既存のツールと同等かどうかを問うものであり、一部ではGoogleの主張が誇張されている可能性があると示唆しています。この議論は、Googleと電子設計自動化(EDA)業界との間の緊張を浮き彫りにしており、偏見の非難やGoogleの研究の再現性に関する懸念を含んでいます。」"
+    ],
+    "points": 178,
+    "commentCount": 109,
+    "retryCount": 0,
+    "time": 1733012884
+  }
+]

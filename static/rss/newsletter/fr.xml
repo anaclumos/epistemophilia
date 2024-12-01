@@ -15,12 +15,88 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 30 Nov 2024 19:06:06 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 01 Dec 2024 19:06:13 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/fr.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Sat, 30 Nov 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[fr]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-12-01]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/12/01&#39;</h2>
+<h1>2024-12-01</h1>
+<h2><a href="https://adventofcode.com/2024/about">Avènement du Code 2024</a></h2>
+<ul>
+<li>Advent of Code, créé par Eric Wastl, est un calendrier de l&#39;Avent proposant des énigmes de programmation adaptées à tous les niveaux de compétence, qui peuvent être résolues dans n&#39;importe quel langage de programmation.</li>
+<li>Les énigmes sont conçues pour fonctionner efficacement sur du matériel plus ancien et sont destinées à la pratique, aux entretiens ou au divertissement, sans nécessiter de connaissances en informatique.</li>
+<li>Les participants sont encouragés à partager leurs expériences, à tester des solutions avec des exemples et à demander de l&#39;aide si nécessaire, tout en respectant les directives telles que ne pas utiliser l&#39;IA pour résoudre des énigmes et respecter les règles de marque déposée.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42287231">Réactions</a></h3>
+<ul>
+<li>Le Advent of Code 2024 a commencé, avec des participants s&#39;engageant dans la résolution créative de problèmes et partageant leurs expériences. Certains participants expérimentent des approches uniques, comme l&#39;utilisation de C sans bibliothèques standard ou l&#39;exploration de nouveaux langages de programmation comme Swift ou Ada. Bien qu&#39;il y ait des préoccupations concernant l&#39;impact de l&#39;IA sur le classement, l&#39;événement favorise principalement le plaisir personnel, l&#39;apprentissage et l&#39;interaction communautaire.</li>
+</ul>
+<h2><a href="https://follow.agwa.name/notice/AoZSMI38xcA3TrN1sm">Une autorité de certification brésilienne, approuvée uniquement par Microsoft, a émis un certificat pour google.com</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42284202">Réactions</a></h3>
+<ul>
+<li>Une autorité de certification (CA) brésilienne, de confiance uniquement pour Microsoft, a émis un certificat pour google.com, enfreignant les règles d&#39;autorisation de l&#39;autorité de certification (CAA) de Google.</li>
+<li>Cet incident soulève des inquiétudes quant à la fiabilité de l&#39;AC et à la décision de Microsoft de lui faire confiance, alors que d&#39;autres navigateurs majeurs ne le font pas.</li>
+<li>Le certificat pourrait faciliter les attaques de type homme du milieu, permettant aux attaquants de se faire passer pour Google et de distribuer des logiciels malveillants, soulignant ainsi la nécessité d&#39;une surveillance plus stricte et d&#39;une transparence dans les décisions de confiance des autorités de certification.</li>
+</ul>
+<h2><a href="https://github.com/privastead/privastead">Caméra de sécurité domestique privée open-source (chiffrement de bout en bout)</a></h2>
+<ul>
+<li>L&#39;auteur a développé un système de caméra de sécurité domestique appelé Privastead, axé sur la confidentialité en utilisant le chiffrement de bout en bout avec OpenMLS et en l&#39;implémentant principalement en Rust. Privastead est open-source pour ceux qui ont des préoccupations de confidentialité, nécessitant une caméra IP compatible, une machine locale, un serveur et un smartphone Android pour l&#39;installation. Actuellement, le système ne prend en charge qu&#39;une seule caméra IP et Android, mais l&#39;auteur recherche les retours et contributions de la communauté pour améliorer ses capacités.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42284412">Réactions</a></h3>
+<ul>
+<li>Privastead est un système de caméra de sécurité domestique open-source développé pour répondre aux préoccupations de confidentialité des solutions existantes, en utilisant le chiffrement de bout en bout via OpenMLS. - Le système est principalement implémenté en Rust et nécessite une caméra IP compatible, une machine locale, un serveur et un smartphone Android pour fonctionner. - Le projet est disponible sur GitHub, invitant les retours et contributions de la communauté pour améliorer sa fonctionnalité.</li>
+</ul>
+<h2><a href="https://github.com/maharmstone/ntfs2btrfs">Ntfs2btrfs effectue une conversion sur place du système de fichiers NTFS vers le Btrfs open-source</a></h2>
+<ul>
+<li>Ntfs2btrfs est un outil conçu pour convertir les systèmes de fichiers NTFS en Btrfs sur place, en préservant l&#39;image originale comme une copie reflink pour une récupération d&#39;espace potentielle.</li>
+<li>Cet outil est disponible à la fois pour Windows et Linux, avec des instructions d&#39;installation spécifiques et des dépendances pour chaque plateforme, et il inclut des fonctionnalités telles que la prise en charge de la compression et le retour à NTFS.</li>
+<li>Les limitations incluent l&#39;absence de prise en charge des anciens attributs étendus, des grands flux de données alternatifs (ADS) et des fichiers chiffrés, avec des conditions spécifiques requises pour démarrer Windows à partir d&#39;un système de fichiers Btrfs.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42283950">Réactions</a></h3>
+<ul>
+<li>Ntfs2btrfs est un outil qui permet la conversion sur place de NTFS (New Technology File System) à Btrfs (B-tree File System), suscitant des discussions sur son utilité et le moment opportun pour les transferts de données volumineux.</li>
+<li>Les utilisateurs partagent des expériences mitigées avec Btrfs, appréciant des fonctionnalités comme les instantanés mais se remémorant des problèmes de stabilité passés, tout en discutant également d&#39;autres systèmes de fichiers comme ZFS et bcachefs.</li>
+<li>La conversation souligne les complexités et les risques de la gestion des systèmes de fichiers, certains utilisateurs préconisant des sauvegardes et des formats frais plutôt que des outils de conversion.</li>
+</ul>
+<h2><a href="https://chipsandcheese.com/p/amd-disables-zen-4s-loop-buffer">AMD désactive le tampon de boucle du Zen 4</a></h2>
+<ul>
+<li>AMD a désactivé le tampon de boucle dans ses processeurs Zen 4, une fonctionnalité destinée à l&#39;optimisation de l&#39;énergie plutôt qu&#39;à l&#39;amélioration des performances. - Les tests de performance indiquent des différences négligeables avec le tampon de boucle désactivé, car le cache d&#39;opérations compense avec une bande passante suffisante. - La décision de désactiver le tampon de boucle, possiblement en raison d&#39;un bug matériel, ne devrait pas avoir d&#39;impact significatif sur les performances ou la consommation d&#39;énergie, et la fonctionnalité n&#39;était pas largement documentée par AMD.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42283933">Réactions</a></h3>
+<ul>
+<li>AMD a désactivé le tampon de boucle dans ses processeurs Zen 4, probablement en raison de vulnérabilités matérielles non divulguées, entraînant une légère diminution des performances dans certaines situations. - Le tampon de boucle était conçu pour améliorer l&#39;efficacité énergétique et les performances, mais sa suppression indique qu&#39;il n&#39;offrait peut-être pas d&#39;avantages substantiels. - La décision discrète de désactiver le tampon de boucle a suscité des préoccupations concernant la transparence et la gestion des vulnérabilités matérielles.</li>
+</ul>
+<h2><a href="https://sfconservancy.org/news/2024/nov/29/openwrt-one-wireless-router-now-ships-black-friday/">OpenWRT One sorti : premier routeur conçu spécifiquement pour OpenWrt</a></h2>
+<ul>
+<li>Le Software Freedom Conservancy (SFC) et OpenWrt ont lancé l&#39;OpenWrt One, un routeur sans fil conçu pour promouvoir la liberté logicielle et le droit à la réparation, au prix de 89 $ avec un boîtier ou 68,42 $ pour la carte.</li>
+<li>Le routeur est inaltérable, entièrement conforme au copyleft, et dispose d&#39;un SoC MediaTek MT7981B, d&#39;un wifi MT7976C, de 1 Go de RAM DDR4, prenant en charge l&#39;alimentation par Ethernet (PoE) et l&#39;alimentation USB-C, avec une interface série USB pour les utilisateurs avancés.</li>
+<li>Le dispositif est conforme aux normes de la FCC, démontrant que le droit à la réparation des logiciels peut s&#39;aligner sur les exigences réglementaires, et chaque achat inclut un don de 10 $ à OpenWrt à la Software Freedom Conservancy.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42285689">Réactions</a></h3>
+<ul>
+<li>OpenWRT One, le premier routeur spécialement conçu pour le firmware open-source OpenWrt, a été lancé au prix de 89 $. Il vise à équilibrer la conformité au copyleft avec les réglementations de la FCC, bien qu&#39;il inclue encore quelques blobs binaires propriétaires pour la fonctionnalité Wi-Fi. Cette sortie a suscité des discussions sur les avantages de la séparation des fonctions de routeur et de Wi-Fi pour une plus grande flexibilité dans le matériel de réseau.</li>
+</ul>
+<h2><a href="https://twitter.com/JeffDean/status/1858540085794451906">Jeff Dean répond à l&#39;industrie EDA au sujet d&#39;AlphaChip</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42285128">Réactions</a></h3>
+<ul>
+<li>Jeff Dean a répondu aux critiques concernant l&#39;AlphaChip de Google, en notant que les critiques n&#39;ont pas respecté les étapes essentielles de réplication, comme le pré-entraînement. - Le débat remet en question si la performance de l&#39;AlphaChip est à la hauteur des outils existants, certains suggérant que les affirmations de Google pourraient être exagérées. - Cette discussion souligne les tensions entre Google et l&#39;industrie de l&#39;Automatisation de la Conception Électronique (EDA), impliquant des accusations de partialité et des préoccupations concernant la reproductibilité des recherches de Google.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Avènement du Code 2024" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Av%C3%A8nement%20du%20Code%202024&subheading=dimanche%201%20d%C3%A9cembre%202024%3A%20R%C3%A9sum%C3%A9%20de%20Hacker%20News" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/fr/2024/12/01</link>
+            <guid isPermaLink="false">2024-12-01T00:00:00.000Z</guid>
+            <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-11-30]]></title>
             <description
@@ -1126,171 +1202,6 @@
             <link>https://hn.cho.sh/fr/2024/11/22</link>
             <guid isPermaLink="false">2024-11-22T00:00:00.000Z</guid>
             <pubDate>Fri, 22 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-11-21]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/11/21&#39;</h2>
-<h1>2024-11-21</h1>
-<h2><a href="https://www.icc-cpi.int/news/situation-state-palestine-icc-pre-trial-chamber-i-rejects-state-israels-challenges">Le CPI émet des mandats d&#39;arrêt contre Netanyahu, Gallant et des responsables du Hamas</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42203543">Réactions</a></h3>
-<ul>
-<li>Le Cour pénale internationale (CPI) a émis des mandats d&#39;arrêt contre les dirigeants israéliens Netanyahu et Gallant, ainsi que des responsables du Hamas, pour des crimes de guerre présumés.</li>
-<li>Les mandats soulignent la compétence de la CPI sur les crimes dans les territoires palestiniens, même si Israël ne reconnaît pas l&#39;autorité de la cour.</li>
-<li>Cette situation met en lumière les défis de l&#39;application de la loi internationale, car des puissances majeures comme les États-Unis ne reconnaissent pas la CPI, ce qui pourrait limiter son efficacité et rendre les arrestations réelles improbables.</li>
-</ul>
-<h2><a href="https://www.quantamagazine.org/mathematical-thinking-isnt-what-you-think-it-is-20241118/">Tout le monde est capable de penser mathématiquement et peut en bénéficier.</a></h2>
-<ul>
-<li>David Bessis, un mathématicien, soutient que la pensée mathématique, qui équilibre intuition et logique, est bénéfique pour tout le monde, améliorant la créativité et la compréhension. Dans son livre &quot;Mathematica: A Secret World of Intuition and Curiosity&quot;, Bessis compare la pensée mathématique à un dialogue entre la raison et l&#39;instinct, semblable au yoga, et souligne qu&#39;il s&#39;agit d&#39;une compétence développée par la pratique. Bessis considère les mathématiques comme une leçon de vie universelle pouvant apporter joie, clarté et confiance en soi, suggérant qu&#39;elles ne sont pas seulement une résolution de problèmes mais une forme d&#39;aide personnelle.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42200209">Réactions</a></h3>
-<ul>
-<li>Penser mathématiquement est bénéfique pour tout le monde, mais beaucoup rencontrent des difficultés en raison de méthodes d&#39;enseignement inefficaces et d&#39;un manque de motivation. Les mathématiques sont souvent à tort considérées comme un talent inné plutôt qu&#39;une compétence qui peut être développée avec la bonne approche et le bon état d&#39;esprit, similaire au sport. En soulignant que les mathématiques sont accessibles à tous, l&#39;enseignement devrait se concentrer sur le développement des compétences de pensée mathématique, rendant l&#39;apprentissage agréable et inclusif.</li>
-</ul>
-<h2><a href="https://torrentfreak.com/z-library-helps-students-to-overcome-academic-poverty-study-finds-241120/">Z-Library aide les étudiants à surmonter la pauvreté académique, selon une étude</a></h2>
-<ul>
-<li>Une étude dans le Journal of University Teaching &amp; Learning Practice examine l&#39;utilisation de Z-Library, une bibliothèque parallèle offrant des livres et des articles académiques gratuits, soulignant les coûts élevés et l&#39;accès limité comme principaux facteurs de motivation.</li>
-<li>Les étudiants chinois de troisième cycle, parmi d&#39;autres, utilisent Z-Library pour lutter contre la pauvreté académique, considérant cela comme crucial pour la réussite académique malgré les problèmes juridiques rencontrés par la plateforme.</li>
-<li>Le rapport recommande que les universités et les éditeurs augmentent l&#39;accès gratuit au contenu pour combler les fractures numériques et répondre aux besoins des étudiants qui dépendent de ces ressources.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42199301">Réactions</a></h3>
-<ul>
-<li>Une étude souligne le rôle de Z-Library dans l&#39;atténuation de la pauvreté académique en offrant un accès gratuit aux manuels, aidant ainsi les étudiants à prévisualiser les livres avant d&#39;acheter des copies physiques.</li>
-<li>Le débat explore la double nature du piratage, avec des arguments selon lesquels il peut à la fois avoir un impact négatif sur les ventes et potentiellement conduire à des achats légitimes, maintenant ainsi la pertinence des ressources.</li>
-<li>La conversation fait également référence à d&#39;autres plateformes comme Sci-Hub et Libgen, débattant des implications éthiques et éducatives du piratage dans l&#39;accès aux ressources éducatives et logicielles.</li>
-</ul>
-<h2><a href="https://www.ualberta.ca/en/folio/2024/11/weight-loss-drug-found-to-shrink-heart-muscle.html">Un médicament amaigrissant découvert pour réduire la masse musculaire chez les souris et les cellules humaines</a></h2>
-<ul>
-<li>Une étude de l&#39;Université de l&#39;Alberta indique que les médicaments pour la perte de poids tels que l&#39;Ozempic peuvent entraîner un rétrécissement du cœur et des muscles, soulevant des inquiétudes quant aux effets potentiels sur la santé à long terme.</li>
-<li>Cette étude a observé une perte de muscle cardiaque chez les souris et les cellules humaines, ce qui a incité les chercheurs à recommander de surveiller la santé cardiaque chez les utilisateurs de ces médicaments.</li>
-<li>Les experts suggèrent que jusqu&#39;à 40 % de la perte de poids due à ces médicaments est constituée de muscles, conseillant aux utilisateurs de maintenir leur masse musculaire grâce à une nutrition adéquate et à un entraînement de résistance pendant le traitement.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42199447">Réactions</a></h3>
-<ul>
-<li>Une étude indique que le sémaglutide, un médicament pour la perte de poids, pourrait entraîner une perte musculaire plus importante que le régime traditionnel, ce qui soulève des inquiétudes quant à ses effets sur la santé à long terme.</li>
-<li>Les recherches ont révélé que le sémaglutide réduit le muscle cardiaque à la fois chez les souris et dans les cellules humaines, ce qui a suscité un débat sur la question de savoir si les avantages de la perte de poids l&#39;emportent sur les risques potentiels.</li>
-<li>Les experts recommandent une nutrition adéquate et de l&#39;exercice pour contrer la perte musculaire, en soulignant la nécessité de recherches supplémentaires sur l&#39;impact du sémaglutide sur les muscles et la santé globale.</li>
-</ul>
-<h2><a href="https://bicycledutch.wordpress.com/2018/02/20/a-common-urban-intersection-in-the-netherlands/">Un carrefour urbain commun aux Pays-Bas (2018)</a></h2>
-<ul>
-<li>Les intersections urbaines aux Pays-Bas, comme celles de &#39;s-Hertogenbosch, sont conçues pour donner la priorité à la sécurité et à l&#39;efficacité pour tous les usagers de la route, y compris le trafic motorisé, les cyclistes et les piétons.</li>
-<li>Les caractéristiques principales incluent des pistes cyclables protégées, des intersections surélevées, des marquages routiers clairs et des règles de priorité qui favorisent le trafic non motorisé, réduisant ainsi le besoin de feux de signalisation.</li>
-<li>Cette approche de conception souligne l&#39;engagement néerlandais à accueillir divers types de trafic grâce à une planification d&#39;infrastructure innovante et réfléchie.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42202397">Réactions</a></h3>
-<ul>
-<li>Les Pays-Bas donnent la priorité aux cyclistes et aux piétons aux intersections urbaines, contrairement à des pays comme le Royaume-Uni et l&#39;Italie, où les infrastructures cyclables manquent souvent de priorité et peuvent être maladroites ou mal conçues. Le succès du modèle néerlandais est dû à un changement culturel et à des cadres juridiques qui favorisent les cyclistes, conduisant à des environnements cyclables plus sûrs et plus efficaces. Il y a des appels pour que d&#39;autres pays adoptent le modèle néerlandais afin d&#39;améliorer la sécurité et les infrastructures cyclables, soulignant son efficacité et son attrait.</li>
-</ul>
-<h2><a href="https://arstechnica.com/gadgets/2024/11/google-cracks-down-on-parasite-seo-punishing-established-publishers/">Google cesse de laisser des sites comme Forbes dominer la recherche pour &quot;Meilleurs bonbons gélifiés au CBD&quot;</a></h2>
-<ul>
-<li>Google a révisé sa politique d&#39;abus de réputation de site pour aborder le &quot;Parasite SEO&quot;, où des sites établis utilisent leur autorité de domaine pour promouvoir des recommandations de produits tiers non liées.</li>
-<li>Cette mise à jour a entraîné une baisse des classements de recherche pour des sites comme Forbes et Time, qui utilisaient cette tactique pour le contenu affilié.</li>
-<li>Le changement de politique vise à améliorer l&#39;expérience de recherche en réduisant l&#39;influence des pratiques SEO exploitantes sur les résultats de recherche.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42198115">Réactions</a></h3>
-<ul>
-<li>Google a mis en œuvre des changements pour empêcher des sites comme Forbes de dominer les résultats de recherche pour des termes tels que « Meilleurs bonbons gélifiés au CBD », en s&#39;attaquant aux problèmes de spam SEO et de marketing d&#39;affiliation.</li>
-<li>Ce changement vise à améliorer la qualité des résultats de recherche, qui a été affectée par le contenu généré par l&#39;IA et les tactiques de référencement agressives.</li>
-<li>Le mouvement est également perçu comme une réponse à la concurrence des outils d&#39;IA tels que ChatGPT, alors que Google cherche à améliorer les résultats de recherche et à diminuer l&#39;impact du contenu de faible qualité.</li>
-</ul>
-<h2><a href="https://electrobun.dev/">Electrobun : Applications de bureau multiplateformes écrites en TypeScript</a></h2>
-<ul>
-<li>Electrobun est un outil pour développer des applications de bureau rapides, légères et multiplateformes en utilisant Typescript, en tirant parti de bun pour l&#39;exécution et de zig pour les liaisons natives.</li>
-<li>Vous pouvez installer la dernière version, Electrobun v0.0.13, avec <code>$ bun install electrobun</code>, offrant des paquets d&#39;applications compacts (~12 Mo) et des mises à jour minimales (aussi petites que 4 Ko).</li>
-<li>Il offre un flux de travail intégré qui permet aux développeurs de commencer à coder en 5 minutes et de distribuer des applications en 10, garantissant une performance efficace avec des processus isolés et des capacités d&#39;appel de procédure à distance (RPC) faciles.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42199486">Réactions</a></h3>
-<ul>
-<li>Electrobun est un nouveau cadre conçu pour créer des applications de bureau multiplateformes en utilisant TypeScript, similaire à Electron mais utilisant Bun et la vue web du système au lieu de Node.js et Chromium.</li>
-<li>Actuellement, Electrobun est uniquement disponible pour macOS, avec des plans futurs pour prendre en charge Windows et Linux, et est dans ses premières phases de développement en se concentrant sur la stabilité.</li>
-<li>Le cadre promet des tailles de mise à jour réduites et un mécanisme personnalisé d&#39;appel de procédure à distance (RPC) pour une communication inter-processus efficace, bien qu&#39;il manque actuellement de documentation complète et d&#39;exemples visuels.</li>
-</ul>
-<h2><a href="https://www.php.net/releases/8.4/en.php">PHP 8.4</a></h2>
-<ul>
-<li>PHP 8.4.1 introduit des mises à jour significatives, y compris des hooks de propriété pour les propriétés calculées et une visibilité asymétrique pour le contrôle d&#39;accès aux propriétés. Les améliorations incluent une API DOM mise à jour avec le support HTML5, de nouvelles fonctions de tableau, et une nouvelle implémentation JIT (Just-In-Time) pour une performance améliorée. Les fonctionnalités obsolètes impliquent des extensions non groupées et des modifications de certaines constantes et fonctions, encourageant les utilisateurs à mettre à niveau pour une meilleure performance et syntaxe.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42202670">Réactions</a></h3>
-<ul>
-<li>PHP 8.4 introduit les hooks de propriété, une fonctionnalité visant à simplifier les getters et setters, en établissant des comparaisons avec une fonctionnalité similaire en C#.</li>
-<li>Cette mise à jour inclut des améliorations de performance, des traces de pile améliorées et de nouvelles fonctions de tableau, contribuant à l&#39;évolution continue de PHP.</li>
-<li>Les développeurs sont partagés sur les changements, certains s&#39;inquiétant de la complexité accrue, tandis que d&#39;autres apprécient la réduction du code standard et un passage de la verbosité à la manière de Java.</li>
-</ul>
-<h2><a href="https://abenezer.org/blog/hyrum-law-in-golang">Hyrum&#39;s Law en Golang</a></h2>
-<ul>
-<li>Hyrum&#39;s Law, nommé d&#39;après l&#39;ingénieur de Google Hyrum Wright, suggère qu&#39;avec un nombre suffisant d&#39;utilisateurs d&#39;API, tous les comportements observables seront utilisés par quelqu&#39;un, rendant les changements risqués.</li>
-<li>Dans le langage de programmation Go, modifier des messages d&#39;erreur tels que « http: request body too large » peut perturber le code existant qui dépend de ces messages, illustrant la loi de Hyrum.</li>
-<li>Ce concept n&#39;est pas exclusif à Go ; il est également évident dans d&#39;autres langages comme JavaScript, soulignant l&#39;importance de concevoir des systèmes pour minimiser les dépendances involontaires.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42201892">Réactions</a></h3>
-<ul>
-<li>Hyrum&#39;s Law suggère que tout comportement observable dans un système, même s&#39;il est non intentionnel, peut devenir une dépendance pour les utilisateurs, rendant les changements potentiellement perturbateurs.</li>
-<li>Les auteurs de bibliothèques devraient documenter les parties stables de l&#39;API et prendre en compte les dépendances des utilisateurs, tandis que les consommateurs devraient être prudents quant à la dépendance aux fonctionnalités non documentées.</li>
-<li>Le débat met l&#39;accent sur l&#39;équilibre entre les améliorations techniques et les attentes des utilisateurs, en notant les différences dans la gestion des changements entre les logiciels open-source et les logiciels d&#39;entreprise.</li>
-</ul>
-<h2><a href="https://github.com/gtls64/MontyHome-Hackers-Guide">Nous avons ouvert le code source de notre technologie de surveillance du compost.</a></h2>
-<ul>
-<li>Monty Compost Co. est une startup axée sur l&#39;amélioration de l&#39;efficacité du compostage pour un usage résidentiel et industriel grâce à la technologie open-source. La technologie s&#39;intègre avec des plateformes comme Raspberry Pi et Arduino, utilisant des capteurs pour surveiller les gaz, la température, l&#39;humidité et la pression de l&#39;air, avec des données exportables sous forme de fichiers CSV. Bien que conçue initialement pour la surveillance du compost, la technologie est adaptable pour des applications de l&#39;Internet des objets (IoT) et de surveillance environnementale.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42200099">Réactions</a></h3>
-<ul>
-<li>Monty Compost Co. a publié sa technologie de surveillance du compost en open source, permettant son adaptation à diverses applications au-delà du compostage.</li>
-<li>Le système est compatible avec Raspberry Pi et Arduino, comprenant des capteurs pour la composition des gaz, la température, l&#39;humidité et la pression atmosphérique, avec des données exportables sous forme de fichiers CSV.</li>
-<li>Cette technologie est conçue pour optimiser le compostage mais est également applicable à l&#39;Internet des objets (IoT) et à la surveillance environnementale, encourageant l&#39;expérimentation des utilisateurs et le partage de projets.</li>
-</ul>
-<h2><a href="https://doomsdaymachines.net/p/the-meme-ification-of-the-demon-core">Le mème-ification du « Demon Core »</a></h2>
-<ul>
-<li>Le « Demon Core », associé à deux accidents nucléaires mortels, est devenu un mème sombre sur Internet, souvent accompagné de juxtapositions inattendues avec des personnages d&#39;anime mignons. La popularité du mème depuis 2019 souligne un intérêt de niche qui a gagné en reconnaissance, bien qu&#39;il soit considéré de mauvais goût. Le « Demon Core » était le troisième cœur de plutonium destiné à la Seconde Guerre mondiale, ce qui ajoute de la complexité à sa transformation en mème, notamment en raison de ses origines japonaises.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42200699">Réactions</a></h3>
-<ul>
-<li>Les mèmes du « Demon Core » proviennent d&#39;un mélange d&#39;humour noir et d&#39;incidents nucléaires historiques impliquant une sphère de plutonium.</li>
-<li>Les mèmes juxtaposent la nature dangereuse du cœur avec des contextes humoristiques ou absurdes, suscitant un débat sur le fait de savoir si l&#39;humour provient des expériences imprudentes ou s&#39;il s&#39;agit d&#39;un mécanisme de défense face à l&#39;histoire nucléaire.</li>
-<li>Ce phénomène illustre comment l&#39;humour peut émerger de sujets sérieux, offrant des perspectives sur le comportement humain et des réactions inattendues.</li>
-</ul>
-<h2><a href="https://thematrix1999.github.io/">« La Matrice : Génération de Monde à Horizon Infini avec Interaction en Temps Réel »</a></h2>
-<ul>
-<li>Le projet Matrix développe un univers numérique immersif en temps réel avec des visuels de haute qualité et une précision au niveau des images, inspiré par le concept du film.</li>
-<li>Il utilise des modèles avancés comme Swin-DPM pour générer des vidéos infiniment longues, permettant un contrôle en temps réel et l&#39;exploration d&#39;environnements dynamiques.</li>
-<li>Le projet prévoit de rendre ses données open source pour encourager la recherche et l&#39;innovation, en présentant des scènes variées qui mélangent des environnements virtuels et réels.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42201117">Réactions</a></h3>
-<ul>
-<li>Les discussions portent sur le potentiel de génération de mondes virtuels infinis, inspirées par « The Matrix: Infinite-Horizon World Generation with Real-Time Interaction ».</li>
-<li>Des comparaisons sont faites avec des jeux comme Minecraft, qui utilisent la génération procédurale pour maintenir la cohérence spatiale, et des suggestions incluent l&#39;utilisation de mondes 3D à basse résolution pour plus d&#39;efficacité.</li>
-<li>Le rôle de l&#39;IA dans l&#39;amélioration des expériences de réalité virtuelle (VR) et de réalité mixte est mis en avant, parallèlement aux préoccupations concernant la convivialité et la commercialisation de la technologie actuelle.</li>
-</ul>
-<h2><a href="https://trailimap.com/">Planificateur d&#39;itinéraire vélo qui suit presque uniquement des pistes cyclables officielles</a></h2>
-<ul>
-<li>Une nouvelle application de planification d&#39;itinéraires pour le cyclotourisme a été développée, se concentrant sur l&#39;utilisation des infrastructures cyclables existantes et permettant aux utilisateurs d&#39;explorer des itinéraires via des cartes ou des sentiers officiels. - L&#39;application couvre actuellement l&#39;Europe et utilise les données d&#39;OpenStreetMap pour une planification d&#39;itinéraire optimale, avec des plans d&#39;expansion future en Amérique du Nord et à l&#39;échelle mondiale. - Techniquement, l&#39;application utilise Graphhopper pour la recherche d&#39;itinéraires, est construite avec Next.js 14 et Typescript, et utilise un backend .NET, avec des tuiles de carte provenant de MapTiler, bien qu&#39;un auto-hébergement soit prévu.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42197754">Réactions</a></h3>
-<ul>
-<li>Une nouvelle application de planification d&#39;itinéraires pour vélos a été développée, se concentrant sur les pistes cyclables officielles pour le cyclotourisme, et est actuellement disponible en Europe. L&#39;application utilise les données d&#39;OpenStreetMap et emploie Graphhopper pour la recherche d&#39;itinéraires, avec une application web construite à l&#39;aide de Next.js et .NET. Les plans d&#39;expansion futurs incluent l&#39;extension de la disponibilité de l&#39;application à l&#39;Amérique du Nord et à d&#39;autres régions, avec une invitation ouverte aux retours et à la collaboration des développeurs.</li>
-</ul>
-<h2><a href="https://www.reuters.com/business/aerospace-defense/boeing-overcharged-air-force-nearly-8000-soap-dispensers-watchdog-alleges-2024-10-29/">Boeing a surfacturé l&#39;armée de l&#39;air américaine de 8 000 % au-dessus du marché pour des distributeurs de savon</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42201068">Réactions</a></h3>
-<ul>
-<li>Boeing a facturé à l&#39;US Air Force 149 072 $ pour des distributeurs de savon, un prix nettement supérieur au prix du marché, ce qui équivaut à 671 $ par avion pour 222 avions C-17.</li>
-<li>Le coût gonflé est attribué à la conformité avec les spécifications militaires et les exigences de documentation, ce qui suscite un débat sur l&#39;efficacité du processus d&#39;approvisionnement.</li>
-<li>La situation souligne des inefficacités potentielles dans les contrats militaires, avec des suggestions selon lesquelles le système pourrait favoriser des entrepreneurs comme Boeing.</li>
-</ul>
-<h2><a href="https://blog.cloudflare.com/resilient-internet-connectivity-baltic-cable-cuts/">La résilience de l&#39;Internet en Europe atténue l&#39;impact des coupures de câbles sous-marins</a></h2>
-<ul>
-<li>Les récentes coupures de câbles dans la mer Baltique, spécifiquement les câbles BCS East-West Interlink et C-Lion1, n&#39;ont pas perturbé de manière significative la connectivité Internet en Europe grâce à une infrastructure résiliente.</li>
-<li>Le solide infrastructure Internet de l&#39;Europe, avec de multiples connexions sous-marines et terrestres, garantit un impact minimal de tels incidents en offrant des itinéraires alternatifs.</li>
-<li>Cloudflare Radar surveille activement la connectivité Internet mondiale, offrant des mises à jour via les réseaux sociaux et des articles de blog, soulignant l&#39;importance d&#39;une architecture réseau redondante pour prévenir les perturbations.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42198635">Réactions</a></h3>
-<head>
-  <meta property="og:title" content="Le CPI émet des mandats d'arrêt contre Netanyahu, Gallant et des responsables du Hamas" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Le%20CPI%20%C3%A9met%20des%20mandats%20d'arr%C3%AAt%20contre%20Netanyahu%2C%20Gallant%20et%20des%20responsables%20du%20Hamas&subheading=jeudi%2021%20novembre%202024%3A%20R%C3%A9sum%C3%A9%20de%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/fr/2024/11/21</link>
-            <guid isPermaLink="false">2024-11-21T00:00:00.000Z</guid>
-            <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

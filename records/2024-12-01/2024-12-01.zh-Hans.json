@@ -1,0 +1,134 @@
+[
+  {
+    "id": 42287231,
+    "title": "“2024编程挑战降临节”",
+    "originLink": "https://adventofcode.com/2024/about",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42287231",
+    "commentBody": "",
+    "originSummary": [
+      "“由Eric Wastl创建的Advent of Code是一个包含编程谜题的降临节日历，适合所有技能水平，可以用任何编程语言解决。”",
+      "“这些谜题旨在能够在较旧的硬件上高效运行，适用于练习、面试或娱乐，不需要计算机科学背景。”",
+      "“鼓励参与者分享他们的经验，用例子测试解决方案，并在需要时寻求帮助，同时遵守不使用人工智能解决谜题和尊重商标规则等指南。”"
+    ],
+    "commentSummary": [
+      "“2024年的编程挑战活动Advent of Code已经开始，参与者们正在进行创造性的问题解决并分享他们的经验。一些参与者正在尝试独特的方法，比如使用不带标准库的C语言，或者探索新的编程语言如Swift或Ada。尽管有人担心AI对排行榜的影响，但该活动主要促进个人享受、学习和社区互动。”"
+    ],
+    "points": 726,
+    "commentCount": 277,
+    "retryCount": 0,
+    "time": 1733044175
+  },
+  {
+    "id": 42284202,
+    "title": "“一个仅被微软信任的巴西证书颁发机构为google.com颁发了证书。”",
+    "originLink": "https://follow.agwa.name/notice/AoZSMI38xcA3TrN1sm",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42284202",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "“一个仅受微软信任的巴西证书颁发机构(CA)为google.com颁发了证书，违反了谷歌的证书颁发机构授权(CAA)规则。”",
+      "“这一事件引发了对证书颁发机构可靠性的担忧，以及微软决定信任它的决定，因为其他主要浏览器并不信任它。”",
+      "“该证书可能会促进中间人攻击，使攻击者能够冒充谷歌并传播恶意软件，这凸显了在CA信任决策中需要更严格的监督和透明度。”"
+    ],
+    "points": 438,
+    "commentCount": 181,
+    "retryCount": 0,
+    "time": 1733002503
+  },
+  {
+    "id": 42284412,
+    "title": "“开源私人家庭安全摄像系统(端到端加密)”",
+    "originLink": "https://github.com/privastead/privastead",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42284412",
+    "commentBody": "",
+    "originSummary": [
+      "“作者开发了一种名为Privastead的家庭安全摄像系统，专注于通过使用OpenMLS的端到端加密来保护隐私，并主要用Rust实现。- Privastead是开源的，适合有隐私顾虑的人使用，设置时需要兼容的IP摄像头、本地机器、服务器和安卓智能手机。- 目前，该系统仅支持一个IP摄像头和安卓设备，但作者希望通过社区反馈和贡献来增强其功能。”"
+    ],
+    "commentSummary": [
+      "“Privastead 是一个开源的家庭安全摄像头系统，旨在通过 OpenMLS 实现端到端加密，以解决现有解决方案的隐私问题。该系统主要用 Rust 实现，运行需要支持的 IP 摄像头、本地机器、服务器和 Android 智能手机。该项目在 GitHub 上可用，邀请社区的反馈和贡献以增强其功能。”"
+    ],
+    "points": 386,
+    "commentCount": 109,
+    "retryCount": 0,
+    "time": 1733004829
+  },
+  {
+    "id": 42283950,
+    "title": "“Ntfs2btrfs可以将NTFS文件系统就地转换为开源的Btrfs。”",
+    "originLink": "https://github.com/maharmstone/ntfs2btrfs",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42283950",
+    "commentBody": "",
+    "originSummary": [
+      "“Ntfs2btrfs 是一个工具，旨在将 NTFS 文件系统就地转换为 Btrfs，同时保留原始映像作为 reflink 副本，以便在需要时进行空间恢复。”",
+      "“该工具适用于 Windows 和 Linux 平台，并为每个平台提供了特定的安装说明和依赖项。它包括压缩支持和回滚到 NTFS 等功能。”",
+      "“限制包括缺乏对较旧扩展属性、大型备用数据流(ADS)和加密文件的支持，并且从Btrfs文件系统启动Windows需要特定条件。”"
+    ],
+    "commentSummary": [
+      "“Ntfs2btrfs 是一个工具，可以实现从 NTFS(新技术文件系统)到 Btrfs(B 树文件系统)的就地转换，引发了关于其在大数据传输中的实用性和时机的讨论。”",
+      "“用户对Btrfs的体验褒贬不一，他们欣赏快照等功能，但也回忆起过去的稳定性问题，同时也讨论了其他文件系统，如ZFS和bcachefs。”",
+      "“这段对话强调了文件系统管理的复杂性和风险，一些用户主张使用备份和全新格式化而不是转换工具。”"
+    ],
+    "points": 367,
+    "commentCount": 133,
+    "retryCount": 0,
+    "time": 1732999808
+  },
+  {
+    "id": 42283933,
+    "title": "“AMD禁用Zen 4的循环缓冲区”",
+    "originLink": "https://chipsandcheese.com/p/amd-disables-zen-4s-loop-buffer",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42283933",
+    "commentBody": "",
+    "originSummary": [
+      "“AMD已在其Zen 4 CPU中禁用了循环缓冲区，这一功能旨在优化功耗而非提升性能。性能测试表明，禁用循环缓冲区后差异微乎其微，因为操作缓存以足够的带宽进行补偿。禁用循环缓冲区的决定可能是由于硬件故障，但这不太可能对性能或功耗产生重大影响，而且AMD对此功能的文档记录并不广泛。”"
+    ],
+    "commentSummary": [
+      "“AMD已在其Zen 4 CPU中禁用了循环缓冲区，这可能是由于未公开的硬件漏洞，导致在某些情况下性能略有下降。- 循环缓冲区旨在提高功率效率和性能，但其移除表明它可能没有提供实质性的优势。- 悄然决定禁用循环缓冲区引发了对透明度和硬件漏洞管理的担忧。”"
+    ],
+    "points": 271,
+    "commentCount": 105,
+    "retryCount": 0,
+    "time": 1732999655
+  },
+  {
+    "id": 42285689,
+    "title": "“OpenWRT One发布：首款专为OpenWrt设计的路由器”",
+    "originLink": "https://sfconservancy.org/news/2024/nov/29/openwrt-one-wireless-router-now-ships-black-friday/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42285689",
+    "commentBody": "",
+    "originSummary": [
+      "“软件自由保护协会(SFC)和OpenWrt发布了OpenWrt One，这是一款旨在促进软件自由和维修权的无线路由器，带外壳售价为89美元，单板售价为68.42美元。”",
+      "“该路由器无法被损坏，完全符合版权左协议，配备了MediaTek MT7981B SoC、MT7976C WiFi、1 GiB DDR4 RAM，支持以太网供电(PoE)和USB-C供电，并为高级用户提供USB串行接口。”",
+      "“该设备符合FCC标准，表明软件维修权可以与监管要求保持一致，每次购买都会向软件自由保护协会的OpenWrt捐赠10美元。”"
+    ],
+    "commentSummary": [
+      "“OpenWRT One，是首款专为OpenWrt开源固件设计的路由器，现已发布，售价为89美元。- 它旨在平衡版权左翼合规性与FCC法规，尽管它仍然包含一些用于Wi-Fi功能的专有二进制文件。- 此次发布引发了关于将路由器和Wi-Fi功能分离以在网络硬件中实现更大灵活性的讨论。”"
+    ],
+    "points": 242,
+    "commentCount": 109,
+    "retryCount": 0,
+    "time": 1733020464
+  },
+  {
+    "id": 42285128,
+    "title": "“Jeff Dean回应EDA行业关于AlphaChip的问题”",
+    "originLink": "https://twitter.com/JeffDean/status/1858540085794451906",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42285128",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "“Jeff Dean回应了关于谷歌AlphaChip的批评，指出批评者没有遵循基本的复制步骤，如预训练。- 争论的焦点在于AlphaChip的性能是否与现有工具相当，有人认为谷歌的声明可能被夸大了。- 这一讨论突显了谷歌与电子设计自动化(EDA)行业之间的紧张关系，涉及偏见指控和对谷歌研究可重复性的担忧。”"
+    ],
+    "points": 178,
+    "commentCount": 109,
+    "retryCount": 0,
+    "time": 1733012884
+  }
+]

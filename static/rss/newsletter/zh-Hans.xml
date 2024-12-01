@@ -15,12 +15,88 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 30 Nov 2024 19:06:06 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 01 Dec 2024 19:06:13 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/zh-Hans.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Sat, 30 Nov 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[zh-Hans]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-12-01]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/12/01&#39;</h2>
+<h1>2024-12-01</h1>
+<h2><a href="https://adventofcode.com/2024/about">“2024编程挑战降临节”</a></h2>
+<ul>
+<li>“由Eric Wastl创建的Advent of Code是一个包含编程谜题的降临节日历，适合所有技能水平，可以用任何编程语言解决。”</li>
+<li>“这些谜题旨在能够在较旧的硬件上高效运行，适用于练习、面试或娱乐，不需要计算机科学背景。”</li>
+<li>“鼓励参与者分享他们的经验，用例子测试解决方案，并在需要时寻求帮助，同时遵守不使用人工智能解决谜题和尊重商标规则等指南。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42287231">反应</a></h3>
+<ul>
+<li>“2024年的编程挑战活动Advent of Code已经开始，参与者们正在进行创造性的问题解决并分享他们的经验。一些参与者正在尝试独特的方法，比如使用不带标准库的C语言，或者探索新的编程语言如Swift或Ada。尽管有人担心AI对排行榜的影响，但该活动主要促进个人享受、学习和社区互动。”</li>
+</ul>
+<h2><a href="https://follow.agwa.name/notice/AoZSMI38xcA3TrN1sm">“一个仅被微软信任的巴西证书颁发机构为google.com颁发了证书。”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42284202">反应</a></h3>
+<ul>
+<li>“一个仅受微软信任的巴西证书颁发机构(CA)为google.com颁发了证书，违反了谷歌的证书颁发机构授权(CAA)规则。”</li>
+<li>“这一事件引发了对证书颁发机构可靠性的担忧，以及微软决定信任它的决定，因为其他主要浏览器并不信任它。”</li>
+<li>“该证书可能会促进中间人攻击，使攻击者能够冒充谷歌并传播恶意软件，这凸显了在CA信任决策中需要更严格的监督和透明度。”</li>
+</ul>
+<h2><a href="https://github.com/privastead/privastead">“开源私人家庭安全摄像系统(端到端加密)”</a></h2>
+<ul>
+<li>“作者开发了一种名为Privastead的家庭安全摄像系统，专注于通过使用OpenMLS的端到端加密来保护隐私，并主要用Rust实现。- Privastead是开源的，适合有隐私顾虑的人使用，设置时需要兼容的IP摄像头、本地机器、服务器和安卓智能手机。- 目前，该系统仅支持一个IP摄像头和安卓设备，但作者希望通过社区反馈和贡献来增强其功能。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42284412">反应</a></h3>
+<ul>
+<li>“Privastead 是一个开源的家庭安全摄像头系统，旨在通过 OpenMLS 实现端到端加密，以解决现有解决方案的隐私问题。该系统主要用 Rust 实现，运行需要支持的 IP 摄像头、本地机器、服务器和 Android 智能手机。该项目在 GitHub 上可用，邀请社区的反馈和贡献以增强其功能。”</li>
+</ul>
+<h2><a href="https://github.com/maharmstone/ntfs2btrfs">“Ntfs2btrfs可以将NTFS文件系统就地转换为开源的Btrfs。”</a></h2>
+<ul>
+<li>“Ntfs2btrfs 是一个工具，旨在将 NTFS 文件系统就地转换为 Btrfs，同时保留原始映像作为 reflink 副本，以便在需要时进行空间恢复。”</li>
+<li>“该工具适用于 Windows 和 Linux 平台，并为每个平台提供了特定的安装说明和依赖项。它包括压缩支持和回滚到 NTFS 等功能。”</li>
+<li>“限制包括缺乏对较旧扩展属性、大型备用数据流(ADS)和加密文件的支持，并且从Btrfs文件系统启动Windows需要特定条件。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42283950">反应</a></h3>
+<ul>
+<li>“Ntfs2btrfs 是一个工具，可以实现从 NTFS(新技术文件系统)到 Btrfs(B 树文件系统)的就地转换，引发了关于其在大数据传输中的实用性和时机的讨论。”</li>
+<li>“用户对Btrfs的体验褒贬不一，他们欣赏快照等功能，但也回忆起过去的稳定性问题，同时也讨论了其他文件系统，如ZFS和bcachefs。”</li>
+<li>“这段对话强调了文件系统管理的复杂性和风险，一些用户主张使用备份和全新格式化而不是转换工具。”</li>
+</ul>
+<h2><a href="https://chipsandcheese.com/p/amd-disables-zen-4s-loop-buffer">“AMD禁用Zen 4的循环缓冲区”</a></h2>
+<ul>
+<li>“AMD已在其Zen 4 CPU中禁用了循环缓冲区，这一功能旨在优化功耗而非提升性能。性能测试表明，禁用循环缓冲区后差异微乎其微，因为操作缓存以足够的带宽进行补偿。禁用循环缓冲区的决定可能是由于硬件故障，但这不太可能对性能或功耗产生重大影响，而且AMD对此功能的文档记录并不广泛。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42283933">反应</a></h3>
+<ul>
+<li>“AMD已在其Zen 4 CPU中禁用了循环缓冲区，这可能是由于未公开的硬件漏洞，导致在某些情况下性能略有下降。- 循环缓冲区旨在提高功率效率和性能，但其移除表明它可能没有提供实质性的优势。- 悄然决定禁用循环缓冲区引发了对透明度和硬件漏洞管理的担忧。”</li>
+</ul>
+<h2><a href="https://sfconservancy.org/news/2024/nov/29/openwrt-one-wireless-router-now-ships-black-friday/">“OpenWRT One发布：首款专为OpenWrt设计的路由器”</a></h2>
+<ul>
+<li>“软件自由保护协会(SFC)和OpenWrt发布了OpenWrt One，这是一款旨在促进软件自由和维修权的无线路由器，带外壳售价为89美元，单板售价为68.42美元。”</li>
+<li>“该路由器无法被损坏，完全符合版权左协议，配备了MediaTek MT7981B SoC、MT7976C WiFi、1 GiB DDR4 RAM，支持以太网供电(PoE)和USB-C供电，并为高级用户提供USB串行接口。”</li>
+<li>“该设备符合FCC标准，表明软件维修权可以与监管要求保持一致，每次购买都会向软件自由保护协会的OpenWrt捐赠10美元。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42285689">反应</a></h3>
+<ul>
+<li>“OpenWRT One，是首款专为OpenWrt开源固件设计的路由器，现已发布，售价为89美元。- 它旨在平衡版权左翼合规性与FCC法规，尽管它仍然包含一些用于Wi-Fi功能的专有二进制文件。- 此次发布引发了关于将路由器和Wi-Fi功能分离以在网络硬件中实现更大灵活性的讨论。”</li>
+</ul>
+<h2><a href="https://twitter.com/JeffDean/status/1858540085794451906">“Jeff Dean回应EDA行业关于AlphaChip的问题”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42285128">反应</a></h3>
+<ul>
+<li>“Jeff Dean回应了关于谷歌AlphaChip的批评，指出批评者没有遵循基本的复制步骤，如预训练。- 争论的焦点在于AlphaChip的性能是否与现有工具相当，有人认为谷歌的声明可能被夸大了。- 这一讨论突显了谷歌与电子设计自动化(EDA)行业之间的紧张关系，涉及偏见指控和对谷歌研究可重复性的担忧。”</li>
+</ul>
+<head>
+  <meta property="og:title" content="“2024编程挑战降临节”" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9C2024%E7%BC%96%E7%A8%8B%E6%8C%91%E6%88%98%E9%99%8D%E4%B8%B4%E8%8A%82%E2%80%9D&subheading=2024%E5%B9%B412%E6%9C%881%E6%97%A5%E6%98%9F%E6%9C%9F%E6%97%A5%3A%20%E9%BB%91%E5%AE%A2%E6%96%B0%E9%97%BB%E6%91%98%E8%A6%81" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/zh/Hans/2024/12/01</link>
+            <guid isPermaLink="false">2024-12-01T00:00:00.000Z</guid>
+            <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-11-30]]></title>
             <description
@@ -1126,171 +1202,6 @@
             <link>https://hn.cho.sh/zh/Hans/2024/11/22</link>
             <guid isPermaLink="false">2024-11-22T00:00:00.000Z</guid>
             <pubDate>Fri, 22 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-11-21]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/11/21&#39;</h2>
-<h1>2024-11-21</h1>
-<h2><a href="https://www.icc-cpi.int/news/situation-state-palestine-icc-pre-trial-chamber-i-rejects-state-israels-challenges">“国际刑事法院对内塔尼亚胡、加兰特和哈马斯官员发出逮捕令”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42203543">反应</a></h3>
-<ul>
-<li>“国际刑事法院(ICC)已对以色列领导人内塔尼亚胡和加兰特以及哈马斯官员发出逮捕令，指控其涉嫌战争罪。”</li>
-<li>“这些逮捕令强调了国际刑事法院对巴勒斯坦领土犯罪的管辖权，尽管以色列不承认该法院的权威。”</li>
-<li>“这种情况突显了国际执法中的挑战，因为像美国这样的主要大国不承认国际刑事法院，这可能限制其有效性并使实际逮捕变得不太可能。”</li>
-</ul>
-<h2><a href="https://www.quantamagazine.org/mathematical-thinking-isnt-what-you-think-it-is-20241118/">每个人都有能力进行数学思维，并能从中受益。</a></h2>
-<ul>
-<li>“数学家大卫·贝西斯认为，数学思维平衡直觉和逻辑，对每个人都有益，能够提升创造力和理解力。在他的书《数学：直觉与好奇心的秘密世界》中，贝西斯将数学思维比作理性与本能之间的对话，类似于瑜伽，并强调这是一种通过练习培养的技能。贝西斯将数学视为一种普遍的人生课程，可以带来快乐、清晰和自信，认为它不仅仅是解决问题，而是一种自助的形式。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42200209">反应</a></h3>
-<ul>
-<li>“数学思维对每个人都有益，但由于教学方法无效和缺乏动力，许多人面临挑战。- 数学常常被错误地视为一种天赋，而不是一种可以通过正确的方法和心态培养的技能，类似于体育。- 强调数学对所有人都是可及的，教学应侧重于培养数学思维技能，使学习变得愉快和包容。”</li>
-</ul>
-<h2><a href="https://torrentfreak.com/z-library-helps-students-to-overcome-academic-poverty-study-finds-241120/">“研究发现，Z-Library 帮助学生克服学术贫困”</a></h2>
-<ul>
-<li>“《大学教学与学习实践杂志》中的一项研究探讨了Z-Library的使用，这是一家提供免费书籍和学术文章的影子图书馆，研究强调高昂的费用和有限的获取途径是主要的动机。”</li>
-<li>“包括中国研究生在内的许多人使用Z-Library来应对学术贫困，尽管该平台面临法律问题，但他们认为这对于学术成功至关重要。”</li>
-<li>“该研究建议大学和出版商增加内容的免费访问，以弥合数字鸿沟并满足依赖此类资源的学生的需求。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42199301">反应</a></h3>
-<ul>
-<li>“研究强调了Z-Library在缓解学术贫困方面的作用，通过提供免费教科书访问，帮助学生在购买实体书之前预览书籍。”</li>
-<li>“讨论探讨了盗版的双重性质，认为它既可能对销售产生负面影响，也可能促使合法购买，从而保持资源的相关性。”</li>
-<li>“对话还提到了其他平台，如Sci-Hub和Libgen，讨论了在获取教育和软件资源时盗版的伦理和教育影响。”</li>
-</ul>
-<h2><a href="https://www.ualberta.ca/en/folio/2024/11/weight-loss-drug-found-to-shrink-heart-muscle.html">减肥药被发现可缩小小鼠和人类细胞中的肌肉</a></h2>
-<ul>
-<li>“阿尔伯塔大学的一项研究表明，像Ozempic这样的减肥药可能导致心脏和肌肉萎缩，这引发了对潜在长期健康影响的担忧。”</li>
-<li>“该研究观察到小鼠和人类细胞的心肌损失，促使研究人员建议对这些药物使用者的心脏健康进行监测。”</li>
-<li>“专家建议，这些药物导致的体重减轻中多达40%可能是肌肉，因此建议使用者在治疗期间通过适当的营养和阻力训练来维持肌肉质量。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42199447">反应</a></h3>
-<ul>
-<li>“研究表明，减肥药司美格鲁肽可能导致比传统节食更多的肌肉流失，这引发了对其长期健康影响的担忧。”</li>
-<li>“研究发现，司美格鲁肽可以减少小鼠和人类细胞中的心肌，这引发了关于减肥的好处是否超过潜在风险的争论。”</li>
-<li>“专家建议通过适当的营养和锻炼来抵消肌肉流失，并强调需要进一步研究司美格鲁肽对肌肉和整体健康的影响。”</li>
-</ul>
-<h2><a href="https://bicycledutch.wordpress.com/2018/02/20/a-common-urban-intersection-in-the-netherlands/">“荷兰常见的城市交叉路口(2018年)”</a></h2>
-<ul>
-<li>“荷兰的城市交叉路口，例如在斯海尔托亨博斯的交叉路口，旨在优先考虑所有道路使用者的安全和效率，包括机动车辆、骑自行车者和行人。”</li>
-<li>“主要特点包括保护自行车道、抬高的交叉路口、清晰的道路标记以及优先非机动车交通的规则，从而减少对交通信号的需求。”</li>
-<li>“这种设计方法强调了荷兰通过创新和周到的基础设施规划来容纳多种交通类型的承诺。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42202397">反应</a></h3>
-<ul>
-<li>“荷兰在城市交叉路口优先考虑骑自行车者和行人，这与英国和意大利等国家形成对比，这些国家的自行车基础设施往往缺乏优先权，设计可能笨拙或不完善。荷兰模式的成功归因于文化转变和有利于骑自行车者的法律框架，从而创造了更安全和更高效的骑行环境。有人呼吁其他国家采用荷兰模式，以改善骑行安全和基础设施，强调其有效性和吸引力。”</li>
-</ul>
-<h2><a href="https://arstechnica.com/gadgets/2024/11/google-cracks-down-on-parasite-seo-punishing-established-publishers/">“谷歌停止允许像《福布斯》这样的网站主导‘最佳CBD软糖’的搜索结果”</a></h2>
-<ul>
-<li>“谷歌已修订其网站信誉滥用政策，以解决“寄生虫SEO”问题，即已建立的网站利用其域名权威性来推广不相关的第三方产品推荐。”</li>
-<li>“此更新导致像《福布斯》和《时代》这样的网站的搜索排名下降，这些网站一直在使用这种策略进行联盟内容。”</li>
-<li>“政策变更旨在通过减少剥削性SEO实践对搜索结果的影响来改善搜索体验。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42198115">反应</a></h3>
-<ul>
-<li>“谷歌已经实施了更改，以防止像《福布斯》这样的网站在搜索结果中主导诸如‘最佳CBD软糖’之类的术语，从而解决SEO垃圾邮件和联盟营销的问题。”</li>
-<li>“此更改旨在提高搜索结果的质量，因为搜索结果受到了AI生成内容和激进SEO策略的影响。”</li>
-<li>“此举也被视为对来自ChatGPT等人工智能工具竞争的回应，因为谷歌希望提升搜索结果并减少低质量内容的影响。”</li>
-</ul>
-<h2><a href="https://electrobun.dev/">“Electrobun：用TypeScript编写的跨平台桌面应用程序”</a></h2>
-<ul>
-<li>“Electrobun 是一个工具，用于使用 Typescript 开发快速、小型、跨平台的桌面应用程序，利用 bun 进行执行，并使用 zig 进行本地绑定。”</li>
-<li>“最新版本 Electrobun v0.0.13 可以通过 <code>$ bun install electrobun</code> 安装，提供紧凑的应用程序包(约12MB)和最小的更新(小至4KB)。”</li>
-<li>它提供了一个集成的工作流程，使开发人员能够在5分钟内开始编码，并在10分钟内分发应用程序，确保通过隔离的进程和简单的远程过程调用(RPC)功能实现高效性能。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42199486">反应</a></h3>
-<ul>
-<li>“Electrobun 是一个新的框架，旨在使用 TypeScript 创建跨平台桌面应用程序，类似于 Electron，但使用 Bun 和系统 webview，而不是 Node.js 和 Chromium。”</li>
-<li>“目前，Electrobun 仅适用于 macOS，未来计划支持 Windows 和 Linux，目前处于早期开发阶段，专注于稳定性。”</li>
-<li>“该框架承诺提供小型更新包和自定义远程过程调用(RPC)机制，以实现高效的进程间通信，尽管目前缺乏全面的文档和视觉示例。”</li>
-</ul>
-<h2><a href="https://www.php.net/releases/8.4/en.php">“PHP 8.4”</a></h2>
-<ul>
-<li>PHP 8.4.1 引入了重要更新，包括用于计算属性的属性钩子和用于属性访问控制的不对称可见性。- 增强功能包括支持 HTML5 的更新 DOM API、新的数组函数以及新的 JIT(即时编译)实现以提高性能。- 弃用的功能涉及未捆绑的扩展以及对某些常量和函数的更改，鼓励用户升级以获得更好的性能和语法。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42202670">反应</a></h3>
-<ul>
-<li>“PHP 8.4 引入了属性钩子，这一功能旨在简化获取器和设置器，与 C# 中的类似功能相比较。”</li>
-<li>“更新包括性能增强、改进的堆栈跟踪和新的数组函数，有助于 PHP 的持续发展。”</li>
-<li>“开发人员对这些变化意见不一，一些人担心增加的复杂性，而另一些人则欣赏减少样板代码和从类似Java的冗长转变。”</li>
-</ul>
-<h2><a href="https://abenezer.org/blog/hyrum-law-in-golang">“Golang 中的 Hyrum 定律”</a></h2>
-<ul>
-<li>“海勒姆定律以谷歌工程师海勒姆·赖特命名，表明随着API用户数量的增加，所有可观察的行为都会被某些人依赖，从而使更改变得有风险。”</li>
-<li>“在 Go 编程语言中，更改诸如“http: request body too large”之类的错误消息可能会破坏依赖于这些消息的现有代码，这说明了 Hyrum&#39;s Law。”</li>
-<li>“这个概念不仅限于 Go；在其他语言如 JavaScript 中也很明显，强调了设计系统以最小化意外依赖的重要性。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42201892">反应</a></h3>
-<ul>
-<li>“海勒姆定律表明，系统中任何可观察到的行为，即使是无意的，也可能成为用户的依赖，从而使更改可能具有破坏性。”</li>
-<li>“库作者应记录稳定的 API 部分，并考虑用户的依赖性，而使用者应谨慎依赖未记录的功能。”</li>
-<li>“讨论强调在技术改进与用户期望之间取得平衡，并指出在处理开源软件和企业软件的变化时存在差异。”</li>
-</ul>
-<h2><a href="https://github.com/gtls64/MontyHome-Hackers-Guide">“我们开源了我们的堆肥监测技术”</a></h2>
-<ul>
-<li>“Monty Compost Co.是一家初创公司，专注于通过开源技术提高家庭和工业用途的堆肥效率。该技术与Raspberry Pi和Arduino等平台集成，使用传感器监测气体、温度、湿度和气压，数据可导出为CSV文件。虽然最初设计用于堆肥监测，但该技术可适用于物联网(IoT)和环境监测应用。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42200099">反应</a></h3>
-<ul>
-<li>“蒙蒂堆肥公司已将其堆肥监测技术作为开源发布，允许在堆肥以外的各种应用中进行改编。”</li>
-<li>“该系统兼容树莓派和Arduino，配备用于气体成分、温度、湿度和气压的传感器，数据可导出为CSV文件。”</li>
-<li>“这项技术旨在优化堆肥，但也适用于物联网(IoT)和环境监测，鼓励用户进行实验和项目分享。”</li>
-</ul>
-<h2><a href="https://doomsdaymachines.net/p/the-meme-ification-of-the-demon-core">“‘恶魔核心’的表情包化”</a></h2>
-<ul>
-<li>“与两起致命核事故相关的“恶魔核心”已成为一种黑暗的网络迷因，常常与可爱的动漫角色意外地并置。自2019年以来，这种迷因的流行突显了一种小众兴趣，尽管被认为品味不佳，但已获得更广泛的认可。“恶魔核心”是二战期间计划使用的第三个钚核心，其日本起源为其迷因化增添了复杂性。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42200699">反应</a></h3>
-<ul>
-<li>“‘恶魔核心’的表情包源于对黑色幽默和涉及钚球的历史核事件的结合。”</li>
-<li>“这些表情包将核心的危险性质与幽默或荒谬的情境并置，引发了关于幽默是源于鲁莽的实验还是作为核历史的应对机制的辩论。”</li>
-<li>“这一现象说明了幽默如何能够从严肃的话题中产生，提供对人类行为和意外反应的见解。”</li>
-</ul>
-<h2><a href="https://thematrix1999.github.io/">“矩阵：具有实时交互的无限视界世界生成”</a></h2>
-<ul>
-<li>“矩阵项目正在开发一个实时、沉浸式的数字宇宙，具有高质量的视觉效果和帧级精度，灵感来源于电影的概念。”</li>
-<li>“它利用了像 Swin-DPM 这样的先进模型来生成无限长的视频，允许实时控制和探索动态环境。”</li>
-<li>“该项目计划开源其数据，以鼓励研究和创新，展示融合虚拟和现实世界场景的多样化场景。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42201117">反应</a></h3>
-<ul>
-<li>“讨论的重点是生成无限虚拟世界的潜力，灵感来自《黑客帝国：具有实时交互的无限视界世界生成》。”</li>
-<li>进行比较的游戏包括《我的世界》，该游戏利用程序生成来保持空间一致性，建议包括使用低分辨率的3D世界以提高效果。</li>
-<li>“人工智能在增强虚拟现实(VR)和混合现实体验中的作用得到了强调，同时也对当前技术的可用性和市场性表示担忧。”</li>
-</ul>
-<h2><a href="https://trailimap.com/">“几乎只遵循官方自行车道的自行车路线规划器”</a></h2>
-<ul>
-<li>“一个新的自行车旅游路线规划应用程序已经开发出来，专注于利用现有的自行车基础设施，并允许用户通过地图或官方小径探索路线。该应用程序目前覆盖欧洲，并使用OpenStreetMap数据进行最佳路线规划，未来计划扩展到北美和全球。从技术上讲，该应用程序使用Graphhopper进行路线查找，使用Next.js 14和Typescript构建，并使用.NET后端，地图瓦片来自MapTiler，尽管计划自我托管。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42197754">反应</a></h3>
-<ul>
-<li>“一个新的自行车路线规划应用程序已经开发出来，专注于官方自行车道的自行车旅行，目前在欧洲可用。该应用程序利用OpenStreetMap数据，并使用Graphhopper进行路线查找，网络应用程序是使用Next.js和.NET构建的。未来的扩展计划包括将应用程序的可用性扩展到北美和其他地区，并向开发人员开放反馈和合作的邀请。”</li>
-</ul>
-<h2><a href="https://www.reuters.com/business/aerospace-defense/boeing-overcharged-air-force-nearly-8000-soap-dispensers-watchdog-alleges-2024-10-29/">“波音公司向美国空军收取的肥皂分配器费用比市场价高出8000%。”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42201068">反应</a></h3>
-<ul>
-<li>“波音公司向美国空军收取了149,072美元的肥皂分配器费用，远高于市场价格，相当于每架222架C-17飞机收取671美元。”</li>
-<li>“成本膨胀归因于遵循军事规范和文档要求，这引发了关于采购流程效率的争论。”</li>
-<li>“这种情况突显了军事合同中潜在的低效率，并有人建议该系统可能偏袒波音等承包商。”</li>
-</ul>
-<h2><a href="https://blog.cloudflare.com/resilient-internet-connectivity-baltic-cable-cuts/">“欧洲的互联网韧性减轻了海底电缆切断的影响”</a></h2>
-<ul>
-<li>“最近波罗的海的电缆中断，特别是BCS东西互联和C-Lion1电缆，并未对欧洲的互联网连接造成重大干扰，因为基础设施具有弹性。”</li>
-<li>“欧洲强大的互联网基础设施，拥有多条海底和陆地连接，通过提供替代路线，确保此类事件的影响降至最低。”</li>
-<li>“Cloudflare Radar积极监测全球互联网连接，通过社交媒体和博客文章提供更新，强调冗余网络架构的重要性以防止中断。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42198635">反应</a></h3>
-<head>
-  <meta property="og:title" content="“国际刑事法院对内塔尼亚胡、加兰特和哈马斯官员发出逮捕令”" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9C%E5%9B%BD%E9%99%85%E5%88%91%E4%BA%8B%E6%B3%95%E9%99%A2%E5%AF%B9%E5%86%85%E5%A1%94%E5%B0%BC%E4%BA%9A%E8%83%A1%E3%80%81%E5%8A%A0%E5%85%B0%E7%89%B9%E5%92%8C%E5%93%88%E9%A9%AC%E6%96%AF%E5%AE%98%E5%91%98%E5%8F%91%E5%87%BA%E9%80%AE%E6%8D%95%E4%BB%A4%E2%80%9D&subheading=2024%E5%B9%B411%E6%9C%8821%E6%97%A5%E6%98%9F%E6%9C%9F%E5%9B%9B%3A%20%E9%BB%91%E5%AE%A2%E6%96%B0%E9%97%BB%E6%91%98%E8%A6%81" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/zh/Hans/2024/11/21</link>
-            <guid isPermaLink="false">2024-11-21T00:00:00.000Z</guid>
-            <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
