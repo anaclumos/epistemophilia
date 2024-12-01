@@ -1,0 +1,292 @@
+[
+  {
+    "id": 42240678,
+    "title": "Amazon S3, Eşleşirse Koy (Karşılaştır ve Değiştir) Özelliğini Ekliyor",
+    "originLink": "https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-s3-functionality-conditional-writes/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42240678",
+    "commentBody": "",
+    "originSummary": [
+      "Amazon S3, bir nesne değiştirilmeden kaldığı sürece güncellemeleri etkinleştiren koşullu yazma işlemlerini tanıtarak, nesnenin ETag'ini doğrulayarak eşzamanlı üzerine yazmaları önler.- HTTP if-none-match başlığına benzer bu özellik, istemcilerin yazmadan önce ETag tutarlılığını sağlamak için if-match başlığını kullanmasına olanak tanır ve dağıtılmış uygulamalar için verimliliği artırır.- Ekstra bir maliyet olmadan tüm AWS Bölgelerinde kullanılabilir, uygulama AWS SDK, API veya CLI kullanılarak yapılabilir ve daha fazla ayrıntı S3 Kullanıcı Kılavuzunda bulunabilir."
+    ],
+    "commentSummary": [
+      "Amazon S3, sürüm eşleşmesine dayalı koşullu nesne yazımına izin veren, karşılaştır ve değiştir işlemi gibi çalışan Put-If-Match adlı yeni bir özellik başlattı.- Bu özellik, senkronizasyon ve eşzamanlılık kontrolünü geliştirerek, geliştiricilerin S3 üzerinde ekstra altyapıya ihtiyaç duymadan veritabanları oluşturmak gibi daha karmaşık işlemler gerçekleştirmelerini sağlıyor.- Güncelleme, Amazon S3'ü Google Cloud Storage ve Azure Blob Storage gibi diğer bulut depolama hizmetleri tarafından sunulan benzer özelliklerle uyumlu hale getiriyor."
+    ],
+    "points": 468,
+    "commentCount": 145,
+    "retryCount": 0,
+    "time": 1732572691
+  },
+  {
+    "id": 42243500,
+    "title": "2022'de Golang kullanmaya devam etmek için kendimize söylediğimiz yalanlar",
+    "originLink": "https://fasterthanli.me/articles/lies-we-tell-ourselves-to-keep-using-golang",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42243500",
+    "commentBody": "",
+    "originSummary": [
+      "Makale, Golang'ı eleştiriyor ve asenkron çalışma zamanı ve çöp toplayıcı gibi çekici özelliklere sahip olmasına rağmen, toplam türlerin yokluğu ve yetersiz hata yönetimi gibi önemli dezavantajları olduğunu belirtiyor. Go'nun algılanan sadeliğinin aldatıcı olabileceğini, üretim ortamlarında gizli karmaşıklıklara ve zorluklara yol açabileceğini savunuyor ve bu sorunları tanımanın, Go'yu yalnızca kullanım kolaylığı için benimsemekten daha önemli olduğunu vurguluyor. Makale, Go'yu Rust ile karşılaştırarak, Rust'ın zorluklarına rağmen karmaşıklığı yönetmek ve kod doğruluğunu sağlamak için daha sağlam çözümler sunduğunu öne sürüyor."
+    ],
+    "commentSummary": [
+      "Makale, Go'nun hata yönetimini eleştiriyor ve bazıları tarafından daha zarif bulunan Rust'ın daha sofistike yaklaşımıyla karşılaştırıyor.",
+      "Fikir ayrılığı var: Bazıları Go'nun sadeliğini ve açık hata yönetimini takdir ederken, diğerleri bunu sıkıcı ve hataya açık buluyor.",
+      "Eleştirilere rağmen, Go, sadeliği ve büyük şirketler tarafından yaygın olarak benimsenmesi nedeniyle popülerliğini koruyor."
+    ],
+    "points": 281,
+    "commentCount": 366,
+    "retryCount": 0,
+    "time": 1732608093
+  },
+  {
+    "id": 42242971,
+    "title": "Cybertruck'ın Birçok Geri Çağrılması",
+    "originLink": "https://www.wired.com/story/cybertrucks-many-recalls-make-it-worse-than-91-percent-of-all-2024-vehicles/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42242971",
+    "commentBody": "",
+    "originSummary": [
+      "Tesla Cybertruck, piyasaya sürülmesinden bu yana birçok geri çağırma yaşadı ve en sonuncusu, 2.400'den fazla birimi etkileyen hatalı sürücü invertörleri ile ilgili olup, güvenilirliği konusunda endişeleri artırdı.",
+      "Kalite sorunlarına rağmen, Cybertruck'ın benzersiz tasarımı alıcıları çekmeye devam ediyor, ancak Avrupa güvenlik standartlarını karşılayamaması pazar erişimini sınırlıyor.",
+      "Bu geri çağırmalar, düzenleyici etkinliği gösterirken, Elon Musk'ın ABD düzenlemeleri üzerindeki önemli etkisi göz önüne alındığında, Tesla'nın marka itibarına zarar verebilir."
+    ],
+    "commentSummary": [],
+    "points": 267,
+    "commentCount": 393,
+    "retryCount": 0,
+    "time": 1732601537
+  },
+  {
+    "id": 42243746,
+    "title": "Veriler, Y Combinator'un sıklıkla diğer YC şirketlerini kopyalayan girişimleri desteklediğini gösteriyor.",
+    "originLink": "https://techcrunch.com/2024/11/22/y-combinator-often-backs-startups-that-duplicate-other-yc-companies-data-shows-its-not-just-ai-code-editors/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42243746",
+    "commentBody": "",
+    "originSummary": [
+      "Y Combinator (YC), önde gelen bir girişim hızlandırıcısı, Airbnb ve Stripe gibi başarılı şirketleri başlatmasıyla tanınır, ancak birçok girişimi, önceki YC şirketlerine benzer veya aynı ürünler geliştirir.",
+      "PearAI tartışması, PearAI'nin başka bir YC ürününü kopyalamakla suçlandığı bu eğilimi vurguladı, ancak YC CEO'su Garry Tan, seçimin ve yeniliğin önemini belirterek bu uygulamayı savundu.",
+      "Deckmatch'in YC trendleri analizi, popüler girişim kategorilerinin AI kod editörleri, restoran PoS sistemleri ve iş finans araçlarını içerdiğini, kripto ticareti gibi bazı alanlarda ise ilginin azaldığını gösteriyor."
+    ],
+    "commentSummary": [
+      "Y Combinator, genellikle diğer YC destekli şirketleri taklit eden girişimlere yatırım yapar ve benzersiz fikirlerden ziyade kurucuların potansiyelini önceliklendirir. - Bu strateji, benzer konseptler üzerine bahisleri koruma yöntemi olarak görülür, çünkü başarı genellikle fikrin özgünlüğünden ziyade uygulama ve zamanlamaya bağlıdır. - Bazıları bunu potansiyel bir çıkar çatışması olarak görse de, aynı sektördeki birden fazla şirketi finanse etmek, pazarları doğrulamak ve başarı olasılığını artırmak için yaygın bir girişim sermayesi uygulamasıdır."
+    ],
+    "points": 240,
+    "commentCount": 133,
+    "retryCount": 0,
+    "time": 1732611000
+  },
+  {
+    "id": 42241851,
+    "title": "Fly.io kesintisi – çözüldü",
+    "originLink": "https://status.flyio.net",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42241851",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Fly.io geçici bir kesinti yaşadı ve bu sorun çözüldü, ancak geçmişteki olaylar nedeniyle platformun güvenilirliği hakkında kullanıcı endişeleri arttı.- Kullanıcılar, Fly.io'yu Railway ve Cloudflare gibi alternatiflerle karşılaştırarak güvenilirlik, özellikler ve kullanıcı deneyimleri açısından farklılıkları vurguladı.- Zorluklara rağmen, bazı kullanıcılar Fly.io'yu kullanım kolaylığı ve rekabetçi fiyatlandırması nedeniyle değerli bulurken, tartışmalar yüksek erişilebilirlik ve bağımlılıkların izlenmesinin önemini vurguladı."
+    ],
+    "points": 227,
+    "commentCount": 217,
+    "retryCount": 0,
+    "time": 1732585645
+  },
+  {
+    "id": 42239721,
+    "title": "Automotiv Lidar Teknolojisine Kısa Bir Giriş",
+    "originLink": "https://www.viksnewsletter.com/p/short-intro-to-automotive-lidar",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239721",
+    "commentBody": "",
+    "originSummary": [
+      "Vik'in Bülteni, otomotiv lidar teknolojisine derinlemesine bakış sunuyor; bu teknoloji, kızılötesi lazerler kullanarak yüksek çözünürlüklü görüntüler üretebilme yeteneği sayesinde otonom araçlar için hayati önem taşıyor. Bülten, lidarın çalışma prensiplerini, dalga boyu seçimlerini, fotodedektörleri ve Uçuş Süresi ile Frekans Modüleli Sürekli Dalga gibi mesafe ölçüm tekniklerini tartışıyor. Ayrıca, maliyetleri düşürmek ve otonom araçlarda daha geniş bir benimseme için teknolojiyi geliştirme amacıyla mekanik ve katı hal seçenekleri gibi çeşitli lidar sistemlerini inceliyor."
+    ],
+    "commentSummary": [
+      "Otomotiv lidar teknolojisi gelişiyor, Velodyne gibi döner tarayıcılar yüksek maliyetlerine rağmen kullanılırken, flash lidar ve MEMS aynalar gibi alternatifler pazar ve teknik zorluklarla karşı karşıya kalıyor.",
+      "Waymo'nun, savunmasız araç köşelerinde bile döner lidarları kullanmaya devam etmesi, daha uygun maliyetli ve entegre çözümlere olan ihtiyacı vurguluyor, çünkü darbeli lidar, sürekli sistemlere kıyasla daha az parazit sunuyor.",
+      "Lidar, yüksek çözünürlüklü görüntüleme sağlar ve düşük ışık koşullarında iyi performans gösterir, ancak bazı şirketlerin, örneğin Tesla'nın, maliyet nedenleriyle tercih ettiği kamera tabanlı sistemlerden rekabetle karşı karşıyadır ve bu durum, otonom sürüş için en iyi yaklaşım konusunda devam eden tartışmaları körüklemektedir."
+    ],
+    "points": 219,
+    "commentCount": 157,
+    "retryCount": 0,
+    "time": 1732565547
+  },
+  {
+    "id": 42239952,
+    "title": "REAL-ID kurallarını okumak için kimliğe ihtiyacınız var mı?",
+    "originLink": "https://papersplease.org/wp/2024/11/25/do-you-need-id-to-read-the-real-id-rules/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239952",
+    "commentBody": "",
+    "originSummary": [
+      "TSA'nın yeni dijital kimlik kurallarına erişim girişimi, kuralların kamuya açık olmaması ve erişim için kimlik gerektirmesi nedeniyle, gizli yasalar ve adil yargılanma süreci hakkında endişeler uyandırarak, REAL-ID Yasası ile ilgili sorunları ortaya çıkardı.",
+      "TSA'nın dijital kimlik standartları, özel belgelerden türetilmiş olup, uygulamalar, cihazlar ve devlet kurumları arasında karmaşık etkileşimleri içerir ve kaydedilen kimlik kullanımıyla ilgili gizlilik endişeleri bulunmaktadır.",
+      "Yazar, TSA'nın uygulamalarının kamu erişim haklarını ihlal ettiğini savunuyor ve kuralın geri çekilmesi için Federal Kayıt Ofisi'ne konuyu bildirdiğini belirtiyor."
+    ],
+    "commentSummary": [
+      "Bu tartışma, REAL-ID kurallarına erişim için kimlik bulundurmanın gerekliliği etrafında dönüyor ve bazı kullanıcılar TSA'nın güvenlik önlemlerinin etkinliğini sorguluyor.- Mobil sürücü belgeleri (mDL'ler) ve bunların ortaya çıkarabileceği gizlilik sorunları hakkında endişeler dile getiriliyor.- Kullanıcılar, TSA'nın etkinliği ve güvenlik tiyatrosu kavramı hakkında şüphelerini ifade ederken, REAL-ID ve mDL'ler gibi dijital kimliklerin uzun vadeli etkilerini de sorguluyorlar."
+    ],
+    "points": 212,
+    "commentCount": 82,
+    "retryCount": 0,
+    "time": 1732567234
+  },
+  {
+    "id": 42244814,
+    "title": "J. Kenji Lopez-Alt'ın (2021) Soğan Problemi için bir çözüm",
+    "originLink": "https://medium.com/@drspoulsen/a-solution-to-the-onion-problem-of-j-kenji-l%C3%B3pez-alt-c3c4ab22e67c",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42244814",
+    "commentBody": "",
+    "originSummary": [
+      "Yazı, soğan dilimlerinin hacimlerinde minimal varyansı sağlamak için soğanları kesmeyi içeren \"Soğan Problemi\"ni ele alıyor.- Kalkülüs kullanılarak yapılan matematiksel bir keşif, optimal kesme noktasının soğanın merkezinin %55.73066 altında olduğunu belirledi ve bu, \"gerçek soğan sabiti\" olarak adlandırıldı.- Bu bulgu, daha önce önerilen merkezin %60 altına doğru kesme önerisini rafine ederek, daha eşit soğan dilimleri için daha kesin bir yöntem sunuyor."
+    ],
+    "commentSummary": [
+      "Bu tartışma, J. Kenji Lopez-Alt'tan esinlenerek, soğanları eşit şekilde kesmek için bir matematiksel modeli inceliyor. Model, geometriyi basitleştirmek ve dilim boyutu varyansını en aza indirmek için yarım disk temsili kullanıyor. Kullanıcılar, soğanın 3D yapısı ve düzensiz katmanlarını göz önünde bulundurarak modelin pratikliği ve doğruluğunu tartışıyor ve alternatif kesme yöntemleri veya araçlar öneriyor. Konuşma ayrıca, Adam Ragusea gibi yemek kişiliklerine atıfta bulunarak, tekdüzelik ve mutfak tercihleri arasındaki dengeyi de ele alıyor."
+    ],
+    "points": 177,
+    "commentCount": 67,
+    "retryCount": 0,
+    "time": 1732621091
+  },
+  {
+    "id": 42239607,
+    "title": "Redis, tüm OSS Redis kütüphanelerini ele geçirmeye çalışıyor.",
+    "originLink": "https://twitter.com/TomHacohen/status/1861137484249252093",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239607",
+    "commentBody": "",
+    "originSummary": [
+      "Redis'in, Jedis, Lettuce ve redis-py gibi popüler olanlar da dahil olmak üzere tüm açık kaynaklı yazılım (OSS) Redis kütüphanelerinin kontrolünü ele geçirdiği bildiriliyor.",
+      "Bu kütüphaneler şu anda kapalı ve başka bir kütüphane olan redis-rs de potansiyel kontrol veya kapatma ile karşı karşıya.",
+      "Bu durum, uygulamalarında Redis entegrasyonu için bu kütüphanelere güvenen geliştiricileri etkilediği için önemlidir."
+    ],
+    "commentSummary": [
+      "Redis Inc., açık kaynaklı Redis kütüphanelerinin kontrolünü ele alıyor, bu da tartışmalara yol açıyor ve bazı geliştiricilerin ticari marka uygulama sorunları nedeniyle Redis bağımlılıklarını kaldırmasına neden oluyor.",
+      "redis-py, Lettuce ve Jedis gibi kütüphaneler, Valkey gibi rakiplere karşı savunma stratejisi olarak Redis Inc.'in resmi organizasyonu altına taşındı.",
+      "Topluluk, ticari marka iddiaları ve potansiyel satıcı kilitlenmesi konusunda endişeli, bu da Valkey ve Kvrocks gibi alternatifler üzerine tartışmalara yol açıyor ve açık kaynak projelerinde ticari marka uygulama zorluklarını vurguluyor."
+    ],
+    "points": 150,
+    "commentCount": 81,
+    "retryCount": 0,
+    "time": 1732564808
+  },
+  {
+    "id": 42243755,
+    "title": "Setelinleikkaus: Finliler enflasyonu dizginlemek için paralarını ikiye böldüklerinde",
+    "originLink": "http://jpkoning.blogspot.com/2024/11/setelinleikkaus-when-finns-snipped.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42243755",
+    "commentBody": "",
+    "originSummary": [
+      "1945 yılında Finlandiya, II. Dünya Savaşı sonrası enflasyonla mücadele etmek için vatandaşların büyük banknotları yarıya kesmelerini gerektiren \"setelinleikkaus\" adlı bir politika uyguladı; banknotun bir yarısı değerini korurken, diğer yarısı devlet tahvili haline geliyordu. Bu politika, Belçika gibi diğer Avrupa ülkelerindeki daha başarılı reformların aksine, para arzının küçük bir kısmını oluşturan fiziksel nakdi hedef aldığı için etkisizdi. Makale, gelecekte enflasyon kontrolünün daha hassas ancak potansiyel olarak tartışmalı bir yöntem olan dijital hesap dondurmalarını içerebileceğini öne sürüyor."
+    ],
+    "commentSummary": [
+      "1945'te Finlandiya, enflasyonu modern yöntemler olan faiz oranlarını ayarlamak yerine, banknotları fiziksel olarak ikiye keserek benzersiz bir şekilde ele aldı.",
+      "Bu tarihsel yaklaşım, merkez bankalarının faiz oranları ve açık piyasa işlemleri yoluyla enflasyonu yönettiği mevcut para politikası üzerine tartışmaları ateşledi.",
+      "Merkezi banka dijital para birimleri aracılığıyla dijital paranın gelecekteki potansiyel kontrolü, kişisel finanslar üzerinde artan hükümet denetimi hakkında endişeler uyandırıyor."
+    ],
+    "points": 145,
+    "commentCount": 131,
+    "retryCount": 0,
+    "time": 1732611120
+  },
+  {
+    "id": 42239487,
+    "title": "Namaz, Yerleştirme ve Bağışlanma: Peter Hristoff'un İslami Namaz Halıları Üzerine (2015)",
+    "originLink": "https://www.metmuseum.org/perspectives/peter-hristoff-islamic-prayer-rugs",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239487",
+    "commentBody": "",
+    "originSummary": [
+      "Peter Hristoff'un sanatı, özellikle 1997'den itibaren dua halıları aracılığıyla sanat ve maneviyatın kesişimine dalıyor. Çizimler ve serigrafi baskılar da dahil olmak üzere eserleri, Türk halıları ve kilimlerinden ilham alarak pirinç kağıdı üzerine daha büyük \"halı\" parçalarına dönüşüyor ve bunları sembolik anlamlarla kişisel günlükler olarak görüyor. Hristoff'un çalışmaları, Patrik Bartholomeos'un yazılarından etkilenen ve insan doğasının manevi ve fiziksel yönlerini keşfetmeye devam eden, neşe ve kederin bir karışımı olan \"parlak hüzün\"ü somutlaştırıyor."
+    ],
+    "commentSummary": [
+      "Peter Hristoff'un makalesi, İslami namaz halılarının önemini araştırıyor ve Tanrı'nın sonsuzluğunu simgeleyen mozaik desenler gibi karmaşık tasarımlarını vurguluyor. Makale, İslam'da temsilî sanat yasağını ele alarak, İslami eserlerde hat sanatı ve geometrik desenlerin kullanımına yol açtığını tartışıyor. Namaz halılarının tarihî ve kültürel bağlamını vurguluyor, Hristiyanlık da dahil olmak üzere çeşitli dini geleneklerdeki kullanımını ve pratik ile manevi rollerini belirtiyor."
+    ],
+    "points": 123,
+    "commentCount": 61,
+    "retryCount": 0,
+    "time": 1732563945
+  },
+  {
+    "id": 42239263,
+    "title": "Metin: Deno vs. Oracle: JavaScript Ticari Markasının İptali",
+    "originLink": "https://deno.com/blog/deno-v-oracle",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239263",
+    "commentBody": "",
+    "originSummary": [
+      "Deno, \"JavaScript\" üzerindeki Oracle ticari markasını iptal ettirmek amacıyla Amerika Birleşik Devletleri Patent ve Ticari Marka Ofisi'ne (USPTO) bir dilekçe verdi ve bu terimi kamu malı haline getirerek kullanımındaki yasal engelleri kaldırmayı hedefliyor.",
+      "Başvuru, \"JavaScript\"in genel bir terim olduğunu, Oracle'ın ticari markayı yenilerken sahtekarlık yaptığını ve Oracle'ın ticari markayı kullanmama yoluyla terk ettiğini savunuyor.",
+      "14.000'den fazla geliştirici Deno'nun hamlesini destekliyor ve Oracle'ın yanıt vermesi için 4 Ocak 2025'e kadar süresi var, Deno ise tüm süreçleri toplulukla paylaşmaya hazır."
+    ],
+    "commentSummary": [
+      "Deno, Oracle'ın JavaScript üzerindeki ticari markasını iptal ettirmek için Amerika Birleşik Devletleri Patent ve Ticari Marka Ofisi'ne (USPTO) bir dilekçe verdi ve bu durum ticari marka etiği ve topluluk yararları üzerine bir tartışma başlattı.",
+      "Deno'nun Node Package Manager (NPM) ile uyumluluğu ve bunun daha geniş JavaScript ekosistemi üzerindeki etkisi hakkındaki tartışma, JavaScript'in geleceği ve çalışma zamanı ortamları konusundaki farklı görüşleri yansıtıyor.",
+      "Fikirler bölünmüş durumda, bazıları Oracle'ın ticari marka kullanımını etik dışı olarak görürken, diğerleri Deno'nun niyetlerini sorguluyor ve bunun bir halkla ilişkiler stratejisi olabileceğini öne sürüyor."
+    ],
+    "points": 120,
+    "commentCount": 23,
+    "retryCount": 0,
+    "time": 1732562433
+  },
+  {
+    "id": 42244987,
+    "title": "Jekyll için SQLite Eklentisi",
+    "originLink": "https://github.com/captn3m0/jekyll-sqlite",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42244987",
+    "commentBody": "",
+    "originSummary": [
+      "Yazar, popüler bir statik site oluşturucu olan Jekyll içinde veri işleme yeteneklerini geliştirmek için bir Jekyll SQLite eklentisi geliştirmiştir.",
+      "Bu eklenti, kullanıcıların karmaşık veri işlemlerini yönetmede Liquid, Jekyll'in şablon dili, sınırlamalarını ele alarak veri düzenleme için SQL sorguları gerçekleştirmesine olanak tanır.",
+      "Plugin, bir yıldır üretimde başarıyla kullanılmış, Northwind veri kümesi ile gösterilmiştir ve yazar, geri bildirim ve iyileştirme önerileri beklemektedir."
+    ],
+    "commentSummary": [
+      "Bir Jekyll SQLite eklentisi, Jekyll'de veri kaynağı olarak SQLite kullanımını mümkün kılarak SQL ile veri işleme yeteneklerini artırır.- Jekyll'in Veri Dosyaları ve Veri Sayfaları oluşturucu özelliklerini entegre eder, geleneksel CSV/JSON/YAML formatlarının ötesinde karmaşık veri işlemesine olanak tanır.- Eklenti bir yıldır üretimde olup, statik site oluşturmayı daha dinamik ve esnek hale getirdiği için olumlu geri bildirimler almıştır."
+    ],
+    "points": 119,
+    "commentCount": 35,
+    "retryCount": 0,
+    "time": 1732623091
+  },
+  {
+    "id": 42241702,
+    "title": "Saçın Erken Beyazlaması: Güncellemelerle Birlikte İnceleme",
+    "originLink": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6290285/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42241702",
+    "commentBody": "",
+    "originSummary": [
+      "Saçların erken beyazlaması (PGH), Kafkasyalılarda 20 yaşından önce ve Afrikalı Amerikalılarda 30 yaşından önce beyazlama olarak tanımlanır ve özsaygıyı etkiler. PGH'nin nedenleri tam olarak anlaşılamamıştır ancak yaşlanma bozuklukları, otoimmün hastalıklar ve oksidatif stres ile ilişkilidir; sigara içme ve beslenme eksiklikleri gibi faktörler katkıda bulunur. PGH için yaygın tedaviler arasında saç boyaları ve besin takviyeleri bulunur; çalışmalar PGH ile duygusal faktörler, genetik yatkınlıklar ve çevresel etkiler arasında bağlantılar olduğunu göstermektedir."
+    ],
+    "commentSummary": [
+      "Saçların erken beyazlaması, özellikle vücudun B12'yi düzgün bir şekilde ememediği bir durum olan pernisiyöz anemisi olan bireylerde, B12 vitamini eksikliği ile ilişkilidir. B12 eksikliğini teşhis etmek zor olabilir çünkü takviye almak B12 seviyelerini yapay olarak artırabilir ve bazı bireyler B12'nin belirli formlarını aktif formlara dönüştüremez, bu da \"paradoksal B12 eksikliği\"ne yol açar. Stres, genetik ve otoimmün tiroidizm gibi sağlık durumları da beyazlamaya katkıda bulunur ve bazı takviyeler yardımcı olabilirken, beyaz saçları tersine çevirmenin kanıtlanmış bir yöntemi yoktur."
+    ],
+    "points": 110,
+    "commentCount": 98,
+    "retryCount": 0,
+    "time": 1732583700
+  },
+  {
+    "id": 42245170,
+    "title": "LLVM destekli sanallaştırma kaldırma",
+    "originLink": "https://blog.thalium.re/posts/llvm-powered-devirtualization/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42245170",
+    "commentBody": "",
+    "originSummary": [
+      "Thalium'daki staj, özellikle kötü amaçlı yazılımlar bağlamında kodu daha anlaşılır hale getirmek için bir derleyici çerçevesi olan LLVM kullanarak sanallaştırılmış ikili dosyaların gizliliğini kaldırmaya odaklandı. - Tigress ve VMProtect gibi araçlar tarafından kullanılan güçlü bir gizleme tekniği olan sanallaştırma, programları sanal talimatlara kodlayarak tersine mühendisliği karmaşık hale getirir. - Proje, dinamik leke analizi kullanarak Tigress ile gizlenmiş ikili dosyaların kontrol akış grafiğini yeniden yapılandırmada başarılı oldu, ancak bu yalnızca saf fonksiyonlar ve tek yürütme yolları ile sınırlıydı."
+    ],
+    "commentSummary": [
+      "LLVM destekli sanallaştırma, sanal işlev çağrılarını optimize ederek performansı artırır, çünkü bu çağrılar genellikle dinamik yapıları nedeniyle daha yavaştır.",
+      "Bochs, bir CPU emülatörü, sanal makine dedektörlerini bile atlayarak bir i7 üzerinde bir Pentium 4 işlemciyi verimli bir şekilde emüle edebilir.",
+      "Bochs hata ayıklayıcı, kötü amaçlı yazılımları ve kod karıştırıcıları analiz etmede ve bunlara karşı koymada özellikle etkilidir, bu da onu güvenlik araştırmaları için değerli bir araç haline getirir."
+    ],
+    "points": 107,
+    "commentCount": 1,
+    "retryCount": 0,
+    "time": 1732624714
+  }
+]

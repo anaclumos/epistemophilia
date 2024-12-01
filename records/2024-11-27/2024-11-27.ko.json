@@ -1,0 +1,294 @@
+[
+  {
+    "id": 42254156,
+    "title": "휴대전화를 잠금 해제할 때마다 '왜?'라고 묻는 앱",
+    "originLink": "https://play.google.com/store/apps/details?id=com.actureunlock&hl=en_US",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42254156",
+    "commentBody": "",
+    "originSummary": [
+      "Intenty는 사용자가 기기를 잠금 해제할 때 인식 프롬프트를 통해 더 건강한 전화 습관을 개발하도록 장려하는 앱입니다. 이 앱은 광고나 추적 없이 완전히 로컬에서 작동하여 개인 정보를 강조하며, 데이터 수집 없이 기능을 위해서만 Android 권한을 사용합니다. 미니멀리스트 디자인과 스마트한 맞춤 설정을 갖춘 Intenty는 4.4점의 평점과 10,000회 이상의 다운로드를 기록하며 무의미한 전화 사용을 줄이려는 사용자에게 매력적입니다."
+    ],
+    "commentSummary": [
+      "사용자가 휴대전화를 잠금 해제할 때 \"왜?\"라는 질문을 던지는 앱이 주의를 분산시키는 것을 줄일 수 있는 잠재력으로 인해 Hacker News에서 주목을 받고 있습니다.",
+      "사용자들은 이 앱이 유용하다고 생각하지만, 때때로 빠른 작업에는 불편하다고 느끼며, 프롬프트를 무작위로 변경하거나 앱별 우회를 허용하는 등의 개선 제안을 하고 있습니다.",
+      "개발자는 구독 모델 대신 일회성 구매 옵션을 포함하여 업데이트를 위한 사용자 피드백을 고려하고 있습니다."
+    ],
+    "points": 512,
+    "commentCount": 273,
+    "retryCount": 0,
+    "time": 1732696475
+  },
+  {
+    "id": 42253119,
+    "title": "애플이 공장에서 잘못 납땜한 커패시터",
+    "originLink": "https://www.downtowndougbrown.com/2024/11/the-capacitor-that-apple-soldered-incorrectly-at-the-factory/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42253119",
+    "commentBody": "",
+    "originSummary": [
+      "Doug Brown은 애플의 매킨토시 LC III에서 제조 오류를 강조하며, 이로 인해 커패시터가 거꾸로 설치되어 문제가 발생할 가능성이 있다고 지적합니다.",
+      "1993년부터 1994년까지 교육 시장을 위해 생산된 매킨토시 LC III는 이 오류에도 불구하고 대규모 리콜을 겪지 않았습니다.",
+      "Brown은 특히 현대의 탄탈륨 커패시터를 교체할 때 주의를 기울일 것을 권장하며, PCB의 실크스크린 지침과는 반대로 올바르게 설치할 것을 추천합니다."
+    ],
+    "commentSummary": [
+      "애플은 34년 된 컴퓨터에 실수로 커패시터를 거꾸로 설치하여, 특히 극성이 있는 전해 커패시터의 경우 올바른 방향으로 설치하는 것이 중요하다는 점을 강조했습니다. 잘못 설치되면 고장 날 수 있습니다.",
+      "이 사건은 제품의 수명과 계획된 노후화에 대한 논의를 촉발했으며, 일부는 현대 전자 제품이 판매를 촉진하기 위해 의도적으로 수명이 짧게 설계되었다고 제안하고 있습니다.",
+      "이 상황은 Commodore와 같은 다른 회사들의 과거 제조 오류를 연상시키며, 이는 기술 산업에서 반복되는 문제를 나타냅니다."
+    ],
+    "points": 384,
+    "commentCount": 152,
+    "retryCount": 0,
+    "time": 1732684208
+  },
+  {
+    "id": 42252336,
+    "title": "나는 쿠버네티스가 필요하지 않았고, 아마 당신도 필요하지 않을 것입니다",
+    "originLink": "https://benhouston3d.com/blog/why-i-left-kubernetes-for-google-cloud-run",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42252336",
+    "commentBody": "",
+    "originSummary": [
+      "저자는 Kubernetes의 복잡성, 비용, 느린 자동 확장성을 단점으로 언급하며 Kubernetes에서 Google Cloud Run으로 전환했습니다. Google Cloud Run은 실제 CPU 및 메모리 사용량에 대해서만 요금을 부과하고 Kubernetes의 관리 부담 없이 빠른 확장을 제공하는 더 간단하고 비용 효율적인 대안으로 강조됩니다. 저자는 지속적 통합/지속적 배포(CI/CD)를 위해 GitHub Actions, 관리형 데이터베이스, pub-sub 메시징을 사용하며, Cloud Run이 Kubernetes의 광범위한 기능보다 단순성과 효율성을 필요로 하는 프로젝트에 적합하다고 강조합니다."
+    ],
+    "commentSummary": [
+      "이 기사는 Kubernetes가 지나치게 복잡하고 종종 더 작은 프로젝트에는 불필요하다고 비판하며, 단일 가상 머신(VM)이나 서버와 같은 더 간단한 솔루션이 더 효율적일 수 있다고 제안합니다.",
+      "이는 다양한 애드온으로 인한 추가적인 복잡성과 일부 엔지니어들이 시스템을 복잡하게 만드는 경향을 포함하여 쿠버네티스를 관리하는 데 있어 직면하는 도전 과제를 강조합니다.",
+      "합의된 의견은 Kubernetes가 가치가 있지만, 단순함이 더 유익할 수 있는 소규모 운영에서는 항상 최선의 선택은 아니라는 것입니다."
+    ],
+    "points": 321,
+    "commentCount": 376,
+    "retryCount": 0,
+    "time": 1732674379
+  },
+  {
+    "id": 42251799,
+    "title": "스노우플레이크 협박 사건의 해커는 미국 군인일 수 있다",
+    "originLink": "https://krebsonsecurity.com/2024/11/hacker-in-snowflake-extortions-may-be-a-u-s-soldier/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42251799",
+    "commentBody": "",
+    "originSummary": [
+      "두 명이 스노우플레이크를 사용하는 회사들로부터의 데이터 절도로 체포되었으며, \"Kiberphant0m\"으로 알려진 세 번째 용의자는 아직 잡히지 않았고 한국에 주둔 중인 미군 병사로 추정됩니다.",
+      "이 그룹은 도난당한 데이터를 판매하고 기업을 협박하는 데 관여했으며, AT&T는 도난당한 기록을 삭제하기 위해 37만 달러를 지불한 것으로 전해졌습니다.",
+      "캐나다 당국은 알렉산더 무카를 체포했으며, 존 에린 빈스는 터키에서 수감 중인데, 이들은 모두 침해 사건과 관련이 있으며, Kiberphant0m은 여전히 사이버 범죄 포럼에서 활동 중입니다."
+    ],
+    "commentSummary": [
+      "Snowflake를 협박하는 데 관여한 해커 Kiberphant0m이 조사 중이며, 미국 군대와의 연관 가능성에 대한 추측이 제기되고 있습니다.",
+      "키버팬텀0m은 군사적 연관성을 부인하며 이는 기만 전술이라고 주장하지만, 분석가들은 이것이 조사관들을 오도하는 데 효과적일 것이라고 의심합니다.",
+      "해커의 부주의한 행동, 예를 들어 군복을 입고 사진을 게시하는 것과 같은 행동은 작전 보안을 유지하고 디지털 흔적을 피하는 데 있어 어려움을 강조합니다."
+    ],
+    "points": 308,
+    "commentCount": 167,
+    "retryCount": 0,
+    "time": 1732668796
+  },
+  {
+    "id": 42249746,
+    "title": "ZetaOffice: 브라우저에서 사용하는 LibreOffice",
+    "originLink": "https://zetaoffice.net/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42249746",
+    "commentBody": "",
+    "originSummary": [
+      "ZetaOffice Web은 웹 브라우저에 LibreOffice를 도입하여, 셀프 호스팅 또는 데이터 제어를 위한 콘텐츠 전송 네트워크(CDN) 사용 옵션과 함께 모든 기기에서 접근할 수 있도록 합니다. 이 제품군은 워드 프로세싱, 스프레드시트 및 프레젠테이션을 위한 Writer, Calc, Impress를 포함하며, Linux와 Windows에서 웹 및 데스크톱 모두 사용할 수 있어 문서 호환성을 보장합니다. ZetaOffice는 CDN 사용 및 지원을 위한 유료 옵션과 함께 오픈 소스 소프트웨어를 제공하며, LibreOffice UNO API를 통해 기존 시스템과 통합되어 현대 브라우저에서 효율적으로 작동합니다."
+    ],
+    "commentSummary": [
+      "ZetaOffice는 LibreOffice의 브라우저 기반 버전으로, 성능 및 사용성 문제, 특히 입력 및 텍스트 렌더링의 문제로 비판을 받고 있습니다.",
+      "웹 기반 오피스 제품군에서 문서 레이아웃을 렌더링할 때 캔버스를 사용하는 것이 더 나은지 아니면 DOM(문서 객체 모델)을 타겟팅하는 것이 더 나은지에 대한 논쟁이 계속되고 있습니다.",
+      "ZetaOffice는 도전 과제에도 불구하고 일관된 크로스 플랫폼 경험을 제공하는 것을 목표로 하며, 네이티브 데스크톱 애플리케이션으로도 제공됩니다."
+    ],
+    "points": 262,
+    "commentCount": 114,
+    "retryCount": 0,
+    "time": 1732653144
+  },
+  {
+    "id": 42249790,
+    "title": "D-Link는 60,000개의 구형 모뎀에 대한 패치를 제공하지 않을 것이라고 말했습니다.",
+    "originLink": "https://www.techradar.com/pro/security/d-link-says-it-wont-patch-60-000-older-modems-as-theyre-not-worth-saving",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42249790",
+    "commentBody": "",
+    "originSummary": [
+      "D-Link는 수명이 다한 60,000개의 구형 모뎀에 대해 보안 패치를 제공하지 않을 것이라고 발표하며, 사용자들에게 최신 모델로 업그레이드할 것을 권장했습니다.",
+      "패치되지 않은 보안 취약점은 해커가 이러한 장치를 제어할 수 있게 하여 상당한 위험을 초래할 수 있습니다.",
+      "영향을 받은 모뎀 대부분은 대만에 위치해 있으며, 업그레이드할 수 없는 사용자에게 D-Link는 원격 액세스를 제한하고 예방 조치로 안전한 비밀번호를 사용할 것을 권장합니다."
+    ],
+    "commentSummary": [
+      "D-Link는 60,000개의 구형 모뎀의 취약점을 패치하지 않기로 결정하여 보안 위험에 노출시키고 있으며, 이는 기기 보안과 제조업체의 책임에 대한 우려를 불러일으키고 있습니다.",
+      "이 발표는 장기적인 지원의 중요성과 장치 보안을 유지하기 위한 OpenWRT와 같은 오픈 소스 솔루션의 잠재적 이점에 대한 논의를 촉발했습니다.",
+      "제조업체가 보안 업데이트를 제공하거나 장치가 수명 종료에 도달했을 때 펌웨어를 대중에게 공개하도록 요구하는 법적 의무에 대한 제안이 있으며, 이는 더 넓은 산업 문제를 강조합니다."
+    ],
+    "points": 241,
+    "commentCount": 153,
+    "retryCount": 0,
+    "time": 1732653377
+  },
+  {
+    "id": 42251656,
+    "title": "마샬 브레인은 NC 주립대에서 보복을 주장한 후 몇 시간 만에 사망했다",
+    "originLink": "https://www.technicianonline.com/news/popular-nc-state-professor-marshall-brain-dies-alleges-retaliation-for-ethics-complaints/article_152e5c80-ac2e-11ef-8b3f-036ac3c8d9bf.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42251656",
+    "commentBody": "",
+    "originSummary": [
+      "노스캐롤라이나 주립대 교수이자 HowStuffWorks.com의 창립자인 마샬 브레인이 대학 관계자들의 보복을 주장한 후 11월 20일 그의 사무실에서 사망한 채 발견되었습니다.",
+      "브레인은 윤리적 불만으로 인해 강제로 은퇴했다고 주장했지만, 대학 측은 이러한 주장이나 그의 사망에 대해 언급하지 않았다.",
+      "전 학생들과 동료들은 대학의 침묵에 실망을 표하며, 이 이야기가 계속해서 발전하고 있음을 강조했습니다."
+    ],
+    "commentSummary": [
+      "NC 주립대의 전직 교수인 마샬 브레인은 자신의 윤리적 불만으로 인해 대학 행정가들로부터 보복을 당했다고 주장한 후 사망했습니다.",
+      "그의 사례는 이상주의와 현실 사이의 긴장을 강조하며, 권력을 가진 사람들을 책임지게 하는 것의 잠재적 위험을 보여준다.",
+      "이번 사건은 내부 보고 시스템의 효과성과 학술 기관 내의 더 넓은 권력 역학에 대한 논의를 촉발합니다."
+    ],
+    "points": 207,
+    "commentCount": 131,
+    "retryCount": 0,
+    "time": 1732667471
+  },
+  {
+    "id": 42253241,
+    "title": "일반인을 위한 자넷 (2023)",
+    "originLink": "https://ianthehenry.com/posts/janet-for-mortals/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42253241",
+    "commentBody": "",
+    "originSummary": [
+      "저자는 Janet 프로그래밍 언어에 중점을 둔 \"Janet for Mortals\"라는 무료 온라인 책을 출간했으며, 이 책은 작성하는 데 20주가 걸렸습니다. 이 책은 44,000단어로 구성되어 있으며, 대화형 학습을 위한 REPL(읽기-평가-출력 루프)을 제공하는 웹사이트가 함께 제공됩니다. 이 책과 C++ 라이브러리 바인딩 및 테스트 프레임워크와 같은 관련 프로젝트는 Hacker News와 같은 플랫폼에서 긍정적인 주목을 받았습니다."
+    ],
+    "commentSummary": [
+      "‘Janet for Mortals’는 사용자가 설치 없이 브라우저에서 직접 Janet 프로그래밍 언어를 실험할 수 있도록 이스케이프 키를 통해 접근 가능한 대화형 REPL(읽기-평가-출력 루프)을 제공하는 책입니다.",
+      "Janet은 도메인 특화 언어(DSL)를 쉽게 내장하고 생성할 수 있는 점에서 인정을 받고 있지만, 일부 사용자는 문서화가 개선될 수 있다고 지적합니다.",
+      "책의 매력적인 스타일과 언어의 독특한 특징은 책 제목에 대한 일부 논쟁에도 불구하고 관심과 긍정적인 피드백을 불러일으켰습니다."
+    ],
+    "points": 195,
+    "commentCount": 51,
+    "retryCount": 0,
+    "time": 1732685671
+  },
+  {
+    "id": 42254379,
+    "title": "Raspberry Pi CM5는 더 빠른 드롭인 업그레이드입니다.",
+    "originLink": "https://www.jeffgeerling.com/blog/2024/raspberry-pi-cm5-2-3x-faster-drop-upgrade-mostly",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42254379",
+    "commentBody": "",
+    "originSummary": [
+      "라즈베리 파이 컴퓨트 모듈 5(CM5)는 CM4에 비해 상당한 업그레이드로, 2-3배 더 빠른 성능, USB 3, PCIe Gen 3 호환성을 제공하면서 동일한 폼 팩터를 유지합니다.",
+      "CM5는 CM4와 비슷한 가격으로 책정되어 있으며, 8GB 모델은 $75부터 시작합니다. 이 모델은 더 빠른 CPU, RAM, 향상된 그래픽을 포함하고 있지만, 최대 용량에서 더 많은 전력을 사용합니다.",
+      "업데이트된 IO 보드가 $20에 출시되었으며, USB-C 전원 및 기타 향상된 기능을 특징으로 하여 CM5의 지원과 모듈성을 강조하고 있습니다. 이는 다른 싱글 보드 컴퓨터(SBC)와의 경쟁에도 불구하고 이루어진 것입니다."
+    ],
+    "commentSummary": [
+      "Raspberry Pi CM5는 CM4에 비해 성능이 크게 향상되어 속도가 2-3배 빨라졌으며, USB 3 업그레이드를 포함하고 있습니다.",
+      "8GB 버전은 가격을 유지하고 있지만, 다른 버전은 더 비싸며 일부 사용자는 다른 보드가 더 나은 사양을 가질 수 있다고 언급합니다.",
+      "하드웨어 개선에도 불구하고 CM5는 하드웨어 인코딩 지원이 부족하지만 H.265를 디코딩할 수 있으며, 라즈베리 파이의 강력한 커뮤니티와 지원은 여전히 주요 장점으로 남아 있습니다."
+    ],
+    "points": 178,
+    "commentCount": 92,
+    "retryCount": 0,
+    "time": 1732698941
+  },
+  {
+    "id": 42251564,
+    "title": "인터넷 서비스 제공업체(ISP)들은 사용자들이 제공업체를 변경하지 않는 이유가 '우수한 고객 서비스' 때문이라고 말합니다.",
+    "originLink": "https://arstechnica.com/tech-policy/2024/11/isps-say-their-excellent-customer-service-is-why-users-dont-switch-providers/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42251564",
+    "commentBody": "",
+    "originSummary": [
+      "ISP 로비 단체들은 경쟁이 높은 고객 서비스 기준을 보장하므로 추가 규제가 불필요하다고 주장합니다. 왜냐하면 나쁜 서비스는 고객들이 다른 제공업체로 전환하게 만들 것이기 때문입니다.",
+      "캘리포니아와 오리건의 규제 당국은 긴 대기 시간과 청구 문제와 같은 문제를 강조하며, 고객 불만이 광범위하다고 보고하여 ISP의 주장과 모순된다고 밝혔다.",
+      "FCC는 고객 서비스 관행을 검토하고 있지만, 트럼프 대통령 당선자가 임명한 브렌던 카의 지도 하에 새로운 규제는 가능성이 낮으며, 규제 부담을 줄이는 데 초점이 맞춰지고 있습니다."
+    ],
+    "commentSummary": [
+      "인터넷 서비스 제공업체(ISP)는 고객 유지의 이유를 '우수한 고객 서비스'라고 하지만, 많은 사람들은 특정 지역에서 경쟁 부족 때문이라고 믿고 있습니다.",
+      "ISP 옵션이 제한된 지역에서는 서비스 품질에 불만이 있어도 사용자가 현재 제공업체를 계속 이용하는 경우가 많습니다.",
+      "호주와 캐나다와 같은 국가에서 시장을 규제하고 경쟁을 촉진하려는 노력은 지속적인 도전에 직면해 있으며, 사용자들은 진정한 경쟁과 개선된 규제를 요구하고 있습니다."
+    ],
+    "points": 173,
+    "commentCount": 118,
+    "retryCount": 0,
+    "time": 1732666465
+  },
+  {
+    "id": 42256093,
+    "title": "AI에 대한 최신 정보를 빠르게 습득하고자 하는 소프트웨어 엔지니어(SWE)를 위한 추천",
+    "originLink": "https://news.ycombinator.com/item?id=42256093",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42256093",
+    "commentBody": "",
+    "originSummary": [
+      "사용자는 특히 Hacker News (HN)와 유사한 기술 블로그를 통해 인공지능(AI)에 대한 최신 업데이트를 위한 신뢰할 수 있는 출처를 적극적으로 찾고 있습니다.",
+      "그들은 ChatGPT와 OpenAI API, 특히 버전 3.5를 사용한 경험이 있어 AI 도구에 대한 실질적인 관심을 나타냅니다.",
+      "사용자는 Simon Willison의 블로그를 발견했지만, 그것이 일관성이 부족하다고 느끼며 더 구조적이고 포괄적인 AI 정보 출처가 필요하다고 제안합니다."
+    ],
+    "commentSummary": [
+      "소프트웨어 엔지니어는 Kaggle 대회에 참여하여 실용적이고 실습적인 학습 경험을 제공함으로써 AI 기술을 향상시킬 수 있습니다.",
+      "Simon Willison의 블로그, AI Supremacy, 3Blue1Brown과 같은 기술 블로그, 뉴스레터, 유튜브 채널을 통해 정보를 얻는 것은 기초적이고 최신의 AI 지식을 제공할 수 있습니다.",
+      "Reddit 및 Twitter와 같은 플랫폼에서 AI 커뮤니티와 교류하고 MIT xPRO의 도서 및 온라인 강좌와 같은 교육 자료를 탐색하면 이해를 심화하고 엔지니어들이 최신 AI 트렌드에 대해 업데이트된 상태를 유지할 수 있습니다."
+    ],
+    "points": 138,
+    "commentCount": 62,
+    "retryCount": 0,
+    "time": 1732715720
+  },
+  {
+    "id": 42252806,
+    "title": "OpenAI, 예술가들이 항의로 접근 권한을 유출한 후 비디오 모델 Sora의 개발을 일시 중단하다",
+    "originLink": "https://www.washingtonpost.com/technology/2024/11/26/openai-sora-ai-video-model-artists-protest/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42252806",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "OpenAI는 아티스트들이 미지급된 참여에 항의하여 접근을 유출한 후 비디오 모델 소라(Sora)를 일시 중단했습니다. 보상에 대한 약속은 없었음에도 불구하고 이러한 항의는 AI가 아티스트를 대체할 가능성에 대한 우려를 제기하고 AI 개발에서의 미지급 노동과 관련된 윤리적 문제를 부각시킵니다. 일부는 이 항의를 업계 내의 이러한 광범위한 문제에 주의를 끌기 위한 전략적 노력으로 보고 있습니다."
+    ],
+    "points": 126,
+    "commentCount": 111,
+    "retryCount": 0,
+    "time": 1732679997
+  },
+  {
+    "id": 42249545,
+    "title": "네, '오리처럼 보이지만' 새로운 USPS 우편 트럭과 같은 운송 수단입니다.",
+    "originLink": "https://www.nytimes.com/2024/11/26/us/usps-new-mail-trucks.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42249545",
+    "commentBody": "",
+    "originSummary": [
+      "미국 우정국은 96억 달러 규모의 현대화 계획의 일환으로 에어컨, 증가된 화물 공간, 향상된 안전 기능과 같은 특징을 제공하는 새로운 전기 우편 트럭을 도입하고 있습니다.",
+      "원래 대부분 가스로 구동될 예정이었던 함대의 75%가 이제 법적 문제로 인해 전기차로 전환되며, 이는 지속 가능성을 향한 중요한 변화입니다.",
+      "비록 그들의 비전통적인 디자인에도 불구하고, 그 트럭들은 우편 배달원들의 의견을 반영하고 미끄럼 방지 표면, 에어백, 충돌 회피 시스템과 같은 기능을 포함하여 편안함과 효율성 면에서 긍정적인 평가를 받았습니다."
+    ],
+    "commentSummary": [
+      "새로운 USPS 우편 트럭 디자인은 가시성과 안전성을 강조하며, 낮은 보닛과 큰 범퍼를 특징으로 하여 특히 도시 환경에서 보행자 안전과 운전자의 편안함을 향상시킵니다.",
+      "비정상적인 외관으로 논쟁을 불러일으켰지만, 이 트럭은 오랜 기간 사용된 그루먼 LLV와 마찬가지로 내구성을 염두에 두고 설계되었습니다.",
+      "디자인은 또한 우편 노동자들의 근무 환경 개선에 중점을 두고 있으며, 현대적인 배송 요구를 충족하기 위한 전기차 옵션을 포함하고 있습니다."
+    ],
+    "points": 124,
+    "commentCount": 142,
+    "retryCount": 0,
+    "time": 1732651996
+  },
+  {
+    "id": 42251919,
+    "title": "Htmy – 비동기, 순수 파이썬 렌더링 엔진",
+    "originLink": "https://volfpeter.github.io/htmy/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42251919",
+    "commentBody": "",
+    "originSummary": [
+      "htmy는 비동기 및 동기 함수 컴포넌트, React와 유사한 컨텍스트 관리, 내장 HTML 태그를 지원하는 순수 파이썬 렌더링 엔진으로, 다양한 웹 개발 요구에 맞게 다재다능합니다. Markdown 지원, JSON 기반 국제화, 백엔드 또는 프론트엔드 프레임워크와의 쉬운 통합과 같은 기능을 제공하여 적응성과 맞춤성을 향상시킵니다. 이 라이브러리는 MIT 라이선스 하에 오픈 소스로 제공되어 커뮤니티 기여를 장려하며, `pip install htmy`를 사용하여 PyPI를 통해 설치할 수 있습니다."
+    ],
+    "commentSummary": [
+      "Htmy는 비동기식 순수 파이썬 HTML 렌더링 엔진으로, Jinja와 비교했을 때의 장황함과 HTML 렌더링에서 비동기의 필요성에 대한 논쟁을 불러일으키고 있습니다.",
+      "이 논의는 컴포넌트 기반 설계에서 비동기 처리가 동적 데이터 가져오기에 잠재적인 이점을 제공할 수 있음을 강조하지만, 코드가 복잡해지는지에 대한 의견은 다양합니다.",
+      "Htmy는 유연한 렌더링 솔루션을 제공하는 것을 목표로 하지만, Jinja와 같은 기존 도구에 비해 어떤 장점이 있는지는 여전히 논의 중입니다."
+    ],
+    "points": 122,
+    "commentCount": 51,
+    "retryCount": 0,
+    "time": 1732669853
+  }
+]

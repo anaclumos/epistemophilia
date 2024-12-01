@@ -1,0 +1,292 @@
+[
+  {
+    "id": 42240678,
+    "title": "Amazon S3 新增 Put-If-Match(比較並交換)功能",
+    "originLink": "https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-s3-functionality-conditional-writes/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42240678",
+    "commentBody": "",
+    "originSummary": [
+      "Amazon S3 引入了條件寫入功能，僅在物件未被修改的情況下進行更新，透過驗證物件的 ETag 來防止同時覆寫。這項功能類似於 HTTP 的 if-none-match 標頭，允許客戶端使用 if-match 標頭來確保在寫入前 ETag 的一致性，提升分散式應用程式的效率。此功能在所有 AWS 區域均無需額外費用即可使用，實作可透過 AWS SDK、API 或 CLI 進行，更多詳情請參閱 S3 使用者指南。"
+    ],
+    "commentSummary": [
+      "「Amazon S3 推出了一項名為 Put-If-Match 的新功能，這項功能類似於比較並交換操作，允許根據版本匹配進行條件性物件寫入。此功能改善了同步和並發控制，使開發者能夠執行更複雜的操作，例如在 S3 上構建資料庫而不需要額外的基礎設施。此更新使 Amazon S3 與其他雲端儲存服務如 Google Cloud Storage 和 Azure Blob Storage 提供的類似功能保持一致。」"
+    ],
+    "points": 468,
+    "commentCount": 145,
+    "retryCount": 0,
+    "time": 1732572691
+  },
+  {
+    "id": 42243500,
+    "title": "「我們告訴自己以繼續使用 Golang 的謊言(2022)」",
+    "originLink": "https://fasterthanli.me/articles/lies-we-tell-ourselves-to-keep-using-golang",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42243500",
+    "commentBody": "",
+    "originSummary": [
+      "這篇文章批評了 Golang，指出儘管它具有非同步運行時和垃圾回收器等吸引人的特點，但也存在重大缺點，例如缺乏和類型以及不充分的錯誤處理。文章認為，Go 的簡單性可能具有欺騙性，導致在生產環境中出現隱藏的複雜性和挑戰，並強調認識這些問題的重要性，而不是僅僅因為易用性而採用 Go。文章將 Go 與 Rust 進行對比，指出儘管 Rust 存在挑戰，但它在管理複雜性和確保程式碼正確性方面提供了更強大的解決方案。"
+    ],
+    "commentSummary": [
+      "這篇文章批評了 Go 的錯誤處理，並將其與 Rust 更為精緻的方法進行對比，某些人認為後者更為優雅。",
+      "「對於 Go 語言的看法存在分歧：有些人欣賞其簡單性和明確的錯誤處理，而另一些人則認為它繁瑣且容易出錯。」",
+      "儘管受到批評，Go 語言仍因其簡單性和被大型公司廣泛採用而保持受歡迎。"
+    ],
+    "points": 281,
+    "commentCount": 366,
+    "retryCount": 0,
+    "time": 1732608093
+  },
+  {
+    "id": 42242971,
+    "title": "「Cybertruck 的多次召回」",
+    "originLink": "https://www.wired.com/story/cybertrucks-many-recalls-make-it-worse-than-91-percent-of-all-2024-vehicles/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42242971",
+    "commentBody": "",
+    "originSummary": [
+      "自從推出以來，特斯拉 Cybertruck 已經經歷了多次召回，最新的一次涉及故障的驅動逆變器，影響超過 2,400 輛車，這引發了對其可靠性的擔憂。",
+      "儘管存在品質問題，Cybertruck 獨特的設計仍然吸引買家，然而其無法符合歐洲安全標準的缺陷限制了其市場範圍。",
+      "儘管召回事件顯示了監管的有效性，但可能會損害特斯拉的品牌聲譽，特別是在考量到伊隆·馬斯克對美國監管具有重大影響力的情況下。"
+    ],
+    "commentSummary": [],
+    "points": 267,
+    "commentCount": 393,
+    "retryCount": 0,
+    "time": 1732601537
+  },
+  {
+    "id": 42243746,
+    "title": "「數據顯示，Y Combinator 經常支持與其他 YC 公司重複的初創企業」",
+    "originLink": "https://techcrunch.com/2024/11/22/y-combinator-often-backs-startups-that-duplicate-other-yc-companies-data-shows-its-not-just-ai-code-editors/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42243746",
+    "commentBody": "",
+    "originSummary": [
+      "Y Combinator(YC)是一個知名的創業加速器，以推出成功的公司如 Airbnb 和 Stripe 而聞名，但其許多新創公司開發的產品與之前的 YC 公司相似或相同。",
+      "PearAI 爭議突顯了這一趨勢，PearAI 被指控複製了另一個 YC 產品，但 YC 執行長 Garry Tan 為此行為辯護，強調選擇和創新的重要性。",
+      "Deckmatch 對 YC 趨勢的分析顯示，受歡迎的新創公司類別包括 AI 程式碼編輯器、餐廳 PoS 系統和商業財務工具，而某些領域如加密貨幣交易的興趣則有所減少。"
+    ],
+    "commentSummary": [
+      "Y Combinator 經常投資於模仿其他 YC 支持公司的新創企業，優先考量創辦人的潛力而非獨特的想法。這種策略被視為對類似概念進行對沖的方式，因為成功往往取決於執行力和時機，而非想法的原創性。雖然有些人認為這可能存在利益衝突，但在風險投資中，資助同一領域的多家公司以驗證市場並提高成功機率是常見的做法。"
+    ],
+    "points": 240,
+    "commentCount": 133,
+    "retryCount": 0,
+    "time": 1732611000
+  },
+  {
+    "id": 42241851,
+    "title": "Fly.io 停機問題已解決",
+    "originLink": "https://status.flyio.net",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42241851",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "「Fly.io 經歷了一次暫時性的中斷，雖然問題已經解決，但由於過去的事件，這引發了用戶對該平台可靠性的擔憂。- 用戶將 Fly.io 與 Railway 和 Cloudflare 等替代方案進行比較，強調了在可靠性、功能和用戶體驗方面的差異。- 儘管面臨挑戰，一些用戶仍然重視 Fly.io 的易用性和具競爭力的定價，同時討論強調了高可用性和監控依賴性的重要性。」"
+    ],
+    "points": 227,
+    "commentCount": 217,
+    "retryCount": 0,
+    "time": 1732585645
+  },
+  {
+    "id": 42239721,
+    "title": "A Short Introduction to Automotive Lidar Technology",
+    "originLink": "https://www.viksnewsletter.com/p/short-intro-to-automotive-lidar",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239721",
+    "commentBody": "",
+    "originSummary": [
+      "「Vik 的電子報深入探討汽車光達技術，這對於自駕車來說至關重要，因為它能夠使用紅外線雷射產生高解析度影像。電子報討論了光達的運作原理，包括波長選擇、光電探測器以及飛行時間和頻率調變連續波等測距技術。它還檢視了各種光達系統，如機械式和固態選項，目的是降低成本並提升技術，以便在自動駕駛車輛中更廣泛地採用。」"
+    ],
+    "commentSummary": [
+      "汽車光達技術正在發展中，儘管 Velodyne 的旋轉掃描器因高成本而被使用，但像閃光光達和 MEMS 鏡子這樣的替代方案則面臨市場和技術挑戰。",
+      "Waymo 持續在車輛易受損的角落使用旋轉式雷達，強調了對更經濟且整合性解決方案的需求，因為脈衝式雷達相比連續系統提供了較少的干擾。",
+      "Lidar 提供高解析度的成像，並在低光環境下表現良好，但面臨來自以相機為基礎的系統的競爭。一些公司，如 Tesla，出於成本考量而偏好使用相機系統，這引發了關於自動駕駛最佳方法的持續辯論。"
+    ],
+    "points": 219,
+    "commentCount": 157,
+    "retryCount": 0,
+    "time": 1732565547
+  },
+  {
+    "id": 42239952,
+    "title": "你需要身份證才能閱讀 REAL-ID 規則嗎？",
+    "originLink": "https://papersplease.org/wp/2024/11/25/do-you-need-id-to-read-the-real-id-rules/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239952",
+    "commentBody": "",
+    "originSummary": [
+      "試圖查閱美國運輸安全管理局(TSA)新的數位身份識別規則時，揭示了《真實身份法案》(REAL-ID Act)存在的問題，因為這些規則無法公開獲取且需要身份證明才能查閱，這引發了對秘密法律和正當程序的擔憂。",
+      "美國運輸安全管理局(TSA)的數位身份識別標準源自於私人文件，涉及應用程式、裝置和政府機構之間的複雜互動，並伴隨著對身份識別使用記錄的隱私疑慮。",
+      "作者主張，TSA 的做法侵犯了公眾的使用權，並已向聯邦公報辦公室報告此問題，尋求撤回該規則。"
+    ],
+    "commentSummary": [
+      "討論圍繞著需要持有身分證以遵循 REAL-ID 規則的必要性，一些使用者質疑 TSA 安全措施的有效性。- 有人對行動駕照(mDLs)及其可能帶來的隱私問題表示擔憂。- 使用者對 TSA 的有效性和安全戲劇的概念表示懷疑，同時也質疑像 REAL-ID 和 mDLs 這樣的數位身分證的長期影響。"
+    ],
+    "points": 212,
+    "commentCount": 82,
+    "retryCount": 0,
+    "time": 1732567234
+  },
+  {
+    "id": 42244814,
+    "title": "「J. Kenji Lopez-Alt(2021)提出的洋蔥問題解決方案」",
+    "originLink": "https://medium.com/@drspoulsen/a-solution-to-the-onion-problem-of-j-kenji-l%C3%B3pez-alt-c3c4ab22e67c",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42244814",
+    "commentBody": "",
+    "originSummary": [
+      "「這篇文章探討了“洋蔥問題”，即如何切洋蔥以達到切片體積的最小變異以獲得均勻性。- 使用微積分進行的數學探索確定了最佳切割點位於洋蔥中心下方的55.73066%，稱為“真正的洋蔥常數”。- 這一發現修正了先前建議的切割至中心下方60%的點，提供了一種更精確的方法來獲得均勻的洋蔥切片。」"
+    ],
+    "commentSummary": [
+      "討論探討了一個切洋蔥均勻的數學模型，靈感來自 J. Kenji Lopez-Alt，使用半圓盤表示法來簡化幾何形狀並最小化切片大小的變異性。使用者討論該模型的實用性和準確性，考慮到洋蔥的三維結構和不均勻的層次，並建議替代的切割方法或工具。對話還考慮了均勻性與烹飪偏好的平衡，並引用了像 Adam Ragusea 這樣的美食名人。"
+    ],
+    "points": 177,
+    "commentCount": 67,
+    "retryCount": 0,
+    "time": 1732621091
+  },
+  {
+    "id": 42239607,
+    "title": "Redis 正試圖接管所有的 OSS Redis 函式庫",
+    "originLink": "https://twitter.com/TomHacohen/status/1861137484249252093",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239607",
+    "commentBody": "",
+    "originSummary": [
+      "據報導，Redis 正在接管所有開源軟體 (OSS) Redis 函式庫，其中包括像 Jedis、Lettuce 和 redis-py 這些受歡迎的函式庫。",
+      "這些函式庫目前無法使用，另一個函式庫 redis-rs 也面臨潛在的控制或關閉問題。",
+      "這種情況很重要，因為它影響到依賴這些函式庫來在其應用程式中進行 Redis 整合的開發者。"
+    ],
+    "commentSummary": [
+      "Redis Inc. 正在接管開源 Redis 函式庫，引發爭議，並導致一些開發者因商標執行問題而移除 Redis 依賴。",
+      "像 redis-py、Lettuce 和 Jedis 這些函式庫已經被移到 Redis Inc. 的官方組織下，這被視為對抗像 Valkey 這樣的競爭對手的防禦策略。",
+      "社群擔心商標主張和潛在的供應商鎖定問題，這促使大家討論像 Valkey 和 Kvrocks 這樣的替代方案，並強調在開源專案中執行商標的挑戰。"
+    ],
+    "points": 150,
+    "commentCount": 81,
+    "retryCount": 0,
+    "time": 1732564808
+  },
+  {
+    "id": 42243755,
+    "title": "Setelinleikkaus：當芬蘭人將現金剪成兩半以抑制通貨膨脹",
+    "originLink": "http://jpkoning.blogspot.com/2024/11/setelinleikkaus-when-finns-snipped.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42243755",
+    "commentBody": "",
+    "originSummary": [
+      "「1945 年，芬蘭實施了“setelinleikkaus”政策，要求公民將大額鈔票剪成兩半，以應對二戰後的通貨膨脹，其中一半保留價值，另一半則成為政府債券。該政策效果不佳，因為它僅針對實體現金，而這只是貨幣供應的一小部分，與比利時等其他歐洲國家更成功的改革不同。文章推測，未來的通貨膨脹控制可能涉及凍結數位帳戶，這是一種更精確但可能具爭議的方法。」"
+    ],
+    "commentSummary": [
+      "「1945 年，芬蘭以獨特的方式應對通貨膨脹，透過實際將鈔票剪成兩半，這與現代調整利率的方法形成對比。」",
+      "這種歷史方法引發了對當前貨幣政策的討論，中央銀行透過利率和公開市場操作來管理通貨膨脹。",
+      "數位貨幣的潛在未來控制，可能透過中央銀行數位貨幣，引發了對政府加強個人財務監管的擔憂。"
+    ],
+    "points": 145,
+    "commentCount": 131,
+    "retryCount": 0,
+    "time": 1732611120
+  },
+  {
+    "id": 42239487,
+    "title": "「祈禱、擺放與赦免：彼得·赫里斯托夫談伊斯蘭祈禱毯(2015)」",
+    "originLink": "https://www.metmuseum.org/perspectives/peter-hristoff-islamic-prayer-rugs",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239487",
+    "commentBody": "",
+    "originSummary": [
+      "彼得·赫里斯托夫的藝術作品深入探討藝術與靈性之間的交集，特別是透過祈禱毯這一媒介，自1997年開始。他的創作，包括素描和絲網印刷，逐漸演變成在宣紙上製作的大型「地毯」作品，靈感來自土耳其地毯和克里姆地毯，他將其視為具有象徵意義的個人日記。赫里斯托夫的作品體現了「明亮的悲傷」，這是一種喜悅與悲傷的融合，受到巴爾多祿茂宗主教著作的影響，並持續探索人類本性的靈性和物質層面。"
+    ],
+    "commentSummary": [
+      "Peter Hristoff 的文章探討了伊斯蘭祈禱毯的重要性，強調其複雜的設計，如鑲嵌圖案，象徵著上帝的無限性。文章討論了伊斯蘭教對具象藝術的禁令，導致在伊斯蘭工藝品中使用書法和幾何圖案。文章還強調了祈禱毯的歷史和文化背景，指出其在包括基督教在內的各種宗教傳統中的使用，以及其實用和精神上的角色。"
+    ],
+    "points": 123,
+    "commentCount": 61,
+    "retryCount": 0,
+    "time": 1732563945
+  },
+  {
+    "id": 42239263,
+    "title": "「Deno 與 Oracle：取消 JavaScript 商標」",
+    "originLink": "https://deno.com/blog/deno-v-oracle",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42239263",
+    "commentBody": "",
+    "originSummary": [
+      "「Deno 已向美國專利商標局(USPTO)提交請願書，要求取消 Oracle 對「JavaScript」的商標註冊，旨在將其變為公共資源，並消除其使用上的法律障礙。」",
+      "該請願書主張「JavaScript」是一個通用術語，Oracle 在商標續展時犯下欺詐行為，並且 Oracle 因未使用而放棄了該商標。",
+      "超過 14,000 名開發者支持 Deno 的行動，Oracle 必須在 2025 年 1 月 4 日之前作出回應，Deno 準備與社群分享所有進展。"
+    ],
+    "commentSummary": [
+      "「Deno 已向美國專利及商標局(USPTO)提交請願書，要求取消 Oracle 對 JavaScript 的商標註冊，此舉引發了關於商標倫理和社群利益的辯論。」",
+      "討論涉及 Deno 與 Node Package Manager (NPM) 的相容性及其對更廣泛 JavaScript 生態系統的影響，反映出對 JavaScript 未來及執行環境的不同看法。",
+      "意見分歧，有些人認為 Oracle 的商標使用不道德，而另一些人則質疑 Deno 的意圖，認為這可能是一種公關策略。"
+    ],
+    "points": 120,
+    "commentCount": 23,
+    "retryCount": 0,
+    "time": 1732562433
+  },
+  {
+    "id": 42244987,
+    "title": "Jekyll 的 SQLite 插件",
+    "originLink": "https://github.com/captn3m0/jekyll-sqlite",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42244987",
+    "commentBody": "",
+    "originSummary": [
+      "作者開發了一個 Jekyll SQLite 外掛程式，以增強 Jekyll 這個受歡迎的靜態網站生成器中的資料操作能力。",
+      "此外掛程式允許使用者執行 SQL 查詢以進行資料整理，解決 Liquid(Jekyll 的模板語言)在處理複雜資料操作時的限制。",
+      "該插件已成功在生產環境中使用了一年，並以 Northwind 資料集進行了展示。作者邀請提供反饋和改進建議。"
+    ],
+    "commentSummary": [
+      "「一個 Jekyll SQLite 插件使得在 Jekyll 中使用 SQLite 作為數據來源成為可能，增強了使用 SQL 進行數據操作的能力。- 它整合了 Jekyll 的 Datafiles 和 Data Pages 生成器功能，允許進行超越傳統 CSV/JSON/YAML 格式的複雜數據處理。- 該插件已經投入使用一年，因其使靜態網站生成更加動態和靈活而獲得了正面評價。」"
+    ],
+    "points": 119,
+    "commentCount": 35,
+    "retryCount": 0,
+    "time": 1732623091
+  },
+  {
+    "id": 42241702,
+    "title": "「頭髮早白：更新回顧」",
+    "originLink": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6290285/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42241702",
+    "commentBody": "",
+    "originSummary": [
+      "早髮性白髮(PGH)被定義為白種人在20歲之前和非裔美國人在30歲之前出現白髮，這會影響自尊心。- PGH的原因尚未完全了解，但與老化疾病、自體免疫疾病和氧化壓力有關，吸菸和營養缺乏等因素也有影響。- 常見的PGH治療方法包括染髮劑和營養補充劑，研究顯示PGH與情緒因素、遺傳傾向和環境影響有關聯。"
+    ],
+    "commentSummary": [
+      "頭髮過早變白與維生素 B12 缺乏有關，特別是在患有惡性貧血的人群中，這是一種身體無法正常吸收 B12 的情況。診斷 B12 缺乏可能具有挑戰性，因為補充劑可能會人為地提高 B12 水平，而有些人無法將某些形式的 B12 轉換為活性形式，導致「矛盾性 B12 缺乏」。壓力、遺傳和自體免疫性甲狀腺疾病等健康狀況也會導致頭髮變白，雖然某些補充劑可能有幫助，但目前尚無證實的方法可以逆轉頭髮變白。"
+    ],
+    "points": 110,
+    "commentCount": 98,
+    "retryCount": 0,
+    "time": 1732583700
+  },
+  {
+    "id": 42245170,
+    "title": "基於 LLVM 的去虛擬化",
+    "originLink": "https://blog.thalium.re/posts/llvm-powered-devirtualization/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42245170",
+    "commentBody": "",
+    "originSummary": [
+      "在 Thalium 的實習專注於使用 LLVM(編譯器框架)來解混淆虛擬化的二進位檔案，以使程式碼更易於理解，特別是在惡意軟體的背景下。- 虛擬化是一種強大的混淆技術，由 Tigress 和 VMProtect 等工具使用，將程式編碼為虛擬指令，使逆向工程變得複雜。- 該專案成功地使用動態汙點分析重建了 Tigress 混淆的二進位檔案的控制流圖，儘管它僅限於純函數和單一執行路徑。"
+    ],
+    "commentSummary": [
+      "LLVM 驅動的去虛擬化通過優化虛擬函數呼叫來提升效能，因為虛擬函數呼叫通常由於其動態特性而較慢。",
+      "Bochs，一款 CPU 模擬器，可以有效地在 i7 處理器上模擬 Pentium 4 處理器，甚至能繞過虛擬機檢測器。",
+      "Bochs 除錯器在分析和對抗惡意軟體及代碼混淆器方面特別有效，使其成為安全研究中的一個寶貴工具。"
+    ],
+    "points": 107,
+    "commentCount": 1,
+    "retryCount": 0,
+    "time": 1732624714
+  }
+]
