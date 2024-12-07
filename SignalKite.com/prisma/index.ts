@@ -1,20 +1,14 @@
-import { Pool, type PoolConfig, neonConfig } from '@neondatabase/serverless'
 import { PrismaClient } from '@prisma/client'
-import ws from 'ws'
 
-declare global {
-  var prisma: PrismaClient | undefined
+const prismaClientSingleton = () => {
+  return new PrismaClient()
 }
 
-neonConfig.webSocketConstructor = ws
-const poolConfig: PoolConfig = { connectionString: process.env.DATABASE_URL }
+// biome-ignore lint/suspicious/noShadowRestrictedNames: https://www.prisma.io/docs/orm/more/help-and-troubleshooting/help-articles/nextjs-prisma-client-dev-practices
+declare const globalThis: {
+  prismaGlobal: ReturnType<typeof prismaClientSingleton>
+} & typeof global
 
-const pool = new Pool(poolConfig)
-const adapter = new PrismaNeon(pool)
+export const db = globalThis.prismaGlobal ?? prismaClientSingleton()
 
-const singleton =
-  global.prisma || new PrismaClient({ adapter, log: ['info', 'warn', 'error'] })
-
-if (process.env.NODE_ENV === 'development') global.prisma = singleton
-
-export const db = singleton
+if (process.env.NODE_ENV !== 'production') globalThis.prismaGlobal = db

@@ -1,35 +1,36 @@
 {
-  "name": "signalkite",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev --turbo",
-    "deploy": "prisma generate && prisma migrate deploy && next build",
-    "build": "next build",
-    "format": "biome format",
-    "lint": "biome lint",
-    "start": "next start",
-    "db": "prisma generate && prisma db push",
-    "studio": "prisma studio",
-    "seed": "prisma db seed",
-    "bump": "bun install next@canary && bunx npm-check-updates -i",
-    "check": "biome check"
-  },
-  "dependencies": {
-    "babel-plugin-react-compiler": "^19.0.0-beta-df7b47d-20241124",
-    "next": "^15.0.4-canary.41",
-    "prisma": "^6.0.1",
-    "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "1.9.4",
-    "@types/node": "^22",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.16",
-    "typescript": "^5"
-  },
-  "trustedDependencies": ["@biomejs/biome"]
+	"name": "signalkite",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev --turbo",
+		"deploy": "prisma generate && prisma migrate deploy && next build",
+		"build": "next build",
+		"format": "biome format",
+		"lint": "biome lint",
+		"start": "next start",
+		"db": "prisma generate && prisma db push",
+		"studio": "prisma studio",
+		"seed": "prisma db seed",
+		"bump": "bun install next@canary && bunx npm-check-updates -i",
+		"check": "biome check"
+	},
+	"dependencies": {
+		"@prisma/client": "6.0.1",
+		"babel-plugin-react-compiler": "^19.0.0-beta-df7b47d-20241124",
+		"next": "^15.0.4-canary.41",
+		"prisma": "^6.0.1",
+		"react": "19.0.0-rc-66855b96-20241106",
+		"react-dom": "19.0.0-rc-66855b96-20241106"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/node": "^22",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"postcss": "^8",
+		"tailwindcss": "^3.4.16",
+		"typescript": "^5"
+	},
+	"trustedDependencies": ["@biomejs/biome"]
 }
