@@ -15,12 +15,113 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 06 Dec 2024 19:14:39 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Dec 2024 19:11:53 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/zh-Hant.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 06 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-12-07]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/12/07&#39;</h2>
+<h1>2024-12-07</h1>
+<h2><a href="https://shilin.ca/my-second-year-without-job/">我第二年沒有工作了</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42344002">評論</a></h3>
+<h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog">對話元素</a></h2>
+<ul>
+<li>HTML 的 `` 元素用於創建對話框，這些對話框可以是模態(暫停頁面互動)或非模態(允許互動)的。</li>
+<li>JavaScript 方法 <code>.showModal()</code> 和 <code>.show()</code> 分別用於顯示模態和非模態對話框，而 <code>.close()</code> 則用於關閉它們。</li>
+<li>「無障礙性至關重要；確保焦點設置正確，並提供關閉機制，例如按鈕，同時使用 CSS <code>::backdrop</code> 來設計模態背景。」</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343089">評論</a></h3>
+<ul>
+<li>在 developer.mozilla.org 上的對話元素引發了一場關於使用互動式 HTML 元素的辯論，例如文件選擇器和媒體播放器，對於它們在不同瀏覽器中的一致性和可預測性存在不同的意見。</li>
+<li>雖然有些開發者批評對話框元素缺乏樣式且不像原生彈出視窗那樣運作，但其他人則重視其語意和無障礙性優勢。</li>
+<li>討論中強調了在維持設計一致性方面的挑戰以及對廣告商可能濫用的擔憂，這表明對話元素是一個進步的步驟，但仍需改進。</li>
+</ul>
+<h2><a href="https://github.com/orgs/organicmaps/discussions/9837">Maps.me 共同創辦人試圖關閉 Organic Maps 開源分支</a></h2>
+<ul>
+<li>Organic Maps 已經釋出其「元伺服器」的源代碼，該伺服器透過根據用戶位置引導至最佳內容傳遞網路(CDN)伺服器來優化地圖下載速度。</li>
+<li>為了防止未經授權的分支，最初封閉的程式碼現在已在 MIT 授權下開放，促進透明度和社群參與。</li>
+<li>「團隊正在重新考慮使用 Cloudflare Workers 以防止供應商鎖定，並已恢復一位貢獻者所做的未經授權的更改，強調他們對隱私和透明度的承諾。」</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343121">評論</a></h3>
+<ul>
+<li>Maps.me 的共同創辦人 Alexander Borsuk 試圖通過修改其 MIT 授權並在私人儲存庫中添加日誌來關閉 Organic Maps 的開源分支。另一位專案維護者 Roman Tsisyk 撤銷了這些更改並將儲存庫公開，導致衝突並撤銷了他的權限。此事件突顯了專案內部對於開源性質的分歧，然而 Organic Maps 仍然是一款廣泛使用的離線地圖應用程式。</li>
+</ul>
+<h2><a href="https://github.com/Olshansk/postgres_for_everything">「如何將 Postgres 用於所有用途」</a></h2>
+<ul>
+<li>「Postgres for Everything」是一個推廣使用 PostgreSQL 的資料庫，這是一個受歡迎的開源關聯式資料庫，適用於超越傳統資料庫任務的廣泛應用。該資料庫邀請貢獻並追蹤 PostgreSQL 的各種創新用途，包括排程任務、訊息佇列、分析等，突顯其多功能性。此倡議包含 11 項與 Supabase 相關的內容，Supabase 是一個使用 PostgreSQL 提供後端服務的平台，展示其在現代應用程式開發中的整合性和實用性。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42347606">評論</a></h3>
+<ul>
+<li>討論強調了 Postgres 在各種應用中的多功能性，但也指出了一些限制，例如在字串中處理空字元以及需要自訂 SQL 來進行跳過索引掃描。- 對於是否應該將 Postgres 用於所有目的，意見不一，有些人警告不要過度依賴單一資料庫來支持大型團隊，而另一些人則讚揚其簡單性和降低的複雜性。- 也提到了像 Redis 這樣的替代方案，以及在擴展過程中的挑戰和避免在專案初期過度設計的重要性。</li>
+</ul>
+<h2><a href="https://www.moment.dev/blog/lies-i-was-told-pt-1">「我被告知的關於協作編輯的謊言，第一部分：離線編輯的演算法」</a></h2>
+<ul>
+<li>在 2024 年初，針對 Moment 文本編輯器的協作編輯系統的研究突顯了離線編輯的挑戰，其中像 CRDTs(無衝突複製數據類型)和 OT(操作轉換)這樣的流行算法經常失效。離線編輯增加了直接衝突，其中 20-30% 的衝突導致不可接受的結果，這表明問題更多是使用者介面/使用者體驗(UI/UX)上的挑戰，而非算法上的問題。研究人員現在專注於改善離線編輯的使用者體驗，並借鑑 git 處理文件合併的方式，這是一個有前景的發展。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343953">評論</a></h3>
+<ul>
+<li>這篇文章探討了協作編輯的挑戰，特別是在離線情況下，並批評當前的演算法如無衝突複製資料類型(CRDTs)和操作轉換(OT)未必總能產生語義上有意義的結果。- 大家一致認為需要改進衝突解決方法，可能透過用戶輸入或像大型語言模型(LLMs)這樣的先進工具來有效處理語義衝突。- 討論還考慮了使用者介面/使用者體驗(UI/UX)解決方案在增強協作編輯體驗中的角色，強調問題不僅限於演算法，還涉及理解用戶意圖。</li>
+</ul>
+<h2><a href="https://ollama.com/blog/structured-outputs">「使用 Ollama 生成結構化輸出」</a></h2>
+<ul>
+<li>「Ollama 已經引入了對結構化輸出的支援，使模型能夠使用 JSON 架構生成特定格式的輸出。」</li>
+<li>「此功能現已在更新的 Ollama Python 和 JavaScript 函式庫中提供，對於從文件和圖像中解析數據等任務非常有用。」</li>
+<li>使用者應更新至最新的 Ollama 版本，並在 cURL 請求或函式庫中使用格式參數，未來的更新將提供效能提升和更多格式選項。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42346344">評論</a></h3>
+<ul>
+<li>Ollama 提供了一種方法，可以從語言模型生成結構化數據，例如 JSON，並討論使用 GBNF 語法來生成更靈活的輸出格式，如 XML 或 SQL。- 使用者討論了 JSON 輸出與自然語言的可靠性，並深入了解語言模型(LLM)如何生成文本以及結構化提示的作用。- Ollama 與 llama.cpp 的整合被認為簡化了模型的使用，儘管有些人認為它僅僅是一個包裝器，該功能支持不同準確度等級的各種模型。</li>
+</ul>
+<h2><a href="https://www.youtube.com/watch?v=0JouTsMQsEA">《過山車大亨》是同類遊戲中的最後一款 [影片]</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42346463">評論</a></h3>
+<ul>
+<li>《雲霄飛車大亨》主要由一個小團隊使用組合語言開發，於1999年成為暢銷遊戲，展現了一種罕見的開發風格。</li>
+<li>粉絲們建議使用 OpenRCT2 以獲得增強的功能和相容性，並推薦 Roller Coaster Tycoon Classic 以適用於現代設備，而像 Parkitect 和 Planet Coaster 這樣的替代方案則提供了多樣化的體驗。</li>
+<li>影片強調了遊戲開發的演變以及小型團隊在與大型工作室競爭時所面臨的挑戰，像是《Minecraft》這樣的獨立遊戲成功案例展示了小型團隊成就的潛力。</li>
+</ul>
+<h2><a href="https://source.washu.edu/2024/12/research-reveals-how-fructose-in-diet-enhances-tumor-growth/">研究顯示，飲食中的果糖會促進腫瘤生長</a></h2>
+<ul>
+<li>過去 50 年來，由於飲料和加工食品中高果糖玉米糖漿的使用，果糖的消費量顯著增加。</li>
+<li>來自聖路易斯華盛頓大學的研究顯示，雖然果糖不會直接為腫瘤提供能量，但肝臟會將其轉化為支持腫瘤生長的營養物質，這在黑色素瘤、乳癌和子宮頸癌等癌症中尤為明顯。</li>
+<li>該研究通過探索防止果糖促進腫瘤生長的方法，提出了潛在的新癌症治療方案，可能包括飲食改變或藥物治療，並獲得美國國立衛生研究院(NIH)的部分資助。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343544">評論</a></h3>
+<ul>
+<li>來自華盛頓大學的研究顯示，高果糖攝取可能會透過增加循環脂質來促進腫瘤生長，而這些脂質被癌細胞用於生長。- 雖然水果中的果糖通常因為含有其他營養素而是安全的，但來自高果糖玉米糖漿等來源的過量攝取可能具有風險。- 該研究強調了癌症代謝的複雜性以及飲食對癌症進展的潛在影響，儘管仍需進一步研究以全面理解這些機制。</li>
+</ul>
+<h2><a href="https://github.com/oils-for-unix/oils/wiki/The-Biggest-Shell-Programs-in-the-World">最大殼層程式</a></h2>
+<ul>
+<li>該頁面重點介紹了重要的 shell 程式，著重於手寫的腳本，而非由 autoconf 等工具生成的腳本。- 值得注意的條目包括 akinomyoga/ble.sh，一個擁有 61K 行程式碼(LoC)的 Bash 行編輯器，以及 kalua，一個擁有 56K 原始碼行數(SLoC)的 OpenWRT 附加元件。- 該列表提供了對 shell 腳本複雜性和多樣性的見解，展示了使用資料結構和演算法的程式，通常超過 5,000 行程式碼。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42346274">評論</a></h3>
+<ul>
+<li>討論集中在使用大型 Shell 腳本的複雜性和挑戰，例如可讀性、錯誤處理和可移植性問題。- 使用者建議考慮使用 Python 或 AWK 等替代方案來處理複雜任務，因為它們具有更好的可維護性，而像 ShellCheck 這樣的工具可以幫助提高 Shell 腳本的質量。- 對話強調了在快速任務中使用 Shell 腳本與在較大專案中選擇更強大程式語言之間的平衡。</li>
+</ul>
+<h2><a href="https://dspy.ai/">DSPy – 程式設計–而非提示–語言模型</a></h2>
+<ul>
+<li>DSPy 是一個框架，旨在使用組合式 Python 代碼構建模組化 AI 系統，專注於改善語言模型(LM)的輸出，而不僅僅依賴於提示。- 它支持多個大型語言模型(LLM)提供者，如 OpenAI、Anthropic 和 Databricks，允許用戶將 AI 行為描述為代碼，從而更容易進行迭代和優化。- DSPy 源自史丹佛自然語言處理(NLP)，在 GitHub 和 Discord 上擁有強大的社群存在，為開源 AI 研究做出貢獻，並推進程式架構和優化器的發展。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343692">評論</a></h3>
+<ul>
+<li>DSPy 是一個框架，旨在透過自動選擇訓練數據子集來優化語言模型(LMs)的提示，從而提升性能並減少手動調整。</li>
+<li>它支持大型語言模型(LLM)程式的端到端訓練，防止在程式碼中使用過時的提示，特別適用於資料提取和摘要等任務。</li>
+<li>雖然有些使用者覺得 DSPy 的複雜性具有挑戰性，但它因其結構化的方法以及如斷言和建議等功能而受到重視，這些功能可強制執行輸出限制。</li>
+</ul>
+<head>
+  <meta property="og:title" content="我第二年沒有工作了" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E6%88%91%E7%AC%AC%E4%BA%8C%E5%B9%B4%E6%B2%92%E6%9C%89%E5%B7%A5%E4%BD%9C%E4%BA%86&subheading=2024%E5%B9%B412%E6%9C%887%E6%97%A5%20%E6%98%9F%E6%9C%9F%E5%85%AD%3A%20Hacker%20News%20%E6%91%98%E8%A6%81" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/zh/Hant/2024/12/07</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000Z</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-12-06]]></title>
             <description
@@ -1041,173 +1142,6 @@
             <link>https://hn.cho.sh/zh/Hant/2024/11/28</link>
             <guid isPermaLink="false">2024-11-28T00:00:00.000Z</guid>
             <pubDate>Thu, 28 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-11-27]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/11/27&#39;</h2>
-<h1>2024-11-27</h1>
-<h2><a href="https://play.google.com/store/apps/details?id=com.actureunlock&hl=en_US">每次解鎖手機時都會問「為什麼？」的應用程式</a></h2>
-<ul>
-<li>Intenty 是一款應用程式，透過在解鎖裝置時的提醒來鼓勵使用者培養更健康的手機使用習慣。- 該應用程式強調隱私，完全在本地運行，沒有廣告或追蹤，並且僅使用 Android 權限來實現功能而不收集數據。- 憑藉簡約的設計和智能化的自訂功能，Intenty 擁有 4.4 星的評分和超過 10,000 次的下載量，吸引了希望減少無意識手機使用的用戶。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42254156">評論</a></h3>
-<ul>
-<li>一款在用戶解鎖手機時提示「為什麼？」的應用程式，因其有可能減少分心而在 Hacker News 上引起關注。</li>
-<li>使用者發現該應用程式很有幫助，但有時在執行快速任務時會感到不便，因此提出了一些改進建議，例如隨機化提示或允許特定應用程式的繞過功能。</li>
-<li>「開發者正在考慮用戶反饋以進行更新，包括提供一次性購買選項以取代訂閱模式。」</li>
-</ul>
-<h2><a href="https://www.downtowndougbrown.com/2024/11/the-capacitor-that-apple-soldered-incorrectly-at-the-factory/">蘋果在工廠中焊接錯誤的電容器</a></h2>
-<ul>
-<li>「Doug Brown 指出 Apple 的 Macintosh LC III 存在一個製造錯誤，其中一個電容器被反向安裝，可能會導致問題。」</li>
-<li>Macintosh LC III 是在 1993 年至 1994 年間為教育市場生產的，儘管存在這個錯誤，但並未進行大規模召回。</li>
-<li>Brown 建議在更換電容器時要小心，特別是現代鉭電容器，並建議正確安裝它們，而不是依照 PCB 的絲印指示。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42253119">評論</a></h3>
-<ul>
-<li>蘋果公司在一台34年前的電腦上錯誤地反向安裝了一個電容器，這突顯了正確安裝電容器方向的重要性，特別是對於具有極性的電解電容器，如果安裝不正確可能會失效。</li>
-<li>這起事件引發了關於產品壽命和計畫性淘汰的討論，有人認為現代電子產品被故意設計成壽命較短，以促進銷售。</li>
-<li>這種情況讓人想起其他公司過去的製造錯誤，例如 Commodore，這顯示出科技產業中反覆出現的問題。</li>
-</ul>
-<h2><a href="https://benhouston3d.com/blog/why-i-left-kubernetes-for-google-cloud-run">「我不需要 Kubernetes，你可能也不需要」</a></h2>
-<ul>
-<li>作者從 Kubernetes 轉向 Google Cloud Run，指出 Kubernetes 的複雜性、成本和緩慢的自動擴展是其缺點。- Google Cloud Run 被強調為一個更簡單、具成本效益的替代方案，只對實際的 CPU 和記憶體使用收費，並提供快速擴展而無需 Kubernetes 的管理負擔。- 作者使用 GitHub Actions 進行持續整合/持續部署(CI/CD)、管理資料庫和發布-訂閱訊息，強調 Cloud Run 對於需要簡單性和效率的專案比起 Kubernetes 的廣泛功能更為合適。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42252336">評論</a></h3>
-<ul>
-<li>這篇文章批評 Kubernetes 過於複雜，對於較小的專案來說通常是不必要的，並建議使用更簡單的解決方案，如單一虛擬機(VM)或伺服器可能更有效率。</li>
-<li>這突顯了管理 Kubernetes 的挑戰，包括來自各種附加元件的額外複雜性以及某些工程師使系統複雜化的傾向。</li>
-<li>共識是，雖然 Kubernetes 很有價值，但對於較小規模的運營來說，它並不總是最佳選擇，因為簡單性可能更有利。</li>
-</ul>
-<h2><a href="https://krebsonsecurity.com/2024/11/hacker-in-snowflake-extortions-may-be-a-u-s-soldier/">在 Snowflake 勒索案中的駭客可能是一名美國士兵</a></h2>
-<ul>
-<li>「兩名個人因從使用 Snowflake 的公司竊取資料而被逮捕，而第三名嫌疑犯，代號為『Kiberphant0m』，仍在逃，據信是駐韓美軍士兵。」</li>
-<li>「該團體涉及販售被竊取的數據並勒索公司，據報導，AT&amp;T支付了37萬美元以刪除被竊取的記錄。」</li>
-<li>加拿大當局已逮捕了亞歷山大·穆卡，而約翰·艾琳·賓斯則在土耳其被監禁，兩人均與這些入侵事件有關，然而 Kiberphant0m 仍活躍於網路犯罪論壇。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251799">評論</a></h3>
-<ul>
-<li>一名參與勒索 Snowflake 的駭客，身份為 Kiberphant0m，目前正接受調查，並有傳言稱其可能與美國軍方有關聯。</li>
-<li>Kiberphant0m 否認與軍事有任何關聯，暗示這是一種欺騙策略，儘管分析師懷疑這樣做能否有效誤導調查人員。</li>
-<li>駭客的粗心行為，例如發布穿著軍裝的照片，突顯了在維持作業安全和避免數位痕跡方面的困難。</li>
-</ul>
-<h2><a href="https://zetaoffice.net/">「ZetaOffice：瀏覽器中的 LibreOffice」</a></h2>
-<ul>
-<li>ZetaOffice Web 將 LibreOffice 引入網頁瀏覽器，讓使用者能夠從任何裝置存取，並提供自我託管或使用內容傳遞網路(CDN)以控制資料的選項。- 該套件包括 Writer、Calc 和 Impress，用於文字處理、試算表和簡報，並可在 Linux 和 Windows 的網頁及桌面上使用，確保文件相容性。- ZetaOffice 提供開源軟體，並有付費選項可使用 CDN 和支援，透過 LibreOffice UNO API 與現有系統整合，在現代瀏覽器中高效運作。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249746">評論</a></h3>
-<ul>
-<li>ZetaOffice 是一個基於瀏覽器的 LibreOffice 版本，因效能和可用性問題而受到批評，包括輸入和文字渲染的問題。</li>
-<li>「目前正在討論使用畫布或是直接操作 DOM(文件物件模型)哪一種方式更適合在網頁版辦公套件中呈現文件版面。」</li>
-<li>儘管面臨挑戰，ZetaOffice 仍致力於提供一致的跨平台體驗，並且也提供原生桌面應用程式。</li>
-</ul>
-<h2><a href="https://www.techradar.com/pro/security/d-link-says-it-wont-patch-60-000-older-modems-as-theyre-not-worth-saving">「D-Link 表示不會修補 6 萬台舊款數據機」</a></h2>
-<ul>
-<li>「D-Link 宣布將不再為已達到生命週期終止狀態的 60,000 台舊款數據機提供安全性更新，並敦促用戶升級至較新的型號。」</li>
-<li>未修補的安全漏洞可能讓駭客控制這些裝置，構成重大風險。</li>
-<li>大多數受影響的數據機位於台灣，對於無法升級的用戶，D-Link 建議限制遠端存取並使用安全密碼作為預防措施。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249790">評論</a></h3>
-<ul>
-<li>「D-Link 已決定不修補 60,000 台舊型數據機的漏洞，使其暴露於安全風險之中，這引發了對設備安全性和製造商責任的擔憂。」</li>
-<li>這項公告引發了關於長期支援重要性以及像 OpenWRT 這樣的開源解決方案在維護設備安全方面潛在好處的討論。</li>
-<li>有建議要求法律規定製造商在設備達到使用壽命終止時提供安全更新或向公眾發布韌體，這突顯了一個更廣泛的產業問題。</li>
-</ul>
-<h2><a href="https://www.technicianonline.com/news/popular-nc-state-professor-marshall-brain-dies-alleges-retaliation-for-ethics-complaints/article_152e5c80-ac2e-11ef-8b3f-036ac3c8d9bf.html">「馬歇爾·布萊恩在指控北卡羅來納州立大學報復後數小時去世」</a></h2>
-<ul>
-<li>北卡羅來納州立大學教授 Marshall Brain，HowStuffWorks.com 的創辦人，於 11 月 20 日被發現死於他的辦公室，此前他曾指控大學官員進行報復。</li>
-<li>「布萊恩聲稱他因倫理投訴而被迫退休，但大學對這些指控或他的死並未發表評論。」</li>
-<li>前學生和同事對於大學的沉默表示失望，強調了這個不斷發展的事件的持續性。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251656">評論</a></h3>
-<ul>
-<li>馬歇爾·布萊恩(Marshall Brain)，一位曾任教於北卡羅來納州立大學的教授，在聲稱因其道德投訴而遭到大學管理層報復後去世。</li>
-<li>他的案例突顯了理想主義與現實之間的緊張關係，說明了追究掌權者責任的潛在危險。</li>
-<li>該事件引發了對內部舉報系統效能及學術機構內更廣泛權力動態的討論。</li>
-</ul>
-<h2><a href="https://ianthehenry.com/posts/janet-for-mortals/">「Janet for Mortals (2023)」</a></h2>
-<ul>
-<li>作者發布了一本名為《Janet for Mortals》的免費線上書籍，專注於Janet程式語言，這本書花了20週的時間撰寫。- 書中包含44,000字，並附有一個網站，提供REPL(讀取-求值-輸出循環)以供互動學習。- 這本書及相關專案，如C++函式庫綁定和測試框架，在Hacker News等平台上獲得了正面關注。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42253241">評論</a></h3>
-<ul>
-<li>《Janet for Mortals》是一本書，提供一個可透過 Esc 鍵存取的互動式 REPL(讀取-求值-輸出循環)，讓使用者能夠直接在瀏覽器中實驗 Janet 程式語言，而無需安裝。</li>
-<li>Janet 因其易於嵌入和創建領域專用語言(DSL)而受到認可，儘管有些使用者指出其文件可以改進。</li>
-<li>儘管對書名有一些爭議，這本書引人入勝的風格和語言的獨特特點已經引起了興趣並獲得了正面的回饋。</li>
-</ul>
-<h2><a href="https://www.jeffgeerling.com/blog/2024/raspberry-pi-cm5-2-3x-faster-drop-upgrade-mostly">「Raspberry Pi CM5 是一個更快速的即插即用升級」</a></h2>
-<ul>
-<li>Raspberry Pi Compute Module 5(CM5)是對CM4的一次重大升級，提供2到3倍的性能提升，支援USB 3和PCIe Gen 3相容性，同時保持相同的外形尺寸。</li>
-<li>CM5 的定價與 CM4 相似，8GB 型號起價為 75 美元，並配備更快的 CPU、RAM 和改進的圖形性能，儘管在全負載運行時耗電量更高。</li>
-<li>「一款更新的 IO 板也已推出，售價為 20 美元，具備 USB-C 電源和其他增強功能，突顯了 CM5 的支援和模組化設計，儘管面臨其他單板電腦(SBC)的競爭。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42254379">評論</a></h3>
-<ul>
-<li>「Raspberry Pi CM5 相較於 CM4 提供了顯著的性能提升，速度提高了 2-3 倍，並且包含了 USB 3 的升級。」</li>
-<li>雖然 8GB 版本維持其價格，但其他版本則較為昂貴，有些使用者指出其他主板可能有更好的規格。</li>
-<li>「儘管硬體有所改進，CM5 缺乏硬體編碼支援，但可以解碼 H.265，而 Raspberry Pi 的強大社群和支援仍然是其主要優勢。」</li>
-</ul>
-<h2><a href="https://arstechnica.com/tech-policy/2024/11/isps-say-their-excellent-customer-service-is-why-users-dont-switch-providers/">網際網路服務供應商表示，他們的「優質客戶服務」是用戶不更換供應商的原因</a></h2>
-<ul>
-<li>「ISP 遊說團體主張，競爭確保了高水準的客戶服務標準，使得額外的法規變得不必要，因為劣質服務會促使客戶轉換服務提供商。」</li>
-<li>加州和俄勒岡州的監管機構報告顧客普遍不滿，強調了如長時間等待和帳單問題等問題，這與網際網路服務供應商的聲稱相矛盾。</li>
-<li>FCC 正在審查客戶服務的做法，但由於布蘭登·卡爾的領導，他是由當選總統川普任命的，因此不太可能出台新規，因為重點轉向減少監管負擔。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251564">評論</a></h3>
-<ul>
-<li>網際網路服務供應商將客戶留存歸因於他們的「優秀客戶服務」，但許多人認為這是由於某些地區缺乏競爭所致。</li>
-<li>在網際網路服務供應商選擇有限的地區，使用者即使對服務品質不滿意，通常仍會繼續使用目前的供應商。</li>
-<li>澳洲和加拿大等國在市場監管和促進競爭方面的努力面臨持續挑戰，用戶呼籲實現真正的競爭和改進的監管措施。</li>
-</ul>
-<h2><a href="https://news.ycombinator.com/item?id=42256093">給尋求了解最新 AI 動態的軟體工程師的建議</a></h2>
-<ul>
-<li>該用戶正在積極尋找有關人工智慧(AI)最新動態的可靠來源，特別是透過類似 Hacker News(HN)的科技部落格。</li>
-<li>他們有使用 ChatGPT 和 OpenAI API 的經驗，特別是版本 3.5，這表明他們對 AI 工具有實際的興趣。</li>
-<li>使用者找到了 Simon Willison 的部落格，但覺得缺乏連貫性，建議需要更有結構和全面的 AI 資訊來源。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42256093">評論</a></h3>
-<ul>
-<li>軟體工程師可以透過參加 Kaggle 比賽來提升他們的 AI 技能，這些比賽提供了實際的動手學習經驗。</li>
-<li>透過科技部落格、電子報和 YouTube 頻道，如 Simon Willison&#39;s、AI Supremacy 和 3Blue1Brown，保持資訊更新可以提供基礎和最新的 AI 知識。</li>
-<li>參與 Reddit 和 Twitter 等平台上的 AI 社群，以及探索來自 MIT xPRO 的書籍和線上課程等教育資源，可以加深理解並讓工程師掌握最新的 AI 趨勢。</li>
-</ul>
-<h2><a href="https://www.washingtonpost.com/technology/2024/11/26/openai-sora-ai-video-model-artists-protest/">OpenAI 暫停影片模型 Sora，因藝術家洩露訪問權限以示抗議</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42252806">評論</a></h3>
-<ul>
-<li>「OpenAI 暫停了其影片模型 Sora，因為藝術家在抗議未支付參與費用的情況下洩露了訪問權限，儘管並未承諾補償。這次抗議引發了對 AI 可能取代藝術家的擔憂，並突顯了與 AI 開發中未支付勞動相關的倫理問題。有些人認為這次抗議是為了引起業界對這些更廣泛問題的關注而進行的策略性努力。」</li>
-</ul>
-<h2><a href="https://www.nytimes.com/2024/11/26/us/usps-new-mail-trucks.html">是的，它『看起來像鴨子』，但像新的 USPS 郵件卡車這樣的運輸工具很受歡迎</a></h2>
-<ul>
-<li>美國郵政署正在推出新的電動郵件卡車，作為96億美元現代化計畫的一部分，提供空調、增加的貨物空間和增強的安全性等功能。</li>
-<li>「原本計劃主要使用燃氣動力的車隊，因法律挑戰，現在有75%將改為電動車，這標誌著向可持續發展的一個重大轉變。」</li>
-<li>儘管設計不尋常，這些卡車因其舒適性和效率而受到好評，並結合了郵遞員的意見，包含防滑表面、安全氣囊和防撞系統等功能。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249545">評論</a></h3>
-<ul>
-<li>新的 USPS 郵件卡車設計強調可見性和安全性，具有低引擎蓋和大型保險桿，以增強行人安全和駕駛員舒適性，特別是在城市環境中。</li>
-<li>雖然其非傳統的外觀引發了爭議，但這款卡車的設計注重耐用性，類似於長期服役的 Grumman LLV。</li>
-<li>「該設計還著重於改善郵政工作人員的工作條件，並包含電動車選項以滿足現代配送需求。」</li>
-</ul>
-<h2><a href="https://volfpeter.github.io/htmy/">Htmy – 非同步、純 Python 的渲染引擎</a></h2>
-<ul>
-<li>「htmy」是一個純 Python 的渲染引擎，支援非同步和同步函數元件、類似 React 的上下文管理，以及內建的 HTML 標籤，使其在各種網頁開發需求中具有多功能性。它提供了如 Markdown 支援、基於 JSON 的國際化，以及與任何後端或前端框架的輕鬆整合等功能，增強了其適應性和自訂性。該函式庫在 MIT 許可下開源，鼓勵社群貢獻，並可透過 PyPI 使用 <code>pip install htmy</code> 進行安裝。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251919">評論</a></h3>
-<ul>
-<li>Htmy 是一個非同步、純 Python 的 HTML 渲染引擎，引發了關於其與 Jinja 相比的冗長性以及在 HTML 渲染中使用非同步的必要性的討論。</li>
-<li>討論強調了在基於元件的設計中，使用非同步進行動態資料擷取的潛在好處，儘管對於它是否使程式碼變得複雜的看法不一。</li>
-<li>Htmy 旨在提供一個靈活的渲染解決方案，但其相較於像 Jinja 這樣的成熟工具的優勢仍在討論中。</li>
-</ul>
-<head>
-  <meta property="og:title" content="每次解鎖手機時都會問「為什麼？」的應用程式" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E6%AF%8F%E6%AC%A1%E8%A7%A3%E9%8E%96%E6%89%8B%E6%A9%9F%E6%99%82%E9%83%BD%E6%9C%83%E5%95%8F%E3%80%8C%E7%82%BA%E4%BB%80%E9%BA%BC%EF%BC%9F%E3%80%8D%E7%9A%84%E6%87%89%E7%94%A8%E7%A8%8B%E5%BC%8F&subheading=2024%E5%B9%B411%E6%9C%8827%E6%97%A5%20%E6%98%9F%E6%9C%9F%E4%B8%89%3A%20Hacker%20News%20%E6%91%98%E8%A6%81" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/zh/Hant/2024/11/27</link>
-            <guid isPermaLink="false">2024-11-27T00:00:00.000Z</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

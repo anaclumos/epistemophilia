@@ -1,0 +1,190 @@
+[
+  {
+    "id": 42344002,
+    "title": "Mitt andre år uten jobb",
+    "originLink": "https://shilin.ca/my-second-year-without-job/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42344002",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [],
+    "points": 381,
+    "commentCount": 567,
+    "retryCount": 0,
+    "time": 1733516765
+  },
+  {
+    "id": 42343089,
+    "title": "Dialogelementet",
+    "originLink": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42343089",
+    "commentBody": "",
+    "originSummary": [
+      "HTML-elementet `` brukes til å lage dialogbokser, som kan være modale (stopper sideinteraksjon) eller ikke-modale (tillater interaksjon).",
+      "JavaScript-metodene `.showModal()` og `.show()` brukes til å vise henholdsvis modale og ikke-modale dialoger, mens `.close()` brukes til å lukke dem.",
+      "Tilgjengelighet er avgjørende; sørg for at fokus er riktig satt og gi en lukkemekanisme, som en knapp, mens du bruker CSS `::backdrop` for å style modal bakgrunner."
+    ],
+    "commentSummary": [
+      "Dialogelementet på developer.mozilla.org har initiert en debatt om bruken av interaktive HTML-elementer, som filvelgere og mediespillere, med ulike meninger om deres konsistens og forutsigbarhet på tvers av nettlesere.",
+      "Mens noen utviklere kritiserer dialogelementet for å være ustylet og ikke fungere som native popups, verdsetter andre dets semantiske og tilgjengelighetsfordeler.",
+      "Diskusjonen fremhever utfordringer med å opprettholde designkonsistens og bekymringer om potensiell misbruk av annonsører, noe som indikerer at dialogelementet er et progressivt skritt, men fortsatt krever forbedringer."
+    ],
+    "points": 295,
+    "commentCount": 136,
+    "retryCount": 0,
+    "time": 1733512147
+  },
+  {
+    "id": 42343121,
+    "title": "Maps.me-medgründer prøver å stenge ned Organic Maps open-source fork",
+    "originLink": "https://github.com/orgs/organicmaps/discussions/9837",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42343121",
+    "commentBody": "",
+    "originSummary": [
+      "Organic Maps har gitt ut kildekoden for sin \"metaserver,\" som optimaliserer nedlastingshastigheter for kart ved å dirigere brukere til de beste Content Delivery Network (CDN)-serverne basert på deres plassering.",
+      "Den opprinnelige koden, som var lukket for å forhindre uautoriserte forgreininger, er nå åpen under MIT-lisensen, noe som fremmer åpenhet og samfunnsengasjement.",
+      "Teamet vurderer på nytt bruken av Cloudflare Workers for å forhindre leverandørlåsing og har reversert uautoriserte endringer gjort av en bidragsyter, og understreker deres forpliktelse til personvern og åpenhet."
+    ],
+    "commentSummary": [
+      "Alexander Borsuk, medgründer av Maps.me, forsøkte å stenge Organic Maps' open-source fork ved å endre dens MIT-lisens og legge til logging i et privat repository. Roman Tsisyk, en annen prosjektvedlikeholder, reverserte disse endringene og gjorde repositoryet offentlig, noe som førte til en konflikt og tilbakekalling av hans tillatelser. Hendelsen understreker interne uenigheter om prosjektets open-source natur, men Organic Maps fortsetter å være en mye brukt offline kartapplikasjon."
+    ],
+    "points": 269,
+    "commentCount": 62,
+    "retryCount": 0,
+    "time": 1733512298
+  },
+  {
+    "id": 42347606,
+    "title": "Hvordan bruke Postgres til alt",
+    "originLink": "https://github.com/Olshansk/postgres_for_everything",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42347606",
+    "commentBody": "",
+    "originSummary": [
+      "Postgres for Everything\" er et arkiv som fremmer bruken av PostgreSQL, en populær åpen kildekode relasjonsdatabase, for et bredt spekter av applikasjoner utover tradisjonelle databasetjenester. Arkivet inviterer til bidrag og sporer ulike innovative bruksområder for PostgreSQL, inkludert cron-jobber, meldingskøer, analyser og mer, og fremhever dens allsidighet. Initiativet inkluderer 11 elementer relatert til Supabase, en plattform som tilbyr backend-tjenester ved bruk av PostgreSQL, og viser dens integrasjon og nytte i moderne applikasjonsutvikling."
+    ],
+    "commentSummary": [
+      "Diskusjonen understreker Postgres' allsidighet i ulike applikasjoner, men peker også på begrensninger, som håndtering av nulltegn i strenger og behovet for tilpasset SQL for skip-indeksskanninger. Meningene varierer om bruken av Postgres til alle formål, med noen som advarer mot å være for avhengig av en enkelt database for store team, mens andre roser dens enkelhet og reduserte kompleksitet. Alternativer som Redis nevnes, sammen med utfordringer i skalering og viktigheten av å unngå over-engineering i de tidlige stadiene av et prosjekt."
+    ],
+    "points": 257,
+    "commentCount": 141,
+    "retryCount": 0,
+    "time": 1733550975
+  },
+  {
+    "id": 42343953,
+    "title": "Jeg ble fortalt løgner om samarbeidende redigering, Del 1: Algoritmer for offline redigering",
+    "originLink": "https://www.moment.dev/blog/lies-i-was-told-pt-1",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42343953",
+    "commentBody": "",
+    "originSummary": [
+      "På begynnelsen av 2024 fremhevet forskning på samarbeidsredigeringssystemer for Moments teksteditor utfordringer med offline redigering, der populære algoritmer som CRDT-er (Conflict-free Replicated Data Types) og OT (Operational Transformation) ofte svikter. Offline redigering øker direkte konflikter, med 20-30 % av disse konfliktene som resulterer i uakseptable utfall, noe som antyder at problemet er mer en brukergrensesnitt/brukeropplevelse (UI/UX) utfordring enn en algoritmisk en. Forskere fokuserer nå på å forbedre brukeropplevelsen i offline redigering, og trekker paralleller til hvordan git håndterer dokumentfletting, noe som er en lovende utvikling."
+    ],
+    "commentSummary": [
+      "Artikkelen tar for seg utfordringene ved samarbeidende redigering, spesielt offline, og kritiserer nåværende algoritmer som konfliktfrie replikerte datatyper (CRDT) og operasjonell transformasjon (OT) for ikke alltid å gi semantisk meningsfulle resultater. Det er enighet om behovet for forbedret konfliktløsning, potensielt gjennom brukerinnspill eller avanserte verktøy som store språkmodeller (LLM), for å håndtere semantiske konflikter effektivt. Diskusjonen vurderer også rollen til brukergrensesnitt/brukeropplevelse (UI/UX) løsninger i å forbedre den samarbeidende redigeringsopplevelsen, og fremhever at problemet strekker seg utover algoritmer til å forstå brukerens hensikt."
+    ],
+    "points": 243,
+    "commentCount": 85,
+    "retryCount": 0,
+    "time": 1733516527
+  },
+  {
+    "id": 42346344,
+    "title": "Strukturerte utdata med Ollama",
+    "originLink": "https://ollama.com/blog/structured-outputs",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42346344",
+    "commentBody": "",
+    "originSummary": [
+      "Ollama har introdusert støtte for strukturerte utdata, som gjør det mulig for modeller å generere utdata i et spesifikt format ved hjelp av et JSON-skjema.",
+      "Denne funksjonen er nå tilgjengelig i de oppdaterte Ollama Python- og JavaScript-bibliotekene, nyttig for oppgaver som dataparsering fra dokumenter og bilder.",
+      "Brukere bør oppdatere til den nyeste versjonen av Ollama og bruke formatparameteren i cURL-forespørsler eller biblioteker, med fremtidige oppdateringer som lover ytelsesforbedringer og flere formatalternativer."
+    ],
+    "commentSummary": [
+      "Ollama tilbyr en metode for å generere strukturerte data, som JSON, fra språkmodeller, med diskusjoner om bruk av GBNF-grammatikker for mer allsidige utdataformater som XML eller SQL. - Brukere debatterer påliteligheten av JSON-utdata versus naturlig språk, med innsikt i hvordan språkmodeller (LLM-er) genererer tekst og rollen til strukturerte instruksjoner. - Ollamas integrasjon med llama.cpp er kjent for å forenkle modellbruk, selv om noen ser det som bare en innpakning, og funksjonen støtter ulike modeller med varierende nøyaktighetsnivåer."
+    ],
+    "points": 223,
+    "commentCount": 62,
+    "retryCount": 0,
+    "time": 1733533952
+  },
+  {
+    "id": 42346463,
+    "title": "RollerCoaster Tycoon var den siste i sitt slag [video]",
+    "originLink": "https://www.youtube.com/watch?v=0JouTsMQsEA",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42346463",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "RollerCoaster Tycoon, utviklet hovedsakelig i assembler av et lite team, ble en bestselger i 1999, og viste en sjelden utviklingsstil.",
+      "Fans foreslår OpenRCT2 for forbedrede funksjoner og kompatibilitet, og Roller Coaster Tycoon Classic for moderne enheter, mens alternativer som Parkitect og Planet Coaster gir varierte opplevelser.",
+      "Videoen fremhever utviklingen av spillutvikling og utfordringene små team møter når de konkurrerer med større studioer, med indie-suksesser som Minecraft som illustrerer potensialet for små team-prestasjoner."
+    ],
+    "points": 220,
+    "commentCount": 60,
+    "retryCount": 0,
+    "time": 1733535139
+  },
+  {
+    "id": 42343544,
+    "title": "Fruktose i kostholdet fremmer svulstvekst: forskning",
+    "originLink": "https://source.washu.edu/2024/12/research-reveals-how-fructose-in-diet-enhances-tumor-growth/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42343544",
+    "commentBody": "",
+    "originSummary": [
+      "Fruktoseforbruket har økt betydelig de siste 50 årene, hovedsakelig på grunn av høyfruktose maissirup i drikkevarer og bearbeidede matvarer.",
+      "Forskning fra Washington University i St. Louis indikerer at selv om fruktose ikke direkte gir næring til svulster, omdanner leveren det til næringsstoffer som støtter svulstvekst i kreftformer som melanom, bryst- og livmorhalskreft.",
+      "Studien antyder potensielle nye kreftbehandlinger ved å utforske metoder for å hindre fruktose i å bidra til tumorvekst, muligens gjennom kostholdsendringer eller legemidler, med delvis finansiering fra National Institutes of Health (NIH)."
+    ],
+    "commentSummary": [
+      "Forskning fra Washington University indikerer at høyt fruktoseforbruk kan fremme tumorvekst ved å øke sirkulerende lipider, som benyttes av kreftceller for vekst. Mens fruktose i frukt vanligvis er trygt på grunn av tilleggsnæringsstoffer, kan overdreven inntak fra kilder som høyfruktose maissirup være risikabelt. Studien understreker kompleksiteten i kreftmetabolisme og den potensielle innflytelsen av kosthold på kreftprogresjon, selv om videre forskning er nødvendig for å fullt ut forstå disse mekanismene."
+    ],
+    "points": 185,
+    "commentCount": 176,
+    "retryCount": 0,
+    "time": 1733514389
+  },
+  {
+    "id": 42346274,
+    "title": "Største shell-programmer",
+    "originLink": "https://github.com/oils-for-unix/oils/wiki/The-Biggest-Shell-Programs-in-the-World",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42346274",
+    "commentBody": "",
+    "originSummary": [
+      "Teksten fremhever betydelige shell-programmer, med fokus på omfattende håndskrevne skript i stedet for de som er generert av verktøy som autoconf. - Merkbare oppføringer inkluderer akinomyoga/ble.sh, en Bash Line Editor med 61K linjer med kode (LoC), og kalua, en OpenWRT-tillegg med 56K kildekodelinjer (SLoC). - Listen gir innsikt i kompleksiteten og mangfoldet av shell-skripting, med programmer som benytter datastrukturer og algoritmer, vanligvis over 5,000 linjer med kode."
+    ],
+    "commentSummary": [
+      "Diskusjonen fokuserer på kompleksitetene og utfordringene ved bruk av store shell-skript, som problemer med lesbarhet, feilhåndtering og portabilitet. - Brukere foreslår å vurdere alternativer som Python eller AWK for komplekse oppgaver på grunn av bedre vedlikeholdbarhet, mens verktøy som ShellCheck kan bidra til å forbedre kvaliteten på shell-skript. - Samtalen fremhever balansen mellom å bruke shell-skript for raske oppgaver og å velge mer robuste programmeringsspråk for større prosjekter."
+    ],
+    "points": 169,
+    "commentCount": 82,
+    "retryCount": 0,
+    "time": 1733533151
+  },
+  {
+    "id": 42343692,
+    "title": "DSPy – Programmering–ikke prompting–LMs",
+    "originLink": "https://dspy.ai/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42343692",
+    "commentBody": "",
+    "originSummary": [
+      "DSPy er et rammeverk designet for å bygge modulære AI-systemer ved å bruke komposisjonell Python-kode, med fokus på å forbedre språkmodell (LM) utganger uten å kun stole på prompt.- Det støtter flere store språkmodell (LLM) leverandører som OpenAI, Anthropic og Databricks, slik at brukere kan beskrive AI-atferd som kode, noe som letter enklere iterasjon og optimalisering.- Med opprinnelse fra Stanford NLP, har DSPy en sterk tilstedeværelse i samfunnet på GitHub og Discord, og bidrar til åpen kildekode AI-forskning og fremmer programarkitekturer og optimalisatorer."
+    ],
+    "commentSummary": [
+      "DSPy er et rammeverk designet for å optimalisere instruksjoner for språkmodeller (LMs) ved å automatisere utvalget av treningsdatasett, og dermed forbedre ytelsen og minimere manuelle justeringer.",
+      "Det støtter ende-til-ende-trening av store språkmodell (LLM) programmer, forhindrer bruk av utdaterte instruksjoner i kode, og er spesielt nyttig for oppgaver som datauttrekking og oppsummering.",
+      "Selv om noen brukere synes DSPys kompleksitet er utfordrende, blir det verdsatt for sin strukturerte tilnærming og funksjoner som påstander og forslag som håndhever outputbegrensninger."
+    ],
+    "points": 159,
+    "commentCount": 33,
+    "retryCount": 0,
+    "time": 1733515189
+  }
+]

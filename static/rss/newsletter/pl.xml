@@ -15,12 +15,113 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 06 Dec 2024 19:14:39 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Dec 2024 19:11:53 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/pl.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 06 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[pl]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-12-07]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/12/07&#39;</h2>
+<h1>2024-12-07</h1>
+<h2><a href="https://shilin.ca/my-second-year-without-job/">„Mój drugi rok bez pracy”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42344002">Reakcje</a></h3>
+<h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog">„Element dialogowy”</a></h2>
+<ul>
+<li>„Element HTML `` jest używany do tworzenia okien dialogowych, które mogą być modalne (wstrzymujące interakcję ze stroną) lub niemodalne (pozwalające na interakcję).”</li>
+<li>„Metody JavaScript <code>.showModal()</code> i <code>.show()</code> są używane do wyświetlania odpowiednio dialogów modalnych i niemodalnych, natomiast <code>.close()</code> służy do ich zamykania.”</li>
+<li>„Dostępność jest kluczowa; upewnij się, że fokus jest ustawiony poprawnie i zapewnij mechanizm zamykający, taki jak przycisk, używając CSS <code>::backdrop</code> do stylizacji tła modalu.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343089">Reakcje</a></h3>
+<ul>
+<li>„Element dialog na developer.mozilla.org zainicjował debatę na temat użycia interaktywnych elementów HTML, takich jak selektory plików i odtwarzacze multimedialne, z różnymi opiniami na temat ich spójności i przewidywalności w różnych przeglądarkach.”</li>
+<li>„Podczas gdy niektórzy deweloperzy krytykują element dialogowy za brak stylizacji i nie działanie jak natywne okna popup, inni cenią jego zalety semantyczne i dostępnościowe.”</li>
+<li>„Dyskusja podkreśla wyzwania związane z utrzymaniem spójności projektowej oraz obawy dotyczące potencjalnego nadużycia przez reklamodawców, wskazując, że element dialogu jest krokiem naprzód, ale wciąż wymaga ulepszeń.”</li>
+</ul>
+<h2><a href="https://github.com/orgs/organicmaps/discussions/9837">„Współzałożyciel Maps.me próbuje zamknąć open-source&#39;owy fork Organic Maps”</a></h2>
+<ul>
+<li>„Organic Maps udostępniło kod źródłowy swojego „metaserwera”, który optymalizuje prędkości pobierania map, kierując użytkowników do najlepszych serwerów sieci dostarczania treści (CDN) w oparciu o ich lokalizację.”</li>
+<li>„Kod, początkowo zamknięty, aby zapobiec nieautoryzowanym forkom, jest teraz otwarty na licencji MIT, co promuje przejrzystość i zaangażowanie społeczności.”</li>
+<li>„Zespół ponownie rozważa użycie Cloudflare Workers, aby zapobiec uzależnieniu od jednego dostawcy, i cofnął nieautoryzowane zmiany wprowadzone przez współpracownika, podkreślając swoje zaangażowanie w prywatność i przejrzystość.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343121">Reakcje</a></h3>
+<ul>
+<li>„Alexander Borsuk, współzałożyciel Maps.me, próbował zamknąć otwartoźródłowy fork Organic Maps, zmieniając jego licencję MIT i dodając logowanie do prywatnego repozytorium. Roman Tsisyk, inny opiekun projektu, cofnął te zmiany i upublicznił repozytorium, co doprowadziło do konfliktu i odebrania mu uprawnień. Incydent podkreśla wewnętrzne nieporozumienia dotyczące otwartoźródłowego charakteru projektu, jednak Organic Maps nadal jest szeroko używaną aplikacją do map offline.”</li>
+</ul>
+<h2><a href="https://github.com/Olshansk/postgres_for_everything">„Jak używać Postgresa do wszystkiego”</a></h2>
+<ul>
+<li>„„Postgres for Everything” to repozytorium, które promuje użycie PostgreSQL, popularnej otwartoźródłowej relacyjnej bazy danych, do szerokiego zakresu zastosowań wykraczających poza tradycyjne zadania bazodanowe. Repozytorium zaprasza do współpracy i śledzi różne innowacyjne zastosowania PostgreSQL, w tym zadania cron, kolejki wiadomości, analizy i inne, podkreślając jego wszechstronność. Inicjatywa obejmuje 11 elementów związanych z Supabase, platformą oferującą usługi backendowe z wykorzystaniem PostgreSQL, ukazując jej integrację i użyteczność we współczesnym rozwoju aplikacji.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42347606">Reakcje</a></h3>
+<ul>
+<li>„Dyskusja podkreśla wszechstronność Postgresa w różnych zastosowaniach, ale również wskazuje na ograniczenia, takie jak obsługa znaków null w ciągach znaków i konieczność stosowania niestandardowego SQL do pomijania indeksów w skanach. Opinie na temat używania Postgresa do wszystkich celów są podzielone; niektórzy ostrzegają przed nadmiernym poleganiem na jednej bazie danych w dużych zespołach, podczas gdy inni chwalą jego prostotę i zmniejszoną złożoność. Wspomniane są alternatywy, takie jak Redis, wraz z wyzwaniami związanymi ze skalowaniem i znaczeniem unikania nadmiernego inżynierowania we wczesnych etapach projektu.”</li>
+</ul>
+<h2><a href="https://www.moment.dev/blog/lies-i-was-told-pt-1">„Kłamstwa, które mi powiedziano o wspólnej edycji, Część 1: Algorytmy do edycji offline”</a></h2>
+<ul>
+<li>„Na początku 2024 roku badania nad systemami współpracy w edytorze tekstu Moment uwypukliły wyzwania związane z edycją offline, gdzie popularne algorytmy, takie jak CRDT (Conflict-free Replicated Data Types) i OT (Operational Transformation), często zawodzą. Edycja offline zwiększa bezpośrednie konflikty, z czego 20-30% tych konfliktów prowadzi do nieakceptowalnych wyników, co sugeruje, że problem jest bardziej wyzwaniem związanym z interfejsem użytkownika/doświadczeniem użytkownika (UI/UX) niż algorytmicznym. Badacze obecnie koncentrują się na poprawie doświadczenia użytkownika w edycji offline, czerpiąc analogie z tym, jak git radzi sobie z łączeniem dokumentów, co jest obiecującym kierunkiem rozwoju.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343953">Reakcje</a></h3>
+<ul>
+<li>„Artykuł porusza wyzwania związane z edycją współpracującą, zwłaszcza offline, i krytykuje obecne algorytmy, takie jak typy danych replikowane bez konfliktów (CRDT) i transformacja operacyjna (OT), za to, że nie zawsze dają semantycznie znaczące wyniki. Istnieje konsensus co do potrzeby poprawy rozwiązywania konfliktów, potencjalnie poprzez wkład użytkowników lub zaawansowane narzędzia, takie jak duże modele językowe (LLM), aby skutecznie radzić sobie z konfliktami semantycznymi. Dyskusja uwzględnia również rolę rozwiązań interfejsu użytkownika/doświadczenia użytkownika (UI/UX) w poprawie doświadczenia edycji współpracującej, podkreślając, że problem wykracza poza algorytmy i dotyczy zrozumienia intencji użytkownika.”</li>
+</ul>
+<h2><a href="https://ollama.com/blog/structured-outputs">„Strukturalne wyniki z Ollama”</a></h2>
+<ul>
+<li>„Ollama wprowadziła obsługę strukturalnych wyników, umożliwiając modelom generowanie wyników w określonym formacie za pomocą schematu JSON.”</li>
+<li>„Ta funkcja jest teraz dostępna w zaktualizowanych bibliotekach Ollama Python i JavaScript, przydatna do zadań takich jak analiza danych z dokumentów i obrazów.”</li>
+<li>„Użytkownicy powinni zaktualizować do najnowszej wersji Ollama i używać parametru format w żądaniach cURL lub bibliotekach, a przyszłe aktualizacje obiecują poprawę wydajności i więcej opcji formatowania.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42346344">Reakcje</a></h3>
+<ul>
+<li>„Ollama oferuje metodę generowania danych strukturalnych, takich jak JSON, z modeli językowych, z dyskusjami na temat użycia gramatyk GBNF do bardziej wszechstronnych formatów wyjściowych, takich jak XML czy SQL. Użytkownicy debatują nad niezawodnością wyjść JSON w porównaniu z językiem naturalnym, z wglądem w to, jak modele językowe (LLM) generują tekst i rolę strukturalnych podpowiedzi. Integracja Ollama z llama.cpp jest zauważana za uproszczenie użycia modelu, choć niektórzy postrzegają to jedynie jako nakładkę, a funkcja wspiera różne modele o zróżnicowanych poziomach dokładności.”</li>
+</ul>
+<h2><a href="https://www.youtube.com/watch?v=0JouTsMQsEA">„RollerCoaster Tycoon był ostatnim tego rodzaju [wideo]”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42346463">Reakcje</a></h3>
+<ul>
+<li>„RollerCoaster Tycoon, opracowany głównie w języku asemblera przez mały zespół, stał się bestsellerem w 1999 roku, prezentując rzadki styl rozwoju.”</li>
+<li>„Fani sugerują OpenRCT2 dla ulepszonych funkcji i kompatybilności oraz Roller Coaster Tycoon Classic dla nowoczesnych urządzeń, podczas gdy alternatywy takie jak Parkitect i Planet Coaster oferują zróżnicowane doświadczenia.”</li>
+<li>„Film podkreśla ewolucję tworzenia gier oraz wyzwania, z jakimi małe zespoły muszą się zmierzyć, konkurując z większymi studiami, przy czym sukcesy niezależnych produkcji, takich jak Minecraft, ukazują potencjał osiągnięć małych zespołów.”</li>
+</ul>
+<h2><a href="https://source.washu.edu/2024/12/research-reveals-how-fructose-in-diet-enhances-tumor-growth/">„Fruktoza w diecie wspomaga wzrost guza: badania”</a></h2>
+<ul>
+<li>„Spożycie fruktozy znacznie wzrosło w ciągu ostatnich 50 lat, głównie z powodu syropu glukozowo-fruktozowego w napojach i przetworzonej żywności.”</li>
+<li>„Badania z Uniwersytetu Waszyngtońskiego w St. Louis wskazują, że chociaż fruktoza nie zasila bezpośrednio nowotworów, wątroba przekształca ją w składniki odżywcze wspierające wzrost nowotworów, takich jak czerniak, rak piersi i rak szyjki macicy.”</li>
+<li>„Badanie sugeruje potencjalne nowe metody leczenia raka poprzez eksplorację sposobów zapobiegania wspomaganiu wzrostu guza przez fruktozę, być może poprzez zmiany w diecie lub farmaceutyki, z częściowym finansowaniem ze strony National Institutes of Health (NIH).”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343544">Reakcje</a></h3>
+<ul>
+<li>„Badania z Uniwersytetu Waszyngtońskiego wskazują, że wysokie spożycie fruktozy może sprzyjać wzrostowi nowotworów poprzez zwiększenie krążących lipidów, które są wykorzystywane przez komórki rakowe do wzrostu. Chociaż fruktoza w owocach jest zazwyczaj bezpieczna ze względu na dodatkowe składniki odżywcze, nadmierne spożycie z takich źródeł jak syrop glukozowo-fruktozowy może być ryzykowne. Badanie podkreśla złożoność metabolizmu nowotworów i potencjalny wpływ diety na postęp raka, choć konieczne są dalsze badania, aby w pełni zrozumieć te mechanizmy.”</li>
+</ul>
+<h2><a href="https://github.com/oils-for-unix/oils/wiki/The-Biggest-Shell-Programs-in-the-World">„Największe programy powłoki”</a></h2>
+<ul>
+<li>„Strona podkreśla znaczące programy powłoki, koncentrując się na istotnych ręcznie pisanych skryptach, a nie tych generowanych przez narzędzia takie jak autoconf. - Do godnych uwagi wpisów należą akinomyoga/ble.sh, edytor linii Bash z 61 tysiącami linii kodu (LoC), oraz kalua, dodatek OpenWRT z 56 tysiącami linii kodu źródłowego (SLoC). - Lista dostarcza wglądu w złożoność i różnorodność skryptów powłoki, prezentując programy, które wykorzystują struktury danych i algorytmy, zazwyczaj przekraczające 5 tysięcy linii kodu.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42346274">Reakcje</a></h3>
+<ul>
+<li>„Dyskusja koncentruje się na złożonościach i wyzwaniach związanych z używaniem dużych skryptów powłoki, takich jak problemy z czytelnością, obsługą błędów i przenośnością. Użytkownicy sugerują rozważenie alternatyw, takich jak Python lub AWK, do złożonych zadań ze względu na lepszą możliwość utrzymania, podczas gdy narzędzia takie jak ShellCheck mogą pomóc w poprawie jakości skryptów powłoki. Rozmowa podkreśla równowagę między używaniem skryptów powłoki do szybkich zadań a wyborem bardziej solidnych języków programowania do większych projektów.”</li>
+</ul>
+<h2><a href="https://dspy.ai/">„DSPy – Programowanie–nie podpowiadanie–LMs”</a></h2>
+<ul>
+<li>„DSPy to framework zaprojektowany do budowania modularnych systemów AI przy użyciu kompozycyjnego kodu Python, koncentrujący się na poprawie wyników modeli językowych (LM) bez polegania wyłącznie na promptach. Wspiera wielu dostawców dużych modeli językowych (LLM), takich jak OpenAI, Anthropic i Databricks, umożliwiając użytkownikom opisywanie zachowań AI jako kod, co ułatwia iterację i optymalizację. Wywodzący się z Stanford NLP, DSPy ma silną obecność w społeczności na GitHubie i Discordzie, przyczyniając się do badań nad otwartym oprogramowaniem AI oraz rozwoju architektur programów i optymalizatorów.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343692">Reakcje</a></h3>
+<ul>
+<li>„DSPy to framework zaprojektowany w celu optymalizacji promptów dla modeli językowych (LM) poprzez automatyzację wyboru podzbiorów danych treningowych, co w efekcie poprawia wydajność i minimalizuje ręczne dostosowania.”</li>
+<li>„Obsługuje kompleksowe szkolenie programów dużych modeli językowych (LLM), zapobiegając używaniu przestarzałych podpowiedzi w kodzie, i jest szczególnie przydatne w zadaniach takich jak ekstrakcja danych i podsumowywanie.”</li>
+<li>„Podczas gdy niektórzy użytkownicy uważają złożoność DSPy za wyzwanie, jest ona ceniona za swoje uporządkowane podejście oraz funkcje takie jak asercje i sugestie, które wymuszają ograniczenia wyjściowe.”</li>
+</ul>
+<head>
+  <meta property="og:title" content="„Mój drugi rok bez pracy”" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EM%C3%B3j%20drugi%20rok%20bez%20pracy%E2%80%9D&subheading=sobota%2C%207%20grudnia%202024%3A%20Podsumowanie%20Hacker%20News" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/pl/2024/12/07</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000Z</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-12-06]]></title>
             <description
@@ -1041,173 +1142,6 @@
             <link>https://hn.cho.sh/pl/2024/11/28</link>
             <guid isPermaLink="false">2024-11-28T00:00:00.000Z</guid>
             <pubDate>Thu, 28 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-11-27]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/11/27&#39;</h2>
-<h1>2024-11-27</h1>
-<h2><a href="https://play.google.com/store/apps/details?id=com.actureunlock&hl=en_US">„Aplikacja, która pyta &#39;dlaczego?&#39; za każdym razem, gdy odblokowujesz telefon”</a></h2>
-<ul>
-<li>„Intenty to aplikacja, która zachęca użytkowników do rozwijania zdrowszych nawyków związanych z używaniem telefonu poprzez przypomnienia o świadomości przy odblokowywaniu urządzeń. Aplikacja kładzie nacisk na prywatność, działając całkowicie lokalnie bez reklam i śledzenia, a uprawnienia Androida wykorzystuje wyłącznie do funkcjonalności, bez zbierania danych. Dzięki minimalistycznemu designowi i inteligentnej personalizacji, Intenty ma ocenę 4,4 gwiazdki i ponad 10 000 pobrań, przyciągając użytkowników dążących do zmniejszenia bezmyślnego korzystania z telefonu.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42254156">Reakcje</a></h3>
-<ul>
-<li>„Aplikacja, która po odblokowaniu telefonu zadaje użytkownikom pytanie „dlaczego?”, zyskuje uwagę na Hacker News ze względu na swój potencjał do zmniejszenia rozproszenia uwagi.”</li>
-<li>„Użytkownicy uważają aplikację za pomocną, ale czasami niewygodną do szybkich zadań, co prowadzi do sugestii dotyczących ulepszeń, takich jak losowe generowanie podpowiedzi lub umożliwienie pominięcia specyficznych dla aplikacji.”</li>
-<li>„Deweloper rozważa opinie użytkowników dotyczące aktualizacji, w tym opcję jednorazowego zakupu zamiast modelu subskrypcyjnego.”</li>
-</ul>
-<h2><a href="https://www.downtowndougbrown.com/2024/11/the-capacitor-that-apple-soldered-incorrectly-at-the-factory/">„Kondensator, który Apple nieprawidłowo przylutował w fabryce”</a></h2>
-<ul>
-<li>„Doug Brown zwraca uwagę na błąd produkcyjny w komputerze Macintosh LC III firmy Apple, gdzie kondensator został zamontowany odwrotnie, co może powodować problemy.”</li>
-<li>„Macintosh LC III, produkowany w latach 1993-1994 na rynek edukacyjny, nie przeszedł dużego wycofania z rynku pomimo tego błędu.”</li>
-<li>„Brown zaleca ostrożność przy wymianie kondensatorów, zwłaszcza nowoczesnych kondensatorów tantalowych, i rekomenduje ich prawidłowe zamontowanie, wbrew instrukcjom nadruku na płytce PCB.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42253119">Reakcje</a></h3>
-<ul>
-<li>„Apple omyłkowo zainstalowało kondensator odwrotnie w 34-letnim komputerze, co podkreśla znaczenie prawidłowej orientacji kondensatorów, zwłaszcza kondensatorów elektrolitycznych, które mają biegunowość i mogą ulec awarii, jeśli zostaną zainstalowane nieprawidłowo.”</li>
-<li>„To zdarzenie wywołało dyskusje na temat trwałości produktów i planowanego postarzania, a niektórzy sugerują, że nowoczesna elektronika jest celowo projektowana tak, aby miała krótszą żywotność w celu zwiększenia sprzedaży.”</li>
-<li>„Sytuacja przypomina wcześniejsze błędy produkcyjne popełniane przez inne firmy, takie jak Commodore, co wskazuje na powtarzający się problem w branży technologicznej.”</li>
-</ul>
-<h2><a href="https://benhouston3d.com/blog/why-i-left-kubernetes-for-google-cloud-run">„Nie potrzebowałem Kubernetes, i prawdopodobnie Ty też nie potrzebujesz”</a></h2>
-<ul>
-<li>„Autor przeszedł z Kubernetes na Google Cloud Run, wskazując na złożoność, koszty i wolne autoskalowanie Kubernetes jako wady. Google Cloud Run jest przedstawiany jako prostsza, bardziej opłacalna alternatywa, pobierająca opłaty tylko za rzeczywiste zużycie CPU i pamięci oraz oferująca szybkie skalowanie bez obciążenia zarządzaniem Kubernetes. Autor korzysta z GitHub Actions do ciągłej integracji/ciągłego wdrażania (CI/CD), zarządzanych baz danych i przesyłania wiadomości pub-sub, podkreślając przydatność Cloud Run dla projektów wymagających prostoty i wydajności w porównaniu do rozbudowanych funkcji Kubernetes.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42252336">Reakcje</a></h3>
-<ul>
-<li>„Artykuł krytykuje Kubernetes za nadmierną złożoność i często niepotrzebność w mniejszych projektach, sugerując, że prostsze rozwiązania, takie jak pojedyncza maszyna wirtualna (VM) lub serwer, mogą być bardziej efektywne.”</li>
-<li>„Podkreśla wyzwania związane z zarządzaniem Kubernetes, w tym dodatkową złożoność wynikającą z różnych dodatków oraz skłonność niektórych inżynierów do komplikowania systemów.”</li>
-<li>„Konsensus jest taki, że chociaż Kubernetes jest wartościowy, nie zawsze jest najlepszym wyborem dla operacji na mniejszą skalę, gdzie prostota może być bardziej korzystna.”</li>
-</ul>
-<h2><a href="https://krebsonsecurity.com/2024/11/hacker-in-snowflake-extortions-may-be-a-u-s-soldier/">„Haker w wymuszeniach Snowflake może być amerykańskim żołnierzem”</a></h2>
-<ul>
-<li>„Dwóch osób zostało aresztowanych za kradzież danych z firm korzystających z Snowflake, podczas gdy trzeci podejrzany, znany jako „Kiberphant0m”, jest nadal na wolności i uważa się, że jest żołnierzem armii USA w Korei Południowej.”</li>
-<li>„Grupa była zaangażowana w sprzedaż skradzionych danych i szantażowanie firm, a AT&amp;T podobno zapłaciło 370 000 dolarów, aby usunąć skradzione rekordy.”</li>
-<li>„Kanadyjskie władze aresztowały Alexandra Mouckę, a John Erin Binns jest osadzony w więzieniu w Turcji, obaj powiązani z naruszeniami, podczas gdy Kiberphant0m pozostaje aktywny na forach cyberprzestępczych.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251799">Reakcje</a></h3>
-<ul>
-<li>„Haker zaangażowany w szantażowanie Snowflake, zidentyfikowany jako Kiberphant0m, jest objęty śledztwem, a spekuluje się o możliwych powiązaniach z amerykańskim wojskiem.”</li>
-<li>„Kiberphant0m zaprzecza jakimkolwiek powiązaniom z wojskiem, sugerując, że była to taktyka wprowadzająca w błąd, chociaż analitycy wątpią, czy byłaby skuteczna w wprowadzeniu śledczych w błąd.”</li>
-<li>„Nieostrożne działania hakera, takie jak zamieszczenie zdjęcia w mundurze wojskowym, podkreślają trudności w utrzymaniu bezpieczeństwa operacyjnego i unikaniu cyfrowych śladów.”</li>
-</ul>
-<h2><a href="https://zetaoffice.net/">„ZetaOffice: LibreOffice w przeglądarce”</a></h2>
-<ul>
-<li>„ZetaOffice Web wprowadza LibreOffice do przeglądarek internetowych, umożliwiając dostęp z dowolnego urządzenia z opcjami samodzielnego hostingu lub korzystania z sieci dostarczania treści (CDN) dla kontroli danych. Pakiet obejmuje Writer, Calc i Impress do przetwarzania tekstu, arkuszy kalkulacyjnych i prezentacji, i jest dostępny zarówno na web, jak i na desktopie na systemach Linux i Windows, zapewniając kompatybilność dokumentów. ZetaOffice oferuje oprogramowanie open-source z płatnymi opcjami korzystania z CDN i wsparcia, oraz integruje się z istniejącymi systemami za pośrednictwem LibreOffice UNO API, działając efektywnie w nowoczesnych przeglądarkach.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249746">Reakcje</a></h3>
-<ul>
-<li>„ZetaOffice, wersja LibreOffice oparta na przeglądarce, spotyka się z krytyką za problemy z wydajnością i użytecznością, w tym za nieprawidłowe wprowadzanie danych i renderowanie tekstu.”</li>
-<li>„Trwa debata na temat tego, czy lepsze jest użycie płótna, czy też celowanie w DOM (Model Obiektowy Dokumentu) do renderowania układów dokumentów w biurowych pakietach internetowych.”</li>
-<li>„Pomimo wyzwań, ZetaOffice dąży do zapewnienia spójnego doświadczenia na różnych platformach i jest również dostępny jako natywna aplikacja na komputery stacjonarne.”</li>
-</ul>
-<h2><a href="https://www.techradar.com/pro/security/d-link-says-it-wont-patch-60-000-older-modems-as-theyre-not-worth-saving">„D-Link twierdzi, że nie załata 60 tys. starszych modemów”</a></h2>
-<ul>
-<li>„D-Link ogłosił, że nie będzie dostarczać poprawek bezpieczeństwa dla 60 000 starszych modemów, które osiągnęły status końca życia, zachęcając użytkowników do przejścia na nowsze modele.”</li>
-<li>„Niezałatane luki w zabezpieczeniach mogą potencjalnie pozwolić hakerom przejąć kontrolę nad tymi urządzeniami, co stanowi znaczące zagrożenie.”</li>
-<li>„Większość dotkniętych modemów znajduje się na Tajwanie, a dla użytkowników, którzy nie mogą dokonać aktualizacji, D-Link zaleca ograniczenie zdalnego dostępu i stosowanie bezpiecznych haseł jako środków ostrożności.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249790">Reakcje</a></h3>
-<ul>
-<li>„D-Link zdecydował się nie łatać luk w zabezpieczeniach w 60 000 starszych modemów, narażając je na ryzyko bezpieczeństwa, co budzi obawy dotyczące bezpieczeństwa urządzeń i odpowiedzialności producenta.”</li>
-<li>„Ogłoszenie wywołało dyskusje na temat znaczenia długoterminowego wsparcia oraz potencjalnych korzyści płynących z rozwiązań open-source, takich jak OpenWRT, dla utrzymania bezpieczeństwa urządzeń.”</li>
-<li>„Istnieją sugestie dotyczące prawnych nakazów wymagających od producentów dostarczania aktualizacji zabezpieczeń lub udostępniania oprogramowania układowego publicznie, gdy urządzenia osiągną koniec życia, co podkreśla szerszy problem w branży.”</li>
-</ul>
-<h2><a href="https://www.technicianonline.com/news/popular-nc-state-professor-marshall-brain-dies-alleges-retaliation-for-ethics-complaints/article_152e5c80-ac2e-11ef-8b3f-036ac3c8d9bf.html">„Marshall Brain zmarł kilka godzin po oskarżeniu o odwet na NC State”</a></h2>
-<ul>
-<li>„Profesor Marshall Brain z NC State, założyciel HowStuffWorks.com, został znaleziony martwy w swoim biurze 20 listopada, po tym jak oskarżył władze uczelni o odwet.”</li>
-<li>„Brain twierdził, że został zmuszony do przejścia na emeryturę w wyniku skarg etycznych, ale uniwersytet nie skomentował tych zarzutów ani jego śmierci.”</li>
-<li>„Byli studenci i koledzy wyrazili rozczarowanie milczeniem uniwersytetu, podkreślając ciągły charakter tej rozwijającej się historii.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251656">Reakcje</a></h3>
-<ul>
-<li>„Marshall Brain, były profesor na NC State, zmarł po tym, jak twierdził, że padł ofiarą odwetu ze strony administracji uniwersyteckiej z powodu jego skarg etycznych.”</li>
-<li>„Jego przypadek podkreśla napięcie między idealizmem a rzeczywistością, ukazując potencjalne niebezpieczeństwa związane z pociąganiem do odpowiedzialności osób u władzy.”</li>
-<li>„Incydent skłania do dyskusji na temat skuteczności wewnętrznych systemów zgłaszania oraz szerszej dynamiki władzy w instytucjach akademickich.”</li>
-</ul>
-<h2><a href="https://ianthehenry.com/posts/janet-for-mortals/">„Janet dla śmiertelników (2023)”</a></h2>
-<ul>
-<li>„Autor wydał darmową książkę online zatytułowaną „Janet for Mortals”, skupiającą się na języku programowania Janet, której napisanie zajęło 20 tygodni. Książka zawiera 44 000 słów i jest uzupełniona o stronę internetową z REPL (Read-Eval-Print Loop) do interaktywnej nauki. Książka i powiązane projekty, takie jak powiązania z biblioteką C++ i framework do testowania, zyskały pozytywną uwagę na platformach takich jak Hacker News.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42253241">Reakcje</a></h3>
-<ul>
-<li>„„Janet for Mortals” to książka, która oferuje interaktywny REPL (Read-Eval-Print Loop) dostępny za pomocą klawisza escape, umożliwiając użytkownikom eksperymentowanie z językiem programowania Janet bezpośrednio w przeglądarce, bez konieczności instalacji.”</li>
-<li>„Janet jest ceniona za łatwość osadzania i tworzenia języków specyficznych dla domen (DSL), chociaż niektórzy użytkownicy zauważają, że jej dokumentacja mogłaby być lepsza.”</li>
-<li>„Angażujący styl książki i unikalne cechy języka wzbudziły zainteresowanie i pozytywne opinie, mimo pewnych debat na temat tytułu książki.”</li>
-</ul>
-<h2><a href="https://www.jeffgeerling.com/blog/2024/raspberry-pi-cm5-2-3x-faster-drop-upgrade-mostly">„Raspberry Pi CM5 to szybsza, wymienna aktualizacja”</a></h2>
-<ul>
-<li>„Raspberry Pi Compute Module 5 (CM5) to znaczące ulepszenie w porównaniu do CM4, oferujące 2-3 razy szybszą wydajność, USB 3 i zgodność z PCIe Gen 3, przy zachowaniu tego samego formatu.”</li>
-<li>„CM5 jest wyceniony podobnie jak CM4, z modelem 8GB zaczynającym się od 75 dolarów, i zawiera szybszy procesor, RAM oraz ulepszoną grafikę, chociaż zużywa więcej energii przy pełnej wydajności.”</li>
-<li>„Zaktualizowana płyta IO została również wydana za 20 dolarów, oferując zasilanie USB-C i inne ulepszenia, podkreślając wsparcie i modułowość CM5 pomimo konkurencji ze strony innych komputerów jednopłytkowych (SBC).”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42254379">Reakcje</a></h3>
-<ul>
-<li>„Raspberry Pi CM5 oferuje znaczący wzrost wydajności w porównaniu do CM4, z prędkością 2-3 razy większą, i zawiera ulepszenie do USB 3.”</li>
-<li>„Podczas gdy wersja 8GB utrzymuje swoją cenę, inne wersje są droższe, a niektórzy użytkownicy zauważają, że inne płyty mogą mieć lepsze specyfikacje.”</li>
-<li>„Pomimo ulepszeń sprzętowych, CM5 nie obsługuje sprzętowego kodowania, ale potrafi dekodować H.265, a silna społeczność i wsparcie Raspberry Pi pozostają kluczowymi zaletami.”</li>
-</ul>
-<h2><a href="https://arstechnica.com/tech-policy/2024/11/isps-say-their-excellent-customer-service-is-why-users-dont-switch-providers/">„Dostawcy usług internetowych twierdzą, że ich „doskonała obsługa klienta” jest powodem, dla którego użytkownicy nie zmieniają dostawców”</a></h2>
-<ul>
-<li>„Grupy lobbingowe dostawców usług internetowych twierdzą, że konkurencja zapewnia wysokie standardy obsługi klienta, co sprawia, że dodatkowe regulacje są niepotrzebne, ponieważ słaba obsługa skłoniłaby klientów do zmiany dostawcy.”</li>
-<li>„Regulatorzy w Kalifornii i Oregonie zgłaszają powszechne niezadowolenie klientów, podkreślając problemy takie jak długie czasy oczekiwania na połączenie i problemy z rozliczeniami, co stoi w sprzeczności z twierdzeniami dostawców usług internetowych.”</li>
-<li>„FCC przegląda praktyki obsługi klienta, ale pod kierownictwem Brendana Carra, mianowanego przez prezydenta elekta Trumpa, nowe regulacje są mało prawdopodobne, ponieważ uwaga przesuwa się w kierunku zmniejszania obciążeń regulacyjnych.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251564">Reakcje</a></h3>
-<ul>
-<li>„Dostawcy usług internetowych przypisują utrzymanie klientów swojej „doskonałej obsłudze klienta”, ale wielu uważa, że jest to spowodowane brakiem konkurencji w niektórych obszarach.”</li>
-<li>„W regionach z ograniczonymi opcjami dostawców usług internetowych, użytkownicy często pozostają przy obecnym dostawcy pomimo niezadowolenia z jakości usług.”</li>
-<li>„Wysiłki w krajach takich jak Australia i Kanada, mające na celu regulację rynku i zwiększenie konkurencji, napotykają na ciągłe wyzwania, a użytkownicy domagają się prawdziwej konkurencji i lepszej regulacji.”</li>
-</ul>
-<h2><a href="https://news.ycombinator.com/item?id=42256093">„Rekomendacja dla inżyniera oprogramowania, który chce nadrobić zaległości w najnowszych trendach w dziedzinie sztucznej inteligencji”</a></h2>
-<ul>
-<li>„Użytkownik aktywnie poszukuje wiarygodnych źródeł najnowszych aktualizacji w dziedzinie sztucznej inteligencji (AI), szczególnie poprzez blogi technologiczne podobne do Hacker News (HN).”</li>
-<li>„Mają doświadczenie w korzystaniu z ChatGPT i OpenAI API, w szczególności wersji 3.5, co wskazuje na praktyczne zainteresowanie narzędziami AI.”</li>
-<li>„Użytkownik znalazł blog Simona Willisona, ale uważa, że brakuje mu spójności, sugerując potrzebę bardziej uporządkowanych i kompleksowych źródeł informacji o AI.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42256093">Reakcje</a></h3>
-<ul>
-<li>„Inżynierowie oprogramowania mogą doskonalić swoje umiejętności w zakresie sztucznej inteligencji, uczestnicząc w konkursach Kaggle, które oferują praktyczne, interaktywne doświadczenia edukacyjne.”</li>
-<li>„Pozostawanie na bieżąco dzięki blogom technologicznym, newsletterom i kanałom YouTube, takim jak Simon Willison&#39;s, AI Supremacy i 3Blue1Brown, może dostarczyć podstawowej i aktualnej wiedzy na temat AI.”</li>
-<li>„Angażowanie się w społeczności AI na platformach takich jak Reddit i Twitter, a także eksplorowanie zasobów edukacyjnych, takich jak książki i kursy online z MIT xPRO, może pogłębić zrozumienie i utrzymać inżynierów na bieżąco z najnowszymi trendami w AI.”</li>
-</ul>
-<h2><a href="https://www.washingtonpost.com/technology/2024/11/26/openai-sora-ai-video-model-artists-protest/">„OpenAI wstrzymuje model wideo Sora po tym, jak artyści ujawnili dostęp w proteście”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42252806">Reakcje</a></h3>
-<ul>
-<li>„OpenAI wstrzymało swój model wideo Sora po tym, jak artyści ujawnili dostęp w proteście przeciwko nieodpłatnemu udziałowi, mimo że nie było obietnicy wynagrodzenia. - Protest budzi obawy dotyczące potencjalnego zastąpienia artystów przez AI i podkreśla kwestie etyczne związane z nieodpłatną pracą w rozwoju AI. - Niektórzy postrzegają protest jako strategiczny wysiłek mający na celu zwrócenie uwagi na te szersze problemy w branży.”</li>
-</ul>
-<h2><a href="https://www.nytimes.com/2024/11/26/us/usps-new-mail-trucks.html">„Tak, &#39;wygląda jak kaczka&#39;, ale przewoźnicy lubią nowy samochód pocztowy USPS”</a></h2>
-<ul>
-<li>„Poczta Stanów Zjednoczonych wprowadza nowe elektryczne samochody dostawcze w ramach planu modernizacji o wartości 9,6 miliarda dolarów, oferując takie funkcje jak klimatyzacja, zwiększona przestrzeń ładunkowa i ulepszone bezpieczeństwo.”</li>
-<li>„Początkowo flota miała być w większości zasilana gazem, jednak 75% z niej będzie teraz elektryczna z powodu wyzwań prawnych, co oznacza znaczący krok w kierunku zrównoważonego rozwoju.”</li>
-<li>„Pomimo ich niekonwencjonalnego designu, ciężarówki zostały pozytywnie przyjęte za komfort i wydajność, uwzględniając opinie listonoszy i zawierając takie funkcje jak powierzchnie antypoślizgowe, poduszki powietrzne oraz system unikania kolizji.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249545">Reakcje</a></h3>
-<ul>
-<li>„Nowy projekt samochodu pocztowego USPS kładzie nacisk na widoczność i bezpieczeństwo, charakteryzując się niską maską i dużymi zderzakami, aby zwiększyć bezpieczeństwo pieszych i komfort kierowcy, szczególnie w warunkach miejskich.”</li>
-<li>„Chociaż jego niekonwencjonalny wygląd wywołał debatę, ciężarówka jest zaprojektowana z myślą o trwałości, podobnie jak długo służący Grumman LLV.”</li>
-<li>„Projekt koncentruje się również na poprawie warunków pracy listonoszy i obejmuje opcje pojazdów elektrycznych, aby sprostać nowoczesnym wymaganiom dostaw.”</li>
-</ul>
-<h2><a href="https://volfpeter.github.io/htmy/">„Htmy – Async, czysty silnik renderujący w Pythonie”</a></h2>
-<ul>
-<li>„„htmy” to czysty silnik renderujący w Pythonie, który obsługuje asynchroniczne i synchroniczne komponenty funkcji, zarządzanie kontekstem podobne do Reacta oraz wbudowane tagi HTML, co czyni go wszechstronnym dla różnych potrzeb związanych z tworzeniem stron internetowych. Oferuje funkcje takie jak wsparcie dla Markdown, internacjonalizację opartą na JSON oraz łatwą integrację z dowolnymi frameworkami backendowymi lub frontendowymi, co zwiększa jego adaptacyjność i możliwości dostosowywania. Biblioteka jest open-source&#39;owa na licencji MIT, co zachęca do wkładu społeczności, i można ją zainstalować za pośrednictwem PyPI, używając <code>pip install htmy</code>.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251919">Reakcje</a></h3>
-<ul>
-<li>„Htmy to asynchroniczny, czysto-Pythonowy silnik renderowania HTML, który wywołuje debatę na temat swojej rozwlekłości w porównaniu do Jinja oraz konieczności stosowania asynchroniczności w renderowaniu HTML.”</li>
-<li>„Dyskusja podkreśla potencjalne korzyści płynące z użycia async do dynamicznego pobierania danych w projektach opartych na komponentach, choć opinie różnią się co do tego, czy komplikuje to kod.”</li>
-<li>„Htmy ma na celu zapewnienie elastycznego rozwiązania do renderowania, ale jego zalety w porównaniu z uznanymi narzędziami, takimi jak Jinja, są nadal przedmiotem dyskusji.”</li>
-</ul>
-<head>
-  <meta property="og:title" content="„Aplikacja, która pyta 'dlaczego?' za każdym razem, gdy odblokowujesz telefon”" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EAplikacja%2C%20kt%C3%B3ra%20pyta%20'dlaczego%3F'%20za%20ka%C5%BCdym%20razem%2C%20gdy%20odblokowujesz%20telefon%E2%80%9D&subheading=%C5%9Broda%2C%2027%20listopada%202024%3A%20Podsumowanie%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/pl/2024/11/27</link>
-            <guid isPermaLink="false">2024-11-27T00:00:00.000Z</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

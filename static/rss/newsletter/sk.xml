@@ -15,12 +15,113 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 06 Dec 2024 19:14:39 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Dec 2024 19:11:53 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/sk.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 06 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[sk]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-12-07]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/12/07&#39;</h2>
+<h1>2024-12-07</h1>
+<h2><a href="https://shilin.ca/my-second-year-without-job/">„Môj druhý rok bez práce“</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42344002">Reakcie</a></h3>
+<h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog">„Prvok dialógu“</a></h2>
+<ul>
+<li>„Prvok HTML `` sa používa na vytváranie dialógových okien, ktoré môžu byť modálne (pozastavujú interakciu so stránkou) alebo nemodálne (umožňujú interakciu).“</li>
+<li>„Metódy JavaScriptu <code>.showModal()</code> a <code>.show()</code> sa používajú na zobrazenie modálnych a nemodálnych dialógov, zatiaľ čo <code>.close()</code> sa používa na ich zatvorenie.“</li>
+<li>„Prístupnosť je kľúčová; zabezpečte, aby bol správne nastavený fokus a poskytnite mechanizmus na zatvorenie, ako napríklad tlačidlo, pri používaní CSS <code>::backdrop</code> na štýlovanie pozadia modálnych okien.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343089">Reakcie</a></h3>
+<ul>
+<li>„Prvok dialógu na developer.mozilla.org vyvolal diskusiu o používaní interaktívnych HTML prvkov, ako sú výberové súbory a prehrávače médií, s rôznymi názormi na ich konzistentnosť a predvídateľnosť naprieč prehliadačmi.“</li>
+<li>„Zatiaľ čo niektorí vývojári kritizujú prvok dialógu za to, že nie je štýlovaný a nefunguje ako natívne vyskakovacie okná, iní oceňujú jeho sémantické a prístupové výhody.“</li>
+<li>„Diskusia poukazuje na výzvy pri udržiavaní konzistencie dizajnu a obavy z možného zneužitia zo strany inzerentov, čo naznačuje, že dialógový prvok je progresívnym krokom, ale stále vyžaduje vylepšenia.“</li>
+</ul>
+<h2><a href="https://github.com/orgs/organicmaps/discussions/9837">„Spoluzakladateľ Maps.me sa pokúša zatvoriť open-source fork Organic Maps“</a></h2>
+<ul>
+<li>„Organic Maps zverejnil zdrojový kód pre svoj „metaserver“, ktorý optimalizuje rýchlosť sťahovania máp tým, že používateľov nasmeruje na najlepšie servery Content Delivery Network (CDN) na základe ich polohy.“</li>
+<li>„Kód, ktorý bol spočiatku uzavretý, aby sa zabránilo neoprávneným forkom, je teraz otvorený pod licenciou MIT, čo podporuje transparentnosť a zapojenie komunity.“</li>
+<li>„Tím prehodnocuje používanie Cloudflare Workers, aby sa predišlo závislosti na jednom dodávateľovi, a vrátil neautorizované zmeny vykonané prispievateľom, čím zdôrazňuje svoj záväzok k ochrane súkromia a transparentnosti.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343121">Reakcie</a></h3>
+<ul>
+<li>„Alexander Borsuk, spoluzakladateľ Maps.me, sa pokúsil uzavrieť open-source fork Organic Maps tým, že zmenil jeho MIT licenciu a pridal logovanie do súkromného úložiska. - Roman Tsisyk, ďalší správca projektu, tieto zmeny zvrátil a sprístupnil úložisko verejnosti, čo viedlo ku konfliktu a odobratiu jeho oprávnení. - Incident poukazuje na vnútorné nezhody ohľadom open-source povahy projektu, no Organic Maps naďalej zostáva široko používanou offline mapovou aplikáciou.“</li>
+</ul>
+<h2><a href="https://github.com/Olshansk/postgres_for_everything">„Ako používať Postgres na všetko“</a></h2>
+<ul>
+<li>„Postgres for Everything“ je úložisko, ktoré propaguje používanie PostgreSQL, populárnej open-source relačnej databázy, pre širokú škálu aplikácií nad rámec tradičných databázových úloh. Úložisko pozýva na príspevky a sleduje rôzne inovatívne použitia PostgreSQL, vrátane cron úloh, front správ, analytiky a ďalších, čím zdôrazňuje jeho všestrannosť. Iniciatíva zahŕňa 11 položiek súvisiacich so Supabase, platformou, ktorá poskytuje backendové služby pomocou PostgreSQL, čím ukazuje jej integráciu a užitočnosť v modernom vývoji aplikácií.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42347606">Reakcie</a></h3>
+<ul>
+<li>„Diskusia zdôrazňuje všestrannosť Postgresu v rôznych aplikáciách, ale tiež poukazuje na obmedzenia, ako je spracovanie nulových znakov v reťazcoch a potreba vlastného SQL pre skip-index skeny. Názory na používanie Postgresu na všetky účely sa líšia, pričom niektorí varujú pred prílišným spoliehaním sa na jednu databázu pre veľké tímy, zatiaľ čo iní chvália jeho jednoduchosť a zníženú zložitosť. Spomínajú sa aj alternatívy ako Redis, spolu s výzvami pri škálovaní a dôležitosťou vyhnúť sa nadmernému inžinierstvu v počiatočných fázach projektu.“</li>
+</ul>
+<h2><a href="https://www.moment.dev/blog/lies-i-was-told-pt-1">„Lži, ktoré mi boli povedané o spolupráci na úpravách, Časť 1: Algoritmy pre offline úpravy“</a></h2>
+<ul>
+<li>„Začiatkom roku 2024 výskum kolaboratívnych editačných systémov pre textový editor Moment poukázal na výzvy spojené s offline úpravami, kde populárne algoritmy ako CRDTs (Conflict-free Replicated Data Types) a OT (Operational Transformation) často zlyhávajú. Offline úpravy zvyšujú priame konflikty, pričom 20-30% týchto konfliktov vedie k neprijateľným výsledkom, čo naznačuje, že problém je skôr výzvou používateľského rozhrania/používateľskej skúsenosti (UI/UX) než algoritmickou. Výskumníci sa teraz zameriavajú na zlepšenie používateľskej skúsenosti pri offline úpravách, pričom čerpajú paralely s tým, ako git rieši zlúčenie dokumentov, čo je sľubný vývoj.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343953">Reakcie</a></h3>
+<ul>
+<li>„Článok sa zaoberá výzvami kolaboratívneho editovania, najmä offline, a kritizuje súčasné algoritmy ako Conflict-free Replicated Data Types (CRDTs) a Operational Transformation (OT) za to, že nie vždy prinášajú sémanticky zmysluplné výsledky. Existuje konsenzus o potrebe zlepšenia riešenia konfliktov, potenciálne prostredníctvom vstupu používateľa alebo pokročilých nástrojov ako sú veľké jazykové modely (LLMs), na efektívne riešenie sémantických konfliktov. Diskusia tiež zvažuje úlohu riešení používateľského rozhrania/používateľskej skúsenosti (UI/UX) pri zlepšovaní zážitku z kolaboratívneho editovania, pričom zdôrazňuje, že problém presahuje rámec algoritmov a zahŕňa pochopenie zámeru používateľa.“</li>
+</ul>
+<h2><a href="https://ollama.com/blog/structured-outputs">„Štruktúrované výstupy s Ollama“</a></h2>
+<ul>
+<li>„Ollama zaviedla podporu pre štruktúrované výstupy, čo umožňuje modelom generovať výstupy v konkrétnom formáte pomocou schémy JSON.“</li>
+<li>„Táto funkcia je teraz dostupná v aktualizovaných knižniciach Ollama Python a JavaScript, užitočná pre úlohy ako analýza údajov z dokumentov a obrázkov.“</li>
+<li>„Používatelia by mali aktualizovať na najnovšiu verziu Ollama a používať parameter formátu v cURL požiadavkách alebo knižniciach, pričom budúce aktualizácie sľubujú vylepšenia výkonu a viac možností formátov.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42346344">Reakcie</a></h3>
+<ul>
+<li>„Ollama poskytuje metódu na generovanie štruktúrovaných dát, ako je JSON, z jazykových modelov, pričom sa diskutuje o použití GBNF gramatík pre všestrannejšie výstupné formáty ako XML alebo SQL. - Používatelia debatujú o spoľahlivosti JSON výstupov v porovnaní s prirodzeným jazykom, s pohľadmi na to, ako jazykové modely (LLM) generujú text a úlohu štruktúrovaných výziev. - Integrácia Ollama s llama.cpp je známa pre zjednodušenie používania modelov, hoci niektorí ju považujú len za obal, a funkcia podporuje rôzne modely s rôznymi úrovňami presnosti.“</li>
+</ul>
+<h2><a href="https://www.youtube.com/watch?v=0JouTsMQsEA">„RollerCoaster Tycoon bol posledný svojho druhu [video]“</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42346463">Reakcie</a></h3>
+<ul>
+<li>„RollerCoaster Tycoon, vyvinutý primárne v jazyku assembly malým tímom, sa stal bestsellerom v roku 1999, čím ukázal zriedkavý štýl vývoja.“</li>
+<li>„Fanúšikovia odporúčajú OpenRCT2 pre vylepšené funkcie a kompatibilitu a Roller Coaster Tycoon Classic pre moderné zariadenia, zatiaľ čo alternatívy ako Parkitect a Planet Coaster poskytujú rôznorodé zážitky.“</li>
+<li>„Video poukazuje na vývoj vývoja hier a výzvy, ktorým čelia malé tímy pri súťažení s väčšími štúdiami, pričom úspechy nezávislých hier ako Minecraft ilustrujú potenciál úspechov malých tímov.“</li>
+</ul>
+<h2><a href="https://source.washu.edu/2024/12/research-reveals-how-fructose-in-diet-enhances-tumor-growth/">„Fruktóza v strave podporuje rast nádorov: výskum“</a></h2>
+<ul>
+<li>„Spotreba fruktózy sa za posledných 50 rokov výrazne zvýšila, predovšetkým v dôsledku vysokofruktózového kukuričného sirupu v nápojoch a spracovaných potravinách.“</li>
+<li>„Výskum z Washingtonskej univerzity v St. Louis naznačuje, že hoci fruktóza priamo nepodporuje nádory, pečeň ju premieňa na živiny, ktoré podporujú rast nádorov pri rakovinách, ako sú melanóm, rakovina prsníka a rakovina krčka maternice.“</li>
+<li>„Štúdia naznačuje potenciálne nové liečby rakoviny skúmaním metód, ako zabrániť fruktóze v podpore rastu nádorov, pravdepodobne prostredníctvom zmien v strave alebo farmaceutík, s čiastočným financovaním od Národných inštitútov zdravia (NIH).“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343544">Reakcie</a></h3>
+<ul>
+<li>„Výskum z Washingtonskej univerzity naznačuje, že vysoká konzumácia fruktózy môže podporovať rast nádorov zvýšením cirkulujúcich lipidov, ktoré sú využívané rakovinovými bunkami na rast. Zatiaľ čo fruktóza v ovocí je zvyčajne bezpečná vďaka ďalším živinám, nadmerný príjem zo zdrojov ako je kukuričný sirup s vysokým obsahom fruktózy by mohol byť rizikový. Štúdia zdôrazňuje zložitosť metabolizmu rakoviny a potenciálny vplyv stravy na progresiu rakoviny, hoci je potrebný ďalší výskum na úplné pochopenie týchto mechanizmov.“</li>
+</ul>
+<h2><a href="https://github.com/oils-for-unix/oils/wiki/The-Biggest-Shell-Programs-in-the-World">„Najväčšie shell programy“</a></h2>
+<ul>
+<li>„Stránka zdôrazňuje významné shellové programy, zameriavajúc sa na podstatné ručne písané skripty namiesto tých, ktoré sú generované nástrojmi ako autoconf. - Významné položky zahŕňajú akinomyoga/ble.sh, editor riadkov Bash s 61 tisíc riadkami kódu (LoC), a kalua, doplnok pre OpenWRT s 56 tisíc riadkami zdrojového kódu (SLoC). - Zoznam poskytuje prehľad o zložitosti a rozmanitosti shellového skriptovania, predstavujúc programy, ktoré využívajú dátové štruktúry a algoritmy, zvyčajne presahujúce 5 000 riadkov kódu.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42346274">Reakcie</a></h3>
+<ul>
+<li>„Diskusia sa zameriava na zložitosť a výzvy pri používaní veľkých shell skriptov, ako sú problémy s čitateľnosťou, spracovaním chýb a prenosnosťou. - Používatelia navrhujú zvážiť alternatívy ako Python alebo AWK pre zložité úlohy kvôli lepšej udržateľnosti, zatiaľ čo nástroje ako ShellCheck môžu pomôcť zlepšiť kvalitu shell skriptov. - Konverzácia zdôrazňuje rovnováhu medzi používaním shell skriptov pre rýchle úlohy a voľbou robustnejších programovacích jazykov pre väčšie projekty.“</li>
+</ul>
+<h2><a href="https://dspy.ai/">„DSPy – Programovanie–nie vyzývanie–LMs“</a></h2>
+<ul>
+<li>„DSPy je rámec navrhnutý na vytváranie modulárnych AI systémov pomocou kompozičného Python kódu, zameraný na zlepšenie výstupov jazykových modelov (LM) bez toho, aby sa spoliehal výlučne na promptovanie. Podporuje viacerých poskytovateľov veľkých jazykových modelov (LLM) ako OpenAI, Anthropic a Databricks, čo umožňuje používateľom popísať správanie AI ako kód, čím sa uľahčuje iterácia a optimalizácia. Pochádzajúci zo Stanford NLP, DSPy má silnú komunitnú prítomnosť na GitHub a Discord, prispievajúc k open-source AI výskumu a pokroku v programových architektúrach a optimalizátoroch.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343692">Reakcie</a></h3>
+<ul>
+<li>„DSPy je rámec navrhnutý na optimalizáciu promptov pre jazykové modely (LM) automatizáciou výberu podmnožín tréningových dát, čím sa zvyšuje výkon a minimalizujú manuálne úpravy.“</li>
+<li>„Podporuje end-to-end tréning programov veľkých jazykových modelov (LLM), zabraňuje používaniu zastaraných výziev v kóde a je obzvlášť užitočný pre úlohy, ako sú extrakcia dát a sumarizácia.“</li>
+<li>„Zatiaľ čo niektorí používatelia považujú zložitosť DSPy za náročnú, je cenený pre svoj štruktúrovaný prístup a funkcie ako tvrdenia a návrhy, ktoré vynucujú obmedzenia výstupu.“</li>
+</ul>
+<head>
+  <meta property="og:title" content="„Môj druhý rok bez práce“" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EM%C3%B4j%20druh%C3%BD%20rok%20bez%20pr%C3%A1ce%E2%80%9C&subheading=sobota%207.%20decembra%202024%3A%20Hacker%20News%20Zhrnutie" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/sk/2024/12/07</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000Z</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-12-06]]></title>
             <description
@@ -1041,173 +1142,6 @@
             <link>https://hn.cho.sh/sk/2024/11/28</link>
             <guid isPermaLink="false">2024-11-28T00:00:00.000Z</guid>
             <pubDate>Thu, 28 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-11-27]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/11/27&#39;</h2>
-<h1>2024-11-27</h1>
-<h2><a href="https://play.google.com/store/apps/details?id=com.actureunlock&hl=en_US">„Aplikácia, ktorá sa pýta ‚prečo?‘ zakaždým, keď odomknete svoj telefón“</a></h2>
-<ul>
-<li>„Intenty je aplikácia, ktorá povzbudzuje používateľov k rozvoju zdravších návykov pri používaní telefónu prostredníctvom upozornení na uvedomenie si pri odomykaní zariadení. Aplikácia kladie dôraz na súkromie tým, že funguje úplne lokálne bez reklám alebo sledovania a používa povolenia Androidu výlučne na funkčnosť bez zberu údajov. S minimalistickým dizajnom a inteligentnou prispôsobiteľnosťou má Intenty hodnotenie 4,4 hviezdičky a viac ako 10 000 stiahnutí, čo oslovuje používateľov, ktorí sa snažia znížiť bezmyšlienkovité používanie telefónu.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42254156">Reakcie</a></h3>
-<ul>
-<li>„Aplikácia, ktorá po odomknutí telefónu vyzve používateľov otázkou „prečo?“, získava pozornosť na Hacker News pre svoj potenciál znížiť rozptýlenie.“</li>
-<li>„Používatelia považujú aplikáciu za užitočnú, ale niekedy nepohodlnú pre rýchle úlohy, čo vedie k návrhom na vylepšenia, ako je náhodné generovanie výziev alebo umožnenie obchádzania špecifického pre aplikáciu.“</li>
-<li>„Vývojár zvažuje spätnú väzbu od používateľov pre aktualizácie, vrátane možnosti jednorazového nákupu namiesto modelu predplatného.“</li>
-</ul>
-<h2><a href="https://www.downtowndougbrown.com/2024/11/the-capacitor-that-apple-soldered-incorrectly-at-the-factory/">„Kondenzátor, ktorý Apple nesprávne spájkoval vo fabrike“</a></h2>
-<ul>
-<li>„Doug Brown poukazuje na výrobnú chybu v Apple Macintosh LC III, kde bol kondenzátor nainštalovaný opačne, čo môže spôsobiť problémy.“</li>
-<li>„Macintosh LC III, vyrábaný medzi rokmi 1993 a 1994 pre vzdelávací trh, neprešiel veľkým stiahnutím z trhu napriek tejto chybe.“</li>
-<li>„Brown odporúča opatrnosť pri výmene kondenzátorov, najmä moderných tantalových kondenzátorov, a odporúča ich správnu inštaláciu, na rozdiel od pokynov na sieťotlači PCB.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42253119">Reakcie</a></h3>
-<ul>
-<li>„Apple omylom nainštaloval kondenzátor opačne na 34-ročnom počítači, čo zdôrazňuje dôležitosť správnej orientácie kondenzátorov, najmä elektrolytických kondenzátorov, ktoré majú polaritu a môžu zlyhať, ak sú nainštalované nesprávne.“</li>
-<li>„Tento incident vyvolal diskusie o životnosti produktov a plánovanom zastarávaní, pričom niektorí naznačujú, že moderná elektronika je úmyselne navrhnutá tak, aby mala kratšiu životnosť s cieľom zvýšiť predaj.“</li>
-<li>„Situácia pripomína minulé výrobné chyby iných spoločností, ako napríklad Commodore, čo naznačuje opakujúci sa problém v technologickom priemysle.“</li>
-</ul>
-<h2><a href="https://benhouston3d.com/blog/why-i-left-kubernetes-for-google-cloud-run">„Nepotreboval som Kubernetes a pravdepodobne ho nepotrebujete ani vy“</a></h2>
-<ul>
-<li>„Autor prešiel z Kubernetes na Google Cloud Run, pričom uviedol zložitosť, náklady a pomalé automatické škálovanie Kubernetes ako nevýhody. - Google Cloud Run je vyzdvihovaný ako jednoduchšia, nákladovo efektívna alternatíva, ktorá účtuje poplatky iba za skutočné využitie CPU a pamäte a ponúka rýchle škálovanie bez režijných nákladov na správu Kubernetes. - Autor používa GitHub Actions pre kontinuálnu integráciu/kontinuálne nasadzovanie (CI/CD), spravované databázy a pub-sub messaging, pričom zdôrazňuje vhodnosť Cloud Run pre projekty, ktoré potrebujú jednoduchosť a efektívnosť nad rozsiahlymi funkciami Kubernetes.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42252336">Reakcie</a></h3>
-<ul>
-<li>„Článok kritizuje Kubernetes za jeho prílišnú zložitosť a často zbytočnosť pre menšie projekty, pričom navrhuje jednoduchšie riešenia, ako je jedna virtuálna mašina (VM) alebo server, ktoré by mohli byť efektívnejšie.“</li>
-<li>„Zdôrazňuje výzvy pri správe Kubernetes, vrátane pridanej zložitosti z rôznych doplnkov a tendencie niektorých inžinierov komplikovať systémy.“</li>
-<li>„Konsenzus je, že hoci je Kubernetes cenný, nie je vždy najlepšou voľbou pre menšie operácie, kde môže byť jednoduchosť výhodnejšia.“</li>
-</ul>
-<h2><a href="https://krebsonsecurity.com/2024/11/hacker-in-snowflake-extortions-may-be-a-u-s-soldier/">„Hacker v prípade vydierania Snowflake môže byť americký vojak“</a></h2>
-<ul>
-<li>„Dve osoby boli zatknuté za krádež dát z firiem používajúcich Snowflake, zatiaľ čo tretí podozrivý, známy ako „Kiberphant0m“, je stále na úteku a predpokladá sa, že ide o vojaka americkej armády v Južnej Kórei.“</li>
-<li>„Skupina sa podieľala na predaji ukradnutých údajov a vydieraní spoločností, pričom AT&amp;T údajne zaplatila 370 000 dolárov za vymazanie ukradnutých záznamov.“</li>
-<li>„Kanadské úrady zatkli Alexandra Moucku a John Erin Binns je uväznený v Turecku, obaja sú spojení s narušeniami, zatiaľ čo Kiberphant0m zostáva aktívny na fórach kybernetickej kriminality.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251799">Reakcie</a></h3>
-<ul>
-<li>„Hacker zapojený do vydierania spoločnosti Snowflake, identifikovaný ako Kiberphant0m, je predmetom vyšetrovania, pričom sa špekuluje o možných väzbách na americkú armádu.“</li>
-<li>„Kiberphant0m popiera akékoľvek vojenské spojenie, naznačujúc, že išlo o klamlivú taktiku, hoci analytici pochybujú, že by to bolo účinné pri zavádzaní vyšetrovateľov.“</li>
-<li>„Hackerove neopatrné činy, ako napríklad zverejnenie fotografie v armádnom oblečení, poukazujú na ťažkosti pri udržiavaní operačnej bezpečnosti a vyhýbaní sa digitálnym stopám.“</li>
-</ul>
-<h2><a href="https://zetaoffice.net/">„ZetaOffice: LibreOffice v prehliadači“</a></h2>
-<ul>
-<li>„ZetaOffice Web prináša LibreOffice do webových prehliadačov, čo umožňuje prístup z akéhokoľvek zariadenia s možnosťami samostatného hostingu alebo použitia siete na doručovanie obsahu (CDN) pre kontrolu dát. - Balík obsahuje Writer, Calc a Impress pre spracovanie textu, tabuľky a prezentácie a je dostupný pre web aj desktop na Linuxe a Windows, čo zaručuje kompatibilitu dokumentov. - ZetaOffice ponúka open-source softvér s platenými možnosťami pre použitie CDN a podporu a integruje sa s existujúcimi systémami prostredníctvom LibreOffice UNO API, pričom efektívne funguje v moderných prehliadačoch.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249746">Reakcie</a></h3>
-<ul>
-<li>„ZetaOffice, verzia LibreOffice založená na prehliadači, čelí kritike za problémy s výkonom a použiteľnosťou, vrátane nefunkčného vstupu a vykresľovania textu.“</li>
-<li>„Prebieha diskusia o tom, či je lepšie používať plátno alebo zameriavať sa na DOM (Document Object Model) pri vykresľovaní rozložení dokumentov v kancelárskych balíkoch založených na webe.“</li>
-<li>„Napriek výzvam sa ZetaOffice snaží poskytovať konzistentný zážitok naprieč platformami a je tiež dostupný ako natívna desktopová aplikácia.“</li>
-</ul>
-<h2><a href="https://www.techradar.com/pro/security/d-link-says-it-wont-patch-60-000-older-modems-as-theyre-not-worth-saving">„D-Link hovorí, že neplánuje opraviť 60-tisíc starších modemov“</a></h2>
-<ul>
-<li>„D-Link oznámil, že neposkytne bezpečnostné záplaty pre 60 000 starších modemov, ktoré dosiahli status konca životnosti, a vyzýva používateľov, aby prešli na novšie modely.“</li>
-<li>„Neopravené bezpečnostné zraniteľnosti by mohli potenciálne umožniť hackerom prevziať kontrolu nad týmito zariadeniami, čo predstavuje významné riziko.“</li>
-<li>„Väčšina postihnutých modemov sa nachádza na Taiwane a pre používateľov, ktorí nemôžu vykonať aktualizáciu, D-Link odporúča obmedziť vzdialený prístup a používať bezpečné heslá ako preventívne opatrenia.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249790">Reakcie</a></h3>
-<ul>
-<li>„D-Link sa rozhodol neopraviť zraniteľnosti v 60 000 starších modemoch, čím ich vystavil bezpečnostným rizikám, čo vyvoláva obavy o bezpečnosť zariadení a zodpovednosť výrobcu.“</li>
-<li>„Oznámenie vyvolalo diskusie o dôležitosti dlhodobej podpory a potenciálnych výhodách open-source riešení, ako je OpenWRT, pre udržanie bezpečnosti zariadení.“</li>
-<li>„Existujú návrhy na právne mandáty, ktoré by vyžadovali od výrobcov poskytovanie bezpečnostných aktualizácií alebo uvoľnenie firmvéru pre verejnosť, keď zariadenia dosiahnu koniec životnosti, čo poukazuje na širší problém v odvetví.“</li>
-</ul>
-<h2><a href="https://www.technicianonline.com/news/popular-nc-state-professor-marshall-brain-dies-alleges-retaliation-for-ethics-complaints/article_152e5c80-ac2e-11ef-8b3f-036ac3c8d9bf.html">„Marshall Brain zomrel niekoľko hodín po tom, čo obvinil NC State z odvety“</a></h2>
-<ul>
-<li>„Profesor NC State Marshall Brain, zakladateľ HowStuffWorks.com, bol nájdený mŕtvy vo svojej kancelárii 20. novembra po tom, čo obvinil univerzitných úradníkov z odvetných opatrení.“</li>
-<li>„Brain tvrdil, že bol donútený do dôchodku po etických sťažnostiach, ale univerzita sa k týmto obvineniam ani k jeho smrti nevyjadrila.“</li>
-<li>„Bývalí študenti a kolegovia vyjadrili sklamanie nad mlčaním univerzity, pričom zdôraznili pokračujúci charakter tohto rozvíjajúceho sa príbehu.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251656">Reakcie</a></h3>
-<ul>
-<li>„Marshall Brain, bývalý profesor na NC State, zomrel po tom, čo tvrdil, že sa stal obeťou odvety zo strany univerzitných administrátorov kvôli jeho etickým sťažnostiam.“</li>
-<li>„Jeho prípad zdôrazňuje napätie medzi idealizmom a realitou, ilustrujúc potenciálne nebezpečenstvá spojené s braním tých, ktorí sú pri moci, na zodpovednosť.“</li>
-<li>„Incident vyvoláva diskusie o efektívnosti interných systémov hlásenia a širšej dynamike moci v rámci akademických inštitúcií.“</li>
-</ul>
-<h2><a href="https://ianthehenry.com/posts/janet-for-mortals/">„Janet pre smrteľníkov (2023)“</a></h2>
-<ul>
-<li>„Autor vydal bezplatnú online knihu s názvom „Janet for Mortals“, ktorá sa zameriava na programovací jazyk Janet a jej napísanie trvalo 20 týždňov. Kniha obsahuje 44 000 slov a je sprevádzaná webovou stránkou s REPL (Read-Eval-Print Loop) pre interaktívne učenie. Kniha a súvisiace projekty, ako sú väzby knižníc C++ a testovací rámec, získali pozitívnu pozornosť na platformách ako Hacker News.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42253241">Reakcie</a></h3>
-<ul>
-<li>„„Janet for Mortals“ je kniha, ktorá ponúka interaktívny REPL (Read-Eval-Print Loop) prístupný cez klávesu escape, čo umožňuje používateľom experimentovať s programovacím jazykom Janet priamo v ich prehliadači bez nutnosti inštalácie.“</li>
-<li>„Janet je uznávaný pre svoju jednoduchosť vkladať a vytvárať doménovo špecifické jazyky (DSL), hoci niektorí používatelia poznamenávajú, že jeho dokumentácia by mohla byť vylepšená.“</li>
-<li>„Pútavý štýl knihy a jedinečné vlastnosti jazyka vyvolali záujem a pozitívnu spätnú väzbu, napriek niektorým diskusiám o názve knihy.“</li>
-</ul>
-<h2><a href="https://www.jeffgeerling.com/blog/2024/raspberry-pi-cm5-2-3x-faster-drop-upgrade-mostly">„Raspberry Pi CM5 je rýchlejšia, priam nahraditeľná aktualizácia“</a></h2>
-<ul>
-<li>„Raspberry Pi Compute Module 5 (CM5) je významným vylepšením oproti CM4, ponúkajúcim 2-3 krát rýchlejší výkon, USB 3 a kompatibilitu s PCIe Gen 3, pričom si zachováva rovnaký formát.“</li>
-<li>„CM5 je cenovo podobný ako CM4, pričom model s 8GB začína na 75 dolároch a zahŕňa rýchlejší procesor, RAM a vylepšenú grafiku, hoci pri plnej kapacite spotrebuje viac energie.“</li>
-<li>„Aktualizovaná IO doska je tiež vydaná za 20 dolárov, obsahuje napájanie cez USB-C a ďalšie vylepšenia, čím zdôrazňuje podporu a modularitu CM5 napriek konkurencii od iných jednodeskových počítačov (SBC).“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42254379">Reakcie</a></h3>
-<ul>
-<li>„Raspberry Pi CM5 ponúka výrazné zvýšenie výkonu oproti CM4, s rýchlosťou 2-3 krát vyššou, a obsahuje aj upgrade na USB 3.“</li>
-<li>„Zatiaľ čo verzia s 8 GB si zachováva svoju cenu, ostatné verzie sú drahšie a niektorí používatelia si všimli, že iné dosky môžu mať lepšie špecifikácie.“</li>
-<li>„Napriek vylepšeniam hardvéru CM5 nemá podporu pre hardvérové kódovanie, ale dokáže dekódovať H.265, a silná komunita a podpora Raspberry Pi zostávajú kľúčovými výhodami.“</li>
-</ul>
-<h2><a href="https://arstechnica.com/tech-policy/2024/11/isps-say-their-excellent-customer-service-is-why-users-dont-switch-providers/">„Poskytovatelia internetových služieb tvrdia, že ich „vynikajúci zákaznícky servis“ je dôvodom, prečo používatelia nemenia poskytovateľov.“</a></h2>
-<ul>
-<li>„Lobistické skupiny poskytovateľov internetových služieb tvrdia, že konkurencia zabezpečuje vysoké štandardy zákazníckeho servisu, čím robí dodatočné regulácie zbytočnými, pretože zlý servis by prinútil zákazníkov prejsť k iným poskytovateľom.“</li>
-<li>„Regulátori v Kalifornii a Oregone hlásia rozšírenú nespokojnosť zákazníkov, pričom poukazujú na problémy ako dlhé čakacie doby a problémy s fakturáciou, čo je v rozpore s tvrdeniami poskytovateľov internetových služieb.“</li>
-<li>„FCC prehodnocuje praktiky zákazníckeho servisu, ale s vedením Brendana Carra, ktorého vymenoval zvolený prezident Trump, sú nové regulácie nepravdepodobné, pretože sa pozornosť presúva na znižovanie regulačných záťaží.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251564">Reakcie</a></h3>
-<ul>
-<li>„Poskytovatelia internetových služieb pripisujú udržanie zákazníkov svojej „vynikajúcej zákazníckej službe“, ale mnohí veria, že je to kvôli nedostatku konkurencie v určitých oblastiach.“</li>
-<li>„V regiónoch s obmedzenými možnosťami poskytovateľov internetových služieb často používatelia zostávajú so svojím súčasným poskytovateľom napriek nespokojnosti s kvalitou služieb.“</li>
-<li>„Úsilie v krajinách ako Austrália a Kanada regulovať trh a posilniť konkurenciu čelí neustálym výzvam, pričom používatelia volajú po skutočnej konkurencii a zlepšenej regulácii.“</li>
-</ul>
-<h2><a href="https://news.ycombinator.com/item?id=42256093">„Odporúčanie pre softvérového inžiniera, ktorý sa chce oboznámiť s najnovšími informáciami o umelej inteligencii“</a></h2>
-<ul>
-<li>„Používateľ aktívne hľadá spoľahlivé zdroje pre najnovšie aktualizácie v oblasti umelej inteligencie (AI), najmä prostredníctvom technologických blogov podobných Hacker News (HN).“</li>
-<li>„Majú skúsenosti s používaním ChatGPT a OpenAI API, konkrétne verzie 3.5, čo naznačuje praktický záujem o nástroje AI.“</li>
-<li>„Používateľ našiel blog Simona Willisona, ale má pocit, že mu chýba súdržnosť, čo naznačuje potrebu viac štruktúrovaných a komplexných zdrojov informácií o AI.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42256093">Reakcie</a></h3>
-<ul>
-<li>„Softvéroví inžinieri môžu zlepšiť svoje zručnosti v oblasti AI účasťou na súťažiach Kaggle, ktoré ponúkajú praktické, praktické vzdelávacie skúsenosti.“</li>
-<li>„Zostať informovaný prostredníctvom technologických blogov, newsletterov a YouTube kanálov ako Simon Willison&#39;s, AI Supremacy a 3Blue1Brown môže poskytnúť základné a aktuálne znalosti o umelej inteligencii.“</li>
-<li>„Zapojenie sa do komunít AI na platformách ako Reddit a Twitter, ako aj skúmanie vzdelávacích zdrojov, ako sú knihy a online kurzy z MIT xPRO, môže prehĺbiť porozumenie a udržať inžinierov informovaných o najnovších trendoch v oblasti AI.“</li>
-</ul>
-<h2><a href="https://www.washingtonpost.com/technology/2024/11/26/openai-sora-ai-video-model-artists-protest/">„OpenAI pozastavuje video model Sora po tom, čo umelci v proteste unikli prístup“</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42252806">Reakcie</a></h3>
-<ul>
-<li>„OpenAI pozastavil svoj video model Sora po tom, čo umelci unikli prístup v proteste proti neplatenej účasti, napriek tomu, že nebola sľúbená žiadna kompenzácia. - Protest vyvoláva obavy z toho, že AI môže potenciálne nahradiť umelcov a poukazuje na etické problémy súvisiace s neplatenou prácou pri vývoji AI. - Niektorí vnímajú protest ako strategické úsilie upozorniť na tieto širšie problémy v rámci odvetvia.“</li>
-</ul>
-<h2><a href="https://www.nytimes.com/2024/11/26/us/usps-new-mail-trucks.html">„Áno, „vyzerá to ako kačica“, ale dopravcovia majú radi nový poštový vozidlo USPS“</a></h2>
-<ul>
-<li>„Poštová služba USA zavádza nové elektrické poštové vozidlá ako súčasť modernizačného plánu v hodnote 9,6 miliardy dolárov, ktoré ponúkajú funkcie ako klimatizácia, zväčšený nákladný priestor a zvýšená bezpečnosť.“</li>
-<li>„Pôvodne malo byť väčšinou poháňané plynom, no teraz bude 75 % flotily elektrických kvôli právnym výzvam, čo znamená významný posun smerom k udržateľnosti.“</li>
-<li>„Napriek svojmu nekonvenčnému dizajnu boli tieto nákladné vozidlá pozitívne prijaté pre svoj komfort a efektívnosť, pričom zohľadňujú vstupy od poštových doručovateľov a zahŕňajú prvky ako protišmykové povrchy, airbagy a systém na predchádzanie kolíziám.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249545">Reakcie</a></h3>
-<ul>
-<li>„Nový dizajn poštového vozidla USPS kladie dôraz na viditeľnosť a bezpečnosť, pričom obsahuje nízku kapotu a veľké nárazníky na zvýšenie bezpečnosti chodcov a pohodlia vodiča, najmä v mestských prostrediach.“</li>
-<li>„Hoci jeho nekonvenčný vzhľad vyvolal diskusiu, nákladné vozidlo je navrhnuté pre odolnosť, podobne ako dlho slúžiaci Grumman LLV.“</li>
-<li>„Dizajn sa tiež zameriava na zlepšenie podmienok poštových pracovníkov a zahŕňa možnosti pre elektrické vozidlá, aby vyhovel moderným požiadavkám na doručovanie.“</li>
-</ul>
-<h2><a href="https://volfpeter.github.io/htmy/">„Htmy – Async, čistý-Python vykresľovací engine“</a></h2>
-<ul>
-<li>„htmy“ je čisto-Python renderovací engine, ktorý podporuje asynchrónne a synchrónne funkčné komponenty, správu kontextu podobnú Reactu a vstavané HTML značky, čo ho robí všestranným pre rôzne potreby webového vývoja. Ponúka funkcie ako podpora Markdown, internacionalizácia založená na JSON a jednoduchá integrácia s akýmkoľvek backendovým alebo frontendovým rámcom, čím zvyšuje jeho prispôsobivosť a možnosti prispôsobenia. Knižnica je open-source pod MIT licenciou, čo podporuje príspevky komunity, a môže byť nainštalovaná cez PyPI pomocou <code>pip install htmy</code>.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251919">Reakcie</a></h3>
-<ul>
-<li>„Htmy je asynchrónny, čisto-Python HTML renderovací engine, ktorý vyvoláva diskusiu o jeho rozvláčnosti v porovnaní s Jinja a o potrebe asynchrónnosti pri renderovaní HTML.“</li>
-<li>„Diskusia poukazuje na potenciálne výhody asynchrónneho načítania dynamických údajov v dizajnoch založených na komponentoch, hoci názory sa líšia, či to komplikuje kód.“</li>
-<li>„Htmy sa snaží poskytnúť flexibilné riešenie pre vykresľovanie, ale jeho výhody oproti zavedeným nástrojom ako Jinja sú stále predmetom diskusie.“</li>
-</ul>
-<head>
-  <meta property="og:title" content="„Aplikácia, ktorá sa pýta ‚prečo?‘ zakaždým, keď odomknete svoj telefón“" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EAplik%C3%A1cia%2C%20ktor%C3%A1%20sa%20p%C3%BDta%20%E2%80%9Apre%C4%8Do%3F%E2%80%98%20zaka%C5%BEd%C3%BDm%2C%20ke%C4%8F%20odomknete%20svoj%20telef%C3%B3n%E2%80%9C&subheading=streda%2027.%20novembra%202024%3A%20Hacker%20News%20Zhrnutie" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/sk/2024/11/27</link>
-            <guid isPermaLink="false">2024-11-27T00:00:00.000Z</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

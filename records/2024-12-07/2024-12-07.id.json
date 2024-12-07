@@ -1,0 +1,190 @@
+[
+  {
+    "id": 42344002,
+    "title": "Tahun kedua saya tanpa pekerjaan",
+    "originLink": "https://shilin.ca/my-second-year-without-job/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42344002",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [],
+    "points": 381,
+    "commentCount": 567,
+    "retryCount": 0,
+    "time": 1733516765
+  },
+  {
+    "id": 42343089,
+    "title": "Elemen Dialog",
+    "originLink": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42343089",
+    "commentBody": "",
+    "originSummary": [
+      "Elemen HTML `` digunakan untuk membuat kotak dialog, yang dapat bersifat modal (menghentikan interaksi halaman) atau non-modal (memungkinkan interaksi).",
+      "Metode JavaScript `.showModal()` dan `.show()` digunakan untuk menampilkan dialog modal dan non-modal, masing-masing, sedangkan `.close()` digunakan untuk menutupnya.",
+      "Keberlanjutan aksesibilitas sangat penting; pastikan fokus diatur dengan benar dan sediakan mekanisme penutupan, seperti tombol, saat menggunakan CSS `::backdrop` untuk menata latar belakang modal."
+    ],
+    "commentSummary": [
+      "Elemen dialog di developer.mozilla.org telah memicu perdebatan tentang penggunaan elemen HTML interaktif, seperti pemilih file dan pemutar media, dengan pendapat yang berbeda mengenai konsistensi dan prediktabilitasnya di berbagai peramban.",
+      "Beberapa pengembang mengkritik elemen dialog karena tidak memiliki gaya dan tidak berfungsi seperti popup asli, sementara yang lain menghargai manfaat semantik dan aksesibilitasnya.",
+      "Diskusi menyoroti tantangan dalam menjaga konsistensi desain dan kekhawatiran tentang potensi penyalahgunaan oleh pengiklan, menunjukkan bahwa elemen dialog adalah langkah progresif tetapi masih memerlukan peningkatan."
+    ],
+    "points": 295,
+    "commentCount": 136,
+    "retryCount": 0,
+    "time": 1733512147
+  },
+  {
+    "id": 42343121,
+    "title": "Pendiri Maps.me mencoba menutup fork open-source Organic Maps",
+    "originLink": "https://github.com/orgs/organicmaps/discussions/9837",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42343121",
+    "commentBody": "",
+    "originSummary": [
+      "Organic Maps telah merilis kode sumber untuk \"metaserver\"-nya, yang mengoptimalkan kecepatan unduhan peta dengan mengarahkan pengguna ke server Jaringan Pengiriman Konten (CDN) terbaik berdasarkan lokasi mereka.",
+      "Teks tersebut menyatakan bahwa kode yang awalnya ditutup untuk mencegah percabangan yang tidak sah, sekarang dibuka di bawah lisensi MIT, yang mendorong transparansi dan keterlibatan komunitas.",
+      "The team sedang mempertimbangkan kembali penggunaan Cloudflare Workers untuk mencegah ketergantungan pada vendor dan telah membatalkan perubahan yang tidak sah yang dilakukan oleh seorang kontributor, menekankan komitmen mereka terhadap privasi dan transparansi."
+    ],
+    "commentSummary": [
+      "Alexander Borsuk, salah satu pendiri Maps.me, mencoba menutup fork open-source Organic Maps dengan mengubah lisensi MIT-nya dan menambahkan pencatatan ke dalam repositori pribadi. Roman Tsisyk, pemelihara proyek lainnya, membalikkan perubahan ini dan membuat repositori tersebut menjadi publik, yang mengakibatkan konflik dan pencabutan izin aksesnya. Insiden ini menyoroti ketidaksepakatan internal tentang sifat open-source proyek tersebut, namun Organic Maps tetap menjadi aplikasi peta offline yang banyak digunakan."
+    ],
+    "points": 269,
+    "commentCount": 62,
+    "retryCount": 0,
+    "time": 1733512298
+  },
+  {
+    "id": 42347606,
+    "title": "Bagaimana cara menggunakan Postgres untuk segala hal",
+    "originLink": "https://github.com/Olshansk/postgres_for_everything",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42347606",
+    "commentBody": "",
+    "originSummary": [
+      "\"Postgres for Everything\" adalah sebuah repositori yang mempromosikan penggunaan PostgreSQL, sebuah basis data relasional sumber terbuka yang populer, untuk berbagai aplikasi di luar tugas basis data tradisional. Repositori ini mengundang kontribusi dan melacak berbagai penggunaan inovatif dari PostgreSQL, termasuk cron jobs, antrian pesan, analitik, dan lainnya, menyoroti fleksibilitasnya. Inisiatif ini mencakup 11 item terkait Supabase, sebuah platform yang menyediakan layanan backend menggunakan PostgreSQL, menunjukkan integrasi dan kegunaannya dalam pengembangan aplikasi modern."
+    ],
+    "commentSummary": [
+      "Teks tersebut menekankan fleksibilitas Postgres dalam berbagai aplikasi tetapi juga menunjukkan keterbatasan, seperti menangani karakter null dalam string dan memerlukan SQL khusus untuk skip-index scans. Pendapat bervariasi tentang penggunaan Postgres untuk semua tujuan, dengan beberapa memperingatkan terhadap ketergantungan berlebihan pada satu basis data untuk tim besar dan yang lain memuji kesederhanaannya dan pengurangan kompleksitas. Alternatif seperti Redis disebutkan, bersama dengan tantangan dalam penskalaan dan pentingnya menghindari rekayasa berlebihan pada tahap awal proyek."
+    ],
+    "points": 257,
+    "commentCount": 141,
+    "retryCount": 0,
+    "time": 1733550975
+  },
+  {
+    "id": 42343953,
+    "title": "Lies yang Diberitahukan kepada Saya tentang Kolaborasi Penyuntingan, Bagian 1: Algoritma untuk Penyuntingan Offline",
+    "originLink": "https://www.moment.dev/blog/lies-i-was-told-pt-1",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42343953",
+    "commentBody": "",
+    "originSummary": [
+      "Dalam awal tahun 2024, penelitian tentang sistem pengeditan kolaboratif untuk editor teks Moment menyoroti tantangan dengan pengeditan offline, di mana algoritma populer seperti CRDTs (Conflict-free Replicated Data Types) dan OT (Operational Transformation) sering gagal. Pengeditan offline meningkatkan konflik langsung, dengan 20-30% dari konflik ini menghasilkan hasil yang tidak dapat diterima, menunjukkan bahwa masalah ini lebih merupakan tantangan antarmuka pengguna/pengalaman pengguna (UI/UX) daripada masalah algoritmik. Para peneliti sekarang fokus pada peningkatan pengalaman pengguna dalam pengeditan offline, dengan menarik paralel pada bagaimana git menangani penggabungan dokumen, yang merupakan perkembangan yang menjanjikan."
+    ],
+    "commentSummary": [
+      "Tulisan ini membahas tantangan dalam pengeditan kolaboratif, terutama secara offline, dan mengkritik algoritma saat ini seperti Conflict-free Replicated Data Types (CRDTs) dan Operational Transformation (OT) karena tidak selalu menghasilkan hasil yang bermakna secara semantik. Ada kesepakatan tentang perlunya peningkatan resolusi konflik, yang mungkin melalui masukan pengguna atau alat canggih seperti Model Bahasa Besar (LLMs), untuk menangani konflik semantik secara efektif. Diskusi ini juga mempertimbangkan peran solusi Antarmuka Pengguna/Pengalaman Pengguna (UI/UX) dalam meningkatkan pengalaman pengeditan kolaboratif, menyoroti bahwa masalah ini melampaui algoritma hingga pemahaman niat pengguna."
+    ],
+    "points": 243,
+    "commentCount": 85,
+    "retryCount": 0,
+    "time": 1733516527
+  },
+  {
+    "id": 42346344,
+    "title": "Output Terstruktur dengan Ollama",
+    "originLink": "https://ollama.com/blog/structured-outputs",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42346344",
+    "commentBody": "",
+    "originSummary": [
+      "Ollama telah memperkenalkan dukungan untuk keluaran terstruktur, memungkinkan model untuk menghasilkan keluaran dalam format tertentu menggunakan skema JSON.",
+      "Fitur ini sekarang tersedia dalam perpustakaan Ollama Python dan JavaScript yang diperbarui, berguna untuk tugas-tugas seperti penguraian data dari dokumen dan gambar.",
+      "Pengguna harus memperbarui ke versi Ollama terbaru dan menggunakan parameter format dalam permintaan cURL atau pustaka, dengan pembaruan di masa depan menjanjikan peningkatan kinerja dan lebih banyak opsi format."
+    ],
+    "commentSummary": [
+      "Ollama menyediakan metode untuk menghasilkan data terstruktur, seperti JSON, dari model bahasa, dengan diskusi tentang penggunaan tata bahasa GBNF untuk format output yang lebih serbaguna seperti XML atau SQL. Pengguna memperdebatkan keandalan output JSON dibandingkan dengan bahasa alami, dengan wawasan tentang bagaimana model bahasa (LLM) menghasilkan teks dan peran prompt terstruktur. Integrasi Ollama dengan llama.cpp dicatat untuk menyederhanakan penggunaan model, meskipun beberapa melihatnya hanya sebagai pembungkus, dan fitur ini mendukung berbagai model dengan tingkat akurasi yang berbeda."
+    ],
+    "points": 223,
+    "commentCount": 62,
+    "retryCount": 0,
+    "time": 1733533952
+  },
+  {
+    "id": 42346463,
+    "title": "RollerCoaster Tycoon adalah yang terakhir dari jenisnya [video]",
+    "originLink": "https://www.youtube.com/watch?v=0JouTsMQsEA",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42346463",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "RollerCoaster Tycoon, yang dikembangkan terutama dalam bahasa assembly oleh tim kecil, menjadi best-seller pada tahun 1999, menampilkan gaya pengembangan yang langka.",
+      "Penggemar menyarankan OpenRCT2 untuk fitur yang ditingkatkan dan kompatibilitas, serta Roller Coaster Tycoon Classic untuk perangkat modern, sementara alternatif seperti Parkitect dan Planet Coaster menawarkan pengalaman yang bervariasi.",
+      "Tayangan video tersebut menyoroti evolusi pengembangan game dan tantangan yang dihadapi tim kecil ketika bersaing dengan studio yang lebih besar, dengan kesuksesan indie seperti Minecraft yang menggambarkan potensi pencapaian tim kecil."
+    ],
+    "points": 220,
+    "commentCount": 60,
+    "retryCount": 0,
+    "time": 1733535139
+  },
+  {
+    "id": 42343544,
+    "title": "Fruktosa dalam diet meningkatkan pertumbuhan tumor: penelitian",
+    "originLink": "https://source.washu.edu/2024/12/research-reveals-how-fructose-in-diet-enhances-tumor-growth/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42343544",
+    "commentBody": "",
+    "originSummary": [
+      "Penggunaan fruktosa telah meningkat secara signifikan selama 50 tahun terakhir, terutama karena sirup jagung fruktosa tinggi dalam minuman dan makanan olahan.",
+      "Penelitian dari Washington University di St. Louis menunjukkan bahwa meskipun fruktosa tidak secara langsung memicu tumor, hati mengubahnya menjadi nutrisi yang mendukung pertumbuhan tumor pada kanker seperti melanoma, kanker payudara, dan kanker serviks.",
+      "Studi ini menunjukkan potensi pengobatan baru untuk kanker dengan mengeksplorasi metode untuk mencegah fruktosa membantu pertumbuhan tumor, mungkin melalui perubahan pola makan atau obat-obatan, dengan pendanaan sebagian dari National Institutes of Health (NIH)."
+    ],
+    "commentSummary": [
+      "Penelitian dari Washington University menunjukkan bahwa konsumsi fruktosa yang tinggi dapat mendorong pertumbuhan tumor dengan meningkatkan lipid yang beredar, yang digunakan oleh sel kanker untuk pertumbuhan. Sementara fruktosa dalam buah-buahan umumnya aman karena adanya nutrisi tambahan, asupan berlebihan dari sumber seperti sirup jagung fruktosa tinggi bisa berisiko. Studi ini menyoroti kompleksitas metabolisme kanker dan potensi pengaruh diet terhadap perkembangan kanker, meskipun penelitian lebih lanjut diperlukan untuk sepenuhnya memahami mekanisme ini."
+    ],
+    "points": 185,
+    "commentCount": 176,
+    "retryCount": 0,
+    "time": 1733514389
+  },
+  {
+    "id": 42346274,
+    "title": "Program shell terbesar",
+    "originLink": "https://github.com/oils-for-unix/oils/wiki/The-Biggest-Shell-Programs-in-the-World",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42346274",
+    "commentBody": "",
+    "originSummary": [
+      "Halaman ini menyoroti program shell yang signifikan, dengan fokus pada skrip yang ditulis tangan secara substansial daripada yang dihasilkan oleh alat seperti autoconf. - Entri yang menonjol termasuk akinomyoga/ble.sh, sebuah Bash Line Editor dengan 61K baris kode (LoC), dan kalua, sebuah addon OpenWRT dengan 56K baris kode sumber (SLoC). - Daftar ini memberikan wawasan tentang kompleksitas dan keragaman scripting shell, menampilkan program yang memanfaatkan struktur data dan algoritma, biasanya melebihi 5.000 baris kode."
+    ],
+    "commentSummary": [
+      "Teks ini membahas tentang kompleksitas dan tantangan dalam menggunakan skrip shell yang besar, seperti masalah keterbacaan, penanganan kesalahan, dan portabilitas. Pengguna menyarankan untuk mempertimbangkan alternatif seperti Python atau AWK untuk tugas yang kompleks karena lebih mudah dipelihara, sementara alat seperti ShellCheck dapat membantu meningkatkan kualitas skrip shell. Percakapan ini menyoroti keseimbangan antara menggunakan skrip shell untuk tugas cepat dan memilih bahasa pemrograman yang lebih kuat untuk proyek yang lebih besar."
+    ],
+    "points": 169,
+    "commentCount": 82,
+    "retryCount": 0,
+    "time": 1733533151
+  },
+  {
+    "id": 42343692,
+    "title": "DSPy – Pemrograman–bukan memandu–LMs",
+    "originLink": "https://dspy.ai/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42343692",
+    "commentBody": "",
+    "originSummary": [
+      "DSPy adalah kerangka kerja yang dirancang untuk membangun sistem AI modular menggunakan kode Python komposisional, dengan fokus pada peningkatan keluaran model bahasa (LM) tanpa hanya mengandalkan prompt. Ini mendukung beberapa penyedia model bahasa besar (LLM) seperti OpenAI, Anthropic, dan Databricks, memungkinkan pengguna untuk mendeskripsikan perilaku AI sebagai kode, memfasilitasi iterasi dan optimasi yang lebih mudah. Berasal dari Stanford NLP, DSPy memiliki kehadiran komunitas yang kuat di GitHub dan Discord, berkontribusi pada penelitian AI sumber terbuka dan memajukan arsitektur program serta pengoptimal."
+    ],
+    "commentSummary": [
+      "DSPy adalah sebuah kerangka kerja yang dirancang untuk mengoptimalkan prompt untuk model bahasa (LMs) dengan mengotomatisasi pemilihan subset data pelatihan, sehingga meningkatkan kinerja dan meminimalkan penyesuaian manual.",
+      "Itu mendukung pelatihan end-to-end dari program model bahasa besar (LLM), mencegah penggunaan prompt yang usang dalam kode, dan sangat berguna untuk tugas-tugas seperti ekstraksi data dan peringkasan.",
+      "Walaupun beberapa pengguna merasa kompleksitas DSPy menantang, DSPy dihargai karena pendekatannya yang terstruktur dan fitur-fitur seperti pernyataan dan saran yang menegakkan batasan output."
+    ],
+    "points": 159,
+    "commentCount": 33,
+    "retryCount": 0,
+    "time": 1733515189
+  }
+]

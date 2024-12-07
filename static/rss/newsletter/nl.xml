@@ -15,12 +15,113 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 06 Dec 2024 19:14:39 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Dec 2024 19:11:53 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/nl.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 06 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[nl]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-12-07]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/12/07&#39;</h2>
+<h1>2024-12-07</h1>
+<h2><a href="https://shilin.ca/my-second-year-without-job/">Mitt andre år uten jobb</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42344002">Reacties</a></h3>
+<h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog">Dialogelementet</a></h2>
+<ul>
+<li>HTML-elementet `` brukes til å lage dialogbokser, som kan være modale (stopper sideinteraksjon) eller ikke-modale (tillater interaksjon).</li>
+<li>JavaScript-metodene <code>.showModal()</code> og <code>.show()</code> brukes til å vise henholdsvis modale og ikke-modale dialoger, mens <code>.close()</code> brukes til å lukke dem.</li>
+<li>Tilgjengelighet er avgjørende; sørg for at fokus er riktig satt og gi en lukkemekanisme, som en knapp, mens du bruker CSS <code>::backdrop</code> for å style modal bakgrunner.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343089">Reacties</a></h3>
+<ul>
+<li>Dialogelementet på developer.mozilla.org har initiert en debatt om bruken av interaktive HTML-elementer, som filvelgere og mediespillere, med ulike meninger om deres konsistens og forutsigbarhet på tvers av nettlesere.</li>
+<li>Mens noen utviklere kritiserer dialogelementet for å være ustylet og ikke fungere som native popups, verdsetter andre dets semantiske og tilgjengelighetsfordeler.</li>
+<li>Diskusjonen fremhever utfordringer med å opprettholde designkonsistens og bekymringer om potensiell misbruk av annonsører, noe som indikerer at dialogelementet er et progressivt skritt, men fortsatt krever forbedringer.</li>
+</ul>
+<h2><a href="https://github.com/orgs/organicmaps/discussions/9837">Maps.me-medgründer prøver å stenge ned Organic Maps open-source fork</a></h2>
+<ul>
+<li>Organic Maps har gitt ut kildekoden for sin &quot;metaserver,&quot; som optimaliserer nedlastingshastigheter for kart ved å dirigere brukere til de beste Content Delivery Network (CDN)-serverne basert på deres plassering.</li>
+<li>Den opprinnelige koden, som var lukket for å forhindre uautoriserte forgreininger, er nå åpen under MIT-lisensen, noe som fremmer åpenhet og samfunnsengasjement.</li>
+<li>Teamet vurderer på nytt bruken av Cloudflare Workers for å forhindre leverandørlåsing og har reversert uautoriserte endringer gjort av en bidragsyter, og understreker deres forpliktelse til personvern og åpenhet.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343121">Reacties</a></h3>
+<ul>
+<li>Alexander Borsuk, medgründer av Maps.me, forsøkte å stenge Organic Maps&#39; open-source fork ved å endre dens MIT-lisens og legge til logging i et privat repository. Roman Tsisyk, en annen prosjektvedlikeholder, reverserte disse endringene og gjorde repositoryet offentlig, noe som førte til en konflikt og tilbakekalling av hans tillatelser. Hendelsen understreker interne uenigheter om prosjektets open-source natur, men Organic Maps fortsetter å være en mye brukt offline kartapplikasjon.</li>
+</ul>
+<h2><a href="https://github.com/Olshansk/postgres_for_everything">Hvordan bruke Postgres til alt</a></h2>
+<ul>
+<li>Postgres for Everything&quot; er et arkiv som fremmer bruken av PostgreSQL, en populær åpen kildekode relasjonsdatabase, for et bredt spekter av applikasjoner utover tradisjonelle databasetjenester. Arkivet inviterer til bidrag og sporer ulike innovative bruksområder for PostgreSQL, inkludert cron-jobber, meldingskøer, analyser og mer, og fremhever dens allsidighet. Initiativet inkluderer 11 elementer relatert til Supabase, en plattform som tilbyr backend-tjenester ved bruk av PostgreSQL, og viser dens integrasjon og nytte i moderne applikasjonsutvikling.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42347606">Reacties</a></h3>
+<ul>
+<li>Diskusjonen understreker Postgres&#39; allsidighet i ulike applikasjoner, men peker også på begrensninger, som håndtering av nulltegn i strenger og behovet for tilpasset SQL for skip-indeksskanninger. Meningene varierer om bruken av Postgres til alle formål, med noen som advarer mot å være for avhengig av en enkelt database for store team, mens andre roser dens enkelhet og reduserte kompleksitet. Alternativer som Redis nevnes, sammen med utfordringer i skalering og viktigheten av å unngå over-engineering i de tidlige stadiene av et prosjekt.</li>
+</ul>
+<h2><a href="https://www.moment.dev/blog/lies-i-was-told-pt-1">Jeg ble fortalt løgner om samarbeidende redigering, Del 1: Algoritmer for offline redigering</a></h2>
+<ul>
+<li>På begynnelsen av 2024 fremhevet forskning på samarbeidsredigeringssystemer for Moments teksteditor utfordringer med offline redigering, der populære algoritmer som CRDT-er (Conflict-free Replicated Data Types) og OT (Operational Transformation) ofte svikter. Offline redigering øker direkte konflikter, med 20-30 % av disse konfliktene som resulterer i uakseptable utfall, noe som antyder at problemet er mer en brukergrensesnitt/brukeropplevelse (UI/UX) utfordring enn en algoritmisk en. Forskere fokuserer nå på å forbedre brukeropplevelsen i offline redigering, og trekker paralleller til hvordan git håndterer dokumentfletting, noe som er en lovende utvikling.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343953">Reacties</a></h3>
+<ul>
+<li>Artikkelen tar for seg utfordringene ved samarbeidende redigering, spesielt offline, og kritiserer nåværende algoritmer som konfliktfrie replikerte datatyper (CRDT) og operasjonell transformasjon (OT) for ikke alltid å gi semantisk meningsfulle resultater. Det er enighet om behovet for forbedret konfliktløsning, potensielt gjennom brukerinnspill eller avanserte verktøy som store språkmodeller (LLM), for å håndtere semantiske konflikter effektivt. Diskusjonen vurderer også rollen til brukergrensesnitt/brukeropplevelse (UI/UX) løsninger i å forbedre den samarbeidende redigeringsopplevelsen, og fremhever at problemet strekker seg utover algoritmer til å forstå brukerens hensikt.</li>
+</ul>
+<h2><a href="https://ollama.com/blog/structured-outputs">Strukturerte utdata med Ollama</a></h2>
+<ul>
+<li>Ollama har introdusert støtte for strukturerte utdata, som gjør det mulig for modeller å generere utdata i et spesifikt format ved hjelp av et JSON-skjema.</li>
+<li>Denne funksjonen er nå tilgjengelig i de oppdaterte Ollama Python- og JavaScript-bibliotekene, nyttig for oppgaver som dataparsering fra dokumenter og bilder.</li>
+<li>Brukere bør oppdatere til den nyeste versjonen av Ollama og bruke formatparameteren i cURL-forespørsler eller biblioteker, med fremtidige oppdateringer som lover ytelsesforbedringer og flere formatalternativer.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42346344">Reacties</a></h3>
+<ul>
+<li>Ollama tilbyr en metode for å generere strukturerte data, som JSON, fra språkmodeller, med diskusjoner om bruk av GBNF-grammatikker for mer allsidige utdataformater som XML eller SQL. - Brukere debatterer påliteligheten av JSON-utdata versus naturlig språk, med innsikt i hvordan språkmodeller (LLM-er) genererer tekst og rollen til strukturerte instruksjoner. - Ollamas integrasjon med llama.cpp er kjent for å forenkle modellbruk, selv om noen ser det som bare en innpakning, og funksjonen støtter ulike modeller med varierende nøyaktighetsnivåer.</li>
+</ul>
+<h2><a href="https://www.youtube.com/watch?v=0JouTsMQsEA">RollerCoaster Tycoon var den siste i sitt slag [video]</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42346463">Reacties</a></h3>
+<ul>
+<li>RollerCoaster Tycoon, utviklet hovedsakelig i assembler av et lite team, ble en bestselger i 1999, og viste en sjelden utviklingsstil.</li>
+<li>Fans foreslår OpenRCT2 for forbedrede funksjoner og kompatibilitet, og Roller Coaster Tycoon Classic for moderne enheter, mens alternativer som Parkitect og Planet Coaster gir varierte opplevelser.</li>
+<li>Videoen fremhever utviklingen av spillutvikling og utfordringene små team møter når de konkurrerer med større studioer, med indie-suksesser som Minecraft som illustrerer potensialet for små team-prestasjoner.</li>
+</ul>
+<h2><a href="https://source.washu.edu/2024/12/research-reveals-how-fructose-in-diet-enhances-tumor-growth/">Fruktose i kostholdet fremmer svulstvekst: forskning</a></h2>
+<ul>
+<li>Fruktoseforbruket har økt betydelig de siste 50 årene, hovedsakelig på grunn av høyfruktose maissirup i drikkevarer og bearbeidede matvarer.</li>
+<li>Forskning fra Washington University i St. Louis indikerer at selv om fruktose ikke direkte gir næring til svulster, omdanner leveren det til næringsstoffer som støtter svulstvekst i kreftformer som melanom, bryst- og livmorhalskreft.</li>
+<li>Studien antyder potensielle nye kreftbehandlinger ved å utforske metoder for å hindre fruktose i å bidra til tumorvekst, muligens gjennom kostholdsendringer eller legemidler, med delvis finansiering fra National Institutes of Health (NIH).</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343544">Reacties</a></h3>
+<ul>
+<li>Forskning fra Washington University indikerer at høyt fruktoseforbruk kan fremme tumorvekst ved å øke sirkulerende lipider, som benyttes av kreftceller for vekst. Mens fruktose i frukt vanligvis er trygt på grunn av tilleggsnæringsstoffer, kan overdreven inntak fra kilder som høyfruktose maissirup være risikabelt. Studien understreker kompleksiteten i kreftmetabolisme og den potensielle innflytelsen av kosthold på kreftprogresjon, selv om videre forskning er nødvendig for å fullt ut forstå disse mekanismene.</li>
+</ul>
+<h2><a href="https://github.com/oils-for-unix/oils/wiki/The-Biggest-Shell-Programs-in-the-World">Største shell-programmer</a></h2>
+<ul>
+<li>Teksten fremhever betydelige shell-programmer, med fokus på omfattende håndskrevne skript i stedet for de som er generert av verktøy som autoconf. - Merkbare oppføringer inkluderer akinomyoga/ble.sh, en Bash Line Editor med 61K linjer med kode (LoC), og kalua, en OpenWRT-tillegg med 56K kildekodelinjer (SLoC). - Listen gir innsikt i kompleksiteten og mangfoldet av shell-skripting, med programmer som benytter datastrukturer og algoritmer, vanligvis over 5,000 linjer med kode.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42346274">Reacties</a></h3>
+<ul>
+<li>Diskusjonen fokuserer på kompleksitetene og utfordringene ved bruk av store shell-skript, som problemer med lesbarhet, feilhåndtering og portabilitet. - Brukere foreslår å vurdere alternativer som Python eller AWK for komplekse oppgaver på grunn av bedre vedlikeholdbarhet, mens verktøy som ShellCheck kan bidra til å forbedre kvaliteten på shell-skript. - Samtalen fremhever balansen mellom å bruke shell-skript for raske oppgaver og å velge mer robuste programmeringsspråk for større prosjekter.</li>
+</ul>
+<h2><a href="https://dspy.ai/">DSPy – Programmering–ikke prompting–LMs</a></h2>
+<ul>
+<li>DSPy er et rammeverk designet for å bygge modulære AI-systemer ved å bruke komposisjonell Python-kode, med fokus på å forbedre språkmodell (LM) utganger uten å kun stole på prompt.- Det støtter flere store språkmodell (LLM) leverandører som OpenAI, Anthropic og Databricks, slik at brukere kan beskrive AI-atferd som kode, noe som letter enklere iterasjon og optimalisering.- Med opprinnelse fra Stanford NLP, har DSPy en sterk tilstedeværelse i samfunnet på GitHub og Discord, og bidrar til åpen kildekode AI-forskning og fremmer programarkitekturer og optimalisatorer.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343692">Reacties</a></h3>
+<ul>
+<li>DSPy er et rammeverk designet for å optimalisere instruksjoner for språkmodeller (LMs) ved å automatisere utvalget av treningsdatasett, og dermed forbedre ytelsen og minimere manuelle justeringer.</li>
+<li>Det støtter ende-til-ende-trening av store språkmodell (LLM) programmer, forhindrer bruk av utdaterte instruksjoner i kode, og er spesielt nyttig for oppgaver som datauttrekking og oppsummering.</li>
+<li>Selv om noen brukere synes DSPys kompleksitet er utfordrende, blir det verdsatt for sin strukturerte tilnærming og funksjoner som påstander og forslag som håndhever outputbegrensninger.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Mitt andre år uten jobb" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Mitt%20andre%20%C3%A5r%20uten%20jobb&subheading=zaterdag%207%20december%202024%3A%20Samenvatting%20Hacker%20News" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/nl/2024/12/07</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000Z</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-12-06]]></title>
             <description
@@ -1041,173 +1142,6 @@
             <link>https://hn.cho.sh/nl/2024/11/28</link>
             <guid isPermaLink="false">2024-11-28T00:00:00.000Z</guid>
             <pubDate>Thu, 28 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-11-27]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/11/27&#39;</h2>
-<h1>2024-11-27</h1>
-<h2><a href="https://play.google.com/store/apps/details?id=com.actureunlock&hl=en_US">App som spør &#39;hvorfor?&#39; hver gang du låser opp telefonen din</a></h2>
-<ul>
-<li>Intenty er en app som oppmuntrer brukere til å utvikle sunnere telefonvaner gjennom bevissthetsvarsler når de låser opp enhetene sine. Appen legger vekt på personvern ved å operere helt lokalt uten annonser eller sporing, og den bruker Android-tillatelser utelukkende for funksjonalitet uten datainnsamling. Med et minimalistisk design og smart tilpasning har Intenty en vurdering på 4,4 stjerner og over 10 000 nedlastinger, og appellerer til brukere som ønsker å redusere tankeløs telefonbruk.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42254156">Reacties</a></h3>
-<ul>
-<li>En app som spør brukerne &quot;hvorfor?&quot; når de låser opp telefonen, får oppmerksomhet på Hacker News for sitt potensial til å redusere distraksjoner.</li>
-<li>Brukere synes appen er nyttig, men noen ganger upraktisk for raske oppgaver, noe som fører til forslag om forbedringer som å randomisere forespørsler eller tillate app-spesifikke omgåelser.</li>
-<li>Utvikleren vurderer tilbakemeldinger fra brukerne for oppdateringer, inkludert et engangskjøpsalternativ i stedet for en abonnementsmodell.</li>
-</ul>
-<h2><a href="https://www.downtowndougbrown.com/2024/11/the-capacitor-that-apple-soldered-incorrectly-at-the-factory/">Den kondensatoren som Apple loddet feil på fabrikken</a></h2>
-<ul>
-<li>Doug Brown fremhever en produksjonsfeil i Apples Macintosh LC III, der en kondensator ble installert baklengs, noe som potensielt kan forårsake problemer.</li>
-<li>Macintosh LC III, produsert mellom 1993 og 1994 for utdanningsmarkedet, gjennomgikk ikke en større tilbakekalling til tross for denne feilen.</li>
-<li>Brown anbefaler forsiktighet ved utskifting av kondensatorer, spesielt med moderne tantalumkondensatorer, og anbefaler å installere dem riktig, i motsetning til PCB-ens silketrykk-instruksjoner.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42253119">Reacties</a></h3>
-<ul>
-<li>Apple installerte ved en feiltakelse en kondensator i revers på en 34 år gammel datamaskin, noe som fremhever viktigheten av korrekt kondensatororientering, spesielt for elektrolyttkondensatorer, som har polaritet og kan svikte hvis de installeres feil.</li>
-<li>Denne hendelsen har utløst diskusjoner om produktets levetid og planlagt foreldelse, med noen som antyder at moderne elektronikk bevisst er designet for å ha kortere levetid for å øke salget.</li>
-<li>Situasjonen minner om tidligere produksjonsfeil fra andre selskaper, som Commodore, noe som indikerer et tilbakevendende problem i teknologibransjen.</li>
-</ul>
-<h2><a href="https://benhouston3d.com/blog/why-i-left-kubernetes-for-google-cloud-run">Jeg trengte ikke Kubernetes, og det gjør du sannsynligvis ikke heller</a></h2>
-<ul>
-<li>Overgangen fra Kubernetes til Google Cloud Run ble gjort av forfatteren på grunn av Kubernetes sin kompleksitet, kostnader og trege autoskalering som ulemper. Google Cloud Run fremheves som et enklere, kostnadseffektivt alternativ, som kun belaster for faktisk CPU- og minnebruk, og tilbyr rask skalering uten Kubernetes sin administrasjonsbyrde. Forfatteren bruker GitHub Actions for kontinuerlig integrasjon/kontinuerlig distribusjon (CI/CD), administrerte databaser og pub-sub-meldinger, og understreker Cloud Run sin egnethet for prosjekter som trenger enkelhet og effektivitet fremfor Kubernetes sine omfattende funksjoner.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42252336">Reacties</a></h3>
-<ul>
-<li>Artikkelen kritiserer Kubernetes for å være altfor komplekst og ofte unødvendig for mindre prosjekter, og foreslår enklere løsninger som en enkelt virtuell maskin (VM) eller server kan være mer effektivt.</li>
-<li>Det fremhever utfordringene ved å administrere Kubernetes, inkludert den ekstra kompleksiteten fra ulike tillegg og tendensen til at noen ingeniører kompliserer systemer.</li>
-<li>Det er enighet om at selv om Kubernetes er verdifullt, er det ikke alltid det beste valget for mindre skala operasjoner, hvor enkelhet kan være mer fordelaktig.</li>
-</ul>
-<h2><a href="https://krebsonsecurity.com/2024/11/hacker-in-snowflake-extortions-may-be-a-u-s-soldier/">En hacker i Snowflake-utpressingene kan være en amerikansk soldat</a></h2>
-<ul>
-<li>To personer ble arrestert for datatyveri fra selskaper som bruker Snowflake, mens en tredje mistenkt, kjent som &quot;Kiberphant0m,&quot; fortsatt er på frifot og antas å være en amerikansk soldat i Sør-Korea.</li>
-<li>Gruppen har vært involvert i å selge stjålne data og utpresse selskaper, hvor AT&amp;T angivelig betalte $370,000 for å få slettede poster.</li>
-<li>Kanadiske myndigheter har arrestert Alexander Moucka, og John Erin Binns er fengslet i Tyrkia, begge knyttet til bruddene, mens Kiberphant0m fortsatt er aktiv på forum for nettkriminalitet.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251799">Reacties</a></h3>
-<ul>
-<li>En hacker involvert i utpressing av Snowflake, identifisert som Kiberphant0m, er under etterforskning, med spekulasjoner om mulige bånd til det amerikanske militæret.</li>
-<li>Kiberphant0m benekter enhver militær tilknytning og antyder at det var en villedende taktikk, selv om analytikere tviler på at dette ville være effektivt for å villede etterforskere.</li>
-<li>Den uforsiktige handlingen til hackeren, som å legge ut et bilde i militæruniform, understreker vanskelighetene med å opprettholde operasjonell sikkerhet og unngå digitale spor.</li>
-</ul>
-<h2><a href="https://zetaoffice.net/">ZetaOffice: LibreOffice i nettleseren</a></h2>
-<ul>
-<li>ZetaOffice Web introduceert LibreOffice naar webbrowsers, waardoor toegang vanaf elk apparaat mogelijk is met opties voor zelfhosting of het gebruik van een Content Delivery Network (CDN) voor gegevensbeheer. De suite omvat Writer, Calc en Impress voor tekstverwerking, spreadsheets en presentaties, en is beschikbaar voor zowel web als desktop op Linux en Windows, wat documentcompatibiliteit garandeert. ZetaOffice biedt open-source software met betaalde opties voor CDN-gebruik en ondersteuning, en integreert met bestaande systemen via de LibreOffice UNO API, functionerend efficiënt in moderne browsers.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249746">Reacties</a></h3>
-<ul>
-<li>ZetaOffice, en nettleserbasert versjon av LibreOffice, møter kritikk for ytelses- og brukervennlighetsproblemer, inkludert ødelagt inndata og tekstgjengivelse.</li>
-<li>Det pågår en debatt om hvorvidt det er bedre å bruke et lerret eller å målrette DOM (Document Object Model) for å gjengi dokumentoppsett i nettbaserte kontorpakker.</li>
-<li>Til tross for utfordringer, har ZetaOffice som mål å tilby en konsekvent plattformuavhengig opplevelse og er også tilgjengelig som en native skrivebordsapplikasjon.</li>
-</ul>
-<h2><a href="https://www.techradar.com/pro/security/d-link-says-it-wont-patch-60-000-older-modems-as-theyre-not-worth-saving">Tek.no sier at D-Link ikke vil oppdatere 60 000 eldre modemer</a></h2>
-<ul>
-<li>D-Link har kunngjort at de ikke vil gi sikkerhetsoppdateringer for 60 000 eldre modemer som har nådd slutten av livssyklusen, og oppfordrer brukere til å oppgradere til nyere modeller i stedet.</li>
-<li>De upatchade sikkerhetssårbarhetene kan potensielt tillate hackere å ta kontroll over disse enhetene, noe som utgjør en betydelig risiko.</li>
-<li>De fleste av de berørte modemene er lokalisert i Taiwan, og for brukere som ikke kan oppgradere, anbefaler D-Link å begrense ekstern tilgang og bruke sikre passord som forholdsregler.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249790">Reacties</a></h3>
-<ul>
-<li>D-Link har besluttet å ikke utbedre sårbarheter i 60 000 eldre modemer, noe som utsetter dem for sikkerhetsrisikoer, og dette reiser bekymringer om enhetssikkerhet og produsentansvar.</li>
-<li>Kunngjøringen har utløst diskusjoner om viktigheten av langsiktig støtte og de potensielle fordelene med open-source-løsninger som OpenWRT for å opprettholde enhetssikkerhet.</li>
-<li>Det finnes forslag om juridiske påbud som krever at produsenter gir sikkerhetsoppdateringer eller frigir fastvare til offentligheten når enheter når slutten av levetiden, noe som fremhever et bredere bransjeproblem.</li>
-</ul>
-<h2><a href="https://www.technicianonline.com/news/popular-nc-state-professor-marshall-brain-dies-alleges-retaliation-for-ethics-complaints/article_152e5c80-ac2e-11ef-8b3f-036ac3c8d9bf.html">Marshall Brain døde timer etter å ha påstått gjengjeldelse ved NC State</a></h2>
-<ul>
-<li>NC State professor Marshall Brain, grunnlegger av HowStuffWorks.com, ble funnet død på kontoret sitt 20. november, etter å ha påstått gjengjeldelse fra universitetsansatte.</li>
-<li>Brain hevdet at han ble tvunget til å gå av med pensjon etter etiske klager, men universitetet har ikke kommentert disse påstandene eller hans død.</li>
-<li>Tidligere studenter og kolleger har uttrykt skuffelse over universitetets taushet, og fremhever den pågående karakteren av denne utviklende historien.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251656">Reacties</a></h3>
-<ul>
-<li>Marshall Brain, en tidligere professor ved NC State, døde etter å ha hevdet gjengjeldelse fra universitetsadministratorer på grunn av hans etiske klager.</li>
-<li>Tilfellet hans understreker spenningen mellom idealisme og virkelighet, og illustrerer de potensielle farene ved å holde de som har makten ansvarlige.</li>
-<li>Den hendelsen utløser diskusjoner om effektiviteten av interne rapporteringssystemer og de bredere maktdynamikkene innen akademiske institusjoner.</li>
-</ul>
-<h2><a href="https://ianthehenry.com/posts/janet-for-mortals/">Janet for Mortals (2023)</a></h2>
-<ul>
-<li>Forfatteren har gitt ut en gratis nettbok med tittelen &quot;Janet for Mortals,&quot; som fokuserer på programmeringsspråket Janet, og som tok 20 uker å skrive. Boken inneholder 44 000 ord og er ledsaget av en nettside med en REPL (Read-Eval-Print Loop) for interaktiv læring. Boken og relaterte prosjekter, som C++-biblioteksbindinger og et testrammeverk, har fått positiv oppmerksomhet på plattformer som Hacker News.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42253241">Reacties</a></h3>
-<ul>
-<li>«Janet for Mortals» er en bok som tilbyr en interaktiv REPL (Read-Eval-Print Loop) tilgjengelig via escape-tasten, slik at brukere kan eksperimentere med programmeringsspråket Janet direkte i nettleseren uten installasjon.</li>
-<li>Janet er anerkjent for sin enkelhet i å integrere og lage domenespesifikke språk (DSL-er), selv om noen brukere bemerker at dokumentasjonen kunne vært bedre.</li>
-<li>Den engasjerende stilen i boken og språkets unike trekk har skapt interesse og positive tilbakemeldinger, til tross for en viss debatt om boktittelen.</li>
-</ul>
-<h2><a href="https://www.jeffgeerling.com/blog/2024/raspberry-pi-cm5-2-3x-faster-drop-upgrade-mostly">Raspberry Pi CM5 er en raskere, drop-in oppgradering</a></h2>
-<ul>
-<li>Raspberry Pi Compute Module 5 (CM5) er en betydelig oppgradering fra CM4, og tilbyr 2-3 ganger raskere ytelse, USB 3 og PCIe Gen 3-kompatibilitet, samtidig som den beholder samme formfaktor.</li>
-<li>CM5 er priset likt som CM4, med 8GB-modellen som starter på $75, og inkluderer en raskere CPU, RAM og forbedret grafikk, selv om den bruker mer strøm ved full kapasitet.</li>
-<li>Et oppdatert IO-kort er også utgitt for $20, med USB-C-strøm og andre forbedringer, som fremhever CM5s støtte og modularitet til tross for konkurranse fra andre enkortdatamaskiner (SBCer).</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42254379">Reacties</a></h3>
-<ul>
-<li>Raspberry Pi CM5 gir en betydelig ytelsesforbedring over CM4, med 2-3 ganger hastigheten, og inkluderer en USB 3-oppgradering.</li>
-<li>Mens 8GB-versjonen beholder prisen, er andre versjoner dyrere, og noen brukere bemerker at andre kort kan ha bedre spesifikasjoner.</li>
-<li>Til tross for maskinvareforbedringer mangler CM5 maskinvarestøtte for koding, men kan dekode H.265, og Raspberry Pi sitt sterke fellesskap og støtte forblir viktige fordeler.</li>
-</ul>
-<h2><a href="https://arstechnica.com/tech-policy/2024/11/isps-say-their-excellent-customer-service-is-why-users-dont-switch-providers/">Internettleverandører sier at deres «utmerkede kundeservice» er grunnen til at brukere ikke bytter leverandør</a></h2>
-<ul>
-<li>ISP-lobbygrupper hevder at konkurranse sikrer høye kundeservicestandarder, noe som gjør ytterligere reguleringer unødvendige, ettersom dårlig service ville få kundene til å bytte leverandør.</li>
-<li>Regulatorer i California og Oregon rapporterer om utbredt misnøye blant kundene, og fremhever problemer som lange ventetider og faktureringsproblemer, noe som motsier påstandene fra internettleverandørene.</li>
-<li>FCC gjennomgår kundeservicepraksis, men med Brendan Carrs ledelse, utnevnt av den nyvalgte presidenten Trump, er nye reguleringer usannsynlige, ettersom fokuset skifter mot å redusere regulatoriske byrder.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251564">Reacties</a></h3>
-<ul>
-<li>Internettleverandører tilskriver kundelojalitet til deres «utmerkede kundeservice», men mange mener det skyldes mangel på konkurranse i visse områder.</li>
-<li>I regioner med begrensede ISP-alternativer forblir brukere ofte hos sin nåværende leverandør til tross for misnøye med tjenestekvaliteten.</li>
-<li>Land som Australia og Canada møter fortsatt utfordringer i sine forsøk på å regulere markedet og øke konkurransen, med brukere som etterlyser reell konkurranse og bedre regulering.</li>
-</ul>
-<h2><a href="https://news.ycombinator.com/item?id=42256093">Anbefaling for en programvareingeniør som ønsker å holde seg oppdatert med det nyeste innen AI</a></h2>
-<ul>
-<li>Brukeren søker aktivt etter pålitelige kilder for de siste oppdateringene innen kunstig intelligens (AI), spesielt gjennom teknologiblogger som ligner på Hacker News (HN).</li>
-<li>De har erfaring med å bruke ChatGPT og OpenAI API, spesifikt versjon 3.5, noe som indikerer en praktisk interesse for AI-verktøy.</li>
-<li>Brukeren fant Simon Willisons blogg, men føler at den mangler sammenheng, og antyder et behov for mer strukturerte og omfattende AI-informasjonskilder.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42256093">Reacties</a></h3>
-<ul>
-<li>Programvareingeniører kan forbedre sine AI-ferdigheter ved å delta i Kaggle-konkurranser, som tilbyr praktiske, praktiske læringserfaringer.</li>
-<li>Å holde seg informert gjennom teknologiblogger, nyhetsbrev og YouTube-kanaler som Simon Willison&#39;s, AI Supremacy og 3Blue1Brown kan gi grunnleggende og oppdatert kunnskap om AI.</li>
-<li>Å engasjere seg med AI-samfunn på plattformer som Reddit og Twitter, samt utforske pedagogiske ressurser som bøker og nettkurs fra MIT xPRO, kan utdype forståelsen og holde ingeniører oppdatert på de nyeste AI-trendene.</li>
-</ul>
-<h2><a href="https://www.washingtonpost.com/technology/2024/11/26/openai-sora-ai-video-model-artists-protest/">OpenAI setter video-modellen Sora på pause etter at kunstnere lekker tilgang i protest</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42252806">Reacties</a></h3>
-<ul>
-<li>OpenAI stoppet sin videomodell Sora etter at kunstnere lekket tilgang i protest mot ubetalt deltakelse, til tross for at det ikke var lovet noen kompensasjon. - Protesten reiser bekymringer om at AI potensielt kan erstatte kunstnere og fremhever etiske spørsmål knyttet til ubetalt arbeid i AI-utvikling. - Noen ser på protesten som en strategisk innsats for å rette oppmerksomhet mot disse bredere problemene i bransjen.</li>
-</ul>
-<h2><a href="https://www.nytimes.com/2024/11/26/us/usps-new-mail-trucks.html">Ja, det &#39;ser ut som en and&#39;, men transportører liker den nye USPS-postbilen</a></h2>
-<ul>
-<li>USAs postvesen introduserer nye elektriske postbiler som en del av en moderniseringsplan på 9,6 milliarder dollar, med funksjoner som klimaanlegg, økt lasterom og forbedret sikkerhet.</li>
-<li>Opprinnelig ment å være for det meste gassdrevet, vil nå 75% av flåten være elektrisk på grunn av juridiske utfordringer, noe som markerer et betydelig skifte mot bærekraft.</li>
-<li>Til tross for deres ukonvensjonelle design, har lastebilene blitt positivt mottatt for deres komfort og effektivitet, med innspill fra postbærere og inkludert funksjoner som sklisikre overflater, kollisjonsputer og et kollisjonsunngåelsessystem.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249545">Reacties</a></h3>
-<ul>
-<li>Det nye designet for USPS-postbilen legger vekt på synlighet og sikkerhet, med en lav panser og store støtfangere for å forbedre sikkerheten for fotgjengere og komforten for sjåføren, spesielt i urbane omgivelser.</li>
-<li>Selv om dets ukonvensjonelle utseende har skapt debatt, er lastebilen konstruert for holdbarhet, lik den langvarige Grumman LLV.</li>
-<li>Designet fokuserer også på å forbedre postarbeidernes arbeidsforhold og inkluderer alternativer for elektriske kjøretøy for å møte moderne leveringskrav.</li>
-</ul>
-<h2><a href="https://volfpeter.github.io/htmy/">Htmy – Asynkron, ren-Python gjengivelsesmotor</a></h2>
-<ul>
-<li>‘htmy’ er en rendringsmotor skrevet i ren Python som støtter asynkrone og synkrone funksjonskomponenter, React-lignende kontekststyring, og innebygde HTML-tagger, noe som gjør den allsidig for ulike behov innen webutvikling. Den tilbyr funksjoner som støtte for Markdown, internasjonalisering basert på JSON, og enkel integrasjon med alle backend- eller frontend-rammeverk, noe som forbedrer dens tilpasningsevne og tilpasningsmuligheter. Biblioteket er åpen kildekode under MIT-lisensen, noe som oppmuntrer til bidrag fra fellesskapet, og kan installeres via PyPI ved å bruke <code>pip install htmy</code>.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251919">Reacties</a></h3>
-<ul>
-<li>Htmy er en asynkron, ren-Python HTML-gjengivelsesmotor, som utløser debatt om dens verbositet sammenlignet med Jinja og nødvendigheten av async i HTML-gjengivelse.</li>
-<li>Diskusjonen fremhever de potensielle fordelene med async for dynamisk datahenting i komponentbaserte design, selv om meningene varierer om hvorvidt det kompliserer koden.</li>
-<li>Htmy har som mål å tilby en fleksibel renderingsløsning, men fordelene i forhold til etablerte verktøy som Jinja er fortsatt under diskusjon.</li>
-</ul>
-<head>
-  <meta property="og:title" content="App som spør 'hvorfor?' hver gang du låser opp telefonen din" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=App%20som%20sp%C3%B8r%20'hvorfor%3F'%20hver%20gang%20du%20l%C3%A5ser%20opp%20telefonen%20din&subheading=woensdag%2027%20november%202024%3A%20Samenvatting%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/nl/2024/11/27</link>
-            <guid isPermaLink="false">2024-11-27T00:00:00.000Z</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

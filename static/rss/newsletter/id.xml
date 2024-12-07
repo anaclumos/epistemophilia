@@ -15,12 +15,113 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 06 Dec 2024 19:14:39 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Dec 2024 19:11:53 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/id.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 06 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[id]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-12-07]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/12/07&#39;</h2>
+<h1>2024-12-07</h1>
+<h2><a href="https://shilin.ca/my-second-year-without-job/">Tahun kedua saya tanpa pekerjaan</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42344002">Reaksi</a></h3>
+<h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog">Elemen Dialog</a></h2>
+<ul>
+<li>Elemen HTML `` digunakan untuk membuat kotak dialog, yang dapat bersifat modal (menghentikan interaksi halaman) atau non-modal (memungkinkan interaksi).</li>
+<li>Metode JavaScript <code>.showModal()</code> dan <code>.show()</code> digunakan untuk menampilkan dialog modal dan non-modal, masing-masing, sedangkan <code>.close()</code> digunakan untuk menutupnya.</li>
+<li>Keberlanjutan aksesibilitas sangat penting; pastikan fokus diatur dengan benar dan sediakan mekanisme penutupan, seperti tombol, saat menggunakan CSS <code>::backdrop</code> untuk menata latar belakang modal.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343089">Reaksi</a></h3>
+<ul>
+<li>Elemen dialog di developer.mozilla.org telah memicu perdebatan tentang penggunaan elemen HTML interaktif, seperti pemilih file dan pemutar media, dengan pendapat yang berbeda mengenai konsistensi dan prediktabilitasnya di berbagai peramban.</li>
+<li>Beberapa pengembang mengkritik elemen dialog karena tidak memiliki gaya dan tidak berfungsi seperti popup asli, sementara yang lain menghargai manfaat semantik dan aksesibilitasnya.</li>
+<li>Diskusi menyoroti tantangan dalam menjaga konsistensi desain dan kekhawatiran tentang potensi penyalahgunaan oleh pengiklan, menunjukkan bahwa elemen dialog adalah langkah progresif tetapi masih memerlukan peningkatan.</li>
+</ul>
+<h2><a href="https://github.com/orgs/organicmaps/discussions/9837">Pendiri Maps.me mencoba menutup fork open-source Organic Maps</a></h2>
+<ul>
+<li>Organic Maps telah merilis kode sumber untuk &quot;metaserver&quot;-nya, yang mengoptimalkan kecepatan unduhan peta dengan mengarahkan pengguna ke server Jaringan Pengiriman Konten (CDN) terbaik berdasarkan lokasi mereka.</li>
+<li>Teks tersebut menyatakan bahwa kode yang awalnya ditutup untuk mencegah percabangan yang tidak sah, sekarang dibuka di bawah lisensi MIT, yang mendorong transparansi dan keterlibatan komunitas.</li>
+<li>The team sedang mempertimbangkan kembali penggunaan Cloudflare Workers untuk mencegah ketergantungan pada vendor dan telah membatalkan perubahan yang tidak sah yang dilakukan oleh seorang kontributor, menekankan komitmen mereka terhadap privasi dan transparansi.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343121">Reaksi</a></h3>
+<ul>
+<li>Alexander Borsuk, salah satu pendiri Maps.me, mencoba menutup fork open-source Organic Maps dengan mengubah lisensi MIT-nya dan menambahkan pencatatan ke dalam repositori pribadi. Roman Tsisyk, pemelihara proyek lainnya, membalikkan perubahan ini dan membuat repositori tersebut menjadi publik, yang mengakibatkan konflik dan pencabutan izin aksesnya. Insiden ini menyoroti ketidaksepakatan internal tentang sifat open-source proyek tersebut, namun Organic Maps tetap menjadi aplikasi peta offline yang banyak digunakan.</li>
+</ul>
+<h2><a href="https://github.com/Olshansk/postgres_for_everything">Bagaimana cara menggunakan Postgres untuk segala hal</a></h2>
+<ul>
+<li>&quot;Postgres for Everything&quot; adalah sebuah repositori yang mempromosikan penggunaan PostgreSQL, sebuah basis data relasional sumber terbuka yang populer, untuk berbagai aplikasi di luar tugas basis data tradisional. Repositori ini mengundang kontribusi dan melacak berbagai penggunaan inovatif dari PostgreSQL, termasuk cron jobs, antrian pesan, analitik, dan lainnya, menyoroti fleksibilitasnya. Inisiatif ini mencakup 11 item terkait Supabase, sebuah platform yang menyediakan layanan backend menggunakan PostgreSQL, menunjukkan integrasi dan kegunaannya dalam pengembangan aplikasi modern.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42347606">Reaksi</a></h3>
+<ul>
+<li>Teks tersebut menekankan fleksibilitas Postgres dalam berbagai aplikasi tetapi juga menunjukkan keterbatasan, seperti menangani karakter null dalam string dan memerlukan SQL khusus untuk skip-index scans. Pendapat bervariasi tentang penggunaan Postgres untuk semua tujuan, dengan beberapa memperingatkan terhadap ketergantungan berlebihan pada satu basis data untuk tim besar dan yang lain memuji kesederhanaannya dan pengurangan kompleksitas. Alternatif seperti Redis disebutkan, bersama dengan tantangan dalam penskalaan dan pentingnya menghindari rekayasa berlebihan pada tahap awal proyek.</li>
+</ul>
+<h2><a href="https://www.moment.dev/blog/lies-i-was-told-pt-1">Lies yang Diberitahukan kepada Saya tentang Kolaborasi Penyuntingan, Bagian 1: Algoritma untuk Penyuntingan Offline</a></h2>
+<ul>
+<li>Dalam awal tahun 2024, penelitian tentang sistem pengeditan kolaboratif untuk editor teks Moment menyoroti tantangan dengan pengeditan offline, di mana algoritma populer seperti CRDTs (Conflict-free Replicated Data Types) dan OT (Operational Transformation) sering gagal. Pengeditan offline meningkatkan konflik langsung, dengan 20-30% dari konflik ini menghasilkan hasil yang tidak dapat diterima, menunjukkan bahwa masalah ini lebih merupakan tantangan antarmuka pengguna/pengalaman pengguna (UI/UX) daripada masalah algoritmik. Para peneliti sekarang fokus pada peningkatan pengalaman pengguna dalam pengeditan offline, dengan menarik paralel pada bagaimana git menangani penggabungan dokumen, yang merupakan perkembangan yang menjanjikan.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343953">Reaksi</a></h3>
+<ul>
+<li>Tulisan ini membahas tantangan dalam pengeditan kolaboratif, terutama secara offline, dan mengkritik algoritma saat ini seperti Conflict-free Replicated Data Types (CRDTs) dan Operational Transformation (OT) karena tidak selalu menghasilkan hasil yang bermakna secara semantik. Ada kesepakatan tentang perlunya peningkatan resolusi konflik, yang mungkin melalui masukan pengguna atau alat canggih seperti Model Bahasa Besar (LLMs), untuk menangani konflik semantik secara efektif. Diskusi ini juga mempertimbangkan peran solusi Antarmuka Pengguna/Pengalaman Pengguna (UI/UX) dalam meningkatkan pengalaman pengeditan kolaboratif, menyoroti bahwa masalah ini melampaui algoritma hingga pemahaman niat pengguna.</li>
+</ul>
+<h2><a href="https://ollama.com/blog/structured-outputs">Output Terstruktur dengan Ollama</a></h2>
+<ul>
+<li>Ollama telah memperkenalkan dukungan untuk keluaran terstruktur, memungkinkan model untuk menghasilkan keluaran dalam format tertentu menggunakan skema JSON.</li>
+<li>Fitur ini sekarang tersedia dalam perpustakaan Ollama Python dan JavaScript yang diperbarui, berguna untuk tugas-tugas seperti penguraian data dari dokumen dan gambar.</li>
+<li>Pengguna harus memperbarui ke versi Ollama terbaru dan menggunakan parameter format dalam permintaan cURL atau pustaka, dengan pembaruan di masa depan menjanjikan peningkatan kinerja dan lebih banyak opsi format.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42346344">Reaksi</a></h3>
+<ul>
+<li>Ollama menyediakan metode untuk menghasilkan data terstruktur, seperti JSON, dari model bahasa, dengan diskusi tentang penggunaan tata bahasa GBNF untuk format output yang lebih serbaguna seperti XML atau SQL. Pengguna memperdebatkan keandalan output JSON dibandingkan dengan bahasa alami, dengan wawasan tentang bagaimana model bahasa (LLM) menghasilkan teks dan peran prompt terstruktur. Integrasi Ollama dengan llama.cpp dicatat untuk menyederhanakan penggunaan model, meskipun beberapa melihatnya hanya sebagai pembungkus, dan fitur ini mendukung berbagai model dengan tingkat akurasi yang berbeda.</li>
+</ul>
+<h2><a href="https://www.youtube.com/watch?v=0JouTsMQsEA">RollerCoaster Tycoon adalah yang terakhir dari jenisnya [video]</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42346463">Reaksi</a></h3>
+<ul>
+<li>RollerCoaster Tycoon, yang dikembangkan terutama dalam bahasa assembly oleh tim kecil, menjadi best-seller pada tahun 1999, menampilkan gaya pengembangan yang langka.</li>
+<li>Penggemar menyarankan OpenRCT2 untuk fitur yang ditingkatkan dan kompatibilitas, serta Roller Coaster Tycoon Classic untuk perangkat modern, sementara alternatif seperti Parkitect dan Planet Coaster menawarkan pengalaman yang bervariasi.</li>
+<li>Tayangan video tersebut menyoroti evolusi pengembangan game dan tantangan yang dihadapi tim kecil ketika bersaing dengan studio yang lebih besar, dengan kesuksesan indie seperti Minecraft yang menggambarkan potensi pencapaian tim kecil.</li>
+</ul>
+<h2><a href="https://source.washu.edu/2024/12/research-reveals-how-fructose-in-diet-enhances-tumor-growth/">Fruktosa dalam diet meningkatkan pertumbuhan tumor: penelitian</a></h2>
+<ul>
+<li>Penggunaan fruktosa telah meningkat secara signifikan selama 50 tahun terakhir, terutama karena sirup jagung fruktosa tinggi dalam minuman dan makanan olahan.</li>
+<li>Penelitian dari Washington University di St. Louis menunjukkan bahwa meskipun fruktosa tidak secara langsung memicu tumor, hati mengubahnya menjadi nutrisi yang mendukung pertumbuhan tumor pada kanker seperti melanoma, kanker payudara, dan kanker serviks.</li>
+<li>Studi ini menunjukkan potensi pengobatan baru untuk kanker dengan mengeksplorasi metode untuk mencegah fruktosa membantu pertumbuhan tumor, mungkin melalui perubahan pola makan atau obat-obatan, dengan pendanaan sebagian dari National Institutes of Health (NIH).</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343544">Reaksi</a></h3>
+<ul>
+<li>Penelitian dari Washington University menunjukkan bahwa konsumsi fruktosa yang tinggi dapat mendorong pertumbuhan tumor dengan meningkatkan lipid yang beredar, yang digunakan oleh sel kanker untuk pertumbuhan. Sementara fruktosa dalam buah-buahan umumnya aman karena adanya nutrisi tambahan, asupan berlebihan dari sumber seperti sirup jagung fruktosa tinggi bisa berisiko. Studi ini menyoroti kompleksitas metabolisme kanker dan potensi pengaruh diet terhadap perkembangan kanker, meskipun penelitian lebih lanjut diperlukan untuk sepenuhnya memahami mekanisme ini.</li>
+</ul>
+<h2><a href="https://github.com/oils-for-unix/oils/wiki/The-Biggest-Shell-Programs-in-the-World">Program shell terbesar</a></h2>
+<ul>
+<li>Halaman ini menyoroti program shell yang signifikan, dengan fokus pada skrip yang ditulis tangan secara substansial daripada yang dihasilkan oleh alat seperti autoconf. - Entri yang menonjol termasuk akinomyoga/ble.sh, sebuah Bash Line Editor dengan 61K baris kode (LoC), dan kalua, sebuah addon OpenWRT dengan 56K baris kode sumber (SLoC). - Daftar ini memberikan wawasan tentang kompleksitas dan keragaman scripting shell, menampilkan program yang memanfaatkan struktur data dan algoritma, biasanya melebihi 5.000 baris kode.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42346274">Reaksi</a></h3>
+<ul>
+<li>Teks ini membahas tentang kompleksitas dan tantangan dalam menggunakan skrip shell yang besar, seperti masalah keterbacaan, penanganan kesalahan, dan portabilitas. Pengguna menyarankan untuk mempertimbangkan alternatif seperti Python atau AWK untuk tugas yang kompleks karena lebih mudah dipelihara, sementara alat seperti ShellCheck dapat membantu meningkatkan kualitas skrip shell. Percakapan ini menyoroti keseimbangan antara menggunakan skrip shell untuk tugas cepat dan memilih bahasa pemrograman yang lebih kuat untuk proyek yang lebih besar.</li>
+</ul>
+<h2><a href="https://dspy.ai/">DSPy – Pemrograman–bukan memandu–LMs</a></h2>
+<ul>
+<li>DSPy adalah kerangka kerja yang dirancang untuk membangun sistem AI modular menggunakan kode Python komposisional, dengan fokus pada peningkatan keluaran model bahasa (LM) tanpa hanya mengandalkan prompt. Ini mendukung beberapa penyedia model bahasa besar (LLM) seperti OpenAI, Anthropic, dan Databricks, memungkinkan pengguna untuk mendeskripsikan perilaku AI sebagai kode, memfasilitasi iterasi dan optimasi yang lebih mudah. Berasal dari Stanford NLP, DSPy memiliki kehadiran komunitas yang kuat di GitHub dan Discord, berkontribusi pada penelitian AI sumber terbuka dan memajukan arsitektur program serta pengoptimal.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343692">Reaksi</a></h3>
+<ul>
+<li>DSPy adalah sebuah kerangka kerja yang dirancang untuk mengoptimalkan prompt untuk model bahasa (LMs) dengan mengotomatisasi pemilihan subset data pelatihan, sehingga meningkatkan kinerja dan meminimalkan penyesuaian manual.</li>
+<li>Itu mendukung pelatihan end-to-end dari program model bahasa besar (LLM), mencegah penggunaan prompt yang usang dalam kode, dan sangat berguna untuk tugas-tugas seperti ekstraksi data dan peringkasan.</li>
+<li>Walaupun beberapa pengguna merasa kompleksitas DSPy menantang, DSPy dihargai karena pendekatannya yang terstruktur dan fitur-fitur seperti pernyataan dan saran yang menegakkan batasan output.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Tahun kedua saya tanpa pekerjaan" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Tahun%20kedua%20saya%20tanpa%20pekerjaan&subheading=Sabtu%2C%207%20Desember%202024%3A%20Ringkasan%20Berita%20Peretas" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/id/2024/12/07</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000Z</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-12-06]]></title>
             <description
@@ -1041,173 +1142,6 @@
             <link>https://hn.cho.sh/id/2024/11/28</link>
             <guid isPermaLink="false">2024-11-28T00:00:00.000Z</guid>
             <pubDate>Thu, 28 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-11-27]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/11/27&#39;</h2>
-<h1>2024-11-27</h1>
-<h2><a href="https://play.google.com/store/apps/details?id=com.actureunlock&hl=en_US">App yang bertanya &#39;kenapa?&#39; setiap kali Anda membuka kunci ponsel Anda</a></h2>
-<ul>
-<li>Intenty adalah sebuah aplikasi yang mendorong pengguna untuk mengembangkan kebiasaan penggunaan ponsel yang lebih sehat melalui pengingat kesadaran saat membuka kunci perangkat mereka. Aplikasi ini menekankan privasi dengan beroperasi sepenuhnya secara lokal tanpa iklan atau pelacakan, dan menggunakan izin Android semata-mata untuk fungsionalitas tanpa pengumpulan data. Dengan desain minimalis dan kustomisasi cerdas, Intenty memiliki peringkat 4,4 bintang dan lebih dari 10.000 unduhan, menarik bagi pengguna yang ingin mengurangi penggunaan ponsel yang tidak sadar.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42254156">Reaksi</a></h3>
-<ul>
-<li>Sebuat aplikasi yang meminta pengguna dengan pertanyaan &quot;mengapa?&quot; saat membuka kunci ponsel mereka sedang mendapatkan perhatian di Hacker News karena potensinya untuk mengurangi gangguan.</li>
-<li>Pengguna menemukan aplikasi ini bermanfaat tetapi terkadang tidak nyaman untuk tugas cepat, yang mengarah pada saran perbaikan seperti pengacakan prompt atau memungkinkan pengabaian khusus aplikasi.</li>
-<li>Pengembang sedang mempertimbangkan masukan pengguna untuk pembaruan, termasuk opsi pembelian satu kali alih-alih model berlangganan.</li>
-</ul>
-<h2><a href="https://www.downtowndougbrown.com/2024/11/the-capacitor-that-apple-soldered-incorrectly-at-the-factory/">Tegangan yang disolder Apple secara tidak benar di pabrik</a></h2>
-<ul>
-<li>Doug Brown menyoroti kesalahan manufaktur pada Apple Macintosh LC III, di mana sebuah kapasitor dipasang terbalik, yang berpotensi menyebabkan masalah.</li>
-<li>Macintosh LC III, yang diproduksi antara tahun 1993 dan 1994 untuk pasar pendidikan, tidak mengalami penarikan besar meskipun ada kesalahan ini.</li>
-<li>Brown menyarankan untuk berhati-hati saat mengganti kapasitor, terutama dengan kapasitor tantalum modern, dan merekomendasikan untuk memasangnya dengan benar, bertentangan dengan petunjuk silkscreen pada PCB.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42253119">Reaksi</a></h3>
-<ul>
-<li>Apple secara keliru memasang kapasitor terbalik pada komputer berusia 34 tahun, menyoroti pentingnya orientasi kapasitor yang benar, terutama untuk kapasitor elektrolitik, yang memiliki polaritas dan dapat gagal jika dipasang secara tidak benar.</li>
-<li>Insiden ini telah memicu diskusi tentang umur panjang produk dan perencanaan usang, dengan beberapa orang menyarankan bahwa elektronik modern sengaja dirancang untuk memiliki masa pakai yang lebih pendek guna meningkatkan penjualan.</li>
-<li>Tentu saja, situasi ini mengingatkan pada kesalahan manufaktur di masa lalu oleh perusahaan lain, seperti Commodore, yang menunjukkan masalah berulang dalam industri teknologi.</li>
-</ul>
-<h2><a href="https://benhouston3d.com/blog/why-i-left-kubernetes-for-google-cloud-run">Saya Tidak Membutuhkan Kubernetes, dan Anda Mungkin Juga Tidak</a></h2>
-<ul>
-<li>Penulis beralih dari Kubernetes ke Google Cloud Run, dengan menyebutkan kompleksitas, biaya, dan autoscaling yang lambat dari Kubernetes sebagai kelemahan. Google Cloud Run disorot sebagai alternatif yang lebih sederhana dan hemat biaya, hanya membebankan biaya untuk penggunaan CPU dan memori yang sebenarnya, serta menawarkan penskalaan cepat tanpa beban manajemen Kubernetes. Penulis menggunakan GitHub Actions untuk integrasi berkelanjutan/penerapan berkelanjutan (CI/CD), basis data yang dikelola, dan pesan pub-sub, menekankan kesesuaian Cloud Run untuk proyek yang membutuhkan kesederhanaan dan efisiensi dibandingkan fitur luas Kubernetes.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42252336">Reaksi</a></h3>
-<ul>
-<li>Artikel tersebut mengkritik Kubernetes karena dianggap terlalu kompleks dan sering kali tidak diperlukan untuk proyek-proyek yang lebih kecil, dengan menyarankan solusi yang lebih sederhana seperti satu mesin virtual (VM) atau server mungkin lebih efisien.</li>
-<li>Itu menyoroti tantangan dalam mengelola Kubernetes, termasuk kompleksitas tambahan dari berbagai add-on dan kecenderungan beberapa insinyur untuk memperumit sistem.</li>
-<li>Kesepakatannya adalah bahwa meskipun Kubernetes berharga, itu tidak selalu menjadi pilihan terbaik untuk operasi skala kecil, di mana kesederhanaan bisa lebih bermanfaat.</li>
-</ul>
-<h2><a href="https://krebsonsecurity.com/2024/11/hacker-in-snowflake-extortions-may-be-a-u-s-soldier/">Hacker dalam pemerasan Snowflake mungkin adalah seorang tentara AS</a></h2>
-<ul>
-<li>Dua individu ditangkap karena pencurian data dari perusahaan yang menggunakan Snowflake, sementara tersangka ketiga, yang dikenal sebagai &quot;Kiberphant0m,&quot; masih buron dan diyakini sebagai seorang tentara Angkatan Darat AS di Korea Selatan.</li>
-<li>Kelompok tersebut terlibat dalam penjualan data curian dan memeras perusahaan, dengan AT&amp;T dilaporkan membayar $370,000 untuk menghapus catatan yang dicuri.</li>
-<li>Pejabat Kanada telah menangkap Alexander Moucka, dan John Erin Binns dipenjara di Turki, keduanya terkait dengan pelanggaran tersebut, sementara Kiberphant0m tetap aktif di forum kejahatan siber.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251799">Reaksi</a></h3>
-<ul>
-<li>Seorang peretas yang terlibat dalam pemerasan terhadap Snowflake, yang diidentifikasi sebagai Kiberphant0m, sedang dalam penyelidikan, dengan spekulasi tentang kemungkinan keterkaitan dengan militer AS.</li>
-<li>Kiberphant0m menyangkal adanya hubungan militer, menyarankan bahwa itu adalah taktik menipu, meskipun para analis meragukan ini akan efektif dalam menyesatkan penyelidik.</li>
-<li>Tindakan ceroboh peretas, seperti memposting foto dengan seragam militer, menyoroti kesulitan dalam menjaga keamanan operasional dan menghindari jejak digital.</li>
-</ul>
-<h2><a href="https://zetaoffice.net/">ZetaOffice: LibreOffice di Peramban</a></h2>
-<ul>
-<li>ZetaOffice Web memperkenalkan LibreOffice ke peramban web, memungkinkan akses dari perangkat apa pun dengan opsi untuk hosting mandiri atau menggunakan Jaringan Pengiriman Konten (CDN) untuk kontrol data. Suite ini mencakup Writer, Calc, dan Impress untuk pengolahan kata, spreadsheet, dan presentasi, dan tersedia untuk web dan desktop di Linux dan Windows, memastikan kompatibilitas dokumen. ZetaOffice menawarkan perangkat lunak sumber terbuka dengan opsi berbayar untuk penggunaan CDN dan dukungan, serta terintegrasi dengan sistem yang ada melalui API LibreOffice UNO, berfungsi secara efisien di peramban modern.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249746">Reaksi</a></h3>
-<ul>
-<li>ZetaOffice, versi berbasis peramban dari LibreOffice, menghadapi kritik terkait masalah kinerja dan kegunaan, termasuk input yang rusak dan rendering teks.</li>
-<li>Terdapat perdebatan yang sedang berlangsung tentang apakah menggunakan kanvas atau menargetkan DOM (Document Object Model) lebih baik untuk merender tata letak dokumen dalam suite kantor berbasis web.</li>
-<li>Terlepas dari tantangan, ZetaOffice bertujuan untuk memberikan pengalaman lintas platform yang konsisten dan juga tersedia sebagai aplikasi desktop asli.</li>
-</ul>
-<h2><a href="https://www.techradar.com/pro/security/d-link-says-it-wont-patch-60-000-older-modems-as-theyre-not-worth-saving">D-Link mengatakan tidak akan memperbaiki 60 ribu modem lama</a></h2>
-<ul>
-<li>D-Link telah mengumumkan bahwa mereka tidak akan menyediakan patch keamanan untuk 60.000 modem lama yang telah mencapai status akhir masa pakai, dan mendorong pengguna untuk meningkatkan ke model yang lebih baru.</li>
-<li>Kerentanan keamanan yang belum ditambal dapat memungkinkan peretas untuk mengambil alih perangkat ini, menimbulkan risiko yang signifikan.</li>
-<li>Sebagian besar modem yang terkena dampak berada di Taiwan, dan bagi pengguna yang tidak dapat melakukan upgrade, D-Link merekomendasikan untuk membatasi akses jarak jauh dan menggunakan kata sandi yang aman sebagai langkah pencegahan.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249790">Reaksi</a></h3>
-<ul>
-<li>D-Link telah memutuskan untuk tidak menambal kerentanan pada 60.000 modem lama, yang membuatnya rentan terhadap risiko keamanan, sehingga menimbulkan kekhawatiran tentang keamanan perangkat dan tanggung jawab produsen.</li>
-<li>Pengumuman tersebut telah memicu diskusi tentang pentingnya dukungan jangka panjang dan potensi manfaat dari solusi sumber terbuka seperti OpenWRT untuk menjaga keamanan perangkat.</li>
-<li>Terdapat saran untuk mandat hukum yang mewajibkan produsen memberikan pembaruan keamanan atau merilis firmware kepada publik ketika perangkat mencapai akhir masa pakainya, yang menyoroti masalah industri yang lebih luas.</li>
-</ul>
-<h2><a href="https://www.technicianonline.com/news/popular-nc-state-professor-marshall-brain-dies-alleges-retaliation-for-ethics-complaints/article_152e5c80-ac2e-11ef-8b3f-036ac3c8d9bf.html">Marshall Brain meninggal beberapa jam setelah menuduh adanya pembalasan di NC State</a></h2>
-<ul>
-<li>Profesor NC State Marshall Brain, pendiri HowStuffWorks.com, ditemukan meninggal di kantornya pada 20 November, setelah menuduh adanya pembalasan dari pejabat universitas.</li>
-<li>Brain mengklaim bahwa dia dipaksa untuk pensiun setelah adanya keluhan etika, tetapi universitas belum memberikan komentar mengenai tuduhan ini atau kematiannya.</li>
-<li>Para mantan mahasiswa dan rekan kerja telah menyatakan kekecewaan atas sikap diam universitas, menyoroti sifat berkelanjutan dari cerita yang sedang berkembang ini.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251656">Reaksi</a></h3>
-<ul>
-<li>Marshall Brain, mantan profesor di NC State, meninggal dunia setelah mengklaim adanya pembalasan dari administrator universitas karena keluhan etisnya.</li>
-<li>Kasusnya menyoroti ketegangan antara idealisme dan realitas, menggambarkan potensi bahaya dari menuntut pertanggungjawaban mereka yang berkuasa.</li>
-<li>Tindakannya mendorong diskusi tentang efektivitas sistem pelaporan internal dan dinamika kekuasaan yang lebih luas di dalam institusi akademik.</li>
-</ul>
-<h2><a href="https://ianthehenry.com/posts/janet-for-mortals/">Janet untuk Manusia Biasa (2023)</a></h2>
-<ul>
-<li>Penulis telah merilis buku online gratis berjudul &quot;Janet for Mortals,&quot; yang berfokus pada bahasa pemrograman Janet, yang memerlukan waktu 20 minggu untuk ditulis. Buku ini mencakup 44.000 kata dan dilengkapi dengan situs web yang menampilkan REPL (Read-Eval-Print Loop) untuk pembelajaran interaktif. Buku dan proyek terkait, seperti binding perpustakaan C++ dan kerangka pengujian, telah mendapatkan perhatian positif di platform seperti Hacker News.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42253241">Reaksi</a></h3>
-<ul>
-<li>&quot;Janet for Mortals&quot; adalah sebuah buku yang menawarkan REPL (Read-Eval-Print Loop) interaktif yang dapat diakses melalui tombol escape, memungkinkan pengguna untuk bereksperimen dengan bahasa pemrograman Janet langsung di browser mereka tanpa perlu instalasi.</li>
-<li>Janet diakui karena kemudahan dalam menyematkan dan membuat Bahasa Spesifik Domain (DSL), meskipun beberapa pengguna mencatat bahwa dokumentasinya dapat ditingkatkan.</li>
-<li>Tata bahasa yang menarik dari buku tersebut dan fitur unik dari bahasanya telah menghasilkan minat dan umpan balik positif, meskipun ada beberapa perdebatan mengenai judul buku tersebut.</li>
-</ul>
-<h2><a href="https://www.jeffgeerling.com/blog/2024/raspberry-pi-cm5-2-3x-faster-drop-upgrade-mostly">Raspberry Pi CM5 adalah peningkatan yang lebih cepat dan dapat langsung digunakan</a></h2>
-<ul>
-<li>Tombol Raspberry Pi Compute Module 5 (CM5) adalah peningkatan signifikan dari CM4, menawarkan kinerja 2-3 kali lebih cepat, USB 3, dan kompatibilitas PCIe Gen 3 sambil mempertahankan faktor bentuk yang sama.</li>
-<li>CM5 dihargai serupa dengan CM4, dengan model 8GB dimulai dari $75, dan mencakup CPU yang lebih cepat, RAM, dan grafis yang ditingkatkan, meskipun menggunakan lebih banyak daya pada kapasitas penuh.</li>
-<li>IO board yang diperbarui juga dirilis seharga $20, menampilkan daya USB-C dan peningkatan lainnya, menyoroti dukungan dan modularitas CM5 meskipun ada persaingan dari komputer papan tunggal (SBC) lainnya.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42254379">Reaksi</a></h3>
-<ul>
-<li>Terdapat peningkatan kinerja yang signifikan pada Raspberry Pi CM5 dibandingkan dengan CM4, dengan kecepatan 2-3 kali lebih cepat, dan dilengkapi dengan peningkatan USB 3.</li>
-<li>Meski versi 8GB mempertahankan harganya, versi lainnya lebih mahal, dan beberapa pengguna mencatat bahwa papan lainnya mungkin memiliki spesifikasi yang lebih baik.</li>
-<li>Meskipun ada peningkatan perangkat keras, CM5 tidak memiliki dukungan pengkodean perangkat keras tetapi dapat mendekode H.265, dan komunitas serta dukungan kuat Raspberry Pi tetap menjadi keunggulan utama.</li>
-</ul>
-<h2><a href="https://arstechnica.com/tech-policy/2024/11/isps-say-their-excellent-customer-service-is-why-users-dont-switch-providers/">ISP mengatakan bahwa &quot;layanan pelanggan yang luar biasa&quot; adalah alasan mengapa pengguna tidak beralih penyedia.</a></h2>
-<ul>
-<li>Kelompok lobi ISP berpendapat bahwa persaingan memastikan standar layanan pelanggan yang tinggi, sehingga peraturan tambahan tidak diperlukan, karena layanan yang buruk akan mendorong pelanggan untuk beralih penyedia.</li>
-<li>Regulator di California dan Oregon melaporkan ketidakpuasan pelanggan yang meluas, menyoroti masalah seperti waktu tunggu yang lama dan masalah penagihan, yang bertentangan dengan klaim ISP.</li>
-<li>FCC sedang meninjau praktik layanan pelanggan, tetapi dengan kepemimpinan Brendan Carr, yang ditunjuk oleh Presiden terpilih Trump, peraturan baru tidak mungkin diterapkan, karena fokus bergeser ke arah pengurangan beban regulasi.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251564">Reaksi</a></h3>
-<ul>
-<li>ISP mengaitkan retensi pelanggan dengan &quot;layanan pelanggan yang sangat baik,&quot; tetapi banyak yang percaya bahwa hal itu disebabkan oleh kurangnya persaingan di area tertentu.</li>
-<li>Di daerah dengan pilihan ISP yang terbatas, pengguna sering tetap dengan penyedia mereka saat ini meskipun tidak puas dengan kualitas layanan.</li>
-<li>Upaya di negara-negara seperti Australia dan Kanada untuk mengatur pasar dan meningkatkan persaingan menghadapi tantangan yang berkelanjutan, dengan pengguna menyerukan persaingan yang nyata dan regulasi yang lebih baik.</li>
-</ul>
-<h2><a href="https://news.ycombinator.com/item?id=42256093">Rekomendasi untuk seorang SWE yang ingin mempercepat pemahaman tentang AI terbaru</a></h2>
-<ul>
-<li>Pengguna sedang aktif mencari sumber yang dapat diandalkan untuk pembaruan terbaru dalam Kecerdasan Buatan (AI), terutama melalui blog teknologi yang mirip dengan Hacker News (HN).</li>
-<li>Mereka memiliki pengalaman menggunakan ChatGPT dan OpenAI API, khususnya versi 3.5, yang menunjukkan minat praktis dalam alat AI.</li>
-<li>Pengguna menemukan blog Simon Willison tetapi merasa kurang kohesif, menyarankan perlunya sumber informasi AI yang lebih terstruktur dan komprehensif.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42256093">Reaksi</a></h3>
-<ul>
-<li>Insinyur perangkat lunak dapat meningkatkan keterampilan AI mereka dengan berpartisipasi dalam kompetisi Kaggle, yang menawarkan pengalaman belajar praktis dan langsung.</li>
-<li>Memperoleh informasi melalui blog teknologi, buletin, dan saluran YouTube seperti Simon Willison&#39;s, AI Supremacy, dan 3Blue1Brown dapat memberikan pengetahuan dasar dan terkini tentang AI.</li>
-<li>Berinteraksi dengan komunitas AI di platform seperti Reddit dan Twitter, serta menjelajahi sumber daya pendidikan seperti buku dan kursus online dari MIT xPRO, dapat memperdalam pemahaman dan menjaga insinyur tetap terbarui dengan tren AI terbaru.</li>
-</ul>
-<h2><a href="https://www.washingtonpost.com/technology/2024/11/26/openai-sora-ai-video-model-artists-protest/">OpenAI menghentikan sementara model video Sora setelah seniman membocorkan akses sebagai bentuk protes</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42252806">Reaksi</a></h3>
-<ul>
-<li>OpenAI menghentikan model video Sora setelah para seniman membocorkan akses sebagai protes atas partisipasi yang tidak dibayar, meskipun tidak ada janji kompensasi. Protes ini menimbulkan kekhawatiran tentang AI yang berpotensi menggantikan seniman dan menyoroti masalah etika terkait tenaga kerja yang tidak dibayar dalam pengembangan AI. Beberapa orang melihat protes ini sebagai upaya strategis untuk menarik perhatian pada isu-isu yang lebih luas dalam industri ini.</li>
-</ul>
-<h2><a href="https://www.nytimes.com/2024/11/26/us/usps-new-mail-trucks.html">Ya, itu &#39;terlihat seperti bebek,&#39; tetapi pengangkut seperti truk surat USPS yang baru</a></h2>
-<ul>
-<li>The U.S. Postal Service memperkenalkan truk surat listrik baru sebagai bagian dari rencana modernisasi senilai $9,6 miliar, menawarkan fitur seperti pendingin udara, ruang kargo yang lebih luas, dan peningkatan keselamatan.</li>
-<li>Awalnya dimaksudkan untuk sebagian besar menggunakan tenaga gas, 75% dari armada sekarang akan menjadi listrik karena tantangan hukum, menandai pergeseran signifikan menuju keberlanjutan.</li>
-<li>Meskipun desainnya tidak konvensional, truk-truk tersebut telah diterima dengan baik karena kenyamanan dan efisiensinya, menggabungkan masukan dari pengantar pos dan menyertakan fitur-fitur seperti permukaan anti-selip, kantung udara, dan sistem penghindaran tabrakan.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249545">Reaksi</a></h3>
-<ul>
-<li>Tampilan baru truk pos USPS menekankan visibilitas dan keselamatan, dengan kap mesin yang rendah dan bumper besar untuk meningkatkan keselamatan pejalan kaki dan kenyamanan pengemudi, terutama di lingkungan perkotaan.</li>
-<li>Meski penampilannya yang tidak konvensional telah memicu perdebatan, truk ini dirancang untuk ketahanan, mirip dengan Grumman LLV yang telah lama beroperasi.</li>
-<li>Tata letak juga berfokus pada peningkatan kondisi pekerja pos dan mencakup opsi untuk kendaraan listrik guna memenuhi tuntutan pengiriman modern.</li>
-</ul>
-<h2><a href="https://volfpeter.github.io/htmy/">Htmy – Mesin rendering asinkron, murni-Python</a></h2>
-<ul>
-<li>htmy&quot; adalah mesin rendering murni-Python yang mendukung komponen fungsi asinkron dan sinkron, manajemen konteks mirip React, dan tag HTML bawaan, menjadikannya serbaguna untuk berbagai kebutuhan pengembangan web. Ini menawarkan fitur seperti dukungan Markdown, internasionalisasi berbasis JSON, dan integrasi mudah dengan kerangka kerja backend atau frontend apa pun, meningkatkan adaptabilitas dan kustomisasinya. Perpustakaan ini bersifat open-source di bawah lisensi MIT, mendorong kontribusi komunitas, dan dapat diinstal melalui PyPI menggunakan <code>pip install htmy</code>.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251919">Reaksi</a></h3>
-<ul>
-<li>Htmy adalah mesin rendering HTML asinkron yang sepenuhnya menggunakan Python, memicu perdebatan mengenai kebanyakan kata dibandingkan dengan Jinja dan kebutuhan akan asinkron dalam rendering HTML.</li>
-<li>Diskusi tersebut menyoroti potensi manfaat dari async untuk pengambilan data dinamis dalam desain berbasis komponen, meskipun pendapat bervariasi tentang apakah hal itu mempersulit kode.</li>
-<li>Htmy bertujuan untuk menyediakan solusi rendering yang fleksibel, tetapi keunggulannya dibandingkan alat yang sudah mapan seperti Jinja masih dalam pembahasan.</li>
-</ul>
-<head>
-  <meta property="og:title" content="App yang bertanya 'kenapa?' setiap kali Anda membuka kunci ponsel Anda" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=App%20yang%20bertanya%20'kenapa%3F'%20setiap%20kali%20Anda%20membuka%20kunci%20ponsel%20Anda&subheading=Rabu%2C%2027%20November%202024%3A%20Ringkasan%20Berita%20Peretas" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/id/2024/11/27</link>
-            <guid isPermaLink="false">2024-11-27T00:00:00.000Z</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

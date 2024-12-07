@@ -24,19 +24,17 @@ import { site } from './site'
 
 export default function Root({ children }: { children: React.ReactNode }) {
   return (
-    <html lang='en'>
+    <html lang="en">
       <body className={cn(`${pretendard.className}`, 'antialiased')}>
         <SidebarProvider>
           <Sidebar>
             <SidebarHeader>
               <SidebarMenu>
                 <SidebarMenuItem>
-                  <SidebarMenuButton size='lg'>
-                    <Image src={site.logo} alt='Logo' width={32} height={32} />
-                    <div className='flex flex-col gap-0.5 leading-none'>
-                      <span className='font-bold text-xl tracking-tight'>
-                        {site.title}
-                      </span>
+                  <SidebarMenuButton size="lg">
+                    <Image src={site.logo} alt="Logo" width={32} height={32} />
+                    <div className="flex flex-col gap-0.5 leading-none">
+                      <span className="font-bold text-xl tracking-tight">{site.title}</span>
                     </div>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
@@ -63,8 +61,8 @@ export default function Root({ children }: { children: React.ReactNode }) {
             <SidebarRail />
           </Sidebar>
           <SidebarInset>
-            <div className='w-full p-2'>
-              <SidebarTrigger className='block md:hidden' />
+            <div className="w-full p-2">
+              <SidebarTrigger className="block md:hidden" />
             </div>
             {children}
           </SidebarInset>

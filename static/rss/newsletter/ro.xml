@@ -15,12 +15,113 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 06 Dec 2024 19:14:39 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Dec 2024 19:11:53 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/ro.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 06 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[ro]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-12-07]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/12/07&#39;</h2>
+<h1>2024-12-07</h1>
+<h2><a href="https://shilin.ca/my-second-year-without-job/">„Al doilea meu an fără un loc de muncă”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42344002">Reacții</a></h3>
+<h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog">„Elementul Dialog”</a></h2>
+<ul>
+<li>„Elementul HTML `` este utilizat pentru a crea casete de dialog, care pot fi modale (oprind interacțiunea cu pagina) sau non-modale (permițând interacțiunea).”</li>
+<li>„Metodele JavaScript <code>.showModal()</code> și <code>.show()</code> sunt folosite pentru a afișa dialoguri modale și non-modale, respectiv, în timp ce <code>.close()</code> este folosită pentru a le închide.”</li>
+<li>„Accesibilitatea este esențială; asigurați-vă că focalizarea este setată corect și oferiți un mecanism de închidere, cum ar fi un buton, în timp ce utilizați CSS <code>::backdrop</code> pentru a stiliza fundalurile modale.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343089">Reacții</a></h3>
+<ul>
+<li>„Elementul de dialog de pe developer.mozilla.org a inițiat o dezbatere despre utilizarea elementelor interactive HTML, cum ar fi selectoarele de fișiere și playerele media, cu opinii diferite privind consistența și predictibilitatea lor în diferite browsere.”</li>
+<li>„În timp ce unii dezvoltatori critică elementul de dialog pentru că nu este stilizat și nu funcționează ca pop-up-urile native, alții apreciază beneficiile sale semantice și de accesibilitate.”</li>
+<li>„Discuția evidențiază provocările în menținerea consistenței designului și preocupările legate de potențiala utilizare abuzivă de către agenții de publicitate, indicând faptul că elementul de dialog este un pas progresiv, dar necesită încă îmbunătățiri.”</li>
+</ul>
+<h2><a href="https://github.com/orgs/organicmaps/discussions/9837">„Co-fondatorul Maps.me încearcă să închidă fork-ul open-source Organic Maps”</a></h2>
+<ul>
+<li>„Organic Maps a lansat codul sursă pentru „metaserverul” său, care optimizează vitezele de descărcare a hărților prin direcționarea utilizatorilor către cele mai bune servere ale Rețelei de Livrare a Conținutului (CDN) în funcție de locația lor.”</li>
+<li>„Codul, inițial închis pentru a preveni bifurcațiile neautorizate, este acum deschis sub licența MIT, promovând transparența și implicarea comunității.”</li>
+<li>„Echipa reanalizează utilizarea Cloudflare Workers pentru a preveni dependența de un singur furnizor și a revenit asupra modificărilor neautorizate făcute de un colaborator, subliniind angajamentul lor față de confidențialitate și transparență.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343121">Reacții</a></h3>
+<ul>
+<li>„Alexander Borsuk, co-fondator al Maps.me, a încercat să închidă fork-ul open-source al Organic Maps prin modificarea licenței MIT și adăugarea de logare într-un depozit privat. Roman Tsisyk, un alt întreținător al proiectului, a inversat aceste modificări și a făcut depozitul public, ceea ce a dus la un conflict și la revocarea permisiunilor sale. Incidentul subliniază dezacordurile interne cu privire la natura open-source a proiectului, totuși Organic Maps continuă să fie o aplicație de hărți offline utilizată pe scară largă.”</li>
+</ul>
+<h2><a href="https://github.com/Olshansk/postgres_for_everything">„Cum să folosești Postgres pentru orice”</a></h2>
+<ul>
+<li>„„Postgres for Everything” este un depozit care promovează utilizarea PostgreSQL, o bază de date relațională open-source populară, pentru o gamă largă de aplicații dincolo de sarcinile tradiționale ale bazelor de date. Depozitul invită la contribuții și urmărește diverse utilizări inovatoare ale PostgreSQL, inclusiv joburi cron, cozi de mesaje, analize și altele, evidențiind versatilitatea sa. Inițiativa include 11 elemente legate de Supabase, o platformă care oferă servicii de backend folosind PostgreSQL, demonstrând integrarea și utilitatea sa în dezvoltarea modernă a aplicațiilor.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42347606">Reacții</a></h3>
+<ul>
+<li>„Discuția subliniază versatilitatea Postgres în diverse aplicații, dar evidențiază și limitările, cum ar fi gestionarea caracterelor nule în șiruri și necesitatea SQL personalizat pentru scanările de tip skip-index. - Opiniile variază în privința utilizării Postgres pentru toate scopurile, unii avertizând împotriva dependenței excesive de o singură bază de date pentru echipe mari, în timp ce alții laudă simplitatea și complexitatea redusă a acesteia. - Sunt menționate alternative precum Redis, alături de provocările în scalare și importanța evitării supra-ingineriei în etapele incipiente ale unui proiect.”</li>
+</ul>
+<h2><a href="https://www.moment.dev/blog/lies-i-was-told-pt-1">„Minciuni care mi-au fost spuse despre editarea colaborativă, Partea 1: Algoritmi pentru editarea offline”</a></h2>
+<ul>
+<li>„La începutul anului 2024, cercetările asupra sistemelor de editare colaborativă pentru editorul de text Moment au evidențiat provocări legate de editarea offline, unde algoritmi populari precum CRDTs (Tipuri de Date Replicate fără Conflicte) și OT (Transformare Operațională) eșuează adesea. Editarea offline crește conflictele directe, cu 20-30% dintre aceste conflicte ducând la rezultate inacceptabile, sugerând că problema este mai degrabă una de interfață cu utilizatorul/experiența utilizatorului (UI/UX) decât una algoritmică. Cercetătorii se concentrează acum pe îmbunătățirea experienței utilizatorului în editarea offline, trăgând paralele cu modul în care git gestionează îmbinarea documentelor, ceea ce reprezintă o dezvoltare promițătoare.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343953">Reacții</a></h3>
+<ul>
+<li>„Articolul abordează provocările editării colaborative, în special offline, și critică algoritmii actuali precum Tipurile de Date Replicate fără Conflicte (CRDTs) și Transformarea Operațională (OT) pentru că nu oferă întotdeauna rezultate semnificative din punct de vedere semantic. Există un consens asupra necesității îmbunătățirii rezolvării conflictelor, posibil prin intervenția utilizatorului sau prin instrumente avansate precum Modelele de Limbaj de Mari Dimensiuni (LLMs), pentru a gestiona eficient conflictele semantice. Discuția ia în considerare, de asemenea, rolul soluțiilor de Interfață cu Utilizatorul/Experiența Utilizatorului (UI/UX) în îmbunătățirea experienței de editare colaborativă, subliniind că problema se extinde dincolo de algoritmi, la înțelegerea intenției utilizatorului.”</li>
+</ul>
+<h2><a href="https://ollama.com/blog/structured-outputs">„Rezultate structurate cu Ollama”</a></h2>
+<ul>
+<li>„Ollama a introdus suport pentru ieșiri structurate, permițând modelelor să genereze ieșiri într-un format specific folosind o schemă JSON.”</li>
+<li>„Această funcționalitate este acum disponibilă în bibliotecile actualizate Ollama Python și JavaScript, utile pentru sarcini precum analiza datelor din documente și imagini.”</li>
+<li>„Utilizatorii ar trebui să actualizeze la cea mai recentă versiune Ollama și să utilizeze parametrul de format în cererile cURL sau în biblioteci, cu actualizări viitoare care promit îmbunătățiri de performanță și mai multe opțiuni de format.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42346344">Reacții</a></h3>
+<ul>
+<li>„Ollama oferă o metodă de a genera date structurate, cum ar fi JSON, din modele de limbaj, cu discuții despre utilizarea gramaticilor GBNF pentru formate de ieșire mai versatile, cum ar fi XML sau SQL. Utilizatorii dezbat fiabilitatea ieșirilor JSON în comparație cu limbajul natural, cu perspective asupra modului în care modelele de limbaj (LLM) generează text și rolul prompturilor structurate. Integrarea Ollama cu llama.cpp este remarcată pentru simplificarea utilizării modelului, deși unii o consideră doar un înveliș, iar caracteristica suportă diverse modele cu niveluri de acuratețe diferite.”</li>
+</ul>
+<h2><a href="https://www.youtube.com/watch?v=0JouTsMQsEA">„RollerCoaster Tycoon a fost ultimul de acest fel [video]”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42346463">Reacții</a></h3>
+<ul>
+<li>„RollerCoaster Tycoon, dezvoltat în principal în limbaj de asamblare de către o echipă mică, a devenit un best-seller în 1999, evidențiind un stil de dezvoltare rar.”</li>
+<li>„Fanii sugerează OpenRCT2 pentru funcții îmbunătățite și compatibilitate, și Roller Coaster Tycoon Classic pentru dispozitive moderne, în timp ce alternative precum Parkitect și Planet Coaster oferă experiențe variate.”</li>
+<li>„Videoclipul evidențiază evoluția dezvoltării jocurilor și provocările pe care le întâmpină echipele mici atunci când concurează cu studiouri mai mari, cu succese indie precum Minecraft ilustrând potențialul realizărilor echipelor mici.”</li>
+</ul>
+<h2><a href="https://source.washu.edu/2024/12/research-reveals-how-fructose-in-diet-enhances-tumor-growth/">„Fructoza în dietă stimulează creșterea tumorilor: cercetare”</a></h2>
+<ul>
+<li>„Consumul de fructoză a crescut semnificativ în ultimii 50 de ani, în principal din cauza siropului de porumb cu conținut ridicat de fructoză din băuturi și alimente procesate.”</li>
+<li>„Cercetările de la Universitatea Washington din St. Louis indică faptul că, deși fructoza nu alimentează direct tumorile, ficatul o transformă în nutrienți care susțin creșterea tumorilor în cancere precum melanomul, cancerul de sân și cancerul de col uterin.”</li>
+<li>„Studiul sugerează potențiale noi tratamente pentru cancer prin explorarea metodelor de a preveni fructoza să ajute la creșterea tumorilor, posibil prin schimbări dietetice sau produse farmaceutice, cu finanțare parțială de la Institutul Național de Sănătate (NIH).”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343544">Reacții</a></h3>
+<ul>
+<li>„Cercetările de la Universitatea Washington indică faptul că un consum ridicat de fructoză poate promova creșterea tumorilor prin creșterea lipidelor circulante, care sunt utilizate de celulele canceroase pentru creștere. În timp ce fructoza din fructe este de obicei sigură datorită nutrienților suplimentari, un consum excesiv din surse precum siropul de porumb cu conținut ridicat de fructoză ar putea fi riscant. Studiul subliniază complexitatea metabolismului cancerului și influența potențială a dietei asupra progresiei cancerului, deși sunt necesare cercetări suplimentare pentru a înțelege pe deplin aceste mecanisme.”</li>
+</ul>
+<h2><a href="https://github.com/oils-for-unix/oils/wiki/The-Biggest-Shell-Programs-in-the-World">„Cele mai mari programe shell”</a></h2>
+<ul>
+<li>„Pagina evidențiază programe shell semnificative, concentrându-se pe scripturi substanțiale scrise manual, mai degrabă decât pe cele generate de instrumente precum autoconf. - Intrări notabile includ akinomyoga/ble.sh, un editor de linie Bash cu 61K linii de cod (LoC), și kalua, un addon OpenWRT cu 56K linii de cod sursă (SLoC). - Lista oferă perspective asupra complexității și diversității scripturilor shell, prezentând programe care utilizează structuri de date și algoritmi, depășind de obicei 5.000 de linii de cod.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42346274">Reacții</a></h3>
+<ul>
+<li>„Discuția se concentrează pe complexitățile și provocările utilizării scripturilor shell mari, cum ar fi problemele de lizibilitate, gestionarea erorilor și portabilitatea. Utilizatorii sugerează luarea în considerare a unor alternative precum Python sau AWK pentru sarcini complexe datorită unei mai bune întrețineri, în timp ce instrumente precum ShellCheck pot ajuta la îmbunătățirea calității scripturilor shell. Conversația evidențiază echilibrul între utilizarea scripturilor shell pentru sarcini rapide și opțiunea pentru limbaje de programare mai robuste pentru proiecte mai mari.”</li>
+</ul>
+<h2><a href="https://dspy.ai/">„DSPy – Programare–nu solicitare–LMs”</a></h2>
+<ul>
+<li>„DSPy este un cadru conceput pentru a construi sisteme AI modulare folosind cod Python compozițional, concentrându-se pe îmbunătățirea rezultatelor modelelor de limbaj (LM) fără a se baza exclusiv pe prompturi. - Acesta suportă mai mulți furnizori de modele de limbaj mari (LLM) precum OpenAI, Anthropic și Databricks, permițând utilizatorilor să descrie comportamentul AI ca și cod, facilitând iterarea și optimizarea mai ușoară. - Provenind de la Stanford NLP, DSPy are o prezență puternică în comunitate pe GitHub și Discord, contribuind la cercetarea AI open-source și avansând arhitecturile de programe și optimizatorii.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343692">Reacții</a></h3>
+<ul>
+<li>„DSPy este un cadru conceput pentru a optimiza solicitările pentru modelele de limbaj (LM) prin automatizarea selecției subansamblurilor de date de antrenament, îmbunătățind astfel performanța și minimizând ajustările manuale.”</li>
+<li>„Suportă instruirea de la un capăt la altul a programelor de modele lingvistice mari (LLM), prevenind utilizarea de solicitări învechite în cod și este deosebit de util pentru sarcini precum extragerea și rezumarea datelor.”</li>
+<li>„Deși unii utilizatori consideră complexitatea DSPy ca fiind provocatoare, acesta este apreciat pentru abordarea sa structurată și pentru caracteristici precum afirmațiile și sugestiile care impun constrângeri asupra rezultatelor.”</li>
+</ul>
+<head>
+  <meta property="og:title" content="„Al doilea meu an fără un loc de muncă”" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EAl%20doilea%20meu%20an%20f%C4%83r%C4%83%20un%20loc%20de%20munc%C4%83%E2%80%9D&subheading=s%C3%A2mb%C4%83t%C4%83%2C%207%20decembrie%202024%3A%20Rezumat%20Hacker%20News" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/ro/2024/12/07</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000Z</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-12-06]]></title>
             <description
@@ -1041,173 +1142,6 @@
             <link>https://hn.cho.sh/ro/2024/11/28</link>
             <guid isPermaLink="false">2024-11-28T00:00:00.000Z</guid>
             <pubDate>Thu, 28 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-11-27]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/11/27&#39;</h2>
-<h1>2024-11-27</h1>
-<h2><a href="https://play.google.com/store/apps/details?id=com.actureunlock&hl=en_US">„Aplicație care întreabă „de ce?” de fiecare dată când îți deblochezi telefonul”</a></h2>
-<ul>
-<li>„Intenty este o aplicație care încurajează utilizatorii să dezvolte obiceiuri mai sănătoase în utilizarea telefonului prin mesaje de conștientizare atunci când își deblochează dispozitivele. - Aplicația pune accent pe confidențialitate, funcționând complet local, fără reclame sau urmărire, și folosește permisiunile Android exclusiv pentru funcționalitate, fără colectare de date. - Cu un design minimalist și personalizare inteligentă, Intenty are un rating de 4,4 stele și peste 10.000 de descărcări, atrăgând utilizatorii care doresc să reducă utilizarea necontrolată a telefonului.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42254156">Reacții</a></h3>
-<ul>
-<li>„O aplicație care solicită utilizatorilor să răspundă la întrebarea „de ce?” atunci când își deblochează telefonul atrage atenția pe Hacker News pentru potențialul său de a reduce distragerile.”</li>
-<li>„Utilizatorii consideră aplicația utilă, dar uneori incomodă pentru sarcini rapide, ceea ce a dus la sugestii de îmbunătățiri, cum ar fi randomizarea solicitărilor sau permiterea ocolirilor specifice aplicației.”</li>
-<li>„Dezvoltatorul ia în considerare feedback-ul utilizatorilor pentru actualizări, inclusiv o opțiune de achiziție unică în locul unui model de abonament.”</li>
-</ul>
-<h2><a href="https://www.downtowndougbrown.com/2024/11/the-capacitor-that-apple-soldered-incorrectly-at-the-factory/">„Condensatorul pe care Apple l-a lipit incorect la fabrică”</a></h2>
-<ul>
-<li>„Doug Brown evidențiază o eroare de fabricație la Macintosh LC III de la Apple, unde un condensator a fost instalat invers, ceea ce ar putea cauza probleme.”</li>
-<li>„Macintosh LC III, produs între 1993 și 1994 pentru piața educațională, nu a fost supus unui recall major în ciuda acestei erori.”</li>
-<li>„Brown recomandă prudență atunci când se înlocuiesc condensatorii, în special cu condensatorii moderni de tantal, și sugerează instalarea corectă a acestora, contrar instrucțiunilor de pe serigrafia PCB-ului.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42253119">Reacții</a></h3>
-<ul>
-<li>„Apple a instalat din greșeală un condensator invers pe un computer vechi de 34 de ani, subliniind importanța orientării corecte a condensatorului, în special pentru condensatorii electrolitici, care au polaritate și pot eșua dacă sunt instalați incorect.”</li>
-<li>„Acest incident a stârnit discuții despre longevitatea produselor și obsolescența planificată, unii sugerând că electronicele moderne sunt intenționat proiectate să aibă durate de viață mai scurte pentru a stimula vânzările.”</li>
-<li>„Situația amintește de erorile de fabricație din trecut ale altor companii, cum ar fi Commodore, indicând o problemă recurentă în industria tehnologică.”</li>
-</ul>
-<h2><a href="https://benhouston3d.com/blog/why-i-left-kubernetes-for-google-cloud-run">„Nu aveam nevoie de Kubernetes și probabil nici tu nu ai nevoie”</a></h2>
-<ul>
-<li>„Autorul a făcut tranziția de la Kubernetes la Google Cloud Run, menționând complexitatea, costul și autoscalarea lentă a Kubernetes ca dezavantaje. Google Cloud Run este evidențiat ca o alternativă mai simplă și mai rentabilă, taxând doar pentru utilizarea efectivă a CPU și memoriei și oferind o scalare rapidă fără povara gestionării Kubernetes. Autorul folosește GitHub Actions pentru integrare continuă/deployment continuu (CI/CD), baze de date gestionate și mesagerie pub-sub, subliniind adecvarea Cloud Run pentru proiectele care necesită simplitate și eficiență în locul caracteristicilor extinse ale Kubernetes.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42252336">Reacții</a></h3>
-<ul>
-<li>„Articolul critică Kubernetes pentru a fi excesiv de complex și adesea inutil pentru proiectele mai mici, sugerând că soluții mai simple, cum ar fi o singură mașină virtuală (VM) sau un server, ar putea fi mai eficiente.”</li>
-<li>„Evidențiază provocările gestionării Kubernetes, inclusiv complexitatea suplimentară adusă de diversele add-on-uri și tendința unor ingineri de a complica sistemele.”</li>
-<li>„Consensul este că, deși Kubernetes este valoros, nu este întotdeauna cea mai bună alegere pentru operațiuni la scară mai mică, unde simplitatea poate fi mai benefică.”</li>
-</ul>
-<h2><a href="https://krebsonsecurity.com/2024/11/hacker-in-snowflake-extortions-may-be-a-u-s-soldier/">„Hackerul din extorcările Snowflake ar putea fi un soldat american”</a></h2>
-<ul>
-<li>„Două persoane au fost arestate pentru furt de date de la companii care folosesc Snowflake, în timp ce un al treilea suspect, cunoscut sub numele de „Kiberphant0m”, este încă în libertate și se crede că este un soldat al armatei americane în Coreea de Sud.”</li>
-<li>„Grupul a fost implicat în vânzarea de date furate și extorcarea companiilor, AT&amp;T plătind, conform rapoartelor, 370.000 de dolari pentru a șterge înregistrările furate.”</li>
-<li>„Autoritățile canadiene l-au arestat pe Alexander Moucka, iar John Erin Binns este încarcerat în Turcia, ambii fiind legați de încălcările respective, în timp ce Kiberphant0m rămâne activ pe forumurile de criminalitate cibernetică.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251799">Reacții</a></h3>
-<ul>
-<li>„Un hacker implicat în extorcarea companiei Snowflake, identificat ca fiind Kiberphant0m, este sub investigație, existând speculații despre posibile legături cu armata SUA.”</li>
-<li>„Kiberphant0m neagă orice legătură militară, sugerând că a fost o tactică înșelătoare, deși analiștii se îndoiesc că aceasta ar fi eficientă în inducerea în eroare a anchetatorilor.”</li>
-<li>„Acțiunile neglijente ale hackerului, cum ar fi postarea unei fotografii în uniformă militară, subliniază dificultățile în menținerea securității operaționale și evitarea urmelor digitale.”</li>
-</ul>
-<h2><a href="https://zetaoffice.net/">„ZetaOffice: LibreOffice în browser”</a></h2>
-<ul>
-<li>„ZetaOffice Web introduce LibreOffice în browserele web, permițând accesul de pe orice dispozitiv cu opțiuni pentru găzduire proprie sau utilizarea unei rețele de livrare a conținutului (CDN) pentru controlul datelor. Suita include Writer, Calc și Impress pentru procesare de text, foi de calcul și prezentări și este disponibilă atât pentru web, cât și pentru desktop pe Linux și Windows, asigurând compatibilitatea documentelor. ZetaOffice oferă software open-source cu opțiuni plătite pentru utilizarea CDN și suport, și se integrează cu sistemele existente prin API-ul LibreOffice UNO, funcționând eficient în browserele moderne.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249746">Reacții</a></h3>
-<ul>
-<li>„ZetaOffice, o versiune bazată pe browser a LibreOffice, se confruntă cu critici din cauza problemelor de performanță și utilizare, inclusiv input defectuos și redare text necorespunzătoare.”</li>
-<li>„Există o dezbatere continuă despre dacă utilizarea unui canvas sau țintirea DOM-ului (Modelul de Obiecte al Documentului) este mai bună pentru redarea layout-urilor documentelor în suitele office bazate pe web.”</li>
-<li>„În ciuda provocărilor, ZetaOffice își propune să ofere o experiență consecventă pe mai multe platforme și este disponibilă și ca aplicație desktop nativă.”</li>
-</ul>
-<h2><a href="https://www.techradar.com/pro/security/d-link-says-it-wont-patch-60-000-older-modems-as-theyre-not-worth-saving">„D-Link spune că nu va repara 60.000 de modemuri mai vechi”</a></h2>
-<ul>
-<li>„D-Link a anunțat că nu va furniza patch-uri de securitate pentru 60.000 de modemuri mai vechi care au ajuns la sfârșitul ciclului de viață, îndemnând utilizatorii să facă upgrade la modele mai noi.”</li>
-<li>„Vulnerabilitățile de securitate nepatchate ar putea permite potențial hackerilor să preia controlul asupra acestor dispozitive, reprezentând un risc semnificativ.”</li>
-<li>„Majoritatea modemurilor afectate sunt situate în Taiwan, iar pentru utilizatorii care nu pot face upgrade, D-Link recomandă restricționarea accesului de la distanță și utilizarea unor parole sigure ca măsuri de precauție.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249790">Reacții</a></h3>
-<ul>
-<li>„D-Link a decis să nu remedieze vulnerabilitățile din 60.000 de modemuri mai vechi, expunându-le la riscuri de securitate, ceea ce ridică îngrijorări cu privire la securitatea dispozitivelor și responsabilitatea producătorului.”</li>
-<li>„Anunțul a stârnit discuții despre importanța suportului pe termen lung și beneficiile potențiale ale soluțiilor open-source, cum ar fi OpenWRT, pentru menținerea securității dispozitivelor.”</li>
-<li>„Există sugestii pentru mandate legale care să oblige producătorii să ofere actualizări de securitate sau să elibereze firmware-ul către public atunci când dispozitivele ajung la sfârșitul ciclului de viață, evidențiind o problemă mai largă a industriei.”</li>
-</ul>
-<h2><a href="https://www.technicianonline.com/news/popular-nc-state-professor-marshall-brain-dies-alleges-retaliation-for-ethics-complaints/article_152e5c80-ac2e-11ef-8b3f-036ac3c8d9bf.html">„Marshall Brain a murit la câteva ore după ce a acuzat represalii la NC State”</a></h2>
-<ul>
-<li>„Profesorul de la NC State, Marshall Brain, fondatorul HowStuffWorks.com, a fost găsit decedat în biroul său pe 20 noiembrie, după ce a acuzat represalii din partea oficialilor universității.”</li>
-<li>„Brain a susținut că a fost forțat să se pensioneze în urma unor plângeri de etică, dar universitatea nu a comentat aceste acuzații sau moartea sa.”</li>
-<li>„Foști studenți și colegi și-au exprimat dezamăgirea față de tăcerea universității, subliniind natura continuă a acestei povești în dezvoltare.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251656">Reacții</a></h3>
-<ul>
-<li>„Marshall Brain, fost profesor la NC State, a decedat după ce a susținut că a fost victima unor represalii din partea administratorilor universității din cauza plângerilor sale etice.”</li>
-<li>„Cazul său subliniază tensiunea dintre idealism și realitate, ilustrând pericolele potențiale ale tragerii la răspundere a celor aflați la putere.”</li>
-<li>„Incidentul declanșează discuții despre eficacitatea sistemelor interne de raportare și despre dinamica de putere mai largă din cadrul instituțiilor academice.”</li>
-</ul>
-<h2><a href="https://ianthehenry.com/posts/janet-for-mortals/">„Janet pentru muritori (2023)”</a></h2>
-<ul>
-<li>„Autorul a lansat o carte online gratuită intitulată „Janet for Mortals”, concentrându-se pe limbajul de programare Janet, care a durat 20 de săptămâni pentru a fi scrisă. Cartea include 44.000 de cuvinte și este însoțită de un site web care dispune de un REPL (Read-Eval-Print Loop) pentru învățare interactivă. Cartea și proiectele conexe, cum ar fi legăturile de bibliotecă C++ și un cadru de testare, au câștigat atenție pozitivă pe platforme precum Hacker News.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42253241">Reacții</a></h3>
-<ul>
-<li>„„Janet for Mortals” este o carte care oferă un REPL interactiv (Read-Eval-Print Loop) accesibil prin tasta escape, permițând utilizatorilor să experimenteze cu limbajul de programare Janet direct în browserul lor, fără instalare.”</li>
-<li>„Janet este recunoscut pentru ușurința cu care se pot încorpora și crea Limbaje de Domeniu Specific (DSL-uri), deși unii utilizatori observă că documentația sa ar putea fi îmbunătățită.”</li>
-<li>„Stilul captivant al cărții și trăsăturile unice ale limbajului au generat interes și feedback pozitiv, în ciuda unor dezbateri privind titlul cărții.”</li>
-</ul>
-<h2><a href="https://www.jeffgeerling.com/blog/2024/raspberry-pi-cm5-2-3x-faster-drop-upgrade-mostly">„Raspberry Pi CM5 este un upgrade mai rapid, ușor de instalat”</a></h2>
-<ul>
-<li>„Raspberry Pi Compute Module 5 (CM5) este un upgrade semnificativ față de CM4, oferind o performanță de 2-3 ori mai rapidă, compatibilitate USB 3 și PCIe Gen 3, menținând în același timp același factor de formă.”</li>
-<li>„CM5 are un preț similar cu CM4, modelul de 8GB începând de la 75 de dolari, și include un CPU mai rapid, RAM și grafică îmbunătățită, deși consumă mai multă energie la capacitate maximă.”</li>
-<li>„O placă IO actualizată este de asemenea lansată la prețul de 20 de dolari, având caracteristici precum alimentare USB-C și alte îmbunătățiri, evidențiind suportul și modularitatea CM5 în ciuda concurenței din partea altor computere pe o singură placă (SBC-uri).”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42254379">Reacții</a></h3>
-<ul>
-<li>„Raspberry Pi CM5 oferă o creștere semnificativă a performanței față de CM4, cu o viteză de 2-3 ori mai mare și include un upgrade la USB 3.”</li>
-<li>„În timp ce versiunea de 8GB își păstrează prețul, alte versiuni sunt mai costisitoare, iar unii utilizatori observă că alte plăci ar putea avea specificații mai bune.”</li>
-<li>„În ciuda îmbunătățirilor hardware, CM5 nu dispune de suport pentru codificare hardware, dar poate decoda H.265, iar comunitatea puternică și suportul pentru Raspberry Pi rămân avantaje cheie.”</li>
-</ul>
-<h2><a href="https://arstechnica.com/tech-policy/2024/11/isps-say-their-excellent-customer-service-is-why-users-dont-switch-providers/">„Furnizorii de servicii de internet spun că „serviciul lor excelent pentru clienți” este motivul pentru care utilizatorii nu schimbă furnizorii.”</a></h2>
-<ul>
-<li>„Grupurile de lobby ale furnizorilor de servicii de internet susțin că concurența asigură standarde ridicate de servicii pentru clienți, făcând reglementările suplimentare inutile, deoarece un serviciu slab ar determina clienții să schimbe furnizorii.”</li>
-<li>„Autoritățile de reglementare din California și Oregon raportează o nemulțumire larg răspândită a clienților, evidențiind probleme precum timpii lungi de așteptare și problemele de facturare, contrazicând afirmațiile furnizorilor de servicii de internet.”</li>
-<li>„FCC revizuiește practicile de servicii pentru clienți, dar sub conducerea lui Brendan Carr, numit de președintele ales Trump, este puțin probabil să apară noi reglementări, deoarece accentul se mută către reducerea poverilor de reglementare.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251564">Reacții</a></h3>
-<ul>
-<li>„Furnizorii de servicii de internet atribuie fidelizarea clienților „serviciului lor excelent pentru clienți”, dar mulți cred că aceasta se datorează lipsei de concurență în anumite zone.”</li>
-<li>„În regiunile cu opțiuni limitate de furnizori de servicii de internet, utilizatorii rămân adesea cu furnizorul actual, în ciuda nemulțumirii față de calitatea serviciului.”</li>
-<li>„Eforturile din țări precum Australia și Canada de a reglementa piața și de a stimula concurența se confruntă cu provocări continue, utilizatorii solicitând o concurență reală și o reglementare îmbunătățită.”</li>
-</ul>
-<h2><a href="https://news.ycombinator.com/item?id=42256093">„Recomandare pentru un inginer software care dorește să se familiarizeze cu cele mai recente noutăți în domeniul inteligenței artificiale”</a></h2>
-<ul>
-<li>„Utilizatorul caută activ surse de încredere pentru cele mai recente actualizări în domeniul Inteligenței Artificiale (IA), în special prin bloguri de tehnologie similare cu Hacker News (HN).”</li>
-<li>„Au experiență în utilizarea ChatGPT și a API-ului OpenAI, în special versiunea 3.5, ceea ce indică un interes practic pentru instrumentele de inteligență artificială.”</li>
-<li>„Utilizatorul a găsit blogul lui Simon Willison, dar consideră că îi lipsește coeziunea, sugerând necesitatea unor surse de informații AI mai structurate și cuprinzătoare.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42256093">Reacții</a></h3>
-<ul>
-<li>„Inginerii software își pot îmbunătăți abilitățile de inteligență artificială participând la competițiile Kaggle, care oferă experiențe de învățare practice și aplicate.”</li>
-<li>„Rămânerea informat prin intermediul blogurilor de tehnologie, al buletinelor informative și al canalelor YouTube precum cele ale lui Simon Willison, AI Supremacy și 3Blue1Brown poate oferi cunoștințe fundamentale și actuale despre inteligența artificială.”</li>
-<li>„Implicarea în comunități AI pe platforme precum Reddit și Twitter, precum și explorarea resurselor educaționale, cum ar fi cărțile și cursurile online de la MIT xPRO, poate aprofunda înțelegerea și poate menține inginerii la curent cu cele mai recente tendințe AI.”</li>
-</ul>
-<h2><a href="https://www.washingtonpost.com/technology/2024/11/26/openai-sora-ai-video-model-artists-protest/">„OpenAI pune pauză modelului video Sora după ce artiștii au scurs accesul în semn de protest”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42252806">Reacții</a></h3>
-<ul>
-<li>„OpenAI a suspendat modelul său video Sora după ce artiștii au divulgat accesul în semn de protest față de participarea neplătită, în ciuda faptului că nu a fost promisă nicio compensație. - Protestul ridică îngrijorări cu privire la posibilitatea ca inteligența artificială să înlocuiască artiștii și evidențiază problemele etice legate de munca neplătită în dezvoltarea AI. - Unii consideră protestul ca un efort strategic de a atrage atenția asupra acestor probleme mai ample din industrie.”</li>
-</ul>
-<h2><a href="https://www.nytimes.com/2024/11/26/us/usps-new-mail-trucks.html">„Da, &#39;arată ca o rață&#39;, dar transportatorii precum noul camion poștal USPS”</a></h2>
-<ul>
-<li>„Serviciul Poștal al SUA introduce noi camioane electrice pentru livrarea corespondenței, ca parte a unui plan de modernizare în valoare de 9,6 miliarde de dolari, oferind caracteristici precum aer condiționat, spațiu de încărcare mărit și siguranță îmbunătățită.”</li>
-<li>„Inițial destinat să fie alimentat în mare parte cu gaz, 75% din flotă va fi acum electrică din cauza provocărilor legale, marcând o schimbare semnificativă către sustenabilitate.”</li>
-<li>„În ciuda designului lor neconvențional, camioanele au fost primite pozitiv pentru confortul și eficiența lor, incorporând sugestii de la curierii poștali și incluzând caracteristici precum suprafețe antiderapante, airbaguri și un sistem de evitare a coliziunilor.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249545">Reacții</a></h3>
-<ul>
-<li>„Noul design al camionului poștal USPS pune accent pe vizibilitate și siguranță, având un capotaj jos și bare de protecție mari pentru a spori siguranța pietonilor și confortul șoferului, în special în mediul urban.”</li>
-<li>„Deși aspectul său neconvențional a stârnit dezbateri, camionul este proiectat pentru durabilitate, asemănător cu Grumman LLV, care a servit mult timp.”</li>
-<li>„Designul se concentrează, de asemenea, pe îmbunătățirea condițiilor lucrătorilor poștali și include opțiuni pentru vehicule electrice pentru a satisface cerințele moderne de livrare.”</li>
-</ul>
-<h2><a href="https://volfpeter.github.io/htmy/">„Htmy – motor de redare asincron, pur-Python”</a></h2>
-<ul>
-<li>„htmy” este un motor de randare pur-Python care suportă componente funcționale asincrone și sincrone, gestionarea contextului asemănătoare cu React și etichete HTML încorporate, făcându-l versatil pentru diverse nevoi de dezvoltare web. Oferă caracteristici precum suport pentru Markdown, internaționalizare bazată pe JSON și integrare ușoară cu orice cadre de backend sau frontend, sporindu-i adaptabilitatea și personalizarea. Biblioteca este open-source sub licența MIT, încurajând contribuțiile comunității, și poate fi instalată prin PyPI folosind <code>pip install htmy</code>.„</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251919">Reacții</a></h3>
-<ul>
-<li>„Htmy este un motor de randare HTML asincron, scris în întregime în Python, care a stârnit dezbateri cu privire la verbositatea sa comparativ cu Jinja și necesitatea asincroniei în randarea HTML.”</li>
-<li>„Discuția evidențiază beneficiile potențiale ale utilizării asincronului pentru preluarea dinamică a datelor în designurile bazate pe componente, deși opiniile variază în privința faptului dacă aceasta complică sau nu codul.”</li>
-<li>„Htmy își propune să ofere o soluție flexibilă de redare, dar avantajele sale față de instrumentele consacrate precum Jinja sunt încă în discuție.”</li>
-</ul>
-<head>
-  <meta property="og:title" content="„Aplicație care întreabă „de ce?” de fiecare dată când îți deblochezi telefonul”" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EAplica%C8%9Bie%20care%20%C3%AEntreab%C4%83%20%E2%80%9Ede%20ce%3F%E2%80%9D%20de%20fiecare%20dat%C4%83%20c%C3%A2nd%20%C3%AE%C8%9Bi%20deblochezi%20telefonul%E2%80%9D&subheading=miercuri%2C%2027%20noiembrie%202024%3A%20Rezumat%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/ro/2024/11/27</link>
-            <guid isPermaLink="false">2024-11-27T00:00:00.000Z</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

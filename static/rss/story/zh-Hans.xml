@@ -15,11 +15,125 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 06 Dec 2024 19:14:39 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Dec 2024 19:11:53 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/story/zh-Hans.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 06 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
         <language><![CDATA[zh-Hans]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[“我第二年没有工作了”]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://shilin.ca/my-second-year-without-job/</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000Z“我第二年没有工作了”</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[对话元素]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>“HTML `` 元素用于创建对话框，可以是模态的(暂停页面交互)或非模态的(允许交互)。”</li>
+<li>“JavaScript 方法 <code>.showModal()</code> 和 <code>.show()</code> 分别用于显示模态和非模态对话框，而 <code>.close()</code> 用于关闭它们。”</li>
+<li>“可访问性至关重要；确保正确设置焦点，并在使用 CSS <code>::backdrop</code> 为模态背景进行样式设置时，提供关闭机制，例如按钮。”</li>
+</ul>
+]]></description>
+            <link>https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000Z对话元素</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[“Maps.me 联合创始人试图关闭 Organic Maps 开源分支”]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>“Organic Maps 已经发布了其“元服务器”的源代码，该服务器通过根据用户位置将其引导至最佳内容分发网络 (CDN) 服务器来优化地图下载速度。”</li>
+<li>“该代码最初是封闭的，以防止未经授权的分叉，现在在MIT许可证下开放，促进透明度和社区参与。”</li>
+<li>“团队正在重新考虑使用Cloudflare Workers以防止供应商锁定，并已恢复由一名贡献者进行的未经授权的更改，强调他们对隐私和透明度的承诺。”</li>
+</ul>
+]]></description>
+            <link>https://github.com/orgs/organicmaps/discussions/9837</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000Z“Maps.me 联合创始人试图关闭 Organic Maps 开源分支”</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[如何将 Postgres 用于所有事情]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>“Postgres for Everything” 是一个推广使用 PostgreSQL 的仓库，这是一种流行的开源关系数据库，适用于广泛的应用程序，不仅限于传统的数据库任务。该仓库邀请贡献者并跟踪 PostgreSQL 的各种创新用途，包括定时任务、消息队列、分析等，突显其多功能性。该倡议包括 11 个与 Supabase 相关的项目，Supabase 是一个使用 PostgreSQL 提供后端服务的平台，展示了其在现代应用程序开发中的集成和实用性。</li>
+</ul>
+]]></description>
+            <link>https://github.com/Olshansk/postgres_for_everything</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000Z如何将 Postgres 用于所有事情</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[“关于协作编辑我被告知的谎言，第一部分：离线编辑的算法”]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>“2024年初，对Moment文本编辑器的协同编辑系统的研究突出了离线编辑的挑战，其中流行的算法如CRDTs(无冲突复制数据类型)和OT(操作变换)常常失效。- 离线编辑增加了直接冲突，其中20-30%的冲突导致不可接受的结果，这表明问题更多是用户界面/用户体验(UI/UX)方面的挑战，而非算法问题。- 研究人员现在专注于改善离线编辑的用户体验，借鉴git处理文档合并的方式，这是一项有前景的发展。”</li>
+</ul>
+]]></description>
+            <link>https://www.moment.dev/blog/lies-i-was-told-pt-1</link>
+            <guid
+        isPermaLink="false"
+      >2024-12-07T00:00:00.000Z“关于协作编辑我被告知的谎言，第一部分：离线编辑的算法”</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[“使用 Ollama 生成结构化输出”]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>“奥拉玛引入了对结构化输出的支持，使模型能够使用 JSON 架构生成特定格式的输出。”</li>
+<li>“此功能现已在更新后的Ollama Python和JavaScript库中可用，可用于从文档和图像中解析数据等任务。”</li>
+<li>“用户应更新到最新的Ollama版本，并在cURL请求或库中使用格式参数，未来的更新将提供性能增强和更多格式选项。”</li>
+</ul>
+]]></description>
+            <link>https://ollama.com/blog/structured-outputs</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000Z“使用 Ollama 生成结构化输出”</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[“过山车大亨是同类游戏中的最后一款 [视频]”]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://www.youtube.com/watch?v=0JouTsMQsEA</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000Z“过山车大亨是同类游戏中的最后一款 [视频]”</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[“饮食中的果糖促进肿瘤生长：研究”]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>“在过去的50年里，果糖的消费显著增加，主要是由于饮料和加工食品中高果糖玉米糖浆的使用。”</li>
+<li>“来自圣路易斯华盛顿大学的研究表明，虽然果糖并不直接为肿瘤提供能量，但肝脏会将其转化为支持肿瘤生长的营养物质，这在黑色素瘤、乳腺癌和宫颈癌等癌症中尤为明显。”</li>
+<li>“该研究通过探索阻止果糖促进肿瘤生长的方法，提出了潜在的新型癌症治疗方案，这可能通过饮食改变或药物实现，部分资金由美国国立卫生研究院(NIH)提供。”</li>
+</ul>
+]]></description>
+            <link>https://source.washu.edu/2024/12/research-reveals-how-fructose-in-diet-enhances-tumor-growth/</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000Z“饮食中的果糖促进肿瘤生长：研究”</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[“最大的shell程序”]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>“该页面重点介绍了重要的 shell 程序，主要关注手写脚本，而非由 autoconf 等工具生成的脚本。- 值得注意的条目包括 akinomyoga/ble.sh，一个拥有 61K 行代码(LoC)的 Bash 行编辑器，以及 kalua，一个拥有 56K 源代码行(SLoC)的 OpenWRT 插件。- 该列表提供了对 shell 脚本复杂性和多样性的见解，展示了通常超过 5,000 行代码的程序，这些程序利用了数据结构和算法。”</li>
+</ul>
+]]></description>
+            <link>https://github.com/oils-for-unix/oils/wiki/The-Biggest-Shell-Programs-in-the-World</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000Z“最大的shell程序”</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[“DSPy – 编程而非提示–语言模型”]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>“DSPy 是一个框架，旨在通过组合式 Python 代码构建模块化 AI 系统，重点在于改进语言模型 (LM) 的输出，而不仅仅依赖于提示。- 它支持多个大型语言模型 (LLM) 提供商，如 OpenAI、Anthropic 和 Databricks，允许用户将 AI 行为描述为代码，从而更容易进行迭代和优化。- DSPy 起源于斯坦福 NLP，在 GitHub 和 Discord 上拥有强大的社区存在，致力于开源 AI 研究，推进程序架构和优化器的发展。”</li>
+</ul>
+]]></description>
+            <link>https://dspy.ai/</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000Z“DSPy – 编程而非提示–语言模型”</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[“正确的广告数量是零”]]></title>
             <description
@@ -1125,186 +1239,6 @@
         isPermaLink="false"
       >2024-11-28T00:00:00.000Z“在突触可塑性之前推断神经活动，以实现超越反向传播的学习”</guid>
             <pubDate>Thu, 28 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[“每次解锁手机时都会问‘为什么？’的应用程序”]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>“Intenty 是一款应用程序，通过在解锁设备时提供提醒来鼓励用户养成更健康的手机使用习惯。- 该应用程序强调隐私，完全在本地运行，没有广告或跟踪，并且仅使用 Android 权限来实现功能而不收集数据。- 凭借极简设计和智能定制，Intenty 拥有 4.4 星评级和超过 10,000 次下载，吸引了希望减少无意识手机使用的用户。”</li>
-</ul>
-]]></description>
-            <link>https://play.google.com/store/apps/details?id=com.actureunlock&amp;hl=en_US</link>
-            <guid isPermaLink="false">2024-11-27T00:00:00.000Z“每次解锁手机时都会问‘为什么？’的应用程序”</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[“苹果在工厂错误焊接的电容器”]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>“道格·布朗指出苹果Macintosh LC III中的制造错误，其中一个电容器被反向安装，可能导致问题。”</li>
-<li>“麦金塔 LC III 于 1993 年至 1994 年间为教育市场生产，尽管存在此错误，但并未进行大规模召回。”</li>
-<li>“布朗建议在更换电容器时要谨慎，特别是现代钽电容器，并建议正确安装它们，与印刷电路板的丝印说明相反。”</li>
-</ul>
-]]></description>
-            <link
-      >https://www.downtowndougbrown.com/2024/11/the-capacitor-that-apple-soldered-incorrectly-at-the-factory/</link>
-            <guid isPermaLink="false">2024-11-27T00:00:00.000Z“苹果在工厂错误焊接的电容器”</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[“我不需要 Kubernetes，你可能也不需要”]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>作者从 Kubernetes 转向 Google Cloud Run，指出 Kubernetes 的复杂性、成本和缓慢的自动扩展是其缺点。- Google Cloud Run 被强调为一个更简单、成本效益更高的替代方案，仅对实际的 CPU 和内存使用收费，并提供快速扩展而没有 Kubernetes 的管理负担。- 作者使用 GitHub Actions 进行持续集成/持续部署(CI/CD)、托管数据库和发布-订阅消息，强调 Cloud Run 适合需要简单性和效率的项目，而不是 Kubernetes 的广泛功能。</li>
-</ul>
-]]></description>
-            <link>https://benhouston3d.com/blog/why-i-left-kubernetes-for-google-cloud-run</link>
-            <guid isPermaLink="false">2024-11-27T00:00:00.000Z“我不需要 Kubernetes，你可能也不需要”</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[“在Snowflake勒索案中的黑客可能是一名美国士兵”]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>“两名个人因从使用Snowflake的公司窃取数据而被捕，而第三名嫌疑人，代号为“Kiberphant0m”，仍然在逃，据信是一名驻扎在韩国的美国陆军士兵。”</li>
-<li>“该团伙参与了出售被盗数据和勒索公司，据报道，AT&amp;T支付了37万美元以删除被盗记录。”</li>
-<li>“加拿大当局已逮捕亚历山大·穆卡，约翰·埃林·宾斯则在土耳其被监禁，两人均与这些违规行为有关，而Kiberphant0m仍活跃在网络犯罪论坛上。”</li>
-</ul>
-]]></description>
-            <link>https://krebsonsecurity.com/2024/11/hacker-in-snowflake-extortions-may-be-a-u-s-soldier/</link>
-            <guid isPermaLink="false">2024-11-27T00:00:00.000Z“在Snowflake勒索案中的黑客可能是一名美国士兵”</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[“ZetaOffice：浏览器中的LibreOffice”]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>“ZetaOffice Web将LibreOffice引入网络浏览器，使用户可以从任何设备访问，并提供自我托管或使用内容分发网络(CDN)进行数据控制的选项。- 该套件包括用于文字处理、电子表格和演示文稿的Writer、Calc和Impress，适用于Linux和Windows的网络和桌面版本，确保文档兼容性。- ZetaOffice提供开源软件，并为CDN使用和支持提供付费选项，通过LibreOffice UNO API与现有系统集成，在现代浏览器中高效运行。”</li>
-</ul>
-]]></description>
-            <link>https://zetaoffice.net/</link>
-            <guid isPermaLink="false">2024-11-27T00:00:00.000Z“ZetaOffice：浏览器中的LibreOffice”</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[“D-Link表示不会修补6万个旧调制解调器”]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>“D-Link宣布将不为已达到生命周期终止状态的60,000台旧调制解调器提供安全补丁，并敦促用户升级到更新型号。”</li>
-<li>“未修补的安全漏洞可能会让黑客控制这些设备，构成重大风险。”</li>
-<li>“受影响的调制解调器大多位于台湾，对于无法升级的用户，D-Link建议采取限制远程访问和使用安全密码等预防措施。”</li>
-</ul>
-]]></description>
-            <link
-      >https://www.techradar.com/pro/security/d-link-says-it-wont-patch-60-000-older-modems-as-theyre-not-worth-saving</link>
-            <guid isPermaLink="false">2024-11-27T00:00:00.000Z“D-Link表示不会修补6万个旧调制解调器”</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[“马歇尔·布雷恩在指控北卡罗来纳州立大学报复后数小时去世”]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>“北卡罗来纳州立大学教授、HowStuffWorks.com创始人马歇尔·布雷恩于11月20日在他的办公室被发现去世，此前他曾指控大学官员进行报复。”</li>
-<li>“布莱恩声称他因伦理投诉被迫退休，但大学尚未对这些指控或他的去世发表评论。”</li>
-<li>“前学生和同事对大学的沉默表示失望，强调了这一发展中事件的持续性。”</li>
-</ul>
-]]></description>
-            <link
-      >https://www.technicianonline.com/news/popular-nc-state-professor-marshall-brain-dies-alleges-retaliation-for-ethics-complaints/article_152e5c80-ac2e-11ef-8b3f-036ac3c8d9bf.html</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-27T00:00:00.000Z“马歇尔·布雷恩在指控北卡罗来纳州立大学报复后数小时去世”</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[“凡人珍妮特 (2023)”]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>“作者发布了一本名为《Janet for Mortals》的免费在线书籍，重点介绍了Janet编程语言，耗时20周完成。- 该书包含44,000字，并附有一个网站，提供用于互动学习的REPL(读取-求值-打印循环)。- 这本书及相关项目，如C++库绑定和测试框架，在Hacker News等平台上获得了积极关注。”</li>
-</ul>
-]]></description>
-            <link>https://ianthehenry.com/posts/janet-for-mortals/</link>
-            <guid isPermaLink="false">2024-11-27T00:00:00.000Z“凡人珍妮特 (2023)”</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[“Raspberry Pi CM5 是一个更快的即插即用升级”]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>“树莓派计算模块5(CM5)是对CM4的重大升级，提供2-3倍的性能提升，支持USB 3和PCIe Gen 3兼容性，同时保持相同的外形尺寸。”</li>
-<li>CM5的定价与CM4相似，8GB型号起价为75美元，并且配备了更快的CPU、RAM和改进的图形性能，尽管在满负荷运行时耗电更多。</li>
-<li>“更新的IO板也已发布，售价为20美元，具有USB-C电源和其他增强功能，突显了CM5的支持和模块化，尽管面临来自其他单板计算机(SBC)的竞争。”</li>
-</ul>
-]]></description>
-            <link>https://www.jeffgeerling.com/blog/2024/raspberry-pi-cm5-2-3x-faster-drop-upgrade-mostly</link>
-            <guid isPermaLink="false">2024-11-27T00:00:00.000Z“Raspberry Pi CM5 是一个更快的即插即用升级”</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[“互联网服务提供商表示，他们的‘卓越客户服务’是用户不更换提供商的原因。”]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>“互联网服务提供商游说团体认为，竞争能够确保高水平的客户服务标准，使得额外的监管变得不必要，因为糟糕的服务会促使客户更换服务提供商。”</li>
-<li>“加利福尼亚州和俄勒冈州的监管机构报告称，客户普遍不满，突出的问题包括长时间等待和账单问题，这与互联网服务提供商的说法相矛盾。”</li>
-<li>“联邦通信委员会正在审查客户服务实践，但在由特朗普当选总统任命的布伦丹·卡尔的领导下，新的法规不太可能出台，因为重点转向减少监管负担。”</li>
-</ul>
-]]></description>
-            <link
-      >https://arstechnica.com/tech-policy/2024/11/isps-say-their-excellent-customer-service-is-why-users-dont-switch-providers/</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-27T00:00:00.000Z“互联网服务提供商表示，他们的‘卓越客户服务’是用户不更换提供商的原因。”</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[“对希望跟上最新人工智能进展的软件工程师的建议”]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>“用户正在积极寻找有关人工智能(AI)最新动态的可靠来源，特别是通过类似于Hacker News(HN)的科技博客。”</li>
-<li>他们有使用ChatGPT和OpenAI API的经验，特别是3.5版本，这表明他们对AI工具有实际的兴趣。</li>
-<li>“用户找到了Simon Willison的博客，但觉得缺乏连贯性，建议需要更结构化和全面的AI信息来源。”</li>
-</ul>
-]]></description>
-            <link>https://news.ycombinator.com/item?id=42256093</link>
-            <guid isPermaLink="false">2024-11-27T00:00:00.000Z“对希望跟上最新人工智能进展的软件工程师的建议”</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[“OpenAI在艺术家泄露访问权限以示抗议后暂停视频模型Sora”]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link
-      >https://www.washingtonpost.com/technology/2024/11/26/openai-sora-ai-video-model-artists-protest/</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-27T00:00:00.000Z“OpenAI在艺术家泄露访问权限以示抗议后暂停视频模型Sora”</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[“是的，它‘看起来像一只鸭子’，但像新的美国邮政服务邮件卡车这样的运输工具”]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>“美国邮政局正在推出新的电动邮车，作为96亿美元现代化计划的一部分，提供空调、增加的货物空间和增强的安全性等功能。”</li>
-<li>“最初计划主要使用燃气动力，由于法律挑战，现在75%的车队将改为电动，这标志着向可持续性的重要转变。”</li>
-<li>尽管设计不寻常，这些卡车因其舒适性和效率而受到好评，结合了邮递员的意见，并包括防滑表面、安全气囊和防碰撞系统等功能。</li>
-</ul>
-]]></description>
-            <link>https://www.nytimes.com/2024/11/26/us/usps-new-mail-trucks.html</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-27T00:00:00.000Z“是的，它‘看起来像一只鸭子’，但像新的美国邮政服务邮件卡车这样的运输工具”</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[“Htmy – 异步、纯 Python 渲染引擎”]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>“htmy” 是一个纯 Python 渲染引擎，支持异步和同步函数组件、类似 React 的上下文管理和内置 HTML 标签，使其在各种 Web 开发需求中具有多功能性。- 它提供了 Markdown 支持、基于 JSON 的国际化以及与任何后端或前端框架的轻松集成，增强了其适应性和可定制性。- 该库在 MIT 许可证下开源，鼓励社区贡献，并可以通过 PyPI 使用 <code>pip install htmy</code> 进行安装。</li>
-</ul>
-]]></description>
-            <link>https://volfpeter.github.io/htmy/</link>
-            <guid isPermaLink="false">2024-11-27T00:00:00.000Z“Htmy – 异步、纯 Python 渲染引擎”</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

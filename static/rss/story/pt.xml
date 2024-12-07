@@ -15,11 +15,132 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 06 Dec 2024 19:14:39 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Dec 2024 19:11:53 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/story/pt.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 06 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
         <language><![CDATA[pt]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Meu segundo ano sem emprego]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://shilin.ca/my-second-year-without-job/</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000ZMeu segundo ano sem emprego</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Elemento de Diálogo]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>O elemento HTML `` é usado para criar caixas de diálogo, que podem ser modais (pausando a interação com a página) ou não modais (permitindo a interação).</li>
+<li>Os métodos JavaScript <code>.showModal()</code> e <code>.show()</code> são usados para exibir diálogos modais e não modais, respectivamente, enquanto <code>.close()</code> é usado para fechá-los.</li>
+<li>É crucial garantir a acessibilidade; certifique-se de que o foco esteja configurado corretamente e forneça um mecanismo de fechamento, como um botão, ao usar CSS <code>::backdrop</code> para estilizar os fundos de modais.</li>
+</ul>
+]]></description>
+            <link>https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000ZElemento de Diálogo</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Co-fundador do Maps.me tenta encerrar o fork de código aberto Organic Maps]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Organic Maps lançou o código-fonte de seu &#39;metaserver&#39;, que otimiza a velocidade de download de mapas direcionando os usuários para os melhores servidores de Rede de Distribuição de Conteúdo (CDN) com base em sua localização.</li>
+<li>O código, inicialmente fechado para prevenir forks não autorizados, agora está aberto sob a licença MIT, promovendo transparência e envolvimento da comunidade.</li>
+<li>A equipe está reconsiderando o uso do Cloudflare Workers para evitar a dependência de fornecedores e reverteu alterações não autorizadas feitas por um colaborador, enfatizando seu compromisso com a privacidade e transparência.</li>
+</ul>
+]]></description>
+            <link>https://github.com/orgs/organicmaps/discussions/9837</link>
+            <guid
+        isPermaLink="false"
+      >2024-12-07T00:00:00.000ZCo-fundador do Maps.me tenta encerrar o fork de código aberto Organic Maps</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Como usar Postgres para tudo]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>&quot;Postgres para Tudo&quot; é um repositório que promove o uso do PostgreSQL, um popular banco de dados relacional de código aberto, para uma ampla gama de aplicações além das tarefas tradicionais de banco de dados. O repositório convida contribuições e acompanha vários usos inovadores do PostgreSQL, incluindo tarefas cron, filas de mensagens, análises e mais, destacando sua versatilidade. A iniciativa inclui 11 itens relacionados ao Supabase, uma plataforma que fornece serviços de backend usando PostgreSQL, mostrando sua integração e utilidade no desenvolvimento moderno de aplicações.</li>
+</ul>
+]]></description>
+            <link>https://github.com/Olshansk/postgres_for_everything</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000ZComo usar Postgres para tudo</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title
+      ><![CDATA[Lendas que me contaram sobre edição colaborativa, Parte 1: Algoritmos para edição offline]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Em início de 2024, a pesquisa sobre sistemas de edição colaborativa para o editor de texto do Moment destacou desafios com a edição offline, onde algoritmos populares como CRDTs (Tipos de Dados Replicados Sem Conflito) e OT (Transformação Operacional) frequentemente falham. A edição offline aumenta conflitos diretos, com 20-30% desses conflitos resultando em resultados inaceitáveis, sugerindo que a questão é mais um desafio de interface/experiência do usuário (UI/UX) do que algorítmica. Pesquisadores estão agora focando em melhorar a experiência do usuário na edição offline, traçando paralelos com a forma como o git lida com a fusão de documentos, o que é um desenvolvimento promissor.</li>
+</ul>
+]]></description>
+            <link>https://www.moment.dev/blog/lies-i-was-told-pt-1</link>
+            <guid
+        isPermaLink="false"
+      >2024-12-07T00:00:00.000ZLendas que me contaram sobre edição colaborativa, Parte 1: Algoritmos para edição offline</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Saídas Estruturadas com Ollama]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Ollama introduziu suporte para saídas estruturadas, permitindo que modelos gerem saídas em um formato específico usando um esquema JSON.</li>
+<li>Este recurso agora está disponível nas bibliotecas atualizadas Ollama Python e JavaScript, útil para tarefas como análise de dados de documentos e imagens.</li>
+<li>Os usuários devem atualizar para a versão mais recente do Ollama e usar o parâmetro de formato em solicitações cURL ou bibliotecas, com futuras atualizações prometendo melhorias de desempenho e mais opções de formato.</li>
+</ul>
+]]></description>
+            <link>https://ollama.com/blog/structured-outputs</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000ZSaídas Estruturadas com Ollama</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[RollerCoaster Tycoon foi o último de sua espécie [vídeo]]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://www.youtube.com/watch?v=0JouTsMQsEA</link>
+            <guid
+        isPermaLink="false"
+      >2024-12-07T00:00:00.000ZRollerCoaster Tycoon foi o último de sua espécie [vídeo]</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Frutose na dieta aumenta o crescimento de tumores: pesquisa]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Nos últimos 50 anos, o consumo de frutose aumentou significativamente, principalmente devido ao xarope de milho com alto teor de frutose em bebidas e alimentos processados.</li>
+<li>Pesquisas da Universidade de Washington em St. Louis indicam que, embora a frutose não alimente diretamente os tumores, o fígado a converte em nutrientes que apoiam o crescimento tumoral em cânceres como melanoma, mama e colo do útero.</li>
+<li>O estudo sugere potenciais novos tratamentos para o câncer ao explorar métodos para impedir que a frutose auxilie no crescimento de tumores, possivelmente por meio de mudanças na dieta ou de produtos farmacêuticos, com financiamento parcial dos Institutos Nacionais de Saúde (NIH).</li>
+</ul>
+]]></description>
+            <link>https://source.washu.edu/2024/12/research-reveals-how-fructose-in-diet-enhances-tumor-growth/</link>
+            <guid
+        isPermaLink="false"
+      >2024-12-07T00:00:00.000ZFrutose na dieta aumenta o crescimento de tumores: pesquisa</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Maiores programas de shell]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>O texto destaca programas significativos em shell, focando em scripts substanciais escritos à mão, em vez daqueles gerados por ferramentas como autoconf. - Entradas notáveis incluem akinomyoga/ble.sh, um Editor de Linha Bash com 61 mil linhas de código (LoC), e kalua, um addon OpenWRT com 56 mil linhas de código fonte (SLoC). - A lista oferece insights sobre a complexidade e diversidade da programação em shell, apresentando programas que utilizam estruturas de dados e algoritmos, tipicamente excedendo 5.000 linhas de código.</li>
+</ul>
+]]></description>
+            <link>https://github.com/oils-for-unix/oils/wiki/The-Biggest-Shell-Programs-in-the-World</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000ZMaiores programas de shell</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[DSPy – Programação–não prompting–LMs]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>DSPy é uma estrutura projetada para construir sistemas de IA modulares usando código Python composicional, com foco em melhorar as saídas de modelos de linguagem (LM) sem depender apenas de prompts. - Ele suporta vários provedores de modelos de linguagem grandes (LLM) como OpenAI, Anthropic e Databricks, permitindo que os usuários descrevam o comportamento da IA como código, facilitando a iteração e otimização. - Originado do Stanford NLP, o DSPy tem uma forte presença comunitária no GitHub e Discord, contribuindo para a pesquisa de IA de código aberto e avançando arquiteturas de programas e otimizadores.</li>
+</ul>
+]]></description>
+            <link>https://dspy.ai/</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000ZDSPy – Programação–não prompting–LMs</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[O número correto de anúncios é zero]]></title>
             <description
@@ -1224,205 +1345,6 @@
         isPermaLink="false"
       >2024-11-28T00:00:00.000ZInferindo a atividade neural antes da plasticidade para aprendizado além da retropropagação</guid>
             <pubDate>Thu, 28 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Aplicativo que pergunta 'por quê?' toda vez que você desbloqueia seu telefone]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Intenty é um aplicativo que incentiva os usuários a desenvolverem hábitos mais saudáveis com o celular por meio de alertas de conscientização ao desbloquear seus dispositivos. O aplicativo enfatiza a privacidade ao operar totalmente de forma local, sem anúncios ou rastreamento, e utiliza permissões do Android apenas para funcionalidade, sem coleta de dados. Com um design minimalista e personalização inteligente, o Intenty possui uma classificação de 4,4 estrelas e mais de 10.000 downloads, atraindo usuários que buscam reduzir o uso inconsciente do celular.</li>
-</ul>
-]]></description>
-            <link>https://play.google.com/store/apps/details?id=com.actureunlock&amp;hl=en_US</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-27T00:00:00.000ZAplicativo que pergunta &apos;por quê?&apos; toda vez que você desbloqueia seu telefone</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[O capacitor que a Apple soldou incorretamente na fábrica]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Doug Brown destaca um erro de fabricação no Macintosh LC III da Apple, onde um capacitor foi instalado ao contrário, o que pode causar problemas.</li>
-<li>O Macintosh LC III, produzido entre 1993 e 1994 para o mercado educacional, não passou por um grande recall apesar desse erro.</li>
-<li>Brown aconselha cautela ao substituir capacitores, especialmente com capacitores de tântalo modernos, e recomenda instalá-los corretamente, ao contrário das instruções da serigrafia da PCB.</li>
-</ul>
-]]></description>
-            <link
-      >https://www.downtowndougbrown.com/2024/11/the-capacitor-that-apple-soldered-incorrectly-at-the-factory/</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-27T00:00:00.000ZO capacitor que a Apple soldou incorretamente na fábrica</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Eu não precisava do Kubernetes, e você provavelmente também não.]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>O autor fez a transição do Kubernetes para o Google Cloud Run, citando a complexidade, custo e escalonamento automático lento do Kubernetes como desvantagens. O Google Cloud Run é destacado como uma alternativa mais simples e econômica, cobrando apenas pelo uso real de CPU e memória, e oferecendo escalonamento rápido sem a sobrecarga de gerenciamento do Kubernetes. O autor utiliza o GitHub Actions para integração contínua/desdobramento contínuo (CI/CD), bancos de dados gerenciados e mensagens pub-sub, enfatizando a adequação do Cloud Run para projetos que precisam de simplicidade e eficiência em vez dos recursos extensos do Kubernetes.</li>
-</ul>
-]]></description>
-            <link>https://benhouston3d.com/blog/why-i-left-kubernetes-for-google-cloud-run</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-27T00:00:00.000ZEu não precisava do Kubernetes, e você provavelmente também não.</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Hacker em extorsões da Snowflake pode ser um soldado dos EUA]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Dois indivíduos foram presos por roubo de dados de empresas que utilizam Snowflake, enquanto um terceiro suspeito, conhecido como &#39;Kiberphant0m&#39;, ainda está foragido e acredita-se que seja um soldado do Exército dos EUA na Coreia do Sul.</li>
-<li>O grupo esteve envolvido na venda de dados roubados e extorsão de empresas, com a AT&amp;T supostamente pagando $370.000 para que os registros roubados fossem deletados.</li>
-<li>Autoridades canadenses prenderam Alexander Moucka, e John Erin Binns está preso na Turquia, ambos ligados às violações, enquanto Kiberphant0m continua ativo em fóruns de crimes cibernéticos.</li>
-</ul>
-]]></description>
-            <link>https://krebsonsecurity.com/2024/11/hacker-in-snowflake-extortions-may-be-a-u-s-soldier/</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-27T00:00:00.000ZHacker em extorsões da Snowflake pode ser um soldado dos EUA</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ZetaOffice: LibreOffice no Navegador]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>ZetaOffice Web introduz o LibreOffice aos navegadores web, permitindo o acesso a partir de qualquer dispositivo com opções para auto-hospedagem ou uso de uma Rede de Distribuição de Conteúdo (CDN) para controle de dados. - A suíte inclui Writer, Calc e Impress para processamento de texto, planilhas e apresentações, e está disponível tanto para web quanto para desktop em Linux e Windows, garantindo compatibilidade de documentos. - O ZetaOffice oferece software de código aberto com opções pagas para uso de CDN e suporte, e integra-se com sistemas existentes via a API UNO do LibreOffice, funcionando eficientemente em navegadores modernos.</li>
-</ul>
-]]></description>
-            <link>https://zetaoffice.net/</link>
-            <guid isPermaLink="false">2024-11-27T00:00:00.000ZZetaOffice: LibreOffice no Navegador</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[D-Link diz que não corrigirá 60 mil modems mais antigos]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>D-Link anunciou que não fornecerá patches de segurança para 60.000 modems mais antigos que atingiram o status de fim de vida, instando os usuários a atualizarem para modelos mais novos.</li>
-<li>As vulnerabilidades de segurança não corrigidas podem potencialmente permitir que hackers assumam o controle desses dispositivos, representando um risco significativo.</li>
-<li>Na maioria dos casos, os modems afetados estão localizados em Taiwan, e para os usuários que não conseguem atualizar, a D-Link recomenda restringir o acesso remoto e usar senhas seguras como medidas de precaução.</li>
-</ul>
-]]></description>
-            <link
-      >https://www.techradar.com/pro/security/d-link-says-it-wont-patch-60-000-older-modems-as-theyre-not-worth-saving</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-27T00:00:00.000ZD-Link diz que não corrigirá 60 mil modems mais antigos</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Marshall Brain morreu horas após alegar retaliação na NC State]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Professor da NC State, Marshall Brain, fundador do HowStuffWorks.com, foi encontrado morto em seu escritório em 20 de novembro, após alegar retaliação por parte de funcionários da universidade.</li>
-<li>Brain afirmou que foi forçado a se aposentar após queixas éticas, mas a universidade não comentou sobre essas alegações ou sobre sua morte.</li>
-<li>Ex-alunos e colegas expressaram decepção com o silêncio da universidade, destacando a natureza contínua desta história em desenvolvimento.</li>
-</ul>
-]]></description>
-            <link
-      >https://www.technicianonline.com/news/popular-nc-state-professor-marshall-brain-dies-alleges-retaliation-for-ethics-complaints/article_152e5c80-ac2e-11ef-8b3f-036ac3c8d9bf.html</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-27T00:00:00.000ZMarshall Brain morreu horas após alegar retaliação na NC State</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Janet para Mortais (2023)]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>O autor lançou um livro online gratuito intitulado &#39;Janet for Mortals&#39;, focado na linguagem de programação Janet, que levou 20 semanas para ser escrito. O livro inclui 44.000 palavras e é acompanhado por um site com um REPL (Read-Eval-Print Loop) para aprendizado interativo. O livro e projetos relacionados, como vinculações de bibliotecas C++ e uma estrutura de teste, ganharam atenção positiva em plataformas como o Hacker News.</li>
-</ul>
-]]></description>
-            <link>https://ianthehenry.com/posts/janet-for-mortals/</link>
-            <guid isPermaLink="false">2024-11-27T00:00:00.000ZJanet para Mortais (2023)</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Raspberry Pi CM5 é uma atualização mais rápida e fácil de instalar]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>O Raspberry Pi Compute Module 5 (CM5) é uma atualização significativa em relação ao CM4, oferecendo desempenho 2-3 vezes mais rápido, USB 3 e compatibilidade com PCIe Gen 3, mantendo o mesmo formato.</li>
-<li>O CM5 tem um preço semelhante ao CM4, com o modelo de 8GB começando em $75, e inclui um CPU mais rápido, RAM e gráficos melhorados, embora use mais energia em plena capacidade.</li>
-<li>Uma placa IO atualizada também foi lançada por $20, apresentando alimentação USB-C e outras melhorias, destacando o suporte e a modularidade do CM5, apesar da concorrência de outros computadores de placa única (SBCs).</li>
-</ul>
-]]></description>
-            <link>https://www.jeffgeerling.com/blog/2024/raspberry-pi-cm5-2-3x-faster-drop-upgrade-mostly</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-27T00:00:00.000ZRaspberry Pi CM5 é uma atualização mais rápida e fácil de instalar</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title
-      ><![CDATA[Os provedores de internet dizem que seu 'excelente atendimento ao cliente' é a razão pela qual os usuários não trocam de fornecedor]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Grupos de lobby de ISPs argumentam que a concorrência garante altos padrões de atendimento ao cliente, tornando desnecessárias regulamentações adicionais, já que um serviço ruim levaria os clientes a trocar de provedores.</li>
-<li>Reguladores na Califórnia e Oregon relatam uma insatisfação generalizada dos clientes, destacando problemas como longos tempos de espera e problemas de faturamento, contradizendo as alegações dos provedores de serviços de internet.</li>
-<li>A FCC está revisando as práticas de atendimento ao cliente, mas com a liderança de Brendan Carr, nomeado pelo presidente eleito Trump, novas regulamentações são improváveis, já que o foco se desloca para a redução de encargos regulatórios.</li>
-</ul>
-]]></description>
-            <link
-      >https://arstechnica.com/tech-policy/2024/11/isps-say-their-excellent-customer-service-is-why-users-dont-switch-providers/</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-27T00:00:00.000ZOs provedores de internet dizem que seu &apos;excelente atendimento ao cliente&apos; é a razão pela qual os usuários não trocam de fornecedor</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title
-      ><![CDATA[Recomendação para um engenheiro de software que deseja se atualizar com o que há de mais recente em IA]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>O usuário está ativamente buscando fontes confiáveis para as últimas atualizações em Inteligência Artificial (IA), particularmente através de blogs de tecnologia semelhantes ao Hacker News (HN).</li>
-<li>Eles têm experiência no uso do ChatGPT e da API da OpenAI, especificamente na versão 3.5, indicando um interesse prático em ferramentas de IA.</li>
-<li>O usuário encontrou o blog de Simon Willison, mas sente que falta coesão, sugerindo a necessidade de fontes de informação de IA mais estruturadas e abrangentes.</li>
-</ul>
-]]></description>
-            <link>https://news.ycombinator.com/item?id=42256093</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-27T00:00:00.000ZRecomendação para um engenheiro de software que deseja se atualizar com o que há de mais recente em IA</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[OpenAI pausa modelo de vídeo Sora após artistas vazarem acesso em protesto]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link
-      >https://www.washingtonpost.com/technology/2024/11/26/openai-sora-ai-video-model-artists-protest/</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-27T00:00:00.000ZOpenAI pausa modelo de vídeo Sora após artistas vazarem acesso em protesto</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title
-      ><![CDATA[Sim, ele 'parece um pato', mas transportadoras como o novo caminhão de correio do USPS]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>A U.S. Postal Service está introduzindo novos caminhões de correio elétricos como parte de um plano de modernização de $9,6 bilhões, oferecendo recursos como ar-condicionado, espaço de carga aumentado e segurança aprimorada.</li>
-<li>Originalmente planejada para ser majoritariamente movida a gás, 75% da frota agora será elétrica devido a desafios legais, marcando uma mudança significativa em direção à sustentabilidade.</li>
-<li>Apesar de seu design não convencional, os caminhões foram bem recebidos por seu conforto e eficiência, incorporando sugestões de carteiros e incluindo características como superfícies antiderrapantes, airbags e um sistema de prevenção de colisões.</li>
-</ul>
-]]></description>
-            <link>https://www.nytimes.com/2024/11/26/us/usps-new-mail-trucks.html</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-27T00:00:00.000ZSim, ele &apos;parece um pato&apos;, mas transportadoras como o novo caminhão de correio do USPS</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Htmy – Motor de renderização assíncrono, em Python puro]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>&quot;htmy&quot; é um mecanismo de renderização em Python puro que suporta componentes de função assíncronos e síncronos, gerenciamento de contexto semelhante ao React e tags HTML embutidas, tornando-o versátil para várias necessidades de desenvolvimento web. - Ele oferece recursos como suporte a Markdown, internacionalização baseada em JSON e fácil integração com qualquer framework de backend ou frontend, aumentando sua adaptabilidade e personalização. - A biblioteca é de código aberto sob a licença MIT, incentivando contribuições da comunidade, e pode ser instalada via PyPI usando <code>pip install htmy</code>.</li>
-</ul>
-]]></description>
-            <link>https://volfpeter.github.io/htmy/</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-27T00:00:00.000ZHtmy – Motor de renderização assíncrono, em Python puro</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

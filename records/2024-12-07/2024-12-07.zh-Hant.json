@@ -1,0 +1,190 @@
+[
+  {
+    "id": 42344002,
+    "title": "我第二年沒有工作了",
+    "originLink": "https://shilin.ca/my-second-year-without-job/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42344002",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [],
+    "points": 381,
+    "commentCount": 567,
+    "retryCount": 0,
+    "time": 1733516765
+  },
+  {
+    "id": 42343089,
+    "title": "對話元素",
+    "originLink": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42343089",
+    "commentBody": "",
+    "originSummary": [
+      "HTML 的 `` 元素用於創建對話框，這些對話框可以是模態(暫停頁面互動)或非模態(允許互動)的。",
+      "JavaScript 方法 `.showModal()` 和 `.show()` 分別用於顯示模態和非模態對話框，而 `.close()` 則用於關閉它們。",
+      "「無障礙性至關重要；確保焦點設置正確，並提供關閉機制，例如按鈕，同時使用 CSS `::backdrop` 來設計模態背景。」"
+    ],
+    "commentSummary": [
+      "在 developer.mozilla.org 上的對話元素引發了一場關於使用互動式 HTML 元素的辯論，例如文件選擇器和媒體播放器，對於它們在不同瀏覽器中的一致性和可預測性存在不同的意見。",
+      "雖然有些開發者批評對話框元素缺乏樣式且不像原生彈出視窗那樣運作，但其他人則重視其語意和無障礙性優勢。",
+      "討論中強調了在維持設計一致性方面的挑戰以及對廣告商可能濫用的擔憂，這表明對話元素是一個進步的步驟，但仍需改進。"
+    ],
+    "points": 295,
+    "commentCount": 136,
+    "retryCount": 0,
+    "time": 1733512147
+  },
+  {
+    "id": 42343121,
+    "title": "Maps.me 共同創辦人試圖關閉 Organic Maps 開源分支",
+    "originLink": "https://github.com/orgs/organicmaps/discussions/9837",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42343121",
+    "commentBody": "",
+    "originSummary": [
+      "Organic Maps 已經釋出其「元伺服器」的源代碼，該伺服器透過根據用戶位置引導至最佳內容傳遞網路(CDN)伺服器來優化地圖下載速度。",
+      "為了防止未經授權的分支，最初封閉的程式碼現在已在 MIT 授權下開放，促進透明度和社群參與。",
+      "「團隊正在重新考慮使用 Cloudflare Workers 以防止供應商鎖定，並已恢復一位貢獻者所做的未經授權的更改，強調他們對隱私和透明度的承諾。」"
+    ],
+    "commentSummary": [
+      "Maps.me 的共同創辦人 Alexander Borsuk 試圖通過修改其 MIT 授權並在私人儲存庫中添加日誌來關閉 Organic Maps 的開源分支。另一位專案維護者 Roman Tsisyk 撤銷了這些更改並將儲存庫公開，導致衝突並撤銷了他的權限。此事件突顯了專案內部對於開源性質的分歧，然而 Organic Maps 仍然是一款廣泛使用的離線地圖應用程式。"
+    ],
+    "points": 269,
+    "commentCount": 62,
+    "retryCount": 0,
+    "time": 1733512298
+  },
+  {
+    "id": 42347606,
+    "title": "「如何將 Postgres 用於所有用途」",
+    "originLink": "https://github.com/Olshansk/postgres_for_everything",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42347606",
+    "commentBody": "",
+    "originSummary": [
+      "「Postgres for Everything」是一個推廣使用 PostgreSQL 的資料庫，這是一個受歡迎的開源關聯式資料庫，適用於超越傳統資料庫任務的廣泛應用。該資料庫邀請貢獻並追蹤 PostgreSQL 的各種創新用途，包括排程任務、訊息佇列、分析等，突顯其多功能性。此倡議包含 11 項與 Supabase 相關的內容，Supabase 是一個使用 PostgreSQL 提供後端服務的平台，展示其在現代應用程式開發中的整合性和實用性。"
+    ],
+    "commentSummary": [
+      "討論強調了 Postgres 在各種應用中的多功能性，但也指出了一些限制，例如在字串中處理空字元以及需要自訂 SQL 來進行跳過索引掃描。- 對於是否應該將 Postgres 用於所有目的，意見不一，有些人警告不要過度依賴單一資料庫來支持大型團隊，而另一些人則讚揚其簡單性和降低的複雜性。- 也提到了像 Redis 這樣的替代方案，以及在擴展過程中的挑戰和避免在專案初期過度設計的重要性。"
+    ],
+    "points": 257,
+    "commentCount": 141,
+    "retryCount": 0,
+    "time": 1733550975
+  },
+  {
+    "id": 42343953,
+    "title": "「我被告知的關於協作編輯的謊言，第一部分：離線編輯的演算法」",
+    "originLink": "https://www.moment.dev/blog/lies-i-was-told-pt-1",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42343953",
+    "commentBody": "",
+    "originSummary": [
+      "在 2024 年初，針對 Moment 文本編輯器的協作編輯系統的研究突顯了離線編輯的挑戰，其中像 CRDTs(無衝突複製數據類型)和 OT(操作轉換)這樣的流行算法經常失效。離線編輯增加了直接衝突，其中 20-30% 的衝突導致不可接受的結果，這表明問題更多是使用者介面/使用者體驗(UI/UX)上的挑戰，而非算法上的問題。研究人員現在專注於改善離線編輯的使用者體驗，並借鑑 git 處理文件合併的方式，這是一個有前景的發展。"
+    ],
+    "commentSummary": [
+      "這篇文章探討了協作編輯的挑戰，特別是在離線情況下，並批評當前的演算法如無衝突複製資料類型(CRDTs)和操作轉換(OT)未必總能產生語義上有意義的結果。- 大家一致認為需要改進衝突解決方法，可能透過用戶輸入或像大型語言模型(LLMs)這樣的先進工具來有效處理語義衝突。- 討論還考慮了使用者介面/使用者體驗(UI/UX)解決方案在增強協作編輯體驗中的角色，強調問題不僅限於演算法，還涉及理解用戶意圖。"
+    ],
+    "points": 243,
+    "commentCount": 85,
+    "retryCount": 0,
+    "time": 1733516527
+  },
+  {
+    "id": 42346344,
+    "title": "「使用 Ollama 生成結構化輸出」",
+    "originLink": "https://ollama.com/blog/structured-outputs",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42346344",
+    "commentBody": "",
+    "originSummary": [
+      "「Ollama 已經引入了對結構化輸出的支援，使模型能夠使用 JSON 架構生成特定格式的輸出。」",
+      "「此功能現已在更新的 Ollama Python 和 JavaScript 函式庫中提供，對於從文件和圖像中解析數據等任務非常有用。」",
+      "使用者應更新至最新的 Ollama 版本，並在 cURL 請求或函式庫中使用格式參數，未來的更新將提供效能提升和更多格式選項。"
+    ],
+    "commentSummary": [
+      "Ollama 提供了一種方法，可以從語言模型生成結構化數據，例如 JSON，並討論使用 GBNF 語法來生成更靈活的輸出格式，如 XML 或 SQL。- 使用者討論了 JSON 輸出與自然語言的可靠性，並深入了解語言模型(LLM)如何生成文本以及結構化提示的作用。- Ollama 與 llama.cpp 的整合被認為簡化了模型的使用，儘管有些人認為它僅僅是一個包裝器，該功能支持不同準確度等級的各種模型。"
+    ],
+    "points": 223,
+    "commentCount": 62,
+    "retryCount": 0,
+    "time": 1733533952
+  },
+  {
+    "id": 42346463,
+    "title": "《過山車大亨》是同類遊戲中的最後一款 [影片]",
+    "originLink": "https://www.youtube.com/watch?v=0JouTsMQsEA",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42346463",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "《雲霄飛車大亨》主要由一個小團隊使用組合語言開發，於1999年成為暢銷遊戲，展現了一種罕見的開發風格。",
+      "粉絲們建議使用 OpenRCT2 以獲得增強的功能和相容性，並推薦 Roller Coaster Tycoon Classic 以適用於現代設備，而像 Parkitect 和 Planet Coaster 這樣的替代方案則提供了多樣化的體驗。",
+      "影片強調了遊戲開發的演變以及小型團隊在與大型工作室競爭時所面臨的挑戰，像是《Minecraft》這樣的獨立遊戲成功案例展示了小型團隊成就的潛力。"
+    ],
+    "points": 220,
+    "commentCount": 60,
+    "retryCount": 0,
+    "time": 1733535139
+  },
+  {
+    "id": 42343544,
+    "title": "研究顯示，飲食中的果糖會促進腫瘤生長",
+    "originLink": "https://source.washu.edu/2024/12/research-reveals-how-fructose-in-diet-enhances-tumor-growth/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42343544",
+    "commentBody": "",
+    "originSummary": [
+      "過去 50 年來，由於飲料和加工食品中高果糖玉米糖漿的使用，果糖的消費量顯著增加。",
+      "來自聖路易斯華盛頓大學的研究顯示，雖然果糖不會直接為腫瘤提供能量，但肝臟會將其轉化為支持腫瘤生長的營養物質，這在黑色素瘤、乳癌和子宮頸癌等癌症中尤為明顯。",
+      "該研究通過探索防止果糖促進腫瘤生長的方法，提出了潛在的新癌症治療方案，可能包括飲食改變或藥物治療，並獲得美國國立衛生研究院(NIH)的部分資助。"
+    ],
+    "commentSummary": [
+      "來自華盛頓大學的研究顯示，高果糖攝取可能會透過增加循環脂質來促進腫瘤生長，而這些脂質被癌細胞用於生長。- 雖然水果中的果糖通常因為含有其他營養素而是安全的，但來自高果糖玉米糖漿等來源的過量攝取可能具有風險。- 該研究強調了癌症代謝的複雜性以及飲食對癌症進展的潛在影響，儘管仍需進一步研究以全面理解這些機制。"
+    ],
+    "points": 185,
+    "commentCount": 176,
+    "retryCount": 0,
+    "time": 1733514389
+  },
+  {
+    "id": 42346274,
+    "title": "最大殼層程式",
+    "originLink": "https://github.com/oils-for-unix/oils/wiki/The-Biggest-Shell-Programs-in-the-World",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42346274",
+    "commentBody": "",
+    "originSummary": [
+      "該頁面重點介紹了重要的 shell 程式，著重於手寫的腳本，而非由 autoconf 等工具生成的腳本。- 值得注意的條目包括 akinomyoga/ble.sh，一個擁有 61K 行程式碼(LoC)的 Bash 行編輯器，以及 kalua，一個擁有 56K 原始碼行數(SLoC)的 OpenWRT 附加元件。- 該列表提供了對 shell 腳本複雜性和多樣性的見解，展示了使用資料結構和演算法的程式，通常超過 5,000 行程式碼。"
+    ],
+    "commentSummary": [
+      "討論集中在使用大型 Shell 腳本的複雜性和挑戰，例如可讀性、錯誤處理和可移植性問題。- 使用者建議考慮使用 Python 或 AWK 等替代方案來處理複雜任務，因為它們具有更好的可維護性，而像 ShellCheck 這樣的工具可以幫助提高 Shell 腳本的質量。- 對話強調了在快速任務中使用 Shell 腳本與在較大專案中選擇更強大程式語言之間的平衡。"
+    ],
+    "points": 169,
+    "commentCount": 82,
+    "retryCount": 0,
+    "time": 1733533151
+  },
+  {
+    "id": 42343692,
+    "title": "DSPy – 程式設計–而非提示–語言模型",
+    "originLink": "https://dspy.ai/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42343692",
+    "commentBody": "",
+    "originSummary": [
+      "DSPy 是一個框架，旨在使用組合式 Python 代碼構建模組化 AI 系統，專注於改善語言模型(LM)的輸出，而不僅僅依賴於提示。- 它支持多個大型語言模型(LLM)提供者，如 OpenAI、Anthropic 和 Databricks，允許用戶將 AI 行為描述為代碼，從而更容易進行迭代和優化。- DSPy 源自史丹佛自然語言處理(NLP)，在 GitHub 和 Discord 上擁有強大的社群存在，為開源 AI 研究做出貢獻，並推進程式架構和優化器的發展。"
+    ],
+    "commentSummary": [
+      "DSPy 是一個框架，旨在透過自動選擇訓練數據子集來優化語言模型(LMs)的提示，從而提升性能並減少手動調整。",
+      "它支持大型語言模型(LLM)程式的端到端訓練，防止在程式碼中使用過時的提示，特別適用於資料提取和摘要等任務。",
+      "雖然有些使用者覺得 DSPy 的複雜性具有挑戰性，但它因其結構化的方法以及如斷言和建議等功能而受到重視，這些功能可強制執行輸出限制。"
+    ],
+    "points": 159,
+    "commentCount": 33,
+    "retryCount": 0,
+    "time": 1733515189
+  }
+]

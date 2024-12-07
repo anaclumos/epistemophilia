@@ -15,11 +15,132 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 06 Dec 2024 19:14:39 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Dec 2024 19:11:53 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/story/nl.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 06 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
         <language><![CDATA[nl]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Mitt andre år uten jobb]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://shilin.ca/my-second-year-without-job/</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000ZMitt andre år uten jobb</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dialogelementet]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>HTML-elementet `` brukes til å lage dialogbokser, som kan være modale (stopper sideinteraksjon) eller ikke-modale (tillater interaksjon).</li>
+<li>JavaScript-metodene <code>.showModal()</code> og <code>.show()</code> brukes til å vise henholdsvis modale og ikke-modale dialoger, mens <code>.close()</code> brukes til å lukke dem.</li>
+<li>Tilgjengelighet er avgjørende; sørg for at fokus er riktig satt og gi en lukkemekanisme, som en knapp, mens du bruker CSS <code>::backdrop</code> for å style modal bakgrunner.</li>
+</ul>
+]]></description>
+            <link>https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000ZDialogelementet</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Maps.me-medgründer prøver å stenge ned Organic Maps open-source fork]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Organic Maps har gitt ut kildekoden for sin &quot;metaserver,&quot; som optimaliserer nedlastingshastigheter for kart ved å dirigere brukere til de beste Content Delivery Network (CDN)-serverne basert på deres plassering.</li>
+<li>Den opprinnelige koden, som var lukket for å forhindre uautoriserte forgreininger, er nå åpen under MIT-lisensen, noe som fremmer åpenhet og samfunnsengasjement.</li>
+<li>Teamet vurderer på nytt bruken av Cloudflare Workers for å forhindre leverandørlåsing og har reversert uautoriserte endringer gjort av en bidragsyter, og understreker deres forpliktelse til personvern og åpenhet.</li>
+</ul>
+]]></description>
+            <link>https://github.com/orgs/organicmaps/discussions/9837</link>
+            <guid
+        isPermaLink="false"
+      >2024-12-07T00:00:00.000ZMaps.me-medgründer prøver å stenge ned Organic Maps open-source fork</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Hvordan bruke Postgres til alt]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Postgres for Everything&quot; er et arkiv som fremmer bruken av PostgreSQL, en populær åpen kildekode relasjonsdatabase, for et bredt spekter av applikasjoner utover tradisjonelle databasetjenester. Arkivet inviterer til bidrag og sporer ulike innovative bruksområder for PostgreSQL, inkludert cron-jobber, meldingskøer, analyser og mer, og fremhever dens allsidighet. Initiativet inkluderer 11 elementer relatert til Supabase, en plattform som tilbyr backend-tjenester ved bruk av PostgreSQL, og viser dens integrasjon og nytte i moderne applikasjonsutvikling.</li>
+</ul>
+]]></description>
+            <link>https://github.com/Olshansk/postgres_for_everything</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000ZHvordan bruke Postgres til alt</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title
+      ><![CDATA[Jeg ble fortalt løgner om samarbeidende redigering, Del 1: Algoritmer for offline redigering]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>På begynnelsen av 2024 fremhevet forskning på samarbeidsredigeringssystemer for Moments teksteditor utfordringer med offline redigering, der populære algoritmer som CRDT-er (Conflict-free Replicated Data Types) og OT (Operational Transformation) ofte svikter. Offline redigering øker direkte konflikter, med 20-30 % av disse konfliktene som resulterer i uakseptable utfall, noe som antyder at problemet er mer en brukergrensesnitt/brukeropplevelse (UI/UX) utfordring enn en algoritmisk en. Forskere fokuserer nå på å forbedre brukeropplevelsen i offline redigering, og trekker paralleller til hvordan git håndterer dokumentfletting, noe som er en lovende utvikling.</li>
+</ul>
+]]></description>
+            <link>https://www.moment.dev/blog/lies-i-was-told-pt-1</link>
+            <guid
+        isPermaLink="false"
+      >2024-12-07T00:00:00.000ZJeg ble fortalt løgner om samarbeidende redigering, Del 1: Algoritmer for offline redigering</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Strukturerte utdata med Ollama]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Ollama har introdusert støtte for strukturerte utdata, som gjør det mulig for modeller å generere utdata i et spesifikt format ved hjelp av et JSON-skjema.</li>
+<li>Denne funksjonen er nå tilgjengelig i de oppdaterte Ollama Python- og JavaScript-bibliotekene, nyttig for oppgaver som dataparsering fra dokumenter og bilder.</li>
+<li>Brukere bør oppdatere til den nyeste versjonen av Ollama og bruke formatparameteren i cURL-forespørsler eller biblioteker, med fremtidige oppdateringer som lover ytelsesforbedringer og flere formatalternativer.</li>
+</ul>
+]]></description>
+            <link>https://ollama.com/blog/structured-outputs</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000ZStrukturerte utdata med Ollama</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[RollerCoaster Tycoon var den siste i sitt slag [video]]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://www.youtube.com/watch?v=0JouTsMQsEA</link>
+            <guid
+        isPermaLink="false"
+      >2024-12-07T00:00:00.000ZRollerCoaster Tycoon var den siste i sitt slag [video]</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Fruktose i kostholdet fremmer svulstvekst: forskning]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Fruktoseforbruket har økt betydelig de siste 50 årene, hovedsakelig på grunn av høyfruktose maissirup i drikkevarer og bearbeidede matvarer.</li>
+<li>Forskning fra Washington University i St. Louis indikerer at selv om fruktose ikke direkte gir næring til svulster, omdanner leveren det til næringsstoffer som støtter svulstvekst i kreftformer som melanom, bryst- og livmorhalskreft.</li>
+<li>Studien antyder potensielle nye kreftbehandlinger ved å utforske metoder for å hindre fruktose i å bidra til tumorvekst, muligens gjennom kostholdsendringer eller legemidler, med delvis finansiering fra National Institutes of Health (NIH).</li>
+</ul>
+]]></description>
+            <link>https://source.washu.edu/2024/12/research-reveals-how-fructose-in-diet-enhances-tumor-growth/</link>
+            <guid
+        isPermaLink="false"
+      >2024-12-07T00:00:00.000ZFruktose i kostholdet fremmer svulstvekst: forskning</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Største shell-programmer]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Teksten fremhever betydelige shell-programmer, med fokus på omfattende håndskrevne skript i stedet for de som er generert av verktøy som autoconf. - Merkbare oppføringer inkluderer akinomyoga/ble.sh, en Bash Line Editor med 61K linjer med kode (LoC), og kalua, en OpenWRT-tillegg med 56K kildekodelinjer (SLoC). - Listen gir innsikt i kompleksiteten og mangfoldet av shell-skripting, med programmer som benytter datastrukturer og algoritmer, vanligvis over 5,000 linjer med kode.</li>
+</ul>
+]]></description>
+            <link>https://github.com/oils-for-unix/oils/wiki/The-Biggest-Shell-Programs-in-the-World</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000ZStørste shell-programmer</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[DSPy – Programmering–ikke prompting–LMs]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>DSPy er et rammeverk designet for å bygge modulære AI-systemer ved å bruke komposisjonell Python-kode, med fokus på å forbedre språkmodell (LM) utganger uten å kun stole på prompt.- Det støtter flere store språkmodell (LLM) leverandører som OpenAI, Anthropic og Databricks, slik at brukere kan beskrive AI-atferd som kode, noe som letter enklere iterasjon og optimalisering.- Med opprinnelse fra Stanford NLP, har DSPy en sterk tilstedeværelse i samfunnet på GitHub og Discord, og bidrar til åpen kildekode AI-forskning og fremmer programarkitekturer og optimalisatorer.</li>
+</ul>
+]]></description>
+            <link>https://dspy.ai/</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000ZDSPy – Programmering–ikke prompting–LMs</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Den riktige mengden annonser er null]]></title>
             <description
@@ -1200,203 +1321,6 @@
         isPermaLink="false"
       >2024-11-28T00:00:00.000ZUtlede nevrale aktiviteter før plastisitet for læring utover tilbakepropagering</guid>
             <pubDate>Thu, 28 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[App som spør 'hvorfor?' hver gang du låser opp telefonen din]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Intenty er en app som oppmuntrer brukere til å utvikle sunnere telefonvaner gjennom bevissthetsvarsler når de låser opp enhetene sine. Appen legger vekt på personvern ved å operere helt lokalt uten annonser eller sporing, og den bruker Android-tillatelser utelukkende for funksjonalitet uten datainnsamling. Med et minimalistisk design og smart tilpasning har Intenty en vurdering på 4,4 stjerner og over 10 000 nedlastinger, og appellerer til brukere som ønsker å redusere tankeløs telefonbruk.</li>
-</ul>
-]]></description>
-            <link>https://play.google.com/store/apps/details?id=com.actureunlock&amp;hl=en_US</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-27T00:00:00.000ZApp som spør &apos;hvorfor?&apos; hver gang du låser opp telefonen din</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Den kondensatoren som Apple loddet feil på fabrikken]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Doug Brown fremhever en produksjonsfeil i Apples Macintosh LC III, der en kondensator ble installert baklengs, noe som potensielt kan forårsake problemer.</li>
-<li>Macintosh LC III, produsert mellom 1993 og 1994 for utdanningsmarkedet, gjennomgikk ikke en større tilbakekalling til tross for denne feilen.</li>
-<li>Brown anbefaler forsiktighet ved utskifting av kondensatorer, spesielt med moderne tantalumkondensatorer, og anbefaler å installere dem riktig, i motsetning til PCB-ens silketrykk-instruksjoner.</li>
-</ul>
-]]></description>
-            <link
-      >https://www.downtowndougbrown.com/2024/11/the-capacitor-that-apple-soldered-incorrectly-at-the-factory/</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-27T00:00:00.000ZDen kondensatoren som Apple loddet feil på fabrikken</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Jeg trengte ikke Kubernetes, og det gjør du sannsynligvis ikke heller]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Overgangen fra Kubernetes til Google Cloud Run ble gjort av forfatteren på grunn av Kubernetes sin kompleksitet, kostnader og trege autoskalering som ulemper. Google Cloud Run fremheves som et enklere, kostnadseffektivt alternativ, som kun belaster for faktisk CPU- og minnebruk, og tilbyr rask skalering uten Kubernetes sin administrasjonsbyrde. Forfatteren bruker GitHub Actions for kontinuerlig integrasjon/kontinuerlig distribusjon (CI/CD), administrerte databaser og pub-sub-meldinger, og understreker Cloud Run sin egnethet for prosjekter som trenger enkelhet og effektivitet fremfor Kubernetes sine omfattende funksjoner.</li>
-</ul>
-]]></description>
-            <link>https://benhouston3d.com/blog/why-i-left-kubernetes-for-google-cloud-run</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-27T00:00:00.000ZJeg trengte ikke Kubernetes, og det gjør du sannsynligvis ikke heller</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[En hacker i Snowflake-utpressingene kan være en amerikansk soldat]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>To personer ble arrestert for datatyveri fra selskaper som bruker Snowflake, mens en tredje mistenkt, kjent som &quot;Kiberphant0m,&quot; fortsatt er på frifot og antas å være en amerikansk soldat i Sør-Korea.</li>
-<li>Gruppen har vært involvert i å selge stjålne data og utpresse selskaper, hvor AT&amp;T angivelig betalte $370,000 for å få slettede poster.</li>
-<li>Kanadiske myndigheter har arrestert Alexander Moucka, og John Erin Binns er fengslet i Tyrkia, begge knyttet til bruddene, mens Kiberphant0m fortsatt er aktiv på forum for nettkriminalitet.</li>
-</ul>
-]]></description>
-            <link>https://krebsonsecurity.com/2024/11/hacker-in-snowflake-extortions-may-be-a-u-s-soldier/</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-27T00:00:00.000ZEn hacker i Snowflake-utpressingene kan være en amerikansk soldat</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ZetaOffice: LibreOffice i nettleseren]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>ZetaOffice Web introduceert LibreOffice naar webbrowsers, waardoor toegang vanaf elk apparaat mogelijk is met opties voor zelfhosting of het gebruik van een Content Delivery Network (CDN) voor gegevensbeheer. De suite omvat Writer, Calc en Impress voor tekstverwerking, spreadsheets en presentaties, en is beschikbaar voor zowel web als desktop op Linux en Windows, wat documentcompatibiliteit garandeert. ZetaOffice biedt open-source software met betaalde opties voor CDN-gebruik en ondersteuning, en integreert met bestaande systemen via de LibreOffice UNO API, functionerend efficiënt in moderne browsers.</li>
-</ul>
-]]></description>
-            <link>https://zetaoffice.net/</link>
-            <guid isPermaLink="false">2024-11-27T00:00:00.000ZZetaOffice: LibreOffice i nettleseren</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Tek.no sier at D-Link ikke vil oppdatere 60 000 eldre modemer]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>D-Link har kunngjort at de ikke vil gi sikkerhetsoppdateringer for 60 000 eldre modemer som har nådd slutten av livssyklusen, og oppfordrer brukere til å oppgradere til nyere modeller i stedet.</li>
-<li>De upatchade sikkerhetssårbarhetene kan potensielt tillate hackere å ta kontroll over disse enhetene, noe som utgjør en betydelig risiko.</li>
-<li>De fleste av de berørte modemene er lokalisert i Taiwan, og for brukere som ikke kan oppgradere, anbefaler D-Link å begrense ekstern tilgang og bruke sikre passord som forholdsregler.</li>
-</ul>
-]]></description>
-            <link
-      >https://www.techradar.com/pro/security/d-link-says-it-wont-patch-60-000-older-modems-as-theyre-not-worth-saving</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-27T00:00:00.000ZTek.no sier at D-Link ikke vil oppdatere 60 000 eldre modemer</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Marshall Brain døde timer etter å ha påstått gjengjeldelse ved NC State]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>NC State professor Marshall Brain, grunnlegger av HowStuffWorks.com, ble funnet død på kontoret sitt 20. november, etter å ha påstått gjengjeldelse fra universitetsansatte.</li>
-<li>Brain hevdet at han ble tvunget til å gå av med pensjon etter etiske klager, men universitetet har ikke kommentert disse påstandene eller hans død.</li>
-<li>Tidligere studenter og kolleger har uttrykt skuffelse over universitetets taushet, og fremhever den pågående karakteren av denne utviklende historien.</li>
-</ul>
-]]></description>
-            <link
-      >https://www.technicianonline.com/news/popular-nc-state-professor-marshall-brain-dies-alleges-retaliation-for-ethics-complaints/article_152e5c80-ac2e-11ef-8b3f-036ac3c8d9bf.html</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-27T00:00:00.000ZMarshall Brain døde timer etter å ha påstått gjengjeldelse ved NC State</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Janet for Mortals (2023)]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Forfatteren har gitt ut en gratis nettbok med tittelen &quot;Janet for Mortals,&quot; som fokuserer på programmeringsspråket Janet, og som tok 20 uker å skrive. Boken inneholder 44 000 ord og er ledsaget av en nettside med en REPL (Read-Eval-Print Loop) for interaktiv læring. Boken og relaterte prosjekter, som C++-biblioteksbindinger og et testrammeverk, har fått positiv oppmerksomhet på plattformer som Hacker News.</li>
-</ul>
-]]></description>
-            <link>https://ianthehenry.com/posts/janet-for-mortals/</link>
-            <guid isPermaLink="false">2024-11-27T00:00:00.000ZJanet for Mortals (2023)</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Raspberry Pi CM5 er en raskere, drop-in oppgradering]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Raspberry Pi Compute Module 5 (CM5) er en betydelig oppgradering fra CM4, og tilbyr 2-3 ganger raskere ytelse, USB 3 og PCIe Gen 3-kompatibilitet, samtidig som den beholder samme formfaktor.</li>
-<li>CM5 er priset likt som CM4, med 8GB-modellen som starter på $75, og inkluderer en raskere CPU, RAM og forbedret grafikk, selv om den bruker mer strøm ved full kapasitet.</li>
-<li>Et oppdatert IO-kort er også utgitt for $20, med USB-C-strøm og andre forbedringer, som fremhever CM5s støtte og modularitet til tross for konkurranse fra andre enkortdatamaskiner (SBCer).</li>
-</ul>
-]]></description>
-            <link>https://www.jeffgeerling.com/blog/2024/raspberry-pi-cm5-2-3x-faster-drop-upgrade-mostly</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-27T00:00:00.000ZRaspberry Pi CM5 er en raskere, drop-in oppgradering</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title
-      ><![CDATA[Internettleverandører sier at deres «utmerkede kundeservice» er grunnen til at brukere ikke bytter leverandør]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>ISP-lobbygrupper hevder at konkurranse sikrer høye kundeservicestandarder, noe som gjør ytterligere reguleringer unødvendige, ettersom dårlig service ville få kundene til å bytte leverandør.</li>
-<li>Regulatorer i California og Oregon rapporterer om utbredt misnøye blant kundene, og fremhever problemer som lange ventetider og faktureringsproblemer, noe som motsier påstandene fra internettleverandørene.</li>
-<li>FCC gjennomgår kundeservicepraksis, men med Brendan Carrs ledelse, utnevnt av den nyvalgte presidenten Trump, er nye reguleringer usannsynlige, ettersom fokuset skifter mot å redusere regulatoriske byrder.</li>
-</ul>
-]]></description>
-            <link
-      >https://arstechnica.com/tech-policy/2024/11/isps-say-their-excellent-customer-service-is-why-users-dont-switch-providers/</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-27T00:00:00.000ZInternettleverandører sier at deres «utmerkede kundeservice» er grunnen til at brukere ikke bytter leverandør</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title
-      ><![CDATA[Anbefaling for en programvareingeniør som ønsker å holde seg oppdatert med det nyeste innen AI]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Brukeren søker aktivt etter pålitelige kilder for de siste oppdateringene innen kunstig intelligens (AI), spesielt gjennom teknologiblogger som ligner på Hacker News (HN).</li>
-<li>De har erfaring med å bruke ChatGPT og OpenAI API, spesifikt versjon 3.5, noe som indikerer en praktisk interesse for AI-verktøy.</li>
-<li>Brukeren fant Simon Willisons blogg, men føler at den mangler sammenheng, og antyder et behov for mer strukturerte og omfattende AI-informasjonskilder.</li>
-</ul>
-]]></description>
-            <link>https://news.ycombinator.com/item?id=42256093</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-27T00:00:00.000ZAnbefaling for en programvareingeniør som ønsker å holde seg oppdatert med det nyeste innen AI</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title
-      ><![CDATA[OpenAI setter video-modellen Sora på pause etter at kunstnere lekker tilgang i protest]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link
-      >https://www.washingtonpost.com/technology/2024/11/26/openai-sora-ai-video-model-artists-protest/</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-27T00:00:00.000ZOpenAI setter video-modellen Sora på pause etter at kunstnere lekker tilgang i protest</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Ja, det 'ser ut som en and', men transportører liker den nye USPS-postbilen]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>USAs postvesen introduserer nye elektriske postbiler som en del av en moderniseringsplan på 9,6 milliarder dollar, med funksjoner som klimaanlegg, økt lasterom og forbedret sikkerhet.</li>
-<li>Opprinnelig ment å være for det meste gassdrevet, vil nå 75% av flåten være elektrisk på grunn av juridiske utfordringer, noe som markerer et betydelig skifte mot bærekraft.</li>
-<li>Til tross for deres ukonvensjonelle design, har lastebilene blitt positivt mottatt for deres komfort og effektivitet, med innspill fra postbærere og inkludert funksjoner som sklisikre overflater, kollisjonsputer og et kollisjonsunngåelsessystem.</li>
-</ul>
-]]></description>
-            <link>https://www.nytimes.com/2024/11/26/us/usps-new-mail-trucks.html</link>
-            <guid
-        isPermaLink="false"
-      >2024-11-27T00:00:00.000ZJa, det &apos;ser ut som en and&apos;, men transportører liker den nye USPS-postbilen</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Htmy – Asynkron, ren-Python gjengivelsesmotor]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>‘htmy’ er en rendringsmotor skrevet i ren Python som støtter asynkrone og synkrone funksjonskomponenter, React-lignende kontekststyring, og innebygde HTML-tagger, noe som gjør den allsidig for ulike behov innen webutvikling. Den tilbyr funksjoner som støtte for Markdown, internasjonalisering basert på JSON, og enkel integrasjon med alle backend- eller frontend-rammeverk, noe som forbedrer dens tilpasningsevne og tilpasningsmuligheter. Biblioteket er åpen kildekode under MIT-lisensen, noe som oppmuntrer til bidrag fra fellesskapet, og kan installeres via PyPI ved å bruke <code>pip install htmy</code>.</li>
-</ul>
-]]></description>
-            <link>https://volfpeter.github.io/htmy/</link>
-            <guid isPermaLink="false">2024-11-27T00:00:00.000ZHtmy – Asynkron, ren-Python gjengivelsesmotor</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

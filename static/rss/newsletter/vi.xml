@@ -15,12 +15,113 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 06 Dec 2024 19:14:39 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Dec 2024 19:11:53 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/vi.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 06 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[vi]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-12-07]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/12/07&#39;</h2>
+<h1>2024-12-07</h1>
+<h2><a href="https://shilin.ca/my-second-year-without-job/">Đây là năm thứ hai tôi không có việc làm</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42344002">phản ứng</a></h3>
+<h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog">Phần tử Đối thoại</a></h2>
+<ul>
+<li>Thẻ HTML `` được sử dụng để tạo các hộp thoại, có thể là dạng modal (tạm dừng tương tác trang) hoặc không phải modal (cho phép tương tác).</li>
+<li>Phương thức JavaScript <code>.showModal()</code> và <code>.show()</code> được sử dụng để hiển thị các hộp thoại dạng modal và không phải modal, tương ứng, trong khi <code>.close()</code> được sử dụng để đóng chúng.</li>
+<li>Khả năng truy cập là rất quan trọng; đảm bảo tiêu điểm được đặt đúng cách và cung cấp cơ chế đóng, chẳng hạn như nút, trong khi sử dụng CSS <code>::backdrop</code> để tạo kiểu cho nền mờ của modal.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343089">phản ứng</a></h3>
+<ul>
+<li>Phần tử đối thoại trên developer.mozilla.org đã khởi xướng một cuộc tranh luận về việc sử dụng các phần tử HTML tương tác, chẳng hạn như bộ chọn tệp và trình phát media, với các ý kiến khác nhau về tính nhất quán và khả năng dự đoán của chúng trên các trình duyệt.</li>
+<li>Trong khi một số nhà phát triển chỉ trích phần tử dialog vì không có kiểu dáng và không hoạt động như các cửa sổ bật lên gốc, những người khác lại đánh giá cao lợi ích về ngữ nghĩa và khả năng truy cập của nó.</li>
+<li>Cuộc thảo luận nêu bật những thách thức trong việc duy trì sự nhất quán trong thiết kế và những lo ngại về khả năng lạm dụng tiềm tàng bởi các nhà quảng cáo, cho thấy rằng yếu tố đối thoại là một bước tiến nhưng vẫn cần được cải thiện.</li>
+</ul>
+<h2><a href="https://github.com/orgs/organicmaps/discussions/9837">Đồng sáng lập Maps.me cố gắng đóng cửa nhánh mã nguồn mở Organic Maps</a></h2>
+<ul>
+<li>Organic Maps đã phát hành mã nguồn cho &quot;metaserver&quot; của mình, giúp tối ưu hóa tốc độ tải bản đồ bằng cách hướng người dùng đến các máy chủ Mạng Phân Phối Nội dung (CDN) tốt nhất dựa trên vị trí của họ.</li>
+<li>Bộ mã, ban đầu được đóng để ngăn chặn các nhánh không được phép, hiện đã mở theo giấy phép MIT, thúc đẩy tính minh bạch và sự tham gia của cộng đồng.</li>
+<li>Nhóm đang xem xét lại việc sử dụng Cloudflare Workers để ngăn chặn sự phụ thuộc vào nhà cung cấp và đã hoàn nguyên các thay đổi không được phép do một cộng tác viên thực hiện, nhấn mạnh cam kết của họ đối với quyền riêng tư và minh bạch.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343121">phản ứng</a></h3>
+<ul>
+<li>Alexander Borsuk, đồng sáng lập của Maps.me, đã cố gắng đóng nhánh mã nguồn mở của Organic Maps bằng cách thay đổi giấy phép MIT của nó và thêm ghi nhật ký vào một kho lưu trữ riêng tư. - Roman Tsisyk, một người bảo trì dự án khác, đã đảo ngược những thay đổi này và công khai kho lưu trữ, dẫn đến xung đột và việc thu hồi quyền của anh ta. - Sự cố này nhấn mạnh những bất đồng nội bộ về bản chất mã nguồn mở của dự án, tuy nhiên Organic Maps vẫn tiếp tục là một ứng dụng bản đồ ngoại tuyến được sử dụng rộng rãi.</li>
+</ul>
+<h2><a href="https://github.com/Olshansk/postgres_for_everything">Cách sử dụng Postgres cho mọi thứ</a></h2>
+<ul>
+<li>Postgres cho Mọi thứ&quot; là một kho lưu trữ khuyến khích việc sử dụng PostgreSQL, một cơ sở dữ liệu quan hệ mã nguồn mở phổ biến, cho nhiều ứng dụng khác nhau ngoài các nhiệm vụ cơ sở dữ liệu truyền thống. - Kho lưu trữ này mời gọi sự đóng góp và theo dõi các cách sử dụng sáng tạo khác nhau của PostgreSQL, bao gồm các công việc cron, hàng đợi tin nhắn, phân tích, và nhiều hơn nữa, nhấn mạnh tính linh hoạt của nó. - Sáng kiến này bao gồm 11 mục liên quan đến Supabase, một nền tảng cung cấp dịch vụ backend sử dụng PostgreSQL, thể hiện sự tích hợp và tiện ích của nó trong phát triển ứng dụng hiện đại.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42347606">phản ứng</a></h3>
+<ul>
+<li>Cuộc thảo luận nhấn mạnh tính linh hoạt của Postgres trong các ứng dụng khác nhau nhưng cũng chỉ ra những hạn chế, chẳng hạn như xử lý các ký tự null trong chuỗi và yêu cầu SQL tùy chỉnh cho các lần quét bỏ qua chỉ mục. - Ý kiến khác nhau về việc sử dụng Postgres cho mọi mục đích, với một số người cảnh báo chống lại việc phụ thuộc quá mức vào một cơ sở dữ liệu duy nhất cho các nhóm lớn và những người khác ca ngợi sự đơn giản và giảm bớt độ phức tạp của nó. - Các lựa chọn thay thế như Redis được đề cập, cùng với những thách thức trong việc mở rộng quy mô và tầm quan trọng của việc tránh kỹ thuật quá mức trong giai đoạn đầu của một dự án.</li>
+</ul>
+<h2><a href="https://www.moment.dev/blog/lies-i-was-told-pt-1">Lời nói dối tôi đã được nghe về chỉnh sửa cộng tác, Phần 1: Thuật toán cho chỉnh sửa ngoại tuyến</a></h2>
+<ul>
+<li>Vào đầu năm 2024, nghiên cứu về hệ thống chỉnh sửa hợp tác cho trình soạn thảo văn bản của Moment đã nêu bật những thách thức với việc chỉnh sửa ngoại tuyến, nơi mà các thuật toán phổ biến như CRDTs (Các loại dữ liệu sao chép không xung đột) và OT (Chuyển đổi hoạt động) thường thất bại. Việc chỉnh sửa ngoại tuyến làm tăng xung đột trực tiếp, với 20-30% những xung đột này dẫn đến kết quả không chấp nhận được, cho thấy vấn đề này là một thách thức về giao diện người dùng/trải nghiệm người dùng (UI/UX) hơn là một vấn đề thuật toán. Các nhà nghiên cứu hiện đang tập trung vào việc cải thiện trải nghiệm người dùng trong chỉnh sửa ngoại tuyến, rút ra những điểm tương đồng với cách git xử lý việc hợp nhất tài liệu, đây là một phát triển đầy hứa hẹn.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343953">phản ứng</a></h3>
+<ul>
+<li>Theo bài viết, những thách thức của việc chỉnh sửa hợp tác, đặc biệt là khi ngoại tuyến, và phê bình các thuật toán hiện tại như Conflict-free Replicated Data Types (CRDTs) và Operational Transformation (OT) vì không phải lúc nào cũng mang lại kết quả có ý nghĩa về mặt ngữ nghĩa. Có sự đồng thuận về nhu cầu cải thiện giải quyết xung đột, có thể thông qua sự đóng góp của người dùng hoặc các công cụ tiên tiến như Mô hình Ngôn ngữ Lớn (LLMs), để xử lý xung đột ngữ nghĩa một cách hiệu quả. Cuộc thảo luận cũng xem xét vai trò của các giải pháp Giao diện Người dùng/Trải nghiệm Người dùng (UI/UX) trong việc nâng cao trải nghiệm chỉnh sửa hợp tác, nhấn mạnh rằng vấn đề không chỉ nằm ở các thuật toán mà còn ở việc hiểu ý định của người dùng.</li>
+</ul>
+<h2><a href="https://ollama.com/blog/structured-outputs">Đầu ra có cấu trúc với Ollama</a></h2>
+<ul>
+<li>Ollama đã giới thiệu hỗ trợ cho các đầu ra có cấu trúc, cho phép các mô hình tạo ra đầu ra theo một định dạng cụ thể bằng cách sử dụng một lược đồ JSON.</li>
+<li>Chức năng này hiện có sẵn trong các thư viện Ollama Python và JavaScript đã được cập nhật, hữu ích cho các nhiệm vụ như phân tích dữ liệu từ tài liệu và hình ảnh.</li>
+<li>Người dùng nên cập nhật lên phiên bản Ollama mới nhất và sử dụng tham số định dạng trong các yêu cầu cURL hoặc thư viện, với các bản cập nhật trong tương lai hứa hẹn cải thiện hiệu suất và nhiều tùy chọn định dạng hơn.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42346344">phản ứng</a></h3>
+<ul>
+<li>Ollama cung cấp một phương pháp để tạo dữ liệu có cấu trúc, chẳng hạn như JSON, từ các mô hình ngôn ngữ, với các cuộc thảo luận về việc sử dụng ngữ pháp GBNF cho các định dạng đầu ra linh hoạt hơn như XML hoặc SQL. - Người dùng tranh luận về độ tin cậy của các đầu ra JSON so với ngôn ngữ tự nhiên, với những hiểu biết về cách các mô hình ngôn ngữ (LLM) tạo ra văn bản và vai trò của các lời nhắc có cấu trúc. - Việc tích hợp Ollama với llama.cpp được ghi nhận là đơn giản hóa việc sử dụng mô hình, mặc dù một số người coi nó chỉ là một lớp bọc, và tính năng này hỗ trợ các mô hình khác nhau với các mức độ chính xác khác nhau.</li>
+</ul>
+<h2><a href="https://www.youtube.com/watch?v=0JouTsMQsEA">RollerCoaster Tycoon là trò chơi cuối cùng thuộc loại này [video]</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42346463">phản ứng</a></h3>
+<ul>
+<li>RollerCoaster Tycoon, được phát triển chủ yếu bằng ngôn ngữ assembly bởi một nhóm nhỏ, đã trở thành một sản phẩm bán chạy nhất vào năm 1999, thể hiện một phong cách phát triển hiếm có.</li>
+<li>Người hâm mộ đề xuất OpenRCT2 để có các tính năng nâng cao và khả năng tương thích, và Roller Coaster Tycoon Classic cho các thiết bị hiện đại, trong khi các lựa chọn thay thế như Parkitect và Planet Coaster mang lại những trải nghiệm đa dạng.</li>
+<li>Video nêu bật sự phát triển của việc phát triển trò chơi và những thách thức mà các nhóm nhỏ gặp phải khi cạnh tranh với các studio lớn hơn, với những thành công của indie như Minecraft minh họa tiềm năng cho những thành tựu của các nhóm nhỏ.</li>
+</ul>
+<h2><a href="https://source.washu.edu/2024/12/research-reveals-how-fructose-in-diet-enhances-tumor-growth/">Fructose trong chế độ ăn uống thúc đẩy sự phát triển của khối u: nghiên cứu</a></h2>
+<ul>
+<li>Tiêu thụ fructose đã tăng đáng kể trong 50 năm qua, chủ yếu do siro ngô có hàm lượng fructose cao trong đồ uống và thực phẩm chế biến.</li>
+<li>Nghiên cứu từ Đại học Washington ở St. Louis chỉ ra rằng mặc dù fructose không trực tiếp cung cấp năng lượng cho các khối u, nhưng gan chuyển hóa nó thành các chất dinh dưỡng hỗ trợ sự phát triển của khối u trong các loại ung thư như u hắc tố, ung thư vú và ung thư cổ tử cung.</li>
+<li>Nghiên cứu đề xuất các phương pháp điều trị ung thư tiềm năng mới bằng cách khám phá các phương pháp ngăn chặn fructose hỗ trợ sự phát triển của khối u, có thể thông qua thay đổi chế độ ăn uống hoặc dược phẩm, với một phần tài trợ từ Viện Y tế Quốc gia (NIH).</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343544">phản ứng</a></h3>
+<ul>
+<li>Nghiên cứu từ Đại học Washington chỉ ra rằng tiêu thụ fructose cao có thể thúc đẩy sự phát triển của khối u bằng cách tăng lipid tuần hoàn, được các tế bào ung thư sử dụng để phát triển. Trong khi fructose trong trái cây thường an toàn do có thêm các chất dinh dưỡng, việc tiêu thụ quá mức từ các nguồn như siro ngô có hàm lượng fructose cao có thể gây rủi ro. Nghiên cứu nhấn mạnh sự phức tạp của quá trình trao đổi chất của ung thư và ảnh hưởng tiềm tàng của chế độ ăn uống đối với sự tiến triển của ung thư, mặc dù cần có thêm nghiên cứu để hiểu đầy đủ các cơ chế này.</li>
+</ul>
+<h2><a href="https://github.com/oils-for-unix/oils/wiki/The-Biggest-Shell-Programs-in-the-World">Chương trình shell lớn nhất</a></h2>
+<ul>
+<li>The page highlights significant shell programs, focusing on substantial hand-written scripts rather than those generated by tools like autoconf.- Notable entries include akinomyoga/ble.sh, a Bash Line Editor with 61K lines of code (LoC), and kalua, an OpenWRT addon with 56K source lines of code (SLoC).- The list provides insights into the complexity and diversity of shell scripting, featuring programs that utilize data structures and algorithms, typically exceeding 5,000 lines of code.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42346274">phản ứng</a></h3>
+<ul>
+<li>Cuộc thảo luận tập trung vào sự phức tạp và thách thức khi sử dụng các tập lệnh shell lớn, chẳng hạn như các vấn đề về khả năng đọc, xử lý lỗi và tính di động. - Người dùng đề xuất xem xét các lựa chọn thay thế như Python hoặc AWK cho các tác vụ phức tạp do khả năng bảo trì tốt hơn, trong khi các công cụ như ShellCheck có thể giúp cải thiện chất lượng tập lệnh shell. - Cuộc trò chuyện nhấn mạnh sự cân bằng giữa việc sử dụng tập lệnh shell cho các tác vụ nhanh chóng và lựa chọn các ngôn ngữ lập trình mạnh mẽ hơn cho các dự án lớn hơn.</li>
+</ul>
+<h2><a href="https://dspy.ai/">DSPy – Lập trình–không phải nhắc nhở–LMs</a></h2>
+<ul>
+<li>DSPy là một khung làm việc được thiết kế để xây dựng các hệ thống AI mô-đun bằng cách sử dụng mã Python có tính chất tổng hợp, tập trung vào việc cải thiện đầu ra của mô hình ngôn ngữ (LM) mà không chỉ dựa vào các lời nhắc. Nó hỗ trợ nhiều nhà cung cấp mô hình ngôn ngữ lớn (LLM) như OpenAI, Anthropic và Databricks, cho phép người dùng mô tả hành vi AI dưới dạng mã, tạo điều kiện thuận lợi cho việc lặp lại và tối ưu hóa dễ dàng hơn. Xuất phát từ Stanford NLP, DSPy có sự hiện diện mạnh mẽ trong cộng đồng trên GitHub và Discord, đóng góp vào nghiên cứu AI mã nguồn mở và thúc đẩy các kiến trúc chương trình và bộ tối ưu hóa.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343692">phản ứng</a></h3>
+<ul>
+<li>DSPy là một khung làm việc được thiết kế để tối ưu hóa các lời nhắc cho các mô hình ngôn ngữ (LMs) bằng cách tự động hóa việc lựa chọn các tập hợp con dữ liệu đào tạo, từ đó nâng cao hiệu suất và giảm thiểu các điều chỉnh thủ công.</li>
+<li>Hỗ trợ đào tạo từ đầu đến cuối cho các chương trình mô hình ngôn ngữ lớn (LLM), ngăn chặn việc sử dụng các lời nhắc lỗi thời trong mã, và đặc biệt hữu ích cho các nhiệm vụ như trích xuất dữ liệu và tóm tắt.</li>
+<li>Trong khi một số người dùng thấy sự phức tạp của DSPy là thách thức, nó được đánh giá cao nhờ cách tiếp cận có cấu trúc và các tính năng như khẳng định và gợi ý giúp thực thi các ràng buộc đầu ra.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Đây là năm thứ hai tôi không có việc làm" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%C4%90%C3%A2y%20l%C3%A0%20n%C4%83m%20th%E1%BB%A9%20hai%20t%C3%B4i%20kh%C3%B4ng%20c%C3%B3%20vi%E1%BB%87c%20l%C3%A0m&subheading=Th%E1%BB%A9%20B%E1%BA%A3y%2C%207%20th%C3%A1ng%2012%2C%202024%3A%20T%C3%B3m%20t%E1%BA%AFt%20tin%20t%E1%BB%A9c%20v%E1%BB%81%20hacker" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/vi/2024/12/07</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000Z</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-12-06]]></title>
             <description
@@ -1041,173 +1142,6 @@
             <link>https://hn.cho.sh/vi/2024/11/28</link>
             <guid isPermaLink="false">2024-11-28T00:00:00.000Z</guid>
             <pubDate>Thu, 28 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-11-27]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/11/27&#39;</h2>
-<h1>2024-11-27</h1>
-<h2><a href="https://play.google.com/store/apps/details?id=com.actureunlock&hl=en_US">Ứng dụng hỏi &#39;tại sao?&#39; mỗi khi bạn mở khóa điện thoại</a></h2>
-<ul>
-<li>Intenty là một ứng dụng khuyến khích người dùng phát triển thói quen sử dụng điện thoại lành mạnh hơn thông qua các nhắc nhở nhận thức khi mở khóa thiết bị của họ. Ứng dụng nhấn mạnh quyền riêng tư bằng cách hoạt động hoàn toàn cục bộ mà không có quảng cáo hoặc theo dõi, và nó chỉ sử dụng các quyền của Android cho chức năng mà không thu thập dữ liệu. Với thiết kế tối giản và tùy chỉnh thông minh, Intenty có xếp hạng 4.4 sao và hơn 10.000 lượt tải xuống, thu hút những người dùng muốn giảm thiểu việc sử dụng điện thoại không có mục đích.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42254156">phản ứng</a></h3>
-<ul>
-<li>Một ứng dụng nhắc nhở người dùng với câu hỏi &quot;tại sao?&quot; khi mở khóa điện thoại đang thu hút sự chú ý trên Hacker News vì tiềm năng giảm thiểu sự phân tâm.</li>
-<li>Người dùng thấy ứng dụng hữu ích nhưng đôi khi bất tiện cho các tác vụ nhanh, dẫn đến các đề xuất cải tiến như ngẫu nhiên hóa các lời nhắc hoặc cho phép bỏ qua cụ thể cho từng ứng dụng.</li>
-<li>Nhà phát triển đang xem xét phản hồi của người dùng cho các bản cập nhật, bao gồm tùy chọn mua một lần thay vì mô hình đăng ký.</li>
-</ul>
-<h2><a href="https://www.downtowndougbrown.com/2024/11/the-capacitor-that-apple-soldered-incorrectly-at-the-factory/">Chiếc tụ điện mà Apple đã hàn sai tại nhà máy</a></h2>
-<ul>
-<li>Doug Brown nêu bật một lỗi sản xuất trong Macintosh LC III của Apple, nơi một tụ điện đã được lắp ngược, có thể gây ra các vấn đề.</li>
-<li>Macintosh LC III, được sản xuất từ năm 1993 đến 1994 cho thị trường giáo dục, đã không trải qua một đợt thu hồi lớn mặc dù có lỗi này.</li>
-<li>Brown khuyên nên thận trọng khi thay thế tụ điện, đặc biệt là với tụ điện tantalum hiện đại, và khuyến nghị lắp đặt chúng đúng cách, trái ngược với hướng dẫn trên lớp mực in của PCB.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42253119">phản ứng</a></h3>
-<ul>
-<li>Apple đã vô tình lắp đặt một tụ điện ngược chiều trên một chiếc máy tính 34 năm tuổi, nhấn mạnh tầm quan trọng của việc lắp đặt đúng hướng tụ điện, đặc biệt là đối với tụ điện phân cực, vốn có cực tính và có thể hỏng nếu lắp đặt sai.</li>
-<li>Vụ việc này đã làm dấy lên các cuộc thảo luận về tuổi thọ sản phẩm và sự lỗi thời có kế hoạch, với một số người cho rằng các thiết bị điện tử hiện đại được thiết kế có chủ ý để có tuổi thọ ngắn hơn nhằm thúc đẩy doanh số bán hàng.</li>
-<li>Thực trạng này gợi nhớ đến những lỗi sản xuất trong quá khứ của các công ty khác, chẳng hạn như Commodore, cho thấy một vấn đề lặp đi lặp lại trong ngành công nghệ.</li>
-</ul>
-<h2><a href="https://benhouston3d.com/blog/why-i-left-kubernetes-for-google-cloud-run">I Didn&#39;t Need Kubernetes, and You Probably Don&#39;t Either</a></h2>
-<ul>
-<li>Theo tác giả, họ đã chuyển từ Kubernetes sang Google Cloud Run, chỉ ra rằng sự phức tạp, chi phí và khả năng tự động mở rộng chậm của Kubernetes là những nhược điểm. Google Cloud Run được nhấn mạnh là một giải pháp thay thế đơn giản hơn, hiệu quả về chi phí, chỉ tính phí cho việc sử dụng CPU và bộ nhớ thực tế, và cung cấp khả năng mở rộng nhanh chóng mà không cần quản lý phức tạp của Kubernetes. Tác giả sử dụng GitHub Actions cho tích hợp liên tục/triển khai liên tục (CI/CD), cơ sở dữ liệu được quản lý và nhắn tin pub-sub, nhấn mạnh sự phù hợp của Cloud Run cho các dự án cần sự đơn giản và hiệu quả hơn là các tính năng mở rộng của Kubernetes.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42252336">phản ứng</a></h3>
-<ul>
-<li>Bài báo phê bình Kubernetes vì quá phức tạp và thường không cần thiết cho các dự án nhỏ hơn, đề xuất các giải pháp đơn giản hơn như một máy ảo (VM) hoặc máy chủ đơn lẻ có thể hiệu quả hơn.</li>
-<li>Nó làm nổi bật những thách thức trong việc quản lý Kubernetes, bao gồm sự phức tạp gia tăng từ các tiện ích bổ sung khác nhau và xu hướng của một số kỹ sư làm phức tạp hóa hệ thống.</li>
-<li>Bằng sự đồng thuận, Kubernetes có giá trị, nhưng không phải lúc nào cũng là lựa chọn tốt nhất cho các hoạt động quy mô nhỏ hơn, nơi sự đơn giản có thể mang lại lợi ích nhiều hơn.</li>
-</ul>
-<h2><a href="https://krebsonsecurity.com/2024/11/hacker-in-snowflake-extortions-may-be-a-u-s-soldier/">Hacker trong vụ tống tiền Snowflake có thể là một binh sĩ Mỹ</a></h2>
-<ul>
-<li>Hai cá nhân đã bị bắt vì tội trộm cắp dữ liệu từ các công ty sử dụng Snowflake, trong khi một nghi phạm thứ ba, được biết đến với tên &quot;Kiberphant0m,&quot; vẫn đang lẩn trốn và được cho là một binh sĩ của Quân đội Hoa Kỳ tại Hàn Quốc.</li>
-<li>Nhóm này đã tham gia vào việc bán dữ liệu bị đánh cắp và tống tiền các công ty, với việc AT&amp;T được cho là đã trả 370.000 đô la để xóa các hồ sơ bị đánh cắp.</li>
-<li>Giới chức Canada đã bắt giữ Alexander Moucka, và John Erin Binns đang bị giam giữ ở Thổ Nhĩ Kỳ, cả hai đều có liên quan đến các vụ vi phạm, trong khi Kiberphant0m vẫn hoạt động trên các diễn đàn tội phạm mạng.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251799">phản ứng</a></h3>
-<ul>
-<li>Một tin tặc tham gia vào việc tống tiền Snowflake, được xác định là Kiberphant0m, đang bị điều tra, với suy đoán về khả năng có liên quan đến quân đội Hoa Kỳ.</li>
-<li>Kiberphant0m phủ nhận bất kỳ mối liên hệ quân sự nào, cho rằng đó là một chiến thuật lừa dối, mặc dù các nhà phân tích nghi ngờ điều này sẽ hiệu quả trong việc đánh lạc hướng các nhà điều tra.</li>
-<li>Những hành động bất cẩn của hacker, chẳng hạn như đăng một bức ảnh trong trang phục quân đội, nhấn mạnh những khó khăn trong việc duy trì an ninh hoạt động và tránh để lại dấu vết kỹ thuật số.</li>
-</ul>
-<h2><a href="https://zetaoffice.net/">ZetaOffice: LibreOffice trong trình duyệt</a></h2>
-<ul>
-<li>ZetaOffice Web giới thiệu LibreOffice đến các trình duyệt web, cho phép truy cập từ bất kỳ thiết bị nào với các tùy chọn tự lưu trữ hoặc sử dụng Mạng Phân Phối Nội Dung (CDN) để kiểm soát dữ liệu. Bộ ứng dụng bao gồm Writer, Calc và Impress cho xử lý văn bản, bảng tính và thuyết trình, và có sẵn cho cả web và máy tính để bàn trên Linux và Windows, đảm bảo khả năng tương thích tài liệu. ZetaOffice cung cấp phần mềm mã nguồn mở với các tùy chọn trả phí cho việc sử dụng CDN và hỗ trợ, và tích hợp với các hệ thống hiện có thông qua API LibreOffice UNO, hoạt động hiệu quả trong các trình duyệt hiện đại.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249746">phản ứng</a></h3>
-<ul>
-<li>ZetaOffice, phiên bản dựa trên trình duyệt của LibreOffice, đang đối mặt với chỉ trích về các vấn đề hiệu suất và khả năng sử dụng, bao gồm lỗi nhập liệu và hiển thị văn bản.</li>
-<li>Có một cuộc tranh luận đang diễn ra về việc sử dụng canvas hay nhắm mục tiêu vào DOM (Mô hình Đối tượng Tài liệu) là tốt hơn cho việc hiển thị bố cục tài liệu trong các bộ ứng dụng văn phòng dựa trên web.</li>
-<li>Mặc dù có những thách thức, ZetaOffice đặt mục tiêu cung cấp trải nghiệm nhất quán trên nhiều nền tảng và cũng có sẵn dưới dạng ứng dụng máy tính để bàn gốc.</li>
-</ul>
-<h2><a href="https://www.techradar.com/pro/security/d-link-says-it-wont-patch-60-000-older-modems-as-theyre-not-worth-saving">D-Link cho biết sẽ không vá 60.000 modem cũ</a></h2>
-<ul>
-<li>D-Link đã thông báo rằng họ sẽ không cung cấp các bản vá bảo mật cho 60.000 modem cũ đã đạt trạng thái hết vòng đời, khuyến khích người dùng nâng cấp lên các mẫu mới hơn.</li>
-<li>Những lỗ hổng bảo mật chưa được vá có thể cho phép tin tặc kiểm soát các thiết bị này, gây ra rủi ro đáng kể.</li>
-<li>Phần lớn các modem bị ảnh hưởng nằm ở Đài Loan, và đối với những người dùng không thể nâng cấp, D-Link khuyến nghị hạn chế truy cập từ xa và sử dụng mật khẩu an toàn như các biện pháp phòng ngừa.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249790">phản ứng</a></h3>
-<ul>
-<li>D-Link đã quyết định không vá các lỗ hổng trong 60.000 modem cũ hơn, khiến chúng dễ bị rủi ro bảo mật, điều này làm dấy lên lo ngại về an ninh thiết bị và trách nhiệm của nhà sản xuất.</li>
-<li>Thông báo đã khơi dậy các cuộc thảo luận về tầm quan trọng của việc hỗ trợ dài hạn và những lợi ích tiềm năng của các giải pháp mã nguồn mở như OpenWRT trong việc duy trì bảo mật thiết bị.</li>
-<li>Đã có những đề xuất về các quy định pháp lý yêu cầu các nhà sản xuất cung cấp các bản cập nhật bảo mật hoặc phát hành firmware cho công chúng khi các thiết bị đạt đến cuối vòng đời, nhấn mạnh một vấn đề rộng lớn hơn trong ngành.</li>
-</ul>
-<h2><a href="https://www.technicianonline.com/news/popular-nc-state-professor-marshall-brain-dies-alleges-retaliation-for-ethics-complaints/article_152e5c80-ac2e-11ef-8b3f-036ac3c8d9bf.html">Marshall Brain qua đời vài giờ sau khi cáo buộc trả đũa tại NC State</a></h2>
-<ul>
-<li>Giáo sư Marshall Brain của Đại học Bang NC, người sáng lập HowStuffWorks.com, được phát hiện đã qua đời trong văn phòng của mình vào ngày 20 tháng 11, sau khi cáo buộc bị trả đũa từ các quan chức của trường đại học.</li>
-<li>Brain tuyên bố rằng ông bị buộc phải nghỉ hưu sau các khiếu nại về đạo đức, nhưng trường đại học chưa đưa ra bình luận nào về những cáo buộc này hoặc về cái chết của ông.</li>
-<li>Những sinh viên và đồng nghiệp cũ đã bày tỏ sự thất vọng về sự im lặng của trường đại học, nhấn mạnh tính chất đang tiếp diễn của câu chuyện đang phát triển này.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251656">phản ứng</a></h3>
-<ul>
-<li>Marshall Brain, một cựu giáo sư tại NC State, đã qua đời sau khi tuyên bố bị trả đũa từ các quản trị viên của trường đại học do những khiếu nại đạo đức của ông.</li>
-<li>Trường hợp của anh ấy nhấn mạnh sự căng thẳng giữa chủ nghĩa lý tưởng và thực tế, minh họa những nguy cơ tiềm ẩn khi buộc những người nắm quyền phải chịu trách nhiệm.</li>
-<li>Vụ việc đã thúc đẩy các cuộc thảo luận về hiệu quả của hệ thống báo cáo nội bộ và động lực quyền lực rộng lớn hơn trong các tổ chức học thuật.</li>
-</ul>
-<h2><a href="https://ianthehenry.com/posts/janet-for-mortals/">Janet cho Người Phàm (2023)</a></h2>
-<ul>
-<li>Người tác giả đã phát hành một cuốn sách trực tuyến miễn phí có tựa đề &quot;Janet for Mortals,&quot; tập trung vào ngôn ngữ lập trình Janet, mất 20 tuần để viết. Cuốn sách bao gồm 44.000 từ và đi kèm với một trang web có tính năng REPL (Read-Eval-Print Loop) để học tương tác. Cuốn sách và các dự án liên quan, như các thư viện liên kết C++ và một khung kiểm thử, đã nhận được sự chú ý tích cực trên các nền tảng như Hacker News.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42253241">phản ứng</a></h3>
-<ul>
-<li>&quot;Janet for Mortals&quot; là một cuốn sách cung cấp một REPL (Vòng lặp Đọc-Đánh giá-In) tương tác có thể truy cập thông qua phím escape, cho phép người dùng thử nghiệm với ngôn ngữ lập trình Janet trực tiếp trong trình duyệt của họ mà không cần cài đặt.</li>
-<li>Janet được công nhận vì dễ dàng nhúng và tạo ra các Ngôn ngữ Đặc thù Miền (DSLs), mặc dù một số người dùng nhận thấy rằng tài liệu của nó có thể được cải thiện.</li>
-<li>Phong cách hấp dẫn của cuốn sách và những đặc điểm độc đáo của ngôn ngữ đã tạo ra sự quan tâm và phản hồi tích cực, mặc dù có một số tranh luận về tiêu đề của cuốn sách.</li>
-</ul>
-<h2><a href="https://www.jeffgeerling.com/blog/2024/raspberry-pi-cm5-2-3x-faster-drop-upgrade-mostly">Raspberry Pi CM5 là một nâng cấp nhanh hơn, có thể thay thế trực tiếp</a></h2>
-<ul>
-<li>Bộ xử lý Raspberry Pi Compute Module 5 (CM5) là một nâng cấp đáng kể từ CM4, cung cấp hiệu suất nhanh hơn 2-3 lần, hỗ trợ USB 3 và tương thích với PCIe Gen 3 trong khi vẫn giữ nguyên kích thước hình dạng.</li>
-<li>CM5 có giá tương tự như CM4, với mẫu 8GB bắt đầu từ $75, và bao gồm CPU nhanh hơn, RAM và đồ họa cải tiến, mặc dù nó tiêu thụ nhiều điện năng hơn khi hoạt động ở công suất tối đa.</li>
-<li>Bo mạch IO được cập nhật cũng được phát hành với giá 20 đô la, có tính năng cấp nguồn USB-C và các cải tiến khác, nhấn mạnh sự hỗ trợ và tính mô-đun của CM5 mặc dù có sự cạnh tranh từ các máy tính bảng đơn (SBCs) khác.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42254379">phản ứng</a></h3>
-<ul>
-<li>The Raspberry Pi CM5 mang lại sự cải thiện hiệu suất đáng kể so với CM4, với tốc độ nhanh gấp 2-3 lần, và bao gồm nâng cấp USB 3.</li>
-<li>Mặc dù phiên bản 8GB giữ nguyên giá, các phiên bản khác đắt hơn, và một số người dùng nhận xét rằng các bo mạch khác có thể có thông số kỹ thuật tốt hơn.</li>
-<li>Mặc dù có những cải tiến về phần cứng, CM5 thiếu hỗ trợ mã hóa phần cứng nhưng có thể giải mã H.265, và cộng đồng mạnh mẽ cùng sự hỗ trợ của Raspberry Pi vẫn là những lợi thế chính.</li>
-</ul>
-<h2><a href="https://arstechnica.com/tech-policy/2024/11/isps-say-their-excellent-customer-service-is-why-users-dont-switch-providers/">Nhà cung cấp dịch vụ Internet (ISP) cho biết &quot;dịch vụ khách hàng tuyệt vời&quot; của họ là lý do người dùng không chuyển đổi nhà cung cấp</a></h2>
-<ul>
-<li>Nhóm vận động hành lang của các nhà cung cấp dịch vụ Internet lập luận rằng cạnh tranh đảm bảo tiêu chuẩn dịch vụ khách hàng cao, làm cho các quy định bổ sung trở nên không cần thiết, vì dịch vụ kém sẽ khiến khách hàng chuyển sang nhà cung cấp khác.</li>
-<li>Nhà quản lý ở California và Oregon báo cáo sự không hài lòng rộng rãi của khách hàng, nêu bật các vấn đề như thời gian chờ đợi lâu và các vấn đề về hóa đơn, mâu thuẫn với tuyên bố của các nhà cung cấp dịch vụ Internet.</li>
-<li>FCC đang xem xét các thực hành dịch vụ khách hàng, nhưng với sự lãnh đạo của Brendan Carr, được bổ nhiệm bởi Tổng thống đắc cử Trump, các quy định mới khó có khả năng được ban hành, khi trọng tâm chuyển sang giảm bớt gánh nặng quy định.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251564">phản ứng</a></h3>
-<ul>
-<li>Nhà cung cấp dịch vụ Internet (ISP) cho rằng việc giữ chân khách hàng là nhờ vào &quot;dịch vụ khách hàng xuất sắc&quot; của họ, nhưng nhiều người tin rằng đó là do thiếu cạnh tranh ở một số khu vực.</li>
-<li>Ở các khu vực có ít lựa chọn nhà cung cấp dịch vụ Internet, người dùng thường vẫn duy trì nhà cung cấp hiện tại mặc dù không hài lòng với chất lượng dịch vụ.</li>
-<li>Những nỗ lực ở các quốc gia như Úc và Canada nhằm điều chỉnh thị trường và thúc đẩy cạnh tranh đang đối mặt với những thách thức liên tục, khi người dùng kêu gọi cạnh tranh thực sự và cải thiện quy định.</li>
-</ul>
-<h2><a href="https://news.ycombinator.com/item?id=42256093">Khuyến nghị cho một kỹ sư phần mềm (SWE) muốn cập nhật nhanh chóng với những tiến bộ mới nhất về AI</a></h2>
-<ul>
-<li>Người dùng đang tích cực tìm kiếm các nguồn đáng tin cậy để cập nhật thông tin mới nhất về Trí tuệ Nhân tạo (AI), đặc biệt là thông qua các blog công nghệ tương tự như Hacker News (HN).</li>
-<li>Họ có kinh nghiệm sử dụng ChatGPT và API của OpenAI, cụ thể là phiên bản 3.5, cho thấy sự quan tâm thực tế đến các công cụ AI.</li>
-<li>Người dùng đã tìm thấy blog của Simon Willison nhưng cảm thấy nó thiếu sự gắn kết, gợi ý rằng cần có các nguồn thông tin AI có cấu trúc và toàn diện hơn.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42256093">phản ứng</a></h3>
-<ul>
-<li>Những kỹ sư phần mềm có thể nâng cao kỹ năng AI của mình bằng cách tham gia các cuộc thi trên Kaggle, nơi cung cấp những trải nghiệm học tập thực tế và thực hành.</li>
-<li>Giữ thông tin qua các blog công nghệ, bản tin và kênh YouTube như của Simon Willison, AI Supremacy và 3Blue1Brown có thể cung cấp kiến thức nền tảng và cập nhật về AI.</li>
-<li>Tham gia vào các cộng đồng AI trên các nền tảng như Reddit và Twitter, cũng như khám phá các tài nguyên giáo dục như sách và các khóa học trực tuyến từ MIT xPRO, có thể làm sâu sắc thêm sự hiểu biết và giúp các kỹ sư cập nhật những xu hướng AI mới nhất.</li>
-</ul>
-<h2><a href="https://www.washingtonpost.com/technology/2024/11/26/openai-sora-ai-video-model-artists-protest/">OpenAI tạm dừng mô hình video Sora sau khi các nghệ sĩ rò rỉ quyền truy cập để phản đối</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42252806">phản ứng</a></h3>
-<ul>
-<li>OpenAI đã tạm dừng mô hình video Sora sau khi các nghệ sĩ rò rỉ quyền truy cập để phản đối việc tham gia không được trả công, mặc dù không có lời hứa về bồi thường. - Cuộc biểu tình này làm dấy lên lo ngại về việc AI có thể thay thế các nghệ sĩ và nêu bật các vấn đề đạo đức liên quan đến lao động không được trả công trong phát triển AI. - Một số người coi cuộc biểu tình là một nỗ lực chiến lược để thu hút sự chú ý đến những vấn đề rộng lớn hơn trong ngành.</li>
-</ul>
-<h2><a href="https://www.nytimes.com/2024/11/26/us/usps-new-mail-trucks.html">Vâng, nó &#39;trông giống như một con vịt&#39;, nhưng các hãng vận chuyển như chiếc xe tải thư mới của USPS</a></h2>
-<ul>
-<li>The U.S. Postal Service đang giới thiệu các xe tải thư điện mới như một phần của kế hoạch hiện đại hóa trị giá 9,6 tỷ đô la, cung cấp các tính năng như điều hòa không khí, không gian chở hàng tăng cường và an toàn được cải thiện.</li>
-<li>Ban đầu dự kiến chủ yếu sử dụng động cơ chạy bằng xăng, 75% đội xe giờ sẽ chuyển sang chạy bằng điện do những thách thức pháp lý, đánh dấu một sự chuyển đổi đáng kể hướng tới tính bền vững.</li>
-<li>Mặc dù có thiết kế không theo truyền thống, những chiếc xe tải này đã được đón nhận tích cực nhờ sự thoải mái và hiệu quả, kết hợp ý kiến từ các nhân viên bưu điện và bao gồm các tính năng như bề mặt chống trượt, túi khí và hệ thống tránh va chạm.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249545">phản ứng</a></h3>
-<ul>
-<li>Thiết kế xe tải thư mới của USPS nhấn mạnh tầm nhìn và an toàn, với mui xe thấp và cản lớn để tăng cường an toàn cho người đi bộ và sự thoải mái cho người lái, đặc biệt là trong các khu vực đô thị.</li>
-<li>Trong khi vẻ ngoài không theo truyền thống của nó đã gây ra tranh luận, chiếc xe tải này được thiết kế để bền bỉ, tương tự như Grumman LLV đã phục vụ lâu dài.</li>
-<li>Bản thiết kế cũng tập trung vào việc cải thiện điều kiện làm việc của nhân viên bưu điện và bao gồm các tùy chọn cho xe điện để đáp ứng nhu cầu giao hàng hiện đại.</li>
-</ul>
-<h2><a href="https://volfpeter.github.io/htmy/">Htmy – Công cụ kết xuất không đồng bộ, thuần Python</a></h2>
-<ul>
-<li>&quot;htmy&quot; là một công cụ kết xuất thuần Python hỗ trợ các thành phần hàm không đồng bộ và đồng bộ, quản lý ngữ cảnh giống như React, và các thẻ HTML tích hợp sẵn, làm cho nó linh hoạt cho nhiều nhu cầu phát triển web khác nhau. Nó cung cấp các tính năng như hỗ trợ Markdown, quốc tế hóa dựa trên JSON, và tích hợp dễ dàng với bất kỳ khung công tác backend hoặc frontend nào, tăng cường khả năng thích ứng và tùy chỉnh của nó. Thư viện này là mã nguồn mở theo giấy phép MIT, khuyến khích sự đóng góp từ cộng đồng, và có thể được cài đặt qua PyPI bằng cách sử dụng <code>pip install htmy</code>.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251919">phản ứng</a></h3>
-<ul>
-<li>Htmy là một công cụ kết xuất HTML không đồng bộ, thuần Python, gây ra tranh luận về tính dài dòng của nó so với Jinja và sự cần thiết của không đồng bộ trong việc kết xuất HTML.</li>
-<li>Cuộc thảo luận nêu bật những lợi ích tiềm năng của async trong việc lấy dữ liệu động trong các thiết kế dựa trên thành phần, mặc dù ý kiến khác nhau về việc liệu nó có làm phức tạp mã hay không.</li>
-<li>Htmy nhằm cung cấp một giải pháp kết xuất linh hoạt, nhưng những lợi thế của nó so với các công cụ đã được thiết lập như Jinja vẫn đang được thảo luận.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Ứng dụng hỏi 'tại sao?' mỗi khi bạn mở khóa điện thoại" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E1%BB%A8ng%20d%E1%BB%A5ng%20h%E1%BB%8Fi%20't%E1%BA%A1i%20sao%3F'%20m%E1%BB%97i%20khi%20b%E1%BA%A1n%20m%E1%BB%9F%20kh%C3%B3a%20%C4%91i%E1%BB%87n%20tho%E1%BA%A1i&subheading=Th%E1%BB%A9%20T%C6%B0%2C%2027%20th%C3%A1ng%2011%2C%202024%3A%20T%C3%B3m%20t%E1%BA%AFt%20tin%20t%E1%BB%A9c%20v%E1%BB%81%20hacker" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/vi/2024/11/27</link>
-            <guid isPermaLink="false">2024-11-27T00:00:00.000Z</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

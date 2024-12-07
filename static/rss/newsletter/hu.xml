@@ -15,12 +15,113 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 06 Dec 2024 19:14:39 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Dec 2024 19:11:53 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/hu.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 06 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[hu]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-12-07]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/12/07&#39;</h2>
+<h1>2024-12-07</h1>
+<h2><a href="https://shilin.ca/my-second-year-without-job/">„A második évem munka nélkül”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42344002">Reakciók</a></h3>
+<h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog">„: A párbeszéd elem”</a></h2>
+<ul>
+<li>„A HTML `` elem párbeszédablakok létrehozására szolgál, amelyek lehetnek modálisak (megszakítva az oldal interakcióját) vagy nem modálisak (lehetővé téve az interakciót).”</li>
+<li>„A JavaScript metódusok, a <code>.showModal()</code> és a <code>.show()</code>, modális és nem modális párbeszédablakok megjelenítésére szolgálnak, míg a <code>.close()</code> a bezárásukra használatos.”</li>
+<li>„A hozzáférhetőség kulcsfontosságú; győződjön meg róla, hogy a fókusz megfelelően van beállítva, és biztosítson egy záró mechanizmust, például egy gombot, miközben a CSS <code>::backdrop</code>-ot használja a modális hátterek stílusozásához.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343089">Reakciók</a></h3>
+<ul>
+<li>„A developer.mozilla.org oldalon található dialógus elem vitát indított az interaktív HTML elemek, például a fájlválasztók és médialejátszók használatáról, különböző véleményekkel azok böngészők közötti következetességéről és kiszámíthatóságáról.”</li>
+<li>„Míg néhány fejlesztő kritizálja a párbeszédelem elemet, mert nincs stílusozva és nem működik úgy, mint a natív felugró ablakok, mások értékelik annak szemantikai és hozzáférhetőségi előnyeit.”</li>
+<li>„A vita rávilágít a tervezési következetesség fenntartásának kihívásaira és a hirdetők általi esetleges visszaélések miatti aggodalmakra, jelezve, hogy a párbeszédelem egy előremutató lépés, de még mindig fejlesztésekre szorul.”</li>
+</ul>
+<h2><a href="https://github.com/orgs/organicmaps/discussions/9837">„A Maps.me társalapítója megpróbálja bezárni az Organic Maps nyílt forráskódú forkját”</a></h2>
+<ul>
+<li>„Az Organic Maps kiadta a „metaszerver” forráskódját, amely optimalizálja a térképletöltési sebességet azáltal, hogy a felhasználókat a helyzetük alapján a legjobb Tartalomkézbesítési Hálózat (CDN) szerverekhez irányítja.”</li>
+<li>„A kód, amelyet kezdetben zárt formában tartottak a jogosulatlan forkok megelőzése érdekében, most már nyitott az MIT licenc alatt, elősegítve az átláthatóságot és a közösségi részvételt.”</li>
+<li>„A csapat újragondolja a Cloudflare Workers használatát, hogy elkerülje a beszállítói függőséget, és visszavonta egy közreműködő által végrehajtott jogosulatlan módosításokat, hangsúlyozva elkötelezettségüket a magánélet és az átláthatóság iránt.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343121">Reakciók</a></h3>
+<ul>
+<li>„Alexander Borsuk, a Maps.me társalapítója megpróbálta lezárni az Organic Maps nyílt forráskódú forkját azáltal, hogy megváltoztatta annak MIT licencét, és naplózást adott hozzá egy privát adattárhoz. Roman Tsisyk, egy másik projekt karbantartó, visszafordította ezeket a változtatásokat, és nyilvánossá tette az adattárat, ami konfliktushoz és az ő jogosultságainak visszavonásához vezetett. Az eset rávilágít a projekt nyílt forráskódú jellegével kapcsolatos belső nézeteltérésekre, ennek ellenére az Organic Maps továbbra is széles körben használt offline térképalkalmazás.”</li>
+</ul>
+<h2><a href="https://github.com/Olshansk/postgres_for_everything">„Hogyan használjuk a Postgres-t mindenre”</a></h2>
+<ul>
+<li>„A „Postgres for Everything” egy olyan gyűjtemény, amely a PostgreSQL, egy népszerű nyílt forráskódú relációs adatbázis, széles körű alkalmazását népszerűsíti a hagyományos adatbázis-feladatokon túl. A gyűjtemény hozzájárulásokat vár, és nyomon követi a PostgreSQL különféle innovatív felhasználási módjait, beleértve a cron feladatokat, üzenetsorokat, elemzéseket és még sok mást, kiemelve annak sokoldalúságát. Az kezdeményezés 11 elemet tartalmaz a Supabase-hez kapcsolódóan, amely egy platform, amely PostgreSQL-t használó háttérszolgáltatásokat nyújt, bemutatva annak integrációját és hasznosságát a modern alkalmazásfejlesztésben.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42347606">Reakciók</a></h3>
+<ul>
+<li>„A vita hangsúlyozza a Postgres sokoldalúságát különböző alkalmazásokban, de rámutat a korlátokra is, mint például a null karakterek kezelése a karakterláncokban és az egyedi SQL szükségessége a skip-index vizsgálatokhoz. - A vélemények eltérnek a Postgres minden célra történő használatáról, egyesek óva intenek a túlzott támaszkodástól egyetlen adatbázisra nagy csapatok esetén, míg mások dicsérik annak egyszerűségét és csökkentett összetettségét. - Alternatívák, mint például a Redis, is említésre kerülnek, valamint a skálázás kihívásai és annak fontossága, hogy elkerüljük a túlzott mérnöki megoldásokat a projekt korai szakaszaiban.”</li>
+</ul>
+<h2><a href="https://www.moment.dev/blog/lies-i-was-told-pt-1">„Hazugságok, amiket a közös szerkesztésről mondtak nekem, 1. rész: Algoritmusok az offline szerkesztéshez”</a></h2>
+<ul>
+<li>„2024 elején a Moment szövegszerkesztőjének kollaboratív szerkesztési rendszereivel kapcsolatos kutatások rávilágítottak az offline szerkesztés kihívásaira, ahol a népszerű algoritmusok, mint a CRDT-k (konfliktusmentes replikált adattípusok) és az OT (operációs transzformáció) gyakran kudarcot vallanak. Az offline szerkesztés növeli a közvetlen konfliktusokat, amelyek 20-30%-a elfogadhatatlan eredményekhez vezet, ami arra utal, hogy a probléma inkább felhasználói felület/felhasználói élmény (UI/UX) kihívás, mint algoritmikus. A kutatók most az offline szerkesztés felhasználói élményének javítására összpontosítanak, párhuzamot vonva azzal, ahogyan a git kezeli a dokumentumok egyesítését, ami ígéretes fejlemény.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343953">Reakciók</a></h3>
+<ul>
+<li>„A cikk a kollaboratív szerkesztés kihívásaival foglalkozik, különösen offline környezetben, és kritikát fogalmaz meg a jelenlegi algoritmusokkal, mint például a konfliktusmentes replikált adatszerkezetek (CRDT-k) és az operációs transzformáció (OT) szemben, amelyek nem mindig eredményeznek szemantikailag értelmes eredményeket. Egyetértés van abban, hogy javítani kell a konfliktusmegoldást, esetleg felhasználói bevitel vagy fejlett eszközök, mint például a nagy nyelvi modellek (LLM-ek) révén, hogy hatékonyan kezeljék a szemantikai konfliktusokat. A vita azt is figyelembe veszi, hogy a felhasználói felület/felhasználói élmény (UI/UX) megoldások milyen szerepet játszanak a kollaboratív szerkesztési élmény javításában, kiemelve, hogy a probléma túlmutat az algoritmusokon, és a felhasználói szándék megértésére is kiterjed.”</li>
+</ul>
+<h2><a href="https://ollama.com/blog/structured-outputs">„Strukturált kimenetek az Ollama-val”</a></h2>
+<ul>
+<li>„Az Ollama bevezette a strukturált kimenetek támogatását, lehetővé téve a modellek számára, hogy egy meghatározott formátumban, JSON séma használatával generáljanak kimeneteket.”</li>
+<li>„Ez a funkció mostantól elérhető a frissített Ollama Python és JavaScript könyvtárakban, hasznos olyan feladatokhoz, mint az adatok elemzése dokumentumokból és képekből.”</li>
+<li>„A felhasználóknak frissíteniük kell a legújabb Ollama verzióra, és a formátum paramétert kell használniuk a cURL kérésekben vagy könyvtárakban, a jövőbeli frissítések pedig teljesítményjavulást és több formátum opciót ígérnek.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42346344">Reakciók</a></h3>
+<ul>
+<li>„Az Ollama egy módszert kínál strukturált adatok, például JSON generálására nyelvi modellekből, és tárgyalja a GBNF nyelvtanok használatát sokoldalúbb kimeneti formátumok, mint például XML vagy SQL esetén. - A felhasználók vitatják a JSON kimenetek megbízhatóságát a természetes nyelvvel szemben, betekintést nyújtva abba, hogyan generálnak szöveget a nyelvi modellek (LLM-ek) és a strukturált utasítások szerepét. - Az Ollama integrációja a llama.cpp-vel megkönnyíti a modellek használatát, bár egyesek csupán egy burkolóként tekintenek rá, és a funkció különböző pontossági szintű modelleket támogat.”</li>
+</ul>
+<h2><a href="https://www.youtube.com/watch?v=0JouTsMQsEA">„A RollerCoaster Tycoon volt az utolsó a maga nemében [videó]”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42346463">Reakciók</a></h3>
+<ul>
+<li>„A RollerCoaster Tycoon, amelyet elsősorban assembly nyelven fejlesztett egy kis csapat, 1999-ben bestsellerré vált, bemutatva egy ritka fejlesztési stílust.”</li>
+<li>„A rajongók az OpenRCT2-t javasolják a kibővített funkciók és kompatibilitás érdekében, valamint a Roller Coaster Tycoon Classic-ot a modern eszközökhöz, míg az olyan alternatívák, mint a Parkitect és a Planet Coaster, változatos élményeket nyújtanak.”</li>
+<li>„A videó bemutatja a játékfejlesztés fejlődését és azokat a kihívásokat, amelyekkel a kis csapatok szembesülnek, amikor nagyobb stúdiókkal versenyeznek, miközben az olyan indie sikerek, mint a Minecraft, szemléltetik a kis csapatok eredményeinek lehetőségét.”</li>
+</ul>
+<h2><a href="https://source.washu.edu/2024/12/research-reveals-how-fructose-in-diet-enhances-tumor-growth/">„A fruktóz az étrendben fokozza a daganatok növekedését: kutatás”</a></h2>
+<ul>
+<li>„A fruktóz fogyasztása jelentősen megnőtt az elmúlt 50 évben, elsősorban az italokban és feldolgozott élelmiszerekben található magas fruktóztartalmú kukoricaszirup miatt.”</li>
+<li>„A St. Louis-i Washington Egyetem kutatása szerint, bár a fruktóz közvetlenül nem táplálja a daganatokat, a máj olyan tápanyagokká alakítja át, amelyek támogatják a daganatok növekedését, például a melanoma, az emlő- és a méhnyakrák esetében.”</li>
+<li>„A tanulmány új rákkezelési lehetőségeket javasol azáltal, hogy olyan módszereket vizsgál, amelyek megakadályozzák a fruktóz tumor növekedését segítő hatását, esetleg étrendi változtatásokkal vagy gyógyszerekkel, részben az Egészségügyi Nemzeti Intézetek (NIH) finanszírozásával.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343544">Reakciók</a></h3>
+<ul>
+<li>„A Washington Egyetem kutatása szerint a magas fruktózfogyasztás elősegítheti a daganatok növekedését azáltal, hogy növeli a keringő lipidek mennyiségét, amelyeket a rákos sejtek a növekedéshez használnak. - Míg a gyümölcsökben található fruktóz általában biztonságos a további tápanyagok miatt, a magas fruktóztartalmú kukoricaszirupból származó túlzott bevitel kockázatos lehet. - A tanulmány kiemeli a rák anyagcseréjének összetettségét és az étrend potenciális hatását a rák előrehaladására, bár további kutatások szükségesek ezen mechanizmusok teljes megértéséhez.”</li>
+</ul>
+<h2><a href="https://github.com/oils-for-unix/oils/wiki/The-Biggest-Shell-Programs-in-the-World">„Legnagyobb shell programok”</a></h2>
+<ul>
+<li>„Az oldal jelentős shell programokat emel ki, a kézzel írt szkriptekre összpontosítva, nem pedig az olyan eszközök által generáltakra, mint az autoconf. - Figyelemre méltó bejegyzések közé tartozik az akinomyoga/ble.sh, egy Bash vonalszerkesztő 61 ezer kódsorral (LoC), és a kalua, egy OpenWRT kiegészítő 56 ezer forráskódsorral (SLoC). - A lista betekintést nyújt a shell szkriptek összetettségébe és sokféleségébe, olyan programokat bemutatva, amelyek adatstruktúrákat és algoritmusokat használnak, jellemzően meghaladva az 5,000 kódsort.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42346274">Reakciók</a></h3>
+<ul>
+<li>„A vita a nagy shell szkriptek használatának összetettségére és kihívásaira összpontosít, mint például az olvashatóság, a hibakezelés és a hordozhatóság problémái.- A felhasználók azt javasolják, hogy fontolják meg alternatívák, mint például a Python vagy az AWK használatát összetett feladatokhoz a jobb karbantarthatóság miatt, míg a ShellCheck-hez hasonló eszközök segíthetnek a shell szkriptek minőségének javításában.- A beszélgetés kiemeli az egyensúlyt a shell szkriptek gyors feladatokhoz való használata és a robusztusabb programozási nyelvek nagyobb projektekhez való választása között.”</li>
+</ul>
+<h2><a href="https://dspy.ai/">„DSPy – Programozás–nem utasításokkal–LM-ek”</a></h2>
+<ul>
+<li>„A DSPy egy keretrendszer, amely moduláris AI rendszerek építésére szolgál kompozíciós Python kód használatával, azzal a céllal, hogy javítsa a nyelvi modellek (LM) kimeneteit anélkül, hogy kizárólag a promptokra támaszkodna. Támogatja több nagy nyelvi modell (LLM) szolgáltatót, mint például az OpenAI, az Anthropic és a Databricks, lehetővé téve a felhasználók számára, hogy az AI viselkedését kódként írják le, megkönnyítve ezzel az iterációt és az optimalizálást. A Stanford NLP-ből származó DSPy erős közösségi jelenléttel rendelkezik a GitHubon és a Discordon, hozzájárulva a nyílt forráskódú AI kutatáshoz, valamint a programarchitektúrák és optimalizálók fejlesztéséhez.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343692">Reakciók</a></h3>
+<ul>
+<li>„A DSPy egy olyan keretrendszer, amely a nyelvi modellek (LM-ek) számára optimalizálja a promptokat azáltal, hogy automatizálja a tanulási adathalmazok kiválasztását, ezáltal javítva a teljesítményt és minimalizálva a kézi beállításokat.”</li>
+<li>„Támogatja a nagy nyelvi modellek (LLM) programjainak végponttól végpontig történő képzését, megakadályozva a kódban az elavult utasítások használatát, és különösen hasznos olyan feladatokhoz, mint az adatkivonás és az összegzés.”</li>
+<li>„Bár néhány felhasználó kihívásnak találja a DSPy összetettségét, értékelik annak strukturált megközelítését és az olyan funkciókat, mint az állítások és javaslatok, amelyek kimeneti korlátokat érvényesítenek.”</li>
+</ul>
+<head>
+  <meta property="og:title" content="„A második évem munka nélkül”" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EA%20m%C3%A1sodik%20%C3%A9vem%20munka%20n%C3%A9lk%C3%BCl%E2%80%9D&subheading=2024.%20december%207.%2C%20szombat%3A%20Hacker%20News%20%C3%96sszefoglal%C3%B3" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/hu/2024/12/07</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000Z</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-12-06]]></title>
             <description
@@ -1041,173 +1142,6 @@
             <link>https://hn.cho.sh/hu/2024/11/28</link>
             <guid isPermaLink="false">2024-11-28T00:00:00.000Z</guid>
             <pubDate>Thu, 28 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-11-27]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/11/27&#39;</h2>
-<h1>2024-11-27</h1>
-<h2><a href="https://play.google.com/store/apps/details?id=com.actureunlock&hl=en_US">„Alkalmazás, amely minden alkalommal megkérdezi: &#39;miért?&#39;, amikor feloldja a telefonját”</a></h2>
-<ul>
-<li>„Az Intenty egy olyan alkalmazás, amely arra ösztönzi a felhasználókat, hogy egészségesebb telefonhasználati szokásokat alakítsanak ki, figyelemfelhívó üzenetekkel, amikor feloldják készülékeiket. Az alkalmazás a magánélet védelmét hangsúlyozza, mivel teljesen helyben működik, reklámok és nyomkövetés nélkül, és az Android engedélyeket kizárólag a funkcionalitás érdekében használja, adatgyűjtés nélkül. Minimalista dizájnjával és okos testreszabhatóságával az Intenty 4,4 csillagos értékeléssel és több mint 10 000 letöltéssel rendelkezik, vonzóvá téve azok számára, akik csökkenteni szeretnék a céltalan telefonhasználatot.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42254156">Reakciók</a></h3>
-<ul>
-<li>„Egy alkalmazás, amely a telefon feloldásakor a felhasználókat a „miért?” kérdéssel szembesíti, figyelmet kelt a Hacker News-on, mivel potenciálisan csökkentheti a figyelemeltereléseket.”</li>
-<li>„A felhasználók hasznosnak találják az alkalmazást, de néha kényelmetlennek a gyors feladatokhoz, ami olyan fejlesztési javaslatokhoz vezetett, mint a feladatok véletlenszerűsítése vagy az alkalmazás-specifikus megkerülések engedélyezése.”</li>
-<li>„A fejlesztő fontolóra veszi a felhasználói visszajelzéseket a frissítésekhez, beleértve az egyszeri vásárlási lehetőséget az előfizetéses modell helyett.”</li>
-</ul>
-<h2><a href="https://www.downtowndougbrown.com/2024/11/the-capacitor-that-apple-soldered-incorrectly-at-the-factory/">„A kondenzátor, amelyet az Apple helytelenül forrasztott be a gyárban”</a></h2>
-<ul>
-<li>„Doug Brown kiemeli az Apple Macintosh LC III gyártási hibáját, ahol egy kondenzátort fordítva szereltek be, ami problémákat okozhat.”</li>
-<li>„A Macintosh LC III, amelyet 1993 és 1994 között gyártottak az oktatási piac számára, nem esett át jelentős visszahíváson ennek a hibának ellenére.”</li>
-<li>„Brown óvatosságot javasol a kondenzátorok cseréjekor, különösen a modern tantál kondenzátorok esetében, és azt ajánlja, hogy azokat helyesen szereljék be, ellentétben a nyomtatott áramköri lap selyemszitás utasításaival.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42253119">Reakciók</a></h3>
-<ul>
-<li>„Az Apple véletlenül fordítva szerelt be egy kondenzátort egy 34 éves számítógépbe, ami rávilágít a kondenzátorok helyes tájolásának fontosságára, különösen az elektrolit kondenzátorok esetében, amelyeknek polaritásuk van, és hibásan beszerelve meghibásodhatnak.”</li>
-<li>„Ez az eset vitákat indított el a termékek élettartamáról és a tervezett elavulásról, egyesek szerint a modern elektronikai eszközöket szándékosan rövidebb élettartamra tervezik, hogy növeljék az eladásokat.”</li>
-<li>„A helyzet emlékeztet más vállalatok, például a Commodore korábbi gyártási hibáira, ami a technológiai iparban visszatérő problémára utal.”</li>
-</ul>
-<h2><a href="https://benhouston3d.com/blog/why-i-left-kubernetes-for-google-cloud-run">„Nem volt szükségem Kubernetesre, és valószínűleg neked sincs rá szükséged”</a></h2>
-<ul>
-<li>„A szerző a Kubernetesről a Google Cloud Run-ra váltott, a Kubernetes bonyolultságát, költségeit és lassú autoskálázását említve hátrányként. - A Google Cloud Run-t egy egyszerűbb, költséghatékony alternatívaként emelik ki, amely csak a tényleges CPU- és memóriahasználatért számít fel díjat, és gyors skálázást kínál a Kubernetes kezelési terhe nélkül. - A szerző a GitHub Actions-t használja a folyamatos integráció/folyamatos telepítés (CI/CD), kezelt adatbázisok és pub-sub üzenetküldés céljából, hangsúlyozva a Cloud Run alkalmasságát olyan projektekhez, amelyek egyszerűséget és hatékonyságot igényelnek a Kubernetes kiterjedt funkcióival szemben.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42252336">Reakciók</a></h3>
-<ul>
-<li>„A cikk kritizálja a Kubernetes-t, amiért túlságosan bonyolult és gyakran felesleges a kisebb projektek számára, javasolva, hogy egyszerűbb megoldások, mint például egyetlen virtuális gép (VM) vagy szerver, hatékonyabbak lehetnek.”</li>
-<li>„Kiemeli a Kubernetes kezelésének kihívásait, beleértve a különféle bővítmények által okozott további összetettséget és azt a hajlamot, hogy egyes mérnökök bonyolítják a rendszereket.”</li>
-<li>„Az általános vélekedés szerint, bár a Kubernetes értékes, nem mindig a legjobb választás a kisebb léptékű műveletekhez, ahol az egyszerűség előnyösebb lehet.”</li>
-</ul>
-<h2><a href="https://krebsonsecurity.com/2024/11/hacker-in-snowflake-extortions-may-be-a-u-s-soldier/">„A Snowflake zsarolásokban részt vevő hacker lehet, hogy egy amerikai katona”</a></h2>
-<ul>
-<li>„Két személyt letartóztattak, mert adatokat loptak el Snowflake-et használó vállalatoktól, míg egy harmadik gyanúsított, akit &quot;Kiberphant0m&quot; néven ismernek, még szökésben van, és úgy vélik, hogy az Egyesült Államok hadseregének katonája Dél-Koreában.”</li>
-<li>„A csoport részt vett lopott adatok értékesítésében és vállalatok zsarolásában, és állítólag az AT&amp;T 370 000 dollárt fizetett azért, hogy a lopott adatokat töröljék.”</li>
-<li>„A kanadai hatóságok letartóztatták Alexander Mouckát, és John Erin Binns Törökországban van börtönben, mindketten a jogsértésekkel kapcsolatban, miközben Kiberphant0m továbbra is aktív a kiberbűnözési fórumokon.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251799">Reakciók</a></h3>
-<ul>
-<li>„A Snowflake zsarolásában részt vevő hacker, akit Kiberphant0m néven azonosítottak, vizsgálat alatt áll, és találgatások merültek fel az esetleges amerikai katonai kapcsolatairól.”</li>
-<li>„A Kiberphant0m tagadja bármilyen katonai kapcsolatát, azt sugallva, hogy ez egy megtévesztő taktika volt, bár az elemzők kételkednek abban, hogy ez hatékony lenne a nyomozók félrevezetésében.”</li>
-<li>„A hacker gondatlan cselekedetei, mint például egy fotó közzététele katonai egyenruhában, rávilágítanak az operatív biztonság fenntartásának és a digitális nyomok elkerülésének nehézségeire.”</li>
-</ul>
-<h2><a href="https://zetaoffice.net/">„ZetaOffice: LibreOffice a böngészőben”</a></h2>
-<ul>
-<li>„A ZetaOffice Web bevezeti a LibreOffice-t a webböngészőkbe, lehetővé téve a hozzáférést bármilyen eszközről, önálló hosztolási lehetőségekkel vagy Tartalomszolgáltató Hálózat (CDN) használatával az adatok ellenőrzéséhez. - A csomag tartalmazza a Writer, Calc és Impress alkalmazásokat szövegszerkesztéshez, táblázatkezeléshez és prezentációkhoz, és elérhető mind weben, mind asztali gépen Linux és Windows rendszeren, biztosítva a dokumentumok kompatibilitását. - A ZetaOffice nyílt forráskódú szoftvert kínál fizetős opciókkal a CDN használatához és támogatáshoz, és integrálódik a meglévő rendszerekhez a LibreOffice UNO API-n keresztül, hatékonyan működve a modern böngészőkben.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249746">Reakciók</a></h3>
-<ul>
-<li>„A ZetaOffice, a LibreOffice böngészőalapú verziója, kritikákkal szembesül a teljesítmény és a használhatóság terén felmerülő problémák miatt, beleértve a hibás bevitel és szövegmegjelenítés kérdéseit.”</li>
-<li>„Folyamatos vita folyik arról, hogy a vászon használata vagy a DOM (Document Object Model) célzása jobb-e a dokumentumelrendezések megjelenítéséhez webalapú irodai csomagokban.”</li>
-<li>„A kihívások ellenére a ZetaOffice célja, hogy következetes, többplatformos élményt nyújtson, és natív asztali alkalmazásként is elérhető.”</li>
-</ul>
-<h2><a href="https://www.techradar.com/pro/security/d-link-says-it-wont-patch-60-000-older-modems-as-theyre-not-worth-saving">„A D-Link azt mondja, hogy nem fogja javítani a 60 ezer régebbi modemet”</a></h2>
-<ul>
-<li>„A D-Link bejelentette, hogy nem fog biztonsági javításokat biztosítani 60 000 régebbi modemhez, amelyek elérték az életciklusuk végét, és arra ösztönzi a felhasználókat, hogy frissítsenek újabb modellekre.”</li>
-<li>„A nem javított biztonsági sebezhetőségek lehetővé tehetik a hackerek számára, hogy átvegyék az irányítást ezek felett az eszközök felett, ami jelentős kockázatot jelent.”</li>
-<li>„A legtöbb érintett modem Tajvanon található, és azoknak a felhasználóknak, akik nem tudják frissíteni, a D-Link azt javasolja, hogy korlátozzák a távoli hozzáférést, és használjanak biztonságos jelszavakat óvintézkedésként.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249790">Reakciók</a></h3>
-<ul>
-<li>„A D-Link úgy döntött, hogy nem javítja ki a sebezhetőségeket 60 000 régebbi modem esetében, ezzel biztonsági kockázatoknak kitéve azokat, ami aggodalmakat vet fel az eszközök biztonságával és a gyártói felelősséggel kapcsolatban.”</li>
-<li>„A bejelentés vitákat indított a hosszú távú támogatás fontosságáról és az olyan nyílt forráskódú megoldások lehetséges előnyeiről, mint az OpenWRT, a készülékek biztonságának fenntartása érdekében.”</li>
-<li>„Vannak javaslatok arra vonatkozóan, hogy jogi előírások kötelezzék a gyártókat biztonsági frissítések biztosítására, vagy a firmware nyilvánosságra hozatalára, amikor az eszközök elérik az életciklusuk végét, ami egy szélesebb iparági problémát emel ki.”</li>
-</ul>
-<h2><a href="https://www.technicianonline.com/news/popular-nc-state-professor-marshall-brain-dies-alleges-retaliation-for-ethics-complaints/article_152e5c80-ac2e-11ef-8b3f-036ac3c8d9bf.html">„Marshall Brain órákkal azután halt meg, hogy megtorlást állított az NC State-nél.”</a></h2>
-<ul>
-<li>„Az NC State professzora, Marshall Brain, a HowStuffWorks.com alapítója, november 20-án holtan találták az irodájában, miután az egyetemi tisztviselők részéről történő megtorlást állított.”</li>
-<li>„Brain azt állította, hogy etikai panaszok miatt kényszerült nyugdíjba, de az egyetem nem kommentálta ezeket a vádakat vagy a halálát.”</li>
-<li>„Volt diákok és kollégák csalódottságukat fejezték ki az egyetem hallgatása miatt, kiemelve a történet folyamatos fejlődését.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251656">Reakciók</a></h3>
-<ul>
-<li>„Marshall Brain, az NC State egykori professzora elhunyt, miután azt állította, hogy az egyetemi adminisztrátorok megtorlást alkalmaztak vele szemben etikai panaszai miatt.”</li>
-<li>„Az ő esete rávilágít az idealizmus és a valóság közötti feszültségre, bemutatva a hatalmon lévők elszámoltatásának lehetséges veszélyeit.”</li>
-<li>„Az eset vitákat indít az intézményeken belüli jelentési rendszerek hatékonyságáról és a szélesebb körű hatalmi dinamikáról az akadémiai intézményekben.”</li>
-</ul>
-<h2><a href="https://ianthehenry.com/posts/janet-for-mortals/">„Janet a halandóknak (2023)”</a></h2>
-<ul>
-<li>„A szerző kiadott egy ingyenes online könyvet &quot;Janet for Mortals&quot; címmel, amely a Janet programozási nyelvre összpontosít, és amelynek megírása 20 hetet vett igénybe. A könyv 44 000 szót tartalmaz, és egy weboldal kíséri, amely egy REPL-t (Read-Eval-Print Loop) kínál az interaktív tanuláshoz. A könyv és a kapcsolódó projektek, mint például a C++ könyvtári kötései és egy tesztelési keretrendszer, pozitív figyelmet kaptak olyan platformokon, mint a Hacker News.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42253241">Reakciók</a></h3>
-<ul>
-<li>„A „Janet for Mortals” egy könyv, amely interaktív REPL-t (Read-Eval-Print Loop) kínál, amely az escape billentyűn keresztül érhető el, lehetővé téve a felhasználók számára, hogy közvetlenül a böngészőjükben kísérletezzenek a Janet programozási nyelvvel telepítés nélkül.”</li>
-<li>„Janet-et elismerik a beágyazás és a domain-specifikus nyelvek (DSL-ek) létrehozásának egyszerűsége miatt, bár néhány felhasználó megjegyzi, hogy a dokumentációja javításra szorulhat.”</li>
-<li>„A könyv lebilincselő stílusa és a nyelv egyedi jellemzői érdeklődést és pozitív visszajelzéseket váltottak ki, annak ellenére, hogy némi vita alakult ki a könyv címe körül.”</li>
-</ul>
-<h2><a href="https://www.jeffgeerling.com/blog/2024/raspberry-pi-cm5-2-3x-faster-drop-upgrade-mostly">„A Raspberry Pi CM5 egy gyorsabb, cserélhető frissítés”</a></h2>
-<ul>
-<li>„A Raspberry Pi Compute Module 5 (CM5) jelentős frissítést jelent a CM4-hez képest, 2-3-szor gyorsabb teljesítményt, USB 3-at és PCIe Gen 3 kompatibilitást kínál, miközben megőrzi azonos formátumát.”</li>
-<li>„A CM5 ára hasonló a CM4-hez, a 8GB-os modell 75 dollárról indul, és gyorsabb CPU-t, RAM-ot, valamint jobb grafikát tartalmaz, bár teljes kapacitáson több energiát fogyaszt.”</li>
-<li>„Egy frissített IO tábla is megjelent 20 dollárért, amely USB-C táplálást és egyéb fejlesztéseket tartalmaz, kiemelve a CM5 támogatását és modularitását, annak ellenére, hogy versenyez más egykártyás számítógépekkel (SBC-kel).”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42254379">Reakciók</a></h3>
-<ul>
-<li>„A Raspberry Pi CM5 jelentős teljesítménynövekedést kínál a CM4-hez képest, 2-3-szoros sebességgel, és tartalmaz egy USB 3 frissítést.”</li>
-<li>„Míg a 8 GB-os verzió megtartja az árát, más verziók drágábbak, és néhány felhasználó megjegyzi, hogy más táblák jobb specifikációkkal rendelkezhetnek.”</li>
-<li>„A hardverfejlesztések ellenére a CM5 nem rendelkezik hardveres kódolási támogatással, de képes dekódolni a H.265-öt, és a Raspberry Pi erős közössége és támogatása továbbra is kulcsfontosságú előny marad.”</li>
-</ul>
-<h2><a href="https://arstechnica.com/tech-policy/2024/11/isps-say-their-excellent-customer-service-is-why-users-dont-switch-providers/">„Az internetszolgáltatók szerint a „kiváló ügyfélszolgálatuk” az oka annak, hogy a felhasználók nem váltanak szolgáltatót”</a></h2>
-<ul>
-<li>„Az internetszolgáltatók lobbicsoportjai azzal érvelnek, hogy a verseny biztosítja a magas ügyfélszolgálati színvonalat, így további szabályozásokra nincs szükség, mivel a gyenge szolgáltatás arra késztetné az ügyfeleket, hogy szolgáltatót váltsanak.”</li>
-<li>„A kaliforniai és oregoni szabályozók széleskörű ügyfél-elégedetlenségről számolnak be, kiemelve olyan problémákat, mint a hosszú várakozási idők és a számlázási problémák, amelyek ellentmondanak az internetszolgáltatók állításainak.”</li>
-<li>„Az FCC felülvizsgálja az ügyfélszolgálati gyakorlatokat, de Brendan Carr vezetésével, akit Trump megválasztott elnök nevezett ki, új szabályozások bevezetése valószínűtlen, mivel a hangsúly a szabályozási terhek csökkentésére helyeződik át.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251564">Reakciók</a></h3>
-<ul>
-<li>„Az internetszolgáltatók az ügyfelek megtartását a „kiváló ügyfélszolgálatuknak” tulajdonítják, de sokan úgy vélik, hogy ez bizonyos területeken a verseny hiányának köszönhető.”</li>
-<li>„Azokban a régiókban, ahol korlátozottak az internetszolgáltató (ISP) lehetőségek, a felhasználók gyakran maradnak jelenlegi szolgáltatójuknál, annak ellenére, hogy elégedetlenek a szolgáltatás minőségével.”</li>
-<li>„Az olyan országokban, mint Ausztrália és Kanada, a piac szabályozására és a verseny fokozására tett erőfeszítések folyamatos kihívásokkal szembesülnek, miközben a felhasználók valódi versenyt és jobb szabályozást követelnek.”</li>
-</ul>
-<h2><a href="https://news.ycombinator.com/item?id=42256093">„Ajánlás egy szoftvermérnök számára, aki szeretne naprakész lenni a mesterséges intelligencia legújabb fejleményeivel kapcsolatban”</a></h2>
-<ul>
-<li>„A felhasználó aktívan keres megbízható forrásokat a legújabb mesterséges intelligencia (AI) frissítésekről, különösen olyan tech blogokon keresztül, mint a Hacker News (HN).”</li>
-<li>„Tapasztalattal rendelkeznek a ChatGPT és az OpenAI API használatában, különösen a 3.5-ös verzióban, ami gyakorlati érdeklődést jelez az AI eszközök iránt.”</li>
-<li>„A felhasználó rátalált Simon Willison blogjára, de úgy érzi, hogy hiányzik belőle az összhang, és javasolja, hogy szükség lenne strukturáltabb és átfogóbb AI információforrásokra.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42256093">Reakciók</a></h3>
-<ul>
-<li>„A szoftvermérnökök fejleszthetik mesterséges intelligencia készségeiket Kaggle versenyeken való részvétellel, amelyek gyakorlati, kézzelfogható tanulási élményeket kínálnak.”</li>
-<li>„A tech blogok, hírlevelek és YouTube csatornák, mint például Simon Willison&#39;s, AI Supremacy és 3Blue1Brown követése alapvető és aktuális AI ismereteket nyújthat.”</li>
-<li>„Az AI közösségekkel való kapcsolattartás olyan platformokon, mint a Reddit és a Twitter, valamint az oktatási források, például könyvek és online kurzusok felfedezése az MIT xPRO-tól, mélyítheti a megértést és naprakészen tarthatja a mérnököket a legújabb AI trendekkel kapcsolatban.”</li>
-</ul>
-<h2><a href="https://www.washingtonpost.com/technology/2024/11/26/openai-sora-ai-video-model-artists-protest/">„Az OpenAI szünetelteti a Sora videómodellt, miután művészek kiszivárogtatták a hozzáférést tiltakozásul”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42252806">Reakciók</a></h3>
-<ul>
-<li>„Az OpenAI szüneteltette a Sora nevű videómodelljét, miután művészek kiszivárogtatták a hozzáférést tiltakozásként a fizetetlen részvétel miatt, annak ellenére, hogy nem ígértek kompenzációt. - A tiltakozás aggodalmakat vet fel azzal kapcsolatban, hogy az AI esetlegesen helyettesítheti a művészeket, és rávilágít az AI fejlesztésével kapcsolatos fizetetlen munka etikai kérdéseire. - Egyesek a tiltakozást stratégiai erőfeszítésként tekintik, hogy felhívják a figyelmet ezekre a szélesebb körű iparági problémákra.”</li>
-</ul>
-<h2><a href="https://www.nytimes.com/2024/11/26/us/usps-new-mail-trucks.html">„Igen, &#39;úgy néz ki, mint egy kacsa&#39;, de a fuvarozók, mint az új USPS postai teherautó”</a></h2>
-<ul>
-<li>„Az Egyesült Államok Postai Szolgálata új elektromos postai teherautókat vezet be egy 9,6 milliárd dolláros modernizációs terv részeként, amelyek olyan funkciókat kínálnak, mint a légkondicionálás, megnövelt rakodótér és fokozott biztonság.”</li>
-<li>„Eredetileg nagyrészt gázüzeműnek szánták, de a flotta 75%-a most már elektromos lesz a jogi kihívások miatt, ami jelentős elmozdulást jelent a fenntarthatóság felé.”</li>
-<li>„Annak ellenére, hogy a teherautók formatervezése szokatlan, pozitív fogadtatásban részesültek a kényelem és hatékonyság terén, mivel figyelembe vették a postai kézbesítők visszajelzéseit, és olyan funkciókat tartalmaznak, mint a csúszásmentes felületek, légzsákok és ütközéselkerülő rendszer.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249545">Reakciók</a></h3>
-<ul>
-<li>„Az új USPS postai teherautó dizájnja a láthatóságot és a biztonságot helyezi előtérbe, alacsony motorháztetővel és nagy lökhárítókkal, amelyek javítják a gyalogosok biztonságát és a vezető kényelmét, különösen városi környezetben.”</li>
-<li>„Bár szokatlan megjelenése vitát váltott ki, a teherautót a tartósságra tervezték, hasonlóan a hosszú szolgálatot teljesítő Grumman LLV-hez.”</li>
-<li>„A tervezés arra is összpontosít, hogy javítsa a postai dolgozók munkakörülményeit, és tartalmazza az elektromos járművek lehetőségeit a modern kézbesítési igények kielégítésére.”</li>
-</ul>
-<h2><a href="https://volfpeter.github.io/htmy/">„Htmy – Aszinkron, tisztán Python alapú renderelő motor”</a></h2>
-<ul>
-<li>„A „htmy” egy tisztán Python alapú renderelő motor, amely támogatja az aszinkron és szinkron funkció komponenseket, a React-szerű kontextuskezelést és a beépített HTML címkéket, így sokoldalúvá téve különféle webfejlesztési igényekhez. Olyan funkciókat kínál, mint a Markdown támogatás, a JSON-alapú nemzetköziesítés, és könnyű integráció bármilyen backend vagy frontend keretrendszerrel, növelve alkalmazkodóképességét és testreszabhatóságát. A könyvtár nyílt forráskódú az MIT licenc alatt, ösztönözve a közösségi hozzájárulásokat, és telepíthető a PyPI-n keresztül a <code>pip install htmy</code> parancs használatával.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251919">Reakciók</a></h3>
-<ul>
-<li>„A Htmy egy aszinkron, tisztán Python alapú HTML renderelő motor, amely vitát vált ki a Jinjához képest tapasztalható bőbeszédűségéről és az aszinkron HTML renderelés szükségességéről.”</li>
-<li>„A vita kiemeli az aszinkron adatlekérés lehetséges előnyeit a komponens alapú tervezésben, bár a vélemények eltérnek arról, hogy ez bonyolítja-e a kódot.”</li>
-<li>„A Htmy célja, hogy rugalmas megjelenítési megoldást nyújtson, de az előnyei a már bevált eszközökkel, mint például a Jinja, szemben még mindig vita tárgyát képezik.”</li>
-</ul>
-<head>
-  <meta property="og:title" content="„Alkalmazás, amely minden alkalommal megkérdezi: 'miért?', amikor feloldja a telefonját”" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EAlkalmaz%C3%A1s%2C%20amely%20minden%20alkalommal%20megk%C3%A9rdezi%3A%20'mi%C3%A9rt%3F'%2C%20amikor%20feloldja%20a%20telefonj%C3%A1t%E2%80%9D&subheading=2024.%20november%2027.%2C%20szerda%3A%20Hacker%20News%20%C3%96sszefoglal%C3%B3" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/hu/2024/11/27</link>
-            <guid isPermaLink="false">2024-11-27T00:00:00.000Z</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

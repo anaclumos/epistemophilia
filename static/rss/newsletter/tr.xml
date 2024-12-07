@@ -15,12 +15,113 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 06 Dec 2024 19:14:39 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Dec 2024 19:11:53 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/tr.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 06 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[tr]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-12-07]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/12/07&#39;</h2>
+<h1>2024-12-07</h1>
+<h2><a href="https://shilin.ca/my-second-year-without-job/">İşsiz geçen ikinci yılım</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42344002">Tepkiler</a></h3>
+<h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog">Dialog Öğesi</a></h2>
+<ul>
+<li>HTML `` elementi, etkileşimi duraklatan modal veya etkileşime izin veren non-modal diyalog kutuları oluşturmak için kullanılır.</li>
+<li>JavaScript yöntemleri <code>.showModal()</code> ve <code>.show()</code>, sırasıyla modal ve modal olmayan diyalogları görüntülemek için kullanılırken, <code>.close()</code> bunları kapatmak için kullanılır.</li>
+<li>Erişilebilirlik çok önemlidir; odak noktasının doğru ayarlandığından emin olun ve modal arka planları stilize etmek için CSS <code>::backdrop</code> kullanırken bir düğme gibi bir kapatma mekanizması sağlayın.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343089">Tepkiler</a></h3>
+<ul>
+<li>developer.mozilla.org üzerindeki dialog öğesi, dosya seçiciler ve medya oynatıcılar gibi etkileşimli HTML öğelerinin kullanımı hakkında, tarayıcılar arasında tutarlılık ve öngörülebilirlik konularında farklı görüşlerle bir tartışma başlattı.</li>
+<li>Bazı geliştiriciler, dialog öğesini stilize edilmemiş ve yerel açılır pencereler gibi çalışmadığı için eleştirirken, diğerleri onun anlamsal ve erişilebilirlik avantajlarını değerli buluyor.</li>
+<li>Bu tartışma, tasarım tutarlılığını koruma zorluklarını ve reklamverenler tarafından potansiyel kötüye kullanım endişelerini vurgulamakta, diyalog unsurunun ilerici bir adım olduğunu ancak hala geliştirmelere ihtiyaç duyduğunu göstermektedir.</li>
+</ul>
+<h2><a href="https://github.com/orgs/organicmaps/discussions/9837">Maps.me kurucu ortağı, Organic Maps açık kaynak çatallanmasını kapatmaya çalışıyor</a></h2>
+<ul>
+<li>Organic Maps, kullanıcıları konumlarına göre en iyi İçerik Dağıtım Ağı (CDN) sunucularına yönlendirerek harita indirme hızlarını optimize eden &quot;metaserver&quot; kaynak kodunu yayınladı.</li>
+<li>Kod, başlangıçta yetkisiz çatallamaları önlemek için kapalıydı, şimdi MIT lisansı altında açık hale getirildi ve bu da şeffaflığı ve topluluk katılımını teşvik ediyor.</li>
+<li>Takım, satıcıya bağımlılığı önlemek için Cloudflare Workers kullanımını yeniden değerlendiriyor ve bir katkıda bulunan tarafından yapılan izinsiz değişiklikleri geri aldı, gizlilik ve şeffaflığa olan bağlılıklarını vurguluyor.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343121">Tepkiler</a></h3>
+<ul>
+<li>Alexander Borsuk, Maps.me&#39;nin kurucu ortağı, MIT lisansını değiştirerek ve özel bir depoya günlük kaydı ekleyerek Organic Maps&#39;in açık kaynak çatallanmasını kapatmaya çalıştı. - Başka bir proje sorumlusu olan Roman Tsisyk, bu değişiklikleri geri aldı ve depoyu herkese açık hale getirdi, bu da bir çatışmaya ve izinlerinin iptaline yol açtı. - Olay, projenin açık kaynak doğası hakkındaki iç anlaşmazlıkları vurguluyor, ancak Organic Maps, yaygın olarak kullanılan bir çevrimdışı harita uygulaması olmaya devam ediyor.</li>
+</ul>
+<h2><a href="https://github.com/Olshansk/postgres_for_everything">Her şey için Postgres nasıl kullanılır</a></h2>
+<ul>
+<li>Her Şey İçin Postgres&quot;, popüler bir açık kaynaklı ilişkisel veritabanı olan PostgreSQL&#39;in, geleneksel veritabanı görevlerinin ötesinde geniş bir uygulama yelpazesi için kullanımını teşvik eden bir depodur. - Depo, katkıları davet eder ve PostgreSQL&#39;in çok yönlülüğünü vurgulayan cron işleri, mesaj kuyrukları, analizler ve daha fazlası dahil olmak üzere çeşitli yenilikçi kullanımlarını izler. - Girişim, PostgreSQL kullanarak arka uç hizmetleri sağlayan bir platform olan Supabase ile ilgili 11 öğeyi içerir ve modern uygulama geliştirmedeki entegrasyonunu ve faydasını sergiler.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42347606">Tepkiler</a></h3>
+<ul>
+<li>Metin, Postgres&#39;in çeşitli uygulamalardaki çok yönlülüğünü vurgularken, dizelerdeki null karakterleri işleme ve atlama-indeks taramaları için özel SQL gerektirme gibi sınırlamaları da belirtmektedir. Postgres&#39;in her amaç için kullanılmasına dair görüşler farklılık göstermekte, bazıları büyük ekipler için tek bir veritabanına aşırı güvenilmemesi konusunda uyarırken, diğerleri basitliği ve azalan karmaşıklığı övmektedir. Redis gibi alternatiflerden bahsedilmekte, ölçeklendirme zorlukları ve bir projenin erken aşamalarında aşırı mühendislikten kaçınmanın önemi vurgulanmaktadır.</li>
+</ul>
+<h2><a href="https://www.moment.dev/blog/lies-i-was-told-pt-1">Yalanlar: Ortak Düzenleme Hakkında Bana Söylenenler, Bölüm 1: Çevrimdışı Düzenleme için Algoritmalar</a></h2>
+<ul>
+<li>2024&#39;ün başlarında, Moment&#39;in metin düzenleyicisi için işbirlikçi düzenleme sistemleri üzerine yapılan araştırmalar, CRDT&#39;ler (Çatışmasız Çoğaltılmış Veri Türleri) ve OT (Operasyonel Dönüşüm) gibi popüler algoritmaların genellikle başarısız olduğu çevrimdışı düzenleme ile ilgili zorlukları vurguladı. Çevrimdışı düzenleme, doğrudan çatışmaları artırır ve bu çatışmaların %20-30&#39;u kabul edilemez sonuçlara yol açar, bu da sorunun algoritmikten ziyade bir kullanıcı arayüzü/kullanıcı deneyimi (UI/UX) zorluğu olduğunu düşündürmektedir. Araştırmacılar şimdi, belgelerin birleştirilmesini ele alan git&#39;e benzer şekilde, çevrimdışı düzenlemede kullanıcı deneyimini iyileştirmeye odaklanıyorlar, bu da umut verici bir gelişme.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343953">Tepkiler</a></h3>
+<ul>
+<li>Makale, özellikle çevrimdışı durumda, işbirlikçi düzenlemenin zorluklarını ele alıyor ve Çatışmasız Çoğaltılmış Veri Türleri (CRDT&#39;ler) ve Operasyonel Dönüşüm (OT) gibi mevcut algoritmaları, her zaman anlamsal olarak anlamlı sonuçlar vermedikleri için eleştiriyor. Anlamsal çatışmaları etkili bir şekilde ele almak için kullanıcı girdisi veya Büyük Dil Modelleri (LLM&#39;ler) gibi gelişmiş araçlar aracılığıyla iyileştirilmiş çatışma çözümüne ihtiyaç duyulduğu konusunda bir fikir birliği var. Tartışma ayrıca, kullanıcı niyetini anlamanın algoritmaların ötesine geçtiğini vurgulayarak, Kullanıcı Arayüzü/Kullanıcı Deneyimi (UI/UX) çözümlerinin işbirlikçi düzenleme deneyimini geliştirmedeki rolünü de değerlendiriyor.</li>
+</ul>
+<h2><a href="https://ollama.com/blog/structured-outputs">Yapılandırılmış Çıktılar ile Ollama</a></h2>
+<ul>
+<li>Ollama, modellerin JSON şeması kullanarak belirli bir formatta çıktılar üretmesini sağlayan yapılandırılmış çıktılar için destek sunmuştur.</li>
+<li>Bu özellik artık belgelerden ve görüntülerden veri ayrıştırma gibi görevler için yararlı olan güncellenmiş Ollama Python ve JavaScript kütüphanelerinde mevcuttur.</li>
+<li>Kullanıcılar, en son Ollama sürümüne güncellemeli ve cURL isteklerinde veya kütüphanelerinde format parametresini kullanmalıdır, gelecekteki güncellemeler performans iyileştirmeleri ve daha fazla format seçeneği vaat etmektedir.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42346344">Tepkiler</a></h3>
+<ul>
+<li>Ollama, dil modellerinden JSON gibi yapılandırılmış veriler oluşturmak için bir yöntem sunar ve XML veya SQL gibi daha esnek çıktı formatları için GBNF gramerlerinin kullanımını tartışır. Kullanıcılar, JSON çıktılarının güvenilirliğini doğal dil ile karşılaştırarak, dil modellerinin (LLM&#39;ler) metin oluşturma süreci ve yapılandırılmış istemlerin rolü hakkında içgörüler sunar. Ollama&#39;nın llama.cpp ile entegrasyonu, model kullanımını basitleştirdiği için dikkat çeker, ancak bazıları bunu sadece bir sarmalayıcı olarak görür ve bu özellik, farklı doğruluk seviyelerine sahip çeşitli modelleri destekler.</li>
+</ul>
+<h2><a href="https://www.youtube.com/watch?v=0JouTsMQsEA">RollerCoaster Tycoon kendi türünün son örneğiydi [video]</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42346463">Tepkiler</a></h3>
+<ul>
+<li>RollerCoaster Tycoon, küçük bir ekip tarafından öncelikle assembly dilinde geliştirilen, nadir bir geliştirme tarzını sergileyerek 1999 yılında en çok satanlar arasına girdi.</li>
+<li>Hayranlar, gelişmiş özellikler ve uyumluluk için OpenRCT2&#39;yi ve modern cihazlar için Roller Coaster Tycoon Classic&#39;i önerirken, Parkitect ve Planet Coaster gibi alternatifler çeşitli deneyimler sunar.</li>
+<li>Video, oyun geliştirmesinin evrimini ve küçük ekiplerin daha büyük stüdyolarla rekabet ederken karşılaştıkları zorlukları vurguluyor; Minecraft gibi bağımsız başarılar, küçük ekiplerin başarı potansiyelini gösteriyor.</li>
+</ul>
+<h2><a href="https://source.washu.edu/2024/12/research-reveals-how-fructose-in-diet-enhances-tumor-growth/">Beslenmedeki fruktoz, tümör büyümesini artırıyor: araştırma</a></h2>
+<ul>
+<li>Fruktoz tüketimi, son 50 yılda, öncelikle içecekler ve işlenmiş gıdalardaki yüksek fruktozlu mısır şurubu nedeniyle önemli ölçüde artmıştır.</li>
+<li>St. Louis&#39;deki Washington Üniversitesi&#39;nden yapılan araştırma, fruktozun doğrudan tümörleri beslemediğini, ancak karaciğerin fruktozu melanom, meme ve serviks kanseri gibi kanserlerde tümör büyümesini destekleyen besinlere dönüştürdüğünü göstermektedir.</li>
+<li>Çalışma, tümör büyümesine yardımcı olan fruktozun önlenmesi için yöntemler araştırarak, olası yeni kanser tedavilerini önermektedir. Bu yöntemler, diyet değişiklikleri veya ilaçlar yoluyla olabilir ve kısmen Ulusal Sağlık Enstitüleri (NIH) tarafından finanse edilmektedir.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343544">Tepkiler</a></h3>
+<ul>
+<li>Washington Üniversitesi&#39;nden yapılan araştırmalar, yüksek fruktoz tüketiminin dolaşımdaki lipidleri artırarak tümör büyümesini teşvik edebileceğini, bu lipidlerin kanser hücreleri tarafından büyüme için kullanıldığını göstermektedir. Meyvelerdeki fruktoz genellikle ek besinler nedeniyle güvenli olsa da, yüksek fruktozlu mısır şurubu gibi kaynaklardan aşırı alım riskli olabilir. Çalışma, kanser metabolizmasının karmaşıklığını ve diyetin kanser ilerlemesi üzerindeki potansiyel etkisini vurgulamakta, ancak bu mekanizmaları tam olarak anlamak için daha fazla araştırmaya ihtiyaç duyulmaktadır.</li>
+</ul>
+<h2><a href="https://github.com/oils-for-unix/oils/wiki/The-Biggest-Shell-Programs-in-the-World">En büyük kabuk programları</a></h2>
+<ul>
+<li>Sayfa, önemli shell programlarını vurgulamakta ve autoconf gibi araçlar tarafından üretilenlerden ziyade elle yazılmış önemli betiklere odaklanmaktadır.- Dikkate değer girişler arasında 61K kod satırına (LoC) sahip bir Bash Satır Düzenleyici olan akinomyoga/ble.sh ve 56K kaynak kod satırına (SLoC) sahip bir OpenWRT eklentisi olan kalua bulunmaktadır.- Liste, genellikle 5.000 kod satırını aşan veri yapıları ve algoritmalar kullanan programları içeren shell betiklerinin karmaşıklığı ve çeşitliliği hakkında içgörüler sunmaktadır.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42346274">Tepkiler</a></h3>
+<ul>
+<li>Bu tartışma, büyük kabuk betiklerinin kullanımıyla ilgili karmaşıklıklar ve zorluklar üzerinde yoğunlaşıyor; okunabilirlik, hata yönetimi ve taşınabilirlik gibi sorunlar ele alınıyor.- Kullanıcılar, daha iyi sürdürülebilirlik nedeniyle karmaşık görevler için Python veya AWK gibi alternatifleri düşünmeyi öneriyor, ShellCheck gibi araçlar ise kabuk betiklerinin kalitesini artırmaya yardımcı olabilir.- Konuşma, hızlı görevler için kabuk betiklerini kullanma ile daha büyük projeler için daha sağlam programlama dillerini tercih etme arasındaki dengeyi vurguluyor.</li>
+</ul>
+<h2><a href="https://dspy.ai/">DSPy – Programlama–yönlendirme değil–LM&#39;ler</a></h2>
+<ul>
+<li>DSPy, modüler yapay zeka sistemleri oluşturmak için kompozisyonel Python kodu kullanan bir çerçevedir ve dil modeli (LM) çıktılarının iyileştirilmesine odaklanır, yalnızca istemlere dayanmaz.- OpenAI, Anthropic ve Databricks gibi birden fazla büyük dil modeli (LLM) sağlayıcısını destekler, kullanıcıların yapay zeka davranışını kod olarak tanımlamasına olanak tanır, bu da daha kolay yineleme ve optimizasyon sağlar.- Stanford NLP&#39;den kaynaklanan DSPy, GitHub ve Discord&#39;da güçlü bir topluluk varlığına sahiptir, açık kaynak yapay zeka araştırmalarına katkıda bulunur ve program mimarilerini ve optimizasyon araçlarını geliştirir.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343692">Tepkiler</a></h3>
+<ul>
+<li>DSPy, dil modelleri (LM&#39;ler) için istemleri optimize etmek amacıyla tasarlanmış bir çerçevedir ve bu, eğitim veri alt kümelerinin seçimini otomatikleştirerek performansı artırır ve manuel ayarlamaları en aza indirir.</li>
+<li>Büyük dil modeli (LLM) programlarının uçtan uca eğitimini destekler, kodda eski istemlerin kullanılmasını önler ve özellikle veri çıkarma ve özetleme gibi görevler için kullanışlıdır.</li>
+<li>Bazı kullanıcılar DSPy&#39;nin karmaşıklığını zorlayıcı bulsa da, yapılandırılmış yaklaşımı ve çıktı kısıtlamalarını zorlayan doğrulamalar ve öneriler gibi özellikleri nedeniyle değer verilmektedir.</li>
+</ul>
+<head>
+  <meta property="og:title" content="İşsiz geçen ikinci yılım" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%C4%B0%C5%9Fsiz%20ge%C3%A7en%20ikinci%20y%C4%B1l%C4%B1m&subheading=7%20Aral%C4%B1k%202024%20Cumartesi%3A%20Hacker%20Haber%20%C3%96zeti" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/tr/2024/12/07</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000Z</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-12-06]]></title>
             <description
@@ -1041,173 +1142,6 @@
             <link>https://hn.cho.sh/tr/2024/11/28</link>
             <guid isPermaLink="false">2024-11-28T00:00:00.000Z</guid>
             <pubDate>Thu, 28 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-11-27]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/11/27&#39;</h2>
-<h1>2024-11-27</h1>
-<h2><a href="https://play.google.com/store/apps/details?id=com.actureunlock&hl=en_US">Telefonunuzu her kilidini açtığınızda &#39;neden?&#39; diye soran uygulama</a></h2>
-<ul>
-<li>Intenty, kullanıcıları cihazlarının kilidini açarken farkındalık uyarıları aracılığıyla daha sağlıklı telefon alışkanlıkları geliştirmeye teşvik eden bir uygulamadır.- Uygulama, tamamen yerel olarak çalışarak, reklam veya izleme olmadan gizliliği vurgular ve Android izinlerini yalnızca işlevsellik için kullanır, veri toplamaz.- Minimalist tasarımı ve akıllı özelleştirmesi ile Intenty, 4.4 yıldız derecelendirmesine ve 10.000&#39;den fazla indirmeye sahiptir, amaçsız telefon kullanımını azaltmayı hedefleyen kullanıcılara hitap eder.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42254156">Tepkiler</a></h3>
-<ul>
-<li>Telefonun kilidini açtıklarında kullanıcılara &quot;neden?&quot; diye soran bir uygulama, dikkat dağıtıcı unsurları azaltma potansiyeli nedeniyle Hacker News&#39;te ilgi görüyor.</li>
-<li>Kullanıcılar uygulamayı faydalı buluyor ancak bazen hızlı görevler için elverişsiz buluyor, bu da rastgele komutlar veya uygulamaya özel atlamalar gibi iyileştirme önerilerine yol açıyor.</li>
-<li>Yazılımcı, abonelik modeli yerine tek seferlik satın alma seçeneği de dahil olmak üzere güncellemeler için kullanıcı geri bildirimlerini değerlendiriyor.</li>
-</ul>
-<h2><a href="https://www.downtowndougbrown.com/2024/11/the-capacitor-that-apple-soldered-incorrectly-at-the-factory/">Apple&#39;ın fabrikada yanlış lehimlediği kapasitör</a></h2>
-<ul>
-<li>Doug Brown, Apple&#39;ın Macintosh LC III modelinde bir üretim hatasına dikkat çekiyor; burada bir kondansatör ters takılmış ve bu durum potansiyel sorunlara yol açabilir.</li>
-<li>1993 ve 1994 yılları arasında eğitim pazarı için üretilen Macintosh LC III, bu hata nedeniyle büyük bir geri çağırma yaşamadı.</li>
-<li>Brown, özellikle modern tantalum kapasitörlerle değiştirirken dikkatli olunmasını tavsiye eder ve PCB&#39;nin serigrafi talimatlarının aksine, bunların doğru bir şekilde monte edilmesini önerir.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42253119">Tepkiler</a></h3>
-<ul>
-<li>Apple, 34 yıllık bir bilgisayara yanlışlıkla ters bir şekilde bir kapasitör takarak, özellikle polariteye sahip olan ve yanlış takıldığında arızalanabilen elektrolitik kapasitörler için doğru kapasitör yönlendirmesinin önemini vurguladı.</li>
-<li>Bu olay, ürün ömrü ve planlı eskitme hakkında tartışmaları ateşledi; bazıları, modern elektroniklerin satışları artırmak için kasıtlı olarak daha kısa ömürlü olacak şekilde tasarlandığını öne sürüyor.</li>
-<li>Durum, Commodore gibi diğer şirketlerin geçmişteki üretim hatalarını anımsatıyor ve bu da teknoloji endüstrisinde tekrarlayan bir soruna işaret ediyor.</li>
-</ul>
-<h2><a href="https://benhouston3d.com/blog/why-i-left-kubernetes-for-google-cloud-run">Benim Kubernetes&#39;e İhtiyacım Yoktu, Muhtemelen Sizin de Yok</a></h2>
-<ul>
-<li>Yazar, Kubernetes&#39;in karmaşıklığı, maliyeti ve yavaş otomatik ölçeklendirme gibi dezavantajlarını belirterek Kubernetes&#39;ten Google Cloud Run&#39;a geçti. Google Cloud Run, yalnızca gerçek CPU ve bellek kullanımı için ücret alarak daha basit ve maliyet etkin bir alternatif olarak vurgulanıyor ve Kubernetes&#39;in yönetim yükü olmadan hızlı ölçeklendirme sunuyor. Yazar, sürekli entegrasyon/sürekli dağıtım (CI/CD) için GitHub Actions, yönetilen veritabanları ve pub-sub mesajlaşma kullanıyor ve Cloud Run&#39;ın, Kubernetes&#39;in kapsamlı özelliklerinden ziyade sadelik ve verimlilik gerektiren projeler için uygunluğunu vurguluyor.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42252336">Tepkiler</a></h3>
-<ul>
-<li>Makale, Kubernetes&#39;i aşırı karmaşık ve genellikle daha küçük projeler için gereksiz buluyor, bunun yerine tek bir sanal makine (VM) veya sunucu gibi daha basit çözümlerin daha verimli olabileceğini öneriyor.</li>
-<li>Kubernetes yönetiminin zorluklarını, çeşitli eklentilerden kaynaklanan ek karmaşıklık ve bazı mühendislerin sistemleri karmaşıklaştırma eğilimi dahil olmak üzere vurgulamaktadır.</li>
-<li>Konsensüs, Kubernetes&#39;in değerli olduğu, ancak daha küçük ölçekli operasyonlar için her zaman en iyi seçim olmadığı, basitliğin daha faydalı olabileceği yönündedir.</li>
-</ul>
-<h2><a href="https://krebsonsecurity.com/2024/11/hacker-in-snowflake-extortions-may-be-a-u-s-soldier/">Hacker, Snowflake şantajlarında bir ABD askeri olabilir</a></h2>
-<ul>
-<li>İki kişi, Snowflake kullanan şirketlerden veri hırsızlığı nedeniyle tutuklanırken, &quot;Kiberphant0m&quot; olarak bilinen üçüncü bir şüpheli hala firarda ve Güney Kore&#39;de görev yapan bir ABD askeri olduğuna inanılıyor.</li>
-<li>Grup, çalınan verileri satma ve şirketleri tehdit etme faaliyetlerinde bulunmuş olup, AT&amp;T&#39;nin çalınan kayıtların silinmesi için 370.000 dolar ödediği bildirilmektedir.</li>
-<li>Kanadalı yetkililer Alexander Moucka&#39;yı tutukladı ve John Erin Binns Türkiye&#39;de hapsedildi, her ikisi de ihlallerle bağlantılı, bu arada Kiberphant0m siber suç forumlarında aktif kalmaya devam ediyor.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251799">Tepkiler</a></h3>
-<ul>
-<li>Snowflake&#39;i gasp etmeye karışan ve Kiberphant0m olarak tanımlanan bir hacker, ABD ordusuyla olası bağlantıları hakkında spekülasyonlarla soruşturma altında.</li>
-<li>Kiberphant0m, herhangi bir askeri bağlantıyı reddederek bunun aldatıcı bir taktik olduğunu öne sürüyor, ancak analistler bunun araştırmacıları yanıltmada etkili olacağı konusunda şüpheci.</li>
-<li>Hackerın dikkatsiz eylemleri, örneğin askeri kamuflaj giysileriyle fotoğraf paylaşması, operasyonel güvenliği sürdürmenin ve dijital izlerden kaçınmanın zorluklarını vurguluyor.</li>
-</ul>
-<h2><a href="https://zetaoffice.net/">ZetaOffice: Tarayıcıda LibreOffice</a></h2>
-<ul>
-<li>ZetaOffice Web, LibreOffice&#39;u web tarayıcılarına tanıtarak, herhangi bir cihazdan erişim imkanı sunar ve veri kontrolü için kendi barındırma veya İçerik Dağıtım Ağı (CDN) kullanma seçenekleri sunar.- Paket, kelime işlem, elektronik tablolar ve sunumlar için Writer, Calc ve Impress&#39;i içerir ve Linux ve Windows&#39;ta hem web hem de masaüstü için kullanılabilir, belge uyumluluğunu sağlar.- ZetaOffice, CDN kullanımı ve destek için ücretli seçeneklerle açık kaynaklı yazılım sunar ve modern tarayıcılarda verimli bir şekilde çalışarak LibreOffice UNO API aracılığıyla mevcut sistemlerle entegre olur.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249746">Tepkiler</a></h3>
-<ul>
-<li>ZetaOffice, LibreOffice&#39;in tarayıcı tabanlı bir versiyonu, bozuk giriş ve metin işleme gibi performans ve kullanılabilirlik sorunları nedeniyle eleştirilerle karşı karşıya.</li>
-<li>Web tabanlı ofis paketlerinde belge düzenlerini oluşturmak için bir tuval kullanmanın mı yoksa DOM&#39;u (Belge Nesne Modeli) hedeflemenin mi daha iyi olduğu konusunda devam eden bir tartışma var.</li>
-<li>Zorluklara rağmen, ZetaOffice tutarlı bir çapraz platform deneyimi sunmayı hedefliyor ve aynı zamanda yerel bir masaüstü uygulaması olarak da mevcut.</li>
-</ul>
-<h2><a href="https://www.techradar.com/pro/security/d-link-says-it-wont-patch-60-000-older-modems-as-theyre-not-worth-saving">D-Link, 60 bin eski modemi yamalamayacağını söylüyor</a></h2>
-<ul>
-<li>D-Link, kullanım ömrünü tamamlamış olan 60.000 eski modem için güvenlik yamaları sağlamayacağını duyurdu ve kullanıcıları daha yeni modellere geçmeye çağırdı.</li>
-<li>Yamanmamış güvenlik açıkları, bilgisayar korsanlarının bu cihazların kontrolünü ele geçirmesine olanak tanıyabilir ve bu da önemli bir risk oluşturur.</li>
-<li>Etki altındaki modemlerin çoğu Tayvan&#39;da bulunmaktadır ve yükseltme yapamayan kullanıcılar için D-Link, önlem olarak uzaktan erişimi kısıtlamayı ve güvenli şifreler kullanmayı önermektedir.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249790">Tepkiler</a></h3>
-<ul>
-<li>D-Link, 60.000 eski modemdeki güvenlik açıklarını yamalamamaya karar verdi ve bu durum, cihaz güvenliği ve üretici sorumluluğu hakkında endişeleri artırıyor.</li>
-<li>Bu duyuru, cihaz güvenliğini sürdürmek için uzun vadeli desteğin önemi ve OpenWRT gibi açık kaynaklı çözümlerin potansiyel faydaları üzerine tartışmaları ateşledi.</li>
-<li>Üreticilerin, cihazlar kullanım ömrünün sonuna ulaştığında güvenlik güncellemeleri sağlamalarını veya ürün yazılımını kamuya açıklamalarını gerektiren yasal zorunluluklar için öneriler var ve bu durum daha geniş bir endüstri sorununu vurguluyor.</li>
-</ul>
-<h2><a href="https://www.technicianonline.com/news/popular-nc-state-professor-marshall-brain-dies-alleges-retaliation-for-ethics-complaints/article_152e5c80-ac2e-11ef-8b3f-036ac3c8d9bf.html">Marshall Brain, NC State&#39;te misilleme iddiasında bulunduktan saatler sonra hayatını kaybetti.</a></h2>
-<ul>
-<li>NC State profesörü ve HowStuffWorks.com&#39;un kurucusu Marshall Brain, üniversite yetkililerinden misilleme gördüğünü iddia ettikten sonra 20 Kasım&#39;da ofisinde ölü bulundu.</li>
-<li>Brain, etik şikayetler sonrasında emekli olmaya zorlandığını iddia etti, ancak üniversite bu iddialar veya ölümü hakkında yorum yapmadı.</li>
-<li>Eski öğrenciler ve meslektaşlar, üniversitenin sessizliği karşısında hayal kırıklıklarını dile getirerek, bu gelişen hikayenin devam eden doğasını vurguladılar.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251656">Tepkiler</a></h3>
-<ul>
-<li>NC State&#39;de eski bir profesör olan Marshall Brain, etik şikayetleri nedeniyle üniversite yöneticilerinden misilleme gördüğünü iddia ettikten sonra hayatını kaybetti.</li>
-<li>Onun davası, iktidardakileri sorumlu tutmanın potansiyel tehlikelerini göstererek idealizm ve gerçeklik arasındaki gerilimi vurguluyor.</li>
-<li>Bu olay, akademik kurumlar içindeki iç raporlama sistemlerinin etkinliği ve daha geniş güç dinamikleri üzerine tartışmaları tetikliyor.</li>
-</ul>
-<h2><a href="https://ianthehenry.com/posts/janet-for-mortals/">Ölümlüler İçin Janet (2023)</a></h2>
-<ul>
-<li>Yazar, Janet programlama diline odaklanan &quot;Janet for Mortals&quot; adlı ücretsiz bir çevrimiçi kitap yayınladı ve bu kitabın yazılması 20 hafta sürdü.- Kitap 44.000 kelime içeriyor ve etkileşimli öğrenme için bir REPL (Read-Eval-Print Loop) içeren bir web sitesi ile birlikte sunuluyor.- Kitap ve C++ kütüphane bağlamaları ile bir test çerçevesi gibi ilgili projeler, Hacker News gibi platformlarda olumlu ilgi gördü.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42253241">Tepkiler</a></h3>
-<ul>
-<li>Ölümlüler için Janet&quot;, kullanıcıların Janet programlama diliyle doğrudan tarayıcılarında kurulum yapmadan deney yapmalarını sağlayan, escape tuşu aracılığıyla erişilebilen etkileşimli bir REPL (Oku-Değerlendir-Yaz Döngüsü) sunan bir kitaptır.</li>
-<li>Janet, gömülü sistemlere ve Alan-Specifik Diller (DSL&#39;ler) oluşturmaya olan kolaylığı ile tanınır, ancak bazı kullanıcılar belgelerinin geliştirilebileceğini belirtmektedir.</li>
-<li>Kitabın ilgi çekici tarzı ve dilin benzersiz özellikleri, kitabın başlığı üzerindeki bazı tartışmalara rağmen ilgi ve olumlu geri bildirimler oluşturmuştur.</li>
-</ul>
-<h2><a href="https://www.jeffgeerling.com/blog/2024/raspberry-pi-cm5-2-3x-faster-drop-upgrade-mostly">Raspberry Pi CM5, daha hızlı, yerine takılabilir bir yükseltmedir.</a></h2>
-<ul>
-<li>Raspberry Pi Compute Module 5 (CM5), CM4&#39;ten önemli bir yükseltme sunarak 2-3 kat daha hızlı performans, USB 3 ve PCIe Gen 3 uyumluluğu sağlarken aynı form faktörünü koruyor.</li>
-<li>CM5, 8GB modeli 75 dolardan başlayan fiyatlarla CM4 ile benzer şekilde fiyatlandırılmıştır ve daha hızlı bir CPU, RAM ve geliştirilmiş grafikler içerir, ancak tam kapasitede daha fazla güç kullanır.</li>
-<li>Güncellenmiş bir IO kartı da 20 dolara piyasaya sürüldü, USB-C güç ve diğer iyileştirmeler sunarak, CM5&#39;in desteğini ve modülerliğini diğer tek kart bilgisayarlar (SBC&#39;ler) ile rekabete rağmen vurguluyor.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42254379">Tepkiler</a></h3>
-<ul>
-<li>Raspberry Pi CM5, CM4&#39;e göre önemli bir performans artışı sunar, 2-3 kat daha hızlıdır ve USB 3 yükseltmesi içerir.</li>
-<li>8GB versiyonu fiyatını korurken, diğer versiyonlar daha pahalıdır ve bazı kullanıcılar diğer kartların daha iyi özelliklere sahip olabileceğini belirtmektedir.</li>
-<li>Donanım iyileştirmelerine rağmen, CM5 donanım kodlama desteğinden yoksundur ancak H.265&#39;i çözebilir ve Raspberry Pi&#39;nin güçlü topluluğu ve desteği önemli avantajlar olmaya devam etmektedir.</li>
-</ul>
-<h2><a href="https://arstechnica.com/tech-policy/2024/11/isps-say-their-excellent-customer-service-is-why-users-dont-switch-providers/">İSS&#39;ler, kullanıcıların sağlayıcı değiştirmemesinin nedeninin &#39;mükemmel müşteri hizmetleri&#39; olduğunu söylüyor</a></h2>
-<ul>
-<li>İSS lobi grupları, rekabetin yüksek müşteri hizmetleri standartlarını sağladığını ve kötü hizmetin müşterileri sağlayıcı değiştirmeye yönlendireceği için ek düzenlemelerin gereksiz olduğunu savunuyor.</li>
-<li>Kaliforniya ve Oregon&#39;daki düzenleyiciler, uzun bekleme süreleri ve faturalama sorunları gibi konuları vurgulayarak, ISP iddialarının aksine yaygın müşteri memnuniyetsizliğini bildiriyor.</li>
-<li>FCC, müşteri hizmetleri uygulamalarını gözden geçiriyor, ancak Başkan seçilen Trump tarafından atanan Brendan Carr&#39;ın liderliğiyle, yeni düzenlemeler olası görünmüyor, çünkü odak noktası düzenleyici yüklerin azaltılmasına kayıyor.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251564">Tepkiler</a></h3>
-<ul>
-<li>İSS&#39;ler müşteri sadakatini &#39;mükemmel müşteri hizmetlerine&#39; bağlasa da, birçok kişi bunun belirli bölgelerdeki rekabet eksikliğinden kaynaklandığına inanıyor.</li>
-<li>Bölgesel olarak sınırlı internet servis sağlayıcı seçeneklerine sahip yerlerde, kullanıcılar genellikle hizmet kalitesinden memnuniyetsizlik duymalarına rağmen mevcut sağlayıcılarıyla kalmaya devam ederler.</li>
-<li>Avustralya ve Kanada gibi ülkelerde piyasayı düzenleme ve rekabeti artırma çabaları, kullanıcıların gerçek rekabet ve iyileştirilmiş düzenleme çağrılarıyla devam eden zorluklarla karşı karşıya kalıyor.</li>
-</ul>
-<h2><a href="https://news.ycombinator.com/item?id=42256093">AI ile ilgili en son gelişmeleri öğrenmek isteyen bir Yazılım Mühendisi için öneri</a></h2>
-<ul>
-<li>Kullanıcı, özellikle Hacker News (HN) gibi teknoloji blogları aracılığıyla, Yapay Zeka (AI) alanındaki en son güncellemeler için güvenilir kaynaklar arıyor.</li>
-<li>ChatGPT ve OpenAI API&#39;sini, özellikle 3.5 sürümünü kullanma deneyimine sahipler, bu da yapay zeka araçlarına pratik bir ilgi gösterdiklerini belirtir.</li>
-<li>Kullanıcı, Simon Willison&#39;un blogunu buldu ancak bunun bütünlükten yoksun olduğunu düşünüyor ve daha yapılandırılmış ve kapsamlı yapay zeka bilgi kaynaklarına ihtiyaç olduğunu öne sürüyor.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42256093">Tepkiler</a></h3>
-<ul>
-<li>Yazılım mühendisleri, pratik ve uygulamalı öğrenme deneyimleri sunan Kaggle yarışmalarına katılarak yapay zeka becerilerini geliştirebilirler.</li>
-<li>Simon Willison, AI Supremacy ve 3Blue1Brown gibi teknoloji blogları, bültenler ve YouTube kanalları aracılığıyla bilgi sahibi olmak, temel ve güncel yapay zeka bilgisi sağlayabilir.</li>
-<li>Reddit ve Twitter gibi platformlarda yapay zeka topluluklarıyla etkileşimde bulunmak, MIT xPRO&#39;dan kitaplar ve çevrimiçi kurslar gibi eğitim kaynaklarını keşfetmek, mühendislerin anlayışını derinleştirebilir ve en son yapay zeka trendleri hakkında güncel kalmalarını sağlayabilir.</li>
-</ul>
-<h2><a href="https://www.washingtonpost.com/technology/2024/11/26/openai-sora-ai-video-model-artists-protest/">OpenAI, sanatçıların protesto amacıyla erişimi sızdırmasının ardından Sora adlı video modelini duraklattı.</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42252806">Tepkiler</a></h3>
-<ul>
-<li>OpenAI, sanatçıların ödenmemiş katılımları nedeniyle erişimi sızdırarak protesto etmelerinin ardından video modeli Sora&#39;yı duraklattı, ancak tazminat sözü verilmemişti.- Protesto, AI&#39;nin potansiyel olarak sanatçıların yerini alabileceği endişelerini artırıyor ve AI geliştirmede ödenmemiş iş gücüyle ilgili etik sorunları vurguluyor.- Bazıları protestoyu, sektördeki bu daha geniş sorunlara dikkat çekmek için stratejik bir çaba olarak görüyor.</li>
-</ul>
-<h2><a href="https://www.nytimes.com/2024/11/26/us/usps-new-mail-trucks.html">Evet, &#39;ördek gibi görünüyor&#39;, ancak yeni USPS posta kamyonu gibi taşıyıcılar</a></h2>
-<ul>
-<li>ABD Posta Servisi, 9,6 milyar dolarlık modernizasyon planının bir parçası olarak, klima, artırılmış kargo alanı ve geliştirilmiş güvenlik gibi özellikler sunan yeni elektrikli posta kamyonlarını tanıtıyor.</li>
-<li>Başlangıçta çoğunlukla gazla çalışması planlanan filonun %75&#39;i, yasal zorluklar nedeniyle artık elektrikli olacak ve bu, sürdürülebilirliğe doğru önemli bir değişimi işaret ediyor.</li>
-<li>Alışılmadık tasarımlarına rağmen, kamyonlar konfor ve verimlilik açısından olumlu karşılandı, posta taşıyıcılarından gelen geri bildirimleri içeren ve kaymaz yüzeyler, hava yastıkları ve çarpışma önleme sistemi gibi özellikleri içeren bir tasarıma sahip.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249545">Tepkiler</a></h3>
-<ul>
-<li>Yeni USPS posta kamyonu tasarımı, görünürlük ve güvenliği vurguluyor; yaya güvenliğini ve sürücü konforunu artırmak için alçak bir kaput ve büyük tamponlar içeriyor, özellikle kentsel ortamlarda.</li>
-<li>Alışılmadık görünümü tartışmalara yol açsa da, kamyon uzun süre hizmet veren Grumman LLV&#39;ye benzer şekilde dayanıklılık için tasarlanmıştır.</li>
-<li>Bu tasarım, posta çalışanlarının koşullarını iyileştirmeye odaklanmakta ve modern teslimat taleplerini karşılamak için elektrikli araç seçeneklerini içermektedir.</li>
-</ul>
-<h2><a href="https://volfpeter.github.io/htmy/">HTMY – Asenkron, saf-Python işleme motoru</a></h2>
-<ul>
-<li>htmy&quot;, çeşitli web geliştirme ihtiyaçları için çok yönlü hale getiren, asenkron ve senkron işlev bileşenlerini, React benzeri bağlam yönetimini ve yerleşik HTML etiketlerini destekleyen saf bir Python işleme motorudur.- Markdown desteği, JSON tabanlı uluslararasılaştırma ve herhangi bir arka uç veya ön uç çerçevesiyle kolay entegrasyon gibi özellikler sunarak uyarlanabilirliğini ve özelleştirilebilirliğini artırır.- Kütüphane, MIT lisansı altında açık kaynaklıdır, topluluk katkılarını teşvik eder ve <code>pip install htmy</code> kullanılarak PyPI üzerinden kurulabilir.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251919">Tepkiler</a></h3>
-<ul>
-<li>Htmy, Jinja ile karşılaştırıldığında çok sözcüklülüğü ve HTML renderlemede async gerekliliği üzerine tartışma yaratan, asenkron, saf-Python bir HTML renderleme motorudur.</li>
-<li>Bu tartışma, bileşen tabanlı tasarımlarda dinamik veri çekme için async&#39;in potansiyel faydalarını vurguluyor, ancak kodu karmaşıklaştırıp karmaşıklaştırmadığı konusunda görüşler farklılık gösteriyor.</li>
-<li>Htmy, esnek bir işleme çözümü sunmayı amaçlamaktadır, ancak Jinja gibi yerleşik araçlara göre avantajları hala tartışılmaktadır.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Telefonunuzu her kilidini açtığınızda 'neden?' diye soran uygulama" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Telefonunuzu%20her%20kilidini%20a%C3%A7t%C4%B1%C4%9F%C4%B1n%C4%B1zda%20'neden%3F'%20diye%20soran%20uygulama&subheading=27%20Kas%C4%B1m%202024%20%C3%87ar%C5%9Famba%3A%20Hacker%20Haber%20%C3%96zeti" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/tr/2024/11/27</link>
-            <guid isPermaLink="false">2024-11-27T00:00:00.000Z</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

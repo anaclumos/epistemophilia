@@ -15,12 +15,113 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 06 Dec 2024 19:14:39 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Dec 2024 19:11:53 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/fi.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 06 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[fi]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-12-07]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/12/07&#39;</h2>
+<h1>2024-12-07</h1>
+<h2><a href="https://shilin.ca/my-second-year-without-job/">Toinen vuoteni ilman työtä</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42344002">Reaktiot</a></h3>
+<h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog">Dialogi-elementti</a></h2>
+<ul>
+<li>HTML:n ``-elementtiä käytetään luomaan valintaikkunoita, jotka voivat olla modaalisia (keskeyttävät sivun vuorovaikutuksen) tai ei-modaalisia (sallivat vuorovaikutuksen).</li>
+<li>JavaScript-metodit <code>.showModal()</code> ja <code>.show()</code> käytetään näyttämään modaalisia ja ei-modaalisia dialogeja, vastaavasti, kun taas <code>.close()</code> käytetään niiden sulkemiseen.</li>
+<li>Saavutettavuus on tärkeää; varmista, että fokus asetetaan oikein ja tarjoa sulkumekanismi, kuten painike, käyttäessäsi CSS <code>::backdrop</code>-valitsinta modaalien taustojen tyylittelyyn.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343089">Reaktiot</a></h3>
+<ul>
+<li>Dialog-elementti developer.mozilla.org-sivustolla on käynnistänyt keskustelun interaktiivisten HTML-elementtien, kuten tiedostonvalitsimien ja mediasoittimien, käytöstä, ja mielipiteet niiden johdonmukaisuudesta ja ennakoitavuudesta eri selaimissa vaihtelevat.</li>
+<li>Vaikka jotkut kehittäjät kritisoivat dialogielementtiä sen tyylittömyydestä ja siitä, ettei se toimi kuten alkuperäiset ponnahdusikkunat, toiset arvostavat sen semanttisia ja saavutettavuuteen liittyviä etuja.</li>
+<li>Keskustelu tuo esiin haasteita suunnittelun johdonmukaisuuden ylläpitämisessä ja huolenaiheita mainostajien mahdollisesta väärinkäytöstä, mikä osoittaa, että dialogielementti on edistyksellinen askel, mutta vaatii edelleen parannuksia.</li>
+</ul>
+<h2><a href="https://github.com/orgs/organicmaps/discussions/9837">Maps.me:n perustaja yrittää sulkea Organic Maps -avoin lähdekoodi haaran</a></h2>
+<ul>
+<li>Organic Maps on julkaissut lähdekoodin &quot;metaserverilleen&quot;, joka optimoi karttojen latausnopeuksia ohjaamalla käyttäjät sijaintinsa perusteella parhaisiin sisällönjakeluverkon (CDN) palvelimiin.</li>
+<li>Koodi, joka alun perin suljettiin luvattomien haarojen estämiseksi, on nyt avoin MIT-lisenssin alaisuudessa, edistäen läpinäkyvyyttä ja yhteisön osallistumista.</li>
+<li>Tiimi harkitsee uudelleen Cloudflare Workersin käyttöä estääkseen toimittajalukon ja on peruuttanut tekijän tekemät luvattomat muutokset, korostaen sitoutumistaan yksityisyyteen ja läpinäkyvyyteen.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343121">Reaktiot</a></h3>
+<ul>
+<li>Alexander Borsuk, Maps.me:n toinen perustaja, yritti sulkea Organic Mapsin avoimen lähdekoodin haaran muuttamalla sen MIT-lisenssiä ja lisäämällä lokitusta yksityiseen arkistoon. - Roman Tsisyk, toinen projektin ylläpitäjä, kumosi nämä muutokset ja teki arkistosta julkisen, mikä johti konfliktiin ja hänen oikeuksiensa peruuttamiseen. - Tapaus korostaa sisäisiä erimielisyyksiä projektin avoimen lähdekoodin luonteesta, mutta Organic Maps on edelleen laajalti käytetty offline-karttasovellus.</li>
+</ul>
+<h2><a href="https://github.com/Olshansk/postgres_for_everything">Kuinka käyttää Postgresia kaikkeen</a></h2>
+<ul>
+<li>Postgres for Everything&quot; on arkisto, joka edistää PostgreSQL:n, suositun avoimen lähdekoodin relaatiotietokannan, käyttöä laajassa valikoimassa sovelluksia perinteisten tietokantatehtävien ulkopuolella. Arkisto kutsuu osallistumaan ja seuraa erilaisia innovatiivisia PostgreSQL:n käyttötapoja, mukaan lukien ajastetut tehtävät, viestijonot, analytiikka ja paljon muuta, korostaen sen monipuolisuutta. Aloite sisältää 11 Supabaseen liittyvää kohdetta, joka on alusta, joka tarjoaa taustapalveluita PostgreSQL:n avulla, esitellen sen integrointia ja hyödyllisyyttä modernissa sovelluskehityksessä.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42347606">Reaktiot</a></h3>
+<ul>
+<li>Keskustelu korostaa Postgresin monipuolisuutta eri sovelluksissa, mutta tuo esiin myös rajoituksia, kuten null-merkkien käsittelyn merkkijonoissa ja mukautetun SQL:n tarpeen ohitusindeksin skannauksissa. Mielipiteet vaihtelevat Postgresin käytöstä kaikkiin tarkoituksiin, ja jotkut varoittavat liiallisesta riippuvuudesta yhdestä tietokannasta suurille tiimeille, kun taas toiset ylistävät sen yksinkertaisuutta ja vähäisempää monimutkaisuutta. Vaihtoehtoja, kuten Redis, mainitaan, samoin kuin haasteita skaalautuvuudessa ja tärkeyttä välttää liiallista suunnittelua projektin alkuvaiheissa.</li>
+</ul>
+<h2><a href="https://www.moment.dev/blog/lies-i-was-told-pt-1">Valheita, joita minulle kerrottiin yhteistyömuokkauksesta, Osa 1: Algoritmit offline-muokkaukseen</a></h2>
+<ul>
+<li>Vuoden 2024 alussa Momentin tekstieditorin yhteistoiminnallisten muokkausjärjestelmien tutkimus toi esiin haasteita offline-muokkauksessa, jossa suositut algoritmit kuten CRDT:t (Conflict-free Replicated Data Types) ja OT (Operational Transformation) usein epäonnistuvat. Offline-muokkaus lisää suoria ristiriitoja, joista 20-30 % johtaa epätyydyttäviin lopputuloksiin, mikä viittaa siihen, että ongelma on enemmän käyttöliittymä/käyttäjäkokemus (UI/UX) -haaste kuin algoritminen. Tutkijat keskittyvät nyt parantamaan offline-muokkauksen käyttäjäkokemusta, vetäen yhtäläisyyksiä siihen, miten git käsittelee dokumenttien yhdistämistä, mikä on lupaava kehitysaskel.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343953">Reaktiot</a></h3>
+<ul>
+<li>Artikkeli käsittelee yhteismuokkauksen haasteita, erityisesti offline-tilassa, ja kritisoi nykyisiä algoritmeja, kuten konfliktivapaita replikoituja tietotyyppejä (CRDT) ja operatiivista muunnosta (OT), koska ne eivät aina tuota semanttisesti merkityksellisiä tuloksia. On yksimielisyys siitä, että konfliktien ratkaisemista on parannettava, mahdollisesti käyttäjän syötteen tai kehittyneiden työkalujen, kuten suurten kielimallien (LLM), avulla, jotta semanttiset konfliktit voidaan käsitellä tehokkaasti. Keskustelussa tarkastellaan myös käyttöliittymä/käyttäjäkokemus (UI/UX) -ratkaisujen roolia yhteismuokkauksen kokemuksen parantamisessa, korostaen, että ongelma ulottuu algoritmien ulkopuolelle käyttäjän aikomusten ymmärtämiseen.</li>
+</ul>
+<h2><a href="https://ollama.com/blog/structured-outputs">Strukturoidut tulosteet Ollaman kanssa</a></h2>
+<ul>
+<li>Ollama on ottanut käyttöön tuen rakenteellisille tulosteille, mikä mahdollistaa mallien tuottaa tulosteita tietyssä muodossa käyttämällä JSON-skeemaa.</li>
+<li>Tämä ominaisuus on nyt saatavilla päivitettyissä Ollama Python- ja JavaScript-kirjastoissa, ja se on hyödyllinen tehtävissä, kuten tietojen jäsentämisessä asiakirjoista ja kuvista.</li>
+<li>Käyttäjien tulisi päivittää uusimpaan Ollama-versioon ja käyttää muotoiluparametria cURL-pyynnöissä tai kirjastoissa, sillä tulevat päivitykset lupaavat suorituskyvyn parannuksia ja lisää muotoiluvaihtoehtoja.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42346344">Reaktiot</a></h3>
+<ul>
+<li>Ollama tarjoaa menetelmän tuottaa jäsenneltyä dataa, kuten JSONia, kielimalleista, ja keskusteluja käydään GBNF-kielioppien käytöstä monipuolisempien tulostusmuotojen, kuten XML:n tai SQL:n, saavuttamiseksi. Käyttäjät keskustelevat JSON-tulosteiden luotettavuudesta verrattuna luonnolliseen kieleen, tarjoten näkemyksiä siitä, miten kielimallit (LLM:t) tuottavat tekstiä ja jäsenneltyjen kehotteiden roolista. Ollaman integraatio llama.cpp:n kanssa mainitaan mallien käytön yksinkertaistamiseksi, vaikka jotkut pitävät sitä pelkkänä kääreenä, ja ominaisuus tukee erilaisia malleja, joilla on vaihtelevat tarkkuustasot.</li>
+</ul>
+<h2><a href="https://www.youtube.com/watch?v=0JouTsMQsEA">RollerCoaster Tycoon oli viimeinen laatuaan [video]</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42346463">Reaktiot</a></h3>
+<ul>
+<li>RollerCoaster Tycoon, jonka pieni tiimi kehitti pääasiassa assembly-kielellä, nousi bestselleriksi vuonna 1999, esitellen harvinaista kehitystyyliä.</li>
+<li>Fanien suositukset sisältävät OpenRCT2:n parannettujen ominaisuuksien ja yhteensopivuuden vuoksi sekä Roller Coaster Tycoon Classicin nykyaikaisille laitteille, kun taas vaihtoehdot kuten Parkitect ja Planet Coaster tarjoavat erilaisia kokemuksia.</li>
+<li>Video korostaa pelinkehityksen kehitystä ja haasteita, joita pienet tiimit kohtaavat kilpaillessaan suurempien studioiden kanssa, ja indie-menestykset, kuten Minecraft, osoittavat pienten tiimien saavutusten potentiaalin.</li>
+</ul>
+<h2><a href="https://source.washu.edu/2024/12/research-reveals-how-fructose-in-diet-enhances-tumor-growth/">Fruktoosi ruokavaliossa edistää kasvaimen kasvua: tutkimus</a></h2>
+<ul>
+<li>Fruktoosin kulutus on kasvanut merkittävästi viimeisten 50 vuoden aikana, pääasiassa juomien ja prosessoitujen elintarvikkeiden sisältämän runsasfruktoosisen maissisiirapin vuoksi.</li>
+<li>Washingtonin yliopiston (St. Louis) tutkimus osoittaa, että vaikka fruktoosi ei suoraan ruoki kasvaimia, maksa muuntaa sen ravintoaineiksi, jotka tukevat kasvainten kasvua syövissä, kuten melanoomassa, rinta- ja kohdunkaulansyövässä.</li>
+<li>Tutkimus ehdottaa mahdollisia uusia syöpähoitoja tutkimalla menetelmiä, joilla estetään fruktoosin avustaminen kasvaimen kasvussa, mahdollisesti ruokavalion muutosten tai lääkkeiden avulla, osittain Yhdysvaltain terveysviraston (NIH) rahoittamana.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343544">Reaktiot</a></h3>
+<ul>
+<li>Tutkimus Washingtonin yliopistosta osoittaa, että runsas fruktoosin kulutus saattaa edistää kasvainten kasvua lisäämällä verenkierron lipidejä, joita syöpäsolut käyttävät kasvuunsa. Vaikka hedelmien fruktoosi on yleensä turvallista lisäravinteiden ansiosta, liiallinen saanti lähteistä kuten korkea fruktoosipitoisuus maissisiirapista voi olla riskialtista. Tutkimus korostaa syövän aineenvaihdunnan monimutkaisuutta ja ruokavalion mahdollista vaikutusta syövän etenemiseen, vaikka lisätutkimuksia tarvitaan näiden mekanismien täydelliseen ymmärtämiseen.</li>
+</ul>
+<h2><a href="https://github.com/oils-for-unix/oils/wiki/The-Biggest-Shell-Programs-in-the-World">Suurimmat shell-ohjelmat</a></h2>
+<ul>
+<li>Sivu korostaa merkittäviä shell-ohjelmia, keskittyen merkittäviin käsin kirjoitettuihin skripteihin pikemminkin kuin työkalujen, kuten autoconf, luomiin. - Huomionarvoisia merkintöjä ovat muun muassa akinomyoga/ble.sh, Bash Line Editor, jossa on 61 000 koodiriviä (LoC), ja kalua, OpenWRT-lisäosa, jossa on 56 000 lähdekoodiriviä (SLoC). - Lista tarjoaa näkemyksiä shell-skriptauksen monimutkaisuudesta ja monimuotoisuudesta, esittäen ohjelmia, jotka hyödyntävät tietorakenteita ja algoritmeja, ja jotka tyypillisesti ylittävät 5 000 koodiriviä.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42346274">Reaktiot</a></h3>
+<ul>
+<li>Keskustelu keskittyy suurten shell-skriptien käytön monimutkaisuuteen ja haasteisiin, kuten luettavuuteen, virheenkäsittelyyn ja siirrettävyyteen liittyviin ongelmiin. Käyttäjät ehdottavat vaihtoehtojen, kuten Pythonin tai AWK:n, harkitsemista monimutkaisiin tehtäviin paremman ylläpidettävyyden vuoksi, kun taas työkalut kuten ShellCheck voivat auttaa parantamaan shell-skriptien laatua. Keskustelussa korostetaan tasapainoa shell-skriptien käytön välillä nopeisiin tehtäviin ja vankempien ohjelmointikielten valitsemisen välillä suurempiin projekteihin.</li>
+</ul>
+<h2><a href="https://dspy.ai/">DSPy – Ohjelmointi–ei kehotteita–LM:ille</a></h2>
+<ul>
+<li>DSPy on kehys, joka on suunniteltu modulaaristen tekoälyjärjestelmien rakentamiseen käyttämällä kompositionaalista Python-koodia, keskittyen parantamaan kielimallien (LM) tuloksia ilman, että luotetaan pelkästään kehotteisiin. Se tukee useita suuria kielimallien (LLM) tarjoajia, kuten OpenAI, Anthropic ja Databricks, mikä mahdollistaa käyttäjille tekoälykäyttäytymisen kuvaamisen koodina, helpottaen iterointia ja optimointia. DSPy on peräisin Stanford NLP:stä ja sillä on vahva yhteisö GitHubissa ja Discordissa, mikä edistää avoimen lähdekoodin tekoälytutkimusta ja ohjelma-arkkitehtuurien ja optimointien kehittämistä.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42343692">Reaktiot</a></h3>
+<ul>
+<li>DSPy on kehys, joka on suunniteltu optimoimaan kehotteita kielimalleille (LM) automatisoimalla harjoitusdatan osajoukkojen valinta, parantaen siten suorituskykyä ja vähentäen manuaalisia säätöjä.</li>
+<li>Se tukee suurten kielimalliohjelmien (LLM) end-to-end-koulutusta, estää vanhentuneiden kehotteiden käytön koodissa ja on erityisen hyödyllinen tehtävissä, kuten tiedon poiminnassa ja tiivistämisessä.</li>
+<li>Vaikka jotkut käyttäjät pitävät DSPyn monimutkaisuutta haastavana, sitä arvostetaan sen jäsennellyn lähestymistavan ja ominaisuuksien, kuten väitteiden ja ehdotusten, ansiosta, jotka pakottavat tulosrajoitukset.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Toinen vuoteni ilman työtä" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Toinen%20vuoteni%20ilman%20ty%C3%B6t%C3%A4&subheading=lauantaina%207.%20joulukuuta%202024%3A%20Hacker%20News%20yhteenveto" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/fi/2024/12/07</link>
+            <guid isPermaLink="false">2024-12-07T00:00:00.000Z</guid>
+            <pubDate>Sat, 07 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-12-06]]></title>
             <description
@@ -1044,173 +1145,6 @@
             <link>https://hn.cho.sh/fi/2024/11/28</link>
             <guid isPermaLink="false">2024-11-28T00:00:00.000Z</guid>
             <pubDate>Thu, 28 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-11-27]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/11/27&#39;</h2>
-<h1>2024-11-27</h1>
-<h2><a href="https://play.google.com/store/apps/details?id=com.actureunlock&hl=en_US">Sovellus, joka kysyy &#39;miksi?&#39; joka kerta, kun avaat puhelimesi</a></h2>
-<ul>
-<li>Intenty on sovellus, joka kannustaa käyttäjiä kehittämään terveellisempiä puhelintottumuksia tietoisuuskehotteiden avulla, kun he avaavat laitteensa lukituksen. - Sovellus korostaa yksityisyyttä toimimalla täysin paikallisesti ilman mainoksia tai seurantaa, ja se käyttää Android-oikeuksia ainoastaan toiminnallisuuteen ilman tietojen keräämistä. - Minimalistisen suunnittelun ja älykkään mukauttamisen ansiosta Intentyllä on 4,4 tähden arvio ja yli 10 000 latausta, mikä houkuttelee käyttäjiä, jotka pyrkivät vähentämään ajatuksetonta puhelimen käyttöä.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42254156">Reaktiot</a></h3>
-<ul>
-<li>Puhelimen lukituksen avaamisen yhteydessä käyttäjille kysymyksen &quot;miksi?&quot; esittävä sovellus saa huomiota Hacker Newsissä sen potentiaalin vuoksi vähentää häiriötekijöitä.</li>
-<li>Kayttäjät pitävät sovellusta hyödyllisenä, mutta joskus hankalana nopeiden tehtävien suorittamiseen, mikä on johtanut parannusehdotuksiin, kuten kehotteiden satunnaistamiseen tai sovelluskohtaisten ohitusten sallimiseen.</li>
-<li>Kehittäjä harkitsee käyttäjäpalautteen perusteella päivityksiä, mukaan lukien kertamaksuvaihtoehdon lisäämistä tilausmallin sijaan.</li>
-</ul>
-<h2><a href="https://www.downtowndougbrown.com/2024/11/the-capacitor-that-apple-soldered-incorrectly-at-the-factory/">Apple juotti kondensaattorin tehtaalla väärin</a></h2>
-<ul>
-<li>Doug Brown tuo esiin valmistusvirheen Applen Macintosh LC III:ssa, jossa kondensaattori oli asennettu väärin päin, mikä saattoi aiheuttaa ongelmia.</li>
-<li>Macintosh LC III, jota valmistettiin vuosina 1993–1994 koulutusmarkkinoille, ei joutunut merkittävän takaisinkutsun kohteeksi tästä virheestä huolimatta.</li>
-<li>Brown neuvoo varovaisuuteen kondensaattoreita vaihdettaessa, erityisesti nykyaikaisten tantaalikondensaattoreiden kanssa, ja suosittelee niiden asentamista oikein, vastoin piirilevyn silkkipainatuksen ohjeita.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42253119">Reaktiot</a></h3>
-<ul>
-<li>Apple asensi vahingossa kondensaattorin väärin päin 34 vuotta vanhaan tietokoneeseen, mikä korostaa oikean kondensaattorin asennussuunnan merkitystä, erityisesti elektrolyyttikondensaattoreille, joilla on polariteetti ja jotka voivat vioittua, jos ne asennetaan väärin.</li>
-<li>Tämä tapaus on herättänyt keskusteluja tuotteiden pitkäikäisyydestä ja suunnitellusta vanhenemisesta, ja jotkut ehdottavat, että nykyaikaiset elektroniikkatuotteet on tarkoituksellisesti suunniteltu kestämään lyhyemmän aikaa myynnin lisäämiseksi.</li>
-<li>Tilanne muistuttaa muiden yritysten, kuten Commodoren, aiempia valmistusvirheitä, mikä viittaa toistuvaan ongelmaan teknologiateollisuudessa.</li>
-</ul>
-<h2><a href="https://benhouston3d.com/blog/why-i-left-kubernetes-for-google-cloud-run">En tarvinnut Kubernetesia, etkä luultavasti sinäkään tarvitse</a></h2>
-<ul>
-<li>Kirjoittaja siirtyi Kubernetesista Google Cloud Runiin, mainiten Kubernetesin monimutkaisuuden, kustannukset ja hitaan automaattisen skaalautumisen haittapuolina. - Google Cloud Run korostuu yksinkertaisempana, kustannustehokkaana vaihtoehtona, joka veloittaa vain todellisesta CPU- ja muistin käytöstä ja tarjoaa nopean skaalautumisen ilman Kubernetesin hallinnollista taakkaa. - Kirjoittaja käyttää GitHub Actionsia jatkuvaan integrointiin/jatkuvaan käyttöönottoon (CI/CD), hallittuja tietokantoja ja pub-sub-viestintää, korostaen Cloud Runin soveltuvuutta projekteihin, jotka tarvitsevat yksinkertaisuutta ja tehokkuutta Kubernetesin laajojen ominaisuuksien sijaan.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42252336">Reaktiot</a></h3>
-<ul>
-<li>Artikkeli kritisoi Kubernetesia sen liiallisesta monimutkaisuudesta ja usein tarpeettomuudesta pienemmille projekteille, ehdottaen yksinkertaisempia ratkaisuja, kuten yhtä virtuaalikonetta (VM) tai palvelinta, jotka saattavat olla tehokkaampia.</li>
-<li>Se korostaa Kubernetesin hallinnan haasteita, mukaan lukien lisäosien tuoma lisämonimutkaisuus ja joidenkin insinöörien taipumus monimutkaistaa järjestelmiä.</li>
-<li>Yleinen käsitys on, että vaikka Kubernetes on arvokas, se ei aina ole paras valinta pienimuotoisille toiminnoille, joissa yksinkertaisuus voi olla hyödyllisempää.</li>
-</ul>
-<h2><a href="https://krebsonsecurity.com/2024/11/hacker-in-snowflake-extortions-may-be-a-u-s-soldier/">Snowflake-kiristyksiin liittyvä hakkeri saattaa olla Yhdysvaltain sotilas</a></h2>
-<ul>
-<li>Kaksi henkilöä pidätettiin tietovarkaudesta yrityksiltä, jotka käyttävät Snowflakea, kun taas kolmas epäilty, tunnettu nimellä &quot;Kiberphant0m&quot;, on yhä vapaalla jalalla ja uskotaan olevan Yhdysvaltain armeijan sotilas Etelä-Koreassa.</li>
-<li>Ryhmä on ollut mukana myymässä varastettuja tietoja ja kiristämässä yrityksiä, ja AT&amp;T:n kerrotaan maksaneen 370 000 dollaria saadakseen varastetut tiedot poistettua.</li>
-<li>Kanadan viranomaiset ovat pidättäneet Alexander Mouckan, ja John Erin Binns on vangittu Turkissa, molemmat liittyvät tietomurtoihin, kun taas Kiberphant0m on yhä aktiivinen kyberrikollisuusfoorumeilla.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251799">Reaktiot</a></h3>
-<ul>
-<li>Snowflakeen kohdistuneeseen kiristykseen osallistunut hakkeri, joka tunnetaan nimellä Kiberphant0m, on tutkinnan kohteena, ja on spekulaatioita mahdollisista yhteyksistä Yhdysvaltain armeijaan.</li>
-<li>Kiberphant0m kiistää kaikki sotilaalliset yhteydet, väittäen sen olleen harhaanjohtava taktiikka, vaikka analyytikot epäilevät, että tämä olisi tehokasta tutkijoiden harhauttamisessa.</li>
-<li>Hakkerin huolimattomat toimet, kuten valokuvan julkaiseminen maastopuvussa, korostavat operatiivisen turvallisuuden ylläpitämisen ja digitaalisten jälkien välttämisen vaikeuksia.</li>
-</ul>
-<h2><a href="https://zetaoffice.net/">ZetaOffice: LibreOffice selaimessa</a></h2>
-<ul>
-<li>ZetaOffice Web tuo LibreOfficen verkkoselaimiin, mahdollistaen pääsyn miltä tahansa laitteelta itseisännöinnin tai sisällönjakeluverkon (CDN) käytön avulla tietojen hallintaan. Paketti sisältää Writerin, Calcin ja Impressin tekstinkäsittelyyn, taulukkolaskentaan ja esityksiin, ja se on saatavilla sekä verkossa että työpöydällä Linuxille ja Windowsille, varmistaen asiakirjojen yhteensopivuuden. ZetaOffice tarjoaa avoimen lähdekoodin ohjelmistoa maksullisilla vaihtoehdoilla CDN:n käyttöön ja tukeen, ja se integroituu olemassa oleviin järjestelmiin LibreOffice UNO API:n kautta, toimien tehokkaasti nykyaikaisissa selaimissa.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249746">Reaktiot</a></h3>
-<ul>
-<li>ZetaOffice, selainpohjainen versio LibreOfficesta, kohtaa kritiikkiä suorituskyky- ja käytettävyysongelmista, mukaan lukien rikkinäinen syöttö ja tekstin renderöinti.</li>
-<li>On käynnissä keskustelu siitä, onko parempi käyttää canvas-elementtiä vai kohdistaa DOM (Document Object Model) dokumenttien asettelujen renderöintiin verkkopohjaisissa toimistosovelluksissa.</li>
-<li>Haasteista huolimatta ZetaOffice pyrkii tarjoamaan johdonmukaisen monialustaisen kokemuksen ja on saatavilla myös natiivina työpöytäsovelluksena.</li>
-</ul>
-<h2><a href="https://www.techradar.com/pro/security/d-link-says-it-wont-patch-60-000-older-modems-as-theyre-not-worth-saving">D-Link sanoo, ettei se aio korjata 60 000 vanhempaa modeemia</a></h2>
-<ul>
-<li>D-Link on ilmoittanut, ettei se tarjoa tietoturvapäivityksiä 60 000 vanhemmalle modeemille, jotka ovat saavuttaneet elinkaarensa lopun, ja kehottaa käyttäjiä päivittämään uudempiin malleihin.</li>
-<li>Paikkaamattomat tietoturva-aukot voivat mahdollisesti antaa hakkereille mahdollisuuden ottaa hallintaansa nämä laitteet, mikä aiheuttaa merkittävän riskin.</li>
-<li>Useimmat vaikuttaneet modeemit sijaitsevat Taiwanissa, ja käyttäjille, jotka eivät pysty päivittämään, D-Link suosittelee etäkäytön rajoittamista ja turvallisten salasanojen käyttöä varotoimenpiteinä.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249790">Reaktiot</a></h3>
-<ul>
-<li>D-Link on päättänyt olla korjaamatta haavoittuvuuksia 60 000 vanhemmassa modeemissa, altistaen ne tietoturvariskeille, mikä herättää huolta laitteiden turvallisuudesta ja valmistajan vastuusta.</li>
-<li>Ilmoitus on herättänyt keskusteluja pitkäaikaisen tuen merkityksestä ja avoimen lähdekoodin ratkaisujen, kuten OpenWRT:n, mahdollisista eduista laitteiden turvallisuuden ylläpitämisessä.</li>
-<li>On esitetty ehdotuksia lakisääteisistä vaatimuksista, jotka velvoittaisivat valmistajia tarjoamaan tietoturvapäivityksiä tai julkaisemaan laiteohjelmiston julkisesti, kun laitteet saavuttavat elinkaarensa lopun, mikä korostaa laajempaa teollisuuden ongelmaa.</li>
-</ul>
-<h2><a href="https://www.technicianonline.com/news/popular-nc-state-professor-marshall-brain-dies-alleges-retaliation-for-ethics-complaints/article_152e5c80-ac2e-11ef-8b3f-036ac3c8d9bf.html">Marshall Brain kuoli tunteja sen jälkeen, kun hän oli väittänyt kostotoimista NC State -yliopistossa.</a></h2>
-<ul>
-<li>NC State -yliopiston professori Marshall Brain, HowStuffWorks.com-sivuston perustaja, löydettiin kuolleena toimistostaan 20. marraskuuta sen jälkeen, kun hän oli väittänyt yliopiston viranomaisten kostaneen hänelle.</li>
-<li>Brain väitti, että hänet pakotettiin eläkkeelle eettisten valitusten vuoksi, mutta yliopisto ei ole kommentoinut näitä syytöksiä tai hänen kuolemaansa.</li>
-<li>Entiset opiskelijat ja kollegat ovat ilmaisseet pettymyksensä yliopiston hiljaisuuteen, korostaen tämän kehittyvän tarinan jatkuvaa luonnetta.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251656">Reaktiot</a></h3>
-<ul>
-<li>Marshall Brain, entinen professori NC State -yliopistossa, menehtyi väitettyään yliopiston hallinnon kostaneen hänelle hänen eettisten valitustensa vuoksi.</li>
-<li>Hänen tapauksensa korostaa idealismin ja todellisuuden välistä jännitettä, havainnollistaen vallanpitäjien vastuuseen saattamisen mahdollisia vaaroja.</li>
-<li>Tapauksen johdosta käydään keskusteluja sisäisten raportointijärjestelmien tehokkuudesta ja laajemmista valtasuhteista akateemisissa instituutioissa.</li>
-</ul>
-<h2><a href="https://ianthehenry.com/posts/janet-for-mortals/">Janet kuolevaisille (2023)</a></h2>
-<ul>
-<li>Kirjoittaja on julkaissut ilmaisen verkkokirjan nimeltä &quot;Janet for Mortals&quot;, joka keskittyy Janet-ohjelmointikieleen ja jonka kirjoittaminen kesti 20 viikkoa. Kirja sisältää 44 000 sanaa ja siihen liittyy verkkosivusto, jossa on REPL (Read-Eval-Print Loop) interaktiivista oppimista varten. Kirja ja siihen liittyvät projektit, kuten C++-kirjastosidokset ja testauskehys, ovat saaneet positiivista huomiota alustoilla kuten Hacker News.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42253241">Reaktiot</a></h3>
-<ul>
-<li>&quot;Janet for Mortals&quot; on kirja, joka tarjoaa interaktiivisen REPL:n (Read-Eval-Print Loop), johon pääsee paonäppäimen kautta, mahdollistaen käyttäjien kokeilla Janet-ohjelmointikieltä suoraan selaimessaan ilman asennusta.</li>
-<li>Janet tunnetaan helppoudestaan upottaa ja luoda alakohtaisia kieliä (DSL), vaikka jotkut käyttäjät huomauttavat, että sen dokumentaatiota voitaisiin parantaa.</li>
-<li>Kirjan mukaansatempaava tyyli ja kielen ainutlaatuiset piirteet ovat herättäneet kiinnostusta ja saaneet positiivista palautetta, huolimatta joistakin kiistoista kirjan nimen suhteen.</li>
-</ul>
-<h2><a href="https://www.jeffgeerling.com/blog/2024/raspberry-pi-cm5-2-3x-faster-drop-upgrade-mostly">Raspberry Pi CM5 on nopeampi, suoraan yhteensopiva päivitys</a></h2>
-<ul>
-<li>Raspberry Pi Compute Module 5 (CM5) on merkittävä päivitys CM4:stä, tarjoten 2-3 kertaa nopeamman suorituskyvyn, USB 3:n ja PCIe Gen 3 -yhteensopivuuden samalla säilyttäen saman muodon.</li>
-<li>CM5 on hinnoiteltu samankaltaisesti kuin CM4, ja 8GB-malli alkaa 75 dollarista. Se sisältää nopeamman suorittimen, RAM-muistin ja parannetun grafiikan, vaikka se kuluttaakin enemmän virtaa täydellä kapasiteetilla.</li>
-<li>Uudistettu IO-kortti on myös julkaistu hintaan 20 dollaria, ja siinä on USB-C-virransyöttö ja muita parannuksia, mikä korostaa CM5:n tukea ja modulaarisuutta huolimatta kilpailusta muiden yksikorttitietokoneiden (SBC) kanssa.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42254379">Reaktiot</a></h3>
-<ul>
-<li>Raspberry Pi CM5 tarjoaa merkittävän suorituskyvyn parannuksen CM4:ään verrattuna, ollen 2-3 kertaa nopeampi, ja sisältää USB 3 -päivityksen.</li>
-<li>Vaikka 8GB versio säilyttää hintansa, muut versiot ovat kalliimpia, ja jotkut käyttäjät huomauttavat, että muilla laudoilla saattaa olla paremmat tekniset tiedot.</li>
-<li>Huolimatta laitteistoparannuksista, CM5:stä puuttuu laitteistokoodauksen tuki, mutta se pystyy dekoodaamaan H.265, ja Raspberry Pi:n vahva yhteisö ja tuki ovat edelleen keskeisiä etuja.</li>
-</ul>
-<h2><a href="https://arstechnica.com/tech-policy/2024/11/isps-say-their-excellent-customer-service-is-why-users-dont-switch-providers/">Internet-palveluntarjoajat sanovat, että heidän &quot;erinomainen asiakaspalvelunsa&quot; on syy siihen, miksi käyttäjät eivät vaihda palveluntarjoajaa.</a></h2>
-<ul>
-<li>Internet-palveluntarjoajien lobbausryhmät väittävät, että kilpailu varmistaa korkeat asiakaspalvelustandardit, mikä tekee lisäsääntelystä tarpeetonta, sillä huono palvelu ajaisi asiakkaat vaihtamaan palveluntarjoajaa.</li>
-<li>Kalifornian ja Oregonin sääntelyviranomaiset raportoivat laajasta asiakastyytymättömyydestä, tuoden esiin ongelmia, kuten pitkät odotusajat ja laskutusongelmat, jotka ovat ristiriidassa internetpalveluntarjoajien väitteiden kanssa.</li>
-<li>FCC tarkastelee asiakaspalvelukäytäntöjä, mutta Brendan Carrin johdolla, jonka presidentiksi valittu Trump nimitti, uudet säädökset ovat epätodennäköisiä, sillä painopiste siirtyy sääntelytaakan vähentämiseen.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251564">Reaktiot</a></h3>
-<ul>
-<li>Internet-palveluntarjoajat (ISP:t) pitävät asiakasuskollisuutta &quot;erinomaisen asiakaspalvelunsa&quot; ansiona, mutta monet uskovat sen johtuvan kilpailun puutteesta tietyillä alueilla.</li>
-<li>Alueilla, joilla on rajallisesti internetpalveluntarjoajia, käyttäjät pysyvät usein nykyisen palveluntarjoajansa asiakkaana, vaikka olisivat tyytymättömiä palvelun laatuun.</li>
-<li>Australiassa ja Kanadassa tehdyt pyrkimykset säädellä markkinoita ja lisätä kilpailua kohtaavat jatkuvia haasteita, kun käyttäjät vaativat aitoa kilpailua ja parempaa sääntelyä.</li>
-</ul>
-<h2><a href="https://news.ycombinator.com/item?id=42256093">Suositus ohjelmistoinsinöörille, joka haluaa pysyä ajan tasalla tekoälyn uusimmista kehityksistä.</a></h2>
-<ul>
-<li>Käyttäjä etsii aktiivisesti luotettavia lähteitä uusimmille päivityksille tekoälyn (AI) alalla, erityisesti teknologia-blogeista, jotka ovat samankaltaisia kuin Hacker News (HN).</li>
-<li>Heillä on kokemusta ChatGPT:n ja OpenAI API:n käytöstä, erityisesti versiosta 3.5, mikä osoittaa käytännön kiinnostusta tekoälytyökaluihin.</li>
-<li>Käyttäjä löysi Simon Willisonin blogin, mutta kokee sen puuttuvan yhtenäisyyttä, mikä viittaa tarpeeseen saada rakenteellisempia ja kattavampia tekoälyyn liittyviä tietolähteitä.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42256093">Reaktiot</a></h3>
-<ul>
-<li>Ohjelmistokehittäjät voivat parantaa tekoälytaitojaan osallistumalla Kaggle-kilpailuihin, jotka tarjoavat käytännönläheisiä oppimiskokemuksia.</li>
-<li>Pysymällä ajan tasalla teknologia-blogien, uutiskirjeiden ja YouTube-kanavien, kuten Simon Willisonin, AI Supremacy ja 3Blue1Brown, kautta voi saada perustavanlaatuista ja ajankohtaista tietoa tekoälystä.</li>
-<li>Osallistuminen tekoäly-yhteisöihin alustoilla kuten Reddit ja Twitter sekä tutustuminen koulutusresursseihin, kuten kirjoihin ja MIT xPRO:n verkkokursseihin, voi syventää ymmärrystä ja pitää insinöörit ajan tasalla uusimmista tekoälytrendeistä.</li>
-</ul>
-<h2><a href="https://www.washingtonpost.com/technology/2024/11/26/openai-sora-ai-video-model-artists-protest/">OpenAI keskeyttää videomalli Soran käytön, kun taiteilijat vuotavat pääsyn protestina</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42252806">Reaktiot</a></h3>
-<ul>
-<li>OpenAI keskeytti videomallinsa Soran sen jälkeen, kun taiteilijat vuotivat pääsyn protestina maksamattomasta osallistumisesta, vaikka korvauksesta ei ollut luvattu. - Protesti herättää huolta siitä, että tekoäly saattaa korvata taiteilijat, ja tuo esiin eettisiä kysymyksiä maksamattomasta työstä tekoälyn kehityksessä. - Jotkut pitävät protestia strategisena yrityksenä kiinnittää huomiota näihin laajempiin alan ongelmiin.</li>
-</ul>
-<h2><a href="https://www.nytimes.com/2024/11/26/us/usps-new-mail-trucks.html">Kyllä, se &#39;näyttää ankalle&#39;, mutta kuljettajat pitävät uudesta USPS:n postiautosta</a></h2>
-<ul>
-<li>Yhdysvaltain postilaitos esittelee uusia sähköisiä postiautoja osana 9,6 miljardin dollarin modernisointisuunnitelmaa, tarjoten ominaisuuksia kuten ilmastointi, lisääntynyt tavaratila ja parannettu turvallisuus.</li>
-<li>Alun perin suurimmaksi osaksi kaasukäyttöiseksi suunniteltu laivasto on nyt 75-prosenttisesti sähköinen oikeudellisten haasteiden vuoksi, mikä merkitsee merkittävää siirtymää kohti kestävyyttä.</li>
-<li>Huolimatta niiden epätavallisesta muotoilusta, kuorma-autot on otettu positiivisesti vastaan mukavuutensa ja tehokkuutensa ansiosta, sillä ne sisältävät postinkantajien palautteen ja ominaisuuksia kuten liukumattomat pinnat, turvatyynyt ja törmäyksenestojärjestelmän.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42249545">Reaktiot</a></h3>
-<ul>
-<li>Uusi USPS:n postiautodesign korostaa näkyvyyttä ja turvallisuutta, ja siinä on matala konepelti ja suuret puskurit jalankulkijoiden turvallisuuden ja kuljettajan mukavuuden parantamiseksi, erityisesti kaupunkiympäristöissä.</li>
-<li>Vaikka sen epätavanomainen ulkonäkö on herättänyt keskustelua, kuorma-auto on suunniteltu kestävyyttä silmällä pitäen, samoin kuin pitkään palvellut Grumman LLV.</li>
-<li>Suunnittelu keskittyy myös parantamaan postityöntekijöiden työoloja ja sisältää vaihtoehtoja sähköajoneuvoille nykyaikaisten jakelutarpeiden täyttämiseksi.</li>
-</ul>
-<h2><a href="https://volfpeter.github.io/htmy/">Htmy – Asynkroninen, puhtaasti Pythonilla toteutettu renderöintimoottori</a></h2>
-<ul>
-<li>&quot;htmy&quot; on puhdas Python-renderointimoottori, joka tukee asynkronisia ja synkronisia toimintokomponentteja, React-tyylistä kontekstinhallintaa ja sisäänrakennettuja HTML-tageja, mikä tekee siitä monipuolisen erilaisiin verkkokehitystarpeisiin. Se tarjoaa ominaisuuksia, kuten Markdown-tuen, JSON-pohjaisen kansainvälistämisen ja helpon integroinnin mihin tahansa backend- tai frontend-kehykseen, mikä parantaa sen mukautuvuutta ja räätälöitävyyttä. Kirjasto on avoimen lähdekoodin MIT-lisenssillä, mikä kannustaa yhteisön panostuksiin, ja sen voi asentaa PyPI:n kautta käyttämällä <code>pip install htmy</code>.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42251919">Reaktiot</a></h3>
-<ul>
-<li>Htmy on asynkroninen, puhtaasti Pythonilla toteutettu HTML-renderöintimoottori, joka herättää keskustelua sen monisanaisuudesta verrattuna Jinjaan ja asynkronisuuden tarpeellisuudesta HTML-renderöinnissä.</li>
-<li>Keskustelu tuo esiin asynkronisen toiminnan mahdolliset hyödyt dynaamisessa tiedonhakussa komponenttipohjaisissa suunnitteluissa, vaikka mielipiteet vaihtelevat siitä, monimutkaistaako se koodia.</li>
-<li>Htmy pyrkii tarjoamaan joustavan renderöintiratkaisun, mutta sen edut vakiintuneisiin työkaluihin, kuten Jinjaan, verrattuna ovat yhä keskustelun alla.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Sovellus, joka kysyy 'miksi?' joka kerta, kun avaat puhelimesi" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Sovellus%2C%20joka%20kysyy%20'miksi%3F'%20joka%20kerta%2C%20kun%20avaat%20puhelimesi&subheading=keskiviikkona%2027.%20marraskuuta%202024%3A%20Hacker%20News%20yhteenveto" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/fi/2024/11/27</link>
-            <guid isPermaLink="false">2024-11-27T00:00:00.000Z</guid>
-            <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
