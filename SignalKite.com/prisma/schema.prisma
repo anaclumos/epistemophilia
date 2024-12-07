@@ -1,0 +1,62 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["driverAdapters"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String    @id @default(cuid())
+  kindeId   String    @unique
+  createdAt DateTime  @default(now()) @db.Timestamptz()
+  updatedAt DateTime  @default(now()) @updatedAt @db.Timestamptz()
+  deletedAt DateTime? @db.Timestamptz()
+  lastLogin DateTime? @db.Timestamptz()
+  Kite      Kite[]
+
+  @@index([kindeId])
+}
+
+enum KiteStrategy {
+  EXA_SEARCH
+  WHOIS_LOOKUP
+}
+
+// A Kite is a single "data stream" of what you want to track.
+model Kite {
+  id          String        @id @default(cuid())
+  publicUid   String        @unique
+  name        String        @db.VarChar(100)
+  description String?       @db.Text()
+  strategy    KiteStrategy  @default(EXA_SEARCH)
+  cadence     Int           @default(1)
+  hour        Int?          @db.SmallInt() // 0-23, UTC
+  minute      Int?          @db.SmallInt() // 0-59, UTC
+  createdAt   DateTime      @default(now()) @db.Timestamptz()
+  updatedAt   DateTime      @default(now()) @updatedAt @db.Timestamptz()
+  deletedAt   DateTime?     @db.Timestamptz()
+  creator     User          @relation(fields: [creatorId], references: [id])
+  creatorId   String
+  paused      Boolean       @default(false)
+  ScoutResult ScoutResult[]
+
+  @@index([creatorId])
+}
+
+// A Scout is a single scan of a Kite.
+model ScoutResult {
+  id         String  @id @default(cuid())
+  publicUid  String  @unique
+  kiteId     String
+  successful Boolean @default(true)
+
+  createdAt DateTime  @default(now()) @db.Timestamptz()
+  updatedAt DateTime  @default(now()) @updatedAt @db.Timestamptz()
+  deletedAt DateTime? @db.Timestamptz()
+  Kite      Kite      @relation(fields: [kiteId], references: [id])
+
+  @@index([kiteId])
+}
