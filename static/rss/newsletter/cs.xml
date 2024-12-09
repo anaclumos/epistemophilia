@@ -15,12 +15,99 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 08 Dec 2024 19:06:32 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 09 Dec 2024 19:07:45 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/cs.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Sun, 08 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Mon, 09 Dec 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[cs]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-12-09]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/12/09&#39;</h2>
+<h1>2024-12-09</h1>
+<h2><a href="https://bsky.app/profile/itch.io/post/3lcu6h465bs2n">„Itch.io odstraněno společností Funko“</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42363727">Reakce</a></h3>
+<ul>
+<li>„Doména Itch.io byla deaktivována kvůli falešnému hlášení o podvodu a phishingu od společnosti BrandShield, které se týkalo fanouškovské stránky pro hru Funko Pop. Tento incident poukazuje na problémy s automatizovaným vymáháním ochranných známek a nedostatkem lidského dohledu, stejně jako na pomalou reakci registrátora iwantmyname. Situace vyvolala podporu uživatelů pro itch.io a kritiku stran zapojených do odstranění.“</li>
+</ul>
+<h2><a href="https://flatt.tech/research/posts/compromising-openwrt-supply-chain-sha256-collision/">„Kompromitace dodavatelského řetězce OpenWrt“</a></h2>
+<ul>
+<li>„Bezpečnostní inženýr identifikoval zranitelnosti v procesu aktualizace firmwaru OpenWrt, včetně problémů s injekcí příkazů a kolizí hashů SHA-256. Tyto zranitelnosti umožňovaly potenciálním útočníkům vkládat příkazy a vytvářet kolize hashů, což vedlo k instalaci škodlivého firmwaru. Tým OpenWrt tyto zranitelnosti rychle řešil a opravil, přičemž zdůraznil potřebu silné bezpečnosti v dodavatelských řetězcích softwaru.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42363102">Reakce</a></h3>
+<ul>
+<li>„Zranitelnost v dodavatelském řetězci OpenWrt umožnila cílené spuštění kódu bez ověření, což představuje riziko pro sestavení s backdoorem. Tento incident zdůrazňuje důležitost reprodukovatelnosti a transparentnosti při sestavování softwaru, podobně jako praktiky v ebuild repozitáři Gentoo. Rychlá reakce OpenWrt poukazuje na efektivitu open-source projektů při řešení bezpečnostních problémů ve srovnání s uzavřenými alternativami.“</li>
+</ul>
+<h2><a href="https://bcantrill.dtrace.org/2024/12/08/why-gelsinger-was-wrong-for-intel/">„Pat Gelsinger byl pro Intel špatnou volbou“</a></h2>
+<ul>
+<li>„Pat Gelsinger, navzdory svým technickým znalostem a manažerským dovednostem, byl považován za nevhodného pro pozici generálního ředitele Intelu kvůli jeho neschopnosti řešit kulturní a strategické výzvy společnosti.“</li>
+<li>„Jeho rozhodnutí v oblasti vedení, jako je udržování dividend a agresivní reklama, byla kritizována za to, že odrážejí přístup v době míru spíše než nezbytné vedení v době války.“</li>
+<li>„Gelsingerovo řízení Intel&#39;s Foundry Services a ukončení projektu Tofino, slibného programovatelného křemíkového přepínače, byly považovány za významné chyby, které zanechaly nevyřešené kulturní problémy v Intelu.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42361955">Reakce</a></h3>
+<ul>
+<li>„Pat Gelsinger, generální ředitel společnosti Intel, čelil výzvám včetně zpoždění výroby na 10nm technologii a konkurenci ze strany TSMC, což vedlo k výraznému poklesu akcií navzdory strategickým investicím do výrobních zařízení.“</li>
+<li>„Kritici naznačují, že představenstvo Intelu, složené převážně z neodborných členů, může být hlavním problémem, a zpochybňují, zda je k vyřešení problémů Intelu zapotřebí technická odbornost Gelsingera nebo někoho zvenčí.“</li>
+<li>„Probíhající debata se soustředí na to, zda byly Gelsingerovy strategie vhodné, nebo zda složení a rozhodnutí představenstva brzdí pokrok Intelu.“</li>
+</ul>
+<h2><a href="https://json5.org/">„JSON5 – JSON pro lidi“</a></h2>
+<ul>
+<li>„JSON5, rozšíření JSON, je navrženo pro snadnější ruční úpravy, což ho činí ideálním pro konfigurační soubory, ale nevhodným pro strojovou komunikaci.“</li>
+<li>„Od svého uvedení na trh v roce 2012 si JSON5 získal značnou popularitu, s více než 65 miliony staženími týdně, a je využíván významnými projekty jako Chromium a Next.js.“</li>
+<li>„JSON5 je nadmnožina JSON, která zahrnuje funkce ECMAScript 5.1, umožňuje flexibilní syntaxi a je kompatibilní s ES5, přičemž je k dispozici knihovna JavaScriptu pro analýzu a serializaci.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42360681">Reakce</a></h3>
+<ul>
+<li>„JSON5 je rozšíření JSON navržené tak, aby bylo přívětivější pro lidi, umožňující funkce jako komentáře a koncové čárky.“</li>
+<li>„Existuje debata o tom, zda by JSON měl zůstat jednoduchý, nebo se vyvíjet s dalšími funkcemi, jak je vidět u JSON5, který není oficiální aktualizací, ale alternativním formátem.“</li>
+<li>„Někteří navrhují používat jiné formáty, jako je TOML nebo HJSON, pro čitelnější konfigurace, což zdůrazňuje probíhající diskusi o vývoji JSON.“</li>
+</ul>
+<h2><a href="https://www.france24.com/en/live-news/20241204-uk-bans-daytime-tv-ads-for-cereals-muffins-and-burgers">„Velká Británie zakazuje denní televizní reklamy na cereálie, muffiny a hamburgery“</a></h2>
+<ul>
+<li>„Britská vláda zavádí zákaz denních televizních reklam na sladké a „méně zdravé“ potraviny, jako jsou cereálie, muffiny a hamburgery, aby řešila dětskou obezitu.“</li>
+<li>„Od příštího října budou tyto reklamy povoleny k vysílání pouze po 21:00 s cílem zabránit 20 000 případům dětské obezity každý rok.“</li>
+<li>„Ministr zdravotnictví Wes Streeting zdůraznil důležitost zastavení cílení reklam na nezdravé potraviny na děti.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42359836">Reakce</a></h3>
+<ul>
+<li>„Spojené království zavedlo zákaz denních televizních reklam na nezdravé potraviny, včetně cereálií, muffinů a hamburgerů, jako opatření v boji proti dětské obezitě.“</li>
+<li>„Kritici tvrdí, že zákaz je nedostatečný, protože děti jsou více ovlivňovány online reklamami na platformách jako YouTube a TikTok, které nejsou do zákazu zahrnuty.“</li>
+<li>„Debata přetrvává, zda by vláda měla vymáhat stávající zákony a regulovat online reklamy zaměřené na děti, nebo zda by rodiče měli převzít větší odpovědnost za ochranu dětí před škodlivou reklamou.“</li>
+</ul>
+<h2><a href="https://mastodon.social/@kiwix/113622081750449356">„Hetzner se rozhodl zrušit náš účet a ukončit všechny servery.“</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42365295">Reakce</a></h3>
+<ul>
+<li>„Zrušení účtu a ukončení serveru společností Hetzner vyvolaly diskuse o nutnosti záloh a plánů obnovy po havárii.“</li>
+<li>„Uživatelé sdíleli zkušenosti s přísným vymáháním podmínek služby (ToS) ze strany Hetzneru, včetně okamžitého vypnutí serverů při porušení, což vyvolává obavy o spolehlivost poskytovatele cloudových služeb.“</li>
+<li>„Debata zdůraznila rizika spojená se závislostí na jediném poskytovateli a důležitost používání více poskytovatelů pro zálohování, aby byla zajištěna bezpečnost dat.“</li>
+</ul>
+<h2><a href="https://blog.google/technology/research/google-willow-quantum-chip/">„Willow, náš kvantový čip“</a></h2>
+<ul>
+<li>„Google představil Willow, kvantový čip, který představuje významný pokrok v kvantové korekci chyb a rychlosti výpočtů. Willow prokázal svou schopnost provedením výpočtu za méně než pět minut, což je úkol, který by superpočítači trval 10 septilionů let, což naznačuje jeho potenciál řešit složité problémy, které jsou nad rámec klasických počítačů. Tento vývoj je klíčový pro budoucnost komerčně životaschopných kvantových počítačů, s dopady na revoluci v odvětvích, jako je medicína, energetika a umělá inteligence (AI).“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42367649">Reakce</a></h3>
+<ul>
+<li>„Oznámení společnosti Google o kvantovém čipu Willow, který obsahuje více než 100 qubitů se stabilitou, představuje významný milník v oblasti kvantového počítání. Tento vývoj by mohl ovlivnit umělou inteligenci a bezpečnost dat, protože kvantové počítání představuje výzvy pro tradiční metody šifrování. Navzdory tomuto úspěchu praktické aplikace jako Shorův algoritmus vyžadují mnohem vyšší počet qubitů, což vede k různorodým reakcím ohledně okamžitého dopadu čipu.“</li>
+</ul>
+<h2><a href="https://sora.com/">„OpenAI: Sora“</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42368604">Reakce</a></h3>
+<ul>
+<li>„Nástroj pro generování videa Sora od OpenAI dostává smíšené recenze kvůli problémům s vytvářením přesného obsahu, protože současná technologie AI má potíže s detailními pokyny a přesností pohybu.“</li>
+<li>„Nástroj zatím není dostupný v EU a jeho vydání čelilo problémům se serverem, což ovlivnilo uživatelskou zkušenost.“</li>
+<li>„Zatímco někteří uživatelé oceňují novost a potenciál obsahu generovaného umělou inteligencí, existují obavy ohledně kvality a cenové struktury, přičemž někteří poznamenávají, že zaostává za konkurencí.“</li>
+</ul>
+<head>
+  <meta property="og:title" content="„Itch.io odstraněno společností Funko“" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EItch.io%20odstran%C4%9Bno%20spole%C4%8Dnost%C3%AD%20Funko%E2%80%9C&subheading=pond%C4%9Bl%C3%AD%209.%20prosince%202024%3A%20Hacker%20News%20Shrnut%C3%AD" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/cs/2024/12/09</link>
+            <guid isPermaLink="false">2024-12-09T00:00:00.000Z</guid>
+            <pubDate>Mon, 09 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-12-08]]></title>
             <description
@@ -935,126 +1022,6 @@
             <link>https://hn.cho.sh/cs/2024/11/30</link>
             <guid isPermaLink="false">2024-11-30T00:00:00.000Z</guid>
             <pubDate>Sat, 30 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-11-29]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/11/29&#39;</h2>
-<h1>2024-11-29</h1>
-<h2><a href="https://ContinueAndPersist.org">„Pošlete někomu, koho si vážíte, oficiální dopis &#39;Pokračuj a vytrvej&#39;“</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42268580">Reakce</a></h3>
-<h2><a href="https://news.alvaroduran.com/p/engineers-do-not-get-to-make-startup">„Inženýři si nemohou dovolit dělat chyby při zakládání, když vytvářejí účetní knihy.“</a></h2>
-<ul>
-<li>„Příručka pro platební inženýry zdůrazňuje klíčovou roli přesných účetních knih ve fintech startupech a upozorňuje na úskalí zanedbávání systémů podvojného účetnictví.“</li>
-<li>„Alvaro Duran sdílí varovný příběh ze své zkušenosti se startupem, kde absence systému podvojného účetnictví vedla k finančním nesrovnalostem a nespokojenosti zákazníků.“</li>
-<li>„Duran zvažuje napsání knihy o vytváření škálovatelných a budoucnosti odolných účetních knih a hledá zpětnou vazbu ohledně jejího potenciálního zájmu.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42269227">Reakce</a></h3>
-<ul>
-<li>„Inženýři ve finančních systémech se musí vyvarovat chyb, jak ukazuje případ Synapse, kde jejich účetní kniha nepřesně zobrazovala více zůstatků zákazníků než skutečných prostředků, což vedlo k chybějícím milionům. Fintech společnosti často slibují pojištění FDIC, ale to platí pouze v případě, že banka zkrachuje, nikoli pokud fintech špatně spravuje prostředky, což zdůrazňuje důležitost přesného finančního sledování. Dvojité účetnictví je zásadní pro přesnost, zajišťuje, že každá transakce je vyvážená a sledovatelná, což pomáhá předcházet chybám a potenciálním podvodům ve finančních systémech.“</li>
-</ul>
-<h2><a href="https://dontfuckwithscroll.com">„Neser se s rolováním“</a></h2>
-<ul>
-<li>„Pluginy pro setrvačné rolování jsou kritizovány za narušování přirozeného zážitku z prohlížení webu tím, že zhoršují použitelnost, přístupnost a výkon. Klíčové problémy zahrnují porušování očekávání uživatelů, způsobování nevolnosti z pohybu, snižování přístupnosti a nekonzistentní výkon, zejména na starších zařízeních. Tyto pluginy také zvyšují časy načítání stránek, narušují původní funkce prohlížeče a přidávají údržbovou zátěž, což vede k frustraci uživatelů a složitosti.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42273505">Reakce</a></h3>
-<ul>
-<li>„Diskuse zdůrazňuje frustrace spojené s jednostránkovými aplikacemi (SPA), které ovlivňují navigaci na webu, zejména pokud jde o URL, navigaci v prohlížeči a tlačítko zpět. Kritici tvrdí, že nesprávně implementované SPA narušují základní principy webu, jako je možnost záložkování a navigace, a upřednostňují výkon před uživatelskou zkušeností. Konverzace se také zabývá problémy, jako je zneužívání standardních funkcí prohlížeče, a zdůrazňuje důležitost respektování uživatelské autonomie v návrhu webu, přičemž se zasazuje o zachování tradičních webových funkcionalit.“</li>
-</ul>
-<h2><a href="https://adriano.fyi/posts/hetzner-raises-prices-while-significantly-lowering-bandwidth-in-us/">„Hetzner zvyšuje ceny, zatímco výrazně snižuje šířku pásma (USA)“</a></h2>
-<ul>
-<li>„Hetzner zvyšuje ceny v USA až o 27,52 % pro servery CPX21, zatímco snižuje šířku pásma v průměru o 88,19 %. Změny, oznámené na Den díkůvzdání, mají za cíl sladit náklady s využitím zdrojů, protože lehčí uživatelé dotovali těžší uživatele. Nové ceny a limity šířky pásma vstoupí v platnost od prosince 2024 pro nové servery a od února 2025 pro stávající, přičemž Hetzner tvrdí, že nabízí nejlepší poměr cena-výkon.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42268475">Reakce</a></h3>
-<ul>
-<li>„Hetzner, webhostingová společnost, zvýšila své ceny a snížila nabídku šířky pásma ve Spojených státech.“</li>
-<li>„Téma vyvolalo značnou diskusi, což vedlo k několika duplicitním příspěvkům na Hacker News, populární platformě pro technologické novinky.“</li>
-</ul>
-<h2><a href="https://phys.org/news/2024-11-car-quarter-microplastics-environment-urgent.html">„Pneumatiky automobilů uvolňují čtvrtinu všech mikroplastů v životním prostředí.“</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42269925">Reakce</a></h3>
-<ul>
-<li>„Pneumatiky automobilů jsou hlavním zdrojem znečištění mikroplasty, přičemž přispívají čtvrtinou všech mikroplastů v životním prostředí. Probíhá debata o tom, zda zdanit pneumatiky na základě jejich složení jako opatření proti znečištění, na rozdíl od zdanění vozidel podle hmotnosti. Diskuse zahrnuje obavy o soukromí a praktičnost týkající se zdanění na základě hmotnosti a ujeté vzdálenosti, přičemž příklady z Velké Británie a Nizozemska zvažují různé metody implementace.“</li>
-</ul>
-<h2><a href="https://neugierig.org/software/blog/2020/05/ninja.html">„Úspěch a neúspěch Ninja (2020)“</a></h2>
-<ul>
-<li>„Ninja, systém pro sestavování vytvořený jako vedlejší projekt, získal značnou popularitu a nyní je používán významnými projekty jako Chrome, Android a Meson.“</li>
-<li>„Systém je navržen pro rychlost a efektivitu, využívá bipartitní graf pro lepší strukturu sestavení a zaměřuje se na rychlé inkrementální sestavení.“</li>
-<li>„Tvůrce se zamýšlí nad výzvami, které přináší role správce open-source projektů, a poznamenává vysoké nároky a omezenou vděčnost navzdory úspěchu Ninja.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42268310">Reakce</a></h3>
-<ul>
-<li>„Diskuse se zaměřuje na roli build systému Ninja v AOSP (Android Open Source Project) pro Android a na složitosti přechodu z makefile na Ninja.“</li>
-<li>„Uživatelé diskutují o výhodách Ninja oproti Makefiles, zvažují architekturu, sociální otázky a dopad doby iterace na spokojenost programátorů.“</li>
-<li>„Konverzace také zmiňuje další systémy pro sestavování, jako je Samurai, a výzvy spojené s udržováním ručně vytvářených systémů pro sestavování, přičemž zdůrazňuje roli sociální dynamiky v technologických prostředích.“</li>
-</ul>
-<h2><a href="https://hez2010.github.io/async-runtimes-benchmarks-2024/">„Kolik paměti potřebujete v roce 2024 k provozování 1 milionu současných úkolů?“</a></h2>
-<ul>
-<li>„Srovnávací test z roku 2024 testoval spotřebu paměti při spuštění 1 milionu souběžných úloh pomocí korutin v různých programovacích jazycích, včetně Rust, C#, Go a Java. C# s NativeAOT prokázal nejlepší efektivitu paměti, překonávající ostatní jazyky, zatímco Go spotřebovalo více paměti, než se očekávalo, dokonce více než Java s GraalVM. Studie zdůrazňuje, že některé jazyky, jako .NET s NativeAOT a Java s GraalVM, zlepšily škálovatelnost, zatímco gorutiny v Go byly méně efektivní a spotřeba paměti v Rust byla optimalizována úpravou zpracování úloh.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42270378">Reakce</a></h3>
-<ul>
-<li>„V roce 2024 se paměť potřebná k provozování 1 milionu současných úloh liší podle programovacího jazyka a modelu souběžnosti, přičemž Rust a C# používají přibližně 0,12 KiB na úlohu, zatímco Go používá asi 2,64 KiB na úlohu.“</li>
-<li>„Node.js, přestože se zdá být efektivní s promises, nevykonává úkoly paralelně, což poukazuje na rozdíly v zpracování souběžnosti mezi jazyky.“</li>
-<li>„Referenční hodnota zdůrazňuje, že aplikace v reálném světě zahrnují složitější operace než jednoduché úkoly, což ovlivňuje využití paměti a výkon.“</li>
-</ul>
-<h2><a href="https://old.reddit.com/r/rust/comments/1h15md8/goodbye_rust_i_wish_you_success_but_im_back_to_c/">„Sbohem, Rust. Přeji ti úspěch, ale vracím se k C++ (omlouvám se, je to výlev).“</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42268819">Reakce</a></h3>
-<ul>
-<li>„Uživatel Redditu kritizoval Rust za jeho složitost a omezené pracovní příležitosti, přirovnávajíc ho k Betamaxu a esperantu, které jsou technicky nadřazené, ale nejsou široce přijaty.“</li>
-<li>„Zatímco někteří uživatelé oceňují přísnost a bezpečnostní funkce jazyka Rust, jiní poukazují na jeho pomalejší míru přijetí ve srovnání s jazyky jako Go.“</li>
-<li>„Navzdory těmto výzvám Rust získává na popularitě ve velkých společnostech jako AWS a Microsoft, přičemž někteří jej považují za potenciální budoucí náhradu za C++.“</li>
-</ul>
-<h2><a href="https://lwn.net/SubscriberLink/998793/6c8d00bd1b2a7948/">„GIMP 3.0 je na cestě“</a></h2>
-<ul>
-<li>„GIMP 3.0 se očekává, že bude brzy vydán, což bude první velká aktualizace od roku 2018, s modernizovaným rozhraním GTK 3 a vylepšeným výkonem. Klíčové aktualizace zahrnují nedestruktivní úpravy, vylepšenou správu barev, zlepšené pracovní postupy s vrstvami a nový systém rozšíření pro snadnější správu pluginů. Ačkoli přesné datum vydání není známo, dostupné vývojové verze naznačují významný pokrok pro tento open-source editor obrázků s očekávanými častějšími budoucími aktualizacemi.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42272927">Reakce</a></h3>
-<ul>
-<li>„GIMP 3.0 je ve vývoji a přidává podporu pro barevné palety mimo sRGB, jako jsou CMYK a CIELAB, které jsou důležité pro tisk a publikování.“</li>
-<li>„Aktualizace se snaží zlepšit přesnost barev tím, že převádí do jiných barevných prostorů pouze tehdy, když je to nutné, čímž minimalizuje ztrátu dat.“</li>
-<li>„Navzdory pokrokům, jako je nedestruktivní úprava, někteří uživatelé vyjadřují obavy ohledně uživatelského rozhraní a funkčnosti GIMPu ve srovnání s Photoshopem, přičemž poukazují na pomalý vývoj způsobený malým týmem dobrovolníků.“</li>
-</ul>
-<h2><a href="https://github.com/vinceanalytics/vince">„Vince – Samostatně hostovaná alternativa k Google Analytics“</a></h2>
-<ul>
-<li>„Vince je port Plausible Analytics dashboardu založený na Golangu, navržený jako jednosouborový, jedno-uživatelský systém pro více webových stránek bez závislostí za běhu. Obsahuje funkce jako automatické TLS (Transport Layer Security), sledování odchozích odkazů, sledování stahování souborů, sledování stránek 404 a sledování vlastních událostí, což ho činí téměř rovnocenným s Plausible dashboardem. Vince si klade za cíl zpřístupnit Plausible dashboard pro vlastní hostování, slouží jako náhrada pro osobní webové stránky, s demem dostupným na $6 Vultr instanci.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42270389">Reakce</a></h3>
-<ul>
-<li>„Vince je samohostitelná alternativa k Google Analytics, vyvinutá jako port Plausible Analytics dashboardu v jazyce Golang, zaměřující se na funkce související s dashboardem.“</li>
-<li>„Nabízí funkce jako automatické TLS (Transport Layer Security), sledování odchozích odkazů a sledování vlastních událostí, bez závislosti na běhovém prostředí, což jej činí vhodným pro osobní webové stránky.“</li>
-<li>„Vince je v souladu s GDPR (Obecné nařízení o ochraně osobních údajů), používá Pebble pro ukládání dat a je k dispozici jako open-source projekt na GitHubu, což poskytuje dostupnou možnost samostatného hostování bez složitosti nastavení Plausible.“</li>
-</ul>
-<h2><a href="https://apnews.com/article/australia-social-media-children-ban-safeguarding-harm-accounts-d0cde2603bdbc7167801da1d00ecd056">„Australský parlament zakazuje sociální média pro osoby mladší 16 let“</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42270966">Reakce</a></h3>
-<ul>
-<li>„Austrálie zavedla zákaz používání sociálních médií pro osoby mladší 16 let, což vyvolalo diskuse o ochraně dětí versus rodičovská práva. Zákon vyžaduje ověření věku, což vyvolalo obavy o soukromí a strach z nárůstu sledování. Legislativní proces byl urychlen s minimálním zapojením veřejnosti, což zanechává otázky ohledně jeho účinnosti a vymahatelnosti.“</li>
-</ul>
-<h2><a href="https://github.com/tonghohin/screen-sharing">„Sdílení obrazovky v prohlížeči“</a></h2>
-<ul>
-<li>„Bolt.new je nástroj, který uživatelům umožňuje rychle vytvářet webové aplikace, což je demonstrováno vytvořením aplikace pro sdílení obrazovky za pouhých 30 minut. Aplikace funguje tak, že generuje unikátní kód pro místnost, který mohou ostatní použít k připojení a sledování sdílené obrazovky. Projekt byl dále vyvíjen pomocí Cursoru a je k dispozici k prohlédnutí na GitHubu, s živou ukázkou hostovanou na Vercelu.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42269897">Reakce</a></h3>
-<ul>
-<li>„Aplikace pro sdílení obrazovky založená na prohlížeči byla vyvinuta pomocí Bolt.new za pouhých 30 minut, což uživatelům umožňuje vytvářet a připojovat se k místnostem s unikátními kódy pro sdílení obrazovky. Aplikace je dostupná na GitHubu, kde je k dispozici i demo, a obdržela zpětnou vazbu týkající se problémů se zastavením sdílení obrazovky a kompatibility s mobilními zařízeními. Aplikace nepoužívá TURN server, který se obvykle používá k přenosu médií v aplikacích WebRTC, když přímé peer-to-peer připojení selže.“</li>
-</ul>
-<h2><a href="https://prometheus.io/blog/2024/11/14/prometheus-3-0/">„Prometheus 3.0“</a></h2>
-<ul>
-<li>„Prometheus 3.0, první hlavní vydání po 7 letech, představuje modernizované uživatelské rozhraní, Remote Write 2.0, podporu UTF-8, podporu OTLP a nativní histogramy. Klíčové funkce zahrnují zlepšenou efektivitu protokolu s Remote Write 2.0, vylepšenou interoperabilitu s OpenTelemetry prostřednictvím OTLP ingestion a efektivnější metriky s nativními histogramy. Uživatelé by si měli být vědomi některých zásadních změn a konzultovat migrační příručku, ale vydání zachovává zpětnou kompatibilitu a podporuje zpětnou vazbu od uživatelů.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42274660">Reakce</a></h3>
-<ul>
-<li>„Prometheus 3.0 byl vydán a přináší funkce jako snížené využití paměti a podporu pro příjem OTLP (OpenTelemetry Protocol). Vydání vyvolalo diskuse o jeho škálovatelnosti ve srovnání s alternativami jako Mimir, Victoria a Cortex, přičemž někteří uživatelé volí tyto řešení pro lepší výkon. Existují obavy ohledně srozumitelnosti poznámek k vydání, což naznačuje potřebu zlepšení komunikace ze strany vývojářů.“</li>
-</ul>
-<head>
-  <meta property="og:title" content="„Pošlete někomu, koho si vážíte, oficiální dopis 'Pokračuj a vytrvej'“" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EPo%C5%A1lete%20n%C4%9Bkomu%2C%20koho%20si%20v%C3%A1%C5%BE%C3%ADte%2C%20ofici%C3%A1ln%C3%AD%20dopis%20'Pokra%C4%8Duj%20a%20vytrvej'%E2%80%9C&subheading=p%C3%A1tek%2029.%20listopadu%202024%3A%20Hacker%20News%20Shrnut%C3%AD" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/cs/2024/11/29</link>
-            <guid isPermaLink="false">2024-11-29T00:00:00.000Z</guid>
-            <pubDate>Fri, 29 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

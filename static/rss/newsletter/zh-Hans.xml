@@ -15,12 +15,99 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 08 Dec 2024 19:06:32 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 09 Dec 2024 19:07:46 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/zh-Hans.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Sun, 08 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Mon, 09 Dec 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[zh-Hans]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-12-09]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/12/09&#39;</h2>
+<h1>2024-12-09</h1>
+<h2><a href="https://bsky.app/profile/itch.io/post/3lcu6h465bs2n">“Funko 下架了 Itch.io”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42363727">反应</a></h3>
+<ul>
+<li>“由于BrandShield对一个Funko Pop游戏的粉丝页面提出虚假的欺诈和网络钓鱼报告，Itch.io的域名被禁用。- 这一事件突显了自动商标执行和缺乏人工监督的问题，以及注册商iwantmyname反应迟缓的问题。- 这一情况引发了用户对itch.io的支持以及对参与下架各方的批评。”</li>
+</ul>
+<h2><a href="https://flatt.tech/research/posts/compromising-openwrt-supply-chain-sha256-collision/">“妥协OpenWrt供应链”</a></h2>
+<ul>
+<li>“安全工程师在OpenWrt的固件升级过程中发现了漏洞，包括命令注入和SHA-256哈希碰撞问题。这些漏洞可能允许潜在攻击者注入命令并制造哈希碰撞，从而导致恶意固件的安装。OpenWrt团队迅速解决并修复了这些漏洞，强调了软件供应链中强大安全性的必要性。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42363102">反应</a></h3>
+<ul>
+<li>“OpenWrt供应链中的一个漏洞使得在没有验证的情况下进行有针对性的代码执行成为可能，带来了后门构建的风险。- 这一事件强调了软件构建中可重现性和透明度的重要性，类似于Gentoo的ebuild存储库中的做法。- OpenWrt的迅速反应突显了开源项目在解决安全问题方面的效率，相较于闭源替代方案。”</li>
+</ul>
+<h2><a href="https://bcantrill.dtrace.org/2024/12/08/why-gelsinger-was-wrong-for-intel/">“帕特·基辛格对英特尔来说是错误的选择”</a></h2>
+<ul>
+<li>“尽管Pat Gelsinger具备技术专长和管理技能，但由于他无法解决公司在文化和战略上的挑战，被认为不适合担任英特尔的首席执行官。”</li>
+<li>“他的领导决策，如维持股息和积极广告，被批评为反映了和平时期的方法，而不是必要的战时领导。”</li>
+<li>“盖尔辛格对英特尔代工服务的管理以及终止有前景的可编程交换机硅项目Tofino被视为重大失误，使英特尔的文化问题未能得到解决。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42361955">反应</a></h3>
+<ul>
+<li>“英特尔首席执行官Pat Gelsinger面临的挑战包括10纳米生产延迟和来自台积电的竞争，尽管在制造设施上进行了战略投资，但股价仍大幅下跌。”</li>
+<li>“批评者认为，英特尔董事会主要由非技术成员组成，这可能是一个核心问题，并质疑是否需要盖尔辛格的技术专长或外部人士来解决英特尔的问题。”</li>
+<li>“持续的辩论集中在盖尔辛格的策略是否恰当，或者董事会的构成和决策是否阻碍了英特尔的进步。”</li>
+</ul>
+<h2><a href="https://json5.org/">“JSON5 – 为人类设计的 JSON”</a></h2>
+<ul>
+<li>“JSON5 是 JSON 的扩展，旨在简化手动编辑，使其非常适合用于配置文件，但不适合机器通信。”</li>
+<li>自2012年推出以来，JSON5 已获得显著的普及，每周下载量超过6500万次，并被Chromium和Next.js等大型项目所使用。</li>
+<li>JSON5 是 JSON 的超集，结合了 ECMAScript 5.1 的特性，允许灵活的语法，并与 ES5 兼容，同时提供了用于解析和序列化的 JavaScript 库。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42360681">反应</a></h3>
+<ul>
+<li>JSON5 是 JSON 的扩展，旨在通过允许诸如注释和尾随逗号等功能，使其更易于人类使用。</li>
+<li>“关于JSON是否应该保持简单还是随着附加功能的发展而演变存在争论，正如JSON5所示，它不是官方更新，而是一种替代格式。”</li>
+<li>“有人建议使用其他格式，如 TOML 或 HJSON，以获得更易于人类阅读的配置，这突显了关于 JSON 演变的持续讨论。”</li>
+</ul>
+<h2><a href="https://www.france24.com/en/live-news/20241204-uk-bans-daytime-tv-ads-for-cereals-muffins-and-burgers">“英国禁止谷物、松饼和汉堡的白天电视广告”</a></h2>
+<ul>
+<li>“英国政府正在实施一项禁令，禁止在白天电视广告中宣传含糖和“较不健康”的食品，如谷物、松饼和汉堡，以应对儿童肥胖问题。”</li>
+<li>“从明年十月开始，这些广告将只允许在晚上9点后播出，目的是每年预防2万例儿童肥胖症。”</li>
+<li>“卫生大臣韦斯·斯特里廷强调了停止针对儿童的垃圾食品广告的重要性。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42359836">反应</a></h3>
+<ul>
+<li>“英国已实施禁令，禁止在白天电视广告中宣传垃圾食品，包括谷物、松饼和汉堡，以此作为应对儿童肥胖问题的措施。”</li>
+<li>“批评者认为，该禁令是不够的，因为儿童更容易受到YouTube和TikTok等平台上的在线广告的影响，而这些平台并未包含在禁令中。”</li>
+<li>“关于政府是否应该执行现有法律并监管针对儿童的在线广告，或者父母是否应该在保护儿童免受有害广告影响方面承担更多责任的辩论仍在继续。”</li>
+</ul>
+<h2><a href="https://mastodon.social/@kiwix/113622081750449356">“Hetzner已决定取消我们的账户并终止所有服务器。”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42365295">反应</a></h3>
+<ul>
+<li>“Hetzner的账户取消和服务器终止引发了关于备份和灾难恢复计划必要性的讨论。”</li>
+<li>“用户分享了关于Hetzner严格执行服务条款(ToS)的经历，包括因违规而立即关闭服务器，这引发了对云服务提供商可靠性的担忧。”</li>
+<li>“辩论强调了依赖单一供应商的风险，以及使用多个供应商进行备份以确保数据安全的重要性。”</li>
+</ul>
+<h2><a href="https://blog.google/technology/research/google-willow-quantum-chip/">“柳树，我们的量子芯片”</a></h2>
+<ul>
+<li>“谷歌推出了Willow，这是一款量子芯片，标志着量子纠错和计算速度的重大进步。- Willow展示了其能力，在不到五分钟内完成了一项计算，而这项任务需要超级计算机花费10万亿年，表明其有潜力解决超越经典计算机的复杂问题。- 这一发展对于未来具有商业可行性的量子计算机至关重要，对医药、能源和人工智能(AI)等行业的变革具有重要意义。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42367649">反应</a></h3>
+<ul>
+<li>“谷歌宣布推出量子芯片Willow，具有超过100个稳定的量子比特，这标志着量子计算领域的一个重要里程碑。- 这一发展可能会影响人工智能和数据安全，因为量子计算对传统加密方法构成挑战。- 尽管取得了这一成就，但像Shor算法这样的实际应用需要更多的量子比特，这导致了对该芯片即时影响的不同反应。”</li>
+</ul>
+<h2><a href="https://sora.com/">“OpenAI：Sora”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42368604">反应</a></h3>
+<ul>
+<li>“OpenAI 的 Sora 视频生成工具因在创建精确内容方面面临挑战而收到褒贬不一的评价，因为当前的 AI 技术在处理详细提示和运动准确性方面存在困难。”</li>
+<li>该工具尚未在欧盟推出，其发布遇到了服务器问题，影响了用户体验。</li>
+<li>“虽然一些用户欣赏人工智能生成内容的新颖性和潜力，但也存在对质量和定价结构的担忧，有些人指出它落后于竞争对手。”</li>
+</ul>
+<head>
+  <meta property="og:title" content="“Funko 下架了 Itch.io”" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9CFunko%20%E4%B8%8B%E6%9E%B6%E4%BA%86%20Itch.io%E2%80%9D&subheading=2024%E5%B9%B412%E6%9C%889%E6%97%A5%E6%98%9F%E6%9C%9F%E4%B8%80%3A%20%E9%BB%91%E5%AE%A2%E6%96%B0%E9%97%BB%E6%91%98%E8%A6%81" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/zh/Hans/2024/12/09</link>
+            <guid isPermaLink="false">2024-12-09T00:00:00.000Z</guid>
+            <pubDate>Mon, 09 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-12-08]]></title>
             <description
@@ -935,126 +1022,6 @@
             <link>https://hn.cho.sh/zh/Hans/2024/11/30</link>
             <guid isPermaLink="false">2024-11-30T00:00:00.000Z</guid>
             <pubDate>Sat, 30 Nov 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-11-29]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/11/29&#39;</h2>
-<h1>2024-11-29</h1>
-<h2><a href="https://ContinueAndPersist.org">“发送一封官方的‘继续和坚持’信给你欣赏的人”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42268580">反应</a></h3>
-<h2><a href="https://news.alvaroduran.com/p/engineers-do-not-get-to-make-startup">工程师在构建账本时不能犯初创错误。</a></h2>
-<ul>
-<li>“《支付工程师手册》强调了准确账簿在金融科技初创公司中的关键作用，突出了忽视复式记账系统的弊端。”</li>
-<li>“阿尔瓦罗·杜兰分享了他创业经历中的一个警示故事，缺乏复式记账系统导致了财务差异和客户不满。”</li>
-<li>“杜兰正在考虑撰写一本关于创建可扩展和面向未来的账本的书籍，并寻求对其潜在兴趣的反馈。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42269227">反应</a></h3>
-<ul>
-<li>“金融系统的工程师必须避免错误，正如在Synapse的案例中所见，他们的账本错误地显示了比实际资金更多的客户余额，导致数百万资金缺失。- 金融科技公司通常承诺FDIC保险，但这仅在银行倒闭时适用，而不适用于金融科技公司管理不善的情况，这突显了准确财务跟踪的重要性。- 复式记账法对于准确性至关重要，确保每笔交易都是平衡且可追溯的，这有助于防止金融系统中的错误和潜在欺诈。”</li>
-</ul>
-<h2><a href="https://dontfuckwithscroll.com">“不要惹卷轴”</a></h2>
-<ul>
-<li>“动量滚动插件因破坏自然的网页浏览体验而受到批评，因为它们降低了可用性、可访问性和性能。- 主要问题包括违反用户期望、引起晕动症、降低可访问性以及性能不一致，特别是在旧设备上。- 这些插件还增加了页面加载时间，破坏了原生浏览器功能，并增加了维护开销，导致用户沮丧和复杂性。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42273505">反应</a></h3>
-<ul>
-<li>“讨论强调了单页应用程序(SPAs)对网页导航的影响，特别是关于URL、浏览器导航和返回按钮的问题。批评者认为，实施不当的SPAs会损害网页的基本功能，如书签功能和导航，优先考虑性能而非用户体验。讨论还涉及劫持标准浏览器功能的问题，以及在网页设计中尊重用户自主性的重要性，倡导维护传统的网页功能。”</li>
-</ul>
-<h2><a href="https://adriano.fyi/posts/hetzner-raises-prices-while-significantly-lowering-bandwidth-in-us/">“Hetzner 提高价格，同时大幅降低带宽(美国)”</a></h2>
-<ul>
-<li>Hetzner正在将美国的CPX21服务器价格提高最多27.52%，同时将带宽平均减少88.19%。- 这些变化在感恩节宣布，旨在使成本与资源使用相匹配，因为较轻的用户在补贴较重的用户。- 新的定价和带宽限制将于2024年12月对新服务器生效，2025年2月对现有服务器生效，Hetzner坚持认为其提供最佳的性价比。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42268475">反应</a></h3>
-<ul>
-<li>“Hetzner，一家网络托管公司，已在美国提高了价格并减少了带宽供应。”</li>
-<li>“这个话题引发了大量讨论，导致在热门科技新闻平台Hacker News上出现了多个重复帖子。”</li>
-</ul>
-<h2><a href="https://phys.org/news/2024-11-car-quarter-microplastics-environment-urgent.html">“汽车轮胎在环境中释放了四分之一的微塑料。”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42269925">反应</a></h3>
-<ul>
-<li>“汽车轮胎是微塑料污染的主要来源，占环境中所有微塑料的四分之一。关于是否根据轮胎的化合物征税以解决污染问题存在争议，而不是根据车辆重量征税。讨论中包括关于根据重量和行驶距离征税的隐私和实用性问题，英国和荷兰的例子正在考虑不同的实施方法。”</li>
-</ul>
-<h2><a href="https://neugierig.org/software/blog/2020/05/ninja.html">“《忍者》(2020)的成功与失败”</a></h2>
-<ul>
-<li>“作为一个副项目创建的构建系统Ninja，已经获得了显著的人气，现在被Chrome、Android和Meson等大型项目使用。”</li>
-<li>“该系统旨在提高速度和效率，利用二分图来优化构建结构，并专注于快速增量构建。”</li>
-<li>“创作者反思作为开源维护者的挑战，指出尽管Ninja取得了成功，但需求高且感激有限。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42268310">反应</a></h3>
-<ul>
-<li>“讨论集中在 Ninja 构建系统在 Android 的 AOSP(Android 开源项目)中的作用以及从 makefiles 过渡到 Ninja 的复杂性。”</li>
-<li>“用户们讨论了Ninja相对于Makefiles的优势，考虑了架构、社会问题以及迭代时间对程序员满意度的影响。”</li>
-<li>“对话还提到了其他构建系统，如Samurai，以及维护手工构建系统的挑战，强调了社交动态在技术环境中的作用。”</li>
-</ul>
-<h2><a href="https://hez2010.github.io/async-runtimes-benchmarks-2024/">“在2024年运行100万个并发任务需要多少内存？”</a></h2>
-<ul>
-<li>“2024年的一项基准测试评估了使用协程在各种编程语言中运行100万个并发任务的内存消耗，包括Rust、C#、Go和Java。- C#使用NativeAOT展示了最佳的内存效率，优于其他语言，而Go的内存消耗超出预期，甚至超过了使用GraalVM的Java。- 研究强调，一些语言，如.NET的NativeAOT和Java的GraalVM，具有改进的可扩展性，而Go的goroutines效率较低，Rust通过调整任务处理优化了内存使用。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42270378">反应</a></h3>
-<ul>
-<li>“在2024年，运行100万个并发任务所需的内存因编程语言和并发模型而异，其中Rust和C#每个任务使用约0.12 KiB，而Go每个任务使用约2.64 KiB。”</li>
-<li>“尽管 Node.js 在使用 promises 时看起来很高效，但它并不并行执行任务，这突显了不同语言在并发处理上的差异。”</li>
-<li>“基准测试强调，现实世界的应用程序涉及比简单任务更复杂的操作，影响内存使用和性能。”</li>
-</ul>
-<h2><a href="https://old.reddit.com/r/rust/comments/1h15md8/goodbye_rust_i_wish_you_success_but_im_back_to_c/">“再见，Rust。祝你成功，但我回到C++了(抱歉，这是一段抱怨)”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42268819">反应</a></h3>
-<ul>
-<li>“一个Reddit用户批评Rust语言过于复杂且就业机会有限，将其与技术上更优但未被广泛采用的Betamax和世界语相提并论。”</li>
-<li>“虽然一些用户欣赏 Rust 的严格性和安全功能，但也有人指出其采用率较 Go 等语言较慢。”</li>
-<li>“尽管面临这些挑战，Rust 在 AWS 和微软等大公司中正在获得关注，一些人将其视为 C++ 的潜在未来替代品。”</li>
-</ul>
-<h2><a href="https://lwn.net/SubscriberLink/998793/6c8d00bd1b2a7948/">“GIMP 3.0 即将推出”</a></h2>
-<ul>
-<li>“GIMP 3.0预计很快发布，这是自2018年以来的首次重大更新，具有现代化的GTK 3界面和改进的性能。- 主要更新包括非破坏性编辑、增强的色彩管理、改进的图层工作流程以及一个新的扩展系统以便于插件管理。- 尽管确切的发布日期尚不清楚，但开发版本已经可用，这表明这个开源图像编辑器有了显著进步，预计未来会有更频繁的更新。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42272927">反应</a></h3>
-<ul>
-<li>“GIMP 3.0正在开发中，增加了对超越sRGB的色彩调色板的支持，例如CMYK和CIELAB，这对于印刷和出版非常重要。”</li>
-<li>“此次更新旨在通过仅在必要时转换到其他色彩空间来提高色彩准确性，从而最大限度地减少数据丢失。”</li>
-<li>“尽管有非破坏性编辑等进步，但一些用户对GIMP的用户界面和功能与Photoshop相比感到担忧，指出由于志愿者团队规模小，开发进度缓慢。”</li>
-</ul>
-<h2><a href="https://github.com/vinceanalytics/vince">“Vince – 一个自托管的 Google Analytics 替代方案”</a></h2>
-<ul>
-<li>“Vince 是一个基于 Golang 的 Plausible Analytics 仪表板的移植版本，设计为单一二进制、单用户系统，适用于多个网站且无需运行时依赖。- 它包括自动 TLS(传输层安全)、外部链接跟踪、文件下载跟踪、404 页面跟踪和自定义事件跟踪等功能，使其几乎等同于 Plausible 仪表板。- Vince 旨在使 Plausible 仪表板可供自托管，作为个人网站的替代方案，在一个 $6 的 Vultr 实例上提供演示。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42270389">反应</a></h3>
-<ul>
-<li>“Vince 是一个自托管的 Google Analytics 替代方案，作为 Plausible Analytics 仪表板的 Golang 移植版本开发，专注于与仪表板相关的功能。”</li>
-<li>“它提供了自动 TLS(传输层安全)、出站链接跟踪和自定义事件跟踪等功能，没有运行时依赖性，适合个人网站使用。”</li>
-<li>“Vince 遵循 GDPR(通用数据保护条例)，使用 Pebble 进行数据存储，并作为一个开源项目在 GitHub 上提供，提供了一种无需 Plausible 复杂设置的便捷自托管选项。”</li>
-</ul>
-<h2><a href="https://apnews.com/article/australia-social-media-children-ban-safeguarding-harm-accounts-d0cde2603bdbc7167801da1d00ecd056">“澳大利亚议会禁止16岁以下青少年使用社交媒体”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42270966">反应</a></h3>
-<ul>
-<li>“澳大利亚已对16岁以下个人实施社交媒体使用禁令，引发了关于儿童保护与父母权利的讨论。- 该法律要求进行年龄验证，这引发了隐私问题和对监控增加的担忧。- 该立法在公众意见有限的情况下被迅速通过，使其有效性和可执行性受到质疑。”</li>
-</ul>
-<h2><a href="https://github.com/tonghohin/screen-sharing">“浏览器中的屏幕共享”</a></h2>
-<ul>
-<li>“Bolt.new 是一个工具，允许用户快速创建网络应用程序，演示中通过仅用 30 分钟构建一个屏幕共享应用程序来展示其功能。- 该应用程序通过为房间生成一个唯一代码来运行，其他人可以使用该代码加入并查看正在共享的屏幕。- 该项目使用 Cursor 进行了进一步开发，可以在 GitHub 上查看，并在 Vercel 上提供实时演示。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42269897">反应</a></h3>
-<ul>
-<li>“一个基于浏览器的屏幕共享应用程序使用Bolt.new在短短30分钟内开发完成，允许用户通过唯一代码创建和加入房间进行屏幕共享。- 该应用程序在GitHub上可用，并提供了演示，已收到关于屏幕共享中断问题和移动兼容性的反馈。- 该应用程序没有使用TURN服务器，通常在WebRTC应用程序中，当直接点对点连接失败时，TURN服务器用于中继媒体。”</li>
-</ul>
-<h2><a href="https://prometheus.io/blog/2024/11/14/prometheus-3-0/">“普罗米修斯 3.0”</a></h2>
-<ul>
-<li>“Prometheus 3.0是7年来的首次重大版本发布，推出了现代化的用户界面、Remote Write 2.0、UTF-8支持、OTLP支持和原生直方图。- 主要功能包括通过Remote Write 2.0提高协议效率，通过OTLP摄取增强与OpenTelemetry的互操作性，以及通过原生直方图提高指标效率。- 用户应注意一些重大更改并查阅迁移指南，但该版本保持向后兼容性并鼓励用户反馈。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42274660">反应</a></h3>
-<ul>
-<li>“Prometheus 3.0 已经发布，推出了减少内存使用和支持 OTLP(OpenTelemetry 协议)摄取等功能。- 此次发布引发了关于其可扩展性与 Mimir、Victoria 和 Cortex 等替代方案的比较讨论，一些用户选择这些解决方案以获得更好的性能。- 有人对发布说明的清晰度表示担忧，表明开发人员需要改进沟通。”</li>
-</ul>
-<head>
-  <meta property="og:title" content="“发送一封官方的‘继续和坚持’信给你欣赏的人”" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9C%E5%8F%91%E9%80%81%E4%B8%80%E5%B0%81%E5%AE%98%E6%96%B9%E7%9A%84%E2%80%98%E7%BB%A7%E7%BB%AD%E5%92%8C%E5%9D%9A%E6%8C%81%E2%80%99%E4%BF%A1%E7%BB%99%E4%BD%A0%E6%AC%A3%E8%B5%8F%E7%9A%84%E4%BA%BA%E2%80%9D&subheading=2024%E5%B9%B411%E6%9C%8829%E6%97%A5%E6%98%9F%E6%9C%9F%E4%BA%94%3A%20%E9%BB%91%E5%AE%A2%E6%96%B0%E9%97%BB%E6%91%98%E8%A6%81" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/zh/Hans/2024/11/29</link>
-            <guid isPermaLink="false">2024-11-29T00:00:00.000Z</guid>
-            <pubDate>Fri, 29 Nov 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
