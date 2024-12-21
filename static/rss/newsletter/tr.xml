@@ -15,12 +15,92 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Dec 2024 19:16:30 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Dec 2024 19:06:27 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/tr.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 20 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[tr]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-12-21]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/12/21&#39;</h2>
+<h1>2024-12-21</h1>
+<h2><a href="https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/">ABD yargıcı, İsrail&#39;in NSO Grubu&#39;nu WhatsApp üzerinden gazetecileri hacklemekten sorumlu buldu.</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42476828">Tepkiler</a></h3>
+<ul>
+<li>Bir ABD yargıcı, İsrail&#39;in NSO Grubu&#39;nu WhatsApp üzerinden gazetecileri hacklemekten sorumlu tuttu ve bu durum, şirketlerin hackleme ve gözetim faaliyetlerindeki sorumluluğu hakkında sorular ortaya çıkardı.</li>
+<li>Bu dava, siber araçların satışı ve kullanımıyla ilgili etik kaygıları vurgulamakta, bunları geleneksel silah satışlarına benzetmekte ve yönetim için olası yasal sonuçlar hakkında tartışmaları teşvik etmektedir.</li>
+<li>Bu aynı zamanda gizlilik, hükümet gözetimi ve sosyal medya şirketlerinin kullanıcı verilerini koruma sorumluluğu gibi daha geniş konulara da dikkat çekiyor.</li>
+</ul>
+<h2><a href="https://arxiv.org/abs/2412.15042">Metin: C&#39;yi Güvenli Rust&#39;a Derleme, Biçimlendirilmiş</a></h2>
+<ul>
+<li>Makale, Aymeric Fromherz ve Jonathan Protzenko tarafından yazılmış olup, C kodunun güvenli Rust&#39;a çevrilmesini tartışmakta ve bellek güvenliğine odaklanarak güvensiz Rust özelliklerinden kaçınmayı hedeflemektedir.</li>
+<li>Yazarlar, tür yönlendirmeli bir çeviri yöntemi, işaretçi aritmetiği için &quot;bölünmüş ağaçlar&quot; kullanarak statik analiz ve Rust&#39;ta C&#39;nin yapı türlerini ele alma stratejisi tanıtmaktadır.</li>
+<li>Yaklaşımları, HACL* kriptografik kütüphanesini ve EverParse&#39;ın ikili ayrıştırıcılarını, saf Rust dilinde doğrulanmış 80.000 satırlık bir kriptografik kütüphaneye başarıyla çeviriyor ve performansı minimal stratejik kopyalarla koruyor.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42476192">Tepkiler</a></h3>
+<ul>
+<li>C kodunu Güvenli Rust&#39;a dönüştürmek, temel dil farklılıkları nedeniyle zordur, özellikle de Rust&#39;ın sahiplik modeli, güvenlik için önemli bir yeniden tasarım gerektirir.- C2Rust gibi araçlar çeviriye yardımcı olur, ancak süreç karmaşıktır ve bazı C programları, doğası gereği güvensiz oldukları için semantiklerini değiştirmeden taşınamaz.- C&#39;yi Rust&#39;a çevirmek güvenliği artırabilir ve hataları ortaya çıkarabilirken, Rust&#39;ın güvenliği genellikle yanlış anlaşılır ve çeviriye yardımcı olan C kodunun resmi doğrulaması her zaman mevcut değildir.</li>
+</ul>
+<h2><a href="https://github.com/izabera/pseudo3d">Bashta Bir Işın Dökümcüsü</a></h2>
+<ul>
+<li>Bir raycaster, Wolfenstein oyunundan esinlenerek Bash&#39;te uygulanmıştır ve Bash&#39;in grafiksel uygulamalar için kullanılmasının zorluklarını göstermektedir.- Proje, Bash&#39;in yavaşlığı, kayan nokta desteğinin olmaması ve terminal kısıtlamaları nedeniyle ekran durumunu korumayı ve performansı optimize etmeyi zorlaştıran sınırlamalarla karşı karşıya kalmaktadır.- Daha iyi çözünürlük için Unicode yarım bloklar kullanmasına rağmen, proje yüksek G/Ç talepleri ve verimsiz renk güncellemeleri ile mücadele etmekte, Bash&#39;in bu tür görevler için kullanılmasının karmaşıklığını vurgulamaktadır.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42475703">Tepkiler</a></h3>
+<ul>
+<li>Bir Bash&#39;ta Raycaster, her sütun için bir kez ışın izleme kullanarak 3D efekti simüle eden, sahneleri minimal <code>echo</code> komutlarıyla verimli bir şekilde işleyen bir projedir.</li>
+<li>Proje, gökyüzü, çimen ve nesneler için çizgiler çizmek amacıyla dize tekrarını kullanmasıyla dikkat çekiyor ve kısıtlı ortamlarda voxel render motorları oluşturmak için ilham verici bir örnek oluşturuyor.</li>
+<li>Bu tartışma, karmaşık görevler için alışılmadık programlama dillerini kullanmadaki yaratıcılığı sergileyen MS Batch ve <code>awk</code> ile benzer ışın izleme projelerini vurgulamaktadır.</li>
+</ul>
+<h2><a href="https://www.bloomberg.com/news/articles/2024-12-20/qualcomm-wins-licensing-fight-with-arm-over-chip-designs">Qualcomm, çip tasarımları konusunda Arm ile olan lisanslama mücadelesini kazandı.</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42475228">Tepkiler</a></h3>
+<ul>
+<li>Qualcomm, özellikle Qualcomm&#39;un Nuvia&#39;yı satın almasıyla ilgili çip tasarımı lisanslaması konusunda Arm ile yaşadığı yasal anlaşmazlıkta zafer kazandı.</li>
+<li>Vaka, Qualcomm&#39;un mevcut lisansının Nuvia&#39;nın tasarımlarını kapsayıp kapsamadığı etrafında dönerken, Arm tüm Arm uyumlu CPU&#39;ların kendi Komut Seti Mimarisi&#39;nin (ISA) türevleri olduğunu iddia ediyordu.</li>
+<li>Jürinin Nuvia&#39;nın lisans ihlali konusundaki kararsızlığı Qualcomm&#39;un lehine oldu, bu durum Arm&#39;ın lisanslama uygulamaları hakkında endişeleri artırdı ve muhtemelen şirketleri açık kaynaklı bir alternatif olan RISC-V&#39;yi düşünmeye teşvik etti.</li>
+</ul>
+<h2><a href="https://github.com/malmeloo/FindMy.py">Python ile Apple&#39;s FindMy Ağına Sorgu Gönderme</a></h2>
+<ul>
+<li>FindMy.py, Apple&#39;ın FindMy ağını sorgulamak için tasarlanmış kapsamlı bir kütüphanedir ve parçalanmış &quot;Find My sahnesini&quot; birleştirmeyi amaçlamaktadır. Şu anda Alpha aşamasındadır, bu da API tasarımının değişikliklere uğrayabileceği anlamına gelir.</li>
+<li>Kütüphane, platformlar arası işlevselliği, konum raporu şifre çözmeyi, Apple hesabı oturum açmayı ve iki faktörlü kimlik doğrulamayı (2FA) destekler, hem asenkron (async) hem de senkron (sync) API&#39;ler sunar.</li>
+<li>Kurulum, <code>pip install findmy</code> komutunu kullanarak PyPi üzerinden yapılabilir ve katkılar teşvik edilmektedir, kod formatlaması için belirli yönergeler sağlanmıştır.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42479233">Tepkiler</a></h3>
+<ul>
+<li>Apple&#39;ın FindMy API&#39;sinin bir Python uygulaması, şu anda FindMy özellikleri için bir Mac gerektiren Linux ve Android kullanıcılarına fayda sağlayarak platformlar arası erişimi artırmayı amaçlıyor.</li>
+<li>Bu araç, Apple&#39;ın ekosistemine bağımlı olmadan konumların ve AirTag&#39;lerin takibini mümkün kılabilir, ancak Apple&#39;ın bu tür projeleri durdurmak için müdahale etme potansiyeli hakkında endişeler bulunmaktadır.</li>
+<li>Metin, Apple&#39;ın sınırlı çapraz platform desteğini ve ekosisteminin dışında ebeveyn denetimleri gibi cihaz özelliklerini yönetmedeki zorlukları vurgulamakta, Blue Bubbles ve Firewalla gibi alternatifler için öneriler sunmaktadır.</li>
+</ul>
+<h2><a href="https://www.honest-broker.com/p/the-ugly-truth-about-spotify-is-finally">Spotify Hakkındaki Çirkin Gerçek Nihayet Ortaya Çıktı</a></h2>
+<ul>
+<li>Bağımsız gazeteci Liz Pelly tarafından yapılan bir araştırma, Spotify&#39;ın özellikle caz ve ambient gibi türlerde kârını artırmak için sahte sanatçılar kullandığını ortaya çıkardı. &quot;Perfect Fit Content&quot; programı olarak bilinen bu uygulama, Spotify&#39;ın gerçek müzisyenlere telif ücreti ödemekten kaçınmasını sağlıyor ve müzik akışında şeffaflık ve düzenleme konularında endişeleri artırıyor. Tartışmalara rağmen, Spotify&#39;ın kârlılığı artarken, müzik endüstrisi ve ana akım medya bu sorunları büyük ölçüde göz ardı etti ve bağımsız gazetecilik bu konuları kamuoyunun dikkatine sunmakla baş başa kaldı.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42478107">Tepkiler</a></h3>
+<ul>
+<li>Makale, Spotify&#39;ın maliyetleri düşürmek için muhtemelen yapay zeka tarafından üretilen düşük kaliteli, jenerik müzikleri gerçek sanatçılara tercih ettiği iddialarına ilişkin endişeleri dile getiriyor.- Kullanıcılar, Spotify&#39;ın müzik önerilerinden memnuniyetsizliklerini ifade ederek, iş uygulamalarının etiği ve sanatçılar üzerindeki etkisi konusunda bir tartışma başlatıyor.- Tartışma, sanatçıların akış hizmetlerinin hakim olduğu bir pazarda karşılaştıkları zorlukları vurguluyor ve bağımsız radyo veya diğer akış hizmetleri gibi alternatifler öneriyor.</li>
+</ul>
+<h2><a href="https://www.os2museum.com/wp/dos-append/">EKLE DOS</a></h2>
+<ul>
+<li>OS/2 Museum blogu, OS/2, DOS ve ilgili konulara odaklanarak eski PC bilgisayarlarını inceliyor. - Son yazılardan biri, DOS 3.3&#39;te ilk kez tanıtılan ve eski DOS uygulamalarının farklı dizinlerdeki dosyalara erişmesine yardımcı olan bir Terminate and Stay Resident (TSR) programı olan DOS APPEND komutunu öne çıkarıyor. - Yazı, APPEND&#39;in tarihini, evrimini ve uygulanmasını ele alarak, modern bilgisayar bağlamlarındaki önemini tartışıyor.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42475011">Tepkiler</a></h3>
+<ul>
+<li>DOS APPEND komutu, assembler&#39;ı değiştirmeden assembler davranışını değiştirmek için modern ortam değişkenleri ve overlayfs montajlarına benzer şekilde tarihsel olarak önemliydi.</li>
+<li>SUBST ve JOIN gibi DOS komutları, dizin eşlemesi ve yol yönetimi için kullanılarak yol uzunluğu sınırlamalarının üstesinden gelinmesine yardımcı oluyordu.</li>
+<li>Metin, DEC minibilgisayarlar üzerindeki DOS&#39;un tarihsel gelişimini ve bilgisayar donanımının minibilgisayarlardan günümüz sistemlerine evrimini içermektedir.</li>
+</ul>
+<head>
+  <meta property="og:title" content="ABD yargıcı, İsrail'in NSO Grubu'nu WhatsApp üzerinden gazetecileri hacklemekten sorumlu buldu." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=ABD%20yarg%C4%B1c%C4%B1%2C%20%C4%B0srail'in%20NSO%20Grubu'nu%20WhatsApp%20%C3%BCzerinden%20gazetecileri%20hacklemekten%20sorumlu%20buldu.&subheading=21%20Aral%C4%B1k%202024%20Cumartesi%3A%20Hacker%20Haber%20%C3%96zeti" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/tr/2024/12/21</link>
+            <guid isPermaLink="false">2024-12-21T00:00:00.000Z</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-12-20]]></title>
             <description
@@ -973,65 +1053,6 @@
             <link>https://hn.cho.sh/tr/2024/12/12</link>
             <guid isPermaLink="false">2024-12-12T00:00:00.000Z</guid>
             <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-11]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/11&#39;</h2>
-<h1>2024-12-11</h1>
-<h2><a href="https://www.nytimes.com/2024/12/10/business/media/the-onion-infowars-alex-jones.html">İflas hakimi, Infowars&#39;un The Onion&#39;a satışını reddetti</a></h2>
-<ul>
-<li>Bir yargıç, Infowars&#39;un The Onion&#39;a satılmasını durdurdu; The Onion, Infowars&#39;u bir hiciv platformuna dönüştürmeyi amaçlıyordu.</li>
-<li>Karar, Sandy Hook kurbanlarının ailelerinin desteğine rağmen alındı ve Infowars&#39;ın geleceğini belirsiz bıraktı.</li>
-<li>Mahkeme tarafından atanan bir kayyum, yeni bir eylem planı belirlemekten sorumlu olurken, The Onion satın alma ile ilgilenmeye devam ediyor.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42384921">Tepkiler</a></h3>
-<ul>
-<li>Bir iflas hakimi, Infowars&#39;un The Onion&#39;a satışını reddetti ve müzayede sürecinin Sandy Hook aileleri de dahil olmak üzere alacaklılar için getirileri maksimize etmediğini belirtti.- Hakim, adil müzayede uygulamaları için gerekli olan rekabetçi teklif vermeyi teşvik etmediği için kapalı teklif sürecini eleştirdi.- The Onion&#39;un teklifi, 1.75 milyon dolar nakit ve Sandy Hook ailelerinin potansiyel iftira davası kazançlarından ek fonlar içeriyordu, bu da müzayedenin adilliği ve yasallığı hakkında sorular ortaya çıkardı.</li>
-</ul>
-<h2><a href="https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/">Gemini 2.0: ajanlık çağı için yeni yapay zeka modelimiz</a></h2>
-<ul>
-<li>Google DeepMind, &quot;ajan dönemi&quot; için tasarlanmış gelişmiş bir yapay zeka modeli olan Gemini 2.0&#39;ı piyasaya sürdü. Bu model, yerel görüntü ve ses çıktısı ile araç kullanımı gibi yeteneklere sahip. Gemini 2.0 Flash şu anda geliştiriciler ve güvenilir test kullanıcıları için erişilebilir durumda ve daha geniş bir sürümün gelecek yılın başlarında beklenmesi, aşamalı bir yayılım stratejisini işaret ediyor. Google, arama, oyunlar ve robotik gibi potansiyel uygulamalarla modelin çok yönlülüğünü ve etik yapay zeka uygulamalarına bağlılığını vurgulayarak, güvenlik ve emniyeti ön planda tutan sorumlu yapay zeka geliştirmeye odaklanıyor.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42388783">Tepkiler</a></h3>
-<ul>
-<li>Google&#39;un Gemini 2.0 yapay zeka modeli, Python kodu yazma ve yürütme yeteneğine sahip &quot;ajan dönemi&quot; için tasarlanmıştır, ancak ağ çağrıları yapamaz. - Model, görsel görevlerde yetkindir ve AI Studio aracılığıyla geliştiricilere ve testçilere erişilebilir, ancak hala halüsinasyonlar ve gereksiz uzunluk gibi sorunlarla karşılaşmaktadır. - Yapay zeka topluluğu, &quot;ajan&quot; ve &quot;akıl yürütme&quot; gibi kullanılan terminolojiyi tartışmakta olup, bazıları bu terimleri pazarlama jargonları olarak değerlendirmektedir.</li>
-</ul>
-<h2><a href="https://www.cnbc.com/2024/12/10/gm-halts-funding-of-robotaxi-development-by-cruise.html">GM, robotaksi pazarından çıkıyor, Cruise operasyonlarını bünyesine alacak</a></h2>
-<ul>
-<li>General Motors (GM), Cruise robotaksi bölümüne olan finansmanını durduruyor ve bunu, kişisel araçlar için otonom sistemlere odaklanmak amacıyla teknoloji ekibine entegre etmeyi tercih ediyor.</li>
-<li>GM, 2025 yılına kadar Cruise hisselerinin kalanını satın almayı hedefliyor ve bu sayede bölüm üzerindeki yıllık harcamalarını yarıdan fazla azaltmayı planlıyor.</li>
-<li>Waymo ve Tesla gibi rakipler robotaksi pazarında ilerlemeye devam ederken, Cruise, bir kazayı bildirmediği için 1,5 milyon dolarlık para cezası gibi zorluklarla karşılaştı.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42381637">Tepkiler</a></h3>
-<ul>
-<li>General Motors (GM), artan rekabet nedeniyle robotaksi pazarından çekiliyor ve Cruise operasyonlarını dahili olarak entegre ediyor.</li>
-<li>İleri düzey otonom teknolojiye sahip olmasına rağmen, GM&#39;nin stratejisi sorgulanıyor; Super Cruise&#39;un test sürüşleri için kullanılamaması gibi sorunlar mevcut.</li>
-<li>Pazar, otonom araçlar için belirsiz, ilgi azalıyor ve Ford gibi şirketler benzer özellikler için maliyetleri düşürürken, Tesla&#39;nın Tam Otonom Sürüş (FSD) sistemi belirli senaryolarda hala zorluklarla karşılaşıyor.</li>
-</ul>
-<h2><a href="https://electric-sql.com/blog/2024/12/10/electric-beta-release">Elektrik (Postgres senkronizasyon motoru) beta sürümü</a></h2>
-<ul>
-<li>Electric&#39;in senkronizasyon motoru, 1.0.0-beta.1 sürümüyle BETA aşamasında, Postgres verilerinin yerel uygulamalara gerçek zamanlı kısmi replikasyonunu kolaylaştırarak mevcut teknoloji yığınlarını değiştirmeden anında yerel veri erişimi sağlar.- Motor, tarayıcılar için hafif bir WebAssembly (WASM) Postgres versiyonu olan PGlite&#39;ı içerir ve altı aylık bir yeniden yazımın ardından üretime hazırdır, Google ve Supabase gibi şirketler tarafından zaten kullanılmaktadır.- Electric, düşük gecikmeli yüksek verimli iş yüklerini destekler, basit API&#39;lerle benimsenmesi kolaydır ve kademeli olarak entegre edilebilir, Electric Cloud adlı yönetilen bir barındırma hizmeti geliştirme aşamasındadır.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42383136">Tepkiler</a></h3>
-<ul>
-<li>ElectricSQL, mühendislik kalitesi ve iş modeli değerlendirmeleri nedeniyle ilgi uyandıran Postgres senkronizasyon motorunun beta sürümünü yayınladı. Motor, verileri Postgres&#39;ten yerel uygulamalara salt okunur replikalar olarak senkronize ediyor ve yüksek okuma, düşük yazma hizmetleri için uygun, ancak yazma yolu senkronizasyonunu desteklemiyor. Kullanıcılar, PowerSync ve Triplit gibi alternatiflerle karşılaştırıldığında potansiyelini tartışıyor ve proje, çoklu tablo senkronizasyonu ve şema değişikliklerindeki zorluklara rağmen yerel/çevrimdışı öncelikli uygulama geliştirmeyi basitleştirmeyi hedefliyor.</li>
-</ul>
-<h2><a href="https://www.courtlistener.com/docket/69221176/64/wpengine-inc-v-automattic-inc/">WPEngine, Inc. vs. Automattic– Ön İhtiyati Tedbir Talebi Üzerine Karar</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42382829">Tepkiler</a></h3>
-<ul>
-<li>WPEngine, Inc. ve Automattic arasındaki dava, Matt Mullenweg&#39;in WPEngine&#39;e zarar verdiği iddia edilen eylemleri nedeniyle bir ön ihtiyati tedbir içeriyor. Mahkeme, WPEngine lehine karar vererek Automattic&#39;in hesap erişimini geri yüklemesini, ACF eklentisini iade etmesini ve tartışmalı bir onay kutusunu kaldırmasını zorunlu kıldı, üstelik teminat gerektirmeden. Bu dava, WordPress topluluğundaki gerilimleri vurguluyor ve açık kaynak yönetimi ile teknoloji şirketlerindeki özel sermayenin etkisi üzerine tartışmaları teşvik ediyor.</li>
-</ul>
-<head>
-  <meta property="og:title" content="İflas hakimi, Infowars'un The Onion'a satışını reddetti" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%C4%B0flas%20hakimi%2C%20Infowars'un%20The%20Onion'a%20sat%C4%B1%C5%9F%C4%B1n%C4%B1%20reddetti&subheading=11%20Aral%C4%B1k%202024%20%C3%87ar%C5%9Famba%3A%20Hacker%20Haber%20%C3%96zeti" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/tr/2024/12/11</link>
-            <guid isPermaLink="false">2024-12-11T00:00:00.000Z</guid>
-            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

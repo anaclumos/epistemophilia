@@ -15,11 +15,91 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Dec 2024 19:16:29 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Dec 2024 19:06:26 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/story/ko.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 20 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
         <language><![CDATA[ko]]></language>
         <ttl>60</ttl>
+        <item>
+            <title
+      ><![CDATA[미국 판사가 이스라엘의 NSO 그룹이 WhatsApp을 통해 기자들을 해킹한 것에 대해 책임이 있다고 판결]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link
+      >https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/</link>
+            <guid
+        isPermaLink="false"
+      >2024-12-21T00:00:00.000Z미국 판사가 이스라엘의 NSO 그룹이 WhatsApp을 통해 기자들을 해킹한 것에 대해 책임이 있다고 판결</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[안전한 러스트로 C 컴파일하기, 형식화됨]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>아이메릭 프롬헤르츠와 조나단 프로첸코의 논문은 C 코드를 안전한 Rust로 번역하는 것에 대해 논의하며, 비안전한 Rust 기능을 피함으로써 메모리 안전성에 중점을 둡니다.</li>
+<li>저자들은 포인터 산술을 위한 &#39;분할 트리&#39;를 사용한 정적 분석, 그리고 Rust에서 C의 구조체 타입을 처리하기 위한 전략을 포함한 타입 지향 번역 방법을 소개합니다.</li>
+<li>그들의 접근 방식은 HACL* 암호화 라이브러리와 EverParse의 이진 파서를 순수 Rust로 작성된 80,000줄의 검증된 암호화 라이브러리로 성공적으로 변환하며, 최소한의 전략적 복사로 성능을 유지합니다.</li>
+</ul>
+]]></description>
+            <link>https://arxiv.org/abs/2412.15042</link>
+            <guid isPermaLink="false">2024-12-21T00:00:00.000Z안전한 러스트로 C 컴파일하기, 형식화됨</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[배시에서의 레이캐스터]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>게임 Wolfenstein에서 영감을 받은 레이캐스터가 Bash로 구현되어, Bash를 그래픽 애플리케이션에 사용하는 데 따른 어려움을 보여주고 있습니다. 이 프로젝트는 Bash의 느린 속도, 부동 소수점 지원 부족, 터미널 제약으로 인해 화면 상태를 유지하고 성능을 최적화하는 데 어려움을 겪고 있습니다. 더 나은 해상도를 위해 유니코드 반 블록을 사용했음에도 불구하고, 프로젝트는 높은 I/O 요구와 비효율적인 색상 업데이트로 인해 어려움을 겪고 있으며, 이러한 작업에 Bash를 사용하는 복잡성을 강조하고 있습니다.</li>
+</ul>
+]]></description>
+            <link>https://github.com/izabera/pseudo3d</link>
+            <guid isPermaLink="false">2024-12-21T00:00:00.000Z배시에서의 레이캐스터</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[퀄컴, 칩 설계 관련 Arm과의 라이선스 분쟁에서 승리]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link
+      >https://www.bloomberg.com/news/articles/2024-12-20/qualcomm-wins-licensing-fight-with-arm-over-chip-designs</link>
+            <guid isPermaLink="false">2024-12-21T00:00:00.000Z퀄컴, 칩 설계 관련 Arm과의 라이선스 분쟁에서 승리</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Python으로 Apple's FindMy 네트워크 쿼리하기]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>FindMy.py는 Apple의 FindMy 네트워크를 쿼리하기 위해 설계된 종합 라이브러리로, 분산된 &#39;Find My-장면&#39;을 통합하는 것을 목표로 합니다. 현재 알파 단계에 있으며, 이는 API 설계가 변경될 수 있음을 의미합니다.</li>
+<li>라이브러리는 크로스 플랫폼 기능, 위치 보고서 해독, Apple 계정 로그인 및 이중 인증(2FA)을 지원하며 비동기(async) 및 동기(sync) API를 모두 제공합니다.</li>
+<li>설치는 <code>pip install findmy</code> 명령어를 사용하여 PyPi를 통해 가능합니다. 기여를 권장하며, 코드 형식에 대한 구체적인 지침이 제공됩니다.</li>
+</ul>
+]]></description>
+            <link>https://github.com/malmeloo/FindMy.py</link>
+            <guid isPermaLink="false">2024-12-21T00:00:00.000ZPython으로 Apple&apos;s FindMy 네트워크 쿼리하기</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[스포티파이에 대한 추악한 진실이 마침내 드러나다]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>독립 언론인 리즈 펠리(Liz Pelly)의 조사에 따르면, 스포티파이(Spotify)가 수익을 증가시키기 위해 가짜 아티스트를 사용하는 것으로 드러났습니다. 특히 재즈와 앰비언트 같은 장르에서 이러한 관행이 두드러집니다. &#39;퍼펙트 핏 콘텐츠(Perfect Fit Content)&#39; 프로그램으로 알려진 이 관행은 스포티파이가 진정한 음악가들에게 로열티를 지불하지 않도록 하여 음악 스트리밍의 투명성과 규제에 대한 우려를 불러일으키고 있습니다. 논란에도 불구하고 스포티파이의 수익성은 개선되었으며, 음악 산업과 주류 미디어는 이러한 문제를 대체로 간과하고 있어 독립 언론이 이를 대중에게 알리는 역할을 하고 있습니다.</li>
+</ul>
+]]></description>
+            <link>https://www.honest-broker.com/p/the-ugly-truth-about-spotify-is-finally</link>
+            <guid isPermaLink="false">2024-12-21T00:00:00.000Z스포티파이에 대한 추악한 진실이 마침내 드러나다</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[DOS APPEND]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>OS/2 Museum 블로그는 OS/2, DOS 및 관련 주제를 중심으로 빈티지 PC 컴퓨팅을 탐구합니다. 최근 게시물에서는 DOS 3.3에서 처음 도입된 DOS APPEND 명령어에 대해 강조합니다. APPEND는 다른 디렉토리의 파일에 접근할 수 있도록 돕는 Terminate and Stay Resident (TSR) 프로그램입니다. 이 게시물은 APPEND의 역사, 진화 및 구현에 대해 깊이 있게 다루며, 현대 컴퓨팅 맥락에서의 중요성을 논의합니다.</li>
+</ul>
+]]></description>
+            <link>https://www.os2museum.com/wp/dos-append/</link>
+            <guid isPermaLink="false">2024-12-21T00:00:00.000ZDOS APPEND</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[오픈 음성 비서의 시대]]></title>
             <description
@@ -1052,68 +1132,6 @@
         isPermaLink="false"
       >2024-12-12T00:00:00.000ZGPT-2(2023)에 의해 지원되는 3000바이트의 C로 작성된 ChatGPT 클론</guid>
             <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[파산 판사, 인포워즈의 더 오니언 매각 거부]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>판사가 Infowars를 풍자 플랫폼으로 변모시키려던 The Onion에 대한 매각을 중단시켰습니다.</li>
-<li>샌디 훅 희생자 가족들의 지지에도 불구하고 결정이 내려져 인포워즈의 미래가 불확실한 상태로 남게 되었다.</li>
-<li>법원이 임명한 수탁자가 이제 새로운 조치를 결정할 책임이 있으며, The Onion은 여전히 인수에 관심을 가지고 있습니다.</li>
-</ul>
-]]></description>
-            <link>https://www.nytimes.com/2024/12/10/business/media/the-onion-infowars-alex-jones.html</link>
-            <guid isPermaLink="false">2024-12-11T00:00:00.000Z파산 판사, 인포워즈의 더 오니언 매각 거부</guid>
-            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Gemini 2.0: 에이전트 시대를 위한 우리의 새로운 AI 모델]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Google DeepMind는 &#39;에이전트 시대&#39;를 위해 설계된 고급 AI 모델인 Gemini 2.0을 출시했습니다. 이 모델은 기본 이미지 및 오디오 출력과 도구 사용과 같은 기능을 갖추고 있습니다. Gemini 2.0 Flash는 현재 개발자와 신뢰할 수 있는 테스터에게 접근 가능하며, 내년 초에 더 넓은 범위로 출시될 예정으로, 단계적 출시 전략을 나타냅니다. Google은 검색, 게임 및 로봇 공학에서의 잠재적 응용을 강조하며, 안전과 보안을 중시하는 책임 있는 AI 개발에 집중하고 있으며, 모델의 다재다능함과 윤리적 AI 실천에 대한 헌신을 강조하고 있습니다.</li>
-</ul>
-]]></description>
-            <link>https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/</link>
-            <guid
-        isPermaLink="false"
-      >2024-12-11T00:00:00.000ZGemini 2.0: 에이전트 시대를 위한 우리의 새로운 AI 모델</guid>
-            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[GM, 로보택시 시장에서 철수하고 크루즈 운영을 내부로 가져올 예정]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>제너럴 모터스(GM)는 크루즈 로보택시 부문에 대한 자금 지원을 중단하고, 이를 기술 팀에 통합하여 개인 차량용 자율 시스템에 집중하기로 결정했습니다.</li>
-<li>GM은 2025년까지 남아 있는 크루즈 주식을 인수하여 해당 부문에 대한 연간 지출을 절반 이상 대폭 줄이는 것을 목표로 하고 있습니다.</li>
-<li>크루즈는 충돌 사고를 보고하지 않아 150만 달러의 벌금을 부과받는 등의 어려움에 직면했으며, 그 사이 웨이모와 테슬라 같은 경쟁업체들은 로보택시 시장에서 계속해서 진전을 이루고 있습니다.</li>
-</ul>
-]]></description>
-            <link>https://www.cnbc.com/2024/12/10/gm-halts-funding-of-robotaxi-development-by-cruise.html</link>
-            <guid
-        isPermaLink="false"
-      >2024-12-11T00:00:00.000ZGM, 로보택시 시장에서 철수하고 크루즈 운영을 내부로 가져올 예정</guid>
-            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Electric (Postgres 동기화 엔진) 베타 출시]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Electric의 동기화 엔진은 현재 1.0.0-beta.1 버전으로 BETA 상태에 있으며, Postgres 데이터를 로컬 앱으로 실시간 부분 복제를 가능하게 하여 기존 기술 스택을 변경하지 않고도 즉각적인 로컬 데이터 액세스를 제공합니다. 이 엔진은 브라우저용 경량 WebAssembly(WASM) 버전의 Postgres인 PGlite를 포함하고 있으며, 6개월간의 재작성 후 프로덕션 준비가 완료되어 Google과 Supabase와 같은 회사에서 이미 사용되고 있습니다. Electric은 낮은 대기 시간으로 높은 처리량의 작업을 지원하며, 간단한 API로 쉽게 채택할 수 있고 점진적으로 통합할 수 있으며, 관리형 호스팅 서비스인 Electric Cloud가 개발 중에 있습니다.</li>
-</ul>
-]]></description>
-            <link>https://electric-sql.com/blog/2024/12/10/electric-beta-release</link>
-            <guid isPermaLink="false">2024-12-11T00:00:00.000ZElectric (Postgres 동기화 엔진) 베타 출시</guid>
-            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[WPEngine, Inc. 대 Automattic – 예비 금지 명령 신청에 대한 명령]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://www.courtlistener.com/docket/69221176/64/wpengine-inc-v-automattic-inc/</link>
-            <guid
-        isPermaLink="false"
-      >2024-12-11T00:00:00.000ZWPEngine, Inc. 대 Automattic – 예비 금지 명령 신청에 대한 명령</guid>
-            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

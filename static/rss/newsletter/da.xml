@@ -15,12 +15,92 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Dec 2024 19:16:30 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Dec 2024 19:06:27 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/da.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 20 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[da]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-12-21]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/12/21&#39;</h2>
+<h1>2024-12-21</h1>
+<h2><a href="https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/">Amerikansk dommer finder Israels NSO Group ansvarlig for hacking af journalister via WhatsApp</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42476828">Reaktioner</a></h3>
+<ul>
+<li>En amerikansk dommer har holdt Israels NSO Group ansvarlig for at hacke journalister via WhatsApp, hvilket rejser spørgsmål om virksomheders ansvar i hacking- og overvågningsaktiviteter.</li>
+<li>Den sag understreger etiske bekymringer i forbindelse med salg og brug af cyberværktøjer, idet de sammenlignes med traditionelle våbensalg, og det fremkalder diskussioner om potentielle juridiske konsekvenser for ledelsen.</li>
+<li>Det henleder også opmærksomheden på bredere emner som privatliv, statslig overvågning og de sociale medievirksomheders ansvar for at beskytte brugerdata.</li>
+</ul>
+<h2><a href="https://arxiv.org/abs/2412.15042">Kompilering af C til Safe Rust, formaliseret</a></h2>
+<ul>
+<li>Papiret af Aymeric Fromherz og Jonathan Protzenko diskuterer oversættelse af C-kode til sikker Rust, med fokus på hukommelsessikkerhed ved at undgå usikre Rust-funktioner.</li>
+<li>Forfatterne introducerer en type-styret oversættelsesmetode, statisk analyse ved brug af &quot;split trees&quot; til pointeraritmetik, og en strategi til håndtering af C&#39;s struct-typer i Rust.</li>
+<li>Deres tilgang oversætter med succes HACL* kryptografibiblioteket og EverParses binære parsere til et verificeret kryptografibibliotek på 80.000 linjer i ren Rust, samtidig med at ydeevnen opretholdes med minimale strategiske kopier.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42476192">Reaktioner</a></h3>
+<ul>
+<li>At konvertere C-kode til Safe Rust er vanskeligt på grund af grundlæggende forskelle mellem sprogene, især Rusts ejerskabsmodel, som kræver en betydelig omdesign for sikkerhed. Værktøjer som C2Rust hjælper med oversættelsen, men processen er kompleks, og nogle C-programmer kan ikke porteres uden at ændre deres semantik på grund af iboende usikkerhed. Mens oversættelse af C til Rust kan forbedre sikkerheden og afsløre fejl, bliver Rusts sikkerhed ofte misforstået, og formel verifikation af C-kode, som hjælper med oversættelsen, er ikke altid tilgængelig.</li>
+</ul>
+<h2><a href="https://github.com/izabera/pseudo3d">En Raycaster i Bash</a></h2>
+<ul>
+<li>En raycaster inspireret af spillet Wolfenstein er blevet implementeret i Bash, hvilket demonstrerer udfordringerne ved at bruge Bash til grafiske applikationer. Projektet står over for begrænsninger på grund af Bash&#39;s langsomhed, mangel på understøttelse af flydende komma-tal og terminalbegrænsninger, hvilket gør det vanskeligt at opretholde skærmtilstand og optimere ydeevnen. På trods af brugen af Unicode halvblokke for bedre opløsning kæmper projektet med høje I/O-krav og ineffektive farveopdateringer, hvilket fremhæver kompleksiteten ved at bruge Bash til sådanne opgaver.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42475703">Reaktioner</a></h3>
+<ul>
+<li>En Raycaster i Bash er et projekt, der simulerer en 3D-effekt ved at anvende raytracing én gang pr. kolonne, hvilket effektivt gengiver scener med et minimalt antal <code>echo</code>-kommandoer.</li>
+<li>Projektet er bemærkelsesværdigt for sin brug af strenggentagelse til at tegne linjer for himmel, græs og objekter, hvilket gør det til et inspirerende eksempel på at skabe voxel-renderingsmotorer i begrænsede miljøer.</li>
+<li>Diskussionen fremhæver lignende raycasting-projekter i MS Batch og <code>awk</code>, der viser kreativitet i brugen af ukonventionelle programmeringssprog til komplekse opgaver.</li>
+</ul>
+<h2><a href="https://www.bloomberg.com/news/articles/2024-12-20/qualcomm-wins-licensing-fight-with-arm-over-chip-designs">Qualcomm vinder licensstrid med Arm om chipdesigns</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42475228">Reaktioner</a></h3>
+<ul>
+<li>Qualcomm har vundet en juridisk tvist med Arm vedrørende chipdesignlicensering, specifikt relateret til Qualcomms opkøb af Nuvia.</li>
+<li>Retssagen drejede sig om, hvorvidt Qualcomms eksisterende licens dækkede Nuvias design, idet Arm hævdede, at alle Arm-kompatible CPU&#39;er var afledninger af deres Instruction Set Architecture (ISA).</li>
+<li>Juryens ubeslutsomhed om Nuvias brud på licensen favoriserede Qualcomm, hvilket rejste bekymringer om Arms licenspraksis og muligvis opmuntrede virksomheder til at overveje RISC-V, et open-source alternativ.</li>
+</ul>
+<h2><a href="https://github.com/malmeloo/FindMy.py">Forespørg Apples FindMy-netværk med Python</a></h2>
+<ul>
+<li>FindMy.py er et omfattende bibliotek designet til at forespørge Apples FindMy-netværk med det formål at konsolidere den fragmenterede &quot;Find My-scene.&quot; Det er i øjeblikket i sin Alpha-fase, hvilket betyder, at dets API-design kan gennemgå ændringer.</li>
+<li>Biblioteket understøtter platformuafhængig funktionalitet, dekryptering af lokalitetsrapporter, Apple-konto login og to-faktor autentifikation (2FA), og tilbyder både asynkrone (async) og synkrone (sync) API&#39;er.</li>
+<li>Installation er tilgængelig via PyPi ved hjælp af kommandoen <code>pip install findmy</code>, og bidrag er opmuntret, med specifikke retningslinjer for kodeformatering til rådighed.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42479233">Reaktioner</a></h3>
+<ul>
+<li>En Python-implementering af Apples FindMy API sigter mod at forbedre adgang på tværs af platforme, hvilket gavner brugere på Linux og Android, som i øjeblikket kræver en Mac for at bruge FindMy-funktioner.</li>
+<li>Dette værktøj kunne muliggøre sporing af placeringer og AirTags uden afhængighed af Apples økosystem, selvom der er bekymringer om Apples potentielle indgriben for at stoppe sådanne projekter.</li>
+<li>Diskussionen fremhæver Apples begrænsede understøttelse på tværs af platforme og de vanskeligheder, der er forbundet med at administrere enhedsfunktioner som forældrekontrol uden for dets økosystem, med forslag til alternativer som Blue Bubbles og Firewalla.</li>
+</ul>
+<h2><a href="https://www.honest-broker.com/p/the-ugly-truth-about-spotify-is-finally">Den grimme sandhed om Spotify er endelig afsløret</a></h2>
+<ul>
+<li>En undersøgelse foretaget af den uafhængige journalist Liz Pelly har afsløret Spotifys brug af falske kunstnere for at øge profitten, især inden for genrer som jazz og ambient. Denne praksis, kendt som &quot;Perfect Fit Content&quot;-programmet, gør det muligt for Spotify at undgå at betale royalties til ægte musikere, hvilket rejser bekymringer om gennemsigtighed og regulering i musikstreaming. På trods af kontroversen er Spotifys rentabilitet forbedret, mens musikindustrien og mainstream-medierne stort set har overset disse problemer, hvilket efterlader det til uafhængig journalistik at bringe dem til offentlighedens opmærksomhed.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42478107">Reaktioner</a></h3>
+<ul>
+<li>Artiklen rejser bekymringer om, at Spotify angiveligt favoriserer lavkvalitets, generisk musik, muligvis AI-genereret, frem for ægte kunstnere for at reducere omkostningerne. - Brugere udtrykker utilfredshed med Spotifys musik-anbefalinger, hvilket udløser en debat om etikken i virksomhedens forretningspraksis og indvirkningen på kunstnere. - Diskussionen understreger de udfordringer, kunstnere står over for i et streaming-domineret marked og foreslår alternativer som uafhængig radio eller andre streamingtjenester.</li>
+</ul>
+<h2><a href="https://www.os2museum.com/wp/dos-append/">DOS APPEND</a></h2>
+<ul>
+<li>OS/2 Museum-bloggen udforsker vintage PC-computing med fokus på OS/2, DOS og relaterede emner. Et nyligt indlæg fremhæver DOS APPEND-kommandoen, et Terminate and Stay Resident (TSR) program, der hjælper ældre DOS-applikationer med at få adgang til filer på tværs af forskellige mapper, først introduceret i DOS 3.3. Indlægget dykker ned i APPEND&#39;s historie, udvikling og implementering og diskuterer dens betydning i moderne computingsammenhænge.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42475011">Reaktioner</a></h3>
+<ul>
+<li>Den DOS APPEND-kommando var historisk betydningsfuld for at ændre assemblerens adfærd uden at ændre selve assembleren, ligesom moderne miljøvariabler og overlayfs-mounts.</li>
+<li>DOS-kommandoer som SUBST og JOIN blev brugt til mappemapping og stihåndtering, hvilket hjalp med at overvinde begrænsninger i stiens længde.</li>
+<li>Diskussionen omfatter DOS&#39;s historiske udvikling på DEC-minicomputere og udviklingen af computerhardware fra minicomputere til nutidens systemer.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Amerikansk dommer finder Israels NSO Group ansvarlig for hacking af journalister via WhatsApp" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Amerikansk%20dommer%20finder%20Israels%20NSO%20Group%20ansvarlig%20for%20hacking%20af%20journalister%20via%20WhatsApp&subheading=l%C3%B8rdag%20den%2021.%20december%202024%3A%20Resum%C3%A9%20af%20Hacker%20News" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/da/2024/12/21</link>
+            <guid isPermaLink="false">2024-12-21T00:00:00.000Z</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-12-20]]></title>
             <description
@@ -973,65 +1053,6 @@
             <link>https://hn.cho.sh/da/2024/12/12</link>
             <guid isPermaLink="false">2024-12-12T00:00:00.000Z</guid>
             <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-11]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/11&#39;</h2>
-<h1>2024-12-11</h1>
-<h2><a href="https://www.nytimes.com/2024/12/10/business/media/the-onion-infowars-alex-jones.html">Dommer i konkursret afviser salg af Infowars til The Onion</a></h2>
-<ul>
-<li>En dommer har stoppet salget af Infowars til The Onion, som havde til hensigt at omdanne det til en satirisk platform.</li>
-<li>Beslutningen blev truffet på trods af opbakning fra Sandy Hook-ofrenes familier, hvilket efterlader Infowars&#39; fremtid i limbo.</li>
-<li>En af retten udpeget kurator er nu ansvarlig for at fastlægge en ny handlingsplan, mens The Onion fortsat er interesseret i opkøbet.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42384921">Reaktioner</a></h3>
-<ul>
-<li>En konkursdommer har afvist salget af Infowars til The Onion og udtalt, at auktionsprocessen ikke maksimerede afkastet for kreditorerne, herunder Sandy Hook-familierne. Dommeren kritiserede den lukkede budproces for ikke at fremme konkurrencepræget budgivning, hvilket er essentielt for retfærdige auktionspraksisser. The Onions bud involverede 1,75 millioner dollars i kontanter, med yderligere midler fra Sandy Hook-familiernes potentielle erstatningsdomme, hvilket rejste spørgsmål om auktionens retfærdighed og lovlighed.</li>
-</ul>
-<h2><a href="https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/">Gemini 2.0: vores nye AI-model til den agentiske æra</a></h2>
-<ul>
-<li>Google DeepMind har lanceret Gemini 2.0, en avanceret AI-model designet til den &quot;agentiske æra,&quot; med funktioner som indbygget billed- og lydoutput samt værktøjsbrug. - Gemini 2.0 Flash er i øjeblikket tilgængelig for udviklere og betroede testere, med en bredere udgivelse forventet tidligt næste år, hvilket indikerer en trinvis udrulningsstrategi. - Google fokuserer på ansvarlig AI-udvikling, med vægt på sikkerhed og tryghed, med potentielle anvendelser inden for søgning, spil og robotteknologi, hvilket fremhæver modellens alsidighed og engagement i etiske AI-praksisser.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42388783">Reaktioner</a></h3>
-<ul>
-<li>Googles Gemini 2.0 AI-model er designet til den &quot;agentiske æra&quot; og er i stand til at skrive og udføre Python-kode, men den kan ikke foretage netværksopkald. Modellen er dygtig til opgaver inden for syn og er tilgængelig for udviklere og testere via AI Studio, selvom den stadig støder på problemer som hallucinationer og ordrigdom. AI-fællesskabet diskuterer den anvendte terminologi, såsom &quot;agentisk&quot; og &quot;resonnering,&quot; hvor nogle betragter disse termer som markedsføringsjargon.</li>
-</ul>
-<h2><a href="https://www.cnbc.com/2024/12/10/gm-halts-funding-of-robotaxi-development-by-cruise.html">GM trækker sig fra robotaximarkedet og vil bringe Cruise-operationer ind i virksomheden.</a></h2>
-<ul>
-<li>General Motors (GM) stopper sin finansiering til Cruise robotaxi-divisionen og vælger at integrere den i sit teknologiteam for at fokusere på autonome systemer til personlige køretøjer.</li>
-<li>GM sigter mod at erhverve de resterende Cruise-aktier inden 2025, hvilket vil reducere dets årlige udgifter til divisionen betydeligt med mere end halvdelen.</li>
-<li>Cruise har stået over for udfordringer, såsom en bøde på 1,5 millioner dollars for ikke at rapportere et sammenstød, mens konkurrenter som Waymo og Tesla fortsætter med at gøre fremskridt på robotaximarkedet.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42381637">Reaktioner</a></h3>
-<ul>
-<li>General Motors (GM) trækker sig fra robotaximarkedet og integrerer Cruise-operationer internt på grund af øget konkurrence.</li>
-<li>På trods af at have avanceret autonom teknologi, bliver GMs strategi stillet spørgsmålstegn ved, med problemer som utilgængeligheden af Super Cruise til prøvekørsler.</li>
-<li>Markedet for autonome køretøjer er usikkert, med faldende interesse og virksomheder som Ford, der skærer ned på omkostningerne for lignende funktioner, mens Teslas Full Self-Driving (FSD) stadig står over for udfordringer i visse scenarier.</li>
-</ul>
-<h2><a href="https://electric-sql.com/blog/2024/12/10/electric-beta-release">Electric (Postgres synkroniseringsmotor) betaudgivelse</a></h2>
-<ul>
-<li>Electrics synkroniseringsmotor, nu i BETA med version 1.0.0-beta.1, muliggør realtids delvis replikering af Postgres-data i lokale apps, hvilket giver øjeblikkelig lokal dataadgang uden at ændre eksisterende teknologistakke. Motoren inkluderer PGlite, en letvægts WebAssembly (WASM) version af Postgres til browsere, og er klar til produktion efter en seks måneders omskrivning, allerede anvendt af virksomheder som Google og Supabase. Electric understøtter høj-gennemstrømnings arbejdsbelastninger med lav latenstid, er nem at tage i brug med simple API&#39;er, og kan integreres gradvist, med Electric Cloud, en administreret hostingtjeneste, under udvikling.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42383136">Reaktioner</a></h3>
-<ul>
-<li>ElectricSQL har udgivet en beta-version af sin Postgres synkroniseringsmotor, hvilket har skabt interesse på grund af dens ingeniørmæssige kvalitet og forretningsmodelovervejelser. Motoren synkroniserer data fra Postgres til lokale applikationer som skrivebeskyttede replikaer, velegnet til tjenester med mange læsninger og få skrivninger, men understøtter ikke synkronisering af skriveveje. Brugere diskuterer dens potentiale sammenlignet med alternativer som PowerSync og Triplit, og projektet sigter mod at forenkle udviklingen af lokale/offline-første apps, på trods af udfordringer med synkronisering af flere tabeller og skemaforandringer.</li>
-</ul>
-<h2><a href="https://www.courtlistener.com/docket/69221176/64/wpengine-inc-v-automattic-inc/">WPEngine, Inc. mod Automattic – Kendelse om begæring om foreløbigt påbud</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42382829">Reaktioner</a></h3>
-<ul>
-<li>Retssagen mellem WPEngine, Inc. og Automattic involverer et foreløbigt påbud på grund af handlinger fra Matt Mullenweg, der angiveligt skadede WPEngine. Retten afgjorde til fordel for WPEngine og pålagde Automattic at genoprette konto-adgang, returnere ACF-pluginet og fjerne en kontroversiel afkrydsningsboks uden at kræve en kaution. Denne sag understreger spændinger i WordPress-fællesskabet og fremkalder diskussioner om open-source styring og private equity&#39;s indflydelse i teknologivirksomheder.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Dommer i konkursret afviser salg af Infowars til The Onion" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Dommer%20i%20konkursret%20afviser%20salg%20af%20Infowars%20til%20The%20Onion&subheading=onsdag%20den%2011.%20december%202024%3A%20Resum%C3%A9%20af%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/da/2024/12/11</link>
-            <guid isPermaLink="false">2024-12-11T00:00:00.000Z</guid>
-            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

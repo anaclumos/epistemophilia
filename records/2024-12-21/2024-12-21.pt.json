@@ -1,0 +1,138 @@
+[
+  {
+    "id": 42476828,
+    "title": "Juiz dos EUA considera o Grupo NSO de Israel responsável por hackear jornalistas via WhatsApp",
+    "originLink": "https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42476828",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "A justiça dos EUA responsabilizou o Grupo NSO de Israel por hackear jornalistas através do WhatsApp, levantando questões sobre a responsabilidade das empresas em atividades de hacking e vigilância.",
+      "O caso destaca preocupações éticas relacionadas à venda e uso de ferramentas cibernéticas, comparando-as à venda de armas tradicionais e provocando discussões sobre possíveis consequências legais para a gestão.",
+      "Também chama a atenção para questões mais amplas, como privacidade, vigilância governamental e a responsabilidade das empresas de mídia social em proteger os dados dos usuários."
+    ],
+    "points": 331,
+    "commentCount": 63,
+    "retryCount": 0,
+    "time": 1734745103
+  },
+  {
+    "id": 42476192,
+    "title": "Compilando C para Rust Seguro, Formalizado",
+    "originLink": "https://arxiv.org/abs/2412.15042",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42476192",
+    "commentBody": "",
+    "originSummary": [
+      "O artigo de Aymeric Fromherz e Jonathan Protzenko discute a tradução de código C para Rust seguro, com foco na segurança de memória ao evitar recursos inseguros do Rust.",
+      "Os autores introduzem um método de tradução orientado por tipos, análise estática usando 'árvores divididas' para aritmética de ponteiros, e uma estratégia para lidar com os tipos de struct do C em Rust.",
+      "Seu método traduz com sucesso a biblioteca criptográfica HACL* e os analisadores binários do EverParse em uma biblioteca criptográfica verificada de 80.000 linhas em Rust puro, mantendo o desempenho com cópias estratégicas mínimas."
+    ],
+    "commentSummary": [
+      "Converter código C para Rust Seguro é difícil devido a diferenças fundamentais entre as linguagens, particularmente o modelo de propriedade do Rust, que exige um redesenho significativo para garantir a segurança. Ferramentas como C2Rust ajudam na tradução, mas o processo é complexo, e alguns programas em C não podem ser portados sem alterar sua semântica devido à insegurança inerente. Embora traduzir C para Rust possa aumentar a segurança e revelar bugs, a segurança do Rust é frequentemente mal compreendida, e a verificação formal do código C, que auxilia na tradução, nem sempre está disponível."
+    ],
+    "points": 257,
+    "commentCount": 114,
+    "retryCount": 0,
+    "time": 1734737403
+  },
+  {
+    "id": 42475703,
+    "title": "Um Raycaster em Bash",
+    "originLink": "https://github.com/izabera/pseudo3d",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475703",
+    "commentBody": "",
+    "originSummary": [
+      "A implementação de um raycaster inspirado no jogo Wolfenstein foi realizada em Bash, demonstrando os desafios de usar Bash para aplicações gráficas. O projeto enfrenta limitações devido à lentidão do Bash, falta de suporte a ponto flutuante e restrições do terminal, tornando difícil manter o estado da tela e otimizar o desempenho. Apesar do uso de blocos de meio Unicode para melhor resolução, o projeto enfrenta dificuldades com altas demandas de I/O e atualizações de cor ineficientes, destacando a complexidade de usar Bash para tais tarefas."
+    ],
+    "commentSummary": [
+      "A Raycaster em Bash é um projeto que simula um efeito 3D usando raytracing uma vez por coluna, renderizando cenas de forma eficiente com comandos `echo` mínimos.",
+      "O projeto é notável por seu uso de repetição de strings para desenhar linhas para céu, grama e objetos, tornando-se um exemplo inspirador para a criação de motores de renderização voxel em ambientes restritos.",
+      "Os debates destacam projetos de raycasting semelhantes em MS Batch e `awk`, mostrando criatividade no uso de linguagens de programação não convencionais para tarefas complexas."
+    ],
+    "points": 215,
+    "commentCount": 29,
+    "retryCount": 0,
+    "time": 1734733545
+  },
+  {
+    "id": 42475228,
+    "title": "Qualcomm vence disputa de licenciamento com a Arm sobre designs de chips",
+    "originLink": "https://www.bloomberg.com/news/articles/2024-12-20/qualcomm-wins-licensing-fight-with-arm-over-chip-designs",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475228",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Qualcomm saiu vitoriosa em uma disputa legal com a Arm sobre licenciamento de design de chips, especificamente relacionada à aquisição da Nuvia pela Qualcomm.",
+      "O caso girava em torno de saber se a licença existente da Qualcomm cobria os designs da Nuvia, com a Arm afirmando que todas as CPUs compatíveis com Arm eram derivadas de sua Arquitetura de Conjunto de Instruções (ISA).",
+      "A indecisão do júri sobre a violação de licença da Nuvia favoreceu a Qualcomm, levantando preocupações sobre as práticas de licenciamento da Arm e possivelmente encorajando empresas a considerarem o RISC-V, uma alternativa de código aberto."
+    ],
+    "points": 196,
+    "commentCount": 108,
+    "retryCount": 0,
+    "time": 1734730133
+  },
+  {
+    "id": 42479233,
+    "title": "Consultar a rede FindMy da Apple com Python",
+    "originLink": "https://github.com/malmeloo/FindMy.py",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42479233",
+    "commentBody": "",
+    "originSummary": [
+      "FindMy.py é uma biblioteca abrangente projetada para consultar a rede FindMy da Apple, com o objetivo de consolidar o fragmentado \"Find My-scene\". Atualmente, está em sua fase Alpha, o que significa que o design de sua API pode passar por mudanças.",
+      "A biblioteca oferece suporte a funcionalidades multiplataforma, descriptografia de relatórios de localização, login em contas Apple e autenticação de dois fatores (2FA), oferecendo APIs tanto assíncronas (async) quanto síncronas (sync).",
+      "Instalação está disponível via PyPi usando o comando `pip install findmy`, e contribuições são incentivadas, com diretrizes específicas para formatação de código fornecidas."
+    ],
+    "commentSummary": [
+      "A implementação em Python da API FindMy da Apple visa melhorar o acesso entre plataformas, beneficiando usuários de Linux e Android que atualmente precisam de um Mac para recursos do FindMy.",
+      "Esta ferramenta poderia permitir o rastreamento de locais e AirTags sem depender do ecossistema da Apple, embora haja preocupações sobre a possível intervenção da Apple para interromper tais projetos.",
+      "A discussão destaca o suporte limitado da Apple para múltiplas plataformas e as dificuldades em gerenciar recursos de dispositivos, como controles parentais, fora de seu ecossistema, com sugestões de alternativas como Blue Bubbles e Firewalla."
+    ],
+    "points": 184,
+    "commentCount": 91,
+    "retryCount": 0,
+    "time": 1734783295
+  },
+  {
+    "id": 42478107,
+    "title": "A verdade feia sobre o Spotify é finalmente revelada",
+    "originLink": "https://www.honest-broker.com/p/the-ugly-truth-about-spotify-is-finally",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42478107",
+    "commentBody": "",
+    "originSummary": [
+      "Uma investigação da jornalista independente Liz Pelly revelou o uso de artistas falsos pelo Spotify para aumentar os lucros, especialmente em gêneros como jazz e ambient. Essa prática, conhecida como o programa \"Perfect Fit Content\", permite que o Spotify evite pagar royalties a músicos genuínos, levantando preocupações sobre transparência e regulamentação no streaming de música. Apesar da controvérsia, a lucratividade do Spotify melhorou, enquanto a indústria musical e a mídia tradicional em grande parte ignoraram essas questões, deixando o jornalismo independente para trazê-las à atenção pública."
+    ],
+    "commentSummary": [
+      "A matéria levanta preocupações sobre o Spotify supostamente favorecer músicas genéricas e de baixa qualidade, possivelmente geradas por IA, em detrimento de artistas genuínos para reduzir custos. - Usuários expressam insatisfação com as recomendações musicais do Spotify, gerando um debate sobre a ética de suas práticas comerciais e o impacto nos artistas. - A discussão destaca os desafios enfrentados pelos artistas em um mercado dominado por streaming e sugere alternativas como rádios independentes ou outros serviços de streaming."
+    ],
+    "points": 173,
+    "commentCount": 216,
+    "retryCount": 0,
+    "time": 1734767128
+  },
+  {
+    "id": 42475011,
+    "title": "APPEND DO DOS",
+    "originLink": "https://www.os2museum.com/wp/dos-append/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475011",
+    "commentBody": "",
+    "originSummary": [
+      "O blog OS/2 Museum explora a computação vintage em PCs, com foco no OS/2, DOS e assuntos relacionados. Uma postagem recente destaca o comando DOS APPEND, um programa Terminate and Stay Resident (TSR) que auxilia aplicativos mais antigos do DOS a acessar arquivos em diferentes diretórios, introduzido pela primeira vez no DOS 3.3. A postagem aprofunda-se na história, evolução e implementação do APPEND, discutindo sua importância nos contextos de computação modernos."
+    ],
+    "commentSummary": [
+      "O comando DOS APPEND foi historicamente significativo para modificar o comportamento do montador sem alterar o montador, semelhante às variáveis de ambiente modernas e montagens overlayfs.",
+      "Comandos DOS como SUBST e JOIN eram usados para mapeamento de diretórios e gerenciamento de caminhos, ajudando a superar limitações de comprimento de caminho.",
+      "A discussão inclui o desenvolvimento histórico do DOS em minicomputadores DEC e a evolução do hardware de computação de minicomputadores para os sistemas atuais."
+    ],
+    "points": 112,
+    "commentCount": 53,
+    "retryCount": 0,
+    "time": 1734728699
+  }
+]

@@ -15,11 +15,90 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Dec 2024 19:16:30 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Dec 2024 19:06:26 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/story/he.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 20 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
         <language><![CDATA[he]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[בית משפט בארה"ב מצא את קבוצת NSO הישראלית אחראית לפריצה לעיתונאים דרך וואטסאפ]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link
+      >https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/</link>
+            <guid
+        isPermaLink="false"
+      >2024-12-21T00:00:00.000Zבית משפט בארה&quot;ב מצא את קבוצת NSO הישראלית אחראית לפריצה לעיתונאים דרך וואטסאפ</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[קומפילציה של C ל-Rust בטוח, פורמלית]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>המאמר מאת איימריק פרומהרץ וג&#39;ונתן פרוצנקו עוסק בתרגום קוד C ל-Rust בטוח, תוך התמקדות בבטיחות זיכרון על ידי הימנעות מתכונות לא בטוחות של Rust.</li>
+<li>המחברים מציגים שיטת תרגום מונחית-סוג, ניתוח סטטי באמצעות &#39;עצים מפוצלים&#39; לאריתמטיקת מצביעים, ואסטרטגיה לטיפול בסוגי מבנים של C ב-Rust.</li>
+<li>הגישה שלהם מתרגמת בהצלחה את ספריית ההצפנה HACL* ואת המנתחים הבינאריים של EverParse לספריית הצפנה מאומתת בת 80,000 שורות ב-Rust טהור, תוך שמירה על ביצועים עם מינימום העתקות אסטרטגיות.</li>
+</ul>
+]]></description>
+            <link>https://arxiv.org/abs/2412.15042</link>
+            <guid isPermaLink="false">2024-12-21T00:00:00.000Zקומפילציה של C ל-Rust בטוח, פורמלית</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Raycaster בבאש]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>קרן בהשראת המשחק Wolfenstein יושמה ב-Bash, מה שמדגים את האתגרים בשימוש ב-Bash ליישומים גרפיים. הפרויקט מתמודד עם מגבלות בשל האיטיות של Bash, היעדר תמיכה בנקודה צפה ומגבלות הטרמינל, מה שמקשה על שמירת מצב המסך ואופטימיזציה של הביצועים. למרות השימוש בבלוקים חצי-יוניקוד לשיפור הרזולוציה, הפרויקט נאבק בדרישות I/O גבוהות ועדכוני צבע לא יעילים, מה שמדגיש את המורכבות בשימוש ב-Bash למשימות כאלה.</li>
+</ul>
+]]></description>
+            <link>https://github.com/izabera/pseudo3d</link>
+            <guid isPermaLink="false">2024-12-21T00:00:00.000ZRaycaster בבאש</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[קוולקום מנצחת במאבק הרישוי עם ארם על עיצובי שבבים]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link
+      >https://www.bloomberg.com/news/articles/2024-12-20/qualcomm-wins-licensing-fight-with-arm-over-chip-designs</link>
+            <guid isPermaLink="false">2024-12-21T00:00:00.000Zקוולקום מנצחת במאבק הרישוי עם ארם על עיצובי שבבים</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[שליחת שאילתה לרשת FindMy של אפל באמצעות פייתון]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>FindMy.py היא ספרייה מקיפה שנועדה לשאול את רשת FindMy של אפל, במטרה לאחד את ה&quot;סצנת Find My&quot; המפוזרת. היא נמצאת כרגע בשלב האלפא שלה, מה שאומר שעיצוב ה-API שלה עשוי לעבור שינויים.</li>
+<li>הספרייה תומכת בפונקציונליות חוצת פלטפורמות, פענוח דוחות מיקום, כניסה לחשבון אפל ואימות דו-שלבי (2FA), ומציעה ממשקי API אסינכרוניים (async) וסינכרוניים (sync).</li>
+<li>ניתן להתקין דרך PyPi באמצעות הפקודה <code>pip install findmy</code>, ומעודדים תרומות, עם הנחיות ספציפיות לעיצוב קוד המסופקות.</li>
+</ul>
+]]></description>
+            <link>https://github.com/malmeloo/FindMy.py</link>
+            <guid isPermaLink="false">2024-12-21T00:00:00.000Zשליחת שאילתה לרשת FindMy של אפל באמצעות פייתון</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[האמת המכוערת על ספוטיפיי נחשפת סוף סוף]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>חקירה של העיתונאית העצמאית ליז פלי חשפה את השימוש של ספוטיפיי באמנים מזויפים להגדלת רווחים, במיוחד בז&#39;אנרים כמו ג&#39;אז ואמביינט. - פרקטיקה זו, הידועה כתוכנית &quot;תוכן מתאים מושלם&quot;, מאפשרת לספוטיפיי להימנע מתשלום תמלוגים למוזיקאים אמיתיים, מה שמעלה חששות לגבי שקיפות ורגולציה בהזרמת מוזיקה. - למרות המחלוקת, הרווחיות של ספוטיפיי השתפרה, בעוד שתעשיית המוזיקה והמדיה המרכזית התעלמו במידה רבה מהנושאים הללו, מה שמשאיר את העיתונות העצמאית להביא אותם לתשומת לב הציבור.</li>
+</ul>
+]]></description>
+            <link>https://www.honest-broker.com/p/the-ugly-truth-about-spotify-is-finally</link>
+            <guid isPermaLink="false">2024-12-21T00:00:00.000Zהאמת המכוערת על ספוטיפיי נחשפת סוף סוף</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[צרף DOS]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>הבלוג של מוזיאון OS/2 חוקר את המחשוב הוותיק של מחשבי PC, עם דגש על OS/2, DOS ונושאים קשורים. פוסט עדכני מדגיש את הפקודה APPEND ב-DOS, תוכנית TSR (Terminate and Stay Resident) המסייעת ליישומי DOS ישנים לגשת לקבצים בספריות שונות, שהוצגה לראשונה ב-DOS 3.3. הפוסט מתעמק בהיסטוריה, התפתחות ויישום של APPEND, ודן בחשיבותה בהקשרים של מחשוב מודרני.</li>
+</ul>
+]]></description>
+            <link>https://www.os2museum.com/wp/dos-append/</link>
+            <guid isPermaLink="false">2024-12-21T00:00:00.000Zצרף DOS</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[העידן של עוזרי קול פתוחים]]></title>
             <description
@@ -1047,68 +1126,6 @@
         isPermaLink="false"
       >2024-12-12T00:00:00.000Zשיבוט של ChatGPT, ב-3000 בתים של C, הנתמך על ידי GPT-2 (2023)</guid>
             <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[שופט פשיטת רגל דוחה את מכירת אינפווארס ל-The Onion]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>השופט עצר את מכירת אינפווארס לאוניון, שהתכוונה להפוך אותה לפלטפורמה סאטירית.</li>
-<li>ההחלטה התקבלה למרות התמיכה ממשפחות הקורבנות של סנדי הוק, מה שמשאיר את עתיד אינפווארס באי ודאות.</li>
-<li>הנאמן שמונה על ידי בית המשפט אחראי כעת לקבוע דרך פעולה חדשה, בעוד שהעיתון The Onion ממשיך לגלות עניין ברכישה.</li>
-</ul>
-]]></description>
-            <link>https://www.nytimes.com/2024/12/10/business/media/the-onion-infowars-alex-jones.html</link>
-            <guid isPermaLink="false">2024-12-11T00:00:00.000Zשופט פשיטת רגל דוחה את מכירת אינפווארס ל-The Onion</guid>
-            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ג'מיני 2.0: מודל הבינה המלאכותית החדש שלנו לעידן הסוכני]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Google DeepMind השיקה את Gemini 2.0, מודל AI מתקדם המיועד ל&quot;עידן הסוכני&quot;, הכולל יכולות כמו פלט תמונה ושמע טבעיים ושימוש בכלים. Gemini 2.0 Flash נגיש כרגע למפתחים ובודקים מהימנים, עם שחרור רחב יותר הצפוי בתחילת השנה הבאה, מה שמצביע על אסטרטגיית השקה מדורגת. Google מתמקדת בפיתוח AI אחראי, תוך הדגשת בטיחות ואבטחה, עם יישומים פוטנציאליים בחיפוש, משחקים ורובוטיקה, מה שמדגיש את הרבגוניות של המודל ואת המחויבות לפרקטיקות AI אתיות.</li>
-</ul>
-]]></description>
-            <link>https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/</link>
-            <guid
-        isPermaLink="false"
-      >2024-12-11T00:00:00.000Zג&apos;מיני 2.0: מודל הבינה המלאכותית החדש שלנו לעידן הסוכני</guid>
-            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[GM יוצאת משוק המוניות הרובוטיות ותביא את פעילות קרוז לתוך החברה]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>ג&#39;נרל מוטורס (GM) מפסיקה את המימון לחטיבת הרובוטקסי קרוז, ובוחרת לשלב אותה בצוות הטכנולוגי שלה כדי להתמקד במערכות אוטונומיות לכלי רכב אישיים.</li>
-<li>GM שואפת לרכוש את יתרת מניות קרוז עד 2025, ובכך להפחית באופן משמעותי את ההוצאה השנתית שלה על החטיבה ביותר מחצי.</li>
-<li>כוז נתקלת באתגרים, כמו קנס של 1.5 מיליון דולר על אי דיווח על תאונה, בעוד שמתחרים כמו וויימו וטסלה ממשיכים להתקדם בשוק המוניות הרובוטיות.</li>
-</ul>
-]]></description>
-            <link>https://www.cnbc.com/2024/12/10/gm-halts-funding-of-robotaxi-development-by-cruise.html</link>
-            <guid
-        isPermaLink="false"
-      >2024-12-11T00:00:00.000ZGM יוצאת משוק המוניות הרובוטיות ותביא את פעילות קרוז לתוך החברה</guid>
-            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[גרסת בטא של מנוע הסנכרון Electric (Postgres)]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>מנוע הסנכרון של Electric, כעת בגרסת BETA עם גרסה 1.0.0-beta.1, מאפשר שכפול חלקי בזמן אמת של נתוני Postgres לאפליקציות מקומיות, ומאפשר גישה מיידית לנתונים מקומיים ללא שינוי מערכות הטכנולוגיה הקיימות. המנוע כולל את PGlite, גרסת WebAssembly (WASM) קלת משקל של Postgres לדפדפנים, ומוכן לשימוש בייצור לאחר כתיבה מחדש של שישה חודשים, כבר בשימוש על ידי חברות כמו Google ו-Supabase. Electric תומך בעומסי עבודה בעלי תפוקה גבוהה עם השהיה נמוכה, קל לאימוץ עם ממשקי API פשוטים, וניתן לשילוב באופן הדרגתי, עם Electric Cloud, שירות אירוח מנוהל, בפיתוח.</li>
-</ul>
-]]></description>
-            <link>https://electric-sql.com/blog/2024/12/10/electric-beta-release</link>
-            <guid isPermaLink="false">2024-12-11T00:00:00.000Zגרסת בטא של מנוע הסנכרון Electric (Postgres)</guid>
-            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[וורדפרס אינג'ין בע"מ נגד אוטומטיק – צו על בקשה לצו מניעה זמני]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://www.courtlistener.com/docket/69221176/64/wpengine-inc-v-automattic-inc/</link>
-            <guid
-        isPermaLink="false"
-      >2024-12-11T00:00:00.000Zוורדפרס אינג&apos;ין בע&quot;מ נגד אוטומטיק – צו על בקשה לצו מניעה זמני</guid>
-            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

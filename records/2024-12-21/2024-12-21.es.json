@@ -1,0 +1,138 @@
+[
+  {
+    "id": 42476828,
+    "title": "Un juez de EE. UU. declara responsable al Grupo NSO de Israel por hackear a periodistas a través de WhatsApp",
+    "originLink": "https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42476828",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Un juez de EE. UU. ha responsabilizado al Grupo NSO de Israel por hackear a periodistas a través de WhatsApp, lo que plantea preguntas sobre la responsabilidad de las empresas en actividades de hackeo y vigilancia.",
+      "La situación subraya preocupaciones éticas relacionadas con la venta y uso de herramientas cibernéticas, comparándolas con la venta de armas tradicionales, y provocando discusiones sobre las posibles consecuencias legales para la gestión.",
+      "También llama la atención sobre cuestiones más amplias como la privacidad, la vigilancia gubernamental y la responsabilidad de las empresas de redes sociales en la protección de los datos de los usuarios."
+    ],
+    "points": 331,
+    "commentCount": 63,
+    "retryCount": 0,
+    "time": 1734745103
+  },
+  {
+    "id": 42476192,
+    "title": "Compilando C a Rust Seguro, Formalizado",
+    "originLink": "https://arxiv.org/abs/2412.15042",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42476192",
+    "commentBody": "",
+    "originSummary": [
+      "La publicación de Aymeric Fromherz y Jonathan Protzenko discute la traducción de código C a Rust seguro, centrándose en la seguridad de la memoria al evitar características inseguras de Rust.",
+      "Los autores presentan un método de traducción dirigido por tipos, un análisis estático utilizando \"árboles divididos\" para la aritmética de punteros, y una estrategia para manejar los tipos de estructuras de C en Rust.",
+      "Su enfoque traduce con éxito la biblioteca criptográfica HACL* y los analizadores binarios de EverParse en una biblioteca criptográfica verificada de 80,000 líneas en Rust puro, manteniendo el rendimiento con copias estratégicas mínimas."
+    ],
+    "commentSummary": [
+      "Convertir código C a Rust seguro es difícil debido a diferencias fundamentales entre los lenguajes, particularmente el modelo de propiedad de Rust, que requiere un rediseño significativo para garantizar la seguridad. Herramientas como C2Rust ayudan en la traducción, pero el proceso es complejo, y algunos programas en C no pueden ser portados sin cambiar su semántica debido a su inseguridad inherente. Aunque traducir C a Rust puede mejorar la seguridad y revelar errores, la seguridad de Rust a menudo se malinterpreta, y la verificación formal del código C, que ayuda en la traducción, no siempre está disponible."
+    ],
+    "points": 257,
+    "commentCount": 114,
+    "retryCount": 0,
+    "time": 1734737403
+  },
+  {
+    "id": 42475703,
+    "title": "Un Raycaster en Bash",
+    "originLink": "https://github.com/izabera/pseudo3d",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475703",
+    "commentBody": "",
+    "originSummary": [
+      "Se ha implementado un raycaster inspirado en el juego Wolfenstein en Bash, demostrando los desafíos de usar Bash para aplicaciones gráficas. El proyecto enfrenta limitaciones debido a la lentitud de Bash, la falta de soporte para números de punto flotante y las restricciones del terminal, lo que dificulta mantener el estado de la pantalla y optimizar el rendimiento. A pesar de usar bloques de medio Unicode para una mejor resolución, el proyecto lucha con las altas demandas de E/S y las actualizaciones de color ineficientes, destacando la complejidad de usar Bash para tales tareas."
+    ],
+    "commentSummary": [
+      "Un Raycaster en Bash es un proyecto que simula un efecto 3D utilizando trazado de rayos una vez por columna, renderizando escenas de manera eficiente con comandos `echo` mínimos.",
+      "El proyecto es notable por su uso de la repetición de cadenas para dibujar líneas para el cielo, el césped y los objetos, lo que lo convierte en un ejemplo inspirador para crear motores de renderizado voxel en entornos restringidos.",
+      "La discusión destaca proyectos de raycasting similares en MS Batch y `awk`, mostrando creatividad en el uso de lenguajes de programación no convencionales para tareas complejas."
+    ],
+    "points": 215,
+    "commentCount": 29,
+    "retryCount": 0,
+    "time": 1734733545
+  },
+  {
+    "id": 42475228,
+    "title": "Qualcomm gana la disputa de licencias con Arm sobre diseños de chips",
+    "originLink": "https://www.bloomberg.com/news/articles/2024-12-20/qualcomm-wins-licensing-fight-with-arm-over-chip-designs",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475228",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Qualcomm ha salido victorioso en una disputa legal con Arm sobre la concesión de licencias de diseño de chips, específicamente relacionada con la adquisición de Nuvia por parte de Qualcomm.",
+      "La cuestión giraba en torno a si la licencia existente de Qualcomm cubría los diseños de Nuvia, con Arm afirmando que todas las CPU compatibles con Arm eran derivadas de su Arquitectura de Conjunto de Instrucciones (ISA).",
+      "La indecisión del jurado sobre el incumplimiento de licencia de Nuvia favoreció a Qualcomm, lo que generó preocupaciones sobre las prácticas de licenciamiento de Arm y posiblemente alentó a las empresas a considerar RISC-V, una alternativa de código abierto."
+    ],
+    "points": 196,
+    "commentCount": 108,
+    "retryCount": 0,
+    "time": 1734730133
+  },
+  {
+    "id": 42479233,
+    "title": "Consultar la red FindMy de Apple con Python",
+    "originLink": "https://github.com/malmeloo/FindMy.py",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42479233",
+    "commentBody": "",
+    "originSummary": [
+      "FindMy.py es una biblioteca integral diseñada para consultar la red FindMy de Apple, con el objetivo de consolidar la fragmentada \"escena de Find My\". Actualmente se encuentra en su etapa Alpha, lo que significa que el diseño de su API puede sufrir cambios.",
+      "La biblioteca admite funcionalidad multiplataforma, descifrado de informes de ubicación, inicio de sesión en cuentas de Apple y autenticación de dos factores (2FA), ofreciendo tanto APIs asincrónicas (async) como sincrónicas (sync).",
+      "Está disponible la instalación a través de PyPi usando el comando `pip install findmy`, y se fomenta la contribución, con pautas específicas para el formato del código proporcionadas."
+    ],
+    "commentSummary": [
+      "Una implementación en Python de la API FindMy de Apple tiene como objetivo mejorar el acceso multiplataforma, beneficiando a los usuarios de Linux y Android que actualmente requieren una Mac para las funciones de FindMy.",
+      "Esta herramienta podría permitir el seguimiento de ubicaciones y AirTags sin depender del ecosistema de Apple, aunque existen preocupaciones sobre la posible intervención de Apple para detener tales proyectos.",
+      "La discusión destaca el soporte limitado de Apple para múltiples plataformas y las dificultades para gestionar funciones del dispositivo, como los controles parentales, fuera de su ecosistema, con sugerencias de alternativas como Blue Bubbles y Firewalla."
+    ],
+    "points": 184,
+    "commentCount": 91,
+    "retryCount": 0,
+    "time": 1734783295
+  },
+  {
+    "id": 42478107,
+    "title": "La fea verdad sobre Spotify finalmente se revela",
+    "originLink": "https://www.honest-broker.com/p/the-ugly-truth-about-spotify-is-finally",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42478107",
+    "commentBody": "",
+    "originSummary": [
+      "Una investigación de la periodista independiente Liz Pelly ha descubierto el uso de artistas falsos por parte de Spotify para aumentar las ganancias, particularmente en géneros como el jazz y el ambient. Esta práctica, conocida como el programa de \"Contenido de Ajuste Perfecto\", permite a Spotify evitar pagar regalías a músicos genuinos, lo que genera preocupaciones sobre la transparencia y la regulación en la transmisión de música. A pesar de la controversia, la rentabilidad de Spotify ha mejorado, mientras que la industria musical y los medios de comunicación convencionales han pasado por alto en gran medida estos problemas, dejando al periodismo independiente la tarea de llevarlos a la atención pública."
+    ],
+    "commentSummary": [
+      "La artículo plantea preocupaciones sobre que Spotify supuestamente favorece música de baja calidad y genérica, posiblemente generada por IA, sobre artistas genuinos para reducir costos. Los usuarios expresan insatisfacción con las recomendaciones musicales de Spotify, lo que genera un debate sobre la ética de sus prácticas comerciales y el impacto en los artistas. La discusión subraya los desafíos que enfrentan los artistas en un mercado dominado por el streaming y sugiere alternativas como la radio independiente u otros servicios de streaming."
+    ],
+    "points": 173,
+    "commentCount": 216,
+    "retryCount": 0,
+    "time": 1734767128
+  },
+  {
+    "id": 42475011,
+    "title": "APENDIZAR DOS",
+    "originLink": "https://www.os2museum.com/wp/dos-append/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475011",
+    "commentBody": "",
+    "originSummary": [
+      "El blog del Museo OS/2 explora la computación vintage en PC, con un enfoque en OS/2, DOS y temas relacionados. Una publicación reciente destaca el comando DOS APPEND, un programa Terminate and Stay Resident (TSR) que ayuda a las aplicaciones DOS más antiguas a acceder a archivos en diferentes directorios, introducido por primera vez en DOS 3.3. La publicación profundiza en la historia, evolución e implementación de APPEND, discutiendo su importancia en contextos de computación modernos."
+    ],
+    "commentSummary": [
+      "El comando DOS APPEND fue históricamente significativo para modificar el comportamiento del ensamblador sin cambiar el ensamblador, similar a las variables de entorno modernas y los montajes de overlayfs.",
+      "Los comandos DOS como SUBST y JOIN se utilizaban para el mapeo de directorios y la gestión de rutas, ayudando a superar las limitaciones de longitud de ruta.",
+      "La discusión incluye el desarrollo histórico de DOS en minicomputadoras DEC y la evolución del hardware de computación desde minicomputadoras hasta los sistemas actuales."
+    ],
+    "points": 112,
+    "commentCount": 53,
+    "retryCount": 0,
+    "time": 1734728699
+  }
+]

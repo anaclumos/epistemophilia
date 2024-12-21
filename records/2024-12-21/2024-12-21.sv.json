@@ -1,0 +1,138 @@
+[
+  {
+    "id": 42476828,
+    "title": "Amerikansk domare finner Israels NSO Group ansvarig för att ha hackat journalister via WhatsApp",
+    "originLink": "https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42476828",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "En amerikansk domare har hållit Israels NSO Group ansvarig för att ha hackat journalister via WhatsApp, vilket väcker frågor om företags ansvar i hackning och övervakningsaktiviteter.",
+      "Fallet understryker etiska bekymmer relaterade till försäljning och användning av cyberverktyg, och liknar dem vid traditionell vapenförsäljning, vilket leder till diskussioner om potentiella juridiska konsekvenser för ledningen.",
+      "Det uppmärksammar också bredare frågor som integritet, statlig övervakning och sociala medieföretags ansvar för att skydda användardata."
+    ],
+    "points": 331,
+    "commentCount": 63,
+    "retryCount": 0,
+    "time": 1734745103
+  },
+  {
+    "id": 42476192,
+    "title": "Kompilera C till säker Rust, formaliserat",
+    "originLink": "https://arxiv.org/abs/2412.15042",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42476192",
+    "commentBody": "",
+    "originSummary": [
+      "Artikeln av Aymeric Fromherz och Jonathan Protzenko diskuterar översättning av C-kod till säker Rust, med fokus på minnessäkerhet genom att undvika osäkra Rust-funktioner.",
+      "Författarna introducerar en typstyrd översättningsmetod, statisk analys med hjälp av 'delade träd' för pekararitmetik, och en strategi för att hantera C:s struct-typer i Rust.",
+      "Deras metod översätter framgångsrikt HACL*-kryptografibiblioteket och EverParses binära parsers till ett verifierat kryptografibibliotek på 80 000 rader i ren Rust, samtidigt som prestandan bibehålls med minimala strategiska kopior."
+    ],
+    "commentSummary": [
+      "Att konvertera C-kod till Safe Rust är svårt på grund av grundläggande språkskillnader, särskilt Rusts ägandemodell, som kräver betydande omdesign för säkerhet. Verktyg som C2Rust hjälper till med översättningen, men processen är komplex, och vissa C-program kan inte porteras utan att ändra deras semantik på grund av inneboende osäkerhet. Även om översättning från C till Rust kan öka säkerheten och avslöja buggar, missförstås ofta Rusts säkerhet, och formell verifiering av C-kod, som underlättar översättningen, är inte alltid tillgänglig."
+    ],
+    "points": 257,
+    "commentCount": 114,
+    "retryCount": 0,
+    "time": 1734737403
+  },
+  {
+    "id": 42475703,
+    "title": "En Raycaster i Bash",
+    "originLink": "https://github.com/izabera/pseudo3d",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475703",
+    "commentBody": "",
+    "originSummary": [
+      "Ett raycaster inspirerat av spelet Wolfenstein har implementerats i Bash, vilket demonstrerar utmaningarna med att använda Bash för grafiska applikationer. Projektet står inför begränsningar på grund av Bashs långsamhet, brist på flyttalsstöd och terminalbegränsningar, vilket gör det svårt att upprätthålla skärmtillstånd och optimera prestanda. Trots användningen av Unicode halvblock för bättre upplösning, kämpar projektet med höga I/O-krav och ineffektiva färguppdateringar, vilket belyser komplexiteten i att använda Bash för sådana uppgifter."
+    ],
+    "commentSummary": [
+      "Ett Raycaster i Bash är ett projekt som simulerar en 3D-effekt genom att använda raytracing en gång per kolumn, vilket effektivt renderar scener med minimala `echo`-kommandon.",
+      "Projektet är anmärkningsvärt för sin användning av strängupprepning för att dra linjer för himmel, gräs och objekt, vilket gör det till ett inspirerande exempel för att skapa voxel-renderingsmotorer i begränsade miljöer.",
+      "Diskussionen lyfter fram liknande raycasting-projekt i MS Batch och `awk`, vilket visar på kreativitet i att använda okonventionella programmeringsspråk för komplexa uppgifter."
+    ],
+    "points": 215,
+    "commentCount": 29,
+    "retryCount": 0,
+    "time": 1734733545
+  },
+  {
+    "id": 42475228,
+    "title": "Qualcomm vinner licensstrid med Arm om chipdesigner",
+    "originLink": "https://www.bloomberg.com/news/articles/2024-12-20/qualcomm-wins-licensing-fight-with-arm-over-chip-designs",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475228",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Qualcomm har segrat i en rättslig tvist med Arm angående licensiering av chipdesign, specifikt relaterat till Qualcomms förvärv av Nuvia.",
+      "Fallet kretsade kring huruvida Qualcomms befintliga licens täckte Nuvias designer, där Arm hävdade att alla Arm-kompatibla CPU:er var derivat av deras Instruction Set Architecture (ISA).",
+      "Juryns obeslutsamhet angående Nuivas licensbrott gynnade Qualcomm, vilket väckte oro över Arms licensieringspraxis och kan möjligen uppmuntra företag att överväga RISC-V, ett öppen källkods-alternativ."
+    ],
+    "points": 196,
+    "commentCount": 108,
+    "retryCount": 0,
+    "time": 1734730133
+  },
+  {
+    "id": 42479233,
+    "title": "Fråga Apples FindMy-nätverk med Python",
+    "originLink": "https://github.com/malmeloo/FindMy.py",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42479233",
+    "commentBody": "",
+    "originSummary": [
+      "FindMy.py är ett omfattande bibliotek utformat för att göra förfrågningar till Apples FindMy-nätverk, med målet att konsolidera den fragmenterade \"Find My-scenen.\" Det befinner sig för närvarande i sin Alpha-fas, vilket innebär att dess API-design kan genomgå förändringar.",
+      "Biblioteket stöder plattformsoberoende funktionalitet, dekryptering av platsrapporter, inloggning med Apple-konto och tvåfaktorsautentisering (2FA), och erbjuder både asynkrona (async) och synkrona (sync) API:er.",
+      "Installation är tillgänglig via PyPi med kommandot `pip install findmy`, och bidrag uppmuntras, med specifika riktlinjer för kodformatering tillhandahållna."
+    ],
+    "commentSummary": [
+      "En Python-implementation av Apples FindMy API syftar till att förbättra plattformsoberoende åtkomst, vilket gynnar användare på Linux och Android som för närvarande behöver en Mac för FindMy-funktioner.",
+      "Detta verktyg skulle kunna möjliggöra spårning av platser och AirTags utan beroende av Apples ekosystem, även om det finns oro för Apples potentiella ingripande för att stoppa sådana projekt.",
+      "Diskussionen belyser Apples begränsade stöd för plattformsöverskridande funktioner och svårigheterna med att hantera enhetsfunktioner som föräldrakontroller utanför dess ekosystem, med förslag på alternativ som Blue Bubbles och Firewalla."
+    ],
+    "points": 184,
+    "commentCount": 91,
+    "retryCount": 0,
+    "time": 1734783295
+  },
+  {
+    "id": 42478107,
+    "title": "Den fula sanningen om Spotify avslöjas äntligen",
+    "originLink": "https://www.honest-broker.com/p/the-ugly-truth-about-spotify-is-finally",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42478107",
+    "commentBody": "",
+    "originSummary": [
+      "En undersökning av den oberoende journalisten Liz Pelly har avslöjat Spotifys användning av fejkartister för att öka vinsterna, särskilt inom genrer som jazz och ambient. Denna praxis, känd som \"Perfect Fit Content\"-programmet, gör det möjligt för Spotify att undvika att betala royalties till äkta musiker, vilket väcker oro över transparens och reglering inom musikstreaming. Trots kontroversen har Spotifys lönsamhet förbättrats, medan musikindustrin och mainstreammedia till stor del har ignorerat dessa frågor, vilket lämnar det till oberoende journalistik att uppmärksamma dem för allmänheten."
+    ],
+    "commentSummary": [
+      "Artikeln väcker oro över att Spotify påstås gynna lågkvalitativ, generisk musik, möjligen AI-genererad, framför genuina artister för att minska kostnaderna. - Användare uttrycker missnöje med Spotifys musikrekommendationer, vilket väcker en debatt om etiken i dess affärsmetoder och påverkan på artister. - Diskussionen understryker de utmaningar artister står inför på en marknad dominerad av streaming och föreslår alternativ som oberoende radio eller andra streamingtjänster."
+    ],
+    "points": 173,
+    "commentCount": 216,
+    "retryCount": 0,
+    "time": 1734767128
+  },
+  {
+    "id": 42475011,
+    "title": "DOS APPEND",
+    "originLink": "https://www.os2museum.com/wp/dos-append/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475011",
+    "commentBody": "",
+    "originSummary": [
+      "OS/2 Museum-bloggen utforskar vintage PC-datoranvändning, med fokus på OS/2, DOS och relaterade ämnen. Ett nyligen inlägg lyfter fram DOS APPEND-kommandot, ett Terminate and Stay Resident (TSR) program som hjälper äldre DOS-applikationer att komma åt filer över olika kataloger, först introducerat i DOS 3.3. Inlägget går in på APPENDs historia, utveckling och implementering, och diskuterar dess betydelse i moderna datorsammanhang."
+    ],
+    "commentSummary": [
+      "DOS APPEND-kommandot var historiskt betydelsefullt för att modifiera assemblerbeteende utan att ändra assemblatorn, liknande moderna miljövariabler och overlayfs-monteringar.",
+      "DOS-kommandon som SUBST och JOIN användes för katalogmappning och hantering av sökvägar, vilket hjälpte till att övervinna begränsningar i sökvägslängd.",
+      "Diskussionen inkluderar DOS:s historiska utveckling på DEC-minidatorer och utvecklingen av datormaskinvara från minidatorer till nuvarande system."
+    ],
+    "points": 112,
+    "commentCount": 53,
+    "retryCount": 0,
+    "time": 1734728699
+  }
+]

@@ -15,12 +15,92 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Dec 2024 19:16:30 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Dec 2024 19:06:27 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/ja.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 20 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[ja]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-12-21]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/12/21&#39;</h2>
+<h1>2024-12-21</h1>
+<h2><a href="https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/">「米国の裁判官が、イスラエルのNSOグループがWhatsAppを通じてジャーナリストをハッキングした責任があると判断」</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42476828">反応</a></h3>
+<ul>
+<li>「アメリカの裁判官は、イスラエルのNSOグループがWhatsAppを通じてジャーナリストをハッキングしたことに対して責任を問いました。これにより、ハッキングや監視活動における企業の責任についての疑問が提起されています。」</li>
+<li>「このケースは、サイバー・ツールの販売と使用に関連する倫理的懸念を強調しており、それを伝統的な武器販売に例え、経営陣に対する法的な結果の可能性についての議論を促しています。」</li>
+<li>「それはまた、プライバシー、政府の監視、ユーザーデータを保護する上でのソーシャルメディア企業の責任といったより広範な問題にも注意を向けています。」</li>
+</ul>
+<h2><a href="https://arxiv.org/abs/2412.15042">「Cを安全なRustにコンパイルすることの形式化」</a></h2>
+<ul>
+<li>「エメリック・フロムヘルツとジョナサン・プロツェンコによる論文は、Cコードを安全なRustに翻訳することについて論じており、特にunsafeなRustの機能を避けることでメモリの安全性に焦点を当てています。」</li>
+<li>「著者は、型指向の翻訳方法、ポインタ算術のための「分割木」を使用した静的解析、およびRustでCの構造体型を扱うための戦略を紹介しています。」</li>
+<li>「彼らのアプローチは、HACL* 暗号ライブラリと EverParse のバイナリパーサーを純粋な Rust で検証された 80,000 行の暗号ライブラリにうまく翻訳し、最小限の戦略的コピーでパフォーマンスを維持しています。」</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42476192">反応</a></h3>
+<ul>
+<li>「CコードをSafe Rustに変換するのは、基本的な言語の違い、特にRustの所有権モデルのために困難です。これは安全性のために大幅な再設計を必要とします。C2Rustのようなツールは翻訳を支援しますが、そのプロセスは複雑であり、元の意味を変えずに移植できないCプログラムもあります。CをRustに翻訳することで安全性が向上し、バグが明らかになることがありますが、Rustの安全性はしばしば誤解されており、翻訳を助けるCコードの形式的検証が常に利用可能であるわけではありません。」</li>
+</ul>
+<h2><a href="https://github.com/izabera/pseudo3d">「Bashでのレイキャスター」</a></h2>
+<ul>
+<li>「ゲームWolfensteinに触発されたレイキャスターがBashで実装され、Bashをグラフィカルアプリケーションに使用する際の課題が示されています。- プロジェクトは、Bashの遅さ、浮動小数点サポートの欠如、ターミナルの制約により、画面状態の維持やパフォーマンスの最適化が困難であるという制限に直面しています。- Unicodeの半ブロックを使用して解像度を向上させているにもかかわらず、プロジェクトは高いI/O要求と非効率的なカラー更新に苦労しており、Bashをこのようなタスクに使用することの複雑さを浮き彫りにしています。」</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42475703">反応</a></h3>
+<ul>
+<li>「BashのRaycasterは、各列ごとにレイトレーシングを使用して3D効果をシミュレートするプロジェクトであり、最小限の<code>echo</code>コマンドで効率的にシーンをレンダリングします。」</li>
+<li>「このプロジェクトは、空、草、物体の線を描くために文字列の繰り返しを使用している点で注目に値し、制約のある環境でボクセルレンダーエンジンを作成するための刺激的な例となっています。」</li>
+<li>「この議論は、MS Batchと<code>awk</code>での類似のレイキャスティングプロジェクトを強調し、複雑なタスクに対して非伝統的なプログラミング言語を使用する創造性を示しています。」</li>
+</ul>
+<h2><a href="https://www.bloomberg.com/news/articles/2024-12-20/qualcomm-wins-licensing-fight-with-arm-over-chip-designs">「クアルコム、チップ設計に関するアームとのライセンス争いに勝利」</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42475228">反応</a></h3>
+<ul>
+<li>「クアルコムは、チップ設計ライセンスに関する法的紛争でアームに対して勝利を収めました。これは特に、クアルコムによるヌヴィアの買収に関連しています。」</li>
+<li>「このケースは、クアルコムの既存のライセンスがヌヴィアの設計をカバーしているかどうかを巡るもので、アームはすべてのアーム準拠のCPUが彼らの命令セットアーキテクチャ(ISA)の派生物であると主張していました。」</li>
+<li>「陪審員のNuviaのライセンス違反に関する決定不能はQualcommに有利に働き、Armのライセンス慣行に対する懸念を引き起こし、企業がオープンソースの代替案であるRISC-Vを検討する可能性を促すかもしれません。」</li>
+</ul>
+<h2><a href="https://github.com/malmeloo/FindMy.py">PythonでAppleのFindMyネットワークをクエリする</a></h2>
+<ul>
+<li>「FindMy.pyは、AppleのFindMyネットワークをクエリするために設計された包括的なライブラリであり、断片化された「Find Myシーン」を統合することを目的としています。現在、アルファ段階にあり、そのAPI設計は変更される可能性があります。」</li>
+<li>「ライブラリは、クロスプラットフォーム機能、位置情報レポートの復号、Appleアカウントのサインイン、二要素認証(2FA)をサポートし、非同期(async)および同期(sync)の両方のAPIを提供します。」</li>
+<li>「インストールは、<code>pip install findmy</code> コマンドを使用してPyPi経由で利用可能です。また、貢献が奨励されており、コードフォーマットに関する具体的なガイドラインが提供されています。」</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42479233">反応</a></h3>
+<ul>
+<li>「AppleのFindMy APIのPython実装は、現在FindMy機能にMacが必要なLinuxやAndroidのユーザーに利益をもたらし、クロスプラットフォームでのアクセスを強化することを目的としています。」</li>
+<li>「このツールは、Appleのエコシステムに依存せずに位置情報やAirTagの追跡を可能にするかもしれませんが、Appleがそのようなプロジェクトを阻止する可能性についての懸念があります。」</li>
+<li>「この議論は、Appleの限られたクロスプラットフォームサポートと、そのエコシステム外でのペアレンタルコントロールのようなデバイス機能の管理の難しさを強調しており、Blue BubblesやFirewallaのような代替案が提案されています。」</li>
+</ul>
+<h2><a href="https://www.honest-broker.com/p/the-ugly-truth-about-spotify-is-finally">Spotifyの醜い真実がついに明らかに</a></h2>
+<ul>
+<li>「インディージャーナリストのリズ・ペリーによる調査で、Spotifyが利益を増やすために偽のアーティストを利用していることが明らかになりました。特にジャズやアンビエントのジャンルでこの手法が使われています。この「パーフェクトフィットコンテンツ」プログラムとして知られる手法により、Spotifyは本物のミュージシャンにロイヤリティを支払うことを避けることができ、音楽ストリーミングにおける透明性と規制に関する懸念が高まっています。この論争にもかかわらず、Spotifyの収益性は向上しており、音楽業界や主流メディアはこれらの問題をほとんど見過ごしているため、独立系ジャーナリズムがこれらを公に知らせる役割を果たしています。」</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42478107">反応</a></h3>
+<ul>
+<li>「この記事は、Spotifyがコスト削減のために低品質で一般的な音楽、場合によってはAI生成の音楽を本物のアーティストよりも優遇しているとされることについての懸念を提起しています。ユーザーはSpotifyの音楽推薦に不満を表明し、そのビジネス慣行の倫理とアーティストへの影響についての議論を引き起こしています。この議論は、ストリーミングが支配する市場でアーティストが直面する課題を浮き彫りにし、独立系ラジオや他のストリーミングサービスのような代替案を示唆しています。」</li>
+</ul>
+<h2><a href="https://www.os2museum.com/wp/dos-append/">DOS APPEND</a></h2>
+<ul>
+<li>OS/2 Museumブログは、OS/2、DOS、および関連するテーマに焦点を当てたヴィンテージPCコンピューティングを探求しています。最近の投稿では、DOS 3.3で初めて導入された、異なるディレクトリ間でファイルにアクセスするのを支援するTerminate and Stay Resident (TSR)プログラムであるDOS APPENDコマンドを取り上げています。この投稿では、APPENDの歴史、進化、実装について掘り下げ、現代のコンピューティングにおけるその重要性を論じています。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42475011">反応</a></h3>
+<ul>
+<li>「DOSのAPPENDコマンドは、アセンブラを変更せずにその動作を修正するために歴史的に重要でした。これは、現代の環境変数やoverlayfsマウントに似ています。」</li>
+<li>「SUBSTやJOINのようなDOSコマンドは、ディレクトリのマッピングやパス管理に使用され、パスの長さの制限を克服するのに役立ちました。」</li>
+<li>「この議論には、DECミニコンピュータ上でのDOSの歴史的発展と、ミニコンピュータから現在のシステムへのコンピュータハードウェアの進化が含まれています。」</li>
+</ul>
+<head>
+  <meta property="og:title" content="「米国の裁判官が、イスラエルのNSOグループがWhatsAppを通じてジャーナリストをハッキングした責任があると判断」" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E3%80%8C%E7%B1%B3%E5%9B%BD%E3%81%AE%E8%A3%81%E5%88%A4%E5%AE%98%E3%81%8C%E3%80%81%E3%82%A4%E3%82%B9%E3%83%A9%E3%82%A8%E3%83%AB%E3%81%AENSO%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E3%81%8CWhatsApp%E3%82%92%E9%80%9A%E3%81%98%E3%81%A6%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%8A%E3%83%AA%E3%82%B9%E3%83%88%E3%82%92%E3%83%8F%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B0%E3%81%97%E3%81%9F%E8%B2%AC%E4%BB%BB%E3%81%8C%E3%81%82%E3%82%8B%E3%81%A8%E5%88%A4%E6%96%AD%E3%80%8D&subheading=2024%E5%B9%B412%E6%9C%8821%E6%97%A5%E5%9C%9F%E6%9B%9C%E6%97%A5%3A%20%E3%83%8F%E3%83%83%E3%82%AB%E3%83%BC%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/ja/2024/12/21</link>
+            <guid isPermaLink="false">2024-12-21T00:00:00.000Z</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-12-20]]></title>
             <description
@@ -973,65 +1053,6 @@
             <link>https://hn.cho.sh/ja/2024/12/12</link>
             <guid isPermaLink="false">2024-12-12T00:00:00.000Z</guid>
             <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-11]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/11&#39;</h2>
-<h1>2024-12-11</h1>
-<h2><a href="https://www.nytimes.com/2024/12/10/business/media/the-onion-infowars-alex-jones.html">「破産裁判官がインフォウォーズのザ・オニオンへの売却を却下」</a></h2>
-<ul>
-<li>「判事は、インフォウォーズを風刺的なプラットフォームに変えようとしたザ・オニオンへの売却を停止しました。」</li>
-<li>「その決定は、サンディフック事件の被害者家族の支持にもかかわらず行われ、インフォウォーズの将来は不透明なままとなった。」</li>
-<li>「裁判所が任命した管財人が新たな行動方針を決定する責任を負っており、一方でThe Onionは買収に関心を持ち続けています。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42384921">反応</a></h3>
-<ul>
-<li>「破産裁判官は、オークションプロセスがサンディフックの家族を含む債権者への利益を最大化しなかったとして、インフォウォーズのザ・オニオンへの売却を却下しました。裁判官は、公正なオークション慣行に不可欠な競争入札を促進しなかったとして、封印入札プロセスを批判しました。ザ・オニオンの入札は175万ドルの現金と、サンディフックの家族の潜在的な名誉毀損判決の収益からの追加資金を含んでおり、オークションの公正性と合法性に疑問を投げかけました。」</li>
-</ul>
-<h2><a href="https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/">「ジェミニ2.0：エージェント時代のための新しいAIモデル」</a></h2>
-<ul>
-<li>「Google DeepMindは、&quot;エージェント時代&quot;のために設計された高度なAIモデルであるGemini 2.0を発表しました。このモデルは、ネイティブな画像および音声出力やツールの使用といった機能を備えています。- 現在、Gemini 2.0 Flashは開発者や信頼できるテスターにアクセス可能で、来年初めにはより広範なリリースが予定されており、段階的な展開戦略を示しています。- Googleは責任あるAI開発に注力しており、安全性とセキュリティを強調し、検索、ゲーム、ロボット工学における潜在的な応用を示し、モデルの多様性と倫理的なAI実践へのコミットメントを強調しています。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42388783">反応</a></h3>
-<ul>
-<li>「GoogleのGemini 2.0 AIモデルは「エージェント時代」に向けて設計されており、Pythonコードの作成と実行が可能ですが、ネットワークコールを行うことはできません。このモデルは視覚タスクに優れており、AI Studioを通じて開発者やテスターが利用可能ですが、幻覚や冗長性といった問題にまだ直面しています。AIコミュニティでは、「エージェント」や「推論」といった用語の使用について議論が行われており、これらの用語をマーケティング用語と見なす人もいます。」</li>
-</ul>
-<h2><a href="https://www.cnbc.com/2024/12/10/gm-halts-funding-of-robotaxi-development-by-cruise.html">「GMはロボタクシー市場から撤退し、クルーズの運営を社内に取り込む予定です」</a></h2>
-<ul>
-<li>「ゼネラルモーターズ(GM)は、クルーズのロボタクシー部門への資金提供を中止し、個人用車両の自律システムに焦点を当てるために技術チームに統合することを選択しました。」</li>
-<li>「GMは2025年までに残りのCruise株を取得し、この部門への年間支出を半分以上大幅に削減することを目指しています。」</li>
-<li>「クルーズは、クラッシュを報告しなかったことで150万ドルの罰金を科されるなどの課題に直面している一方で、ウェイモやテスラのような競合他社はロボタクシー市場で進展を続けている。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42381637">反応</a></h3>
-<ul>
-<li>「ゼネラルモーターズ(GM)は、競争の激化によりロボタクシー市場から撤退し、クルーズの運営を社内に統合しています。」</li>
-<li>「高度な自律技術を持ちながら、GMの戦略には疑問が呈されており、試乗用のスーパークルーズが利用できないといった問題がある。」</li>
-<li>自動運転車の市場は不確実であり、関心が薄れ、フォードのような企業が同様の機能のコストを削減している一方で、テスラのフルセルフドライビング(FSD)は依然として特定のシナリオで課題に直面しています。</li>
-</ul>
-<h2><a href="https://electric-sql.com/blog/2024/12/10/electric-beta-release">「Electric(Postgres同期エンジン)ベータ版リリース」</a></h2>
-<ul>
-<li>「Electricの同期エンジンは、バージョン1.0.0-beta.1でBETAとして提供されており、Postgresデータのリアルタイム部分レプリケーションをローカルアプリに可能にし、既存の技術スタックを変更することなく即座にローカルデータにアクセスできます。このエンジンには、ブラウザ用の軽量WebAssembly(WASM)版PostgresであるPGliteが含まれており、6か月の書き直しを経て本番環境に対応しており、すでにGoogleやSupabaseのような企業で利用されています。Electricは低遅延で高スループットのワークロードをサポートし、シンプルなAPIで簡単に導入でき、段階的に統合可能で、現在開発中の管理ホスティングサービスであるElectric Cloudと統合できます。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42383136">反応</a></h3>
-<ul>
-<li>「ElectricSQLは、そのエンジニアリングの質とビジネスモデルの考慮から注目を集めているPostgres同期エンジンのベータ版をリリースしました。このエンジンは、データをPostgresからローカルアプリケーションに読み取り専用のレプリカとして同期し、高読み取り・低書き込みのサービスに適していますが、書き込みパスの同期はサポートしていません。ユーザーはPowerSyncやTriplitのような代替案と比較してその可能性を議論しており、プロジェクトはマルチテーブル同期やスキーマ変更の課題にもかかわらず、ローカル/オフラインファーストのアプリ開発を簡素化することを目指しています。」</li>
-</ul>
-<h2><a href="https://www.courtlistener.com/docket/69221176/64/wpengine-inc-v-automattic-inc/">「WPEngine, Inc. 対 Automattic– 仮差止命令の申立に関する命令」</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42382829">反応</a></h3>
-<ul>
-<li>「WPEngine, Inc.とAutomatticの間の裁判は、Matt Mullenwegによる行動がWPEngineに損害を与えたとされるため、仮差止命令を伴うものです。裁判所はWPEngineの側に立ち、Automatticに対してアカウントアクセスの復元、ACFプラグインの返還、物議を醸すチェックボックスの削除を命じ、保証金を要求しませんでした。このケースは、WordPressコミュニティ内の緊張を浮き彫りにし、オープンソースのガバナンスやテック企業におけるプライベートエクイティの影響についての議論を促しています。」</li>
-</ul>
-<head>
-  <meta property="og:title" content="「破産裁判官がインフォウォーズのザ・オニオンへの売却を却下」" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E3%80%8C%E7%A0%B4%E7%94%A3%E8%A3%81%E5%88%A4%E5%AE%98%E3%81%8C%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A9%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BA%E3%81%AE%E3%82%B6%E3%83%BB%E3%82%AA%E3%83%8B%E3%82%AA%E3%83%B3%E3%81%B8%E3%81%AE%E5%A3%B2%E5%8D%B4%E3%82%92%E5%8D%B4%E4%B8%8B%E3%80%8D&subheading=2024%E5%B9%B412%E6%9C%8811%E6%97%A5%E6%B0%B4%E6%9B%9C%E6%97%A5%3A%20%E3%83%8F%E3%83%83%E3%82%AB%E3%83%BC%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/ja/2024/12/11</link>
-            <guid isPermaLink="false">2024-12-11T00:00:00.000Z</guid>
-            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

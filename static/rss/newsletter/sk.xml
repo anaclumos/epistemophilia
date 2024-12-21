@@ -15,12 +15,92 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Dec 2024 19:16:30 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Dec 2024 19:06:27 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/sk.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 20 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[sk]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-12-21]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/12/21&#39;</h2>
+<h1>2024-12-21</h1>
+<h2><a href="https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/">„Americký sudca uznal izraelskú skupinu NSO zodpovednou za hackovanie novinárov prostredníctvom WhatsAppu.“</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42476828">Reakcie</a></h3>
+<ul>
+<li>„Americký sudca považoval izraelskú skupinu NSO za zodpovednú za hackovanie novinárov prostredníctvom WhatsApp, čo vyvoláva otázky o zodpovednosti spoločností za hackovanie a sledovacie aktivity.“</li>
+<li>„Prípad zdôrazňuje etické obavy súvisiace s predajom a používaním kybernetických nástrojov, prirovnávajúc ich k tradičnému predaju zbraní, a podnecuje diskusie o možných právnych dôsledkoch pre manažment.“</li>
+<li>„Upozorňuje tiež na širšie problémy, ako sú súkromie, vládny dohľad a zodpovednosť spoločností sociálnych médií za ochranu údajov používateľov.“</li>
+</ul>
+<h2><a href="https://arxiv.org/abs/2412.15042">„Kompilácia C do bezpečného Rustu, formalizovaná“</a></h2>
+<ul>
+<li>„Práca Aymerica Fromherza a Jonathana Protzenka sa zaoberá prekladom C kódu do bezpečného Rustu, pričom sa zameriava na bezpečnosť pamäte tým, že sa vyhýba nebezpečným funkciám Rustu.“</li>
+<li>„Autori predstavujú metódu prekladu riadenú typom, statickú analýzu pomocou „rozdelených stromov“ pre aritmetiku ukazovateľov a stratégiu pre spracovanie štruktúrnych typov jazyka C v jazyku Rust.“</li>
+<li>„Ich prístup úspešne prekladá kryptografickú knižnicu HACL* a binárne analyzátory EverParse do overenej kryptografickej knižnice s 80 000 riadkami v čistej Rust, pričom si zachováva výkon s minimálnymi strategickými kópiami.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42476192">Reakcie</a></h3>
+<ul>
+<li>„Konverzia C kódu na Safe Rust je náročná kvôli základným rozdielom medzi jazykmi, najmä kvôli modelu vlastníctva v Ruste, ktorý vyžaduje významný redizajn pre bezpečnosť. - Nástroje ako C2Rust pomáhajú pri preklade, ale proces je zložitý a niektoré C programy nemožno portovať bez zmeny ich sémantiky kvôli vrodenej nebezpečnosti. - Hoci preklad C do Rustu môže zvýšiť bezpečnosť a odhaliť chyby, bezpečnosť Rustu je často nepochopená a formálna verifikácia C kódu, ktorá pomáha pri preklade, nie je vždy dostupná.“</li>
+</ul>
+<h2><a href="https://github.com/izabera/pseudo3d">„Raycaster v Bash“</a></h2>
+<ul>
+<li>„Bol implementovaný raycaster inšpirovaný hrou Wolfenstein v Bash, čo demonštruje výzvy používania Bash pre grafické aplikácie. Projekt čelí obmedzeniam kvôli pomalosti Bash, nedostatku podpory pre desatinné čísla a obmedzeniam terminálu, čo sťažuje udržiavanie stavu obrazovky a optimalizáciu výkonu. Napriek používaniu Unicode polovičných blokov pre lepšie rozlíšenie, projekt zápasí s vysokými nárokmi na vstup/výstup a neefektívnymi aktualizáciami farieb, čo zdôrazňuje zložitosť používania Bash pre takéto úlohy.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42475703">Reakcie</a></h3>
+<ul>
+<li>„Raycaster v Bash je projekt, ktorý simuluje 3D efekt pomocou raytracingu raz na stĺpec, efektívne vykresľujúc scény s minimálnym použitím príkazov <code>echo</code>.“</li>
+<li>„Projekt je pozoruhodný svojím použitím opakovania reťazcov na kreslenie čiar pre oblohu, trávu a objekty, čo z neho robí inšpiratívny príklad pre vytváranie voxelových renderovacích enginov v obmedzených prostrediach.“</li>
+<li>„Diskusia poukazuje na podobné projekty raycastingu v MS Batch a <code>awk</code>, ktoré ukazujú kreativitu pri používaní nekonvenčných programovacích jazykov na zložité úlohy.“</li>
+</ul>
+<h2><a href="https://www.bloomberg.com/news/articles/2024-12-20/qualcomm-wins-licensing-fight-with-arm-over-chip-designs">„Qualcomm vyhráva licenčný spor s Arm ohľadom návrhov čipov“</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42475228">Reakcie</a></h3>
+<ul>
+<li>„Qualcomm zvíťazil v právnom spore s Arm ohľadom licencovania dizajnu čipov, konkrétne v súvislosti s akvizíciou spoločnosti Nuvia spoločnosťou Qualcomm.“</li>
+<li>„Prípad sa točil okolo toho, či existujúca licencia Qualcommu pokrývala návrhy spoločnosti Nuvia, pričom Arm tvrdil, že všetky procesory kompatibilné s Arm sú odvodené od ich architektúry inštrukčnej sady (ISA).“</li>
+<li>„Nerozhodnosť poroty ohľadom porušenia licencie zo strany Nuvia bola v prospech Qualcommu, čo vyvolalo obavy o licenčné praktiky spoločnosti Arm a mohlo by povzbudiť firmy, aby zvážili RISC-V, otvorenú alternatívu.“</li>
+</ul>
+<h2><a href="https://github.com/malmeloo/FindMy.py">„Dotaz na sieť FindMy od Apple pomocou Pythonu“</a></h2>
+<ul>
+<li>„FindMy.py je komplexná knižnica navrhnutá na dotazovanie siete FindMy od Apple, s cieľom konsolidovať roztrieštenú „Find My-scénu“. Momentálne je v Alpha fáze, čo znamená, že jej dizajn API môže prejsť zmenami.“</li>
+<li>„Knižnica podporuje multiplatformovú funkčnosť, dešifrovanie správ o polohe, prihlásenie do účtu Apple a dvojfaktorovú autentifikáciu (2FA), pričom ponúka asynchrónne (async) aj synchrónne (sync) API.“</li>
+<li>„Inštalácia je dostupná cez PyPi pomocou príkazu <code>pip install findmy</code>, a príspevky sú vítané, pričom sú poskytnuté konkrétne pokyny na formátovanie kódu.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42479233">Reakcie</a></h3>
+<ul>
+<li>„Implementácia Apple FindMy API v Pythone si kladie za cieľ zlepšiť prístup naprieč platformami, čo prináša výhody používateľom na Linuxe a Androide, ktorí v súčasnosti potrebujú Mac pre funkcie FindMy.“</li>
+<li>„Tento nástroj by mohol umožniť sledovanie polôh a AirTagov bez závislosti na ekosystéme Apple, hoci existujú obavy o možný zásah Apple na zastavenie takýchto projektov.“</li>
+<li>„Diskusia poukazuje na obmedzenú podporu spoločnosti Apple pre rôzne platformy a ťažkosti pri správe funkcií zariadení, ako sú rodičovské kontroly, mimo jej ekosystému, s návrhmi na alternatívy ako Blue Bubbles a Firewalla.“</li>
+</ul>
+<h2><a href="https://www.honest-broker.com/p/the-ugly-truth-about-spotify-is-finally">„Škaredá pravda o Spotify je konečne odhalená“</a></h2>
+<ul>
+<li>„Vyšetrovanie nezávislej novinárky Liz Pelly odhalilo, že Spotify používa falošných umelcov na zvýšenie ziskov, najmä v žánroch ako jazz a ambient. Táto prax, známa ako program „Perfect Fit Content“, umožňuje Spotify vyhnúť sa plateniu licenčných poplatkov skutočným hudobníkom, čo vyvoláva obavy o transparentnosť a reguláciu v oblasti streamovania hudby. Napriek kontroverzii sa ziskovosť Spotify zlepšila, zatiaľ čo hudobný priemysel a hlavné médiá tieto problémy do veľkej miery prehliadajú, pričom nezávislá žurnalistika ich prináša do pozornosti verejnosti.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42478107">Reakcie</a></h3>
+<ul>
+<li>„Článok vyjadruje obavy, že Spotify údajne uprednostňuje nekvalitnú, generickú hudbu, pravdepodobne generovanú umelou inteligenciou, pred skutočnými umelcami, aby znížil náklady. - Používatelia vyjadrujú nespokojnosť s odporúčaniami hudby na Spotify, čo vyvoláva diskusiu o etike jeho obchodných praktík a dopade na umelcov. - Diskusia zdôrazňuje výzvy, ktorým umelci čelia na trhu dominovanom streamovaním, a navrhuje alternatívy ako nezávislé rádio alebo iné streamingové služby.“</li>
+</ul>
+<h2><a href="https://www.os2museum.com/wp/dos-append/">„DOS APPEND“</a></h2>
+<ul>
+<li>„Blog OS/2 Museum skúma staré PC počítače, so zameraním na OS/2, DOS a súvisiace témy. Nedávny príspevok zdôrazňuje príkaz DOS APPEND, program Terminate and Stay Resident (TSR), ktorý pomáha starším aplikáciám DOS pri prístupe k súborom v rôznych adresároch, prvýkrát predstavený v DOS 3.3. Príspevok sa zaoberá históriou, vývojom a implementáciou APPEND, diskutujúc o jeho význame v moderných výpočtových kontextoch.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42475011">Reakcie</a></h3>
+<ul>
+<li>„Príkaz DOS APPEND bol historicky významný pre modifikáciu správania assemblera bez zmeny samotného assemblera, podobne ako moderné premenné prostredia a montáže overlayfs.“</li>
+<li>„Príkazy DOS ako SUBST a JOIN sa používali na mapovanie adresárov a správu ciest, čo pomáhalo prekonať obmedzenia dĺžky ciest.“</li>
+<li>„Diskusia zahŕňa historický vývoj DOS na minipočítačoch DEC a evolúciu výpočtového hardvéru od minipočítačov po súčasné systémy.“</li>
+</ul>
+<head>
+  <meta property="og:title" content="„Americký sudca uznal izraelskú skupinu NSO zodpovednou za hackovanie novinárov prostredníctvom WhatsAppu.“" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EAmerick%C3%BD%20sudca%20uznal%20izraelsk%C3%BA%20skupinu%20NSO%20zodpovednou%20za%20hackovanie%20novin%C3%A1rov%20prostredn%C3%ADctvom%20WhatsAppu.%E2%80%9C&subheading=sobota%2021.%20decembra%202024%3A%20Hacker%20News%20Zhrnutie" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/sk/2024/12/21</link>
+            <guid isPermaLink="false">2024-12-21T00:00:00.000Z</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-12-20]]></title>
             <description
@@ -973,65 +1053,6 @@
             <link>https://hn.cho.sh/sk/2024/12/12</link>
             <guid isPermaLink="false">2024-12-12T00:00:00.000Z</guid>
             <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-11]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/11&#39;</h2>
-<h1>2024-12-11</h1>
-<h2><a href="https://www.nytimes.com/2024/12/10/business/media/the-onion-infowars-alex-jones.html">„Sudca pre konkurz zamietol predaj Infowars spoločnosti The Onion“</a></h2>
-<ul>
-<li>„Sudca zastavil predaj Infowars spoločnosti The Onion, ktorá mala v úmysle premeniť ho na satirickú platformu.“</li>
-<li>„Rozhodnutie bolo prijaté napriek podpore rodín obetí zo Sandy Hook, čo ponecháva budúcnosť Infowars v neistote.“</li>
-<li>„Súdne ustanovený správca je teraz zodpovedný za určenie nového postupu, zatiaľ čo The Onion zostáva zainteresovaný na akvizícii.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42384921">Reakcie</a></h3>
-<ul>
-<li>„Sudca pre konkurz zamietol predaj Infowars spoločnosti The Onion, pričom uviedol, že aukčný proces nezabezpečil maximálny výnos pre veriteľov, vrátane rodín zo Sandy Hook. Sudca kritizoval proces uzavretých ponúk za to, že nepodporoval konkurenčné ponuky, čo je nevyhnutné pre spravodlivé aukčné praktiky. Ponuka The Onion zahŕňala 1,75 milióna dolárov v hotovosti, s ďalšími prostriedkami z potenciálnych výnosov z rozsudku o ohováraní rodín zo Sandy Hook, čo vyvolalo otázky o spravodlivosti a zákonnosti aukcie.“</li>
-</ul>
-<h2><a href="https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/">„Gemini 2.0: náš nový AI model pre agentickú éru“</a></h2>
-<ul>
-<li>„Google DeepMind spustil Gemini 2.0, pokročilý model AI navrhnutý pre &quot;agentickú éru&quot;, ktorý obsahuje funkcie ako natívny výstup obrazu a zvuku a používanie nástrojov. - Gemini 2.0 Flash je momentálne prístupný pre vývojárov a dôveryhodných testerov, pričom širšie vydanie sa očakáva začiatkom budúceho roka, čo naznačuje stratégiu postupného zavádzania. - Google sa zameriava na zodpovedný vývoj AI, kladúc dôraz na bezpečnosť a zabezpečenie, s potenciálnymi aplikáciami v oblasti vyhľadávania, hier a robotiky, čo zdôrazňuje všestrannosť modelu a záväzok k etickým praktikám AI.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42388783">Reakcie</a></h3>
-<ul>
-<li>„AI model Gemini 2.0 od spoločnosti Google je navrhnutý pre „agentickú éru“, schopný písať a vykonávať kód v Pythone, ale nemôže uskutočňovať sieťové volania. - Model je zdatný v úlohách videnia a je prístupný vývojárom a testerom prostredníctvom AI Studio, hoci stále naráža na problémy ako halucinácie a zbytočná rozvláčnosť. - Komunita AI diskutuje o používaných termínoch, ako sú „agentický“ a „uvažovanie“, pričom niektorí tieto pojmy považujú za marketingové frázy.“</li>
-</ul>
-<h2><a href="https://www.cnbc.com/2024/12/10/gm-halts-funding-of-robotaxi-development-by-cruise.html">„GM opúšťa trh s robotaxi, prinesie operácie Cruise do vlastnej réžie“</a></h2>
-<ul>
-<li>„General Motors (GM) ukončuje financovanie svojej divízie robotaxi Cruise a rozhodla sa ju integrovať do svojho technologického tímu, aby sa zamerala na autonómne systémy pre osobné vozidlá.“</li>
-<li>„GM plánuje získať zostávajúce akcie Cruise do roku 2025, čím výrazne zníži svoje ročné výdavky na túto divíziu o viac ako polovicu.“</li>
-<li>„Cruise čelil výzvam, ako je pokuta vo výške 1,5 milióna dolárov za neohlásenie nehody, zatiaľ čo konkurenti ako Waymo a Tesla pokračujú v pokroku na trhu s robotaxi.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42381637">Reakcie</a></h3>
-<ul>
-<li>„General Motors (GM) sa sťahuje z trhu s robotaxi a integruje operácie Cruise interne kvôli zvýšenej konkurencii.“</li>
-<li>„Napriek tomu, že GM disponuje pokročilou autonómnou technológiou, ich stratégia je spochybňovaná, pričom problémy zahŕňajú aj nedostupnosť systému Super Cruise na testovacie jazdy.“</li>
-<li>„Trh s autonómnymi vozidlami je neistý, so znižujúcim sa záujmom a spoločnosťami ako Ford, ktoré znižujú náklady na podobné funkcie, zatiaľ čo Tesla&#39;s Full Self-Driving (FSD) stále čelí výzvam v určitých situáciách.“</li>
-</ul>
-<h2><a href="https://electric-sql.com/blog/2024/12/10/electric-beta-release">„Elektrický (Postgres synchronizačný engine) beta verzia“</a></h2>
-<ul>
-<li>„Synchronizačný engine Electric, teraz v BETA verzii 1.0.0-beta.1, umožňuje replikáciu časti dát z Postgresu v reálnom čase do lokálnych aplikácií, čím poskytuje okamžitý prístup k lokálnym dátam bez potreby meniť existujúce technologické stohy. Engine obsahuje PGlite, ľahkú verziu Postgresu vo WebAssembly (WASM) pre prehliadače, a je pripravený na produkčné použitie po šesťmesačnom prepracovaní, pričom ho už využívajú spoločnosti ako Google a Supabase. Electric podporuje vysoké zaťaženie s nízkou latenciou, je ľahko adoptovateľný s jednoduchými API a môže byť integrovaný postupne, pričom sa vyvíja Electric Cloud, služba spravovaného hostingu.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42383136">Reakcie</a></h3>
-<ul>
-<li>„ElectricSQL vydal beta verziu svojho synchronizačného enginu pre Postgres, ktorý vzbudzuje záujem vďaka svojej inžinierskej kvalite a obchodným modelovým úvahám. - Engine synchronizuje dáta z Postgres do lokálnych aplikácií ako repliky iba na čítanie, vhodné pre služby s vysokým počtom čítaní a nízkym počtom zápisov, ale nepodporuje synchronizáciu zápisovej cesty. - Používatelia diskutujú o jeho potenciáli v porovnaní s alternatívami ako PowerSync a Triplit a projekt si kladie za cieľ zjednodušiť vývoj lokálnych/offline-prvých aplikácií, napriek výzvam v synchronizácii viacerých tabuliek a zmenách schémy.“</li>
-</ul>
-<h2><a href="https://www.courtlistener.com/docket/69221176/64/wpengine-inc-v-automattic-inc/">„WPEngine, Inc. vs. Automattic – Rozhodnutie o návrhu na predbežné opatrenie“</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42382829">Reakcie</a></h3>
-<ul>
-<li>„Súdny prípad medzi WPEngine, Inc. a Automattic zahŕňa predbežné opatrenie kvôli činom Matta Mullenwega, ktoré údajne poškodili WPEngine. Súd rozhodol v prospech WPEngine, pričom nariadil Automattic obnoviť prístup k účtu, vrátiť plugin ACF a odstrániť kontroverzný zaškrtávací políčko bez požiadavky na zloženie zábezpeky. Tento prípad zdôrazňuje napätie v komunite WordPress a vyvoláva diskusie o správe open-source a vplyve súkromného kapitálu v technologických spoločnostiach.“</li>
-</ul>
-<head>
-  <meta property="og:title" content="„Sudca pre konkurz zamietol predaj Infowars spoločnosti The Onion“" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9ESudca%20pre%20konkurz%20zamietol%20predaj%20Infowars%20spolo%C4%8Dnosti%20The%20Onion%E2%80%9C&subheading=streda%2011.%20decembra%202024%3A%20Hacker%20News%20Zhrnutie" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/sk/2024/12/11</link>
-            <guid isPermaLink="false">2024-12-11T00:00:00.000Z</guid>
-            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

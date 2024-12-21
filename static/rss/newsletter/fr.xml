@@ -15,12 +15,92 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Dec 2024 19:16:30 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Dec 2024 19:06:27 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/fr.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 20 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[fr]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-12-21]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/12/21&#39;</h2>
+<h1>2024-12-21</h1>
+<h2><a href="https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/">Un juge américain juge le groupe israélien NSO responsable du piratage de journalistes via WhatsApp</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42476828">Réactions</a></h3>
+<ul>
+<li>Un juge américain a tenu le groupe israélien NSO responsable du piratage de journalistes via WhatsApp, soulevant des questions sur la responsabilité des entreprises dans les activités de piratage et de surveillance.</li>
+<li>Le cas souligne les préoccupations éthiques liées à la vente et à l&#39;utilisation d&#39;outils cybernétiques, les comparant à la vente d&#39;armes traditionnelles, et incite à des discussions sur les conséquences juridiques potentielles pour la direction.</li>
+<li>Il attire également l&#39;attention sur des questions plus larges telles que la vie privée, la surveillance gouvernementale et la responsabilité des entreprises de médias sociaux dans la protection des données des utilisateurs.</li>
+</ul>
+<h2><a href="https://arxiv.org/abs/2412.15042">Compilation de C en Rust sûr, formalisé</a></h2>
+<ul>
+<li>Le document d&#39;Aymeric Fromherz et Jonathan Protzenko traite de la traduction du code C en Rust sécurisé, en mettant l&#39;accent sur la sécurité de la mémoire en évitant les fonctionnalités non sécurisées de Rust.</li>
+<li>Les auteurs présentent une méthode de traduction dirigée par le type, une analyse statique utilisant des « arbres divisés » pour l&#39;arithmétique des pointeurs, et une stratégie pour gérer les types struct de C en Rust.</li>
+<li>Leur approche traduit avec succès la bibliothèque cryptographique HACL* et les analyseurs binaires d&#39;EverParse en une bibliothèque cryptographique vérifiée de 80 000 lignes en Rust pur, tout en maintenant la performance avec des copies stratégiques minimales.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42476192">Réactions</a></h3>
+<ul>
+<li>Convertir du code C en Rust sécurisé est difficile en raison des différences fondamentales entre les langages, en particulier le modèle de propriété de Rust, qui nécessite une refonte significative pour garantir la sécurité. - Des outils comme C2Rust aident à la traduction, mais le processus est complexe, et certains programmes C ne peuvent pas être portés sans changer leur sémantique en raison de leur insécurité inhérente. - Bien que traduire du C en Rust puisse améliorer la sécurité et révéler des bogues, la sécurité de Rust est souvent mal comprise, et la vérification formelle du code C, qui aide à la traduction, n&#39;est pas toujours disponible.</li>
+</ul>
+<h2><a href="https://github.com/izabera/pseudo3d">Un Raycaster en Bash</a></h2>
+<ul>
+<li>Un raycaster inspiré par le jeu Wolfenstein a été implémenté en Bash, démontrant les défis d&#39;utiliser Bash pour des applications graphiques. - Le projet fait face à des limitations dues à la lenteur de Bash, à l&#39;absence de support des nombres à virgule flottante et aux contraintes du terminal, rendant difficile le maintien de l&#39;état de l&#39;écran et l&#39;optimisation des performances. - Malgré l&#39;utilisation de demi-blocs Unicode pour une meilleure résolution, le projet lutte avec des demandes d&#39;E/S élevées et des mises à jour de couleur inefficaces, soulignant la complexité d&#39;utiliser Bash pour de telles tâches.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42475703">Réactions</a></h3>
+<ul>
+<li>Un Raycaster en Bash est un projet qui simule un effet 3D en utilisant le lancer de rayons une fois par colonne, rendant efficacement des scènes avec un minimum de commandes <code>echo</code>.</li>
+<li>Le projet se distingue par son utilisation de la répétition de chaînes pour tracer des lignes pour le ciel, l&#39;herbe et les objets, ce qui en fait un exemple inspirant pour créer des moteurs de rendu voxel dans des environnements contraints.</li>
+<li>Le débat met en lumière des projets de lancer de rayons similaires en MS Batch et <code>awk</code>, illustrant la créativité dans l&#39;utilisation de langages de programmation non conventionnels pour des tâches complexes.</li>
+</ul>
+<h2><a href="https://www.bloomberg.com/news/articles/2024-12-20/qualcomm-wins-licensing-fight-with-arm-over-chip-designs">Qualcomm remporte la bataille de licences avec Arm concernant les conceptions de puces</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42475228">Réactions</a></h3>
+<ul>
+<li>Qualcomm est sorti victorieux d&#39;un litige juridique avec Arm concernant la licence de conception de puces, spécifiquement liée à l&#39;acquisition de Nuvia par Qualcomm.</li>
+<li>Le cas tournait autour de la question de savoir si la licence existante de Qualcomm couvrait les conceptions de Nuvia, Arm affirmant que tous les CPU conformes à Arm étaient des dérivés de leur architecture de jeu d&#39;instructions (ISA).</li>
+<li>Le manque de décision du jury concernant la violation de licence par Nuvia a favorisé Qualcomm, soulevant des inquiétudes sur les pratiques de licence d&#39;Arm et incitant possiblement les entreprises à envisager RISC-V, une alternative open-source.</li>
+</ul>
+<h2><a href="https://github.com/malmeloo/FindMy.py">Interroger le réseau FindMy d&#39;Apple avec Python</a></h2>
+<ul>
+<li>FindMy.py est une bibliothèque complète conçue pour interroger le réseau FindMy d&#39;Apple, visant à consolider la scène fragmentée de &quot;Find My&quot;. Elle est actuellement à son stade Alpha, ce qui signifie que la conception de son API peut subir des modifications.</li>
+<li>Cette bibliothèque prend en charge la fonctionnalité multiplateforme, le déchiffrement des rapports de localisation, la connexion au compte Apple et l&#39;authentification à deux facteurs (2FA), offrant des API à la fois asynchrones (async) et synchrones (sync).</li>
+<li>Il est possible d&#39;installer via PyPi en utilisant la commande <code>pip install findmy</code>, et les contributions sont encouragées, avec des directives spécifiques fournies pour le formatage du code.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42479233">Réactions</a></h3>
+<ul>
+<li>Une implémentation en Python de l&#39;API FindMy d&#39;Apple vise à améliorer l&#39;accès multiplateforme, au bénéfice des utilisateurs sur Linux et Android qui nécessitent actuellement un Mac pour les fonctionnalités FindMy.</li>
+<li>Cet outil pourrait permettre le suivi des emplacements et des AirTags sans dépendance à l&#39;écosystème d&#39;Apple, bien qu&#39;il y ait des préoccupations concernant l&#39;intervention potentielle d&#39;Apple pour arrêter de tels projets.</li>
+<li>Les discussions mettent en avant le soutien limité d&#39;Apple pour les plateformes croisées et les difficultés à gérer les fonctionnalités des appareils, comme le contrôle parental, en dehors de son écosystème, avec des suggestions d&#39;alternatives comme Blue Bubbles et Firewalla.</li>
+</ul>
+<h2><a href="https://www.honest-broker.com/p/the-ugly-truth-about-spotify-is-finally">Enfin révélée, la vérité laide sur Spotify</a></h2>
+<ul>
+<li>Une enquête menée par la journaliste indépendante Liz Pelly a révélé l&#39;utilisation par Spotify de faux artistes pour augmenter ses profits, notamment dans des genres comme le jazz et l&#39;ambient. Cette pratique, connue sous le nom de programme &quot;Perfect Fit Content&quot;, permet à Spotify d&#39;éviter de payer des royalties aux musiciens authentiques, soulevant des préoccupations concernant la transparence et la régulation du streaming musical. Malgré la controverse, la rentabilité de Spotify s&#39;est améliorée, tandis que l&#39;industrie musicale et les médias grand public ont largement ignoré ces problèmes, laissant le journalisme indépendant les porter à l&#39;attention du public.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42478107">Réactions</a></h3>
+<ul>
+<li>L&#39;article soulève des inquiétudes concernant le fait que Spotify favoriserait prétendument de la musique générique de basse qualité, possiblement générée par l&#39;IA, au détriment des artistes authentiques pour réduire les coûts. - Les utilisateurs expriment leur mécontentement face aux recommandations musicales de Spotify, déclenchant un débat sur l&#39;éthique de ses pratiques commerciales et l&#39;impact sur les artistes. - La discussion souligne les défis auxquels les artistes sont confrontés dans un marché dominé par le streaming et suggère des alternatives comme la radio indépendante ou d&#39;autres services de streaming.</li>
+</ul>
+<h2><a href="https://www.os2museum.com/wp/dos-append/">APPEND DOS</a></h2>
+<ul>
+<li>Le blog du musée OS/2 explore l&#39;informatique vintage sur PC, en se concentrant sur OS/2, DOS et des sujets connexes. - Un article récent met en lumière la commande DOS APPEND, un programme Terminate and Stay Resident (TSR) qui aide les anciennes applications DOS à accéder aux fichiers dans différents répertoires, introduit pour la première fois dans DOS 3.3. - L&#39;article se penche sur l&#39;histoire, l&#39;évolution et la mise en œuvre d&#39;APPEND, discutant de son importance dans les contextes informatiques modernes.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42475011">Réactions</a></h3>
+<ul>
+<li>Le commande DOS APPEND était historiquement significative pour modifier le comportement de l&#39;assembleur sans changer l&#39;assembleur, semblable aux variables d&#39;environnement modernes et aux montages overlayfs.</li>
+<li>Les commandes DOS telles que SUBST et JOIN étaient utilisées pour le mappage de répertoires et la gestion des chemins, aidant à surmonter les limitations de longueur de chemin.</li>
+<li>Le débat inclut le développement historique de DOS sur les mini-ordinateurs DEC et l&#39;évolution du matériel informatique des mini-ordinateurs aux systèmes actuels.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Un juge américain juge le groupe israélien NSO responsable du piratage de journalistes via WhatsApp" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Un%20juge%20am%C3%A9ricain%20juge%20le%20groupe%20isra%C3%A9lien%20NSO%20responsable%20du%20piratage%20de%20journalistes%20via%20WhatsApp&subheading=samedi%2021%20d%C3%A9cembre%202024%3A%20R%C3%A9sum%C3%A9%20de%20Hacker%20News" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/fr/2024/12/21</link>
+            <guid isPermaLink="false">2024-12-21T00:00:00.000Z</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-12-20]]></title>
             <description
@@ -973,65 +1053,6 @@
             <link>https://hn.cho.sh/fr/2024/12/12</link>
             <guid isPermaLink="false">2024-12-12T00:00:00.000Z</guid>
             <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-11]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/11&#39;</h2>
-<h1>2024-12-11</h1>
-<h2><a href="https://www.nytimes.com/2024/12/10/business/media/the-onion-infowars-alex-jones.html">Le juge des faillites rejette la vente d&#39;Infowars à The Onion</a></h2>
-<ul>
-<li>Un juge a suspendu la vente d&#39;Infowars à The Onion, qui avait l&#39;intention de le transformer en une plateforme satirique.</li>
-<li>Cette décision a été prise malgré le soutien des familles des victimes de Sandy Hook, laissant l&#39;avenir d&#39;Infowars dans l&#39;incertitude.</li>
-<li>Un administrateur désigné par le tribunal est désormais chargé de déterminer une nouvelle ligne de conduite, tandis que The Onion reste intéressé par l&#39;acquisition.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42384921">Réactions</a></h3>
-<ul>
-<li>Un juge des faillites a rejeté la vente d&#39;Infowars à The Onion, affirmant que le processus d&#39;enchères n&#39;a pas maximisé les retours pour les créanciers, y compris les familles de Sandy Hook. - Le juge a critiqué le processus d&#39;enchères scellées pour ne pas avoir favorisé une concurrence équitable, essentielle pour des pratiques d&#39;enchères justes. - L&#39;offre de The Onion comprenait 1,75 million de dollars en espèces, avec des fonds supplémentaires provenant des gains potentiels de jugement pour diffamation des familles de Sandy Hook, soulevant des questions sur l&#39;équité et la légalité de l&#39;enchère.</li>
-</ul>
-<h2><a href="https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/">Gemini 2.0 : notre nouveau modèle d&#39;IA pour l&#39;ère agentique</a></h2>
-<ul>
-<li>Google DeepMind a lancé Gemini 2.0, un modèle d&#39;IA avancé conçu pour l&#39;« ère agentique », doté de capacités telles que la sortie native d&#39;images et d&#39;audio et l&#39;utilisation d&#39;outils. - Gemini 2.0 Flash est actuellement accessible aux développeurs et testeurs de confiance, avec une sortie plus large prévue au début de l&#39;année prochaine, indiquant une stratégie de déploiement par étapes. - Google se concentre sur le développement responsable de l&#39;IA, en mettant l&#39;accent sur la sécurité et la sûreté, avec des applications potentielles dans la recherche, les jeux et la robotique, soulignant la polyvalence du modèle et son engagement envers des pratiques éthiques en matière d&#39;IA.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42388783">Réactions</a></h3>
-<ul>
-<li>Le modèle d&#39;IA Gemini 2.0 de Google est conçu pour l&#39;« ère agentique », capable d&#39;écrire et d&#39;exécuter du code Python, mais il ne peut pas effectuer d&#39;appels réseau. - Le modèle est compétent dans les tâches de vision et est accessible aux développeurs et testeurs via AI Studio, bien qu&#39;il rencontre encore des problèmes tels que les hallucinations et la verbosité. - La communauté de l&#39;IA discute de la terminologie utilisée, comme « agentique » et « raisonnement », certains considérant ces termes comme du jargon marketing.</li>
-</ul>
-<h2><a href="https://www.cnbc.com/2024/12/10/gm-halts-funding-of-robotaxi-development-by-cruise.html">GM quitte le marché des robotaxis, intégrera les opérations de Cruise en interne</a></h2>
-<ul>
-<li>General Motors (GM) cesse de financer sa division de robotaxis Cruise, choisissant de l&#39;intégrer à son équipe technologique pour se concentrer sur les systèmes autonomes pour les véhicules personnels.</li>
-<li>GM vise à acquérir les actions restantes de Cruise d&#39;ici 2025, réduisant ainsi considérablement ses dépenses annuelles pour la division de plus de moitié.</li>
-<li>Croisière a rencontré des défis, tels qu&#39;une amende de 1,5 million de dollars pour ne pas avoir signalé un accident, tandis que des concurrents comme Waymo et Tesla continuent de progresser sur le marché des robotaxis.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42381637">Réactions</a></h3>
-<ul>
-<li>General Motors (GM) se retire du marché des robotaxis et intègre les opérations de Cruise en interne en raison d&#39;une concurrence accrue.</li>
-<li>Malgré la possession d&#39;une technologie autonome avancée, la stratégie de GM est remise en question, avec des problèmes tels que l&#39;indisponibilité de Super Cruise pour les essais routiers.</li>
-<li>Le marché des véhicules autonomes est incertain, avec un intérêt en déclin et des entreprises comme Ford réduisant les coûts pour des fonctionnalités similaires, tandis que le système de conduite entièrement autonome (FSD) de Tesla rencontre encore des défis dans certains scénarios.</li>
-</ul>
-<h2><a href="https://electric-sql.com/blog/2024/12/10/electric-beta-release">Version bêta du moteur de synchronisation Electric (Postgres)</a></h2>
-<ul>
-<li>Le moteur de synchronisation d&#39;Electric, désormais en BETA avec la version 1.0.0-beta.1, facilite la réplication partielle en temps réel des données Postgres dans des applications locales, permettant un accès instantané aux données locales sans modifier les piles technologiques existantes. - Le moteur inclut PGlite, une version légère de Postgres en WebAssembly (WASM) pour les navigateurs, et est prêt pour la production après une réécriture de six mois, déjà utilisé par des entreprises comme Google et Supabase. - Electric prend en charge des charges de travail à haut débit avec une faible latence, est facile à adopter avec des API simples, et peut être intégré progressivement, avec Electric Cloud, un service d&#39;hébergement géré, en développement.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42383136">Réactions</a></h3>
-<ul>
-<li>ElectricSQL a publié une version bêta de son moteur de synchronisation Postgres, suscitant de l&#39;intérêt en raison de la qualité de son ingénierie et des considérations liées à son modèle économique. - Le moteur synchronise les données de Postgres vers des applications locales en tant que répliques en lecture seule, adapté aux services à forte lecture et faible écriture, mais ne prend pas en charge la synchronisation du chemin d&#39;écriture. - Les utilisateurs discutent de son potentiel par rapport à des alternatives comme PowerSync et Triplit, et le projet vise à simplifier le développement d&#39;applications locales/priorité hors ligne, malgré les défis liés à la synchronisation multi-tables et aux changements de schéma.</li>
-</ul>
-<h2><a href="https://www.courtlistener.com/docket/69221176/64/wpengine-inc-v-automattic-inc/">« WPEngine, Inc. contre Automattic – Ordonnance sur la requête en injonction préliminaire »</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42382829">Réactions</a></h3>
-<ul>
-<li>Le procès entre WPEngine, Inc. et Automattic implique une injonction préliminaire en raison d&#39;actions de Matt Mullenweg qui auraient porté préjudice à WPEngine. Le tribunal a statué en faveur de WPEngine, obligeant Automattic à rétablir l&#39;accès au compte, à restituer le plugin ACF et à supprimer une case à cocher controversée sans exiger de caution. Cette affaire souligne les tensions au sein de la communauté WordPress et suscite des discussions sur la gouvernance open-source et l&#39;influence des fonds de capital-investissement dans les entreprises technologiques.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Le juge des faillites rejette la vente d'Infowars à The Onion" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Le%20juge%20des%20faillites%20rejette%20la%20vente%20d'Infowars%20%C3%A0%20The%20Onion&subheading=mercredi%2011%20d%C3%A9cembre%202024%3A%20R%C3%A9sum%C3%A9%20de%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/fr/2024/12/11</link>
-            <guid isPermaLink="false">2024-12-11T00:00:00.000Z</guid>
-            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

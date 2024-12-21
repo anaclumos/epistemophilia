@@ -15,11 +15,93 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Dec 2024 19:16:30 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Dec 2024 19:06:27 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/story/vi.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 20 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
         <language><![CDATA[vi]]></language>
         <ttl>60</ttl>
+        <item>
+            <title
+      ><![CDATA[Thẩm phán Mỹ xác định NSO Group của Israel chịu trách nhiệm về việc hack các nhà báo thông qua WhatsApp]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link
+      >https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/</link>
+            <guid
+        isPermaLink="false"
+      >2024-12-21T00:00:00.000ZThẩm phán Mỹ xác định NSO Group của Israel chịu trách nhiệm về việc hack các nhà báo thông qua WhatsApp</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Biên dịch C sang Rust an toàn, được chính thức hóa]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Bài báo của Aymeric Fromherz và Jonathan Protzenko thảo luận về việc dịch mã C sang Rust an toàn, tập trung vào an toàn bộ nhớ bằng cách tránh các tính năng không an toàn của Rust.</li>
+<li>Những tác giả giới thiệu một phương pháp dịch có định hướng theo kiểu, phân tích tĩnh sử dụng &quot;cây phân tách&quot; cho số học con trỏ, và một chiến lược để xử lý các kiểu struct của C trong Rust.</li>
+<li>Phương pháp của họ đã thành công trong việc dịch thư viện mật mã HACL* và các bộ phân tích nhị phân của EverParse thành một thư viện mật mã đã được xác minh với 80.000 dòng mã thuần Rust, duy trì hiệu suất với các bản sao chiến lược tối thiểu.</li>
+</ul>
+]]></description>
+            <link>https://arxiv.org/abs/2412.15042</link>
+            <guid isPermaLink="false">2024-12-21T00:00:00.000ZBiên dịch C sang Rust an toàn, được chính thức hóa</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Một Raycaster trong Bash]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Một raycaster lấy cảm hứng từ trò chơi Wolfenstein đã được triển khai trong Bash, cho thấy những thách thức khi sử dụng Bash cho các ứng dụng đồ họa. Dự án gặp phải những hạn chế do Bash chậm chạp, thiếu hỗ trợ số dấu phẩy động và các hạn chế của terminal, khiến việc duy trì trạng thái màn hình và tối ưu hóa hiệu suất trở nên khó khăn. Mặc dù sử dụng các khối nửa Unicode để có độ phân giải tốt hơn, dự án vẫn gặp khó khăn với nhu cầu I/O cao và cập nhật màu sắc không hiệu quả, làm nổi bật sự phức tạp của việc sử dụng Bash cho các tác vụ như vậy.</li>
+</ul>
+]]></description>
+            <link>https://github.com/izabera/pseudo3d</link>
+            <guid isPermaLink="false">2024-12-21T00:00:00.000ZMột Raycaster trong Bash</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Qualcomm thắng kiện bản quyền với Arm về thiết kế chip]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link
+      >https://www.bloomberg.com/news/articles/2024-12-20/qualcomm-wins-licensing-fight-with-arm-over-chip-designs</link>
+            <guid
+        isPermaLink="false"
+      >2024-12-21T00:00:00.000ZQualcomm thắng kiện bản quyền với Arm về thiết kế chip</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Truy vấn Mạng FindMy của Apple bằng Python]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>FindMy.py là một thư viện toàn diện được thiết kế để truy vấn mạng FindMy của Apple, nhằm hợp nhất &quot;cảnh Find My&quot; bị phân mảnh. Hiện tại, nó đang ở giai đoạn Alpha, có nghĩa là thiết kế API của nó có thể thay đổi.</li>
+<li>The thư viện hỗ trợ chức năng đa nền tảng, giải mã báo cáo vị trí, đăng nhập tài khoản Apple và xác thực hai yếu tố (2FA), cung cấp cả API không đồng bộ (async) và đồng bộ (sync).</li>
+<li>Việc cài đặt có sẵn thông qua PyPi bằng cách sử dụng lệnh <code>pip install findmy</code>, và khuyến khích đóng góp, với các hướng dẫn cụ thể về định dạng mã được cung cấp.</li>
+</ul>
+]]></description>
+            <link>https://github.com/malmeloo/FindMy.py</link>
+            <guid isPermaLink="false">2024-12-21T00:00:00.000ZTruy vấn Mạng FindMy của Apple bằng Python</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Cuối cùng sự thật xấu xí về Spotify đã được tiết lộ]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Cuộc điều tra của nhà báo độc lập Liz Pelly đã phát hiện việc Spotify sử dụng các nghệ sĩ giả để tăng lợi nhuận, đặc biệt trong các thể loại như jazz và ambient. Thực hành này, được biết đến với tên gọi chương trình &quot;Nội dung Phù hợp Hoàn hảo&quot;, cho phép Spotify tránh phải trả tiền bản quyền cho các nhạc sĩ thực sự, gây ra lo ngại về tính minh bạch và quy định trong phát trực tuyến âm nhạc. Mặc dù có tranh cãi, lợi nhuận của Spotify đã được cải thiện, trong khi ngành công nghiệp âm nhạc và truyền thông chính thống phần lớn đã bỏ qua những vấn đề này, để lại cho báo chí độc lập nhiệm vụ đưa chúng đến sự chú ý của công chúng.</li>
+</ul>
+]]></description>
+            <link>https://www.honest-broker.com/p/the-ugly-truth-about-spotify-is-finally</link>
+            <guid isPermaLink="false">2024-12-21T00:00:00.000ZCuối cùng sự thật xấu xí về Spotify đã được tiết lộ</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[DOS APPEND]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>The OS/2 Museum blog khám phá máy tính PC cổ điển, tập trung vào OS/2, DOS và các chủ đề liên quan. - Một bài đăng gần đây nêu bật lệnh DOS APPEND, một chương trình Terminate and Stay Resident (TSR) giúp các ứng dụng DOS cũ truy cập tệp qua các thư mục khác nhau, lần đầu tiên được giới thiệu trong DOS 3.3. - Bài đăng đi sâu vào lịch sử, sự phát triển và triển khai của APPEND, thảo luận về tầm quan trọng của nó trong các ngữ cảnh máy tính hiện đại.</li>
+</ul>
+]]></description>
+            <link>https://www.os2museum.com/wp/dos-append/</link>
+            <guid isPermaLink="false">2024-12-21T00:00:00.000ZDOS APPEND</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Thời đại của trợ lý giọng nói mở]]></title>
             <description
@@ -1094,72 +1176,6 @@
         isPermaLink="false"
       >2024-12-12T00:00:00.000ZMột bản sao của ChatGPT, trong 3000 byte mã C, được hỗ trợ bởi GPT-2 (2023)</guid>
             <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Thẩm phán phá sản bác bỏ việc bán Infowars cho The Onion]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Một thẩm phán đã ngừng việc bán Infowars cho The Onion, tổ chức dự định biến nó thành một nền tảng châm biếm.</li>
-<li>Quyết định đã được đưa ra mặc dù có sự ủng hộ từ gia đình các nạn nhân Sandy Hook, để lại tương lai của Infowars trong tình trạng lấp lửng.</li>
-<li>Một người được tòa án chỉ định hiện chịu trách nhiệm xác định một hướng đi mới, trong khi The Onion vẫn quan tâm đến việc mua lại.</li>
-</ul>
-]]></description>
-            <link>https://www.nytimes.com/2024/12/10/business/media/the-onion-infowars-alex-jones.html</link>
-            <guid
-        isPermaLink="false"
-      >2024-12-11T00:00:00.000ZThẩm phán phá sản bác bỏ việc bán Infowars cho The Onion</guid>
-            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Gemini 2.0: mô hình AI mới của chúng tôi cho kỷ nguyên tác nhân]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Google DeepMind đã ra mắt Gemini 2.0, một mô hình AI tiên tiến được thiết kế cho &quot;kỷ nguyên tác nhân&quot;, với các khả năng như đầu ra hình ảnh và âm thanh gốc và sử dụng công cụ. - Gemini 2.0 Flash hiện đang được truy cập bởi các nhà phát triển và người thử nghiệm đáng tin cậy, với một đợt phát hành rộng rãi hơn dự kiến vào đầu năm sau, cho thấy một chiến lược triển khai theo giai đoạn. - Google đang tập trung vào phát triển AI có trách nhiệm, nhấn mạnh an toàn và bảo mật, với các ứng dụng tiềm năng trong tìm kiếm, trò chơi và robot, làm nổi bật tính linh hoạt của mô hình và cam kết với các thực hành AI đạo đức.</li>
-</ul>
-]]></description>
-            <link>https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/</link>
-            <guid
-        isPermaLink="false"
-      >2024-12-11T00:00:00.000ZGemini 2.0: mô hình AI mới của chúng tôi cho kỷ nguyên tác nhân</guid>
-            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[GM rút khỏi thị trường taxi tự động, sẽ đưa hoạt động của Cruise về nội bộ]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>General Motors (GM) đang ngừng tài trợ cho bộ phận robotaxi Cruise, lựa chọn tích hợp nó vào đội ngũ công nghệ của mình để tập trung vào các hệ thống tự động cho xe cá nhân.</li>
-<li>GM đặt mục tiêu mua lại số cổ phần Cruise còn lại vào năm 2025, giảm đáng kể chi phí hàng năm cho bộ phận này hơn một nửa.</li>
-<li>Cruise đã đối mặt với những thách thức, chẳng hạn như bị phạt 1,5 triệu đô la vì không báo cáo một vụ tai nạn, trong khi các đối thủ như Waymo và Tesla tiếp tục tiến bộ trong thị trường taxi tự động.</li>
-</ul>
-]]></description>
-            <link>https://www.cnbc.com/2024/12/10/gm-halts-funding-of-robotaxi-development-by-cruise.html</link>
-            <guid
-        isPermaLink="false"
-      >2024-12-11T00:00:00.000ZGM rút khỏi thị trường taxi tự động, sẽ đưa hoạt động của Cruise về nội bộ</guid>
-            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Phát hành bản beta của Electric (công cụ đồng bộ hóa Postgres)]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Động cơ đồng bộ của Electric, hiện đang ở phiên bản BETA với phiên bản 1.0.0-beta.1, hỗ trợ sao chép một phần dữ liệu Postgres theo thời gian thực vào các ứng dụng cục bộ, cho phép truy cập dữ liệu cục bộ ngay lập tức mà không cần thay đổi các ngăn xếp công nghệ hiện có. Động cơ này bao gồm PGlite, một phiên bản WebAssembly (WASM) nhẹ của Postgres dành cho trình duyệt, và đã sẵn sàng cho sản xuất sau sáu tháng viết lại, đã được các công ty như Google và Supabase sử dụng. Electric hỗ trợ khối lượng công việc cao với độ trễ thấp, dễ dàng áp dụng với các API đơn giản, và có thể tích hợp dần dần, với Electric Cloud, một dịch vụ lưu trữ được quản lý, đang được phát triển.</li>
-</ul>
-]]></description>
-            <link>https://electric-sql.com/blog/2024/12/10/electric-beta-release</link>
-            <guid
-        isPermaLink="false"
-      >2024-12-11T00:00:00.000ZPhát hành bản beta của Electric (công cụ đồng bộ hóa Postgres)</guid>
-            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[WPEngine, Inc. kiện Automattic – Lệnh về Đề nghị Lệnh Cấm Tạm Thời]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://www.courtlistener.com/docket/69221176/64/wpengine-inc-v-automattic-inc/</link>
-            <guid
-        isPermaLink="false"
-      >2024-12-11T00:00:00.000ZWPEngine, Inc. kiện Automattic – Lệnh về Đề nghị Lệnh Cấm Tạm Thời</guid>
-            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

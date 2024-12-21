@@ -15,12 +15,92 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Dec 2024 19:16:30 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Dec 2024 19:06:27 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/ro.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 20 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[ro]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-12-21]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/12/21&#39;</h2>
+<h1>2024-12-21</h1>
+<h2><a href="https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/">„Un judecător din SUA a constatat că grupul NSO din Israel este responsabil pentru hackingul jurnaliștilor prin WhatsApp”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42476828">Reacții</a></h3>
+<ul>
+<li>„Un judecător din SUA a considerat responsabilă compania israeliană NSO Group pentru hackingul jurnaliștilor prin WhatsApp, ridicând întrebări despre responsabilitatea companiilor în activitățile de hacking și supraveghere.”</li>
+<li>„Cazul subliniază preocupările etice legate de vânzarea și utilizarea instrumentelor cibernetice, asemănându-le cu vânzările tradiționale de arme și determinând discuții privind posibilele consecințe legale pentru conducere.”</li>
+<li>„De asemenea, atrage atenția asupra unor probleme mai ample, cum ar fi confidențialitatea, supravegherea guvernamentală și responsabilitatea companiilor de social media în protejarea datelor utilizatorilor.”</li>
+</ul>
+<h2><a href="https://arxiv.org/abs/2412.15042">„Compilarea C în Safe Rust, Formalizată”</a></h2>
+<ul>
+<li>„Lucrarea scrisă de Aymeric Fromherz și Jonathan Protzenko discută despre traducerea codului C în Rust sigur, concentrându-se pe siguranța memoriei prin evitarea caracteristicilor nesigure ale Rust.”</li>
+<li>„Autorii introduc o metodă de traducere direcționată de tip, o analiză statică folosind „arbori împărțiți” pentru aritmetica pointerilor și o strategie pentru gestionarea tipurilor de structuri din C în Rust.”</li>
+<li>„Abordarea lor traduce cu succes biblioteca criptografică HACL* și parser-ele binare ale EverParse într-o bibliotecă criptografică verificată de 80.000 de linii în Rust pur, menținând performanța cu copii strategice minime.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42476192">Reacții</a></h3>
+<ul>
+<li>„Convertirea codului C în Rust sigur este dificilă din cauza diferențelor fundamentale între limbaje, în special modelul de proprietate al Rust, care necesită o reproiectare semnificativă pentru siguranță. - Instrumente precum C2Rust ajută la traducere, dar procesul este complex, iar unele programe C nu pot fi portate fără a le schimba semantica din cauza nesiguranței inerente. - Deși traducerea C în Rust poate îmbunătăți siguranța și poate dezvălui erori, siguranța Rust este adesea înțeleasă greșit, iar verificarea formală a codului C, care ajută la traducere, nu este întotdeauna disponibilă.”</li>
+</ul>
+<h2><a href="https://github.com/izabera/pseudo3d">„Un Raycaster în Bash”</a></h2>
+<ul>
+<li>„Un raycaster inspirat de jocul Wolfenstein a fost implementat în Bash, demonstrând provocările utilizării Bash pentru aplicații grafice. Proiectul se confruntă cu limitări datorate lentorii Bash, lipsei suportului pentru numere în virgulă mobilă și constrângerilor terminalului, ceea ce face dificilă menținerea stării ecranului și optimizarea performanței. În ciuda utilizării blocurilor Unicode pe jumătate pentru o rezoluție mai bună, proiectul se luptă cu cerințele ridicate de I/O și actualizările ineficiente de culoare, evidențiind complexitatea utilizării Bash pentru astfel de sarcini.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42475703">Reacții</a></h3>
+<ul>
+<li>„Un Raycaster în Bash este un proiect care simulează un efect 3D folosind raytracing o dată pe coloană, redând eficient scenele cu comenzi <code>echo</code> minime.”</li>
+<li>„Proiectul este remarcabil pentru utilizarea repetiției de șiruri pentru a trasa linii pentru cer, iarbă și obiecte, făcându-l un exemplu inspirator pentru crearea de motoare de redare voxel în medii constrânse.”</li>
+<li>„Discuția evidențiază proiecte similare de raycasting în MS Batch și <code>awk</code>, demonstrând creativitatea în utilizarea limbajelor de programare neconvenționale pentru sarcini complexe.”</li>
+</ul>
+<h2><a href="https://www.bloomberg.com/news/articles/2024-12-20/qualcomm-wins-licensing-fight-with-arm-over-chip-designs">„Qualcomm câștigă lupta de licențiere cu Arm privind designurile de cipuri”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42475228">Reacții</a></h3>
+<ul>
+<li>„Qualcomm a ieșit învingător într-o dispută legală cu Arm privind licențierea designului de cipuri, în special legată de achiziția Nuvia de către Qualcomm.”</li>
+<li>„Cazul s-a concentrat pe întrebarea dacă licența existentă a Qualcomm acoperea designurile Nuvia, Arm susținând că toate procesoarele compatibile cu Arm erau derivate ale Arhitecturii Setului de Instrucțiuni (ISA) a acestora.”</li>
+<li>„Indecizia juriului cu privire la încălcarea licenței de către Nuvia a favorizat Qualcomm, ridicând îngrijorări cu privire la practicile de licențiere ale Arm și posibil încurajând companiile să ia în considerare RISC-V, o alternativă open-source.”</li>
+</ul>
+<h2><a href="https://github.com/malmeloo/FindMy.py">„Interogați rețeaua FindMy de la Apple cu Python”</a></h2>
+<ul>
+<li>„FindMy.py este o bibliotecă cuprinzătoare concepută pentru a interoga rețeaua FindMy a Apple, având ca scop consolidarea scenei fragmentate „Find My”. În prezent, se află în stadiul Alpha, ceea ce înseamnă că designul API-ului său poate suferi modificări.”</li>
+<li>„Biblioteca suportă funcționalitate multiplatformă, decriptarea rapoartelor de locație, autentificarea în contul Apple și autentificarea cu doi factori (2FA), oferind atât API-uri asincrone (async), cât și sincrone (sync).”</li>
+<li>„Instalarea este disponibilă prin PyPi folosind comanda <code>pip install findmy</code>, iar contribuțiile sunt încurajate, cu linii directoare specifice pentru formatarea codului furnizate.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42479233">Reacții</a></h3>
+<ul>
+<li>„O implementare Python a API-ului FindMy de la Apple își propune să îmbunătățească accesul pe mai multe platforme, beneficiind utilizatorii de Linux și Android care în prezent necesită un Mac pentru funcțiile FindMy.”</li>
+<li>„Acest instrument ar putea permite urmărirea locațiilor și a AirTag-urilor fără a depinde de ecosistemul Apple, deși există îngrijorări cu privire la intervenția potențială a Apple pentru a opri astfel de proiecte.”</li>
+<li>„Discuția evidențiază suportul limitat al Apple pentru platforme încrucișate și dificultățile în gestionarea caracteristicilor dispozitivelor, cum ar fi controalele parentale, în afara ecosistemului său, cu sugestii pentru alternative precum Blue Bubbles și Firewalla.”</li>
+</ul>
+<h2><a href="https://www.honest-broker.com/p/the-ugly-truth-about-spotify-is-finally">„Adevărul urât despre Spotify este în sfârșit dezvăluit”</a></h2>
+<ul>
+<li>„O investigație realizată de jurnalista independentă Liz Pelly a dezvăluit utilizarea de către Spotify a artiștilor falși pentru a crește profiturile, în special în genuri precum jazz și ambient. Această practică, cunoscută sub numele de programul „Perfect Fit Content”, permite Spotify să evite plata redevențelor către muzicienii autentici, ridicând îngrijorări cu privire la transparență și reglementare în streamingul muzical. În ciuda controversei, profitabilitatea Spotify a crescut, în timp ce industria muzicală și mass-media mainstream au ignorat în mare parte aceste probleme, lăsând jurnalismul independent să le aducă în atenția publicului.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42478107">Reacții</a></h3>
+<ul>
+<li>„Articolul ridică îngrijorări cu privire la faptul că Spotify ar favoriza muzica de calitate inferioară, generică, posibil generată de inteligența artificială, în detrimentul artiștilor autentici, pentru a reduce costurile. - Utilizatorii își exprimă nemulțumirea față de recomandările muzicale ale Spotify, declanșând o dezbatere asupra eticii practicilor sale de afaceri și a impactului asupra artiștilor. - Discuția subliniază provocările cu care se confruntă artiștii într-o piață dominată de streaming și sugerează alternative precum radioul independent sau alte servicii de streaming.”</li>
+</ul>
+<h2><a href="https://www.os2museum.com/wp/dos-append/">„DOS APPEND”</a></h2>
+<ul>
+<li>„Blogul OS/2 Museum explorează computerele vintage, concentrându-se pe OS/2, DOS și subiecte conexe. - O postare recentă evidențiază comanda DOS APPEND, un program Terminate and Stay Resident (TSR) care ajută aplicațiile DOS mai vechi să acceseze fișiere din diferite directoare, introdus pentru prima dată în DOS 3.3. - Postarea analizează istoria, evoluția și implementarea APPEND, discutând semnificația sa în contexte moderne de calcul.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42475011">Reacții</a></h3>
+<ul>
+<li>„Comanda DOS APPEND a fost istoric semnificativă pentru modificarea comportamentului asamblorului fără a schimba asamblorul, similar cu variabilele de mediu moderne și montările overlayfs.”</li>
+<li>„Comenzile DOS precum SUBST și JOIN erau folosite pentru maparea directoarelor și gestionarea căilor, ajutând la depășirea limitărilor de lungime a căilor.”</li>
+<li>„Discuția include dezvoltarea istorică a DOS pe minicalculatoarele DEC și evoluția hardware-ului de calcul de la minicalculatoare la sistemele actuale.”</li>
+</ul>
+<head>
+  <meta property="og:title" content="„Un judecător din SUA a constatat că grupul NSO din Israel este responsabil pentru hackingul jurnaliștilor prin WhatsApp”" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EUn%20judec%C4%83tor%20din%20SUA%20a%20constatat%20c%C4%83%20grupul%20NSO%20din%20Israel%20este%20responsabil%20pentru%20hackingul%20jurnali%C8%99tilor%20prin%20WhatsApp%E2%80%9D&subheading=s%C3%A2mb%C4%83t%C4%83%2C%2021%20decembrie%202024%3A%20Rezumat%20Hacker%20News" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/ro/2024/12/21</link>
+            <guid isPermaLink="false">2024-12-21T00:00:00.000Z</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-12-20]]></title>
             <description
@@ -973,65 +1053,6 @@
             <link>https://hn.cho.sh/ro/2024/12/12</link>
             <guid isPermaLink="false">2024-12-12T00:00:00.000Z</guid>
             <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-11]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/11&#39;</h2>
-<h1>2024-12-11</h1>
-<h2><a href="https://www.nytimes.com/2024/12/10/business/media/the-onion-infowars-alex-jones.html">„Judecătorul de faliment respinge vânzarea Infowars către The Onion”</a></h2>
-<ul>
-<li>„Un judecător a oprit vânzarea Infowars către The Onion, care intenționa să îl transforme într-o platformă satirică.”</li>
-<li>„Decizia a fost luată în ciuda sprijinului din partea familiilor victimelor de la Sandy Hook, lăsând viitorul Infowars în incertitudine.”</li>
-<li>„Un administrator desemnat de instanță este acum responsabil pentru determinarea unei noi direcții de acțiune, în timp ce The Onion rămâne interesat de achiziție.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42384921">Reacții</a></h3>
-<ul>
-<li>„Un judecător de faliment a respins vânzarea Infowars către The Onion, afirmând că procesul de licitație nu a maximizat câștigurile pentru creditori, inclusiv pentru familiile Sandy Hook. - Judecătorul a criticat procesul de ofertare sigilată pentru că nu a promovat licitarea competitivă, care este esențială pentru practicile corecte de licitație. - Oferta The Onion a implicat 1,75 milioane de dolari în numerar, cu fonduri suplimentare din câștigurile potențiale ale judecății de defăimare ale familiilor Sandy Hook, ridicând întrebări despre corectitudinea și legalitatea licitației.”</li>
-</ul>
-<h2><a href="https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/">„Gemini 2.0: noul nostru model AI pentru era agențială”</a></h2>
-<ul>
-<li>„Google DeepMind a lansat Gemini 2.0, un model AI avansat conceput pentru „era agentică”, având capacități precum ieșire nativă de imagine și audio și utilizarea de instrumente. - Gemini 2.0 Flash este în prezent accesibil dezvoltatorilor și testerilor de încredere, cu o lansare mai largă așteptată la începutul anului viitor, indicând o strategie de lansare treptată. - Google se concentrează pe dezvoltarea responsabilă a AI, subliniind siguranța și securitatea, cu aplicații potențiale în căutare, jocuri și robotică, evidențiind versatilitatea modelului și angajamentul față de practici etice în AI.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42388783">Reacții</a></h3>
-<ul>
-<li>„Modelul AI Gemini 2.0 de la Google este conceput pentru „era agentică”, fiind capabil să scrie și să execute cod Python, dar nu poate efectua apeluri de rețea. Modelul este priceput în sarcini de viziune și este accesibil dezvoltatorilor și testerilor prin AI Studio, deși încă întâmpină probleme precum halucinațiile și verbositatea. Comunitatea AI discută despre terminologia folosită, cum ar fi „agentic” și „raționament”, unii considerând acești termeni ca fiind jargon de marketing.”</li>
-</ul>
-<h2><a href="https://www.cnbc.com/2024/12/10/gm-halts-funding-of-robotaxi-development-by-cruise.html">„GM iese de pe piața robotaxiurilor, va aduce operațiunile Cruise în interiorul companiei”</a></h2>
-<ul>
-<li>„General Motors (GM) își întrerupe finanțarea pentru divizia de robotaxi Cruise, optând să o integreze în echipa sa tehnologică pentru a se concentra pe sistemele autonome pentru vehiculele personale.”</li>
-<li>„GM intenționează să achiziționeze restul acțiunilor Cruise până în 2025, reducând semnificativ cheltuielile anuale pentru această divizie cu mai mult de jumătate.”</li>
-<li>„Cruise s-a confruntat cu provocări, cum ar fi o amendă de 1,5 milioane de dolari pentru neraportarea unui accident, în timp ce concurenți precum Waymo și Tesla continuă să progreseze pe piața robotaxiurilor.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42381637">Reacții</a></h3>
-<ul>
-<li>„General Motors (GM) se retrage de pe piața robotaxiurilor și integrează operațiunile Cruise intern din cauza concurenței crescute.”</li>
-<li>„În ciuda faptului că deține tehnologie avansată autonomă, strategia GM este pusă sub semnul întrebării, cu probleme precum indisponibilitatea Super Cruise pentru test drive-uri.”</li>
-<li>„Piața vehiculelor autonome este incertă, cu un interes în scădere și companii precum Ford care reduc costurile pentru caracteristici similare, în timp ce sistemul Full Self-Driving (FSD) al Tesla încă se confruntă cu provocări în anumite scenarii.”</li>
-</ul>
-<h2><a href="https://electric-sql.com/blog/2024/12/10/electric-beta-release">„Lansarea beta a motorului de sincronizare Electric (Postgres)”</a></h2>
-<ul>
-<li>„Motorul de sincronizare Electric, acum în BETA cu versiunea 1.0.0-beta.1, facilitează replicarea parțială în timp real a datelor Postgres în aplicațiile locale, permițând accesul instantaneu la datele locale fără a modifica stivele tehnologice existente. Motorul include PGlite, o versiune ușoară WebAssembly (WASM) a Postgres pentru browsere, și este gata de producție după o rescriere de șase luni, fiind deja utilizat de companii precum Google și Supabase. Electric suportă sarcini de lucru cu debit mare și latență scăzută, este ușor de adoptat cu API-uri simple și poate fi integrat incremental, cu Electric Cloud, un serviciu de găzduire gestionat, în curs de dezvoltare.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42383136">Reacții</a></h3>
-<ul>
-<li>„ElectricSQL a lansat o versiune beta a motorului său de sincronizare Postgres, generând interes datorită calității ingineriei și considerațiilor privind modelul de afaceri. Motorul sincronizează datele din Postgres către aplicațiile locale ca replici doar pentru citire, fiind potrivit pentru servicii cu multe citiri și puține scrieri, dar nu suportă sincronizarea căii de scriere. Utilizatorii discută despre potențialul său în comparație cu alternative precum PowerSync și Triplit, iar proiectul își propune să simplifice dezvoltarea aplicațiilor locale/offline-first, în ciuda provocărilor legate de sincronizarea multi-tabelară și schimbările de schemă.”</li>
-</ul>
-<h2><a href="https://www.courtlistener.com/docket/69221176/64/wpengine-inc-v-automattic-inc/">„WPEngine, Inc. vs. Automattic – Ordin privind cererea de ordonanță președințială”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42382829">Reacții</a></h3>
-<ul>
-<li>„Cazul judiciar dintre WPEngine, Inc. și Automattic implică un ordin preliminar din cauza acțiunilor lui Matt Mullenweg care ar fi prejudiciat WPEngine. - Instanța a decis în favoarea WPEngine, obligând Automattic să restabilească accesul la cont, să returneze pluginul ACF și să elimine o casetă de selectare controversată fără a solicita o garanție. - Acest caz subliniază tensiunile din comunitatea WordPress și provoacă discuții despre guvernanța open-source și influența capitalului privat în companiile de tehnologie.”</li>
-</ul>
-<head>
-  <meta property="og:title" content="„Judecătorul de faliment respinge vânzarea Infowars către The Onion”" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EJudec%C4%83torul%20de%20faliment%20respinge%20v%C3%A2nzarea%20Infowars%20c%C4%83tre%20The%20Onion%E2%80%9D&subheading=miercuri%2C%2011%20decembrie%202024%3A%20Rezumat%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/ro/2024/12/11</link>
-            <guid isPermaLink="false">2024-12-11T00:00:00.000Z</guid>
-            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

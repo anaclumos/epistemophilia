@@ -1,0 +1,138 @@
+[
+  {
+    "id": 42476828,
+    "title": "“美国法官裁定以色列NSO集团通过WhatsApp入侵记者的行为负有责任”",
+    "originLink": "https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42476828",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "“美国一名法官已判定以色列NSO集团因通过WhatsApp入侵记者而负有责任，这引发了关于公司在黑客和监视活动中责任的问题。”",
+      "“该案例强调了与网络工具的销售和使用相关的伦理问题，将其比作传统武器销售，并引发了关于管理层潜在法律后果的讨论。”",
+      "“它还引起了对更广泛问题的关注，例如隐私、政府监控以及社交媒体公司在保护用户数据方面的责任。”"
+    ],
+    "points": 331,
+    "commentCount": 63,
+    "retryCount": 0,
+    "time": 1734745103
+  },
+  {
+    "id": 42476192,
+    "title": "“将 C 编译为安全 Rust，形式化”",
+    "originLink": "https://arxiv.org/abs/2412.15042",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42476192",
+    "commentBody": "",
+    "originSummary": [
+      "“由Aymeric Fromherz和Jonathan Protzenko撰写的论文讨论了将C代码翻译为安全的Rust，重点是通过避免不安全的Rust特性来实现内存安全。”",
+      "“作者介绍了一种类型导向的翻译方法，使用‘分裂树’进行指针运算的静态分析，以及在 Rust 中处理 C 语言结构体类型的策略。”",
+      "“他们的方法成功地将 HACL* 加密库和 EverParse 的二进制解析器翻译成一个经过验证的 80,000 行的纯 Rust 加密库，在保持性能的同时仅进行最小的战略性复制。”"
+    ],
+    "commentSummary": [
+      "“将 C 代码转换为安全的 Rust 代码是困难的，因为两种语言之间存在根本性的差异，特别是 Rust 的所有权模型，这需要进行重大重设计以确保安全。- 像 C2Rust 这样的工具可以协助翻译，但过程复杂，并且由于固有的不安全性，有些 C 程序在不改变其语义的情况下无法移植。- 虽然将 C 翻译成 Rust 可以增强安全性并揭示错误，但 Rust 的安全性常常被误解，而 C 代码的形式验证(这有助于翻译)并不总是可用的。”"
+    ],
+    "points": 257,
+    "commentCount": 114,
+    "retryCount": 0,
+    "time": 1734737403
+  },
+  {
+    "id": 42475703,
+    "title": "“Bash中的光线投射器”",
+    "originLink": "https://github.com/izabera/pseudo3d",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475703",
+    "commentBody": "",
+    "originSummary": [
+      "“一个受游戏《德军总部》启发的光线投射器已在 Bash 中实现，展示了使用 Bash 进行图形应用的挑战。- 由于 Bash 的速度慢、缺乏浮点支持和终端限制，该项目面临限制，使得维护屏幕状态和优化性能变得困难。- 尽管使用了 Unicode 半块以获得更好的分辨率，该项目仍在高 I/O 需求和低效的颜色更新中挣扎，突显了在此类任务中使用 Bash 的复杂性。”"
+    ],
+    "commentSummary": [
+      "“在 Bash 中的 Raycaster 是一个项目，它通过每列一次的光线追踪来模拟 3D 效果，使用最少的 `echo` 命令高效地渲染场景。”",
+      "“该项目因其使用字符串重复来绘制天空、草地和物体的线条而引人注目，这使其成为在受限环境中创建体素渲染引擎的一个鼓舞人心的例子。”",
+      "“讨论重点介绍了在 MS Batch 和 `awk` 中的类似光线投射项目，展示了在使用非常规编程语言处理复杂任务时的创造力。”"
+    ],
+    "points": 215,
+    "commentCount": 29,
+    "retryCount": 0,
+    "time": 1734733545
+  },
+  {
+    "id": 42475228,
+    "title": "“高通赢得与Arm关于芯片设计的许可争斗”",
+    "originLink": "https://www.bloomberg.com/news/articles/2024-12-20/qualcomm-wins-licensing-fight-with-arm-over-chip-designs",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475228",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "“高通在与Arm关于芯片设计许可的法律纠纷中胜出，该纠纷特别涉及高通收购Nuvia。”",
+      "“案件围绕高通现有许可证是否涵盖Nuvia的设计展开，Arm声称所有符合Arm标准的CPU都是其指令集架构(ISA)的衍生产品。”",
+      "“陪审团对Nuvia违反许可协议的犹豫不决有利于高通，这引发了对Arm许可做法的担忧，并可能鼓励公司考虑RISC-V，这是一种开源替代方案。”"
+    ],
+    "points": 196,
+    "commentCount": 108,
+    "retryCount": 0,
+    "time": 1734730133
+  },
+  {
+    "id": 42479233,
+    "title": "“使用Python查询Apple的FindMy网络”",
+    "originLink": "https://github.com/malmeloo/FindMy.py",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42479233",
+    "commentBody": "",
+    "originSummary": [
+      "“FindMy.py 是一个综合性的库，旨在查询苹果的 FindMy 网络，目标是整合分散的“Find My 场景”。目前处于 Alpha 阶段，这意味着其 API 设计可能会发生变化。”",
+      "“该库支持跨平台功能、位置报告解密、Apple账户登录和双因素认证(2FA)，提供异步(async)和同步(sync)API。”",
+      "“可以通过使用命令 `pip install findmy` 从 PyPi 安装，并鼓励贡献，提供了特定的代码格式指南。”"
+    ],
+    "commentSummary": [
+      "“苹果FindMy API的Python实现旨在增强跨平台访问，惠及目前需要Mac才能使用FindMy功能的Linux和Android用户。”",
+      "“该工具可以在不依赖苹果生态系统的情况下实现对位置和AirTags的追踪，尽管人们担心苹果可能会干预以阻止此类项目。”",
+      "“讨论强调了苹果有限的跨平台支持以及在其生态系统之外管理设备功能(如家长控制)的困难，并提出了像Blue Bubbles和Firewalla这样的替代方案。”"
+    ],
+    "points": 184,
+    "commentCount": 91,
+    "retryCount": 0,
+    "time": 1734783295
+  },
+  {
+    "id": 42478107,
+    "title": "“关于 Spotify 的丑陋真相终于揭晓”",
+    "originLink": "https://www.honest-broker.com/p/the-ugly-truth-about-spotify-is-finally",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42478107",
+    "commentBody": "",
+    "originSummary": [
+      "“独立记者Liz Pelly的调查揭露了Spotify使用虚假艺术家来增加利润的行为，特别是在爵士和环境音乐等类型中。这种被称为“完美契合内容”计划的做法，使Spotify能够避免向真正的音乐家支付版税，引发了对音乐流媒体透明度和监管的担忧。尽管存在争议，Spotify的盈利能力有所提高，而音乐行业和主流媒体在很大程度上忽视了这些问题，独立新闻界则将其公之于众。”"
+    ],
+    "commentSummary": [
+      "“文章提出了对Spotify涉嫌偏爱低质量、通用音乐(可能是AI生成的)而非真正艺术家的担忧，以此来降低成本。- 用户对Spotify的音乐推荐表示不满，引发了关于其商业行为伦理及对艺术家影响的讨论。- 讨论强调了艺术家在流媒体主导市场中面临的挑战，并建议了独立电台或其他流媒体服务等替代方案。”"
+    ],
+    "points": 173,
+    "commentCount": 216,
+    "retryCount": 0,
+    "time": 1734767128
+  },
+  {
+    "id": 42475011,
+    "title": "“DOS 附加”",
+    "originLink": "https://www.os2museum.com/wp/dos-append/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475011",
+    "commentBody": "",
+    "originSummary": [
+      "“OS/2 Museum 博客探讨了复古 PC 计算，重点关注 OS/2、DOS 及相关主题。- 最近的一篇文章重点介绍了 DOS APPEND 命令，这是一种终止并驻留(TSR)程序，帮助旧版 DOS 应用程序跨不同目录访问文件，首次在 DOS 3.3 中引入。- 文章深入探讨了 APPEND 的历史、演变和实现，讨论了其在现代计算环境中的重要性。”"
+    ],
+    "commentSummary": [
+      "“DOS APPEND 命令在历史上具有重要意义，因为它可以在不更改汇编程序的情况下修改汇编程序的行为，这类似于现代的环境变量和 overlayfs 挂载。”",
+      "“像 SUBST 和 JOIN 这样的 DOS 命令用于目录映射和路径管理，帮助克服路径长度的限制。”",
+      "“讨论包括DOS在DEC小型计算机上的历史发展以及计算硬件从小型计算机到当前系统的演变。”"
+    ],
+    "points": 112,
+    "commentCount": 53,
+    "retryCount": 0,
+    "time": 1734728699
+  }
+]

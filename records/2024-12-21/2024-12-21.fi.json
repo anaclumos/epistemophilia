@@ -1,0 +1,138 @@
+[
+  {
+    "id": 42476828,
+    "title": "Yhdysvaltalainen tuomari katsoo Israelin NSO Groupin olevan vastuussa toimittajien hakkeroinnista WhatsAppin kautta.",
+    "originLink": "https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42476828",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Yhdysvaltalainen tuomari on asettanut Israelin NSO Groupin vastuuseen toimittajien hakkeroinnista WhatsAppin kautta, mikä herättää kysymyksiä yritysten vastuusta hakkerointi- ja valvontatoiminnassa.",
+      "Tapaus korostaa eettisiä huolenaiheita, jotka liittyvät kybertyökalujen myyntiin ja käyttöön, verraten niitä perinteisiin asemyynteihin, ja herättää keskusteluja mahdollisista oikeudellisista seurauksista johdolle.",
+      "Se kiinnittää huomiota myös laajempiin kysymyksiin, kuten yksityisyyteen, hallituksen valvontaan ja sosiaalisen median yritysten vastuuseen käyttäjätietojen suojaamisessa."
+    ],
+    "points": 331,
+    "commentCount": 63,
+    "retryCount": 0,
+    "time": 1734745103
+  },
+  {
+    "id": 42476192,
+    "title": "Kääntäminen C:stä turvalliseen Rustiin, formalisoitu",
+    "originLink": "https://arxiv.org/abs/2412.15042",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42476192",
+    "commentBody": "",
+    "originSummary": [
+      "Artikkeli, jonka ovat kirjoittaneet Aymeric Fromherz ja Jonathan Protzenko, käsittelee C-koodin kääntämistä turvalliseksi Rust-koodiksi, keskittyen muistiturvallisuuteen välttämällä Rustin turvattomia ominaisuuksia.",
+      "Kirjoittajat esittelevät tyyppiohjatun käännösmenetelmän, staattisen analyysin käyttäen \"split trees\" -menetelmää osoitinlaskentaan, sekä strategian C:n struct-tyyppien käsittelyyn Rustissa.",
+      "Heidän lähestymistapansa kääntää onnistuneesti HACL*-salauskirjaston ja EverParse:n binaariparsimet varmennetuksi 80 000 rivin salauskirjastoksi puhtaalla Rustilla, säilyttäen suorituskyvyn minimaalisilla strategisilla kopioilla."
+    ],
+    "commentSummary": [
+      "Kääntäminen C-koodista Safe Rustiin on vaikeaa perustavanlaatuisten kielieroavaisuuksien vuoksi, erityisesti Rustin omistusmallin takia, joka vaatii merkittävää uudelleensuunnittelua turvallisuuden takaamiseksi. - Työkalut kuten C2Rust auttavat käännöksessä, mutta prosessi on monimutkainen, ja joitakin C-ohjelmia ei voida siirtää muuttamatta niiden semantiikkaa sisäisen turvattomuuden vuoksi. - Vaikka C:n kääntäminen Rustiksi voi parantaa turvallisuutta ja paljastaa virheitä, Rustin turvallisuus ymmärretään usein väärin, ja C-koodin muodollinen verifiointi, joka auttaa käännöksessä, ei ole aina saatavilla."
+    ],
+    "points": 257,
+    "commentCount": 114,
+    "retryCount": 0,
+    "time": 1734737403
+  },
+  {
+    "id": 42475703,
+    "title": "Raycaster Bash-kielellä",
+    "originLink": "https://github.com/izabera/pseudo3d",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475703",
+    "commentBody": "",
+    "originSummary": [
+      "Raycaster, joka on saanut inspiraationsa pelistä Wolfenstein, on toteutettu Bashissa, mikä osoittaa Bashin käytön haasteet graafisissa sovelluksissa. Projekti kohtaa rajoituksia Bashin hitauden, liukulukutuen puutteen ja terminaalin rajoitusten vuoksi, mikä tekee näytön tilan ylläpidosta ja suorituskyvyn optimoinnista vaikeaa. Vaikka käytössä on Unicode-puolilohkoja paremman resoluution saavuttamiseksi, projekti kamppailee suurten I/O-vaatimusten ja tehottomien väripäivitysten kanssa, mikä korostaa Bashin käytön monimutkaisuutta tällaisissa tehtävissä."
+    ],
+    "commentSummary": [
+      "Raycaster Bashissa on projekti, joka simuloi 3D-efektiä käyttämällä säteenseurantaa kerran per sarake, renderöiden kohtaukset tehokkaasti minimaalisilla `echo`-komennoilla.",
+      "Projekti on merkittävä sen vuoksi, että siinä käytetään merkkijonojen toistoa taivaan, ruohon ja esineiden piirtämiseen, mikä tekee siitä inspiroivan esimerkin vokselirenderöintimoottoreiden luomiseksi rajoitetuissa ympäristöissä.",
+      "Keskustelu tuo esiin samankaltaisia raycasting-projekteja MS Batchissa ja `awk`-kielessä, mikä osoittaa luovuutta epätavanomaisten ohjelmointikielten käytössä monimutkaisiin tehtäviin."
+    ],
+    "points": 215,
+    "commentCount": 29,
+    "retryCount": 0,
+    "time": 1734733545
+  },
+  {
+    "id": 42475228,
+    "title": "Qualcomm voittaa lisensointikiistan Armin kanssa sirumalleista",
+    "originLink": "https://www.bloomberg.com/news/articles/2024-12-20/qualcomm-wins-licensing-fight-with-arm-over-chip-designs",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475228",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Qualcomm on voittanut oikeuskiistan Armin kanssa koskien sirujen suunnittelulisensointia, erityisesti liittyen Qualcommin Nuvian hankintaan.",
+      "Tapaus pyöri sen ympärillä, kattaako Qualcommin olemassa oleva lisenssi Nuvian suunnitelmat, kun Arm väitti, että kaikki Arm-yhteensopivat suorittimet olivat heidän käskykantansa (ISA) johdannaisia.",
+      "Juryn päättämättömyys Nuviain lisenssirikkomuksesta suosi Qualcommia, mikä herätti huolta Armin lisenssikäytännöistä ja saattoi kannustaa yrityksiä harkitsemaan RISC-V:tä, avointa vaihtoehtoa."
+    ],
+    "points": 196,
+    "commentCount": 108,
+    "retryCount": 0,
+    "time": 1734730133
+  },
+  {
+    "id": 42479233,
+    "title": "Kysele Applen FindMy-verkkoa Pythonilla",
+    "originLink": "https://github.com/malmeloo/FindMy.py",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42479233",
+    "commentBody": "",
+    "originSummary": [
+      "FindMy.py on kattava kirjasto, joka on suunniteltu tekemään kyselyitä Applen FindMy-verkkoon, pyrkien yhdistämään hajanaisen \"Find My -skenen.\" Se on tällä hetkellä Alpha-vaiheessa, mikä tarkoittaa, että sen API-suunnittelu saattaa muuttua.",
+      "Kirjasto tukee monialustatoiminnallisuutta, sijaintiraporttien purkamista, Apple-tilin kirjautumista ja kaksivaiheista todennusta (2FA), tarjoten sekä asynkronisia (async) että synkronisia (sync) API-rajapintoja.",
+      "Asennus on saatavilla PyPi:n kautta käyttämällä komentoa `pip install findmy`, ja osallistumista kannustetaan, tarjoten erityiset ohjeet koodin muotoilulle."
+    ],
+    "commentSummary": [
+      "Python-toteutus Applen FindMy API:sta pyrkii parantamaan alustojen välistä pääsyä, hyödyttäen Linux- ja Android-käyttäjiä, jotka tällä hetkellä tarvitsevat Macin FindMy-ominaisuuksien käyttöön.",
+      "Tämä työkalu voisi mahdollistaa sijaintien ja AirTagien seurannan ilman riippuvuutta Applen ekosysteemistä, vaikka onkin huolia Applen mahdollisesta väliintulosta tällaisten projektien pysäyttämiseksi.",
+      "Keskustelussa tuodaan esiin Applen rajallinen tuki eri alustoille ja vaikeudet hallita laiteominaisuuksia, kuten vanhempien valvontaa, sen ekosysteemin ulkopuolella, ja ehdotetaan vaihtoehtoja, kuten Blue Bubbles ja Firewalla."
+    ],
+    "points": 184,
+    "commentCount": 91,
+    "retryCount": 0,
+    "time": 1734783295
+  },
+  {
+    "id": 42478107,
+    "title": "Ruma totuus Spotifysta on vihdoin paljastettu",
+    "originLink": "https://www.honest-broker.com/p/the-ugly-truth-about-spotify-is-finally",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42478107",
+    "commentBody": "",
+    "originSummary": [
+      "Indie-toimittaja Liz Pellyn tutkimus on paljastanut Spotifyn käyttävän tekaistuja artisteja voittojen kasvattamiseksi, erityisesti jazzin ja ambientin kaltaisissa genreissä. Tätä käytäntöä, joka tunnetaan nimellä \"Perfect Fit Content\" -ohjelma, Spotify hyödyntää välttääkseen maksamasta rojalteja oikeille muusikoille, mikä herättää huolta läpinäkyvyydestä ja sääntelystä musiikin suoratoistossa. Kiistasta huolimatta Spotifyn kannattavuus on parantunut, kun taas musiikkiteollisuus ja valtamedia ovat suurelta osin sivuuttaneet nämä ongelmat, jättäen riippumattoman journalismin tuomaan ne julkisuuteen."
+    ],
+    "commentSummary": [
+      "Artikkeli herättää huolta siitä, että Spotify suosii väitetysti huonolaatuista, geneeristä musiikkia, mahdollisesti tekoälyn tuottamaa, aitojen artistien sijaan kustannusten vähentämiseksi. - Käyttäjät ilmaisevat tyytymättömyytensä Spotifyn musiikkisuosituksiin, mikä herättää keskustelua sen liiketoimintakäytäntöjen etiikasta ja vaikutuksesta artisteihin. - Keskustelu korostaa haasteita, joita artistit kohtaavat suoratoistovetoisilla markkinoilla, ja ehdottaa vaihtoehtoja, kuten itsenäisiä radiokanavia tai muita suoratoistopalveluita."
+    ],
+    "points": 173,
+    "commentCount": 216,
+    "retryCount": 0,
+    "time": 1734767128
+  },
+  {
+    "id": 42475011,
+    "title": "DOS LIITÄ",
+    "originLink": "https://www.os2museum.com/wp/dos-append/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475011",
+    "commentBody": "",
+    "originSummary": [
+      "OS/2 Museum -blogi tutkii vanhaa PC-laskentaa keskittyen OS/2:een, DOS:iin ja niihin liittyviin aiheisiin. - Äskettäinen kirjoitus korostaa DOS APPEND -komentoa, joka on Terminate and Stay Resident (TSR) -ohjelma, joka auttaa vanhempia DOS-sovelluksia pääsemään käsiksi tiedostoihin eri hakemistoissa, ja se esiteltiin ensimmäisen kerran DOS 3.3:ssa. - Kirjoitus syventyy APPENDin historiaan, kehitykseen ja toteutukseen, keskustellen sen merkityksestä nykyaikaisissa laskentayhteyksissä."
+    ],
+    "commentSummary": [
+      "DOS APPEND -komento oli historiallisesti merkittävä, koska se mahdollisti assemblerin käyttäytymisen muuttamisen ilman, että itse assembleria tarvitsi muuttaa, mikä on verrattavissa nykyaikaisiin ympäristömuuttujiin ja overlayfs-liitoksiin.",
+      "DOS-komennot kuten SUBST ja JOIN käytettiin hakemistojen kartoittamiseen ja polkujen hallintaan, auttaen voittamaan polun pituusrajoitukset.",
+      "Keskustelu sisältää DOS:n historiallisen kehityksen DEC-minitietokoneilla ja tietokoneiden laitteiston kehityksen minitietokoneista nykyisiin järjestelmiin."
+    ],
+    "points": 112,
+    "commentCount": 53,
+    "retryCount": 0,
+    "time": 1734728699
+  }
+]

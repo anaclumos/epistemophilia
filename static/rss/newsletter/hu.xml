@@ -15,12 +15,92 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Dec 2024 19:16:30 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Dec 2024 19:06:27 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/hu.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 20 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[hu]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-12-21]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/12/21&#39;</h2>
+<h1>2024-12-21</h1>
+<h2><a href="https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/">„Egy amerikai bíró felelősnek találta az izraeli NSO Groupot újságírók WhatsApp-on keresztüli feltöréséért.”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42476828">Reakciók</a></h3>
+<ul>
+<li>„Egy amerikai bíró felelősségre vonta Izrael NSO csoportját újságírók WhatsApp-on keresztüli feltörése miatt, ami kérdéseket vet fel a vállalatok felelősségéről a hackelési és megfigyelési tevékenységekben.”</li>
+<li>„Az eset rávilágít a kibereszközök értékesítésével és használatával kapcsolatos etikai aggályokra, hasonlítva azokat a hagyományos fegyvereladásokhoz, és vitákat indít a vezetőség esetleges jogi következményeiről.”</li>
+<li>„Ez ráirányítja a figyelmet a szélesebb körű kérdésekre is, mint például a magánélet védelme, a kormányzati megfigyelés, valamint a közösségi média cégek felelőssége a felhasználói adatok védelmében.”</li>
+</ul>
+<h2><a href="https://arxiv.org/abs/2412.15042">„C fordítása biztonságos Rust nyelvre, formalizálva”</a></h2>
+<ul>
+<li>„Aymeric Fromherz és Jonathan Protzenko tanulmánya a C kód biztonságos Rust nyelvre történő fordítását tárgyalja, különös tekintettel a memóriabiztonságra azáltal, hogy elkerülik a nem biztonságos Rust jellemzőket.”</li>
+<li>„A szerzők bemutatnak egy típusvezérelt fordítási módszert, statikus elemzést „osztott fák” használatával a mutató aritmetikához, valamint egy stratégiát a C struktúratípusainak kezelésére Rustban.”</li>
+<li>„Megközelítésük sikeresen fordítja le a HACL* kriptográfiai könyvtárat és az EverParse bináris elemzőit egy ellenőrzött, 80 000 soros kriptográfiai könyvtárra tiszta Rust nyelven, miközben a teljesítményt minimális stratégiai másolatokkal tartja fenn.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42476192">Reakciók</a></h3>
+<ul>
+<li>„A C kód Safe Rust-ra való átalakítása nehéz a nyelvi különbségek miatt, különösen a Rust tulajdonosi modellje miatt, amely jelentős áttervezést igényel a biztonság érdekében. - Az olyan eszközök, mint a C2Rust, segítenek a fordításban, de a folyamat összetett, és néhány C programot nem lehet átalakítani anélkül, hogy megváltoztatnák a szemantikájukat a bennük rejlő biztonságtalanság miatt. - Bár a C Rust-ra fordítása növelheti a biztonságot és felfedheti a hibákat, a Rust biztonságát gyakran félreértik, és a C kód formális verifikációja, amely segíti a fordítást, nem mindig áll rendelkezésre.”</li>
+</ul>
+<h2><a href="https://github.com/izabera/pseudo3d">„Egy Raycaster Bash nyelven”</a></h2>
+<ul>
+<li>„Egy Wolfenstein játék által inspirált raycastert valósítottak meg Bash-ben, amely bemutatja a Bash használatának kihívásait grafikus alkalmazásokhoz. A projekt korlátokba ütközik a Bash lassúsága, a lebegőpontos támogatás hiánya és a terminál korlátai miatt, ami megnehezíti a képernyő állapotának fenntartását és a teljesítmény optimalizálását. Annak ellenére, hogy Unicode fél blokkokat használnak a jobb felbontás érdekében, a projekt küzd a magas I/O igényekkel és a színek hatékony frissítésének hiányával, ami kiemeli a Bash használatának összetettségét ilyen feladatokhoz.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42475703">Reakciók</a></h3>
+<ul>
+<li>„A Raycaster Bash-ben egy olyan projekt, amely oszloponként egyszeri raytracing használatával szimulál 3D hatást, hatékonyan renderelve jeleneteket minimális <code>echo</code> parancsokkal.”</li>
+<li>„A projekt figyelemre méltó a húrok ismétlésének használatával az ég, a fű és a tárgyak vonalainak megrajzolására, ami inspiráló példát jelent a voxel renderelő motorok létrehozására korlátozott környezetekben.”</li>
+<li>„A megbeszélés kiemeli a hasonló raycasting projekteket MS Batch-ben és <code>awk</code>-ban, bemutatva a kreativitást az összetett feladatok megoldásában nem hagyományos programozási nyelvek használatával.”</li>
+</ul>
+<h2><a href="https://www.bloomberg.com/news/articles/2024-12-20/qualcomm-wins-licensing-fight-with-arm-over-chip-designs">„A Qualcomm megnyeri a licencelési harcot az Arm ellen a chiptervek kapcsán”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42475228">Reakciók</a></h3>
+<ul>
+<li>„A Qualcomm győztesen került ki egy jogi vitából az Arm ellen a chiptervezési licencelés kapcsán, különösen a Qualcomm Nuvia felvásárlásával összefüggésben.”</li>
+<li>„Az ügy középpontjában az állt, hogy a Qualcomm meglévő licencje kiterjed-e a Nuvia terveire, miközben az Arm azt állította, hogy minden Arm-kompatibilis CPU az ő Utasításkészlet-architektúrájuk (ISA) származéka.”</li>
+<li>„A zsűri döntésképtelensége a Nuvia licencszerződésének megszegésével kapcsolatban a Qualcomm javára billentette a mérleget, ami aggodalmakat vetett fel az Arm licencelési gyakorlataival kapcsolatban, és esetleg arra ösztönözheti a vállalatokat, hogy fontolóra vegyék a RISC-V, egy nyílt forráskódú alternatíva használatát.”</li>
+</ul>
+<h2><a href="https://github.com/malmeloo/FindMy.py">„Lekérdezés az Apple FindMy hálózatról Python segítségével”</a></h2>
+<ul>
+<li>„A FindMy.py egy átfogó könyvtár, amely az Apple FindMy hálózatának lekérdezésére lett tervezve, célja a széttagolt &quot;Find My-jelenet&quot; konszolidálása. Jelenleg az Alpha szakaszában van, ami azt jelenti, hogy az API tervezése változásokon mehet keresztül.”</li>
+<li>„A könyvtár támogatja a platformok közötti funkcionalitást, a helyjelentés dekódolását, az Apple fiók bejelentkezést és a kétfaktoros hitelesítést (2FA), aszinkron (async) és szinkron (sync) API-kat kínálva.”</li>
+<li>„A telepítés elérhető a PyPi-n keresztül a <code>pip install findmy</code> parancs használatával, és a hozzájárulásokat bátorítjuk, a kódformázásra vonatkozó konkrét irányelvek megadásával.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42479233">Reakciók</a></h3>
+<ul>
+<li>„Egy Python megvalósítás az Apple FindMy API-jához célja, hogy javítsa a platformok közötti hozzáférést, előnyhöz juttatva azokat a Linux és Android felhasználókat, akik jelenleg Mac-re szorulnak a FindMy funkciók használatához.”</li>
+<li>„Ez az eszköz lehetővé teheti a helyszínek és az AirTag-ek nyomon követését az Apple ökoszisztémájától való függés nélkül, bár vannak aggodalmak azzal kapcsolatban, hogy az Apple esetleg beavatkozhat az ilyen projektek leállítása érdekében.”</li>
+<li>„A vita rávilágít arra, hogy az Apple korlátozott keresztplatformos támogatást nyújt, és nehézségeket okoz az eszközfunkciók, például a szülői felügyelet kezelése az ökoszisztémáján kívül, alternatívákat javasolva, mint a Blue Bubbles és a Firewalla.”</li>
+</ul>
+<h2><a href="https://www.honest-broker.com/p/the-ugly-truth-about-spotify-is-finally">„A Spotify csúnya igazsága végre napvilágra került”</a></h2>
+<ul>
+<li>„Egy független újságíró, Liz Pelly vizsgálata feltárta, hogy a Spotify hamis előadókat használ a profit növelése érdekében, különösen olyan műfajokban, mint a jazz és az ambient. Ez a gyakorlat, amelyet a &quot;Perfect Fit Content&quot; programnak neveznek, lehetővé teszi a Spotify számára, hogy elkerülje a jogdíjak kifizetését a valódi zenészeknek, ami aggodalmakat vet fel az átláthatósággal és a zenei streaming szabályozásával kapcsolatban. A vita ellenére a Spotify jövedelmezősége javult, miközben a zeneipar és a mainstream média nagyrészt figyelmen kívül hagyta ezeket a problémákat, így a független újságírás feladata lett, hogy a nyilvánosság elé tárja őket.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42478107">Reakciók</a></h3>
+<ul>
+<li>„A cikk aggodalmakat vet fel azzal kapcsolatban, hogy a Spotify állítólag az alacsony minőségű, generikus, esetleg mesterséges intelligencia által generált zenéket részesíti előnyben a valódi művészekkel szemben a költségek csökkentése érdekében. - A felhasználók elégedetlenségüket fejezik ki a Spotify zenei ajánlásaival kapcsolatban, ami vitát vált ki az üzleti gyakorlatok etikájáról és a művészekre gyakorolt hatásáról. - A vita rávilágít a művészek által a streaming-vezérelt piacon tapasztalt kihívásokra, és alternatívákat javasol, mint például a független rádió vagy más streaming szolgáltatások.”</li>
+</ul>
+<h2><a href="https://www.os2museum.com/wp/dos-append/">„DOS APPEND”</a></h2>
+<ul>
+<li>„Az OS/2 Museum blog a régi PC számítástechnikát kutatja, különös tekintettel az OS/2-re, a DOS-ra és a kapcsolódó témákra. - Egy nemrégiben megjelent bejegyzés a DOS APPEND parancsot emeli ki, amely egy Terminate and Stay Resident (TSR) program, amely segíti a régebbi DOS alkalmazásokat a fájlok különböző könyvtárakból való elérésében, először a DOS 3.3-ban vezették be. - A bejegyzés az APPEND történetét, fejlődését és megvalósítását tárgyalja, megvitatva annak jelentőségét a modern számítástechnikai kontextusokban.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42475011">Reakciók</a></h3>
+<ul>
+<li>„A DOS APPEND parancs történelmileg jelentős volt az assembler viselkedésének módosításában anélkül, hogy magát az assemblert megváltoztatták volna, hasonlóan a modern környezeti változókhoz és az overlayfs csatolásokhoz.”</li>
+<li>„A DOS parancsok, mint például a SUBST és a JOIN, könyvtárak leképezésére és útvonalkezelésre szolgáltak, segítve a maximális útvonalméret korlátainak leküzdését.”</li>
+<li>„A megbeszélés magában foglalja a DOS történelmi fejlődését a DEC miniszámítógépeken, valamint a számítástechnikai hardverek fejlődését a miniszámítógépektől a jelenlegi rendszerekig.”</li>
+</ul>
+<head>
+  <meta property="og:title" content="„Egy amerikai bíró felelősnek találta az izraeli NSO Groupot újságírók WhatsApp-on keresztüli feltöréséért.”" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EEgy%20amerikai%20b%C3%ADr%C3%B3%20felel%C5%91snek%20tal%C3%A1lta%20az%20izraeli%20NSO%20Groupot%20%C3%BAjs%C3%A1g%C3%ADr%C3%B3k%20WhatsApp-on%20kereszt%C3%BCli%20felt%C3%B6r%C3%A9s%C3%A9%C3%A9rt.%E2%80%9D&subheading=2024.%20december%2021.%2C%20szombat%3A%20Hacker%20News%20%C3%96sszefoglal%C3%B3" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/hu/2024/12/21</link>
+            <guid isPermaLink="false">2024-12-21T00:00:00.000Z</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-12-20]]></title>
             <description
@@ -973,65 +1053,6 @@
             <link>https://hn.cho.sh/hu/2024/12/12</link>
             <guid isPermaLink="false">2024-12-12T00:00:00.000Z</guid>
             <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-11]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/11&#39;</h2>
-<h1>2024-12-11</h1>
-<h2><a href="https://www.nytimes.com/2024/12/10/business/media/the-onion-infowars-alex-jones.html">„A csődbíró elutasítja az Infowars eladását a The Onion számára”</a></h2>
-<ul>
-<li>„Egy bíró leállította az Infowars eladását a The Onionnak, amely szatirikus platformmá kívánta alakítani azt.”</li>
-<li>„A döntés annak ellenére született, hogy a Sandy Hook áldozatainak családjai támogatták, így az Infowars jövője bizonytalanná vált.”</li>
-<li>„Egy bíróság által kinevezett vagyonkezelő most felelős az új cselekvési irány meghatározásáért, miközben a The Onion továbbra is érdeklődik a felvásárlás iránt.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42384921">Reakciók</a></h3>
-<ul>
-<li>„Egy csődbíró elutasította az Infowars eladását a The Onion számára, kijelentve, hogy az aukciós folyamat nem maximalizálta a hitelezők, köztük a Sandy Hook családok számára a megtérülést. - A bíró bírálta a zárt ajánlattételi folyamatot, mivel az nem ösztönözte a versenyképes licitálást, ami elengedhetetlen a tisztességes aukciós gyakorlatokhoz. - A The Onion ajánlata 1,75 millió dollár készpénzt tartalmazott, további forrásokkal a Sandy Hook családok lehetséges rágalmazási ítéletéből származó bevételekből, ami kérdéseket vetett fel az aukció tisztességességével és jogszerűségével kapcsolatban.”</li>
-</ul>
-<h2><a href="https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/">„Gemini 2.0: az új MI modellünk az ügynöki korszakra”</a></h2>
-<ul>
-<li>„A Google DeepMind elindította a Gemini 2.0-t, egy fejlett AI modellt, amelyet az „ügynöki korszakra” terveztek, és olyan képességekkel rendelkezik, mint a natív kép- és hangkimenet, valamint az eszközhasználat. A Gemini 2.0 Flash jelenleg fejlesztők és megbízható tesztelők számára érhető el, a szélesebb körű megjelenés jövő év elejére várható, ami egy fokozatos bevezetési stratégiát jelez. A Google a felelős AI fejlesztésére összpontosít, hangsúlyozva a biztonságot és a védelmet, a keresés, játékok és robotika területén való potenciális alkalmazásokkal, kiemelve a modell sokoldalúságát és az etikus AI gyakorlatok iránti elkötelezettségét.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42388783">Reakciók</a></h3>
-<ul>
-<li>„A Google Gemini 2.0 AI modell az „agentikus korszakra” lett tervezve, képes Python kódot írni és végrehajtani, de nem tud hálózati hívásokat kezdeményezni. - A modell jártas a látási feladatokban, és elérhető fejlesztők és tesztelők számára az AI Studio-n keresztül, bár még mindig szembesül problémákkal, mint például a hallucinációk és a bőbeszédűség. - Az AI közösség vitatja a használt terminológiát, mint például az „agentikus” és „érvelés”, néhányan ezeket a kifejezéseket marketing zsargonnak tekintik.”</li>
-</ul>
-<h2><a href="https://www.cnbc.com/2024/12/10/gm-halts-funding-of-robotaxi-development-by-cruise.html">„A GM kilép a robotaxi piacról, és házon belülre hozza a Cruise műveleteit”</a></h2>
-<ul>
-<li>„A General Motors (GM) megszünteti a Cruise robotaxi részleg finanszírozását, és úgy döntött, hogy integrálja azt a technológiai csapatába, hogy az autonóm rendszerekre összpontosítson a személygépjárművek számára.”</li>
-<li>„A GM célja, hogy 2025-re megszerezze a Cruise fennmaradó részvényeit, ezzel jelentősen, több mint felére csökkentve az éves kiadásait az osztályra.”</li>
-<li>„A Cruise kihívásokkal nézett szembe, például egy 1,5 millió dolláros bírsággal, mert nem jelentett egy balesetet, miközben a versenytársak, mint a Waymo és a Tesla, továbbra is haladnak a robotaxi piacon.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42381637">Reakciók</a></h3>
-<ul>
-<li>„A General Motors (GM) visszavonul a robotaxi piacról, és a Cruise műveleteit belsőleg integrálja a fokozott verseny miatt.”</li>
-<li>„Annak ellenére, hogy fejlett autonóm technológiával rendelkezik, a GM stratégiáját megkérdőjelezik, olyan problémákkal, mint például a Super Cruise tesztvezetésre való elérhetetlensége.”</li>
-<li>„Az autonóm járművek piaca bizonytalan, az érdeklődés csökken, és olyan vállalatok, mint a Ford, költségeket csökkentenek hasonló funkciók esetében, miközben a Tesla Full Self-Driving (FSD) még mindig kihívásokkal néz szembe bizonyos helyzetekben.”</li>
-</ul>
-<h2><a href="https://electric-sql.com/blog/2024/12/10/electric-beta-release">„Electric (Postgres szinkronizáló motor) béta kiadás”</a></h2>
-<ul>
-<li>„Az Electric szinkronizáló motorja, amely most BETA állapotban van az 1.0.0-beta.1 verzióval, lehetővé teszi a Postgres adatok valós idejű részleges replikációját a helyi alkalmazásokba, ezáltal azonnali helyi adat-hozzáférést biztosít anélkül, hogy megváltoztatná a meglévő technológiai stackeket. - A motor tartalmazza a PGlite-ot, a Postgres könnyű WebAssembly (WASM) verzióját böngészők számára, és hat hónapos újraírás után már gyártásra kész, olyan cégek által is használt, mint a Google és a Supabase. - Az Electric támogatja a nagy áteresztőképességű munkaterheléseket alacsony késleltetéssel, könnyen alkalmazható egyszerű API-kkal, és fokozatosan integrálható, az Electric Cloud, egy menedzselt hoszting szolgáltatás, fejlesztés alatt áll.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42383136">Reakciók</a></h3>
-<ul>
-<li>„Az ElectricSQL kiadta a Postgres szinkronizáló motorjának béta verzióját, amely mérnöki minősége és üzleti modellje miatt keltett érdeklődést. A motor a Postgresből szinkronizálja az adatokat helyi alkalmazásokba olvasható replikákként, ami alkalmas magas olvasási, alacsony írási szolgáltatásokhoz, de nem támogatja az írási útvonal szinkronizálását. A felhasználók a PowerSync és a Triplit alternatíváival összehasonlítva vitatják annak potenciálját, és a projekt célja az egyszerűbb helyi/offline-első alkalmazásfejlesztés, annak ellenére, hogy kihívásokkal néz szembe a többtáblás szinkronizálás és a séma változások terén.”</li>
-</ul>
-<h2><a href="https://www.courtlistener.com/docket/69221176/64/wpengine-inc-v-automattic-inc/">„WPEngine, Inc. kontra Automattic – Rendelkezés az előzetes intézkedés iránti kérelemről”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42382829">Reakciók</a></h3>
-<ul>
-<li>„A bírósági ügy a WPEngine, Inc. és az Automattic között egy előzetes intézkedést foglal magában Matt Mullenweg állítólagos cselekedetei miatt, amelyek károsították a WPEngine-t. A bíróság a WPEngine javára döntött, kötelezve az Automattic-ot, hogy állítsa vissza a fiókhozzáférést, adja vissza az ACF bővítményt, és távolítsa el a vitatott jelölőnégyzetet anélkül, hogy kötelezvényt követelne. Ez az ügy rávilágít a WordPress közösségben fennálló feszültségekre, és ösztönzi a nyílt forráskódú irányításról és a magántőke technológiai vállalatokra gyakorolt hatásáról szóló vitákat.”</li>
-</ul>
-<head>
-  <meta property="og:title" content="„A csődbíró elutasítja az Infowars eladását a The Onion számára”" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EA%20cs%C5%91db%C3%ADr%C3%B3%20elutas%C3%ADtja%20az%20Infowars%20elad%C3%A1s%C3%A1t%20a%20The%20Onion%20sz%C3%A1m%C3%A1ra%E2%80%9D&subheading=2024.%20december%2011.%2C%20szerda%3A%20Hacker%20News%20%C3%96sszefoglal%C3%B3" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/hu/2024/12/11</link>
-            <guid isPermaLink="false">2024-12-11T00:00:00.000Z</guid>
-            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

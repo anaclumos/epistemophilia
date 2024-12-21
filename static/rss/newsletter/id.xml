@@ -15,12 +15,92 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Dec 2024 19:16:30 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Dec 2024 19:06:27 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/id.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 20 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[id]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2024-12-21]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2024/12/21&#39;</h2>
+<h1>2024-12-21</h1>
+<h2><a href="https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/">Seorang hakim AS menemukan bahwa Grup NSO Israel bertanggung jawab atas peretasan jurnalis melalui WhatsApp.</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42476828">Reaksi</a></h3>
+<ul>
+<li>Seorang hakim AS telah menahan NSO Group dari Israel bertanggung jawab atas peretasan jurnalis melalui WhatsApp, menimbulkan pertanyaan tentang tanggung jawab perusahaan dalam kegiatan peretasan dan pengawasan.</li>
+<li>Teks tersebut menyoroti kekhawatiran etis terkait penjualan dan penggunaan alat siber, yang disamakan dengan penjualan senjata tradisional, dan mendorong diskusi tentang kemungkinan konsekuensi hukum bagi manajemen.</li>
+<li>Itu juga menarik perhatian pada isu-isu yang lebih luas seperti privasi, pengawasan pemerintah, dan tanggung jawab perusahaan media sosial dalam melindungi data pengguna.</li>
+</ul>
+<h2><a href="https://arxiv.org/abs/2412.15042">Pengompilan C ke Rust Aman, Diformalisasi</a></h2>
+<ul>
+<li>Tulisan oleh Aymeric Fromherz dan Jonathan Protzenko membahas penerjemahan kode C ke Rust yang aman, dengan fokus pada keamanan memori dengan menghindari fitur Rust yang tidak aman.</li>
+<li>Teks ini memperkenalkan metode penerjemahan yang diarahkan oleh tipe, analisis statis menggunakan &#39;pohon terpisah&#39; untuk aritmetika pointer, dan strategi untuk menangani tipe struct C dalam Rust.</li>
+<li>Tindakan mereka berhasil menerjemahkan perpustakaan kriptografi HACL* dan parser biner EverParse menjadi perpustakaan kriptografi terverifikasi sebanyak 80.000 baris dalam Rust murni, sambil mempertahankan kinerja dengan salinan strategis yang minimal.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42476192">Reaksi</a></h3>
+<ul>
+<li>Konversi kode C ke Rust yang Aman sulit dilakukan karena perbedaan mendasar antara bahasa tersebut, terutama model kepemilikan Rust, yang memerlukan perancangan ulang yang signifikan untuk keamanan. Alat seperti C2Rust membantu dalam penerjemahan, tetapi prosesnya kompleks, dan beberapa program C tidak dapat dipindahkan tanpa mengubah semantik mereka karena ketidakamanan yang melekat. Meskipun menerjemahkan C ke Rust dapat meningkatkan keamanan dan mengungkapkan bug, keamanan Rust sering disalahpahami, dan verifikasi formal kode C, yang membantu penerjemahan, tidak selalu tersedia.</li>
+</ul>
+<h2><a href="https://github.com/izabera/pseudo3d">A Raycaster dalam Bash</a></h2>
+<ul>
+<li>A raycaster yang terinspirasi oleh permainan Wolfenstein telah diimplementasikan dalam Bash, menunjukkan tantangan menggunakan Bash untuk aplikasi grafis. Proyek ini menghadapi keterbatasan karena lambatnya Bash, kurangnya dukungan floating-point, dan batasan terminal, yang membuatnya sulit untuk mempertahankan keadaan layar dan mengoptimalkan kinerja. Meskipun menggunakan blok setengah Unicode untuk resolusi yang lebih baik, proyek ini kesulitan dengan permintaan I/O yang tinggi dan pembaruan warna yang tidak efisien, menyoroti kompleksitas menggunakan Bash untuk tugas semacam itu.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42475703">Reaksi</a></h3>
+<ul>
+<li>A Raycaster di Bash adalah sebuah proyek yang mensimulasikan efek 3D menggunakan raytracing sekali per kolom, secara efisien merender adegan dengan perintah <code>echo</code> yang minimal.</li>
+<li>Teks ini menyoroti proyek yang terkenal karena penggunaan pengulangan string untuk menggambar garis langit, rumput, dan objek, menjadikannya contoh inspiratif untuk menciptakan mesin render voxel di lingkungan yang terbatas.</li>
+<li>Diskusi tersebut menyoroti proyek raycasting serupa dalam MS Batch dan <code>awk</code>, yang menunjukkan kreativitas dalam menggunakan bahasa pemrograman yang tidak konvensional untuk tugas-tugas yang kompleks.</li>
+</ul>
+<h2><a href="https://www.bloomberg.com/news/articles/2024-12-20/qualcomm-wins-licensing-fight-with-arm-over-chip-designs">Qualcomm memenangkan pertarungan lisensi dengan Arm terkait desain chip</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42475228">Reaksi</a></h3>
+<ul>
+<li>Qualcomm telah memenangkan sengketa hukum dengan Arm terkait lisensi desain chip, khususnya terkait akuisisi Qualcomm atas Nuvia.</li>
+<li>Teks tersebut berpusat pada apakah lisensi yang dimiliki Qualcomm mencakup desain Nuvia, dengan Arm menegaskan bahwa semua CPU yang sesuai dengan Arm adalah turunan dari Arsitektur Set Instruksi (ISA) mereka.</li>
+<li>Keraguan juri mengenai pelanggaran lisensi Nuvia menguntungkan Qualcomm, menimbulkan kekhawatiran tentang praktik lisensi Arm dan mungkin mendorong perusahaan untuk mempertimbangkan RISC-V, sebuah alternatif sumber terbuka.</li>
+</ul>
+<h2><a href="https://github.com/malmeloo/FindMy.py">Meminta jaringan FindMy Apple dengan Python</a></h2>
+<ul>
+<li>FindMy.py adalah perpustakaan komprehensif yang dirancang untuk melakukan kueri pada jaringan FindMy Apple, dengan tujuan untuk mengonsolidasikan &quot;Find My-scene&quot; yang terfragmentasi. Saat ini, perpustakaan ini berada dalam tahap Alpha, yang berarti desain API-nya mungkin akan mengalami perubahan.</li>
+<li>Perpustakaan ini mendukung fungsionalitas lintas platform, dekripsi laporan lokasi, masuk akun Apple, dan autentikasi dua faktor (2FA), menawarkan API asinkron (async) dan sinkron (sync).</li>
+<li>Instalasi tersedia melalui PyPi menggunakan perintah <code>pip install findmy</code>, dan kontribusi sangat dianjurkan, dengan pedoman khusus untuk pemformatan kode yang disediakan.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42479233">Reaksi</a></h3>
+<ul>
+<li>Aplikasi Python dari API FindMy Apple bertujuan untuk meningkatkan akses lintas platform, memberikan manfaat bagi pengguna di Linux dan Android yang saat ini memerlukan Mac untuk fitur FindMy.</li>
+<li>Alat ini dapat memungkinkan pelacakan lokasi dan AirTags tanpa ketergantungan pada ekosistem Apple, meskipun ada kekhawatiran tentang potensi intervensi Apple untuk menghentikan proyek semacam itu.</li>
+<li>Diskusi menyoroti dukungan lintas platform Apple yang terbatas dan kesulitan dalam mengelola fitur perangkat seperti kontrol orang tua di luar ekosistemnya, dengan saran untuk alternatif seperti Blue Bubbles dan Firewalla.</li>
+</ul>
+<h2><a href="https://www.honest-broker.com/p/the-ugly-truth-about-spotify-is-finally">Fakta Buruk Tentang Spotify Akhirnya Terungkap</a></h2>
+<ul>
+<li>Investigasi oleh jurnalis independen Liz Pelly telah mengungkap penggunaan artis palsu oleh Spotify untuk meningkatkan keuntungan, terutama dalam genre seperti jazz dan ambient. Praktik ini, yang dikenal sebagai program &quot;Perfect Fit Content&quot;, memungkinkan Spotify untuk menghindari pembayaran royalti kepada musisi asli, menimbulkan kekhawatiran tentang transparansi dan regulasi dalam streaming musik. Meskipun ada kontroversi, profitabilitas Spotify telah meningkat, sementara industri musik dan media arus utama sebagian besar mengabaikan masalah ini, meninggalkan jurnalisme independen untuk membawa mereka ke perhatian publik.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42478107">Reaksi</a></h3>
+<ul>
+<li>Artikel tersebut mengangkat kekhawatiran tentang Spotify yang diduga lebih memilih musik berkualitas rendah dan generik, yang mungkin dihasilkan oleh AI, dibandingkan dengan artis asli untuk mengurangi biaya. Pengguna menyatakan ketidakpuasan dengan rekomendasi musik Spotify, memicu perdebatan tentang etika praktik bisnisnya dan dampaknya terhadap artis. Diskusi ini menyoroti tantangan yang dihadapi artis di pasar yang didominasi oleh streaming dan menyarankan alternatif seperti radio independen atau layanan streaming lainnya.</li>
+</ul>
+<h2><a href="https://www.os2museum.com/wp/dos-append/">DOS APPEND</a></h2>
+<ul>
+<li>Teks dari blog OS/2 Museum mengeksplorasi komputasi PC vintage, dengan fokus pada OS/2, DOS, dan subjek terkait. - Sebuah postingan terbaru menyoroti perintah DOS APPEND, sebuah program Terminate and Stay Resident (TSR) yang membantu aplikasi DOS lama dalam mengakses file di berbagai direktori, pertama kali diperkenalkan di DOS 3.3. - Postingan tersebut membahas sejarah, evolusi, dan implementasi APPEND, serta mendiskusikan signifikansinya dalam konteks komputasi modern.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42475011">Reaksi</a></h3>
+<ul>
+<li>Teks: Perintah DOS APPEND secara historis signifikan untuk memodifikasi perilaku assembler tanpa mengubah assembler, mirip dengan variabel lingkungan modern dan mount overlayfs.</li>
+<li>DOS commands seperti SUBST dan JOIN digunakan untuk pemetaan direktori dan manajemen jalur, membantu mengatasi batasan panjang jalur.</li>
+<li>Diskusi tersebut mencakup perkembangan historis DOS pada minikomputer DEC dan evolusi perangkat keras komputasi dari minikomputer hingga sistem saat ini.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Seorang hakim AS menemukan bahwa Grup NSO Israel bertanggung jawab atas peretasan jurnalis melalui WhatsApp." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Seorang%20hakim%20AS%20menemukan%20bahwa%20Grup%20NSO%20Israel%20bertanggung%20jawab%20atas%20peretasan%20jurnalis%20melalui%20WhatsApp.&subheading=Sabtu%2C%2021%20Desember%202024%3A%20Ringkasan%20Berita%20Peretas" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/id/2024/12/21</link>
+            <guid isPermaLink="false">2024-12-21T00:00:00.000Z</guid>
+            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-12-20]]></title>
             <description
@@ -973,65 +1053,6 @@
             <link>https://hn.cho.sh/id/2024/12/12</link>
             <guid isPermaLink="false">2024-12-12T00:00:00.000Z</guid>
             <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-11]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/11&#39;</h2>
-<h1>2024-12-11</h1>
-<h2><a href="https://www.nytimes.com/2024/12/10/business/media/the-onion-infowars-alex-jones.html">Pengadilan kebangkrutan menolak penjualan Infowars kepada The Onion</a></h2>
-<ul>
-<li>Sebuah hakim telah menghentikan penjualan Infowars kepada The Onion, yang berniat mengubahnya menjadi platform satir.</li>
-<li>Tindakan tersebut diambil meskipun ada dukungan dari keluarga korban Sandy Hook, meninggalkan masa depan Infowars dalam ketidakpastian.</li>
-<li>Seorang wali yang ditunjuk oleh pengadilan sekarang bertanggung jawab untuk menentukan langkah baru, sementara The Onion tetap tertarik pada akuisisi tersebut.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42384921">Reaksi</a></h3>
-<ul>
-<li>Seorang hakim kebangkrutan telah menolak penjualan Infowars kepada The Onion, dengan alasan bahwa proses lelang tersebut tidak memaksimalkan pengembalian untuk para kreditur, termasuk keluarga Sandy Hook. Hakim mengkritik proses penawaran tertutup karena tidak mendorong penawaran yang kompetitif, yang penting untuk praktik lelang yang adil. Tawaran The Onion melibatkan $1,75 juta dalam bentuk tunai, dengan dana tambahan dari potensi pendapatan putusan pencemaran nama baik keluarga Sandy Hook, yang menimbulkan pertanyaan tentang keadilan dan legalitas lelang tersebut.</li>
-</ul>
-<h2><a href="https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/">Gemini 2.0: model AI baru kami untuk era agenik</a></h2>
-<ul>
-<li>Google DeepMind telah meluncurkan Gemini 2.0, sebuah model AI canggih yang dirancang untuk &quot;era agen,&quot; dengan fitur-fitur seperti keluaran gambar dan audio asli serta penggunaan alat. Gemini 2.0 Flash saat ini dapat diakses oleh pengembang dan penguji terpercaya, dengan peluncuran yang lebih luas diharapkan awal tahun depan, menunjukkan strategi peluncuran bertahap. Google berfokus pada pengembangan AI yang bertanggung jawab, menekankan keselamatan dan keamanan, dengan potensi aplikasi dalam pencarian, permainan, dan robotika, menyoroti fleksibilitas model dan komitmen terhadap praktik AI yang etis.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42388783">Reaksi</a></h3>
-<ul>
-<li>Model AI Gemini 2.0 dari Google dirancang untuk &quot;era agentik,&quot; mampu menulis dan menjalankan kode Python, tetapi tidak dapat melakukan panggilan jaringan. Model ini mahir dalam tugas-tugas penglihatan dan dapat diakses oleh pengembang dan penguji melalui AI Studio, meskipun masih menghadapi masalah seperti halusinasi dan verbosity. Komunitas AI sedang mendiskusikan terminologi yang digunakan, seperti &quot;agentik&quot; dan &quot;penalaran,&quot; dengan beberapa yang menganggap istilah-istilah ini sebagai jargon pemasaran.</li>
-</ul>
-<h2><a href="https://www.cnbc.com/2024/12/10/gm-halts-funding-of-robotaxi-development-by-cruise.html">GM keluar dari pasar robotaxi, akan membawa operasi Cruise ke dalam perusahaan</a></h2>
-<ul>
-<li>General Motors (GM) menghentikan pendanaannya untuk divisi robotaxi Cruise, memilih untuk mengintegrasikannya ke dalam tim teknologi mereka guna fokus pada sistem otonom untuk kendaraan pribadi.</li>
-<li>GM bertujuan untuk mengakuisisi sisa saham Cruise pada tahun 2025, secara signifikan mengurangi pengeluaran tahunannya untuk divisi tersebut lebih dari setengahnya.</li>
-<li>Cruise menghadapi tantangan, seperti denda $1,5 juta karena tidak melaporkan kecelakaan, sementara pesaing seperti Waymo dan Tesla terus maju di pasar robotaxi.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42381637">Reaksi</a></h3>
-<ul>
-<li>General Motors (GM) menarik diri dari pasar robotaxi dan mengintegrasikan operasi Cruise secara internal karena persaingan yang semakin ketat.</li>
-<li>Meskipun memiliki teknologi otonom yang canggih, strategi GM dipertanyakan, dengan masalah seperti ketidaktersediaan Super Cruise untuk uji coba.</li>
-<li>Tidak pasti pasar untuk kendaraan otonom, dengan minat yang menurun dan perusahaan seperti Ford mengurangi biaya untuk fitur serupa, sementara Tesla&#39;s Full Self-Driving (FSD) masih menghadapi tantangan dalam skenario tertentu.</li>
-</ul>
-<h2><a href="https://electric-sql.com/blog/2024/12/10/electric-beta-release">Rilis beta Electric (mesin sinkronisasi Postgres)</a></h2>
-<ul>
-<li>Mesin sinkronisasi Electric, yang sekarang dalam versi BETA dengan versi 1.0.0-beta.1, memfasilitasi replikasi parsial data Postgres secara real-time ke dalam aplikasi lokal, memungkinkan akses data lokal instan tanpa mengubah tumpukan teknologi yang ada. Mesin ini mencakup PGlite, versi WebAssembly (WASM) Postgres yang ringan untuk peramban, dan siap untuk produksi setelah penulisan ulang selama enam bulan, yang sudah digunakan oleh perusahaan seperti Google dan Supabase. Electric mendukung beban kerja dengan throughput tinggi dan latensi rendah, mudah diadopsi dengan API sederhana, dan dapat diintegrasikan secara bertahap, dengan Electric Cloud, layanan hosting terkelola, sedang dalam pengembangan.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42383136">Reaksi</a></h3>
-<ul>
-<li>ElectricSQL telah merilis versi beta dari mesin sinkronisasi Postgres-nya, yang menarik perhatian karena kualitas rekayasa dan pertimbangan model bisnisnya. Mesin ini menyinkronkan data dari Postgres ke aplikasi lokal sebagai replika hanya-baca, cocok untuk layanan dengan pembacaan tinggi dan penulisan rendah, tetapi tidak mendukung sinkronisasi jalur penulisan. Pengguna sedang mendiskusikan potensinya dibandingkan dengan alternatif seperti PowerSync dan Triplit, dan proyek ini bertujuan untuk menyederhanakan pengembangan aplikasi lokal/offline-pertama, meskipun menghadapi tantangan dalam sinkronisasi multi-tabel dan perubahan skema.</li>
-</ul>
-<h2><a href="https://www.courtlistener.com/docket/69221176/64/wpengine-inc-v-automattic-inc/">WPEngine, Inc. vs. Automattic– Perintah atas Permohonan untuk Penetapan Sementara</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42382829">Reaksi</a></h3>
-<ul>
-<li>Tuntutan hukum antara WPEngine, Inc. dan Automattic melibatkan perintah awal karena tindakan oleh Matt Mullenweg yang diduga merugikan WPEngine. Pengadilan memutuskan mendukung WPEngine, mewajibkan Automattic untuk mengembalikan akses akun, mengembalikan plugin ACF, dan menghapus kotak centang kontroversial tanpa memerlukan jaminan. Kasus ini menyoroti ketegangan dalam komunitas WordPress dan mendorong diskusi tentang tata kelola sumber terbuka dan pengaruh ekuitas swasta dalam perusahaan teknologi.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Pengadilan kebangkrutan menolak penjualan Infowars kepada The Onion" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Pengadilan%20kebangkrutan%20menolak%20penjualan%20Infowars%20kepada%20The%20Onion&subheading=Rabu%2C%2011%20Desember%202024%3A%20Ringkasan%20Berita%20Peretas" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/id/2024/12/11</link>
-            <guid isPermaLink="false">2024-12-11T00:00:00.000Z</guid>
-            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

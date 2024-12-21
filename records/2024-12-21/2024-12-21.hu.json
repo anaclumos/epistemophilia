@@ -1,0 +1,138 @@
+[
+  {
+    "id": 42476828,
+    "title": "„Egy amerikai bíró felelősnek találta az izraeli NSO Groupot újságírók WhatsApp-on keresztüli feltöréséért.”",
+    "originLink": "https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42476828",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "„Egy amerikai bíró felelősségre vonta Izrael NSO csoportját újságírók WhatsApp-on keresztüli feltörése miatt, ami kérdéseket vet fel a vállalatok felelősségéről a hackelési és megfigyelési tevékenységekben.”",
+      "„Az eset rávilágít a kibereszközök értékesítésével és használatával kapcsolatos etikai aggályokra, hasonlítva azokat a hagyományos fegyvereladásokhoz, és vitákat indít a vezetőség esetleges jogi következményeiről.”",
+      "„Ez ráirányítja a figyelmet a szélesebb körű kérdésekre is, mint például a magánélet védelme, a kormányzati megfigyelés, valamint a közösségi média cégek felelőssége a felhasználói adatok védelmében.”"
+    ],
+    "points": 331,
+    "commentCount": 63,
+    "retryCount": 0,
+    "time": 1734745103
+  },
+  {
+    "id": 42476192,
+    "title": "„C fordítása biztonságos Rust nyelvre, formalizálva”",
+    "originLink": "https://arxiv.org/abs/2412.15042",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42476192",
+    "commentBody": "",
+    "originSummary": [
+      "„Aymeric Fromherz és Jonathan Protzenko tanulmánya a C kód biztonságos Rust nyelvre történő fordítását tárgyalja, különös tekintettel a memóriabiztonságra azáltal, hogy elkerülik a nem biztonságos Rust jellemzőket.”",
+      "„A szerzők bemutatnak egy típusvezérelt fordítási módszert, statikus elemzést „osztott fák” használatával a mutató aritmetikához, valamint egy stratégiát a C struktúratípusainak kezelésére Rustban.”",
+      "„Megközelítésük sikeresen fordítja le a HACL* kriptográfiai könyvtárat és az EverParse bináris elemzőit egy ellenőrzött, 80 000 soros kriptográfiai könyvtárra tiszta Rust nyelven, miközben a teljesítményt minimális stratégiai másolatokkal tartja fenn.”"
+    ],
+    "commentSummary": [
+      "„A C kód Safe Rust-ra való átalakítása nehéz a nyelvi különbségek miatt, különösen a Rust tulajdonosi modellje miatt, amely jelentős áttervezést igényel a biztonság érdekében. - Az olyan eszközök, mint a C2Rust, segítenek a fordításban, de a folyamat összetett, és néhány C programot nem lehet átalakítani anélkül, hogy megváltoztatnák a szemantikájukat a bennük rejlő biztonságtalanság miatt. - Bár a C Rust-ra fordítása növelheti a biztonságot és felfedheti a hibákat, a Rust biztonságát gyakran félreértik, és a C kód formális verifikációja, amely segíti a fordítást, nem mindig áll rendelkezésre.”"
+    ],
+    "points": 257,
+    "commentCount": 114,
+    "retryCount": 0,
+    "time": 1734737403
+  },
+  {
+    "id": 42475703,
+    "title": "„Egy Raycaster Bash nyelven”",
+    "originLink": "https://github.com/izabera/pseudo3d",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475703",
+    "commentBody": "",
+    "originSummary": [
+      "„Egy Wolfenstein játék által inspirált raycastert valósítottak meg Bash-ben, amely bemutatja a Bash használatának kihívásait grafikus alkalmazásokhoz. A projekt korlátokba ütközik a Bash lassúsága, a lebegőpontos támogatás hiánya és a terminál korlátai miatt, ami megnehezíti a képernyő állapotának fenntartását és a teljesítmény optimalizálását. Annak ellenére, hogy Unicode fél blokkokat használnak a jobb felbontás érdekében, a projekt küzd a magas I/O igényekkel és a színek hatékony frissítésének hiányával, ami kiemeli a Bash használatának összetettségét ilyen feladatokhoz.”"
+    ],
+    "commentSummary": [
+      "„A Raycaster Bash-ben egy olyan projekt, amely oszloponként egyszeri raytracing használatával szimulál 3D hatást, hatékonyan renderelve jeleneteket minimális `echo` parancsokkal.”",
+      "„A projekt figyelemre méltó a húrok ismétlésének használatával az ég, a fű és a tárgyak vonalainak megrajzolására, ami inspiráló példát jelent a voxel renderelő motorok létrehozására korlátozott környezetekben.”",
+      "„A megbeszélés kiemeli a hasonló raycasting projekteket MS Batch-ben és `awk`-ban, bemutatva a kreativitást az összetett feladatok megoldásában nem hagyományos programozási nyelvek használatával.”"
+    ],
+    "points": 215,
+    "commentCount": 29,
+    "retryCount": 0,
+    "time": 1734733545
+  },
+  {
+    "id": 42475228,
+    "title": "„A Qualcomm megnyeri a licencelési harcot az Arm ellen a chiptervek kapcsán”",
+    "originLink": "https://www.bloomberg.com/news/articles/2024-12-20/qualcomm-wins-licensing-fight-with-arm-over-chip-designs",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475228",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "„A Qualcomm győztesen került ki egy jogi vitából az Arm ellen a chiptervezési licencelés kapcsán, különösen a Qualcomm Nuvia felvásárlásával összefüggésben.”",
+      "„Az ügy középpontjában az állt, hogy a Qualcomm meglévő licencje kiterjed-e a Nuvia terveire, miközben az Arm azt állította, hogy minden Arm-kompatibilis CPU az ő Utasításkészlet-architektúrájuk (ISA) származéka.”",
+      "„A zsűri döntésképtelensége a Nuvia licencszerződésének megszegésével kapcsolatban a Qualcomm javára billentette a mérleget, ami aggodalmakat vetett fel az Arm licencelési gyakorlataival kapcsolatban, és esetleg arra ösztönözheti a vállalatokat, hogy fontolóra vegyék a RISC-V, egy nyílt forráskódú alternatíva használatát.”"
+    ],
+    "points": 196,
+    "commentCount": 108,
+    "retryCount": 0,
+    "time": 1734730133
+  },
+  {
+    "id": 42479233,
+    "title": "„Lekérdezés az Apple FindMy hálózatról Python segítségével”",
+    "originLink": "https://github.com/malmeloo/FindMy.py",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42479233",
+    "commentBody": "",
+    "originSummary": [
+      "„A FindMy.py egy átfogó könyvtár, amely az Apple FindMy hálózatának lekérdezésére lett tervezve, célja a széttagolt \"Find My-jelenet\" konszolidálása. Jelenleg az Alpha szakaszában van, ami azt jelenti, hogy az API tervezése változásokon mehet keresztül.”",
+      "„A könyvtár támogatja a platformok közötti funkcionalitást, a helyjelentés dekódolását, az Apple fiók bejelentkezést és a kétfaktoros hitelesítést (2FA), aszinkron (async) és szinkron (sync) API-kat kínálva.”",
+      "„A telepítés elérhető a PyPi-n keresztül a `pip install findmy` parancs használatával, és a hozzájárulásokat bátorítjuk, a kódformázásra vonatkozó konkrét irányelvek megadásával.”"
+    ],
+    "commentSummary": [
+      "„Egy Python megvalósítás az Apple FindMy API-jához célja, hogy javítsa a platformok közötti hozzáférést, előnyhöz juttatva azokat a Linux és Android felhasználókat, akik jelenleg Mac-re szorulnak a FindMy funkciók használatához.”",
+      "„Ez az eszköz lehetővé teheti a helyszínek és az AirTag-ek nyomon követését az Apple ökoszisztémájától való függés nélkül, bár vannak aggodalmak azzal kapcsolatban, hogy az Apple esetleg beavatkozhat az ilyen projektek leállítása érdekében.”",
+      "„A vita rávilágít arra, hogy az Apple korlátozott keresztplatformos támogatást nyújt, és nehézségeket okoz az eszközfunkciók, például a szülői felügyelet kezelése az ökoszisztémáján kívül, alternatívákat javasolva, mint a Blue Bubbles és a Firewalla.”"
+    ],
+    "points": 184,
+    "commentCount": 91,
+    "retryCount": 0,
+    "time": 1734783295
+  },
+  {
+    "id": 42478107,
+    "title": "„A Spotify csúnya igazsága végre napvilágra került”",
+    "originLink": "https://www.honest-broker.com/p/the-ugly-truth-about-spotify-is-finally",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42478107",
+    "commentBody": "",
+    "originSummary": [
+      "„Egy független újságíró, Liz Pelly vizsgálata feltárta, hogy a Spotify hamis előadókat használ a profit növelése érdekében, különösen olyan műfajokban, mint a jazz és az ambient. Ez a gyakorlat, amelyet a \"Perfect Fit Content\" programnak neveznek, lehetővé teszi a Spotify számára, hogy elkerülje a jogdíjak kifizetését a valódi zenészeknek, ami aggodalmakat vet fel az átláthatósággal és a zenei streaming szabályozásával kapcsolatban. A vita ellenére a Spotify jövedelmezősége javult, miközben a zeneipar és a mainstream média nagyrészt figyelmen kívül hagyta ezeket a problémákat, így a független újságírás feladata lett, hogy a nyilvánosság elé tárja őket.”"
+    ],
+    "commentSummary": [
+      "„A cikk aggodalmakat vet fel azzal kapcsolatban, hogy a Spotify állítólag az alacsony minőségű, generikus, esetleg mesterséges intelligencia által generált zenéket részesíti előnyben a valódi művészekkel szemben a költségek csökkentése érdekében. - A felhasználók elégedetlenségüket fejezik ki a Spotify zenei ajánlásaival kapcsolatban, ami vitát vált ki az üzleti gyakorlatok etikájáról és a művészekre gyakorolt hatásáról. - A vita rávilágít a művészek által a streaming-vezérelt piacon tapasztalt kihívásokra, és alternatívákat javasol, mint például a független rádió vagy más streaming szolgáltatások.”"
+    ],
+    "points": 173,
+    "commentCount": 216,
+    "retryCount": 0,
+    "time": 1734767128
+  },
+  {
+    "id": 42475011,
+    "title": "„DOS APPEND”",
+    "originLink": "https://www.os2museum.com/wp/dos-append/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475011",
+    "commentBody": "",
+    "originSummary": [
+      "„Az OS/2 Museum blog a régi PC számítástechnikát kutatja, különös tekintettel az OS/2-re, a DOS-ra és a kapcsolódó témákra. - Egy nemrégiben megjelent bejegyzés a DOS APPEND parancsot emeli ki, amely egy Terminate and Stay Resident (TSR) program, amely segíti a régebbi DOS alkalmazásokat a fájlok különböző könyvtárakból való elérésében, először a DOS 3.3-ban vezették be. - A bejegyzés az APPEND történetét, fejlődését és megvalósítását tárgyalja, megvitatva annak jelentőségét a modern számítástechnikai kontextusokban.”"
+    ],
+    "commentSummary": [
+      "„A DOS APPEND parancs történelmileg jelentős volt az assembler viselkedésének módosításában anélkül, hogy magát az assemblert megváltoztatták volna, hasonlóan a modern környezeti változókhoz és az overlayfs csatolásokhoz.”",
+      "„A DOS parancsok, mint például a SUBST és a JOIN, könyvtárak leképezésére és útvonalkezelésre szolgáltak, segítve a maximális útvonalméret korlátainak leküzdését.”",
+      "„A megbeszélés magában foglalja a DOS történelmi fejlődését a DEC miniszámítógépeken, valamint a számítástechnikai hardverek fejlődését a miniszámítógépektől a jelenlegi rendszerekig.”"
+    ],
+    "points": 112,
+    "commentCount": 53,
+    "retryCount": 0,
+    "time": 1734728699
+  }
+]
