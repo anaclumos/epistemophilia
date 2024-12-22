@@ -15,11 +15,123 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 21 Dec 2024 19:06:26 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 22 Dec 2024 19:09:37 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/story/it.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
         <language><![CDATA[it]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Utilizziamo il nostro hardware presso Fastmail]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Fastmail sceglie di utilizzare il proprio hardware invece dei servizi cloud, concentrandosi sull&#39;ottimizzazione dei costi e sulla pianificazione a lungo termine, sfruttando 25 anni di esperienza.</li>
+<li>Hanno aggiornato a SSD NVMe, migliorando le prestazioni e l&#39;affidabilità rispetto ai tradizionali Hard Disk Drive (HDD).</li>
+<li>Fastmail utilizza ZFS per l&#39;archiviazione, che offre vantaggi come compressione e crittografia, e ha scelto nuovi server 2U con SSD per migliorare input/output, affidabilità ed economicità.</li>
+</ul>
+]]></description>
+            <link>https://www.fastmail.com/blog/why-we-use-our-own-hardware/</link>
+            <guid isPermaLink="false">2024-12-22T00:00:00.000ZUtilizziamo il nostro hardware presso Fastmail</guid>
+            <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Il creatore di Rosetta 2 lascia Apple per lavorare a tempo pieno su Lean]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Leonardo de Moura, una figura chiave presso AWS e Lean FRO, ha annunciato che Cameron Zwarich, noto per aver creato Rosetta 2 presso Apple, si è unito a Lean FRO.</li>
+<li>Cameron Zwarich si concentrerà sul miglioramento del generatore di codice di Lean, portando la sua vasta esperienza nello sviluppo software al team.</li>
+</ul>
+]]></description>
+            <link
+      >https://www.linkedin.com/posts/leonardo-de-moura-26a27b5_leanlang-leanprover-leanfro-activity-7274523099394400256-0F0x</link>
+            <guid
+        isPermaLink="false"
+      >2024-12-22T00:00:00.000ZIl creatore di Rosetta 2 lascia Apple per lavorare a tempo pieno su Lean</guid>
+            <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Una tabella di dati vecchia di migliaia di anni (2020)]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Il sistema di contabilità dell&#39;antica Mesopotamia utilizzava tavolette di argilla con righe e colonne, simili alle moderne tabelle di dati, come dimostrato da una tavoletta proveniente da Larsa, Iraq, tradotta da Eleanor Robson. - La tavoletta, catalogata al British Museum, assomiglia a un riepilogo delle buste paga per un progetto di costruzione, dimostrando dati organizzati con intestazioni e calcoli oltre 3500 anni fa. - Questo approfondimento storico evidenzia che, sebbene le tabelle di dati abbiano origini antiche, il loro uso continuo non è garantito, poiché le invenzioni possono essere perse e riscoperte nel tempo.</li>
+</ul>
+]]></description>
+            <link>https://www.datafix.com.au/BASHing/2020-08-12.html</link>
+            <guid
+        isPermaLink="false"
+      >2024-12-22T00:00:00.000ZUna tabella di dati vecchia di migliaia di anni (2020)</guid>
+            <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Il lento dispiegamento causa riunioni (2015)]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://tidyfirst.substack.com/p/slow-deployment-causes-meetings</link>
+            <guid isPermaLink="false">2024-12-22T00:00:00.000ZIl lento dispiegamento causa riunioni (2015)</guid>
+            <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[I saggi di Michel de Montaigne online]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>HyperEssays è un progetto online che fornisce edizioni moderne dei Saggi di Michel de Montaigne, presentando quattro versioni da diverse traduzioni storiche e aggiornamenti. Il progetto offre strumenti e contesto per i nuovi lettori, con capitoli in PDF gratuiti e formattazione per una facile lettura su vari dispositivi, trattando argomenti come religione, amicizia e legge. HyperEssays è una risorsa in continua evoluzione, che accoglie contributi per mantenere la sua accessibilità e disponibilità gratuita.</li>
+</ul>
+]]></description>
+            <link>https://hyperessays.net/</link>
+            <guid isPermaLink="false">2024-12-22T00:00:00.000ZI saggi di Michel de Montaigne online</guid>
+            <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Divisione di numeri a 8 bit senza segno]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Il testo esplora metodi per dividere numeri a 8 bit senza segno utilizzando istruzioni SIMD (Single Instruction, Multiple Data), concentrandosi sulla divisione in virgola mobile e sull&#39;algoritmo della divisione lunga.</li>
+<li>Mettere in evidenza l&#39;implementazione di questi metodi utilizzando le istruzioni SSE, AVX2 e AVX-512, con confronti di prestazioni su CPU come Ryzen 7, Skylake-X e IceLake.</li>
+<li>Notoriamente, l&#39;implementazione AVX-512 della divisione lunga è la più veloce sui CPU Intel, mentre l&#39;AVX2 che utilizza il reciproco approssimato è la più veloce su Ryzen, con il codice sorgente disponibile su GitHub.</li>
+</ul>
+]]></description>
+            <link>http://0x80.pl/notesen/2024-12-21-uint8-division.html</link>
+            <guid isPermaLink="false">2024-12-22T00:00:00.000ZDivisione di numeri a 8 bit senza segno</guid>
+            <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[JEP 483: Caricamento e Collegamento delle Classi in Anticipo]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://openjdk.org/jeps/483</link>
+            <guid
+        isPermaLink="false"
+      >2024-12-22T00:00:00.000ZJEP 483: Caricamento e Collegamento delle Classi in Anticipo</guid>
+            <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Decodifica dei segnali telefonici in 'The Wall' dei Pink Floyd]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Il Blog di Corelatus esplora l&#39;hardware delle telecomunicazioni, in particolare le interfacce E1/T1 e SDH/SONET, e recentemente ha analizzato i segnali telefonici in &#39;The Wall&#39; dei Pink Floyd. L&#39;analisi ha identificato la segnalazione SS5, un sistema utilizzato nei primi anni &#39;80, esaminando gli spettrogrammi audio e confrontandoli con standard noti come DTMF e CAS R2. Lo studio ha concluso che l&#39;audio probabilmente proveniva da una chiamata reale, offrendo una sensazione autentica di connessione a lunga distanza, con una versione estesa che appare nella canzone &#39;Young Lust&#39;.</li>
+</ul>
+]]></description>
+            <link>https://corelatus.com/blog/Decoding_the_telephony_signals_in_Pink_Floyd_s__The_Wall_.html</link>
+            <guid
+        isPermaLink="false"
+      >2024-12-22T00:00:00.000ZDecodifica dei segnali telefonici in &apos;The Wall&apos; dei Pink Floyd</guid>
+            <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title
+      ><![CDATA[Singlefile: Un'estensione web per salvare una pagina web completa in un singolo file HTML]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>SingleFile è un&#39;estensione web versatile e uno strumento da riga di comando che consente agli utenti di salvare intere pagine web come file HTML singoli, compatibili con i principali browser come Chrome, Firefox, Edge e Safari.</li>
+<li>Offre funzionalità come il salvataggio di contenuti selezionati, schede multiple, annotazioni, salvataggio automatico e integrazione con Google Drive e GitHub, sebbene presenti alcune limitazioni con determinati domini e caratteri nei nomi dei file.</li>
+<li>Lo strumento è open-source, con licenza AGPL, ed è utilizzato in progetti come ArchiveBox e Zotero Connector, con contributi da vari traduttori.</li>
+</ul>
+]]></description>
+            <link>https://github.com/gildas-lormeau/SingleFile</link>
+            <guid
+        isPermaLink="false"
+      >2024-12-22T00:00:00.000ZSinglefile: Un&apos;estensione web per salvare una pagina web completa in un singolo file HTML</guid>
+            <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title
       ><![CDATA[Un giudice statunitense ritiene il gruppo israeliano NSO responsabile per l'hacking di giornalisti tramite WhatsApp]]></title>
@@ -1130,59 +1242,6 @@
         isPermaLink="false"
       >2024-12-13T00:00:00.000ZUna batteria litio-aria a base di Li2O a temperatura ambiente abilitata da un elettrolita solido</guid>
             <pubDate>Fri, 13 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Gukesh diventa il più giovane campione del mondo di scacchi nella storia]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Il GM Gukesh D è diventato il più giovane campione del mondo nel Campionato Mondiale di Scacchi 2024 sconfiggendo il GM Ding Liren nel Round 14.</li>
-<li>Il match è stato notevole per il gioco strategico di Gukesh e la sua profonda preparazione, sfruttando l&#39;errore di Ding in un finale di re e pedoni.</li>
-<li>Lichess ha fornito una copertura in diretta con il commento del GM Felix Blohberger, dell&#39;IM Laura Unuk e dell&#39;ospite GM Ivan Cheparinov, mettendo in evidenza l&#39;importanza dell&#39;evento e i momenti emozionanti.</li>
-</ul>
-]]></description>
-            <link
-      >https://lichess.org/@/Lichess/blog/wcc-2024-round-14-gukesh-becomes-the-youngest-world-champion-in-history/cDggdNZw</link>
-            <guid
-        isPermaLink="false"
-      >2024-12-12T00:00:00.000ZGukesh diventa il più giovane campione del mondo di scacchi nella storia</guid>
-            <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Timemap.org – Mappa Interattiva della Storia]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://www.oldmapsonline.org/en/history/regions</link>
-            <guid isPermaLink="false">2024-12-12T00:00:00.000ZTimemap.org – Mappa Interattiva della Storia</guid>
-            <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title
-      ><![CDATA[Misteriosi avvistamenti di droni nel New Jersey spingono a richiedere lo 'stato di emergenza']]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Più di 3.000 avvistamenti di droni nel New Jersey e nel nord-est degli Stati Uniti hanno portato a richieste di uno &quot;stato di emergenza limitato&quot; e di un divieto temporaneo dei droni da parte del senatore statale Jon Bramnick.</li>
-<li>Le preoccupazioni sono aumentate a causa dei droni avvistati vicino a luoghi sensibili, come il campo da golf del Presidente eletto Trump e le infrastrutture critiche.</li>
-<li>Nonostante il gran numero di avvistamenti, l&#39;FBI non ha fornito una spiegazione e il Pentagono ha respinto le affermazioni di un coinvolgimento straniero, inclusa quella di una &#39;nave madre iraniana&#39;.</li>
-</ul>
-]]></description>
-            <link>https://www.theguardian.com/us-news/2024/dec/11/new-jersey-drone-sightings-state-of-emergency</link>
-            <guid
-        isPermaLink="false"
-      >2024-12-12T00:00:00.000ZMisteriosi avvistamenti di droni nel New Jersey spingono a richiedere lo &apos;stato di emergenza&apos;</guid>
-            <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Un clone di ChatGPT, in 3000 byte di C, supportato da GPT-2 (2023)]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Nicholas Carlini ha sviluppato un clone di ChatGPT utilizzando un&#39;implementazione minima in C di GPT-2, che è di soli circa 3000 byte.- Il progetto è privo di dipendenze e ottimizzato per eseguire GPT-2 Small su macchine moderne, anche se produce output di bassa qualità.- Questa iniziativa mette in evidenza la semplicità delle reti neurali e la capacità di condensare modelli complessi di apprendimento automatico in codice compatto, con il codice sorgente disponibile su GitHub.</li>
-</ul>
-]]></description>
-            <link>https://nicholas.carlini.com/writing/2023/chat-gpt-2-in-c.html</link>
-            <guid
-        isPermaLink="false"
-      >2024-12-12T00:00:00.000ZUn clone di ChatGPT, in 3000 byte di C, supportato da GPT-2 (2023)</guid>
-            <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

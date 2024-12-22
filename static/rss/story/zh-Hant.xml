@@ -15,11 +15,114 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 21 Dec 2024 19:06:27 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 22 Dec 2024 19:09:37 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/story/zh-Hant.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
         <language><![CDATA[zh-Hant]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[「我們在 Fastmail 使用我們自己的硬體」]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Fastmail 選擇使用自己的硬體而非雲端服務，專注於成本優化和長期規劃，並利用25年的經驗。</li>
+<li>他們已升級至 NVMe SSD，相較於傳統硬碟機(HDD)，提升了效能和可靠性。</li>
+<li>Fastmail 使用 ZFS 作為儲存系統，這提供了壓縮和加密等優勢，並選擇了新的 2U 伺服器搭配 SSD，以提升輸入/輸出效能、可靠性和成本效益。</li>
+</ul>
+]]></description>
+            <link>https://www.fastmail.com/blog/why-we-use-our-own-hardware/</link>
+            <guid isPermaLink="false">2024-12-22T00:00:00.000Z「我們在 Fastmail 使用我們自己的硬體」</guid>
+            <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Rosetta 2 的創建者離開 Apple 全職投入 Lean 的工作]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>「AWS 和 Lean FRO 的重要人物 Leonardo de Moura 宣布，因在 Apple 創建 Rosetta 2 而聞名的 Cameron Zwarich 已加入 Lean FRO。」</li>
+<li>「Cameron Zwarich 將專注於改進 Lean 的代碼生成器，並將他豐富的軟體開發經驗帶入團隊。」</li>
+</ul>
+]]></description>
+            <link
+      >https://www.linkedin.com/posts/leonardo-de-moura-26a27b5_leanlang-leanprover-leanfro-activity-7274523099394400256-0F0x</link>
+            <guid isPermaLink="false">2024-12-22T00:00:00.000ZRosetta 2 的創建者離開 Apple 全職投入 Lean 的工作</guid>
+            <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[一個已有數千年歷史的數據表(2020年)]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>「古代美索不達米亞的帳目記錄使用了帶有行和列的黏土板，類似於現代的數據表格，這一點由伊拉克拉爾薩的一塊黏土板所證實，該板由艾莉諾·羅布森翻譯。這塊在大英博物館編目的黏土板類似於一個建設項目的工資單摘要，展示了超過3500年前的有組織數據，包含標題和計算。這一歷史洞察強調了雖然數據表格有著古老的起源，但它們的持續使用並非保證，因為發明可能會隨著時間的推移而失落和重新發現。」</li>
+</ul>
+]]></description>
+            <link>https://www.datafix.com.au/BASHing/2020-08-12.html</link>
+            <guid isPermaLink="false">2024-12-22T00:00:00.000Z一個已有數千年歷史的數據表(2020年)</guid>
+            <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[緩慢的部署導致會議(2015)]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://tidyfirst.substack.com/p/slow-deployment-causes-meetings</link>
+            <guid isPermaLink="false">2024-12-22T00:00:00.000Z緩慢的部署導致會議(2015)</guid>
+            <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[米歇爾·德·蒙田的隨筆線上版]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>「HyperEssays 是一個線上專案，提供米歇爾·德·蒙田《隨筆集》的現代版本，包含來自不同歷史翻譯和更新的四個版本。該專案為新讀者提供工具和背景資訊，並提供免費的章節 PDF 和適合各種裝置的格式，方便閱讀，涵蓋宗教、友誼和法律等主題。HyperEssays 是一個不斷發展的資源，歡迎貢獻以維持其可及性和免費提供。」</li>
+</ul>
+]]></description>
+            <link>https://hyperessays.net/</link>
+            <guid isPermaLink="false">2024-12-22T00:00:00.000Z米歇爾·德·蒙田的隨筆線上版</guid>
+            <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[無符號 8 位元數字的除法]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>本文探討了使用 SIMD(單指令多數據)指令來劃分無符號 8 位元數字的方法，重點在於浮點數除法和長除法演算法。</li>
+<li>它強調了使用 SSE、AVX2 和 AVX-512 指令實現這些方法，並在 Ryzen 7、Skylake-X 和 IceLake 等 CPU 上進行性能比較。</li>
+<li>值得注意的是，AVX-512 的長除法實作在 Intel CPU 上是最快的，而使用近似倒數的 AVX2 在 Ryzen 上是最快的，相關原始碼可在 GitHub 上找到。</li>
+</ul>
+]]></description>
+            <link>http://0x80.pl/notesen/2024-12-21-uint8-division.html</link>
+            <guid isPermaLink="false">2024-12-22T00:00:00.000Z無符號 8 位元數字的除法</guid>
+            <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[「JEP 483：提前類別載入和連結」]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://openjdk.org/jeps/483</link>
+            <guid isPermaLink="false">2024-12-22T00:00:00.000Z「JEP 483：提前類別載入和連結」</guid>
+            <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[「解碼平克·弗洛伊德《迷牆》中的電話信號」]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>「Corelatus 部落格深入探討電信硬體，特別是 E1/T1 和 SDH/SONET 介面，最近分析了平克·佛洛伊德《The Wall》中的電話信號。- 分析透過檢查音頻頻譜圖並與 DTMF 和 CAS R2 等已知標準進行比較，識別出 SS5 信令系統，這是一種在 1980 年代初期使用的系統。- 研究結論認為，音頻可能來自真實的通話，提供了一種真實的長途連接感覺，並在歌曲《Young Lust》中出現了延長版本。」</li>
+</ul>
+]]></description>
+            <link>https://corelatus.com/blog/Decoding_the_telephony_signals_in_Pink_Floyd_s__The_Wall_.html</link>
+            <guid isPermaLink="false">2024-12-22T00:00:00.000Z「解碼平克·弗洛伊德《迷牆》中的電話信號」</guid>
+            <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Singlefile：一個將完整網頁儲存為單一 HTML 檔案的網路擴充功能]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>SingleFile 是一款多功能的網頁擴充套件和命令列工具，讓使用者能夠將整個網頁儲存為單一的 HTML 檔案，並與 Chrome、Firefox、Edge 和 Safari 等主流瀏覽器相容。</li>
+<li>它提供了儲存選擇內容、多重標籤、註釋、自動儲存，以及與 Google Drive 和 GitHub 的整合等功能，儘管在某些網域和檔案名稱字元上有一些限制。</li>
+<li>該工具是開源的，採用 AGPL 授權，並被用於像 ArchiveBox 和 Zotero Connector 這樣的專案中，並有來自各地翻譯者的貢獻。</li>
+</ul>
+]]></description>
+            <link>https://github.com/gildas-lormeau/SingleFile</link>
+            <guid
+        isPermaLink="false"
+      >2024-12-22T00:00:00.000ZSinglefile：一個將完整網頁儲存為單一 HTML 檔案的網路擴充功能</guid>
+            <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[美國法官裁定以色列的 NSO 集團因透過 WhatsApp 入侵記者而負有責任]]></title>
             <description><![CDATA[<p>- </p>
@@ -1045,56 +1148,6 @@
             <link>https://www.science.org/doi/10.1126/science.abq1347</link>
             <guid isPermaLink="false">2024-12-13T00:00:00.000Z由固態電解質驅動的室溫 Li2O 基鋰空氣電池</guid>
             <pubDate>Fri, 13 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Gukesh 成為歷史上最年輕的國際象棋世界冠軍]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>古克什·D 在 2024 年世界西洋棋錦標賽中擊敗丁立人，成為最年輕的世界冠軍。</li>
-<li>這場比賽因古克什的戰略性下法和深思熟慮的準備而引人注目，他在國王與兵的殘局中利用了丁的失誤。</li>
-<li>「Lichess 提供了現場直播，並由國際象棋特級大師 Felix Blohberger、國際大師 Laura Unuk 以及特邀特級大師 Ivan Cheparinov 進行評論，突顯了該賽事的重要性和情感時刻。」</li>
-</ul>
-]]></description>
-            <link
-      >https://lichess.org/@/Lichess/blog/wcc-2024-round-14-gukesh-becomes-the-youngest-world-champion-in-history/cDggdNZw</link>
-            <guid isPermaLink="false">2024-12-12T00:00:00.000ZGukesh 成為歷史上最年輕的國際象棋世界冠軍</guid>
-            <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Timemap.org – 歷史互動地圖]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://www.oldmapsonline.org/en/history/regions</link>
-            <guid isPermaLink="false">2024-12-12T00:00:00.000ZTimemap.org – 歷史互動地圖</guid>
-            <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[「神秘的新澤西無人機目擊事件引發對『緊急狀態』的呼籲」]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>在新澤西州和美國東北部出現超過3,000次無人機目擊事件，促使州參議員喬恩·布拉姆尼克呼籲實施「有限緊急狀態」並暫時禁止無人機。</li>
-<li>由於在敏感地點附近發現無人機，例如當選總統川普的高爾夫球場和關鍵基礎設施，這引起了更高的關注。</li>
-<li>儘管有大量目擊事件，FBI 尚未提供解釋，而五角大廈則駁斥了包括來自「伊朗母艦」的外國介入的說法。</li>
-</ul>
-]]></description>
-            <link>https://www.theguardian.com/us-news/2024/dec/11/new-jersey-drone-sightings-state-of-emergency</link>
-            <guid
-        isPermaLink="false"
-      >2024-12-12T00:00:00.000Z「神秘的新澤西無人機目擊事件引發對『緊急狀態』的呼籲」</guid>
-            <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[一個由 GPT-2(2023)支持的 ChatGPT 克隆，使用 3000 字節的 C 語言編寫]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>「Nicholas Carlini 使用 GPT-2 的簡化 C 實作開發了一個 ChatGPT 克隆，該實作僅約 3000 位元組大小。這個專案不依賴任何外部程式庫，並優化以在現代機器上運行 GPT-2 Small，儘管其輸出質量較低。這項計畫突顯了神經網路的簡單性以及將複雜的機器學習模型濃縮成緊湊程式碼的能力，源代碼可在 GitHub 上獲得。」</li>
-</ul>
-]]></description>
-            <link>https://nicholas.carlini.com/writing/2023/chat-gpt-2-in-c.html</link>
-            <guid
-        isPermaLink="false"
-      >2024-12-12T00:00:00.000Z一個由 GPT-2(2023)支持的 ChatGPT 克隆，使用 3000 字節的 C 語言編寫</guid>
-            <pubDate>Thu, 12 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
