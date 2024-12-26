@@ -26,6 +26,7 @@ export const sanitize = (text: string) => {
   }
 
   return text
+    .replaceAll('.-', '.\n-')
     .replaceAll(/[\u200B\u200C\u200D\u200E\u200F\uFEFF]/g, '')
     .replaceAll(' ', ' ')
     .replaceAll(' ', ' ')
