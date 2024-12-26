@@ -1,0 +1,138 @@
+[
+  {
+    "id": 42476828,
+    "title": "미국 판사가 이스라엘의 NSO 그룹이 WhatsApp을 통해 기자들을 해킹한 것에 대해 책임이 있다고 판결",
+    "originLink": "https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42476828",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "미국 판사가 이스라엘의 NSO 그룹이 WhatsApp을 통해 기자들을 해킹한 것에 대해 책임을 물었으며, 해킹 및 감시 활동에서 기업의 책임에 대한 의문을 제기하고 있다.",
+      "이 사건은 사이버 도구의 판매 및 사용과 관련된 윤리적 우려를 강조하며, 이를 전통적인 무기 판매와 비유하고 경영진에 대한 잠재적인 법적 결과에 대한 논의를 촉발하고 있다.",
+      "이는 또한 프라이버시, 정부의 감시, 그리고 사용자 데이터를 보호하는 데 있어 소셜 미디어 회사의 책임과 같은 더 넓은 문제들에 주의를 환기시킵니다."
+    ],
+    "points": 331,
+    "commentCount": 63,
+    "retryCount": 0,
+    "time": 1734745103
+  },
+  {
+    "id": 42476192,
+    "title": "안전한 러스트로 C 컴파일하기, 형식화됨",
+    "originLink": "https://arxiv.org/abs/2412.15042",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42476192",
+    "commentBody": "",
+    "originSummary": [
+      "아이메릭 프롬헤르츠와 조나단 프로첸코의 논문은 C 코드를 안전한 Rust로 번역하는 것에 대해 논의하며, 비안전한 Rust 기능을 피함으로써 메모리 안전성에 중점을 둡니다.",
+      "저자들은 포인터 산술을 위한 '분할 트리'를 사용한 정적 분석, 그리고 Rust에서 C의 구조체 타입을 처리하기 위한 전략을 포함한 타입 지향 번역 방법을 소개합니다.",
+      "그들의 접근 방식은 HACL* 암호화 라이브러리와 EverParse의 이진 파서를 순수 Rust로 작성된 80,000줄의 검증된 암호화 라이브러리로 성공적으로 변환하며, 최소한의 전략적 복사로 성능을 유지합니다."
+    ],
+    "commentSummary": [
+      "C 코드를 안전한 러스트로 변환하는 것은 근본적인 언어 차이로 인해 어렵습니다. 특히 러스트의 소유권 모델은 안전성을 위해 상당한 재설계를 요구합니다. C2Rust와 같은 도구가 번역을 돕지만, 이 과정은 복잡하며, 일부 C 프로그램은 고유의 비안전성 때문에 의미를 변경하지 않고는 포팅할 수 없습니다. C를 러스트로 번역하면 안전성이 향상되고 버그가 드러날 수 있지만, 러스트의 안전성은 종종 오해되며, 번역을 돕는 C 코드의 형식적 검증이 항상 가능한 것은 아닙니다."
+    ],
+    "points": 257,
+    "commentCount": 114,
+    "retryCount": 0,
+    "time": 1734737403
+  },
+  {
+    "id": 42475703,
+    "title": "배시에서의 레이캐스터",
+    "originLink": "https://github.com/izabera/pseudo3d",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475703",
+    "commentBody": "",
+    "originSummary": [
+      "게임 Wolfenstein에서 영감을 받은 레이캐스터가 Bash로 구현되어, Bash를 그래픽 애플리케이션에 사용하는 데 따른 어려움을 보여주고 있습니다. 이 프로젝트는 Bash의 느린 속도, 부동 소수점 지원 부족, 터미널 제약으로 인해 화면 상태를 유지하고 성능을 최적화하는 데 어려움을 겪고 있습니다. 더 나은 해상도를 위해 유니코드 반 블록을 사용했음에도 불구하고, 프로젝트는 높은 I/O 요구와 비효율적인 색상 업데이트로 인해 어려움을 겪고 있으며, 이러한 작업에 Bash를 사용하는 복잡성을 강조하고 있습니다."
+    ],
+    "commentSummary": [
+      "Raycaster in Bash는 각 열마다 한 번씩 레이 트레이싱을 사용하여 3D 효과를 시뮬레이션하는 프로젝트로, 최소한의 `echo` 명령어로 장면을 효율적으로 렌더링합니다.",
+      "이 프로젝트는 하늘, 풀, 물체를 그리기 위해 문자열 반복을 사용한 점이 주목할 만하며, 제한된 환경에서 복셀 렌더 엔진을 만드는 데 영감을 주는 예시가 됩니다.",
+      "이 논의는 복잡한 작업을 위해 비전통적인 프로그래밍 언어를 사용하는 창의성을 보여주는 MS Batch와 `awk`의 유사한 레이캐스팅 프로젝트를 강조합니다."
+    ],
+    "points": 215,
+    "commentCount": 29,
+    "retryCount": 0,
+    "time": 1734733545
+  },
+  {
+    "id": 42475228,
+    "title": "퀄컴, 칩 설계 관련 Arm과의 라이선스 분쟁에서 승리",
+    "originLink": "https://www.bloomberg.com/news/articles/2024-12-20/qualcomm-wins-licensing-fight-with-arm-over-chip-designs",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475228",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "퀄컴은 칩 설계 라이선싱과 관련하여, 특히 퀄컴의 누비아 인수와 관련된 법적 분쟁에서 암을 상대로 승리했습니다.",
+      "이 사건은 Qualcomm의 기존 라이선스가 Nuvia의 설계를 포함하는지 여부를 중심으로 진행되었으며, Arm은 모든 Arm 호환 CPU가 그들의 명령어 집합 아키텍처(ISA)의 파생물이라고 주장했습니다.",
+      "배심원의 Nuvia의 라이선스 위반에 대한 결정을 내리지 못한 것이 Qualcomm에 유리하게 작용하여 Arm의 라이선스 관행에 대한 우려를 불러일으키고, 기업들이 오픈 소스 대안인 RISC-V를 고려하도록 장려할 가능성이 있습니다."
+    ],
+    "points": 196,
+    "commentCount": 108,
+    "retryCount": 0,
+    "time": 1734730133
+  },
+  {
+    "id": 42479233,
+    "title": "Python으로 Apple's FindMy 네트워크 쿼리하기",
+    "originLink": "https://github.com/malmeloo/FindMy.py",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42479233",
+    "commentBody": "",
+    "originSummary": [
+      "FindMy.py는 Apple의 FindMy 네트워크를 쿼리하기 위해 설계된 종합 라이브러리로, 분산된 'Find My-장면'을 통합하는 것을 목표로 합니다. 현재 알파 단계에 있으며, 이는 API 설계가 변경될 수 있음을 의미합니다.",
+      "라이브러리는 크로스 플랫폼 기능, 위치 보고서 해독, Apple 계정 로그인 및 이중 인증(2FA)을 지원하며 비동기(async) 및 동기(sync) API를 모두 제공합니다.",
+      "설치는 `pip install findmy` 명령어를 사용하여 PyPi를 통해 가능합니다. 기여를 권장하며, 코드 형식에 대한 구체적인 지침이 제공됩니다."
+    ],
+    "commentSummary": [
+      "Apple의 FindMy API의 파이썬 구현은 현재 FindMy 기능을 위해 Mac이 필요한 Linux 및 Android 사용자에게 교차 플랫폼 접근성을 향상시키는 것을 목표로 합니다.",
+      "이 도구는 애플의 생태계에 의존하지 않고도 위치 및 에어태그 추적을 가능하게 할 수 있지만, 애플이 이러한 프로젝트를 중단시키기 위한 개입을 할 가능성에 대한 우려가 있습니다.",
+      "이 논의는 애플의 제한된 크로스 플랫폼 지원과 그 생태계 외부에서 자녀 보호 기능과 같은 기기 기능을 관리하는 데 어려움을 강조하며, Blue Bubbles와 Firewalla와 같은 대안에 대한 제안을 포함하고 있습니다."
+    ],
+    "points": 184,
+    "commentCount": 91,
+    "retryCount": 0,
+    "time": 1734783295
+  },
+  {
+    "id": 42478107,
+    "title": "스포티파이에 대한 추악한 진실이 마침내 드러나다",
+    "originLink": "https://www.honest-broker.com/p/the-ugly-truth-about-spotify-is-finally",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42478107",
+    "commentBody": "",
+    "originSummary": [
+      "독립 언론인 리즈 펠리(Liz Pelly)의 조사에 따르면, 스포티파이(Spotify)가 수익을 증가시키기 위해 가짜 아티스트를 사용하는 것으로 드러났습니다. 특히 재즈와 앰비언트 같은 장르에서 이러한 관행이 두드러집니다. '퍼펙트 핏 콘텐츠(Perfect Fit Content)' 프로그램으로 알려진 이 관행은 스포티파이가 진정한 음악가들에게 로열티를 지불하지 않도록 하여 음악 스트리밍의 투명성과 규제에 대한 우려를 불러일으키고 있습니다. 논란에도 불구하고 스포티파이의 수익성은 개선되었으며, 음악 산업과 주류 미디어는 이러한 문제를 대체로 간과하고 있어 독립 언론이 이를 대중에게 알리는 역할을 하고 있습니다."
+    ],
+    "commentSummary": [
+      "이 기사는 스포티파이가 비용 절감을 위해 진정한 아티스트보다 저품질의 일반적인 음악, 아마도 AI가 생성한 음악을 선호한다는 우려를 제기합니다. 사용자들은 스포티파이의 음악 추천에 불만을 표하며, 이는 스포티파이의 비즈니스 관행의 윤리성과 아티스트에 대한 영향에 대한 논쟁을 촉발시켰습니다. 이 논의는 스트리밍이 지배하는 시장에서 아티스트들이 직면한 도전 과제를 강조하며 독립 라디오나 다른 스트리밍 서비스와 같은 대안을 제안합니다."
+    ],
+    "points": 173,
+    "commentCount": 216,
+    "retryCount": 0,
+    "time": 1734767128
+  },
+  {
+    "id": 42475011,
+    "title": "DOS APPEND",
+    "originLink": "https://www.os2museum.com/wp/dos-append/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475011",
+    "commentBody": "",
+    "originSummary": [
+      "OS/2 Museum 블로그는 OS/2, DOS 및 관련 주제를 중심으로 빈티지 PC 컴퓨팅을 탐구합니다. 최근 게시물에서는 DOS 3.3에서 처음 도입된 DOS APPEND 명령어에 대해 강조합니다. APPEND는 다른 디렉토리의 파일에 접근할 수 있도록 돕는 Terminate and Stay Resident (TSR) 프로그램입니다. 이 게시물은 APPEND의 역사, 진화 및 구현에 대해 깊이 있게 다루며, 현대 컴퓨팅 맥락에서의 중요성을 논의합니다."
+    ],
+    "commentSummary": [
+      "DOS APPEND 명령은 어셈블러를 변경하지 않고 어셈블러의 동작을 수정하는 데 있어 역사적으로 중요했으며, 이는 현대의 환경 변수와 overlayfs 마운트와 유사합니다.",
+      "SUBST 및 JOIN과 같은 DOS 명령어는 디렉토리 매핑 및 경로 관리를 위해 사용되었으며, 경로 길이 제한을 극복하는 데 도움을 주었습니다.",
+      "논의에는 DEC 미니컴퓨터에서의 DOS의 역사적 발전과 미니컴퓨터에서 현재 시스템으로의 컴퓨팅 하드웨어의 진화가 포함됩니다."
+    ],
+    "points": 112,
+    "commentCount": 53,
+    "retryCount": 0,
+    "time": 1734728699
+  }
+]

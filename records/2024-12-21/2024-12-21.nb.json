@@ -1,0 +1,138 @@
+[
+  {
+    "id": 42476828,
+    "title": "Amerikaanse dommer finner Israels NSO Group ansvarlig for hacking av journalister via WhatsApp",
+    "originLink": "https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42476828",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Een Amerikaanse rechter heeft de Israëlische NSO Group verantwoordelijk gehouden voor het hacken van journalisten via WhatsApp, wat vragen oproept over de verantwoordelijkheid van bedrijven bij hack- en surveillantieactiviteiten.",
+      "De zaak benadrukt etiske bekymringer knyttet til salg og bruk av cyberverktøy, og sammenligner dem med tradisjonelt våpensalg, noe som fører til diskusjoner om potensielle juridiske konsekvenser for ledelsen.",
+      "Het vestigt ook de aandacht op bredere kwesties zoals privacy, overheidstoezicht en de verantwoordelijkheid van sociale mediabedrijven bij het beschermen van gebruikersgegevens."
+    ],
+    "points": 331,
+    "commentCount": 63,
+    "retryCount": 0,
+    "time": 1734745103
+  },
+  {
+    "id": 42476192,
+    "title": "Compileren van C naar veilige Rust, geformaliseerd",
+    "originLink": "https://arxiv.org/abs/2412.15042",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42476192",
+    "commentBody": "",
+    "originSummary": [
+      "Het artikel van Aymeric Fromherz en Jonathan Protzenko bespreekt het vertalen van C-code naar veilige Rust, met de nadruk op geheugensveiligheid door het vermijden van onveilige Rust-functies.",
+      "De auteurs introducerer en type-dirigert oversettelsesmetode, statisk analyse ved bruk av 'split trees' for pekeraritmetikk, og en strategi for å håndtere C's struct-typer i Rust.",
+      "Met hun aanpak vertalen ze met succes de HACL*-cryptografiebibliotheek en de binaire parsers van EverParse naar een geverifieerde cryptografiebibliotheek van 80.000 regels in pure Rust, waarbij de prestaties behouden blijven met minimale strategische kopieën."
+    ],
+    "commentSummary": [
+      "Het omzetten van C-code naar Safe Rust is moeilijk vanwege fundamentele taalverschillen, met name het eigendomsmodel van Rust, dat aanzienlijke herontwerp vereist voor veiligheid. - Hulpmiddelen zoals C2Rust helpen bij de vertaling, maar het proces is complex, en sommige C-programma's kunnen niet worden overgezet zonder hun semantiek te veranderen vanwege inherente onveiligheid. - Hoewel het vertalen van C naar Rust de veiligheid kan verbeteren en bugs kan onthullen, wordt de veiligheid van Rust vaak verkeerd begrepen, en formele verificatie van C-code, die de vertaling ondersteunt, is niet altijd beschikbaar."
+    ],
+    "points": 257,
+    "commentCount": 114,
+    "retryCount": 0,
+    "time": 1734737403
+  },
+  {
+    "id": 42475703,
+    "title": "Een Raycaster in Bash",
+    "originLink": "https://github.com/izabera/pseudo3d",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475703",
+    "commentBody": "",
+    "originSummary": [
+      "Een raycaster geïnspireerd door het spel Wolfenstein is geïmplementeerd in Bash, wat de uitdagingen van het gebruik van Bash voor grafische toepassingen aantoont. Het project ondervindt beperkingen door de traagheid van Bash, het gebrek aan ondersteuning voor drijvende-komma-berekeningen en terminalbeperkingen, wat het moeilijk maakt om de schermstatus te behouden en de prestaties te optimaliseren. Ondanks het gebruik van Unicode halve blokken voor een betere resolutie, worstelt het project met hoge I/O-eisen en inefficiënte kleurupdates, wat de complexiteit van het gebruik van Bash voor dergelijke taken benadrukt."
+    ],
+    "commentSummary": [
+      "Een Raycaster in Bash is een project dat een 3D-effect simuleert door middel van raytracing één keer per kolom, waarbij scènes efficiënt worden gerenderd met minimale `echo`-opdrachten.",
+      "Het project is opmerkelijk vanwege het gebruik van herhaling van snaren om lijnen te tekenen voor lucht, gras en objecten, waardoor het een inspirerend voorbeeld is voor het creëren van voxel-render-engines in beperkte omgevingen.",
+      "De discussie belicht vergelijkbare raycasting-projecten in MS Batch en `awk`, waarbij creativiteit wordt getoond in het gebruik van onconventionele programmeertalen voor complexe taken."
+    ],
+    "points": 215,
+    "commentCount": 29,
+    "retryCount": 0,
+    "time": 1734733545
+  },
+  {
+    "id": 42475228,
+    "title": "Qualcomm wint licentiegeschil met Arm over chipontwerpen",
+    "originLink": "https://www.bloomberg.com/news/articles/2024-12-20/qualcomm-wins-licensing-fight-with-arm-over-chip-designs",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475228",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Qualcomm heeft de overwinning behaald in een juridisch geschil met Arm over chipontwerplicenties, specifiek met betrekking tot Qualcomm's overname van Nuvia.",
+      "De zaak dreide seg om hvorvidt Qualcomms eksisterende lisens dekket Nuvias design, med Arm som hevdet at alle Arm-kompatible CPU-er var derivater av deres Instruction Set Architecture (ISA).",
+      "De juryens ubesluttsomhet angående Nuvias brudd på lisensen favoriserte Qualcomm, noe som reiste bekymringer om Arms lisensieringspraksis og muligens oppmuntret selskaper til å vurdere RISC-V, et åpen kildekode-alternativ."
+    ],
+    "points": 196,
+    "commentCount": 108,
+    "retryCount": 0,
+    "time": 1734730133
+  },
+  {
+    "id": 42479233,
+    "title": "Vraag het FindMy-netwerk van Apple op met Python",
+    "originLink": "https://github.com/malmeloo/FindMy.py",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42479233",
+    "commentBody": "",
+    "originSummary": [
+      "FindMy.py is een uitgebreide bibliotheek ontworpen om het FindMy-netwerk van Apple te bevragen, met als doel de gefragmenteerde \"Find My-scene\" te consolideren. Het bevindt zich momenteel in de Alpha-fase, wat betekent dat het API-ontwerp nog wijzigingen kan ondergaan.",
+      "De bibliotheek ondersteunt platformonafhankelijke functionaliteit, locatieverslagontsleuteling, Apple-accountaanmelding en tweefactorauthenticatie (2FA), en biedt zowel asynchrone (async) als synchrone (sync) API's.",
+      "Installatie is beschikbaar via PyPi met behulp van de opdracht `pip install findmy`, en bijdragen worden aangemoedigd, met specifieke richtlijnen voor codeopmaak die worden verstrekt."
+    ],
+    "commentSummary": [
+      "Een Python-implementatie van Apple's FindMy API heeft als doel om de toegang over verschillende platforms te verbeteren, wat ten goede komt aan gebruikers op Linux en Android die momenteel een Mac nodig hebben voor FindMy-functies.",
+      "Deze tool kan het mogelijk maken om locaties en AirTags te volgen zonder afhankelijk te zijn van Apple's ecosysteem, hoewel er zorgen zijn over de mogelijke interventie van Apple om dergelijke projecten te stoppen.",
+      "De discussie benadrukt Apples beperkte ondersteuning voor meerdere platforms en de moeilijkheden bij het beheren van apparaateigenschappen zoals ouderlijk toezicht buiten zijn ecosysteem, met suggesties voor alternatieven zoals Blue Bubbles en Firewalla."
+    ],
+    "points": 184,
+    "commentCount": 91,
+    "retryCount": 0,
+    "time": 1734783295
+  },
+  {
+    "id": 42478107,
+    "title": "De lelijke waarheid over Spotify is eindelijk onthuld",
+    "originLink": "https://www.honest-broker.com/p/the-ugly-truth-about-spotify-is-finally",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42478107",
+    "commentBody": "",
+    "originSummary": [
+      "Een onderzoek door de onafhankelijke journalist Liz Pelly heeft aan het licht gebracht dat Spotify nep-artiesten gebruikt om de winst te verhogen, vooral in genres zoals jazz en ambient. Deze praktijk, bekend als het \"Perfect Fit Content\"-programma, stelt Spotify in staat om geen royalties te betalen aan echte muzikanten, wat zorgen oproept over transparantie en regulering in muziekstreaming. Ondanks de controverse is de winstgevendheid van Spotify verbeterd, terwijl de muziekindustrie en de mainstream media deze kwesties grotendeels over het hoofd hebben gezien, waardoor onafhankelijke journalistiek ze onder de aandacht van het publiek moet brengen."
+    ],
+    "commentSummary": [
+      "Het artikel uit bezorgdheid over het feit dat Spotify naar verluidt de voorkeur geeft aan muziek van lage kwaliteit, mogelijk door AI gegenereerd, boven echte artiesten om kosten te besparen. Gebruikers uiten ontevredenheid over de muziek aanbevelingen van Spotify, wat een debat op gang brengt over de ethiek van de bedrijfspraktijken en de impact op artiesten. De discussie benadrukt de uitdagingen waarmee artiesten worden geconfronteerd in een door streaming gedomineerde markt en suggereert alternatieven zoals onafhankelijke radio of andere streamingdiensten."
+    ],
+    "points": 173,
+    "commentCount": 216,
+    "retryCount": 0,
+    "time": 1734767128
+  },
+  {
+    "id": 42475011,
+    "title": "DOS APPEND",
+    "originLink": "https://www.os2museum.com/wp/dos-append/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475011",
+    "commentBody": "",
+    "originSummary": [
+      "De OS/2 Museum-blog verkent vintage pc-computing, met een focus op OS/2, DOS en verwante onderwerpen. Een recent bericht belicht het DOS APPEND-commando, een Terminate and Stay Resident (TSR) programma dat oudere DOS-toepassingen helpt bij het openen van bestanden in verschillende mappen, voor het eerst geïntroduceerd in DOS 3.3. Het bericht gaat in op de geschiedenis, evolutie en implementatie van APPEND, en bespreekt het belang ervan in moderne computercontexten."
+    ],
+    "commentSummary": [
+      "Het DOS APPEND-commando was historisch gezien belangrijk voor het wijzigen van het gedrag van de assembler zonder de assembler zelf te veranderen, vergelijkbaar met moderne omgevingsvariabelen en overlayfs-mounts.",
+      "DOS-opdrachten zoals SUBST en JOIN werden gebruikt voor directorymapping en padbeheer, wat hielp om beperkingen in padlengte te overwinnen.",
+      "De discussie omvat de historische ontwikkeling van DOS op DEC-minicomputers en de evolutie van computerhardware van minicomputers naar huidige systemen."
+    ],
+    "points": 112,
+    "commentCount": 53,
+    "retryCount": 0,
+    "time": 1734728699
+  }
+]

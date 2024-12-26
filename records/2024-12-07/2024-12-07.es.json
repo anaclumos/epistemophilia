@@ -1,0 +1,190 @@
+[
+  {
+    "id": 42344002,
+    "title": "Mi segundo año sin trabajo",
+    "originLink": "https://shilin.ca/my-second-year-without-job/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42344002",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [],
+    "points": 381,
+    "commentCount": 567,
+    "retryCount": 0,
+    "time": 1733516765
+  },
+  {
+    "id": 42343089,
+    "title": "El elemento de diálogo",
+    "originLink": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42343089",
+    "commentBody": "",
+    "originSummary": [
+      "El elemento `` en HTML se utiliza para crear cuadros de diálogo, que pueden ser modales (pausando la interacción con la página) o no modales (permitiendo la interacción).",
+      "Los métodos de JavaScript `.showModal()` y `.show()` se utilizan para mostrar diálogos modales y no modales, respectivamente, mientras que `.close()` se utiliza para cerrarlos.",
+      "Es fundamental la accesibilidad; asegúrate de que el enfoque esté configurado correctamente y proporciona un mecanismo de cierre, como un botón, mientras usas CSS `::backdrop` para estilizar los fondos de los modales."
+    ],
+    "commentSummary": [
+      "El elemento de diálogo en developer.mozilla.org ha iniciado un debate sobre el uso de elementos HTML interactivos, como selectores de archivos y reproductores de medios, con opiniones divergentes sobre su consistencia y previsibilidad en diferentes navegadores.",
+      "Si bien algunos desarrolladores critican el elemento de diálogo por no tener estilo y no funcionar como los popups nativos, otros valoran sus beneficios semánticos y de accesibilidad.",
+      "La discusión resalta los desafíos en mantener la consistencia del diseño y las preocupaciones sobre el posible mal uso por parte de los anunciantes, indicando que el elemento de diálogo es un paso progresivo pero aún requiere mejoras."
+    ],
+    "points": 295,
+    "commentCount": 136,
+    "retryCount": 0,
+    "time": 1733512147
+  },
+  {
+    "id": 42343121,
+    "title": "El cofundador de Maps.me intenta cerrar el fork de código abierto Organic Maps",
+    "originLink": "https://github.com/orgs/organicmaps/discussions/9837",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42343121",
+    "commentBody": "",
+    "originSummary": [
+      "Organic Maps ha liberado el código fuente de su \"metaserver\", que optimiza las velocidades de descarga de mapas al dirigir a los usuarios a los mejores servidores de la Red de Entrega de Contenidos (CDN) según su ubicación.",
+      "La codificación, inicialmente cerrada para prevenir bifurcaciones no autorizadas, ahora está abierta bajo la licencia MIT, promoviendo la transparencia y la participación de la comunidad.",
+      "La equipo está reconsiderando el uso de Cloudflare Workers para prevenir la dependencia de un solo proveedor y ha revertido cambios no autorizados realizados por un colaborador, enfatizando su compromiso con la privacidad y la transparencia."
+    ],
+    "commentSummary": [
+      "Alexander Borsuk, cofundador de Maps.me, intentó cerrar el fork de código abierto de Organic Maps alterando su licencia MIT y añadiendo registros a un repositorio privado. Roman Tsisyk, otro mantenedor del proyecto, revirtió estos cambios e hizo público el repositorio, lo que llevó a un conflicto y a la revocación de sus permisos. El incidente subraya los desacuerdos internos sobre la naturaleza de código abierto del proyecto, sin embargo, Organic Maps sigue siendo una aplicación de mapas offline ampliamente utilizada."
+    ],
+    "points": 269,
+    "commentCount": 62,
+    "retryCount": 0,
+    "time": 1733512298
+  },
+  {
+    "id": 42347606,
+    "title": "Cómo usar Postgres para todo",
+    "originLink": "https://github.com/Olshansk/postgres_for_everything",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42347606",
+    "commentBody": "",
+    "originSummary": [
+      "\"Postgres para Todo\" es un repositorio que promueve el uso de PostgreSQL, una popular base de datos relacional de código abierto, para una amplia gama de aplicaciones más allá de las tareas tradicionales de bases de datos. El repositorio invita a contribuciones y rastrea varios usos innovadores de PostgreSQL, incluyendo trabajos cron, colas de mensajes, análisis y más, destacando su versatilidad. La iniciativa incluye 11 elementos relacionados con Supabase, una plataforma que proporciona servicios de backend utilizando PostgreSQL, mostrando su integración y utilidad en el desarrollo moderno de aplicaciones."
+    ],
+    "commentSummary": [
+      "La discusión enfatiza la versatilidad de Postgres en varias aplicaciones, pero también señala limitaciones, como el manejo de caracteres nulos en cadenas y la necesidad de SQL personalizado para escaneos de índices omitidos. Las opiniones varían sobre el uso de Postgres para todos los propósitos, con algunos advirtiendo contra la dependencia excesiva de una sola base de datos para equipos grandes y otros elogiando su simplicidad y reducción de complejidad. Se mencionan alternativas como Redis, junto con desafíos en la escalabilidad y la importancia de evitar la sobreingeniería en las etapas iniciales de un proyecto."
+    ],
+    "points": 257,
+    "commentCount": 141,
+    "retryCount": 0,
+    "time": 1733550975
+  },
+  {
+    "id": 42343953,
+    "title": "Leyendas que me contaron sobre la edición colaborativa, Parte 1: Algoritmos para la edición sin conexión",
+    "originLink": "https://www.moment.dev/blog/lies-i-was-told-pt-1",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42343953",
+    "commentBody": "",
+    "originSummary": [
+      "En los primeros meses de 2024, la investigación sobre sistemas de edición colaborativa para el editor de texto de Moment destacó desafíos con la edición sin conexión, donde algoritmos populares como CRDTs (Tipos de Datos Replicados Sin Conflictos) y OT (Transformación Operacional) a menudo fallan. La edición sin conexión aumenta los conflictos directos, con un 20-30% de estos conflictos resultando en resultados inaceptables, lo que sugiere que el problema es más un desafío de interfaz de usuario/experiencia de usuario (UI/UX) que uno algorítmico. Los investigadores ahora se están enfocando en mejorar la experiencia del usuario en la edición sin conexión, estableciendo paralelismos con cómo git maneja la fusión de documentos, lo cual es un desarrollo prometedor."
+    ],
+    "commentSummary": [
+      "El artículo aborda los desafíos de la edición colaborativa, especialmente sin conexión, y critica los algoritmos actuales como los Tipos de Datos Replicados Sin Conflictos (CRDTs) y la Transformación Operacional (OT) por no siempre producir resultados semánticamente significativos. Existe un consenso sobre la necesidad de mejorar la resolución de conflictos, potencialmente a través de la intervención del usuario o herramientas avanzadas como los Modelos de Lenguaje de Gran Escala (LLMs), para manejar eficazmente los conflictos semánticos. La discusión también considera el papel de las soluciones de Interfaz de Usuario/Experiencia de Usuario (UI/UX) en mejorar la experiencia de edición colaborativa, destacando que el problema se extiende más allá de los algoritmos hacia la comprensión de la intención del usuario."
+    ],
+    "points": 243,
+    "commentCount": 85,
+    "retryCount": 0,
+    "time": 1733516527
+  },
+  {
+    "id": 42346344,
+    "title": "Salidas Estructuradas con Ollama",
+    "originLink": "https://ollama.com/blog/structured-outputs",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42346344",
+    "commentBody": "",
+    "originSummary": [
+      "Ollama ha introducido soporte para salidas estructuradas, lo que permite a los modelos generar salidas en un formato específico utilizando un esquema JSON.",
+      "Esta función ahora está disponible en las bibliotecas actualizadas de Ollama Python y JavaScript, útil para tareas como el análisis de datos de documentos e imágenes.",
+      "Los usuarios deben actualizar a la última versión de Ollama y utilizar el parámetro de formato en las solicitudes cURL o bibliotecas, con futuras actualizaciones que prometen mejoras en el rendimiento y más opciones de formato."
+    ],
+    "commentSummary": [
+      "Ollama proporciona un método para generar datos estructurados, como JSON, a partir de modelos de lenguaje, con discusiones sobre el uso de gramáticas GBNF para formatos de salida más versátiles como XML o SQL. Los usuarios debaten la fiabilidad de las salidas JSON frente al lenguaje natural, con ideas sobre cómo los modelos de lenguaje (LLMs) generan texto y el papel de los prompts estructurados. La integración de Ollama con llama.cpp se destaca por simplificar el uso del modelo, aunque algunos lo ven simplemente como un envoltorio, y la función admite varios modelos con diferentes niveles de precisión."
+    ],
+    "points": 223,
+    "commentCount": 62,
+    "retryCount": 0,
+    "time": 1733533952
+  },
+  {
+    "id": 42346463,
+    "title": "RollerCoaster Tycoon fue el último de su tipo [video]",
+    "originLink": "https://www.youtube.com/watch?v=0JouTsMQsEA",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42346463",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "RollerCoaster Tycoon, desarrollado principalmente en lenguaje ensamblador por un pequeño equipo, se convirtió en un éxito de ventas en 1999, mostrando un estilo de desarrollo poco común.",
+      "Los fanáticos sugieren OpenRCT2 por sus características mejoradas y compatibilidad, y Roller Coaster Tycoon Classic para dispositivos modernos, mientras que alternativas como Parkitect y Planet Coaster ofrecen experiencias variadas.",
+      "La evolución del desarrollo de videojuegos y los desafíos que enfrentan los equipos pequeños al competir con estudios más grandes se destacan en el video, con éxitos independientes como Minecraft que ilustran el potencial de los logros de equipos pequeños."
+    ],
+    "points": 220,
+    "commentCount": 60,
+    "retryCount": 0,
+    "time": 1733535139
+  },
+  {
+    "id": 42343544,
+    "title": "Fructosa en la dieta potencia el crecimiento tumoral: investigación",
+    "originLink": "https://source.washu.edu/2024/12/research-reveals-how-fructose-in-diet-enhances-tumor-growth/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42343544",
+    "commentBody": "",
+    "originSummary": [
+      "El consumo de fructosa ha aumentado significativamente en los últimos 50 años, principalmente debido al jarabe de maíz de alta fructosa en bebidas y alimentos procesados.",
+      "La investigación de la Universidad de Washington en St. Louis indica que, si bien la fructosa no alimenta directamente a los tumores, el hígado la convierte en nutrientes que apoyan el crecimiento tumoral en cánceres como el melanoma, el cáncer de mama y el cáncer cervical.",
+      "La investigación sugiere posibles nuevos tratamientos contra el cáncer al explorar métodos para evitar que la fructosa ayude al crecimiento tumoral, posiblemente a través de cambios en la dieta o productos farmacéuticos, con financiamiento parcial de los Institutos Nacionales de Salud (NIH)."
+    ],
+    "commentSummary": [
+      "La investigación de la Universidad de Washington indica que el consumo elevado de fructosa puede promover el crecimiento tumoral al aumentar los lípidos circulantes, que son utilizados por las células cancerosas para crecer. Aunque la fructosa en las frutas es generalmente segura debido a los nutrientes adicionales, el consumo excesivo de fuentes como el jarabe de maíz de alta fructosa podría ser arriesgado. El estudio subraya la complejidad del metabolismo del cáncer y la posible influencia de la dieta en la progresión del cáncer, aunque se necesita más investigación para comprender completamente estos mecanismos."
+    ],
+    "points": 185,
+    "commentCount": 176,
+    "retryCount": 0,
+    "time": 1733514389
+  },
+  {
+    "id": 42346274,
+    "title": "Los programas de shell más grandes",
+    "originLink": "https://github.com/oils-for-unix/oils/wiki/The-Biggest-Shell-Programs-in-the-World",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42346274",
+    "commentBody": "",
+    "originSummary": [
+      "La página destaca programas significativos de shell, centrándose en scripts sustanciales escritos a mano en lugar de aquellos generados por herramientas como autoconf. - Las entradas notables incluyen akinomyoga/ble.sh, un Editor de Línea de Bash con 61K líneas de código (LoC), y kalua, un complemento de OpenWRT con 56K líneas de código fuente (SLoC). - La lista ofrece información sobre la complejidad y diversidad de la escritura de scripts de shell, presentando programas que utilizan estructuras de datos y algoritmos, típicamente superando las 5,000 líneas de código."
+    ],
+    "commentSummary": [
+      "La discusión se centra en las complejidades y desafíos de usar scripts de shell grandes, como problemas de legibilidad, manejo de errores y portabilidad. Los usuarios sugieren considerar alternativas como Python o AWK para tareas complejas debido a una mejor mantenibilidad, mientras que herramientas como ShellCheck pueden ayudar a mejorar la calidad de los scripts de shell. La conversación destaca el equilibrio entre usar scripts de shell para tareas rápidas y optar por lenguajes de programación más robustos para proyectos más grandes."
+    ],
+    "points": 169,
+    "commentCount": 82,
+    "retryCount": 0,
+    "time": 1733533151
+  },
+  {
+    "id": 42343692,
+    "title": "DSPy – Programación–no indicaciones–LMs",
+    "originLink": "https://dspy.ai/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42343692",
+    "commentBody": "",
+    "originSummary": [
+      "DSPy es un marco diseñado para construir sistemas de IA modulares utilizando código Python composicional, centrándose en mejorar las salidas de los modelos de lenguaje (LM) sin depender únicamente de los prompts. Soporta múltiples proveedores de modelos de lenguaje grande (LLM) como OpenAI, Anthropic y Databricks, permitiendo a los usuarios describir el comportamiento de la IA como código, facilitando una iteración y optimización más sencilla. Originado en Stanford NLP, DSPy tiene una fuerte presencia comunitaria en GitHub y Discord, contribuyendo a la investigación de IA de código abierto y avanzando en arquitecturas de programas y optimizadores."
+    ],
+    "commentSummary": [
+      "DSPy es un marco diseñado para optimizar indicaciones para modelos de lenguaje (LMs) mediante la automatización de la selección de subconjuntos de datos de entrenamiento, mejorando así el rendimiento y minimizando los ajustes manuales.",
+      "Admite el entrenamiento de extremo a extremo de programas de modelos de lenguaje grande (LLM), previniendo el uso de indicaciones obsoletas en el código, y es particularmente útil para tareas como la extracción de datos y la resumición.",
+      "Si bien algunos usuarios encuentran desafiante la complejidad de DSPy, se valora por su enfoque estructurado y características como afirmaciones y sugerencias que imponen restricciones de salida."
+    ],
+    "points": 159,
+    "commentCount": 33,
+    "retryCount": 0,
+    "time": 1733515189
+  }
+]

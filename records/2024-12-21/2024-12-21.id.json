@@ -1,0 +1,138 @@
+[
+  {
+    "id": 42476828,
+    "title": "Seorang hakim AS menemukan bahwa Grup NSO Israel bertanggung jawab atas peretasan jurnalis melalui WhatsApp.",
+    "originLink": "https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42476828",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Seorang hakim AS telah menahan NSO Group dari Israel bertanggung jawab atas peretasan jurnalis melalui WhatsApp, menimbulkan pertanyaan tentang tanggung jawab perusahaan dalam kegiatan peretasan dan pengawasan.",
+      "Teks tersebut menyoroti kekhawatiran etis terkait penjualan dan penggunaan alat siber, yang disamakan dengan penjualan senjata tradisional, dan mendorong diskusi tentang kemungkinan konsekuensi hukum bagi manajemen.",
+      "Itu juga menarik perhatian pada isu-isu yang lebih luas seperti privasi, pengawasan pemerintah, dan tanggung jawab perusahaan media sosial dalam melindungi data pengguna."
+    ],
+    "points": 331,
+    "commentCount": 63,
+    "retryCount": 0,
+    "time": 1734745103
+  },
+  {
+    "id": 42476192,
+    "title": "Pengompilan C ke Rust Aman, Diformalisasi",
+    "originLink": "https://arxiv.org/abs/2412.15042",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42476192",
+    "commentBody": "",
+    "originSummary": [
+      "Tulisan oleh Aymeric Fromherz dan Jonathan Protzenko membahas penerjemahan kode C ke Rust yang aman, dengan fokus pada keamanan memori dengan menghindari fitur Rust yang tidak aman.",
+      "Teks ini memperkenalkan metode penerjemahan yang diarahkan oleh tipe, analisis statis menggunakan 'pohon terpisah' untuk aritmetika pointer, dan strategi untuk menangani tipe struct C dalam Rust.",
+      "Tindakan mereka berhasil menerjemahkan perpustakaan kriptografi HACL* dan parser biner EverParse menjadi perpustakaan kriptografi terverifikasi sebanyak 80.000 baris dalam Rust murni, sambil mempertahankan kinerja dengan salinan strategis yang minimal."
+    ],
+    "commentSummary": [
+      "Konversi kode C ke Rust yang Aman sulit dilakukan karena perbedaan mendasar antara bahasa tersebut, terutama model kepemilikan Rust, yang memerlukan perancangan ulang yang signifikan untuk keamanan. Alat seperti C2Rust membantu dalam penerjemahan, tetapi prosesnya kompleks, dan beberapa program C tidak dapat dipindahkan tanpa mengubah semantik mereka karena ketidakamanan yang melekat. Meskipun menerjemahkan C ke Rust dapat meningkatkan keamanan dan mengungkapkan bug, keamanan Rust sering disalahpahami, dan verifikasi formal kode C, yang membantu penerjemahan, tidak selalu tersedia."
+    ],
+    "points": 257,
+    "commentCount": 114,
+    "retryCount": 0,
+    "time": 1734737403
+  },
+  {
+    "id": 42475703,
+    "title": "A Raycaster dalam Bash",
+    "originLink": "https://github.com/izabera/pseudo3d",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475703",
+    "commentBody": "",
+    "originSummary": [
+      "A raycaster yang terinspirasi oleh permainan Wolfenstein telah diimplementasikan dalam Bash, menunjukkan tantangan menggunakan Bash untuk aplikasi grafis. Proyek ini menghadapi keterbatasan karena lambatnya Bash, kurangnya dukungan floating-point, dan batasan terminal, yang membuatnya sulit untuk mempertahankan keadaan layar dan mengoptimalkan kinerja. Meskipun menggunakan blok setengah Unicode untuk resolusi yang lebih baik, proyek ini kesulitan dengan permintaan I/O yang tinggi dan pembaruan warna yang tidak efisien, menyoroti kompleksitas menggunakan Bash untuk tugas semacam itu."
+    ],
+    "commentSummary": [
+      "A Raycaster di Bash adalah sebuah proyek yang mensimulasikan efek 3D menggunakan raytracing sekali per kolom, secara efisien merender adegan dengan perintah `echo` yang minimal.",
+      "Teks ini menyoroti proyek yang terkenal karena penggunaan pengulangan string untuk menggambar garis langit, rumput, dan objek, menjadikannya contoh inspiratif untuk menciptakan mesin render voxel di lingkungan yang terbatas.",
+      "Diskusi tersebut menyoroti proyek raycasting serupa dalam MS Batch dan `awk`, yang menunjukkan kreativitas dalam menggunakan bahasa pemrograman yang tidak konvensional untuk tugas-tugas yang kompleks."
+    ],
+    "points": 215,
+    "commentCount": 29,
+    "retryCount": 0,
+    "time": 1734733545
+  },
+  {
+    "id": 42475228,
+    "title": "Qualcomm memenangkan pertarungan lisensi dengan Arm terkait desain chip",
+    "originLink": "https://www.bloomberg.com/news/articles/2024-12-20/qualcomm-wins-licensing-fight-with-arm-over-chip-designs",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475228",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Qualcomm telah memenangkan sengketa hukum dengan Arm terkait lisensi desain chip, khususnya terkait akuisisi Qualcomm atas Nuvia.",
+      "Teks tersebut berpusat pada apakah lisensi yang dimiliki Qualcomm mencakup desain Nuvia, dengan Arm menegaskan bahwa semua CPU yang sesuai dengan Arm adalah turunan dari Arsitektur Set Instruksi (ISA) mereka.",
+      "Keraguan juri mengenai pelanggaran lisensi Nuvia menguntungkan Qualcomm, menimbulkan kekhawatiran tentang praktik lisensi Arm dan mungkin mendorong perusahaan untuk mempertimbangkan RISC-V, sebuah alternatif sumber terbuka."
+    ],
+    "points": 196,
+    "commentCount": 108,
+    "retryCount": 0,
+    "time": 1734730133
+  },
+  {
+    "id": 42479233,
+    "title": "Meminta jaringan FindMy Apple dengan Python",
+    "originLink": "https://github.com/malmeloo/FindMy.py",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42479233",
+    "commentBody": "",
+    "originSummary": [
+      "FindMy.py adalah perpustakaan komprehensif yang dirancang untuk melakukan kueri pada jaringan FindMy Apple, dengan tujuan untuk mengonsolidasikan \"Find My-scene\" yang terfragmentasi. Saat ini, perpustakaan ini berada dalam tahap Alpha, yang berarti desain API-nya mungkin akan mengalami perubahan.",
+      "Perpustakaan ini mendukung fungsionalitas lintas platform, dekripsi laporan lokasi, masuk akun Apple, dan autentikasi dua faktor (2FA), menawarkan API asinkron (async) dan sinkron (sync).",
+      "Instalasi tersedia melalui PyPi menggunakan perintah `pip install findmy`, dan kontribusi sangat dianjurkan, dengan pedoman khusus untuk pemformatan kode yang disediakan."
+    ],
+    "commentSummary": [
+      "Aplikasi Python dari API FindMy Apple bertujuan untuk meningkatkan akses lintas platform, memberikan manfaat bagi pengguna di Linux dan Android yang saat ini memerlukan Mac untuk fitur FindMy.",
+      "Alat ini dapat memungkinkan pelacakan lokasi dan AirTags tanpa ketergantungan pada ekosistem Apple, meskipun ada kekhawatiran tentang potensi intervensi Apple untuk menghentikan proyek semacam itu.",
+      "Diskusi menyoroti dukungan lintas platform Apple yang terbatas dan kesulitan dalam mengelola fitur perangkat seperti kontrol orang tua di luar ekosistemnya, dengan saran untuk alternatif seperti Blue Bubbles dan Firewalla."
+    ],
+    "points": 184,
+    "commentCount": 91,
+    "retryCount": 0,
+    "time": 1734783295
+  },
+  {
+    "id": 42478107,
+    "title": "Fakta Buruk Tentang Spotify Akhirnya Terungkap",
+    "originLink": "https://www.honest-broker.com/p/the-ugly-truth-about-spotify-is-finally",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42478107",
+    "commentBody": "",
+    "originSummary": [
+      "Investigasi oleh jurnalis independen Liz Pelly telah mengungkap penggunaan artis palsu oleh Spotify untuk meningkatkan keuntungan, terutama dalam genre seperti jazz dan ambient. Praktik ini, yang dikenal sebagai program \"Perfect Fit Content\", memungkinkan Spotify untuk menghindari pembayaran royalti kepada musisi asli, menimbulkan kekhawatiran tentang transparansi dan regulasi dalam streaming musik. Meskipun ada kontroversi, profitabilitas Spotify telah meningkat, sementara industri musik dan media arus utama sebagian besar mengabaikan masalah ini, meninggalkan jurnalisme independen untuk membawa mereka ke perhatian publik."
+    ],
+    "commentSummary": [
+      "Artikel tersebut mengangkat kekhawatiran tentang Spotify yang diduga lebih memilih musik berkualitas rendah dan generik, yang mungkin dihasilkan oleh AI, dibandingkan dengan artis asli untuk mengurangi biaya. Pengguna menyatakan ketidakpuasan dengan rekomendasi musik Spotify, memicu perdebatan tentang etika praktik bisnisnya dan dampaknya terhadap artis. Diskusi ini menyoroti tantangan yang dihadapi artis di pasar yang didominasi oleh streaming dan menyarankan alternatif seperti radio independen atau layanan streaming lainnya."
+    ],
+    "points": 173,
+    "commentCount": 216,
+    "retryCount": 0,
+    "time": 1734767128
+  },
+  {
+    "id": 42475011,
+    "title": "DOS APPEND",
+    "originLink": "https://www.os2museum.com/wp/dos-append/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475011",
+    "commentBody": "",
+    "originSummary": [
+      "Teks dari blog OS/2 Museum mengeksplorasi komputasi PC vintage, dengan fokus pada OS/2, DOS, dan subjek terkait. - Sebuah postingan terbaru menyoroti perintah DOS APPEND, sebuah program Terminate and Stay Resident (TSR) yang membantu aplikasi DOS lama dalam mengakses file di berbagai direktori, pertama kali diperkenalkan di DOS 3.3. - Postingan tersebut membahas sejarah, evolusi, dan implementasi APPEND, serta mendiskusikan signifikansinya dalam konteks komputasi modern."
+    ],
+    "commentSummary": [
+      "Teks: Perintah DOS APPEND secara historis signifikan untuk memodifikasi perilaku assembler tanpa mengubah assembler, mirip dengan variabel lingkungan modern dan mount overlayfs.",
+      "DOS commands seperti SUBST dan JOIN digunakan untuk pemetaan direktori dan manajemen jalur, membantu mengatasi batasan panjang jalur.",
+      "Diskusi tersebut mencakup perkembangan historis DOS pada minikomputer DEC dan evolusi perangkat keras komputasi dari minikomputer hingga sistem saat ini."
+    ],
+    "points": 112,
+    "commentCount": 53,
+    "retryCount": 0,
+    "time": 1734728699
+  }
+]

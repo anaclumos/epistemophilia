@@ -1,0 +1,138 @@
+[
+  {
+    "id": 42476828,
+    "title": "„US-Richter befindet NSO Group aus Israel für das Hacken von Journalisten über WhatsApp für haftbar.“",
+    "originLink": "https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42476828",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "„Ein US-Richter hat die israelische NSO Group für das Hacken von Journalisten über WhatsApp zur Verantwortung gezogen, was Fragen über die Verantwortung von Unternehmen bei Hacking- und Überwachungsaktivitäten aufwirft.“",
+      "„Der Fall unterstreicht ethische Bedenken im Zusammenhang mit dem Verkauf und der Nutzung von Cyber-Tools, indem er sie mit dem traditionellen Waffenhandel vergleicht und Diskussionen über mögliche rechtliche Konsequenzen für das Management anregt.“",
+      "„Es lenkt auch die Aufmerksamkeit auf breitere Themen wie Datenschutz, staatliche Überwachung und die Verantwortung von Social-Media-Unternehmen beim Schutz von Benutzerdaten.“"
+    ],
+    "points": 331,
+    "commentCount": 63,
+    "retryCount": 0,
+    "time": 1734745103
+  },
+  {
+    "id": 42476192,
+    "title": "„Kompilierung von C zu sicherem Rust, formalisiert“",
+    "originLink": "https://arxiv.org/abs/2412.15042",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42476192",
+    "commentBody": "",
+    "originSummary": [
+      "„Das Papier von Aymeric Fromherz und Jonathan Protzenko behandelt die Übersetzung von C-Code in sicheren Rust-Code, wobei der Schwerpunkt auf der Speichersicherheit liegt, indem unsichere Rust-Features vermieden werden.“",
+      "„Die Autoren stellen eine typgesteuerte Übersetzungsmethode vor, eine statische Analyse unter Verwendung von „Split-Bäumen“ für Zeigerarithmetik und eine Strategie zur Behandlung von C-Strukturtypen in Rust.“",
+      "„Ihr Ansatz übersetzt erfolgreich die HACL*-Kryptografiebibliothek und die binären Parser von EverParse in eine verifizierte 80.000-Zeilen-Kryptografiebibliothek in reinem Rust und erhält dabei die Leistung mit minimalen strategischen Kopien aufrecht.“"
+    ],
+    "commentSummary": [
+      "„Die Umwandlung von C-Code in Safe Rust ist aufgrund grundlegender Sprachunterschiede schwierig, insbesondere wegen Rusts Besitzmodell, das eine erhebliche Neugestaltung für die Sicherheit erfordert. Werkzeuge wie C2Rust unterstützen bei der Übersetzung, aber der Prozess ist komplex, und einige C-Programme können nicht ohne Änderung ihrer Semantik portiert werden, aufgrund inhärenter Unsicherheiten. Während die Übersetzung von C nach Rust die Sicherheit verbessern und Fehler aufdecken kann, wird die Sicherheit von Rust oft missverstanden, und die formale Verifikation von C-Code, die bei der Übersetzung hilft, ist nicht immer verfügbar.“"
+    ],
+    "points": 257,
+    "commentCount": 114,
+    "retryCount": 0,
+    "time": 1734737403
+  },
+  {
+    "id": 42475703,
+    "title": "„Ein Raycaster in Bash“",
+    "originLink": "https://github.com/izabera/pseudo3d",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475703",
+    "commentBody": "",
+    "originSummary": [
+      "„Ein von dem Spiel Wolfenstein inspirierter Raycaster wurde in Bash implementiert, was die Herausforderungen der Verwendung von Bash für grafische Anwendungen demonstriert. Das Projekt steht vor Einschränkungen aufgrund der Langsamkeit von Bash, des Fehlens von Gleitkommaunterstützung und der Terminalbeschränkungen, was es schwierig macht, den Bildschirmzustand aufrechtzuerhalten und die Leistung zu optimieren. Trotz der Verwendung von Unicode-Halbblöcken für eine bessere Auflösung kämpft das Projekt mit hohen I/O-Anforderungen und ineffizienten Farbaktualisierungen, was die Komplexität der Verwendung von Bash für solche Aufgaben hervorhebt.“"
+    ],
+    "commentSummary": [
+      "„Ein Raycaster in Bash ist ein Projekt, das einen 3D-Effekt simuliert, indem es Raytracing einmal pro Spalte verwendet und Szenen effizient mit minimalen `echo`-Befehlen rendert.“",
+      "„Das Projekt ist bemerkenswert für seine Verwendung von Zeichenfolgenwiederholungen, um Linien für Himmel, Gras und Objekte zu zeichnen, was es zu einem inspirierenden Beispiel für die Erstellung von Voxel-Render-Engines in eingeschränkten Umgebungen macht.“",
+      "„Die Diskussion hebt ähnliche Raycasting-Projekte in MS Batch und `awk` hervor, die Kreativität bei der Verwendung unkonventioneller Programmiersprachen für komplexe Aufgaben zeigen.“"
+    ],
+    "points": 215,
+    "commentCount": 29,
+    "retryCount": 0,
+    "time": 1734733545
+  },
+  {
+    "id": 42475228,
+    "title": "„Qualcomm gewinnt Lizenzstreit mit Arm über Chip-Designs“",
+    "originLink": "https://www.bloomberg.com/news/articles/2024-12-20/qualcomm-wins-licensing-fight-with-arm-over-chip-designs",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475228",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "„Qualcomm hat in einem Rechtsstreit mit Arm bezüglich der Lizenzierung von Chipdesigns, insbesondere im Zusammenhang mit Qualcomms Übernahme von Nuvia, einen Sieg errungen.“",
+      "„Der Fall drehte sich darum, ob die bestehende Lizenz von Qualcomm die Designs von Nuvia abdeckte, wobei Arm behauptete, dass alle Arm-konformen CPUs Ableitungen ihrer Instruction Set Architecture (ISA) seien.“",
+      "„Die Unentschlossenheit der Jury bezüglich Nuvias Lizenzverletzung begünstigte Qualcomm, was Bedenken hinsichtlich Arms Lizenzpraktiken aufwarf und möglicherweise Unternehmen dazu ermutigte, RISC-V, eine Open-Source-Alternative, in Betracht zu ziehen.“"
+    ],
+    "points": 196,
+    "commentCount": 108,
+    "retryCount": 0,
+    "time": 1734730133
+  },
+  {
+    "id": 42479233,
+    "title": "„Abfrage des Apple FindMy-Netzwerks mit Python“",
+    "originLink": "https://github.com/malmeloo/FindMy.py",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42479233",
+    "commentBody": "",
+    "originSummary": [
+      "„FindMy.py ist eine umfassende Bibliothek, die entwickelt wurde, um das FindMy-Netzwerk von Apple abzufragen und die fragmentierte „Find My-Szene“ zu konsolidieren. Sie befindet sich derzeit in der Alpha-Phase, was bedeutet, dass sich das API-Design noch ändern kann.“",
+      "„Die Bibliothek unterstützt plattformübergreifende Funktionalität, die Entschlüsselung von Standortberichten, die Anmeldung bei Apple-Konten und die Zwei-Faktor-Authentifizierung (2FA) und bietet sowohl asynchrone (async) als auch synchrone (sync) APIs.“",
+      "„Die Installation ist über PyPi mit dem Befehl `pip install findmy` verfügbar, und Beiträge sind erwünscht, wobei spezifische Richtlinien für die Codeformatierung bereitgestellt werden.“"
+    ],
+    "commentSummary": [
+      "„Eine Python-Implementierung der FindMy-API von Apple zielt darauf ab, den plattformübergreifenden Zugriff zu verbessern, was Nutzern auf Linux und Android zugutekommt, die derzeit einen Mac für FindMy-Funktionen benötigen.“",
+      "„Dieses Tool könnte die Verfolgung von Standorten und AirTags ohne Abhängigkeit vom Apple-Ökosystem ermöglichen, obwohl es Bedenken hinsichtlich eines möglichen Eingreifens von Apple gibt, um solche Projekte zu stoppen.“",
+      "„Die Diskussion hebt Apples begrenzte plattformübergreifende Unterstützung und die Schwierigkeiten bei der Verwaltung von Gerätefunktionen wie Kindersicherungen außerhalb seines Ökosystems hervor, mit Vorschlägen für Alternativen wie Blue Bubbles und Firewalla.“"
+    ],
+    "points": 184,
+    "commentCount": 91,
+    "retryCount": 0,
+    "time": 1734783295
+  },
+  {
+    "id": 42478107,
+    "title": "„Die hässliche Wahrheit über Spotify wird endlich enthüllt“",
+    "originLink": "https://www.honest-broker.com/p/the-ugly-truth-about-spotify-is-finally",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42478107",
+    "commentBody": "",
+    "originSummary": [
+      "„Eine Untersuchung der unabhängigen Journalistin Liz Pelly hat aufgedeckt, dass Spotify gefälschte Künstler einsetzt, um die Gewinne zu steigern, insbesondere in Genres wie Jazz und Ambient. Diese Praxis, bekannt als das „Perfect Fit Content“-Programm, ermöglicht es Spotify, Lizenzgebühren an echte Musiker zu umgehen, was Bedenken hinsichtlich Transparenz und Regulierung im Musik-Streaming aufwirft. Trotz der Kontroverse hat sich die Rentabilität von Spotify verbessert, während die Musikindustrie und die Mainstream-Medien diese Probleme weitgehend übersehen haben, sodass unabhängiger Journalismus sie in die öffentliche Aufmerksamkeit rücken muss.“"
+    ],
+    "commentSummary": [
+      "„Der Artikel äußert Bedenken darüber, dass Spotify angeblich minderwertige, generische Musik, möglicherweise von KI generiert, echten Künstlern vorzieht, um Kosten zu senken. - Nutzer äußern Unzufriedenheit mit den Musikempfehlungen von Spotify, was eine Debatte über die Ethik der Geschäftspraktiken und die Auswirkungen auf Künstler auslöst. - Die Diskussion unterstreicht die Herausforderungen, denen Künstler in einem von Streaming dominierten Markt gegenüberstehen, und schlägt Alternativen wie unabhängiges Radio oder andere Streaming-Dienste vor.“"
+    ],
+    "points": 173,
+    "commentCount": 216,
+    "retryCount": 0,
+    "time": 1734767128
+  },
+  {
+    "id": 42475011,
+    "title": "„DOS ANHÄNGEN“",
+    "originLink": "https://www.os2museum.com/wp/dos-append/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475011",
+    "commentBody": "",
+    "originSummary": [
+      "„Der Blog des OS/2 Museum erforscht das Vintage-PC-Computing mit einem Schwerpunkt auf OS/2, DOS und verwandten Themen. Ein kürzlich erschienener Beitrag hebt den DOS-APPEND-Befehl hervor, ein Terminate and Stay Resident (TSR) Programm, das älteren DOS-Anwendungen hilft, auf Dateien in verschiedenen Verzeichnissen zuzugreifen, erstmals eingeführt in DOS 3.3. Der Beitrag geht auf die Geschichte, Entwicklung und Implementierung von APPEND ein und diskutiert seine Bedeutung im modernen Computer-Kontext.“"
+    ],
+    "commentSummary": [
+      "„Der DOS-APPEND-Befehl war historisch bedeutsam, da er das Verhalten des Assemblers ändern konnte, ohne den Assembler selbst zu verändern, ähnlich wie moderne Umgebungsvariablen und Overlayfs-Mounts.“",
+      "„DOS-Befehle wie SUBST und JOIN wurden für die Verzeichnismappierung und Pfadverwaltung verwendet, um die Begrenzungen der Pfadlänge zu überwinden.“",
+      "„Die Diskussion umfasst die historische Entwicklung von DOS auf DEC-Minicomputern und die Evolution der Computerhardware von Minicomputern zu aktuellen Systemen.“"
+    ],
+    "points": 112,
+    "commentCount": 53,
+    "retryCount": 0,
+    "time": 1734728699
+  }
+]

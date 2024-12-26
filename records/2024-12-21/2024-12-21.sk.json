@@ -1,0 +1,138 @@
+[
+  {
+    "id": 42476828,
+    "title": "„Americký sudca uznal izraelskú skupinu NSO zodpovednou za hackovanie novinárov prostredníctvom WhatsAppu.“",
+    "originLink": "https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42476828",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "„Americký sudca považoval izraelskú skupinu NSO za zodpovednú za hackovanie novinárov prostredníctvom WhatsApp, čo vyvoláva otázky o zodpovednosti spoločností za hackovanie a sledovacie aktivity.“",
+      "„Prípad zdôrazňuje etické obavy súvisiace s predajom a používaním kybernetických nástrojov, prirovnávajúc ich k tradičnému predaju zbraní, a podnecuje diskusie o možných právnych dôsledkoch pre manažment.“",
+      "„Upozorňuje tiež na širšie problémy, ako sú súkromie, vládny dohľad a zodpovednosť spoločností sociálnych médií za ochranu údajov používateľov.“"
+    ],
+    "points": 331,
+    "commentCount": 63,
+    "retryCount": 0,
+    "time": 1734745103
+  },
+  {
+    "id": 42476192,
+    "title": "„Kompilácia C do bezpečného Rustu, formalizovaná“",
+    "originLink": "https://arxiv.org/abs/2412.15042",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42476192",
+    "commentBody": "",
+    "originSummary": [
+      "„Práca Aymerica Fromherza a Jonathana Protzenka sa zaoberá prekladom C kódu do bezpečného Rustu, pričom sa zameriava na bezpečnosť pamäte tým, že sa vyhýba nebezpečným funkciám Rustu.“",
+      "„Autori predstavujú metódu prekladu riadenú typom, statickú analýzu pomocou „rozdelených stromov“ pre aritmetiku ukazovateľov a stratégiu pre spracovanie štruktúrnych typov jazyka C v jazyku Rust.“",
+      "„Ich prístup úspešne prekladá kryptografickú knižnicu HACL* a binárne analyzátory EverParse do overenej kryptografickej knižnice s 80 000 riadkami v čistej Rust, pričom si zachováva výkon s minimálnymi strategickými kópiami.“"
+    ],
+    "commentSummary": [
+      "„Konverzia C kódu na Safe Rust je náročná kvôli základným rozdielom medzi jazykmi, najmä kvôli modelu vlastníctva v Ruste, ktorý vyžaduje významný redizajn pre bezpečnosť. - Nástroje ako C2Rust pomáhajú pri preklade, ale proces je zložitý a niektoré C programy nemožno portovať bez zmeny ich sémantiky kvôli vrodenej nebezpečnosti. - Hoci preklad C do Rustu môže zvýšiť bezpečnosť a odhaliť chyby, bezpečnosť Rustu je často nepochopená a formálna verifikácia C kódu, ktorá pomáha pri preklade, nie je vždy dostupná.“"
+    ],
+    "points": 257,
+    "commentCount": 114,
+    "retryCount": 0,
+    "time": 1734737403
+  },
+  {
+    "id": 42475703,
+    "title": "„Raycaster v Bash“",
+    "originLink": "https://github.com/izabera/pseudo3d",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475703",
+    "commentBody": "",
+    "originSummary": [
+      "„Bol implementovaný raycaster inšpirovaný hrou Wolfenstein v Bash, čo demonštruje výzvy používania Bash pre grafické aplikácie. Projekt čelí obmedzeniam kvôli pomalosti Bash, nedostatku podpory pre desatinné čísla a obmedzeniam terminálu, čo sťažuje udržiavanie stavu obrazovky a optimalizáciu výkonu. Napriek používaniu Unicode polovičných blokov pre lepšie rozlíšenie, projekt zápasí s vysokými nárokmi na vstup/výstup a neefektívnymi aktualizáciami farieb, čo zdôrazňuje zložitosť používania Bash pre takéto úlohy.“"
+    ],
+    "commentSummary": [
+      "„Raycaster v Bash je projekt, ktorý simuluje 3D efekt pomocou raytracingu raz na stĺpec, efektívne vykresľujúc scény s minimálnym použitím príkazov `echo`.“",
+      "„Projekt je pozoruhodný svojím použitím opakovania reťazcov na kreslenie čiar pre oblohu, trávu a objekty, čo z neho robí inšpiratívny príklad pre vytváranie voxelových renderovacích enginov v obmedzených prostrediach.“",
+      "„Diskusia poukazuje na podobné projekty raycastingu v MS Batch a `awk`, ktoré ukazujú kreativitu pri používaní nekonvenčných programovacích jazykov na zložité úlohy.“"
+    ],
+    "points": 215,
+    "commentCount": 29,
+    "retryCount": 0,
+    "time": 1734733545
+  },
+  {
+    "id": 42475228,
+    "title": "„Qualcomm vyhráva licenčný spor s Arm ohľadom návrhov čipov“",
+    "originLink": "https://www.bloomberg.com/news/articles/2024-12-20/qualcomm-wins-licensing-fight-with-arm-over-chip-designs",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475228",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "„Qualcomm zvíťazil v právnom spore s Arm ohľadom licencovania dizajnu čipov, konkrétne v súvislosti s akvizíciou spoločnosti Nuvia spoločnosťou Qualcomm.“",
+      "„Prípad sa točil okolo toho, či existujúca licencia Qualcommu pokrývala návrhy spoločnosti Nuvia, pričom Arm tvrdil, že všetky procesory kompatibilné s Arm sú odvodené od ich architektúry inštrukčnej sady (ISA).“",
+      "„Nerozhodnosť poroty ohľadom porušenia licencie zo strany Nuvia bola v prospech Qualcommu, čo vyvolalo obavy o licenčné praktiky spoločnosti Arm a mohlo by povzbudiť firmy, aby zvážili RISC-V, otvorenú alternatívu.“"
+    ],
+    "points": 196,
+    "commentCount": 108,
+    "retryCount": 0,
+    "time": 1734730133
+  },
+  {
+    "id": 42479233,
+    "title": "„Dotaz na sieť FindMy od Apple pomocou Pythonu“",
+    "originLink": "https://github.com/malmeloo/FindMy.py",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42479233",
+    "commentBody": "",
+    "originSummary": [
+      "„FindMy.py je komplexná knižnica navrhnutá na dotazovanie siete FindMy od Apple, s cieľom konsolidovať roztrieštenú „Find My-scénu“. Momentálne je v Alpha fáze, čo znamená, že jej dizajn API môže prejsť zmenami.“",
+      "„Knižnica podporuje multiplatformovú funkčnosť, dešifrovanie správ o polohe, prihlásenie do účtu Apple a dvojfaktorovú autentifikáciu (2FA), pričom ponúka asynchrónne (async) aj synchrónne (sync) API.“",
+      "„Inštalácia je dostupná cez PyPi pomocou príkazu `pip install findmy`, a príspevky sú vítané, pričom sú poskytnuté konkrétne pokyny na formátovanie kódu.“"
+    ],
+    "commentSummary": [
+      "„Implementácia Apple FindMy API v Pythone si kladie za cieľ zlepšiť prístup naprieč platformami, čo prináša výhody používateľom na Linuxe a Androide, ktorí v súčasnosti potrebujú Mac pre funkcie FindMy.“",
+      "„Tento nástroj by mohol umožniť sledovanie polôh a AirTagov bez závislosti na ekosystéme Apple, hoci existujú obavy o možný zásah Apple na zastavenie takýchto projektov.“",
+      "„Diskusia poukazuje na obmedzenú podporu spoločnosti Apple pre rôzne platformy a ťažkosti pri správe funkcií zariadení, ako sú rodičovské kontroly, mimo jej ekosystému, s návrhmi na alternatívy ako Blue Bubbles a Firewalla.“"
+    ],
+    "points": 184,
+    "commentCount": 91,
+    "retryCount": 0,
+    "time": 1734783295
+  },
+  {
+    "id": 42478107,
+    "title": "„Škaredá pravda o Spotify je konečne odhalená“",
+    "originLink": "https://www.honest-broker.com/p/the-ugly-truth-about-spotify-is-finally",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42478107",
+    "commentBody": "",
+    "originSummary": [
+      "„Vyšetrovanie nezávislej novinárky Liz Pelly odhalilo, že Spotify používa falošných umelcov na zvýšenie ziskov, najmä v žánroch ako jazz a ambient. Táto prax, známa ako program „Perfect Fit Content“, umožňuje Spotify vyhnúť sa plateniu licenčných poplatkov skutočným hudobníkom, čo vyvoláva obavy o transparentnosť a reguláciu v oblasti streamovania hudby. Napriek kontroverzii sa ziskovosť Spotify zlepšila, zatiaľ čo hudobný priemysel a hlavné médiá tieto problémy do veľkej miery prehliadajú, pričom nezávislá žurnalistika ich prináša do pozornosti verejnosti.“"
+    ],
+    "commentSummary": [
+      "„Článok vyjadruje obavy, že Spotify údajne uprednostňuje nekvalitnú, generickú hudbu, pravdepodobne generovanú umelou inteligenciou, pred skutočnými umelcami, aby znížil náklady. - Používatelia vyjadrujú nespokojnosť s odporúčaniami hudby na Spotify, čo vyvoláva diskusiu o etike jeho obchodných praktík a dopade na umelcov. - Diskusia zdôrazňuje výzvy, ktorým umelci čelia na trhu dominovanom streamovaním, a navrhuje alternatívy ako nezávislé rádio alebo iné streamingové služby.“"
+    ],
+    "points": 173,
+    "commentCount": 216,
+    "retryCount": 0,
+    "time": 1734767128
+  },
+  {
+    "id": 42475011,
+    "title": "„DOS APPEND“",
+    "originLink": "https://www.os2museum.com/wp/dos-append/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42475011",
+    "commentBody": "",
+    "originSummary": [
+      "„Blog OS/2 Museum skúma staré PC počítače, so zameraním na OS/2, DOS a súvisiace témy. Nedávny príspevok zdôrazňuje príkaz DOS APPEND, program Terminate and Stay Resident (TSR), ktorý pomáha starším aplikáciám DOS pri prístupe k súborom v rôznych adresároch, prvýkrát predstavený v DOS 3.3. Príspevok sa zaoberá históriou, vývojom a implementáciou APPEND, diskutujúc o jeho význame v moderných výpočtových kontextoch.“"
+    ],
+    "commentSummary": [
+      "„Príkaz DOS APPEND bol historicky významný pre modifikáciu správania assemblera bez zmeny samotného assemblera, podobne ako moderné premenné prostredia a montáže overlayfs.“",
+      "„Príkazy DOS ako SUBST a JOIN sa používali na mapovanie adresárov a správu ciest, čo pomáhalo prekonať obmedzenia dĺžky ciest.“",
+      "„Diskusia zahŕňa historický vývoj DOS na minipočítačoch DEC a evolúciu výpočtového hardvéru od minipočítačov po súčasné systémy.“"
+    ],
+    "points": 112,
+    "commentCount": 53,
+    "retryCount": 0,
+    "time": 1734728699
+  }
+]
