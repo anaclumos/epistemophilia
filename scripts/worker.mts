@@ -139,7 +139,7 @@ const main = async () => {
       )
     }
   }
-  await scheduleHnNewsletter(localeStories)
+  // await scheduleHnNewsletter(localeStories)
   await writeAllRss()
 }
 

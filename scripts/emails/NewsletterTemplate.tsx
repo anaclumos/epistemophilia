@@ -77,7 +77,7 @@ export const Newsletter = ({
       <Head />
       <Body style={main}>
         <Container style={container}>
-          <Preview>{content?.[0]?.bullets.join(' ') ?? 'Here is your weekly newsletter'}</Preview>
+          <Preview>{[content?.[0]?.bullets.join(' ') ?? 'Here is your weekly newsletter']}</Preview>
           <Heading as="h1" style={heading}>
             {title.map((item, index) => (
               <React.Fragment key={index}>
@@ -132,7 +132,7 @@ export const Newsletter = ({
           <Hr style={hr} />
           {starbucks.length > 0 && (
             <Link href="https://go.cho.sh/hn-cho-sh-bring-a-friend@TrackLink" style={footer}>
-              {starbucks}
+              {[starbucks]}
             </Link>
           )}
         </Container>
