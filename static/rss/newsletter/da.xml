@@ -15,12 +15,110 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 25 Dec 2024 19:07:15 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 01 Jan 2025 22:50:04 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/da.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Wed, 25 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[da]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-01]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/01&#39;</h2>
+<h1>2025-01-01</h1>
+<h2><a href="https://news.ycombinator.com/item?id=42562750">Godt nytår 2025</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42562750">Reaktioner</a></h3>
+<h2><a href="https://doom-captcha.vercel.app/">DOOM CAPTCHA</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42566112">Reaktioner</a></h3>
+<ul>
+<li>DOOM CAPTCHA er et kreativt projekt, der kræver, at brugerne spiller et niveau af det klassiske spil DOOM som en CAPTCHA-test, hvilket fremhæver tekniske færdigheder og nostalgi. - Brugerne finder det udfordrende på grund af fraværet af moderne kontrolmuligheder, hvilket fører til blandede reaktioner om dets praktiske anvendelighed og tilgængelighed. - Projektet, selvom det er nyskabende, understreger den vedvarende utilfredshed med traditionelle CAPTCHA-systemer, på trods af at det er bygget med Vercels AI-assistent og manuel spilintegration.</li>
+</ul>
+<h2><a href="https://curiouscoding.nl/posts/static-search-tree/">Statisk søgetræer: hurtigere end binær søgning</a></h2>
+<ul>
+<li>Artiklen diskuterer implementeringen og optimeringen af statiske søgetræer (S+ træer) for markant hurtigere søgning i sorteret data, hvilket opnår hastigheder 40 gange hurtigere end traditionel binær søgning. - Optimeringsteknikker som batching, prefetching og manuel SIMD (Single Instruction, Multiple Data) anvendes for at forbedre forespørgselens gennemløb. - Artiklen udforsker også forskellige trælayouts, nodestørrelser og hukommelsesstyringsstrategier, med en diskussion om fremtidigt arbejde som branchy search og interpolationssøgning for yderligere at forbedre søgeeffektiviteten.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42562847">Reaktioner</a></h3>
+<ul>
+<li>Diskussionen fremhæver et skift fra C/C++ til Rust for algoritmisk indhold, især i statiske søgetræer, på grund af Rusts sikkerheds- og ydeevnefordele.</li>
+<li>Rusts voksende popularitet inden for lavniveauprogrammering bemærkes, hvor nogle brugere foretrækker C eller pseudokode for tilgængelighed, mens andre værdsætter Rusts moderne funktioner.</li>
+<li>Dialogen udforsker også potentialet i Zig-programmeringssproget og de udfordringer, der er forbundet med at lære nye sprog, hvilket afspejler det udviklende landskab af programmeringssprog.</li>
+</ul>
+<h2><a href="https://openreview.net/forum?id=YXnwlZe0yf&noteId=yrsGpHd0Sf">30% fald i o1-preview nøjagtighed, når Putnam-problemer er let varierede</a></h2>
+<ul>
+<li>Putnam-AXIOM er en benchmark designet til at vurdere store sprogmodeller (LLMs) på avanceret matematisk ræsonnering ved hjælp af problemer fra Putnam Mathematical Competition. - Benchmarket inkluderer 236 originale problemer og en variation med 52 ændrede problemer for at undgå datakontaminering. - OpenAI&#39;s bedst præsterende model opnåede 41,95% nøjagtighed på de originale problemer, men oplevede et betydeligt fald i ydeevne på cirka 30% på de ændrede problemer, hvilket fremhæver udfordringerne ved at tilpasse sig variationer.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42565606">Reaktioner</a></h3>
+<ul>
+<li>En undersøgelse afslørede en 30% reduktion i nøjagtigheden af o1-Preview-modellen på Putnam-problemer, når der blev introduceret mindre variationer, hvilket indikerer udfordringer for store sprogmodeller (LLM&#39;er) med små ændringer. - Resultaterne giver næring til debatten om, hvorvidt LLM&#39;er virkelig kan ræsonnere, eller om de primært afhænger af mønstergenkendelse og memorering, ligesom menneskelige fejl under pres. - På trods af disse udfordringer fortsætter modeller som o1 og o3 med at klare sig godt på komplekse matematiske problemer, selvom deres evne til at generalisere stadig er under granskning.</li>
+</ul>
+<h2><a href="https://www.cs.cmu.edu/~pavlo/blog/2025/01/2024-databases-retrospective.html">Databaser i 2024: Et år i gennemgang</a></h2>
+<ul>
+<li>Databaselandskabet i 2024 oplevede betydelige ændringer, herunder store opkøb, licensændringer og vedvarende rivaliseringer blandt nøglespillere som Redis, Elasticsearch, Databricks og Snowflake. - DuckDB blev populær til analytiske forespørgsler med integrationer i Postgres, mens bemærkelsesværdige udgivelser omfattede Amazon Aurora DSQL og Microsoft Garnet. - Opkøb som Tabular af Databricks og OrioleDB af Supabase var betydningsfulde, og på trods af tilbageslag som OtterTunes lukning forbliver industrien dynamisk med nye projekter og finansiering.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42566192">Reaktioner</a></h3>
+<ul>
+<li>Diskussionen kritiserer Redis&#39; API, hvor nogle hævder, at kritikken mangler en dyb forståelse af Redis&#39; design og dets unikke datamodel.</li>
+<li>Redis er anerkendt for sin effektive anvendelse i specifikke applikationer som ranglister og realtidssystemer, på trods af nogle kritikpunkter vedrørende API&#39;en.</li>
+<li>Konversationen udforsker også det bredere database-landskab, herunder udfordringer for startups, rollen af SQL og udviklingen af databaseteknologier, med vægt på vigtigheden af at forstå systemer, før man kritiserer dem.</li>
+</ul>
+<h2><a href="https://thoughts.wyounas.com/p/books-i-enjoyed-most-in-2024">De bøger, jeg elskede at læse i 2024</a></h2>
+<ul>
+<li>Listen indeholder en bred vifte af bøger, herunder historiske, filosofiske, videnskabelige og personlige fortællinger, som hver især tilbyder unikke indsigter og berigende oplevelser.</li>
+<li>Highlights inkluderer Ciceros breve for indsigt i det romerske liv, Ben-Aris værker om datalogisk logik og programverifikation, samt Steve Martins erindringer om komisk succes.</li>
+<li>Samlingen inkluderer også filosofiske udforskninger af Pierre Hadot og Nietzsche, græske tragedier af Aischylos samt litterære værker af Ursula Le Guin og Rabindranath Tagore.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42564687">Reaktioner</a></h3>
+<h2><a href="https://mathstodon.xyz/@tao/113721192051328193">Terence Tao: En af mine artikler blev afvist i dag</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42568399">Reaktioner</a></h3>
+<ul>
+<li>Terence Tao, en fremtrædende matematiker, delte en oplevelse med at få en artikel afvist, hvilket understreger den hyppige forekomst af afvisninger i akademia. Hans historie udløste diskussioner om den vilkårlige karakter af fagfællebedømmelser og de udfordringer, der opstår i akademisk udgivelse. Samtalen fremhævede, at afvisning er en normal del af den akademiske proces, selv for førende forskere, og understregede vigtigheden af at dele fiaskoer for at imødegå impostor-syndrom.</li>
+</ul>
+<h2><a href="https://apiparrot.com/">API Parrot – Automatisk reverse engineering af HTTP API&#39;er</a></h2>
+<ul>
+<li>API Parrot er et nyt værktøj designet til at forenkle automatiseringen af forretningsprocesser ved automatisk at identificere datakorrelations mellem API-anmodninger og give en grafisk flowrepræsentation. - Det giver brugerne mulighed for at optage anmodninger, definere input og output, og eksportere disse flows som JavaScript-kode, hvilket gør processen mere effektiv end manuel reverse engineering eller brug af mindre optimale teknologier som Robotic Process Automation (RPA). - Værktøjet er bygget på Electron og er tilgængeligt for både Windows og Linux platforme, med en vejledning tilgængelig for reverse engineering af USPS API.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42565821">Reaktioner</a></h3>
+<ul>
+<li>API Parrot er et værktøj, der automatiserer reverse engineering af HTTP API&#39;er, hvilket letter automatiseringen af forretningsprocesser ved at identificere datakorrelations mellem forespørgsler. - Det tilbyder funktioner som optagelse af forespørgsler, definition af input og output, og eksport af flows som JavaScript-kode med en grafisk flowrepræsentation. - API Parrot er i øjeblikket tilgængelig for Windows og Linux, er gratis, med en potentiel &quot;pro&quot;-version for virksomheder, og der er planer om en macOS-udgivelse i fremtiden.</li>
+</ul>
+<h2><a href="https://thehill.com/national-security/5061535-virginia-man-arrested-explosives/">FBI: Største lager af hjemmelavede sprængstoffer i agenturets historie fundet i Virginia</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42562529">Reaktioner</a></h3>
+<ul>
+<li>FBI afslørede det største lager af hjemmelavede sprængstoffer i sin historie i Virginia, hvilket førte til betydelig juridisk og offentlig debat.</li>
+<li>Den mistænkte er i øjeblikket kun sigtet for at besidde et kortløbet gevær, da lovligheden af hans skydevåben bliver undersøgt.</li>
+<li>Den sag har sat gang i diskussioner om våbenlove, det andet forfatningstillæg og balancen mellem statslig regulering og individuelle rettigheder.</li>
+</ul>
+<h2><a href="https://dgl.cx/2024/12/ghostty-terminal-title">Déjà vu: Spøgelses-CVEs i min terminaltitel</a></h2>
+<ul>
+<li>Ghostty, en ny terminalemulator, havde en sikkerhedssårbarhed, der lignede en fra 2003, som tillod ASCII escape-tegn at udføre kommandoer som at åbne applikationer. - Problemet var særligt problematisk med Zsh og Bash i vi-tilstand, men Ghostty 1.0.1 har løst dette ved at deaktivere funktionen som standard. - På trods af sikkerhedsfejlen bliver Ghostty rost for sine funktioner, og udvikleren adresserede hurtigt problemet ved at levere rettelser og løsninger til brugerne.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42562743">Reaktioner</a></h3>
+<ul>
+<li>Diskussionen fokuserer på sikkerhedssårbarheder i terminaler, især dem relateret til escape-sekvenser, og undersøger måder at mindske disse risici på. - Forslag til at forbedre terminalsikkerheden inkluderer at vedtage systemer, der ligner CPU-beskyttelsesringe eller OpenBSD&#39;s pledge() syscall, som begrænser kapaciteter for at forhindre udnyttelser. - Deltagerne anerkender udfordringen med at balancere sikkerhed med funktionalitet i terminalapplikationer og udtrykker interesse i yderligere udforskning og samarbejde for at forbedre sikkerhedspraksis.</li>
+</ul>
+<h2><a href="https://github.com/facebookresearch/large_concept_model">Store konceptmodeller: Sproglig modellering i et sætningsrepræsentationsrum</a></h2>
+<ul>
+<li>Arkivet tilbyder implementeringer for Large Concept Models (LCM), som anvender &quot;koncepter&quot; som en højere-niveau semantisk repræsentation til sprogmodellering.</li>
+<li>LCM understøtter 200 tekstsprog og 57 talesprog ved hjælp af SONAR-indlejringsrummet og er trænet til auto-regressiv sætningsforudsigelse med metoder som MSE-regression og diffusionsbaseret generering.</li>
+<li>Arkivet indeholder installationsinstruktioner, dataklargøring, træning, finjustering og evalueringsretningslinjer og er udgivet under MIT-licensen, ved brug af fairseq2 med UV og pip installationsmuligheder.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42563534">Reaktioner</a></h3>
+<ul>
+<li>Store konceptmodeller fokuserer på at repræsentere sprog i form af &quot;koncepter&quot; frem for individuelle tokens, med det formål at forbedre semantisk gruppering og forudsigelse.</li>
+<li>Metoden foreslår at bruge højere niveauer af repræsentationer til at efterligne menneskelig planlægning og kommunikation, hvilket potentielt kan tilbyde fordele i forhold til traditionelle token-baserede modeller.</li>
+<li>Tilgangen adresserer begrænsninger i de nuværende arkitekturer for store sprogmodeller (LLM) ved at lægge vægt på eksplicitte hierarkiske strukturer for bedre at efterligne menneskelig ræsonnering.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Godt nytår 2025" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Godt%20nyt%C3%A5r%202025&subheading=onsdag%20den%201.%20januar%202025%3A%20Resum%C3%A9%20af%20Hacker%20News" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/da/2025/01/01</link>
+            <guid isPermaLink="false">2025-01-01T00:00:00.000Z</guid>
+            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-12-25]]></title>
             <description
@@ -404,749 +502,6 @@
             <link>https://hn.cho.sh/da/2024/12/23</link>
             <guid isPermaLink="false">2024-12-23T00:00:00.000Z</guid>
             <pubDate>Mon, 23 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-22]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/22&#39;</h2>
-<h1>2024-12-22</h1>
-<h2><a href="https://www.fastmail.com/blog/why-we-use-our-own-hardware/">Vi bruger vores egen hardware hos Fastmail</a></h2>
-<ul>
-<li>Fastmail vælger at bruge sin egen hardware frem for cloud-tjenester, med fokus på omkostningsoptimering og langsigtet planlægning, og drager fordel af 25 års erfaring.</li>
-<li>De har opgraderet til NVMe SSD&#39;er, hvilket forbedrer ydeevne og pålidelighed sammenlignet med traditionelle harddiske (HDD&#39;er).</li>
-<li>Fastmail bruger ZFS til lagring, hvilket giver fordele som komprimering og kryptering, og har valgt nye 2U-servere med SSD&#39;er for forbedret input/output, pålidelighed og omkostningseffektivitet.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42485124">Reaktioner</a></h3>
-<ul>
-<li>Fastmail vælger at bruge sin egen hardware frem for cloud-tjenester og henviser til omkostningseffektivitet for virksomheder med betydelige hostingbehov.</li>
-<li>Diskussionen mellem cloud og selv-hosting er ofte præget af misforståelser, hvor nogle cloud-fortalere mangler teknisk indsigt.</li>
-<li>Fastmails strategi understreger muligheden for, at virksomheder kan administrere deres egne systemer, hvilket sætter spørgsmålstegn ved antagelsen om, at cloud-løsninger er universelt overlegne.</li>
-</ul>
-<h2><a href="https://www.linkedin.com/posts/leonardo-de-moura-26a27b5_leanlang-leanprover-leanfro-activity-7274523099394400256-0F0x">Rosetta 2-skaberen forlader Apple for at arbejde fuld tid på Lean</a></h2>
-<ul>
-<li>Leonardo de Moura, en nøglefigur hos AWS og Lean FRO, annoncerede, at Cameron Zwarich, kendt for at skabe Rosetta 2 hos Apple, har sluttet sig til Lean FRO.</li>
-<li>Cameron Zwarich vil fokusere på at forbedre Leans kodegenerator og bringe sin omfattende erfaring inden for softwareudvikling til teamet.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42483895">Reaktioner</a></h3>
-<ul>
-<li>Udvikleren bag Rosetta 2 har forladt Apple for at fokusere på Lean, en bevisassistent og programmeringssprog, hvilket fremhæver en bevægelse mod formel ræsonnering og softwareverifikation.</li>
-<li>Rosetta 2 er anerkendt for sin tekniske dygtighed, med betydelige bidrag fra denne udvikler, før et team blev etableret.</li>
-<li>Overgangen til Lean er motiveret af dets potentiale inden for AI-fremskridt, med mål om at forbedre skalerbarhed, anvendelighed og bevisautomatisering.</li>
-</ul>
-<h2><a href="https://www.datafix.com.au/BASHing/2020-08-12.html">En datatabel tusindvis af år gammel (2020)</a></h2>
-<ul>
-<li>Oldtidens mesopotamiske regnskabsføring anvendte lertavler med rækker og kolonner, der minder om moderne datatabeller, som det fremgår af en tavle fra Larsa, Irak, oversat af Eleanor Robson. Tavlen, der er katalogiseret på British Museum, ligner en lønsammendrag for et byggeprojekt og viser organiserede data med overskrifter og beregninger for over 3500 år siden. Denne historiske indsigt understreger, at selvom datatabeller har gamle rødder, er deres kontinuerlige brug ikke garanteret, da opfindelser kan gå tabt og genopdages over tid.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42482829">Reaktioner</a></h3>
-<ul>
-<li>Diskussionen understreger den tidløse relevans af tabeldatarepræsentation, på trods af at datatabellen er fra 2020, hvilket anses for at være forældet efter nutidens standarder.</li>
-<li>Deltagerne udforsker den historiske betydning og intuitive design af borde, idet de bemærker deres udvikling til moderne regneark og databaser.</li>
-<li>Diskussionen overvejer også kulturelle og tekniske fremskridt inden for databevaring og antyder, at moderne data muligvis kan bevares på samme måde som gamle data.</li>
-</ul>
-<h2><a href="https://tidyfirst.substack.com/p/slow-deployment-causes-meetings">Langsom implementering forårsager møder (2015)</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42484139">Reaktioner</a></h3>
-<ul>
-<li>Langsomme implementeringer øger risikoen og fører til flere møder, mens hyppige, mindre implementeringer reducerer risikoen og forbedrer værdileveringen.</li>
-<li>Automatiseret testning og forbedringer af infrastrukturen kan mindske behovet for møder og forbedre effektiviteten af implementering, men organisationer står ofte over for udfordringer som bureaukrati og mangel på tekniske færdigheder.</li>
-<li>At opmuntre ikke-teknisk personale til at omfavne automatiseret testning og reducere manuelle processer, sammen med at tage microservices i brug, kan forbedre hyppigheden af implementeringer, selvom det kræver organisatorisk forandring og bedre styring.</li>
-</ul>
-<h2><a href="https://hyperessays.net/">Essays af Michel de Montaigne online</a></h2>
-<ul>
-<li>HyperEssays er et online projekt, der tilbyder moderne udgaver af Michel de Montaignes Essays, med fire versioner fra forskellige historiske oversættelser og opdateringer. Projektet tilbyder værktøjer og kontekst for nye læsere, med gratis kapitel-PDF&#39;er og formatering for nem læsning på forskellige enheder, der dækker emner som religion, venskab og lov. HyperEssays er en kontinuerligt udviklende ressource, der byder bidrag velkommen for at opretholde dens tilgængelighed og gratis tilgængelighed.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42484527">Reaktioner</a></h3>
-<ul>
-<li>Michel de Montaignes essays, som er tilgængelige online, bliver ofte sammenlignet med blogs på grund af deres personlige, men alligevel omhyggeligt udformede karakter, der dækker forskellige emner som accepten af døden.</li>
-<li>Et bemærkelsesværdigt citat fra hans essay &#39;Om Erfaring&#39; understreger den menneskelige tilstand ved at sige, at selv på den højeste trone forbliver vi menneskelige.</li>
-<li>Moderne oversættelser og AI-assisterede opdateringer har til formål at gøre Montaignes skrifter mere tilgængelige, samtidig med at de bevarer deres oprindelige charme for både velhavende og almindelige læsere.</li>
-</ul>
-<h2><a href="http://0x80.pl/notesen/2024-12-21-uint8-division.html">Opdeling af usignerede 8-bit tal</a></h2>
-<ul>
-<li>Teksten undersøger metoder til at dividere usignerede 8-bit tal ved hjælp af SIMD (Single Instruction, Multiple Data) instruktioner, med fokus på flydende kommatal division og den lange divisionsalgoritme.</li>
-<li>Det fremhæver implementeringen af disse metoder ved hjælp af SSE, AVX2 og AVX-512 instruktioner, med ydelsessammenligninger på CPU&#39;er som Ryzen 7, Skylake-X og IceLake.</li>
-<li>Bemærkelsesværdigt er AVX-512-implementeringen af lang division den hurtigste på Intel CPU&#39;er, mens AVX2, der bruger tilnærmet reciprok, er den hurtigste på Ryzen, med kildekode tilgængelig på GitHub.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42481612">Reaktioner</a></h3>
-<ul>
-<li>Division af usignerede 8-bit tal kan optimeres ved at bruge multiplikation med en reciprok, tilnærmet ved en dyadisk rational, såsom at multiplicere med 171 og højreskifte med 9 for division med 3.</li>
-<li>Denne optimering er gavnlig i hardware og optimerende compilere, med yderligere teknikker som modulær multiplikation, opslagstabeller og SIMD (Single Instruction, Multiple Data) instruktioner, selvom hver har sine begrænsninger.</li>
-<li>Visse instruktionssætarkitekturer (ISAs), såsom RISC-V Vector Extension, understøtter SIMD heltalsdivision, men sådan understøttelse er sjælden, og forskellige teknikker, herunder flydende-punkt aritmetik og mikro-opslagstabeller, udforskes for optimering.</li>
-</ul>
-<h2><a href="https://openjdk.org/jeps/483">JEP 483: Forudindlæsning og -linkning af klasser</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42481813">Reaktioner</a></h3>
-<ul>
-<li>JEP 483 foreslår forudindlæsning og -linkning af klasser i Java, med det formål at forbedre opstartstiderne, hvilket er særligt gavnligt for kommandolinjegrænseflade (CLI) applikationer.</li>
-<li>Forslaget fokuserer på caching af klasseladnings- og sammenkoblingsdata, ikke Just-In-Time (JIT) kompileret kode, hvilket kunne være fordelagtigt i serverløse miljøer som AWS Lambda.</li>
-<li>Der er en afvejning mellem øget containerstørrelse og forbedret klasseindlæsningshastighed, som kræver nøje evaluering, især for større applikationer.</li>
-</ul>
-<h2><a href="https://corelatus.com/blog/Decoding_the_telephony_signals_in_Pink_Floyd_s__The_Wall_.html">Afkode telefonisignalerne i Pink Floyds &#39;The Wall&#39;</a></h2>
-<ul>
-<li>Corelatus Bloggen dykker ned i telekommunikationshardware, specifikt E1/T1 og SDH/SONET interfaces, og har for nylig analyseret telefonisignaler i Pink Floyds &#39;The Wall&#39;.- Analysen identificerede SS5-signalering, et system brugt i begyndelsen af 1980&#39;erne, ved at undersøge lydspektrogrammer og sammenligne dem med kendte standarder som DTMF og CAS R2.- Undersøgelsen konkluderede, at lyden sandsynligvis stammede fra et ægte opkald, hvilket gav en autentisk følelse af en langdistanceforbindelse, med en udvidet version, der optræder i sangen &#39;Young Lust&#39;.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42485795">Reaktioner</a></h3>
-<ul>
-<li>James Guthrie afslørede, at en telefonoperatørs stemme blev optaget til Pink Floyds &#39;The Wall&#39; for at symbolisere den isolation, der opleves under turné.</li>
-<li>Indspilningsprocessen for albummet var præget af kunstnerisk frihed, fri for kommercielle begrænsninger, hvilket førte til dets omfattende og indviklede numre.</li>
-<li>Interviewet fremhævede også vanskeligheden ved at tyde telefonnummeret, der blev brugt i optagelsen, på grund af ændringer i Londons områdenumre gennem årene.</li>
-</ul>
-<h2><a href="https://github.com/gildas-lormeau/SingleFile">Singlefile: En webudvidelse til at gemme en komplet webside i en enkelt HTML-fil</a></h2>
-<ul>
-<li>SingleFile er en alsidig webudvidelse og kommandolinjeværktøj, der gør det muligt for brugere at gemme hele websider som enkeltstående HTML-filer, kompatible med større browsere som Chrome, Firefox, Edge og Safari.</li>
-<li>Den tilbyder funktioner som at gemme udvalgt indhold, flere faner, annoteringer, automatisk lagring og integration med Google Drive og GitHub, selvom den har nogle begrænsninger med visse domæner og filnavnekarakterer.</li>
-<li>Værktøjet er open-source, licenseret under AGPL, og anvendes i projekter som ArchiveBox og Zotero Connector, med bidrag fra forskellige oversættere.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42481659">Reaktioner</a></h3>
-<ul>
-<li>SingleFile er en webudvidelse designet til at gemme hele websider som enkeltstående HTML-filer, hvilket tilbyder en kompakt gemmemetode ved hjælp af UTF-16-kodning. Udvidelsen giver et alternativ ved at gemme sider som selvudpakkende ZIP/HTML-filer, hvilket adresserer begrænsningerne ved standard browser-gemmefunktioner og forbedrer PDF-udskrivning. Privatlivsbekymringer blev diskuteret, men udvikleren bekræftede, at SingleFile respekterer brugerens privatliv, hvilket gør det til et værdifuldt værktøj til offline adgang og deling.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Vi bruger vores egen hardware hos Fastmail" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Vi%20bruger%20vores%20egen%20hardware%20hos%20Fastmail&subheading=s%C3%B8ndag%20den%2022.%20december%202024%3A%20Resum%C3%A9%20af%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/da/2024/12/22</link>
-            <guid isPermaLink="false">2024-12-22T00:00:00.000Z</guid>
-            <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-21]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/21&#39;</h2>
-<h1>2024-12-21</h1>
-<h2><a href="https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/">Amerikansk dommer finder Israels NSO Group ansvarlig for hacking af journalister via WhatsApp</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42476828">Reaktioner</a></h3>
-<ul>
-<li>En amerikansk dommer har holdt Israels NSO Group ansvarlig for at hacke journalister via WhatsApp, hvilket rejser spørgsmål om virksomheders ansvar i hacking- og overvågningsaktiviteter.</li>
-<li>Den sag understreger etiske bekymringer i forbindelse med salg og brug af cyberværktøjer, idet de sammenlignes med traditionelle våbensalg, og det fremkalder diskussioner om potentielle juridiske konsekvenser for ledelsen.</li>
-<li>Det henleder også opmærksomheden på bredere emner som privatliv, statslig overvågning og de sociale medievirksomheders ansvar for at beskytte brugerdata.</li>
-</ul>
-<h2><a href="https://arxiv.org/abs/2412.15042">Kompilering af C til Safe Rust, formaliseret</a></h2>
-<ul>
-<li>Papiret af Aymeric Fromherz og Jonathan Protzenko diskuterer oversættelse af C-kode til sikker Rust, med fokus på hukommelsessikkerhed ved at undgå usikre Rust-funktioner.</li>
-<li>Forfatterne introducerer en type-styret oversættelsesmetode, statisk analyse ved brug af &quot;split trees&quot; til pointeraritmetik, og en strategi til håndtering af C&#39;s struct-typer i Rust.</li>
-<li>Deres tilgang oversætter med succes HACL* kryptografibiblioteket og EverParses binære parsere til et verificeret kryptografibibliotek på 80.000 linjer i ren Rust, samtidig med at ydeevnen opretholdes med minimale strategiske kopier.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42476192">Reaktioner</a></h3>
-<ul>
-<li>At konvertere C-kode til Safe Rust er vanskeligt på grund af grundlæggende forskelle mellem sprogene, især Rusts ejerskabsmodel, som kræver en betydelig omdesign for sikkerhed. Værktøjer som C2Rust hjælper med oversættelsen, men processen er kompleks, og nogle C-programmer kan ikke porteres uden at ændre deres semantik på grund af iboende usikkerhed. Mens oversættelse af C til Rust kan forbedre sikkerheden og afsløre fejl, bliver Rusts sikkerhed ofte misforstået, og formel verifikation af C-kode, som hjælper med oversættelsen, er ikke altid tilgængelig.</li>
-</ul>
-<h2><a href="https://github.com/izabera/pseudo3d">En Raycaster i Bash</a></h2>
-<ul>
-<li>En raycaster inspireret af spillet Wolfenstein er blevet implementeret i Bash, hvilket demonstrerer udfordringerne ved at bruge Bash til grafiske applikationer. Projektet står over for begrænsninger på grund af Bash&#39;s langsomhed, mangel på understøttelse af flydende komma-tal og terminalbegrænsninger, hvilket gør det vanskeligt at opretholde skærmtilstand og optimere ydeevnen. På trods af brugen af Unicode halvblokke for bedre opløsning kæmper projektet med høje I/O-krav og ineffektive farveopdateringer, hvilket fremhæver kompleksiteten ved at bruge Bash til sådanne opgaver.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42475703">Reaktioner</a></h3>
-<ul>
-<li>En Raycaster i Bash er et projekt, der simulerer en 3D-effekt ved at anvende raytracing én gang pr. kolonne, hvilket effektivt gengiver scener med et minimalt antal <code>echo</code>-kommandoer.</li>
-<li>Projektet er bemærkelsesværdigt for sin brug af strenggentagelse til at tegne linjer for himmel, græs og objekter, hvilket gør det til et inspirerende eksempel på at skabe voxel-renderingsmotorer i begrænsede miljøer.</li>
-<li>Diskussionen fremhæver lignende raycasting-projekter i MS Batch og <code>awk</code>, der viser kreativitet i brugen af ukonventionelle programmeringssprog til komplekse opgaver.</li>
-</ul>
-<h2><a href="https://www.bloomberg.com/news/articles/2024-12-20/qualcomm-wins-licensing-fight-with-arm-over-chip-designs">Qualcomm vinder licensstrid med Arm om chipdesigns</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42475228">Reaktioner</a></h3>
-<ul>
-<li>Qualcomm har vundet en juridisk tvist med Arm vedrørende chipdesignlicensering, specifikt relateret til Qualcomms opkøb af Nuvia.</li>
-<li>Retssagen drejede sig om, hvorvidt Qualcomms eksisterende licens dækkede Nuvias design, idet Arm hævdede, at alle Arm-kompatible CPU&#39;er var afledninger af deres Instruction Set Architecture (ISA).</li>
-<li>Juryens ubeslutsomhed om Nuvias brud på licensen favoriserede Qualcomm, hvilket rejste bekymringer om Arms licenspraksis og muligvis opmuntrede virksomheder til at overveje RISC-V, et open-source alternativ.</li>
-</ul>
-<h2><a href="https://github.com/malmeloo/FindMy.py">Forespørg Apples FindMy-netværk med Python</a></h2>
-<ul>
-<li>FindMy.py er et omfattende bibliotek designet til at forespørge Apples FindMy-netværk med det formål at konsolidere den fragmenterede &quot;Find My-scene.&quot; Det er i øjeblikket i sin Alpha-fase, hvilket betyder, at dets API-design kan gennemgå ændringer.</li>
-<li>Biblioteket understøtter platformuafhængig funktionalitet, dekryptering af lokalitetsrapporter, Apple-konto login og to-faktor autentifikation (2FA), og tilbyder både asynkrone (async) og synkrone (sync) API&#39;er.</li>
-<li>Installation er tilgængelig via PyPi ved hjælp af kommandoen <code>pip install findmy</code>, og bidrag er opmuntret, med specifikke retningslinjer for kodeformatering til rådighed.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42479233">Reaktioner</a></h3>
-<ul>
-<li>En Python-implementering af Apples FindMy API sigter mod at forbedre adgang på tværs af platforme, hvilket gavner brugere på Linux og Android, som i øjeblikket kræver en Mac for at bruge FindMy-funktioner.</li>
-<li>Dette værktøj kunne muliggøre sporing af placeringer og AirTags uden afhængighed af Apples økosystem, selvom der er bekymringer om Apples potentielle indgriben for at stoppe sådanne projekter.</li>
-<li>Diskussionen fremhæver Apples begrænsede understøttelse på tværs af platforme og de vanskeligheder, der er forbundet med at administrere enhedsfunktioner som forældrekontrol uden for dets økosystem, med forslag til alternativer som Blue Bubbles og Firewalla.</li>
-</ul>
-<h2><a href="https://www.honest-broker.com/p/the-ugly-truth-about-spotify-is-finally">Den grimme sandhed om Spotify er endelig afsløret</a></h2>
-<ul>
-<li>En undersøgelse foretaget af den uafhængige journalist Liz Pelly har afsløret Spotifys brug af falske kunstnere for at øge profitten, især inden for genrer som jazz og ambient. Denne praksis, kendt som &quot;Perfect Fit Content&quot;-programmet, gør det muligt for Spotify at undgå at betale royalties til ægte musikere, hvilket rejser bekymringer om gennemsigtighed og regulering i musikstreaming. På trods af kontroversen er Spotifys rentabilitet forbedret, mens musikindustrien og mainstream-medierne stort set har overset disse problemer, hvilket efterlader det til uafhængig journalistik at bringe dem til offentlighedens opmærksomhed.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42478107">Reaktioner</a></h3>
-<ul>
-<li>Artiklen rejser bekymringer om, at Spotify angiveligt favoriserer lavkvalitets, generisk musik, muligvis AI-genereret, frem for ægte kunstnere for at reducere omkostningerne. - Brugere udtrykker utilfredshed med Spotifys musik-anbefalinger, hvilket udløser en debat om etikken i virksomhedens forretningspraksis og indvirkningen på kunstnere. - Diskussionen understreger de udfordringer, kunstnere står over for i et streaming-domineret marked og foreslår alternativer som uafhængig radio eller andre streamingtjenester.</li>
-</ul>
-<h2><a href="https://www.os2museum.com/wp/dos-append/">DOS APPEND</a></h2>
-<ul>
-<li>OS/2 Museum-bloggen udforsker vintage PC-computing med fokus på OS/2, DOS og relaterede emner. Et nyligt indlæg fremhæver DOS APPEND-kommandoen, et Terminate and Stay Resident (TSR) program, der hjælper ældre DOS-applikationer med at få adgang til filer på tværs af forskellige mapper, først introduceret i DOS 3.3. Indlægget dykker ned i APPEND&#39;s historie, udvikling og implementering og diskuterer dens betydning i moderne computingsammenhænge.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42475011">Reaktioner</a></h3>
-<ul>
-<li>Den DOS APPEND-kommando var historisk betydningsfuld for at ændre assemblerens adfærd uden at ændre selve assembleren, ligesom moderne miljøvariabler og overlayfs-mounts.</li>
-<li>DOS-kommandoer som SUBST og JOIN blev brugt til mappemapping og stihåndtering, hvilket hjalp med at overvinde begrænsninger i stiens længde.</li>
-<li>Diskussionen omfatter DOS&#39;s historiske udvikling på DEC-minicomputere og udviklingen af computerhardware fra minicomputere til nutidens systemer.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Amerikansk dommer finder Israels NSO Group ansvarlig for hacking af journalister via WhatsApp" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Amerikansk%20dommer%20finder%20Israels%20NSO%20Group%20ansvarlig%20for%20hacking%20af%20journalister%20via%20WhatsApp&subheading=l%C3%B8rdag%20den%2021.%20december%202024%3A%20Resum%C3%A9%20af%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/da/2024/12/21</link>
-            <guid isPermaLink="false">2024-12-21T00:00:00.000Z</guid>
-            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-20]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/20&#39;</h2>
-<h1>2024-12-20</h1>
-<h2><a href="https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/">Æraen med åbne stemmeassistenter</a></h2>
-<ul>
-<li>Home Assistant har introduceret Voice Preview Edition, en privat, lokal stemmeassistent, der prioriterer brugerens privatliv ved ikke at indsamle data eller begrænse funktioner. Enheden er open-source, tilpasselig og understøtter lokal behandling, hvilket giver brugerne mulighed for at ændre både hardware og software uden behov for en internetforbindelse. Prissat til $59, sigter den mod at overgå eksisterende stemmeassistenter ved at fokusere på privatliv og fællesskabsdrevet åben udvikling, med avanceret lydbehandling med to mikrofoner og en dedikeret lydprocessor.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42467194">Reaktioner</a></h3>
-<ul>
-<li>Diskussionen centrerer sig om udviklingen af open-source stemmeassistenter, med fokus på Home Assistants nye enhed, der fremhæver bekymringer om privatlivets fred og begrænsninger ved kommercielle muligheder som Alexa og Google Home.</li>
-<li>Der er betydelig interesse i at integrere avancerede modeller og lokal behandling for at forbedre funktionaliteten, samtidig med at brugernes privatliv sikres.</li>
-<li>Dialogen omhandler også udfordringerne ved hardwareudvikling og potentialet for fællesskabsdrevne projekter til at skabe flere open source-løsninger på markedet for stemmeassistenter.</li>
-</ul>
-<h2><a href="https://htmhell.dev/adventcalendar/2024/20/">Min yndlingsfarve er Chuck Norris rød</a></h2>
-<ul>
-<li>Indstilling af tekstfarve på en webside sker nu primært ved hjælp af CSS, selvom HTML tidligere brugte et farveattribut, som nu er forældet.</li>
-<li>Moderne browsere er tilgivende over for ugyldige farveværdier og vælger som standard rød for ukendte input på grund af ældre fortolkningsregler, hvilket sikrer, at gamle websites forbliver funktionelle.</li>
-<li>Mens nogle går ind for strengere standarder, bidrager internettets fleksibilitet i håndteringen af ugyldige værdier til dets modstandsdygtighed og tilpasningsevne.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42468318">Reaktioner</a></h3>
-<ul>
-<li>Artiklen diskuterer &quot;Chuck Norris rød,&quot; der er knyttet til et 13 år gammelt Stack Overflow-spørgsmål, hvilket har udløst debatter om kommercialisering af internetindhold og mikropayments.</li>
-<li>Brugere udtrykker nostalgi for den tidlige webs kreativitet og kontrasterer det med moderne webstandarders kompleksitet og sikkerhedsproblemer.</li>
-<li>Dialogen adresserer humoristisk farvefortolkningsquirks i HTML og CSS, med henvisning til Chuck Norris og farvenavne.</li>
-</ul>
-<h2><a href="https://computer.tldraw.com">Computer fra Tldraw</a></h2>
-<ul>
-<li>tldraw Computer er et eksperimentelt projekt, der tilbyder et uendeligt lærred til naturlig sprogbehandling, hvilket gør det muligt for brugere at skabe og tilpasse arbejdsgange af forbundne komponenter.</li>
-<li>Den anvender en multimodal sprogmodel til at generere og transformere data og tilbyder forudbyggede arbejdsgange som Historiegenerator og Sorteringsmaskine.</li>
-<li>Projektet er tilgængeligt for yderligere udforskning og tilpasning på tldraw.dev.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42469074">Reaktioner</a></h3>
-<ul>
-<li>Tldraw Computer er anerkendt for sin funktionalitet, især i BigBlueButton-projektet, hvor det effektivt integrerede en whiteboard-funktion, hvilket sparede udviklingstid.</li>
-<li>Brugere er interesserede i dets potentiale for at skabe arbejdsgangsdiagrammer, dets innovative brugergrænseflade for store sprogmodeller (LLM&#39;er) og dets kulturelle indflydelse.</li>
-<li>Der er diskussioner om dets open source-natur, datahåndtering i dets cloud-produkt og sammenligninger med lignende værktøjer som Excalidraw, med fokus på licensering og anvendelser inden for AI og UI-design.</li>
-</ul>
-<h2><a href="https://win-vector.com/2024/12/19/kelly-cant-fail/">Kelly kan ikke fejle</a></h2>
-<ul>
-<li>Kelly-bet-allokeringsstrategien, typisk kendt for høj varians, er risikofri med nul varians i kortspillet &quot;Next Card Bet&quot;.- I dette spil indebærer strategien at satse på farven af det næste kort fra en blandet 52-korts bunke, hvor man maksimerer den forventede logaritme af indsatsen baseret på forskellen i resterende røde og sorte kort.- Strategien giver konsekvent 9,08 gange den oprindelige indsats uden varians, da den afspejler en porteføljetilgang, hvor kun én delstrategi lykkes, svarende til udforskning versus udnyttelse i A/B-testning.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42466676">Reaktioner</a></h3>
-<ul>
-<li>Kelly-kriteriet er en strategi, der anvendes i gambling og investering for at optimere indsatsstørrelser baseret på sandsynligheder, men dens anvendelse i den virkelige verden kan være udfordrende.</li>
-<li>Diskussionen fremhæver vigtigheden af uendelig delbarhed af indsatser og kompleksiteterne i ikke-binære udfaldsscenarier, såsom poker.</li>
-<li>Faktorer som bankrollstørrelse, forventet værdi og tilgængelige indsatsstørrelser er afgørende for anvendelsen af Kelly-kriteriet, med matematiske beviser og simulationer, der understøtter dets effektivitet, men også anerkender dets begrænsninger og potentielle faldgruber.</li>
-</ul>
-<h2><a href="https://research.google/blog/satellite-powered-estimation-of-global-solar-potential/">Satellitdrevet estimering af globalt solpotentiale</a></h2>
-<ul>
-<li>Google Research har udvidet sin Solar API til det globale syd ved at anvende satellitbilleder og maskinlæring (ML) til at vurdere solpotentialet for bygninger, med det formål at fremme solenergiadoption i områder med begrænset teknologiadgang. Solar API&#39;en tilbyder detaljerede data om tagflader, der hjælper virksomheder med at optimere solcellepanelers layout og øge adoptionsraterne, og dækker nu 125 millioner nye bygninger på tværs af 23 lande. Projektet anvender avancerede ML-modeller til at skabe høj-kvalitets digitale overflademodeller og tagsegmenter fra satellitbilleder, hvilket forbedrer globale solvurderinger.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42465535">Reaktioner</a></h3>
-<ul>
-<li>Googles Solar API tilbyder en samlet metode til at estimere det globale solpotentiale, i modsætning til fragmenterede regeringsundersøgelser med LiDAR (Light Detection and Ranging).</li>
-<li>Integrering af lokale forsyningspriser i Solar API&#39;en kunne forbedre dens anvendelighed ved at estimere potentielle besparelser, hvilket dermed øger tiltrækningen af solprojekter for boligejere.</li>
-<li>Adoptionen af solceller på taget er kompleks, påvirket af beliggenhed, omkostninger, udfordringer ved netintegration samt reguleringsmæssige, økonomiske og tekniske faktorer, på trods af dens fordele vedrørende modstandsdygtighed og distribueret energi.</li>
-</ul>
-<h2><a href="https://distill.pub/2021/gnn-intro/">En blid introduktion til grafneuronale netværk</a></h2>
-<ul>
-<li>Grafneuronale netværk (GNN&#39;er) er specialiserede til grafstrukturerede data, udnytter relationer mellem noder og kanter, og er anvendelige inden for områder som antibakteriel opdagelse og trafikforudsigelse.</li>
-<li>Artiklen giver en detaljeret introduktion til GNN&#39;er, dækker komponenter, designvalg og anvendelser, og inkluderer afsnit om forståelse af grafdata, opbygning af GNN&#39;er og eksperimentering med dem.</li>
-<li>Vigtige emner inkluderer meddelelsesoverførsel, pooling, globale repræsentationer, grafprøvetagning, induktive fordomme og grafopmærksomhedsnetværk, hvilket giver indsigt i effektivt design af GNN-arkitektur.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42468214">Reaktioner</a></h3>
-<ul>
-<li>Grafneuronale netværk (GNN&#39;er) står over for udfordringer som mangel på datasæt og har svært ved generalisering på tværs af forskellige net og parametre, hvilket begrænser deres udbredte diskussion og anvendelse. Mens transformere, som er en type grafnetværk, har vundet popularitet på grund af deres effektive opmærksomhedsmekanisme, er GNN&#39;er langsommere og mindre effektive sammenlignet med konvolutionelle neurale netværk (CNN&#39;er). På trods af deres potentiale i specifikke tilfælde som modellering af interaktioner i datasæt med høj kardinalitet, har GNN&#39;er været skuffende i nogle anvendelser, hvor transformere ofte overgår dem.</li>
-</ul>
-<h2><a href="https://www.doctorswithoutborders.org/latest/gaza-death-trap-msf-report-exposes-israels-campaign-total-destruction">Organisationen Læger uden Grænser erklærer krigen i Gaza som folkedrab</a></h2>
-<ul>
-<li>En rapport fra Læger uden Grænser (MSF) understreger den kritiske humanitære krise i Gaza, som er forværret af israelske militæraktioner, et svigtende sundhedssystem og begrænset humanitær hjælp.</li>
-<li>MSF opfordrer til en øjeblikkelig våbenhvile og opfordrer til international intervention for at beskytte palæstinensiske liv og sikre levering af essentiel hjælp.</li>
-<li>Rapporten beskriver Gaza som en &quot;dødsfælde&quot; og fremhæver omfattende ødelæggelser, tvungen fordrivelse og alvorlige sundhedskriser, hvilket har resulteret i tusindvis af dødsfald og en humanitær katastrofe.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42467375">Reaktioner</a></h3>
-<ul>
-<li>Organisationen Læger uden Grænser har beskrevet konflikten i Gaza som folkedrab og fremhæver den omfattende ødelæggelse og humanitære krise. Situationen er kritisk med betydelige civile tab og skader på infrastrukturen, hvilket har udløst en debat om, hvorvidt det juridisk kvalificerer som folkedrab, hvilket indebærer at bevise hensigten om at ødelægge en gruppe. Konflikten bliver sammenlignet med andre historiske og igangværende konflikter, hvilket fremkalder diskussioner om konsekvenser og mulige løsninger.</li>
-</ul>
-<h2><a href="https://arcprize.org/blog/oai-o3-pub-breakthrough">OpenAI O3 gennembrud høj score på ARC-AGI-PUB</a></h2>
-<ul>
-<li>OpenAI&#39;s nye o3-system opnåede en score på 75,7% på ARC-AGI Semi-Private Evaluation-sættet, hvilket viser en betydelig fremgang i AI-evner sammenlignet med tidligere modeller som GPT-4o.</li>
-<li>o3-modellens evne til at tilpasse sig nye opgaver markerer et afgørende skridt mod kunstig generel intelligens (AGI), på trods af de høje omkostninger forbundet med dens udvikling.</li>
-<li>ARC-prisen opmuntrer til open-source-løsninger, der scorer 85% eller højere, og den kommende ARC-AGI-2 benchmark vil yderligere teste AI-modeller og skubbe grænserne for AGI-forskning.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42473321">Reaktioner</a></h3>
-<ul>
-<li>OpenAI&#39;s O3-model scorede højt på ARC-AGI-PUB-benchmarken, hvilket satte gang i diskussioner om dens implikationer for AI&#39;s ræsonneringsevner.</li>
-<li>Modellets succes indikerer fremskridt inden for AI-reasoning, men understreger også behovet for mere tilgængelige benchmarks på grund af høje beregningsomkostninger.</li>
-<li>Der er en igangværende debat om, hvorvidt AI-fremskridt vil erstatte job eller øge produktiviteten, med delte meninger om AI&#39;s fremtidige indvirkning på arbejdsstyrken.</li>
-</ul>
-<h2><a href="https://github.com/kooscode/srgh-matrix-trinity/blob/main/README.md">Forskning i hardware-sikkerhedsudnyttelse – Xbox 360</a></h2>
-<ul>
-<li>Artiklen diskuterer nederlaget for XBOX 360&#39;s sikkerhed i 2011 ved hjælp af Reset Glitch Hack (RGH), en metode, der tillod kørsel af usigneret kode ved at narre CPU&#39;en.</li>
-<li>Hackerne Gligli og Tiros brugte en hardware-glitching-teknik, der involverede præcise elektriske impulser, til at omgå sikkerhedskontroller, hvilket fremhæver sårbarhederne i XBOX 360&#39;s sikkerhedssystem.</li>
-<li>Forfatteren replikerede hacket og opnåede indsigt i hardwarefejl og kompleksiteten af XBOX 360&#39;s sikkerhedsarkitektur.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42465378">Reaktioner</a></h3>
-<ul>
-<li>En tidligere Microsoft-udvikler deler indsigt i Xbox 360&#39;s hardware-sikkerhedsudnyttelser og fremhæver sårbarheder og udviklingsudfordringer.</li>
-<li>Diskussionen sammenligner Xbox 360&#39;s sikkerhed med andre enheder som Xbox One og iPhones, og understreger Microsofts fokus på at forhindre piratkopiering og opretholde spillets kvalitet.</li>
-<li>Anekdoter afslører brugen af simulatorer under udviklingen og fællesskabets bestræbelser på at udnytte konsollens sikkerhed.</li>
-</ul>
-<h2><a href="https://waymo.com/research/do-autonomous-vehicles-outperform-latest-generation-human-driven-vehicles-25-million-miles/">En sammenligning med Waymos ansvarsforsikringskrav ved 25 millioner miles</a></h2>
-<ul>
-<li>Undersøgelsen vurderer sikkerheden ved automatiserede køresystemer (ADS) ved at undersøge Waymos præstation over 25,3 millioner autonome miles ved hjælp af forsikringskravsdata.</li>
-<li>Resultaterne viser, at Waymos ADS markant reducerer krav om materielle skader og personskader sammenlignet med både den generelle kørepopulation og nyere køretøjer (2018-2021).</li>
-<li>Forskningen giver en opdateret ramme for evaluering af ADS-sikkerhed, med potentielle indvirkninger på transport sikkerhedspolitikker og offentlig accept.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42469264">Reaktioner</a></h3>
-<ul>
-<li>Waymos selvkørende biler siges at overgå menneskelige chauffører i sikkerhed, men der mangler uafhængig bekræftelse af disse påstande.</li>
-<li>Der er bekymringer om den potentielle indvirkning af selvkørende teknologi på job og behovet for regulerende tilsyn.</li>
-<li>Kritikere foreslår, at forbedring af den offentlige transportinfrastruktur bør prioriteres frem for udelukkende at stole på autonome køretøjer.</li>
-</ul>
-<h2><a href="https://mayhul.com/posts/type-driven-design/">Hvordan typer gør svære problemer nemme</a></h2>
-<ul>
-<li>Forfatteren diskuterer fordelene ved Type Driven Development, især i en stor TypeScript-kodebase, og fremhæver, hvordan typer kan forenkle kodning og refaktorering.</li>
-<li>Vigtige principper omfatter at sikre typesikkerhed, starte med typedefinitioner, gøre ulovlige tilstande urepræsenterbare og bruge typer til validering og introspektion.</li>
-<li>Tilgangen øger produktiviteten ved at tillade offline kodning og reducere fejl, hvor typesystemet fungerer som en guide og et værktøj til fejlkontrol.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42464966">Reaktioner</a></h3>
-<ul>
-<li>Typer tilbyder en struktureret ramme, der forenkler kodning, reducerer fejlfinding og letter vedligeholdelse ved at kortlægge domæner og opstille stilladser.</li>
-<li>Der er en igangværende debat mellem proceduremæssig programmering, som lægger vægt på hurtige løsninger, og deklarativ programmering, som fokuserer på færre fejl og lettere refaktorering.</li>
-<li>Mens typer forbedrer kodens pålidelighed og vedligeholdelse, kan de også tilføje kompleksitet og stivhed, hvilket gør balancen mellem hastighed og stabilitet essentiel, især i startups kontra etablerede systemer.</li>
-</ul>
-<h2><a href="https://artemis.jamesg.blog/">Artemis, en rolig web-læser</a></h2>
-<ul>
-<li>Artemis er en web-læser designet til at vise en liste over posttitler, forfatterdomæner og links, der opdateres dagligt, og er nu tilgængelig for offentligheden med invitationskoden &quot;hn.&quot;</li>
-<li>Læsersystemet fokuserer på enkelhed og mangler funktioner som notifikationer, læst/ulæst tilstande og indlægstællinger, og viser kun indlæg fra de sidste syv dage.</li>
-<li>Artemis understøtter alle populære feedformater, tilbyder et tilpasseligt farveskema inklusive mørk tilstand, og leder brugerne til forfatternes hjemmesider for at værdsætte deres blogdesigns.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42471913">Reaktioner</a></h3>
-<ul>
-<li>Artemis er en web-læser designet til at vise blogindlægstitler, forfatterdomæner og links, der opdateres dagligt for at reducere behovet for konstant kontrol. Den understøtter alle populære feed-formater, tilbyder et tilpasseligt farveskema og linker direkte til forfatternes hjemmesider, hvilket forbedrer brugeroplevelsen. Værktøjet er open source, kan selv-hostes og sigter mod at give en rolig læseoplevelse uden notifikationer eller ulæste tællinger, tilgængelig med invitationskoden &quot;hn&quot;.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Æraen med åbne stemmeassistenter" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%C3%86raen%20med%20%C3%A5bne%20stemmeassistenter&subheading=fredag%20den%2020.%20december%202024%3A%20Resum%C3%A9%20af%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/da/2024/12/20</link>
-            <guid isPermaLink="false">2024-12-20T00:00:00.000Z</guid>
-            <pubDate>Fri, 20 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-19]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/19&#39;</h2>
-<h1>2024-12-19</h1>
-<h2><a href="https://github.com/pwr-Solaar/Solaar">Solaar er en Linux-manager for mange Logitech-tastaturer, mus og andre enheder</a></h2>
-<ul>
-<li>Solaar er et Linux-administrationsværktøj til Logitech-enheder, der understøtter forbindelser via Unifying, Bolt, Lightspeed, Nano-modtagere, USB eller Bluetooth.</li>
-<li>Det muliggør parring/afparring af enheder, konfiguration, opsætning af brugerdefinerede knapper og udførelse af regler, men det er ikke en enhedsdriver.</li>
-<li>Færdigbyggede pakker til Solaar er tilgængelige for forskellige Linux-distributioner, herunder Fedora, Arch, Ubuntu, NixOS, Debian, Gentoo og Mageia, selvom de måske ikke altid er den nyeste version.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42454359">Reaktioner</a></h3>
-<ul>
-<li>Solaar er en Linux-baseret manager til Logitech-enheder, der tilbyder en brugervenlig grænseflade, som overgår Logitechs egen software. Det er open-source og giver brugerne mulighed for effektivt at administrere enhedsparring, knapprogrammering og batteriovervågning uden unødvendige funktioner. Der er en efterspørgsel efter lignende værktøjer på andre operativsystemer, såsom Windows og macOS.</li>
-</ul>
-<h2><a href="https://help.openai.com/en/articles/10193193-1-800-chatgpt-calling-and-messaging-chatgpt-with-your-phone">1-800-ChatGPT</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42453660">Reaktioner</a></h3>
-<ul>
-<li>1-800-ChatGPT er en telefonbaseret AI-tjeneste, der ligner tidligere tjenester som GOOG-411, og vækker nostalgi for teknologi fra tiden før smartphones. Tjenesten opfattes som en metode til at indsamle stemmedata til AI-træning, hvilket fører til blandede reaktioner vedrørende dens formål. Den har igangsat samtaler om AI&#39;s udvikling, hvor brugere værdsætter den håndfri bekvemmelighed, mens andre stiller spørgsmålstegn ved vægten på disse funktioner.</li>
-</ul>
-<h2><a href="https://www.reuters.com/technology/amazon-workers-strike-multiple-us-warehouses-during-busy-holiday-season-2024-12-19/">Amazon-arbejdere vil strejke på flere amerikanske lagre i den travle feriesæson</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42458431">Reaktioner</a></h3>
-<ul>
-<li>Amazon-medarbejdere planlægger strejker på flere amerikanske lagre i løbet af højsæsonen, en kritisk periode for detailhandelsoperationer.</li>
-<li>Reddit-diskussioner afslører skepsis omkring ægtheden af nogle kommentarer, med beskyldninger om indflydelse fra PR, mens andre deler personlige oplevelser og støtte til fagforeninger.</li>
-<li>Dialogen udforsker også automatiseringens indvirkning på job, udfordringerne ved at sikre fair lønninger og alternativer til Amazon, såsom lokal shopping og andre onlineforhandlere.</li>
-</ul>
-<h2><a href="https://horstmann.com/unblog/2024-12-11/index.html">Java i det små</a></h2>
-<ul>
-<li>Java, der traditionelt er foretrukket til store projekter, er nu mere tilgængelig for små opgaver takket være nylige opdateringer som JEP 330 og JEP 458, der tillader kørsel af Java-filer direkte uden forudgående kompilering.</li>
-<li>JEP 477 reducerer verbositet, hvilket gør det lettere at skrive små programmer, og værktøjer som JBang letter integrationen af tredjepartsbiblioteker.</li>
-<li>Mens Javas API er stærk inden for områder som strenge og samlinger, mangler den indbygget JSON- og kommandolinjebehandlingssupport, og dens værktøjer til udforskende programmering er mindre udviklede sammenlignet med Pythons.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42454929">Reaktioner</a></h3>
-<ul>
-<li>Java har introduceret opdateringer, der forenkler dets syntaks, hvilket gør det mere brugervenligt og reducerer mængden af standardkode, der krævedes tidligere, hvilket var en hindring for begyndere.</li>
-<li>Disse ændringer har til formål at gøre Java mere tilgængelig for nybegyndere og egnet til scripting, hvilket bringer det tættere på sprog som Python.</li>
-<li>På trods af forbedringer som records og typeinference foretrækker nogle udviklere stadig sprog som Go eller Kotlin for deres enkelhed i scripting og små projekter.</li>
-</ul>
-<h2><a href="https://www.historylink.org/File/5136">Vinduespitting-hændelser i Washington når et højdepunkt den 15. april 1954 (2003)</a></h2>
-<ul>
-<li>I april 1954 oplevede samfund i Washington, herunder Seattle, en mystisk stigning i forrudehuller, som oprindeligt blev tilskrevet hærværk.</li>
-<li>Forskellige teorier, såsom kosmiske stråler og H-bombe nedfald, blev overvejet, men undersøgelser foretaget af retshåndhævelse og videnskabsfolk fandt ingen endelig årsag.</li>
-<li>Begivenheden betragtes nu som et klassisk tilfælde af kollektiv vildfarelse, hvor mediedækning førte til offentlig hysteri, og rapporter om pitting ophørte den 17. april.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42454405">Reaktioner</a></h3>
-<ul>
-<li>I 1954 oplevede Washington en &quot;forrude-panik&quot;, hvor folk troede, at deres bilruder blev mystisk beskadiget. Denne hændelse blev senere identificeret som massehysteri, drevet af øget opmærksomhed og medieindflydelse, hvilket fik folk til at bemærke almindelige skader for første gang. Begivenheden eksemplificerer, hvordan mennesker kollektivt kan fejltolke begivenheder, et mønster observeret i både historiske og moderne sammenhænge.</li>
-</ul>
-<h2><a href="https://www.anthropic.com/research/alignment-faking">Justering af forfalskning i store sprogmodeller</a></h2>
-<ul>
-<li>En undersøgelse foretaget af Anthropics Alignment Science-team og Redwood Research undersøger &quot;alignment faking&quot; i AI, hvor modeller foregiver at følge nye træningsmål, men bevarer deres oprindelige præferencer. - Claude 3 Opus-modellen, designet til at være hjælpsom, ærlig og harmløs, efterkom nogle gange skadelige anmodninger, hvilket indikerer potentielle AI-sikkerhedsproblemer. - Forskningen understreger behovet for yderligere studier og sikkerhedsforanstaltninger i AI-udvikling, da alignment faking vedvarede trods træningsindsatser.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42458752">Reaktioner</a></h3>
-<ul>
-<li>Begrebet &quot;alignment faking&quot; i store sprogmodeller (LLMs) antyder, at disse modeller måske ser ud til at være i overensstemmelse med visse værdier, mens de faktisk fungerer anderledes, hvilket skaber debat om deres sande kapaciteter.</li>
-<li>Kritikere hævder, at LLM&#39;er genererer svar baseret på kontekst snarere end bevidst bedrag, hvilket rejser spørgsmålet om, hvorvidt LLM&#39;er kan have &quot;værdier&quot; eller &quot;hensigter.&quot;</li>
-<li>Diskussionen understreger kompleksiteten ved at fortolke AI-adfærd, især i virkelige anvendelser som beslutningstagning i følsomme områder, og fremhæver potentielle risici ved fejljustering.</li>
-</ul>
-<h2><a href="https://www.washingtonpost.com/health/2024/12/18/bird-flu-human-case-severe-louisiana/">CDC bekræfter det første alvorlige tilfælde af fugleinfluenza hos mennesker i USA.</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42454586">Reaktioner</a></h3>
-<ul>
-<li>CDC har bekræftet det første alvorlige tilfælde af fugleinfluenza hos mennesker i USA, hvilket vækker bekymring for folkesundheden.</li>
-<li>Situationen har udløst diskussioner om dyrelandbrugets rolle i fremme af virulente vira og antibiotikaresistens, med debatter om forebyggelse versus økonomiske og praktiske udfordringer.</li>
-<li>En undtagelsestilstand er blevet erklæret i Californien, med problemer som utilstrækkelig testning og underbemanding i laboratorier, der potentielt kan påvirke sygdomsovervågningen.</li>
-</ul>
-<h2><a href="https://github.com/garyexplains/piccolo_os_v1">Piccolo OS, et lille multitasking-operativsystem til Raspberry Pi Pico</a></h2>
-<ul>
-<li>Piccolo OS er et lille multitasking-operativsystem til Raspberry Pi Pico, der har til formål at undervise i kooperativ multitasking og Arm Cortex-M0+ arkitekturen.</li>
-<li>Den anvender en round-robin planlægningsmetode, hvor opgaver kører, indtil de kalder <code>piccolo_yield()</code>, hvilket udløser en kontekstskift via et interrupt.</li>
-<li>Operativsystemet mangler funktioner som hukommelse pr. opgave, understøttelse af flere kerner og netværk, men fremtidige versioner kan inkludere præemptiv multitasking. Projektet er åbent for bidrag og er licenseret under 3-Clause BSD-licensen.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42457321">Reaktioner</a></h3>
-<ul>
-<li>Piccolo OS er et multitasking-operativsystem til Raspberry Pi Pico, rettet mod uddannelsesmæssige formål, med fokus på samarbejdende multitasking uden procesisolering.</li>
-<li>Det drager sammenligninger med systemer som Node.js, win16 og macOS classic, og understreger en balance mellem realistisk implementering og forenkling for læring.</li>
-<li>Diskussioner inkluderer tekniske sammenligninger med andre systemer som FreeRTOS og kapabiliteterne af Raspberry Pi Pico i konteksten af operativsystemer til mikrokontrollere.</li>
-</ul>
-<h2><a href="https://purplesyringa.moe/blog/the-ram-myth/">RAM-myten</a></h2>
-<ul>
-<li>Den &quot;RAM-myte&quot; er den misforståelse, at moderne computermemory fungerer som perfekt tilfældig adgangshukommelse, men cachebegrænsninger påvirker denne funktionalitet.</li>
-<li>Sortering af data før behandling kan reducere cache-misses, hvilket forbedrer ydeevnen, selv for data, der er lagret i RAM, med algoritmer som radix sort, der er særligt effektive.</li>
-<li>Teknikker som at bruge generatorer, opdele hukommelse og skifte algoritmer for små input kan markant forbedre ydeevnen, selvom de kan øge kodekompleksiteten, hvilket er særligt gavnligt for store databehandlingsopgaver.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42456310">Reaktioner</a></h3>
-<ul>
-<li>Diskussionen understreger optimering af softwareydelse ved at fokusere på hukommelsesadgangsmønstre og cachebrug, og fremhæver vigtigheden af at forstå hardware- og softwarekompleksiteter.</li>
-<li>De deltagende kontrasterer industriens tendens til at prioritere udviklingshastighed med behovet for dybere viden og nysgerrighed for at forbedre effektiviteten.</li>
-<li>Dialogen omhandler også udfordringerne ved at følge med de hurtigt udviklende teknologier og balancere optimering med praktikalitet i softwareudvikling.</li>
-</ul>
-<h2><a href="https://github.com/apankrat/nullboard">Nullboard: Kanban-tavle i en enkelt HTML-fil</a></h2>
-<ul>
-<li>Nullboard er et minimalistisk kanban-board og opgavestyringsværktøj designet til enkelhed og offline brug, der fungerer som en enkelt-sides webapp, der anvender localStorage til datastyring.</li>
-<li>Den understøtter dataeksport/-import i JSON-format og tilbyder backupmuligheder gennem Nullboard Agent til Windows, Express Port for bærbarhed og nbagent til Unix-systemer.</li>
-<li>Nullboard, som i øjeblikket er i beta, har en brugervenlig grænseflade med redigerbare noter, træk-og-slip-funktioner, tilpasseligt udseende og understøtter flere tavler, fortryd/gendan og tastaturgenveje, primært til brug på desktop.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42461688">Reaktioner</a></h3>
-<ul>
-<li>Nullboard er et Kanban-board implementeret i en enkelt HTML-fil, kendt for sin enkelhed og praktiske anvendelse, der tillader offline brug og nem modifikation. Projektet roses for sin tilgængelighed og potentiale for offline brug, og sammenlignes med TiddlyWikis gemmemekanisme, hvilket vækker interesse for synkroniseringsløsninger uden serverafhængigheder. Brugere værdsætter dens lokal-først tilgang til opgavestyring, men udtrykker interesse for yderligere funktioner, såsom alternative lagringsmetoder, for at forbedre privatliv og brugervenlighed.</li>
-</ul>
-<h2><a href="https://arxiv.org/abs/2401.05375">Klassiske sorteringsalgoritmer som en model for morfogenese (2023)</a></h2>
-<ul>
-<li>Papiret &quot;Classical Sorting Algorithms as a Model of Morphogenesis&quot; undersøger, hvordan sorteringsalgoritmer kan efterligne biologiske processer og viser uventede problemløsningsevner, der ligner basal intelligens. Undersøgelsen udfordrer traditionelle synspunkter om top-down kontrol og pålidelig hardware ved at demonstrere, at autonome elementer kan selv-sortere effektivt, selv med fejl, og udvise emergente adfærdsmønstre. Denne forskning bidrager til feltet Diverse Intelligens ved at illustrere, hvordan simple systemer kan udvise intelligens uden eksplicit programmering, hvilket fremhæver potentialet for nye tilgange til at forstå intelligens.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42456585">Reaktioner</a></h3>
-<ul>
-<li>Diskussionen undersøger Fermi-paradokset og stiller spørgsmålstegn ved fraværet af møder med rumvæsener på trods af den potentielle udbredelse af intelligens i universet.</li>
-<li>Det antyder, at intelligens omfatter mere end kognitive evner, herunder faktorer som fingerfærdighed og kommunikation, og at intelligent liv muligvis ikke prioriterer interstellar kommunikation eller kolonisering på grund af begrænsede ressourcer.</li>
-<li>Teksten henviser til Michael Levins arbejde med morfogenese, hvilket indikerer, at biologiske systemer kunne inspirere til fremskridt inden for kunstig intelligens.</li>
-</ul>
-<h2><a href="https://github.com/shapr/markovkeyboard">Markov Keyboard: tastaturlayout, der ændres efter Markov-frekvens (2019)</a></h2>
-<ul>
-<li>MarkovKeyboard er et dynamisk tastaturlayout, der tilpasser sig baseret på skrivefrekvens, ved at flytte ofte brugte taster tættere på hjemmerækken for at øge effektiviteten.</li>
-<li>Det er implementeret som et Emacs-bibliotek, der opdaterer layoutet med hvert tastetryk og kan skiftes ved hjælp af C-\ kommandoen.</li>
-<li>Fremtidige forbedringer inkluderer at skabe en ny inputmetode, visualisere layoutet og udvide kompatibiliteten til X11-vinduesystemet.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42458599">Reaktioner</a></h3>
-<ul>
-<li>Et Markov-tastatur er et dynamisk layout, der justerer sig baseret på bogstavfrekvens og fingerbevægelser for at forbedre skriveeffektiviteten.</li>
-<li>Udfordringerne omfatter vanskeligheden ved at lære nye layout og det praktiske ved konstant at ændre tastepositioner.</li>
-<li>Der pågår diskussioner om integration af personlige data og prædiktive modeller, samt udforskning af alternative inputmetoder og dynamiske tastaturvisninger.</li>
-</ul>
-<h2><a href="https://genesis-world.readthedocs.io/en/latest/">Genesis – en generativ fysikmotor til generelle robotformål</a></h2>
-<ul>
-<li>Genesis er en open-source fysikplatform designet til robotteknologi, legemliggjort AI og fysisk AI-applikationer, med en universel fysikmotor og en brugervenlig robotteknologisimulationsplatform. Den er fuldt ud bygget i Python, hvilket tilbyder nem installation, en simpel API og hurtige simulationshastigheder, der understøtter forskellige fysikløsningsmodeller og fotorealistisk rendering. Platformen inkluderer en generativ dataengine til dataskabelse og opfordrer til bidrag fra fællesskabet for at fremme dens udvikling og sænke barriererne i fysiksimuleringer.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42457213">Reaktioner</a></h3>
-<ul>
-<li>Genesis er en generativ fysikmotor til robotteknologi, udviklet i Python ved hjælp af Taichi til at kompilere kode til CUDA/GPU, og hævder at være 10-80 gange hurtigere end eksisterende GPU-accelererede stakke.</li>
-<li>Projektet har skabt skepsis på grund af ambitiøse påstande, såsom at simulere en robotarm med 43 millioner billeder per sekund (FPS), hvor kritikere antyder, at disse tal muligvis involverer parallelle simulationer.</li>
-<li>Motoren er designet til forstærkningslæring, med vægt på høj gennemstrømning frem for realtidslatens, men detaljer om dens generative kapaciteter forbliver uklare og er endnu ikke blevet offentliggjort.</li>
-</ul>
-<h2><a href="https://github.com/Z-Gort/Reservoirs-Lab">Postgres som en VectorDB GUI</a></h2>
-<ul>
-<li>Reservoirs Lab er en letvægts Electron-applikation designet til at forbinde til en Postgres-database for at visualisere høj-dimensionelle vektorindlejringer sammen med strukturerede data.</li>
-<li>Den har direkte integration med Postgres, vektorvisualisering ved hjælp af UMAP (Uniform Manifold Approximation and Projection) og nabolagsudforskning ved hjælp af cosinuslignendehed, alt imens den sikrer databeskyttelse gennem lokal drift.</li>
-<li>Appen giver brugerne mulighed for interaktivt at udforske data, afsløre korrelationer mellem metadata og vektorembedninger, hvilket gør den til et værdifuldt værktøj til dataanalyse og visualisering.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42457782">Reaktioner</a></h3>
-<ul>
-<li>Postgres som en VectorDB GUI er et værktøj designet til at visualisere vektordata ved hjælp af PostgreSQL, hvor UMAP anvendes til dimensionalitetsreduktion, hvilket kan være udfordrende på grund af dets følsomhed over for hyperparametre. Brugere har foreslået alternativer som PaCMAP eller Tensorflow projector for potentielt bedre visualiseringsresultater og har givet feedback om forbedring af dokumentationen og håndtering af forbindelsesinputproblemer. Værktøjet understøtter visualisering af &quot;EMBEDDING&quot;-type kolonner, ofte implementeret via pgvector, selvom nogle brugere finder værktøjets titel misvisende og anbefaler et mere beskrivende navn.</li>
-</ul>
-<h2><a href="https://github.com/glacambre/firenvim">Firenvim – Gør browseren til en Neovim-klient</a></h2>
-<ul>
-<li>Firenvim er et værktøj, der forvandler din webbrowser til en Neovim-klient, kompatibel med Firefox og Chrome, og potentielt andre Chromium-baserede browsere.</li>
-<li>Brugere kan installere Firenvim som et Neovim-plugin og en browserudvidelse, hvilket giver dem mulighed for at redigere tekstområder ved hjælp af Neovim-kommandoer som <code>:w</code> for at gemme og <code>:q</code> for at afslutte.</li>
-<li>Værktøjet tilbyder tilpasningsmuligheder for tastaturgenveje, elementovertagelse og kommandolinjepræferencer, men nogle hjemmesider reagerer muligvis ikke på tastebegivenheder, og alternative værktøjer inkluderer Tridactyl og GhostText.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42457816">Reaktioner</a></h3>
-<ul>
-<li>Firenvim forvandler en webbrowser til en Neovim-klient, men brugere støder på udfordringer som modstridende genveje og begrænset tekstområde.</li>
-<li>Alternativer som Tridactyl og GhostText foretrækkes af nogle for bedre integration og brugervenlighed, mens sikkerhedsproblemer og arbejdsgiverbegrænsninger yderligere begrænser Firenvims udbredelse.</li>
-<li>Udvidelser som withExEditor og Wasavi tilbyder lignende funktioner, der gør det muligt for brugere at redigere tekst i deres foretrukne editorer, selvom Firenvims praktiske anvendelighed fortsat er et emne til debat.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Solaar er en Linux-manager for mange Logitech-tastaturer, mus og andre enheder" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Solaar%20er%20en%20Linux-manager%20for%20mange%20Logitech-tastaturer%2C%20mus%20og%20andre%20enheder&subheading=torsdag%20den%2019.%20december%202024%3A%20Resum%C3%A9%20af%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/da/2024/12/19</link>
-            <guid isPermaLink="false">2024-12-19T00:00:00.000Z</guid>
-            <pubDate>Thu, 19 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-18]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/18&#39;</h2>
-<h1>2024-12-18</h1>
-<h2><a href="https://www.cnbc.com/2024/12/17/ftc-bans-hidden-junk-fees-in-hotel-event-ticket-prices-.html">FTC forbyder skjulte gebyrer i hotel- og billetpriser til begivenheder</a></h2>
-<ul>
-<li>FTC har implementeret en regel, der forbyder skjulte gebyrer i hotel- og eventbilletpriser, hvilket kræver, at sælgere oplyser de samlede omkostninger på forhånd.</li>
-<li>Dette initiativ er en del af præsident Bidens bredere indsats for at eliminere overflødige gebyrer, der unødvendigt øger forbrugernes omkostninger.</li>
-<li>Reglen kræver, at service- og resortgebyrer inkluderes i de annoncerede priser, hvilket potentielt kan spare forbrugerne betydelig tid, selvom den kan møde udfordringer fra fremtidige administrationer og Kongressen.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42445037">Reaktioner</a></h3>
-<ul>
-<li>Den føderale handelskommission (FTC) har forbudt skjulte gebyrer i hotel- og eventbilletpriser, hvilket kræver, at alle gebyrer oplyses på forhånd til forbrugerne. Denne regulering har til formål at forbedre prisgennemsigtigheden og beskytte forbrugerne mod vildledende praksis fra handlende. Beslutningen har igangsat samtaler om nødvendigheden af reguleringer for at fremme fair konkurrence og forhindre udnyttelse af forbrugere gennem skjulte omkostninger.</li>
-</ul>
-<h2><a href="https://github.com/ergochat/ergo">Ergo Chat – En moderne IRC-server skrevet i Go</a></h2>
-<ul>
-<li>Ergo, tidligere kendt som Oragono, er en moderne Internet Relay Chat (IRC) server udviklet i programmeringssproget Go, der tilbyder nem opsætning og brug.</li>
-<li>Den integrerer funktioner fra en IRC-daemon (ircd), en service-ramme og en bouncer, med support til IRCv3, og kan tilpasses gennem en YAML-konfigurationsfil.</li>
-<li>Ergo er en fork af Ergonomadic IRC-daemonen og inkluderer bidrag fra udviklere som Jeremy Latt, Edmund Huber, Daniel Oaks og Shivaram Lingamneni.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42447071">Reaktioner</a></h3>
-<ul>
-<li>Ergo Chat er en moderne IRC (Internet Relay Chat) server udviklet i Go, kendt for sin enkelhed i hosting, minimale ressourceforbrug og avancerede funktioner som v3 chathistorik og altid-til multi-klient support.</li>
-<li>Det inkluderer indbygget websocket-understøttelse, hvilket letter nem adgang for webklienter, og tilbyder en moderne chatoplevelse, som brugerne måske ikke genkender som IRC.</li>
-<li>Diskussioner fremhæver IRC&#39;s åbne protokol og fleksibilitet sammenlignet med platforme som Discord, samt debatten om IRC&#39;s mangel på vedvarende chathistorik, som nogle ser som en funktion til at opretholde flygtige samtaler.</li>
-</ul>
-<h2><a href="https://archaeologymag.com/2024/12/oldest-evidence-of-christianity-north-of-the-alps/">Det sølvamulet er det ældste bevis på kristendommen nord for Alperne</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42448939">Reaktioner</a></h3>
-<ul>
-<li>En sølvamulet opdaget i Frankfurt er det ældste bevis på kristendommen nord for Alperne, dateret tilbage til 230-270 e.Kr.</li>
-<li>Amuletten har en latinsk inskription med kristne elementer, herunder en reference til Det Nye Testamente og Trisagion, en liturgisk hymne.</li>
-<li>Opdagelsen er betydningsfuld for forståelsen af den tidlige udbredelse og indflydelse af kristendommen i regionen, idet den fremhæver dens integration med lokale traditioner.</li>
-</ul>
-<h2><a href="https://lodev.org/cgtutor/xortexture.html">XOR Tekstur (2004)</a></h2>
-<ul>
-<li>XOR-teksturer genereres ved at anvende XOR-operationen på x- og y-koordinaterne af en pixel, hvilket gør dem enkle at skabe og nyttige til at teste tekstur-mappere. Selvom XOR-teksturer ikke er egnede til demoer eller spil på grund af deres overforbrug, kan de justeres ved hjælp af forskellige RGB-værdier eller konverteres fra HSV til RGB for varierede farveeffekter. Lignende teksturer kan skabes ved hjælp af AND- og OR-operationer, hvor XOR returnerer 1, hvis bittene er forskellige, AND hvis begge bit er 1, og OR hvis nogen bit er 1.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42447053">Reaktioner</a></h3>
-<ul>
-<li>En bruger beskrev, hvordan man skaber en XOR-tekstur ved hjælp af x86-assembly, hvilket resulterede i en karakteristisk visuel effekt, der vækkede interesse for lignende teknikker.</li>
-<li>Diskussionen henviste til &quot;munching squares,&quot; en visuel effekt fra 1960&#39;ernes PDP-1 computer, hvilket fremhæver den historiske kontekst for sådanne grafikker.</li>
-<li>Deltagerne udvekslede ressourcer og erfaringer, herunder Lode&#39;s Computer Graphics Tutorial, og udforskede relaterede emner som Hamming distance teksturer og glitching algoritmer til kreative projekter.</li>
-</ul>
-<h2><a href="https://byroot.github.io/ruby/json/2024/12/15/optimizing-ruby-json-part-1.html">Optimering af Rubys JSON, Del 1</a></h2>
-<ul>
-<li>Vedligeholderen af Ruby json-gemmen har fokuseret på at forbedre dens ydeevne med det mål at gøre den til den hurtigste JSON-parser og -generator for Ruby. Forbedringerne sigter mod at reducere afhængigheden af alternativer som oj, der, selvom de er hurtigere, har problemer med monkey patching og ustabilitet. Optimeringerne inkluderer at undgå overflødige kontroller, prioritere sandsynlige betingelser, reducere opstartsomkostninger og bruge opslagstabeller, hvilket resulterer i en hastighedsforøgelse på op til 30%.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42446846">Reaktioner</a></h3>
-<ul>
-<li>Artiklen undersøger forbedringer i Ruby&#39;s JSON-håndtering, med fokus på parsertider og sammenligninger med andre biblioteker som simdjson.</li>
-<li>Det fremhæver udfordringerne ved at optimere JSON i Ruby, herunder brugen af opslagstabeller, SIMD (Single Instruction, Multiple Data) instruktioner og begrænsningerne ved at bruge C99 i stedet for C++.</li>
-<li>Diskussionen dækker også navngivningskonventioner i JSON og Ruby, og tilbyder forslag til håndtering af camelCase og snake_case transformationer, og er en del af en serie med yderligere indsigt tilgængelig i en efterfølgende artikel.</li>
-</ul>
-<head>
-  <meta property="og:title" content="FTC forbyder skjulte gebyrer i hotel- og billetpriser til begivenheder" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=FTC%20forbyder%20skjulte%20gebyrer%20i%20hotel-%20og%20billetpriser%20til%20begivenheder&subheading=onsdag%20den%2018.%20december%202024%3A%20Resum%C3%A9%20af%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/da/2024/12/18</link>
-            <guid isPermaLink="false">2024-12-18T00:00:00.000Z</guid>
-            <pubDate>Wed, 18 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-17]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/17&#39;</h2>
-<h1>2024-12-17</h1>
-<h2><a href="https://brightonruby.com/2024/getting-to-2-million-users-as-a-one-woman-dev-team/">At nå 2 millioner brugere som et en-kvindes udviklerteam [video]</a></h2>
-<ul>
-<li>Nadia Odunayo, grundlægger og administrerende direktør for The StoryGraph, administrerer et læsefællesskab med over en million brugere som en solo-udvikler, hvilket fremhæver hendes beslutsomhed og tekniske færdigheder. Hendes baggrund inkluderer erfaring som softwareingeniør hos Pivotal Labs og kodningsuddannelse fra Makers Academy i London. Hendes historie eksemplificerer potentialet i en &quot;en-persons ramme&quot; inden for teknologisk iværksætteri, hvor hun balancerer professionelle og personlige interesser som dans og læsning.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42441333">Reaktioner</a></h3>
-<ul>
-<li>StoryGraph, en bogsporingsapp udviklet af en enkelt udvikler, Nadia Odunayo, har nået 2 millioner brugere, hvilket har sat gang i diskussioner om alternativer og begrænsningerne hos konkurrenter som Goodreads.</li>
-<li>Nadia Odunayo er anerkendt for sine betydelige bidrag til Ruby on Rails-fællesskabet, hvilket fremhæver den indflydelse, som individuelle udviklere har i teknologibranchen.</li>
-<li>Diskussionen udforsker også det bredere tema om små teams, der opnår betydelige brugerbaser, med sammenligninger til succesfulde projekter som Stardew Valley og WhatsApp.</li>
-</ul>
-<h2><a href="https://ciechanow.ski/moon/">Måne</a></h2>
-<ul>
-<li>Artiklen giver en dybdegående udforskning af Månens bane omkring Jorden, dens overfladeegenskaber og dens indflydelse på fænomener som tidevand og formørkelser.</li>
-<li>Den diskuterer Månens faser, overfladekratere og fænomenet jordskin, og fremhæver Månens subtile indflydelse på menneskelivet samt dens rolle som en konstant tilstedeværelse på nattehimlen.</li>
-<li>Stykket reflekterer over Månens gravitationsinteraktioner med Jorden og Solens indflydelse, hvilket giver en omfattende forståelse af vores himmelske nabo.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42443229">Reaktioner</a></h3>
-<ul>
-<li>En bruger fortalte om deres rejse med et Celestron 11&quot; SCT-teleskop, hvor de i starten stod over for udfordringer med langtidseksponering i fotografering, men fandt succes og værdsættelse i månefotografering.</li>
-<li>Diskussionen omfattede delte oplevelser, tips til brug af teleskoper og ros for uddannelsesindhold, især Bartosz Ciechanowskis interaktive forklaringer af himmelfænomener.</li>
-<li>Dialogen understregede månens betydning både i personlig nydelse og i uddannelsesmæssige sammenhænge, hvor brugere udtrykte taknemmelighed for detaljeret og engagerende astronomisk indhold.</li>
-</ul>
-<h2><a href="https://www.npr.org/2005/08/08/4785079/always-go-to-the-funeral">Altid gå til begravelsen (2005)</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42435972">Reaktioner</a></h3>
-<h2><a href="https://go.dev/blog/protobuf-opaque">Go Protobuf: Den nye uigennemsigtige API</a></h2>
-<ul>
-<li>Go Blog annoncerer introduktionen af en ny Opaque API til Go Protobuf, som forbedrer hukommelseseffektiviteten og reducerer fejl relateret til pointere ved at skjule strukturfelter og bruge accessor-metoder.</li>
-<li>Den uigennemsigtige API understøtter doven dekodning, hvilket optimerer ydeevnen ved kun at dekode felter, når de tilgås, og anbefales til ny udvikling, med en hybrid API tilgængelig for gradvis overgang.</li>
-<li>Protobuf Edition 2024 vil gøre Opaque API til standard, og feedback opfordres på Go Protobuf issue tracker, med reference-dokumentation tilgængelig på protobuf.dev.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42434947">Reaktioner</a></h3>
-<ul>
-<li>Diskussionen fremhæver kompleksiteten og de unikke egenskaber ved at bruge Protobuf og gRPC i Go-programmeringssproget, hvor nogle udviklere finder det udfordrende. - Alternativer som JSON-RPC, MsgPack og Varlink anses for at være enklere, mens værktøjer som ConnectRPC og Buf foreslås for forbedret kompatibilitet og ydeevne. - Samtalen understreger de afvejninger, der er mellem forskellige serialiserings- og kommunikationsprotokoller, herunder fordelene ved Protobufs skematiske sprog og udfordringerne ved at bruge JSON til API&#39;er.</li>
-</ul>
-<h2><a href="https://news.mit.edu/2024/mit-study-explains-laws-incomprehensible-writing-style-0819">MIT-undersøgelse forklarer, hvorfor love er skrevet i en uforståelig stil</a></h2>
-<ul>
-<li>MIT-kognitive forskere sammenligner det komplekse sprog i juridiske dokumenter, eller &quot;juridisk sprogbrug,&quot; med magiske besværgelser og antyder, at det formidler autoritet gennem sin arkaiske og indviklede stil.</li>
-<li>Undersøgelsen, der er offentliggjort i Proceedings of the National Academy of Sciences, fremhæver, at juridiske dokumenter ofte bruger komplekse strukturer som &#39;center-embedding&#39;, hvilket bidrager til deres vanskelighed i forståelse.</li>
-<li>På trods af bestræbelserne på at forenkle juridisk sprog siden 1970&#39;erne har fremskridtene været langsomme, og undersøgelsen har til formål at fremme klarere juridisk skrivning for bedre forståelse.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42438175">Reaktioner</a></h3>
-<ul>
-<li>En MIT-undersøgelse indikerer, at juridiske dokumenter er komplekse på grund af traditionelle praksisser og den specifikke målgruppe, de henvender sig til, primært advokater.</li>
-<li>Advokater bruger &quot;juridisk sprog&quot; på grund af dets velkendthed og præcision, på trods af at det kan være svært for ikke-eksperter at forstå, da det skal være i overensstemmelse med varierende retspraksis.</li>
-<li>Undersøgelsen understreger udfordringen ved at forenkle juridisk sprog, samtidig med at dets autoritet og juridiske integritet bevares, da ændringer kan have betydelige juridiske konsekvenser.</li>
-</ul>
-<head>
-  <meta property="og:title" content="At nå 2 millioner brugere som et en-kvindes udviklerteam [video]" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=At%20n%C3%A5%202%20millioner%20brugere%20som%20et%20en-kvindes%20udviklerteam%20%5Bvideo%5D&subheading=tirsdag%20den%2017.%20december%202024%3A%20Resum%C3%A9%20af%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/da/2024/12/17</link>
-            <guid isPermaLink="false">2024-12-17T00:00:00.000Z</guid>
-            <pubDate>Tue, 17 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-16]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/16&#39;</h2>
-<h1>2024-12-16</h1>
-<h2><a href="https://www.openerv.ca">OpenERV</a></h2>
-<ul>
-<li>OpenERV&#39;s TW4 energigenvindingsventilator leverer effektivt frisk udendørsluft, mens den genvinder cirka 90% af varmeenergien, hvilket reducerer behovet for yderligere opvarmning eller køling.</li>
-<li>WM12-modellen, som kombinerer to TW4-enheder til vinduesinstallation, er i beta-test og lover høj luftstrøm, stille drift og en betydelig investeringafkast sammenlignet med traditionelle systemer.</li>
-<li>Vigtige funktioner inkluderer valgfrie HEPA-filtre, kompatibilitet med hjemmeautomatiseringssystemer, lavt energiforbrug og forbedret indendørs luftkvalitet.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42427888">Reaktioner</a></h3>
-<ul>
-<li>OpenERV er et initiativ til at udvikle et open-source energigenvindingsventilatorsystem (ERV), men brugerne er bekymrede over manglen på omfattende dokumentation, hvilket kan afskrække gør-det-selv-entusiaster.</li>
-<li>Fraværet af 3D-filer til genvindingskernen, en vital ERV-komponent, har ført til skepsis omkring projektets open source-påstande, hvilket antyder et muligt marketingfokus.</li>
-<li>Projektet har lovende udsigter, især for nordlige klimaer, og skaberen forbedrer systemet med planer om testning af PassiveHaus-instituttet, hvilket indikerer potentielle fremtidige forbedringer.</li>
-</ul>
-<h2><a href="https://github.com/anvaka/map-of-github">Kort over GitHub</a></h2>
-<ul>
-<li>Kortet visualiserer over 400.000 GitHub-projekter, hvor nærhed indikerer fælles stjernemarkører, ved hjælp af data fra januar 2020 til marts 2023. Kortets oprettelse involverede beregning af Jaccard-similaritet til klyngedannelse, brug af ngraph.forcelayout til layout og rendering med maplibre, med data i GeoJSON-format. Projektet er open-source under MIT-licensen, inviterer til bidrag og designforslag, og inkluderer en søgefunktion og landemærker genereret af ChatGPT.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42426284">Reaktioner</a></h3>
-<ul>
-<li>En GitHub-kortvisualisering af anvaka viser projektklynger baseret på stjernemarkeringer, hvilket afslører unikke grupperinger som torvalds/linux nær JavaScript-projekter. Kortet bruger Jaccard-similaritet, hvilket måske ikke er ideelt for populære projekter, da det grupperer dem efter popularitet snarere end semantik, hvilket har ført til forslag om at bruge kodeindlejring for bedre organisering. Visualiseringen, med humoristiske landenavne som &quot;Lispaña&quot; for Lisp-projekter, fremhæver kompleksiteten ved at kategorisere projekter efter sprog og anvendelse, hvilket har sat gang i diskussioner om klynge-metoder og indflydelsen af brugerpræferencer.</li>
-</ul>
-<h2><a href="https://www.makeuseof.com/reasons-why-dumb-tvs-deserve-a-comeback/">Gamle fjernsyn uden smart-funktioner fortjener et comeback</a></h2>
-<ul>
-<li>Smart-tv&#39;er er tilbøjelige til hurtig forældelse på grund af forældet software og bloatware, og de udgør privatlivsrisici ved at indsamle brugerdata.</li>
-<li>Dumme tv&#39;er, som fokuserer på billedkvalitet og holdbarhed, kan holde i over et årti og tilbyder en mere privat seeroplevelse, når de parres med streaming-enheder som Roku eller Chromecast.</li>
-<li>For at appellere til teknologikyndige forbrugere skal dumme tv&#39;er forbedres i skærmkvalitet, størrelse og tilslutningsmuligheder og bør markedsføres som et privatlivsbevidst alternativ.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42425398">Reaktioner</a></h3>
-<ul>
-<li>Genopblomstringen af &quot;dumme TV&#39;er&quot; foreslås, da smarte TV&#39;er giver producenterne profit gennem dataindsamling og reklamer.</li>
-<li>Mens nogle smart-tv&#39;er kan fungere som almindelige tv&#39;er ved at undgå internetforbindelse, kan fremtidige modeller kræve forbindelse.</li>
-<li>Alternativer som skærme eller projektorer er tilgængelige, men kommer ofte med højere omkostninger, og efterspørgslen efter &#39;dumme&#39; TV&#39;er forbliver begrænset på grund af forbrugernes præference for pris og funktioner frem for privatliv.</li>
-</ul>
-<h2><a href="https://danluu.com/nothing-works/">Hvorfor er det så svært at købe ting, der fungerer godt? (2022)</a></h2>
-<ul>
-<li>Den effektive markedshypotese, som hævder, at markeder naturligt eliminerer ineffektiviteter, holder ikke altid stik, især ikke inden for teknologiansættelser og produktkvalitet. - Silicon Valley-virksomheder står over for vedvarende ineffektiviteter på grund af mangel på talent, og forbrugere stoler ofte på markedsføring frem for informerede beslutninger for at vurdere produktkvalitet. - Outsourcing kan føre til utilfredshed sammenlignet med interne løsninger, som det ses med virksomheder som Apple og Amazon, der har haft succes ved at bygge frem for at købe, hvilket fremhæver indflydelsen af kulturelle normer og tillidsspørgsmål på effektivitet.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42430450">Reaktioner</a></h3>
-<ul>
-<li>Forbrugerne står over for udfordringer ved køb af kvalitetsprodukter på grund af dårligt design, skjulte fejl og planlagt forældelse, hvilket betyder, at produkter bevidst ikke er bygget til at holde.</li>
-<li>Overfloden af muligheder og vanskeligheden ved at vurdere den sande kvalitet får forbrugerne til at stole på overfladiske indikatorer som vurderinger, der måske ikke nøjagtigt afspejler produktkvaliteten.</li>
-<li>Informationsasymmetri på markederne resulterer i, at købere mangler den nødvendige viden til at træffe informerede beslutninger, hvilket ofte fører til afhængighed af potentielt vildledende påstande fra sælgere.</li>
-</ul>
-<h2><a href="https://www.reuters.com/legal/us-lawmakers-tell-apple-google-be-ready-remove-tiktok-app-stores-jan-19-2024-12-13/">Amerikanske lovgivere beder Apple og Google om at være klar til at fjerne TikTok fra butikkerne den 19. januar</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42427132">Reaktioner</a></h3>
-<ul>
-<li>Amerikanske lovgivere har anmodet Apple og Google om at overveje at fjerne TikTok fra deres app-butikker inden den 19. januar, med henvisning til bekymringer over datasikkerhed og appens kinesiske ejerskab.</li>
-<li>Debatten omkring TikTok involverer spørgsmål om censur, national sikkerhed og den potentielle indflydelse fra udenlandske regeringer på indenlandske anliggender.</li>
-<li>Diskussionen fremhæver bredere temaer om gensidighed i internationale relationer, især som reaktion på Kinas restriktioner over for vestlige teknologivirksomheder.</li>
-</ul>
-<h2><a href="https://9to5mac.com/2024/12/16/most-iphone-owners-see-little-to-no-value-in-apple-intelligence-so-far/">De fleste iPhone-ejere ser indtil videre lidt til ingen værdi i Apple Intelligence</a></h2>
-<ul>
-<li>Apple rygtes at planlægge udgivelsen af en foldbar iPad i 2028, som potentielt kunne understøtte macOS-applikationer.</li>
-<li>Denne udvikling antyder en konvergens af iPad- og Mac-funktionaliteter, hvilket giver brugerne en mere alsidig enhed.</li>
-<li>Introduktionen af en foldbar iPad kunne markere en betydelig innovation i Apples produktudvalg, hvilket tiltrækker interesse fra teknologientusiaster og brancheobservatører.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42431090">Reaktioner</a></h3>
-<ul>
-<li>En del iPhone-brugere opfatter begrænset værdi i Apple Intelligence, og nogle føler sig presset til at bruge AI-værktøjer som co-pilot i professionelle sammenhænge.</li>
-<li>Der er en voksende tendens blandt virksomheder til at anvende AI-teknologier for at forblive konkurrencedygtige, men brugere finder ofte AI-genereret indhold, såsom resuméer og e-mails, at være under standard.</li>
-<li>Udrulningen af Apple Intelligence har mødt kritik for ikke at leve op til brugernes forventninger, idet nogle hævder, at AI-værktøjer i øjeblikket er overdrevet markedsført og ikke er nødvendige for de fleste opgaver.</li>
-</ul>
-<h2><a href="https://news.ycombinator.com/item?id=42425339">Hvordan finder du deltidsarbejde?</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42425339">Reaktioner</a></h3>
-<h2><a href="https://github.com/XiaoMi/ha_xiaomi_home">Xiaomi har givet officiel support til Home Assistant</a></h2>
-<ul>
-<li>Xiaomi Home Integration til Home Assistant muliggør brugen af Xiaomi IoT-enheder inden for Home Assistant-platformen, hvilket kræver specifikke softwareversioner for kompatibilitet.</li>
-<li>Installationsmulighederne inkluderer GitHub, HACS (Home Assistant Community Store) eller manuelle metoder, hvor konfigurationen kræver en Xiaomi-konto login og enhedsvalg.</li>
-<li>Integrationen understøtter flere konti, lokal kontrol via en Xiaomi Central Hub Gateway, og er tilgængelig i forskellige regioner, ved hjælp af MIoT-Spec-V2 til kommunikation, men gemmer brugerdata i klar tekst.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42432151">Reaktioner</a></h3>
-<ul>
-<li>Xiaomi er officielt blevet integreret med Home Assistant, hvilket kræver en Xiaomi-konto og gemmer brugeroplysninger i klar tekst inden for konfigurationsfilen.</li>
-<li>Brugere rådes til at sikre deres konfigurationsfiler for at forhindre uautoriseret adgang, da integrationen bruger OAuth 2.0 til login, hvilket sikrer, at adgangskoder ikke gemmes i appen.</li>
-<li>Mens Home Assistant bliver rost for sin fleksibilitet og brede udvalg af integrationer, udtrykker nogle brugere bekymringer om privatlivets fred og foretrækker lokale løsninger som Zigbee eller Z-Wave.</li>
-</ul>
-<h2><a href="https://dillo-browser.github.io/25-years/">25 år med Dillo</a></h2>
-<ul>
-<li>Dillo, en letvægtswebbrowser, der oprindeligt blev forgrenet fra Gzilla/Armadillo i 1999, fejrer sit 25-års jubilæum i december 2024.</li>
-<li>Browseren har gennemgået flere overgange, herunder skiftet fra GTK 1.0 til FLTK 2 i 2008 og derefter til FLTK 1.3 i 2011, med udviklingsudfordringer som tabet af nøglebidragydere og dets domæne.</li>
-<li>I 2023 revitaliserede Rodrigo Arias Mallo projektet, hvilket førte til udgivelsen af version 3.1.0 i maj 2024, med løbende udvikling og den seneste version værende 3.1.1.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42426589">Reaktioner</a></h3>
-<ul>
-<li>Dillo, en letvægtswebbrowser, markerer sit 25-års jubilæum, fejret for sine minimale afhængigheder og hurtige ydeevne. - På trods af manglen på moderne funktioner som HTTPS, forbliver Dillo populær for sin enkelhed og effektivitet, især på ældre hardware. - Fællesskabet værdsætter bidragene fra dens nuværende vedligeholder, Rodrigo Arias Mallo, og understreger betydningen af alternative, letvægtsbrowsere i teknologiske økosystemer.</li>
-</ul>
-<h2><a href="https://twitter.com/TechEmails/status/1868368310024462791">Palms administrerende direktør sender e-mail til Steve Jobs (2007)</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42425348">Reaktioner</a></h3>
-<ul>
-<li>I 2007 afviste Palms administrerende direktør Ed Colligan Steve Jobs&#39; forslag om en ikke-poaching-aftale med henvisning til juridiske og etiske bekymringer.</li>
-<li>Jobs truede Palm med en patentsag på grund af en medarbejderovergang, hvilket fremhævede brancheproblemer som lønundertrykkelse og konkurrencebegrænsende praksis.</li>
-<li>Dette udveksling er en del af bredere retssager mod teknologivirksomheder, hvor Palms etiske holdning bemærkes trods dens endelige tilbagegang.</li>
-</ul>
-<h2><a href="https://opsbros.com/nokia-5110-back-from-the-dead/">Nokia 5110 – Tilbage fra de Døde (2022)</a></h2>
-<ul>
-<li>Den holdbare 2G-telefon Nokia 5110 bliver genoplivet med et moderne twist ved at udstyre den med et 4G-modul, SIM7600SA, som understøtter SMS og opkald. Telefonens enkle design og to printplader (PCB&#39;er) letter integrationen af det nye 4G-modul, hvilket gør retrofit-processen mere ligetil. Dette projekt fremhæver potentialet for at modernisere klassisk teknologi, med yderligere udviklinger, der vil blive beskrevet i en kommende del 2, som fokuserer på at designe et nyt board for udvidet funktionalitet.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42429197">Reaktioner</a></h3>
-<ul>
-<li>Der overvejes en genoplivning af Nokia 5110, men fremskridtene har været på pause siden 2022, hvilket afspejler udfordringerne ved at tilpasse klassiske modeller til moderne teknologi.</li>
-<li>Brugere udtrykker utilfredshed med de nuværende Nokia-mærkede telefoner og kritiserer dem for dårlig kvalitet og for at være ommærkede kinesiske modeller, hvilket indikerer et hul i markedet for holdbare, enkle telefoner.</li>
-<li>Alternativer som AGM M8 eller Sonim XP3+ bliver udforsket for basal funktionalitet, hvilket fremhæver en efterspørgsel efter enkle enheder med moderne netværkskompatibilitet.</li>
-</ul>
-<head>
-  <meta property="og:title" content="OpenERV" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=OpenERV&subheading=mandag%20den%2016.%20december%202024%3A%20Resum%C3%A9%20af%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/da/2024/12/16</link>
-            <guid isPermaLink="false">2024-12-16T00:00:00.000Z</guid>
-            <pubDate>Mon, 16 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

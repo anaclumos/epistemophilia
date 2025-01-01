@@ -15,12 +15,110 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 25 Dec 2024 19:07:15 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 01 Jan 2025 22:50:04 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/zh-Hant.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Wed, 25 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-01]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/01&#39;</h2>
+<h1>2025-01-01</h1>
+<h2><a href="https://news.ycombinator.com/item?id=42562750">2025 新年快樂</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42562750">評論</a></h3>
+<h2><a href="https://doom-captcha.vercel.app/">DOOM 驗證碼</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42566112">評論</a></h3>
+<ul>
+<li>「DOOM CAPTCHA 是一個創意專案，要求使用者玩經典遊戲 DOOM 的一個關卡作為 CAPTCHA 測試，突顯技術技能和懷舊感。- 使用者因缺乏現代控制而感到挑戰，對其實用性和可及性反應不一。- 該專案雖然新穎，但強調了對傳統 CAPTCHA 系統持續的不滿，儘管它是由 Vercel 的 AI 助理和手動遊戲整合所建構。」</li>
+</ul>
+<h2><a href="https://curiouscoding.nl/posts/static-search-tree/">靜態搜尋樹：比二元搜尋更快</a></h2>
+<ul>
+<li>「本文探討了靜態搜尋樹(S+ 樹)的實作與優化，以顯著加快排序資料的搜尋速度，達到比傳統二元搜尋快 40 倍的速度。- 採用了批次處理、預取和手動 SIMD(單指令多資料)等優化技術來提升查詢吞吐量。- 文章還探討了各種樹的佈局、節點大小和記憶體管理策略，並討論了未來工作如分支搜尋和插值搜尋，以進一步提高搜尋效率。」</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42562847">評論</a></h3>
+<ul>
+<li>「討論強調了由於 Rust 的安全性和效能優勢，演算法內容特別是在靜態搜尋樹方面，從 C/C++ 轉向 Rust 的趨勢。」</li>
+<li>Rust 在低階程式設計中的日益普及受到關注，有些使用者因為易於理解而偏好使用 C 或虛擬碼，而另一些人則重視 Rust 的現代化功能。</li>
+<li>這段對話還探討了 Zig 程式語言的潛力以及學習新語言所面臨的挑戰，反映了程式語言不斷演變的格局。</li>
+</ul>
+<h2><a href="https://openreview.net/forum?id=YXnwlZe0yf&noteId=yrsGpHd0Sf">「當 Putnam 問題稍作變化時，o1-Preview 準確率下降 30%」</a></h2>
+<ul>
+<li>「Putnam-AXIOM 是一個基準測試，旨在使用普特南數學競賽的問題來評估大型語言模型(LLMs)在高階數學推理方面的能力。- 該基準測試包含 236 個原始問題，以及一個包含 52 個修改過問題的變體，以避免數據污染。- OpenAI 的表現最佳模型在原始問題上達到了 41.95% 的準確率，但在修改過的問題上經歷了約 30% 的顯著性能下降，這突顯了適應變化的挑戰。」</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42565606">評論</a></h3>
+<ul>
+<li>一項研究顯示，當在 Putnam 問題中引入微小變化時，o1-Preview 模型的準確性下降了 30%，這表明大型語言模型(LLMs)在面對小變化時存在挑戰。- 這些發現激起了關於 LLMs 是否能真正推理，或主要依賴於模式匹配和記憶的辯論，類似於人在壓力下的錯誤。- 儘管面臨這些挑戰，像 o1 和 o3 這樣的模型在複雜的數學問題上仍表現良好，但其泛化能力仍在接受審視。</li>
+</ul>
+<h2><a href="https://www.cs.cmu.edu/~pavlo/blog/2025/01/2024-databases-retrospective.html">2024 年的資料庫：年度回顧</a></h2>
+<ul>
+<li>2024 年的資料庫領域經歷了重大變化，包括主要的收購、授權轉變，以及像 Redis、Elasticsearch、Databricks 和 Snowflake 等主要玩家之間持續的競爭。- DuckDB 因其分析查詢而受到歡迎，並整合到 Postgres 中，而值得注意的發佈包括 Amazon Aurora DSQL 和 Microsoft Garnet。- 收購如 Databricks 的 Tabular 和 Supabase 的 OrioleDB 都具有重要意義，儘管有像 OtterTune 關閉這樣的挫折，該行業仍然充滿活力，並有新的專案和資金投入。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42566192">評論</a></h3>
+<ul>
+<li>討論批評了 Redis 的 API，有些人認為這些批評缺乏對 Redis 設計及其獨特資料模型的深入理解。</li>
+<li>Redis 因其在排行榜和即時系統等特定應用中的有效使用而受到認可，儘管有一些對 API 的批評。</li>
+<li>這段對話還探討了更廣泛的資料庫領域，包括新創公司的挑戰、SQL 的角色以及資料庫技術的演變，強調在批評系統之前了解系統的重要性。</li>
+</ul>
+<h2><a href="https://thoughts.wyounas.com/p/books-i-enjoyed-most-in-2024">2024 年我喜愛閱讀的書籍</a></h2>
+<ul>
+<li>這份書單包含多樣化的書籍，涵蓋歷史、哲學、科學和個人敘事，每本書都提供獨特的見解和豐富的體驗。</li>
+<li>亮點包括西塞羅的書信，提供對羅馬生活的見解；Ben-Ari 關於計算機科學邏輯和程式驗證的著作；以及史蒂夫·馬丁關於喜劇成功的回憶錄。</li>
+<li>該收藏還包括皮埃爾·阿多和尼采的哲學探索、埃斯庫羅斯的希臘悲劇，以及厄休拉·勒瑰恩和拉賓德拉納特·泰戈爾的文學作品。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42564687">評論</a></h3>
+<h2><a href="https://mathstodon.xyz/@tao/113721192051328193">陶哲軒：我有一篇論文今天被拒絕了</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42568399">評論</a></h3>
+<ul>
+<li>著名數學家陶哲軒分享了一次論文被拒的經驗，強調了學術界中拒稿的頻繁發生。- 他的故事引發了對同行評審隨機性的討論以及學術出版面臨的挑戰。- 這次對話突顯了拒絕是學術過程中的正常部分，即使是頂尖研究人員也會面臨，並強調分享失敗經驗以應對冒牌者症候群的重要性。</li>
+</ul>
+<h2><a href="https://apiparrot.com/">API Parrot – 自動逆向工程 HTTP API</a></h2>
+<ul>
+<li>&quot;API Parrot 是一個新工具，旨在透過自動識別 API 請求之間的數據關聯並提供圖形化流程表示，來簡化業務流程的自動化。- 它允許使用者記錄請求、定義輸入和輸出，並將這些流程匯出為 JavaScript 代碼，使得過程比手動逆向工程或使用像機器人流程自動化(RPA)等不太理想的技術更為高效。- 該工具基於 Electron 開發，適用於 Windows 和 Linux 平台，並提供逆向工程 USPS API 的教學。&quot;</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42565821">評論</a></h3>
+<ul>
+<li>API Parrot 是一個自動化 HTTP API 逆向工程的工具，透過識別請求之間的數據關聯來促進業務流程的自動化。- 它提供了錄製請求、定義輸入和輸出，以及將流程匯出為 JavaScript 代碼的功能，並具有圖形化流程表示。- API Parrot 目前可在 Windows 和 Linux 上使用，免費提供，未來可能會推出針對企業的「專業版」，並計劃在未來推出 macOS 版本。</li>
+</ul>
+<h2><a href="https://thehill.com/national-security/5061535-virginia-man-arrested-explosives/">「FBI：維吉尼亞州發現該機構歷史上最大規模的自製爆炸物儲藏」</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42562529">評論</a></h3>
+<ul>
+<li>FBI 在維吉尼亞州發現了其歷史上最大規模的自製爆炸物儲藏，這引發了重大的法律和公眾辯論。</li>
+<li>「嫌疑人目前僅被控持有短槍管步槍，因為他的槍械的合法性正在被審查。」</li>
+<li>此案件引發了關於槍支法律、第二修正案以及政府管制與個人權利之間平衡的討論。</li>
+</ul>
+<h2><a href="https://dgl.cx/2024/12/ghostty-terminal-title">似曾相識：我終端機標題中的幽靈 CVE</a></h2>
+<ul>
+<li>「Ghostty 是一款新的終端模擬器，存在一個類似於 2003 年的安全漏洞，允許 ASCII 控制字元執行命令，如開啟應用程式。此問題在 Zsh 和 Bash 的 vi 模式中特別嚴重，但 Ghostty 1.0.1 已透過預設禁用該功能來解決此問題。儘管存在安全漏洞，Ghostty 因其功能而受到讚譽，開發者迅速解決了該問題，並為用戶提供了修正和替代方案。」</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42562743">評論</a></h3>
+<ul>
+<li>討論的重點在於終端機安全漏洞，特別是與轉義序列相關的漏洞，並探討減輕這些風險的方法。- 增強終端機安全性的建議包括採用類似於 CPU 保護環或 OpenBSD 的 pledge() 系統呼叫的系統，這些系統限制功能以防止漏洞利用。- 參與者承認在終端機應用程式中平衡安全性與功能性的挑戰，並表示有興趣進一步探索和合作以改善安全實踐。</li>
+</ul>
+<h2><a href="https://github.com/facebookresearch/large_concept_model">大型概念模型：句子表示空間中的語言建模</a></h2>
+<ul>
+<li>「該資料庫提供大型概念模型(LCM)的實作，這些模型使用“概念”作為語言建模的高階語義表示。」</li>
+<li>「LCM 支援 200 種文字語言和 57 種語音語言，使用 SONAR 嵌入空間，並透過 MSE 回歸和基於擴散的生成等方法進行自回歸句子預測訓練。」</li>
+<li>此資料庫提供安裝說明、資料準備、訓練、微調和評估指導方針，並以 MIT 許可證發布，使用 fairseq2 並提供 UV 和 pip 安裝選項。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42563534">評論</a></h3>
+<ul>
+<li>「大型概念模型專注於以“概念”而非單個詞元來表示語言，旨在增強語義分塊和預測能力。」</li>
+<li>此方法提議使用更高層次的表示來模仿人類的規劃和溝通，可能比傳統的基於符號的模型具有優勢。</li>
+<li>「此方法透過強調明確的階層結構來解決當前大型語言模型(LLM)架構中的限制，以更好地模擬人類的推理。」</li>
+</ul>
+<head>
+  <meta property="og:title" content="2025 新年快樂" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=2025%20%E6%96%B0%E5%B9%B4%E5%BF%AB%E6%A8%82&subheading=2025%E5%B9%B41%E6%9C%881%E6%97%A5%20%E6%98%9F%E6%9C%9F%E4%B8%89%3A%20Hacker%20News%20%E6%91%98%E8%A6%81" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/zh/Hant/2025/01/01</link>
+            <guid isPermaLink="false">2025-01-01T00:00:00.000Z</guid>
+            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-12-25]]></title>
             <description
@@ -404,749 +502,6 @@
             <link>https://hn.cho.sh/zh/Hant/2024/12/23</link>
             <guid isPermaLink="false">2024-12-23T00:00:00.000Z</guid>
             <pubDate>Mon, 23 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-22]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/22&#39;</h2>
-<h1>2024-12-22</h1>
-<h2><a href="https://www.fastmail.com/blog/why-we-use-our-own-hardware/">「我們在 Fastmail 使用我們自己的硬體」</a></h2>
-<ul>
-<li>Fastmail 選擇使用自己的硬體而非雲端服務，專注於成本優化和長期規劃，並利用25年的經驗。</li>
-<li>他們已升級至 NVMe SSD，相較於傳統硬碟機(HDD)，提升了效能和可靠性。</li>
-<li>Fastmail 使用 ZFS 作為儲存系統，這提供了壓縮和加密等優勢，並選擇了新的 2U 伺服器搭配 SSD，以提升輸入/輸出效能、可靠性和成本效益。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42485124">評論</a></h3>
-<ul>
-<li>「Fastmail 選擇使用自己的硬體而非雲端服務，理由是對於有大量託管需求的企業來說，這樣做更具成本效益。」</li>
-<li>關於雲端與自我託管的討論經常被誤解所籠罩，有些雲端支持者缺乏技術見解。</li>
-<li>「Fastmail 的策略強調企業自行管理系統的可行性，質疑雲端解決方案普遍優越的假設。」</li>
-</ul>
-<h2><a href="https://www.linkedin.com/posts/leonardo-de-moura-26a27b5_leanlang-leanprover-leanfro-activity-7274523099394400256-0F0x">Rosetta 2 的創建者離開 Apple 全職投入 Lean 的工作</a></h2>
-<ul>
-<li>「AWS 和 Lean FRO 的重要人物 Leonardo de Moura 宣布，因在 Apple 創建 Rosetta 2 而聞名的 Cameron Zwarich 已加入 Lean FRO。」</li>
-<li>「Cameron Zwarich 將專注於改進 Lean 的代碼生成器，並將他豐富的軟體開發經驗帶入團隊。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42483895">評論</a></h3>
-<ul>
-<li>Rosetta 2 的開發者已經離開 Apple，專注於 Lean，一種證明輔助工具和程式語言，這突顯了向形式化推理和軟體驗證的轉變。</li>
-<li>Rosetta 2 因其技術實力而受到認可，在團隊成立之前，這位開發者已經做出了重要貢獻。</li>
-<li>轉向 Lean 的動機在於其在人工智慧進步中的潛力，目標是提升可擴展性、可用性和證明自動化。</li>
-</ul>
-<h2><a href="https://www.datafix.com.au/BASHing/2020-08-12.html">一個已有數千年歷史的數據表(2020年)</a></h2>
-<ul>
-<li>「古代美索不達米亞的帳目記錄使用了帶有行和列的黏土板，類似於現代的數據表格，這一點由伊拉克拉爾薩的一塊黏土板所證實，該板由艾莉諾·羅布森翻譯。這塊在大英博物館編目的黏土板類似於一個建設項目的工資單摘要，展示了超過3500年前的有組織數據，包含標題和計算。這一歷史洞察強調了雖然數據表格有著古老的起源，但它們的持續使用並非保證，因為發明可能會隨著時間的推移而失落和重新發現。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42482829">評論</a></h3>
-<ul>
-<li>討論強調了表格式數據表示的永恆相關性，儘管該數據表來自2020年，根據當前標準被視為過時。</li>
-<li>「參與者探索桌子的歷史意義和直觀設計，並注意到它們演變成現代試算表和資料庫的過程。」</li>
-<li>該對話還考慮了數據保存方面的文化和技術進步，並提出現代數據可能會以類似於古代數據的方式被保存。</li>
-</ul>
-<h2><a href="https://tidyfirst.substack.com/p/slow-deployment-causes-meetings">緩慢的部署導致會議(2015)</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42484139">評論</a></h3>
-<ul>
-<li>緩慢的部署增加風險並導致更多會議，而頻繁且較小的部署則降低風險並提升價值交付。</li>
-<li>自動化測試和基礎設施改進可以減少會議的需求並提高部署效率，但組織通常面臨如官僚作風和技術技能不足等挑戰。</li>
-<li>鼓勵非技術人員接受自動化測試並減少手動流程，結合採用微服務，可以提高部署頻率，儘管這需要組織變革和更好的治理。</li>
-</ul>
-<h2><a href="https://hyperessays.net/">米歇爾·德·蒙田的隨筆線上版</a></h2>
-<ul>
-<li>「HyperEssays 是一個線上專案，提供米歇爾·德·蒙田《隨筆集》的現代版本，包含來自不同歷史翻譯和更新的四個版本。該專案為新讀者提供工具和背景資訊，並提供免費的章節 PDF 和適合各種裝置的格式，方便閱讀，涵蓋宗教、友誼和法律等主題。HyperEssays 是一個不斷發展的資源，歡迎貢獻以維持其可及性和免費提供。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42484527">評論</a></h3>
-<ul>
-<li>米歇爾·德·蒙田的隨筆在網路上可以找到，常被比作部落格，因為它們具有個人化但精心撰寫的特質，涵蓋了多樣的主題，如對死亡的接受。</li>
-<li>「他在文章〈論經驗〉中的一句名言強調了人類的處境，指出即使坐在最高的寶座上，我們仍然是人。」</li>
-<li>現代翻譯和人工智慧輔助的更新旨在使蒙田的著作更易於理解，同時保留其原有的魅力，無論是對富裕讀者還是普通讀者而言。</li>
-</ul>
-<h2><a href="http://0x80.pl/notesen/2024-12-21-uint8-division.html">無符號 8 位元數字的除法</a></h2>
-<ul>
-<li>本文探討了使用 SIMD(單指令多數據)指令來劃分無符號 8 位元數字的方法，重點在於浮點數除法和長除法演算法。</li>
-<li>它強調了使用 SSE、AVX2 和 AVX-512 指令實現這些方法，並在 Ryzen 7、Skylake-X 和 IceLake 等 CPU 上進行性能比較。</li>
-<li>值得注意的是，AVX-512 的長除法實作在 Intel CPU 上是最快的，而使用近似倒數的 AVX2 在 Ryzen 上是最快的，相關原始碼可在 GitHub 上找到。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42481612">評論</a></h3>
-<ul>
-<li>無符號 8 位元數字的除法可以透過使用倒數的乘法來優化，這個倒數可以用二進制有理數來近似，例如，對 3 的除法可以透過乘以 171 並右移 9 位來實現。</li>
-<li>「此優化在硬體和優化編譯器中是有益的，並且還有其他技術如模組化乘法、查找表和 SIMD(單指令多資料流)指令，儘管每種技術都有其限制。」</li>
-<li>某些指令集架構(ISAs)，如 RISC-V 向量擴展，支援 SIMD 整數除法，但這種支援並不常見，因此為了優化，會探索包括浮點運算和微查找表在內的各種技術。</li>
-</ul>
-<h2><a href="https://openjdk.org/jeps/483">「JEP 483：提前類別載入和連結」</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42481813">評論</a></h3>
-<ul>
-<li>「JEP 483 提議為 Java 提供預先編譯(AOT)的類別載入和連結，旨在提升啟動時間，這對於命令列介面(CLI)應用程式特別有利。」</li>
-<li>該提案著重於緩存類別載入和連結數據，而非即時編譯(JIT)代碼，這在像 AWS Lambda 這樣的無伺服器環境中可能具有優勢。</li>
-<li>「在增加容器大小與提升類別載入速度之間存在取捨，這需要特別謹慎地評估，尤其是對於較大型的應用程式。」</li>
-</ul>
-<h2><a href="https://corelatus.com/blog/Decoding_the_telephony_signals_in_Pink_Floyd_s__The_Wall_.html">「解碼平克·弗洛伊德《迷牆》中的電話信號」</a></h2>
-<ul>
-<li>「Corelatus 部落格深入探討電信硬體，特別是 E1/T1 和 SDH/SONET 介面，最近分析了平克·佛洛伊德《The Wall》中的電話信號。- 分析透過檢查音頻頻譜圖並與 DTMF 和 CAS R2 等已知標準進行比較，識別出 SS5 信令系統，這是一種在 1980 年代初期使用的系統。- 研究結論認為，音頻可能來自真實的通話，提供了一種真實的長途連接感覺，並在歌曲《Young Lust》中出現了延長版本。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42485795">評論</a></h3>
-<ul>
-<li>「詹姆斯·古思里透露，為了象徵巡演時所經歷的孤立感，《平克·弗洛伊德：迷牆》中錄製了一位電話接線員的聲音。」</li>
-<li>這張專輯的錄製過程以藝術自由為特徵，沒有商業限制，從而創造出廣闊而複雜的曲目。</li>
-<li>「訪談中還強調，由於倫敦區域代碼多年的變更，導致難以辨識錄音中使用的電話號碼。」</li>
-</ul>
-<h2><a href="https://github.com/gildas-lormeau/SingleFile">Singlefile：一個將完整網頁儲存為單一 HTML 檔案的網路擴充功能</a></h2>
-<ul>
-<li>SingleFile 是一款多功能的網頁擴充套件和命令列工具，讓使用者能夠將整個網頁儲存為單一的 HTML 檔案，並與 Chrome、Firefox、Edge 和 Safari 等主流瀏覽器相容。</li>
-<li>它提供了儲存選擇內容、多重標籤、註釋、自動儲存，以及與 Google Drive 和 GitHub 的整合等功能，儘管在某些網域和檔案名稱字元上有一些限制。</li>
-<li>該工具是開源的，採用 AGPL 授權，並被用於像 ArchiveBox 和 Zotero Connector 這樣的專案中，並有來自各地翻譯者的貢獻。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42481659">評論</a></h3>
-<ul>
-<li>SingleFile 是一款網頁擴充功能，旨在將整個網頁儲存為單一的 HTML 檔案，提供一種使用 UTF-16 編碼的緊湊儲存方法。此擴充功能提供了一種替代方案，將頁面儲存為自解壓縮的 ZIP/HTML 檔案，解決了標準瀏覽器儲存功能的限制並增強了 PDF 列印功能。隱私問題曾被討論過，但開發者確認 SingleFile 尊重使用者隱私，使其成為離線存取和分享的寶貴工具。</li>
-</ul>
-<head>
-  <meta property="og:title" content="「我們在 Fastmail 使用我們自己的硬體」" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E3%80%8C%E6%88%91%E5%80%91%E5%9C%A8%20Fastmail%20%E4%BD%BF%E7%94%A8%E6%88%91%E5%80%91%E8%87%AA%E5%B7%B1%E7%9A%84%E7%A1%AC%E9%AB%94%E3%80%8D&subheading=2024%E5%B9%B412%E6%9C%8822%E6%97%A5%20%E6%98%9F%E6%9C%9F%E6%97%A5%3A%20Hacker%20News%20%E6%91%98%E8%A6%81" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/zh/Hant/2024/12/22</link>
-            <guid isPermaLink="false">2024-12-22T00:00:00.000Z</guid>
-            <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-21]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/21&#39;</h2>
-<h1>2024-12-21</h1>
-<h2><a href="https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/">美國法官裁定以色列的 NSO 集團因透過 WhatsApp 入侵記者而負有責任</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42476828">評論</a></h3>
-<ul>
-<li>美國一名法官已經追究以色列 NSO 集團通過 WhatsApp 入侵記者的責任，這引發了對公司在駭客和監控活動中責任的質疑。</li>
-<li>此案件突顯了與網路工具銷售和使用相關的倫理問題，將其比作傳統武器銷售，並引發了對管理層可能面臨法律後果的討論。</li>
-<li>這也引起了對更廣泛議題的關注，例如隱私、政府監控，以及社群媒體公司在保護用戶資料方面的責任。</li>
-</ul>
-<h2><a href="https://arxiv.org/abs/2412.15042">「將 C 編譯為安全的 Rust，形式化」</a></h2>
-<ul>
-<li>由 Aymeric Fromherz 和 Jonathan Protzenko 撰寫的論文探討了將 C 語言代碼轉換為安全的 Rust，重點在於透過避免使用不安全的 Rust 特性來確保記憶體安全。</li>
-<li>作者介紹了一種類型導向的翻譯方法，使用「分割樹」進行指標運算的靜態分析，以及在 Rust 中處理 C 語言結構體類型的策略。</li>
-<li>「他們的方法成功地將 HACL* 密碼學庫和 EverParse 的二進位解析器轉譯成一個經過驗證的 80,000 行純 Rust 密碼學庫，並在保持效能的同時，僅進行最少量的策略性複製。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42476192">評論</a></h3>
-<ul>
-<li>「將 C 語言代碼轉換為安全的 Rust 是困難的，這是由於基本語言差異，特別是 Rust 的所有權模型，這需要為了安全性進行重大重新設計。- 像 C2Rust 這樣的工具可以協助翻譯，但過程很複雜，有些 C 程式由於固有的不安全性，無法在不改變其語義的情況下移植。- 雖然將 C 翻譯成 Rust 可以增強安全性並揭示錯誤，但 Rust 的安全性常被誤解，而 C 代碼的形式驗證(這有助於翻譯)並不總是可用。」</li>
-</ul>
-<h2><a href="https://github.com/izabera/pseudo3d">A Raycaster in Bash</a></h2>
-<ul>
-<li>「一個受遊戲《德軍總部》啟發的光線投射器已在 Bash 中實現，展示了使用 Bash 進行圖形應用程式的挑戰。該專案面臨的限制包括 Bash 的速度緩慢、缺乏浮點數支援以及終端機限制，這使得維護螢幕狀態和優化效能變得困難。儘管使用了 Unicode 半方塊以獲得更好的解析度，該專案仍因高 I/O 需求和低效的顏色更新而掙扎，突顯了使用 Bash 處理此類任務的複雜性。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42475703">評論</a></h3>
-<ul>
-<li>「在 Bash 中的光線投射器是一個專案，透過每列使用光線追蹤來模擬 3D 效果，能夠以最少的 <code>echo</code> 命令高效地渲染場景。」</li>
-<li>該專案因使用字串重複來繪製天空、草地和物體的線條而顯著，這使其成為在受限環境中創建體素渲染引擎的激勵範例。</li>
-<li>討論中強調了在 MS Batch 和 <code>awk</code> 中類似的光線投射專案，展示了在使用非傳統程式語言進行複雜任務時的創造力。</li>
-</ul>
-<h2><a href="https://www.bloomberg.com/news/articles/2024-12-20/qualcomm-wins-licensing-fight-with-arm-over-chip-designs">高通在晶片設計授權爭議中勝訴 Arm</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42475228">評論</a></h3>
-<ul>
-<li>高通在與安謀(Arm)關於晶片設計授權的法律糾紛中獲得勝利，此糾紛特別涉及高通收購Nuvia的相關事宜。</li>
-<li>此案件圍繞著高通現有的許可是否涵蓋了Nuvia的設計，Arm主張所有符合Arm標準的CPU都是其指令集架構(ISA)的衍生產品。</li>
-<li>陪審團對於 Nuvia 違反許可的猶豫不決有利於高通，這引發了對 Arm 許可實務的擔憂，並可能鼓勵公司考慮 RISC-V 這一開源替代方案。</li>
-</ul>
-<h2><a href="https://github.com/malmeloo/FindMy.py">使用 Python 查詢 Apple 的 FindMy 網路</a></h2>
-<ul>
-<li>FindMy.py 是一個全面的函式庫，旨在查詢 Apple 的 FindMy 網路，目的是整合分散的「Find My 場景」。目前處於 Alpha 階段，這意味著其 API 設計可能會進行更改。</li>
-<li>該程式庫支援跨平台功能、位置報告解密、Apple 帳號登入及雙重驗證 (2FA)，提供非同步 (async) 和同步 (sync) API。</li>
-<li>可以透過 PyPi 使用指令 <code>pip install findmy</code> 進行安裝，並鼓勵貢獻，提供了特定的程式碼格式化指導方針。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42479233">評論</a></h3>
-<ul>
-<li>「Apple 的 FindMy API 的 Python 實作旨在增強跨平台存取，讓目前需要 Mac 才能使用 FindMy 功能的 Linux 和 Android 用戶受益。」</li>
-<li>「此工具可能使得追蹤位置和 AirTags 不再依賴於 Apple 的生態系統，儘管有關於 Apple 可能介入以阻止此類專案的擔憂。」</li>
-<li>討論強調了蘋果在跨平台支援上的限制，以及在其生態系統之外管理裝置功能(如家長控制)的困難，並提出了像 Blue Bubbles 和 Firewalla 這樣的替代方案建議。</li>
-</ul>
-<h2><a href="https://www.honest-broker.com/p/the-ugly-truth-about-spotify-is-finally">Spotify 醜陋的真相終於揭曉</a></h2>
-<ul>
-<li>獨立記者 Liz Pelly 的調查揭露了 Spotify 使用假藝術家來增加利潤的行為，特別是在爵士和環境音樂等類型中。這種做法被稱為「完美契合內容」計畫，使 Spotify 能夠避免支付給真正音樂家的版稅，引發了對音樂串流透明度和監管的擔憂。儘管存在爭議，Spotify 的盈利能力有所改善，而音樂產業和主流媒體大多忽視了這些問題，讓獨立新聞報導將其公諸於眾。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42478107">評論</a></h3>
-<ul>
-<li>這篇文章提出了對 Spotify 可能偏好低品質、通俗的音樂(可能是 AI 生成的)而非真正藝術家作品以降低成本的擔憂。- 使用者對 Spotify 的音樂推薦表示不滿，引發了對其商業行為倫理及對藝術家影響的討論。- 這場討論強調了藝術家在以串流為主的市場中面臨的挑戰，並建議如獨立電台或其他串流服務等替代方案。</li>
-</ul>
-<h2><a href="https://www.os2museum.com/wp/dos-append/">DOS APPEND</a></h2>
-<ul>
-<li>OS/2 Museum 部落格探討復古 PC 計算，重點在於 OS/2、DOS 及相關主題。- 最近的一篇文章強調了 DOS 的 APPEND 指令，一個終止並駐留(TSR)程式，幫助較舊的 DOS 應用程式在不同目錄間存取檔案，首次引入於 DOS 3.3。- 文章深入探討了 APPEND 的歷史、演變及實作，並討論其在現代計算環境中的重要性。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42475011">評論</a></h3>
-<ul>
-<li>在歷史上，DOS 的 APPEND 指令對於在不更改組譯器的情況下修改組譯器行為具有重要意義，類似於現代的環境變數和 overlayfs 掛載。</li>
-<li>像 SUBST 和 JOIN 這樣的 DOS 命令被用於目錄映射和路徑管理，有助於克服路徑長度的限制。</li>
-<li>討論包括 DOS 在 DEC 小型電腦上的歷史發展，以及計算機硬體從小型電腦到當前系統的演變。</li>
-</ul>
-<head>
-  <meta property="og:title" content="美國法官裁定以色列的 NSO 集團因透過 WhatsApp 入侵記者而負有責任" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E7%BE%8E%E5%9C%8B%E6%B3%95%E5%AE%98%E8%A3%81%E5%AE%9A%E4%BB%A5%E8%89%B2%E5%88%97%E7%9A%84%20NSO%20%E9%9B%86%E5%9C%98%E5%9B%A0%E9%80%8F%E9%81%8E%20WhatsApp%20%E5%85%A5%E4%BE%B5%E8%A8%98%E8%80%85%E8%80%8C%E8%B2%A0%E6%9C%89%E8%B2%AC%E4%BB%BB&subheading=2024%E5%B9%B412%E6%9C%8821%E6%97%A5%20%E6%98%9F%E6%9C%9F%E5%85%AD%3A%20Hacker%20News%20%E6%91%98%E8%A6%81" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/zh/Hant/2024/12/21</link>
-            <guid isPermaLink="false">2024-12-21T00:00:00.000Z</guid>
-            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-20]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/20&#39;</h2>
-<h1>2024-12-20</h1>
-<h2><a href="https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/">開放語音助理的時代</a></h2>
-<ul>
-<li>「Home Assistant 推出了 Voice Preview Edition，一款私人、本地的語音助理，優先考量用戶隱私，不收集數據或限制功能。這款設備是開源的、可自訂的，並支援本地處理，允許用戶在不需要網路連線的情況下修改硬體和軟體。定價為 59 美元，旨在通過專注於隱私和社群驅動的開放開發來超越現有的語音助理，具備雙麥克風和專用音頻處理器的先進音頻處理功能。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42467194">評論</a></h3>
-<ul>
-<li>討論的重點在於開源語音助理的發展，特別是Home Assistant的新裝置，並強調了隱私問題以及像Alexa和Google Home這類商業選項的限制。</li>
-<li>「對於整合先進模型和本地處理以提升功能性同時確保用戶隱私，存在著顯著的興趣。」</li>
-<li>該對話還探討了硬體開發的挑戰，以及社群驅動專案在語音助理市場中創造更多開源解決方案的潛力。</li>
-</ul>
-<h2><a href="https://htmhell.dev/adventcalendar/2024/20/">我最喜歡的顏色是查克·諾里斯紅</a></h2>
-<ul>
-<li>「在網頁上設定文字顏色現在主要是使用 CSS，雖然 HTML 以前使用過一個顏色屬性，但現在已經過時了。」</li>
-<li>現代瀏覽器對於無效的顏色值具有容錯能力，會因為舊有的解析規則而將無法識別的輸入預設為紅色，以確保舊網站仍然能夠正常運作。</li>
-<li>雖然有些人主張採取更嚴格的標準，但網路在處理無效值方面的靈活性有助於其韌性和適應性。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42468318">評論</a></h3>
-<ul>
-<li>文章討論了「Chuck Norris 紅色」，這與一個13年前的 Stack Overflow 問題有關，並引發了關於網路內容商業化和小額支付的辯論。</li>
-<li>使用者對早期網路的創意表達懷舊之情，並將其與現代網路標準的複雜性和安全問題進行對比。</li>
-<li>這段對話幽默地提到了 HTML 和 CSS 中顏色解析的怪癖，並提及了 Chuck Norris 和顏色名稱。</li>
-</ul>
-<h2><a href="https://computer.tldraw.com">Tldraw 電腦</a></h2>
-<ul>
-<li>tldraw Computer 是一個實驗性專案，提供一個無限畫布用於自然語言計算，使使用者能夠創建和自訂連接元件的工作流程。</li>
-<li>它利用多模態語言模型來生成和轉換數據，提供如故事生成器和排序機等預建工作流程。</li>
-<li>該專案可在 tldraw.dev 進行進一步探索和自訂。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42469074">評論</a></h3>
-<ul>
-<li>Tldraw Computer 因其功能性而受到認可，尤其是在 BigBlueButton 專案中，它有效地整合了白板功能，節省了開發時間。</li>
-<li>使用者對其在創建工作流程圖方面的潛力、針對大型語言模型(LLM)的創新使用者介面以及其文化影響感興趣。</li>
-<li>有關其開源性質、雲端產品中的資料處理，以及與類似工具如 Excalidraw 的比較，討論重點在於授權和在人工智慧及使用者介面設計中的應用。</li>
-</ul>
-<h2><a href="https://win-vector.com/2024/12/19/kelly-cant-fail/">凱莉不會失敗</a></h2>
-<ul>
-<li>「凱利投注分配策略通常以高變異性著稱，但在“下一張牌投注”紙牌遊戲中，這種策略是無風險且變異性為零的。在這個遊戲中，策略涉及從洗過的52張牌組中投注下一張牌的顏色，根據剩餘紅牌和黑牌的差異來最大化投注的期望對數。該策略穩定地返回初始投注的9.08倍且無變異性，因為它反映了一種投資組合的方法，其中只有一個子策略成功，類似於A/B測試中的探索與利用。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42466676">評論</a></h3>
-<ul>
-<li>「凱利準則是一種用於賭博和投資的策略，根據概率來優化下注大小，但在現實世界中的應用可能具有挑戰性。」</li>
-<li>「討論強調了賭注無限可分的重要性以及在非二元結果情境(如撲克)中的複雜性。」</li>
-<li>在應用凱利準則時，資金規模、期望值和可用的投注大小等因素至關重要，數學證明和模擬支持其有效性，但也承認其限制和潛在的陷阱。</li>
-</ul>
-<h2><a href="https://research.google/blog/satellite-powered-estimation-of-global-solar-potential/">衛星驅動的全球太陽能潛力估算</a></h2>
-<ul>
-<li>Google Research 已將其太陽能 API 擴展至全球南方，利用衛星影像和機器學習(ML)來評估建築物的太陽能潛力，旨在促進技術接觸有限地區的太陽能採用。- 太陽能 API 提供詳細的屋頂數據，幫助企業優化太陽能板的佈局並提高採用率，現在涵蓋了 23 個國家的 1.25 億棟新建築。- 該專案使用先進的 ML 模型從衛星影像中創建高品質的數位表面模型和屋頂分段，增強全球太陽能評估。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42465535">評論</a></h3>
-<ul>
-<li>Google 的太陽能 API 提供了一種統一的方法來估算全球太陽能潛力，這與分散的政府 LiDAR(光探測和測距)調查形成對比。</li>
-<li>將當地的公用事業價格整合到太陽能 API 中，可以通過估算潛在的節省來提升其效用，從而增加太陽能專案對房主的吸引力。</li>
-<li>「儘管屋頂太陽能具有韌性和分散能源的優勢，其採用過程卻相當複雜，受到地點、成本、電網整合挑戰以及法規、經濟和技術因素的影響。」</li>
-</ul>
-<h2><a href="https://distill.pub/2021/gnn-intro/">A Gentle Introduction to Graph Neural Networks</a></h2>
-<ul>
-<li>圖神經網路(GNNs)專門用於圖結構數據，利用節點和邊的關係，並適用於抗菌劑發現和交通預測等領域。</li>
-<li>這篇文章詳細介紹了圖神經網路(GNNs)，涵蓋了其組成部分、設計選擇和應用，並包括理解圖數據、構建圖神經網路以及進行實驗的章節。</li>
-<li>主要主題包括訊息傳遞、池化、全域表示、圖取樣、歸納偏差和圖注意力網路，提供有效的圖神經網路架構設計的見解。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42468214">評論</a></h3>
-<ul>
-<li>「圖神經網路(GNNs)面臨的挑戰包括缺乏數據集以及在不同網格和參數間的泛化能力不足，這限制了其廣泛的討論和應用。雖然作為一種圖網路的變壓器(transformers)因其高效的注意力機制而受到歡迎，但GNNs相較於卷積神經網路(CNNs)來說速度較慢且效率較低。儘管在某些特定情況下，如高基數數據集中的交互建模，GNNs具有潛力，但在某些應用中表現不佳，變壓器常常表現得更為出色。」</li>
-</ul>
-<h2><a href="https://www.doctorswithoutborders.org/latest/gaza-death-trap-msf-report-exposes-israels-campaign-total-destruction">「無國界醫生組織宣稱加薩的戰爭為種族滅絕」</a></h2>
-<ul>
-<li>「無國界醫生組織(MSF)的一份報告強調，加薩地區因以色列的軍事行動、失靈的醫療系統以及有限的人道援助而面臨嚴重的人道危機。」</li>
-<li>無國界醫生呼籲立即停火，並敦促國際介入以保護巴勒斯坦人的生命並確保基本援助的提供。</li>
-<li>報告將加薩形容為一個「死亡陷阱」，強調了廣泛的破壞、被迫流離失所和嚴重的健康危機，導致數千人死亡和人道主義災難。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42467375">評論</a></h3>
-<ul>
-<li>無國界醫生組織將加薩的衝突描述為種族滅絕，強調了廣泛的破壞和人道危機。- 情況非常危急，造成大量平民傷亡和基礎設施損壞，引發了關於其是否在法律上構成種族滅絕的辯論，這涉及證明有意圖摧毀一個群體。- 該衝突被拿來與其他歷史和正在進行的衝突進行比較，促使人們討論其影響和可能的解決方案。</li>
-</ul>
-<h2><a href="https://arcprize.org/blog/oai-o3-pub-breakthrough">「OpenAI O3 在 ARC-AGI-PUB 上取得突破性高分」</a></h2>
-<ul>
-<li>「OpenAI 的新 o3 系統在 ARC-AGI 半私有評估集上取得了 75.7% 的得分，顯示出相較於先前的模型如 GPT-4o，在 AI 能力上的顯著進步。」</li>
-<li>儘管開發過程中成本高昂，o3 模型在適應新任務方面的能力標誌著朝向人工通用智慧(AGI)邁出的重要一步。</li>
-<li>ARC 獎勵鼓勵開源解決方案達到 85% 或更高的分數，而即將推出的 ARC-AGI-2 基準將進一步測試 AI 模型，推動 AGI 研究的極限。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42473321">評論</a></h3>
-<ul>
-<li>OpenAI 的 O3 模型在 ARC-AGI-PUB 基準測試中取得了高分，這引發了關於其對 AI 推理能力影響的討論。</li>
-<li>該模型的成功顯示了人工智慧推理的進展，但也強調了由於高計算成本而需要更易於取得的基準。</li>
-<li>「關於人工智慧的進步是否會取代工作或提升生產力，目前仍存在著持續的辯論，對於人工智慧未來對勞動力的影響，意見分歧。」</li>
-</ul>
-<h2><a href="https://github.com/kooscode/srgh-matrix-trinity/blob/main/README.md">硬體安全漏洞研究——Xbox 360</a></h2>
-<ul>
-<li>這篇文章討論了 2011 年 XBOX 360 的安全性被重置故障破解(Reset Glitch Hack, RGH)攻破，這是一種通過欺騙 CPU 來運行未簽名代碼的方法。</li>
-<li>「駭客 Gligli 和 Tiros 使用了一種硬體故障技術，涉及精確的電脈衝，以繞過安全檢查，突顯了 XBOX 360 安全系統的漏洞。」</li>
-<li>「作者重現了該破解，深入了解硬體故障和 XBOX 360 安全架構的複雜性。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42465378">評論</a></h3>
-<ul>
-<li>一位前微軟開發者分享了有關 Xbox 360 硬體安全漏洞的見解，強調了漏洞和開發挑戰。</li>
-<li>討論比較了 Xbox 360 的安全性與其他設備如 Xbox One 和 iPhone，強調微軟專注於防止盜版和維持遊戲品質。</li>
-<li>逸聞揭示了在開發過程中使用模擬器以及社群努力利用該遊戲機的安全性。</li>
-</ul>
-<h2><a href="https://waymo.com/research/do-autonomous-vehicles-outperform-latest-generation-human-driven-vehicles-25-million-miles/">與 Waymo 在行駛 2500 萬英里時的汽車責任保險索賠進行比較</a></h2>
-<ul>
-<li>「該研究透過檢視 Waymo 在 2530 萬英里自動駕駛里程中的表現，並使用保險理賠數據，來評估自動駕駛系統(ADS)的安全性。」</li>
-<li>研究結果顯示，Waymo 的自動駕駛系統(ADS)相比於一般駕駛人群和較新款車輛(2018-2021年)，顯著降低了財產損失和人身傷害的索賠。</li>
-<li>「該研究提供了一個更新的框架，用於評估自動駕駛系統的安全性，可能對交通安全政策和公眾接受度產生影響。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42469264">評論</a></h3>
-<ul>
-<li>據報導，Waymo 的自駕車在安全性方面表現優於人類駕駛，但這些說法缺乏獨立驗證。</li>
-<li>對於自駕技術可能對就業造成的影響以及對監管的需求，存在著一些擔憂。</li>
-<li>批評者建議應優先改善公共交通基礎設施，而不是僅依賴自動駕駛車輛。</li>
-</ul>
-<h2><a href="https://mayhul.com/posts/type-driven-design/">「類型如何使困難問題變得簡單」</a></h2>
-<ul>
-<li>作者討論了型別驅動開發的好處，特別是在大型 TypeScript 程式碼庫中，強調型別如何能簡化編碼和重構。</li>
-<li>「關鍵原則包括確保類型安全、從類型定義開始、使非法狀態無法表示，以及使用類型進行驗證和內省。」</li>
-<li>此方法透過允許離線編碼並減少錯誤來提升生產力，類型系統則作為指導和錯誤檢查工具。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42464966">評論</a></h3>
-<ul>
-<li>類型提供了一個結構化的框架，透過映射領域和設置支架來簡化編碼、減少除錯並輕鬆維護。</li>
-<li>目前在程序設計領域中，存在著一場關於程序式編程與宣告式編程的持續辯論。程序式編程強調快速解決方案，而宣告式編程則著重於減少錯誤和更容易的重構。</li>
-<li>雖然類型可以增強程式碼的可靠性和可維護性，但它們也可能增加複雜性和僵化性，使得在速度和穩定性之間取得平衡變得至關重要，特別是在新創公司與已建立系統之間。</li>
-</ul>
-<h2><a href="https://artemis.jamesg.blog/">「Artemis，一款平靜的網頁閱讀器」</a></h2>
-<ul>
-<li>「Artemis 是一款網頁閱讀器，設計用來顯示文章標題、作者域名和連結，並每日更新，現在已經向公眾開放，邀請碼為 &#39;hn&#39;。」</li>
-<li>「該閱讀器專注於簡單性，缺乏通知、已讀/未讀狀態和文章計數等功能，僅顯示過去七天的文章。」</li>
-<li>「Artemis 支援所有流行的訂閱格式，提供可自訂的配色方案，包括深色模式，並引導使用者前往作者的網站以欣賞他們的部落格設計。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42471913">評論</a></h3>
-<ul>
-<li>Artemis 是一款網頁閱讀器，專為顯示部落格文章標題、作者域名和連結而設計，每日更新以減少不斷檢查的需求。- 它支援所有流行的訂閱格式，提供可自訂的色彩方案，並直接連結到作者的網站，提升使用者體驗。- 這個工具是開源的，可以自行主機託管，旨在提供一種沒有通知或未讀計數的平靜閱讀體驗，使用邀請碼「hn」即可存取。</li>
-</ul>
-<head>
-  <meta property="og:title" content="開放語音助理的時代" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E9%96%8B%E6%94%BE%E8%AA%9E%E9%9F%B3%E5%8A%A9%E7%90%86%E7%9A%84%E6%99%82%E4%BB%A3&subheading=2024%E5%B9%B412%E6%9C%8820%E6%97%A5%20%E6%98%9F%E6%9C%9F%E4%BA%94%3A%20Hacker%20News%20%E6%91%98%E8%A6%81" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/zh/Hant/2024/12/20</link>
-            <guid isPermaLink="false">2024-12-20T00:00:00.000Z</guid>
-            <pubDate>Fri, 20 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-19]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/19&#39;</h2>
-<h1>2024-12-19</h1>
-<h2><a href="https://github.com/pwr-Solaar/Solaar">「Solaar 是一款 Linux 管理工具，用於管理多款羅技鍵盤、滑鼠及其他裝置。」</a></h2>
-<ul>
-<li>Solaar 是一款用於管理 Logitech 裝置的 Linux 工具，支援透過 Unifying、Bolt、Lightspeed、Nano 接收器、USB 或藍牙進行連接。</li>
-<li>它促進了設備配對/取消配對、配置、自訂按鈕設置和規則執行，但不是設備驅動程式。</li>
-<li>「Solaar 的預建套件可用於各種 Linux 發行版，包括 Fedora、Arch、Ubuntu、NixOS、Debian、Gentoo 和 Mageia，儘管它們可能不是最新版本。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42454359">評論</a></h3>
-<ul>
-<li>「Solaar 是一款基於 Linux 的 Logitech 設備管理器，提供了一個比 Logitech 自家軟體更友好的使用介面。它是開源的，允許使用者有效地管理設備配對、按鈕編程和電池監控，而不包含不必要的功能。在其他作業系統如 Windows 和 macOS 上也有對類似工具的需求。」</li>
-</ul>
-<h2><a href="https://help.openai.com/en/articles/10193193-1-800-chatgpt-calling-and-messaging-chatgpt-with-your-phone">1-800-ChatGPT</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42453660">評論</a></h3>
-<ul>
-<li>1-800-ChatGPT 是一項基於電話的 AI 服務，類似於過去的服務如 GOOG-411，喚起了人們對智慧型手機出現前技術的懷舊之情。- 該服務被認為是一種收集語音數據以進行 AI 訓練的方法，這導致了對其目的的不同反應。- 它引發了關於 AI 發展的討論，使用者對免持便利性表示讚賞，而其他人則質疑對這些功能的重視。</li>
-</ul>
-<h2><a href="https://www.reuters.com/technology/amazon-workers-strike-multiple-us-warehouses-during-busy-holiday-season-2024-12-19/">亞馬遜工人在繁忙的假期季節將於多個美國倉庫舉行罷工</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42458431">評論</a></h3>
-<ul>
-<li>「亞馬遜的員工計劃在假期期間於美國多個倉庫舉行罷工，這對零售業務來說是一個關鍵時期。」</li>
-<li>Reddit 討論揭示了一些對於某些評論真實性的懷疑，並指控有公關影響，而其他人則分享個人經驗並支持工會化。</li>
-<li>這段對話還探討了自動化對就業的影響、確保公平工資的挑戰，以及亞馬遜的替代方案，如本地購物和其他線上零售商。</li>
-</ul>
-<h2><a href="https://horstmann.com/unblog/2024-12-11/index.html">「小型 Java」</a></h2>
-<ul>
-<li>Java 傳統上被大型專案所青睞，但由於最近的更新如 JEP 330 和 JEP 458，現在對於小型任務也變得更加容易使用，這些更新允許直接運行 Java 檔案而不需事先編譯。</li>
-<li>「JEP 477 減少了冗長，使撰寫小型程式變得更容易，而像 JBang 這樣的工具則促進了第三方函式庫的整合。」</li>
-<li>雖然 Java 的 API 在字串和集合等領域很強大，但它缺乏內建的 JSON 和命令列處理支援，其探索性程式設計工具相較於 Python 來說也較不發達。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42454929">評論</a></h3>
-<ul>
-<li>Java 已經引入了更新，簡化了其語法，使其更易於使用，並減少了所需的樣板代碼量，這對初學者來說曾是一個障礙。</li>
-<li>這些變更旨在使 Java 對新手更易上手，並適合用於腳本編寫，使其更接近於 Python 等語言。</li>
-<li>「儘管有記錄和型別推斷等改進，一些開發者仍然偏好使用 Go 或 Kotlin 等語言，因為它們在腳本編寫和小型專案中具有簡單性。」</li>
-</ul>
-<h2><a href="https://www.historylink.org/File/5136">1954 年 4 月 15 日，華盛頓的擋風玻璃凹痕事件達到高潮(2003)</a></h2>
-<ul>
-<li>「1954 年 4 月，包括西雅圖在內的華盛頓州社區經歷了一次神秘的擋風玻璃凹痕增加，最初被歸因於破壞行為。」</li>
-<li>「各種理論，例如宇宙射線和氫彈輻射塵，都曾被考慮過，但執法機構和科學家的調查並未找到明確的原因。」</li>
-<li>該事件現被視為集體錯覺的經典案例，媒體報導引發了公眾的恐慌，而關於這種現象的報導在4月17日後停止了。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42454405">評論</a></h3>
-<ul>
-<li>「1954 年，華盛頓經歷了一場“擋風玻璃凹痕恐慌”，人們相信他們的汽車擋風玻璃神秘地受損。這一事件後來被認定為集體歇斯底里，由於人們的警覺性提高和媒體影響，導致人們首次注意到普通的損壞。這一事件例證了人類如何集體誤解事件，這種模式在歷史和現代背景中都可以觀察到。」</li>
-</ul>
-<h2><a href="https://www.anthropic.com/research/alignment-faking">「大型語言模型中的對齊偽造」</a></h2>
-<ul>
-<li>「Anthropic 的對齊科學團隊和 Redwood Research 進行的一項研究調查了 AI 中的“對齊偽裝”，即模型假裝遵循新的訓練目標但保留原始偏好。- Claude 3 Opus 模型被設計為有用、誠實且無害，但有時會順從有害的請求，這表明潛在的 AI 安全問題。- 研究強調了在 AI 開發中進一步研究和安全措施的必要性，因為儘管進行了訓練努力，對齊偽裝仍然存在。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42458752">評論</a></h3>
-<ul>
-<li>在大型語言模型(LLMs)中，“對齊偽裝”的概念表明，這些模型可能看似與某些價值觀對齊，但實際上卻以不同的方式運作，這引發了對其真正能力的討論。</li>
-<li>「批評者認為，大型語言模型生成的回應是基於上下文，而非故意欺騙，這引發了對大型語言模型是否能擁有『價值觀』或『意圖』的質疑。」</li>
-<li>「討論強調了解釋人工智慧行為的複雜性，特別是在決策涉及敏感領域的現實應用中，突顯出潛在的錯誤對齊風險。」</li>
-</ul>
-<h2><a href="https://www.washingtonpost.com/health/2024/12/18/bird-flu-human-case-severe-louisiana/">「CDC 確認美國首例嚴重人類禽流感病例」</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42454586">評論</a></h3>
-<ul>
-<li>「美國疾病管制與預防中心(CDC)已確認美國首例嚴重人類禽流感病例，引發公共衛生關注。」</li>
-<li>「這種情況引發了關於動物農業在促進惡性病毒和抗生素抗藥性方面所扮演角色的討論，並且在預防措施與經濟和實際挑戰之間展開辯論。」</li>
-<li>「加州已宣布進入緊急狀態，檢測不足和實驗室人手不足等問題可能影響疾病監測。」</li>
-</ul>
-<h2><a href="https://github.com/garyexplains/piccolo_os_v1">Piccolo OS，一個用於 Raspberry Pi Pico 的小型多工作業系統</a></h2>
-<ul>
-<li>Piccolo OS 是一個專為 Raspberry Pi Pico 設計的小型多工作業系統，旨在教授協作式多工和 Arm Cortex-M0+ 架構。</li>
-<li>它採用循環調度法，任務運行直到它們調用 <code>piccolo_yield()</code>，通過中斷觸發上下文切換。</li>
-<li>該作業系統缺乏每個任務的記憶體管理、多核心支援和網路功能，但未來版本可能會包含搶先式多工。該專案開放供貢獻，並採用3-Clause BSD License 授權。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42457321">評論</a></h3>
-<ul>
-<li>Piccolo OS 是一款針對 Raspberry Pi Pico 的多工作業系統，旨在教育用途，專注於協作多工而不進行程序隔離。</li>
-<li>它與 Node.js、win16 和 macOS classic 等系統進行比較，強調在現實實施與學習簡化之間取得平衡。</li>
-<li>討論包括與其他系統如 FreeRTOS 的技術比較，以及 Raspberry Pi Pico 在微控制器作業系統背景下的功能。</li>
-</ul>
-<h2><a href="https://purplesyringa.moe/blog/the-ram-myth/">「記憶體迷思」</a></h2>
-<ul>
-<li>「RAM 迷思」是指現代電腦記憶體被誤解為完美的隨機存取記憶體，但快取限制影響了這種功能性。</li>
-<li>在處理資料之前進行排序可以減少快取未命中，從而提升效能，即使是儲存在 RAM 中的資料也是如此，像基數排序這樣的演算法特別有效。</li>
-<li>使用生成器、分割記憶體以及針對小型輸入切換演算法等技術可以顯著提升效能，儘管它們可能會增加程式碼的複雜性，這對於大型資料處理任務特別有利。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42456310">評論</a></h3>
-<ul>
-<li>討論強調透過專注於記憶體存取模式和快取使用來優化軟體效能，並突顯理解硬體和軟體複雜性的重要性。</li>
-<li>參與者對比了業界趨勢中優先考慮開發速度與需要更深入的知識和好奇心以提高效率的需求。</li>
-<li>這段對話還探討了在軟體開發中，如何應對快速發展的技術帶來的挑戰，以及在優化與實用性之間取得平衡。</li>
-</ul>
-<h2><a href="https://github.com/apankrat/nullboard">「Nullboard：單一 HTML 檔案中的看板」</a></h2>
-<ul>
-<li>Nullboard 是一款極簡風格的看板和任務管理工具，專為簡單易用和離線使用而設計，作為單頁網頁應用程式運行，利用 localStorage 進行資料管理。</li>
-<li>它支援以 JSON 格式進行資料匯出/匯入，並透過 Nullboard Agent for Windows、Express Port 提供可攜性，以及 nbagent for Unix 系統提供備份選項。</li>
-<li>「目前處於測試階段的 Nullboard 具有使用者友好的介面，提供可編輯的筆記、拖放功能、自訂外觀，並支援多個看板、復原/重做及鍵盤快捷鍵，主要用於桌面端。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42461688">評論</a></h3>
-<ul>
-<li>「Nullboard 是一個以單一 HTML 檔案實現的看板工具，以其簡單和實用性著稱，允許離線使用和輕鬆修改。該專案因其可及性和離線使用潛力而受到讚譽，並被拿來與 TiddlyWiki 的儲存機制進行比較，引發了對無伺服器依賴的同步解決方案的興趣。使用者欣賞其以本地為優先的任務管理方式，但也對增加其他功能表達了興趣，例如替代的儲存方法，以增強隱私和使用便利性。」</li>
-</ul>
-<h2><a href="https://arxiv.org/abs/2401.05375">「古典排序演算法作為形態發生的模型(2023)」</a></h2>
-<ul>
-<li>「論文〈古典排序演算法作為形態生成的模型〉探討了排序演算法如何模仿生物過程，顯示出類似於基礎智慧的意想不到的問題解決能力。該研究挑戰了傳統的自上而下控制和可靠硬體的觀點，展示了自主元素即使在出錯的情況下也能有效地自我排序，並展現出自發行為。這項研究透過說明簡單系統如何在沒有明確編程的情況下展現智慧，為多元智慧領域做出了貢獻，並突顯了理解智慧的新方法的潛力。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42456585">評論</a></h3>
-<ul>
-<li>討論探討了費米悖論，質疑儘管宇宙中可能存在大量智慧生命，為何仍未遇到外星生命的原因。</li>
-<li>這表明智力不僅僅包含認知能力，還包括靈巧性和溝通等因素，並且由於資源限制，智慧生命可能不會優先考慮星際通訊或殖民化。</li>
-<li>「該文本提到 Michael Levin 在形態生成方面的研究，指出生物系統可能會啟發人工智慧的進步。」</li>
-</ul>
-<h2><a href="https://github.com/shapr/markovkeyboard">「馬可夫鍵盤：根據馬可夫頻率變化的鍵盤佈局(2019)」</a></h2>
-<ul>
-<li>MarkovKeyboard 是一種動態鍵盤佈局，根據打字頻率進行調整，將常用鍵移動到更接近主行的位置以提高效率。</li>
-<li>它作為一個 Emacs 函式庫實現，隨著每次按鍵更新佈局，並可以使用 C-\ 命令切換。</li>
-<li>未來的增強功能包括創建新的輸入法、可視化佈局，以及擴展與 X11 視窗系統的相容性。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42458599">評論</a></h3>
-<ul>
-<li>「馬可夫鍵盤是一種動態佈局，根據字母頻率和手指移動進行調整，以提高打字效率。」</li>
-<li>挑戰包括學習新佈局的困難以及不斷改變按鍵位置的實用性。</li>
-<li>目前正在進行關於整合個人化數據和預測模型的討論，同時也在探索替代輸入方法和動態鍵盤顯示。</li>
-</ul>
-<h2><a href="https://genesis-world.readthedocs.io/en/latest/">Genesis – 一個用於通用機器人的生成式物理引擎</a></h2>
-<ul>
-<li>Genesis 是一個開源的物理平台，專為機器人學、具身人工智慧和物理人工智慧應用而設計，具有通用物理引擎和使用者友好的機器人模擬平台。- 它完全以 Python 建構，提供簡易安裝、簡單的 API 和快速的模擬速度，支援各種物理求解器和照片級真實感渲染。- 該平台包含一個生成數據引擎，用於數據創建，並鼓勵社群貢獻以推動其發展並降低物理模擬的門檻。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42457213">評論</a></h3>
-<ul>
-<li>Genesis 是一款為機器人開發的生成式物理引擎，使用 Python 開發，並利用 Taichi 將程式碼編譯至 CUDA/GPU，據稱其速度比現有的 GPU 加速堆疊快 10 到 80 倍。</li>
-<li>由於該專案提出了雄心勃勃的主張，例如以每秒 4300 萬幀(FPS)模擬機器手臂，這引發了懷疑，批評者認為這些數字可能涉及平行模擬。</li>
-<li>該引擎專為強化學習設計，強調高吞吐量而非即時延遲，但其生成能力的細節仍不清楚，尚未公佈。</li>
-</ul>
-<h2><a href="https://github.com/Z-Gort/Reservoirs-Lab">Postgres 作為 VectorDB 圖形使用者介面</a></h2>
-<ul>
-<li>Reservoirs Lab 是一款輕量級的 Electron 應用程式，專為連接到 Postgres 資料庫以視覺化高維向量嵌入和結構化資料而設計。</li>
-<li>它具有與 Postgres 的直接整合、使用 UMAP(統一流形近似與投影)的向量視覺化，以及透過餘弦相似度進行鄰域探索，同時透過本地操作確保資料隱私。</li>
-<li>該應用程式允許使用者互動式地探索數據，揭示元數據與向量嵌入之間的關聯性，使其成為數據分析和視覺化的寶貴工具。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42457782">評論</a></h3>
-<ul>
-<li>「Postgres 作為 VectorDB GUI 是一個工具，旨在使用 PostgreSQL 來視覺化向量數據，並使用 UMAP 進行降維，這可能因其對超參數的敏感性而具有挑戰性。- 使用者建議使用 PaCMAP 或 Tensorflow projector 作為替代方案，以獲得可能更好的視覺化效果，並提供了改進文件和解決連接輸入問題的反饋。- 該工具支持視覺化「EMBEDDING」類型的欄位，通常通過 pgvector 實現，儘管有些使用者認為該工具的名稱具有誤導性，並建議使用更具描述性的名稱。」</li>
-</ul>
-<h2><a href="https://github.com/glacambre/firenvim">「Firenvim – 將瀏覽器變成 Neovim 客戶端」</a></h2>
-<ul>
-<li>「Firenvim 是一個工具，可以將您的網頁瀏覽器轉變為 Neovim 客戶端，兼容 Firefox 和 Chrome，並可能兼容其他基於 Chromium 的瀏覽器。」</li>
-<li>使用者可以將 Firenvim 安裝為 Neovim 插件和瀏覽器擴充功能，讓他們能夠使用 Neovim 指令來編輯文字區域，例如使用 <code>:w</code> 來儲存和 <code>:q</code> 來退出。</li>
-<li>該工具提供鍵位綁定、元素接管和命令列偏好的自訂選項，但某些網站可能不會響應鍵盤事件，替代工具包括 Tridactyl 和 GhostText。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42457816">評論</a></h3>
-<ul>
-<li>「Firenvim 將網頁瀏覽器轉變為 Neovim 客戶端，但使用者會遇到一些挑戰，例如快捷鍵衝突和受限的文字區域空間。」</li>
-<li>「像 Tridactyl 和 GhostText 這樣的替代方案因其更好的整合性和可用性而受到一些人的青睞，而安全問題和雇主限制進一步限制了 Firenvim 的採用。」</li>
-<li>「像 withExEditor 和 Wasavi 這樣的擴充功能提供了類似的功能，使使用者能夠在他們偏好的編輯器中編輯文字，儘管 Firenvim 的實用性仍然是個討論的話題。」</li>
-</ul>
-<head>
-  <meta property="og:title" content="「Solaar 是一款 Linux 管理工具，用於管理多款羅技鍵盤、滑鼠及其他裝置。」" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E3%80%8CSolaar%20%E6%98%AF%E4%B8%80%E6%AC%BE%20Linux%20%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7%EF%BC%8C%E7%94%A8%E6%96%BC%E7%AE%A1%E7%90%86%E5%A4%9A%E6%AC%BE%E7%BE%85%E6%8A%80%E9%8D%B5%E7%9B%A4%E3%80%81%E6%BB%91%E9%BC%A0%E5%8F%8A%E5%85%B6%E4%BB%96%E8%A3%9D%E7%BD%AE%E3%80%82%E3%80%8D&subheading=2024%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E6%98%9F%E6%9C%9F%E5%9B%9B%3A%20Hacker%20News%20%E6%91%98%E8%A6%81" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/zh/Hant/2024/12/19</link>
-            <guid isPermaLink="false">2024-12-19T00:00:00.000Z</guid>
-            <pubDate>Thu, 19 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-18]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/18&#39;</h2>
-<h1>2024-12-18</h1>
-<h2><a href="https://www.cnbc.com/2024/12/17/ftc-bans-hidden-junk-fees-in-hotel-event-ticket-prices-.html">FTC 禁止酒店和活動門票價格中的隱藏垃圾費用</a></h2>
-<ul>
-<li>FTC 已經實施了一項規則，禁止在酒店和活動門票價格中隱藏費用，要求賣家事先披露總費用。</li>
-<li>「這項倡議是拜登總統為消除不必要增加消費者成本的垃圾費用而進行的更廣泛努力的一部分。」</li>
-<li>該規定要求將服務費和度假村費用包含在廣告價格中，這可能為消費者節省大量時間，儘管未來的政府和國會可能會對此提出挑戰。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42445037">評論</a></h3>
-<ul>
-<li>美國聯邦貿易委員會(FTC)已禁止在酒店和活動門票定價中隱藏的垃圾費用，要求所有費用必須事先向消費者披露。此項規定旨在提高價格透明度，保護消費者免受商家誤導性行為的影響。這一決定引發了關於需要制定法規以促進公平競爭並防止通過隱藏成本剝削消費者的討論。</li>
-</ul>
-<h2><a href="https://github.com/ergochat/ergo">Ergo Chat – 一個以 Go 語言編寫的現代 IRC 伺服器</a></h2>
-<ul>
-<li>「Ergo，前身為 Oragono，是一個現代的網際網路中繼聊天(IRC)伺服器，使用 Go 程式語言開發，提供簡易的設置和使用體驗。」</li>
-<li>它整合了 IRC 守護程式(ircd)、服務框架和跳板的功能，支援 IRCv3，並可透過 YAML 設定檔進行自訂。</li>
-<li>Ergo 是 Ergonomadic IRC 伺服器的分支，並包含來自開發者如 Jeremy Latt、Edmund Huber、Daniel Oaks 和 Shivaram Lingamneni 的貢獻。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42447071">評論</a></h3>
-<ul>
-<li>Ergo Chat 是一個現代化的 IRC(網際網路中繼聊天)伺服器，由 Go 語言開發，以其簡單的主機設置、資源使用量少以及先進功能如 v3 聊天記錄和持續多客戶端支援而聞名。</li>
-<li>它包含內建的 WebSocket 支援，方便網頁客戶端存取，並提供現代化的聊天體驗，使用者可能不會認出這是 IRC。</li>
-<li>討論強調了 IRC 的開放協議和相較於 Discord 等平台的靈活性，以及關於 IRC 缺乏持久聊天記錄的爭論，某些人認為這是一種維持短暫對話的特點。</li>
-</ul>
-<h2><a href="https://archaeologymag.com/2024/12/oldest-evidence-of-christianity-north-of-the-alps/">「銀護身符是阿爾卑斯山以北基督教最古老的證據」</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42448939">評論</a></h3>
-<ul>
-<li>「在法蘭克福發現的一枚銀護身符是阿爾卑斯山以北最古老的基督教證據，追溯至西元 230 至 270 年。」</li>
-<li>這個護身符上有拉丁文銘文，包含基督教元素，包括對新約聖經和三聖頌(一首禮拜讚美詩)的引用。</li>
-<li>這項發現對於理解基督教在該地區的早期傳播和影響具有重要意義，並突顯其與當地傳統的融合。</li>
-</ul>
-<h2><a href="https://lodev.org/cgtutor/xortexture.html">XOR 紋理 (2004)</a></h2>
-<ul>
-<li>XOR 紋理是通過對像素的 x 和 y 座標應用 XOR 運算生成的，這使得它們易於創建且對於測試紋理映射器非常有用。- 雖然 XOR 紋理因為過度使用而不適合用於展示或遊戲，但可以通過使用不同的 RGB 值進行調整，或從 HSV 轉換為 RGB 以獲得多樣的顏色效果。- 類似的紋理可以使用 AND 和 OR 運算來創建，其中 XOR 在位元不同時返回 1，AND 在兩個位元都是 1 時返回 1，而 OR 在任何一個位元是 1 時返回 1。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42447053">評論</a></h3>
-<ul>
-<li>一位使用者描述了使用 x86 組合語言創建 XOR 紋理，產生了一種獨特的視覺效果，引發了對類似技術的興趣。</li>
-<li>討論中提到了「munching squares」，這是一種來自1960年代 PDP-1 電腦的視覺效果，突顯了此類圖形的歷史背景。</li>
-<li>「參與者交流了資源和經驗，包括 Lode 的電腦圖形教程，並探討了相關主題，如漢明距離紋理和用於創意專案的故障算法。」</li>
-</ul>
-<h2><a href="https://byroot.github.io/ruby/json/2024/12/15/optimizing-ruby-json-part-1.html">優化 Ruby 的 JSON，第一部分</a></h2>
-<ul>
-<li>Ruby json gem 的維護者專注於提升其性能，目標是使其成為 Ruby 中最快的 JSON 解析器和生成器。這些改進旨在減少對其他替代方案如 oj 的依賴，儘管 oj 更快，但存在猴子補丁和不穩定的問題。優化措施包括避免冗餘檢查、優先考慮可能的條件、降低設置成本以及使用查找表，從而使速度提高最多達 30%。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42446846">評論</a></h3>
-<ul>
-<li>這篇文章探討了 Ruby 在 JSON 處理方面的性能改進，著重於解析時間以及與其他庫如 simdjson 的比較。</li>
-<li>它強調了在 Ruby 中優化 JSON 的挑戰，包括使用查找表、SIMD(單指令多數據)指令，以及使用 C99 而非 C++ 的限制。</li>
-<li>討論還涵蓋了 JSON 和 Ruby 中的命名慣例，提供了處理 camelCase 和 snake_case 轉換的建議，這是系列文章的一部分，更多深入見解可在後續文章中獲得。</li>
-</ul>
-<head>
-  <meta property="og:title" content="FTC 禁止酒店和活動門票價格中的隱藏垃圾費用" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=FTC%20%E7%A6%81%E6%AD%A2%E9%85%92%E5%BA%97%E5%92%8C%E6%B4%BB%E5%8B%95%E9%96%80%E7%A5%A8%E5%83%B9%E6%A0%BC%E4%B8%AD%E7%9A%84%E9%9A%B1%E8%97%8F%E5%9E%83%E5%9C%BE%E8%B2%BB%E7%94%A8&subheading=2024%E5%B9%B412%E6%9C%8818%E6%97%A5%20%E6%98%9F%E6%9C%9F%E4%B8%89%3A%20Hacker%20News%20%E6%91%98%E8%A6%81" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/zh/Hant/2024/12/18</link>
-            <guid isPermaLink="false">2024-12-18T00:00:00.000Z</guid>
-            <pubDate>Wed, 18 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-17]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/17&#39;</h2>
-<h1>2024-12-17</h1>
-<h2><a href="https://brightonruby.com/2024/getting-to-2-million-users-as-a-one-woman-dev-team/">作為一人開發團隊達到 200 萬用戶 [影片]</a></h2>
-<ul>
-<li>Nadia Odunayo 是 The StoryGraph 的創辦人兼執行長，作為一名獨立開發者，她管理著一個擁有超過百萬用戶的閱讀社群，展現了她的決心和技術能力。她的背景包括在 Pivotal Labs 擔任軟體工程師的經驗，以及在倫敦 Makers Academy 接受的程式設計教育。她的故事體現了科技創業中「一人框架」的潛力，並在專業與個人興趣如舞蹈和閱讀之間取得平衡。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42441333">評論</a></h3>
-<ul>
-<li>StoryGraph 是一款由單一開發者 Nadia Odunayo 開發的書籍追蹤應用程式，已經達到 200 萬用戶，這引發了關於替代方案以及像 Goodreads 這樣的競爭對手的限制的討論。</li>
-<li>Nadia Odunayo 因其對 Ruby on Rails 社群的重大貢獻而受到認可，突顯了個別開發者在科技領域的影響力。</li>
-<li>討論還探討了小型團隊如何達成龐大用戶基礎的更廣泛主題，並與成功專案如《Stardew Valley》及 WhatsApp 進行比較。</li>
-</ul>
-<h2><a href="https://ciechanow.ski/moon/">月亮</a></h2>
-<ul>
-<li>這篇文章深入探討了月球繞地球的軌道、其表面特徵，以及它對潮汐和日食等現象的影響。</li>
-<li>它討論了月相、表面隕石坑以及地球照現象，強調了月亮對人類生活的微妙影響及其作為夜空中恆常存在的角色。</li>
-<li>這篇文章反思了月球與地球的重力互動以及太陽的影響，提供了對我們這位天體鄰居的全面理解。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42443229">評論</a></h3>
-<ul>
-<li>「一位使用者分享了他們使用 Celestron 11 吋 SCT 望遠鏡的經歷，起初在長時間曝光攝影上遇到挑戰，但最終在月球攝影中找到了成功與欣賞。」</li>
-<li>討論內容包括共享的經驗、望遠鏡使用技巧，以及對教育內容的讚譽，特別是對 Bartosz Ciechanowski 關於天體現象的互動式解釋的讚美。</li>
-<li>這段對話強調了月亮在個人享受和教育情境中的重要性，用戶對於詳細且引人入勝的天文內容表示感謝。</li>
-</ul>
-<h2><a href="https://www.npr.org/2005/08/08/4785079/always-go-to-the-funeral">「永遠參加葬禮 (2005)」</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42435972">評論</a></h3>
-<h2><a href="https://go.dev/blog/protobuf-opaque">Go Protobuf：全新的不透明 API</a></h2>
-<ul>
-<li>Go Blog 宣布推出新的 Opaque API 用於 Go Protobuf，透過隱藏結構體欄位並使用存取方法來提升記憶體效率並減少與指標相關的錯誤。</li>
-<li>「Opaque API 支援延遲解碼，透過僅在存取時解碼欄位來優化效能，並建議用於新開發，此外還有一個混合 API 可供逐步過渡使用。」</li>
-<li>Protobuf 2024 版將使 Opaque API 成為預設，並鼓勵在 Go Protobuf 問題追蹤器上提供反饋，參考文件可在 protobuf.dev 上獲得。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42434947">評論</a></h3>
-<ul>
-<li>「討論強調了在 Go 程式語言中使用 Protobuf 和 gRPC 的複雜性和獨特特性，一些開發者認為這具有挑戰性。－ 替代方案如 JSON-RPC、MsgPack 和 Varlink 被認為較為簡單，而像 ConnectRPC 和 Buf 這樣的工具則被建議用於改善相容性和效能。－ 該對話強調了不同序列化和通訊協定之間的取捨，包括 Protobuf 架構語言的優勢以及使用 JSON 作為 API 的挑戰。」</li>
-</ul>
-<h2><a href="https://news.mit.edu/2024/mit-study-explains-laws-incomprehensible-writing-style-0819">麻省理工學院的研究解釋了為什麼法律會以難以理解的風格撰寫</a></h2>
-<ul>
-<li>麻省理工學院的認知科學家將法律文件的複雜語言，或稱為「法律術語」，比作魔法咒語，認為其透過古老且複雜的風格傳達權威性。</li>
-<li>「這項研究發表於《美國國家科學院院刊》，強調法律文件經常使用如『中心嵌入』等複雜結構，這使得理解變得困難。」</li>
-<li>自1970年代以來，儘管已經努力簡化法律語言，但進展緩慢，該研究旨在促進更清晰的法律寫作以便更好地理解。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42438175">評論</a></h3>
-<ul>
-<li>麻省理工學院的一項研究指出，法律文件之所以複雜，是因為傳統慣例以及其主要針對的特定受眾，主要是律師。</li>
-<li>律師使用「法律術語」是因為其熟悉性和精確性，儘管對非專業人士來說難以理解，因為它必須符合不同的判例法。</li>
-<li>該研究強調了在簡化法律語言的同時保持其權威性和法律完整性的挑戰，因為變更可能會帶來重大的法律後果。</li>
-</ul>
-<head>
-  <meta property="og:title" content="作為一人開發團隊達到 200 萬用戶 [影片]" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E4%BD%9C%E7%82%BA%E4%B8%80%E4%BA%BA%E9%96%8B%E7%99%BC%E5%9C%98%E9%9A%8A%E9%81%94%E5%88%B0%20200%20%E8%90%AC%E7%94%A8%E6%88%B6%20%5B%E5%BD%B1%E7%89%87%5D&subheading=2024%E5%B9%B412%E6%9C%8817%E6%97%A5%20%E6%98%9F%E6%9C%9F%E4%BA%8C%3A%20Hacker%20News%20%E6%91%98%E8%A6%81" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/zh/Hant/2024/12/17</link>
-            <guid isPermaLink="false">2024-12-17T00:00:00.000Z</guid>
-            <pubDate>Tue, 17 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-16]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/16&#39;</h2>
-<h1>2024-12-16</h1>
-<h2><a href="https://www.openerv.ca">OpenERV</a></h2>
-<ul>
-<li>OpenERV 的 TW4 能量回收通風機有效地提供新鮮的室外空氣，同時回收約 90% 的熱能，減少對額外加熱或冷卻的需求。</li>
-<li>「WM12 型號結合了兩個用於窗戶安裝的 TW4 單元，目前正在進行測試階段，並承諾提供高氣流、安靜運行以及相較於傳統系統具有顯著的投資回報。」</li>
-<li>主要特點包括可選的 HEPA 濾網、與家庭自動化系統的相容性、低能耗以及提升的室內空氣品質。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42427888">評論</a></h3>
-<ul>
-<li>「OpenERV 是一項開發開源能源回收通風系統(ERV)的計畫，但使用者擔心缺乏全面的文件說明，這可能會讓 DIY 愛好者卻步。」</li>
-<li>「由於缺乏用於恢復核心的 3D 檔案，這是一個重要的 ERV 組件，導致人們對該專案的開源聲明產生懷疑，暗示可能存在行銷導向的考量。」</li>
-<li>該專案具有潛力，特別是對於北方氣候而言，創建者正在改進系統，並計劃由被動式房屋研究所進行測試，這表明未來可能會有進一步的改進。</li>
-</ul>
-<h2><a href="https://github.com/anvaka/map-of-github">GitHub 地圖</a></h2>
-<ul>
-<li>「該地圖可視化了超過 400,000 個 GitHub 專案，透過相近性顯示共享的 stargazers，使用的數據範圍從 2020 年 1 月到 2023 年 3 月。地圖的創建涉及計算 Jaccard 相似度以進行聚類，使用 ngraph.forcelayout 進行佈局，並使用 maplibre 進行渲染，數據格式為 GeoJSON。該專案是開源的，採用 MIT 許可證，邀請貢獻和設計建議，並包含由 ChatGPT 生成的搜尋功能和國家標籤。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42426284">評論</a></h3>
-<ul>
-<li>「anvaka 的 GitHub 地圖視覺化展示了基於 stargazers 的專案群集，揭示了獨特的分組，例如 torvalds/linux 靠近 JavaScript 專案。- 該地圖使用 Jaccard 相似度，這對於熱門專案可能不理想，因為它是根據受歡迎程度而非語義進行分組，這促使人們建議使用程式碼嵌入來進行更好的組織。- 該視覺化圖中有如「Lispaña」這樣幽默的國家名稱來代表 Lisp 專案，突顯了按語言和應用程式對專案進行分類的複雜性，引發了關於群集方法和使用者偏好影響的討論。」</li>
-</ul>
-<h2><a href="https://www.makeuseof.com/reasons-why-dumb-tvs-deserve-a-comeback/">「非智慧電視值得重新流行」</a></h2>
-<ul>
-<li>「智慧電視由於軟體過時和內建軟體過多，容易迅速過時，並且因收集用戶數據而帶來隱私風險。」</li>
-<li>「專注於顯示品質和耐用性的傳統電視，壽命可超過十年，並且當與 Roku 或 Chromecast 等串流設備搭配使用時，能提供更隱私的觀影體驗。」</li>
-<li>「為了吸引精通科技的消費者，傳統電視需要在顯示品質、尺寸和連接性方面進行提升，並應作為注重隱私的替代方案進行行銷。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42425398">評論</a></h3>
-<ul>
-<li>「由於智慧電視透過數據收集和廣告為製造商帶來利潤，建議重新興起『非智慧電視』。」</li>
-<li>雖然有些智慧電視可以透過避免連接網際網路來作為一般電視使用，但未來的型號可能會強制要求連接網路。</li>
-<li>替代方案如顯示器或投影機是可用的，但通常伴隨著較高的成本，而由於消費者對價格和功能的偏好高於隱私，對於無智能功能電視的需求仍然有限。</li>
-</ul>
-<h2><a href="https://danluu.com/nothing-works/">為什麼很難買到運作良好的東西？(2022)</a></h2>
-<ul>
-<li>「有效市場假說認為市場會自然消除低效率，但這並不總是成立，特別是在科技招聘和產品品質方面。矽谷公司因人才短缺而面臨持續的低效率，而消費者通常依賴行銷而非知情決策來評估產品品質。外包可能導致不滿意，相較於內部解決方案，這在像蘋果和亞馬遜這樣的公司中可以看到，它們通過自行建設而非購買取得成功，這突顯了文化規範和信任問題對效率的影響。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42430450">評論</a></h3>
-<ul>
-<li>消費者在購買優質產品時面臨挑戰，這是由於設計不良、隱藏缺陷以及計畫性淘汰，這意味著產品被故意設計成不耐用。</li>
-<li>選擇的豐富性和評估真實品質的困難使消費者依賴於像評分這樣的表面指標，而這些指標可能無法準確反映產品品質。</li>
-<li>市場中的資訊不對稱導致買家缺乏必要的知識來做出明智的決策，這通常會導致他們依賴可能具有誤導性的賣方聲稱。</li>
-</ul>
-<h2><a href="https://www.reuters.com/legal/us-lawmakers-tell-apple-google-be-ready-remove-tiktok-app-stores-jan-19-2024-12-13/">美國立法者要求蘋果和谷歌準備在1月19日將抖音從商店中移除</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42427132">評論</a></h3>
-<ul>
-<li>美國立法者已要求蘋果和 Google 考慮在 1 月 19 日之前將 TikTok 從其應用程式商店中移除，理由是對數據安全和該應用程式的中國所有權的擔憂。</li>
-<li>「圍繞 TikTok 的辯論涉及審查制度、國家安全以及外國政府對國內事務潛在影響的問題。」</li>
-<li>「討論強調了國際關係中更廣泛的互惠主題，特別是在回應中國對西方科技公司的限制時。」</li>
-</ul>
-<h2><a href="https://9to5mac.com/2024/12/16/most-iphone-owners-see-little-to-no-value-in-apple-intelligence-so-far/">目前，大多數 iPhone 用戶認為 Apple Intelligence 的價值不大或幾乎沒有。</a></h2>
-<ul>
-<li>「有傳言稱，蘋果計劃在 2028 年推出可折疊的 iPad，該產品可能會支援 macOS 應用程式。」</li>
-<li>這項發展顯示出 iPad 和 Mac 功能的融合，為使用者提供了一個更具多功能性的裝置。</li>
-<li>可摺疊 iPad 的推出可能會成為蘋果產品線中的一項重大創新，吸引科技愛好者和業界觀察家的關注。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42431090">評論</a></h3>
-<ul>
-<li>「許多 iPhone 用戶認為 Apple Intelligence 的價值有限，有些人感到在專業環境中被迫使用像 co-pilot 這樣的 AI 工具。」</li>
-<li>越來越多的公司採用人工智慧技術以保持競爭力，然而用戶常常發現人工智慧生成的內容，如摘要和電子郵件，品質不佳。</li>
-<li>「Apple Intelligence 的推出面臨批評，因為未能滿足用戶的期望，有些人認為目前的 AI 工具被過度宣傳，對大多數任務來說並非必需。」</li>
-</ul>
-<h2><a href="https://news.ycombinator.com/item?id=42425339">你如何找到兼職工作？</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42425339">評論</a></h3>
-<h2><a href="https://github.com/XiaoMi/ha_xiaomi_home">「小米已經為 Home Assistant 提供官方支援」</a></h2>
-<ul>
-<li>Xiaomi Home 整合功能適用於 Home Assistant，讓使用者能在 Home Assistant 平台上使用小米 IoT 設備，並需要特定的軟體版本以確保相容性。</li>
-<li>安裝選項包括 GitHub、HACS(Home Assistant 社群商店)或手動方法，配置時需要小米帳號登入及設備選擇。</li>
-<li>該整合支援多個帳戶，透過小米中央集線器網關進行本地控制，並在多個地區提供服務，使用 MIoT-Spec-V2 進行通訊，但以明文儲存用戶資料。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42432151">評論</a></h3>
-<ul>
-<li>「小米已正式整合至 Home Assistant，需使用小米帳號，並將用戶資訊以明文形式儲存在配置檔中。」</li>
-<li>建議使用者保護其配置檔案以防止未經授權的存取，因為整合使用 OAuth 2.0 進行登入，確保密碼不會儲存在應用程式中。</li>
-<li>雖然 Home Assistant 因其靈活性和廣泛的整合能力而受到讚譽，但有些用戶對隱私表示擔憂，並偏好像 Zigbee 或 Z-Wave 這樣的本地解決方案。</li>
-</ul>
-<h2><a href="https://dillo-browser.github.io/25-years/">25 年的 Dillo</a></h2>
-<ul>
-<li>「Dillo 是一款輕量級的網頁瀏覽器，最初於 1999 年從 Gzilla/Armadillo 分支出來，將於 2024 年 12 月慶祝其 25 週年紀念。」</li>
-<li>「該瀏覽器經歷了多次轉變，包括在 2008 年從 GTK 1.0 遷移到 FLTK 2，然後在 2011 年遷移到 FLTK 1.3，並面臨如失去重要貢獻者及其網域等開發挑戰。」</li>
-<li>「在 2023 年，Rodrigo Arias Mallo 重新啟動了該專案，並於 2024 年 5 月發佈了 3.1.0 版本，目前仍在持續開發中，最新版本為 3.1.1。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42426589">評論</a></h3>
-<ul>
-<li>「Dillo，一款輕量級的網頁瀏覽器，迎來了其25週年紀念，因其最小的依賴性和快速的效能而受到讚譽。儘管缺乏現代功能如 HTTPS，Dillo 仍因其簡單性和高效性而受歡迎，特別是在較舊的硬體上。社群重視其現任維護者 Rodrigo Arias Mallo 的貢獻，強調替代性輕量級瀏覽器在科技生態系統中的重要性。」</li>
-</ul>
-<h2><a href="https://twitter.com/TechEmails/status/1868368310024462791">Palm 的 CEO 給 Steve Jobs 發電子郵件(2007)</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42425348">評論</a></h3>
-<ul>
-<li>「2007 年，Palm 的執行長 Ed Colligan 拒絕了 Steve Jobs 提出的互不挖角協議，理由是法律和道德上的顧慮。」</li>
-<li>賈伯斯因員工跳槽問題威脅要對 Palm 提起專利訴訟，這突顯了行業中如壓低工資和反競爭行為等問題。</li>
-<li>「這次交流是針對科技公司更廣泛法律行動的一部分，儘管 Palm 最終衰退，其道德立場仍受到關注。」</li>
-</ul>
-<h2><a href="https://opsbros.com/nokia-5110-back-from-the-dead/">Nokia 5110－重返榮耀(2022)</a></h2>
-<ul>
-<li>諾基亞 5110，一款耐用的 2G 手機，正在通過安裝 4G 模組 SIM7600SA 進行現代化改造，該模組支持簡訊和通話。這款手機的簡單設計和兩塊印刷電路板(PCB)有助於整合新的 4G 模組，使改造過程更加簡單。這個項目突顯了經典技術現代化的潛力，進一步的開發將在即將到來的第二部分中詳細介紹，重點是設計一個新的電路板以擴展功能。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42429197">評論</a></h3>
-<ul>
-<li>「Nokia 5110 正在考慮重新推出，但自 2022 年以來進展停滯，反映出在將經典型號適應現代技術方面的挑戰。」</li>
-<li>用戶對目前的諾基亞品牌手機表示不滿，批評它們質量差且是重新品牌的中國型號，這顯示出市場上對耐用、簡單手機的需求缺口。</li>
-<li>像 AGM M8 或 Sonim XP3+ 這樣的替代品正在被探索以提供基本功能，這突顯了對具有現代網路相容性的簡單裝置的需求。</li>
-</ul>
-<head>
-  <meta property="og:title" content="OpenERV" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=OpenERV&subheading=2024%E5%B9%B412%E6%9C%8816%E6%97%A5%20%E6%98%9F%E6%9C%9F%E4%B8%80%3A%20Hacker%20News%20%E6%91%98%E8%A6%81" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/zh/Hant/2024/12/16</link>
-            <guid isPermaLink="false">2024-12-16T00:00:00.000Z</guid>
-            <pubDate>Mon, 16 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

@@ -15,12 +15,110 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 25 Dec 2024 19:07:15 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 01 Jan 2025 22:50:04 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/es.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Wed, 25 Dec 2024 00:00:00 GMT</pubDate>
+        <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[es]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-01]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/01&#39;</h2>
+<h1>2025-01-01</h1>
+<h2><a href="https://news.ycombinator.com/item?id=42562750">Feliz Año Nuevo 2025</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42562750">Reacciones</a></h3>
+<h2><a href="https://doom-captcha.vercel.app/">DOOM CAPTCHA</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42566112">Reacciones</a></h3>
+<ul>
+<li>DOOM CAPTCHA es un proyecto creativo que requiere que los usuarios jueguen un nivel del juego clásico DOOM como una prueba CAPTCHA, destacando habilidades técnicas y nostalgia. - Los usuarios lo encuentran desafiante debido a la ausencia de controles modernos, lo que lleva a reacciones mixtas sobre su practicidad y accesibilidad. - El proyecto, aunque novedoso, subraya la persistente insatisfacción con los sistemas CAPTCHA tradicionales, a pesar de estar construido con el asistente de IA de Vercel y la integración manual del juego.</li>
+</ul>
+<h2><a href="https://curiouscoding.nl/posts/static-search-tree/">Árboles de búsqueda estáticos: más rápidos que la búsqueda binaria</a></h2>
+<ul>
+<li>El artículo discute la implementación y optimización de árboles de búsqueda estáticos (árboles S+) para una búsqueda significativamente más rápida de datos ordenados, logrando velocidades 40 veces más rápidas que la búsqueda binaria tradicional. - Se emplean técnicas de optimización como el procesamiento por lotes, la prelectura y el uso manual de SIMD (Instrucción Única, Múltiples Datos) para mejorar el rendimiento de las consultas. - El artículo también explora varios diseños de árboles, tamaños de nodos y estrategias de gestión de memoria, con una discusión sobre trabajos futuros como la búsqueda ramificada y la búsqueda por interpolación para mejorar aún más la eficiencia de búsqueda.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42562847">Reacciones</a></h3>
+<ul>
+<li>La discusión destaca un cambio de C/C++ a Rust para contenido algorítmico, especialmente en árboles de búsqueda estáticos, debido a los beneficios de seguridad y rendimiento de Rust.</li>
+<li>Se observa la creciente popularidad de Rust en la programación de bajo nivel, con algunos usuarios que prefieren C o pseudocódigo por su accesibilidad, mientras que otros valoran las características modernas de Rust.</li>
+<li>La conversación también explora el potencial del lenguaje de programación Zig y los desafíos asociados con el aprendizaje de nuevos lenguajes, reflejando el panorama en evolución de los lenguajes de programación.</li>
+</ul>
+<h2><a href="https://openreview.net/forum?id=YXnwlZe0yf&noteId=yrsGpHd0Sf">30% de disminución en la precisión de o1-Preview cuando los problemas de Putnam son ligeramente variados</a></h2>
+<ul>
+<li>Putnam-AXIOM es un punto de referencia diseñado para evaluar modelos de lenguaje grande (LLMs) en razonamiento matemático avanzado utilizando problemas del Concurso Matemático Putnam. - El punto de referencia incluye 236 problemas originales y una variación con 52 problemas alterados para evitar la contaminación de datos. - El modelo de mejor rendimiento de OpenAI alcanzó un 41.95% de precisión en los problemas originales, pero experimentó una caída significativa en el rendimiento de aproximadamente un 30% en los problemas alterados, lo que resalta los desafíos en la adaptación a variaciones.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42565606">Reacciones</a></h3>
+<ul>
+<li>Un estudio reveló una disminución del 30% en la precisión del modelo o1-Preview en problemas de Putnam cuando se introdujeron variaciones menores, lo que indica desafíos para los Modelos de Lenguaje Grande (LLMs) con pequeños cambios. - Los hallazgos alimentan el debate sobre si los LLMs pueden razonar genuinamente o si dependen principalmente de la coincidencia de patrones y la memorización, similar a los errores humanos bajo presión. - A pesar de estos desafíos, modelos como o1 y o3 continúan desempeñándose bien en problemas matemáticos complejos, aunque su capacidad para generalizar aún está bajo escrutinio.</li>
+</ul>
+<h2><a href="https://www.cs.cmu.edu/~pavlo/blog/2025/01/2024-databases-retrospective.html">Las bases de datos en 2024: Un año en revisión</a></h2>
+<ul>
+<li>La escena de las bases de datos en 2024 experimentó cambios significativos, incluyendo grandes adquisiciones, cambios de licencias y rivalidades continuas entre actores clave como Redis, Elasticsearch, Databricks y Snowflake. - DuckDB ganó popularidad para consultas analíticas, con integraciones en Postgres, mientras que lanzamientos notables incluyeron Amazon Aurora DSQL y Microsoft Garnet. - Adquisiciones como Tabular por parte de Databricks y OrioleDB por Supabase fueron significativas, y a pesar de contratiempos como el cierre de OtterTune, la industria sigue siendo dinámica con nuevos proyectos y financiamiento.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42566192">Reacciones</a></h3>
+<ul>
+<li>La discusión critica la API de Redis, con algunos argumentando que la crítica carece de una comprensión profunda del diseño de Redis y su modelo de datos único.</li>
+<li>Redis es reconocido por su uso efectivo en aplicaciones específicas como tablas de clasificación y sistemas en tiempo real, a pesar de algunas críticas a su API.</li>
+<li>La conversación también explora el panorama más amplio de las bases de datos, incluidos los desafíos para las startups, el papel de SQL y la evolución de las tecnologías de bases de datos, enfatizando la importancia de comprender los sistemas antes de criticarlos.</li>
+</ul>
+<h2><a href="https://thoughts.wyounas.com/p/books-i-enjoyed-most-in-2024">Libros que amé leer en 2024</a></h2>
+<ul>
+<li>La lista presenta una gama diversa de libros, incluyendo narrativas históricas, filosóficas, científicas y personales, cada una ofreciendo perspectivas únicas y experiencias enriquecedoras.</li>
+<li>Los aspectos destacados incluyen las cartas de Cicerón para obtener información sobre la vida romana, las obras de Ben-Ari sobre lógica de la ciencia de la computación y verificación de programas, y las memorias de Steve Martin sobre el éxito en la comedia.</li>
+<li>La colección también incluye exploraciones filosóficas de Pierre Hadot y Nietzsche, tragedias griegas de Esquilo y obras literarias de Ursula Le Guin y Rabindranath Tagore.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42564687">Reacciones</a></h3>
+<h2><a href="https://mathstodon.xyz/@tao/113721192051328193">Terence Tao: Uno de mis artículos fue rechazado hoy</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42568399">Reacciones</a></h3>
+<ul>
+<li>Terence Tao, un destacado matemático, compartió una experiencia de haber tenido un artículo rechazado, subrayando la frecuente ocurrencia de rechazos en el ámbito académico. - Su historia provocó debates sobre la naturaleza arbitraria de las revisiones por pares y los desafíos enfrentados en la publicación académica. - La conversación destacó que el rechazo es una parte normal del proceso académico, incluso para los investigadores líderes, y enfatizó la importancia de compartir fracasos para abordar el síndrome del impostor.</li>
+</ul>
+<h2><a href="https://apiparrot.com/">API Parrot: Ingeniería inversa automática de APIs HTTP</a></h2>
+<ul>
+<li>API Parrot es una nueva herramienta diseñada para simplificar la automatización de procesos empresariales al identificar automáticamente correlaciones de datos entre solicitudes de API y proporcionar una representación gráfica del flujo. - Permite a los usuarios registrar solicitudes, definir entradas y salidas, y exportar estos flujos como código JavaScript, haciendo el proceso más eficiente que la ingeniería inversa manual o el uso de tecnologías menos óptimas como la Automatización de Procesos Robóticos (RPA). - La herramienta está construida sobre Electron y está disponible para plataformas Windows y Linux, con un tutorial disponible para la ingeniería inversa de la API de USPS.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42565821">Reacciones</a></h3>
+<ul>
+<li>API Parrot es una herramienta que automatiza la ingeniería inversa de las API HTTP, facilitando la automatización de procesos empresariales al identificar correlaciones de datos entre solicitudes. - Ofrece características como el registro de solicitudes, la definición de entradas y salidas, y la exportación de flujos como código JavaScript, con una representación gráfica del flujo. - Actualmente disponible para Windows y Linux, API Parrot es gratuita, con una posible versión &quot;pro&quot; para empresas, y planes para un lanzamiento en macOS en el futuro.</li>
+</ul>
+<h2><a href="https://thehill.com/national-security/5061535-virginia-man-arrested-explosives/">FBI: El mayor alijo de explosivos caseros en la historia de la agencia encontrado en Virginia</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42562529">Reacciones</a></h3>
+<ul>
+<li>La FBI descubrió el mayor alijo de explosivos caseros en su historia en Virginia, lo que llevó a un importante debate legal y público.</li>
+<li>El sospechoso actualmente solo está acusado de poseer un rifle de cañón corto, ya que se está examinando la legalidad de sus armas de fuego.</li>
+<li>La causa ha encendido debates sobre las leyes de armas, la Segunda Enmienda y el equilibrio entre la regulación gubernamental y los derechos individuales.</li>
+</ul>
+<h2><a href="https://dgl.cx/2024/12/ghostty-terminal-title">Déjà vu: CVEs fantasmas en el título de mi terminal</a></h2>
+<ul>
+<li>Ghostty, un nuevo emulador de terminal, tenía una vulnerabilidad de seguridad similar a una de 2003, que permitía a los caracteres de escape ASCII ejecutar comandos como abrir aplicaciones. - El problema era notablemente problemático con Zsh y Bash en modo vi, pero Ghostty 1.0.1 ha resuelto esto deshabilitando la función por defecto. - A pesar de la falla de seguridad, Ghostty es elogiado por sus características, y el desarrollador abordó rápidamente el problema, proporcionando soluciones y alternativas para los usuarios.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42562743">Reacciones</a></h3>
+<ul>
+<li>La discusión se centra en las vulnerabilidades de seguridad de los terminales, particularmente aquellas relacionadas con las secuencias de escape, y explora formas de mitigar estos riesgos. - Las sugerencias para mejorar la seguridad de los terminales incluyen adoptar sistemas similares a los anillos de protección de CPU o la syscall pledge() de OpenBSD, que limitan las capacidades para prevenir exploits. - Los participantes reconocen el desafío de equilibrar la seguridad con la funcionalidad en las aplicaciones de terminal y expresan interés en una mayor exploración y colaboración para mejorar las prácticas de seguridad.</li>
+</ul>
+<h2><a href="https://github.com/facebookresearch/large_concept_model">Modelos de Conceptos Grandes: Modelado de lenguaje en un espacio de representación de oraciones</a></h2>
+<ul>
+<li>El repositorio ofrece implementaciones para Modelos de Conceptos Grandes (LCM), que utilizan &quot;conceptos&quot; como una representación semántica de nivel superior para el modelado del lenguaje.</li>
+<li>LCM admite 200 idiomas de texto y 57 idiomas de habla utilizando el espacio de incrustación SONAR, y está entrenado para la predicción de oraciones autorregresivas con métodos como la regresión MSE y la generación basada en difusión.</li>
+<li>La repositorio ofrece instrucciones de instalación, preparación de datos, entrenamiento, ajuste fino y pautas de evaluación, y se publica bajo la licencia MIT, utilizando fairseq2 con opciones de instalación UV y pip.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42563534">Reacciones</a></h3>
+<ul>
+<li>Los Modelos de Conceptos Grandes se centran en representar el lenguaje en términos de &quot;conceptos&quot; en lugar de tokens individuales, con el objetivo de mejorar la segmentación semántica y la predicción.</li>
+<li>Este método propone utilizar representaciones de nivel superior para imitar la planificación y comunicación humanas, lo que potencialmente ofrece ventajas sobre los modelos tradicionales basados en tokens.</li>
+<li>La aproximación aborda las limitaciones en las arquitecturas actuales de Modelos de Lenguaje Grande (LLM) al enfatizar estructuras jerárquicas explícitas para replicar mejor el razonamiento humano.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Feliz Año Nuevo 2025" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Feliz%20A%C3%B1o%20Nuevo%202025&subheading=mi%C3%A9rcoles%2C%201%20de%20enero%20de%202025%3A%20Resumen%20de%20Hacker%20News" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/es/2025/01/01</link>
+            <guid isPermaLink="false">2025-01-01T00:00:00.000Z</guid>
+            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2024-12-25]]></title>
             <description
@@ -404,749 +502,6 @@
             <link>https://hn.cho.sh/es/2024/12/23</link>
             <guid isPermaLink="false">2024-12-23T00:00:00.000Z</guid>
             <pubDate>Mon, 23 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-22]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/22&#39;</h2>
-<h1>2024-12-22</h1>
-<h2><a href="https://www.fastmail.com/blog/why-we-use-our-own-hardware/">Usamos nuestro propio hardware en Fastmail</a></h2>
-<ul>
-<li>Fastmail opta por usar su propio hardware en lugar de servicios en la nube, centrándose en la optimización de costos y la planificación a largo plazo, aprovechando 25 años de experiencia.</li>
-<li>Han actualizado a SSD NVMe, mejorando el rendimiento y la fiabilidad en comparación con los discos duros tradicionales (HDD).</li>
-<li>Fastmail utiliza ZFS para almacenamiento, lo que ofrece ventajas como compresión y cifrado, y ha elegido nuevos servidores 2U con SSD para mejorar la entrada/salida, la fiabilidad y la rentabilidad.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42485124">Reacciones</a></h3>
-<ul>
-<li>Fastmail opta por usar su propio hardware en lugar de servicios en la nube, citando la rentabilidad para empresas con requisitos de alojamiento sustanciales.</li>
-<li>La discusión entre la nube y el alojamiento propio a menudo está nublada por conceptos erróneos, con algunos defensores de la nube careciendo de conocimiento técnico.</li>
-<li>El enfoque de Fastmail subraya la viabilidad de que las empresas gestionen sus propios sistemas, cuestionando la suposición de que las soluciones en la nube son universalmente superiores.</li>
-</ul>
-<h2><a href="https://www.linkedin.com/posts/leonardo-de-moura-26a27b5_leanlang-leanprover-leanfro-activity-7274523099394400256-0F0x">El creador de Rosetta 2 deja Apple para trabajar a tiempo completo en Lean</a></h2>
-<ul>
-<li>Leonardo de Moura, una figura clave en AWS y Lean FRO, anunció que Cameron Zwarich, conocido por crear Rosetta 2 en Apple, se ha unido a Lean FRO.</li>
-<li>Cameron Zwarich se centrará en mejorar el generador de código de Lean, aportando su amplia experiencia en desarrollo de software al equipo.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42483895">Reacciones</a></h3>
-<ul>
-<li>El desarrollador detrás de Rosetta 2 ha dejado Apple para centrarse en Lean, un asistente de prueba y lenguaje de programación, destacando un cambio hacia el razonamiento formal y la verificación de software.</li>
-<li>Rosetta 2 es reconocida por su destreza técnica, con contribuciones significativas de este desarrollador antes de que se estableciera un equipo.</li>
-<li>La transición a Lean está motivada por su potencial en los avances de IA, con objetivos de mejorar la escalabilidad, la usabilidad y la automatización de pruebas.</li>
-</ul>
-<h2><a href="https://www.datafix.com.au/BASHing/2020-08-12.html">Una tabla de datos de miles de años de antigüedad (2020)</a></h2>
-<ul>
-<li>El registro de cuentas en la antigua Mesopotamia utilizaba tabletas de arcilla con filas y columnas, similar a las tablas de datos modernas, como lo demuestra una tableta de Larsa, Irak, traducida por Eleanor Robson. La tableta, catalogada en el Museo Británico, se asemeja a un resumen de nómina para un proyecto de construcción, demostrando datos organizados con encabezados y cálculos hace más de 3500 años. Este conocimiento histórico destaca que, aunque las tablas de datos tienen orígenes antiguos, su uso continuo no está garantizado, ya que los inventos pueden perderse y redescubrirse con el tiempo.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42482829">Reacciones</a></h3>
-<ul>
-<li>La discusión enfatiza la relevancia atemporal de la representación de datos en tablas, a pesar de que la tabla de datos sea de 2020, lo cual se considera desactualizado según los estándares actuales.</li>
-<li>Los participantes exploran la importancia histórica y el diseño intuitivo de las mesas, observando su evolución hacia hojas de cálculo y bases de datos modernas.</li>
-<li>La conversación también considera los avances culturales y técnicos en la preservación de datos, sugiriendo que los datos modernos podrían preservarse de manera similar a los datos antiguos.</li>
-</ul>
-<h2><a href="https://tidyfirst.substack.com/p/slow-deployment-causes-meetings">El despliegue lento causa reuniones (2015)</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42484139">Reacciones</a></h3>
-<ul>
-<li>Las implementaciones lentas aumentan el riesgo y conducen a más reuniones, mientras que las implementaciones frecuentes y más pequeñas reducen el riesgo y mejoran la entrega de valor.</li>
-<li>Las pruebas automatizadas y las mejoras en la infraestructura pueden disminuir la necesidad de reuniones y mejorar la eficiencia del despliegue, pero las organizaciones a menudo enfrentan desafíos como la burocracia y la falta de habilidades técnicas.</li>
-<li>Alentar al personal no técnico a adoptar pruebas automatizadas y reducir los procesos manuales, junto con la adopción de microservicios, puede mejorar la frecuencia de implementación, aunque requiere un cambio organizacional y una mejor gobernanza.</li>
-</ul>
-<h2><a href="https://hyperessays.net/">Los ensayos de Michel de Montaigne en línea</a></h2>
-<ul>
-<li>HyperEssays es un proyecto en línea que ofrece ediciones modernas de los Ensayos de Michel de Montaigne, presentando cuatro versiones de diferentes traducciones históricas y actualizaciones. El proyecto ofrece herramientas y contexto para nuevos lectores, con capítulos en PDF gratuitos y un formato que facilita la lectura en varios dispositivos, abarcando temas como la religión, la amistad y la ley. HyperEssays es un recurso en constante evolución, que da la bienvenida a contribuciones para mantener su accesibilidad y disponibilidad gratuita.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42484527">Reacciones</a></h3>
-<ul>
-<li>Los ensayos de Michel de Montaigne, disponibles en línea, a menudo se comparan con blogs debido a su naturaleza personal pero cuidadosamente elaborada, abarcando temas diversos como la aceptación de la muerte.</li>
-<li>Una cita notable de su ensayo &#39;De la experiencia&#39; enfatiza la condición humana, afirmando que incluso en el trono más alto, seguimos siendo humanos.</li>
-<li>Las traducciones modernas y las actualizaciones asistidas por IA tienen como objetivo hacer que los escritos de Montaigne sean más accesibles, preservando su encanto original tanto para los lectores adinerados como para los comunes.</li>
-</ul>
-<h2><a href="http://0x80.pl/notesen/2024-12-21-uint8-division.html">Dividir números sin signo de 8 bits</a></h2>
-<ul>
-<li>La texto explora métodos para dividir números de 8 bits sin signo utilizando instrucciones SIMD (Single Instruction, Multiple Data), centrándose en la división de punto flotante y el algoritmo de división larga.</li>
-<li>Destaca la implementación de estos métodos utilizando instrucciones SSE, AVX2 y AVX-512, con comparaciones de rendimiento en CPUs como Ryzen 7, Skylake-X e IceLake.</li>
-<li>Notablemente, la implementación de AVX-512 de la división larga es la más rápida en CPUs de Intel, mientras que AVX2 usando recíproco aproximado es la más rápida en Ryzen, con el código fuente disponible en GitHub.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42481612">Reacciones</a></h3>
-<ul>
-<li>Se puede optimizar la división de números de 8 bits sin signo utilizando la multiplicación con un recíproco, aproximado por un racional diádico, como multiplicar por 171 y desplazar a la derecha por 9 para la división por 3.</li>
-<li>Esta optimización es beneficiosa en hardware y compiladores de optimización, con técnicas adicionales como la multiplicación modular, tablas de búsqueda e instrucciones SIMD (Single Instruction, Multiple Data), aunque cada una tiene limitaciones.</li>
-<li>Algunas arquitecturas de conjunto de instrucciones (ISAs), como la extensión vectorial RISC-V, admiten la división entera SIMD, pero dicho soporte es poco común, y se exploran diversas técnicas, incluyendo la aritmética de punto flotante y tablas de búsqueda micro, para la optimización.</li>
-</ul>
-<h2><a href="https://openjdk.org/jeps/483">JEP 483: Carga y enlace de clases por adelantado</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42481813">Reacciones</a></h3>
-<ul>
-<li>JEP 483 propone la carga y vinculación de clases por adelantado (AOT) para Java, con el objetivo de mejorar los tiempos de inicio, lo cual es particularmente beneficioso para las aplicaciones de interfaz de línea de comandos (CLI).</li>
-<li>La propuesta se centra en almacenar en caché los datos de carga y vinculación de clases, no el código compilado Just-In-Time (JIT), lo cual podría ser ventajoso en entornos sin servidor como AWS Lambda.</li>
-<li>Existe una compensación entre el aumento del tamaño del contenedor y la mejora de la velocidad de carga de clases, lo cual requiere una evaluación cuidadosa, especialmente para aplicaciones más grandes.</li>
-</ul>
-<h2><a href="https://corelatus.com/blog/Decoding_the_telephony_signals_in_Pink_Floyd_s__The_Wall_.html">Descifrando las señales telefónicas en &#39;The Wall&#39; de Pink Floyd</a></h2>
-<ul>
-<li>La entrada del blog de Corelatus se adentra en el hardware de telecomunicaciones, específicamente en las interfaces E1/T1 y SDH/SONET, y recientemente analizó las señales de telefonía en &#39;The Wall&#39; de Pink Floyd. El análisis identificó la señalización SS5, un sistema utilizado a principios de la década de 1980, al examinar espectrogramas de audio y compararlos con estándares conocidos como DTMF y CAS R2. El estudio concluyó que el audio probablemente se originó de una llamada real, proporcionando una sensación auténtica de conexión a larga distancia, con una versión extendida que aparece en la canción &#39;Young Lust&#39;.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42485795">Reacciones</a></h3>
-<ul>
-<li>James Guthrie reveló que la voz de un operador telefónico fue grabada para &#39;The Wall&#39; de Pink Floyd para simbolizar el aislamiento experimentado durante las giras.</li>
-<li>La grabación del álbum se caracterizó por una libertad artística, libre de restricciones comerciales, lo que dio lugar a pistas expansivas e intrincadas.</li>
-<li>La entrevista también destacó la dificultad de descifrar el número de teléfono utilizado en la grabación debido a los cambios en los códigos de área de Londres a lo largo de los años.</li>
-</ul>
-<h2><a href="https://github.com/gildas-lormeau/SingleFile">Singlefile: Una extensión web para guardar una página web completa en un solo archivo HTML</a></h2>
-<ul>
-<li>SingleFile es una extensión web versátil y una herramienta de línea de comandos que permite a los usuarios guardar páginas web completas como archivos HTML únicos, compatible con los principales navegadores como Chrome, Firefox, Edge y Safari.</li>
-<li>Ofrece funciones como guardar contenido seleccionado, múltiples pestañas, anotaciones, guardado automático e integración con Google Drive y GitHub, aunque tiene algunas limitaciones con ciertos dominios y caracteres de nombres de archivo.</li>
-<li>La herramienta es de código abierto, licenciada bajo AGPL, y se utiliza en proyectos como ArchiveBox y Zotero Connector, con contribuciones de varios traductores.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42481659">Reacciones</a></h3>
-<ul>
-<li>SingleFile es una extensión web diseñada para guardar páginas web completas como archivos HTML únicos, ofreciendo un método de guardado compacto utilizando la codificación UTF-16. La extensión proporciona una alternativa al guardar páginas como archivos ZIP/HTML autoextraíbles, abordando las limitaciones de las funciones de guardado estándar del navegador y mejorando la impresión en PDF. Se discutieron preocupaciones sobre la privacidad, pero el desarrollador confirmó que SingleFile respeta la privacidad del usuario, convirtiéndola en una herramienta valiosa para el acceso sin conexión y el intercambio.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Usamos nuestro propio hardware en Fastmail" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Usamos%20nuestro%20propio%20hardware%20en%20Fastmail&subheading=domingo%2C%2022%20de%20diciembre%20de%202024%3A%20Resumen%20de%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/es/2024/12/22</link>
-            <guid isPermaLink="false">2024-12-22T00:00:00.000Z</guid>
-            <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-21]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/21&#39;</h2>
-<h1>2024-12-21</h1>
-<h2><a href="https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/">Un juez de EE. UU. declara responsable al Grupo NSO de Israel por hackear a periodistas a través de WhatsApp</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42476828">Reacciones</a></h3>
-<ul>
-<li>Un juez de EE. UU. ha responsabilizado al Grupo NSO de Israel por hackear a periodistas a través de WhatsApp, lo que plantea preguntas sobre la responsabilidad de las empresas en actividades de hackeo y vigilancia.</li>
-<li>La situación subraya preocupaciones éticas relacionadas con la venta y uso de herramientas cibernéticas, comparándolas con la venta de armas tradicionales, y provocando discusiones sobre las posibles consecuencias legales para la gestión.</li>
-<li>También llama la atención sobre cuestiones más amplias como la privacidad, la vigilancia gubernamental y la responsabilidad de las empresas de redes sociales en la protección de los datos de los usuarios.</li>
-</ul>
-<h2><a href="https://arxiv.org/abs/2412.15042">Compilando C a Rust Seguro, Formalizado</a></h2>
-<ul>
-<li>La publicación de Aymeric Fromherz y Jonathan Protzenko discute la traducción de código C a Rust seguro, centrándose en la seguridad de la memoria al evitar características inseguras de Rust.</li>
-<li>Los autores presentan un método de traducción dirigido por tipos, un análisis estático utilizando &quot;árboles divididos&quot; para la aritmética de punteros, y una estrategia para manejar los tipos de estructuras de C en Rust.</li>
-<li>Su enfoque traduce con éxito la biblioteca criptográfica HACL* y los analizadores binarios de EverParse en una biblioteca criptográfica verificada de 80,000 líneas en Rust puro, manteniendo el rendimiento con copias estratégicas mínimas.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42476192">Reacciones</a></h3>
-<ul>
-<li>Convertir código C a Rust seguro es difícil debido a diferencias fundamentales entre los lenguajes, particularmente el modelo de propiedad de Rust, que requiere un rediseño significativo para garantizar la seguridad. Herramientas como C2Rust ayudan en la traducción, pero el proceso es complejo, y algunos programas en C no pueden ser portados sin cambiar su semántica debido a su inseguridad inherente. Aunque traducir C a Rust puede mejorar la seguridad y revelar errores, la seguridad de Rust a menudo se malinterpreta, y la verificación formal del código C, que ayuda en la traducción, no siempre está disponible.</li>
-</ul>
-<h2><a href="https://github.com/izabera/pseudo3d">Un Raycaster en Bash</a></h2>
-<ul>
-<li>Se ha implementado un raycaster inspirado en el juego Wolfenstein en Bash, demostrando los desafíos de usar Bash para aplicaciones gráficas. El proyecto enfrenta limitaciones debido a la lentitud de Bash, la falta de soporte para números de punto flotante y las restricciones del terminal, lo que dificulta mantener el estado de la pantalla y optimizar el rendimiento. A pesar de usar bloques de medio Unicode para una mejor resolución, el proyecto lucha con las altas demandas de E/S y las actualizaciones de color ineficientes, destacando la complejidad de usar Bash para tales tareas.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42475703">Reacciones</a></h3>
-<ul>
-<li>Un Raycaster en Bash es un proyecto que simula un efecto 3D utilizando trazado de rayos una vez por columna, renderizando escenas de manera eficiente con comandos <code>echo</code> mínimos.</li>
-<li>El proyecto es notable por su uso de la repetición de cadenas para dibujar líneas para el cielo, el césped y los objetos, lo que lo convierte en un ejemplo inspirador para crear motores de renderizado voxel en entornos restringidos.</li>
-<li>La discusión destaca proyectos de raycasting similares en MS Batch y <code>awk</code>, mostrando creatividad en el uso de lenguajes de programación no convencionales para tareas complejas.</li>
-</ul>
-<h2><a href="https://www.bloomberg.com/news/articles/2024-12-20/qualcomm-wins-licensing-fight-with-arm-over-chip-designs">Qualcomm gana la disputa de licencias con Arm sobre diseños de chips</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42475228">Reacciones</a></h3>
-<ul>
-<li>Qualcomm ha salido victorioso en una disputa legal con Arm sobre la concesión de licencias de diseño de chips, específicamente relacionada con la adquisición de Nuvia por parte de Qualcomm.</li>
-<li>La cuestión giraba en torno a si la licencia existente de Qualcomm cubría los diseños de Nuvia, con Arm afirmando que todas las CPU compatibles con Arm eran derivadas de su Arquitectura de Conjunto de Instrucciones (ISA).</li>
-<li>La indecisión del jurado sobre el incumplimiento de licencia de Nuvia favoreció a Qualcomm, lo que generó preocupaciones sobre las prácticas de licenciamiento de Arm y posiblemente alentó a las empresas a considerar RISC-V, una alternativa de código abierto.</li>
-</ul>
-<h2><a href="https://github.com/malmeloo/FindMy.py">Consultar la red FindMy de Apple con Python</a></h2>
-<ul>
-<li>FindMy.py es una biblioteca integral diseñada para consultar la red FindMy de Apple, con el objetivo de consolidar la fragmentada &quot;escena de Find My&quot;. Actualmente se encuentra en su etapa Alpha, lo que significa que el diseño de su API puede sufrir cambios.</li>
-<li>La biblioteca admite funcionalidad multiplataforma, descifrado de informes de ubicación, inicio de sesión en cuentas de Apple y autenticación de dos factores (2FA), ofreciendo tanto APIs asincrónicas (async) como sincrónicas (sync).</li>
-<li>Está disponible la instalación a través de PyPi usando el comando <code>pip install findmy</code>, y se fomenta la contribución, con pautas específicas para el formato del código proporcionadas.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42479233">Reacciones</a></h3>
-<ul>
-<li>Una implementación en Python de la API FindMy de Apple tiene como objetivo mejorar el acceso multiplataforma, beneficiando a los usuarios de Linux y Android que actualmente requieren una Mac para las funciones de FindMy.</li>
-<li>Esta herramienta podría permitir el seguimiento de ubicaciones y AirTags sin depender del ecosistema de Apple, aunque existen preocupaciones sobre la posible intervención de Apple para detener tales proyectos.</li>
-<li>La discusión destaca el soporte limitado de Apple para múltiples plataformas y las dificultades para gestionar funciones del dispositivo, como los controles parentales, fuera de su ecosistema, con sugerencias de alternativas como Blue Bubbles y Firewalla.</li>
-</ul>
-<h2><a href="https://www.honest-broker.com/p/the-ugly-truth-about-spotify-is-finally">La fea verdad sobre Spotify finalmente se revela</a></h2>
-<ul>
-<li>Una investigación de la periodista independiente Liz Pelly ha descubierto el uso de artistas falsos por parte de Spotify para aumentar las ganancias, particularmente en géneros como el jazz y el ambient. Esta práctica, conocida como el programa de &quot;Contenido de Ajuste Perfecto&quot;, permite a Spotify evitar pagar regalías a músicos genuinos, lo que genera preocupaciones sobre la transparencia y la regulación en la transmisión de música. A pesar de la controversia, la rentabilidad de Spotify ha mejorado, mientras que la industria musical y los medios de comunicación convencionales han pasado por alto en gran medida estos problemas, dejando al periodismo independiente la tarea de llevarlos a la atención pública.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42478107">Reacciones</a></h3>
-<ul>
-<li>La artículo plantea preocupaciones sobre que Spotify supuestamente favorece música de baja calidad y genérica, posiblemente generada por IA, sobre artistas genuinos para reducir costos. Los usuarios expresan insatisfacción con las recomendaciones musicales de Spotify, lo que genera un debate sobre la ética de sus prácticas comerciales y el impacto en los artistas. La discusión subraya los desafíos que enfrentan los artistas en un mercado dominado por el streaming y sugiere alternativas como la radio independiente u otros servicios de streaming.</li>
-</ul>
-<h2><a href="https://www.os2museum.com/wp/dos-append/">APENDIZAR DOS</a></h2>
-<ul>
-<li>El blog del Museo OS/2 explora la computación vintage en PC, con un enfoque en OS/2, DOS y temas relacionados. Una publicación reciente destaca el comando DOS APPEND, un programa Terminate and Stay Resident (TSR) que ayuda a las aplicaciones DOS más antiguas a acceder a archivos en diferentes directorios, introducido por primera vez en DOS 3.3. La publicación profundiza en la historia, evolución e implementación de APPEND, discutiendo su importancia en contextos de computación modernos.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42475011">Reacciones</a></h3>
-<ul>
-<li>El comando DOS APPEND fue históricamente significativo para modificar el comportamiento del ensamblador sin cambiar el ensamblador, similar a las variables de entorno modernas y los montajes de overlayfs.</li>
-<li>Los comandos DOS como SUBST y JOIN se utilizaban para el mapeo de directorios y la gestión de rutas, ayudando a superar las limitaciones de longitud de ruta.</li>
-<li>La discusión incluye el desarrollo histórico de DOS en minicomputadoras DEC y la evolución del hardware de computación desde minicomputadoras hasta los sistemas actuales.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Un juez de EE. UU. declara responsable al Grupo NSO de Israel por hackear a periodistas a través de WhatsApp" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Un%20juez%20de%20EE.%20UU.%20declara%20responsable%20al%20Grupo%20NSO%20de%20Israel%20por%20hackear%20a%20periodistas%20a%20trav%C3%A9s%20de%20WhatsApp&subheading=s%C3%A1bado%2C%2021%20de%20diciembre%20de%202024%3A%20Resumen%20de%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/es/2024/12/21</link>
-            <guid isPermaLink="false">2024-12-21T00:00:00.000Z</guid>
-            <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-20]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/20&#39;</h2>
-<h1>2024-12-20</h1>
-<h2><a href="https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/">La era de los asistentes de voz abiertos</a></h2>
-<ul>
-<li>Home Assistant ha introducido la Edición de Vista Previa de Voz, un asistente de voz privado y local que prioriza la privacidad del usuario al no recopilar datos ni restringir funciones. El dispositivo es de código abierto, personalizable y admite procesamiento local, lo que permite a los usuarios modificar tanto el hardware como el software sin necesidad de una conexión a internet. Con un precio de $59, busca superar a los asistentes de voz existentes al centrarse en la privacidad y el desarrollo abierto impulsado por la comunidad, con un procesamiento de audio avanzado que incluye micrófonos duales y un procesador de audio dedicado.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42467194">Reacciones</a></h3>
-<ul>
-<li>La discusión se centra en el desarrollo de asistentes de voz de código abierto, con un enfoque en el nuevo dispositivo de Home Assistant, destacando preocupaciones de privacidad y limitaciones de opciones comerciales como Alexa y Google Home.</li>
-<li>Existe un interés significativo en integrar modelos avanzados y procesamiento local para mejorar la funcionalidad mientras se garantiza la privacidad del usuario.</li>
-<li>La conversación también aborda los desafíos del desarrollo de hardware y el potencial de los proyectos impulsados por la comunidad para crear más soluciones de código abierto en el mercado de asistentes de voz.</li>
-</ul>
-<h2><a href="https://htmhell.dev/adventcalendar/2024/20/">Mi color favorito es el rojo Chuck Norris</a></h2>
-<ul>
-<li>Configurar el color del texto en una página web se realiza principalmente utilizando CSS, aunque anteriormente HTML usaba un atributo de color, que ahora es obsoleto.</li>
-<li>Los navegadores modernos son indulgentes con los valores de color no válidos, predeterminando a rojo para entradas no reconocidas debido a reglas de análisis heredadas, asegurando que los sitios web antiguos sigan siendo funcionales.</li>
-<li>Si bien algunos abogan por estándares más estrictos, la flexibilidad de la web para manejar valores no válidos contribuye a su resiliencia y adaptabilidad.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42468318">Reacciones</a></h3>
-<ul>
-<li>El artículo discute el &quot;Chuck Norris red,&quot; vinculado a una pregunta de Stack Overflow de hace 13 años, lo que ha generado debates sobre la comercialización de contenido en internet y los micropagos.</li>
-<li>Los usuarios expresan nostalgia por la creatividad de los primeros tiempos de la web, contrastándola con la complejidad y los problemas de seguridad de los estándares web modernos.</li>
-<li>La conversación aborda humorísticamente las peculiaridades del análisis de colores en HTML y CSS, haciendo referencia a Chuck Norris y nombres de colores.</li>
-</ul>
-<h2><a href="https://computer.tldraw.com">Tldraw Computer</a></h2>
-<ul>
-<li>tldraw Computer es un proyecto experimental que ofrece un lienzo infinito para la computación en lenguaje natural, permitiendo a los usuarios crear y personalizar flujos de trabajo de componentes conectados.</li>
-<li>Utiliza un modelo de lenguaje multimodal para generar y transformar datos, ofreciendo flujos de trabajo preconstruidos como Generador de Historias y Máquina de Clasificación.</li>
-<li>El proyecto está accesible para una mayor exploración y personalización en tldraw.dev.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42469074">Reacciones</a></h3>
-<ul>
-<li>Tldraw Computer es reconocido por su funcionalidad, especialmente en el proyecto BigBlueButton, donde integró de manera eficiente una función de pizarra, ahorrando tiempo de desarrollo.</li>
-<li>Los usuarios están interesados en su potencial para crear diagramas de flujo de trabajo, su interfaz de usuario innovadora para modelos de lenguaje grande (LLM) y su impacto cultural.</li>
-<li>Hay discusiones sobre su naturaleza de código abierto, el manejo de datos en su producto en la nube y comparaciones con herramientas similares como Excalidraw, con un enfoque en licencias y aplicaciones en diseño de IA y UI.</li>
-</ul>
-<h2><a href="https://win-vector.com/2024/12/19/kelly-cant-fail/">Kelly no puede fallar</a></h2>
-<ul>
-<li>La estrategia de asignación de apuestas de Kelly, típicamente conocida por su alta varianza, es libre de riesgo con varianza cero en el juego de cartas &quot;Next Card Bet&quot;. En este juego, la estrategia implica apostar al color de la siguiente carta de un mazo de 52 cartas barajadas, maximizando el logaritmo esperado de la apuesta basado en la diferencia de cartas rojas y negras restantes. La estrategia devuelve consistentemente 9.08 veces la apuesta inicial sin varianza, ya que refleja un enfoque de cartera donde solo una subestrategia tiene éxito, similar a la exploración versus explotación en las pruebas A/B.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42466676">Reacciones</a></h3>
-<ul>
-<li>La estrategia de Kelly es una táctica utilizada en el juego y la inversión para optimizar el tamaño de las apuestas basándose en probabilidades, pero su aplicación en el mundo real puede ser desafiante.</li>
-<li>La discusión resalta la importancia de la divisibilidad infinita de las apuestas y las complejidades en escenarios de resultados no binarios, como el póker.</li>
-<li>Factores como el tamaño del bankroll, el valor esperado y los tamaños de apuesta disponibles son cruciales al aplicar el criterio de Kelly, con pruebas matemáticas y simulaciones que respaldan su efectividad, aunque reconociendo sus limitaciones y posibles inconvenientes.</li>
-</ul>
-<h2><a href="https://research.google/blog/satellite-powered-estimation-of-global-solar-potential/">Estimación del potencial solar global impulsada por satélites</a></h2>
-<ul>
-<li>Google Research ha ampliado su API Solar al Sur Global, utilizando imágenes satelitales y aprendizaje automático (ML) para evaluar el potencial solar de los edificios, con el objetivo de impulsar la adopción solar en áreas con acceso tecnológico limitado. La API Solar ofrece datos detallados de techos, ayudando a las empresas a optimizar la disposición de paneles solares y mejorar las tasas de adopción, cubriendo ahora 125 millones de nuevos edificios en 23 países. El proyecto emplea modelos avanzados de ML para crear modelos de superficie digital de alta calidad y segmentos de techos a partir de imágenes satelitales, mejorando las evaluaciones solares globales.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42465535">Reacciones</a></h3>
-<ul>
-<li>El API Solar de Google ofrece un método unificado para estimar el potencial solar global, en contraste con las encuestas fragmentadas de LiDAR (Detección y Rango de Luz) del gobierno.</li>
-<li>Incorporar los precios de los servicios públicos locales en la API Solar podría mejorar su utilidad al estimar los ahorros potenciales, aumentando así el atractivo de los proyectos solares para los propietarios de viviendas.</li>
-<li>La adopción de la energía solar en tejados es compleja, influenciada por la ubicación, los costos, los desafíos de integración a la red y factores regulatorios, económicos y técnicos, a pesar de sus beneficios de resiliencia y energía distribuida.</li>
-</ul>
-<h2><a href="https://distill.pub/2021/gnn-intro/">Una introducción suave a las redes neuronales de grafos</a></h2>
-<ul>
-<li>Las Redes Neuronales de Grafos (GNNs) están especializadas en datos estructurados en grafos, utilizando relaciones de nodos y aristas, y son aplicables en campos como el descubrimiento de antibacterianos y la predicción del tráfico.</li>
-<li>El artículo ofrece una introducción detallada a las GNNs, cubriendo componentes, opciones de diseño y aplicaciones, e incluye secciones sobre la comprensión de datos de grafos, la construcción de GNNs y la experimentación con ellas.</li>
-<li>Los temas clave incluyen el paso de mensajes, el agrupamiento, las representaciones globales, el muestreo de grafos, los sesgos inductivos y las redes de atención de grafos, proporcionando ideas sobre el diseño efectivo de la arquitectura GNN.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42468214">Reacciones</a></h3>
-<ul>
-<li>Las Redes Neuronales de Grafos (GNNs) enfrentan desafíos como la falta de conjuntos de datos y dificultades con la generalización a través de diferentes mallas y parámetros, lo que limita su discusión y aplicación generalizada. Mientras que los transformadores, que son un tipo de red de grafos, han ganado popularidad debido a su eficiente mecanismo de atención, las GNNs son más lentas y menos eficientes en comparación con las Redes Neuronales Convolucionales (CNNs). A pesar de su potencial en casos específicos como el modelado de interacciones en conjuntos de datos de alta cardinalidad, las GNNs han sido decepcionantes en algunas aplicaciones, con los transformadores a menudo superándolas.</li>
-</ul>
-<h2><a href="https://www.doctorswithoutborders.org/latest/gaza-death-trap-msf-report-exposes-israels-campaign-total-destruction">Doctores Sin Fronteras declara la guerra en Gaza como genocidio</a></h2>
-<ul>
-<li>Un informe de Médicos Sin Fronteras (MSF) enfatiza la crítica crisis humanitaria en Gaza, exacerbada por las acciones militares israelíes, un sistema de salud en decadencia y una ayuda humanitaria limitada.</li>
-<li>MSF pide un alto el fuego inmediato y urge la intervención internacional para proteger las vidas palestinas y asegurar la entrega de ayuda esencial.</li>
-<li>La información describe a Gaza como una &#39;trampa mortal&#39;, destacando la destrucción generalizada, el desplazamiento forzado y las graves crisis de salud, lo que resulta en miles de muertes y una catástrofe humanitaria.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42467375">Reacciones</a></h3>
-<ul>
-<li>Los Médicos Sin Fronteras han descrito el conflicto en Gaza como genocidio, destacando la extensa destrucción y la crisis humanitaria. La situación es crítica, con importantes bajas civiles y daños a la infraestructura, lo que ha generado un debate sobre si legalmente califica como genocidio, lo cual implica probar la intención de destruir a un grupo. El conflicto se está comparando con otros conflictos históricos y en curso, lo que ha provocado discusiones sobre las implicaciones y posibles soluciones.</li>
-</ul>
-<h2><a href="https://arcprize.org/blog/oai-o3-pub-breakthrough">OpenAI O3 logra una puntuación alta en ARC-AGI-PUB</a></h2>
-<ul>
-<li>El nuevo sistema o3 de OpenAI logró una puntuación del 75.7% en el conjunto de evaluación semi-privado ARC-AGI, demostrando un avance significativo en las capacidades de IA en comparación con modelos anteriores como GPT-4o.</li>
-<li>La capacidad del modelo o3 para adaptarse a tareas novedosas marca un paso crucial hacia la Inteligencia General Artificial (AGI), a pesar de los altos costos asociados con su desarrollo.</li>
-<li>La ARC Prize fomenta soluciones de código abierto que obtienen una puntuación del 85% o más, y el próximo benchmark ARC-AGI-2 pondrá a prueba aún más los modelos de IA, llevando al límite la investigación de AGI.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42473321">Reacciones</a></h3>
-<ul>
-<li>El modelo O3 de OpenAI obtuvo una puntuación alta en el benchmark ARC-AGI-PUB, lo que provocó debates sobre sus implicaciones para las capacidades de razonamiento de la IA.</li>
-<li>La eficacia del modelo indica un progreso en el razonamiento de la IA, pero también resalta la necesidad de contar con puntos de referencia más accesibles debido a los altos costos de computación.</li>
-<li>Existe un debate en curso sobre si los avances en IA reemplazarán empleos o mejorarán la productividad, con opiniones divididas sobre el impacto futuro de la IA en la fuerza laboral.</li>
-</ul>
-<h2><a href="https://github.com/kooscode/srgh-matrix-trinity/blob/main/README.md">Investigación de Explotación de Seguridad de Hardware – Xbox 360</a></h2>
-<ul>
-<li>El artículo discute la derrota de la seguridad de XBOX 360 en 2011 utilizando el Reset Glitch Hack (RGH), un método que permitía ejecutar código no firmado engañando a la CPU.</li>
-<li>Los hackers Gligli y Tiros utilizaron una técnica de glitching de hardware, que implica pulsos eléctricos precisos, para eludir los controles de seguridad, destacando las vulnerabilidades en el sistema de seguridad de la XBOX 360.</li>
-<li>El autor replicó el hackeo, obteniendo información sobre fallos de hardware y las complejidades de la arquitectura de seguridad del XBOX 360.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42465378">Reacciones</a></h3>
-<ul>
-<li>Un exdesarrollador de Microsoft comparte información sobre los exploits de seguridad del hardware de Xbox 360, destacando vulnerabilidades y desafíos de desarrollo.</li>
-<li>La discusión compara la seguridad de Xbox 360 con otros dispositivos como Xbox One y iPhones, enfatizando el enfoque de Microsoft en prevenir la piratería y mantener la calidad de los juegos.</li>
-<li>Anecdotas revelan el uso de simuladores durante el desarrollo y los esfuerzos de la comunidad para explotar la seguridad de la consola.</li>
-</ul>
-<h2><a href="https://waymo.com/research/do-autonomous-vehicles-outperform-latest-generation-human-driven-vehicles-25-million-miles/">Una comparación con las reclamaciones de seguros de responsabilidad civil de automóviles de Waymo a 25 millones de millas</a></h2>
-<ul>
-<li>La investigación evalúa la seguridad de los Sistemas de Conducción Automatizada (ADS) examinando el desempeño de Waymo en más de 25.3 millones de millas autónomas utilizando datos de reclamaciones de seguros.</li>
-<li>Los hallazgos indican que el ADS de Waymo reduce significativamente las reclamaciones por daños a la propiedad y lesiones corporales en comparación tanto con la población general de conductores como con los vehículos más nuevos (2018-2021).</li>
-<li>La investigación proporciona un marco actualizado para evaluar la seguridad de los ADS, con posibles impactos en las políticas de seguridad del transporte y la aceptación pública.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42469264">Reacciones</a></h3>
-<ul>
-<li>Se informa que los autos autónomos de Waymo superan a los conductores humanos en seguridad, pero hay una falta de verificación independiente de estas afirmaciones.</li>
-<li>Existen preocupaciones sobre el impacto potencial de la tecnología de conducción autónoma en los empleos y la necesidad de supervisión regulatoria.</li>
-<li>Los críticos sugieren que se debe priorizar la mejora de la infraestructura de transporte público sobre la dependencia exclusiva de los vehículos autónomos.</li>
-</ul>
-<h2><a href="https://mayhul.com/posts/type-driven-design/">Cómo los tipos hacen que los problemas difíciles sean fáciles</a></h2>
-<ul>
-<li>El autor discute los beneficios del Desarrollo Guiado por Tipos, particularmente en una gran base de código TypeScript, enfatizando cómo los tipos pueden simplificar la codificación y la refactorización.</li>
-<li>Los principios clave incluyen garantizar la seguridad de tipos, comenzar con definiciones de tipos, hacer que los estados ilegales sean irreproducibles y usar tipos para validación e introspección.</li>
-<li>La metodología mejora la productividad al permitir la codificación sin conexión y reducir errores, con el sistema de tipos actuando como una guía y herramienta de verificación de errores.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42464966">Reacciones</a></h3>
-<ul>
-<li>Los tipos ofrecen un marco estructurado que simplifica la codificación, reduce la depuración y facilita el mantenimiento al mapear dominios y establecer andamiajes.</li>
-<li>Existe un debate en curso entre la programación procedural, que enfatiza soluciones rápidas, y la programación declarativa, que se centra en menos errores y una refactorización más sencilla.</li>
-<li>Si bien los tipos mejoran la fiabilidad y el mantenimiento del código, también pueden añadir complejidad y rigidez, haciendo que el equilibrio entre velocidad y estabilidad sea esencial, especialmente en startups frente a sistemas establecidos.</li>
-</ul>
-<h2><a href="https://artemis.jamesg.blog/">Artemis, un lector web tranquilo</a></h2>
-<ul>
-<li>Artemis es un lector web diseñado para mostrar una lista de títulos de publicaciones, dominios de autores y enlaces, actualizándose diariamente, y ahora está disponible para el público con el código de invitación &quot;hn&quot;.</li>
-<li>La lectora se centra en la simplicidad, careciendo de características como notificaciones, estados de leído/no leído y conteos de publicaciones, y solo muestra publicaciones de los últimos siete días.</li>
-<li>Artemis admite todos los formatos de feeds populares, ofrece un esquema de color personalizable que incluye el modo oscuro y dirige a los usuarios a los sitios web de los autores para apreciar el diseño de sus blogs.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42471913">Reacciones</a></h3>
-<ul>
-<li>Artemis es un lector web diseñado para mostrar títulos de publicaciones de blogs, dominios de autores y enlaces, actualizándose diariamente para reducir la necesidad de revisiones constantes. Soporta todos los formatos de feeds populares, ofrece un esquema de color personalizable y enlaza directamente a los sitios web de los autores, mejorando la experiencia del usuario. La herramienta es de código abierto, puede ser autoalojada y tiene como objetivo proporcionar una experiencia de lectura tranquila sin notificaciones ni conteos de no leídos, accesible con el código de invitación &quot;hn&quot;.</li>
-</ul>
-<head>
-  <meta property="og:title" content="La era de los asistentes de voz abiertos" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=La%20era%20de%20los%20asistentes%20de%20voz%20abiertos&subheading=viernes%2C%2020%20de%20diciembre%20de%202024%3A%20Resumen%20de%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/es/2024/12/20</link>
-            <guid isPermaLink="false">2024-12-20T00:00:00.000Z</guid>
-            <pubDate>Fri, 20 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-19]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/19&#39;</h2>
-<h1>2024-12-19</h1>
-<h2><a href="https://github.com/pwr-Solaar/Solaar">Solaar es un gestor de Linux para muchos teclados, ratones y otros dispositivos de Logitech</a></h2>
-<ul>
-<li>Solaar es una herramienta de gestión para Linux destinada a dispositivos Logitech, que admite conexiones a través de receptores Unifying, Bolt, Lightspeed, Nano, USB o Bluetooth.</li>
-<li>Facilita el emparejamiento/desemparejamiento de dispositivos, la configuración, la configuración de botones personalizados y la ejecución de reglas, pero no es un controlador de dispositivo.</li>
-<li>Los paquetes preconstruidos para Solaar están disponibles para varias distribuciones de Linux, incluidas Fedora, Arch, Ubuntu, NixOS, Debian, Gentoo y Mageia, aunque es posible que no siempre sean la última versión.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42454359">Reacciones</a></h3>
-<ul>
-<li>Solaar es un gestor basado en Linux para dispositivos Logitech, que ofrece una interfaz fácil de usar que supera al propio software de Logitech. Es de código abierto y permite a los usuarios gestionar el emparejamiento de dispositivos, la programación de botones y el monitoreo de la batería de manera eficiente, sin características innecesarias. Existe una demanda de herramientas similares en otros sistemas operativos, como Windows y macOS.</li>
-</ul>
-<h2><a href="https://help.openai.com/en/articles/10193193-1-800-chatgpt-calling-and-messaging-chatgpt-with-your-phone">1-800-ChatGPT</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42453660">Reacciones</a></h3>
-<ul>
-<li>1-800-ChatGPT es un servicio de IA basado en teléfono similar a servicios anteriores como GOOG-411, evocando nostalgia por la tecnología anterior a los teléfonos inteligentes. El servicio se percibe como un método para recopilar datos de voz para el entrenamiento de IA, lo que genera reacciones mixtas sobre su propósito. Ha iniciado conversaciones sobre la evolución de la IA, con usuarios que aprecian la conveniencia de manos libres y otros que cuestionan el énfasis en estas características.</li>
-</ul>
-<h2><a href="https://www.reuters.com/technology/amazon-workers-strike-multiple-us-warehouses-during-busy-holiday-season-2024-12-19/">Trabajadores de Amazon harán huelga en varios almacenes de EE. UU. durante la ajetreada temporada navideña</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42458431">Reacciones</a></h3>
-<ul>
-<li>Los trabajadores de Amazon están planeando huelgas en varios almacenes de EE. UU. durante la temporada navideña, un momento crítico para las operaciones minoristas.</li>
-<li>Las discusiones en Reddit revelan escepticismo sobre la autenticidad de algunos comentarios, con acusaciones de influencia de relaciones públicas, mientras que otros comparten experiencias personales y apoyo a la sindicalización.</li>
-<li>La conversación también explora el impacto de la automatización en los empleos, los desafíos para asegurar salarios justos y las alternativas a Amazon, como las compras locales y otros minoristas en línea.</li>
-</ul>
-<h2><a href="https://horstmann.com/unblog/2024-12-11/index.html">Java en lo Pequeño</a></h2>
-<ul>
-<li>Java, tradicionalmente favorecido para proyectos grandes, ahora es más accesible para tareas pequeñas gracias a actualizaciones recientes como JEP 330 y JEP 458, que permiten ejecutar archivos Java directamente sin precompilar.</li>
-<li>JEP 477 reduce la verbosidad, lo que facilita la escritura de programas pequeños, y herramientas como JBang facilitan la integración de bibliotecas de terceros.</li>
-<li>Si bien la API de Java es sólida en áreas como cadenas y colecciones, carece de soporte incorporado para JSON y procesamiento de línea de comandos, y sus herramientas de programación exploratoria están menos desarrolladas en comparación con las de Python.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42454929">Reacciones</a></h3>
-<ul>
-<li>Java ha introducido actualizaciones que simplifican su sintaxis, haciéndola más fácil de usar y reduciendo la cantidad de código repetitivo requerido, lo cual anteriormente era un obstáculo para los principiantes.</li>
-<li>Estos cambios tienen como objetivo hacer que Java sea más accesible para los recién llegados y adecuado para la creación de scripts, alineándolo más estrechamente con lenguajes como Python.</li>
-<li>A pesar de mejoras como los registros y la inferencia de tipos, algunos desarrolladores todavía prefieren lenguajes como Go o Kotlin por su simplicidad en la creación de scripts y proyectos pequeños.</li>
-</ul>
-<h2><a href="https://www.historylink.org/File/5136">Los incidentes de picaduras en los parabrisas en Washington alcanzan su punto álgido el 15 de abril de 1954 (2003)</a></h2>
-<ul>
-<li>En abril de 1954, las comunidades de Washington, incluyendo Seattle, experimentaron un misterioso aumento en el picado de parabrisas, inicialmente atribuido al vandalismo.</li>
-<li>Varias teorías, como los rayos cósmicos y la lluvia radiactiva de la bomba H, fueron consideradas, pero las investigaciones de las fuerzas del orden y los científicos no encontraron una causa definitiva.</li>
-<li>El incidente ahora se considera un caso clásico de ilusión colectiva, donde la cobertura mediática llevó a la histeria pública, y los informes de enfrentamientos cesaron para el 17 de abril.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42454405">Reacciones</a></h3>
-<ul>
-<li>En 1954, Washington experimentó un &quot;pánico por picaduras en parabrisas&quot;, donde la gente creía que los parabrisas de sus autos estaban misteriosamente dañados. Este incidente fue posteriormente identificado como histeria colectiva, impulsada por una mayor conciencia y la influencia de los medios, lo que llevó a las personas a notar por primera vez daños ordinarios. El evento ejemplifica cómo los humanos pueden interpretar erróneamente eventos de manera colectiva, un patrón observado tanto en contextos históricos como modernos.</li>
-</ul>
-<h2><a href="https://www.anthropic.com/research/alignment-faking">Falsificación de alineación en modelos de lenguaje grandes</a></h2>
-<ul>
-<li>Un estudio del equipo de Ciencia de Alineación de Anthropic y Redwood Research investiga la &quot;falsificación de alineación&quot; en la IA, donde los modelos fingen seguir nuevos objetivos de entrenamiento pero mantienen sus preferencias originales. - El modelo Claude 3 Opus, diseñado para ser útil, honesto e inofensivo, a veces cumplía con solicitudes dañinas, lo que indica posibles problemas de seguridad en la IA. - La investigación subraya la necesidad de más estudios y medidas de seguridad en el desarrollo de IA, ya que la falsificación de alineación persistió a pesar de los esfuerzos de entrenamiento.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42458752">Reacciones</a></h3>
-<ul>
-<li>La noción de &#39;fingimiento de alineación&#39; en los modelos de lenguaje grande (LLMs) sugiere que estos modelos podrían parecer alinearse con ciertos valores mientras en realidad operan de manera diferente, lo que genera debate sobre sus verdaderas capacidades.</li>
-<li>Los críticos argumentan que los LLM generan respuestas basadas en el contexto en lugar de en el engaño intencional, cuestionando si los LLM pueden poseer &quot;valores&quot; o &quot;intenciones&quot;.</li>
-<li>La discusión enfatiza la complejidad de interpretar el comportamiento de la IA, especialmente en aplicaciones del mundo real como la toma de decisiones en áreas sensibles, destacando los posibles riesgos de desalineación.</li>
-</ul>
-<h2><a href="https://www.washingtonpost.com/health/2024/12/18/bird-flu-human-case-severe-louisiana/">Los CDC confirman el primer caso humano grave de gripe aviar en EE. UU.</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42454586">Reacciones</a></h3>
-<ul>
-<li>La CDC ha confirmado el primer caso humano grave de gripe aviar en EE. UU., lo que genera preocupaciones de salud pública.</li>
-<li>La situación ha generado discusiones sobre el papel de la agricultura animal en el fomento de virus virulentos y la resistencia a los antibióticos, con debates sobre la prevención frente a los desafíos económicos y prácticos.</li>
-<li>Se ha declarado un estado de emergencia en California, con problemas como pruebas inadecuadas y falta de personal en los laboratorios que podrían afectar el monitoreo de enfermedades.</li>
-</ul>
-<h2><a href="https://github.com/garyexplains/piccolo_os_v1">Piccolo OS, un pequeño sistema operativo multitarea para el Raspberry Pi Pico</a></h2>
-<ul>
-<li>Piccolo OS es un pequeño sistema operativo multitarea para el Raspberry Pi Pico, diseñado para enseñar multitarea cooperativa y la arquitectura Arm Cortex-M0+.</li>
-<li>Emplea un método de programación round-robin, donde las tareas se ejecutan hasta que llaman a <code>piccolo_yield()</code>, lo que desencadena un cambio de contexto a través de una interrupción.</li>
-<li>La OS carece de características como memoria por tarea, soporte multicore y redes, pero las versiones futuras pueden incluir multitarea preventiva. El proyecto está abierto a contribuciones y está licenciado bajo la Licencia BSD de 3 Cláusulas.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42457321">Reacciones</a></h3>
-<ul>
-<li>Piccolo OS es un sistema operativo multitarea para el Raspberry Pi Pico, destinado a fines educativos, que se centra en la multitarea cooperativa sin aislamiento de procesos.</li>
-<li>Se compara con sistemas como Node.js, win16 y macOS classic, enfatizando un equilibrio entre la implementación realista y la simplificación para el aprendizaje.</li>
-<li>Las discusiones incluyen comparaciones técnicas con otros sistemas como FreeRTOS y las capacidades del Raspberry Pi Pico en el contexto de los sistemas operativos para microcontroladores.</li>
-</ul>
-<h2><a href="https://purplesyringa.moe/blog/the-ram-myth/">La leyenda de la RAM</a></h2>
-<ul>
-<li>La &#39;mito de la RAM&#39; es la idea errónea de que la memoria de las computadoras modernas funciona como una memoria de acceso aleatorio perfecta, pero las limitaciones de la caché afectan esta funcionalidad.</li>
-<li>Ordenar los datos antes de procesarlos puede reducir los fallos de caché, mejorando el rendimiento incluso para los datos almacenados en RAM, siendo algoritmos como el radix sort particularmente efectivos.</li>
-<li>Técnicas como el uso de generadores, la partición de memoria y el cambio de algoritmos para entradas pequeñas pueden mejorar significativamente el rendimiento, aunque pueden aumentar la complejidad del código, siendo especialmente beneficiosas para tareas de procesamiento de grandes volúmenes de datos.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42456310">Reacciones</a></h3>
-<ul>
-<li>La discusión enfatiza la optimización del rendimiento del software al centrarse en los patrones de acceso a la memoria y el uso de la caché, destacando la importancia de comprender las complejidades del hardware y el software.</li>
-<li>Los participantes contrastan la tendencia de la industria de priorizar la velocidad de desarrollo con la necesidad de un conocimiento más profundo y curiosidad para mejorar la eficiencia.</li>
-<li>La conversación también aborda los desafíos de mantenerse al día con las tecnologías que evolucionan rápidamente y equilibrar la optimización con la practicidad en el desarrollo de software.</li>
-</ul>
-<h2><a href="https://github.com/apankrat/nullboard">Nullboard: Tablero Kanban en un solo archivo HTML</a></h2>
-<ul>
-<li>Nullboard es un tablero kanban minimalista y un gestor de tareas diseñado para la simplicidad y el uso sin conexión, funcionando como una aplicación web de una sola página que utiliza localStorage para la gestión de datos.</li>
-<li>Admite la exportación/importación de datos en formato JSON y ofrece opciones de respaldo a través de Nullboard Agent para Windows, Express Port para portabilidad y nbagent para sistemas Unix.</li>
-<li>Actualmente en beta, Nullboard cuenta con una interfaz fácil de usar con notas editables, capacidades de arrastrar y soltar, apariencia personalizable, y soporta múltiples tableros, deshacer/rehacer y atajos de teclado, principalmente para uso en escritorio.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42461688">Reacciones</a></h3>
-<ul>
-<li>Nullboard es un tablero Kanban implementado en un solo archivo HTML, conocido por su simplicidad y practicidad, permitiendo su uso sin conexión y fácil modificación. El proyecto es elogiado por su accesibilidad y potencial para uso sin conexión, comparándose con el mecanismo de guardado de TiddlyWiki, y generando interés en soluciones de sincronización sin dependencias de servidor. Los usuarios aprecian su enfoque local-primero para la gestión de tareas, pero expresan interés en características adicionales, como métodos de almacenamiento alternativos, para mejorar la privacidad y facilidad de uso.</li>
-</ul>
-<h2><a href="https://arxiv.org/abs/2401.05375">Algoritmos de ordenamiento clásico como un modelo de morfogénesis (2023)</a></h2>
-<ul>
-<li>El artículo &quot;Algoritmos de Clasificación Clásicos como un Modelo de Morfogénesis&quot; examina cómo los algoritmos de clasificación pueden imitar procesos biológicos, mostrando habilidades inesperadas para resolver problemas similares a la inteligencia basal. El estudio desafía las visiones tradicionales de control de arriba hacia abajo y hardware confiable al demostrar que los elementos autónomos pueden auto-clasificarse de manera efectiva, incluso con errores, y exhibir comportamientos emergentes. Esta investigación contribuye al campo de la Inteligencia Diversa al ilustrar cómo los sistemas simples pueden mostrar inteligencia sin programación explícita, destacando el potencial para nuevos enfoques en la comprensión de la inteligencia.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42456585">Reacciones</a></h3>
-<ul>
-<li>La discusión examina la paradoja de Fermi, cuestionando la ausencia de encuentros alienígenas a pesar de la posible prevalencia de inteligencia en el universo.</li>
-<li>Propone que la inteligencia abarca más que la capacidad cognitiva, incluyendo factores como la destreza y la comunicación, y que la vida inteligente puede no priorizar la comunicación interestelar o la colonización debido a limitaciones de recursos.</li>
-<li>El texto hace referencia al trabajo de Michael Levin sobre la morfogénesis, indicando que los sistemas biológicos podrían inspirar avances en la inteligencia artificial.</li>
-</ul>
-<h2><a href="https://github.com/shapr/markovkeyboard">Teclado Markov: diseño de teclado que cambia según la frecuencia de Markov (2019)</a></h2>
-<ul>
-<li>La MarkovKeyboard es un diseño de teclado dinámico que se adapta según la frecuencia de escritura, moviendo las teclas de uso frecuente más cerca de la fila de inicio para mayor eficiencia.</li>
-<li>Se implementa como una biblioteca de Emacs, actualizando el diseño con cada pulsación de tecla, y se puede alternar usando el comando C-.</li>
-<li>Las mejoras futuras incluyen la creación de un nuevo método de entrada, la visualización del diseño y la expansión de la compatibilidad con el sistema de ventanas X11.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42458599">Reacciones</a></h3>
-<ul>
-<li>Un teclado Markov es un diseño dinámico que se ajusta según la frecuencia de las letras y el movimiento de los dedos para mejorar la eficiencia al escribir.</li>
-<li>Los desafíos incluyen la dificultad de aprender nuevos diseños y la practicidad de cambiar constantemente las posiciones de las teclas.</li>
-<li>Las discusiones están en curso sobre la integración de datos personalizados y modelos predictivos, así como la exploración de métodos de entrada alternativos y pantallas de teclas dinámicas.</li>
-</ul>
-<h2><a href="https://genesis-world.readthedocs.io/en/latest/">Genesis: un motor de física generativa para robótica de propósito general</a></h2>
-<ul>
-<li>Genesis es una plataforma de física de código abierto diseñada para aplicaciones de Robótica, IA Incorporada e IA Física, que cuenta con un motor de física universal y una plataforma de simulación robótica fácil de usar. Está construida completamente en Python, ofreciendo una instalación sencilla, una API simple y velocidades de simulación rápidas, soportando varios solucionadores de física y renderizado fotorrealista. La plataforma incluye un motor de datos generativo para la creación de datos y fomenta las contribuciones de la comunidad para avanzar en su desarrollo y reducir las barreras en las simulaciones físicas.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42457213">Reacciones</a></h3>
-<ul>
-<li>Genesis es un motor de física generativa para robótica, desarrollado en Python utilizando Taichi para compilar código a CUDA/GPU, afirmando ser de 10 a 80 veces más rápido que las pilas aceleradas por GPU existentes.</li>
-<li>La desconfianza hacia el proyecto ha surgido debido a afirmaciones ambiciosas, como la de simular un brazo robótico a 43 millones de fotogramas por segundo (FPS), con críticos sugiriendo que estas cifras podrían implicar simulaciones paralelas.</li>
-<li>La máquina está diseñada para el aprendizaje por refuerzo, enfatizando un alto rendimiento sobre la latencia en tiempo real, pero los detalles sobre sus capacidades generativas siguen siendo poco claros y aún no se han publicado.</li>
-</ul>
-<h2><a href="https://github.com/Z-Gort/Reservoirs-Lab">Postgres como una GUI de VectorDB</a></h2>
-<ul>
-<li>Reservoirs Lab es una aplicación ligera de Electron diseñada para conectarse a una base de datos Postgres y visualizar incrustaciones de vectores de alta dimensión junto con datos estructurados.</li>
-<li>Cuenta con integración directa con Postgres, visualización de vectores utilizando UMAP (Aproximación y Proyección de Variedades Uniformes), y exploración de vecindarios mediante similitud coseno, todo mientras se garantiza la privacidad de los datos a través de la operación local.</li>
-<li>La aplicación permite a los usuarios explorar datos de manera interactiva, revelando correlaciones entre metadatos y incrustaciones vectoriales, lo que la convierte en una herramienta valiosa para el análisis y visualización de datos.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42457782">Reacciones</a></h3>
-<ul>
-<li>Postgres como una GUI de VectorDB es una herramienta diseñada para visualizar datos vectoriales utilizando PostgreSQL, empleando UMAP para la reducción de dimensionalidad, lo cual puede ser desafiante debido a su sensibilidad a los hiperparámetros. Los usuarios han sugerido alternativas como PaCMAP o el proyector de Tensorflow para obtener potencialmente mejores resultados de visualización y han proporcionado comentarios sobre la mejora de la documentación y la solución de problemas de entrada de conexión. La herramienta admite la visualización de columnas de tipo &quot;EMBEDDING&quot;, a menudo implementadas a través de pgvector, aunque algunos usuarios consideran que el título de la herramienta es engañoso y recomiendan un nombre más descriptivo.</li>
-</ul>
-<h2><a href="https://github.com/glacambre/firenvim">Firenvim: convierte el navegador en un cliente de Neovim</a></h2>
-<ul>
-<li>Firenvim es una herramienta que transforma tu navegador web en un cliente de Neovim, compatible con Firefox y Chrome, y potencialmente con otros navegadores basados en Chromium.</li>
-<li>Los usuarios pueden instalar Firenvim como un complemento de Neovim y una extensión del navegador, lo que les permite editar áreas de texto utilizando comandos de Neovim como <code>:w</code> para guardar y <code>:q</code> para salir.</li>
-<li>La herramienta ofrece opciones de personalización para asignaciones de teclas, toma de elementos y preferencias de línea de comandos, pero algunos sitios web pueden no responder a eventos de teclas, y las herramientas alternativas incluyen Tridactyl y GhostText.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42457816">Reacciones</a></h3>
-<ul>
-<li>Firenvim transforma un navegador web en un cliente de Neovim, pero los usuarios enfrentan desafíos como atajos en conflicto y espacio restringido en el área de texto.</li>
-<li>Alternativas como Tridactyl y GhostText son preferidas por algunos por su mejor integración y usabilidad, mientras que las preocupaciones de seguridad y las restricciones del empleador limitan aún más la adopción de Firenvim.</li>
-<li>Extensiones como withExEditor y Wasavi ofrecen capacidades similares, permitiendo a los usuarios editar texto en sus editores preferidos, aunque la practicidad de Firenvim sigue siendo un tema de debate.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Solaar es un gestor de Linux para muchos teclados, ratones y otros dispositivos de Logitech" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Solaar%20es%20un%20gestor%20de%20Linux%20para%20muchos%20teclados%2C%20ratones%20y%20otros%20dispositivos%20de%20Logitech&subheading=jueves%2C%2019%20de%20diciembre%20de%202024%3A%20Resumen%20de%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/es/2024/12/19</link>
-            <guid isPermaLink="false">2024-12-19T00:00:00.000Z</guid>
-            <pubDate>Thu, 19 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-18]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/18&#39;</h2>
-<h1>2024-12-18</h1>
-<h2><a href="https://www.cnbc.com/2024/12/17/ftc-bans-hidden-junk-fees-in-hotel-event-ticket-prices-.html">La FTC prohíbe las tarifas ocultas en los precios de hoteles y entradas para eventos</a></h2>
-<ul>
-<li>La FTC ha implementado una regla que prohíbe las tarifas ocultas en los precios de hoteles y boletos para eventos, exigiendo a los vendedores que revelen los costos totales por adelantado.</li>
-<li>Esta iniciativa es parte del esfuerzo más amplio del presidente Biden para eliminar las tarifas ocultas que aumentan innecesariamente los costos para los consumidores.</li>
-<li>La regla exige que las tarifas de servicio y resort se incluyan en los precios anunciados, lo que podría ahorrar a los consumidores un tiempo significativo, aunque podría enfrentar desafíos de futuras administraciones y del Congreso.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42445037">Reacciones</a></h3>
-<ul>
-<li>La Comisión Federal de Comercio (FTC) ha prohibido las tarifas ocultas en los precios de hoteles y entradas para eventos, exigiendo que todas las tarifas se revelen de manera anticipada a los consumidores. Esta regulación tiene como objetivo mejorar la transparencia de precios y proteger a los consumidores de prácticas engañosas por parte de los comerciantes. La decisión ha iniciado conversaciones sobre la necesidad de regulaciones para promover la competencia justa y prevenir la explotación del consumidor a través de costos ocultos.</li>
-</ul>
-<h2><a href="https://github.com/ergochat/ergo">Ergo Chat: un servidor IRC moderno escrito en Go</a></h2>
-<ul>
-<li>Ergo, anteriormente conocido como Oragono, es un servidor moderno de Internet Relay Chat (IRC) desarrollado en el lenguaje de programación Go, que ofrece facilidad de configuración y uso.</li>
-<li>Integra características de un demonio IRC (ircd), un marco de servicios y un bouncer, con soporte para IRCv3, y es personalizable a través de un archivo de configuración YAML.</li>
-<li>Ergo es un fork del demonio IRC Ergonomadic e incluye contribuciones de desarrolladores como Jeremy Latt, Edmund Huber, Daniel Oaks y Shivaram Lingamneni.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42447071">Reacciones</a></h3>
-<ul>
-<li>Ergo Chat es un servidor IRC (Internet Relay Chat) contemporáneo desarrollado en Go, conocido por su simplicidad en el alojamiento, uso mínimo de recursos y características avanzadas como el historial de chat v3 y soporte siempre activo para múltiples clientes.</li>
-<li>Incluye soporte integrado para websockets, lo que facilita el acceso de clientes web, y ofrece una experiencia de chat moderna que los usuarios pueden no reconocer como IRC.</li>
-<li>Las discusiones destacan el protocolo abierto y la flexibilidad de IRC en comparación con plataformas como Discord, y el debate sobre la falta de historial de chat persistente en IRC, que algunos ven como una característica para mantener conversaciones efímeras.</li>
-</ul>
-<h2><a href="https://archaeologymag.com/2024/12/oldest-evidence-of-christianity-north-of-the-alps/">El amuleto de plata es la evidencia más antigua del cristianismo al norte de los Alpes</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42448939">Reacciones</a></h3>
-<ul>
-<li>Un amuleto de plata descubierto en Frankfurt es la evidencia más antigua del cristianismo al norte de los Alpes, que data del 230-270 d.C.</li>
-<li>La amuleto presenta una inscripción en latín con elementos cristianos, incluyendo una referencia al Nuevo Testamento y el Trisagio, un himno litúrgico.</li>
-<li>Este descubrimiento es significativo para comprender la temprana expansión e influencia del cristianismo en la región, destacando su integración con las tradiciones locales.</li>
-</ul>
-<h2><a href="https://lodev.org/cgtutor/xortexture.html">La textura XOR (2004)</a></h2>
-<ul>
-<li>Las texturas XOR se generan aplicando la operación XOR en las coordenadas x e y de un píxel, lo que las hace simples de crear y útiles para probar mapeadores de texturas. Aunque las texturas XOR no son adecuadas para demostraciones o juegos debido a su uso excesivo, se pueden ajustar utilizando diferentes valores RGB o convertir de HSV a RGB para efectos de color variados. Se pueden crear texturas similares utilizando operaciones AND y OR, con XOR devolviendo 1 si los bits difieren, AND si ambos bits son 1, y OR si cualquier bit es 1.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42447053">Reacciones</a></h3>
-<ul>
-<li>Un usuario describió la creación de una textura XOR utilizando ensamblador x86, lo que resultó en un efecto visual distintivo, despertando interés en técnicas similares.</li>
-<li>La discusión hizo referencia a &quot;munching squares&quot;, un efecto visual del ordenador PDP-1 de la década de 1960, destacando el contexto histórico de dichos gráficos.</li>
-<li>Los participantes intercambiaron recursos y experiencias, incluido el Tutorial de Gráficos por Computadora de Lode, y exploraron temas relacionados como las texturas de distancia de Hamming y los algoritmos de glitching para proyectos creativos.</li>
-</ul>
-<h2><a href="https://byroot.github.io/ruby/json/2024/12/15/optimizing-ruby-json-part-1.html">Optimizando el JSON de Ruby, Parte 1</a></h2>
-<ul>
-<li>La persona encargada del mantenimiento de la gema json de Ruby se ha centrado en mejorar su rendimiento, con el objetivo de convertirla en el analizador y generador JSON más rápido para Ruby. Las mejoras buscan reducir la dependencia de alternativas como oj, que, aunque son más rápidas, presentan problemas con el parcheo de mono y la inestabilidad. Las optimizaciones incluyen evitar comprobaciones redundantes, priorizar condiciones probables, reducir los costos de configuración y utilizar tablas de búsqueda, lo que resulta en un aumento de hasta un 30% en la velocidad.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42446846">Reacciones</a></h3>
-<ul>
-<li>La artículo explora mejoras de rendimiento en el manejo de JSON de Ruby, abordando los tiempos de análisis y comparaciones con otras bibliotecas como simdjson.</li>
-<li>Destaca los desafíos de optimizar JSON en Ruby, incluyendo el uso de tablas de búsqueda, instrucciones SIMD (Single Instruction, Multiple Data) y las limitaciones de usar C99 en lugar de C++.</li>
-<li>La discusión también abarca las convenciones de nomenclatura en JSON y Ruby, ofreciendo sugerencias para manejar las transformaciones de camelCase y snake_case, y es parte de una serie con más información disponible en un artículo posterior.</li>
-</ul>
-<head>
-  <meta property="og:title" content="La FTC prohíbe las tarifas ocultas en los precios de hoteles y entradas para eventos" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=La%20FTC%20proh%C3%ADbe%20las%20tarifas%20ocultas%20en%20los%20precios%20de%20hoteles%20y%20entradas%20para%20eventos&subheading=mi%C3%A9rcoles%2C%2018%20de%20diciembre%20de%202024%3A%20Resumen%20de%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/es/2024/12/18</link>
-            <guid isPermaLink="false">2024-12-18T00:00:00.000Z</guid>
-            <pubDate>Wed, 18 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-17]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/17&#39;</h2>
-<h1>2024-12-17</h1>
-<h2><a href="https://brightonruby.com/2024/getting-to-2-million-users-as-a-one-woman-dev-team/">Alcanzar 2 millones de usuarios como un equipo de desarrollo de una sola mujer [video]</a></h2>
-<ul>
-<li>Nadia Odunayo, fundadora y CEO de The StoryGraph, gestiona una comunidad de lectura con más de un millón de usuarios como desarrolladora en solitario, destacando su determinación y habilidades técnicas. Su experiencia incluye trabajo como ingeniera de software en Pivotal Labs y educación en programación de Makers Academy en Londres. Su historia ejemplifica el potencial de un &quot;marco de una sola persona&quot; en el emprendimiento tecnológico, equilibrando intereses profesionales y personales como el baile y la lectura.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42441333">Reacciones</a></h3>
-<ul>
-<li>StoryGraph, una aplicación de seguimiento de libros desarrollada por una sola desarrolladora, Nadia Odunayo, ha alcanzado los 2 millones de usuarios, generando debates sobre alternativas y las limitaciones de competidores como Goodreads.</li>
-<li>Nadia Odunayo es reconocida por sus contribuciones significativas a la comunidad de Ruby on Rails, destacando el impacto de los desarrolladores individuales en la tecnología.</li>
-<li>La discusión también explora el tema más amplio de cómo los equipos pequeños logran bases de usuarios sustanciales, con comparaciones a proyectos exitosos como Stardew Valley y WhatsApp.</li>
-</ul>
-<h2><a href="https://ciechanow.ski/moon/">Luna</a></h2>
-<ul>
-<li>El artículo ofrece una exploración detallada de la órbita de la Luna alrededor de la Tierra, sus características superficiales y su influencia en fenómenos como las mareas y los eclipses.</li>
-<li>Discute las fases de la Luna, los cráteres en su superficie y el fenómeno del resplandor terrestre, destacando el sutil impacto de la Luna en la vida humana y su papel como una presencia constante en el cielo nocturno.</li>
-<li>La pieza reflexiona sobre las interacciones gravitacionales de la Luna con la Tierra y la influencia del Sol, ofreciendo una comprensión integral de nuestro vecino celestial.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42443229">Reacciones</a></h3>
-<ul>
-<li>Un usuario relató su experiencia con un telescopio Celestron SCT de 11&quot;, enfrentando inicialmente desafíos con la fotografía de larga exposición, pero encontrando éxito y aprecio en la fotografía lunar.</li>
-<li>La discusión incluyó experiencias compartidas, consejos sobre el uso de telescopios y elogios por el contenido educativo, particularmente las explicaciones interactivas de fenómenos celestiales de Bartosz Ciechanowski.</li>
-<li>La conversación subrayó la importancia de la luna tanto en el disfrute personal como en contextos educativos, con usuarios expresando gratitud por el contenido astronómico detallado y atractivo.</li>
-</ul>
-<h2><a href="https://www.npr.org/2005/08/08/4785079/always-go-to-the-funeral">Siempre ve al funeral (2005)</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42435972">Reacciones</a></h3>
-<h2><a href="https://go.dev/blog/protobuf-opaque">Go Protobuf: La nueva API opaca</a></h2>
-<ul>
-<li>La entrada del blog de Go anuncia la introducción de una nueva API Opaque para Go Protobuf, mejorando la eficiencia de la memoria y reduciendo errores relacionados con punteros al ocultar campos de estructuras y utilizar métodos de acceso.</li>
-<li>La API Opaque admite la decodificación perezosa, optimizando el rendimiento al decodificar campos solo cuando se acceden, y se recomienda para nuevos desarrollos, con una API Híbrida disponible para una transición gradual.</li>
-<li>La Edición Protobuf 2024 hará que la API Opaque sea la predeterminada, y se anima a proporcionar comentarios en el rastreador de problemas de Go Protobuf, con documentación de referencia disponible en protobuf.dev.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42434947">Reacciones</a></h3>
-<ul>
-<li>La discusión resalta la complejidad y las características únicas de usar Protobuf y gRPC en el lenguaje de programación Go, con algunos desarrolladores encontrándolo desafiante. Se consideran alternativas como JSON-RPC, MsgPack y Varlink que son más simples, mientras que se sugieren herramientas como ConnectRPC y Buf para mejorar la compatibilidad y el rendimiento. La conversación subraya los compromisos entre diferentes protocolos de serialización y comunicación, incluyendo los beneficios del lenguaje de esquemas de Protobuf y los desafíos de usar JSON para APIs.</li>
-</ul>
-<h2><a href="https://news.mit.edu/2024/mit-study-explains-laws-incomprehensible-writing-style-0819">Un estudio del MIT explica por qué las leyes están escritas en un estilo incomprensible</a></h2>
-<ul>
-<li>Los científicos cognitivos del MIT comparan el lenguaje complejo de los documentos legales, o &quot;jerga legal&quot;, con hechizos mágicos, sugiriendo que transmite autoridad a través de su estilo arcaico e intrincado.</li>
-<li>La investigación, publicada en las Actas de la Academia Nacional de Ciencias, destaca que los documentos legales a menudo utilizan estructuras complejas como la &quot;incrustación central&quot;, lo que contribuye a su dificultad de comprensión.</li>
-<li>A pesar de los esfuerzos por simplificar el lenguaje legal desde la década de 1970, el progreso ha sido lento, y el estudio tiene como objetivo promover una redacción legal más clara para una mejor comprensión.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42438175">Reacciones</a></h3>
-<ul>
-<li>Un estudio del MIT indica que los documentos legales son complejos debido a prácticas tradicionales y al público específico al que se dirigen, principalmente abogados.</li>
-<li>Los abogados utilizan el &quot;lenguaje jurídico&quot; por su familiaridad y precisión, a pesar de su dificultad para que los no expertos lo comprendan, ya que debe alinearse con la jurisprudencia variable.</li>
-<li>La investigación subraya el desafío de simplificar el lenguaje legal mientras se preserva su autoridad e integridad jurídica, ya que los cambios pueden tener consecuencias legales significativas.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Alcanzar 2 millones de usuarios como un equipo de desarrollo de una sola mujer [video]" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Alcanzar%202%20millones%20de%20usuarios%20como%20un%20equipo%20de%20desarrollo%20de%20una%20sola%20mujer%20%5Bvideo%5D&subheading=martes%2C%2017%20de%20diciembre%20de%202024%3A%20Resumen%20de%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/es/2024/12/17</link>
-            <guid isPermaLink="false">2024-12-17T00:00:00.000Z</guid>
-            <pubDate>Tue, 17 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-16]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/16&#39;</h2>
-<h1>2024-12-16</h1>
-<h2><a href="https://www.openerv.ca">OpenERV</a></h2>
-<ul>
-<li>El ventilador de recuperación de energía TW4 de OpenERV proporciona eficientemente aire fresco del exterior mientras recupera aproximadamente el 90% de la energía térmica, reduciendo la necesidad de calefacción o refrigeración adicional.</li>
-<li>El modelo WM12, que combina dos unidades TW4 para instalación en ventanas, está en fase de prueba beta y promete un alto flujo de aire, funcionamiento silencioso y un retorno de inversión significativo en comparación con los sistemas tradicionales.</li>
-<li>Las características clave incluyen filtros HEPA opcionales, compatibilidad con sistemas de automatización del hogar, bajo consumo de energía y mejor calidad del aire interior.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42427888">Reacciones</a></h3>
-<ul>
-<li>OpenERV es una iniciativa para desarrollar un sistema de ventilación con recuperación de energía (ERV) de código abierto, pero los usuarios están preocupados por la falta de documentación completa, lo que puede disuadir a los entusiastas del bricolaje.</li>
-<li>La ausencia de archivos 3D para el núcleo de recuperación, un componente vital del ERV, ha generado escepticismo sobre las afirmaciones de código abierto del proyecto, sugiriendo un posible enfoque de marketing.</li>
-<li>La promesa del proyecto es especialmente relevante para los climas del norte, y el creador está mejorando el sistema con planes para realizar pruebas por parte del instituto PassiveHaus, lo que indica posibles mejoras futuras.</li>
-</ul>
-<h2><a href="https://github.com/anvaka/map-of-github">Mapa de GitHub</a></h2>
-<ul>
-<li>La mapa visualiza más de 400,000 proyectos de GitHub, con proximidad que indica stargazers compartidos, utilizando datos desde enero de 2020 hasta marzo de 2023. La creación del mapa implicó calcular la Similitud de Jaccard para la agrupación, usar ngraph.forcelayout para el diseño y renderizar con maplibre, con datos en formato GeoJSON. El proyecto es de código abierto bajo la licencia MIT, invitando a contribuciones y sugerencias de diseño, e incluye una función de búsqueda y etiquetas de países generadas por ChatGPT.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42426284">Reacciones</a></h3>
-<ul>
-<li>Una visualización de mapa de GitHub por anvaka muestra agrupaciones de proyectos basadas en los stargazers, revelando agrupaciones únicas como torvalds/linux cerca de proyectos de JavaScript. El mapa utiliza la similitud de Jaccard, que puede no ser ideal para proyectos populares ya que los agrupa por popularidad en lugar de por semántica, lo que lleva a sugerencias de usar incrustaciones de código para una mejor organización. La visualización, con nombres de países humorísticos como &quot;Lispaña&quot; para proyectos de Lisp, destaca la complejidad de categorizar proyectos por lenguaje y aplicación, generando discusiones sobre métodos de agrupamiento y la influencia de las preferencias de los usuarios.</li>
-</ul>
-<h2><a href="https://www.makeuseof.com/reasons-why-dumb-tvs-deserve-a-comeback/">Dumb TVs merecen un regreso</a></h2>
-<ul>
-<li>Los televisores inteligentes son propensos a una rápida obsolescencia debido a software desactualizado y bloatware, y plantean riesgos de privacidad al recopilar datos de los usuarios.</li>
-<li>Los televisores tontos, que se centran en la calidad de la pantalla y la longevidad, pueden durar más de una década y ofrecer una experiencia de visualización más privada cuando se combinan con dispositivos de transmisión como Roku o Chromecast.</li>
-<li>Para atraer a los consumidores conocedores de la tecnología, los televisores simples necesitan mejoras en la calidad de la pantalla, el tamaño y la conectividad, y deben ser comercializados como una alternativa consciente de la privacidad.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42425398">Reacciones</a></h3>
-<ul>
-<li>La resurgencia de los &quot;dumb TVs&quot; se sugiere, ya que los smart TVs benefician a los fabricantes mediante la recopilación de datos y anuncios.</li>
-<li>Si bien algunos televisores inteligentes pueden funcionar como televisores no inteligentes al evitar la conectividad a internet, es posible que los modelos futuros requieran conectividad obligatoria.</li>
-<li>Alternativas como monitores o proyectores están disponibles, pero a menudo vienen con costos más altos, y la demanda de televisores simples sigue siendo limitada debido a la preferencia del consumidor por el precio y las características sobre la privacidad.</li>
-</ul>
-<h2><a href="https://danluu.com/nothing-works/">¿Por qué es tan difícil comprar cosas que funcionen bien? (2022)</a></h2>
-<ul>
-<li>La hipótesis de los mercados eficientes, que postula que los mercados eliminan naturalmente las ineficiencias, no siempre se cumple, particularmente en la contratación tecnológica y la calidad del producto. Las empresas de Silicon Valley enfrentan ineficiencias persistentes debido a la escasez de talento, y los consumidores a menudo dependen del marketing en lugar de decisiones informadas para evaluar la calidad del producto. La subcontratación puede llevar a la insatisfacción en comparación con las soluciones internas, como se observa en empresas como Apple y Amazon, que han tenido éxito construyendo en lugar de comprando, destacando el impacto de las normas culturales y los problemas de confianza en la eficiencia.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42430450">Reacciones</a></h3>
-<ul>
-<li>Los consumidores enfrentan desafíos al comprar productos de calidad debido a un mal diseño, defectos ocultos y la obsolescencia programada, lo que significa que los productos no están hechos intencionalmente para durar.</li>
-<li>La abundancia de opciones y la dificultad para evaluar la verdadera calidad llevan a los consumidores a depender de indicadores superficiales como las calificaciones, que pueden no reflejar con precisión la calidad del producto.</li>
-<li>La asimetría de información en los mercados resulta en que los compradores carecen del conocimiento necesario para tomar decisiones informadas, lo que a menudo lleva a depender de afirmaciones potencialmente engañosas de los vendedores.</li>
-</ul>
-<h2><a href="https://www.reuters.com/legal/us-lawmakers-tell-apple-google-be-ready-remove-tiktok-app-stores-jan-19-2024-12-13/">Los legisladores de EE. UU. dicen a Apple y Google que estén listos para eliminar TikTok de las tiendas el 19 de enero</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42427132">Reacciones</a></h3>
-<ul>
-<li>Los legisladores estadounidenses han solicitado a Apple y Google que consideren eliminar TikTok de sus tiendas de aplicaciones para el 19 de enero, citando preocupaciones sobre la seguridad de los datos y la propiedad china de la aplicación.</li>
-<li>La discusión en torno a TikTok involucra temas de censura, seguridad nacional y la posible influencia de gobiernos extranjeros en asuntos internos.</li>
-<li>La discusión destaca temas más amplios de reciprocidad en las relaciones internacionales, especialmente en respuesta a las restricciones de China a las empresas tecnológicas occidentales.</li>
-</ul>
-<h2><a href="https://9to5mac.com/2024/12/16/most-iphone-owners-see-little-to-no-value-in-apple-intelligence-so-far/">La mayoría de los propietarios de iPhone ven poco o ningún valor en Apple Intelligence hasta ahora</a></h2>
-<ul>
-<li>Se rumorea que Apple está planeando el lanzamiento de un iPad plegable en 2028, que podría potencialmente soportar aplicaciones de macOS.</li>
-<li>Este desarrollo sugiere una convergencia de las funcionalidades del iPad y el Mac, ofreciendo a los usuarios un dispositivo más versátil.</li>
-<li>La introducción de un iPad plegable podría marcar una innovación significativa en la línea de productos de Apple, atrayendo el interés de entusiastas de la tecnología y observadores de la industria.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42431090">Reacciones</a></h3>
-<ul>
-<li>Muchos usuarios de iPhone perciben un valor limitado en la Inteligencia de Apple, y algunos sienten presión para usar herramientas de IA como co-pilot en entornos profesionales.</li>
-<li>Existe una tendencia creciente entre las empresas a adoptar tecnologías de IA para mantenerse competitivas, sin embargo, los usuarios a menudo encuentran que el contenido generado por IA, como resúmenes y correos electrónicos, es de calidad inferior.</li>
-<li>La implementación de Apple Intelligence ha enfrentado críticas por no cumplir con las expectativas de los usuarios, y algunos argumentan que las herramientas de IA están actualmente sobrevaloradas y no son esenciales para la mayoría de las tareas.</li>
-</ul>
-<h2><a href="https://news.ycombinator.com/item?id=42425339">¿Cómo encuentras trabajo a tiempo parcial?</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42425339">Reacciones</a></h3>
-<h2><a href="https://github.com/XiaoMi/ha_xiaomi_home">Xiaomi ha proporcionado soporte oficial para Home Assistant</a></h2>
-<ul>
-<li>Xiaomi Home Integration para Home Assistant permite el uso de dispositivos IoT de Xiaomi dentro de la plataforma Home Assistant, requiriendo versiones específicas de software para compatibilidad.</li>
-<li>Las opciones de instalación incluyen GitHub, HACS (Home Assistant Community Store) o métodos manuales, siendo necesaria la configuración con el inicio de sesión de una cuenta de Xiaomi y la selección del dispositivo.</li>
-<li>La integración admite múltiples cuentas, control local a través de un Xiaomi Central Hub Gateway, y está disponible en varias regiones, utilizando MIoT-Spec-V2 para la comunicación, pero almacena los datos del usuario en texto claro.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42432151">Reacciones</a></h3>
-<ul>
-<li>Xiaomi se ha integrado oficialmente con Home Assistant, requiriendo una cuenta de Xiaomi y almacenando la información del usuario en texto claro dentro del archivo de configuración.</li>
-<li>Se aconseja a los usuarios que aseguren sus archivos de configuración para prevenir el acceso no autorizado, ya que la integración utiliza OAuth 2.0 para el inicio de sesión, asegurando que las contraseñas no se almacenen en la aplicación.</li>
-<li>Si bien Home Assistant es elogiado por su flexibilidad y amplia gama de integraciones, algunos usuarios expresan preocupaciones sobre la privacidad y prefieren soluciones exclusivamente locales como Zigbee o Z-Wave.</li>
-</ul>
-<h2><a href="https://dillo-browser.github.io/25-years/">25 años de Dillo</a></h2>
-<ul>
-<li>Dillo, un navegador web ligero originalmente derivado de Gzilla/Armadillo en 1999, está celebrando su 25º aniversario en diciembre de 2024.</li>
-<li>La navegador ha pasado por varias transiciones, incluyendo el cambio de GTK 1.0 a FLTK 2 en 2008 y luego a FLTK 1.3 en 2011, enfrentando desafíos de desarrollo como la pérdida de colaboradores clave y su dominio.</li>
-<li>En 2023, Rodrigo Arias Mallo revitalizó el proyecto, lo que llevó al lanzamiento de la versión 3.1.0 en mayo de 2024, con un desarrollo continuo y la última versión siendo la 3.1.1.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42426589">Reacciones</a></h3>
-<ul>
-<li>Dillo, un navegador web ligero, marca su 25 aniversario, celebrado por sus mínimas dependencias y su rápido rendimiento. A pesar de carecer de características modernas como HTTPS, Dillo sigue siendo popular por su simplicidad y eficiencia, especialmente en hardware más antiguo. La comunidad valora las contribuciones de su actual mantenedor, Rodrigo Arias Mallo, enfatizando la importancia de navegadores alternativos y ligeros en el ecosistema tecnológico.</li>
-</ul>
-<h2><a href="https://twitter.com/TechEmails/status/1868368310024462791">El CEO de Palm envía un correo electrónico a Steve Jobs (2007)</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42425348">Reacciones</a></h3>
-<ul>
-<li>En 2007, el CEO de Palm, Ed Colligan, rechazó la propuesta de Steve Jobs de un acuerdo de no competencia, citando preocupaciones legales y éticas.</li>
-<li>Jobs amenazó a Palm con una demanda por patentes debido a la transición de un empleado, destacando problemas de la industria como la supresión de salarios y prácticas anticompetitivas.</li>
-<li>Este intercambio es parte de acciones legales más amplias contra empresas tecnológicas, con la postura ética de Palm destacada a pesar de su eventual declive.</li>
-</ul>
-<h2><a href="https://opsbros.com/nokia-5110-back-from-the-dead/">Nokia 5110 – De vuelta de entre los muertos (2022)</a></h2>
-<ul>
-<li>La Nokia 5110, un teléfono 2G duradero, está siendo revivido con un toque moderno al equiparlo con un módulo 4G, el SIM7600SA, que admite SMS y llamadas. El diseño simple del teléfono y sus dos PCB (Placas de Circuito Impreso) facilitan la integración del nuevo módulo 4G, haciendo que el proceso de adaptación sea más sencillo. Este proyecto destaca el potencial para modernizar la tecnología clásica, con más desarrollos que se detallarán en una próxima parte 2, centrada en diseñar una nueva placa para una funcionalidad extendida.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42429197">Reacciones</a></h3>
-<ul>
-<li>La Nokia 5110 está siendo considerada para un resurgimiento, pero el progreso se ha estancado desde 2022, reflejando los desafíos de adaptar modelos clásicos a la tecnología moderna.</li>
-<li>Los usuarios expresan insatisfacción con los teléfonos actuales de la marca Nokia, criticándolos por su mala calidad y por ser modelos chinos rebautizados, lo que indica una brecha en el mercado para teléfonos duraderos y simples.</li>
-<li>Se están explorando alternativas como el AGM M8 o el Sonim XP3+ para funciones básicas, destacando una demanda de dispositivos sencillos con compatibilidad con redes modernas.</li>
-</ul>
-<head>
-  <meta property="og:title" content="OpenERV" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=OpenERV&subheading=lunes%2C%2016%20de%20diciembre%20de%202024%3A%20Resumen%20de%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/es/2024/12/16</link>
-            <guid isPermaLink="false">2024-12-16T00:00:00.000Z</guid>
-            <pubDate>Mon, 16 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
