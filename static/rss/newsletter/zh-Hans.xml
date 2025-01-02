@@ -15,12 +15,122 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 01 Jan 2025 22:50:04 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Jan 2025 19:16:12 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/zh-Hans.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[zh-Hans]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-02]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/02&#39;</h2>
+<h1>2025-01-02</h1>
+<h2><a href="https://mathstodon.xyz/@tao/113721192051328193">“我的一篇论文今天被拒了”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42568399">反应</a></h3>
+<ul>
+<li>“著名数学家陶哲轩的一篇论文被拒，这表明即使是顶尖学者也会遭遇拒绝，引发了关于学术界论文拒稿现象普遍性的广泛讨论。- 讨论中突出了同行评审过程中的问题，包括偏见和频繁发表的压力，许多人分享了被拒的个人经历。- 改进建议包括探索替代的评估和出版系统，如开放的互联网中心评审，同时承认拒绝是学术旅程中的常见部分。”</li>
+</ul>
+<h2><a href="https://github.com/alufers/mitmproxy2swagger">“MitmProxy2Swagger：自动逆向工程REST API”</a></h2>
+<ul>
+<li>“mitmproxy2swagger 是一个工具，可以将 mitmproxy 捕获的数据转换为 OpenAPI 3.0 规范，通过捕获应用程序流量来促进对 REST API 的逆向工程。- 该工具现在支持来自浏览器开发者工具的 HTTP Archive (HAR) 文件，扩展了其对开发者的可用性。- 可以使用 Python3 和 pip 或 Docker 进行安装，项目在开发中使用了 poetry、pre-commit 和 pytest 等工具，并采用 MIT 许可证。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42572662">反应</a></h3>
+<ul>
+<li>“MitmProxy2Swagger 是一个工具，旨在通过分析使用 mitmproxy 捕获的流量来逆向工程 REST API。mitmproxy 是一个流行的拦截 HTTP/HTTPS 流量的工具。”</li>
+<li>“用户已经成功地利用它重建游戏的私人服务器，并对安卓应用程序的API进行逆向工程，这突显了其在识别API端点方面的有效性。”</li>
+<li>“该工具特别有利于处理遗留系统或未记录的API，尽管在面对非标准API时可能会遇到挑战，讨论内容包括保护API免受逆向工程的方法，如CAPTCHA和证书固定。”</li>
+</ul>
+<h2><a href="https://mjg59.dreamwidth.org/70954.html">“GPU，而不是TPM，是硬件DRM的根本。”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42570988">反应</a></h3>
+<ul>
+<li>“硬件数字版权管理(DRM)的核心与图形处理单元(GPU)相关，而不是可信平台模块(TPM)，目前媒体DRM与GPU供应商相关联。”</li>
+<li>“DRM 的长期目标可能是对设备施加全面控制，这可能会影响像广告拦截器这样的软件，引发对个人计算未来的担忧。”</li>
+<li>“自由软件基金会(FSF)可能在关注TPM方面存在误导，因为GPU供应商已经集成了DRM技术，这突显了需要立法干预以保护用户权利。”</li>
+</ul>
+<h2><a href="https://github.com/zasper-io/zasper">Zasper：一种现代且高效的JupyterLab替代品，使用Go语言构建</a></h2>
+<ul>
+<li>“Zasper 是一个高性能的集成开发环境(IDE)，灵感来源于 Jupyter，优化用于大规模并发和最小内存使用。- 它使用 Go 编程语言构建，以增强并发性和性能，提供 Electron 和 Web 应用版本，并在 AGPL-3.0 许可证下开源。- Zasper 支持 REPL 风格(读取-求值-打印循环)的数据应用程序，旨在超越 Jupyter Notebooks 支持自定义数据应用程序，完全支持 Mac 并对 Linux 提供有限支持。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42572057">反应</a></h3>
+<ul>
+<li>“Zasper 是 JupyterLab 的新替代品，使用 Go 编程语言开发，承诺在减少 RAM 和 CPU 使用的同时提高效率。”</li>
+<li>“它利用 Go 协程来改进内核管理，与 JupyterLab 的基于 Python 的方法形成对比，旨在解决内核管理和软件包安装等问题。”</li>
+<li>“该项目处于早期阶段，得到了Jupyter社区的支持，并开放反馈和合作，强调了多样化前端的优势以及与Emacs等工具集成的潜力。”</li>
+</ul>
+<h2><a href="https://literallythevoid.com/blog/rails_for_everything.html">“万物皆可用Rails”</a></h2>
+<ul>
+<li>“Rails 8 针对小型项目和单个开发人员进行了优化，提供了一个全面的“Rails 入门”指南，用于构建功能齐全的应用程序。”</li>
+<li>“SQLite 现在在 Rails 8 中已准备好投入生产，减少了对 PostgreSQL 或 Redis 的依赖，并包含基本的持续集成(CI)配置，提供 2000 分钟的免费 GitHub 操作时间。”</li>
+<li>“新的身份验证生成器和与Kamal的简单部署使用户登录和使用SSL的实时应用程序设置更加容易，促进了最佳实践。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42569236">反应</a></h3>
+<ul>
+<li>Rails 是一个流行的 Web 应用开发框架，以其相较于其他现代技术栈如 Spring Boot 或 Micronaut 的简单性和高效性而闻名。- 它因能够快速构建全栈 Web 应用而受到青睐，集成了 ActiveStorage 和系统测试等功能，使其成为独立开发者和小型团队的理想选择。- 尽管关于其相关性的争论不断，Rails 仍在通过最近的更新不断发展，增强其功能并在开发社区中保持吸引力。</li>
+</ul>
+<h2><a href="https://news.ycombinator.com/item?id=42573875">“40岁后在哪里工作？”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42573875">反应</a></h3>
+<ul>
+<li>“40岁以后的职业道路可能会有很大不同，选择包括加入中型B2B(企业对企业)公司、从事咨询或专业服务。”</li>
+<li>“个人目标、财务需求和兴趣应指导决策，社交和过去的经验在发现新机会中起着至关重要的作用。”</li>
+<li>“理想的职业道路是主观的，并且因个人偏好和情况而异。”</li>
+</ul>
+<h2><a href="https://blog.jacobvosmaer.nl/0036-beeper/">“我最喜欢的计算机人体工学技巧”</a></h2>
+<ul>
+<li>“Jacob Vosmaer 介绍了“The Beeper”，这是一种DIY设备，旨在通过在电脑屏幕长时间未锁定时发出蜂鸣声来鼓励活动。- The Beeper由硬件(Adafruit Feather Huzzah ESP8266、开关、压电蜂鸣器)、固件(Lua脚本)和管理激活的软件组成。- 尽管设备简单，但它有效地促进了定期活动，Jacob也感谢了他妻子在项目中的支持。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42569109">反应</a></h3>
+<ul>
+<li>“用户对工作中强制使用的RSIGuard软件表示不满，该软件通过固定时间和干扰性弹出窗口强制休息。- 讨论中包括各种人体工学技巧，如通过喝水来定期休息、穿紧身衣服以及依靠Apple Watch提醒。- 建议使用AntiRSI、Workrave、定制解决方案和像Bangle.js2这样的智能手表作为替代方案，以管理重复性劳损(RSI)并改善人体工学。”</li>
+</ul>
+<h2><a href="https://old.reddit.com/r/uBlockOrigin/comments/1hr6xjc/ubo_quick_filters_list_being_stolen_by_team/">“UBlockOrigin GPL代码被Honey浏览器扩展团队窃取”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42576443">反应</a></h3>
+<ul>
+<li>“蜜蜂浏览器扩展团队被指控在未经适当归属的情况下使用了UBlockOrigin的GPL(通用公共许可证)代码，引发争议。”</li>
+<li>“Reddit用户表达了对欺骗性商业行为的担忧，强调了其对客户和科技行业的负面影响。”</li>
+<li>“讨论强调了更广泛的问题，包括企业道德、金钱在政治中的影响以及在维护商业诚信方面的挑战，并对开源项目的未来持怀疑态度，原因是公司可能会利用这些项目。”</li>
+</ul>
+<h2><a href="https://j3s.sh/thought/blogs-rot-wikis-wait.html">“博客会腐烂。维基在等待。”</a></h2>
+<ul>
+<li>“这篇文章对比了维基的持久性与博客的短暂性，暗示到2025年，维基将变得更加个人化和有意义。”</li>
+<li>“维基被描述为动态的，反映了作者不断发展的思想，而博客则被比作静态的、被遗忘的店面。”</li>
+<li>“作者正在从传统网站过渡到维基格式，这表明个人内容的管理和共享方式正在发生变化。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42571367">反应</a></h3>
+<ul>
+<li>“博客提供了作者思想的特定时间快照，可以通过新帖子进行更新，但通常缺乏时间戳以提供背景。- 维基，如维基百科，可能在更新时机和可靠性方面存在不清晰的问题，导致信息可能过时。- 博客和维基各有独特的优势，可以共存，在内容创作和知识共享中发挥不同的作用。”</li>
+</ul>
+<h2><a href="https://nymag.com/intelligencer/article/meta-wants-more-ai-bots-on-facebook-and-instagram.html">“Meta希望在Facebook和Instagram上增加更多的AI机器人”</a></h2>
+<ul>
+<li>“Meta计划在Facebook和Instagram上推出AI机器人，以吸引年轻用户并利用其在生成式AI技术上的投资。- 这些AI机器人将拥有个人资料并创建内容，功能类似于常规社交媒体账户，这是Meta收购SocialAI后的举措。- 这一计划反映了Meta更广泛的战略，即自动化社交互动和内容策划，与Character.ai等应用程序中看到的趋势一致。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42571608">反应</a></h3>
+<ul>
+<li>“Meta正在Facebook和Instagram上引入更多AI机器人，以通过模拟互动来提高用户参与度，这反映了利用AI增强用户体验的更广泛行业趋势。”</li>
+<li>“人们担心互动的真实性，因为人工智能生成的内容可能会掩盖这些平台上真实的人际关系。”</li>
+<li>“批评者担心，人工智能的增加可能导致社交媒体体验变得不够真实，从而可能疏远那些重视真实互动的用户。”</li>
+</ul>
+<h2><a href="https://austinhenley.com/blog/25yearsofai.html">“我在人工智能和机器学习领域的25年冒险”</a></h2>
+<ul>
+<li>“卡内基梅隆大学的副教授奥斯汀·Z·亨利分享了他在人工智能(AI)和机器学习(ML)领域的25年历程，强调了他从最初的不感兴趣到通过各种项目积极参与的转变。”</li>
+<li>“他的职业生涯包括开发简单的游戏，研究人工智能和神经网络，并在攻读博士学位期间应用决策树和聚类分析代码编辑器数据。”</li>
+<li>“亨利于2022年加入微软的程序合成团队，参与AI项目的工作，包括基于大型语言模型(LLM)的工具，并在教学的同时继续独立探索AI工具。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42569913">反应</a></h3>
+<ul>
+<li>“在人工智能(AI)和机器学习(ML)领域，有一种日益增长的趋势，即使在更简单的解决方案可能更有效的情况下也使用AI。- 一些专业人士反对这一趋势，强调实用方法的必要性，并质疑在每个应用中使用AI的必要性。- 这场辩论强调了工程团队内部沟通的重要性，以在创新与实用性之间取得平衡，同时也要考虑AI对传统人类角色和创造力的社会影响。”</li>
+</ul>
+<head>
+  <meta property="og:title" content="“我的一篇论文今天被拒了”" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9C%E6%88%91%E7%9A%84%E4%B8%80%E7%AF%87%E8%AE%BA%E6%96%87%E4%BB%8A%E5%A4%A9%E8%A2%AB%E6%8B%92%E4%BA%86%E2%80%9D&subheading=2025%E5%B9%B41%E6%9C%882%E6%97%A5%E6%98%9F%E6%9C%9F%E5%9B%9B%3A%20%E9%BB%91%E5%AE%A2%E6%96%B0%E9%97%BB%E6%91%98%E8%A6%81" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/zh/Hans/2025/01/02</link>
+            <guid isPermaLink="false">2025-01-02T00:00:00.000Z</guid>
+            <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-01]]></title>
             <description
@@ -362,146 +472,6 @@
             <link>https://hn.cho.sh/zh/Hans/2024/12/24</link>
             <guid isPermaLink="false">2024-12-24T00:00:00.000Z</guid>
             <pubDate>Tue, 24 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-23]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/23&#39;</h2>
-<h1>2024-12-23</h1>
-<h2><a href="https://abovethelaw.com/2024/12/united-healthcare-using-dmca-against-luigi-mangione-images-which-is-bizarre-wildly-inappropriate/">“‘United Healthcare’使用DMCA对Luigi Mangione的图像采取行动”</a></h2>
-<ul>
-<li>“据报道，United Healthcare 正在利用 DMCA 请求删除与 Luigi Mangione 相关的在线内容，尽管他们并不拥有版权，这引发了对版权法滥用的担忧。- 这种情况突显了 DMCA 如何被版权流氓利用，以潜在的无根据主张来迫使内容托管方遵守。- 目前尚不确定 United Healthcare 是否直接负责这些请求，或者是否有第三方冒充他们。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42490453">反应</a></h3>
-<ul>
-<li>“据称，联合健康正在利用DMCA通知删除被指控杀害其首席执行官的Luigi Mangione的图像，但有传言称有人冒充身份，利用DMCA漏洞。”</li>
-<li>“DMCA 过程允许以最少的验证进行删除请求，这可能导致误用和滥用。”</li>
-<li>“忽视DMCA通知可能导致失去安全港保护，使接收者对版权侵权负责，这突显了DMCA实施中的问题。”</li>
-</ul>
-<h2><a href="https://twtxt.readthedocs.io/en/latest/index.html">“Twtxt 是一个为黑客设计的去中心化、极简主义的微博服务”</a></h2>
-<ul>
-<li>“twtxt发布了版本v1.3.2-dev，这是一种面向黑客的去中心化、极简主义微博服务。”</li>
-<li>“文档包括安装、快速入门、使用、配置和API部分，并在IRC上提供社区支持。”</li>
-<li>“API 章节详细介绍了用户、推文、提及、标签和可发现性的端点，并鼓励在 GitHub 上进行贡献。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42488983">反应</a></h3>
-<ul>
-<li>“Twtxt 是一种去中心化的微博服务，专为黑客设计，以其简约和简单的界面而闻名。”</li>
-<li>“用户指出了一些挑战，例如寻找活跃网站以及缺乏视觉图像等功能，尽管有些人欣赏其简单性和小众吸引力。”</li>
-<li>“社区规模仍然较小，一些用户转向其他平台，如Mastodon或Nostr，但Twtxt提供了一个独特的、自托管的主流社交媒体替代方案。”</li>
-</ul>
-<h2><a href="https://news.ycombinator.com/item?id=42490343">“2025年的预测？”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42490343">反应</a></h3>
-<ul>
-<li>“到2025年，人工智能(AI)预计将取得进展，包括更专业的大型语言模型(LLM)以及用于音乐和视频的生成式AI。”</li>
-<li>“社交媒体平台可能会面临与算法伤害相关的法律挑战，并可能对儿童使用施加更多限制。”</li>
-<li>“经济预测表明，由于美国债务，可能会出现金融危机，而贸易工作可能会变得更有利可图，同时太阳能、机器人技术和人工智能驱动工具的技术进步也在不断发展。”</li>
-</ul>
-<h2><a href="https://medicalxpress.com/news/2024-12-commercial-tea-bags-millions-microplastics.html">“商业茶包释放微塑料，进入人体细胞”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42494746">反应</a></h3>
-<ul>
-<li>“由尼龙-6、聚丙烯和纤维素等聚合物制成的商业茶包可能释放微塑料，这些微塑料有可能进入人体细胞。”</li>
-<li>“该研究旨在开发一种分析微塑料的方法，而不是对纸质茶包做出具体声明，强调了关于纤维素等天然聚合物的持续争论。”</li>
-<li>“关于微塑料的担忧不仅限于茶包，还包括其他日常用品，如塑料内衬杯子和餐具，这表明这是一个更广泛的环境和健康问题。”</li>
-</ul>
-<h2><a href="https://xenaproject.wordpress.com/2024/12/22/can-ai-do-maths-yet-thoughts-from-a-mathematician/">“人工智能能做数学了吗？一位数学家的思考”</a></h2>
-<ul>
-<li>“OpenAI 的新语言模型 o3 在 FrontierMath 数据集上取得了 25% 的得分，该数据集包含具有明确答案的高难度数学问题。”</li>
-<li>“该数据集被保密以防止语言模型对其进行训练，其中包括需要特定数学领域专业知识的问题。”</li>
-<li>“虽然o3的表现值得注意，但真正的进步将是当AI能够解决更复杂的、基于证明的问题时，因为当前的模型如DeepMind的AlphaProof仍然局限于高中水平的问题。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42493464">反应</a></h3>
-<ul>
-<li>“人工智能在数学方面的能力存在争议，因为它可以帮助解决问题和识别模式，但在逻辑推理和算术方面经常出错。”</li>
-<li>“像ChatGPT这样的模型对于概念理解很有用，但在复杂数学问题上需要人类的指导，这突显了人工智能在推理方面的局限性。”</li>
-<li>“人们对人工智能对就业和基准完整性的影响表示担忧，尽管它在帮助数学研究方面显示出潜力，但它尚不能独立推进数学知识。”</li>
-</ul>
-<h2><a href="https://semianalysis.com/2024/12/22/mi300x-vs-h100-vs-h200-benchmark-part-1-training/">“CUDA护城河仍然存在”</a></h2>
-<ul>
-<li>“对MI300X、H100和H200 GPU的基准测试显示，尽管AMD的MI300X规格看起来很有前景，但由于软件问题，其性能不佳。”</li>
-<li>“英伟达的GPU在开箱即用时表现出色，而AMD的MI300X则需要进行大量的调试和修复才能发挥其潜力。”</li>
-<li>“对AMD的建议包括提高软件质量、增加内部测试，并与合作伙伴合作，以提升其相对于Nvidia的竞争地位。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42489844">反应</a></h3>
-<ul>
-<li>“AMD在软件开发方面面临挑战，这影响了其在与Nvidia竞争中的竞争力，特别是在AI和机器学习领域。- 尽管拥有强大的硬件，AMD在驱动支持和向后兼容性方面的问题限制了其性能，这与Nvidia成功的CUDA生态系统形成对比。- 批评者建议AMD应加强其软件工程工作，以改善其在AI市场中的地位，并更有效地与Nvidia竞争。”</li>
-</ul>
-<h2><a href="https://ukdefencejournal.org.uk/classified-fighter-jet-specs-leaked-on-war-thunder-again/">“战雷论坛泄露机密战斗机规格”</a></h2>
-<ul>
-<li>“欧洲战斗机台风雷达的机密规格在《战争雷霆》论坛上被泄露，引发了争议并引起了安全担忧。”</li>
-<li>“这一事件是一个模式的一部分，因为该平台之前的泄密事件涉及其他军事系统，如挑战者2型坦克。”</li>
-<li>“负责泄密的用户已被暂停，相关材料也被迅速移除，这凸显了《战争雷霆》在平衡军事准确性与信息安全方面所面临的挑战。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42490191">反应</a></h3>
-<ul>
-<li>“战雷论坛泄露了机密战斗机规格，突显了在线社区信息安全的问题。”</li>
-<li>“讨论表明，这些泄漏通常是已经在流传的文件的重新发布，其新颖之处在于泄漏所使用的平台是一个游戏论坛。”</li>
-<li>“尽管有泄漏，游戏开发者并不会根据这些泄漏来修改游戏，这表明泄漏的影响有限。”</li>
-</ul>
-<h2><a href="https://imgur.com/a/NQskWzI">“新建的 Google 表格在 13.6 英寸 MacBook Air 屏幕的一半上被弹出窗口完全覆盖。”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42490948">反应</a></h3>
-<ul>
-<li>“用户批评谷歌在13.6英寸MacBook Air上的Google Sheets用户体验设计，指出过多的弹出窗口和过大的UI元素妨碍了可用性。”</li>
-<li>“讨论将谷歌的设计与其他平台进行不利比较，指出了一种优先考虑移动和触摸界面而非桌面可用性的趋势。”</li>
-<li>“有人对谷歌专注于人工智能功能表示不满，因为一些人认为这会影响对基本用户体验和界面设计的改进。”</li>
-</ul>
-<h2><a href="https://newsroom.lexmark.com/2024-12-23-Xerox-to-Acquire-Lexmark">“施乐将收购利盟”</a></h2>
-<ul>
-<li>“施乐计划以15亿美元收购利盟，旨在提升其打印服务并扩大其全球影响力。”</li>
-<li>“此次收购预计将在2025年下半年完成，将通过现金和债务融资，并通过减少股息来管理债务。”</li>
-<li>“监管审批正在等待中，该交易旨在结合两家公司的优势，提供全面的产品组合并改善财务表现。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42494067">反应</a></h3>
-<ul>
-<li>“施乐正在收购利盟，计划利用其资源维持并可能扩展利盟的业务。”</li>
-<li>“Lexmark因其品牌和对物联网(IoT)等增长领域的关注而受到认可，早已是施乐的合作伙伴。”</li>
-<li>“此次收购突显了打印机行业的变化，施乐公司希望通过利用利盟的能力来提升其市场地位。”</li>
-</ul>
-<h2><a href="https://github.com/oldmoe/litestack">“Litestack：所有的数据基础设施，尽在一个Ruby gem中”</a></h2>
-<ul>
-<li>“Litestack 是一个 Ruby gem，它将多个数据基础设施组件整合到一个包中，适用于 Ruby 和 Ruby on Rails 应用程序，使用 SQLite。- 它提供 SQL 数据库、缓存、作业队列、消息代理、全文搜索引擎和指标平台等功能，通过消除对单独服务器的需求来提高性能并降低成本。- 该 gem 与基于 Fiber 的 IO 框架集成，以优化 CPU 和内存使用，并在 MIT 许可证下开源，欢迎在 GitHub 上贡献。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42491196">反应</a></h3>
-<ul>
-<li>“Litestack 是一个 Ruby gem，提供全面的数据基础设施，并能有效地与 Rails 8 集成。Rails 8 现在支持 SQLite 用于数据库、作业队列和缓存。”</li>
-<li>“用户对Litestack的性能表示赞赏，尤其是在与Litestream一起用于备份时，尽管对于较大项目，SQLite的可扩展性问题仍然存在。”</li>
-<li>“用户对Python和Django的类似解决方案表现出兴趣，因为他们在比较Litestack的性能声明，特别是与Redis相比时，需要进一步验证。”</li>
-</ul>
-<h2><a href="https://blog.fogus.me/2024/12/23/the-best-things-and-stuff-of-2024/">Fogus：2024年的事物和东西</a></h2>
-<ul>
-<li>“Fogus反思了他在2024年的经历和发现，涵盖了广泛的主题，包括编程、媒体和个人兴趣。”</li>
-<li>“他讨论了他使用编程语言Clojure的工作以及他的未来计划，例如探索连接式语言和简化他的博客。”</li>
-<li>“值得一提的包括游戏《精英》、业余无线电的历史和日本浴室幽灵，以及对启发他的人们的致谢。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42495077">反应</a></h3>
-<ul>
-<li>“Fogus强调了2024年的技术趋势，包括像Boox Go平板这样的设备，并批评reMarkable™的社区方法。- 推荐使用TypeScript而不是JavaScript以改善开发体验，而Zig尽管在某些小众领域有潜力，但被认为不如Go和Python高效。- 文章指出大型语言模型(LLMs)在2024年对编程的影响未被充分讨论，并提到了组合编程和像Wordstar这样的历史技术。”</li>
-</ul>
-<h2><a href="https://www.euronews.com/next/2024/12/19/german-watchdog-orders-sam-altmans-biometric-id-project-world-to-delete-data">“德国监管机构命令萨姆·阿尔特曼的生物识别ID项目World删除数据”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42489072">反应</a></h3>
-<ul>
-<li>“德国监管机构已要求由萨姆·阿尔特曼领导的Worldcoin项目删除生物识别数据，理由是隐私和数据处理方面的担忧。”</li>
-<li>“Worldcoin使用虹膜扫描来防止重复账户，但批评者担心该公司收集的大量个人数据。”</li>
-<li>“这种情况突显了有关数字身份系统和隐私的更广泛问题，德国当局强调遵守GDPR(通用数据保护条例)进行数据删除。”</li>
-</ul>
-<h2><a href="https://webextension.net/collections">“我建立了一个用于发现和分享Chrome扩展集合的平台”</a></h2>
-<ul>
-<li>“WebExtension.net是一个平台，专注于收集Chrome扩展程序和主题，强调生产力、AI工具和社交媒体。用户可以探索各种类别，包括热门和趋势扩展，并提供Chrome网上应用店扩展的分析。该平台是独立的，与Google或Chrome网上应用店没有关联，所有数据均来自公共来源。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42492753">反应</a></h3>
-<ul>
-<li>“一个新的平台已经开发出来，用于分享Chrome扩展的集合，引发了关于隐私和自定义扩展开发的讨论。- 用户表示有兴趣支持Firefox扩展，并为平台改进提供反馈，同时也对某些扩展如Honey的数据滥用表示担忧。- 平台的用户界面获得了积极的反馈，未来的更新备受期待。”</li>
-</ul>
-<head>
-  <meta property="og:title" content="“‘United Healthcare’使用DMCA对Luigi Mangione的图像采取行动”" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9C%E2%80%98United%20Healthcare%E2%80%99%E4%BD%BF%E7%94%A8DMCA%E5%AF%B9Luigi%20Mangione%E7%9A%84%E5%9B%BE%E5%83%8F%E9%87%87%E5%8F%96%E8%A1%8C%E5%8A%A8%E2%80%9D&subheading=2024%E5%B9%B412%E6%9C%8823%E6%97%A5%E6%98%9F%E6%9C%9F%E4%B8%80%3A%20%E9%BB%91%E5%AE%A2%E6%96%B0%E9%97%BB%E6%91%98%E8%A6%81" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/zh/Hans/2024/12/23</link>
-            <guid isPermaLink="false">2024-12-23T00:00:00.000Z</guid>
-            <pubDate>Mon, 23 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

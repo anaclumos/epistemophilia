@@ -15,12 +15,122 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 01 Jan 2025 22:50:04 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Jan 2025 19:16:12 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/nl.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[nl]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-02]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/02&#39;</h2>
+<h1>2025-01-02</h1>
+<h2><a href="https://mathstodon.xyz/@tao/113721192051328193">En av artiklene mine ble avslått i dag</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42568399">Reacties</a></h3>
+<ul>
+<li>En artikkel av den anerkjente matematikeren Terence Tao ble avvist, noe som illustrerer at selv toppakademikere møter avvisning, og utløste en bredere diskusjon om utbredelsen av avvisninger av artikler i akademia. - Diskursen fremhevet problemer innen fagfellevurderingsprosessen, inkludert skjevheter og presset for å publisere hyppig, med mange som delte personlige erfaringer med avvisning. - Forslag til forbedring inkluderte å utforske alternative evaluerings- og publiseringssystemer, som åpne internett-sentriske vurderinger, samtidig som man anerkjenner at avvisning er en standard del av den akademiske reisen.</li>
+</ul>
+<h2><a href="https://github.com/alufers/mitmproxy2swagger">MitmProxy2Swagger: Automagisk reversere REST API-er</a></h2>
+<ul>
+<li>mitmproxy2swagger er et verktøy som konverterer mitmproxy-opptak til OpenAPI 3.0-spesifikasjoner, og letter omvendt utvikling av REST API-er ved å fange opp applikasjonstrafikk. - Verktøyet støtter nå HTTP Archive (HAR)-filer fra nettleserens utviklerverktøy, noe som utvider bruksområdet for utviklere. - Installasjon kan gjøres ved hjelp av Python3 og pip eller Docker, og prosjektet benytter verktøy som poetry, pre-commit og pytest for utvikling, med en MIT-lisens.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42572662">Reacties</a></h3>
+<ul>
+<li>MitmProxy2Swagger er et verktøy designet for å reversere-konstruere REST API-er ved å analysere trafikk fanget med mitmproxy, et populært verktøy for å avskjære HTTP/HTTPS-trafikk.</li>
+<li>Brukere har med suksess brukt det til å gjenskape private servere for spill og reversere API-er for Android-applikasjoner, noe som fremhever dets effektivitet i å identifisere API-endepunkter.</li>
+<li>Verktøyet er spesielt gunstig for å arbeide med eldre systemer eller udokumenterte API-er, selv om det kan møte utfordringer med ikke-standard API-er, og diskusjoner inkluderer metoder for å beskytte API-er mot reverse engineering, som CAPTCHAs og sertifikatpining.</li>
+</ul>
+<h2><a href="https://mjg59.dreamwidth.org/70954.html">GPU, ikke TPM, er kjernen i maskinvlyrken.</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42570988">Reacties</a></h3>
+<ul>
+<li>Maskinvare Digital Rights Management (DRM) er i hovedsak knyttet til Graphics Processing Units (GPUer) snarere enn Trusted Platform Modules (TPMer), med medie-DRM for tiden koblet til GPU-leverandører.</li>
+<li>DRMs langsiktige mål kan være å utøve total kontroll over enheter, noe som potensielt kan påvirke programvare som annonseblokkere, og reise bekymringer om fremtiden for personlig databehandling.</li>
+<li>Free Software Foundation (FSF) kan være feilrettet ved å fokusere på TPM-er, ettersom GPU-leverandører allerede har integrert DRM-teknologi, noe som understreker behovet for lovgivende inngrep for å beskytte brukernes rettigheter.</li>
+</ul>
+<h2><a href="https://github.com/zasper-io/zasper">Zasper: Et moderne og effektivt alternativ til JupyterLab, bygget i Go</a></h2>
+<ul>
+<li>Zasper er et høyytelses integrert utviklingsmiljø (IDE) inspirert av Jupyter, optimalisert for massiv samtidighet og minimal minnebruk. - Det er bygget med programmeringsspråket Go for forbedret samtidighet og ytelse, og tilbyr både Electron- og webapp-versjoner, og er åpen kildekode under AGPL-3.0-lisensen. - Zasper støtter REPL-stil (Read-Eval-Print Loop) dataapplikasjoner og har som mål å utvide seg utover Jupyter Notebooks for å støtte tilpassede dataapplikasjoner, med full støtte på Mac og begrenset støtte på Linux.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42572057">Reacties</a></h3>
+<ul>
+<li>Zasper er et nytt alternativ til JupyterLab, utviklet i programmeringsspråket Go, som lover forbedret effektivitet med redusert RAM- og CPU-bruk.</li>
+<li>Den bruker Go-koroutiner for forbedret kjernestyring, i kontrast til JupyterLabs Python-baserte tilnærming, og har som mål å takle problemer som kjernestyring og pakkeinstallasjon.</li>
+<li>Prosjektet er i sine tidlige stadier, med støtte fra Jupyter-samfunnet, og er åpent for tilbakemeldinger og samarbeid, noe som fremhever fordelene med ulike frontender og potensialet for integrasjon med verktøy som Emacs.</li>
+</ul>
+<h2><a href="https://literallythevoid.com/blog/rails_for_everything.html">Rails for alt</a></h2>
+<ul>
+<li>Rails 8 er optimalisert for små prosjekter og enkeltutviklere, og tilbyr en omfattende &quot;Kom i gang med Rails&quot;-veiledning for å bygge fullverdige applikasjoner.</li>
+<li>SQLite er nå klar for produksjon i Rails 8, noe som reduserer avhengigheten av PostgreSQL eller Redis, og inkluderer grunnleggende kontinuerlig integrasjonskonfigurasjon (CI) med 2000 gratis GitHub-handlingsminutter.</li>
+<li>Den nye autentiseringsgeneratoren og enkel distribusjon med Kamal gjør brukerinnlogging og live app-oppsett med SSL enklere, og fremmer beste praksis.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42569236">Reacties</a></h3>
+<ul>
+<li>Rails er et populært rammeverk for utvikling av webapplikasjoner, kjent for sin enkelhet og effektivitet sammenlignet med andre moderne stakker som Spring Boot eller Micronaut. - Det er foretrukket for raskt å bygge full-stack webapplikasjoner, med integrerte funksjoner som ActiveStorage og systemtester, noe som gjør det ideelt for solo-utviklere og små team. - Til tross for pågående debatter om dets relevans, fortsetter Rails å utvikle seg med nylige oppdateringer, som forbedrer dets evner og opprettholder dets appell i utviklingsmiljøet.</li>
+</ul>
+<h2><a href="https://news.ycombinator.com/item?id=42573875">Hvor kan man jobbe etter 40?</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42573875">Reacties</a></h3>
+<ul>
+<li>Karriereveier etter 40 kan variere betydelig, med alternativer som å bli med i mellomstore B2B (Business-to-Business) selskaper, konsulentvirksomhet eller profesjonelle tjenester.</li>
+<li>Personlige mål, økonomiske behov og interesser bør veilede beslutningen, med nettverksbygging og tidligere erfaringer som spiller en avgjørende rolle i å oppdage nye muligheter.</li>
+<li>Den ideelle karriereveien er subjektiv og varierer basert på individuelle preferanser og omstendigheter.</li>
+</ul>
+<h2><a href="https://blog.jacobvosmaer.nl/0036-beeper/">Min favoritt hack for datamaskinergonomi</a></h2>
+<ul>
+<li>Jacob Vosmaer introduserer &quot;The Beeper,&quot; en DIY-enhet designet for å oppmuntre til bevegelse ved å pipe hvis dataskjermen forblir ulåst for lenge. - The Beeper består av maskinvare (Adafruit Feather Huzzah ESP8266, bryter, piezo buzzer), fastvare (Lua-skript), og programvare som styrer aktiveringen. - Til tross for sin enkelhet, fremmer enheten effektivt regelmessig bevegelse, og Jacob anerkjenner sin kones støtte i prosjektet.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42569109">Reacties</a></h3>
+<ul>
+<li>Brukere uttrykte frustrasjon over obligatorisk RSIGuard-programvare på jobben, som håndhever pauser med faste tidspunkter og forstyrrende pop-ups. - Diskusjonen inkluderte ulike ergonomiske triks, som å drikke vann for regelmessige pauser, bruke stramme klær, og stole på påminnelser fra Apple Watch. - Alternativer som AntiRSI, Workrave, tilpassede løsninger, og smartklokker som Bangle.js2 ble foreslått for å håndtere belastningsskader (RSI) og forbedre ergonomi.</li>
+</ul>
+<h2><a href="https://old.reddit.com/r/uBlockOrigin/comments/1hr6xjc/ubo_quick_filters_list_being_stolen_by_team/">UBlockOrigin GPL-kode blir stjålet av teamet bak Honey-nettleserutvidelsen</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42576443">Reacties</a></h3>
+<ul>
+<li>Teamet bak nettleserutvidelsen Honey blir anklaget for å bruke GPL (General Public License) kode fra UBlockOrigin uten riktig attribusjon, noe som har utløst kontrovers.</li>
+<li>Reddit-brukere uttrykker bekymring for villedende forretningspraksis, og understreker den negative innvirkningen på kunder og teknologibransjen.</li>
+<li>Diskusjonen belyser bredere spørsmål, inkludert bedriftsetikk, pengenes innflytelse i politikken, og utfordringer med å opprettholde forretningsintegritet, med skepsis til fremtiden for open-source-prosjekter på grunn av potensiell utnyttelse av selskaper.</li>
+</ul>
+<h2><a href="https://j3s.sh/thought/blogs-rot-wikis-wait.html">Blogg råtner. Wikier venter</a></h2>
+<ul>
+<li>Innlegget kontrasterer den varige naturen til wikier med den flyktige naturen til blogger, og antyder at innen 2025 vil wikier bli mer personlige og meningsfulle.</li>
+<li>Wikier beskrives som dynamiske og reflekterer forfatterens utviklende tanker, mens blogger sammenlignes med statiske, glemte butikkfronter.</li>
+<li>Forfatteren går over fra en tradisjonell nettside til et wiki-format, noe som indikerer et skifte i hvordan personlig innhold blir administrert og delt.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42571367">Reacties</a></h3>
+<ul>
+<li>Blogginnlegg gir et tidsbestemt øyeblikksbilde av en forfatters tanker, og tillater oppdateringer gjennom nye innlegg, men mangler ofte tidsstempler for kontekst. - Wikier, som Wikipedia, kan ha utfordringer med klarhet rundt oppdateringstidspunkt og pålitelighet, noe som kan føre til potensielt utdatert informasjon. - Både blogger og wikier har unike fordeler og kan sameksistere, og tjener forskjellige formål innen innholdsskaping og kunnskapsdeling.</li>
+</ul>
+<h2><a href="https://nymag.com/intelligencer/article/meta-wants-more-ai-bots-on-facebook-and-instagram.html">Meta ønsker flere AI-boter på Facebook og Instagram</a></h2>
+<ul>
+<li>Meta er klar til å lansere AI-boter på Facebook og Instagram for å engasjere yngre brukere og utnytte sin investering i generativ AI-teknologi. - Disse AI-botene vil ha profiler og lage innhold, og fungere på samme måte som vanlige sosiale mediekontoer, etter Metas oppkjøp av SocialAI. - Dette initiativet gjenspeiler Metas bredere strategi for å automatisere sosiale interaksjoner og innholdskuratering, i tråd med trender sett i apper som Character.ai.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42571608">Reacties</a></h3>
+<ul>
+<li>Meta introduserer flere AI-boter på Facebook og Instagram for å øke brukerengasjementet ved å simulere interaksjoner, noe som gjenspeiler en bredere bransjetrend med å bruke AI for å forbedre brukeropplevelsen.</li>
+<li>Det er bekymringer for ektheten av interaksjoner, ettersom AI-generert innhold kan overskygge ekte menneskelige forbindelser på disse plattformene.</li>
+<li>Kritikere bekymrer seg for at økt tilstedeværelse av AI kan føre til en mindre autentisk opplevelse på sosiale medier, noe som potensielt kan fremmedgjøre brukere som verdsetter ekte interaksjoner.</li>
+</ul>
+<h2><a href="https://austinhenley.com/blog/25yearsofai.html">Mitt 25-årige eventyr innen AI og ML</a></h2>
+<ul>
+<li>En Associate Teaching Professor ved Carnegie Mellon University, Austin Z. Henley, deler sin 25-år lange reise innen AI (kunstig intelligens) og ML (maskinlæring), og fremhever sin overgang fra innledende uinteresse til aktiv deltakelse gjennom ulike prosjekter.</li>
+<li>Karriereveien hans inkluderer å utvikle enkle spill, studere AI og nevrale nettverk, og anvende beslutningstrær og klynging under doktorgraden for å analysere data fra kodeeditorer.</li>
+<li>Henley begynte i Microsofts programsynteseteam i 2022, og jobbet med AI-prosjekter, inkludert verktøy basert på LLM-er (Large Language Models), og fortsetter å utforske AI-verktøy uavhengig mens han underviser.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42569913">Reacties</a></h3>
+<ul>
+<li>Det er en økende trend innen AI (kunstig intelligens) og ML (maskinlæring) til å bruke AI selv når enklere løsninger kan være mer effektive. - Noen fagfolk argumenterer mot denne trenden, og understreker behovet for praktiske tilnærminger og stiller spørsmål ved nødvendigheten av AI i alle applikasjoner. - Debatten understreker viktigheten av kommunikasjon innen ingeniørteam for å balansere innovasjon med praktisk anvendelse, samtidig som man vurderer den samfunnsmessige påvirkningen av AI på tradisjonelle menneskelige roller og kreativitet.</li>
+</ul>
+<head>
+  <meta property="og:title" content="En av artiklene mine ble avslått i dag" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=En%20av%20artiklene%20mine%20ble%20avsl%C3%A5tt%20i%20dag&subheading=donderdag%202%20januari%202025%3A%20Samenvatting%20Hacker%20News" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/nl/2025/01/02</link>
+            <guid isPermaLink="false">2025-01-02T00:00:00.000Z</guid>
+            <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-01]]></title>
             <description
@@ -362,146 +472,6 @@
             <link>https://hn.cho.sh/nl/2024/12/24</link>
             <guid isPermaLink="false">2024-12-24T00:00:00.000Z</guid>
             <pubDate>Tue, 24 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-23]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/23&#39;</h2>
-<h1>2024-12-23</h1>
-<h2><a href="https://abovethelaw.com/2024/12/united-healthcare-using-dmca-against-luigi-mangione-images-which-is-bizarre-wildly-inappropriate/">‘United Healthcare’ bruker DMCA mot bilder av Luigi Mangione</a></h2>
-<ul>
-<li>United Healthcare bruker angivelig DMCA-forespørsler for å fjerne nettinnhold relatert til Luigi Mangione, til tross for at de ikke har opphavsretten, noe som vekker bekymring for misbruk av opphavsrettsloven. Situasjonen understreker hvordan DMCA kan utnyttes av opphavsrettstroll for å presse innholdsverter til å etterkomme potensielt grunnløse krav. Det er usikkert om United Healthcare er direkte ansvarlig for disse forespørslene eller om en tredjepart utgir seg for å være dem.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42490453">Reacties</a></h3>
-<ul>
-<li>United Healthcare bruker angivelig DMCA-varsler for å fjerne bilder av Luigi Mangione, som er anklaget for å ha drept deres administrerende direktør, men det er spekulasjoner om at det er noen som utgir seg for å utnytte DMCA-smutthull.</li>
-<li>DMCA-prosessen tillater forespørsler om fjerning med minimal verifisering, noe som kan føre til misbruk og overgrep.</li>
-<li>Ignorering av en DMCA-varsel kan resultere i tap av safe harbor-beskyttelse, noe som gjør mottakere ansvarlige for brudd på opphavsretten, og fremhever problemer med implementeringen av DMCA.</li>
-</ul>
-<h2><a href="https://twtxt.readthedocs.io/en/latest/index.html">Twtxt er en desentralisert, minimalistisk mikrobloggingstjeneste for hackere</a></h2>
-<ul>
-<li>twtxt har gitt ut versjon v1.3.2-dev, en desentralisert, minimalistisk mikrobloggingstjeneste rettet mot hackere.</li>
-<li>Dokumentasjonen inkluderer seksjoner om installasjon, rask start, bruk, konfigurasjon og API, med fellesskapsstøtte tilgjengelig på IRC.</li>
-<li>API-kapitlet beskriver endepunkter for brukere, tweets, omtaler, tagger og oppdagbarhet, og oppmuntrer til bidrag på GitHub.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42488983">Reacties</a></h3>
-<ul>
-<li>Twtxt er en desentralisert mikrobloggingstjeneste designet for hackere, kjent for sitt minimalistiske og enkle grensesnitt.</li>
-<li>Brukere fremhever utfordringer som å finne aktive nettsteder og mangelen på funksjoner som visuelle bilder, selv om noen setter pris på dens enkelhet og nisjeappell.</li>
-<li>Samfunnet forblir lite, med noen brukere som går over til andre plattformer som Mastodon eller Nostr, men Twtxt gir et unikt, selvhostet alternativ til mainstream sosiale medier.</li>
-</ul>
-<h2><a href="https://news.ycombinator.com/item?id=42490343">Spådommer for 2025?</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42490343">Reacties</a></h3>
-<ul>
-<li>Innen 2025 forventes det fremskritt innen kunstig intelligens (AI), inkludert mer spesialiserte store språkmodeller (LLM) og generativ AI for musikk og video.</li>
-<li>Plattformer for sosiale medier kan møte juridiske utfordringer knyttet til algoritmisk skade, med potensielt økte restriksjoner på barns bruk.</li>
-<li>Økonomiske prognoser antyder en mulig finanskrise på grunn av USAs gjeld, mens handelsjobber kan bli mer lukrative, sammen med teknologiske fremskritt innen solenergi, robotikk og AI-drevne verktøy.</li>
-</ul>
-<h2><a href="https://medicalxpress.com/news/2024-12-commercial-tea-bags-millions-microplastics.html">Kommersielle teposer frigjør mikroplast, som kommer inn i menneskelige celler</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42494746">Reacties</a></h3>
-<ul>
-<li>Kommersielle teposer laget av polymerer som nylon-6, polypropylen og cellulose kan frigjøre mikroplast, som har potensial til å komme inn i menneskelige celler.</li>
-<li>Studien hadde som mål å utvikle en metodikk for å analysere mikroplastikk i stedet for å komme med spesifikke påstander om papir-teposer, og fremhever pågående debatter om naturlig forekommende polymerer som cellulose.</li>
-<li>Bekymringer om mikroplastikk er ikke begrenset til teposer, men inkluderer også andre hverdagsartikler som plastbelagte kopper og bestikk, noe som indikerer et bredere miljø- og helseproblem.</li>
-</ul>
-<h2><a href="https://xenaproject.wordpress.com/2024/12/22/can-ai-do-maths-yet-thoughts-from-a-mathematician/">Kan AI gjøre matematikk ennå? Tanker fra en matematiker</a></h2>
-<ul>
-<li>OpenAIs nye språkmodell, o3, oppnådde en score på 25 % på FrontierMath-datasettet, som inkluderer utfordrende matematiske spørsmål med definitive svar.</li>
-<li>Datasettet holdes hemmelig for å hindre at språkmodeller trenes på det, og det inkluderer problemer som krever ekspertise innen spesifikke matematikkområder.</li>
-<li>Selv om ytelsen til o3 er bemerkelsesverdig, vil den virkelige fremgangen være når AI kan løse mer komplekse, bevisbaserte spørsmål, ettersom nåværende modeller som DeepMinds AlphaProof fortsatt er begrenset til problemer på videregående nivå.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42493464">Reacties</a></h3>
-<ul>
-<li>AI&#39;s evne innen matematikk er omdiskutert, da den kan hjelpe med problemer og mønstergjenkjenning, men ofte feiler i logisk resonnement og aritmetikk.</li>
-<li>Modeller som ChatGPT er nyttige for konseptuell forståelse, men krever menneskelig veiledning for kompleks matematikk, noe som fremhever AI-ens begrensninger i resonnement.</li>
-<li>Det er bekymringer for AI sin innvirkning på jobber og integriteten til referanseverdier, selv om den viser lovende resultater i å hjelpe matematisk forskning, kan den ennå ikke uavhengig fremme matematisk kunnskap.</li>
-</ul>
-<h2><a href="https://semianalysis.com/2024/12/22/mi300x-vs-h100-vs-h200-benchmark-part-1-training/">CUDA-forspranget lever fortsatt</a></h2>
-<ul>
-<li>Benchmarking av MI300X, H100 og H200 GPUer viser at AMDs MI300X underpresterer på grunn av programvareproblemer, til tross for sine lovende spesifikasjoner.</li>
-<li>Grafikkortene fra Nvidia viser overlegen ytelse rett ut av esken, mens AMDs MI300X krever betydelig justering og feilretting for å nå sitt potensial.</li>
-<li>Anbefalinger for AMD inkluderer å forbedre programvarekvaliteten, øke intern testing og samarbeide med partnere for å styrke sin konkurranseposisjon mot Nvidia.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42489844">Reacties</a></h3>
-<ul>
-<li>AMD står overfor utfordringer innen programvareutvikling, noe som påvirker selskapets konkurranseevne mot Nvidia, spesielt innen AI- og maskinlæringssektorer. Til tross for sterk maskinvare, begrenser AMDs problemer med driverstøtte og bakoverkompatibilitet ytelsen, i motsetning til Nvidias suksessfulle CUDA-økosystem. Kritikere foreslår at AMD bør styrke sine programvareingeniørinnsatser for å forbedre sin posisjon i AI-markedet og konkurrere mer effektivt med Nvidia.</li>
-</ul>
-<h2><a href="https://ukdefencejournal.org.uk/classified-fighter-jet-specs-leaked-on-war-thunder-again/">Spesifikasjoner for klassifiserte jagerfly lekket på War Thunder-forumene</a></h2>
-<ul>
-<li>Classifiserte spesifikasjoner for Eurofighter Typhoon-radaren ble lekket på War Thunder-forumene, noe som forårsaket kontrovers og reiste bekymringer om sikkerhet.</li>
-<li>Denne hendelsen er en del av et mønster, ettersom tidligere lekkasjer på plattformen har involvert andre militærsystemer som Challenger 2-tanken.</li>
-<li>Brukeren som var ansvarlig for lekkasjen ble suspendert, og materialet ble umiddelbart fjernet, noe som understreker utfordringene War Thunder står overfor med å balansere militær nøyaktighet med informasjonssikkerhet.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42490191">Reacties</a></h3>
-<ul>
-<li>Spesifikasjoner for klassifiserte jagerfly ble lekket på War Thunder-forumene, noe som fremhever problemet med informasjonssikkerhet i nettbaserte samfunn.</li>
-<li>Diskusjoner antyder at disse lekkasjene ofte er gjenoppslag av allerede sirkulerende dokumenter, med det nye at plattformen som brukes for lekkasjen, er et spillforum.</li>
-<li>Til tross for lekkasjene endrer ikke spillutviklerne spillet basert på dem, noe som indikerer lekkasjenes begrensede innvirkning.</li>
-</ul>
-<h2><a href="https://imgur.com/a/NQskWzI">Ny Google Sheet på halve 13,6&quot; MacBook Air-skjermen er helt dekket av popup-vinduer</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42490948">Reacties</a></h3>
-<ul>
-<li>Brukere kritiserer Googles UX-design for Google Sheets på en 13,6&quot; MacBook Air, og nevner overdrevne popup-vinduer og store UI-elementer som hindrer brukervennligheten.</li>
-<li>Diskusjonen sammenligner Googles design ugunstig med andre plattformer, og peker på en trend der mobil- og berøringsgrensesnitt prioriteres over brukervennlighet på skrivebordet.</li>
-<li>Frustrasjon uttrykkes over Googles fokus på AI-funksjoner, som noen føler avleder fra å forbedre grunnleggende brukeropplevelse og grensesnittdesign.</li>
-</ul>
-<h2><a href="https://newsroom.lexmark.com/2024-12-23-Xerox-to-Acquire-Lexmark">Xerox skal kjøpe opp Lexmark</a></h2>
-<ul>
-<li>Xerox planlegger å kjøpe Lexmark for 1,5 milliarder dollar, med mål om å forbedre sine utskriftstjenester og utvide sin globale rekkevidde.</li>
-<li>Oppkjøpet, som forventes å bli fullført i andre halvdel av 2025, vil bli finansiert gjennom kontanter og gjeld, med en redusert utbytte for å håndtere gjelden.</li>
-<li>Regulatoriske godkjenninger er under behandling, og avtalen søker å kombinere styrkene til begge selskapene for å tilby en omfattende portefølje og forbedre økonomiske resultater.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42494067">Reacties</a></h3>
-<ul>
-<li>Xerox kjøper opp Lexmark, med intensjon om å opprettholde og potensielt utvide Lexmarks virksomhet ved hjelp av sine ressurser.</li>
-<li>Lexmark, anerkjent for sitt merke og fokus på vekstområder som tingenes internett (IoT), var allerede en partner av Xerox.</li>
-<li>Oppkjøpet fremhever endringer i skriverindustrien, der Xerox søker å styrke sin markedsposisjon ved å utnytte Lexmarks kapabiliteter.</li>
-</ul>
-<h2><a href="https://github.com/oldmoe/litestack">Litestack: All din datainfrastruktur, i én Ruby-gem</a></h2>
-<ul>
-<li>Litestack er en Ruby-gem som konsoliderer flere datainfrastrukturkomponenter i en enkelt pakke for Ruby- og Ruby on Rails-applikasjoner, ved å bruke SQLite. Den tilbyr funksjonaliteter som en SQL-database, cache, jobbkø, meldingsmegler, fulltekstsøkemotor og metrikkplattform, som forbedrer ytelsen og reduserer kostnadene ved å eliminere behovet for separate servere. Gemmen integreres med fiberbaserte IO-rammeverk for optimalisert CPU- og minnebruk og er åpen kildekode under MIT-lisensen, med bidrag velkomne på GitHub.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42491196">Reacties</a></h3>
-<ul>
-<li>Litestack er en Ruby-gem som tilbyr en omfattende datainfrastruktur og integreres effektivt med Rails 8, som nå støtter SQLite for databaser, jobbkøer og caching.</li>
-<li>Brukere setter pris på Litestacks ytelse, spesielt når det brukes med Litestream for sikkerhetskopier, selv om det fortsatt er bekymringer rundt skalerbarhet med SQLite for større prosjekter.</li>
-<li>Det er interesse for lignende løsninger for Python og Django, ettersom brukere sammenligner Litestacks ytelsespåstander, spesielt mot Redis, som krever ytterligere validering.</li>
-</ul>
-<h2><a href="https://blog.fogus.me/2024/12/23/the-best-things-and-stuff-of-2024/">Fogus: Ting og saker i 2024</a></h2>
-<ul>
-<li>Fogus reflekterer over sine erfaringer og oppdagelser fra 2024, og dekker et bredt spekter av emner, inkludert programmering, media og personlige interesser.</li>
-<li>Han diskuterer arbeidet sitt med programmeringsspråket Clojure og fremtidige planer, som å utforske konkatenative språk og forenkle bloggen sin.</li>
-<li>Merkbare omtaler inkluderer spillet Elite, historien om Ham-radio, og japanske baderomsspøkelser, sammen med anerkjennelser av personer som inspirerte ham.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42495077">Reacties</a></h3>
-<ul>
-<li>Fogus fremhever teknologitrender for 2024, inkludert enheter som Boox Go-nettbrettet og kritiserer reMarkable™ for sin tilnærming til fellesskapet. TypeScript anbefales over JavaScript for en forbedret utviklingsopplevelse, mens Zig anses som mindre produktiv enn Go og Python, til tross for sitt potensial i nisjeområder. Artikkelen bemerker den underdiskuterte innvirkningen av store språkmodeller (LLMs) på programmering i 2024 og nevner kombinatorisk programmering og historisk teknologi som Wordstar.</li>
-</ul>
-<h2><a href="https://www.euronews.com/next/2024/12/19/german-watchdog-orders-sam-altmans-biometric-id-project-world-to-delete-data">Den tyske tilsynsmyndigheten beordrer Sam Altmans biometriske ID-prosjekt World til å slette data</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42489072">Reacties</a></h3>
-<ul>
-<li>Den tyske tilsynsmyndigheten har pålagt Worldcoin-prosjektet, ledet av Sam Altman, å slette biometriske data, med henvisning til bekymringer om personvern og håndtering av data.</li>
-<li>Worldcoin bruker irisskanninger for å forhindre dupliserte kontoer, men kritikere er bekymret for de omfattende personopplysningene som samles inn av selskapet.</li>
-<li>Situasjonen understreker bredere problemer angående digitale identitetssystemer og personvern, med den tyske myndigheten som legger vekt på overholdelse av GDPR (General Data Protection Regulation) for sletting av data.</li>
-</ul>
-<h2><a href="https://webextension.net/collections">Jeg bygde en plattform for å oppdage og dele samlinger av Chrome-utvidelser</a></h2>
-<ul>
-<li>WebExtension.net er en plattform som kuraterer samlinger av Chrome-utvidelser og temaer, med vekt på produktivitet, AI-verktøy og sosiale medier. Brukere kan utforske ulike kategorier, inkludert populære og trendende utvidelser, med analyser tilgjengelig for Chrome Web Store-utvidelser. Plattformen er uavhengig og ikke tilknyttet Google eller Chrome Web Store, og henter all data fra offentlige kilder.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42492753">Reacties</a></h3>
-<ul>
-<li>En ny plattform har blitt utviklet for å dele samlinger av Chrome-utvidelser, noe som har utløst diskusjoner om personvern og utvikling av tilpassede utvidelser. - Brukere uttrykker interesse for å støtte Firefox-utvidelser og gir tilbakemeldinger for forbedringer av plattformen, samtidig som de også uttrykker bekymring for misbruk av data av visse utvidelser som Honey. - Plattformens brukergrensesnitt får positive tilbakemeldinger, og fremtidige oppdateringer er forventet.</li>
-</ul>
-<head>
-  <meta property="og:title" content="‘United Healthcare’ bruker DMCA mot bilder av Luigi Mangione" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%98United%20Healthcare%E2%80%99%20bruker%20DMCA%20mot%20bilder%20av%20Luigi%20Mangione&subheading=maandag%2023%20december%202024%3A%20Samenvatting%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/nl/2024/12/23</link>
-            <guid isPermaLink="false">2024-12-23T00:00:00.000Z</guid>
-            <pubDate>Mon, 23 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

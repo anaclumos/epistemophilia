@@ -15,12 +15,122 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 01 Jan 2025 22:50:04 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Jan 2025 19:16:12 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/pt.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[pt]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-02]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/02&#39;</h2>
+<h1>2025-01-02</h1>
+<h2><a href="https://mathstodon.xyz/@tao/113721192051328193">Um dos meus artigos foi recusado hoje</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42568399">Reações</a></h3>
+<ul>
+<li>Um artigo do renomado matemático Terence Tao foi rejeitado, ilustrando que até mesmo acadêmicos de alto nível enfrentam rejeição, o que gerou uma discussão mais ampla sobre a prevalência de rejeições de artigos na academia. - O discurso destacou problemas dentro do processo de revisão por pares, incluindo preconceitos e a pressão para publicar com frequência, com muitos compartilhando experiências pessoais de rejeição. - As sugestões para melhoria incluíram explorar sistemas alternativos de avaliação e publicação, como revisões abertas centradas na internet, ao mesmo tempo em que se reconhece que a rejeição é um aspecto padrão da jornada acadêmica.</li>
+</ul>
+<h2><a href="https://github.com/alufers/mitmproxy2swagger">MitmProxy2Swagger: Reengenharia reversa automática de APIs REST</a></h2>
+<ul>
+<li>mitmproxy2swagger é uma ferramenta que converte capturas do mitmproxy em especificações OpenAPI 3.0, facilitando a engenharia reversa de APIs REST ao capturar o tráfego de aplicativos. - A ferramenta agora suporta arquivos HTTP Archive (HAR) das Ferramentas de Desenvolvedor dos navegadores, ampliando sua usabilidade para desenvolvedores. - A instalação pode ser feita usando Python3 e pip ou Docker, e o projeto emprega ferramentas como poetry, pre-commit e pytest para desenvolvimento, com uma licença MIT.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42572662">Reações</a></h3>
+<ul>
+<li>MitmProxy2Swagger é uma ferramenta projetada para engenharia reversa de APIs REST, analisando o tráfego capturado com o mitmproxy, uma ferramenta popular para interceptar tráfego HTTP/HTTPS.</li>
+<li>Os usuários o utilizaram com sucesso para recriar servidores privados para jogos e fazer engenharia reversa de APIs para aplicativos Android, destacando sua eficácia na identificação de endpoints de API.</li>
+<li>O recurso é particularmente benéfico para trabalhar com sistemas legados ou APIs não documentadas, embora possa enfrentar desafios com APIs não padronizadas e as discussões incluam métodos para proteger APIs contra engenharia reversa, como CAPTCHAs e fixação de certificados.</li>
+</ul>
+<h2><a href="https://mjg59.dreamwidth.org/70954.html">O GPU, não o TPM, é a raiz do DRM de hardware</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42570988">Reações</a></h3>
+<ul>
+<li>O núcleo da Gestão de Direitos Digitais (DRM) de hardware está associado às Unidades de Processamento Gráfico (GPUs) em vez dos Módulos de Plataforma Confiável (TPMs), com o DRM de mídia atualmente vinculado aos fornecedores de GPU.</li>
+<li>Um dos objetivos de longo prazo do DRM pode ser exercer controle total sobre os dispositivos, potencialmente impactando softwares como bloqueadores de anúncios, o que levanta preocupações sobre o futuro da computação pessoal.</li>
+<li>A Free Software Foundation (FSF) pode estar equivocada ao focar nos TPMs, já que os fornecedores de GPU já integraram a tecnologia DRM, destacando a necessidade de intervenção legislativa para proteger os direitos dos usuários.</li>
+</ul>
+<h2><a href="https://github.com/zasper-io/zasper">Zasper: Uma Alternativa Moderna e Eficiente ao JupyterLab, Desenvolvida em Go</a></h2>
+<ul>
+<li>Zasper é um Ambiente de Desenvolvimento Integrado (IDE) de alto desempenho inspirado no Jupyter, otimizado para concorrência massiva e uso mínimo de memória. - É construído com a linguagem de programação Go para melhorar a concorrência e o desempenho, oferecendo versões tanto em Electron quanto em aplicativo web, e é de código aberto sob a licença AGPL-3.0. - Zasper suporta aplicações de dados no estilo REPL (Read-Eval-Print Loop) e visa expandir além dos Jupyter Notebooks para suportar aplicações de dados personalizadas, com suporte total no Mac e suporte limitado no Linux.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42572057">Reações</a></h3>
+<ul>
+<li>Zasper é uma nova alternativa ao JupyterLab, desenvolvida na linguagem de programação Go, prometendo maior eficiência com uso reduzido de RAM e CPU.</li>
+<li>Ele utiliza corrotinas Go para melhorar o gerenciamento de kernel, em contraste com a abordagem baseada em Python do JupyterLab, e visa resolver problemas como gerenciamento de kernel e instalação de pacotes.</li>
+<li>O projeto está em seus estágios iniciais, com apoio da comunidade Jupyter, e está aberto a feedback e colaboração, destacando os benefícios de frontends diversos e a potencial integração com ferramentas como o Emacs.</li>
+</ul>
+<h2><a href="https://literallythevoid.com/blog/rails_for_everything.html">Trilhos para tudo</a></h2>
+<ul>
+<li>Rails 8 é otimizado para pequenos projetos e desenvolvedores individuais, oferecendo um guia abrangente &quot;Introdução ao Rails&quot; para construir aplicações completas.</li>
+<li>SQLite agora está pronto para produção no Rails 8, reduzindo a dependência do PostgreSQL ou Redis, e inclui configuração básica de integração contínua (CI) com 2000 minutos gratuitos de ações do GitHub.</li>
+<li>O novo gerador de autenticação e a implantação simplificada com Kamal tornam o login do usuário e a configuração ao vivo do aplicativo com SSL mais fáceis, promovendo as melhores práticas.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42569236">Reações</a></h3>
+<ul>
+<li>Rails é um framework popular para desenvolvimento de aplicativos web, conhecido por sua simplicidade e eficiência em comparação com outras pilhas modernas como Spring Boot ou Micronaut. - É preferido para construir rapidamente aplicativos web full-stack, com recursos integrados como ActiveStorage e testes de sistema, tornando-o ideal para desenvolvedores solo e pequenas equipes. - Apesar dos debates contínuos sobre sua relevância, o Rails continua a evoluir com atualizações recentes, aprimorando suas capacidades e mantendo seu apelo na comunidade de desenvolvimento.</li>
+</ul>
+<h2><a href="https://news.ycombinator.com/item?id=42573875">Onde Trabalhar Após os 40?</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42573875">Reações</a></h3>
+<ul>
+<li>Os caminhos de carreira após os 40 anos podem diferir significativamente, com opções que incluem ingressar em empresas B2B (Business-to-Business) de médio porte, consultoria ou serviços profissionais.</li>
+<li>Os objetivos pessoais, as necessidades financeiras e os interesses devem orientar a decisão, com o networking e as experiências passadas desempenhando um papel crucial na descoberta de novas oportunidades.</li>
+<li>O caminho ideal de carreira é subjetivo e varia com base nas preferências e circunstâncias individuais.</li>
+</ul>
+<h2><a href="https://blog.jacobvosmaer.nl/0036-beeper/">Meu truque favorito de ergonomia para computadores</a></h2>
+<ul>
+<li>Jacob Vosmaer apresenta &quot;The Beeper&quot;, um dispositivo DIY projetado para incentivar o movimento, emitindo um bip se a tela do computador permanecer desbloqueada por muito tempo. - O Beeper é composto por hardware (Adafruit Feather Huzzah ESP8266, interruptor, buzzer piezoelétrico), firmware (script Lua) e software que gerencia a ativação. - Apesar de sua simplicidade, o dispositivo promove efetivamente o movimento regular, e Jacob reconhece o apoio de sua esposa no projeto.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42569109">Reações</a></h3>
+<ul>
+<li>Os usuários expressaram frustração com o software obrigatório RSIGuard no trabalho, que impõe pausas com horários fixos e pop-ups disruptivos. - A discussão incluiu várias dicas ergonômicas, como beber água para pausas regulares, usar roupas apertadas e depender de lembretes do Apple Watch. - Alternativas como AntiRSI, Workrave, soluções personalizadas e smartwatches como o Bangle.js2 foram sugeridas para gerenciar lesões por esforço repetitivo (LER) e melhorar a ergonomia.</li>
+</ul>
+<h2><a href="https://old.reddit.com/r/uBlockOrigin/comments/1hr6xjc/ubo_quick_filters_list_being_stolen_by_team/">Código GPL do UBlockOrigin sendo roubado pela equipe por trás da extensão de navegador Honey</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42576443">Reações</a></h3>
+<ul>
+<li>O time da extensão do navegador Honey é acusado de usar código GPL (Licença Pública Geral) do UBlockOrigin sem a devida atribuição, gerando controvérsia.</li>
+<li>Usuários do Reddit expressam preocupações sobre práticas comerciais enganosas, enfatizando o impacto negativo nos clientes e na indústria de tecnologia.</li>
+<li>O debate destaca questões mais amplas, incluindo ética corporativa, a influência do dinheiro na política e desafios na manutenção da integridade empresarial, com ceticismo sobre o futuro dos projetos de código aberto devido ao potencial de exploração por empresas.</li>
+</ul>
+<h2><a href="https://j3s.sh/thought/blogs-rot-wikis-wait.html">Blogs apodrecem. Wikis esperam</a></h2>
+<ul>
+<li>O post contrasta a natureza duradoura dos wikis com a natureza transitória dos blogs, sugerindo que, até 2025, os wikis se tornarão mais pessoais e significativos.</li>
+<li>Wikis são descritos como dinâmicos e reflexos dos pensamentos em evolução do escritor, enquanto blogs são comparados a vitrines estáticas e esquecidas.</li>
+<li>O autor está fazendo a transição de um site tradicional para um formato de wiki, indicando uma mudança na forma como o conteúdo pessoal é gerenciado e compartilhado.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42571367">Reações</a></h3>
+<ul>
+<li>Os blogs oferecem um instantâneo específico no tempo dos pensamentos de um autor, permitindo atualizações por meio de novas postagens, mas muitas vezes carecem de marcas de tempo para contexto. - Wikis, como a Wikipédia, podem ter dificuldades com a clareza sobre o momento das atualizações e a confiabilidade, levando a informações potencialmente desatualizadas. - Tanto blogs quanto wikis têm vantagens únicas e podem coexistir, servindo a diferentes propósitos na criação de conteúdo e compartilhamento de conhecimento.</li>
+</ul>
+<h2><a href="https://nymag.com/intelligencer/article/meta-wants-more-ai-bots-on-facebook-and-instagram.html">Meta quer mais bots de IA no Facebook e Instagram</a></h2>
+<ul>
+<li>Meta está prestes a lançar bots de IA no Facebook e Instagram para engajar usuários mais jovens e aproveitar seu investimento em tecnologia de IA generativa. - Esses bots de IA terão perfis e criarão conteúdo, funcionando de maneira semelhante a contas regulares de mídia social, após a aquisição da SocialAI pela Meta. - Esta iniciativa reflete a estratégia mais ampla da Meta de automatizar interações sociais e curadoria de conteúdo, alinhando-se com tendências vistas em aplicativos como Character.ai.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42571608">Reações</a></h3>
+<ul>
+<li>Meta está introduzindo mais bots de IA no Facebook e Instagram para aumentar o engajamento dos usuários simulando interações, refletindo uma tendência mais ampla da indústria de usar IA para melhorar a experiência do usuário.</li>
+<li>Existem preocupações sobre a autenticidade das interações, já que o conteúdo gerado por IA pode ofuscar as conexões humanas genuínas nessas plataformas.</li>
+<li>Críticos temem que o aumento da presença de IA possa levar a uma experiência de mídia social menos autêntica, potencialmente alienando usuários que valorizam interações reais.</li>
+</ul>
+<h2><a href="https://austinhenley.com/blog/25yearsofai.html">Minha aventura de 25 anos em IA e ML</a></h2>
+<ul>
+<li>Austin Z. Henley, um Professor Associado de Ensino na Universidade Carnegie Mellon, compartilha sua jornada de 25 anos em IA (Inteligência Artificial) e ML (Aprendizado de Máquina), destacando sua transição de um desinteresse inicial para um envolvimento ativo através de vários projetos.</li>
+<li>Seu percurso profissional inclui o desenvolvimento de jogos simples, o estudo de IA e redes neurais, e a aplicação de árvores de decisão e agrupamento durante seu doutorado para analisar dados de editores de código.</li>
+<li>Hinley juntou-se à equipe de síntese de programas da Microsoft em 2022, trabalhando em projetos de IA, incluindo ferramentas baseadas em LLMs (Modelos de Linguagem de Grande Escala), e continua a explorar ferramentas de IA de forma independente enquanto ensina.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42569913">Reações</a></h3>
+<ul>
+<li>Há uma tendência crescente nos campos de IA (Inteligência Artificial) e ML (Aprendizado de Máquina) de usar IA mesmo quando soluções mais simples podem ser mais eficazes. - Alguns profissionais argumentam contra essa tendência, enfatizando a necessidade de abordagens práticas e questionando a necessidade de IA em todas as aplicações. - O debate destaca a importância da comunicação dentro das equipes de engenharia para equilibrar inovação com praticidade, ao mesmo tempo em que considera o impacto social da IA nos papéis humanos tradicionais e na criatividade.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Um dos meus artigos foi recusado hoje" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Um%20dos%20meus%20artigos%20foi%20recusado%20hoje&subheading=quinta-feira%2C%202%20de%20janeiro%20de%202025%3A%20Resumo%20do%20Hacker%20News" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/pt/2025/01/02</link>
+            <guid isPermaLink="false">2025-01-02T00:00:00.000Z</guid>
+            <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-01]]></title>
             <description
@@ -362,146 +472,6 @@
             <link>https://hn.cho.sh/pt/2024/12/24</link>
             <guid isPermaLink="false">2024-12-24T00:00:00.000Z</guid>
             <pubDate>Tue, 24 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-23]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/23&#39;</h2>
-<h1>2024-12-23</h1>
-<h2><a href="https://abovethelaw.com/2024/12/united-healthcare-using-dmca-against-luigi-mangione-images-which-is-bizarre-wildly-inappropriate/">United Healthcare&#39; usando DMCA contra imagens de Luigi Mangione</a></h2>
-<ul>
-<li>Relatos indicam que a United Healthcare está usando pedidos de DMCA para remover conteúdo online relacionado a Luigi Mangione, apesar de não deter os direitos autorais, levantando preocupações sobre o uso indevido da lei de direitos autorais. - A situação destaca como o DMCA pode ser explorado por trolls de direitos autorais para pressionar os hospedeiros de conteúdo a cumprir reivindicações potencialmente infundadas. - Não está claro se a United Healthcare é diretamente responsável por esses pedidos ou se um terceiro está se passando por eles.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42490453">Reações</a></h3>
-<ul>
-<li>Supostamente, a United Healthcare está usando notificações de DMCA para remover imagens de Luigi Mangione, acusado de matar seu CEO, mas há especulações de que há uma personificação explorando brechas do DMCA.</li>
-<li>O processo DMCA permite solicitações de remoção com verificação mínima, o que pode levar a uso indevido e abuso.</li>
-<li>Ignorar um aviso de DMCA pode resultar na perda das proteções de porto seguro, tornando os destinatários responsáveis por violação de direitos autorais, destacando problemas com a implementação do DMCA.</li>
-</ul>
-<h2><a href="https://twtxt.readthedocs.io/en/latest/index.html">Twtxt é um serviço de microblogging descentralizado e minimalista para hackers</a></h2>
-<ul>
-<li>twtxt lançou a versão v1.3.2-dev, um serviço de microblogging descentralizado e minimalista voltado para hackers.</li>
-<li>A documentação inclui seções sobre Instalação, Início Rápido, Uso, Configuração e API, com suporte da comunidade disponível no IRC.</li>
-<li>O capítulo da API detalha endpoints para usuários, tweets, menções, tags e descobribilidade, incentivando contribuições no GitHub.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42488983">Reações</a></h3>
-<ul>
-<li>Twtxt é um serviço de microblogging descentralizado projetado para hackers, conhecido por sua interface minimalista e simples.</li>
-<li>Os usuários destacam desafios como encontrar sites ativos e a falta de recursos como imagens visuais, embora alguns apreciem sua simplicidade e apelo de nicho.</li>
-<li>Twtxt oferece uma alternativa única e auto-hospedada às mídias sociais convencionais, embora a comunidade permaneça pequena, com alguns usuários migrando para outras plataformas como Mastodon ou Nostr.</li>
-</ul>
-<h2><a href="https://news.ycombinator.com/item?id=42490343">Previsões para 2025?</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42490343">Reações</a></h3>
-<ul>
-<li>Até 2025, são esperados avanços na Inteligência Artificial (IA), incluindo Modelos de Linguagem de Grande Escala (LLMs) mais especializados e IA generativa para música e vídeo.</li>
-<li>Plataformas de mídia social podem enfrentar desafios legais relacionados a danos algorítmicos, com potenciais restrições aumentadas no uso por crianças.</li>
-<li>Estratégias econômicas sugerem uma possível crise financeira devido à dívida dos EUA, enquanto empregos no comércio podem se tornar mais lucrativos, juntamente com o progresso tecnológico em energia solar, robótica e ferramentas impulsionadas por IA.</li>
-</ul>
-<h2><a href="https://medicalxpress.com/news/2024-12-commercial-tea-bags-millions-microplastics.html">Saquinhos de chá comerciais liberam microplásticos, entrando nas células humanas</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42494746">Reações</a></h3>
-<ul>
-<li>Os saquinhos de chá comerciais feitos de polímeros como nylon-6, polipropileno e celulose podem liberar microplásticos, que têm o potencial de entrar nas células humanas.</li>
-<li>O estudo teve como objetivo desenvolver uma metodologia para analisar microplásticos, em vez de fazer afirmações específicas sobre saquinhos de chá de papel, destacando debates em andamento sobre polímeros naturalmente ocorrentes, como a celulose.</li>
-<li>Preocupações com microplásticos não se limitam a saquinhos de chá, mas também incluem outros itens do dia a dia, como copos revestidos de plástico e utensílios, indicando um problema ambiental e de saúde mais amplo.</li>
-</ul>
-<h2><a href="https://xenaproject.wordpress.com/2024/12/22/can-ai-do-maths-yet-thoughts-from-a-mathematician/">Será que a IA já consegue fazer matemática? Reflexões de um matemático</a></h2>
-<ul>
-<li>Novo modelo de linguagem da OpenAI, o o3, alcançou uma pontuação de 25% no conjunto de dados FrontierMath, que inclui questões matemáticas desafiadoras com respostas definitivas.</li>
-<li>O conjunto de dados é mantido em segredo para evitar que modelos de linguagem sejam treinados nele, e inclui problemas que exigem expertise em áreas específicas da matemática.</li>
-<li>Embora o desempenho do o3 seja notável, o verdadeiro avanço ocorrerá quando a IA puder resolver questões mais complexas e baseadas em provas, já que os modelos atuais, como o AlphaProof da DeepMind, ainda estão limitados a problemas de nível escolar.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42493464">Reações</a></h3>
-<ul>
-<li>É debatida a capacidade da IA em matemática, pois ela pode ajudar com problemas e reconhecimento de padrões, mas frequentemente comete erros em raciocínio lógico e aritmética.</li>
-<li>Modelos como o ChatGPT são úteis para a compreensão conceitual, mas exigem orientação humana para matemática complexa, destacando as limitações da IA em raciocínio.</li>
-<li>Existem preocupações sobre o impacto da IA nos empregos e na integridade dos benchmarks, embora ela mostre potencial em auxiliar a pesquisa matemática, ainda não pode avançar de forma independente o conhecimento matemático.</li>
-</ul>
-<h2><a href="https://semianalysis.com/2024/12/22/mi300x-vs-h100-vs-h200-benchmark-part-1-training/">Moat CUDA ainda está vivo</a></h2>
-<ul>
-<li>Os testes comparativos das GPUs MI300X, H100 e H200 mostram que a MI300X da AMD tem desempenho inferior devido a problemas de software, apesar de suas especificações promissoras.</li>
-<li>Nvidia&#39;s GPUs demonstram desempenho superior imediatamente, enquanto o MI300X da AMD requer ajustes significativos e correções de bugs para atingir seu potencial.</li>
-<li>Recomendações para a AMD incluem melhorar a qualidade do software, aumentar os testes internos e colaborar com parceiros para melhorar sua posição competitiva contra a Nvidia.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42489844">Reações</a></h3>
-<ul>
-<li>AMD enfrenta desafios no desenvolvimento de software, afetando sua competitividade contra a Nvidia, particularmente nos setores de IA e aprendizado de máquina. Apesar de ter um hardware forte, os problemas da AMD com suporte a drivers e compatibilidade retroativa limitam seu desempenho, contrastando com o bem-sucedido ecossistema CUDA da Nvidia. Críticos sugerem que a AMD deve aprimorar seus esforços em engenharia de software para melhorar sua posição no mercado de IA e competir de forma mais eficaz com a Nvidia.</li>
-</ul>
-<h2><a href="https://ukdefencejournal.org.uk/classified-fighter-jet-specs-leaked-on-war-thunder-again/">Especificações de jato de combate classificadas vazaram nos fóruns do War Thunder</a></h2>
-<ul>
-<li>Especificações classificadas do radar do Eurofighter Typhoon foram vazadas nos fóruns do War Thunder, causando controvérsia e levantando preocupações de segurança.</li>
-<li>Este incidente faz parte de um padrão, já que vazamentos anteriores na plataforma envolveram outros sistemas militares, como o tanque Challenger 2.</li>
-<li>O usuário responsável pelo vazamento foi suspenso, e o material foi prontamente removido, destacando os desafios que o War Thunder enfrenta em equilibrar a precisão militar com a segurança da informação.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42490191">Reações</a></h3>
-<ul>
-<li>Especificações classificadas de jatos de combate foram vazadas nos fóruns do War Thunder, destacando o problema da segurança da informação em comunidades online.</li>
-<li>Discussões sugerem que esses vazamentos são frequentemente repostagens de documentos já em circulação, com a novidade sendo a plataforma usada para o vazamento—um fórum de jogos.</li>
-<li>Apesar dos vazamentos, os desenvolvedores de jogos não alteram o jogo com base neles, indicando o impacto limitado dos vazamentos.</li>
-</ul>
-<h2><a href="https://imgur.com/a/NQskWzI">Nova planilha do Google em metade da tela do MacBook Air de 13,6&quot; está totalmente coberta por pop-ups</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42490948">Reações</a></h3>
-<ul>
-<li>Usuários criticam o design de UX do Google para o Google Sheets em um MacBook Air de 13,6&quot;, citando pop-ups excessivos e elementos de interface grandes que prejudicam a usabilidade.</li>
-<li>Na discussão, a comparação desfavorece o design do Google em relação a outras plataformas, destacando uma tendência de priorizar interfaces móveis e de toque em detrimento da usabilidade em desktops.</li>
-<li>Frustração é expressa em relação ao foco do Google em recursos de IA, que alguns sentem que desvia da melhoria da experiência básica do usuário e do design da interface.</li>
-</ul>
-<h2><a href="https://newsroom.lexmark.com/2024-12-23-Xerox-to-Acquire-Lexmark">Xerox vai adquirir a Lexmark</a></h2>
-<ul>
-<li>Xerox planeja adquirir a Lexmark por US$ 1,5 bilhão, visando aprimorar seus serviços de impressão e expandir seu alcance global.</li>
-<li>A aquisição, que deverá ser concluída na segunda metade de 2025, será financiada por meio de caixa e dívida, com um dividendo reduzido para gerenciar a dívida.</li>
-<li>Estão pendentes aprovações regulatórias, e o acordo busca combinar as forças de ambas as empresas para oferecer um portfólio abrangente e melhorar o desempenho financeiro.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42494067">Reações</a></h3>
-<ul>
-<li>Xerox está adquirindo a Lexmark, com a intenção de sustentar e potencialmente expandir as operações da Lexmark usando seus recursos.</li>
-<li>Lexmark, reconhecida por sua marca e foco em áreas de crescimento como a Internet das Coisas (IoT), já era parceira da Xerox.</li>
-<li>A aquisição destaca mudanças na indústria de impressoras, com a Xerox buscando melhorar sua posição no mercado aproveitando as capacidades da Lexmark.</li>
-</ul>
-<h2><a href="https://github.com/oldmoe/litestack">Litestack: Toda a sua infraestrutura de dados, em uma única gem Ruby</a></h2>
-<ul>
-<li>Litestack é uma gem Ruby que consolida múltiplos componentes de infraestrutura de dados em um único pacote para aplicações Ruby e Ruby on Rails, utilizando SQLite. Oferece funcionalidades como um banco de dados SQL, cache, fila de tarefas, broker de mensagens, mecanismo de busca de texto completo e plataforma de métricas, melhorando o desempenho e reduzindo custos ao eliminar a necessidade de servidores separados. A gem integra-se com frameworks de IO baseados em Fiber para otimização do uso de CPU e memória e é de código aberto sob a Licença MIT, com contribuições bem-vindas no GitHub.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42491196">Reações</a></h3>
-<ul>
-<li>Litestack é uma gem Ruby que oferece uma infraestrutura de dados abrangente e se integra efetivamente com o Rails 8, que agora suporta SQLite para bancos de dados, filas de trabalho e cache.</li>
-<li>Os usuários apreciam o desempenho do Litestack, especialmente quando usado com o Litestream para backups, embora preocupações com a escalabilidade do SQLite permaneçam para projetos maiores.</li>
-<li>Há interesse em soluções semelhantes para Python e Django, à medida que os usuários comparam as alegações de desempenho do Litestack, especialmente em relação ao Redis, que requerem validação adicional.</li>
-</ul>
-<h2><a href="https://blog.fogus.me/2024/12/23/the-best-things-and-stuff-of-2024/">Fogus: Coisas e Coisas de 2024</a></h2>
-<ul>
-<li>Fogus reflete sobre suas experiências e descobertas de 2024, abordando uma ampla gama de tópicos, incluindo programação, mídia e interesses pessoais.</li>
-<li>Ele discute seu trabalho com a linguagem de programação Clojure e seus planos futuros, como explorar linguagens concatenativas e simplificar seu blog.</li>
-<li>Menções notáveis incluem o jogo Elite, a história do rádio amador, e fantasmas de banheiro japoneses, juntamente com agradecimentos às pessoas que o inspiraram.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42495077">Reações</a></h3>
-<ul>
-<li>Fogus destaca as tendências tecnológicas para 2024, incluindo dispositivos como o tablet Boox Go e critica o reMarkable™ por sua abordagem comunitária. - TypeScript é recomendado em vez de JavaScript para uma experiência de desenvolvimento aprimorada, enquanto Zig é considerado menos produtivo do que Go e Python, apesar de seu potencial em áreas de nicho. - O artigo observa o impacto pouco discutido dos Modelos de Linguagem de Grande Escala (LLMs) na programação em 2024 e menciona programação combinatória e tecnologias históricas como o Wordstar.</li>
-</ul>
-<h2><a href="https://www.euronews.com/next/2024/12/19/german-watchdog-orders-sam-altmans-biometric-id-project-world-to-delete-data">Autoridade alemã ordena que projeto de identificação biométrica World de Sam Altman exclua dados</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42489072">Reações</a></h3>
-<ul>
-<li>O órgão regulador alemão ordenou que o projeto Worldcoin, liderado por Sam Altman, exclua dados biométricos, citando preocupações com privacidade e manuseio de dados.</li>
-<li>Worldcoin usa escaneamentos de íris para prevenir contas duplicadas, mas críticos se preocupam com a extensa coleta de dados pessoais pela empresa.</li>
-<li>A situação destaca questões mais amplas em relação aos sistemas de identidade digital e privacidade, com a autoridade alemã enfatizando a conformidade com o GDPR (Regulamento Geral sobre a Proteção de Dados) para a exclusão de dados.</li>
-</ul>
-<h2><a href="https://webextension.net/collections">Eu criei uma plataforma para descobrir e compartilhar coleções de extensões do Chrome</a></h2>
-<ul>
-<li>WebExtension.net é uma plataforma que organiza coleções de extensões e temas do Chrome, com ênfase em produtividade, ferramentas de IA e mídias sociais. Os usuários podem explorar várias categorias, incluindo extensões populares e em alta, com análises fornecidas para extensões da Chrome Web Store. A plataforma é independente e não é afiliada ao Google ou à Chrome Web Store, obtendo todos os dados de fontes públicas.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42492753">Reações</a></h3>
-<ul>
-<li>A nova plataforma foi desenvolvida para compartilhar coleções de extensões do Chrome, gerando discussões sobre privacidade e desenvolvimento personalizado de extensões. Os usuários demonstram interesse em apoiar extensões do Firefox e fornecem feedback para melhorias na plataforma, ao mesmo tempo em que levantam preocupações sobre o uso indevido de dados por certas extensões, como o Honey. A interface do usuário da plataforma recebe feedback positivo, e atualizações futuras são aguardadas.</li>
-</ul>
-<head>
-  <meta property="og:title" content="United Healthcare' usando DMCA contra imagens de Luigi Mangione" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=United%20Healthcare'%20usando%20DMCA%20contra%20imagens%20de%20Luigi%20Mangione&subheading=segunda-feira%2C%2023%20de%20dezembro%20de%202024%3A%20Resumo%20do%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/pt/2024/12/23</link>
-            <guid isPermaLink="false">2024-12-23T00:00:00.000Z</guid>
-            <pubDate>Mon, 23 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

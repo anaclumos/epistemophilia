@@ -1,0 +1,210 @@
+[
+  {
+    "id": 42568399,
+    "title": "Um dos meus artigos foi recusado hoje",
+    "originLink": "https://mathstodon.xyz/@tao/113721192051328193",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42568399",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Um artigo do renomado matemático Terence Tao foi rejeitado, ilustrando que até mesmo acadêmicos de alto nível enfrentam rejeição, o que gerou uma discussão mais ampla sobre a prevalência de rejeições de artigos na academia. - O discurso destacou problemas dentro do processo de revisão por pares, incluindo preconceitos e a pressão para publicar com frequência, com muitos compartilhando experiências pessoais de rejeição. - As sugestões para melhoria incluíram explorar sistemas alternativos de avaliação e publicação, como revisões abertas centradas na internet, ao mesmo tempo em que se reconhece que a rejeição é um aspecto padrão da jornada acadêmica."
+    ],
+    "points": 779,
+    "commentCount": 254,
+    "retryCount": 0,
+    "time": 1735758777
+  },
+  {
+    "id": 42572662,
+    "title": "MitmProxy2Swagger: Reengenharia reversa automática de APIs REST",
+    "originLink": "https://github.com/alufers/mitmproxy2swagger",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42572662",
+    "commentBody": "",
+    "originSummary": [
+      "mitmproxy2swagger é uma ferramenta que converte capturas do mitmproxy em especificações OpenAPI 3.0, facilitando a engenharia reversa de APIs REST ao capturar o tráfego de aplicativos. - A ferramenta agora suporta arquivos HTTP Archive (HAR) das Ferramentas de Desenvolvedor dos navegadores, ampliando sua usabilidade para desenvolvedores. - A instalação pode ser feita usando Python3 e pip ou Docker, e o projeto emprega ferramentas como poetry, pre-commit e pytest para desenvolvimento, com uma licença MIT."
+    ],
+    "commentSummary": [
+      "MitmProxy2Swagger é uma ferramenta projetada para engenharia reversa de APIs REST, analisando o tráfego capturado com o mitmproxy, uma ferramenta popular para interceptar tráfego HTTP/HTTPS.",
+      "Os usuários o utilizaram com sucesso para recriar servidores privados para jogos e fazer engenharia reversa de APIs para aplicativos Android, destacando sua eficácia na identificação de endpoints de API.",
+      "O recurso é particularmente benéfico para trabalhar com sistemas legados ou APIs não documentadas, embora possa enfrentar desafios com APIs não padronizadas e as discussões incluam métodos para proteger APIs contra engenharia reversa, como CAPTCHAs e fixação de certificados."
+    ],
+    "points": 459,
+    "commentCount": 55,
+    "retryCount": 0,
+    "time": 1735805295
+  },
+  {
+    "id": 42570988,
+    "title": "O GPU, não o TPM, é a raiz do DRM de hardware",
+    "originLink": "https://mjg59.dreamwidth.org/70954.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42570988",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "O núcleo da Gestão de Direitos Digitais (DRM) de hardware está associado às Unidades de Processamento Gráfico (GPUs) em vez dos Módulos de Plataforma Confiável (TPMs), com o DRM de mídia atualmente vinculado aos fornecedores de GPU.",
+      "Um dos objetivos de longo prazo do DRM pode ser exercer controle total sobre os dispositivos, potencialmente impactando softwares como bloqueadores de anúncios, o que levanta preocupações sobre o futuro da computação pessoal.",
+      "A Free Software Foundation (FSF) pode estar equivocada ao focar nos TPMs, já que os fornecedores de GPU já integraram a tecnologia DRM, destacando a necessidade de intervenção legislativa para proteger os direitos dos usuários."
+    ],
+    "points": 346,
+    "commentCount": 325,
+    "retryCount": 0,
+    "time": 1735783785
+  },
+  {
+    "id": 42572057,
+    "title": "Zasper: Uma Alternativa Moderna e Eficiente ao JupyterLab, Desenvolvida em Go",
+    "originLink": "https://github.com/zasper-io/zasper",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42572057",
+    "commentBody": "",
+    "originSummary": [
+      "Zasper é um Ambiente de Desenvolvimento Integrado (IDE) de alto desempenho inspirado no Jupyter, otimizado para concorrência massiva e uso mínimo de memória. - É construído com a linguagem de programação Go para melhorar a concorrência e o desempenho, oferecendo versões tanto em Electron quanto em aplicativo web, e é de código aberto sob a licença AGPL-3.0. - Zasper suporta aplicações de dados no estilo REPL (Read-Eval-Print Loop) e visa expandir além dos Jupyter Notebooks para suportar aplicações de dados personalizadas, com suporte total no Mac e suporte limitado no Linux."
+    ],
+    "commentSummary": [
+      "Zasper é uma nova alternativa ao JupyterLab, desenvolvida na linguagem de programação Go, prometendo maior eficiência com uso reduzido de RAM e CPU.",
+      "Ele utiliza corrotinas Go para melhorar o gerenciamento de kernel, em contraste com a abordagem baseada em Python do JupyterLab, e visa resolver problemas como gerenciamento de kernel e instalação de pacotes.",
+      "O projeto está em seus estágios iniciais, com apoio da comunidade Jupyter, e está aberto a feedback e colaboração, destacando os benefícios de frontends diversos e a potencial integração com ferramentas como o Emacs."
+    ],
+    "points": 339,
+    "commentCount": 79,
+    "retryCount": 0,
+    "time": 1735797320
+  },
+  {
+    "id": 42569236,
+    "title": "Trilhos para tudo",
+    "originLink": "https://literallythevoid.com/blog/rails_for_everything.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42569236",
+    "commentBody": "",
+    "originSummary": [
+      "Rails 8 é otimizado para pequenos projetos e desenvolvedores individuais, oferecendo um guia abrangente \"Introdução ao Rails\" para construir aplicações completas.",
+      "SQLite agora está pronto para produção no Rails 8, reduzindo a dependência do PostgreSQL ou Redis, e inclui configuração básica de integração contínua (CI) com 2000 minutos gratuitos de ações do GitHub.",
+      "O novo gerador de autenticação e a implantação simplificada com Kamal tornam o login do usuário e a configuração ao vivo do aplicativo com SSL mais fáceis, promovendo as melhores práticas."
+    ],
+    "commentSummary": [
+      "Rails é um framework popular para desenvolvimento de aplicativos web, conhecido por sua simplicidade e eficiência em comparação com outras pilhas modernas como Spring Boot ou Micronaut. - É preferido para construir rapidamente aplicativos web full-stack, com recursos integrados como ActiveStorage e testes de sistema, tornando-o ideal para desenvolvedores solo e pequenas equipes. - Apesar dos debates contínuos sobre sua relevância, o Rails continua a evoluir com atualizações recentes, aprimorando suas capacidades e mantendo seu apelo na comunidade de desenvolvimento."
+    ],
+    "points": 325,
+    "commentCount": 203,
+    "retryCount": 0,
+    "time": 1735765084
+  },
+  {
+    "id": 42573875,
+    "title": "Onde Trabalhar Após os 40?",
+    "originLink": "https://news.ycombinator.com/item?id=42573875",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42573875",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Os caminhos de carreira após os 40 anos podem diferir significativamente, com opções que incluem ingressar em empresas B2B (Business-to-Business) de médio porte, consultoria ou serviços profissionais.",
+      "Os objetivos pessoais, as necessidades financeiras e os interesses devem orientar a decisão, com o networking e as experiências passadas desempenhando um papel crucial na descoberta de novas oportunidades.",
+      "O caminho ideal de carreira é subjetivo e varia com base nas preferências e circunstâncias individuais."
+    ],
+    "points": 230,
+    "commentCount": 192,
+    "retryCount": 0,
+    "time": 1735821184
+  },
+  {
+    "id": 42569109,
+    "title": "Meu truque favorito de ergonomia para computadores",
+    "originLink": "https://blog.jacobvosmaer.nl/0036-beeper/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42569109",
+    "commentBody": "",
+    "originSummary": [
+      "Jacob Vosmaer apresenta \"The Beeper\", um dispositivo DIY projetado para incentivar o movimento, emitindo um bip se a tela do computador permanecer desbloqueada por muito tempo. - O Beeper é composto por hardware (Adafruit Feather Huzzah ESP8266, interruptor, buzzer piezoelétrico), firmware (script Lua) e software que gerencia a ativação. - Apesar de sua simplicidade, o dispositivo promove efetivamente o movimento regular, e Jacob reconhece o apoio de sua esposa no projeto."
+    ],
+    "commentSummary": [
+      "Os usuários expressaram frustração com o software obrigatório RSIGuard no trabalho, que impõe pausas com horários fixos e pop-ups disruptivos. - A discussão incluiu várias dicas ergonômicas, como beber água para pausas regulares, usar roupas apertadas e depender de lembretes do Apple Watch. - Alternativas como AntiRSI, Workrave, soluções personalizadas e smartwatches como o Bangle.js2 foram sugeridas para gerenciar lesões por esforço repetitivo (LER) e melhorar a ergonomia."
+    ],
+    "points": 216,
+    "commentCount": 59,
+    "retryCount": 0,
+    "time": 1735763993
+  },
+  {
+    "id": 42576443,
+    "title": "Código GPL do UBlockOrigin sendo roubado pela equipe por trás da extensão de navegador Honey",
+    "originLink": "https://old.reddit.com/r/uBlockOrigin/comments/1hr6xjc/ubo_quick_filters_list_being_stolen_by_team/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42576443",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "O time da extensão do navegador Honey é acusado de usar código GPL (Licença Pública Geral) do UBlockOrigin sem a devida atribuição, gerando controvérsia.",
+      "Usuários do Reddit expressam preocupações sobre práticas comerciais enganosas, enfatizando o impacto negativo nos clientes e na indústria de tecnologia.",
+      "O debate destaca questões mais amplas, incluindo ética corporativa, a influência do dinheiro na política e desafios na manutenção da integridade empresarial, com ceticismo sobre o futuro dos projetos de código aberto devido ao potencial de exploração por empresas."
+    ],
+    "points": 213,
+    "commentCount": 59,
+    "retryCount": 0,
+    "time": 1735838848
+  },
+  {
+    "id": 42571367,
+    "title": "Blogs apodrecem. Wikis esperam",
+    "originLink": "https://j3s.sh/thought/blogs-rot-wikis-wait.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42571367",
+    "commentBody": "",
+    "originSummary": [
+      "O post contrasta a natureza duradoura dos wikis com a natureza transitória dos blogs, sugerindo que, até 2025, os wikis se tornarão mais pessoais e significativos.",
+      "Wikis são descritos como dinâmicos e reflexos dos pensamentos em evolução do escritor, enquanto blogs são comparados a vitrines estáticas e esquecidas.",
+      "O autor está fazendo a transição de um site tradicional para um formato de wiki, indicando uma mudança na forma como o conteúdo pessoal é gerenciado e compartilhado."
+    ],
+    "commentSummary": [
+      "Os blogs oferecem um instantâneo específico no tempo dos pensamentos de um autor, permitindo atualizações por meio de novas postagens, mas muitas vezes carecem de marcas de tempo para contexto. - Wikis, como a Wikipédia, podem ter dificuldades com a clareza sobre o momento das atualizações e a confiabilidade, levando a informações potencialmente desatualizadas. - Tanto blogs quanto wikis têm vantagens únicas e podem coexistir, servindo a diferentes propósitos na criação de conteúdo e compartilhamento de conhecimento."
+    ],
+    "points": 176,
+    "commentCount": 110,
+    "retryCount": 0,
+    "time": 1735788777
+  },
+  {
+    "id": 42571608,
+    "title": "Meta quer mais bots de IA no Facebook e Instagram",
+    "originLink": "https://nymag.com/intelligencer/article/meta-wants-more-ai-bots-on-facebook-and-instagram.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42571608",
+    "commentBody": "",
+    "originSummary": [
+      "Meta está prestes a lançar bots de IA no Facebook e Instagram para engajar usuários mais jovens e aproveitar seu investimento em tecnologia de IA generativa. - Esses bots de IA terão perfis e criarão conteúdo, funcionando de maneira semelhante a contas regulares de mídia social, após a aquisição da SocialAI pela Meta. - Esta iniciativa reflete a estratégia mais ampla da Meta de automatizar interações sociais e curadoria de conteúdo, alinhando-se com tendências vistas em aplicativos como Character.ai."
+    ],
+    "commentSummary": [
+      "Meta está introduzindo mais bots de IA no Facebook e Instagram para aumentar o engajamento dos usuários simulando interações, refletindo uma tendência mais ampla da indústria de usar IA para melhorar a experiência do usuário.",
+      "Existem preocupações sobre a autenticidade das interações, já que o conteúdo gerado por IA pode ofuscar as conexões humanas genuínas nessas plataformas.",
+      "Críticos temem que o aumento da presença de IA possa levar a uma experiência de mídia social menos autêntica, potencialmente alienando usuários que valorizam interações reais."
+    ],
+    "points": 172,
+    "commentCount": 308,
+    "retryCount": 0,
+    "time": 1735791600
+  },
+  {
+    "id": 42569913,
+    "title": "Minha aventura de 25 anos em IA e ML",
+    "originLink": "https://austinhenley.com/blog/25yearsofai.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42569913",
+    "commentBody": "",
+    "originSummary": [
+      "Austin Z. Henley, um Professor Associado de Ensino na Universidade Carnegie Mellon, compartilha sua jornada de 25 anos em IA (Inteligência Artificial) e ML (Aprendizado de Máquina), destacando sua transição de um desinteresse inicial para um envolvimento ativo através de vários projetos.",
+      "Seu percurso profissional inclui o desenvolvimento de jogos simples, o estudo de IA e redes neurais, e a aplicação de árvores de decisão e agrupamento durante seu doutorado para analisar dados de editores de código.",
+      "Hinley juntou-se à equipe de síntese de programas da Microsoft em 2022, trabalhando em projetos de IA, incluindo ferramentas baseadas em LLMs (Modelos de Linguagem de Grande Escala), e continua a explorar ferramentas de IA de forma independente enquanto ensina."
+    ],
+    "commentSummary": [
+      "Há uma tendência crescente nos campos de IA (Inteligência Artificial) e ML (Aprendizado de Máquina) de usar IA mesmo quando soluções mais simples podem ser mais eficazes. - Alguns profissionais argumentam contra essa tendência, enfatizando a necessidade de abordagens práticas e questionando a necessidade de IA em todas as aplicações. - O debate destaca a importância da comunicação dentro das equipes de engenharia para equilibrar inovação com praticidade, ao mesmo tempo em que considera o impacto social da IA nos papéis humanos tradicionais e na criatividade."
+    ],
+    "points": 172,
+    "commentCount": 35,
+    "retryCount": 0,
+    "time": 1735771276
+  }
+]

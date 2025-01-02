@@ -15,12 +15,122 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 01 Jan 2025 22:50:04 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Jan 2025 19:16:11 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/ko.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[ko]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-02]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/02&#39;</h2>
+<h1>2025-01-02</h1>
+<h2><a href="https://mathstodon.xyz/@tao/113721192051328193">오늘 제 논문 중 하나가 거절당했습니다</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42568399">반응</a></h3>
+<ul>
+<li>저명한 수학자 테렌스 타오의 논문이 거절되면서, 최고 학자들조차 거절을 겪는다는 사실이 드러났고, 학계에서 논문 거절의 만연함에 대한 폭넓은 논의가 촉발되었습니다. - 이 논의는 동료 심사 과정의 편견과 자주 출판해야 한다는 압박을 포함한 문제들을 부각시켰으며, 많은 사람들이 거절 경험을 공유했습니다. - 개선을 위한 제안으로는 인터넷 중심의 공개 리뷰와 같은 대체 평가 및 출판 시스템을 탐구하는 것이 포함되었으며, 거절이 학문적 여정의 표준적인 측면임을 인정했습니다.</li>
+</ul>
+<h2><a href="https://github.com/alufers/mitmproxy2swagger">MitmProxy2Swagger: 자동으로 REST API를 역설계</a></h2>
+<ul>
+<li>mitmproxy2swagger는 mitmproxy 캡처를 OpenAPI 3.0 사양으로 변환하여 애플리케이션 트래픽을 캡처함으로써 REST API의 리버스 엔지니어링을 용이하게 하는 도구입니다. - 이 도구는 이제 브라우저 개발자 도구의 HTTP Archive (HAR) 파일을 지원하여 개발자들의 사용성을 확장했습니다. - 설치는 Python3와 pip 또는 Docker를 사용하여 수행할 수 있으며, 프로젝트는 개발을 위해 poetry, pre-commit, pytest와 같은 도구를 사용하며 MIT 라이선스를 채택하고 있습니다.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42572662">반응</a></h3>
+<ul>
+<li>MitmProxy2Swagger는 HTTP/HTTPS 트래픽을 가로채는 인기 있는 도구인 mitmproxy로 캡처한 트래픽을 분석하여 REST API를 리버스 엔지니어링하기 위해 설계된 도구입니다.</li>
+<li>사용자들은 게임의 개인 서버를 재구성하고 안드로이드 애플리케이션의 API를 리버스 엔지니어링하는 데 성공적으로 활용하여 API 엔드포인트를 식별하는 데 있어 그 효과를 강조했습니다.</li>
+<li>이 도구는 특히 레거시 시스템이나 문서화되지 않은 API와 작업할 때 유용하지만, 비표준 API에서는 어려움을 겪을 수 있으며, CAPTCHAs 및 인증서 고정과 같은 방법으로 API를 리버스 엔지니어링으로부터 보호하는 방법에 대한 논의가 포함됩니다.</li>
+</ul>
+<h2><a href="https://mjg59.dreamwidth.org/70954.html">GPU는 TPM이 아니라 하드웨어 DRM의 근본이다</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42570988">반응</a></h3>
+<ul>
+<li>하드웨어 디지털 권리 관리(DRM)의 핵심은 신뢰할 수 있는 플랫폼 모듈(TPM)보다는 그래픽 처리 장치(GPU)와 관련이 있으며, 현재 미디어 DRM은 GPU 공급업체와 연결되어 있습니다.</li>
+<li>DRM의 장기적인 목표는 장치에 대한 완전한 통제력을 행사하는 것일 수 있으며, 이는 광고 차단기와 같은 소프트웨어에 영향을 미쳐 개인 컴퓨팅의 미래에 대한 우려를 불러일으킬 수 있습니다.</li>
+<li>자유 소프트웨어 재단(FSF)은 TPM에 집중하는 것이 잘못된 방향일 수 있으며, GPU 공급업체들이 이미 DRM 기술을 통합했기 때문에 사용자 권리를 보호하기 위한 법적 개입의 필요성을 강조하고 있다.</li>
+</ul>
+<h2><a href="https://github.com/zasper-io/zasper">Zasper: Go로 구축된 JupyterLab의 현대적이고 효율적인 대안</a></h2>
+<ul>
+<li>Zasper는 Jupyter에서 영감을 받은 고성능 통합 개발 환경(IDE)으로, 대규모 동시성 및 최소 메모리 사용을 최적화했습니다. - Go 프로그래밍 언어로 구축되어 동시성과 성능이 향상되었으며, Electron 및 웹 앱 버전을 제공하고 AGPL-3.0 라이선스 하에 오픈 소스로 제공됩니다. - Zasper는 REPL 스타일(읽기-평가-출력 루프) 데이터 애플리케이션을 지원하며, Jupyter 노트북을 넘어 맞춤형 데이터 애플리케이션을 지원하는 것을 목표로 하고 있으며, Mac에서 완전 지원되고 Linux에서는 제한적으로 지원됩니다.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42572057">반응</a></h3>
+<ul>
+<li>Zasper는 Go 프로그래밍 언어로 개발된 JupyterLab의 새로운 대안으로, RAM 및 CPU 사용량을 줄이면서 향상된 효율성을 약속합니다.</li>
+<li>이는 Go 코루틴을 활용하여 커널 관리를 개선하며, JupyterLab의 Python 기반 접근 방식과 대조를 이룹니다. 또한 커널 관리 및 패키지 설치와 같은 문제를 해결하는 것을 목표로 합니다.</li>
+<li>이 프로젝트는 초기 단계에 있으며, Jupyter 커뮤니티의 지원을 받고 있습니다. 피드백과 협업에 열려 있으며, 다양한 프론트엔드의 이점과 Emacs와 같은 도구와의 잠재적 통합을 강조하고 있습니다.</li>
+</ul>
+<h2><a href="https://literallythevoid.com/blog/rails_for_everything.html">모든 것을 위한 레일</a></h2>
+<ul>
+<li>Rails 8은 소규모 프로젝트와 단일 개발자에게 최적화되어 있으며, 완전한 기능을 갖춘 애플리케이션을 구축하기 위한 포괄적인 &quot;Rails 시작하기&quot; 가이드를 제공합니다.</li>
+<li>SQLite는 이제 Rails 8에서 프로덕션 준비가 완료되어 PostgreSQL이나 Redis에 대한 의존성을 줄이고, 2000분의 무료 GitHub 액션 시간을 포함한 기본 지속적 통합(CI) 구성을 제공합니다.</li>
+<li>새로운 인증 생성기와 Kamal을 통한 간단한 배포는 사용자 로그인과 SSL을 통한 실시간 앱 설정을 더 쉽게 만들어 모범 사례를 촉진합니다.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42569236">반응</a></h3>
+<ul>
+<li>Rails는 웹 애플리케이션 개발을 위한 인기 있는 프레임워크로, Spring Boot나 Micronaut 같은 다른 현대적인 스택에 비해 간단하고 효율적이라는 점에서 잘 알려져 있습니다. - ActiveStorage와 시스템 테스트와 같은 통합 기능을 통해 전체 스택 웹 애플리케이션을 빠르게 구축할 수 있어, 개인 개발자와 소규모 팀에게 이상적입니다. - 그 관련성에 대한 지속적인 논쟁에도 불구하고, Rails는 최근 업데이트를 통해 기능을 향상시키고 개발 커뮤니티에서의 매력을 유지하며 계속 발전하고 있습니다.</li>
+</ul>
+<h2><a href="https://news.ycombinator.com/item?id=42573875">40세 이후에 어디에서 일할까?</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42573875">반응</a></h3>
+<ul>
+<li>40세 이후의 경력 경로는 중견 B2B(기업 간 거래) 회사에 합류하거나 컨설팅, 전문 서비스 분야에 진출하는 등 크게 다를 수 있습니다.</li>
+<li>개인 목표, 재정적 필요 및 관심사는 결정을 안내해야 하며, 네트워킹과 과거 경험은 새로운 기회를 발견하는 데 중요한 역할을 합니다.</li>
+<li>이상적인 경력 경로는 주관적이며 개인의 선호도와 상황에 따라 다릅니다.</li>
+</ul>
+<h2><a href="https://blog.jacobvosmaer.nl/0036-beeper/">내가 가장 좋아하는 컴퓨터 인체공학 요령</a></h2>
+<ul>
+<li>Jacob Vosmaer는 컴퓨터 화면이 너무 오래 잠겨 있지 않으면 경고음을 울려 움직임을 유도하는 DIY 장치인 &#39;The Beeper&#39;를 소개합니다. - The Beeper는 하드웨어(Adafruit Feather Huzzah ESP8266, 스위치, 피에조 버저), 펌웨어(Lua 스크립트), 및 활성화를 관리하는 소프트웨어로 구성되어 있습니다. - 비록 단순하지만, 이 장치는 규칙적인 움직임을 효과적으로 촉진하며, Jacob은 프로젝트에서 아내의 지원에 감사를 표합니다.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42569109">반응</a></h3>
+<ul>
+<li>사용자들은 고정된 시간과 방해가 되는 팝업으로 휴식을 강제하는 직장의 필수 RSIGuard 소프트웨어에 대한 불만을 표출했습니다. - 논의에는 규칙적인 휴식을 위해 물을 마시거나, 꽉 끼는 옷을 입거나, Apple Watch 알림에 의존하는 등 다양한 인체공학적 요령이 포함되었습니다. - 반복적인 긴장 부상(RSI)을 관리하고 인체공학을 개선하기 위해 AntiRSI, Workrave, 맞춤형 솔루션, Bangle.js2와 같은 스마트워치와 같은 대안이 제안되었습니다.</li>
+</ul>
+<h2><a href="https://old.reddit.com/r/uBlockOrigin/comments/1hr6xjc/ubo_quick_filters_list_being_stolen_by_team/">UBlockOrigin GPL 코드를 Honey 브라우저 확장 프로그램 팀이 도용</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42576443">반응</a></h3>
+<ul>
+<li>허니 브라우저 확장 프로그램 팀이 적절한 출처 표기 없이 UBlockOrigin의 GPL(일반 공중 사용 허가서) 코드를 사용했다는 비난을 받아 논란이 일고 있다.</li>
+<li>Reddit 사용자들은 고객과 기술 산업에 미치는 부정적인 영향을 강조하며 기만적인 사업 관행에 대한 우려를 표명하고 있습니다.</li>
+<li>이 논의는 기업 윤리, 정치에서의 자금 영향력, 비즈니스 무결성 유지의 어려움 등 더 넓은 문제들을 강조하며, 기업에 의한 잠재적 착취로 인해 오픈 소스 프로젝트의 미래에 대한 회의론을 포함하고 있습니다.</li>
+</ul>
+<h2><a href="https://j3s.sh/thought/blogs-rot-wikis-wait.html">블로그는 썩고, 위키는 기다린다</a></h2>
+<ul>
+<li>이 글은 위키의 지속적인 특성과 블로그의 일시적인 특성을 대조하며, 2025년까지 위키가 더 개인적이고 의미 있게 될 것이라고 제안합니다.</li>
+<li>위키는 작가의 진화하는 생각을 반영하는 역동적인 것으로 묘사되는 반면, 블로그는 정적이고 잊혀진 상점으로 비유됩니다.</li>
+<li>저자는 전통적인 웹사이트에서 위키 형식으로 전환하고 있으며, 이는 개인 콘텐츠가 관리되고 공유되는 방식의 변화를 나타냅니다.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42571367">반응</a></h3>
+<ul>
+<li>블로그는 저자의 생각을 특정 시점에 포착하여 새로운 게시물을 통해 업데이트할 수 있게 하지만, 종종 맥락을 위한 타임스탬프가 부족합니다. - 위키, 예를 들어 위키백과는 업데이트 시기와 신뢰성에 대한 명확성이 부족하여 잠재적으로 오래된 정보를 제공할 수 있습니다. - 블로그와 위키 모두 고유한 장점을 가지고 있으며, 콘텐츠 생성과 지식 공유에서 서로 다른 목적을 위해 공존할 수 있습니다.</li>
+</ul>
+<h2><a href="https://nymag.com/intelligencer/article/meta-wants-more-ai-bots-on-facebook-and-instagram.html">메타, 페이스북과 인스타그램에 더 많은 AI 봇 도입 원해</a></h2>
+<ul>
+<li>메타는 젊은 사용자와의 소통을 강화하고 생성 AI 기술에 대한 투자를 활용하기 위해 페이스북과 인스타그램에 AI 봇을 출시할 예정입니다. - 이러한 AI 봇은 프로필을 가지고 콘텐츠를 생성하며, 메타가 소셜AI를 인수한 후 일반 소셜 미디어 계정과 유사하게 기능할 것입니다. - 이 이니셔티브는 소셜 상호작용과 콘텐츠 큐레이션을 자동화하려는 메타의 광범위한 전략을 반영하며, Character.ai와 같은 앱에서 볼 수 있는 트렌드와 일치합니다.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42571608">반응</a></h3>
+<ul>
+<li>메타는 사용자 경험을 향상시키기 위한 더 넓은 산업 트렌드를 반영하여 상호작용을 시뮬레이션함으로써 사용자 참여를 증대하기 위해 페이스북과 인스타그램에 더 많은 AI 봇을 도입하고 있습니다.</li>
+<li>AI 생성 콘텐츠가 이러한 플랫폼에서 진정한 인간 관계를 가릴 수 있다는 우려가 있습니다.</li>
+<li>비평가들은 AI의 존재가 증가함에 따라 진정성이 떨어지는 소셜 미디어 경험으로 이어질 수 있으며, 실제 상호작용을 중시하는 사용자들을 소외시킬 가능성이 있다고 우려하고 있습니다.</li>
+</ul>
+<h2><a href="https://austinhenley.com/blog/25yearsofai.html">AI와 ML에서의 25년 모험</a></h2>
+<ul>
+<li>오스틴 Z. 헨리, 카네기 멜론 대학교의 부교수는 AI(인공지능) 및 ML(기계 학습) 분야에서의 25년 여정을 공유하며, 초기의 무관심에서 다양한 프로젝트를 통해 적극적으로 참여하게 된 전환점을 강조합니다.</li>
+<li>그의 경력 경로에는 간단한 게임 개발, AI 및 신경망 연구, 그리고 박사 과정 중 코드 편집기 데이터를 분석하기 위해 의사 결정 트리와 클러스터링을 적용하는 것이 포함됩니다.</li>
+<li>헨리는 2022년에 마이크로소프트의 프로그램 합성 팀에 합류하여 LLM(대형 언어 모델)을 기반으로 한 도구를 포함한 AI 프로젝트에 참여했으며, 가르치는 동안 독립적으로 AI 도구를 탐구하는 일을 계속하고 있습니다.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42569913">반응</a></h3>
+<ul>
+<li>AI(인공지능) 및 ML(기계 학습) 분야에서는 더 간단한 해결책이 더 효과적일 수 있음에도 불구하고 AI를 사용하는 경향이 증가하고 있습니다. - 일부 전문가들은 이 경향에 반대하며 실용적인 접근의 필요성을 강조하고 모든 응용 분야에서 AI의 필요성을 의문시합니다. - 이 논쟁은 혁신과 실용성의 균형을 맞추기 위해 엔지니어링 팀 내에서의 의사소통의 중요성을 강조하며, 전통적인 인간 역할과 창의성에 대한 AI의 사회적 영향을 고려할 필요성을 제기합니다.</li>
+</ul>
+<head>
+  <meta property="og:title" content="오늘 제 논문 중 하나가 거절당했습니다" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%EC%98%A4%EB%8A%98%20%EC%A0%9C%20%EB%85%BC%EB%AC%B8%20%EC%A4%91%20%ED%95%98%EB%82%98%EA%B0%80%20%EA%B1%B0%EC%A0%88%EB%8B%B9%ED%96%88%EC%8A%B5%EB%8B%88%EB%8B%A4&subheading=2025%EB%85%84%201%EC%9B%94%202%EC%9D%BC%20%EB%AA%A9%EC%9A%94%EC%9D%BC%3A%20%ED%95%B4%EC%BB%A4%EB%89%B4%EC%8A%A4%20%EC%9A%94%EC%95%BD" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/ko/2025/01/02</link>
+            <guid isPermaLink="false">2025-01-02T00:00:00.000Z</guid>
+            <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-01]]></title>
             <description
@@ -362,146 +472,6 @@
             <link>https://hn.cho.sh/ko/2024/12/24</link>
             <guid isPermaLink="false">2024-12-24T00:00:00.000Z</guid>
             <pubDate>Tue, 24 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-23]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/23&#39;</h2>
-<h1>2024-12-23</h1>
-<h2><a href="https://abovethelaw.com/2024/12/united-healthcare-using-dmca-against-luigi-mangione-images-which-is-bizarre-wildly-inappropriate/">‘United Healthcare’가 Luigi Mangione 이미지에 대해 DMCA를 사용 중</a></h2>
-<ul>
-<li>유나이티드 헬스케어가 루이지 망지오네와 관련된 온라인 콘텐츠를 삭제하기 위해 저작권을 보유하지 않았음에도 불구하고 DMCA 요청을 사용하고 있다는 보도가 나왔으며, 이는 저작권법의 오용에 대한 우려를 제기하고 있습니다. 이 상황은 DMCA가 저작권 트롤에 의해 악용되어 콘텐츠 호스트에게 잠재적으로 근거 없는 주장에 대한 준수를 압박할 수 있음을 강조합니다. 유나이티드 헬스케어가 이러한 요청에 직접 책임이 있는지 아니면 제3자가 그들을 사칭하고 있는지는 불확실합니다.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42490453">반응</a></h3>
-<ul>
-<li>United Healthcare는 자사의 CEO를 살해한 혐의를 받고 있는 루이지 망지오네의 이미지를 삭제하기 위해 DMCA 통지를 사용하고 있는 것으로 추정되지만, DMCA의 허점을 악용한 사칭의 가능성이 제기되고 있습니다.</li>
-<li>DMCA 프로세스는 최소한의 검증으로 삭제 요청을 허용하여 오용 및 남용으로 이어질 수 있습니다.</li>
-<li>DMCA 통지를 무시하면 안전 항구 보호를 잃게 되어 수신자가 저작권 침해에 대한 책임을 지게 될 수 있으며, 이는 DMCA 시행의 문제점을 부각시킵니다.</li>
-</ul>
-<h2><a href="https://twtxt.readthedocs.io/en/latest/index.html">Twtxt는 해커를 위한 분산형, 미니멀리스트 마이크로블로깅 서비스입니다.</a></h2>
-<ul>
-<li>twtxt는 해커를 대상으로 한 분산형, 미니멀리스트 마이크로블로깅 서비스인 버전 v1.3.2-dev를 출시했습니다.</li>
-<li>문서에는 설치, 빠른 시작, 사용법, 구성 및 API에 대한 섹션이 포함되어 있으며, IRC에서 커뮤니티 지원을 받을 수 있습니다.</li>
-<li>API 장에서는 사용자, 트윗, 멘션, 태그 및 검색 가능성에 대한 엔드포인트를 자세히 설명하며, GitHub에서의 기여를 권장합니다.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42488983">반응</a></h3>
-<ul>
-<li>Twtxt는 해커를 위해 설계된 분산형 마이크로블로깅 서비스로, 미니멀하고 간단한 인터페이스로 유명합니다.</li>
-<li>사용자들은 활성 사이트를 찾는 것과 시각적 이미지와 같은 기능의 부족과 같은 문제를 강조하지만, 일부는 그 단순함과 틈새 매력을 높이 평가합니다.</li>
-<li>커뮤니티는 여전히 작지만, 일부 사용자는 Mastodon이나 Nostr와 같은 다른 플랫폼으로 이동하고 있습니다. 그럼에도 불구하고 Twtxt는 주류 소셜 미디어에 대한 독특한 자체 호스팅 대안을 제공합니다.</li>
-</ul>
-<h2><a href="https://news.ycombinator.com/item?id=42490343">2025년에 대한 예측은?</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42490343">반응</a></h3>
-<ul>
-<li>2025년까지 인공지능(AI)의 발전이 예상되며, 여기에는 더 전문화된 대형 언어 모델(LLM)과 음악 및 비디오를 위한 생성 AI가 포함됩니다.</li>
-<li>소셜 미디어 플랫폼은 알고리즘적 피해와 관련된 법적 문제에 직면할 수 있으며, 아동 사용에 대한 제한이 증가할 가능성이 있습니다.</li>
-<li>경제 전망에 따르면 미국 부채로 인해 금융 위기가 발생할 가능성이 있으며, 무역 직업은 더 수익성이 높아질 수 있고, 태양 에너지, 로봇 공학 및 AI 기반 도구의 기술적 진보가 함께 이루어질 수 있습니다.</li>
-</ul>
-<h2><a href="https://medicalxpress.com/news/2024-12-commercial-tea-bags-millions-microplastics.html">상업용 티백은 미세 플라스틱을 방출하여 인간 세포에 들어갑니다.</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42494746">반응</a></h3>
-<ul>
-<li>나일론-6, 폴리프로필렌, 셀룰로오스와 같은 폴리머로 만들어진 상업용 티백은 미세플라스틱을 방출할 수 있으며, 이는 인간 세포에 들어갈 가능성이 있습니다.</li>
-<li>이 연구는 셀룰로오스와 같은 자연 발생 고분자에 대한 지속적인 논쟁을 강조하면서, 종이 티백에 대한 구체적인 주장을 하기보다는 미세 플라스틱을 분석하기 위한 방법론을 개발하는 것을 목표로 했습니다.</li>
-<li>미세 플라스틱에 대한 우려는 티백에 국한되지 않으며, 플라스틱으로 코팅된 컵과 식기와 같은 다른 일상 용품도 포함되어 더 넓은 환경 및 건강 문제를 나타냅니다.</li>
-</ul>
-<h2><a href="https://xenaproject.wordpress.com/2024/12/22/can-ai-do-maths-yet-thoughts-from-a-mathematician/">AI가 수학을 할 수 있을까? 수학자의 생각</a></h2>
-<ul>
-<li>OpenAI의 새로운 언어 모델인 o3는 명확한 답이 있는 도전적인 수학 문제를 포함하는 FrontierMath 데이터셋에서 25%의 점수를 기록했습니다.</li>
-<li>데이터셋은 언어 모델이 이를 학습하는 것을 방지하기 위해 비밀로 유지되며, 특정 수학 분야에 대한 전문 지식을 요구하는 문제들을 포함하고 있습니다.</li>
-<li>o3의 성능은 주목할 만하지만, 진정한 발전은 AI가 더 복잡하고 증명 기반의 문제를 해결할 수 있을 때 이루어질 것입니다. 현재 DeepMind의 AlphaProof와 같은 모델은 여전히 고등학교 수준의 문제에 제한되어 있습니다.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42493464">반응</a></h3>
-<ul>
-<li>AI의 수학적 능력은 논란의 여지가 있는데, 문제 해결과 패턴 인식에 도움을 줄 수 있지만 논리적 추론과 산술에서 종종 오류를 범하기 때문이다.</li>
-<li>ChatGPT와 같은 모델은 개념적 이해에 유용하지만 복잡한 수학 문제에서는 인간의 지도가 필요하며, 이는 AI의 추론 한계를 강조합니다.</li>
-<li>AI가 일자리와 기준의 무결성에 미치는 영향에 대한 우려가 있지만, 수학 연구를 돕는 데 있어 가능성을 보여주고 있으며, 아직 독립적으로 수학적 지식을 발전시킬 수는 없습니다.</li>
-</ul>
-<h2><a href="https://semianalysis.com/2024/12/22/mi300x-vs-h100-vs-h200-benchmark-part-1-training/">CUDA 해자 여전히 존재</a></h2>
-<ul>
-<li>MI300X, H100, H200 GPU의 벤치마킹 결과, AMD의 MI300X는 유망한 사양에도 불구하고 소프트웨어 문제로 인해 성능이 떨어지는 것으로 나타났습니다.</li>
-<li>Nvidia의 GPU는 기본 설정만으로도 뛰어난 성능을 보여주는 반면, AMD의 MI300X는 잠재력을 발휘하기 위해 상당한 조정과 버그 수정을 필요로 합니다.</li>
-<li>AMD에 대한 권장 사항에는 소프트웨어 품질 향상, 내부 테스트 강화, 그리고 Nvidia에 대한 경쟁력을 높이기 위해 파트너와의 협력이 포함됩니다.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42489844">반응</a></h3>
-<ul>
-<li>AMD는 소프트웨어 개발에서 어려움을 겪고 있으며, 이는 특히 AI 및 머신러닝 분야에서 Nvidia와의 경쟁력에 영향을 미치고 있습니다. 강력한 하드웨어를 보유하고 있음에도 불구하고, AMD는 드라이버 지원 및 하위 호환성 문제로 인해 성능이 제한되고 있으며, 이는 Nvidia의 성공적인 CUDA 생태계와 대조적입니다. 비평가들은 AMD가 AI 시장에서의 입지를 개선하고 Nvidia와 더 효과적으로 경쟁하기 위해 소프트웨어 엔지니어링 노력을 강화해야 한다고 제안합니다.</li>
-</ul>
-<h2><a href="https://ukdefencejournal.org.uk/classified-fighter-jet-specs-leaked-on-war-thunder-again/">기밀 전투기 사양이 War Thunder 포럼에 유출됨</a></h2>
-<ul>
-<li>유로파이터 타이푼 레이더의 기밀 사양이 워 썬더 포럼에 유출되어 논란을 일으키고 보안 우려를 제기했습니다.</li>
-<li>이 사건은 패턴의 일부로, 이전에 플랫폼에서 발생한 유출 사건들은 챌린저 2 탱크와 같은 다른 군사 시스템과 관련이 있었습니다.</li>
-<li>유출에 책임이 있는 사용자는 정지되었고, 자료는 즉시 제거되었으며, 이는 War Thunder가 군사적 정확성과 정보 보안을 균형 있게 유지하는 데 직면한 도전을 강조합니다.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42490191">반응</a></h3>
-<ul>
-<li>기밀 전투기 사양이 War Thunder 포럼에 유출되어 온라인 커뮤니티에서 정보 보안 문제를 부각시켰습니다.</li>
-<li>논의에 따르면 이러한 유출은 이미 유통되고 있는 문서의 재게시인 경우가 많으며, 새로움은 유출에 사용된 플랫폼, 즉 게임 포럼이라는 점에 있습니다.</li>
-<li>유출에도 불구하고, 게임 개발자들은 이를 기반으로 게임을 변경하지 않으며, 이는 유출의 영향이 제한적임을 나타낸다.</li>
-</ul>
-<h2><a href="https://imgur.com/a/NQskWzI">13.6인치 맥북 에어 화면의 절반에 새 Google Sheet가 팝업으로 완전히 덮여 있습니다.</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42490948">반응</a></h3>
-<ul>
-<li>사용자들은 13.6인치 맥북 에어에서 구글 시트의 UX 디자인을 비판하며, 과도한 팝업과 큰 UI 요소들이 사용성을 저해한다고 지적하고 있습니다.</li>
-<li>논의에서는 구글의 디자인을 다른 플랫폼과 비교하여 부정적으로 평가하며, 모바일 및 터치 인터페이스를 데스크톱 사용성보다 우선시하는 경향을 지적하고 있습니다.</li>
-<li>구글이 AI 기능에 집중하는 것에 대한 불만이 표출되고 있으며, 이는 기본 사용자 경험과 인터페이스 디자인 개선을 저해한다고 느끼는 사람들이 있다.</li>
-</ul>
-<h2><a href="https://newsroom.lexmark.com/2024-12-23-Xerox-to-Acquire-Lexmark">제록스, 렉스마크 인수 예정</a></h2>
-<ul>
-<li>제록스는 인쇄 서비스를 강화하고 글로벌 범위를 확장하기 위해 15억 달러에 렉스마크를 인수할 계획입니다.</li>
-<li>2025년 하반기에 마무리될 것으로 예상되는 이번 인수는 현금과 부채를 통해 자금이 조달되며, 부채 관리를 위해 배당금이 줄어들 것입니다.</li>
-<li>규제 승인 대기 중이며, 이 거래는 포괄적인 포트폴리오를 제공하고 재무 성과를 개선하기 위해 두 회사의 강점을 결합하려고 합니다.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42494067">반응</a></h3>
-<ul>
-<li>제록스는 렉스마크를 인수하여 자사의 자원을 활용해 렉스마크의 운영을 유지하고 잠재적으로 확장할 계획입니다.</li>
-<li>Lexmark는 사물인터넷(IoT)과 같은 성장 분야에 대한 브랜드와 집중으로 인정받고 있으며, 이미 Xerox의 파트너였습니다.</li>
-<li>이번 인수는 프린터 산업의 변화를 강조하며, 제록스가 렉스마크의 역량을 활용하여 시장 지위를 강화하려는 의도를 보여줍니다.</li>
-</ul>
-<h2><a href="https://github.com/oldmoe/litestack">Litestack: 모든 데이터 인프라를 하나의 루비 젬으로</a></h2>
-<ul>
-<li>Litestack은 Ruby 및 Ruby on Rails 애플리케이션을 위한 여러 데이터 인프라 구성 요소를 단일 패키지로 통합하는 Ruby gem입니다. SQLite를 사용하여 SQL 데이터베이스, 캐시, 작업 대기열, 메시지 브로커, 전체 텍스트 검색 엔진 및 메트릭 플랫폼과 같은 기능을 제공하여 성능을 향상시키고 별도의 서버가 필요 없도록 하여 비용을 절감합니다. 이 gem은 최적화된 CPU 및 메모리 사용을 위해 Fiber 기반 IO 프레임워크와 통합되며, MIT 라이선스 하에 오픈 소스로 제공되며 GitHub에서 기여를 환영합니다.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42491196">반응</a></h3>
-<ul>
-<li>Litestack은 포괄적인 데이터 인프라를 제공하는 Ruby gem으로, 이제 데이터베이스, 작업 대기열 및 캐싱을 위해 SQLite를 지원하는 Rails 8과 효과적으로 통합됩니다.</li>
-<li>사용자들은 Litestack의 성능을 특히 Litestream을 백업에 사용할 때 높이 평가하지만, SQLite의 확장성 문제는 더 큰 프로젝트에서 여전히 남아 있습니다.</li>
-<li>사용자들이 Litestack의 성능 주장, 특히 Redis와 비교하여 추가 검증이 필요한 만큼, Python과 Django에 대한 유사한 솔루션에 대한 관심이 있습니다.</li>
-</ul>
-<h2><a href="https://blog.fogus.me/2024/12/23/the-best-things-and-stuff-of-2024/">포거스: 2024년의 사물과 물건</a></h2>
-<ul>
-<li>Fogus는 2024년의 경험과 발견을 회고하며 프로그래밍, 미디어, 개인적인 관심사를 포함한 다양한 주제를 다룹니다.</li>
-<li>그는 프로그래밍 언어 Clojure와 관련된 자신의 작업 및 연결형 언어 탐구와 블로그 단순화와 같은 미래 계획에 대해 논의합니다.</li>
-<li>주목할 만한 언급으로는 게임 엘리트, 아마추어 무선의 역사, 일본의 욕실 유령이 있으며, 그에게 영감을 준 사람들에 대한 감사도 포함됩니다.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42495077">반응</a></h3>
-<ul>
-<li>Fogus는 2024년의 기술 동향을 강조하면서 Boox Go 태블릿과 같은 기기를 포함하고, 커뮤니티 접근 방식에 대한 reMarkable™의 비판을 언급합니다. 개발 경험을 개선하기 위해 JavaScript보다 TypeScript가 추천되며, Zig는 틈새 영역에서의 잠재력에도 불구하고 Go와 Python보다 생산성이 낮다고 평가됩니다. 이 기사는 2024년 프로그래밍에 대한 대형 언어 모델(LLM)의 논의되지 않은 영향을 지적하고, 조합 프로그래밍과 Wordstar와 같은 역사적인 기술을 언급합니다.</li>
-</ul>
-<h2><a href="https://www.euronews.com/next/2024/12/19/german-watchdog-orders-sam-altmans-biometric-id-project-world-to-delete-data">독일 감시 기관, 샘 알트먼의 생체 인식 ID 프로젝트 &#39;월드&#39;에 데이터 삭제 명령</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42489072">반응</a></h3>
-<ul>
-<li>독일 감시 기관은 사생활 보호 및 데이터 처리 문제를 이유로 샘 알트먼이 이끄는 월드코인 프로젝트에 생체 데이터를 삭제할 것을 명령했습니다.</li>
-<li>월드코인은 중복 계정을 방지하기 위해 홍채 스캔을 사용하지만, 비평가들은 회사가 수집하는 방대한 개인 데이터에 대해 우려하고 있습니다.</li>
-<li>이 상황은 디지털 신원 시스템과 프라이버시와 관련된 더 넓은 문제를 강조하며, 독일 당국은 데이터 삭제를 위한 GDPR(일반 데이터 보호 규정) 준수를 강조하고 있습니다.</li>
-</ul>
-<h2><a href="https://webextension.net/collections">저는 Chrome 확장 프로그램 컬렉션을 발견하고 공유할 수 있는 플랫폼을 만들었습니다.</a></h2>
-<ul>
-<li>WebExtension.net은 생산성, AI 도구 및 소셜 미디어를 강조하는 Chrome 확장 프로그램 및 테마 컬렉션을 큐레이션하는 플랫폼입니다. 사용자는 인기 있고 트렌디한 확장 프로그램을 포함한 다양한 카테고리를 탐색할 수 있으며, Chrome 웹 스토어 확장 프로그램에 대한 분석도 제공됩니다. 이 플랫폼은 독립적이며 Google 또는 Chrome 웹 스토어와 제휴하지 않으며, 모든 데이터를 공개 소스에서 수집합니다.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42492753">반응</a></h3>
-<ul>
-<li>Chrome 확장 프로그램 모음을 공유하기 위한 새로운 플랫폼이 개발되어 프라이버시와 맞춤 확장 프로그램 개발에 대한 논의를 촉발했습니다. 사용자들은 Firefox 확장 프로그램 지원에 관심을 보이며 플랫폼 개선을 위한 피드백을 제공하는 한편, Honey와 같은 특정 확장 프로그램에 의한 데이터 오용에 대한 우려를 제기하고 있습니다. 플랫폼의 사용자 인터페이스는 긍정적인 피드백을 받고 있으며, 향후 업데이트가 기대되고 있습니다.</li>
-</ul>
-<head>
-  <meta property="og:title" content="‘United Healthcare’가 Luigi Mangione 이미지에 대해 DMCA를 사용 중" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%98United%20Healthcare%E2%80%99%EA%B0%80%20Luigi%20Mangione%20%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%97%90%20%EB%8C%80%ED%95%B4%20DMCA%EB%A5%BC%20%EC%82%AC%EC%9A%A9%20%EC%A4%91&subheading=2024%EB%85%84%2012%EC%9B%94%2023%EC%9D%BC%20%EC%9B%94%EC%9A%94%EC%9D%BC%3A%20%ED%95%B4%EC%BB%A4%EB%89%B4%EC%8A%A4%20%EC%9A%94%EC%95%BD" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/ko/2024/12/23</link>
-            <guid isPermaLink="false">2024-12-23T00:00:00.000Z</guid>
-            <pubDate>Mon, 23 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
