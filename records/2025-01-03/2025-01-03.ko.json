@@ -1,0 +1,154 @@
+[
+  {
+    "id": 42579873,
+    "title": "나는 부자이고 무엇을 해야 할지 모르겠다",
+    "originLink": "https://vinay.sh/i-am-rich-and-have-no-idea-what-to-do-with-my-life/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579873",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "이 글은 재정적 성공을 이룬 후 목적을 찾는 데 어려움을 겪는 일반적인 문제를 다루며, 이는 환멸과 고립감을 초래할 수 있다고 설명합니다. - 다른 사람을 발전시키고, 관계를 구축하거나 새로운 관심사를 추구하는 것에서 성취감을 찾을 수 있으며, 재정적 부를 넘어서는 목적의 중요성을 강조합니다. - 또한 부가 사회적 격차를 만들 때 관계를 유지하는 데 어려움이 있다는 점을 강조하며, 소속감을 키우기 위해 의미 있는 활동과 연결이 필요하다고 지적합니다."
+    ],
+    "points": 793,
+    "commentCount": 1375,
+    "retryCount": 0,
+    "time": 1735858215
+  },
+  {
+    "id": 42579472,
+    "title": "iTerm2 중요 보안 릴리스",
+    "originLink": "https://iterm2.com/downloads/stable/iTerm2-3_5_11.changelog",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579472",
+    "commentBody": "",
+    "originSummary": [
+      "iTerm2 버전 3.5.11은 2025년 1월 2일에 출시되었으며, 이전 버전의 SSH 통합 기능과 관련된 심각한 보안 취약점을 해결합니다. - 이 버그는 원격 호스트에 있는 파일에 입력/출력을 기록하는 문제로, 다른 사람들이 접근할 수 있어 버전 3.5.6부터 3.5.10 및 특정 베타 버전의 사용자에게 영향을 미쳤습니다. - 사용자는 즉시 버전 3.5.11로 업데이트하고, /tmp/framer.txt 파일을 삭제하며, 제공된 SHA-256 및 PGP 서명을 사용하여 업데이트를 확인하여 보안 보장을 받는 것이 권장됩니다."
+    ],
+    "commentSummary": [
+      "iTerm2는 SSH 통합에서 입력 및 출력을 원격 호스트의 파일에 기록하여 다른 사용자에게 데이터를 노출할 가능성이 있는 버그를 해결하기 위해 중요한 보안 업데이트를 발표했습니다.",
+      "문제는 프로덕션에서 우연히 자세한 로깅이 활성화되어 발생했으며, 이로 인해 유사한 오류를 방지하기 위한 사전 커밋 훅과 안전장치의 중요성에 대한 논의가 촉발되었습니다.",
+      "이 사건은 Ghostty나 Terminal.app과 같은 대안으로 전환하는 것에 대한 논쟁을 촉발했으며, 기능이 풍부한 소프트웨어와 보안 위험 간의 균형을 강조했습니다."
+    ],
+    "points": 647,
+    "commentCount": 412,
+    "retryCount": 0,
+    "time": 1735855722
+  },
+  {
+    "id": 42584400,
+    "title": "LLM에게 계속해서 '더 나은 코드를 작성하라'고 요청하면 더 나은 코드를 작성할 수 있을까요?",
+    "originLink": "https://minimaxir.com/2025/01/write-better-code/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42584400",
+    "commentBody": "",
+    "originSummary": [
+      "2023년 11월, 밈 트렌드로 사용자들이 ChatGPT에게 이미지를 반복적으로 개선하도록 요청하는 것이 있었고, 이는 Claude 3.5 Sonnet을 사용하여 Python 프로그램을 개선하는 코드에 적용되었습니다. - '더 나은 코드를 작성하라'와 같은 모호한 프롬프트로 초기 시도에서는 일부 개선이 있었지만, 특정 최적화 목표를 가진 구조화된 프롬프트 엔지니어링은 성능을 크게 향상시켰습니다. - 이 실험은 대형 언어 모델(LLM)이 혁신적인 아이디어를 제공할 수 있지만 코드 최적화 중에 미묘한 버그를 도입할 수도 있기 때문에 인간의 감독이 중요하다는 점을 강조했습니다."
+    ],
+    "commentSummary": [
+      "대형 언어 모델(LLM)은 종종 수많은 튜토리얼을 기반으로 훈련되어 기본적인 코드를 생성하며, 이는 코드 성능을 향상시킬 수 있는 간단한 최적화를 놓칠 수 있습니다. - LLM에게 반복적으로 코드를 개선하도록 요청하면 더 나은 결과를 얻을 수 있지만, 이 과정은 수작업 코딩만큼 시간이 많이 걸릴 수 있습니다. - 이 논의는 복잡한 최적화를 이해하는 데 있어 LLM의 한계를 강조하며, 코드 품질을 개선하기 위해 맥락과 구체적인 지침을 제공하는 것이 중요함을 부각합니다."
+    ],
+    "points": 453,
+    "commentCount": 271,
+    "retryCount": 0,
+    "time": 1735900244
+  },
+  {
+    "id": 42577736,
+    "title": "순수 SQL로 구현한 2024년의 코드 대강림",
+    "originLink": "http://databasearchitects.blogspot.com/2024/12/advent-of-code-2024-in-pure-sql.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42577736",
+    "commentBody": "",
+    "originSummary": [
+      "Thomas Neumann은 순수 SQL을 사용하여 Advent of Code 2024 챌린지를 해결한 경험을 공유하며, 이를 대체 문제 해결 접근 방식의 연습으로 강조했습니다. - Neumann은 모든 챌린지를 성공적으로 완료했지만, 복잡한 알고리즘과 상태 업데이트를 처리하는 데 있어 SQL의 한계를 지적하며 SQL의 효율성을 개선할 가능성을 제안했습니다. - 이 블로그 게시물은 하나의 챌린지에 대한 상세한 SQL 솔루션을 포함하고 있으며, 데이터베이스 내에서 복잡한 알고리즘 실행을 직접 지원하도록 SQL을 향상시킬 가능성에 대해 논의하고 있습니다."
+    ],
+    "commentSummary": [
+      "순수 SQL로 진행되는 2024년의 Advent of Code는 SQL이 복잡한 문제를 처리할 수 있는 능력을 강조하며, 그 성능과 논리적 구조에 대한 관심을 불러일으킵니다.",
+      "토론은 저장 프로시저 최적화에서 비즈니스 로직에 사용하기까지 SQL에 대한 다양한 경험을 드러내며, 그 강점과 도전 과제를 모두 보여줍니다.",
+      "대화는 또한 SQL 유사 언어의 잠재력과 데이터베이스 로직과 애플리케이션 코드 간의 균형을 탐구하며, 소프트웨어 개발에서 SQL의 역할에 대한 다양한 의견을 반영합니다."
+    ],
+    "points": 431,
+    "commentCount": 97,
+    "retryCount": 0,
+    "time": 1735845650
+  },
+  {
+    "id": 42578237,
+    "title": "미국 항소 법원이 FCC의 망 중립성 규정을 무효화하다",
+    "originLink": "https://www.tvtechnology.com/news/sixth-circuit-of-appeals-strikes-down-fccs-net-neutrality-rules",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42578237",
+    "commentBody": "",
+    "originSummary": [
+      "미국 항소법원은 FCC의 법적 권한을 초과했다는 이유로, 광대역 제공업체가 인터넷 트래픽을 동등하게 처리하도록 의무화한 FCC의 망 중립성 규정을 무효화했습니다.",
+      "이 결정은 규제 기관의 권한을 제한하는 대법원 판결을 참조하여 FCC의 망 중립성 시행 능력에 영향을 미칩니다.",
+      "FCC 의장 제시카 로젠워셀은 의회가 망 중립성에 대한 법률을 제정할 것을 촉구했으며, 커미셔너 브렌던 카는 규제 남용에 대한 견제로서 법원의 결정을 지지했습니다."
+    ],
+    "commentSummary": [
+      "미국 항소 법원이 현행 법률 하에서 충분한 법적 권한이 없다는 이유로 FCC의 망 중립성 규정을 무효화했습니다. - 이 결정은 FCC와 같은 기관이 법령을 광범위하게 해석할 수 있도록 허용했던 Chevron deference를 대법원이 뒤집은 후에 나왔습니다. - 법원은 광대역 제공업체를 \"통신 서비스\"가 아닌 \"정보 서비스\"를 제공하는 것으로 분류하여 FCC의 규제 권한을 제한하고 연방 망 중립성 규정을 종료시켰으며, 이는 ISP가 인터넷 트래픽을 제한하거나 우선시할 수 있도록 할 수 있습니다."
+    ],
+    "points": 356,
+    "commentCount": 302,
+    "retryCount": 0,
+    "time": 1735848335
+  },
+  {
+    "id": 42581119,
+    "title": "인터넷에서 임차인이 아닌 소유자가 되십시오",
+    "originLink": "https://den.dev/blog/be-a-property-owner-not-a-renter-on-the-internet/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42581119",
+    "commentBody": "",
+    "originSummary": [
+      "이 기사는 주요 인터넷 플랫폼에만 의존하기보다는 디지털 공간을 소유하는 것의 중요성을 강조하고 있습니다. 이러한 플랫폼은 종종 사용자 이익보다 자신의 성장을 우선시합니다. - 온라인 존재를 유지하기 위한 전략으로는 도메인 소유, 여러 플랫폼에 걸친 콘텐츠 다양화, 이메일 리스트를 통한 청중과의 직접적인 연결 구축이 포함됩니다. - 자신의 웹 자산을 만듦으로써 디지털 활동에서 유연성과 회복력을 보장하고, 단일 네트워크에 대한 의존도를 줄일 수 있습니다."
+    ],
+    "commentSummary": [
+      "이 논의는 소셜 미디어 플랫폼에 의존하는 대신 자신의 디지털 존재를 소유하는 것의 중요성을 강조하며, AI가 사용자 생성 콘텐츠를 악용할 수 있다는 우려를 다룹니다. - 저작권, AI 윤리, 온라인 데이터에 대한 더 나은 통제를 위한 개인 웹사이트나 도메인의 중요성을 탐구합니다. - 또한 도메인 등록기관 및 호스팅 제공업체와 같은 외부 서비스에 대한 의존성을 고려할 때, 자가 호스팅의 실용성과 한계를 고려하며 온라인 존재를 관리하는 데 있어 더 많은 독립성을 옹호합니다."
+    ],
+    "points": 295,
+    "commentCount": 211,
+    "retryCount": 0,
+    "time": 1735867317
+  },
+  {
+    "id": 42583086,
+    "title": "BlogScroll – 개인 사이트 및 블로그의 오픈 디렉토리",
+    "originLink": "https://blogscroll.com/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42583086",
+    "commentBody": "",
+    "originSummary": [
+      "BlogScroll은 주요 기술 회사 외부의 디지털 공간을 강조하는 개인 사이트 및 블로그의 공개 디렉토리로, Den Delimarsky가 GitHub에서 관리하고 있습니다. - 사용자는 GitHub을 통해 또는 제작자에게 이메일을 보내 BlogScroll에 기여할 수 있으며, 업데이트는 RSS 피드를 통해 제공됩니다. - 이 디렉토리는 디자인 및 UX, 개인, 사진-비디오 제작, 기술 등 다양한 카테고리를 포함하며, 수많은 개인의 기여를 선보입니다."
+    ],
+    "commentSummary": [
+      "BlogScroll은 개인 사이트와 블로그를 위한 오픈 디렉토리로, 일부 사용자들에 의해 개인 사이트로 논의되는 디지털 정원을 공유하는 데 중점을 두고 있습니다.",
+      "GitHub에 호스팅된 BlogScroll은 \"폐쇄된 정원\" 성격에 대한 논의를 촉발했으며, OPML 내보내기 및 확장성 개선에 대한 제안이 제기되었습니다.",
+      "이 프로젝트는 개인 웹 공간에 대한 새로운 관심과 독립적이고 큐레이션된 온라인 콘텐츠를 유지하는 데 있어 직면하는 도전을 반영하여 목록을 확장하기 위한 제출을 장려합니다."
+    ],
+    "points": 262,
+    "commentCount": 70,
+    "retryCount": 0,
+    "time": 1735885431
+  },
+  {
+    "id": 42579969,
+    "title": "엘더 레이크 SHLX 이상 현상",
+    "originLink": "https://tavianator.com/2025/shlx.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579969",
+    "commentBody": "",
+    "originSummary": [
+      "Harold Aptroot는 Intel의 Alder Lake 프로세서에서 SHLX 명령어가 '중간 대기 시간'인 3 사이클을 나타낸다는 것을 발견했으며, 이는 일반적으로 1 사이클이 소요되는 왼쪽 시프트 작업에 비해 비정상적입니다. - 이 대기 시간 문제는 Alder Lake의 성능 코어에만 특정되며, 효율성 코어에는 영향을 미치지 않아 Intel의 1 사이클 대기 시간 주장과 모순됩니다. - 대기 시간은 시프트 카운트 레지스터의 초기화에 따라 달라지며, 32비트 명령어나 즉시값이 없는 64비트 명령어는 1 사이클 대기 시간을 달성하는 반면, 즉시값이 있는 64비트 명령어는 3 사이클 대기 시간을 초래합니다."
+    ],
+    "commentSummary": [
+      "앨더 레이크 SHLX 이상 현상은 특정 명령어(예: `mov rcx, 1`)가 `SHLX` 명령어의 실행을 느리게 만드는 성능 문제로, 이는 레지스터 리네이머가 작은 즉시값을 처리하는 방식 때문일 가능성이 있습니다.",
+      "이 이상 현상은 3배의 속도 저하를 초래할 수 있으며, 문맥 전환이 레지스터 상태를 재설정하여 의도치 않게 코드를 가속화할 수 있기 때문에 재현하기 어렵습니다.",
+      "이 문제는 새로 발견된 것으로 주로 `SHL`과 같은 명령어에 영향을 미치는 시프트 카운트에 관련되며, `ANDN`과 같은 다른 명령어에는 영향을 미치지 않으며, 일반적으로 컴파일러에 의해 고려되지 않습니다."
+    ],
+    "points": 194,
+    "commentCount": 68,
+    "retryCount": 0,
+    "time": 1735858848
+  }
+]

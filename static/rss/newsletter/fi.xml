@@ -15,12 +15,99 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 02 Jan 2025 19:16:12 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Jan 2025 19:08:50 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/fi.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Fri, 03 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[fi]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-03]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/03&#39;</h2>
+<h1>2025-01-03</h1>
+<h2><a href="https://vinay.sh/i-am-rich-and-have-no-idea-what-to-do-with-my-life/">Minä olen rikas enkä tiedä mitä tehdä</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42579873">Reaktiot</a></h3>
+<ul>
+<li>Kirjoitus käsittelee yleistä kamppailua löytää tarkoitus taloudellisen menestyksen saavuttamisen jälkeen, mikä voi johtaa pettymyksen ja eristyneisyyden tunteisiin. - Se ehdottaa, että täyttymystä voi löytää kehittämällä muita, rakentamalla yhteyksiä tai etsimällä uusia kiinnostuksen kohteita, korostaen tarkoituksen merkitystä taloudellisen vaurauden ulkopuolella. - Keskustelu tuo esiin myös haasteet suhteiden ylläpitämisessä, kun varallisuus luo sosiaalista eriarvoisuutta, korostaen merkityksellisten aktiviteettien ja yhteyksien tarvetta yhteenkuuluvuuden tunteen edistämiseksi.</li>
+</ul>
+<h2><a href="https://iterm2.com/downloads/stable/iTerm2-3_5_11.changelog">iTerm2 kriittinen tietoturvapäivitys</a></h2>
+<ul>
+<li>iTerm2 version 3.5.11, julkaistu 2. tammikuuta 2025, korjaa kriittisen tietoturva-aukon, joka liittyy SSH-integraatio-ominaisuuteen aiemmissa versioissa. - Virhe koski syötteen/ulostulon kirjaamista tiedostoon etäisännällä, johon muut saattoivat päästä käsiksi, vaikuttaen versioiden 3.5.6–3.5.10 ja tiettyjen beta-versioiden käyttäjiin. - Käyttäjiä kehotetaan päivittämään versioon 3.5.11 välittömästi, poistamaan /tmp/framer.txt-tiedosto ja varmistamaan päivitys käyttämällä annettua SHA-256- ja PGP-allekirjoitusta tietoturvan varmistamiseksi.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42579472">Reaktiot</a></h3>
+<ul>
+<li>iTerm2 julkaisi kriittisen tietoturvapäivityksen korjatakseen SSH-integraatiossaan olevan virheen, joka kirjasi syötteen ja tulosteen tiedostoon etäisännässä, mikä saattoi altistaa tiedot muille käyttäjille.</li>
+<li>Asia johtui siitä, että yksityiskohtainen lokitus oli vahingossa otettu käyttöön tuotannossa, mikä johti keskusteluihin ennakkositoumusten koukkujen ja turvatoimien tärkeydestä vastaavien virheiden estämiseksi.</li>
+<li>Tapauksen seurauksena heräsi keskustelu vaihtoehtoihin, kuten Ghosttyyn tai Terminal.appiin, siirtymisestä, samalla kun korostettiin tasapainoa ominaisuuksiltaan rikkaan ohjelmiston ja tietoturvariskien välillä.</li>
+</ul>
+<h2><a href="https://minimaxir.com/2025/01/write-better-code/">Voivatko LLM:t kirjoittaa parempaa koodia, jos pyydät niitä jatkuvasti &quot;kirjoittamaan parempaa koodia&quot;?</a></h2>
+<ul>
+<li>Marraskuussa 2023 meemitrendi sisälsi käyttäjiä, jotka pyysivät ChatGPT:tä parantamaan kuvia iteratiivisesti, mikä sovellettiin sitten koodiin käyttämällä Claude 3.5 Sonnetia Python-ohjelman parantamiseksi. - Alkuperäiset yritykset epämääräisillä kehotteilla, kuten &quot;kirjoita parempaa koodia&quot;, osoittivat joitakin parannuksia, mutta rakenteellinen kehotteiden suunnittelu erityisillä optimointitavoitteilla johti merkittäviin suorituskyvyn parannuksiin. - Kokeilu korosti ihmisen valvonnan tärkeyttä, sillä vaikka suuret kielimallit (LLM) voivat tarjota innovatiivisia ideoita, ne voivat myös tuoda mukanaan hienovaraisia virheitä koodin optimoinnin aikana.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42584400">Reaktiot</a></h3>
+<ul>
+<li>Suuret kielimallit (LLM:t) tuottavat usein peruskoodia, koska ne on koulutettu lukuisten tutoriaalien avulla, ja ne saattavat jättää huomiotta yksinkertaisia optimointeja, jotka voisivat parantaa koodin suorituskykyä. - LLM:ien iteratiivinen ohjeistaminen koodin parantamiseksi voi tuottaa parempia tuloksia, mutta tämä prosessi voi olla yhtä aikaa vievää kuin manuaalinen koodaus. - Keskustelu korostaa LLM:ien rajoituksia monimutkaisten optimointien ymmärtämisessä ja tuo esiin kontekstin ja tarkkojen ohjeiden merkityksen koodin laadun parantamisessa.</li>
+</ul>
+<h2><a href="http://databasearchitects.blogspot.com/2024/12/advent-of-code-2024-in-pure-sql.html">Advent of Code 2024 pelkässä SQL:ssä</a></h2>
+<ul>
+<li>Thomas Neumann jakoi kokemuksensa Advent of Code 2024 -haasteiden ratkaisemisesta pelkällä SQL:llä, korostaen sitä vaihtoehtoisena ongelmanratkaisumenetelmänä. - Neumann suoritti kaikki haasteet onnistuneesti, vaikka hän huomautti SQL:n rajoituksista monimutkaisten algoritmien ja tilapäivitysten käsittelyssä, ehdottaen mahdollisia parannuksia SQL:n tehokkuuteen. - Blogikirjoitus sisältää yksityiskohtaisen SQL-ratkaisun yhteen haasteeseen ja käsittelee mahdollisuutta parantaa SQL:ää tukemaan paremmin monimutkaisten algoritmien suorittamista suoraan tietokannoissa.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42577736">Reaktiot</a></h3>
+<ul>
+<li>Advent of Code 2024 puhtaalla SQL:llä korostaa SQL:n kykyä käsitellä monimutkaisia haasteita, herättäen kiinnostusta sen suorituskykyyn ja loogiseen rakenteeseen.</li>
+<li>Keskustelu paljastaa erilaisia kokemuksia SQL:stä, aina tallennettujen proseduurien optimoinnista sen käyttöön liiketoimintalogiikassa, mikä tuo esiin sekä sen vahvuudet että haasteet.</li>
+<li>Keskustelu tutkii myös SQL-kaltaisten kielten potentiaalia sekä tasapainoa tietokantaloogikan ja sovelluskoodin välillä, heijastaen erilaisia mielipiteitä SQL:n roolista ohjelmistokehityksessä.</li>
+</ul>
+<h2><a href="https://www.tvtechnology.com/news/sixth-circuit-of-appeals-strikes-down-fccs-net-neutrality-rules">Yhdysvaltain vetoomustuomioistuin kumoaa FCC:n verkon neutraalisuussäännöt</a></h2>
+<ul>
+<li>Yhdysvaltain vetoomustuomioistuin on mitätöinyt FCC:n verkon neutraalisuussäännöt, jotka edellyttivät laajakaistapalveluntarjoajien kohtelevan internetliikennettä tasapuolisesti, vedoten FCC:n oikeudellisen toimivallan ylittämiseen.</li>
+<li>Ratkaisu viittaa korkeimman oikeuden päätökseen, joka rajoittaa sääntelyviranomaisten valtuuksia ja vaikuttaa FCC:n kykyyn valvoa verkon neutraaliutta.</li>
+<li>FCC:n puheenjohtaja Jessica Rosenworcel kehotti kongressia säätämään verkkoneutraliteetista, kun taas komissaari Brendan Carr tuki tuomioistuimen päätöstä sääntelyvallan ylityksen hillitsemiseksi.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42578237">Reaktiot</a></h3>
+<ul>
+<li>Yhdysvaltain vetoomustuomioistuin on mitätöinyt FCC:n verkon neutraalisuussäännöt, vedoten riittämättömään lailliseen valtuutukseen nykyisen lain puitteissa. - Päätös seuraa korkeimman oikeuden Chevron-deferenssin kumoamista, joka oli sallinut virastojen, kuten FCC:n, tulkita laajasti säädöksiä. - Tuomioistuin luokitteli laajakaistapalveluntarjoajat tarjoamaan &quot;informaatiopalvelua&quot;, ei &quot;telepalvelua&quot;, mikä rajoittaa FCC:n sääntelyvaltaa ja lopettaa liittovaltion verkon neutraalisuussäännöt, mikä saattaa mahdollistaa internet-palveluntarjoajien hidastaa tai priorisoida internetliikennettä.</li>
+</ul>
+<h2><a href="https://den.dev/blog/be-a-property-owner-not-a-renter-on-the-internet/">Ole internetissä omistaja, äläkä vuokralainen</a></h2>
+<ul>
+<li>Artikkeli korostaa oman digitaalisen tilan hallinnan tärkeyttä sen sijaan, että luottaisi pelkästään suuriin internet-alustoihin, jotka usein asettavat oman kasvunsa käyttäjien etujen edelle. - Strategioita verkkoläsnäolon hallinnan ylläpitämiseksi ovat esimerkiksi oman verkkotunnuksen omistaminen, sisällön monipuolistaminen useille alustoille ja suorien yhteyksien luominen yleisöihin sähköpostilistojen kautta. - Luomalla oman verkkosivuston varmistat joustavuuden ja kestävyyden digitaalisissa pyrkimyksissäsi, vähentäen riippuvuutta yhdestä verkostosta.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42581119">Reaktiot</a></h3>
+<ul>
+<li>Keskustelu korostaa oman digitaalisen läsnäolon hallinnan tärkeyttä sen sijaan, että luotettaisiin sosiaalisen median alustoihin, ja käsittelee huolia tekoälyn käyttäjien tuottaman sisällön hyväksikäytöstä. - Se tutkii tekijänoikeuksien, tekoälyn etiikan ja henkilökohtaisen verkkosivuston tai verkkotunnuksen merkityksen monimutkaisuutta paremman verkkodatan hallinnan kannalta. - Keskustelussa pohditaan myös itseisännöinnin käytännöllisyyttä ja rajoituksia, kun otetaan huomioon riippuvuus ulkoisista palveluista, kuten verkkotunnusrekistereistä ja hosting-palveluntarjoajista, ja kannustetaan suurempaan itsenäisyyteen oman verkkoläsnäolon hallinnassa.</li>
+</ul>
+<h2><a href="https://blogscroll.com/">BlogScroll – Avoin hakemisto henkilökohtaisille sivustoille ja blogeille</a></h2>
+<ul>
+<li>BlogScroll on avoin hakemisto henkilökohtaisille sivustoille ja blogeille, joka korostaa suurten teknologiayritysten ulkopuolisia digitaalisia tiloja, ja sitä ylläpitää Den Delimarsky GitHubissa. - Käyttäjät voivat osallistua BlogScrolliin GitHubin kautta tai lähettämällä sähköpostia luojalle, ja päivitykset ovat saatavilla RSS-syötteen kautta. - Hakemisto sisältää erilaisia kategorioita, kuten design-ja-ux, henkilökohtainen, valokuva-video-tuotanto ja teknologia, esitellen lukuisten yksilöiden panoksia.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42583086">Reaktiot</a></h3>
+<ul>
+<li>BlogScroll on avoin hakemisto henkilökohtaisille sivustoille ja blogeille, keskittyen digitaalisten puutarhojen jakamiseen, joita jotkut käyttäjät pitävät minkä tahansa henkilökohtaisen sivuston kaltaisina.</li>
+<li>GitHubissa isännöity BlogScroll on herättänyt keskustelua sen &quot;aidattu puutarha&quot; -luonteesta, ja siihen on ehdotettu OPML-vientiä ja skaalautuvuuden parannuksia.</li>
+<li>Projekti kannustaa lähettämään ehdotuksia listan laajentamiseksi, mikä heijastaa uudistunutta kiinnostusta henkilökohtaisiin verkkotiloihin ja haasteisiin itsenäisesti ylläpidetyn, kuratoidun sisällön hallinnassa verkossa.</li>
+</ul>
+<h2><a href="https://tavianator.com/2025/shlx.html">Anomalia Alder Lake SHLX</a></h2>
+<ul>
+<li>Harold Aptroot havaitsi, että Intelin Alder Lake -prosessoreiden SHLX-käskyssä on &quot;keskipitkä viive&quot; 3 sykliä, mikä on epätavallista vasemmalle siirtämiselle, joka yleensä vie 1 syklin. - Tämä viiveongelma on erityinen Alder Laken suorituskykyytimille eikä vaikuta tehokkuusytimiin, mikä on ristiriidassa Intelin väitteiden kanssa 1 syklin viiveestä. - Viive vaihtelee siirtolaskurin rekisterin alustuksen perusteella, ja 32-bittiset käskyt tai 64-bittiset käskyt ilman välittömiä saavuttavat 1 syklin viiveen, kun taas 64-bittiset käskyt välittömillä aiheuttavat 3 syklin viiveen.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42579969">Reaktiot</a></h3>
+<ul>
+<li>Alder Lake SHLX -anomalia on suorituskykyongelma, jossa tietyt ohjeet, kuten <code>mov rcx, 1</code>, aiheuttavat <code>SHLX</code>-ohjeen hitaamman suorittamisen, mahdollisesti johtuen rekisterin uudelleennimeäjän käsittelystä pienillä välittömillä arvoilla.</li>
+<li>Tämä poikkeama voi johtaa kolminkertaiseen hidastumiseen ja on haastava toistaa, koska kontekstinvaihdot voivat nollata rekisteritilan, mikä saattaa tahattomasti nopeuttaa koodia.</li>
+<li>Asia on äskettäin havaittu ja vaikuttaa ensisijaisesti siirtojen laskentaan, vaikuttaen ohjeisiin kuten <code>SHL</code>, mutta ei muihin kuten <code>ANDN</code>, eikä sitä yleensä oteta huomioon kääntäjissä.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Minä olen rikas enkä tiedä mitä tehdä" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Min%C3%A4%20olen%20rikas%20enk%C3%A4%20tied%C3%A4%20mit%C3%A4%20tehd%C3%A4&subheading=perjantaina%203.%20tammikuuta%202025%3A%20Hacker%20News%20yhteenveto" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/fi/2025/01/03</link>
+            <guid isPermaLink="false">2025-01-03T00:00:00.000Z</guid>
+            <pubDate>Fri, 03 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-02]]></title>
             <description
@@ -347,137 +434,6 @@
             <link>https://hn.cho.sh/fi/2024/12/25</link>
             <guid isPermaLink="false">2024-12-25T00:00:00.000Z</guid>
             <pubDate>Wed, 25 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-24]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/24&#39;</h2>
-<h1>2024-12-24</h1>
-<h2><a href="https://www.youtube.com/watch?v=JfZxOuc9Qwk">Mitähän tapahtui maailman suurimmalle putkitelevisiolle? [video]</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42497093">Reaktiot</a></h3>
-<ul>
-<li>Eräs YouTube-vaikuttaja pelasti maailman suurimman putkitelevision, harvinaisen Sony-mallin, tuholta siirtämällä sen Japanista Yhdysvaltoihin henkilökohtaiseen käyttöön. Päätös herätti keskustelua siitä, pitäisikö tällaiset ainutlaatuiset esineet säilyttää museoissa yksityisten kokoelmien sijaan. Tilanne korostaa harvinaisten esineiden säilyttämisen vaikeuksia sekä omistukseen ja kulttuuriperintöön liittyviä monimutkaisia kysymyksiä.</li>
-</ul>
-<h2><a href="https://mathstodon.xyz/@johncarlosbaez/113703444230936435">Numerolla pi on paha kaksonen</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42499567">Reaktiot</a></h3>
-<ul>
-<li>Lemniskata-vakio, merkittynä ϖ, liittyy ∞-muotoiseen lemniskata-käyrään ja on vastine luvulle pii.</li>
-<li>Keskusteluissa korostetaan sen mahdollisia sovelluksia tieteiskirjallisuudessa, sen kirjoitusasuja ja sen matemaattista merkitystä.</li>
-<li>Keskustelu tutkii myös kulttuurisia ja historiallisia vaikutteita kieleen ja matematiikkaan, erityisesti kreikkalaisia ja arabialaisia panoksia.</li>
-</ul>
-<h2><a href="https://events.ccc.de/congress/2024/infos/index.html">38. Chaos Communication Congress</a></h2>
-<ul>
-<li><ol start="38">
-<li>Chaos Communication Congress (38C3) on suunniteltu pidettäväksi Hampurissa 27.-30. joulukuuta 2024, ja sen järjestää Chaos Computer Club. Tämä vuosittainen tapahtuma korostaa teknologian, yhteiskunnan ja utopian leikkauspistettä, tarjoten luentoja, työpajoja ja keskusteluja teknologian vaikutuksista. Osallistujia kutsutaan mukaan vapaaehtoistyöhön, tapahtumien järjestämiseen tai projektien esittelyyn, ja keskeiset tiedot ovat saatavilla tapahtuman infosivuilla ja blogissa.</li>
-</ol>
-</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42500475">Reaktiot</a></h3>
-<ul>
-<li><ol start="38">
-<li>Chaos Communication Congress (CCC) herättää huomiota monipuolisilla puheenvuoroillaan tekoälystä, biologiasta ja sulautetuista järjestelmistä, korostaen erityisesti Joscha Bachin &quot;From Computation to Consciousness&quot; -sarjaa. Tapahtuma tunnetaan valtavirrasta poikkeavista keskusteluistaan ja se striimataan livenä, käsitellen haasteita kuten lippujen saatavuutta ja teknisten sekä yhteiskunnallisten aiheiden tasapainoa. CCC on keskeinen tapahtuma hakkeriyhteisölle, keskittyen avoimuuteen ja osallisuuteen, ja tutkii poliittisia ja kulttuurisia näkökulmia, mukaan lukien kielenkäyttö.</li>
-</ol>
-</li>
-</ul>
-<h2><a href="https://www.digikey.com/en/maker/projects/a-step-by-step-guide-to-build-a-low-cost-drone-using-esp32/8afccd0690574bcebfa0d2ad6fd0a391">Rakenna edullinen drone käyttämällä ESP32:ta</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42498648">Reaktiot</a></h3>
-<ul>
-<li>DIY-drone-ekosysteemi laajenee, kun edullisia komponentteja, kuten lennonohjausmikrokontrolleriyksiköitä (MCU), moottoriohjaimia ja kameroita, on saatavilla räätälöintiä varten.</li>
-<li>Avointen lähdekoodien ohjelmistot, kuten Betaflight ja ArduPilot, tukevat näitä tee-se-itse-rakennelmia tarjoten vaihtoehtoja suljetuille järjestelmille, kuten DJI:lle, vaikka ne ovatkin tällä hetkellä jäljessä joillakin osa-alueilla.</li>
-<li>ESP32-mikrokontrolleri on kustannustehokas vaihtoehto drone-projekteihin, sillä aloitustason kokoonpanot maksavat noin 500 dollaria, vaikka haasteita, kuten reaaliaikainen ohjaus WiFin kautta, esiintyy.</li>
-</ul>
-<h2><a href="https://blog.mlc.ai/2023/08/09/Making-AMD-GPUs-competitive-for-LLM-inference">AMD:n GPU:iden tekeminen kilpailukykyisiksi LLM-päätelmille (2023)</a></h2>
-<ul>
-<li>MLC-LLM helpottaa suurten kielimallien (LLM) kokoamista ja käyttöönottoa AMD:n GPU:illa ROCm:n avulla, saavuttaen suorituskyvyn, joka on lähellä NVIDIAn huippuluokan GPU:ita. AMD Radeon RX 7900 XTX tarjoaa kilpailukykyistä suorituskykyä, saavuttaen 80 % NVIDIAn RTX 4090:n nopeudesta ja 94 % RTX 3090 Ti:n nopeudesta tietyille malleille, ollen samalla huomattavasti edullisempi. Projekti korostaa AMD:n GPU:iden potentiaalia LLM-päätelaskennassa, ja ohjelmistotuen jatkuvat parannukset sekä tulevaisuuden kehityssuunnitelmat, kuten eräajon ja monen GPU:n tuen lisääminen, ovat käynnissä.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42498634">Reaktiot</a></h3>
-<ul>
-<li>AMD:n kuluttajille suunnatut näytönohjaimet, kuten RX7900XTX, eroavat arkkitehtuuriltaan datakeskusten näytönohjaimista, kuten MI300X, mikä vaikuttaa suorituskykyyn. On kasvava pyrkimys integroida AMD:n CDNA-arkkitehtuuri ja HIP (Heterogeneous-compute Interface for Portability) -tuki syväoppimisalustoihin, tavoitteena haastaa Nvidian hallitseva asema tekoälytehtävissä. Huolimatta lisääntyneestä kiinnostuksesta, haasteet, kuten ohjelmistotuki ja suorituskyvyn johdonmukaisuus, jatkuvat, mikä saa jotkut kehittäjät palaamaan Nvidian pariin, jolla on merkittävä etu CUDA (Compute Unified Device Architecture) -alustansa ansiosta.</li>
-</ul>
-<h2><a href="https://seangeiger.substack.com/p/why-are-cancer-guidelines-stuck-in">Miksi syöpäohjeet ovat jumissa PDF-tiedostoissa?</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42498462">Reaktiot</a></h3>
-<ul>
-<li>Syöpäohjeet tallennetaan usein PDF-muodossa niiden kestävyyden ja siirrettävyyden vuoksi, huolimatta käytettävyyden ja lääketieteellisten järjestelmien integroinnin rajoituksista. Siirtyminen jäsenneltyyn dataan voisi parantaa käytettävyyttä, mutta haasteina ovat lääketieteellisen tiedon monimutkaisuus, standardoinnin puute ja sääntelyesteet. Keskustelu keskittyy PDF-tiedostojen luotettavuuden tasapainottamiseen dynaamisten, koneellisesti tulkittavien ratkaisujen mahdollisten etujen kanssa, ottaen huomioon tarve jatkuville päivityksille ja virheiden hallinnalle automatisoiduissa järjestelmissä.</li>
-</ul>
-<h2><a href="https://github.com/isledecomp/isle">Legosaari-pelin täydellinen purkaminen</a></h2>
-<ul>
-<li>Projekti sisältää LEGO Islandin (Versio 1.1, Englanti) täydellisen dekompilaation, pyrkien jäljittelemään alkuperäistä konekoodia mahdollisimman tarkasti.</li>
-<li>Se käyttää CMakea rakentamiseen, ja Microsoft Visual C++ 4.20 on suositeltu optimaalisten tulosten saavuttamiseksi. Prosessi sisältää ympäristön asettamisen, konfiguroinnin CMakea käyttäen ja rakentamisen nmake-ohjelmalla.</li>
-<li>Kannustetaan osallistumaan erityisesti version 1.1 englanninkieliseen julkaisuun, jatkuvasti parantaen dekompiloituja ISLE.EXE- ja LEGO1.DLL-tiedostoja.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42497173">Reaktiot</a></h3>
-<ul>
-<li>GitHub-projekti on onnistuneesti purkanut klassisen Lego Island -pelin, parantaen aiempia yrityksiä korjata alkuperäisen pelin virheitä. - MattKC, teknisestä sisällöstä tunnettu YouTuber, oli merkittävässä roolissa tässä purkuprojektissa, joka painottaa tarkkuutta ja sisältää työkaluja, kuten lint-työkalun ja resurssieditorin. - Projekti on herättänyt kiinnostusta vanhojen LEGO-pelien uudelleenluomiseen, ja fanit ovat ilmaisseet nostalgiaa sellaisista nimikkeistä kuin Rock Raiders ja Lego Loco, korostaen yhteisön arvostusta näiden klassisten pelien säilyttämiselle ja parantamiselle.</li>
-</ul>
-<h2><a href="https://www.cfodive.com/news/intel-shareholders-yank-exceo-cfo-compensation-foundry/736193/">Intel-osakkeenomistajat nostavat kanteen, jossa vaaditaan entistä toimitusjohtajaa ja talousjohtajaa palauttamaan kolmen vuoden palkka</a></h2>
-<ul>
-<li>Intel-osakkeenomistajat vaativat entisen toimitusjohtajan Pat Gelsingerin ja talousjohtajan David Zinsnerin palkkioiden palauttamista, syyttäen heitä osakkeenomistajien harhaanjohtamisesta Intelin valimoyksikön taloudellisesta suorituskyvystä.</li>
-<li>Kanne väittää uskottamustehtävien rikkomista, kun Intelin epäonnistunut käännesuunnitelma ja ennätyksellinen 16,6 miljardin dollarin neljännesvuosittainen tappio johtivat Intelin osakkeiden 9,2 %:n laskuun.</li>
-<li>Valimoyksikön, jonka alun perin odotettiin olevan kasvun veturi, todettiin myöhemmin olevan merkittävä kustannuskeskus, mikä johti Zinsnerin, joka on nyt väliaikainen toimitusjohtaja, toteuttamaan uudelleenjärjestelytoimia, kun Gelsinger on eronnut.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42500482">Reaktiot</a></h3>
-<ul>
-<li>Intel-osakkeenomistajat ovat nostaneet kanteen entistä toimitusjohtajaa ja talousjohtajaa vastaan, vaatien kolmen vuoden palkan palauttamista epäonnistuneen liiketoimintasuunnitelman vuoksi.</li>
-<li>Kriitikot väittävät, että kanne on perusteeton, sillä johtajat olivat tunnustaneet Intelin Foundry-yksikön kohtaamat haasteet.</li>
-<li>Oikeusjuttu korostaa jännitteitä osakkeenomistajien ja yritysjohdon välillä, ja jotkut pitävät sitä turhana toimena, jonka motiivina on taloudellinen hyöty.</li>
-</ul>
-<h2><a href="https://twitter.com/spatiallyjess/status/1871342549958537326">Tokio julkaisi koko kaupungin pistepilviaineiston ilmaiseksi</a></h2>
-<ul>
-<li>Tokio on tehnyt koko kaupungin pistepilviaineiston saataville ilmaiseksi, mahdollistaen julkisen latauksen.</li>
-<li>Pointtipilvidata on kokoelma datapisteitä avaruudessa, ja sitä käytetään usein 3D-mallinnuksessa ja paikkatietojärjestelmissä (GIS).</li>
-<li>Tämä julkaisu on merkittävä, sillä se tarjoaa arvokkaita resursseja kehittäjille, tutkijoille ja kaupunkisuunnittelijoille, jotka ovat kiinnostuneita Tokion 3D-mallinnuksesta ja spatiaalista analyysistä.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42501102">Reaktiot</a></h3>
-<ul>
-<li>Tokio on tehnyt saataville koko kaupungin ilmaiset pistepilviaineistot, mikä mahdollistaa interaktiivisen 3D-navigoinnin ja -tutkimisen. Tämä aloite on samanlainen kuin Sveitsissä ja Ranskassa, joissa on julkaistu yksityiskohtaisia 3D-malleja ja lidar-aineistoja. Nämä tietoaineistot ovat erityisen arvokkaita sovelluksissa, kuten tietokoneella luotu kuvamateriaali (CGI), videopeleissä ja muissa 3D-teknologioissa.</li>
-</ul>
-<h2><a href="https://www.rfleury.com/p/demystifying-debuggers-part-2-the">Debuggereiden salojen paljastaminen, Osa 2: Käynnissä olevan ohjelman anatomia</a></h2>
-<ul>
-<li>Artikkeli &quot;Demystifying Debuggers, Part 2: The Anatomy Of A Running Program&quot; selittää ohjelman suoritukseen liittyviä komponentteja, kuten virtuaaliset osoiteavaruudet, säikeet ja prosessit. Se kuvaa, kuinka käyttöjärjestelmät käyttävät virtuaalimuistia ja ajastusta hallitakseen useiden ohjelmien samanaikaista suorittamista. Kirjoitus on osa sarjaa, joka keskittyy selittämään, kuinka virheenkorjaimet ovat vuorovaikutuksessa näiden prosessien kanssa analysoidakseen ohjelman suoritusta.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42498982">Reaktiot</a></h3>
-<ul>
-<li>Virheenkorjaustyökalut ovat olennaisia käynnissä olevien ohjelmien analysoinnissa, ja niiden integrointi suurten kielimallien (LLM) kanssa voisi mahdollisesti parantaa niiden toiminnallisuutta.</li>
-<li>On kehittäjien keskuudessa käynnissä keskustelu LLM:ien potentiaalista virheenkorjauksessa; jotkut ovat optimistisia niiden virheiden jäljityskyvystä, kun taas toiset epäilevät niiden nykyistä tehokkuutta.</li>
-<li>Keskustelu korostaa erilaisia näkökulmia virheenkorjauskäytännöistä ja LLM:ien kehittyvää roolia ohjelmistokehityksessä.</li>
-</ul>
-<h2><a href="https://sakana.ai/asal/">Keinotekoisen elämän etsinnän automatisointi perustavamallien avulla</a></h2>
-<ul>
-<li>Automaattinen tekoälyelämän etsintä (ASAL) -algoritmi hyödyntää tekoälyn näkö-kieliperustaisia malleja löytääkseen tekoälyelämänmuotoja simulaatioissa, edistäen tekoälyelämän (ALife) tutkimusta. ASAL on onnistuneesti tunnistanut uusia elämänmuotoja simulaatioissa, kuten Lenia, Boids, Particle Life ja Game of Life, esitellen dynaamisia kuvioita ja uusia solulaskentasääntöjä. Tämä lähestymistapa automatisoi löytöprosessin, voittaen manuaalisesti suunniteltujen simulaatioiden rajoitukset, ja kannustaa jatkotutkimuksiin ja yhteistyöhön ALife-konseptien integroimiseksi tekoälyyn, jotta saadaan aikaan mukautuvampia ja luovempia järjestelmiä.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42499332">Reaktiot</a></h3>
-<ul>
-<li>Perusmallien integrointi keinotekoisen elämän (ALife) etsinnän automatisointiin on nousemassa kiinnostuksen kohteeksi, korostaen eroa tekoälyn (AI) ja ALifen välillä. - &quot;The Self-Assembling Brain&quot; on kirja, joka tarkastelee älykkyyttä useista näkökulmista ja edistää käynnissä olevaa keskustelua. - Sakana AI, yritys, jonka perustivat vaikutusvaltaisen &quot;Attention Is All You Need&quot; -paperin kirjoittajat, keskittyy tekoälyn kaupallistamiseen, jota tukevat riskipääomasijoitukset, ja on mukana keskusteluissa tekoälyn roolista Maan ulkopuolisen älyn etsinnän (SETI) datan analysoinnissa.</li>
-</ul>
-<h2><a href="https://onlinelibrary.wiley.com/doi/10.1002/spe.3296">Miljoonien URL-osoitteiden jäsentäminen sekunnissa (2023)</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42498514">Reaktiot</a></h3>
-<ul>
-<li>Keskustelu keskittyy haasteisiin, jotka liittyvät miljoonien URL-osoitteiden jäsentämiseen sekunnissa, erityisesti URL-normalisoinnin ja jäsentämisvirheiden ongelmiin.</li>
-<li>On keskustelua siitä, onko tarpeellista muuttaa &quot;http://&quot; muotoon &quot;https://&quot; ja HTTPS:n luotettavuudesta, ja jotkut suhtautuvat skeptisesti parserin suorituskykyväitteisiin.</li>
-<li>Osallistujat keskustelevat myös tehokkaiden jäsentimien kirjoittamisen vaikeuksista, säännöllisten lausekkeiden (regex) käytön rajoituksista URL-osoitteiden jäsentämisessä ja erilaisten URL-määritysten noudattamisen monimutkaisuudesta.</li>
-</ul>
-<h2><a href="https://www.theguardian.com/travel/2024/dec/24/paris-to-berlin-by-train-faster-service-via-strasbourg">Pariisista Berliiniin junalla on nyt viisi tuntia nopeampi matka.</a></h2>
-<ul>
-<li>Deutsche Bahn ja SNCF ovat lanseeranneet uuden suoran päiväjunayhteyden Pariisista Berliiniin, mikä lyhentää matka-aikaa viidellä tunnilla 7 tuntiin ja 59 minuuttiin.</li>
-<li>Reitti sisältää maisemallisia näkymiä ja pysähdyksiä Strasbourgissa, Karlsruhessa ja Frankfurtissa, ja lippujen hinnat alkavat 59,99 eurosta toisen luokan matkustajille.</li>
-<li>Vaikka palvelu tarjoaa rennomman matkustuskokemuksen, jotkut väittävät, että sen on oltava nopeampi kilpaillakseen tehokkaasti lentomatkustuksen kanssa.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42500704">Reaktiot</a></h3>
-<ul>
-<li>Uusi suora junayhteys Pariisin ja Berliinin välillä lyhentää matkustusaikaa viidellä tunnilla, tarjoten rennomman matkan verrattuna lentomatkustamiseen.</li>
-<li>Junat ovat ympäristöystävällisiä, sillä ne tuottavat vähemmän CO2-päästöjä, mutta vaativat huomattavia infrastruktuuri-investointeja.</li>
-<li>Vaikka junamatkailu voi olla kalliimpaa ja vähemmän joustavaa kuin lentäminen, monet matkustajat suosivat sitä mukavuuden ja kätevyyden vuoksi.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Mitähän tapahtui maailman suurimmalle putkitelevisiolle? [video]" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Mit%C3%A4h%C3%A4n%20tapahtui%20maailman%20suurimmalle%20putkitelevisiolle%3F%20%5Bvideo%5D&subheading=tiistaina%2024.%20joulukuuta%202024%3A%20Hacker%20News%20yhteenveto" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/fi/2024/12/24</link>
-            <guid isPermaLink="false">2024-12-24T00:00:00.000Z</guid>
-            <pubDate>Tue, 24 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

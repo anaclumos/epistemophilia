@@ -1,0 +1,154 @@
+[
+  {
+    "id": 42579873,
+    "title": "„Jsem bohatý a nemám tušení, co dělat.“",
+    "originLink": "https://vinay.sh/i-am-rich-and-have-no-idea-what-to-do-with-my-life/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579873",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "„Příspěvek se zabývá běžným problémem hledání smyslu po dosažení finančního úspěchu, což může vést k pocitům rozčarování a izolace. - Navrhuje, že naplnění lze nalézt v rozvoji ostatních, budování vztahů nebo sledování nových zájmů, přičemž zdůrazňuje důležitost smyslu nad rámec finančního bohatství. - Diskuse také poukazuje na výzvy udržování vztahů, když bohatství vytváří sociální propast, a zdůrazňuje potřebu smysluplných aktivit a spojení k podpoře pocitu sounáležitosti.“"
+    ],
+    "points": 793,
+    "commentCount": 1375,
+    "retryCount": 0,
+    "time": 1735858215
+  },
+  {
+    "id": 42579472,
+    "title": "„Kritické bezpečnostní vydání iTerm2“",
+    "originLink": "https://iterm2.com/downloads/stable/iTerm2-3_5_11.changelog",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579472",
+    "commentBody": "",
+    "originSummary": [
+      "„iTerm2 verze 3.5.11, vydaná 2. ledna 2025, řeší kritickou bezpečnostní zranitelnost související s funkcí integrace SSH v předchozích verzích. - Chyba zahrnovala zaznamenávání vstupu/výstupu do souboru na vzdáleném hostiteli, ke kterému mohli mít přístup ostatní, což ovlivnilo uživatele verzí 3.5.6 až 3.5.10 a některé beta verze. - Uživatelům se doporučuje okamžitě aktualizovat na verzi 3.5.11, smazat soubor /tmp/framer.txt a ověřit aktualizaci pomocí poskytnutého SHA-256 a PGP podpisu pro zajištění bezpečnosti.“"
+    ],
+    "commentSummary": [
+      "„iTerm2 vydal kritickou bezpečnostní aktualizaci k řešení chyby v integraci SSH, která zaznamenávala vstup a výstup do souboru na vzdáleném hostiteli, což mohlo potenciálně vystavit data ostatním uživatelům.“",
+      "„Problém byl způsoben tím, že bylo omylem povoleno podrobné logování v produkci, což vyvolalo diskuse o důležitosti pre-commit hooků a opatření k zabránění podobných chyb.“",
+      "„Incident vyvolal debatu o přechodu na alternativy jako Ghostty nebo Terminal.app, přičemž také zdůraznil rovnováhu mezi softwarovými funkcemi a bezpečnostními riziky.“"
+    ],
+    "points": 647,
+    "commentCount": 412,
+    "retryCount": 0,
+    "time": 1735855722
+  },
+  {
+    "id": 42584400,
+    "title": "„Mohou LLM psát lepší kód, pokud je neustále žádáte, aby „psaly lepší kód“?“",
+    "originLink": "https://minimaxir.com/2025/01/write-better-code/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42584400",
+    "commentBody": "",
+    "originSummary": [
+      "„V listopadu 2023 se stal trendem meme, kdy uživatelé žádali ChatGPT, aby iterativně vylepšoval obrázky, což bylo následně aplikováno na kód pomocí Claude 3.5 Sonnet k vylepšení programu v Pythonu. - Počáteční pokusy s vágními pokyny jako „napiš lepší kód“ ukázaly určité zlepšení, ale strukturované navrhování pokynů s konkrétními cíli optimalizace vedlo k významným zlepšením výkonu. - Experiment zdůraznil důležitost lidského dohledu, protože zatímco velké jazykové modely (LLM) mohou nabízet inovativní nápady, mohou také při optimalizaci kódu zavádět jemné chyby.“"
+    ],
+    "commentSummary": [
+      "„Velké jazykové modely (LLM) často generují základní kód kvůli svému tréninku na mnoha tutoriálech, což může vést k opomenutí jednoduchých optimalizací, které by mohly zlepšit výkon kódu. - Iterativní zadávání pokynů LLM pro zlepšení kódu může přinést lepší výsledky, ale tento proces může být stejně časově náročný jako ruční kódování. - Diskuse zdůrazňuje omezení LLM v pochopení složitých optimalizací a poukazuje na důležitost poskytování kontextu a specifických instrukcí pro zlepšení kvality kódu.“"
+    ],
+    "points": 453,
+    "commentCount": 271,
+    "retryCount": 0,
+    "time": 1735900244
+  },
+  {
+    "id": 42577736,
+    "title": "„Advent of Code 2024 v čistém SQL“",
+    "originLink": "http://databasearchitects.blogspot.com/2024/12/advent-of-code-2024-in-pure-sql.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42577736",
+    "commentBody": "",
+    "originSummary": [
+      "„Thomas Neumann sdílel svou zkušenost s řešením výzev Advent of Code 2024 pomocí čistého SQL, což zdůraznil jako cvičení v alternativních přístupech k řešení problémů. - Neumann úspěšně dokončil všechny výzvy, ačkoli poznamenal omezení SQL při zpracování složitých algoritmů a aktualizací stavu, a navrhl možná vylepšení pro zvýšení efektivity SQL. - Blogový příspěvek obsahuje podrobné SQL řešení pro jednu výzvu a diskutuje možnost vylepšení SQL pro lepší podporu provádění složitých algoritmů přímo v databázích.“"
+    ],
+    "commentSummary": [
+      "„Advent of Code 2024 v čistém SQL zdůrazňuje schopnost SQL řešit složité úkoly, což vyvolává zájem o jeho výkon a logickou strukturu.“",
+      "„Diskuse odhaluje různé zkušenosti s SQL, od optimalizace uložených procedur po jeho použití pro obchodní logiku, což ukazuje jak jeho silné stránky, tak i výzvy.“",
+      "„Konverzace také zkoumá potenciál jazyků podobných SQL a rovnováhu mezi logikou databáze a aplikačním kódem, což odráží různé názory na roli SQL ve vývoji softwaru.“"
+    ],
+    "points": 431,
+    "commentCount": 97,
+    "retryCount": 0,
+    "time": 1735845650
+  },
+  {
+    "id": 42578237,
+    "title": "„Odvolací soud USA zrušil pravidla FCC o síťové neutralitě“",
+    "originLink": "https://www.tvtechnology.com/news/sixth-circuit-of-appeals-strikes-down-fccs-net-neutrality-rules",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42578237",
+    "commentBody": "",
+    "originSummary": [
+      "„Odvolací soud USA zneplatnil pravidla síťové neutrality FCC, která nařizovala rovné zacházení s internetovým provozem poskytovateli širokopásmového připojení, s odvoláním na překročení právní pravomoci FCC.“",
+      "„Rozhodnutí odkazuje na rozsudek Nejvyššího soudu, který omezuje pravomoci regulačních agentur, což ovlivňuje schopnost FCC prosazovat síťovou neutralitu.“",
+      "„Předsedkyně FCC Jessica Rosenworcel vyzvala Kongres, aby přijal zákon o síťové neutralitě, zatímco komisař Brendan Carr podpořil rozhodnutí soudu jako kontrolu nadměrné regulace.“"
+    ],
+    "commentSummary": [
+      "„Odvolací soud USA zneplatnil pravidla FCC o síťové neutralitě s odvoláním na nedostatečnou právní autoritu podle současného práva. - Rozhodnutí následuje po zrušení Chevron deference Nejvyšším soudem, které umožňovalo agenturám jako FCC široce interpretovat zákony. - Soud klasifikoval poskytovatele širokopásmového připojení jako poskytovatele „informační služby“, nikoli „telekomunikační služby“, čímž omezil regulační pravomoc FCC a ukončil federální pravidla síťové neutrality, což potenciálně umožňuje ISP omezovat nebo upřednostňovat internetový provoz.“"
+    ],
+    "points": 356,
+    "commentCount": 302,
+    "retryCount": 0,
+    "time": 1735848335
+  },
+  {
+    "id": 42581119,
+    "title": "„Buďte vlastníkem nemovitosti a ne nájemcem na internetu“",
+    "originLink": "https://den.dev/blog/be-a-property-owner-not-a-renter-on-the-internet/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42581119",
+    "commentBody": "",
+    "originSummary": [
+      "„Článek zdůrazňuje důležitost vlastnictví vašeho digitálního prostoru namísto spoléhání se výhradně na hlavní internetové platformy, které často upřednostňují svůj růst před zájmy uživatelů. - Strategie pro udržení kontroly nad vaší online přítomností zahrnují vlastnictví domény, diverzifikaci obsahu na více platformách a budování přímých spojení s publikem prostřednictvím e-mailových seznamů. - Vytvořením vlastního webového prostoru zajišťujete flexibilitu a odolnost ve svých digitálních aktivitách, čímž snižujete závislost na jakékoli jediné síti.“"
+    ],
+    "commentSummary": [
+      "„Diskuse zdůrazňuje důležitost vlastnictví vlastní digitální přítomnosti namísto spoléhání se na platformy sociálních médií, přičemž se zabývá obavami z toho, že AI využívá obsah generovaný uživateli. - Zkoumá složitosti autorských práv, etiku AI a význam osobního webu nebo domény pro lepší kontrolu nad online daty. - Rozhovor také zvažuje praktičnost a omezení vlastního hostování, vzhledem k závislosti na externích službách, jako jsou registrátoři domén a poskytovatelé hostingu, a prosazuje větší nezávislost při správě vlastní online přítomnosti.“"
+    ],
+    "points": 295,
+    "commentCount": 211,
+    "retryCount": 0,
+    "time": 1735867317
+  },
+  {
+    "id": 42583086,
+    "title": "„BlogScroll – Otevřený adresář osobních stránek a blogů“",
+    "originLink": "https://blogscroll.com/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42583086",
+    "commentBody": "",
+    "originSummary": [
+      "„BlogScroll je otevřený adresář osobních stránek a blogů, který klade důraz na digitální prostory mimo velké technologické společnosti, a je udržován na GitHubu Denem Delimarským. - Uživatelé mohou přispívat do BlogScroll prostřednictvím GitHubu nebo zasláním e-mailu tvůrci a aktualizace jsou dostupné prostřednictvím RSS kanálu. - Adresář zahrnuje různé kategorie, jako jsou design-a-ux, osobní, foto-video-produkce a technologie, a představuje příspěvky od mnoha jednotlivců.“"
+    ],
+    "commentSummary": [
+      "„BlogScroll je otevřený adresář pro osobní stránky a blogy, zaměřující se na sdílení digitálních zahrad, které jsou některými uživateli považovány za jakékoli osobní stránky.“",
+      "„Hostovaný na GitHubu, BlogScroll vyvolal diskuse o své povaze „uzavřené zahrady“, s návrhy na export OPML a zlepšení škálovatelnosti.“",
+      "„Projekt podporuje příspěvky k rozšíření svého seznamu, což odráží obnovený zájem o osobní webové prostory a výzvy spojené s udržováním nezávislého, kurátorského obsahu online.“"
+    ],
+    "points": 262,
+    "commentCount": 70,
+    "retryCount": 0,
+    "time": 1735885431
+  },
+  {
+    "id": 42579969,
+    "title": "„Anomálie Alder Lake SHLX“",
+    "originLink": "https://tavianator.com/2025/shlx.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579969",
+    "commentBody": "",
+    "originSummary": [
+      "„Harold Aptroot zjistil, že instrukce SHLX na procesorech Intel Alder Lake vykazuje „střední latenci“ 3 cykly, což je netypické pro operace posunu doleva, které obvykle trvají 1 cyklus. - Tento problém s latencí je specifický pro výkonnostní jádra Alder Lake a neovlivňuje efektivní jádra, což je v rozporu s tvrzeními Intelu o latenci 1 cyklu. - Latence se liší v závislosti na inicializaci registru počtu posunů, přičemž 32bitové instrukce nebo 64bitové instrukce bez okamžitých hodnot dosahují latence 1 cyklu, zatímco 64bitové instrukce s okamžitými hodnotami vedou k latenci 3 cykly.“"
+    ],
+    "commentSummary": [
+      "„Anomálie Alder Lake SHLX je problém s výkonem, kdy specifické instrukce, jako například `mov rcx, 1`, způsobují, že instrukce `SHLX` se vykonává pomaleji, pravděpodobně kvůli způsobu, jakým registr renamer zpracovává malé bezprostřední hodnoty.“",
+      "„Tato anomálie může vést ke zpomalení až 3x a je obtížné ji reprodukovat, protože přepínání kontextu může resetovat stav registru, což neúmyslně zrychluje kód.“",
+      "„Problém je nově objevený a primárně ovlivňuje počty posunů, což má dopad na instrukce jako `SHL`, ale ne na jiné jako `ANDN`, a obvykle není zohledňován kompilátory.“"
+    ],
+    "points": 194,
+    "commentCount": 68,
+    "retryCount": 0,
+    "time": 1735858848
+  }
+]

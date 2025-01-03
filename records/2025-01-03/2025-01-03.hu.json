@@ -1,0 +1,154 @@
+[
+  {
+    "id": 42579873,
+    "title": "„Gazdag vagyok, és fogalmam sincs, mit tegyek.”",
+    "originLink": "https://vinay.sh/i-am-rich-and-have-no-idea-what-to-do-with-my-life/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579873",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "„A bejegyzés a pénzügyi siker elérése utáni célkeresés közös küzdelméről szól, amely kiábrándultsághoz és elszigeteltséghez vezethet. - Azt javasolja, hogy a beteljesülés mások fejlesztésében, kapcsolatok építésében vagy új érdeklődési körök követésében található meg, hangsúlyozva a pénzügyi gazdagságon túli cél fontosságát. - A vita kiemeli a kapcsolatok fenntartásának kihívásait is, amikor a gazdagság társadalmi szakadékot teremt, aláhúzva a jelentőségteljes tevékenységek és kapcsolatok szükségességét a hovatartozás érzésének elősegítésére.”"
+    ],
+    "points": 793,
+    "commentCount": 1375,
+    "retryCount": 0,
+    "time": 1735858215
+  },
+  {
+    "id": 42579472,
+    "title": "„iTerm2 kritikus biztonsági kiadás”",
+    "originLink": "https://iterm2.com/downloads/stable/iTerm2-3_5_11.changelog",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579472",
+    "commentBody": "",
+    "originSummary": [
+      "„Az iTerm2 3.5.11-es verziója, amelyet 2025. január 2-án adtak ki, egy kritikus biztonsági sebezhetőséget orvosol, amely az SSH integrációs funkcióval kapcsolatos a korábbi verziókban. - A hiba az input/output naplózását érintette egy fájlba a távoli gazdagépen, amelyhez mások is hozzáférhettek, és a 3.5.6-tól 3.5.10-ig terjedő verziók, valamint bizonyos béta verziók felhasználóit érintette. - A felhasználóknak javasolt azonnal frissíteni a 3.5.11-es verzióra, törölni a /tmp/framer.txt fájlt, és ellenőrizni a frissítést a megadott SHA-256 és PGP aláírás segítségével a biztonság garantálása érdekében.”"
+    ],
+    "commentSummary": [
+      "„Az iTerm2 kiadott egy kritikus biztonsági frissítést, hogy kezelje az SSH integrációjában található hibát, amely a bemenetet és a kimenetet egy fájlba naplózta a távoli gazdagépen, potenciálisan kitéve az adatokat más felhasználók számára.”",
+      "„A probléma az okozta, hogy a részletes naplózás véletlenül engedélyezve lett a termelési környezetben, ami vitákat indított a pre-commit hookok és védelmi intézkedések fontosságáról, hogy elkerüljük a hasonló hibákat.”",
+      "„Az incidens vitát váltott ki arról, hogy érdemes-e áttérni olyan alternatívákra, mint a Ghostty vagy a Terminal.app, miközben rávilágított a funkciókban gazdag szoftverek és a biztonsági kockázatok közötti egyensúly fontosságára.”"
+    ],
+    "points": 647,
+    "commentCount": 412,
+    "retryCount": 0,
+    "time": 1735855722
+  },
+  {
+    "id": 42584400,
+    "title": "„Írhatnak-e az LLM-ek jobb kódot, ha folyamatosan arra kérjük őket, hogy „írjanak jobb kódot”?”",
+    "originLink": "https://minimaxir.com/2025/01/write-better-code/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42584400",
+    "commentBody": "",
+    "originSummary": [
+      "„2023 novemberében egy mémtrend során a felhasználók arra kérték a ChatGPT-t, hogy iteratívan javítsa a képeket, amit aztán a Claude 3.5 Sonnet segítségével a kódra is alkalmaztak egy Python program fejlesztése érdekében. - Az első próbálkozások homályos utasításokkal, mint például „írj jobb kódot”, némi javulást mutattak, de a strukturált prompttervezés konkrét optimalizálási célokkal jelentős teljesítményjavuláshoz vezetett. - A kísérlet hangsúlyozta az emberi felügyelet fontosságát, mivel bár a Nagy Nyelvi Modellek (LLM-ek) innovatív ötleteket kínálhatnak, a kód optimalizálása során finom hibákat is bevezethetnek.”"
+    ],
+    "commentSummary": [
+      "„A Nagy Nyelvi Modellek (LLM-ek) gyakran generálnak alapvető kódot, mivel számos oktatóanyagon képezték őket, ami miatt esetleg kihagyhatnak egyszerű optimalizálásokat, amelyek javíthatnák a kód teljesítményét. - Az LLM-ek iteratív ösztönzése a kód javítására jobb eredményeket hozhat, de ez a folyamat ugyanolyan időigényes lehet, mint a kézi kódolás. - A vita rávilágít az LLM-ek korlátaira a komplex optimalizálások megértésében, és hangsúlyozza a kontextus és a konkrét utasítások fontosságát a kódminőség javítása érdekében.”"
+    ],
+    "points": 453,
+    "commentCount": 271,
+    "retryCount": 0,
+    "time": 1735900244
+  },
+  {
+    "id": 42577736,
+    "title": "„Advent of Code 2024 tisztán SQL-ben”",
+    "originLink": "http://databasearchitects.blogspot.com/2024/12/advent-of-code-2024-in-pure-sql.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42577736",
+    "commentBody": "",
+    "originSummary": [
+      "„Thomas Neumann megosztotta tapasztalatait az Advent of Code 2024 kihívások megoldásáról tisztán SQL használatával, kiemelve ezt mint egy alternatív problémamegoldási megközelítést. - Neumann sikeresen teljesítette az összes kihívást, bár megjegyezte, hogy az SQL korlátokba ütközik a komplex algoritmusok és állapotfrissítések kezelésében, javasolva a SQL hatékonyságának esetleges javításait. - A blogbejegyzés tartalmaz egy részletes SQL megoldást egy kihívásra, és tárgyalja annak lehetőségét, hogy az SQL-t hogyan lehetne fejleszteni a komplex algoritmusok közvetlen adatbázisokon belüli végrehajtásának jobb támogatása érdekében.”"
+    ],
+    "commentSummary": [
+      "„A 2024-es Advent of Code tisztán SQL-ben kiemeli az SQL képességét a komplex kihívások kezelésére, felkeltve az érdeklődést annak teljesítménye és logikai struktúrája iránt.”",
+      "„A beszélgetés különböző tapasztalatokat tár fel az SQL-lel kapcsolatban, az eljárások optimalizálásától kezdve az üzleti logika alkalmazásáig, bemutatva mind az erősségeit, mind a kihívásait.”",
+      "„A beszélgetés azt is vizsgálja, hogy milyen lehetőségeket rejtenek magukban az SQL-szerű nyelvek, valamint az adatbázis logika és az alkalmazáskód közötti egyensúlyt, tükrözve a különböző véleményeket az SQL szerepéről a szoftverfejlesztésben.”"
+    ],
+    "points": 431,
+    "commentCount": 97,
+    "retryCount": 0,
+    "time": 1735845650
+  },
+  {
+    "id": 42578237,
+    "title": "„Az Egyesült Államok fellebbviteli bírósága hatályon kívül helyezte az FCC netsemlegességi szabályait”",
+    "originLink": "https://www.tvtechnology.com/news/sixth-circuit-of-appeals-strikes-down-fccs-net-neutrality-rules",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42578237",
+    "commentBody": "",
+    "originSummary": [
+      "„Egy amerikai fellebbviteli bíróság érvénytelenítette az FCC hálózatsemlegességi szabályait, amelyek előírták az internetes forgalom egyenlő kezelését a szélessávú szolgáltatók által, azzal az indokkal, hogy az FCC túllépte jogi hatáskörét.”",
+      "„A döntés hivatkozik egy Legfelsőbb Bírósági határozatra, amely korlátozza a szabályozó ügynökségek hatáskörét, befolyásolva az FCC képességét a netsemlegesség érvényesítésére.”",
+      "„Az FCC elnöke, Jessica Rosenworcel felszólította a Kongresszust, hogy alkosson törvényt a netsemlegességről, míg Brendan Carr biztos támogatta a bíróság döntését, mint a szabályozási túlkapások elleni ellenőrzést.”"
+    ],
+    "commentSummary": [
+      "„Egy amerikai fellebbviteli bíróság érvénytelenítette az FCC hálózatsemlegességi szabályait, mivel a jelenlegi törvények alapján nem rendelkezik elegendő jogi felhatalmazással. - A döntés a Chevron deference legfelsőbb bírósági megsemmisítését követi, amely lehetővé tette az olyan ügynökségek számára, mint az FCC, hogy széles körben értelmezzék a törvényeket. - A bíróság a szélessávú szolgáltatókat \"információs szolgáltatás\" nyújtóként, nem pedig \"távközlési szolgáltatás\" nyújtóként osztályozta, így korlátozva az FCC szabályozási hatalmát és megszüntetve a szövetségi hálózatsemlegességi szabályokat, ami lehetővé teheti az internetszolgáltatók számára az internetes forgalom lassítását vagy priorizálását.”"
+    ],
+    "points": 356,
+    "commentCount": 302,
+    "retryCount": 0,
+    "time": 1735848335
+  },
+  {
+    "id": 42581119,
+    "title": "„Legyen ingatlantulajdonos, ne pedig bérlő az interneten”",
+    "originLink": "https://den.dev/blog/be-a-property-owner-not-a-renter-on-the-internet/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42581119",
+    "commentBody": "",
+    "originSummary": [
+      "„A cikk hangsúlyozza annak fontosságát, hogy saját digitális terünket birtokoljuk, ahelyett, hogy kizárólag a nagy internetes platformokra támaszkodnánk, amelyek gyakran a saját növekedésüket helyezik előtérbe a felhasználói érdekekkel szemben. - Az online jelenlétünk feletti kontroll megőrzésének stratégiái közé tartozik egy domain birtoklása, a tartalom több platformon történő diverzifikálása, valamint közvetlen kapcsolatok kiépítése a közönséggel e-mail listákon keresztül. - Saját webes tulajdon létrehozásával biztosítjuk a rugalmasságot és az ellenálló képességet digitális törekvéseinkben, csökkentve a függőséget bármely egyetlen hálózattól.”"
+    ],
+    "commentSummary": [
+      "„A vita hangsúlyozza annak fontosságát, hogy az ember saját digitális jelenlétét birtokolja ahelyett, hogy a közösségi média platformokra támaszkodna, és foglalkozik az AI által a felhasználók által generált tartalom kihasználásával kapcsolatos aggodalmakkal. - Feltárja a szerzői jog, az AI etika összetettségét, valamint a személyes weboldal vagy domain birtoklásának jelentőségét az online adatok jobb ellenőrzése érdekében. - A beszélgetés azt is megvizsgálja, hogy mennyire praktikus és milyen korlátai vannak az önálló hosztolásnak, tekintettel a külső szolgáltatások, például a domain regisztrátorok és hoszting szolgáltatók függőségére, és szorgalmazza a nagyobb függetlenséget az online jelenlét kezelésében.”"
+    ],
+    "points": 295,
+    "commentCount": 211,
+    "retryCount": 0,
+    "time": 1735867317
+  },
+  {
+    "id": 42583086,
+    "title": "„BlogScroll – Személyes oldalak és blogok nyílt könyvtára”",
+    "originLink": "https://blogscroll.com/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42583086",
+    "commentBody": "",
+    "originSummary": [
+      "„A BlogScroll egy nyílt könyvtár személyes webhelyekről és blogokról, amely a nagy technológiai vállalatokon kívüli digitális tereket hangsúlyozza, és Den Delimarsky tartja karban a GitHubon. - A felhasználók hozzájárulhatnak a BlogScrollhoz a GitHubon keresztül vagy a készítőnek küldött e-mail útján, és az RSS-hírcsatornán keresztül érhetők el a frissítések. - A könyvtár különféle kategóriákat tartalmaz, mint például design-and-ux, személyes, fotó-videó-produkció és technológia, bemutatva számos egyén hozzájárulását.”"
+    ],
+    "commentSummary": [
+      "„A BlogScroll egy nyílt könyvtár személyes oldalak és blogok számára, amely a digitális kertek megosztására összpontosít, amelyeket egyes felhasználók bármely személyes oldalnak tekintenek.”",
+      "„A GitHubon tárolt BlogScroll vitákat váltott ki annak „falakkal körülvett kert” jellegéről, és javaslatok merültek fel az OPML exportálására és a skálázhatóság javítására.”",
+      "„A projekt ösztönzi a beküldéseket a lista bővítése érdekében, ami a személyes webes terek iránti megújult érdeklődést és az önálló, gondozott online tartalom fenntartásának kihívásait tükrözi.”"
+    ],
+    "points": 262,
+    "commentCount": 70,
+    "retryCount": 0,
+    "time": 1735885431
+  },
+  {
+    "id": 42579969,
+    "title": "„Az Alder Lake SHLX anomália”",
+    "originLink": "https://tavianator.com/2025/shlx.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579969",
+    "commentBody": "",
+    "originSummary": [
+      "„Harold Aptroot felfedezte, hogy az Intel Alder Lake processzorain a SHLX utasítás „közepes késleltetést” mutat, ami 3 ciklus, ami szokatlan a balra toló műveleteknél, amelyek általában 1 ciklust vesznek igénybe. - Ez a késleltetési probléma kifejezetten az Alder Lake teljesítmény magjaira vonatkozik, és nem érinti a hatékonysági magokat, ellentmondva az Intel állításainak, miszerint 1 ciklus a késleltetés. - A késleltetés változik a shift count regiszter inicializálása alapján, 32 bites utasítások vagy 64 bites utasítások azonnali értékek nélkül 1 ciklus késleltetést érnek el, míg 64 bites utasítások azonnali értékekkel 3 ciklus késleltetést eredményeznek.”"
+    ],
+    "commentSummary": [
+      "„Az Alder Lake SHLX Anomália egy teljesítményprobléma, ahol bizonyos utasítások, mint például a `mov rcx, 1`, lassabb végrehajtást okoznak a `SHLX` utasításnál, valószínűleg a regiszter átnevező kis azonnali értékek kezelésének következtében.”",
+      "„Ez az anomália akár háromszoros lassulást is okozhat, és nehéz reprodukálni, mert a kontextusváltások visszaállíthatják a regiszter állapotát, ami akaratlanul is felgyorsíthatja a kódot.”",
+      "„A probléma újonnan felfedezett, és elsősorban a shift számlálásokat érinti, befolyásolva az olyan utasításokat, mint a `SHL`, de nem másokat, mint például az `ANDN`, és általában a fordítók nem veszik figyelembe.”"
+    ],
+    "points": 194,
+    "commentCount": 68,
+    "retryCount": 0,
+    "time": 1735858848
+  }
+]

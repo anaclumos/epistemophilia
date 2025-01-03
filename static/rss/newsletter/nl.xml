@@ -15,12 +15,99 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 02 Jan 2025 19:16:12 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Jan 2025 19:08:50 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/nl.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Fri, 03 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[nl]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-03]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/03&#39;</h2>
+<h1>2025-01-03</h1>
+<h2><a href="https://vinay.sh/i-am-rich-and-have-no-idea-what-to-do-with-my-life/">Jeg er rik og har ingen anelse om hva jeg skal gjøre</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42579873">Reacties</a></h3>
+<ul>
+<li>Innlegget diskuterer den vanlige kampen med å finne mening etter å ha oppnådd økonomisk suksess, noe som kan føre til følelser av desillusjon og isolasjon. - Det foreslår at oppfyllelse kan finnes i å utvikle andre, bygge forbindelser eller forfølge nye interesser, og understreker viktigheten av mening utover økonomisk rikdom. - Diskusjonen fremhever også utfordringene med å opprettholde relasjoner når rikdom skaper en sosial kløft, og understreker behovet for meningsfulle aktiviteter og forbindelser for å fremme en følelse av tilhørighet.</li>
+</ul>
+<h2><a href="https://iterm2.com/downloads/stable/iTerm2-3_5_11.changelog">iTerm2 kritisk sikkerhetsutgivelse</a></h2>
+<ul>
+<li>iTerm2 versjon 3.5.11, utgitt 2. januar 2025, adresserer en kritisk sikkerhetssårbarhet relatert til SSH-integrasjonsfunksjonen i tidligere versjoner. - Feilen involverte logging av input/output til en fil på den eksterne verten, som kunne bli aksessert av andre, og påvirket brukere av versjonene 3.5.6 til 3.5.10 og visse betaversjoner. - Brukere anbefales å oppdatere til versjon 3.5.11 umiddelbart, slette /tmp/framer.txt-filen, og verifisere oppdateringen ved hjelp av den medfølgende SHA-256 og PGP-signaturen for sikkerhetsbekreftelse.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42579472">Reacties</a></h3>
+<ul>
+<li>iTerm2 ga ut en kritisk sikkerhetsoppdatering for å løse en feil i SSH-integrasjonen, som logget inn- og utdata til en fil på den eksterne verten, noe som potensielt kunne eksponere data for andre brukere.</li>
+<li>Problemet ble forårsaket av at detaljert logging ved et uhell ble aktivert i produksjon, noe som førte til diskusjoner om viktigheten av pre-commit hooks og sikkerhetstiltak for å forhindre lignende feil.</li>
+<li>Den hendelsen utløste en debatt om å bytte til alternativer som Ghostty eller Terminal.app, samtidig som den fremhevet balansen mellom funksjonsrike programmer og sikkerhetsrisikoer.</li>
+</ul>
+<h2><a href="https://minimaxir.com/2025/01/write-better-code/">Kan LLM-er skrive bedre kode hvis du fortsetter å be dem om å «skrive bedre kode»?</a></h2>
+<ul>
+<li>En meme-trend i november 2023 involverte brukere som ba ChatGPT om å iterativt forbedre bilder, noe som deretter ble anvendt på kode ved å bruke Claude 3.5 Sonnet for å forbedre et Python-program. - Innledende forsøk med vage forespørsler som &quot;skriv bedre kode&quot; viste noen forbedringer, men strukturert prompt engineering med spesifikke optimaliseringsmål førte til betydelige ytelsesforbedringer. - Eksperimentet understreket viktigheten av menneskelig tilsyn, ettersom store språkmodeller (LLM-er) kan tilby innovative ideer, men også kan introdusere subtile feil under kodeoptimalisering.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42584400">Reacties</a></h3>
+<ul>
+<li>Store språkmodeller (LLMs) genererer ofte grunnleggende kode på grunn av deres opplæring på mange opplæringsprogrammer, og kan potensielt gå glipp av enkle optimaliseringer som kan forbedre kodeytelsen. - Å iterativt be LLMs om å forbedre koden kan gi bedre resultater, men denne prosessen kan være like tidkrevende som manuell koding. - Diskusjonen understreker begrensningene til LLMs i å forstå komplekse optimaliseringer og fremhever viktigheten av å gi kontekst og spesifikke instruksjoner for forbedret kodekvalitet.</li>
+</ul>
+<h2><a href="http://databasearchitects.blogspot.com/2024/12/advent-of-code-2024-in-pure-sql.html">Advent of Code 2024 i ren SQL</a></h2>
+<ul>
+<li>Thomas Neumann delte sin erfaring med å løse Advent of Code 2024-utfordringene ved å bruke ren SQL, og fremhevet det som en øvelse i alternative problemløsningsmetoder. - Neumann fullførte alle utfordringene, selv om han bemerket SQLs begrensninger i håndtering av komplekse algoritmer og tilstandsoppdateringer, og foreslo potensielle forbedringer for SQLs effektivitet. - Blogginnlegget inkluderer en detaljert SQL-løsning for en utfordring og diskuterer muligheten for å forbedre SQL for bedre å støtte utførelse av komplekse algoritmer direkte i databaser.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42577736">Reacties</a></h3>
+<ul>
+<li>Advent of Code 2024 i ren SQL fremhever SQLs evne til å håndtere komplekse utfordringer, og vekker interesse for ytelsen og den logiske strukturen.</li>
+<li>Diskusjonen avslører varierte erfaringer med SQL, fra optimalisering av lagrede prosedyrer til bruk for forretningslogikk, som viser både styrker og utfordringer.</li>
+<li>Diskusjonen utforsker også potensialet til SQL-lignende språk og balansen mellom databaselogikk og applikasjonskode, og reflekterer ulike meninger om SQLs rolle i programvareutvikling.</li>
+</ul>
+<h2><a href="https://www.tvtechnology.com/news/sixth-circuit-of-appeals-strikes-down-fccs-net-neutrality-rules">Amerikansk ankedomstol opphever FCCs regler for nettnøytralitet</a></h2>
+<ul>
+<li>En amerikansk ankedomstol har ugyldiggjort FCCs regler for nettnøytralitet, som krevde lik behandling av internettrafikk av bredbåndsleverandører, med henvisning til at FCC har overskredet sin juridiske myndighet.</li>
+<li>Avgjørelsen refererer til en høyesterettsdom som begrenser reguleringsbyråers makt, noe som påvirker FCCs evne til å håndheve nettnøytralitet.</li>
+<li>FCC-leder Jessica Rosenworcel oppfordret Kongressen til å lovfeste nettnøytralitet, mens kommissær Brendan Carr støttet rettens avgjørelse som en kontroll mot regulatorisk overtramp.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42578237">Reacties</a></h3>
+<ul>
+<li>En amerikansk ankedomstol har ugyldiggjort FCCs regler for nettnøytralitet, med henvisning til utilstrekkelig juridisk myndighet under gjeldende lov. - Beslutningen følger Høyesteretts opphevelse av Chevron-deferansen, som hadde tillatt byråer som FCC å tolke lover bredt. - Domstolen klassifiserte bredbåndsleverandører som tilbydere av en &quot;informasjonstjeneste,&quot; ikke en &quot;telekommunikasjonstjeneste,&quot; og begrenset dermed FCCs reguleringsmakt og avsluttet føderale regler for nettnøytralitet, noe som potensielt tillater ISP-er å strupe eller prioritere internett-trafikk.</li>
+</ul>
+<h2><a href="https://den.dev/blog/be-a-property-owner-not-a-renter-on-the-internet/">Vær en eiendomseier og ikke en leietaker på internett</a></h2>
+<ul>
+<li>Artikkelen understreker viktigheten av å eie ditt digitale rom i stedet for å stole utelukkende på store internettplattformer, som ofte prioriterer sin egen vekst over brukernes interesser. - Strategier for å opprettholde kontroll over din online tilstedeværelse inkluderer å eie et domene, diversifisere innhold på tvers av flere plattformer, og bygge direkte forbindelser med publikum gjennom e-postlister. - Ved å opprette din egen nettressurs sikrer du fleksibilitet og motstandsdyktighet i dine digitale bestrebelser, og reduserer avhengigheten av et enkelt nettverk.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42581119">Reacties</a></h3>
+<ul>
+<li>Diskusjonen understreker viktigheten av å eie sin digitale tilstedeværelse i stedet for å være avhengig av sosiale medieplattformer, og tar opp bekymringer om at AI utnytter brukergenerert innhold. - Den utforsker kompleksiteten rundt opphavsrett, AI-etikk, og betydningen av å ha en personlig nettside eller domene for bedre kontroll over online data. - Samtalen vurderer også praktikaliteten og begrensningene ved selvhosting, gitt avhengigheten av eksterne tjenester som domeneregistratorer og hosting-leverandører, og taler for mer uavhengighet i håndteringen av ens online tilstedeværelse.</li>
+</ul>
+<h2><a href="https://blogscroll.com/">BlogScroll – En åpen katalog over personlige nettsteder og blogger</a></h2>
+<ul>
+<li>BlogScroll er en åpen katalog over personlige nettsteder og blogger, med vekt på digitale rom utenfor store teknologiselskaper, og vedlikeholdes på GitHub av Den Delimarsky. - Brukere kan bidra til BlogScroll gjennom GitHub eller ved å sende en e-post til skaperen, og oppdateringer er tilgjengelige via en RSS-feed. - Katalogen inkluderer ulike kategorier som design-og-brukeropplevelse, personlig, foto-video-produksjon, og teknologi, og viser bidrag fra mange individer.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42583086">Reacties</a></h3>
+<ul>
+<li>BlogScroll er en åpen katalog for personlige nettsteder og blogger, med fokus på å dele digitale hager, som av noen brukere diskuteres som ethvert personlig nettsted.</li>
+<li>Hostet på GitHub, har BlogScroll utløst diskusjoner om dens &quot;walled garden&quot;-natur, med forslag om OPML-eksport og forbedringer av skalerbarhet.</li>
+<li>Prosjektet oppfordrer til innsendelser for å utvide listen, noe som gjenspeiler en fornyet interesse for personlige nettsider og utfordringene med å opprettholde uavhengig, kuratert innhold på nettet.</li>
+</ul>
+<h2><a href="https://tavianator.com/2025/shlx.html">Anomalien Alder Lake SHLX</a></h2>
+<ul>
+<li>Harold Aptroot oppdaget at SHLX-instruksjonen på Intels Alder Lake-prosessorer har en &quot;medium latency&quot; på 3 sykluser, noe som er atypisk for venstreskiftoperasjoner som vanligvis tar 1 syklus. - Dette latensproblemet er spesifikt for Alder Lakes ytelseskjerner og påvirker ikke effektivitetskjerner, i motsetning til Intels påstander om en 1-syklus latens. - Latensen varierer basert på initialiseringen av skiftetelleregistret, med 32-bits instruksjoner eller 64-bits instruksjoner uten umiddelbare som oppnår 1-syklus latens, mens 64-bits instruksjoner med umiddelbare resulterer i 3-syklus latens.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42579969">Reacties</a></h3>
+<ul>
+<li>Anomalien Alder Lake SHLX er et ytelsesproblem der spesifikke instruksjoner, som <code>mov rcx, 1</code>, fører til at <code>SHLX</code>-instruksjonen utføres langsommere, muligens på grunn av registeromdøperens håndtering av små umiddelbare verdier.</li>
+<li>Dette avviket kan føre til en 3x nedgang i hastighet og er utfordrende å gjenskape fordi kontekstbytter kan tilbakestille registertilstanden, noe som utilsiktet kan øke hastigheten på koden.</li>
+<li>Problemet er nylig oppdaget og påvirker primært skiftetellinger, noe som påvirker instruksjoner som <code>SHL</code>, men ikke andre som <code>ANDN</code>, og blir vanligvis ikke tatt hensyn til av kompilatorer.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Jeg er rik og har ingen anelse om hva jeg skal gjøre" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Jeg%20er%20rik%20og%20har%20ingen%20anelse%20om%20hva%20jeg%20skal%20gj%C3%B8re&subheading=vrijdag%203%20januari%202025%3A%20Samenvatting%20Hacker%20News" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/nl/2025/01/03</link>
+            <guid isPermaLink="false">2025-01-03T00:00:00.000Z</guid>
+            <pubDate>Fri, 03 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-02]]></title>
             <description
@@ -347,131 +434,6 @@
             <link>https://hn.cho.sh/nl/2024/12/25</link>
             <guid isPermaLink="false">2024-12-25T00:00:00.000Z</guid>
             <pubDate>Wed, 25 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-24]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/24&#39;</h2>
-<h1>2024-12-24</h1>
-<h2><a href="https://www.youtube.com/watch?v=JfZxOuc9Qwk">Hva skjedde med verdens største rør-TV? [video]</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42497093">Reacties</a></h3>
-<ul>
-<li>En YouTube-influenser reddet verdens største rør-TV, en sjelden Sony-modell, fra ødeleggelse, og flyttet den fra Japan til USA for personlig bruk. Beslutningen utløste en debatt om hvorvidt slike unike gjenstander burde bevares i museer i stedet for private samlinger. Situasjonen understreker vanskelighetene med å bevare sjeldne gjenstander og de intrikate problemene rundt eierskap og kulturarv.</li>
-</ul>
-<h2><a href="https://mathstodon.xyz/@johncarlosbaez/113703444230936435">Det tallet pi har en ond tvilling</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42499567">Reacties</a></h3>
-<ul>
-<li>Den lemniskatekonstanten, betegnet som ϖ, er assosiert med den ∞-formede lemniskatekurven og er en motpart til tallet pi.</li>
-<li>Diskusjoner fremhever dets potensielle anvendelser i science fiction, dets stavelsesvarianter og dets matematiske betydning.</li>
-<li>Konversasjonen utforsker også kulturelle og historiske påvirkninger på språk og matematikk, spesielt greske og arabiske bidrag.</li>
-</ul>
-<h2><a href="https://events.ccc.de/congress/2024/infos/index.html">38. Chaos Communication Congress</a></h2>
-<ul>
-<li>Den 38. Chaos Communication Congress (38C3) er planlagt å finne sted i Hamburg fra 27. til 30. desember 2024, organisert av Chaos Computer Club. Denne årlige begivenheten legger vekt på skjæringspunktet mellom teknologi, samfunn og utopi, og tilbyr forelesninger, workshops og diskusjoner om teknologiens innvirkning. Deltakere inviteres til å engasjere seg ved å være frivillige, arrangere arrangementer eller presentere prosjekter, med nøkkelinformasjon tilgjengelig på arrangementets infosider og blogg.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42500475">Reacties</a></h3>
-<ul>
-<li>Den 38. Chaos Communication Congress (CCC) tiltrekker seg oppmerksomhet med sine varierte foredrag om AI, biologi og innebygde systemer, og fremhever Joscha Bachs serie &quot;From Computation to Consciousness&quot;.- Arrangementet er kjent for sine ikke-mainstream diskusjoner og vil bli direktesendt, og tar for seg utfordringer som billettsalg og balansen mellom tekniske og samfunnsmessige emner.- CCC er en nøkkelbegivenhet for hackerfellesskapet, med fokus på åpenhet og inkludering, og utforsker politiske og kulturelle aspekter, inkludert språkbruk.</li>
-</ul>
-<h2><a href="https://www.digikey.com/en/maker/projects/a-step-by-step-guide-to-build-a-low-cost-drone-using-esp32/8afccd0690574bcebfa0d2ad6fd0a391">Bygg en rimelig drone ved hjelp av ESP32</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42498648">Reacties</a></h3>
-<ul>
-<li>DIY-droneøkosystemet utvider seg, med rimelige komponenter som flykontroll-mikrokontrollerenheter (MCUer), motordrivere og kameraer tilgjengelig for tilpasning.</li>
-<li>Åpen kildekode-programvare som Betaflight og ArduPilot støtter disse DIY-byggene, og tilbyr alternativer til proprietære systemer som DJI, selv om de for øyeblikket ligger etter på noen områder.</li>
-<li>ESP32-mikrokontrolleren er et kostnadseffektivt alternativ for droneprosjekter, med nybegynneroppsett som koster rundt 500 dollar, til tross for utfordringer som sanntidskontroll via WiFi.</li>
-</ul>
-<h2><a href="https://blog.mlc.ai/2023/08/09/Making-AMD-GPUs-competitive-for-LLM-inference">Å gjøre AMD GPUer konkurransedyktige for LLM-inferens (2023)</a></h2>
-<ul>
-<li>MLC-LLM muliggjør kompilering og distribusjon av Large Language Models (LLMs) på AMD GPUer ved bruk av ROCm, og oppnår ytelse nær NVIDIA sine high-end GPUer. AMD Radeon RX 7900 XTX tilbyr konkurransedyktig ytelse, og når 80% av NVIDIA RTX 4090s hastighet og 94% av RTX 3090 Ti&#39;s for spesifikke modeller, samtidig som den er betydelig rimeligere. Prosjektet fremhever potensialet til AMD GPUer for LLM-inferens, med pågående forbedringer i programvarestøtte og planer for fremtidige forbedringer som batching og multi-GPU-støtte.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42498634">Reacties</a></h3>
-<ul>
-<li>AMDs forbruker-GPUer, som RX7900XTX, skiller seg i arkitektur fra deres datasenter-GPUer som MI300X, noe som påvirker ytelsesnivåene. Det er en økende innsats for å integrere AMDs CDNA-arkitektur og HIP (Heterogeneous-compute Interface for Portability) støtte i dyp læringsplattformer, med mål om å utfordre Nvidias dominans i AI-arbeidsbelastninger. Til tross for økt interesse, vedvarer utfordringer som programvarestøtte og ytelseskonsistens, noe som fører til at noen utviklere vender tilbake til Nvidia, som opprettholder en betydelig fordel med sin CUDA (Compute Unified Device Architecture) plattform.</li>
-</ul>
-<h2><a href="https://seangeiger.substack.com/p/why-are-cancer-guidelines-stuck-in">Hvorfor sitter retningslinjer for kreft fast i PDF-er?</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42498462">Reacties</a></h3>
-<ul>
-<li>Retningslinjer for kreft lagres ofte i PDF-format på grunn av deres holdbarhet og bærbarhet, til tross for begrensningene i brukervennlighet og integrasjon med medisinske systemer. Overgang til strukturerte data kan forbedre brukervennligheten, men utfordringer inkluderer kompleksiteten i medisinsk informasjon, mangel på standardisering og regulatoriske hindringer. Debatten dreier seg om å balansere påliteligheten til PDF-er med de potensielle fordelene ved dynamiske, maskinlesbare datasystemer, med tanke på behovet for konsistente oppdateringer og feilhåndtering i automatiserte systemer.</li>
-</ul>
-<h2><a href="https://github.com/isledecomp/isle">Fullstendig dekompilering av Lego Island</a></h2>
-<ul>
-<li>Prosjektet innebærer en fullstendig dekompilering av LEGO Island (Versjon 1.1, Engelsk), med mål om å replikere den opprinnelige maskinkoden så nøyaktig som mulig.</li>
-<li>Den bruker CMake for bygging, med Microsoft Visual C++ 4.20 anbefalt for optimale resultater, og innebærer å sette opp miljøet, konfigurere med CMake, og bygge med nmake.</li>
-<li>Bidrag oppfordres, med spesielt fokus på den engelske utgivelsen av versjon 1.1, med pågående forbedringer av dekompilerte ISLE.EXE og LEGO1.DLL filer.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42497173">Reacties</a></h3>
-<ul>
-<li>Et GitHub-prosjekt har med suksess dekompilert det klassiske spillet Lego Island, og forbedret tidligere forsøk på å fikse feil i det originale spillet. - MattKC, en YouTuber kjent for teknisk innhold, spilte en betydelig rolle i dette dekompileringsprosjektet, som legger vekt på nøyaktighet og inkluderer verktøy som et lint-verktøy og en ressursredigerer. - Prosjektet har vekket interesse for å gjenskape vintage LEGO-spill, med fans som uttrykker nostalgi for titler som Rock Raiders og Lego Loco, og fremhever samfunnets verdsettelse for å bevare og forbedre disse klassiske spillene.</li>
-</ul>
-<h2><a href="https://www.cfodive.com/news/intel-shareholders-yank-exceo-cfo-compensation-foundry/736193/">Intel-aksjonærer har levert inn sak der de ber tidligere administrerende direktør og finansdirektør om å returnere 3 års lønn</a></h2>
-<ul>
-<li>Intel-aksjonærer søker tilbakebetaling av kompensasjon fra tidligere administrerende direktør Pat Gelsinger og finansdirektør David Zinsner, og anklager dem for å ha villedet aksjonærene om den økonomiske ytelsen til Intels støperienhet.</li>
-<li>Rettsaken hevder et brudd på tillitsplikter, etter Intels mislykkede snuoperasjonsplan og et rekordstort kvartalsvis tap på 16,6 milliarder dollar, som førte til en nedgang på 9,2 % i Intels aksjer.</li>
-<li>Støperienheten, som opprinnelig var forventet å drive vekst, ble senere identifisert som et betydelig kostnadssenter, noe som førte til restruktureringsinnsats av Zinsner, nå med-midlertidig administrerende direktør, mens Gelsinger har trukket seg.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42500482">Reacties</a></h3>
-<ul>
-<li>Intel-aksjonærer har anlagt sak mot den tidligere administrerende direktøren og finansdirektøren, og krever tilbakebetaling av tre års lønn på grunn av en mislykket forretningsplan.</li>
-<li>Critics argue the lawsuit is unfounded, as the executives had acknowledged the challenges faced by Intel&#39;s Foundry unit.</li>
-<li>Rettsaken understreker spenninger mellom aksjonærer og selskapets ledelse, hvor noen ser på det som en useriøs handling motivert av økonomisk vinning.</li>
-</ul>
-<h2><a href="https://twitter.com/spatiallyjess/status/1871342549958537326">Tokyo ga utgitt punktskydata for hele byen gratis</a></h2>
-<ul>
-<li>Tokyo har gjort tilgjengelig gratis punktskydata for hele byen, som kan lastes ned offentlig.</li>
-<li>Point cloud-data er en samling av datapunkter i rommet, ofte brukt i 3D-modellering og geografiske informasjonssystemer (GIS).</li>
-<li>Denne utgivelsen er betydningsfull da den gir verdifulle ressurser for utviklere, forskere og byplanleggere som er interessert i 3D-modellering og romlig analyse av Tokyo.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42501102">Reacties</a></h3>
-<ul>
-<li>Tokyo har gjort tilgjengelig gratis punktskydata for hele byen, noe som muliggjør interaktiv 3D-navigasjon og utforskning. Dette initiativet ligner på de i Sveits og Frankrike, hvor detaljerte 3D-modeller og lidar-data har blitt utgitt. Disse datasett er spesielt verdifulle for applikasjoner innen datagenererte bilder (CGI), videospill og andre 3D-teknologier.</li>
-</ul>
-<h2><a href="https://www.rfleury.com/p/demystifying-debuggers-part-2-the">Avmystifisering av feilsøkingsprogrammer, del 2: Anatomien til et kjørende program</a></h2>
-<ul>
-<li>Artikkelen &quot;Demystifying Debuggers, Part 2: The Anatomy Of A Running Program&quot; forklarer komponentene som er involvert i programutførelse, som virtuelle adresseområder, tråder og prosesser. Den beskriver hvordan operativsystemer bruker virtuell minne og planlegging for å håndtere flere programmer som kjører samtidig. Innlegget er en del av en serie som fokuserer på å forklare hvordan feilsøkingsverktøy samhandler med disse prosessene for å analysere programutførelse.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42498982">Reacties</a></h3>
-<ul>
-<li>Feilsøkingsverktøy er avgjørende for å analysere kjørende programmer, og integrering av dem med store språkmodeller (LLM-er) kan potensielt forbedre funksjonaliteten deres.</li>
-<li>Det er en debatt blant utviklere om potensialet til LLM-er i feilsøking, med noen som er optimistiske om deres evne til å spore feil, mens andre er skeptiske til deres nåværende effektivitet.</li>
-<li>Diskusjonen understreker ulike perspektiver på feilsøkingspraksis og den utviklende rollen til LLM-er i programvareutvikling.</li>
-</ul>
-<h2><a href="https://sakana.ai/asal/">Automatisering av søket etter kunstig liv med grunnmodeller</a></h2>
-<ul>
-<li>Den automatiserte søken etter kunstig liv (ASAL) algoritmen benytter AI visjon-språk grunnmodeller for å oppdage kunstige livsformer i simuleringer, og forbedrer feltet for forskning på kunstig liv (ALife). ASAL har med suksess identifisert nye livsformer i simuleringer som Lenia, Boids, Particle Life og Game of Life, og viser dynamiske mønstre og nye regler for cellulære automater. Denne tilnærmingen automatiserer oppdagelsesprosessen, overkommer begrensningene ved manuelt designede simuleringer, og oppmuntrer til videre utforskning og samarbeid for å integrere ALife-konsepter i AI for mer adaptive og kreative systemer.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42499332">Reacties</a></h3>
-<ul>
-<li>Integreringen av grunnmodeller i automatiseringen av søket etter kunstig liv (ALife) blir et tema av interesse, og fremhever skillet mellom kunstig intelligens (AI) og ALife. &quot;The Self-Assembling Brain&quot; er en bok som undersøker intelligens fra flere synsvinkler, og bidrar til den pågående diskursen. Sakana AI, et selskap grunnlagt av forfatterne av det innflytelsesrike &quot;Attention Is All You Need&quot;-papiret, fokuserer på kommersialiseringen av AI, støttet av risikokapitalinvesteringer, og er en del av diskusjoner om AIs rolle i å analysere data fra søket etter utenomjordisk intelligens (SETI).</li>
-</ul>
-<h2><a href="https://onlinelibrary.wiley.com/doi/10.1002/spe.3296">Parsing millioner av URL-er per sekund (2023)</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42498514">Reacties</a></h3>
-<ul>
-<li>Diskusjonen fokuserer på utfordringene med å analysere millioner av URL-er per sekund, spesielt problemer med URL-normalisering og analysefeil.</li>
-<li>Det er debatt om nødvendigheten av å endre &quot;http://&quot; til &quot;https://&quot; og påliteligheten til HTTPS, med en viss skepsis til parserens ytelsespåstander.</li>
-<li>Deltaakerne diskuterer også vanskelighetene med å skrive effektive parsere, begrensningene ved å bruke regulære uttrykk (regex) for URL-parsing, og kompleksiteten ved å følge ulike URL-spesifikasjoner.</li>
-</ul>
-<h2><a href="https://www.theguardian.com/travel/2024/dec/24/paris-to-berlin-by-train-faster-service-via-strasbourg">Paris til Berlin med tog er nå fem timer raskere</a></h2>
-<ul>
-<li>Deutsche Bahn og SNCF har lansert en ny direkte dagtogtjeneste fra Paris til Berlin, som reduserer reisetiden med fem timer til 7 timer og 59 minutter.</li>
-<li>Ruten inkluderer naturskjønne utsikter og stopp i Strasbourg, Karlsruhe og Frankfurt, med billetter som starter på €59,99 for andre klasse.</li>
-<li>Mens tjenesten tilbyr en mer avslappet reiseopplevelse, hevder noen at den må være raskere for å konkurrere effektivt med flyreiser.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42500704">Reacties</a></h3>
-<ul>
-<li>Den nye direkte togforbindelsen mellom Paris og Berlin reduserer reisetiden med fem timer, og tilbyr en mer avslappet reise sammenlignet med flyreiser.</li>
-<li>Trener er miljøvennlige, produserer lavere CO2-utslipp, men krever betydelige investeringer i infrastruktur.</li>
-<li>Selv om togreiser kan være dyrere og mindre fleksible enn å fly, foretrekker mange reisende det for komforten og bekvemmeligheten.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Hva skjedde med verdens største rør-TV? [video]" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Hva%20skjedde%20med%20verdens%20st%C3%B8rste%20r%C3%B8r-TV%3F%20%5Bvideo%5D&subheading=dinsdag%2024%20december%202024%3A%20Samenvatting%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/nl/2024/12/24</link>
-            <guid isPermaLink="false">2024-12-24T00:00:00.000Z</guid>
-            <pubDate>Tue, 24 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

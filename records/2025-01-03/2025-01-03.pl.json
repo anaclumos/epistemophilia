@@ -1,0 +1,154 @@
+[
+  {
+    "id": 42579873,
+    "title": "„Jestem bogaty i nie mam pojęcia, co robić”",
+    "originLink": "https://vinay.sh/i-am-rich-and-have-no-idea-what-to-do-with-my-life/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579873",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "„Post omawia powszechny problem odnalezienia celu po osiągnięciu sukcesu finansowego, co może prowadzić do poczucia rozczarowania i izolacji. - Sugeruje, że spełnienie można znaleźć w rozwijaniu innych, budowaniu relacji lub poszukiwaniu nowych zainteresowań, podkreślając znaczenie celu wykraczającego poza bogactwo finansowe. - Dyskusja podkreśla również wyzwania związane z utrzymywaniem relacji, gdy bogactwo tworzy podział społeczny, podkreślając potrzebę znaczących działań i więzi, aby pielęgnować poczucie przynależności.”"
+    ],
+    "points": 793,
+    "commentCount": 1375,
+    "retryCount": 0,
+    "time": 1735858215
+  },
+  {
+    "id": 42579472,
+    "title": "„Krytyczna aktualizacja bezpieczeństwa iTerm2”",
+    "originLink": "https://iterm2.com/downloads/stable/iTerm2-3_5_11.changelog",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579472",
+    "commentBody": "",
+    "originSummary": [
+      "„iTerm2 w wersji 3.5.11, wydany 2 stycznia 2025 roku, rozwiązuje krytyczną lukę bezpieczeństwa związaną z funkcją integracji SSH w poprzednich wersjach. - Błąd polegał na logowaniu danych wejściowych/wyjściowych do pliku na zdalnym hoście, do którego mogli mieć dostęp inni, co dotyczyło użytkowników wersji od 3.5.6 do 3.5.10 oraz niektórych wersji beta. - Użytkownikom zaleca się natychmiastową aktualizację do wersji 3.5.11, usunięcie pliku /tmp/framer.txt oraz weryfikację aktualizacji za pomocą dostarczonego SHA-256 i podpisu PGP w celu zapewnienia bezpieczeństwa.”"
+    ],
+    "commentSummary": [
+      "„iTerm2 wydał krytyczną aktualizację zabezpieczeń, aby rozwiązać problem w integracji SSH, który rejestrował dane wejściowe i wyjściowe do pliku na zdalnym hoście, co mogło potencjalnie narazić dane na dostęp innych użytkowników.”",
+      "„Problem został spowodowany przypadkowym włączeniem szczegółowego logowania w środowisku produkcyjnym, co skłoniło do dyskusji na temat znaczenia haków pre-commit i zabezpieczeń, aby zapobiec podobnym błędom.”",
+      "„Incydent wywołał debatę na temat przejścia na alternatywy, takie jak Ghostty lub Terminal.app, jednocześnie podkreślając równowagę między oprogramowaniem bogatym w funkcje a ryzykiem związanym z bezpieczeństwem.”"
+    ],
+    "points": 647,
+    "commentCount": 412,
+    "retryCount": 0,
+    "time": 1735855722
+  },
+  {
+    "id": 42584400,
+    "title": "„Czy LLM mogą pisać lepszy kod, jeśli będziesz je ciągle prosić o „pisanie lepszego kodu”?”",
+    "originLink": "https://minimaxir.com/2025/01/write-better-code/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42584400",
+    "commentBody": "",
+    "originSummary": [
+      "„W listopadzie 2023 roku trend memów polegał na tym, że użytkownicy prosili ChatGPT o iteracyjne ulepszanie obrazów, co następnie zastosowano do kodu, używając Claude 3.5 Sonnet do poprawy programu w Pythonie. - Początkowe próby z niejasnymi poleceniami, takimi jak „napisz lepszy kod”, wykazały pewne ulepszenia, ale strukturalne projektowanie poleceń z konkretnymi celami optymalizacji doprowadziło do znaczących usprawnień wydajności. - Eksperyment podkreślił znaczenie nadzoru ludzkiego, ponieważ chociaż duże modele językowe (LLM) mogą oferować innowacyjne pomysły, mogą również wprowadzać subtelne błędy podczas optymalizacji kodu.”"
+    ],
+    "commentSummary": [
+      "„Duże modele językowe (LLM) często generują podstawowy kod z powodu ich szkolenia na licznych samouczkach, co może prowadzić do pomijania prostych optymalizacji, które mogłyby poprawić wydajność kodu. - Iteracyjne zachęcanie LLM do ulepszania kodu może przynieść lepsze rezultaty, ale ten proces może być równie czasochłonny jak ręczne kodowanie. - Dyskusja podkreśla ograniczenia LLM w zrozumieniu złożonych optymalizacji i uwypukla znaczenie dostarczania kontekstu oraz konkretnych instrukcji dla poprawy jakości kodu.”"
+    ],
+    "points": 453,
+    "commentCount": 271,
+    "retryCount": 0,
+    "time": 1735900244
+  },
+  {
+    "id": 42577736,
+    "title": "„Advent of Code 2024 w czystym SQL”",
+    "originLink": "http://databasearchitects.blogspot.com/2024/12/advent-of-code-2024-in-pure-sql.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42577736",
+    "commentBody": "",
+    "originSummary": [
+      "„Thomas Neumann podzielił się swoim doświadczeniem w rozwiązywaniu wyzwań Advent of Code 2024 za pomocą czystego SQL, podkreślając to jako ćwiczenie w alternatywnych podejściach do rozwiązywania problemów. - Neumann z powodzeniem ukończył wszystkie wyzwania, choć zauważył ograniczenia SQL w obsłudze złożonych algorytmów i aktualizacji stanu, sugerując potencjalne usprawnienia dla efektywności SQL. - Post na blogu zawiera szczegółowe rozwiązanie SQL dla jednego z wyzwań i omawia możliwość ulepszenia SQL w celu lepszego wsparcia wykonywania złożonych algorytmów bezpośrednio w bazach danych.”"
+    ],
+    "commentSummary": [
+      "„Advent of Code 2024 w czystym SQL podkreśla zdolność SQL do radzenia sobie ze skomplikowanymi wyzwaniami, wzbudzając zainteresowanie jego wydajnością i strukturą logiczną.”",
+      "„Dyskusja ujawnia różnorodne doświadczenia z SQL, od optymalizacji procedur składowanych po wykorzystanie go do logiki biznesowej, ukazując zarówno jego mocne strony, jak i wyzwania.”",
+      "„Rozmowa bada również potencjał języków podobnych do SQL oraz równowagę między logiką bazy danych a kodem aplikacji, odzwierciedlając różnorodne opinie na temat roli SQL w rozwoju oprogramowania.”"
+    ],
+    "points": 431,
+    "commentCount": 97,
+    "retryCount": 0,
+    "time": 1735845650
+  },
+  {
+    "id": 42578237,
+    "title": "„Sąd apelacyjny USA unieważnia zasady neutralności sieci FCC”",
+    "originLink": "https://www.tvtechnology.com/news/sixth-circuit-of-appeals-strikes-down-fccs-net-neutrality-rules",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42578237",
+    "commentBody": "",
+    "originSummary": [
+      "„Sąd Apelacyjny USA unieważnił zasady neutralności sieci ustanowione przez FCC, które nakazywały równe traktowanie ruchu internetowego przez dostawców szerokopasmowych, powołując się na przekroczenie uprawnień prawnych przez FCC.”",
+      "„Decyzja odnosi się do orzeczenia Sądu Najwyższego, które ogranicza uprawnienia agencji regulacyjnych, wpływając na zdolność FCC do egzekwowania zasady neutralności sieci.”",
+      "„Przewodnicząca FCC Jessica Rosenworcel wezwała Kongres do uchwalenia przepisów dotyczących neutralności sieci, podczas gdy komisarz Brendan Carr poparł decyzję sądu jako środek kontroli nadmiernej regulacji.”"
+    ],
+    "commentSummary": [
+      "„Sąd apelacyjny w USA unieważnił zasady neutralności sieci FCC, powołując się na niewystarczające uprawnienia prawne na mocy obowiązującego prawa. - Decyzja ta następuje po uchyleniu przez Sąd Najwyższy zasady deference Chevron, która pozwalała agencjom takim jak FCC na szeroką interpretację przepisów. - Sąd zaklasyfikował dostawców usług szerokopasmowych jako oferujących „usługę informacyjną”, a nie „usługę telekomunikacyjną”, co ogranicza władzę regulacyjną FCC i kończy federalne zasady neutralności sieci, potencjalnie pozwalając dostawcom usług internetowych na ograniczanie lub priorytetyzowanie ruchu internetowego.”"
+    ],
+    "points": 356,
+    "commentCount": 302,
+    "retryCount": 0,
+    "time": 1735848335
+  },
+  {
+    "id": 42581119,
+    "title": "„Bądź właścicielem nieruchomości, a nie najemcą w internecie”",
+    "originLink": "https://den.dev/blog/be-a-property-owner-not-a-renter-on-the-internet/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42581119",
+    "commentBody": "",
+    "originSummary": [
+      "„Artykuł podkreśla znaczenie posiadania własnej przestrzeni cyfrowej zamiast polegania wyłącznie na głównych platformach internetowych, które często przedkładają swój rozwój nad interesy użytkowników. - Strategie utrzymania kontroli nad swoją obecnością online obejmują posiadanie domeny, dywersyfikację treści na różnych platformach oraz budowanie bezpośrednich relacji z odbiorcami poprzez listy e-mailowe. - Tworząc własną stronę internetową, zapewniasz sobie elastyczność i odporność w swoich działaniach cyfrowych, zmniejszając zależność od jednej sieci.”"
+    ],
+    "commentSummary": [
+      "„Dyskusja podkreśla znaczenie posiadania własnej obecności cyfrowej zamiast polegania na platformach mediów społecznościowych, poruszając obawy dotyczące wykorzystywania treści generowanych przez użytkowników przez AI. - Analizuje złożoność praw autorskich, etykę AI oraz znaczenie posiadania osobistej strony internetowej lub domeny dla lepszej kontroli nad danymi online. - Rozmowa uwzględnia również praktyczność i ograniczenia samodzielnego hostingu, biorąc pod uwagę zależność od zewnętrznych usług, takich jak rejestratorzy domen i dostawcy hostingu, opowiadając się za większą niezależnością w zarządzaniu własną obecnością online.”"
+    ],
+    "points": 295,
+    "commentCount": 211,
+    "retryCount": 0,
+    "time": 1735867317
+  },
+  {
+    "id": 42583086,
+    "title": "„BlogScroll – otwarty katalog stron osobistych i blogów”",
+    "originLink": "https://blogscroll.com/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42583086",
+    "commentBody": "",
+    "originSummary": [
+      "„BlogScroll to otwarty katalog stron osobistych i blogów, kładący nacisk na przestrzenie cyfrowe poza głównymi firmami technologicznymi, i jest utrzymywany na GitHubie przez Dena Delimarsky'ego. - Użytkownicy mogą przyczyniać się do BlogScroll poprzez GitHub lub wysyłając e-mail do twórcy, a aktualizacje są dostępne za pośrednictwem kanału RSS. - Katalog obejmuje różne kategorie, takie jak design-and-ux, personal, photo-video-production i technology, prezentując wkłady od wielu osób.”"
+    ],
+    "commentSummary": [
+      "„BlogScroll to otwarty katalog dla stron osobistych i blogów, koncentrujący się na udostępnianiu cyfrowych ogrodów, które przez niektórych użytkowników są debatowane jako każda strona osobista.”",
+      "„Umieszczony na GitHubie, BlogScroll wywołał dyskusje na temat swojej „zamkniętej natury”, z sugestiami dotyczącymi eksportu OPML i ulepszeń skalowalności.”",
+      "„Projekt zachęca do zgłaszania propozycji w celu rozszerzenia swojej listy, odzwierciedlając odnowione zainteresowanie osobistymi przestrzeniami internetowymi oraz wyzwaniami związanymi z utrzymywaniem niezależnych, kuratorowanych treści online.”"
+    ],
+    "points": 262,
+    "commentCount": 70,
+    "retryCount": 0,
+    "time": 1735885431
+  },
+  {
+    "id": 42579969,
+    "title": "„Anomalia Alder Lake SHLX”",
+    "originLink": "https://tavianator.com/2025/shlx.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579969",
+    "commentBody": "",
+    "originSummary": [
+      "„Harold Aptroot odkrył, że instrukcja SHLX na procesorach Intel Alder Lake wykazuje „średnią latencję” wynoszącą 3 cykle, co jest nietypowe dla operacji przesunięcia w lewo, które zwykle zajmują 1 cykl. - Problem z latencją dotyczy rdzeni wydajnościowych Alder Lake i nie wpływa na rdzenie efektywnościowe, co jest sprzeczne z twierdzeniami Intela o latencji wynoszącej 1 cykl. - Latencja różni się w zależności od inicjalizacji rejestru liczby przesunięć, przy czym instrukcje 32-bitowe lub 64-bitowe bez natychmiastowych osiągają latencję 1 cyklu, podczas gdy instrukcje 64-bitowe z natychmiastowymi skutkują latencją 3 cykli.”"
+    ],
+    "commentSummary": [
+      "„Anomalia Alder Lake SHLX to problem z wydajnością, w którym określone instrukcje, takie jak `mov rcx, 1`, powodują, że instrukcja `SHLX` wykonuje się wolniej, prawdopodobnie z powodu sposobu, w jaki renamer rejestrów obsługuje małe natychmiastowe wartości.”",
+      "„Ta anomalia może prowadzić do trzykrotnego spowolnienia i jest trudna do odtworzenia, ponieważ przełączanie kontekstu może resetować stan rejestru, co nieumyślnie przyspiesza kod.”",
+      "„Problem jest nowo odkryty i głównie wpływa na liczniki przesunięć, oddziałując na instrukcje takie jak `SHL`, ale nie na inne, jak `ANDN`, i zazwyczaj nie jest uwzględniany przez kompilatory.”"
+    ],
+    "points": 194,
+    "commentCount": 68,
+    "retryCount": 0,
+    "time": 1735858848
+  }
+]

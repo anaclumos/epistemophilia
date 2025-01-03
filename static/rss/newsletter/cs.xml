@@ -15,12 +15,99 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 02 Jan 2025 19:16:12 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Jan 2025 19:08:50 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/cs.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Fri, 03 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[cs]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-03]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/03&#39;</h2>
+<h1>2025-01-03</h1>
+<h2><a href="https://vinay.sh/i-am-rich-and-have-no-idea-what-to-do-with-my-life/">„Jsem bohatý a nemám tušení, co dělat.“</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42579873">Reakce</a></h3>
+<ul>
+<li>„Příspěvek se zabývá běžným problémem hledání smyslu po dosažení finančního úspěchu, což může vést k pocitům rozčarování a izolace. - Navrhuje, že naplnění lze nalézt v rozvoji ostatních, budování vztahů nebo sledování nových zájmů, přičemž zdůrazňuje důležitost smyslu nad rámec finančního bohatství. - Diskuse také poukazuje na výzvy udržování vztahů, když bohatství vytváří sociální propast, a zdůrazňuje potřebu smysluplných aktivit a spojení k podpoře pocitu sounáležitosti.“</li>
+</ul>
+<h2><a href="https://iterm2.com/downloads/stable/iTerm2-3_5_11.changelog">„Kritické bezpečnostní vydání iTerm2“</a></h2>
+<ul>
+<li>„iTerm2 verze 3.5.11, vydaná 2. ledna 2025, řeší kritickou bezpečnostní zranitelnost související s funkcí integrace SSH v předchozích verzích. - Chyba zahrnovala zaznamenávání vstupu/výstupu do souboru na vzdáleném hostiteli, ke kterému mohli mít přístup ostatní, což ovlivnilo uživatele verzí 3.5.6 až 3.5.10 a některé beta verze. - Uživatelům se doporučuje okamžitě aktualizovat na verzi 3.5.11, smazat soubor /tmp/framer.txt a ověřit aktualizaci pomocí poskytnutého SHA-256 a PGP podpisu pro zajištění bezpečnosti.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42579472">Reakce</a></h3>
+<ul>
+<li>„iTerm2 vydal kritickou bezpečnostní aktualizaci k řešení chyby v integraci SSH, která zaznamenávala vstup a výstup do souboru na vzdáleném hostiteli, což mohlo potenciálně vystavit data ostatním uživatelům.“</li>
+<li>„Problém byl způsoben tím, že bylo omylem povoleno podrobné logování v produkci, což vyvolalo diskuse o důležitosti pre-commit hooků a opatření k zabránění podobných chyb.“</li>
+<li>„Incident vyvolal debatu o přechodu na alternativy jako Ghostty nebo Terminal.app, přičemž také zdůraznil rovnováhu mezi softwarovými funkcemi a bezpečnostními riziky.“</li>
+</ul>
+<h2><a href="https://minimaxir.com/2025/01/write-better-code/">„Mohou LLM psát lepší kód, pokud je neustále žádáte, aby „psaly lepší kód“?“</a></h2>
+<ul>
+<li>„V listopadu 2023 se stal trendem meme, kdy uživatelé žádali ChatGPT, aby iterativně vylepšoval obrázky, což bylo následně aplikováno na kód pomocí Claude 3.5 Sonnet k vylepšení programu v Pythonu. - Počáteční pokusy s vágními pokyny jako „napiš lepší kód“ ukázaly určité zlepšení, ale strukturované navrhování pokynů s konkrétními cíli optimalizace vedlo k významným zlepšením výkonu. - Experiment zdůraznil důležitost lidského dohledu, protože zatímco velké jazykové modely (LLM) mohou nabízet inovativní nápady, mohou také při optimalizaci kódu zavádět jemné chyby.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42584400">Reakce</a></h3>
+<ul>
+<li>„Velké jazykové modely (LLM) často generují základní kód kvůli svému tréninku na mnoha tutoriálech, což může vést k opomenutí jednoduchých optimalizací, které by mohly zlepšit výkon kódu. - Iterativní zadávání pokynů LLM pro zlepšení kódu může přinést lepší výsledky, ale tento proces může být stejně časově náročný jako ruční kódování. - Diskuse zdůrazňuje omezení LLM v pochopení složitých optimalizací a poukazuje na důležitost poskytování kontextu a specifických instrukcí pro zlepšení kvality kódu.“</li>
+</ul>
+<h2><a href="http://databasearchitects.blogspot.com/2024/12/advent-of-code-2024-in-pure-sql.html">„Advent of Code 2024 v čistém SQL“</a></h2>
+<ul>
+<li>„Thomas Neumann sdílel svou zkušenost s řešením výzev Advent of Code 2024 pomocí čistého SQL, což zdůraznil jako cvičení v alternativních přístupech k řešení problémů. - Neumann úspěšně dokončil všechny výzvy, ačkoli poznamenal omezení SQL při zpracování složitých algoritmů a aktualizací stavu, a navrhl možná vylepšení pro zvýšení efektivity SQL. - Blogový příspěvek obsahuje podrobné SQL řešení pro jednu výzvu a diskutuje možnost vylepšení SQL pro lepší podporu provádění složitých algoritmů přímo v databázích.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42577736">Reakce</a></h3>
+<ul>
+<li>„Advent of Code 2024 v čistém SQL zdůrazňuje schopnost SQL řešit složité úkoly, což vyvolává zájem o jeho výkon a logickou strukturu.“</li>
+<li>„Diskuse odhaluje různé zkušenosti s SQL, od optimalizace uložených procedur po jeho použití pro obchodní logiku, což ukazuje jak jeho silné stránky, tak i výzvy.“</li>
+<li>„Konverzace také zkoumá potenciál jazyků podobných SQL a rovnováhu mezi logikou databáze a aplikačním kódem, což odráží různé názory na roli SQL ve vývoji softwaru.“</li>
+</ul>
+<h2><a href="https://www.tvtechnology.com/news/sixth-circuit-of-appeals-strikes-down-fccs-net-neutrality-rules">„Odvolací soud USA zrušil pravidla FCC o síťové neutralitě“</a></h2>
+<ul>
+<li>„Odvolací soud USA zneplatnil pravidla síťové neutrality FCC, která nařizovala rovné zacházení s internetovým provozem poskytovateli širokopásmového připojení, s odvoláním na překročení právní pravomoci FCC.“</li>
+<li>„Rozhodnutí odkazuje na rozsudek Nejvyššího soudu, který omezuje pravomoci regulačních agentur, což ovlivňuje schopnost FCC prosazovat síťovou neutralitu.“</li>
+<li>„Předsedkyně FCC Jessica Rosenworcel vyzvala Kongres, aby přijal zákon o síťové neutralitě, zatímco komisař Brendan Carr podpořil rozhodnutí soudu jako kontrolu nadměrné regulace.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42578237">Reakce</a></h3>
+<ul>
+<li>„Odvolací soud USA zneplatnil pravidla FCC o síťové neutralitě s odvoláním na nedostatečnou právní autoritu podle současného práva. - Rozhodnutí následuje po zrušení Chevron deference Nejvyšším soudem, které umožňovalo agenturám jako FCC široce interpretovat zákony. - Soud klasifikoval poskytovatele širokopásmového připojení jako poskytovatele „informační služby“, nikoli „telekomunikační služby“, čímž omezil regulační pravomoc FCC a ukončil federální pravidla síťové neutrality, což potenciálně umožňuje ISP omezovat nebo upřednostňovat internetový provoz.“</li>
+</ul>
+<h2><a href="https://den.dev/blog/be-a-property-owner-not-a-renter-on-the-internet/">„Buďte vlastníkem nemovitosti a ne nájemcem na internetu“</a></h2>
+<ul>
+<li>„Článek zdůrazňuje důležitost vlastnictví vašeho digitálního prostoru namísto spoléhání se výhradně na hlavní internetové platformy, které často upřednostňují svůj růst před zájmy uživatelů. - Strategie pro udržení kontroly nad vaší online přítomností zahrnují vlastnictví domény, diverzifikaci obsahu na více platformách a budování přímých spojení s publikem prostřednictvím e-mailových seznamů. - Vytvořením vlastního webového prostoru zajišťujete flexibilitu a odolnost ve svých digitálních aktivitách, čímž snižujete závislost na jakékoli jediné síti.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42581119">Reakce</a></h3>
+<ul>
+<li>„Diskuse zdůrazňuje důležitost vlastnictví vlastní digitální přítomnosti namísto spoléhání se na platformy sociálních médií, přičemž se zabývá obavami z toho, že AI využívá obsah generovaný uživateli. - Zkoumá složitosti autorských práv, etiku AI a význam osobního webu nebo domény pro lepší kontrolu nad online daty. - Rozhovor také zvažuje praktičnost a omezení vlastního hostování, vzhledem k závislosti na externích službách, jako jsou registrátoři domén a poskytovatelé hostingu, a prosazuje větší nezávislost při správě vlastní online přítomnosti.“</li>
+</ul>
+<h2><a href="https://blogscroll.com/">„BlogScroll – Otevřený adresář osobních stránek a blogů“</a></h2>
+<ul>
+<li>„BlogScroll je otevřený adresář osobních stránek a blogů, který klade důraz na digitální prostory mimo velké technologické společnosti, a je udržován na GitHubu Denem Delimarským. - Uživatelé mohou přispívat do BlogScroll prostřednictvím GitHubu nebo zasláním e-mailu tvůrci a aktualizace jsou dostupné prostřednictvím RSS kanálu. - Adresář zahrnuje různé kategorie, jako jsou design-a-ux, osobní, foto-video-produkce a technologie, a představuje příspěvky od mnoha jednotlivců.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42583086">Reakce</a></h3>
+<ul>
+<li>„BlogScroll je otevřený adresář pro osobní stránky a blogy, zaměřující se na sdílení digitálních zahrad, které jsou některými uživateli považovány za jakékoli osobní stránky.“</li>
+<li>„Hostovaný na GitHubu, BlogScroll vyvolal diskuse o své povaze „uzavřené zahrady“, s návrhy na export OPML a zlepšení škálovatelnosti.“</li>
+<li>„Projekt podporuje příspěvky k rozšíření svého seznamu, což odráží obnovený zájem o osobní webové prostory a výzvy spojené s udržováním nezávislého, kurátorského obsahu online.“</li>
+</ul>
+<h2><a href="https://tavianator.com/2025/shlx.html">„Anomálie Alder Lake SHLX“</a></h2>
+<ul>
+<li>„Harold Aptroot zjistil, že instrukce SHLX na procesorech Intel Alder Lake vykazuje „střední latenci“ 3 cykly, což je netypické pro operace posunu doleva, které obvykle trvají 1 cyklus. - Tento problém s latencí je specifický pro výkonnostní jádra Alder Lake a neovlivňuje efektivní jádra, což je v rozporu s tvrzeními Intelu o latenci 1 cyklu. - Latence se liší v závislosti na inicializaci registru počtu posunů, přičemž 32bitové instrukce nebo 64bitové instrukce bez okamžitých hodnot dosahují latence 1 cyklu, zatímco 64bitové instrukce s okamžitými hodnotami vedou k latenci 3 cykly.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42579969">Reakce</a></h3>
+<ul>
+<li>„Anomálie Alder Lake SHLX je problém s výkonem, kdy specifické instrukce, jako například <code>mov rcx, 1</code>, způsobují, že instrukce <code>SHLX</code> se vykonává pomaleji, pravděpodobně kvůli způsobu, jakým registr renamer zpracovává malé bezprostřední hodnoty.“</li>
+<li>„Tato anomálie může vést ke zpomalení až 3x a je obtížné ji reprodukovat, protože přepínání kontextu může resetovat stav registru, což neúmyslně zrychluje kód.“</li>
+<li>„Problém je nově objevený a primárně ovlivňuje počty posunů, což má dopad na instrukce jako <code>SHL</code>, ale ne na jiné jako <code>ANDN</code>, a obvykle není zohledňován kompilátory.“</li>
+</ul>
+<head>
+  <meta property="og:title" content="„Jsem bohatý a nemám tušení, co dělat.“" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EJsem%20bohat%C3%BD%20a%20nem%C3%A1m%20tu%C5%A1en%C3%AD%2C%20co%20d%C4%9Blat.%E2%80%9C&subheading=p%C3%A1tek%203.%20ledna%202025%3A%20Hacker%20News%20Shrnut%C3%AD" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/cs/2025/01/03</link>
+            <guid isPermaLink="false">2025-01-03T00:00:00.000Z</guid>
+            <pubDate>Fri, 03 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-02]]></title>
             <description
@@ -347,131 +434,6 @@
             <link>https://hn.cho.sh/cs/2024/12/25</link>
             <guid isPermaLink="false">2024-12-25T00:00:00.000Z</guid>
             <pubDate>Wed, 25 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-24]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/24&#39;</h2>
-<h1>2024-12-24</h1>
-<h2><a href="https://www.youtube.com/watch?v=JfZxOuc9Qwk">„Co se stalo s největší televizí s obrazovkou na světě? [video]“</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42497093">Reakce</a></h3>
-<ul>
-<li>„YouTube influencer zachránil největší trubkovou televizi na světě, vzácný model Sony, před zničením a přemístil ji z Japonska do USA pro osobní použití. Toto rozhodnutí vyvolalo debatu o tom, zda by takové unikátní artefakty měly být uchovávány v muzeích namísto soukromých sbírek. Situace zdůrazňuje obtíže při zachování vzácných předmětů a složité otázky týkající se vlastnictví a kulturního dědictví.“</li>
-</ul>
-<h2><a href="https://mathstodon.xyz/@johncarlosbaez/113703444230936435">„Číslo pí má zlého dvojníka“</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42499567">Reakce</a></h3>
-<ul>
-<li>„Lemniskátová konstanta, označovaná jako ϖ, je spojena s křivkou ve tvaru ∞ a je protějškem čísla pí.“</li>
-<li>„Diskuse zdůrazňují jeho potenciální aplikace ve vědecké fikci, jeho pravopisné varianty a jeho matematický význam.“</li>
-<li>„Konverzace také zkoumá kulturní a historické vlivy na jazyk a matematiku, zejména řecké a arabské příspěvky.“</li>
-</ul>
-<h2><a href="https://events.ccc.de/congress/2024/infos/index.html">„38. Chaos Communication Congress“</a></h2>
-<ul>
-<li>„38. Chaos Communication Congress (38C3) je naplánován na konání v Hamburku od 27. do 30. prosince 2024, organizovaný Chaos Computer Clubem. Tato každoroční akce klade důraz na průsečík technologie, společnosti a utopie, nabízí přednášky, workshopy a diskuse o dopadu technologií. Účastníci jsou vyzváni k zapojení se prostřednictvím dobrovolnictví, pořádání akcí nebo prezentace projektů, přičemž klíčové informace jsou dostupné na informačních stránkách a blogu akce.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42500475">Reakce</a></h3>
-<ul>
-<li>„38. Chaos Communication Congress (CCC) přitahuje pozornost svými rozmanitými přednáškami o umělé inteligenci, biologii a vestavěných systémech, přičemž vyzdvihuje sérii Joschy Bacha „Od výpočtu k vědomí“. Akce je známá svými nemainstreamovými diskusemi a bude živě přenášena, přičemž se bude zabývat výzvami, jako je prodej vstupenek a rovnováha mezi technickými a společenskými tématy. CCC je klíčovou událostí pro hackerskou komunitu, zaměřuje se na otevřenost a inkluzivitu a zkoumá politické a kulturní aspekty, včetně používání jazyka.“</li>
-</ul>
-<h2><a href="https://www.digikey.com/en/maker/projects/a-step-by-step-guide-to-build-a-low-cost-drone-using-esp32/8afccd0690574bcebfa0d2ad6fd0a391">„Postavte si levný dron pomocí ESP32“</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42498648">Reakce</a></h3>
-<ul>
-<li>„Ekosystém DIY dronů se rozšiřuje, s dostupnými komponenty, jako jsou mikrořadiče pro řízení letu (MCU), ovladače motorů a kamery, které jsou k dispozici pro přizpůsobení.“</li>
-<li>„Open-source software jako Betaflight a ArduPilot podporuje tyto DIY konstrukce a nabízí alternativy k proprietárním systémům jako DJI, i když v některých oblastech momentálně zaostávají.“</li>
-<li>„Mikrokontrolér ESP32 je cenově výhodnou možností pro projekty dronů, přičemž základní sestavy stojí kolem 500 dolarů, a to i přes výzvy, jako je řízení v reálném čase přes WiFi.“</li>
-</ul>
-<h2><a href="https://blog.mlc.ai/2023/08/09/Making-AMD-GPUs-competitive-for-LLM-inference">„Zpřístupnění GPU od AMD pro konkurenceschopné využití při inferenci velkých jazykových modelů (2023)“</a></h2>
-<ul>
-<li>„MLC-LLM usnadňuje kompilaci a nasazení velkých jazykových modelů (LLM) na GPU od AMD pomocí ROCm, čímž dosahuje výkonu blízkého špičkovým GPU od NVIDIA. AMD Radeon RX 7900 XTX nabízí konkurenceschopný výkon, dosahuje 80 % rychlosti NVIDIA RTX 4090 a 94 % RTX 3090 Ti pro specifické modely, přičemž je výrazně cenově dostupnější. Projekt zdůrazňuje potenciál GPU od AMD pro inferenci LLM, s probíhajícími vylepšeními v softwarové podpoře a plány na budoucí vylepšení, jako je dávkování a podpora více GPU.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42498634">Reakce</a></h3>
-<ul>
-<li>„Spotřebitelské GPU od AMD, jako je RX7900XTX, se liší architekturou od jejich datacentrových GPU, jako je MI300X, což ovlivňuje úrovně výkonu. Roste snaha integrovat architekturu CDNA od AMD a podporu HIP (Heterogeneous-compute Interface for Portability) do platforem pro hluboké učení, s cílem vyzvat dominanci Nvidie v AI pracovních zátěžích. Navzdory zvýšenému zájmu přetrvávají výzvy, jako je podpora softwaru a konzistence výkonu, což vede některé vývojáře k návratu k Nvidii, která si udržuje významnou výhodu se svou platformou CUDA (Compute Unified Device Architecture).“</li>
-</ul>
-<h2><a href="https://seangeiger.substack.com/p/why-are-cancer-guidelines-stuck-in">„Proč jsou pokyny pro léčbu rakoviny uvězněny v PDF formátech?“</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42498462">Reakce</a></h3>
-<ul>
-<li>„Pokyny pro léčbu rakoviny jsou často ukládány ve formátu PDF kvůli jejich odolnosti a přenositelnosti, a to navzdory omezením v použitelnosti a integraci s lékařskými systémy. Přechod na strukturovaná data by mohl zlepšit použitelnost, ale výzvy zahrnují složitost lékařských informací, nedostatek standardizace a regulační překážky. Debata se soustředí na vyvážení spolehlivosti PDF s potenciálními výhodami dynamických, strojově interpretovatelných datových řešení, s ohledem na potřebu konzistentních aktualizací a řízení chyb v automatizovaných systémech.“</li>
-</ul>
-<h2><a href="https://github.com/isledecomp/isle">„Kompletní dekompilace Lego Island“</a></h2>
-<ul>
-<li>„Projekt zahrnuje kompletní dekompilaci LEGO Island (verze 1.1, anglická), s cílem co nejvěrněji replikovat původní strojový kód.“</li>
-<li>„Využívá CMake pro sestavování, přičemž pro optimální výsledky se doporučuje Microsoft Visual C++ 4.20, a zahrnuje nastavení prostředí, konfiguraci pomocí CMake a sestavování s nmake.“</li>
-<li>„Jsou vítány příspěvky, které se zaměřují konkrétně na anglickou verzi 1.1, s průběžnými vylepšeními dekompilovaných souborů ISLE.EXE a LEGO1.DLL.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42497173">Reakce</a></h3>
-<ul>
-<li>„Projekt na GitHubu úspěšně dekompiloval klasickou hru Lego Island, čímž vylepšil předchozí snahy o opravu chyb v původní hře. MattKC, YouTuber známý pro technický obsah, sehrál významnou roli v tomto dekompilačním projektu, který klade důraz na přesnost a zahrnuje nástroje jako lint nástroj a editor zdrojů. Projekt vzbudil zájem o remaky starých LEGO her, přičemž fanoušci vyjadřují nostalgii po titulech jako Rock Raiders a Lego Loco, což zdůrazňuje ocenění komunity za zachování a vylepšení těchto klasických her.“</li>
-</ul>
-<h2><a href="https://www.cfodive.com/news/intel-shareholders-yank-exceo-cfo-compensation-foundry/736193/">„Akcionáři společnosti Intel podali žalobu, v níž žádají bývalého generálního ředitele a finančního ředitele, aby vrátili tříletý plat.“</a></h2>
-<ul>
-<li>„Akcionáři společnosti Intel požadují vrácení odměn od bývalého generálního ředitele Pata Gelsingera a finančního ředitele Davida Zinsnera, obviňují je z klamání akcionářů ohledně finanční výkonnosti slévárenské jednotky Intelu.“</li>
-<li>„Žaloba tvrdí porušení svěřeneckých povinností po neúspěšném plánu obratu společnosti Intel a rekordní čtvrtletní ztrátě ve výši 16,6 miliardy dolarů, což vedlo k poklesu akcií Intelu o 9,2 %.“</li>
-<li>„Slévárenská jednotka, která měla původně pohánět růst, byla později identifikována jako významné nákladové středisko, což vedlo k restrukturalizačním snahám Zinsnera, nyní spoluprozatímního generálního ředitele, zatímco Gelsinger rezignoval.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42500482">Reakce</a></h3>
-<ul>
-<li>„Akcionáři společnosti Intel podali žalobu proti bývalému generálnímu řediteli a finančnímu řediteli, požadují vrácení tříletého platu kvůli neúspěšnému obchodnímu plánu.“</li>
-<li>„Kritici tvrdí, že žaloba je neopodstatněná, protože vedoucí pracovníci uznali výzvy, kterým čelí jednotka Foundry společnosti Intel.“</li>
-<li>„Žaloba zdůrazňuje napětí mezi akcionáři a vedením společnosti, přičemž někteří ji považují za zbytečnou akci motivovanou finančním ziskem.“</li>
-</ul>
-<h2><a href="https://twitter.com/spatiallyjess/status/1871342549958537326">„Tokio zveřejnilo bodová mračna dat celého města zdarma“</a></h2>
-<ul>
-<li>„Tokio zpřístupnilo bezplatná data bodových mračen celého města, která jsou k dispozici ke stažení veřejnosti.“</li>
-<li>„Data mračna bodů jsou sbírkou datových bodů v prostoru, často používanou v 3D modelování a geografických informačních systémech (GIS).“</li>
-<li>„Toto vydání je významné, protože poskytuje cenné zdroje pro vývojáře, výzkumníky a urbanisty, kteří se zajímají o 3D modelování a prostorovou analýzu Tokia.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42501102">Reakce</a></h3>
-<ul>
-<li>„Tokio zpřístupnilo bezplatná data bodových mračen celého města, což umožňuje interaktivní 3D navigaci a průzkum. Tato iniciativa je podobná těm ve Švýcarsku a Francii, kde byly zveřejněny podrobné 3D modely a lidarová data. Tyto datové sady jsou obzvláště cenné pro aplikace v počítačově generovaném zobrazení (CGI), videohrách a dalších 3D technologiích.“</li>
-</ul>
-<h2><a href="https://www.rfleury.com/p/demystifying-debuggers-part-2-the">„Demystifikace ladicích programů, část 2: Anatomie běžícího programu“</a></h2>
-<ul>
-<li>„Článek &#39;Demystifying Debuggers, Part 2: The Anatomy Of A Running Program&#39; vysvětluje komponenty zapojené do provádění programu, jako jsou virtuální adresní prostory, vlákna a procesy. Podrobně popisuje, jak operační systémy využívají virtuální paměť a plánování k řízení více programů běžících současně. Příspěvek je součástí série zaměřené na vysvětlení, jak debuggery interagují s těmito procesy k analýze provádění programu.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42498982">Reakce</a></h3>
-<ul>
-<li>„Ladicí programy jsou klíčové pro analýzu běžících programů a jejich integrace s velkými jazykovými modely (LLM) by mohla potenciálně zlepšit jejich funkčnost.“</li>
-<li>„Mezi vývojáři probíhá debata o potenciálu LLM při ladění, přičemž někteří jsou optimističtí ohledně jejich schopností sledovat chyby, zatímco jiní jsou skeptičtí k jejich současné účinnosti.“</li>
-<li>„Diskuse zdůrazňuje různé pohledy na praktiky ladění a vyvíjející se roli LLM v softwarovém vývoji.“</li>
-</ul>
-<h2><a href="https://sakana.ai/asal/">„Automatizace hledání umělého života pomocí základních modelů“</a></h2>
-<ul>
-<li>„Algoritmus Automatizovaného Hledání Umělého Života (ASAL) využívá základní modely AI pro vidění a jazyk k objevování umělých životních forem v simulacích, čímž posiluje oblast výzkumu Umělého Života (ALife). ASAL úspěšně identifikoval nové životní formy v simulacích jako Lenia, Boids, Particle Life a Game of Life, přičemž předvedl dynamické vzory a nové pravidla celulárních automatů. Tento přístup automatizuje proces objevování, překonává omezení ručně navržených simulací a podporuje další průzkum a spolupráci při integraci konceptů ALife do AI pro adaptivnější a kreativnější systémy.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42499332">Reakce</a></h3>
-<ul>
-<li>„Integrace základních modelů do automatizace hledání umělého života (ALife) se stává tématem zájmu, což zdůrazňuje rozdíl mezi umělou inteligencí (AI) a ALife. - Kniha „The Self-Assembling Brain“ zkoumá inteligenci z různých úhlů pohledu a přispívá k probíhající diskusi. - Sakana AI, společnost založená autory vlivného článku „Attention Is All You Need“, se zaměřuje na komercializaci AI, podporovanou investicemi rizikového kapitálu, a je součástí diskusí o roli AI při analýze dat z Hledání mimozemské inteligence (SETI).“</li>
-</ul>
-<h2><a href="https://onlinelibrary.wiley.com/doi/10.1002/spe.3296">„Zpracování milionů URL za sekundu (2023)“</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42498514">Reakce</a></h3>
-<ul>
-<li>„Diskuse se zaměřuje na výzvy spojené s analýzou milionů URL za sekundu, zejména na problémy s normalizací URL a chyby při analýze.“</li>
-<li>„Existuje debata o nutnosti změny „http://“ na „https://“ a spolehlivosti HTTPS, přičemž někteří jsou skeptičtí ohledně tvrzení o výkonu parseru.“</li>
-<li>„Účastníci také diskutují o obtížích při psaní efektivních parserů, omezeních používání regulárních výrazů (regex) pro analýzu URL a složitostech dodržování různých specifikací URL.“</li>
-</ul>
-<h2><a href="https://www.theguardian.com/travel/2024/dec/24/paris-to-berlin-by-train-faster-service-via-strasbourg">„Cesta vlakem z Paříže do Berlína je nyní o pět hodin rychlejší“</a></h2>
-<ul>
-<li>„Deutsche Bahn a SNCF spustily novou přímou denní vlakovou linku z Paříže do Berlína, která zkracuje dobu cestování o pět hodin na 7 hodin a 59 minut.“</li>
-<li>„Trasa zahrnuje malebné výhledy a zastávky ve Štrasburku, Karlsruhe a Frankfurtu, přičemž ceny jízdenek začínají na 59,99 € pro druhou třídu.“</li>
-<li>„I když služba nabízí pohodlnější cestovní zážitek, někteří tvrdí, že musí být rychlejší, aby mohla účinně konkurovat letecké dopravě.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42500704">Reakce</a></h3>
-<ul>
-<li>„Nové přímé vlakové spojení mezi Paříží a Berlínem zkracuje dobu cestování o pět hodin a nabízí pohodlnější cestu ve srovnání s leteckou dopravou.“</li>
-<li>„Vlaky jsou šetrné k životnímu prostředí, produkují nižší emise CO2, ale vyžadují značné investice do infrastruktury.“</li>
-<li>„Ačkoli může být cestování vlakem nákladnější a méně flexibilní než létání, mnoho cestovatelů ho upřednostňuje pro jeho pohodlí a pohodlnost.“</li>
-</ul>
-<head>
-  <meta property="og:title" content="„Co se stalo s největší televizí s obrazovkou na světě? [video]“" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9ECo%20se%20stalo%20s%20nejv%C4%9Bt%C5%A1%C3%AD%20televiz%C3%AD%20s%20obrazovkou%20na%20sv%C4%9Bt%C4%9B%3F%20%5Bvideo%5D%E2%80%9C&subheading=%C3%BAter%C3%BD%2024.%20prosince%202024%3A%20Hacker%20News%20Shrnut%C3%AD" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/cs/2024/12/24</link>
-            <guid isPermaLink="false">2024-12-24T00:00:00.000Z</guid>
-            <pubDate>Tue, 24 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

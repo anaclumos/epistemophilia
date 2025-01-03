@@ -1,0 +1,154 @@
+[
+  {
+    "id": 42579873,
+    "title": "Je suis riche et je n'ai aucune idée de quoi faire",
+    "originLink": "https://vinay.sh/i-am-rich-and-have-no-idea-what-to-do-with-my-life/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579873",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Le post aborde la lutte commune pour trouver un but après avoir atteint le succès financier, ce qui peut mener à des sentiments de désillusion et d'isolement. - Il suggère que l'épanouissement peut être trouvé en développant les autres, en construisant des liens ou en poursuivant de nouveaux intérêts, en soulignant l'importance d'un but au-delà de la richesse financière. - La discussion met également en lumière les défis de maintenir des relations lorsque la richesse crée une division sociale, soulignant le besoin d'activités et de connexions significatives pour favoriser un sentiment d'appartenance."
+    ],
+    "points": 793,
+    "commentCount": 1375,
+    "retryCount": 0,
+    "time": 1735858215
+  },
+  {
+    "id": 42579472,
+    "title": "Version critique de sécurité d'iTerm2",
+    "originLink": "https://iterm2.com/downloads/stable/iTerm2-3_5_11.changelog",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579472",
+    "commentBody": "",
+    "originSummary": [
+      "iTerm2 version 3.5.11, publié le 2 janvier 2025, résout une vulnérabilité de sécurité critique liée à la fonctionnalité d'intégration SSH dans les versions précédentes. - Le bug impliquait l'enregistrement des entrées/sorties dans un fichier sur l'hôte distant, qui pouvait être accessible par d'autres, affectant les utilisateurs des versions 3.5.6 à 3.5.10 et certaines versions bêta. - Il est conseillé aux utilisateurs de mettre à jour immédiatement vers la version 3.5.11, de supprimer le fichier /tmp/framer.txt et de vérifier la mise à jour en utilisant le SHA-256 et la signature PGP fournis pour garantir la sécurité."
+    ],
+    "commentSummary": [
+      "iTerm2 a publié une mise à jour de sécurité critique pour corriger un bug dans son intégration SSH, qui enregistrait les entrées et sorties dans un fichier sur l'hôte distant, exposant potentiellement les données à d'autres utilisateurs.",
+      "Le problème a été causé par l'activation accidentelle de la journalisation détaillée en production, ce qui a suscité des discussions sur l'importance des hooks de pré-validation et des mesures de protection pour éviter des erreurs similaires.",
+      "L'incident a déclenché un débat sur le passage à des alternatives comme Ghostty ou Terminal.app, tout en mettant en lumière l'équilibre entre les logiciels riches en fonctionnalités et les risques de sécurité."
+    ],
+    "points": 647,
+    "commentCount": 412,
+    "retryCount": 0,
+    "time": 1735855722
+  },
+  {
+    "id": 42584400,
+    "title": "Les LLM peuvent-ils écrire un meilleur code si vous continuez à leur demander d'« écrire un meilleur code » ?",
+    "originLink": "https://minimaxir.com/2025/01/write-better-code/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42584400",
+    "commentBody": "",
+    "originSummary": [
+      "En novembre 2023, une tendance de mèmes impliquait des utilisateurs demandant à ChatGPT d'améliorer de manière itérative des images, ce qui a ensuite été appliqué au code en utilisant Claude 3.5 Sonnet pour améliorer un programme Python. - Les premières tentatives avec des invites vagues comme \"écrire un meilleur code\" ont montré quelques améliorations, mais une ingénierie d'invite structurée avec des objectifs d'optimisation spécifiques a conduit à des améliorations significatives des performances. - L'expérience a souligné l'importance de la supervision humaine, car bien que les modèles de langage de grande taille (LLM) puissent offrir des idées innovantes, ils peuvent également introduire des bogues subtils lors de l'optimisation du code."
+    ],
+    "commentSummary": [
+      "Les modèles de langage de grande taille (LLMs) génèrent souvent du code basique en raison de leur formation sur de nombreux tutoriels, ce qui peut les amener à manquer des optimisations simples qui pourraient améliorer les performances du code. - Solliciter de manière itérative les LLMs pour améliorer le code peut donner de meilleurs résultats, mais ce processus peut être aussi chronophage que la programmation manuelle. - La discussion souligne les limites des LLMs dans la compréhension des optimisations complexes et met en avant l'importance de fournir un contexte et des instructions spécifiques pour améliorer la qualité du code."
+    ],
+    "points": 453,
+    "commentCount": 271,
+    "retryCount": 0,
+    "time": 1735900244
+  },
+  {
+    "id": 42577736,
+    "title": "Advent of Code 2024 en SQL pur",
+    "originLink": "http://databasearchitects.blogspot.com/2024/12/advent-of-code-2024-in-pure-sql.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42577736",
+    "commentBody": "",
+    "originSummary": [
+      "Thomas Neumann a partagé son expérience de résolution des défis de l'Advent of Code 2024 en utilisant uniquement du SQL, soulignant que c'était un exercice d'approches alternatives de résolution de problèmes. - Neumann a réussi à relever tous les défis, bien qu'il ait noté les limitations du SQL dans la gestion des algorithmes complexes et des mises à jour d'état, suggérant des améliorations potentielles pour l'efficacité du SQL. - Le billet de blog inclut une solution SQL détaillée pour un défi et discute de la possibilité d'améliorer le SQL pour mieux prendre en charge l'exécution d'algorithmes complexes directement au sein des bases de données."
+    ],
+    "commentSummary": [
+      "Advent of Code 2024 en SQL pur met en avant la capacité de SQL à gérer des défis complexes, suscitant l'intérêt pour ses performances et sa structure logique.",
+      "Les discussions révèlent des expériences variées avec SQL, allant de l'optimisation des procédures stockées à son utilisation pour la logique métier, mettant en lumière à la fois ses forces et ses défis.",
+      "La conversation explore également le potentiel des langages similaires à SQL et l'équilibre entre la logique de base de données et le code applicatif, reflétant des opinions diverses sur le rôle de SQL dans le développement logiciel."
+    ],
+    "points": 431,
+    "commentCount": 97,
+    "retryCount": 0,
+    "time": 1735845650
+  },
+  {
+    "id": 42578237,
+    "title": "Une cour d'appel des États-Unis annule les règles de neutralité du net de la FCC",
+    "originLink": "https://www.tvtechnology.com/news/sixth-circuit-of-appeals-strikes-down-fccs-net-neutrality-rules",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42578237",
+    "commentBody": "",
+    "originSummary": [
+      "Une cour d'appel des États-Unis a invalidé les règles de neutralité du net de la FCC, qui imposaient un traitement égal du trafic internet par les fournisseurs à large bande, invoquant un dépassement de l'autorité légale par la FCC.",
+      "Cette décision fait référence à un arrêt de la Cour suprême qui limite les pouvoirs des agences de régulation, affectant la capacité de la FCC à faire respecter la neutralité du net.",
+      "Le président de la FCC, Jessica Rosenworcel, a appelé le Congrès à légiférer sur la neutralité du net, tandis que le commissaire Brendan Carr a soutenu la décision de la cour comme un frein à l'excès de réglementation."
+    ],
+    "commentSummary": [
+      "Une cour d'appel américaine a invalidé les règles de neutralité du net de la FCC, invoquant une autorité légale insuffisante en vertu de la loi actuelle. - La décision fait suite à l'annulation par la Cour suprême de la déférence Chevron, qui avait permis à des agences comme la FCC d'interpréter largement les lois. - La cour a classé les fournisseurs de services à large bande comme offrant un \"service d'information\", et non un \"service de télécommunications\", restreignant ainsi le pouvoir réglementaire de la FCC et mettant fin aux règles fédérales de neutralité du net, ce qui pourrait permettre aux FAI de ralentir ou de prioriser le trafic Internet."
+    ],
+    "points": 356,
+    "commentCount": 302,
+    "retryCount": 0,
+    "time": 1735848335
+  },
+  {
+    "id": 42581119,
+    "title": "Soyez propriétaire et non locataire sur Internet",
+    "originLink": "https://den.dev/blog/be-a-property-owner-not-a-renter-on-the-internet/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42581119",
+    "commentBody": "",
+    "originSummary": [
+      "L'article souligne l'importance de posséder votre espace numérique plutôt que de dépendre uniquement des grandes plateformes internet, qui privilégient souvent leur croissance au détriment des intérêts des utilisateurs. - Les stratégies pour maintenir le contrôle de votre présence en ligne incluent la possession d'un domaine, la diversification du contenu sur plusieurs plateformes, et la création de liens directs avec les audiences via des listes de diffusion. - En créant votre propre propriété web, vous assurez flexibilité et résilience dans vos efforts numériques, réduisant ainsi la dépendance à un réseau unique."
+    ],
+    "commentSummary": [
+      "Le débat souligne l'importance de posséder sa présence numérique plutôt que de dépendre des plateformes de médias sociaux, en abordant les préoccupations concernant l'exploitation par l'IA du contenu généré par les utilisateurs. - Il explore les complexités du droit d'auteur, de l'éthique de l'IA, et l'importance d'avoir un site web personnel ou un domaine pour un meilleur contrôle des données en ligne. - La conversation prend également en compte la praticité et les limites de l'auto-hébergement, compte tenu de la dépendance aux services externes comme les registraires de domaines et les fournisseurs d'hébergement, plaidant pour plus d'indépendance dans la gestion de sa présence en ligne."
+    ],
+    "points": 295,
+    "commentCount": 211,
+    "retryCount": 0,
+    "time": 1735867317
+  },
+  {
+    "id": 42583086,
+    "title": "BlogScroll – Un annuaire ouvert de sites personnels et de blogs",
+    "originLink": "https://blogscroll.com/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42583086",
+    "commentBody": "",
+    "originSummary": [
+      "BlogScroll est un annuaire ouvert de sites personnels et de blogs, mettant l'accent sur les espaces numériques en dehors des grandes entreprises technologiques, et est maintenu sur GitHub par Den Delimarsky. - Les utilisateurs peuvent contribuer à BlogScroll via GitHub ou en envoyant un e-mail au créateur, et les mises à jour sont disponibles via un flux RSS. - L'annuaire comprend diverses catégories telles que design-et-ux, personnel, production-photo-vidéo, et technologie, mettant en valeur les contributions de nombreuses personnes."
+    ],
+    "commentSummary": [
+      "BlogScroll est un annuaire ouvert pour les sites personnels et les blogs, se concentrant sur le partage de jardins numériques, qui sont débattus comme tout site personnel par certains utilisateurs.",
+      "Présenté sur GitHub, BlogScroll a suscité des discussions sur sa nature de « jardin clos », avec des suggestions pour l'exportation OPML et des améliorations de la scalabilité.",
+      "Le projet encourage les soumissions pour élargir sa liste, reflétant un intérêt renouvelé pour les espaces web personnels et les défis de maintenir un contenu indépendant et organisé en ligne."
+    ],
+    "points": 262,
+    "commentCount": 70,
+    "retryCount": 0,
+    "time": 1735885431
+  },
+  {
+    "id": 42579969,
+    "title": "L'anomalie Alder Lake SHLX",
+    "originLink": "https://tavianator.com/2025/shlx.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579969",
+    "commentBody": "",
+    "originSummary": [
+      "Harold Aptroot a découvert que l'instruction SHLX sur les processeurs Alder Lake d'Intel présente une \"latence moyenne\" de 3 cycles, ce qui est atypique pour les opérations de décalage à gauche qui prennent généralement 1 cycle. - Ce problème de latence est spécifique aux cœurs de performance d'Alder Lake et n'affecte pas les cœurs d'efficacité, contredisant les affirmations d'Intel d'une latence de 1 cycle. - La latence varie en fonction de l'initialisation du registre de décalage, avec des instructions 32 bits ou des instructions 64 bits sans immédiats atteignant une latence de 1 cycle, tandis que les instructions 64 bits avec immédiats entraînent une latence de 3 cycles."
+    ],
+    "commentSummary": [
+      "L'anomalie Alder Lake SHLX est un problème de performance où des instructions spécifiques, telles que `mov rcx, 1`, entraînent une exécution plus lente de l'instruction `SHLX`, potentiellement en raison de la gestion des petites constantes immédiates par le renommeur de registres.",
+      "Cette anomalie peut entraîner un ralentissement de 3x et est difficile à reproduire car les commutations de contexte peuvent réinitialiser l'état du registre, accélérant involontairement le code.",
+      "Le problème est nouvellement découvert et affecte principalement les comptes de décalage, impactant des instructions comme `SHL`, mais pas d'autres comme `ANDN`, et n'est généralement pas pris en compte par les compilateurs."
+    ],
+    "points": 194,
+    "commentCount": 68,
+    "retryCount": 0,
+    "time": 1735858848
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "id": 42579873,
+    "title": "Jeg er rig og har ingen idé om, hvad jeg skal gøre",
+    "originLink": "https://vinay.sh/i-am-rich-and-have-no-idea-what-to-do-with-my-life/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579873",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Indlægget diskuterer den almindelige kamp for at finde formål efter at have opnået økonomisk succes, hvilket kan føre til følelser af desillusion og isolation. - Det foreslår, at opfyldelse kan findes i at udvikle andre, opbygge forbindelser eller forfølge nye interesser, og understreger vigtigheden af formål ud over økonomisk rigdom. - Diskussionen fremhæver også udfordringerne ved at opretholde relationer, når rigdom skaber en social kløft, og understreger behovet for meningsfulde aktiviteter og forbindelser for at fremme en følelse af tilhørsforhold."
+    ],
+    "points": 793,
+    "commentCount": 1375,
+    "retryCount": 0,
+    "time": 1735858215
+  },
+  {
+    "id": 42579472,
+    "title": "iTerm2 kritisk sikkerhedsudgivelse",
+    "originLink": "https://iterm2.com/downloads/stable/iTerm2-3_5_11.changelog",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579472",
+    "commentBody": "",
+    "originSummary": [
+      "iTerm2 version 3.5.11, udgivet den 2. januar 2025, løser en kritisk sikkerhedssårbarhed relateret til SSH-integrationsfunktionen i tidligere versioner. - Fejlen involverede logning af input/output til en fil på den eksterne vært, som kunne tilgås af andre, hvilket påvirkede brugere af versionerne 3.5.6 til 3.5.10 og visse beta-versioner. - Brugere rådes til straks at opdatere til version 3.5.11, slette filen /tmp/framer.txt og verificere opdateringen ved hjælp af den medfølgende SHA-256 og PGP-signatur for at sikre sikkerheden."
+    ],
+    "commentSummary": [
+      "iTerm2 udgav en kritisk sikkerhedsopdatering for at løse en fejl i dens SSH-integration, som loggede input og output til en fil på den eksterne vært, hvilket potentielt kunne afsløre data for andre brugere.",
+      "Problemet blev forårsaget af, at detaljeret logføring ved en fejl blev aktiveret i produktionen, hvilket førte til diskussioner om vigtigheden af pre-commit hooks og sikkerhedsforanstaltninger for at forhindre lignende fejl.",
+      "Begivenheden udløste en debat om at skifte til alternativer som Ghostty eller Terminal.app, samtidig med at den fremhævede balancen mellem funktionsrige software og sikkerhedsrisici."
+    ],
+    "points": 647,
+    "commentCount": 412,
+    "retryCount": 0,
+    "time": 1735855722
+  },
+  {
+    "id": 42584400,
+    "title": "Kan LLM'er skrive bedre kode, hvis du bliver ved med at bede dem om at \"skrive bedre kode\"?",
+    "originLink": "https://minimaxir.com/2025/01/write-better-code/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42584400",
+    "commentBody": "",
+    "originSummary": [
+      "I november 2023 involverede en meme-trend, at brugere bad ChatGPT om iterativt at forbedre billeder, hvilket derefter blev anvendt på kode ved hjælp af Claude 3.5 Sonnet til at forbedre et Python-program. - Indledende forsøg med vage prompts som \"skriv bedre kode\" viste nogle forbedringer, men struktureret prompt engineering med specifikke optimeringsmål førte til betydelige præstationsforbedringer. - Eksperimentet understregede vigtigheden af menneskelig overvågning, da store sprogmodeller (LLM'er) kan tilbyde innovative idéer, men også kan introducere subtile fejl under kodeoptimering."
+    ],
+    "commentSummary": [
+      "Store sprogmodeller (LLMs) genererer ofte grundlæggende kode på grund af deres træning på talrige tutorials, hvilket potentielt kan mangle simple optimeringer, der kunne forbedre kodeydelsen. - Iterativt at bede LLMs om at forbedre koden kan give bedre resultater, men denne proces kan være lige så tidskrævende som manuel kodning. - Diskussionen understreger begrænsningerne ved LLMs i at forstå komplekse optimeringer og fremhæver vigtigheden af at give kontekst og specifikke instruktioner for forbedret kodekvalitet."
+    ],
+    "points": 453,
+    "commentCount": 271,
+    "retryCount": 0,
+    "time": 1735900244
+  },
+  {
+    "id": 42577736,
+    "title": "Advent of Code 2024 i ren SQL",
+    "originLink": "http://databasearchitects.blogspot.com/2024/12/advent-of-code-2024-in-pure-sql.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42577736",
+    "commentBody": "",
+    "originSummary": [
+      "Thomas Neumann delte sin oplevelse med at løse Advent of Code 2024-udfordringerne ved hjælp af ren SQL og fremhævede det som en øvelse i alternative problemløsningsmetoder. - Neumann gennemførte alle udfordringerne med succes, selvom han bemærkede SQL's begrænsninger i håndtering af komplekse algoritmer og tilstandsopdateringer, og foreslog mulige forbedringer for SQL's effektivitet. - Blogindlægget inkluderer en detaljeret SQL-løsning for en udfordring og diskuterer muligheden for at forbedre SQL til bedre at understøtte udførelsen af komplekse algoritmer direkte i databaser."
+    ],
+    "commentSummary": [
+      "Advent of Code 2024 i ren SQL fremhæver SQL's evne til at håndtere komplekse udfordringer, hvilket vækker interesse for dens ydeevne og logiske struktur.",
+      "Diskussionen afslører forskellige erfaringer med SQL, fra optimering af lagrede procedurer til brug af det til forretningslogik, hvilket viser både dets styrker og udfordringer.",
+      "Diskussionen udforsker også potentialet i SQL-lignende sprog og balancen mellem databaselogik og applikationskode, hvilket afspejler forskellige meninger om SQL's rolle i softwareudvikling."
+    ],
+    "points": 431,
+    "commentCount": 97,
+    "retryCount": 0,
+    "time": 1735845650
+  },
+  {
+    "id": 42578237,
+    "title": "Amerikansk appelret ophæver FCC's netneutralitetsregler",
+    "originLink": "https://www.tvtechnology.com/news/sixth-circuit-of-appeals-strikes-down-fccs-net-neutrality-rules",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42578237",
+    "commentBody": "",
+    "originSummary": [
+      "En amerikansk appeldomstol har ugyldiggjort FCC's netneutralitetsregler, som krævede ligebehandling af internettrafik af bredbåndsudbydere, med henvisning til FCC's overskridelse af juridisk myndighed.",
+      "Beslutningen henviser til en højesteretsafgørelse, der begrænser de regulerende myndigheders beføjelser, hvilket påvirker FCC's evne til at håndhæve netneutralitet.",
+      "FCC-formand Jessica Rosenworcel opfordrede Kongressen til at lovgive om netneutralitet, mens kommissær Brendan Carr støttede rettens beslutning som en kontrol mod overdreven regulering."
+    ],
+    "commentSummary": [
+      "En amerikansk appeldomstol har ugyldiggjort FCC's netneutralitetsregler med henvisning til utilstrækkelig juridisk autoritet under gældende lov. - Afgørelsen følger Højesterets omstødelse af Chevron-deferens, som havde tilladt agenturer som FCC at fortolke love bredt. - Domstolen klassificerede bredbåndsudbydere som udbydere af en \"informationsservice\" og ikke en \"telekommunikationstjeneste,\" hvilket begrænser FCC's reguleringsmagt og afslutter de føderale netneutralitetsregler, hvilket potentielt tillader internetudbydere at begrænse eller prioritere internettrafik."
+    ],
+    "points": 356,
+    "commentCount": 302,
+    "retryCount": 0,
+    "time": 1735848335
+  },
+  {
+    "id": 42581119,
+    "title": "Vær en ejendomsejer og ikke en lejer på internettet",
+    "originLink": "https://den.dev/blog/be-a-property-owner-not-a-renter-on-the-internet/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42581119",
+    "commentBody": "",
+    "originSummary": [
+      "Artiklen understreger vigtigheden af at eje dit digitale rum i stedet for udelukkende at stole på store internetplatforme, som ofte prioriterer deres egen vækst over brugernes interesser. - Strategier for at opretholde kontrol over din online tilstedeværelse inkluderer at eje et domæne, diversificere indhold på tværs af flere platforme og opbygge direkte forbindelser med publikum gennem e-mail-lister. - Ved at skabe din egen web-ejendom sikrer du fleksibilitet og modstandsdygtighed i dine digitale bestræbelser, hvilket reducerer afhængigheden af et enkelt netværk."
+    ],
+    "commentSummary": [
+      "Diskussionen understreger vigtigheden af at eje sin digitale tilstedeværelse i stedet for at være afhængig af sociale medieplatforme, og adresserer bekymringer om AI's udnyttelse af bruger-genereret indhold. - Den udforsker kompleksiteterne vedrørende ophavsret, AI-etik og betydningen af at have en personlig hjemmeside eller domæne for bedre kontrol over online data. - Samtalen overvejer også praktikaliteten og begrænsningerne ved selv-hosting, givet afhængigheden af eksterne tjenester som domæneregistratorer og hostingudbydere, og argumenterer for mere uafhængighed i håndteringen af ens online tilstedeværelse."
+    ],
+    "points": 295,
+    "commentCount": 211,
+    "retryCount": 0,
+    "time": 1735867317
+  },
+  {
+    "id": 42583086,
+    "title": "BlogScroll – En åben oversigt over personlige sider og blogs",
+    "originLink": "https://blogscroll.com/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42583086",
+    "commentBody": "",
+    "originSummary": [
+      "BlogScroll er et åbent katalog over personlige sider og blogs, der lægger vægt på digitale rum uden for store teknologivirksomheder, og det vedligeholdes på GitHub af Den Delimarsky. - Brugere kan bidrage til BlogScroll via GitHub eller ved at sende en e-mail til skaberen, og opdateringer er tilgængelige via en RSS-feed. - Kataloget inkluderer forskellige kategorier som design-og-ux, personlig, foto-video-produktion og teknologi, der fremviser bidrag fra adskillige individer."
+    ],
+    "commentSummary": [
+      "BlogScroll er et åbent katalog for personlige sider og blogs, med fokus på at dele digitale haver, som af nogle brugere diskuteres som enhver personlig side.",
+      "Hostet på GitHub har BlogScroll skabt diskussioner om dets \"walled garden\"-natur, med forslag til OPML-eksport og forbedringer af skalerbarhed.",
+      "Projektet opfordrer til indsendelser for at udvide sin liste, hvilket afspejler en fornyet interesse for personlige webområder og udfordringerne ved at opretholde uafhængigt, kurateret indhold online."
+    ],
+    "points": 262,
+    "commentCount": 70,
+    "retryCount": 0,
+    "time": 1735885431
+  },
+  {
+    "id": 42579969,
+    "title": "Anomalien Alder Lake SHLX",
+    "originLink": "https://tavianator.com/2025/shlx.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579969",
+    "commentBody": "",
+    "originSummary": [
+      "Harold Aptroot opdagede, at SHLX-instruktionen på Intels Alder Lake-processorer udviser en \"medium latency\" på 3 cyklusser, hvilket er atypisk for venstreskift-operationer, der normalt tager 1 cyklus. - Dette latenstidsspørgsmål er specifikt for Alder Lakes performance-kerner og påvirker ikke effektivitetens kerner, hvilket modsiger Intels påstande om en latenstid på 1 cyklus. - Latenstiden varierer baseret på initialiseringen af skiftetællingsregisteret, hvor 32-bit instruktioner eller 64-bit instruktioner uden umiddelbare værdier opnår 1-cyklus latenstid, mens 64-bit instruktioner med umiddelbare værdier resulterer i 3-cyklus latenstid."
+    ],
+    "commentSummary": [
+      "Anomalien Alder Lake SHLX er et ydeevneproblem, hvor specifikke instruktioner, såsom `mov rcx, 1`, får `SHLX`-instruktionen til at udføre langsommere, muligvis på grund af registeromdøberens håndtering af små umiddelbare værdier.",
+      "Dette anomali kan føre til en 3x langsommere hastighed og er udfordrende at reproducere, fordi kontekstskift kan nulstille registertilstanden, hvilket utilsigtet kan fremskynde koden.",
+      "Problemet er nyopdaget og påvirker primært skiftoptællinger, hvilket har indflydelse på instruktioner som `SHL`, men ikke andre som `ANDN`, og det tages normalt ikke højde for af kompilatorer."
+    ],
+    "points": 194,
+    "commentCount": 68,
+    "retryCount": 0,
+    "time": 1735858848
+  }
+]

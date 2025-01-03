@@ -1,0 +1,154 @@
+[
+  {
+    "id": 42579873,
+    "title": "Minä olen rikas enkä tiedä mitä tehdä",
+    "originLink": "https://vinay.sh/i-am-rich-and-have-no-idea-what-to-do-with-my-life/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579873",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Kirjoitus käsittelee yleistä kamppailua löytää tarkoitus taloudellisen menestyksen saavuttamisen jälkeen, mikä voi johtaa pettymyksen ja eristyneisyyden tunteisiin. - Se ehdottaa, että täyttymystä voi löytää kehittämällä muita, rakentamalla yhteyksiä tai etsimällä uusia kiinnostuksen kohteita, korostaen tarkoituksen merkitystä taloudellisen vaurauden ulkopuolella. - Keskustelu tuo esiin myös haasteet suhteiden ylläpitämisessä, kun varallisuus luo sosiaalista eriarvoisuutta, korostaen merkityksellisten aktiviteettien ja yhteyksien tarvetta yhteenkuuluvuuden tunteen edistämiseksi."
+    ],
+    "points": 793,
+    "commentCount": 1375,
+    "retryCount": 0,
+    "time": 1735858215
+  },
+  {
+    "id": 42579472,
+    "title": "iTerm2 kriittinen tietoturvapäivitys",
+    "originLink": "https://iterm2.com/downloads/stable/iTerm2-3_5_11.changelog",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579472",
+    "commentBody": "",
+    "originSummary": [
+      "iTerm2 version 3.5.11, julkaistu 2. tammikuuta 2025, korjaa kriittisen tietoturva-aukon, joka liittyy SSH-integraatio-ominaisuuteen aiemmissa versioissa. - Virhe koski syötteen/ulostulon kirjaamista tiedostoon etäisännällä, johon muut saattoivat päästä käsiksi, vaikuttaen versioiden 3.5.6–3.5.10 ja tiettyjen beta-versioiden käyttäjiin. - Käyttäjiä kehotetaan päivittämään versioon 3.5.11 välittömästi, poistamaan /tmp/framer.txt-tiedosto ja varmistamaan päivitys käyttämällä annettua SHA-256- ja PGP-allekirjoitusta tietoturvan varmistamiseksi."
+    ],
+    "commentSummary": [
+      "iTerm2 julkaisi kriittisen tietoturvapäivityksen korjatakseen SSH-integraatiossaan olevan virheen, joka kirjasi syötteen ja tulosteen tiedostoon etäisännässä, mikä saattoi altistaa tiedot muille käyttäjille.",
+      "Asia johtui siitä, että yksityiskohtainen lokitus oli vahingossa otettu käyttöön tuotannossa, mikä johti keskusteluihin ennakkositoumusten koukkujen ja turvatoimien tärkeydestä vastaavien virheiden estämiseksi.",
+      "Tapauksen seurauksena heräsi keskustelu vaihtoehtoihin, kuten Ghosttyyn tai Terminal.appiin, siirtymisestä, samalla kun korostettiin tasapainoa ominaisuuksiltaan rikkaan ohjelmiston ja tietoturvariskien välillä."
+    ],
+    "points": 647,
+    "commentCount": 412,
+    "retryCount": 0,
+    "time": 1735855722
+  },
+  {
+    "id": 42584400,
+    "title": "Voivatko LLM:t kirjoittaa parempaa koodia, jos pyydät niitä jatkuvasti \"kirjoittamaan parempaa koodia\"?",
+    "originLink": "https://minimaxir.com/2025/01/write-better-code/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42584400",
+    "commentBody": "",
+    "originSummary": [
+      "Marraskuussa 2023 meemitrendi sisälsi käyttäjiä, jotka pyysivät ChatGPT:tä parantamaan kuvia iteratiivisesti, mikä sovellettiin sitten koodiin käyttämällä Claude 3.5 Sonnetia Python-ohjelman parantamiseksi. - Alkuperäiset yritykset epämääräisillä kehotteilla, kuten \"kirjoita parempaa koodia\", osoittivat joitakin parannuksia, mutta rakenteellinen kehotteiden suunnittelu erityisillä optimointitavoitteilla johti merkittäviin suorituskyvyn parannuksiin. - Kokeilu korosti ihmisen valvonnan tärkeyttä, sillä vaikka suuret kielimallit (LLM) voivat tarjota innovatiivisia ideoita, ne voivat myös tuoda mukanaan hienovaraisia virheitä koodin optimoinnin aikana."
+    ],
+    "commentSummary": [
+      "Suuret kielimallit (LLM:t) tuottavat usein peruskoodia, koska ne on koulutettu lukuisten tutoriaalien avulla, ja ne saattavat jättää huomiotta yksinkertaisia optimointeja, jotka voisivat parantaa koodin suorituskykyä. - LLM:ien iteratiivinen ohjeistaminen koodin parantamiseksi voi tuottaa parempia tuloksia, mutta tämä prosessi voi olla yhtä aikaa vievää kuin manuaalinen koodaus. - Keskustelu korostaa LLM:ien rajoituksia monimutkaisten optimointien ymmärtämisessä ja tuo esiin kontekstin ja tarkkojen ohjeiden merkityksen koodin laadun parantamisessa."
+    ],
+    "points": 453,
+    "commentCount": 271,
+    "retryCount": 0,
+    "time": 1735900244
+  },
+  {
+    "id": 42577736,
+    "title": "Advent of Code 2024 pelkässä SQL:ssä",
+    "originLink": "http://databasearchitects.blogspot.com/2024/12/advent-of-code-2024-in-pure-sql.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42577736",
+    "commentBody": "",
+    "originSummary": [
+      "Thomas Neumann jakoi kokemuksensa Advent of Code 2024 -haasteiden ratkaisemisesta pelkällä SQL:llä, korostaen sitä vaihtoehtoisena ongelmanratkaisumenetelmänä. - Neumann suoritti kaikki haasteet onnistuneesti, vaikka hän huomautti SQL:n rajoituksista monimutkaisten algoritmien ja tilapäivitysten käsittelyssä, ehdottaen mahdollisia parannuksia SQL:n tehokkuuteen. - Blogikirjoitus sisältää yksityiskohtaisen SQL-ratkaisun yhteen haasteeseen ja käsittelee mahdollisuutta parantaa SQL:ää tukemaan paremmin monimutkaisten algoritmien suorittamista suoraan tietokannoissa."
+    ],
+    "commentSummary": [
+      "Advent of Code 2024 puhtaalla SQL:llä korostaa SQL:n kykyä käsitellä monimutkaisia haasteita, herättäen kiinnostusta sen suorituskykyyn ja loogiseen rakenteeseen.",
+      "Keskustelu paljastaa erilaisia kokemuksia SQL:stä, aina tallennettujen proseduurien optimoinnista sen käyttöön liiketoimintalogiikassa, mikä tuo esiin sekä sen vahvuudet että haasteet.",
+      "Keskustelu tutkii myös SQL-kaltaisten kielten potentiaalia sekä tasapainoa tietokantaloogikan ja sovelluskoodin välillä, heijastaen erilaisia mielipiteitä SQL:n roolista ohjelmistokehityksessä."
+    ],
+    "points": 431,
+    "commentCount": 97,
+    "retryCount": 0,
+    "time": 1735845650
+  },
+  {
+    "id": 42578237,
+    "title": "Yhdysvaltain vetoomustuomioistuin kumoaa FCC:n verkon neutraalisuussäännöt",
+    "originLink": "https://www.tvtechnology.com/news/sixth-circuit-of-appeals-strikes-down-fccs-net-neutrality-rules",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42578237",
+    "commentBody": "",
+    "originSummary": [
+      "Yhdysvaltain vetoomustuomioistuin on mitätöinyt FCC:n verkon neutraalisuussäännöt, jotka edellyttivät laajakaistapalveluntarjoajien kohtelevan internetliikennettä tasapuolisesti, vedoten FCC:n oikeudellisen toimivallan ylittämiseen.",
+      "Ratkaisu viittaa korkeimman oikeuden päätökseen, joka rajoittaa sääntelyviranomaisten valtuuksia ja vaikuttaa FCC:n kykyyn valvoa verkon neutraaliutta.",
+      "FCC:n puheenjohtaja Jessica Rosenworcel kehotti kongressia säätämään verkkoneutraliteetista, kun taas komissaari Brendan Carr tuki tuomioistuimen päätöstä sääntelyvallan ylityksen hillitsemiseksi."
+    ],
+    "commentSummary": [
+      "Yhdysvaltain vetoomustuomioistuin on mitätöinyt FCC:n verkon neutraalisuussäännöt, vedoten riittämättömään lailliseen valtuutukseen nykyisen lain puitteissa. - Päätös seuraa korkeimman oikeuden Chevron-deferenssin kumoamista, joka oli sallinut virastojen, kuten FCC:n, tulkita laajasti säädöksiä. - Tuomioistuin luokitteli laajakaistapalveluntarjoajat tarjoamaan \"informaatiopalvelua\", ei \"telepalvelua\", mikä rajoittaa FCC:n sääntelyvaltaa ja lopettaa liittovaltion verkon neutraalisuussäännöt, mikä saattaa mahdollistaa internet-palveluntarjoajien hidastaa tai priorisoida internetliikennettä."
+    ],
+    "points": 356,
+    "commentCount": 302,
+    "retryCount": 0,
+    "time": 1735848335
+  },
+  {
+    "id": 42581119,
+    "title": "Ole internetissä omistaja, äläkä vuokralainen",
+    "originLink": "https://den.dev/blog/be-a-property-owner-not-a-renter-on-the-internet/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42581119",
+    "commentBody": "",
+    "originSummary": [
+      "Artikkeli korostaa oman digitaalisen tilan hallinnan tärkeyttä sen sijaan, että luottaisi pelkästään suuriin internet-alustoihin, jotka usein asettavat oman kasvunsa käyttäjien etujen edelle. - Strategioita verkkoläsnäolon hallinnan ylläpitämiseksi ovat esimerkiksi oman verkkotunnuksen omistaminen, sisällön monipuolistaminen useille alustoille ja suorien yhteyksien luominen yleisöihin sähköpostilistojen kautta. - Luomalla oman verkkosivuston varmistat joustavuuden ja kestävyyden digitaalisissa pyrkimyksissäsi, vähentäen riippuvuutta yhdestä verkostosta."
+    ],
+    "commentSummary": [
+      "Keskustelu korostaa oman digitaalisen läsnäolon hallinnan tärkeyttä sen sijaan, että luotettaisiin sosiaalisen median alustoihin, ja käsittelee huolia tekoälyn käyttäjien tuottaman sisällön hyväksikäytöstä. - Se tutkii tekijänoikeuksien, tekoälyn etiikan ja henkilökohtaisen verkkosivuston tai verkkotunnuksen merkityksen monimutkaisuutta paremman verkkodatan hallinnan kannalta. - Keskustelussa pohditaan myös itseisännöinnin käytännöllisyyttä ja rajoituksia, kun otetaan huomioon riippuvuus ulkoisista palveluista, kuten verkkotunnusrekistereistä ja hosting-palveluntarjoajista, ja kannustetaan suurempaan itsenäisyyteen oman verkkoläsnäolon hallinnassa."
+    ],
+    "points": 295,
+    "commentCount": 211,
+    "retryCount": 0,
+    "time": 1735867317
+  },
+  {
+    "id": 42583086,
+    "title": "BlogScroll – Avoin hakemisto henkilökohtaisille sivustoille ja blogeille",
+    "originLink": "https://blogscroll.com/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42583086",
+    "commentBody": "",
+    "originSummary": [
+      "BlogScroll on avoin hakemisto henkilökohtaisille sivustoille ja blogeille, joka korostaa suurten teknologiayritysten ulkopuolisia digitaalisia tiloja, ja sitä ylläpitää Den Delimarsky GitHubissa. - Käyttäjät voivat osallistua BlogScrolliin GitHubin kautta tai lähettämällä sähköpostia luojalle, ja päivitykset ovat saatavilla RSS-syötteen kautta. - Hakemisto sisältää erilaisia kategorioita, kuten design-ja-ux, henkilökohtainen, valokuva-video-tuotanto ja teknologia, esitellen lukuisten yksilöiden panoksia."
+    ],
+    "commentSummary": [
+      "BlogScroll on avoin hakemisto henkilökohtaisille sivustoille ja blogeille, keskittyen digitaalisten puutarhojen jakamiseen, joita jotkut käyttäjät pitävät minkä tahansa henkilökohtaisen sivuston kaltaisina.",
+      "GitHubissa isännöity BlogScroll on herättänyt keskustelua sen \"aidattu puutarha\" -luonteesta, ja siihen on ehdotettu OPML-vientiä ja skaalautuvuuden parannuksia.",
+      "Projekti kannustaa lähettämään ehdotuksia listan laajentamiseksi, mikä heijastaa uudistunutta kiinnostusta henkilökohtaisiin verkkotiloihin ja haasteisiin itsenäisesti ylläpidetyn, kuratoidun sisällön hallinnassa verkossa."
+    ],
+    "points": 262,
+    "commentCount": 70,
+    "retryCount": 0,
+    "time": 1735885431
+  },
+  {
+    "id": 42579969,
+    "title": "Anomalia Alder Lake SHLX",
+    "originLink": "https://tavianator.com/2025/shlx.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579969",
+    "commentBody": "",
+    "originSummary": [
+      "Harold Aptroot havaitsi, että Intelin Alder Lake -prosessoreiden SHLX-käskyssä on \"keskipitkä viive\" 3 sykliä, mikä on epätavallista vasemmalle siirtämiselle, joka yleensä vie 1 syklin. - Tämä viiveongelma on erityinen Alder Laken suorituskykyytimille eikä vaikuta tehokkuusytimiin, mikä on ristiriidassa Intelin väitteiden kanssa 1 syklin viiveestä. - Viive vaihtelee siirtolaskurin rekisterin alustuksen perusteella, ja 32-bittiset käskyt tai 64-bittiset käskyt ilman välittömiä saavuttavat 1 syklin viiveen, kun taas 64-bittiset käskyt välittömillä aiheuttavat 3 syklin viiveen."
+    ],
+    "commentSummary": [
+      "Alder Lake SHLX -anomalia on suorituskykyongelma, jossa tietyt ohjeet, kuten `mov rcx, 1`, aiheuttavat `SHLX`-ohjeen hitaamman suorittamisen, mahdollisesti johtuen rekisterin uudelleennimeäjän käsittelystä pienillä välittömillä arvoilla.",
+      "Tämä poikkeama voi johtaa kolminkertaiseen hidastumiseen ja on haastava toistaa, koska kontekstinvaihdot voivat nollata rekisteritilan, mikä saattaa tahattomasti nopeuttaa koodia.",
+      "Asia on äskettäin havaittu ja vaikuttaa ensisijaisesti siirtojen laskentaan, vaikuttaen ohjeisiin kuten `SHL`, mutta ei muihin kuten `ANDN`, eikä sitä yleensä oteta huomioon kääntäjissä."
+    ],
+    "points": 194,
+    "commentCount": 68,
+    "retryCount": 0,
+    "time": 1735858848
+  }
+]

@@ -15,12 +15,99 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 02 Jan 2025 19:16:11 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Jan 2025 19:08:50 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/ko.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Fri, 03 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[ko]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-03]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/03&#39;</h2>
+<h1>2025-01-03</h1>
+<h2><a href="https://vinay.sh/i-am-rich-and-have-no-idea-what-to-do-with-my-life/">나는 부자이고 무엇을 해야 할지 모르겠다</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42579873">반응</a></h3>
+<ul>
+<li>이 글은 재정적 성공을 이룬 후 목적을 찾는 데 어려움을 겪는 일반적인 문제를 다루며, 이는 환멸과 고립감을 초래할 수 있다고 설명합니다. - 다른 사람을 발전시키고, 관계를 구축하거나 새로운 관심사를 추구하는 것에서 성취감을 찾을 수 있으며, 재정적 부를 넘어서는 목적의 중요성을 강조합니다. - 또한 부가 사회적 격차를 만들 때 관계를 유지하는 데 어려움이 있다는 점을 강조하며, 소속감을 키우기 위해 의미 있는 활동과 연결이 필요하다고 지적합니다.</li>
+</ul>
+<h2><a href="https://iterm2.com/downloads/stable/iTerm2-3_5_11.changelog">iTerm2 중요 보안 릴리스</a></h2>
+<ul>
+<li>iTerm2 버전 3.5.11은 2025년 1월 2일에 출시되었으며, 이전 버전의 SSH 통합 기능과 관련된 심각한 보안 취약점을 해결합니다. - 이 버그는 원격 호스트에 있는 파일에 입력/출력을 기록하는 문제로, 다른 사람들이 접근할 수 있어 버전 3.5.6부터 3.5.10 및 특정 베타 버전의 사용자에게 영향을 미쳤습니다. - 사용자는 즉시 버전 3.5.11로 업데이트하고, /tmp/framer.txt 파일을 삭제하며, 제공된 SHA-256 및 PGP 서명을 사용하여 업데이트를 확인하여 보안 보장을 받는 것이 권장됩니다.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42579472">반응</a></h3>
+<ul>
+<li>iTerm2는 SSH 통합에서 입력 및 출력을 원격 호스트의 파일에 기록하여 다른 사용자에게 데이터를 노출할 가능성이 있는 버그를 해결하기 위해 중요한 보안 업데이트를 발표했습니다.</li>
+<li>문제는 프로덕션에서 우연히 자세한 로깅이 활성화되어 발생했으며, 이로 인해 유사한 오류를 방지하기 위한 사전 커밋 훅과 안전장치의 중요성에 대한 논의가 촉발되었습니다.</li>
+<li>이 사건은 Ghostty나 Terminal.app과 같은 대안으로 전환하는 것에 대한 논쟁을 촉발했으며, 기능이 풍부한 소프트웨어와 보안 위험 간의 균형을 강조했습니다.</li>
+</ul>
+<h2><a href="https://minimaxir.com/2025/01/write-better-code/">LLM에게 계속해서 &#39;더 나은 코드를 작성하라&#39;고 요청하면 더 나은 코드를 작성할 수 있을까요?</a></h2>
+<ul>
+<li>2023년 11월, 밈 트렌드로 사용자들이 ChatGPT에게 이미지를 반복적으로 개선하도록 요청하는 것이 있었고, 이는 Claude 3.5 Sonnet을 사용하여 Python 프로그램을 개선하는 코드에 적용되었습니다. - &#39;더 나은 코드를 작성하라&#39;와 같은 모호한 프롬프트로 초기 시도에서는 일부 개선이 있었지만, 특정 최적화 목표를 가진 구조화된 프롬프트 엔지니어링은 성능을 크게 향상시켰습니다. - 이 실험은 대형 언어 모델(LLM)이 혁신적인 아이디어를 제공할 수 있지만 코드 최적화 중에 미묘한 버그를 도입할 수도 있기 때문에 인간의 감독이 중요하다는 점을 강조했습니다.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42584400">반응</a></h3>
+<ul>
+<li>대형 언어 모델(LLM)은 종종 수많은 튜토리얼을 기반으로 훈련되어 기본적인 코드를 생성하며, 이는 코드 성능을 향상시킬 수 있는 간단한 최적화를 놓칠 수 있습니다. - LLM에게 반복적으로 코드를 개선하도록 요청하면 더 나은 결과를 얻을 수 있지만, 이 과정은 수작업 코딩만큼 시간이 많이 걸릴 수 있습니다. - 이 논의는 복잡한 최적화를 이해하는 데 있어 LLM의 한계를 강조하며, 코드 품질을 개선하기 위해 맥락과 구체적인 지침을 제공하는 것이 중요함을 부각합니다.</li>
+</ul>
+<h2><a href="http://databasearchitects.blogspot.com/2024/12/advent-of-code-2024-in-pure-sql.html">순수 SQL로 구현한 2024년의 코드 대강림</a></h2>
+<ul>
+<li>Thomas Neumann은 순수 SQL을 사용하여 Advent of Code 2024 챌린지를 해결한 경험을 공유하며, 이를 대체 문제 해결 접근 방식의 연습으로 강조했습니다. - Neumann은 모든 챌린지를 성공적으로 완료했지만, 복잡한 알고리즘과 상태 업데이트를 처리하는 데 있어 SQL의 한계를 지적하며 SQL의 효율성을 개선할 가능성을 제안했습니다. - 이 블로그 게시물은 하나의 챌린지에 대한 상세한 SQL 솔루션을 포함하고 있으며, 데이터베이스 내에서 복잡한 알고리즘 실행을 직접 지원하도록 SQL을 향상시킬 가능성에 대해 논의하고 있습니다.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42577736">반응</a></h3>
+<ul>
+<li>순수 SQL로 진행되는 2024년의 Advent of Code는 SQL이 복잡한 문제를 처리할 수 있는 능력을 강조하며, 그 성능과 논리적 구조에 대한 관심을 불러일으킵니다.</li>
+<li>토론은 저장 프로시저 최적화에서 비즈니스 로직에 사용하기까지 SQL에 대한 다양한 경험을 드러내며, 그 강점과 도전 과제를 모두 보여줍니다.</li>
+<li>대화는 또한 SQL 유사 언어의 잠재력과 데이터베이스 로직과 애플리케이션 코드 간의 균형을 탐구하며, 소프트웨어 개발에서 SQL의 역할에 대한 다양한 의견을 반영합니다.</li>
+</ul>
+<h2><a href="https://www.tvtechnology.com/news/sixth-circuit-of-appeals-strikes-down-fccs-net-neutrality-rules">미국 항소 법원이 FCC의 망 중립성 규정을 무효화하다</a></h2>
+<ul>
+<li>미국 항소법원은 FCC의 법적 권한을 초과했다는 이유로, 광대역 제공업체가 인터넷 트래픽을 동등하게 처리하도록 의무화한 FCC의 망 중립성 규정을 무효화했습니다.</li>
+<li>이 결정은 규제 기관의 권한을 제한하는 대법원 판결을 참조하여 FCC의 망 중립성 시행 능력에 영향을 미칩니다.</li>
+<li>FCC 의장 제시카 로젠워셀은 의회가 망 중립성에 대한 법률을 제정할 것을 촉구했으며, 커미셔너 브렌던 카는 규제 남용에 대한 견제로서 법원의 결정을 지지했습니다.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42578237">반응</a></h3>
+<ul>
+<li>미국 항소 법원이 현행 법률 하에서 충분한 법적 권한이 없다는 이유로 FCC의 망 중립성 규정을 무효화했습니다. - 이 결정은 FCC와 같은 기관이 법령을 광범위하게 해석할 수 있도록 허용했던 Chevron deference를 대법원이 뒤집은 후에 나왔습니다. - 법원은 광대역 제공업체를 &quot;통신 서비스&quot;가 아닌 &quot;정보 서비스&quot;를 제공하는 것으로 분류하여 FCC의 규제 권한을 제한하고 연방 망 중립성 규정을 종료시켰으며, 이는 ISP가 인터넷 트래픽을 제한하거나 우선시할 수 있도록 할 수 있습니다.</li>
+</ul>
+<h2><a href="https://den.dev/blog/be-a-property-owner-not-a-renter-on-the-internet/">인터넷에서 임차인이 아닌 소유자가 되십시오</a></h2>
+<ul>
+<li>이 기사는 주요 인터넷 플랫폼에만 의존하기보다는 디지털 공간을 소유하는 것의 중요성을 강조하고 있습니다. 이러한 플랫폼은 종종 사용자 이익보다 자신의 성장을 우선시합니다. - 온라인 존재를 유지하기 위한 전략으로는 도메인 소유, 여러 플랫폼에 걸친 콘텐츠 다양화, 이메일 리스트를 통한 청중과의 직접적인 연결 구축이 포함됩니다. - 자신의 웹 자산을 만듦으로써 디지털 활동에서 유연성과 회복력을 보장하고, 단일 네트워크에 대한 의존도를 줄일 수 있습니다.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42581119">반응</a></h3>
+<ul>
+<li>이 논의는 소셜 미디어 플랫폼에 의존하는 대신 자신의 디지털 존재를 소유하는 것의 중요성을 강조하며, AI가 사용자 생성 콘텐츠를 악용할 수 있다는 우려를 다룹니다. - 저작권, AI 윤리, 온라인 데이터에 대한 더 나은 통제를 위한 개인 웹사이트나 도메인의 중요성을 탐구합니다. - 또한 도메인 등록기관 및 호스팅 제공업체와 같은 외부 서비스에 대한 의존성을 고려할 때, 자가 호스팅의 실용성과 한계를 고려하며 온라인 존재를 관리하는 데 있어 더 많은 독립성을 옹호합니다.</li>
+</ul>
+<h2><a href="https://blogscroll.com/">BlogScroll – 개인 사이트 및 블로그의 오픈 디렉토리</a></h2>
+<ul>
+<li>BlogScroll은 주요 기술 회사 외부의 디지털 공간을 강조하는 개인 사이트 및 블로그의 공개 디렉토리로, Den Delimarsky가 GitHub에서 관리하고 있습니다. - 사용자는 GitHub을 통해 또는 제작자에게 이메일을 보내 BlogScroll에 기여할 수 있으며, 업데이트는 RSS 피드를 통해 제공됩니다. - 이 디렉토리는 디자인 및 UX, 개인, 사진-비디오 제작, 기술 등 다양한 카테고리를 포함하며, 수많은 개인의 기여를 선보입니다.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42583086">반응</a></h3>
+<ul>
+<li>BlogScroll은 개인 사이트와 블로그를 위한 오픈 디렉토리로, 일부 사용자들에 의해 개인 사이트로 논의되는 디지털 정원을 공유하는 데 중점을 두고 있습니다.</li>
+<li>GitHub에 호스팅된 BlogScroll은 &quot;폐쇄된 정원&quot; 성격에 대한 논의를 촉발했으며, OPML 내보내기 및 확장성 개선에 대한 제안이 제기되었습니다.</li>
+<li>이 프로젝트는 개인 웹 공간에 대한 새로운 관심과 독립적이고 큐레이션된 온라인 콘텐츠를 유지하는 데 있어 직면하는 도전을 반영하여 목록을 확장하기 위한 제출을 장려합니다.</li>
+</ul>
+<h2><a href="https://tavianator.com/2025/shlx.html">엘더 레이크 SHLX 이상 현상</a></h2>
+<ul>
+<li>Harold Aptroot는 Intel의 Alder Lake 프로세서에서 SHLX 명령어가 &#39;중간 대기 시간&#39;인 3 사이클을 나타낸다는 것을 발견했으며, 이는 일반적으로 1 사이클이 소요되는 왼쪽 시프트 작업에 비해 비정상적입니다. - 이 대기 시간 문제는 Alder Lake의 성능 코어에만 특정되며, 효율성 코어에는 영향을 미치지 않아 Intel의 1 사이클 대기 시간 주장과 모순됩니다. - 대기 시간은 시프트 카운트 레지스터의 초기화에 따라 달라지며, 32비트 명령어나 즉시값이 없는 64비트 명령어는 1 사이클 대기 시간을 달성하는 반면, 즉시값이 있는 64비트 명령어는 3 사이클 대기 시간을 초래합니다.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42579969">반응</a></h3>
+<ul>
+<li>앨더 레이크 SHLX 이상 현상은 특정 명령어(예: <code>mov rcx, 1</code>)가 <code>SHLX</code> 명령어의 실행을 느리게 만드는 성능 문제로, 이는 레지스터 리네이머가 작은 즉시값을 처리하는 방식 때문일 가능성이 있습니다.</li>
+<li>이 이상 현상은 3배의 속도 저하를 초래할 수 있으며, 문맥 전환이 레지스터 상태를 재설정하여 의도치 않게 코드를 가속화할 수 있기 때문에 재현하기 어렵습니다.</li>
+<li>이 문제는 새로 발견된 것으로 주로 <code>SHL</code>과 같은 명령어에 영향을 미치는 시프트 카운트에 관련되며, <code>ANDN</code>과 같은 다른 명령어에는 영향을 미치지 않으며, 일반적으로 컴파일러에 의해 고려되지 않습니다.</li>
+</ul>
+<head>
+  <meta property="og:title" content="나는 부자이고 무엇을 해야 할지 모르겠다" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%EB%82%98%EB%8A%94%20%EB%B6%80%EC%9E%90%EC%9D%B4%EA%B3%A0%20%EB%AC%B4%EC%97%87%EC%9D%84%20%ED%95%B4%EC%95%BC%20%ED%95%A0%EC%A7%80%20%EB%AA%A8%EB%A5%B4%EA%B2%A0%EB%8B%A4&subheading=2025%EB%85%84%201%EC%9B%94%203%EC%9D%BC%20%EA%B8%88%EC%9A%94%EC%9D%BC%3A%20%ED%95%B4%EC%BB%A4%EB%89%B4%EC%8A%A4%20%EC%9A%94%EC%95%BD" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/ko/2025/01/03</link>
+            <guid isPermaLink="false">2025-01-03T00:00:00.000Z</guid>
+            <pubDate>Fri, 03 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-02]]></title>
             <description
@@ -347,131 +434,6 @@
             <link>https://hn.cho.sh/ko/2024/12/25</link>
             <guid isPermaLink="false">2024-12-25T00:00:00.000Z</guid>
             <pubDate>Wed, 25 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-24]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/24&#39;</h2>
-<h1>2024-12-24</h1>
-<h2><a href="https://www.youtube.com/watch?v=JfZxOuc9Qwk">세계에서 가장 큰 튜브 TV에 무슨 일이 있었나요? [비디오]</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42497093">반응</a></h3>
-<ul>
-<li>한 유튜브 인플루언서는 세계에서 가장 큰 튜브 TV인 희귀한 소니 모델을 파괴로부터 구출하여 개인 사용을 위해 일본에서 미국으로 옮겼습니다. 이 결정은 그러한 독특한 유물이 개인 소장품이 아닌 박물관에 보존되어야 하는지에 대한 논쟁을 불러일으켰습니다. 이 상황은 희귀 아이템을 보존하는 데 있어 어려움과 소유권 및 문화유산을 둘러싼 복잡한 문제를 강조합니다.</li>
-</ul>
-<h2><a href="https://mathstodon.xyz/@johncarlosbaez/113703444230936435">숫자 파이에는 사악한 쌍둥이가 있다</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42499567">반응</a></h3>
-<ul>
-<li>레므니스케이트 상수는 ϖ로 표시되며, ∞ 모양의 레므니스케이트 곡선과 관련이 있으며, 숫자 파이의 대응물입니다.</li>
-<li>논의는 공상 과학에서의 잠재적 응용, 철자 변형, 그리고 수학적 중요성을 강조합니다.</li>
-<li>대화는 또한 언어와 수학에 대한 문화적 및 역사적 영향, 특히 그리스와 아랍의 기여를 탐구합니다.</li>
-</ul>
-<h2><a href="https://events.ccc.de/congress/2024/infos/index.html">제38회 카오스 커뮤니케이션 콩그레스</a></h2>
-<ul>
-<li>제38회 카오스 커뮤니케이션 콩그레스(38C3)는 2024년 12월 27일부터 30일까지 함부르크에서 개최될 예정이며, 카오스 컴퓨터 클럽이 주최합니다. 이 연례 행사는 기술, 사회, 유토피아의 교차점을 강조하며, 기술의 영향에 대한 강연, 워크숍, 토론을 제공합니다. 참가자들은 자원봉사, 행사 주최, 프로젝트 발표를 통해 참여할 수 있으며, 주요 정보는 행사 정보 페이지와 블로그에서 확인할 수 있습니다.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42500475">반응</a></h3>
-<ul>
-<li>제38회 카오스 커뮤니케이션 콩그레스(CCC)는 AI, 생물학, 임베디드 시스템에 대한 다양한 강연으로 주목받고 있으며, Joscha Bach의 &#39;계산에서 의식으로&#39; 시리즈가 강조되고 있습니다. 이 행사는 비주류 토론으로 유명하며, 티켓팅과 기술적 및 사회적 주제 간의 균형과 같은 문제를 다루며 라이브 스트리밍될 예정입니다. CCC는 해커 커뮤니티의 주요 행사로, 개방성과 포용성에 중점을 두고 있으며, 언어 사용을 포함한 정치적 및 문화적 측면을 탐구합니다.</li>
-</ul>
-<h2><a href="https://www.digikey.com/en/maker/projects/a-step-by-step-guide-to-build-a-low-cost-drone-using-esp32/8afccd0690574bcebfa0d2ad6fd0a391">ESP32를 사용하여 저비용 드론 만들기</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42498648">반응</a></h3>
-<ul>
-<li>DIY 드론 생태계가 확장되고 있으며, 비행 제어 마이크로컨트롤러 유닛(MCU), 모터 드라이버, 카메라와 같은 저렴한 부품들이 맞춤 제작을 위해 제공되고 있습니다.</li>
-<li>Betaflight 및 ArduPilot과 같은 오픈 소스 소프트웨어는 이러한 DIY 빌드를 지원하며, DJI와 같은 독점 시스템에 대한 대안을 제공합니다. 그러나 현재 몇몇 분야에서는 뒤처지고 있습니다.</li>
-<li>ESP32 마이크로컨트롤러는 WiFi를 통한 실시간 제어와 같은 도전 과제가 있음에도 불구하고, 드론 프로젝트에 있어 비용 효율적인 옵션이며, 입문 수준의 설정 비용이 약 $500입니다.</li>
-</ul>
-<h2><a href="https://blog.mlc.ai/2023/08/09/Making-AMD-GPUs-competitive-for-LLM-inference">AMD GPU를 LLM 추론에 경쟁력 있게 만들기 (2023)</a></h2>
-<ul>
-<li>MLC-LLM은 ROCm을 사용하여 AMD GPU에서 대형 언어 모델(LLM)의 컴파일 및 배포를 용이하게 하여 NVIDIA의 고급 GPU에 가까운 성능을 달성합니다. AMD Radeon RX 7900 XTX는 특정 모델에서 NVIDIA RTX 4090의 속도의 80%와 RTX 3090 Ti의 94%에 도달하는 경쟁력 있는 성능을 제공하며, 가격은 훨씬 더 저렴합니다. 이 프로젝트는 LLM 추론을 위한 AMD GPU의 잠재력을 강조하며, 소프트웨어 지원의 지속적인 개선과 배칭 및 다중 GPU 지원과 같은 향후 개선 계획을 포함하고 있습니다.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42498634">반응</a></h3>
-<ul>
-<li>AMD의 소비자용 GPU인 RX7900XTX는 MI300X와 같은 데이터센터용 GPU와 아키텍처가 달라 성능 수준에 영향을 미칩니다. AMD의 CDNA 아키텍처와 HIP(Heterogeneous-compute Interface for Portability) 지원을 딥러닝 플랫폼에 통합하려는 노력이 증가하고 있으며, 이는 AI 작업 부하에서 Nvidia의 지배에 도전하려는 것입니다. 관심이 증가하고 있음에도 불구하고 소프트웨어 지원 및 성능 일관성과 같은 문제로 인해 일부 개발자는 Nvidia로 되돌아가고 있으며, Nvidia는 CUDA(Compute Unified Device Architecture) 플랫폼으로 상당한 이점을 유지하고 있습니다.</li>
-</ul>
-<h2><a href="https://seangeiger.substack.com/p/why-are-cancer-guidelines-stuck-in">왜 암 가이드라인은 PDF에 갇혀 있을까?</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42498462">반응</a></h3>
-<ul>
-<li>암 가이드라인은 내구성과 휴대성 때문에 PDF 형식으로 자주 저장되지만, 사용성과 의료 시스템과의 통합에 제한이 있습니다. 구조화된 데이터로 전환하면 사용성을 개선할 수 있지만, 의료 정보의 복잡성, 표준화 부족, 규제 장벽 등의 도전 과제가 있습니다. 논쟁은 PDF의 신뢰성과 일관된 업데이트 및 자동화 시스템의 오류 관리 필요성을 고려하여 동적이고 기계가 해석할 수 있는 데이터 솔루션의 잠재적 이점을 균형 있게 맞추는 데 중점을 둡니다.</li>
-</ul>
-<h2><a href="https://github.com/isledecomp/isle">레고 아일랜드의 완전한 디컴파일</a></h2>
-<ul>
-<li>이 프로젝트는 LEGO Island (버전 1.1, 영어)의 완전한 디컴파일을 포함하며, 원래의 기계 코드를 가능한 한 가깝게 복제하는 것을 목표로 합니다.</li>
-<li>이 프로그램은 빌드를 위해 CMake를 사용하며, 최적의 결과를 위해 Microsoft Visual C++ 4.20을 권장합니다. 환경 설정, CMake를 통한 구성, nmake를 사용한 빌드를 포함합니다.</li>
-<li>기여를 권장하며, 특히 버전 1.1의 영어 릴리스에 중점을 두고, 디컴파일된 ISLE.EXE 및 LEGO1.DLL 파일의 지속적인 개선을 목표로 하고 있습니다.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42497173">반응</a></h3>
-<ul>
-<li>GitHub 프로젝트가 고전 게임 레고 아일랜드를 성공적으로 디컴파일하여 원래 게임의 버그를 수정하려는 이전의 노력을 강화했습니다. 기술 콘텐츠로 유명한 유튜버 MattKC는 이 디컴파일 프로젝트에서 중요한 역할을 했으며, 이 프로젝트는 정확성을 강조하고 린트 도구와 리소스 편집기와 같은 도구를 포함하고 있습니다. 이 프로젝트는 빈티지 레고 게임을 리메이크하려는 관심을 불러일으켰으며, 팬들은 Rock Raiders와 Lego Loco와 같은 타이틀에 대한 향수를 표현하며 이러한 고전 게임을 보존하고 개선하려는 커뮤니티의 감사를 강조하고 있습니다.</li>
-</ul>
-<h2><a href="https://www.cfodive.com/news/intel-shareholders-yank-exceo-cfo-compensation-foundry/736193/">인텔 주주들, 전 CEO와 CFO에게 3년치 급여 반환 요구 소송 제기</a></h2>
-<ul>
-<li>인텔 주주들은 전 CEO 팻 겔싱어와 CFO 데이비드 진스너에게 보상을 반환할 것을 요구하고 있으며, 이들이 인텔 파운드리 부문의 재무 성과에 대해 주주들을 오도했다고 비난하고 있습니다.</li>
-<li>소송은 인텔의 실패한 전환 계획과 기록적인 166억 달러의 분기 손실에 따른 신탁 의무 위반을 주장하며, 이는 인텔 주가가 9.2% 하락하는 결과를 초래했습니다.</li>
-<li>처음에는 성장을 이끌 것으로 예상되었던 주조 부문이 나중에 주요 비용 센터로 확인되면서, 현재 공동 임시 CEO인 진스너가 구조 조정 노력을 추진하게 되었고, 겔싱어는 사임했다.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42500482">반응</a></h3>
-<ul>
-<li>인텔 주주들이 전 CEO와 CFO를 상대로 소송을 제기하여 실패한 사업 계획으로 인해 3년간의 급여 반환을 요구하고 있습니다.</li>
-<li>비평가들은 소송이 근거가 없다고 주장하는데, 이는 경영진이 인텔의 파운드리 부문이 직면한 도전 과제를 인정했기 때문이다.</li>
-<li>이번 소송은 주주와 회사 경영진 간의 긴장을 강조하며, 일부는 이를 금전적 이익을 목적으로 한 경솔한 행동으로 보고 있습니다.</li>
-</ul>
-<h2><a href="https://twitter.com/spatiallyjess/status/1871342549958537326">도쿄는 도시 전체의 포인트 클라우드 데이터를 무료로 공개했습니다.</a></h2>
-<ul>
-<li>도쿄는 전체 도시의 포인트 클라우드 데이터를 무료로 제공하여 대중이 다운로드할 수 있도록 했습니다.</li>
-<li>포인트 클라우드 데이터는 공간 내 데이터 포인트의 집합으로, 종종 3D 모델링 및 지리 정보 시스템(GIS)에서 사용됩니다.</li>
-<li>이 릴리스는 도쿄의 3D 모델링 및 공간 분석에 관심이 있는 개발자, 연구원 및 도시 계획가에게 귀중한 자원을 제공하기 때문에 중요합니다.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42501102">반응</a></h3>
-<ul>
-<li>도쿄는 도시 전체의 무료 포인트 클라우드 데이터를 제공하여 상호작용적인 3D 내비게이션과 탐색을 가능하게 했습니다. 이 이니셔티브는 스위스와 프랑스에서 세부적인 3D 모델과 라이다 데이터를 공개한 것과 유사합니다. 이러한 데이터 세트는 컴퓨터 생성 이미지(CGI), 비디오 게임 및 기타 3D 기술 응용 프로그램에 특히 유용합니다.</li>
-</ul>
-<h2><a href="https://www.rfleury.com/p/demystifying-debuggers-part-2-the">디버거 해부하기, 2부: 실행 중인 프로그램의 해부학</a></h2>
-<ul>
-<li>기사 &#39;디버거의 신비를 풀다, 2부: 실행 중인 프로그램의 해부학&#39;은 가상 주소 공간, 스레드, 프로세스와 같은 프로그램 실행에 관련된 구성 요소를 설명합니다. 운영 체제가 가상 메모리와 스케줄링을 사용하여 여러 프로그램을 동시에 관리하는 방법을 자세히 설명합니다. 이 글은 디버거가 이러한 프로세스와 상호 작용하여 프로그램 실행을 분석하는 방법을 설명하는 시리즈의 일부입니다.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42498982">반응</a></h3>
-<ul>
-<li>디버거는 실행 중인 프로그램을 분석하는 데 매우 중요하며, 이를 대형 언어 모델(LLM)과 통합하면 기능이 향상될 가능성이 있습니다.</li>
-<li>개발자들 사이에서는 LLM의 디버깅 잠재력에 대한 논쟁이 있으며, 일부는 오류 추적 능력에 대해 낙관적이지만 다른 일부는 현재의 효과에 대해 회의적입니다.</li>
-<li>이 논의는 디버깅 관행에 대한 다양한 관점과 소프트웨어 개발에서 LLM의 진화하는 역할을 강조합니다.</li>
-</ul>
-<h2><a href="https://sakana.ai/asal/">기반 모델을 사용하여 인공 생명체 탐색 자동화</a></h2>
-<ul>
-<li>인공 생명체 자동 탐색(ASAL) 알고리즘은 AI 비전-언어 기반 모델을 활용하여 시뮬레이션에서 인공 생명체를 발견함으로써 인공 생명(ALife) 연구 분야를 발전시킵니다. ASAL은 Lenia, Boids, Particle Life, Game of Life와 같은 시뮬레이션에서 새로운 생명체를 성공적으로 식별하여 동적 패턴과 새로운 셀룰러 오토마타 규칙을 보여주었습니다. 이 접근 방식은 수동으로 설계된 시뮬레이션의 한계를 극복하고, ALife 개념을 AI에 통합하여 더 적응적이고 창의적인 시스템을 만들기 위한 추가 탐색과 협력을 장려합니다.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42499332">반응</a></h3>
-<ul>
-<li>기초 모델을 인공 생명(Artificial Life, ALife) 탐색 자동화에 통합하는 것이 관심 주제로 떠오르고 있으며, 이는 인공지능(AI)과 ALife의 차이를 강조하고 있습니다. &#39;The Self-Assembling Brain&#39;은 다양한 관점에서 지능을 탐구하는 책으로, 현재 진행 중인 담론에 기여하고 있습니다. &#39;Attention Is All You Need&#39;라는 영향력 있는 논문의 저자들이 설립한 Sakana AI는 벤처 캐피털 투자를 받아 AI의 상업화에 집중하고 있으며, 외계 지적 생명체 탐사(SETI) 데이터 분석에서 AI의 역할에 대한 논의에 참여하고 있습니다.</li>
-</ul>
-<h2><a href="https://onlinelibrary.wiley.com/doi/10.1002/spe.3296">초당 수백만 개의 URL 파싱 (2023)</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42498514">반응</a></h3>
-<ul>
-<li>논의는 URL 정규화 및 구문 분석 오류와 관련하여 초당 수백만 개의 URL을 구문 분석하는 데 따른 문제에 중점을 둡니다.</li>
-<li>&quot;http://&quot;를 &quot;https://&quot;로 변경하는 필요성과 HTTPS의 신뢰성에 대한 논쟁이 있으며, 일부는 파서의 성능 주장에 대해 회의적입니다.</li>
-<li>참가자들은 또한 효율적인 파서 작성의 어려움, URL 파싱을 위한 정규 표현식(정규식) 사용의 한계, 다양한 URL 사양을 준수하는 복잡성에 대해 논의합니다.</li>
-</ul>
-<h2><a href="https://www.theguardian.com/travel/2024/dec/24/paris-to-berlin-by-train-faster-service-via-strasbourg">파리에서 베를린까지 기차로 가는 시간이 이제 5시간 더 빨라졌습니다.</a></h2>
-<ul>
-<li>도이치반과 SNCF는 파리에서 베를린까지의 새로운 직행 주간 열차 서비스를 시작하여 여행 시간을 5시간 단축하여 7시간 59분으로 줄였습니다.</li>
-<li>경로에는 스트라스부르, 칼스루에, 프랑크푸르트에서의 경치 좋은 전망과 정차가 포함되어 있으며, 2등석 티켓은 €59.99부터 시작합니다.</li>
-<li>이 서비스는 보다 여유로운 여행 경험을 제공하지만, 일부 사람들은 항공 여행과 효과적으로 경쟁하기 위해 더 빨라져야 한다고 주장합니다.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42500704">반응</a></h3>
-<ul>
-<li>파리와 베를린 간의 새로운 직행 열차 연결은 여행 시간을 5시간 단축하여 항공 여행에 비해 더 여유로운 여행을 제공합니다.</li>
-<li>기차는 환경 친화적이며 CO2 배출량이 적지만 상당한 인프라 투자가 필요합니다.</li>
-<li>기차 여행은 비행보다 비용이 더 많이 들고 유연성이 떨어질 수 있지만, 많은 여행자들은 편안함과 편리함 때문에 기차 여행을 선호합니다.</li>
-</ul>
-<head>
-  <meta property="og:title" content="세계에서 가장 큰 튜브 TV에 무슨 일이 있었나요? [비디오]" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%EC%84%B8%EA%B3%84%EC%97%90%EC%84%9C%20%EA%B0%80%EC%9E%A5%20%ED%81%B0%20%ED%8A%9C%EB%B8%8C%20TV%EC%97%90%20%EB%AC%B4%EC%8A%A8%20%EC%9D%BC%EC%9D%B4%20%EC%9E%88%EC%97%88%EB%82%98%EC%9A%94%3F%20%5B%EB%B9%84%EB%94%94%EC%98%A4%5D&subheading=2024%EB%85%84%2012%EC%9B%94%2024%EC%9D%BC%20%ED%99%94%EC%9A%94%EC%9D%BC%3A%20%ED%95%B4%EC%BB%A4%EB%89%B4%EC%8A%A4%20%EC%9A%94%EC%95%BD" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/ko/2024/12/24</link>
-            <guid isPermaLink="false">2024-12-24T00:00:00.000Z</guid>
-            <pubDate>Tue, 24 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

@@ -1,0 +1,154 @@
+[
+  {
+    "id": 42579873,
+    "title": "「我很有錢，但不知道該做什麼」",
+    "originLink": "https://vinay.sh/i-am-rich-and-have-no-idea-what-to-do-with-my-life/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579873",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "這篇文章討論了在實現財務成功後尋找人生目標的常見困境，這可能導致幻滅感和孤立感。- 它建議可以透過培養他人、建立連結或追求新興趣來找到滿足感，強調財富之外的目標的重要性。- 討論還強調了當財富造成社會隔閡時維持人際關係的挑戰，強調需要有意義的活動和連結來促進歸屬感。"
+    ],
+    "points": 793,
+    "commentCount": 1375,
+    "retryCount": 0,
+    "time": 1735858215
+  },
+  {
+    "id": 42579472,
+    "title": "iTerm2 重要安全更新",
+    "originLink": "https://iterm2.com/downloads/stable/iTerm2-3_5_11.changelog",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579472",
+    "commentBody": "",
+    "originSummary": [
+      "「iTerm2 版本 3.5.11 於 2025 年 1 月 2 日發布，解決了先前版本中與 SSH 整合功能相關的重大安全漏洞。- 該漏洞涉及將輸入/輸出記錄到遠端主機上的檔案，其他人可能會存取此檔案，影響版本 3.5.6 至 3.5.10 及某些測試版的使用者。- 建議使用者立即更新至版本 3.5.11，刪除 /tmp/framer.txt 檔案，並使用提供的 SHA-256 和 PGP 簽名驗證更新，以確保安全。」"
+    ],
+    "commentSummary": [
+      "「iTerm2 發布了一個重要的安全更新，以解決其 SSH 整合中的一個漏洞。該漏洞會將輸入和輸出記錄到遠端主機上的檔案中，可能會將資料暴露給其他使用者。」",
+      "問題是由於在生產環境中意外啟用了詳細日誌記錄所引起的，這促使人們討論了預提交鉤子和防護措施的重要性，以防止類似錯誤的發生。",
+      "「該事件引發了關於切換到 Ghostty 或 Terminal.app 等替代方案的討論，同時也突顯了功能豐富的軟體與安全風險之間的平衡。」"
+    ],
+    "points": 647,
+    "commentCount": 412,
+    "retryCount": 0,
+    "time": 1735855722
+  },
+  {
+    "id": 42584400,
+    "title": "如果你不斷要求大型語言模型(LLM)“寫出更好的程式碼”，它們能否寫出更好的程式碼？",
+    "originLink": "https://minimaxir.com/2025/01/write-better-code/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42584400",
+    "commentBody": "",
+    "originSummary": [
+      "「在 2023 年 11 月，一個迷因趨勢涉及用戶要求 ChatGPT 反覆增強圖像，然後將其應用於使用 Claude 3.5 Sonnet 改進 Python 程式碼。- 最初使用像「寫出更好的程式碼」這樣模糊的提示顯示出一些改進，但透過具體優化目標的結構化提示工程則導致顯著的性能提升。- 該實驗強調了人類監督的重要性，因為雖然大型語言模型(LLMs)可以提供創新的想法，但在程式碼優化過程中也可能引入微妙的錯誤。」"
+    ],
+    "commentSummary": [
+      "「大型語言模型(LLMs)經常因為訓練於大量教程而生成基本的程式碼，可能會錯過一些能提升程式碼效能的簡單優化。- 反覆提示 LLMs 改善程式碼可以產生更好的結果，但這個過程可能和手動編碼一樣耗時。- 討論強調了 LLMs 在理解複雜優化方面的局限性，並突顯了提供上下文和具體指示以改善程式碼品質的重要性。」"
+    ],
+    "points": 453,
+    "commentCount": 271,
+    "retryCount": 0,
+    "time": 1735900244
+  },
+  {
+    "id": 42577736,
+    "title": "純 SQL 的 2024 年編程挑戰",
+    "originLink": "http://databasearchitects.blogspot.com/2024/12/advent-of-code-2024-in-pure-sql.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42577736",
+    "commentBody": "",
+    "originSummary": [
+      "「Thomas Neumann 分享了他使用純 SQL 解決 2024 年 Advent of Code 挑戰的經驗，強調這是一種替代問題解決方法的練習。Neumann 成功完成了所有挑戰，但他指出 SQL 在處理複雜算法和狀態更新方面的限制，並建議可能的改進以提高 SQL 的效率。這篇部落格文章包含了一個挑戰的詳細 SQL 解決方案，並討論了增強 SQL 以更好地直接在資料庫中支持複雜算法執行的可能性。」"
+    ],
+    "commentSummary": [
+      "2024 年的 Advent of Code 純 SQL 挑戰突顯了 SQL 處理複雜問題的能力，引發了人們對其性能和邏輯結構的興趣。",
+      "討論揭示了使用 SQL 的多樣經驗，從優化儲存過程到用於商業邏輯，展示了其優勢與挑戰。",
+      "對話還探討了類似 SQL 語言的潛力，以及數據庫邏輯與應用程式代碼之間的平衡，反映了對 SQL 在軟體開發中角色的多樣化意見。"
+    ],
+    "points": 431,
+    "commentCount": 97,
+    "retryCount": 0,
+    "time": 1735845650
+  },
+  {
+    "id": 42578237,
+    "title": "「美國上訴法院推翻 FCC 的網路中立性規則」",
+    "originLink": "https://www.tvtechnology.com/news/sixth-circuit-of-appeals-strikes-down-fccs-net-neutrality-rules",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42578237",
+    "commentBody": "",
+    "originSummary": [
+      "「美國上訴法院已經宣布聯邦通信委員會(FCC)的網路中立性規則無效，該規則要求寬頻供應商對網路流量進行平等對待，理由是FCC超越了其法律權限。」",
+      "「該決定引用了一項最高法院的裁決，該裁決限制了監管機構的權力，影響了聯邦通信委員會執行網路中立性的能力。」",
+      "FCC 主席 Jessica Rosenworcel 呼籲國會立法制定網路中立性，而委員 Brendan Carr 則支持法院的決定，認為這是對監管過度的一種制衡。"
+    ],
+    "commentSummary": [
+      "「美國一家上訴法院已經宣布聯邦通信委員會(FCC)的網路中立性規則無效，理由是根據現行法律缺乏足夠的法律權限。此決定是在最高法院推翻了雪佛蘭原則之後做出的，該原則曾允許像 FCC 這樣的機構廣泛解釋法規。法院將寬頻服務提供商分類為提供「資訊服務」，而非「電信服務」，因此限制了 FCC 的監管權力，終止了聯邦網路中立性規則，這可能允許網際網路服務提供商(ISP)限制或優先處理網路流量。」"
+    ],
+    "points": 356,
+    "commentCount": 302,
+    "retryCount": 0,
+    "time": 1735848335
+  },
+  {
+    "id": 42581119,
+    "title": "在網路上成為資產擁有者，而非租客",
+    "originLink": "https://den.dev/blog/be-a-property-owner-not-a-renter-on-the-internet/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42581119",
+    "commentBody": "",
+    "originSummary": [
+      "「文章強調擁有自己的數位空間的重要性，而不是僅依賴主要的網路平台，因為這些平台通常優先考慮自身的成長而非用戶的利益。－ 維持對自己線上存在的控制的策略包括擁有一個網域、在多個平台上分散內容，以及透過電子郵件列表與觀眾建立直接連結。－ 透過創建自己的網路資產，您可以確保在數位事業中的靈活性和韌性，減少對任何單一網路的依賴。」"
+    ],
+    "commentSummary": [
+      "「討論強調了擁有自己的數位存在的重要性，而不是依賴社交媒體平台，並針對 AI 利用用戶生成內容的問題進行探討。- 它探討了版權、AI 倫理的複雜性，以及擁有個人網站或網域以更好地控制線上數據的重要性。- 該對話還考慮了自我託管的實用性和限制，考量到對域名註冊商和主機提供商等外部服務的依賴，並倡導在管理個人線上存在方面獲得更多獨立性。」"
+    ],
+    "points": 295,
+    "commentCount": 211,
+    "retryCount": 0,
+    "time": 1735867317
+  },
+  {
+    "id": 42583086,
+    "title": "BlogScroll – 個人網站和部落格的開放目錄",
+    "originLink": "https://blogscroll.com/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42583086",
+    "commentBody": "",
+    "originSummary": [
+      "BlogScroll 是一個開放的個人網站和部落格目錄，強調在主要科技公司之外的數位空間，由 Den Delimarsky 在 GitHub 上維護。- 使用者可以透過 GitHub 或電子郵件聯絡創建者來貢獻內容，並可透過 RSS 訂閱獲取更新。- 目錄包含設計與使用者體驗、個人、照片與影片製作、科技等多種分類，展示了許多個人的貢獻。"
+    ],
+    "commentSummary": [
+      "BlogScroll 是一個開放的個人網站和部落格目錄，專注於分享數位花園，這些花園被一些使用者辯論為任何個人網站。",
+      "「託管於 GitHub 的 BlogScroll 引發了關於其『圍牆花園』特性的討論，並提出了 OPML 匯出和擴展性改進的建議。」",
+      "該專案鼓勵提交以擴展其列表，反映出對個人網頁空間的重新興趣以及在線維護獨立策劃內容的挑戰。"
+    ],
+    "points": 262,
+    "commentCount": 70,
+    "retryCount": 0,
+    "time": 1735885431
+  },
+  {
+    "id": 42579969,
+    "title": "金合歡湖 SHLX 異常現象",
+    "originLink": "https://tavianator.com/2025/shlx.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579969",
+    "commentBody": "",
+    "originSummary": [
+      "Harold Aptroot 發現，Intel 的 Alder Lake 處理器上的 SHLX 指令具有「中等延遲」的 3 個週期，這對於通常只需 1 個週期的左移操作來說是不尋常的。- 這個延遲問題特定於 Alder Lake 的效能核心，並不影響效率核心，這與 Intel 所聲稱的 1 個週期延遲相矛盾。- 延遲會根據移位計數暫存器的初始化而有所不同，32 位元指令或不帶立即數的 64 位元指令可達到 1 個週期延遲，而帶有立即數的 64 位元指令則會導致 3 個週期的延遲。"
+    ],
+    "commentSummary": [
+      "在 Alder Lake SHLX 異常中，存在一個效能問題，當特定指令如 `mov rcx, 1` 被執行時，會導致 `SHLX` 指令執行速度變慢，這可能是由於暫存器重命名器對小立即數的處理所造成的。",
+      "此異常可能導致速度減慢至三倍，且因為上下文切換可能會重置暫存器狀態，無意中加快程式碼的執行，故難以重現。",
+      "這個問題是新發現的，主要影響位移計數，影響到像是 `SHL` 這樣的指令，但不影響像 `ANDN` 這樣的指令，通常編譯器不會考慮到這一點。"
+    ],
+    "points": 194,
+    "commentCount": 68,
+    "retryCount": 0,
+    "time": 1735858848
+  }
+]

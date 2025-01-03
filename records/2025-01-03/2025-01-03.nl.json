@@ -1,0 +1,154 @@
+[
+  {
+    "id": 42579873,
+    "title": "Jeg er rik og har ingen anelse om hva jeg skal gjøre",
+    "originLink": "https://vinay.sh/i-am-rich-and-have-no-idea-what-to-do-with-my-life/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579873",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Innlegget diskuterer den vanlige kampen med å finne mening etter å ha oppnådd økonomisk suksess, noe som kan føre til følelser av desillusjon og isolasjon. - Det foreslår at oppfyllelse kan finnes i å utvikle andre, bygge forbindelser eller forfølge nye interesser, og understreker viktigheten av mening utover økonomisk rikdom. - Diskusjonen fremhever også utfordringene med å opprettholde relasjoner når rikdom skaper en sosial kløft, og understreker behovet for meningsfulle aktiviteter og forbindelser for å fremme en følelse av tilhørighet."
+    ],
+    "points": 793,
+    "commentCount": 1375,
+    "retryCount": 0,
+    "time": 1735858215
+  },
+  {
+    "id": 42579472,
+    "title": "iTerm2 kritisk sikkerhetsutgivelse",
+    "originLink": "https://iterm2.com/downloads/stable/iTerm2-3_5_11.changelog",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579472",
+    "commentBody": "",
+    "originSummary": [
+      "iTerm2 versjon 3.5.11, utgitt 2. januar 2025, adresserer en kritisk sikkerhetssårbarhet relatert til SSH-integrasjonsfunksjonen i tidligere versjoner. - Feilen involverte logging av input/output til en fil på den eksterne verten, som kunne bli aksessert av andre, og påvirket brukere av versjonene 3.5.6 til 3.5.10 og visse betaversjoner. - Brukere anbefales å oppdatere til versjon 3.5.11 umiddelbart, slette /tmp/framer.txt-filen, og verifisere oppdateringen ved hjelp av den medfølgende SHA-256 og PGP-signaturen for sikkerhetsbekreftelse."
+    ],
+    "commentSummary": [
+      "iTerm2 ga ut en kritisk sikkerhetsoppdatering for å løse en feil i SSH-integrasjonen, som logget inn- og utdata til en fil på den eksterne verten, noe som potensielt kunne eksponere data for andre brukere.",
+      "Problemet ble forårsaket av at detaljert logging ved et uhell ble aktivert i produksjon, noe som førte til diskusjoner om viktigheten av pre-commit hooks og sikkerhetstiltak for å forhindre lignende feil.",
+      "Den hendelsen utløste en debatt om å bytte til alternativer som Ghostty eller Terminal.app, samtidig som den fremhevet balansen mellom funksjonsrike programmer og sikkerhetsrisikoer."
+    ],
+    "points": 647,
+    "commentCount": 412,
+    "retryCount": 0,
+    "time": 1735855722
+  },
+  {
+    "id": 42584400,
+    "title": "Kan LLM-er skrive bedre kode hvis du fortsetter å be dem om å «skrive bedre kode»?",
+    "originLink": "https://minimaxir.com/2025/01/write-better-code/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42584400",
+    "commentBody": "",
+    "originSummary": [
+      "En meme-trend i november 2023 involverte brukere som ba ChatGPT om å iterativt forbedre bilder, noe som deretter ble anvendt på kode ved å bruke Claude 3.5 Sonnet for å forbedre et Python-program. - Innledende forsøk med vage forespørsler som \"skriv bedre kode\" viste noen forbedringer, men strukturert prompt engineering med spesifikke optimaliseringsmål førte til betydelige ytelsesforbedringer. - Eksperimentet understreket viktigheten av menneskelig tilsyn, ettersom store språkmodeller (LLM-er) kan tilby innovative ideer, men også kan introdusere subtile feil under kodeoptimalisering."
+    ],
+    "commentSummary": [
+      "Store språkmodeller (LLMs) genererer ofte grunnleggende kode på grunn av deres opplæring på mange opplæringsprogrammer, og kan potensielt gå glipp av enkle optimaliseringer som kan forbedre kodeytelsen. - Å iterativt be LLMs om å forbedre koden kan gi bedre resultater, men denne prosessen kan være like tidkrevende som manuell koding. - Diskusjonen understreker begrensningene til LLMs i å forstå komplekse optimaliseringer og fremhever viktigheten av å gi kontekst og spesifikke instruksjoner for forbedret kodekvalitet."
+    ],
+    "points": 453,
+    "commentCount": 271,
+    "retryCount": 0,
+    "time": 1735900244
+  },
+  {
+    "id": 42577736,
+    "title": "Advent of Code 2024 i ren SQL",
+    "originLink": "http://databasearchitects.blogspot.com/2024/12/advent-of-code-2024-in-pure-sql.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42577736",
+    "commentBody": "",
+    "originSummary": [
+      "Thomas Neumann delte sin erfaring med å løse Advent of Code 2024-utfordringene ved å bruke ren SQL, og fremhevet det som en øvelse i alternative problemløsningsmetoder. - Neumann fullførte alle utfordringene, selv om han bemerket SQLs begrensninger i håndtering av komplekse algoritmer og tilstandsoppdateringer, og foreslo potensielle forbedringer for SQLs effektivitet. - Blogginnlegget inkluderer en detaljert SQL-løsning for en utfordring og diskuterer muligheten for å forbedre SQL for bedre å støtte utførelse av komplekse algoritmer direkte i databaser."
+    ],
+    "commentSummary": [
+      "Advent of Code 2024 i ren SQL fremhever SQLs evne til å håndtere komplekse utfordringer, og vekker interesse for ytelsen og den logiske strukturen.",
+      "Diskusjonen avslører varierte erfaringer med SQL, fra optimalisering av lagrede prosedyrer til bruk for forretningslogikk, som viser både styrker og utfordringer.",
+      "Diskusjonen utforsker også potensialet til SQL-lignende språk og balansen mellom databaselogikk og applikasjonskode, og reflekterer ulike meninger om SQLs rolle i programvareutvikling."
+    ],
+    "points": 431,
+    "commentCount": 97,
+    "retryCount": 0,
+    "time": 1735845650
+  },
+  {
+    "id": 42578237,
+    "title": "Amerikansk ankedomstol opphever FCCs regler for nettnøytralitet",
+    "originLink": "https://www.tvtechnology.com/news/sixth-circuit-of-appeals-strikes-down-fccs-net-neutrality-rules",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42578237",
+    "commentBody": "",
+    "originSummary": [
+      "En amerikansk ankedomstol har ugyldiggjort FCCs regler for nettnøytralitet, som krevde lik behandling av internettrafikk av bredbåndsleverandører, med henvisning til at FCC har overskredet sin juridiske myndighet.",
+      "Avgjørelsen refererer til en høyesterettsdom som begrenser reguleringsbyråers makt, noe som påvirker FCCs evne til å håndheve nettnøytralitet.",
+      "FCC-leder Jessica Rosenworcel oppfordret Kongressen til å lovfeste nettnøytralitet, mens kommissær Brendan Carr støttet rettens avgjørelse som en kontroll mot regulatorisk overtramp."
+    ],
+    "commentSummary": [
+      "En amerikansk ankedomstol har ugyldiggjort FCCs regler for nettnøytralitet, med henvisning til utilstrekkelig juridisk myndighet under gjeldende lov. - Beslutningen følger Høyesteretts opphevelse av Chevron-deferansen, som hadde tillatt byråer som FCC å tolke lover bredt. - Domstolen klassifiserte bredbåndsleverandører som tilbydere av en \"informasjonstjeneste,\" ikke en \"telekommunikasjonstjeneste,\" og begrenset dermed FCCs reguleringsmakt og avsluttet føderale regler for nettnøytralitet, noe som potensielt tillater ISP-er å strupe eller prioritere internett-trafikk."
+    ],
+    "points": 356,
+    "commentCount": 302,
+    "retryCount": 0,
+    "time": 1735848335
+  },
+  {
+    "id": 42581119,
+    "title": "Vær en eiendomseier og ikke en leietaker på internett",
+    "originLink": "https://den.dev/blog/be-a-property-owner-not-a-renter-on-the-internet/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42581119",
+    "commentBody": "",
+    "originSummary": [
+      "Artikkelen understreker viktigheten av å eie ditt digitale rom i stedet for å stole utelukkende på store internettplattformer, som ofte prioriterer sin egen vekst over brukernes interesser. - Strategier for å opprettholde kontroll over din online tilstedeværelse inkluderer å eie et domene, diversifisere innhold på tvers av flere plattformer, og bygge direkte forbindelser med publikum gjennom e-postlister. - Ved å opprette din egen nettressurs sikrer du fleksibilitet og motstandsdyktighet i dine digitale bestrebelser, og reduserer avhengigheten av et enkelt nettverk."
+    ],
+    "commentSummary": [
+      "Diskusjonen understreker viktigheten av å eie sin digitale tilstedeværelse i stedet for å være avhengig av sosiale medieplattformer, og tar opp bekymringer om at AI utnytter brukergenerert innhold. - Den utforsker kompleksiteten rundt opphavsrett, AI-etikk, og betydningen av å ha en personlig nettside eller domene for bedre kontroll over online data. - Samtalen vurderer også praktikaliteten og begrensningene ved selvhosting, gitt avhengigheten av eksterne tjenester som domeneregistratorer og hosting-leverandører, og taler for mer uavhengighet i håndteringen av ens online tilstedeværelse."
+    ],
+    "points": 295,
+    "commentCount": 211,
+    "retryCount": 0,
+    "time": 1735867317
+  },
+  {
+    "id": 42583086,
+    "title": "BlogScroll – En åpen katalog over personlige nettsteder og blogger",
+    "originLink": "https://blogscroll.com/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42583086",
+    "commentBody": "",
+    "originSummary": [
+      "BlogScroll er en åpen katalog over personlige nettsteder og blogger, med vekt på digitale rom utenfor store teknologiselskaper, og vedlikeholdes på GitHub av Den Delimarsky. - Brukere kan bidra til BlogScroll gjennom GitHub eller ved å sende en e-post til skaperen, og oppdateringer er tilgjengelige via en RSS-feed. - Katalogen inkluderer ulike kategorier som design-og-brukeropplevelse, personlig, foto-video-produksjon, og teknologi, og viser bidrag fra mange individer."
+    ],
+    "commentSummary": [
+      "BlogScroll er en åpen katalog for personlige nettsteder og blogger, med fokus på å dele digitale hager, som av noen brukere diskuteres som ethvert personlig nettsted.",
+      "Hostet på GitHub, har BlogScroll utløst diskusjoner om dens \"walled garden\"-natur, med forslag om OPML-eksport og forbedringer av skalerbarhet.",
+      "Prosjektet oppfordrer til innsendelser for å utvide listen, noe som gjenspeiler en fornyet interesse for personlige nettsider og utfordringene med å opprettholde uavhengig, kuratert innhold på nettet."
+    ],
+    "points": 262,
+    "commentCount": 70,
+    "retryCount": 0,
+    "time": 1735885431
+  },
+  {
+    "id": 42579969,
+    "title": "Anomalien Alder Lake SHLX",
+    "originLink": "https://tavianator.com/2025/shlx.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579969",
+    "commentBody": "",
+    "originSummary": [
+      "Harold Aptroot oppdaget at SHLX-instruksjonen på Intels Alder Lake-prosessorer har en \"medium latency\" på 3 sykluser, noe som er atypisk for venstreskiftoperasjoner som vanligvis tar 1 syklus. - Dette latensproblemet er spesifikt for Alder Lakes ytelseskjerner og påvirker ikke effektivitetskjerner, i motsetning til Intels påstander om en 1-syklus latens. - Latensen varierer basert på initialiseringen av skiftetelleregistret, med 32-bits instruksjoner eller 64-bits instruksjoner uten umiddelbare som oppnår 1-syklus latens, mens 64-bits instruksjoner med umiddelbare resulterer i 3-syklus latens."
+    ],
+    "commentSummary": [
+      "Anomalien Alder Lake SHLX er et ytelsesproblem der spesifikke instruksjoner, som `mov rcx, 1`, fører til at `SHLX`-instruksjonen utføres langsommere, muligens på grunn av registeromdøperens håndtering av små umiddelbare verdier.",
+      "Dette avviket kan føre til en 3x nedgang i hastighet og er utfordrende å gjenskape fordi kontekstbytter kan tilbakestille registertilstanden, noe som utilsiktet kan øke hastigheten på koden.",
+      "Problemet er nylig oppdaget og påvirker primært skiftetellinger, noe som påvirker instruksjoner som `SHL`, men ikke andre som `ANDN`, og blir vanligvis ikke tatt hensyn til av kompilatorer."
+    ],
+    "points": 194,
+    "commentCount": 68,
+    "retryCount": 0,
+    "time": 1735858848
+  }
+]

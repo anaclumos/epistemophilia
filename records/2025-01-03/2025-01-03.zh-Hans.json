@@ -1,0 +1,154 @@
+[
+  {
+    "id": 42579873,
+    "title": "“我很富有，但不知道该做什么。”",
+    "originLink": "https://vinay.sh/i-am-rich-and-have-no-idea-what-to-do-with-my-life/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579873",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "“这篇文章讨论了在实现财务成功后寻找人生目标的常见困扰，这可能导致幻灭感和孤独感。- 它建议可以通过培养他人、建立联系或追求新兴趣来找到满足感，强调了超越财务财富的目标的重要性。- 讨论还强调了当财富造成社会分化时维持关系的挑战，强调了有意义的活动和联系对于培养归属感的必要性。”"
+    ],
+    "points": 793,
+    "commentCount": 1375,
+    "retryCount": 0,
+    "time": 1735858215
+  },
+  {
+    "id": 42579472,
+    "title": "“iTerm2关键安全发布”",
+    "originLink": "https://iterm2.com/downloads/stable/iTerm2-3_5_11.changelog",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579472",
+    "commentBody": "",
+    "originSummary": [
+      "“iTerm2 版本 3.5.11 于 2025年1月2日发布，解决了先前版本中与 SSH 集成功能相关的严重安全漏洞。- 该漏洞涉及将输入/输出记录到远程主机上的文件，该文件可能被他人访问，影响了版本 3.5.6 到 3.5.10 以及某些测试版的用户。- 建议用户立即更新到版本 3.5.11，删除 /tmp/framer.txt 文件，并使用提供的 SHA-256 和 PGP 签名验证更新以确保安全。”"
+    ],
+    "commentSummary": [
+      "“iTerm2发布了一个重要的安全更新，以解决其SSH集成中的一个漏洞，该漏洞会将输入和输出记录到远程主机上的文件中，可能会将数据暴露给其他用户。”",
+      "“问题是由于在生产环境中意外启用了详细日志记录引起的，这促使人们讨论了预提交钩子和防止类似错误的安全措施的重要性。”",
+      "“该事件引发了关于切换到Ghostty或Terminal.app等替代方案的讨论，同时也突出了功能丰富的软件与安全风险之间的平衡。”"
+    ],
+    "points": 647,
+    "commentCount": 412,
+    "retryCount": 0,
+    "time": 1735855722
+  },
+  {
+    "id": 42584400,
+    "title": "“如果您不断要求大型语言模型“编写更好的代码”，它们能否编写出更好的代码？”",
+    "originLink": "https://minimaxir.com/2025/01/write-better-code/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42584400",
+    "commentBody": "",
+    "originSummary": [
+      "“在2023年11月，一种模因趋势涉及用户要求ChatGPT迭代增强图像，然后使用Claude 3.5 Sonnet将其应用于代码以改进Python程序。- 使用诸如“编写更好的代码”之类的模糊提示的初步尝试显示出一些改进，但具有特定优化目标的结构化提示工程导致了显著的性能提升。- 该实验强调了人工监督的重要性，因为虽然大型语言模型(LLMs)可以提供创新的想法，但在代码优化过程中也可能引入细微的错误。”"
+    ],
+    "commentSummary": [
+      "大型语言模型(LLMs)通常会生成基础代码，因为它们经过了大量教程的训练，可能会错过一些可以提高代码性能的简单优化。- 反复提示LLMs改进代码可以产生更好的结果，但这个过程可能和手动编码一样耗时。- 讨论强调了LLMs在理解复杂优化方面的局限性，并突出了提供上下文和具体指令以提高代码质量的重要性。"
+    ],
+    "points": 453,
+    "commentCount": 271,
+    "retryCount": 0,
+    "time": 1735900244
+  },
+  {
+    "id": 42577736,
+    "title": "纯SQL实现的2024年编程挑战",
+    "originLink": "http://databasearchitects.blogspot.com/2024/12/advent-of-code-2024-in-pure-sql.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42577736",
+    "commentBody": "",
+    "originSummary": [
+      "“Thomas Neumann分享了他使用纯SQL解决2024年Advent of Code挑战的经验，强调这是一种替代问题解决方法的练习。- Neumann成功完成了所有挑战，但他指出SQL在处理复杂算法和状态更新方面的局限性，并建议可能的改进以提高SQL的效率。- 博客文章包括一个挑战的详细SQL解决方案，并讨论了增强SQL以更好地直接在数据库中支持复杂算法执行的可能性。”"
+    ],
+    "commentSummary": [
+      "“2024年的Advent of Code以纯SQL形式展示了SQL处理复杂挑战的能力，引发了人们对其性能和逻辑结构的兴趣。”",
+      "“讨论揭示了使用SQL的多样化经验，从优化存储过程到将其用于业务逻辑，展示了其优点和挑战。”",
+      "“对话还探讨了类似 SQL 的语言的潜力，以及数据库逻辑与应用程序代码之间的平衡，反映了对 SQL 在软件开发中作用的不同看法。”"
+    ],
+    "points": 431,
+    "commentCount": 97,
+    "retryCount": 0,
+    "time": 1735845650
+  },
+  {
+    "id": 42578237,
+    "title": "“美国上诉法院推翻了联邦通信委员会的网络中立性规则”",
+    "originLink": "https://www.tvtechnology.com/news/sixth-circuit-of-appeals-strikes-down-fccs-net-neutrality-rules",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42578237",
+    "commentBody": "",
+    "originSummary": [
+      "“美国上诉法院宣布联邦通信委员会的网络中立性规则无效，该规则要求宽带提供商平等对待互联网流量，理由是联邦通信委员会超越了法律权限。”",
+      "“该决定引用了最高法院的一项裁决，该裁决限制了监管机构的权力，影响了联邦通信委员会执行网络中立性的能力。”",
+      "“联邦通信委员会主席杰西卡·罗森沃塞尔呼吁国会立法网络中立性，而委员布伦丹·卡尔则支持法院的决定，认为这是对监管过度的制衡。”"
+    ],
+    "commentSummary": [
+      "“美国上诉法院宣布FCC的网络中立性规则无效，理由是根据现行法律缺乏足够的法律权威。- 这一决定是在最高法院推翻切弗伦尊重原则之后做出的，该原则曾允许像FCC这样的机构广泛解释法规。- 法院将宽带提供商归类为提供“信息服务”而非“电信服务”，从而限制了FCC的监管权力，结束了联邦网络中立性规则，这可能允许互联网服务提供商限制或优先处理互联网流量。”"
+    ],
+    "points": 356,
+    "commentCount": 302,
+    "retryCount": 0,
+    "time": 1735848335
+  },
+  {
+    "id": 42581119,
+    "title": "“在互联网上做一个财产拥有者，而不是租客。”",
+    "originLink": "https://den.dev/blog/be-a-property-owner-not-a-renter-on-the-internet/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42581119",
+    "commentBody": "",
+    "originSummary": [
+      "“文章强调了拥有自己的数字空间的重要性，而不是仅仅依赖主要的互联网平台，这些平台通常优先考虑自身的增长而非用户的利益。- 维护在线存在控制权的策略包括拥有一个域名、在多个平台上分散内容，以及通过邮件列表与受众建立直接联系。- 通过创建自己的网络资产，您可以确保在数字活动中的灵活性和韧性，减少对任何单一网络的依赖。”"
+    ],
+    "commentSummary": [
+      "“讨论强调了拥有自己的数字存在的重要性，而不是依赖社交媒体平台，解决了关于人工智能利用用户生成内容的担忧。- 它探讨了版权、人工智能伦理的复杂性，以及拥有个人网站或域名以更好地控制在线数据的重要性。- 讨论还考虑了自托管的实用性和局限性，鉴于对域名注册商和托管服务提供商等外部服务的依赖，倡导在管理个人在线存在方面获得更多独立性。”"
+    ],
+    "points": 295,
+    "commentCount": 211,
+    "retryCount": 0,
+    "time": 1735867317
+  },
+  {
+    "id": 42583086,
+    "title": "“BlogScroll – 个人网站和博客的开放目录”",
+    "originLink": "https://blogscroll.com/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42583086",
+    "commentBody": "",
+    "originSummary": [
+      "“BlogScroll 是一个个人网站和博客的开放目录，强调主要科技公司之外的数字空间，由 Den Delimarsky 在 GitHub 上维护。- 用户可以通过 GitHub 或通过电子邮件联系创建者来为 BlogScroll 做出贡献，并且可以通过 RSS 提要获取更新。- 该目录包括设计与用户体验、个人、照片视频制作和技术等各种类别，展示了众多个人的贡献。”"
+    ],
+    "commentSummary": [
+      "“BlogScroll 是一个开放目录，专注于分享数字花园，这些花园被一些用户认为是任何个人网站。”",
+      "“托管在 GitHub 上的 BlogScroll 引发了关于其“围墙花园”性质的讨论，并提出了 OPML 导出和可扩展性改进的建议。”",
+      "“该项目鼓励提交作品以扩展其列表，反映了对个人网络空间的重新兴趣以及在线维护独立策划内容的挑战。”"
+    ],
+    "points": 262,
+    "commentCount": 70,
+    "retryCount": 0,
+    "time": 1735885431
+  },
+  {
+    "id": 42579969,
+    "title": "“桤木湖SHLX异常”",
+    "originLink": "https://tavianator.com/2025/shlx.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42579969",
+    "commentBody": "",
+    "originSummary": [
+      "“Harold Aptroot 发现，英特尔 Alder Lake 处理器上的 SHLX 指令表现出“中等延迟”3 个周期，这对于通常需要 1 个周期的左移操作来说是不典型的。- 这种延迟问题特定于 Alder Lake 的性能核心，并不影响效率核心，这与英特尔声称的 1 个周期延迟相矛盾。- 延迟根据移位计数寄存器的初始化而变化，32 位指令或没有立即数的 64 位指令实现 1 个周期延迟，而带有立即数的 64 位指令则导致 3 个周期延迟。”"
+    ],
+    "commentSummary": [
+      "“湖泊 Alder SHLX 异常是一个性能问题，其中特定指令(例如 `mov rcx, 1`)导致 `SHLX` 指令执行速度变慢，这可能是由于寄存器重命名器对小立即数的处理所致。”",
+      "“这种异常可能导致速度降低三倍，并且由于上下文切换可能会重置寄存器状态，从而无意中加快代码运行，因此很难重现。”",
+      "“该问题是新发现的，主要影响移位计数，影响诸如 `SHL` 之类的指令，但不影响 `ANDN` 等其他指令，并且通常不被编译器考虑。”"
+    ],
+    "points": 194,
+    "commentCount": 68,
+    "retryCount": 0,
+    "time": 1735858848
+  }
+]

@@ -15,12 +15,99 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 02 Jan 2025 19:16:12 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Jan 2025 19:08:50 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/it.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Fri, 03 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[it]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-03]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/03&#39;</h2>
+<h1>2025-01-03</h1>
+<h2><a href="https://vinay.sh/i-am-rich-and-have-no-idea-what-to-do-with-my-life/">sono ricco e non ho idea di cosa fare</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42579873">Reazioni</a></h3>
+<ul>
+<li>Il post discute la comune difficoltà di trovare uno scopo dopo aver raggiunto il successo finanziario, che può portare a sentimenti di disillusione e isolamento. Suggerisce che la realizzazione può essere trovata nello sviluppo degli altri, nella costruzione di connessioni o nel perseguire nuovi interessi, sottolineando l&#39;importanza di uno scopo oltre la ricchezza finanziaria. La discussione evidenzia anche le sfide nel mantenere le relazioni quando la ricchezza crea un divario sociale, sottolineando la necessità di attività significative e connessioni per favorire un senso di appartenenza.</li>
+</ul>
+<h2><a href="https://iterm2.com/downloads/stable/iTerm2-3_5_11.changelog">Rilascio critico di sicurezza di iTerm2</a></h2>
+<ul>
+<li>iTerm2 versione 3.5.11, rilasciata il 2 gennaio 2025, risolve una vulnerabilità di sicurezza critica relativa alla funzione di integrazione SSH nelle versioni precedenti. - Il bug riguardava la registrazione di input/output su un file nel host remoto, che poteva essere accessibile da altri, interessando gli utenti delle versioni dalla 3.5.6 alla 3.5.10 e alcune versioni beta. - Si consiglia agli utenti di aggiornare immediatamente alla versione 3.5.11, eliminare il file /tmp/framer.txt e verificare l&#39;aggiornamento utilizzando l&#39;SHA-256 e la firma PGP forniti per garantire la sicurezza.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42579472">Reazioni</a></h3>
+<ul>
+<li>iTerm2 ha rilasciato un aggiornamento di sicurezza critico per risolvere un bug nella sua integrazione SSH, che registrava input e output su un file sul host remoto, potenzialmente esponendo i dati ad altri utenti.</li>
+<li>Il problema è stato causato dall&#39;attivazione accidentale della registrazione dettagliata in produzione, suscitando discussioni sull&#39;importanza dei pre-commit hook e delle misure di sicurezza per prevenire errori simili.</li>
+<li>Il incidente ha suscitato un dibattito sul passaggio ad alternative come Ghostty o Terminal.app, evidenziando anche l&#39;equilibrio tra software ricchi di funzionalità e rischi per la sicurezza.</li>
+</ul>
+<h2><a href="https://minimaxir.com/2025/01/write-better-code/">Le LLM possono scrivere codice migliore se continui a chiedere loro di &quot;scrivere codice migliore&quot;?</a></h2>
+<ul>
+<li>In novembre 2023, una tendenza meme ha coinvolto gli utenti che chiedevano a ChatGPT di migliorare iterativamente le immagini, applicata poi al codice utilizzando Claude 3.5 Sonnet per migliorare un programma Python. - I tentativi iniziali con richieste vaghe come &quot;scrivi un codice migliore&quot; hanno mostrato alcuni miglioramenti, ma l&#39;ingegneria dei prompt strutturata con obiettivi di ottimizzazione specifici ha portato a miglioramenti significativi delle prestazioni. - L&#39;esperimento ha sottolineato l&#39;importanza della supervisione umana, poiché mentre i modelli di linguaggio di grandi dimensioni (LLM) possono offrire idee innovative, possono anche introdurre bug sottili durante l&#39;ottimizzazione del codice.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42584400">Reazioni</a></h3>
+<ul>
+<li>Modelli di linguaggio di grandi dimensioni (LLM) spesso generano codice di base a causa del loro addestramento su numerosi tutorial, potenzialmente mancando semplici ottimizzazioni che potrebbero migliorare le prestazioni del codice. - Sollecitare iterativamente gli LLM per migliorare il codice può portare a risultati migliori, ma questo processo può essere altrettanto dispendioso in termini di tempo quanto la codifica manuale. - La discussione sottolinea le limitazioni degli LLM nel comprendere ottimizzazioni complesse e evidenzia l&#39;importanza di fornire contesto e istruzioni specifiche per migliorare la qualità del codice.</li>
+</ul>
+<h2><a href="http://databasearchitects.blogspot.com/2024/12/advent-of-code-2024-in-pure-sql.html">Avvento del Codice 2024 in puro SQL</a></h2>
+<ul>
+<li>Thomas Neumann ha condiviso la sua esperienza nel risolvere le sfide dell&#39;Advent of Code 2024 utilizzando solo SQL, evidenziandolo come un esercizio di approcci alternativi alla risoluzione dei problemi. - Neumann ha completato con successo tutte le sfide, sebbene abbia notato le limitazioni di SQL nella gestione di algoritmi complessi e aggiornamenti di stato, suggerendo potenziali miglioramenti per l&#39;efficienza di SQL. - Il post del blog include una soluzione SQL dettagliata per una sfida e discute la possibilità di migliorare SQL per supportare meglio l&#39;esecuzione di algoritmi complessi direttamente all&#39;interno dei database.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42577736">Reazioni</a></h3>
+<ul>
+<li>Advent of Code 2024 in puro SQL mette in evidenza la capacità di SQL di affrontare sfide complesse, suscitando interesse per le sue prestazioni e la sua struttura logica.</li>
+<li>I commenti rivelano esperienze diverse con SQL, dall&#39;ottimizzazione delle stored procedure all&#39;utilizzo per la logica aziendale, mettendo in luce sia i suoi punti di forza che le sfide.</li>
+<li>La conversazione esplora anche il potenziale dei linguaggi simili a SQL e l&#39;equilibrio tra la logica del database e il codice dell&#39;applicazione, riflettendo opinioni diverse sul ruolo di SQL nello sviluppo software.</li>
+</ul>
+<h2><a href="https://www.tvtechnology.com/news/sixth-circuit-of-appeals-strikes-down-fccs-net-neutrality-rules">Una corte d&#39;appello degli Stati Uniti annulla le regole sulla neutralità della rete della FCC</a></h2>
+<ul>
+<li>Una Corte d&#39;Appello degli Stati Uniti ha invalidato le regole sulla neutralità della rete della FCC, che imponevano un trattamento equo del traffico internet da parte dei fornitori di banda larga, citando un eccesso di autorità legale da parte della FCC.</li>
+<li>La decisione fa riferimento a una sentenza della Corte Suprema che limita i poteri delle agenzie di regolamentazione, influenzando la capacità della FCC di far rispettare la neutralità della rete.</li>
+<li>Il presidente della FCC Jessica Rosenworcel ha chiesto al Congresso di legiferare sulla neutralità della rete, mentre il commissario Brendan Carr ha sostenuto la decisione del tribunale come un controllo sull&#39;eccesso di regolamentazione.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42578237">Reazioni</a></h3>
+<ul>
+<li>Una corte d&#39;appello degli Stati Uniti ha invalidato le regole sulla neutralità della rete della FCC, citando un&#39;insufficiente autorità legale secondo la legge attuale. - La decisione segue l&#39;annullamento da parte della Corte Suprema della deferenza Chevron, che aveva permesso ad agenzie come la FCC di interpretare ampiamente gli statuti. - La corte ha classificato i fornitori di banda larga come fornitori di un &quot;servizio di informazione&quot;, non di un &quot;servizio di telecomunicazioni&quot;, limitando così il potere regolatorio della FCC e ponendo fine alle regole federali sulla neutralità della rete, potenzialmente permettendo agli ISP di rallentare o dare priorità al traffico internet.</li>
+</ul>
+<h2><a href="https://den.dev/blog/be-a-property-owner-not-a-renter-on-the-internet/">Essere proprietario e non affittuario su internet</a></h2>
+<ul>
+<li>Il articolo sottolinea l&#39;importanza di possedere il proprio spazio digitale invece di fare affidamento esclusivamente sulle principali piattaforme internet, che spesso danno priorità alla loro crescita rispetto agli interessi degli utenti. - Le strategie per mantenere il controllo sulla propria presenza online includono il possesso di un dominio, la diversificazione dei contenuti su più piattaforme e la costruzione di connessioni dirette con il pubblico tramite liste di email. - Creando la propria proprietà web, si garantisce flessibilità e resilienza nelle proprie iniziative digitali, riducendo la dipendenza da una singola rete.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42581119">Reazioni</a></h3>
+<ul>
+<li>Il discorso sottolinea l&#39;importanza di possedere la propria presenza digitale invece di dipendere dalle piattaforme di social media, affrontando le preoccupazioni riguardo all&#39;IA che sfrutta i contenuti generati dagli utenti. - Esplora le complessità del diritto d&#39;autore, dell&#39;etica dell&#39;IA e l&#39;importanza di avere un sito web personale o un dominio per un migliore controllo sui dati online. - La conversazione considera anche la praticità e i limiti dell&#39;auto-ospitare, data la dipendenza da servizi esterni come i registrar di domini e i fornitori di hosting, sostenendo una maggiore indipendenza nella gestione della propria presenza online.</li>
+</ul>
+<h2><a href="https://blogscroll.com/">BlogScroll – Una directory aperta di siti personali e blog</a></h2>
+<ul>
+<li>BlogScroll è una directory aperta di siti personali e blog, che enfatizza gli spazi digitali al di fuori delle grandi aziende tecnologiche, ed è mantenuta su GitHub da Den Delimarsky. - Gli utenti possono contribuire a BlogScroll tramite GitHub o inviando un&#39;email al creatore, e gli aggiornamenti sono disponibili tramite un feed RSS. - La directory include varie categorie come design-e-ux, personale, produzione-foto-video e tecnologia, mostrando contributi da numerosi individui.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42583086">Reazioni</a></h3>
+<ul>
+<li>BlogScroll è una directory aperta per siti personali e blog, concentrandosi sulla condivisione di giardini digitali, che sono discussi come qualsiasi sito personale da alcuni utenti.</li>
+<li>Hostato su GitHub, BlogScroll ha suscitato discussioni sulla sua natura di &quot;giardino recintato&quot;, con suggerimenti per l&#39;esportazione OPML e miglioramenti della scalabilità.</li>
+<li>Il progetto incoraggia le proposte per ampliare la sua lista, riflettendo un rinnovato interesse per gli spazi web personali e le sfide di mantenere contenuti indipendenti e curati online.</li>
+</ul>
+<h2><a href="https://tavianator.com/2025/shlx.html">Il fenomeno anomalo di Alder Lake SHLX</a></h2>
+<ul>
+<li>Harold Aptroot ha scoperto che l&#39;istruzione SHLX sui processori Alder Lake di Intel presenta una &quot;latenza media&quot; di 3 cicli, che è atipica per le operazioni di spostamento a sinistra che di solito richiedono 1 ciclo. - Questo problema di latenza è specifico per i core di prestazione di Alder Lake e non influisce sui core di efficienza, contraddicendo le affermazioni di Intel di una latenza di 1 ciclo. - La latenza varia in base all&#39;inizializzazione del registro del conteggio dello spostamento, con istruzioni a 32 bit o istruzioni a 64 bit senza immediati che raggiungono una latenza di 1 ciclo, mentre le istruzioni a 64 bit con immediati risultano in una latenza di 3 cicli.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42579969">Reazioni</a></h3>
+<ul>
+<li>Il problema di prestazioni noto come Anomalia Alder Lake SHLX si verifica quando istruzioni specifiche, come <code>mov rcx, 1</code>, causano un&#39;esecuzione più lenta dell&#39;istruzione <code>SHLX</code>, potenzialmente a causa della gestione dei piccoli immediati da parte del rinominatore di registri.</li>
+<li>Questa anomalia può portare a un rallentamento di 3 volte ed è difficile da riprodurre perché i cambi di contesto possono resettare lo stato del registro, accelerando involontariamente il codice.</li>
+<li>Il problema è stato scoperto di recente e riguarda principalmente i conteggi di spostamento, influenzando istruzioni come <code>SHL</code>, ma non altre come <code>ANDN</code>, e di solito non viene considerato dai compilatori.</li>
+</ul>
+<head>
+  <meta property="og:title" content="sono ricco e non ho idea di cosa fare" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=sono%20ricco%20e%20non%20ho%20idea%20di%20cosa%20fare&subheading=venerd%C3%AC%203%20gennaio%202025%3A%20Riassunto%20di%20Hacker%20News" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/it/2025/01/03</link>
+            <guid isPermaLink="false">2025-01-03T00:00:00.000Z</guid>
+            <pubDate>Fri, 03 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-02]]></title>
             <description
@@ -347,131 +434,6 @@
             <link>https://hn.cho.sh/it/2024/12/25</link>
             <guid isPermaLink="false">2024-12-25T00:00:00.000Z</guid>
             <pubDate>Wed, 25 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-24]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/24&#39;</h2>
-<h1>2024-12-24</h1>
-<h2><a href="https://www.youtube.com/watch?v=JfZxOuc9Qwk">Che fine ha fatto il più grande televisore a tubo del mondo? [video]</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42497093">Reazioni</a></h3>
-<ul>
-<li>Un influencer di YouTube ha salvato dalla distruzione il più grande televisore a tubo del mondo, un raro modello Sony, trasferendolo dal Giappone agli Stati Uniti per uso personale. La decisione ha suscitato un dibattito sul fatto che tali manufatti unici dovrebbero essere conservati nei musei piuttosto che in collezioni private. La situazione evidenzia le difficoltà nella conservazione di oggetti rari e le complesse questioni relative alla proprietà e al patrimonio culturale.</li>
-</ul>
-<h2><a href="https://mathstodon.xyz/@johncarlosbaez/113703444230936435">Il numero pi greco ha un gemello malvagio</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42499567">Reazioni</a></h3>
-<ul>
-<li>Il costante lemniscata, denotato come ϖ, è associato alla curva lemniscata a forma di ∞ ed è un corrispettivo del numero pi greco.</li>
-<li>Le discussioni evidenziano le sue potenziali applicazioni nella fantascienza, le sue variazioni ortografiche e la sua importanza matematica.</li>
-<li>La conversazione esplora anche le influenze culturali e storiche sulla lingua e sulla matematica, in particolare i contributi greci e arabi.</li>
-</ul>
-<h2><a href="https://events.ccc.de/congress/2024/infos/index.html">38º Congresso del Chaos Communication</a></h2>
-<ul>
-<li>Il 38º Chaos Communication Congress (38C3) è previsto ad Amburgo dal 27 al 30 dicembre 2024, organizzato dal Chaos Computer Club. Questo evento annuale sottolinea l&#39;intersezione tra tecnologia, società e utopia, offrendo conferenze, workshop e discussioni sull&#39;impatto della tecnologia. I partecipanti sono invitati a partecipare come volontari, ospitare eventi o presentare progetti, con informazioni chiave accessibili sulle pagine informative dell&#39;evento e sul blog.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42500475">Reazioni</a></h3>
-<ul>
-<li>Il 38° Chaos Communication Congress (CCC) sta attirando l&#39;attenzione con i suoi vari interventi su AI, biologia e sistemi embedded, mettendo in evidenza la serie &quot;From Computation to Consciousness&quot; di Joscha Bach. - L&#39;evento è noto per le sue discussioni non convenzionali e sarà trasmesso in streaming, affrontando sfide come la biglietteria e l&#39;equilibrio tra argomenti tecnici e sociali. - Il CCC è un evento chiave per la comunità hacker, focalizzandosi su apertura e inclusività, ed esplorando aspetti politici e culturali, incluso l&#39;uso del linguaggio.</li>
-</ul>
-<h2><a href="https://www.digikey.com/en/maker/projects/a-step-by-step-guide-to-build-a-low-cost-drone-using-esp32/8afccd0690574bcebfa0d2ad6fd0a391">Costruisci un drone a basso costo utilizzando ESP32</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42498648">Reazioni</a></h3>
-<ul>
-<li>Il sistema dei droni fai-da-te si sta espandendo, con componenti accessibili come unità di microcontrollo per il controllo del volo (MCU), driver per motori e telecamere disponibili per la personalizzazione.</li>
-<li>Il software open-source come Betaflight e ArduPilot supporta queste costruzioni fai-da-te, offrendo alternative ai sistemi proprietari come DJI, anche se attualmente sono indietro in alcune aree.</li>
-<li>Il microcontrollore ESP32 è un&#39;opzione economica per progetti di droni, con configurazioni di base che costano circa 500 dollari, nonostante le sfide come il controllo in tempo reale tramite WiFi.</li>
-</ul>
-<h2><a href="https://blog.mlc.ai/2023/08/09/Making-AMD-GPUs-competitive-for-LLM-inference">Rendere le GPU AMD competitive per l&#39;inferenza LLM (2023)</a></h2>
-<ul>
-<li>MLC-LLM facilita la compilazione e il deployment di Large Language Models (LLM) su GPU AMD utilizzando ROCm, raggiungendo prestazioni vicine a quelle delle GPU di fascia alta di NVIDIA. - L&#39;AMD Radeon RX 7900 XTX offre prestazioni competitive, raggiungendo l&#39;80% della velocità della NVIDIA RTX 4090 e il 94% della RTX 3090 Ti per modelli specifici, pur essendo significativamente più conveniente. - Il progetto mette in evidenza il potenziale delle GPU AMD per l&#39;inferenza LLM, con miglioramenti continui nel supporto software e piani per futuri miglioramenti come il batching e il supporto multi-GPU.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42498634">Reazioni</a></h3>
-<ul>
-<li>Le GPU consumer di AMD, come la RX7900XTX, differiscono in architettura dalle loro GPU per datacenter come la MI300X, influenzando i livelli di prestazioni. C&#39;è un crescente sforzo per integrare l&#39;architettura CDNA di AMD e il supporto HIP (Heterogeneous-compute Interface for Portability) nelle piattaforme di deep learning, con l&#39;obiettivo di sfidare il dominio di Nvidia nei carichi di lavoro AI. Nonostante l&#39;interesse crescente, persistono sfide come il supporto software e la coerenza delle prestazioni, portando alcuni sviluppatori a tornare a Nvidia, che mantiene un vantaggio significativo con la sua piattaforma CUDA (Compute Unified Device Architecture).</li>
-</ul>
-<h2><a href="https://seangeiger.substack.com/p/why-are-cancer-guidelines-stuck-in">Perché le linee guida sul cancro sono bloccate nei PDF?</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42498462">Reazioni</a></h3>
-<ul>
-<li>Le linee guida sul cancro sono spesso archiviate in formato PDF a causa della loro durabilità e portabilità, nonostante le limitazioni in termini di usabilità e integrazione con i sistemi medici. Passare a dati strutturati potrebbe migliorare l&#39;usabilità, ma le sfide includono la complessità delle informazioni mediche, la mancanza di standardizzazione e gli ostacoli normativi. Il dibattito si concentra sull&#39;equilibrio tra l&#39;affidabilità dei PDF e i potenziali vantaggi delle soluzioni di dati dinamici e interpretabili dalle macchine, considerando la necessità di aggiornamenti costanti e la gestione degli errori nei sistemi automatizzati.</li>
-</ul>
-<h2><a href="https://github.com/isledecomp/isle">Decompilazione completa di Lego Island</a></h2>
-<ul>
-<li>Il progetto prevede una completa decompilazione di LEGO Island (Versione 1.1, Inglese), con l&#39;obiettivo di replicare il codice macchina originale il più fedelmente possibile.</li>
-<li>Utilizza CMake per la compilazione, con Microsoft Visual C++ 4.20 consigliato per risultati ottimali, e prevede la configurazione dell&#39;ambiente, la configurazione con CMake e la compilazione con nmake.</li>
-<li>Si incoraggiano i contributi, concentrandosi specificamente sulla versione inglese della release 1.1, con miglioramenti continui ai file decompilati ISLE.EXE e LEGO1.DLL.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42497173">Reazioni</a></h3>
-<ul>
-<li>Un progetto su GitHub ha decompilato con successo il gioco classico Lego Island, migliorando gli sforzi precedenti per correggere i bug nel gioco originale. - MattKC, un YouTuber riconosciuto per contenuti tecnici, ha svolto un ruolo significativo in questo progetto di decompilazione, che enfatizza l&#39;accuratezza e include strumenti come un lint tool e un editor di risorse. - Il progetto ha suscitato interesse nel rifacimento di giochi LEGO vintage, con i fan che esprimono nostalgia per titoli come Rock Raiders e Lego Loco, evidenziando l&#39;apprezzamento della comunità per la conservazione e il miglioramento di questi giochi classici.</li>
-</ul>
-<h2><a href="https://www.cfodive.com/news/intel-shareholders-yank-exceo-cfo-compensation-foundry/736193/">Azionisti di Intel presentano un caso chiedendo all&#39;ex CEO e CFO di restituire 3 anni di stipendio</a></h2>
-<ul>
-<li>I soci di Intel stanno cercando la restituzione della retribuzione dall&#39;ex CEO Pat Gelsinger e dal CFO David Zinsner, accusandoli di aver fuorviato gli azionisti riguardo alle prestazioni finanziarie dell&#39;unità di fonderia di Intel.</li>
-<li>Il contenzioso sostiene una violazione dei doveri fiduciari, a seguito del fallito piano di rilancio di Intel e di una perdita trimestrale record di 16,6 miliardi di dollari, che ha portato a un calo del 9,2% delle azioni di Intel.</li>
-<li>Il reparto fonderia, inizialmente previsto come motore di crescita, è stato successivamente identificato come un centro di costo significativo, spingendo Zinsner, ora co-CEO ad interim, a intraprendere sforzi di ristrutturazione, mentre Gelsinger si è dimesso.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42500482">Reazioni</a></h3>
-<ul>
-<li>I soci di Intel hanno intentato una causa contro l&#39;ex CEO e CFO, chiedendo la restituzione di tre anni di stipendio a causa di un piano aziendale fallito.</li>
-<li>I critici sostengono che la causa sia infondata, poiché i dirigenti avevano riconosciuto le sfide affrontate dall&#39;unità Foundry di Intel.</li>
-<li>La causa legale sottolinea le tensioni tra gli azionisti e la leadership aziendale, con alcuni che la vedono come un&#39;azione frivola motivata dal guadagno finanziario.</li>
-</ul>
-<h2><a href="https://twitter.com/spatiallyjess/status/1871342549958537326">Tokyo ha rilasciato gratuitamente i dati del cloud di punti dell&#39;intera città</a></h2>
-<ul>
-<li>Tokyo ha reso disponibili dati di nuvole di punti gratuiti dell&#39;intera città, consentendo il download pubblico.</li>
-<li>Il dato di nuvola di punti è una raccolta di punti dati nello spazio, spesso utilizzata nella modellazione 3D e nei sistemi informativi geografici (GIS).</li>
-<li>Questa versione è significativa in quanto fornisce risorse preziose per sviluppatori, ricercatori e urbanisti interessati alla modellazione 3D e all&#39;analisi spaziale di Tokyo.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42501102">Reazioni</a></h3>
-<ul>
-<li>Tokyo ha reso disponibili dati di nuvole di punti gratuiti dell&#39;intera città, consentendo la navigazione e l&#39;esplorazione 3D interattiva. - Questa iniziativa è simile a quelle in Svizzera e Francia, dove sono stati rilasciati modelli 3D dettagliati e dati lidar. - Questi set di dati sono particolarmente preziosi per applicazioni in immagini generate al computer (CGI), videogiochi e altre tecnologie 3D.</li>
-</ul>
-<h2><a href="https://www.rfleury.com/p/demystifying-debuggers-part-2-the">Demistificare i Debugger, Parte 2: L&#39;Anatomia di un Programma in Esecuzione</a></h2>
-<ul>
-<li>Il articolo &quot;Demistificare i Debugger, Parte 2: L&#39;Anatomia di un Programma in Esecuzione&quot; spiega i componenti coinvolti nell&#39;esecuzione di un programma, come gli spazi di indirizzamento virtuale, i thread e i processi.- Dettaglia come i sistemi operativi utilizzano la memoria virtuale e la pianificazione per gestire più programmi in esecuzione simultaneamente.- Il post fa parte di una serie focalizzata a spiegare come i debugger interagiscono con questi processi per analizzare l&#39;esecuzione del programma.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42498982">Reazioni</a></h3>
-<ul>
-<li>Il debugger è fondamentale per analizzare i programmi in esecuzione e integrarli con i modelli di linguaggio di grandi dimensioni (LLM) potrebbe potenzialmente migliorarne la funzionalità.</li>
-<li>Esiste un dibattito tra gli sviluppatori sul potenziale degli LLM nel debugging, con alcuni ottimisti riguardo alle loro capacità di tracciamento degli errori e altri scettici sulla loro attuale efficacia.</li>
-<li>Il dibattito sottolinea le diverse prospettive sulle pratiche di debugging e il ruolo in evoluzione degli LLM nello sviluppo software.</li>
-</ul>
-<h2><a href="https://sakana.ai/asal/">Automatizzare la ricerca della vita artificiale con modelli di base</a></h2>
-<ul>
-<li>Il algoritmo di Ricerca Automatica per la Vita Artificiale (ASAL) utilizza modelli di base di visione-linguaggio AI per scoprire forme di vita artificiali nelle simulazioni, migliorando il campo della ricerca sulla Vita Artificiale (ALife). ASAL ha identificato con successo nuove forme di vita in simulazioni come Lenia, Boids, Particle Life e Game of Life, mostrando schemi dinamici e nuove regole di automi cellulari. Questo approccio automatizza il processo di scoperta, superando i limiti delle simulazioni progettate manualmente, e incoraggia ulteriori esplorazioni e collaborazioni per integrare i concetti di ALife nell&#39;AI per sistemi più adattivi e creativi.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42499332">Reazioni</a></h3>
-<ul>
-<li>Il tema dell&#39;integrazione dei modelli di base nell&#39;automazione della ricerca della vita artificiale (ALife) sta suscitando interesse, mettendo in evidenza la distinzione tra intelligenza artificiale (AI) e ALife. - &quot;The Self-Assembling Brain&quot; è un libro che esamina l&#39;intelligenza da molteplici punti di vista, contribuendo al dibattito in corso. - Sakana AI, un&#39;azienda fondata dagli autori del famoso articolo &quot;Attention Is All You Need&quot;, si sta concentrando sulla commercializzazione dell&#39;AI, sostenuta da investimenti di venture capital, ed è parte delle discussioni sul ruolo dell&#39;AI nell&#39;analisi dei dati della Ricerca di Intelligenza Extraterrestre (SETI).</li>
-</ul>
-<h2><a href="https://onlinelibrary.wiley.com/doi/10.1002/spe.3296">Analizzare milioni di URL al secondo (2023)</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42498514">Reazioni</a></h3>
-<ul>
-<li>I problemi discussi si concentrano sulle sfide del parsing di milioni di URL al secondo, in particolare sui problemi di normalizzazione degli URL e sugli errori di parsing.</li>
-<li>Esiste un dibattito sulla necessità di cambiare &quot;http://&quot; in &quot;https://&quot; e sull&#39;affidabilità di HTTPS, con un certo scetticismo riguardo alle affermazioni sulle prestazioni del parser.</li>
-<li>I partecipanti discutono anche delle difficoltà di scrivere parser efficienti, delle limitazioni dell&#39;uso delle espressioni regolari (regex) per l&#39;analisi degli URL e delle complessità di aderire a varie specifiche degli URL.</li>
-</ul>
-<h2><a href="https://www.theguardian.com/travel/2024/dec/24/paris-to-berlin-by-train-faster-service-via-strasbourg">Da Parigi a Berlino in treno ora è più veloce di cinque ore</a></h2>
-<ul>
-<li>Deutsche Bahn e SNCF hanno lanciato un nuovo servizio di treno diretto diurno da Parigi a Berlino, riducendo il tempo di viaggio di cinque ore a 7 ore e 59 minuti.</li>
-<li>Il percorso include viste panoramiche e fermate a Strasburgo, Karlsruhe e Francoforte, con biglietti a partire da €59,99 per la seconda classe.</li>
-<li>Anche se il servizio offre un&#39;esperienza di viaggio più rilassata, alcuni sostengono che debba essere più veloce per competere efficacemente con il trasporto aereo.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42500704">Reazioni</a></h3>
-<ul>
-<li>Il nuovo collegamento ferroviario diretto tra Parigi e Berlino riduce il tempo di viaggio di cinque ore, offrendo un viaggio più rilassante rispetto al trasporto aereo.</li>
-<li>Le ferrovie sono ecologiche, producendo minori emissioni di CO2, ma richiedono un notevole investimento infrastrutturale.</li>
-<li>Anche se viaggiare in treno può essere più costoso e meno flessibile rispetto al volo, molti viaggiatori lo preferiscono per il comfort e la comodità.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Che fine ha fatto il più grande televisore a tubo del mondo? [video]" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Che%20fine%20ha%20fatto%20il%20pi%C3%B9%20grande%20televisore%20a%20tubo%20del%20mondo%3F%20%5Bvideo%5D&subheading=marted%C3%AC%2024%20dicembre%202024%3A%20Riassunto%20di%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/it/2024/12/24</link>
-            <guid isPermaLink="false">2024-12-24T00:00:00.000Z</guid>
-            <pubDate>Tue, 24 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

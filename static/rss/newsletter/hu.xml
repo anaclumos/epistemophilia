@@ -15,12 +15,99 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 02 Jan 2025 19:16:12 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Jan 2025 19:08:50 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/hu.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Fri, 03 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[hu]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-03]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/03&#39;</h2>
+<h1>2025-01-03</h1>
+<h2><a href="https://vinay.sh/i-am-rich-and-have-no-idea-what-to-do-with-my-life/">„Gazdag vagyok, és fogalmam sincs, mit tegyek.”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42579873">Reakciók</a></h3>
+<ul>
+<li>„A bejegyzés a pénzügyi siker elérése utáni célkeresés közös küzdelméről szól, amely kiábrándultsághoz és elszigeteltséghez vezethet. - Azt javasolja, hogy a beteljesülés mások fejlesztésében, kapcsolatok építésében vagy új érdeklődési körök követésében található meg, hangsúlyozva a pénzügyi gazdagságon túli cél fontosságát. - A vita kiemeli a kapcsolatok fenntartásának kihívásait is, amikor a gazdagság társadalmi szakadékot teremt, aláhúzva a jelentőségteljes tevékenységek és kapcsolatok szükségességét a hovatartozás érzésének elősegítésére.”</li>
+</ul>
+<h2><a href="https://iterm2.com/downloads/stable/iTerm2-3_5_11.changelog">„iTerm2 kritikus biztonsági kiadás”</a></h2>
+<ul>
+<li>„Az iTerm2 3.5.11-es verziója, amelyet 2025. január 2-án adtak ki, egy kritikus biztonsági sebezhetőséget orvosol, amely az SSH integrációs funkcióval kapcsolatos a korábbi verziókban. - A hiba az input/output naplózását érintette egy fájlba a távoli gazdagépen, amelyhez mások is hozzáférhettek, és a 3.5.6-tól 3.5.10-ig terjedő verziók, valamint bizonyos béta verziók felhasználóit érintette. - A felhasználóknak javasolt azonnal frissíteni a 3.5.11-es verzióra, törölni a /tmp/framer.txt fájlt, és ellenőrizni a frissítést a megadott SHA-256 és PGP aláírás segítségével a biztonság garantálása érdekében.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42579472">Reakciók</a></h3>
+<ul>
+<li>„Az iTerm2 kiadott egy kritikus biztonsági frissítést, hogy kezelje az SSH integrációjában található hibát, amely a bemenetet és a kimenetet egy fájlba naplózta a távoli gazdagépen, potenciálisan kitéve az adatokat más felhasználók számára.”</li>
+<li>„A probléma az okozta, hogy a részletes naplózás véletlenül engedélyezve lett a termelési környezetben, ami vitákat indított a pre-commit hookok és védelmi intézkedések fontosságáról, hogy elkerüljük a hasonló hibákat.”</li>
+<li>„Az incidens vitát váltott ki arról, hogy érdemes-e áttérni olyan alternatívákra, mint a Ghostty vagy a Terminal.app, miközben rávilágított a funkciókban gazdag szoftverek és a biztonsági kockázatok közötti egyensúly fontosságára.”</li>
+</ul>
+<h2><a href="https://minimaxir.com/2025/01/write-better-code/">„Írhatnak-e az LLM-ek jobb kódot, ha folyamatosan arra kérjük őket, hogy „írjanak jobb kódot”?”</a></h2>
+<ul>
+<li>„2023 novemberében egy mémtrend során a felhasználók arra kérték a ChatGPT-t, hogy iteratívan javítsa a képeket, amit aztán a Claude 3.5 Sonnet segítségével a kódra is alkalmaztak egy Python program fejlesztése érdekében. - Az első próbálkozások homályos utasításokkal, mint például „írj jobb kódot”, némi javulást mutattak, de a strukturált prompttervezés konkrét optimalizálási célokkal jelentős teljesítményjavuláshoz vezetett. - A kísérlet hangsúlyozta az emberi felügyelet fontosságát, mivel bár a Nagy Nyelvi Modellek (LLM-ek) innovatív ötleteket kínálhatnak, a kód optimalizálása során finom hibákat is bevezethetnek.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42584400">Reakciók</a></h3>
+<ul>
+<li>„A Nagy Nyelvi Modellek (LLM-ek) gyakran generálnak alapvető kódot, mivel számos oktatóanyagon képezték őket, ami miatt esetleg kihagyhatnak egyszerű optimalizálásokat, amelyek javíthatnák a kód teljesítményét. - Az LLM-ek iteratív ösztönzése a kód javítására jobb eredményeket hozhat, de ez a folyamat ugyanolyan időigényes lehet, mint a kézi kódolás. - A vita rávilágít az LLM-ek korlátaira a komplex optimalizálások megértésében, és hangsúlyozza a kontextus és a konkrét utasítások fontosságát a kódminőség javítása érdekében.”</li>
+</ul>
+<h2><a href="http://databasearchitects.blogspot.com/2024/12/advent-of-code-2024-in-pure-sql.html">„Advent of Code 2024 tisztán SQL-ben”</a></h2>
+<ul>
+<li>„Thomas Neumann megosztotta tapasztalatait az Advent of Code 2024 kihívások megoldásáról tisztán SQL használatával, kiemelve ezt mint egy alternatív problémamegoldási megközelítést. - Neumann sikeresen teljesítette az összes kihívást, bár megjegyezte, hogy az SQL korlátokba ütközik a komplex algoritmusok és állapotfrissítések kezelésében, javasolva a SQL hatékonyságának esetleges javításait. - A blogbejegyzés tartalmaz egy részletes SQL megoldást egy kihívásra, és tárgyalja annak lehetőségét, hogy az SQL-t hogyan lehetne fejleszteni a komplex algoritmusok közvetlen adatbázisokon belüli végrehajtásának jobb támogatása érdekében.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42577736">Reakciók</a></h3>
+<ul>
+<li>„A 2024-es Advent of Code tisztán SQL-ben kiemeli az SQL képességét a komplex kihívások kezelésére, felkeltve az érdeklődést annak teljesítménye és logikai struktúrája iránt.”</li>
+<li>„A beszélgetés különböző tapasztalatokat tár fel az SQL-lel kapcsolatban, az eljárások optimalizálásától kezdve az üzleti logika alkalmazásáig, bemutatva mind az erősségeit, mind a kihívásait.”</li>
+<li>„A beszélgetés azt is vizsgálja, hogy milyen lehetőségeket rejtenek magukban az SQL-szerű nyelvek, valamint az adatbázis logika és az alkalmazáskód közötti egyensúlyt, tükrözve a különböző véleményeket az SQL szerepéről a szoftverfejlesztésben.”</li>
+</ul>
+<h2><a href="https://www.tvtechnology.com/news/sixth-circuit-of-appeals-strikes-down-fccs-net-neutrality-rules">„Az Egyesült Államok fellebbviteli bírósága hatályon kívül helyezte az FCC netsemlegességi szabályait”</a></h2>
+<ul>
+<li>„Egy amerikai fellebbviteli bíróság érvénytelenítette az FCC hálózatsemlegességi szabályait, amelyek előírták az internetes forgalom egyenlő kezelését a szélessávú szolgáltatók által, azzal az indokkal, hogy az FCC túllépte jogi hatáskörét.”</li>
+<li>„A döntés hivatkozik egy Legfelsőbb Bírósági határozatra, amely korlátozza a szabályozó ügynökségek hatáskörét, befolyásolva az FCC képességét a netsemlegesség érvényesítésére.”</li>
+<li>„Az FCC elnöke, Jessica Rosenworcel felszólította a Kongresszust, hogy alkosson törvényt a netsemlegességről, míg Brendan Carr biztos támogatta a bíróság döntését, mint a szabályozási túlkapások elleni ellenőrzést.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42578237">Reakciók</a></h3>
+<ul>
+<li>„Egy amerikai fellebbviteli bíróság érvénytelenítette az FCC hálózatsemlegességi szabályait, mivel a jelenlegi törvények alapján nem rendelkezik elegendő jogi felhatalmazással. - A döntés a Chevron deference legfelsőbb bírósági megsemmisítését követi, amely lehetővé tette az olyan ügynökségek számára, mint az FCC, hogy széles körben értelmezzék a törvényeket. - A bíróság a szélessávú szolgáltatókat &quot;információs szolgáltatás&quot; nyújtóként, nem pedig &quot;távközlési szolgáltatás&quot; nyújtóként osztályozta, így korlátozva az FCC szabályozási hatalmát és megszüntetve a szövetségi hálózatsemlegességi szabályokat, ami lehetővé teheti az internetszolgáltatók számára az internetes forgalom lassítását vagy priorizálását.”</li>
+</ul>
+<h2><a href="https://den.dev/blog/be-a-property-owner-not-a-renter-on-the-internet/">„Legyen ingatlantulajdonos, ne pedig bérlő az interneten”</a></h2>
+<ul>
+<li>„A cikk hangsúlyozza annak fontosságát, hogy saját digitális terünket birtokoljuk, ahelyett, hogy kizárólag a nagy internetes platformokra támaszkodnánk, amelyek gyakran a saját növekedésüket helyezik előtérbe a felhasználói érdekekkel szemben. - Az online jelenlétünk feletti kontroll megőrzésének stratégiái közé tartozik egy domain birtoklása, a tartalom több platformon történő diverzifikálása, valamint közvetlen kapcsolatok kiépítése a közönséggel e-mail listákon keresztül. - Saját webes tulajdon létrehozásával biztosítjuk a rugalmasságot és az ellenálló képességet digitális törekvéseinkben, csökkentve a függőséget bármely egyetlen hálózattól.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42581119">Reakciók</a></h3>
+<ul>
+<li>„A vita hangsúlyozza annak fontosságát, hogy az ember saját digitális jelenlétét birtokolja ahelyett, hogy a közösségi média platformokra támaszkodna, és foglalkozik az AI által a felhasználók által generált tartalom kihasználásával kapcsolatos aggodalmakkal. - Feltárja a szerzői jog, az AI etika összetettségét, valamint a személyes weboldal vagy domain birtoklásának jelentőségét az online adatok jobb ellenőrzése érdekében. - A beszélgetés azt is megvizsgálja, hogy mennyire praktikus és milyen korlátai vannak az önálló hosztolásnak, tekintettel a külső szolgáltatások, például a domain regisztrátorok és hoszting szolgáltatók függőségére, és szorgalmazza a nagyobb függetlenséget az online jelenlét kezelésében.”</li>
+</ul>
+<h2><a href="https://blogscroll.com/">„BlogScroll – Személyes oldalak és blogok nyílt könyvtára”</a></h2>
+<ul>
+<li>„A BlogScroll egy nyílt könyvtár személyes webhelyekről és blogokról, amely a nagy technológiai vállalatokon kívüli digitális tereket hangsúlyozza, és Den Delimarsky tartja karban a GitHubon. - A felhasználók hozzájárulhatnak a BlogScrollhoz a GitHubon keresztül vagy a készítőnek küldött e-mail útján, és az RSS-hírcsatornán keresztül érhetők el a frissítések. - A könyvtár különféle kategóriákat tartalmaz, mint például design-and-ux, személyes, fotó-videó-produkció és technológia, bemutatva számos egyén hozzájárulását.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42583086">Reakciók</a></h3>
+<ul>
+<li>„A BlogScroll egy nyílt könyvtár személyes oldalak és blogok számára, amely a digitális kertek megosztására összpontosít, amelyeket egyes felhasználók bármely személyes oldalnak tekintenek.”</li>
+<li>„A GitHubon tárolt BlogScroll vitákat váltott ki annak „falakkal körülvett kert” jellegéről, és javaslatok merültek fel az OPML exportálására és a skálázhatóság javítására.”</li>
+<li>„A projekt ösztönzi a beküldéseket a lista bővítése érdekében, ami a személyes webes terek iránti megújult érdeklődést és az önálló, gondozott online tartalom fenntartásának kihívásait tükrözi.”</li>
+</ul>
+<h2><a href="https://tavianator.com/2025/shlx.html">„Az Alder Lake SHLX anomália”</a></h2>
+<ul>
+<li>„Harold Aptroot felfedezte, hogy az Intel Alder Lake processzorain a SHLX utasítás „közepes késleltetést” mutat, ami 3 ciklus, ami szokatlan a balra toló műveleteknél, amelyek általában 1 ciklust vesznek igénybe. - Ez a késleltetési probléma kifejezetten az Alder Lake teljesítmény magjaira vonatkozik, és nem érinti a hatékonysági magokat, ellentmondva az Intel állításainak, miszerint 1 ciklus a késleltetés. - A késleltetés változik a shift count regiszter inicializálása alapján, 32 bites utasítások vagy 64 bites utasítások azonnali értékek nélkül 1 ciklus késleltetést érnek el, míg 64 bites utasítások azonnali értékekkel 3 ciklus késleltetést eredményeznek.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42579969">Reakciók</a></h3>
+<ul>
+<li>„Az Alder Lake SHLX Anomália egy teljesítményprobléma, ahol bizonyos utasítások, mint például a <code>mov rcx, 1</code>, lassabb végrehajtást okoznak a <code>SHLX</code> utasításnál, valószínűleg a regiszter átnevező kis azonnali értékek kezelésének következtében.”</li>
+<li>„Ez az anomália akár háromszoros lassulást is okozhat, és nehéz reprodukálni, mert a kontextusváltások visszaállíthatják a regiszter állapotát, ami akaratlanul is felgyorsíthatja a kódot.”</li>
+<li>„A probléma újonnan felfedezett, és elsősorban a shift számlálásokat érinti, befolyásolva az olyan utasításokat, mint a <code>SHL</code>, de nem másokat, mint például az <code>ANDN</code>, és általában a fordítók nem veszik figyelembe.”</li>
+</ul>
+<head>
+  <meta property="og:title" content="„Gazdag vagyok, és fogalmam sincs, mit tegyek.”" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EGazdag%20vagyok%2C%20%C3%A9s%20fogalmam%20sincs%2C%20mit%20tegyek.%E2%80%9D&subheading=2025.%20janu%C3%A1r%203.%2C%20p%C3%A9ntek%3A%20Hacker%20News%20%C3%96sszefoglal%C3%B3" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/hu/2025/01/03</link>
+            <guid isPermaLink="false">2025-01-03T00:00:00.000Z</guid>
+            <pubDate>Fri, 03 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-02]]></title>
             <description
@@ -347,131 +434,6 @@
             <link>https://hn.cho.sh/hu/2024/12/25</link>
             <guid isPermaLink="false">2024-12-25T00:00:00.000Z</guid>
             <pubDate>Wed, 25 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-24]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/24&#39;</h2>
-<h1>2024-12-24</h1>
-<h2><a href="https://www.youtube.com/watch?v=JfZxOuc9Qwk">„Mi történt a világ legnagyobb képcsöves tévéjével? [videó]”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42497093">Reakciók</a></h3>
-<ul>
-<li>„Egy YouTube influencer megmentette a világ legnagyobb csöves televízióját, egy ritka Sony modellt a megsemmisítéstől, és Japánból az Egyesült Államokba szállította személyes használatra. A döntés vitát váltott ki arról, hogy az ilyen egyedi tárgyakat inkább múzeumokban kellene-e megőrizni, mint magángyűjteményekben. A helyzet rávilágít a ritka tárgyak megőrzésének nehézségeire, valamint a tulajdonjog és a kulturális örökség körüli bonyolult kérdésekre.”</li>
-</ul>
-<h2><a href="https://mathstodon.xyz/@johncarlosbaez/113703444230936435">„A pi számnak van egy gonosz ikertestvére”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42499567">Reakciók</a></h3>
-<ul>
-<li>„A lemniscáta állandó, amelyet ϖ jelöl, az ∞ alakú lemniscáta görbéhez kapcsolódik, és a pi szám megfelelője.”</li>
-<li>„A megbeszélések kiemelik a tudományos fantasztikum terén való lehetséges alkalmazásait, a helyesírási változatait és a matematikai jelentőségét.”</li>
-<li>„A beszélgetés a nyelvre és a matematikára gyakorolt kulturális és történelmi hatásokat is vizsgálja, különös tekintettel a görög és arab hozzájárulásokra.”</li>
-</ul>
-<h2><a href="https://events.ccc.de/congress/2024/infos/index.html">„38. Chaos Communication Congress”</a></h2>
-<ul>
-<li>„A 38. Chaos Communication Congress (38C3) 2024. december 27-30. között kerül megrendezésre Hamburgban, a Chaos Computer Club szervezésében. Ez az éves esemény a technológia, a társadalom és az utópia metszéspontjára helyezi a hangsúlyt, előadásokat, workshopokat és beszélgetéseket kínálva a technológia hatásáról. A résztvevőket arra ösztönzik, hogy önkéntesként vegyenek részt, eseményeket szervezzenek vagy projekteket mutassanak be, a kulcsfontosságú információk pedig elérhetők az esemény információs oldalain és blogján.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42500475">Reakciók</a></h3>
-<ul>
-<li>„A 38. Chaos Communication Congress (CCC) figyelmet kelt a mesterséges intelligenciáról, biológiáról és beágyazott rendszerekről szóló változatos előadásaival, kiemelve Joscha Bach „From Computation to Consciousness” sorozatát. Az esemény ismert a nem mainstream vitáiról, és élő közvetítéssel fogják sugározni, olyan kihívásokat érintve, mint a jegyértékesítés és a technikai, valamint társadalmi témák közötti egyensúly. A CCC kulcsfontosságú esemény a hacker közösség számára, amely a nyitottságra és befogadásra összpontosít, és politikai és kulturális aspektusokat is vizsgál, beleértve a nyelvhasználatot.”</li>
-</ul>
-<h2><a href="https://www.digikey.com/en/maker/projects/a-step-by-step-guide-to-build-a-low-cost-drone-using-esp32/8afccd0690574bcebfa0d2ad6fd0a391">„Építsen alacsony költségű drónt ESP32 használatával”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42498648">Reakciók</a></h3>
-<ul>
-<li>„A barkács drón ökoszisztéma bővül, mivel elérhető áron kaphatók olyan alkatrészek, mint a repülésvezérlő mikrovezérlő egységek (MCU-k), motorvezérlők és kamerák, amelyek testreszabhatók.”</li>
-<li>„A nyílt forráskódú szoftverek, mint például a Betaflight és az ArduPilot, támogatják ezeket a barkács építéseket, alternatívát kínálva a zárt rendszerekhez, mint például a DJI, bár jelenleg néhány területen lemaradásban vannak.”</li>
-<li>„Az ESP32 mikrokontroller költséghatékony megoldás drónprojektekhez, mivel a belépő szintű konfigurációk körülbelül 500 dollárba kerülnek, annak ellenére, hogy kihívásokkal jár, mint például a valós idejű vezérlés WiFi-n keresztül.”</li>
-</ul>
-<h2><a href="https://blog.mlc.ai/2023/08/09/Making-AMD-GPUs-competitive-for-LLM-inference">„AMD GPU-k versenyképessé tétele LLM következtetéshez (2023)”</a></h2>
-<ul>
-<li>„Az MLC-LLM lehetővé teszi a Nagy Nyelvi Modellek (LLM-ek) fordítását és telepítését AMD GPU-kon ROCm használatával, elérve a teljesítményt, amely közel áll az NVIDIA csúcskategóriás GPU-ihoz. Az AMD Radeon RX 7900 XTX versenyképes teljesítményt nyújt, elérve az NVIDIA RTX 4090 sebességének 80%-át és az RTX 3090 Ti 94%-át bizonyos modellek esetében, miközben jelentősen megfizethetőbb. A projekt kiemeli az AMD GPU-k potenciálját az LLM következtetésekhez, folyamatos szoftvertámogatási fejlesztésekkel és jövőbeli fejlesztési tervekkel, mint például a kötegelt feldolgozás és a több GPU támogatása.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42498634">Reakciók</a></h3>
-<ul>
-<li>„Az AMD fogyasztói GPU-i, mint például az RX7900XTX, eltérnek az architektúrájukban a MI300X-hez hasonló adatközponti GPU-któl, ami befolyásolja a teljesítményszinteket. Egyre nagyobb erőfeszítések folynak az AMD CDNA architektúrájának és a HIP (Heterogeneous-compute Interface for Portability) támogatásának integrálására a mélytanulási platformokba, azzal a céllal, hogy kihívást jelentsenek az Nvidia dominanciájára az AI munkaterhelések terén. Az érdeklődés növekedése ellenére olyan kihívások, mint a szoftvertámogatás és a teljesítmény konzisztenciája továbbra is fennállnak, ami miatt néhány fejlesztő visszatér az Nvidia-hoz, amely jelentős előnyt tart fenn a CUDA (Compute Unified Device Architecture) platformjával.”</li>
-</ul>
-<h2><a href="https://seangeiger.substack.com/p/why-are-cancer-guidelines-stuck-in">„Miért ragadtak a rákos irányelvek PDF-ekben?”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42498462">Reakciók</a></h3>
-<ul>
-<li>„A rákos megbetegedésekre vonatkozó irányelveket gyakran PDF formátumban tárolják annak tartóssága és hordozhatósága miatt, annak ellenére, hogy korlátozott a használhatósága és az orvosi rendszerekkel való integrációja. A strukturált adatokra való áttérés javíthatná a használhatóságot, de kihívások közé tartozik az orvosi információk összetettsége, a szabványosítás hiánya és a szabályozási akadályok. A vita középpontjában az áll, hogy hogyan lehet egyensúlyt teremteni a PDF-ek megbízhatósága és a dinamikus, gép által értelmezhető adatmegoldások potenciális előnyei között, figyelembe véve az automatizált rendszerekben a folyamatos frissítések és a hibakezelés szükségességét.”</li>
-</ul>
-<h2><a href="https://github.com/isledecomp/isle">„A Lego Island teljes dekompilálása”</a></h2>
-<ul>
-<li>„A projekt célja a LEGO Island (1.1-es verzió, angol) teljes dekompilálása, az eredeti gépi kód minél pontosabb reprodukálásával.”</li>
-<li>„A CMake-et használja az építéshez, a Microsoft Visual C++ 4.20 ajánlott az optimális eredmények eléréséhez, és magában foglalja a környezet beállítását, a CMake-kel való konfigurálást és az nmake-kel való építést.”</li>
-<li>„Ösztönözzük a hozzájárulásokat, különös tekintettel az 1.1-es verzió angol kiadására, a dekompilált ISLE.EXE és LEGO1.DLL fájlok folyamatos fejlesztésével.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42497173">Reakciók</a></h3>
-<ul>
-<li>„Egy GitHub projekt sikeresen dekompilálta a klasszikus Lego Island játékot, javítva az eredeti játék hibáinak korábbi javítási kísérleteit. MattKC, egy technikai tartalmakról ismert YouTuber, jelentős szerepet játszott ebben a dekompilációs projektben, amely a pontosságra helyezi a hangsúlyt, és olyan eszközöket tartalmaz, mint egy lint eszköz és egy erőforrás-szerkesztő. A projekt felkeltette az érdeklődést a régi LEGO játékok újraalkotása iránt, a rajongók nosztalgiával emlegetik a Rock Raiders és a Lego Loco címeket, kiemelve a közösség elismerését ezen klasszikus játékok megőrzése és fejlesztése iránt.”</li>
-</ul>
-<h2><a href="https://www.cfodive.com/news/intel-shareholders-yank-exceo-cfo-compensation-foundry/736193/">„Az Intel részvényesei pert indítanak, amelyben kérik a volt vezérigazgatót és pénzügyi igazgatót, hogy térítsék vissza 3 évnyi fizetésüket.”</a></h2>
-<ul>
-<li>„Az Intel részvényesei a korábbi vezérigazgató, Pat Gelsinger és a pénzügyi igazgató, David Zinsner javadalmazásának visszatérítését kérik, azzal vádolva őket, hogy félrevezették a részvényeseket az Intel öntödei egységének pénzügyi teljesítményével kapcsolatban.”</li>
-<li>„A per azt állítja, hogy megsértették a bizalmi kötelezettségeket, miután az Intel sikertelen fordulatterve és rekord 16,6 milliárd dolláros negyedéves vesztesége 9,2%-os esést eredményezett az Intel részvényeiben.”</li>
-<li>„A kezdetben növekedést elősegítőnek várt öntödei egységet később jelentős költségközpontként azonosították, ami átszervezési erőfeszítéseket indított el Zinsner, a jelenlegi társigazgató által, miközben Gelsinger lemondott.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42500482">Reakciók</a></h3>
-<ul>
-<li>„Az Intel részvényesei pert indítottak a korábbi vezérigazgató és pénzügyi igazgató ellen, követelve három évnyi fizetés visszatérítését egy sikertelen üzleti terv miatt.”</li>
-<li>„A kritikusok azzal érvelnek, hogy a per megalapozatlan, mivel a vezetők elismerték az Intel Foundry részlegének szembesült kihívásait.”</li>
-<li>„A per hangsúlyozza a részvényesek és a vállalat vezetése közötti feszültségeket, mivel egyesek ezt pénzügyi haszonszerzés által motivált, jelentéktelen lépésnek tekintik.”</li>
-</ul>
-<h2><a href="https://twitter.com/spatiallyjess/status/1871342549958537326">„Tokió ingyenesen elérhetővé tette a teljes város pontfelhő adatait”</a></h2>
-<ul>
-<li>„Tokió elérhetővé tette az egész város pontfelhő adatait ingyenesen, lehetővé téve a nyilvános letöltést.”</li>
-<li>„A pontfelhő adatok térbeli adatpontok gyűjteménye, amelyeket gyakran használnak 3D modellezésben és földrajzi információs rendszerekben (GIS).”</li>
-<li>„Ez a kiadás jelentős, mivel értékes erőforrásokat biztosít a fejlesztők, kutatók és várostervezők számára, akik érdeklődnek Tokió 3D modellezése és térbeli elemzése iránt.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42501102">Reakciók</a></h3>
-<ul>
-<li>„Tokió elérhetővé tette az egész város ingyenes pontfelhő adatait, lehetővé téve az interaktív 3D navigációt és felfedezést. Ez a kezdeményezés hasonló a svájci és francia példákhoz, ahol részletes 3D modelleket és lidar adatokat tettek közzé. Ezek az adathalmazok különösen értékesek a számítógéppel generált képek (CGI), videojátékok és más 3D technológiák alkalmazásai számára.”</li>
-</ul>
-<h2><a href="https://www.rfleury.com/p/demystifying-debuggers-part-2-the">„A hibakeresők rejtelmeinek feltárása, 2. rész: A futó program anatómiája”</a></h2>
-<ul>
-<li>„A „Demystifying Debuggers, Part 2: The Anatomy Of A Running Program” című cikk bemutatja a program végrehajtásában részt vevő összetevőket, mint például a virtuális címtereket, szálakat és folyamatokat. Részletezi, hogyan használják az operációs rendszerek a virtuális memóriát és az ütemezést több program egyidejű futtatásának kezelésére. A bejegyzés egy sorozat része, amely arra összpontosít, hogy megmagyarázza, hogyan lépnek kapcsolatba a hibakeresők ezekkel a folyamatokkal a program végrehajtásának elemzése érdekében.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42498982">Reakciók</a></h3>
-<ul>
-<li>„A hibakeresők elengedhetetlenek a futó programok elemzéséhez, és az integrálásuk a nagy nyelvi modellekkel (LLM-ekkel) potenciálisan javíthatja a funkcionalitásukat.”</li>
-<li>„A fejlesztők körében vita folyik az LLM-ek hibakeresési potenciáljáról, egyesek optimisták a hibakövetési képességeikkel kapcsolatban, míg mások szkeptikusak a jelenlegi hatékonyságukkal szemben.”</li>
-<li>„A vita rávilágít a hibakeresési gyakorlatok különböző nézőpontjaira és a nagy nyelvi modellek fejlődő szerepére a szoftverfejlesztésben.”</li>
-</ul>
-<h2><a href="https://sakana.ai/asal/">„Az alapmodellekkel történő automatizált keresés a mesterséges élet után”</a></h2>
-<ul>
-<li>„Az Automatikus Keresés Mesterséges Élet után (ASAL) algoritmus AI látás-nyelv alapú modelleket használ mesterséges életformák felfedezésére szimulációkban, ezzel előmozdítva a Mesterséges Élet (ALife) kutatás területét. Az ASAL sikeresen azonosított új életformákat olyan szimulációkban, mint a Lenia, Boids, Particle Life és az Élet Játéka, dinamikus mintákat és új sejtautomata szabályokat bemutatva. Ez a megközelítés automatizálja a felfedezési folyamatot, leküzdve a kézzel tervezett szimulációk korlátait, és ösztönzi a további kutatást és együttműködést az ALife koncepciók AI-ba való integrálására, hogy adaptívabb és kreatívabb rendszereket hozzanak létre.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42499332">Reakciók</a></h3>
-<ul>
-<li>„Az alapmodellek integrálása a mesterséges élet (ALife) keresésének automatizálásába egyre inkább érdeklődésre tart számot, kiemelve a különbséget a mesterséges intelligencia (AI) és az ALife között. - „Az önszerveződő agy” egy könyv, amely több nézőpontból vizsgálja az intelligenciát, hozzájárulva a folyamatban lévő diskurzushoz. - A Sakana AI, amelyet a „Attention Is All You Need” című befolyásos tanulmány szerzői alapítottak, az AI kereskedelmi hasznosítására összpontosít, kockázati tőke befektetések támogatásával, és része az AI szerepéről szóló vitáknak a földönkívüli intelligencia keresésére (SETI) vonatkozó adatok elemzésében.”</li>
-</ul>
-<h2><a href="https://onlinelibrary.wiley.com/doi/10.1002/spe.3296">„Másodpercenként több millió URL feldolgozása (2023)”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42498514">Reakciók</a></h3>
-<ul>
-<li>„A vita a másodpercenkénti több millió URL feldolgozásának kihívásaira összpontosít, különös tekintettel az URL normalizálás és a feldolgozási hibák problémáira.”</li>
-<li>„Vita folyik arról, hogy szükséges-e az &quot;http://&quot; &quot;https://&quot;-re cserélése, valamint a HTTPS megbízhatóságáról, némi kételkedéssel a parser teljesítményére vonatkozó állítások kapcsán.”</li>
-<li>„A résztvevők megvitatják az hatékony elemzők írásának nehézségeit, a reguláris kifejezések (regex) URL elemzésére való használatának korlátait, valamint a különböző URL specifikációk betartásának összetettségét.”</li>
-</ul>
-<h2><a href="https://www.theguardian.com/travel/2024/dec/24/paris-to-berlin-by-train-faster-service-via-strasbourg">„Párizsból Berlinbe vonattal most öt órával gyorsabb”</a></h2>
-<ul>
-<li>„A Deutsche Bahn és az SNCF új közvetlen nappali vonatjáratot indított Párizsból Berlinbe, amellyel az utazási idő öt órával csökken, így 7 óra 59 perc lesz.”</li>
-<li>„Az útvonal festői kilátásokat és megállókat tartalmaz Strasbourgban, Karlsruhe-ban és Frankfurtban, a jegyek ára másodosztályon €59.99-tól kezdődik.”</li>
-<li>„Miközben a szolgáltatás kényelmesebb utazási élményt kínál, egyesek szerint gyorsabbnak kellene lennie ahhoz, hogy hatékonyan versenyezhessen a légi közlekedéssel.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42500704">Reakciók</a></h3>
-<ul>
-<li>„Az új közvetlen vonatjárat Párizs és Berlin között öt órával csökkenti az utazási időt, így nyugodtabb utazást kínál a légi közlekedéshez képest.”</li>
-<li>„A vonatok környezetbarátok, mivel alacsonyabb CO2-kibocsátást eredményeznek, de jelentős infrastrukturális beruházást igényelnek.”</li>
-<li>„Bár a vonatozás drágább és kevésbé rugalmas lehet, mint a repülés, sok utazó előnyben részesíti a kényelme és a praktikum miatt.”</li>
-</ul>
-<head>
-  <meta property="og:title" content="„Mi történt a világ legnagyobb képcsöves tévéjével? [videó]”" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EMi%20t%C3%B6rt%C3%A9nt%20a%20vil%C3%A1g%20legnagyobb%20k%C3%A9pcs%C3%B6ves%20t%C3%A9v%C3%A9j%C3%A9vel%3F%20%5Bvide%C3%B3%5D%E2%80%9D&subheading=2024.%20december%2024.%2C%20kedd%3A%20Hacker%20News%20%C3%96sszefoglal%C3%B3" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/hu/2024/12/24</link>
-            <guid isPermaLink="false">2024-12-24T00:00:00.000Z</guid>
-            <pubDate>Tue, 24 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

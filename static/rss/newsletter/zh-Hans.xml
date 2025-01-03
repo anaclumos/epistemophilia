@@ -15,12 +15,99 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 02 Jan 2025 19:16:12 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Jan 2025 19:08:50 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/zh-Hans.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Fri, 03 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[zh-Hans]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-03]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/03&#39;</h2>
+<h1>2025-01-03</h1>
+<h2><a href="https://vinay.sh/i-am-rich-and-have-no-idea-what-to-do-with-my-life/">“我很富有，但不知道该做什么。”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42579873">反应</a></h3>
+<ul>
+<li>“这篇文章讨论了在实现财务成功后寻找人生目标的常见困扰，这可能导致幻灭感和孤独感。- 它建议可以通过培养他人、建立联系或追求新兴趣来找到满足感，强调了超越财务财富的目标的重要性。- 讨论还强调了当财富造成社会分化时维持关系的挑战，强调了有意义的活动和联系对于培养归属感的必要性。”</li>
+</ul>
+<h2><a href="https://iterm2.com/downloads/stable/iTerm2-3_5_11.changelog">“iTerm2关键安全发布”</a></h2>
+<ul>
+<li>“iTerm2 版本 3.5.11 于 2025年1月2日发布，解决了先前版本中与 SSH 集成功能相关的严重安全漏洞。- 该漏洞涉及将输入/输出记录到远程主机上的文件，该文件可能被他人访问，影响了版本 3.5.6 到 3.5.10 以及某些测试版的用户。- 建议用户立即更新到版本 3.5.11，删除 /tmp/framer.txt 文件，并使用提供的 SHA-256 和 PGP 签名验证更新以确保安全。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42579472">反应</a></h3>
+<ul>
+<li>“iTerm2发布了一个重要的安全更新，以解决其SSH集成中的一个漏洞，该漏洞会将输入和输出记录到远程主机上的文件中，可能会将数据暴露给其他用户。”</li>
+<li>“问题是由于在生产环境中意外启用了详细日志记录引起的，这促使人们讨论了预提交钩子和防止类似错误的安全措施的重要性。”</li>
+<li>“该事件引发了关于切换到Ghostty或Terminal.app等替代方案的讨论，同时也突出了功能丰富的软件与安全风险之间的平衡。”</li>
+</ul>
+<h2><a href="https://minimaxir.com/2025/01/write-better-code/">“如果您不断要求大型语言模型“编写更好的代码”，它们能否编写出更好的代码？”</a></h2>
+<ul>
+<li>“在2023年11月，一种模因趋势涉及用户要求ChatGPT迭代增强图像，然后使用Claude 3.5 Sonnet将其应用于代码以改进Python程序。- 使用诸如“编写更好的代码”之类的模糊提示的初步尝试显示出一些改进，但具有特定优化目标的结构化提示工程导致了显著的性能提升。- 该实验强调了人工监督的重要性，因为虽然大型语言模型(LLMs)可以提供创新的想法，但在代码优化过程中也可能引入细微的错误。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42584400">反应</a></h3>
+<ul>
+<li>大型语言模型(LLMs)通常会生成基础代码，因为它们经过了大量教程的训练，可能会错过一些可以提高代码性能的简单优化。- 反复提示LLMs改进代码可以产生更好的结果，但这个过程可能和手动编码一样耗时。- 讨论强调了LLMs在理解复杂优化方面的局限性，并突出了提供上下文和具体指令以提高代码质量的重要性。</li>
+</ul>
+<h2><a href="http://databasearchitects.blogspot.com/2024/12/advent-of-code-2024-in-pure-sql.html">纯SQL实现的2024年编程挑战</a></h2>
+<ul>
+<li>“Thomas Neumann分享了他使用纯SQL解决2024年Advent of Code挑战的经验，强调这是一种替代问题解决方法的练习。- Neumann成功完成了所有挑战，但他指出SQL在处理复杂算法和状态更新方面的局限性，并建议可能的改进以提高SQL的效率。- 博客文章包括一个挑战的详细SQL解决方案，并讨论了增强SQL以更好地直接在数据库中支持复杂算法执行的可能性。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42577736">反应</a></h3>
+<ul>
+<li>“2024年的Advent of Code以纯SQL形式展示了SQL处理复杂挑战的能力，引发了人们对其性能和逻辑结构的兴趣。”</li>
+<li>“讨论揭示了使用SQL的多样化经验，从优化存储过程到将其用于业务逻辑，展示了其优点和挑战。”</li>
+<li>“对话还探讨了类似 SQL 的语言的潜力，以及数据库逻辑与应用程序代码之间的平衡，反映了对 SQL 在软件开发中作用的不同看法。”</li>
+</ul>
+<h2><a href="https://www.tvtechnology.com/news/sixth-circuit-of-appeals-strikes-down-fccs-net-neutrality-rules">“美国上诉法院推翻了联邦通信委员会的网络中立性规则”</a></h2>
+<ul>
+<li>“美国上诉法院宣布联邦通信委员会的网络中立性规则无效，该规则要求宽带提供商平等对待互联网流量，理由是联邦通信委员会超越了法律权限。”</li>
+<li>“该决定引用了最高法院的一项裁决，该裁决限制了监管机构的权力，影响了联邦通信委员会执行网络中立性的能力。”</li>
+<li>“联邦通信委员会主席杰西卡·罗森沃塞尔呼吁国会立法网络中立性，而委员布伦丹·卡尔则支持法院的决定，认为这是对监管过度的制衡。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42578237">反应</a></h3>
+<ul>
+<li>“美国上诉法院宣布FCC的网络中立性规则无效，理由是根据现行法律缺乏足够的法律权威。- 这一决定是在最高法院推翻切弗伦尊重原则之后做出的，该原则曾允许像FCC这样的机构广泛解释法规。- 法院将宽带提供商归类为提供“信息服务”而非“电信服务”，从而限制了FCC的监管权力，结束了联邦网络中立性规则，这可能允许互联网服务提供商限制或优先处理互联网流量。”</li>
+</ul>
+<h2><a href="https://den.dev/blog/be-a-property-owner-not-a-renter-on-the-internet/">“在互联网上做一个财产拥有者，而不是租客。”</a></h2>
+<ul>
+<li>“文章强调了拥有自己的数字空间的重要性，而不是仅仅依赖主要的互联网平台，这些平台通常优先考虑自身的增长而非用户的利益。- 维护在线存在控制权的策略包括拥有一个域名、在多个平台上分散内容，以及通过邮件列表与受众建立直接联系。- 通过创建自己的网络资产，您可以确保在数字活动中的灵活性和韧性，减少对任何单一网络的依赖。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42581119">反应</a></h3>
+<ul>
+<li>“讨论强调了拥有自己的数字存在的重要性，而不是依赖社交媒体平台，解决了关于人工智能利用用户生成内容的担忧。- 它探讨了版权、人工智能伦理的复杂性，以及拥有个人网站或域名以更好地控制在线数据的重要性。- 讨论还考虑了自托管的实用性和局限性，鉴于对域名注册商和托管服务提供商等外部服务的依赖，倡导在管理个人在线存在方面获得更多独立性。”</li>
+</ul>
+<h2><a href="https://blogscroll.com/">“BlogScroll – 个人网站和博客的开放目录”</a></h2>
+<ul>
+<li>“BlogScroll 是一个个人网站和博客的开放目录，强调主要科技公司之外的数字空间，由 Den Delimarsky 在 GitHub 上维护。- 用户可以通过 GitHub 或通过电子邮件联系创建者来为 BlogScroll 做出贡献，并且可以通过 RSS 提要获取更新。- 该目录包括设计与用户体验、个人、照片视频制作和技术等各种类别，展示了众多个人的贡献。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42583086">反应</a></h3>
+<ul>
+<li>“BlogScroll 是一个开放目录，专注于分享数字花园，这些花园被一些用户认为是任何个人网站。”</li>
+<li>“托管在 GitHub 上的 BlogScroll 引发了关于其“围墙花园”性质的讨论，并提出了 OPML 导出和可扩展性改进的建议。”</li>
+<li>“该项目鼓励提交作品以扩展其列表，反映了对个人网络空间的重新兴趣以及在线维护独立策划内容的挑战。”</li>
+</ul>
+<h2><a href="https://tavianator.com/2025/shlx.html">“桤木湖SHLX异常”</a></h2>
+<ul>
+<li>“Harold Aptroot 发现，英特尔 Alder Lake 处理器上的 SHLX 指令表现出“中等延迟”3 个周期，这对于通常需要 1 个周期的左移操作来说是不典型的。- 这种延迟问题特定于 Alder Lake 的性能核心，并不影响效率核心，这与英特尔声称的 1 个周期延迟相矛盾。- 延迟根据移位计数寄存器的初始化而变化，32 位指令或没有立即数的 64 位指令实现 1 个周期延迟，而带有立即数的 64 位指令则导致 3 个周期延迟。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42579969">反应</a></h3>
+<ul>
+<li>“湖泊 Alder SHLX 异常是一个性能问题，其中特定指令(例如 <code>mov rcx, 1</code>)导致 <code>SHLX</code> 指令执行速度变慢，这可能是由于寄存器重命名器对小立即数的处理所致。”</li>
+<li>“这种异常可能导致速度降低三倍，并且由于上下文切换可能会重置寄存器状态，从而无意中加快代码运行，因此很难重现。”</li>
+<li>“该问题是新发现的，主要影响移位计数，影响诸如 <code>SHL</code> 之类的指令，但不影响 <code>ANDN</code> 等其他指令，并且通常不被编译器考虑。”</li>
+</ul>
+<head>
+  <meta property="og:title" content="“我很富有，但不知道该做什么。”" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9C%E6%88%91%E5%BE%88%E5%AF%8C%E6%9C%89%EF%BC%8C%E4%BD%86%E4%B8%8D%E7%9F%A5%E9%81%93%E8%AF%A5%E5%81%9A%E4%BB%80%E4%B9%88%E3%80%82%E2%80%9D&subheading=2025%E5%B9%B41%E6%9C%883%E6%97%A5%E6%98%9F%E6%9C%9F%E4%BA%94%3A%20%E9%BB%91%E5%AE%A2%E6%96%B0%E9%97%BB%E6%91%98%E8%A6%81" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/zh/Hans/2025/01/03</link>
+            <guid isPermaLink="false">2025-01-03T00:00:00.000Z</guid>
+            <pubDate>Fri, 03 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-02]]></title>
             <description
@@ -347,131 +434,6 @@
             <link>https://hn.cho.sh/zh/Hans/2024/12/25</link>
             <guid isPermaLink="false">2024-12-25T00:00:00.000Z</guid>
             <pubDate>Wed, 25 Dec 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024-12-24]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2024/12/24&#39;</h2>
-<h1>2024-12-24</h1>
-<h2><a href="https://www.youtube.com/watch?v=JfZxOuc9Qwk">“世界上最大的显像管电视发生了什么事？[视频]”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42497093">反应</a></h3>
-<ul>
-<li>“一个YouTube网红从毁坏中拯救了一台世界上最大的显像管电视，这是一款稀有的索尼型号，并将其从日本搬到了美国供个人使用。- 这一决定引发了关于此类独特文物是否应保存在博物馆而非私人收藏中的争论。- 这种情况突显了保存稀有物品的困难以及围绕所有权和文化遗产的复杂问题。”</li>
-</ul>
-<h2><a href="https://mathstodon.xyz/@johncarlosbaez/113703444230936435">“数字π有一个邪恶的双胞胎”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42499567">反应</a></h3>
-<ul>
-<li>“勒姆尼斯卡特常数，记作ϖ，与∞形状的勒姆尼斯卡特曲线相关，是数字π的对应物。”</li>
-<li>“讨论强调了它在科幻小说中的潜在应用、拼写变化及其数学重要性。”</li>
-<li>“对话还探讨了文化和历史对语言和数学的影响，特别是希腊和阿拉伯的贡献。”</li>
-</ul>
-<h2><a href="https://events.ccc.de/congress/2024/infos/index.html">“第38届混沌通信大会”</a></h2>
-<ul>
-<li>“第38届混沌通信大会(38C3)计划于2024年12月27日至30日在汉堡举行，由混沌计算机俱乐部组织。这个年度活动强调技术、社会和乌托邦的交汇，提供关于技术影响的讲座、研讨会和讨论。参与者被邀请通过志愿服务、举办活动或展示项目来参与，关键信息可以在活动的信息页面和博客上获取。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42500475">反应</a></h3>
-<ul>
-<li>“第38届混沌通信大会(CCC)因其关于人工智能、生物学和嵌入式系统的多样化演讲而备受关注，特别是Joscha Bach的“从计算到意识”系列。- 该活动以其非主流讨论而闻名，并将进行直播，解决如票务和技术与社会话题之间平衡等挑战。- CCC是黑客社区的重要活动，专注于开放性和包容性，并探索政治和文化方面，包括语言使用。”</li>
-</ul>
-<h2><a href="https://www.digikey.com/en/maker/projects/a-step-by-step-guide-to-build-a-low-cost-drone-using-esp32/8afccd0690574bcebfa0d2ad6fd0a391">“使用ESP32构建低成本无人机”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42498648">反应</a></h3>
-<ul>
-<li>“DIY无人机生态系统正在扩展，提供了可定制的飞行控制微控制器单元(MCUs)、电机驱动器和摄像头等经济实惠的组件。”</li>
-<li>“像 Betaflight 和 ArduPilot 这样的开源软件支持这些 DIY 构建，提供了像 DJI 这样的专有系统的替代方案，尽管它们在某些方面目前仍然落后。”</li>
-<li>“ESP32微控制器是无人机项目中具有成本效益的选择，入门级配置大约需要500美元，尽管存在通过WiFi进行实时控制的挑战。”</li>
-</ul>
-<h2><a href="https://blog.mlc.ai/2023/08/09/Making-AMD-GPUs-competitive-for-LLM-inference">“让AMD GPU在LLM推理中具有竞争力(2023)”</a></h2>
-<ul>
-<li>“MLC-LLM 通过使用 ROCm 在 AMD GPU 上编译和部署大型语言模型(LLM)，实现了接近 NVIDIA 高端 GPU 的性能。- AMD Radeon RX 7900 XTX 提供了具有竞争力的性能，在特定模型中达到了 NVIDIA RTX 4090 速度的 80% 和 RTX 3090 Ti 的 94%，同时价格显著更实惠。- 该项目突显了 AMD GPU 在 LLM 推理中的潜力，软件支持正在不断改进，并计划在未来增强功能，如批处理和多 GPU 支持。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42498634">反应</a></h3>
-<ul>
-<li>“AMD 的消费级 GPU，如 RX7900XTX，与其数据中心 GPU 如 MI300X 在架构上有所不同，这影响了性能水平。- 目前正在努力将 AMD 的 CDNA 架构和 HIP(异构计算接口的可移植性)支持集成到深度学习平台中，旨在挑战 Nvidia 在 AI 工作负载中的主导地位。- 尽管兴趣增加，但软件支持和性能一致性等挑战依然存在，导致一些开发者回归到 Nvidia，后者凭借其 CUDA(统一计算设备架构)平台保持着显著优势。”</li>
-</ul>
-<h2><a href="https://seangeiger.substack.com/p/why-are-cancer-guidelines-stuck-in">“为什么癌症指南停留在PDF格式？”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42498462">反应</a></h3>
-<ul>
-<li>“癌症指南通常以PDF格式存储，因为其耐用性和便携性，尽管在可用性和与医疗系统的集成方面存在局限性。- 转换为结构化数据可以提高可用性，但挑战包括医学信息的复杂性、缺乏标准化和监管障碍。- 争论的焦点在于平衡PDF的可靠性与动态、机器可解释数据解决方案的潜在优势，同时考虑到自动化系统中一致更新和错误管理的需求。”</li>
-</ul>
-<h2><a href="https://github.com/isledecomp/isle">“乐高岛的完整反编译”</a></h2>
-<ul>
-<li>“该项目涉及对乐高岛(1.1版，英文)的完整反编译，旨在尽可能接近地复制原始机器代码。”</li>
-<li>“它使用 CMake 进行构建，推荐使用 Microsoft Visual C++ 4.20 以获得最佳效果，并涉及设置环境、使用 CMake 进行配置以及使用 nmake 进行构建。”</li>
-<li>“鼓励贡献，特别关注版本1.1的英文发布，并持续改进反编译的ISLE.EXE和LEGO1.DLL文件。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42497173">反应</a></h3>
-<ul>
-<li>“一个GitHub项目成功地反编译了经典游戏《乐高岛》，增强了之前修复原版游戏漏洞的努力。- MattKC，一位以技术内容闻名的YouTuber，在这个反编译项目中发挥了重要作用，该项目强调准确性，并包括像lint工具和资源编辑器这样的工具。- 该项目激发了重制复古乐高游戏的兴趣，粉丝们对《Rock Raiders》和《Lego Loco》等游戏表达了怀旧之情，突显了社区对保存和改进这些经典游戏的欣赏。”</li>
-</ul>
-<h2><a href="https://www.cfodive.com/news/intel-shareholders-yank-exceo-cfo-compensation-foundry/736193/">“英特尔股东提起诉讼，要求前首席执行官和首席财务官退还三年薪水”</a></h2>
-<ul>
-<li>“英特尔股东正在寻求前首席执行官Pat Gelsinger和首席财务官David Zinsner返还薪酬，指控他们误导股东有关英特尔代工部门财务表现的信息。”</li>
-<li>“诉讼指控违反信托责任，因英特尔的扭转计划失败和创纪录的166亿美元季度亏损，导致英特尔股价下跌9.2%。”</li>
-<li>“铸造部门最初被期望推动增长，但后来被确定为一个重要的成本中心，这促使现任临时联席首席执行官的津纳进行重组努力，而盖尔辛格已辞职。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42500482">反应</a></h3>
-<ul>
-<li>“英特尔股东已对前首席执行官和首席财务官提起诉讼，要求归还三年的薪水，原因是业务计划失败。”</li>
-<li>“批评者认为这起诉讼没有根据，因为高管们已经承认了英特尔代工部门面临的挑战。”</li>
-<li>“诉讼强调了股东与公司领导层之间的紧张关系，一些人认为这是出于财务利益动机的无聊行为。”</li>
-</ul>
-<h2><a href="https://twitter.com/spatiallyjess/status/1871342549958537326">“东京免费发布了整个城市的点云数据”</a></h2>
-<ul>
-<li>“东京已提供整个城市的免费点云数据，允许公众下载。”</li>
-<li>“点云数据是空间中数据点的集合，通常用于3D建模和地理信息系统(GIS)。”</li>
-<li>“此版本意义重大，因为它为对东京的3D建模和空间分析感兴趣的开发人员、研究人员和城市规划者提供了宝贵的资源。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42501102">反应</a></h3>
-<ul>
-<li>“东京已提供整个城市的免费点云数据，使得互动3D导航和探索成为可能。- 这一举措类似于瑞士和法国的做法，这些国家已发布了详细的3D模型和激光雷达数据。- 这些数据集对于计算机生成图像(CGI)、视频游戏和其他3D技术的应用特别有价值。”</li>
-</ul>
-<h2><a href="https://www.rfleury.com/p/demystifying-debuggers-part-2-the">“揭秘调试器，第二部分：运行程序的结构”</a></h2>
-<ul>
-<li>“文章《解密调试器，第二部分：运行程序的结构》解释了程序执行中涉及的组件，如虚拟地址空间、线程和进程。- 它详细说明了操作系统如何使用虚拟内存和调度来管理同时运行的多个程序。- 该文章是一个系列的一部分，专注于解释调试器如何与这些进程交互以分析程序执行。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42498982">反应</a></h3>
-<ul>
-<li>“调试器对于分析正在运行的程序至关重要，将它们与大型语言模型(LLM)集成可能会增强其功能。”</li>
-<li>“开发人员之间就LLM在调试中的潜力展开了辩论，一些人对其错误追踪能力持乐观态度，而另一些人则对其当前的有效性持怀疑态度。”</li>
-<li>“讨论强调了对调试实践的不同观点以及LLM在软件开发中不断发展的角色。”</li>
-</ul>
-<h2><a href="https://sakana.ai/asal/">“使用基础模型自动化寻找人工生命的过程”</a></h2>
-<ul>
-<li>“自动化人工生命搜索(ASAL)算法利用AI视觉语言基础模型在模拟中发现人工生命形式，增强了人工生命(ALife)研究领域。- ASAL已成功在Lenia、Boids、Particle Life和生命游戏等模拟中识别出新的生命形式，展示了动态模式和新颖的细胞自动机规则。- 这种方法自动化了发现过程，克服了手动设计模拟的局限性，并鼓励进一步探索和合作，将ALife概念整合到AI中，以实现更具适应性和创造性的系统。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42499332">反应</a></h3>
-<ul>
-<li>“基础模型在自动化寻找人工生命(ALife)中的整合正成为一个备受关注的话题，突显了人工智能(AI)与人工生命(ALife)之间的区别。《自组装大脑》是一本从多个角度审视智能的书籍，为持续的讨论做出了贡献。Sakana AI是一家由《Attention Is All You Need》这篇有影响力论文的作者创立的公司，专注于AI的商业化，得到了风险投资的支持，并参与了关于AI在分析地外文明搜索(SETI)数据中的角色的讨论。”</li>
-</ul>
-<h2><a href="https://onlinelibrary.wiley.com/doi/10.1002/spe.3296">“每秒解析数百万个URL (2023)”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42498514">反应</a></h3>
-<ul>
-<li>“讨论的重点是每秒解析数百万个URL的挑战，特别是URL规范化和解析错误的问题。”</li>
-<li>“关于将“http://”更改为“https://”的必要性以及HTTPS的可靠性存在争议，一些人对解析器的性能声明持怀疑态度。”</li>
-<li>“参与者还讨论了编写高效解析器的困难、使用正则表达式(regex)进行URL解析的局限性，以及遵循各种URL规范的复杂性。”</li>
-</ul>
-<h2><a href="https://www.theguardian.com/travel/2024/dec/24/paris-to-berlin-by-train-faster-service-via-strasbourg">“巴黎到柏林的火车现在快了五个小时”</a></h2>
-<ul>
-<li>“德国铁路公司和法国国家铁路公司推出了一项新的直达白天列车服务，从巴黎到柏林，将旅行时间缩短了五小时至7小时59分钟。”</li>
-<li>“路线包括风景如画的景观，并在斯特拉斯堡、卡尔斯鲁厄和法兰克福停靠，二等车票起价为€59.99。”</li>
-<li>“虽然该服务提供了更悠闲的旅行体验，但有人认为它需要更快才能有效与航空旅行竞争。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42500704">反应</a></h3>
-<ul>
-<li>“巴黎和柏林之间的新直达火车连接将旅行时间缩短了五个小时，提供了比航空旅行更轻松的旅程。”</li>
-<li>“火车对环境友好，产生较低的二氧化碳排放，但需要大量的基础设施投资。”</li>
-<li>“虽然火车旅行可能比乘飞机更昂贵且不太灵活，但许多旅行者因其舒适和便利而更喜欢火车旅行。”</li>
-</ul>
-<head>
-  <meta property="og:title" content="“世界上最大的显像管电视发生了什么事？[视频]”" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9C%E4%B8%96%E7%95%8C%E4%B8%8A%E6%9C%80%E5%A4%A7%E7%9A%84%E6%98%BE%E5%83%8F%E7%AE%A1%E7%94%B5%E8%A7%86%E5%8F%91%E7%94%9F%E4%BA%86%E4%BB%80%E4%B9%88%E4%BA%8B%EF%BC%9F%5B%E8%A7%86%E9%A2%91%5D%E2%80%9D&subheading=2024%E5%B9%B412%E6%9C%8824%E6%97%A5%E6%98%9F%E6%9C%9F%E4%BA%8C%3A%20%E9%BB%91%E5%AE%A2%E6%96%B0%E9%97%BB%E6%91%98%E8%A6%81" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/zh/Hans/2024/12/24</link>
-            <guid isPermaLink="false">2024-12-24T00:00:00.000Z</guid>
-            <pubDate>Tue, 24 Dec 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
