@@ -15,12 +15,74 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 04 Jan 2025 19:05:54 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 05 Jan 2025 19:30:19 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/da.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Sat, 04 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[da]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-05]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/05&#39;</h2>
+<h1>2025-01-05</h1>
+<h2><a href="https://uwaterloo.ca/news/media/no-more-needles-tracking-blood-sugar-your-wrist">Forskere designer bærbar teknologi, der kan måle glukoseniveauer mere præcist</a></h2>
+<ul>
+<li>Forskere ved University of Waterloo har skabt en bærbar enhed, der bruger radarteknologi til at overvåge glukoseniveauer ikke-invasivt, hvilket eliminerer behovet for nåle.</li>
+<li>Enheden, ledet af Dr. George Shaker, indeholder en radarchip, en metasurface for forbedret signalnøjagtighed og AI-algoritmer til præcise glukosemålinger.</li>
+<li>Enheden, der i øjeblikket er USB-drevet, sigter mod at blive batteridrevet for forbedret bærbarhed og kan i sidste ende overvåge yderligere sundhedsmålinger, med bestræbelser i gang på at kommercialisere teknologien.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42599189">Reaktioner</a></h3>
+<ul>
+<li>Forskere har skabt bærbar teknologi til ikke-invasiv glukoseovervågning, hvilket tilbyder et alternativ til fingerprik og kontinuerlige glukosemonitorer (CGM&#39;er).</li>
+<li>Teknologien sigter mod at give præcise glukosemålinger uden direkte kontakt med blodbanen, hvilket kunne være betydningsfuldt for kliniske anvendelser.</li>
+<li>Selvom det er lovende, er der skepsis omkring dets nøjagtighed sammenlignet med eksisterende CGM&#39;er, og yderligere data og kliniske forsøg er nødvendige for at bekræfte dets effektivitet.</li>
+</ul>
+<h2><a href="https://nmn.gl/blog/ai-senior-developer">Den dag jeg lærte AI at læse kode som en seniorudvikler</a></h2>
+<ul>
+<li>AI&#39;en blev oprindeligt udfordret med at analysere React-kodebaser og nærmede sig dem som en nybegynderudvikler. - Ved at efterligne erfarne udvikleres strategier, såsom at fokusere på kernefiler og gruppere ændringer efter funktion, forbedrede AI&#39;ens kodeanalyse sig markant. - Fokus er på at forbedre kodeforståelse frem for generering, med fremtidige planer om at identificere teknisk gæld og forstå teamkonventioner.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42601847">Reaktioner</a></h3>
+<ul>
+<li>Artiklen undersøger udfordringerne ved at træne AI til at læse og analysere kode med en seniorudviklers dygtighed, og bemærker vanskeligheden ved at opnå konsekvente og nøjagtige resultater.</li>
+<li>Det understreger vigtigheden af at give kontekst og strukturere input for at forbedre AI&#39;s ydeevne i kodeanalyse, samtidig med at det anerkender skepsis omkring AI&#39;s nuværende kapaciteter.</li>
+<li>Diskussionen fremhæver behovet for yderligere eksperimentering og evaluering for at validere AI&#39;s ydeevne og overvejer de bredere implikationer og potentielle fremskridt af AI inden for softwareudvikling.</li>
+</ul>
+<h2><a href="http://rachelbythebay.com/w/2025/01/04/cruft/">Websideirritationer, som jeg ikke påfører dig her</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42599102">Reaktioner</a></h3>
+<ul>
+<li>Forfatteren undgår at bruge visse webfunktioner som sticky bars, tvungen SSL/TLS, pop-ups og unødvendig sporing for at forbedre brugeroplevelsen.</li>
+<li>Der er en igangværende debat om nødvendigheden af HTTPS for sikkerhed kontra dets kompatibilitetsproblemer med ældre browsere.</li>
+<li>Diskussionen fremhæver udfordringen ved at balancere brugeroplevelse med moderne webpraksis.</li>
+</ul>
+<h2><a href="https://tailscale.com/blog/how-nat-traversal-works">Sådan fungerer Nat Traversal (2020)</a></h2>
+<ul>
+<li>NAT-gennemtrængning muliggør direkte enhedsforbindelser på trods af tilstedeværelsen af Network Address Translators (NAT&#39;er) og firewalls ved hjælp af UDP-baserede protokoller og direkte socket-kontrol.</li>
+<li>Teknikker som STUN (Session Traversal Utilities for NAT) hjælper med at opdage offentlige IP-adresser, mens relæer som TURN (Traversal Using Relays around NAT) eller Tailscales DERP bruges til mere udfordrende NAT&#39;er.</li>
+<li>ICE (Interactive Connectivity Establishment) protokollen optimerer forbindelsesveje ved at evaluere alle mulige muligheder og vælge den mest effektive, hvilket sikrer robust NAT-gennemtrængning med ende-til-ende kryptering og autentificering.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42600846">Reaktioner</a></h3>
+<ul>
+<li>Artiklen udforsker NAT (Network Address Translation) traversal og understreger forskellene mellem TCP (Transmission Control Protocol) og UDP (User Datagram Protocol) hole punching, idet den bemærker TCP&#39;s lidt højere kompleksitet.</li>
+<li>Det udfordrer opfattelsen af NAT som en sikkerhedsfunktion og diskuterer Tailscales metode til NAT-gennemtrængning, hvilket rejser bekymringer om at stole udelukkende på software-ACL&#39;er (Access Control Lists) for sikkerhed.</li>
+<li>Diskussionen fremhæver vigtigheden af sikre endepunkter og kritiserer begrænsningerne ved konventionelle netværkssikkerhedsstrategier i forbindelse med NAT-gennemgang.</li>
+</ul>
+<h2><a href="https://amanvir.com/guten">Guten: En lille avistrykker</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42599599">Reaktioner</a></h3>
+<ul>
+<li>Guten er et lille projekt for avistrykning, der er designet til at minimere skærmtid ved at levere nyheder i trykt form. - Diskussioner omkring projektet omfatter bekymringer om BPA-indholdet i termisk papir og forslag til at bruge BPA-fri alternativer eller forskellige trykteknologier som impact- eller dot-matrix-printere. - Der foretages sammenligninger med den udgåede Little Printer, med anbefalinger til at forbedre Gutens udviklervenlighed og tilpasningsmuligheder, samt overvejelser om de miljømæssige og sundhedsmæssige påvirkninger af termisk papir.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Forskere designer bærbar teknologi, der kan måle glukoseniveauer mere præcist" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Forskere%20designer%20b%C3%A6rbar%20teknologi%2C%20der%20kan%20m%C3%A5le%20glukoseniveauer%20mere%20pr%C3%A6cist&subheading=s%C3%B8ndag%20den%205.%20januar%202025%3A%20Resum%C3%A9%20af%20Hacker%20News" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/da/2025/01/05</link>
+            <guid isPermaLink="false">2025-01-05T00:00:00.000Z</guid>
+            <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-04]]></title>
             <description
