@@ -1,0 +1,272 @@
+[
+  {
+    "id": 42617645,
+    "title": "„Jak programuji s LLM“",
+    "originLink": "https://crawshaw.io/blog/programming-with-llms",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42617645",
+    "commentBody": "",
+    "originSummary": [
+      "„Autor integroval velké jazykové modely (LLM) do svého programovacího pracovního postupu a zjistil, že jsou užitečné pro úkoly jako automatické doplňování, vyhledávání a programování řízené chatem.“",
+      "„Vyvíjejí nástroj nazvaný sketch.dev, což je integrované vývojové prostředí (IDE) pro programování v jazyce Go, navržené ke zvýšení produktivity automatizací opakujících se úkolů a zlepšení efektivity programování.“",
+      "„LLM jsou účinné při vytváření návrhů kódu a řešení otázek ve stylu zkoušek, i když mohou občas udělat chyby, a mění kompromisy v programování tím, že umožňují vytvářet specializovanější kód a komplexní testy.“"
+    ],
+    "commentSummary": [
+      "„Velké jazykové modely (LLM) jsou některými softwarovými inženýry uznávány za zvyšování produktivity, zejména při vytváření nových nápadů a provádění úkolů, jako je automatické doplňování a programování řízené chatem. - Zatímco někteří vývojáři oceňují efektivitu, kterou LLM poskytují, jiní zůstávají skeptičtí ohledně jejich účinnosti, zejména u složitých nebo nových problémů. - Diskuse zdůrazňuje rozdělení mezi vývojáři ohledně přijetí LLM, přičemž někteří je přijímají pro iterativní úkoly a jiní upřednostňují tradiční metody.“"
+    ],
+    "points": 624,
+    "commentCount": 238,
+    "retryCount": 0,
+    "time": 1736208469
+  },
+  {
+    "id": 42619139,
+    "title": "„Projekt Digits od Nvidie je 'osobní AI superpočítač'“",
+    "originLink": "https://techcrunch.com/2025/01/06/nvidias-project-digits-is-a-personal-ai-computer/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42619139",
+    "commentBody": "",
+    "originSummary": [
+      "„Nvidia představila na CES 2025 projekt Digits, kompaktní „osobní AI superpočítač“ postavený na hardwarové platformě Grace Blackwell, který obsahuje superčip GB10 Grace Blackwell.“",
+      "„Zařízení nabízí výkon až jeden petaflop, což je vhodné pro výzkumníky v oblasti AI, datové vědce a studenty, a dokáže zpracovat modely s až 200 miliardami parametrů.“",
+      "„S cenou 3 000 dolarů bude Project Digits k dispozici v květnu a může se připojit k počítačům s Windows nebo Mac, přičemž běží na Linuxovém operačním systému DGX od Nvidie.“"
+    ],
+    "commentSummary": [
+      "„Projekt Digits od Nvidie je 'osobní AI superpočítač' s cenou 3 000 dolarů, který obsahuje GPU Blackwell s výkonem 1 PFLOP (PetaFLOP) pro výpočty FP4, 128GB sjednocené paměti DDR5X, 20 ARM jader a ConnectX pro stohování. - Cílí na startupy a nadšence, poskytuje lokální alternativu k cloudovým AI řešením, s důrazem na kapacitu paměti a efektivitu pro úkoly vývoje a inferencí AI. - Zařízení funguje na operačním systému DGX od Nvidie, založeném na Ubuntu, a je považováno za potenciální průlom v oblasti lokálního AI výpočtu.“"
+    ],
+    "points": 515,
+    "commentCount": 380,
+    "retryCount": 0,
+    "time": 1736223245
+  },
+  {
+    "id": 42619652,
+    "title": "„Minimaxový šachový engine v regulárních výrazech“",
+    "originLink": "https://nicholas.carlini.com/writing/2025/regex-chess.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42619652",
+    "commentBody": "",
+    "originSummary": [
+      "„Nicholas Carlini vyvinul šachový engine nazvaný Regex Chess, který využívá 84 688 regulárních výrazů k provádění platných šachových tahů, čímž ukazuje potenciál regexu v nekonvenčních aplikacích. - Engine funguje jako CPU regulárních výrazů, obsahuje unikátní instrukční sadu pro operace se zásobníkem, manipulaci s proměnnými a podmíněné provádění, a podporuje paralelní generování tahů. - Regex Chess používá zjednodušené minimaxové vyhledávání k hodnocení a skórování pseudo-legálních tahů, což zdůrazňuje kreativní zkoumání schopností regexu, přičemž kód je dostupný na GitHubu pro veřejné prohlížení.“"
+    ],
+    "commentSummary": [
+      "„Nicholas Carlini vyvinul šachový engine minimax pomocí regulárních výrazů, čímž ukázal schopnost regexu zvládat složité úkoly, jako je šach. - Projekt, i přes chyby jako problémy s proměnou pěšce a tahy na a-sloupec, demonstruje vzdělávací a zábavné aspekty nekonvenčních programovacích výzev. - Engine s 2-ply vyhledáváním občas nedokáže zabránit hrozbám matu v 1 tahu, což poukazuje na jeho omezení, ale také na jeho inovativní přístup.“"
+    ],
+    "points": 428,
+    "commentCount": 81,
+    "retryCount": 0,
+    "time": 1736228771
+  },
+  {
+    "id": 42618130,
+    "title": "„Zigův comptime je šíleně dobrý“",
+    "originLink": "https://www.scottredig.com/blog/bonkers_comptime/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42618130",
+    "commentBody": "",
+    "originSummary": [
+      "„Scott Redig zkoumá funkci 'comptime' v jazyce Zig, která zvyšuje produktivitu umožněním metaprogramování a umožňuje provádění kódu během doby kompilace. - Poskytuje šest pohledů na 'comptime', zdůrazňuje jeho schopnost zjednodušit čtení a ladění kódu a porovnává jej s generiky, částečným vyhodnocováním a generováním kódu. - Redig dochází k závěru, že 'comptime' v jazyce Zig je jak silný, tak jednoduchý, a doporučuje další zkoumání prostřednictvím oficiálních zdrojů a standardní knihovny Zig.“"
+    ],
+    "commentSummary": [
+      "„Zigovo programování v době kompilace (comptime) je uznáváno pro svou efektivitu, umožňující funkce jako generika, komplexní inicializaci dat a generování kódu specifického pro cílovou platformu. - Kritici poukazují na potenciální problémy, jako je zneužití podobné makrům v Lispu, narušení parametricity a výzvy s rekurzivními generickými typy a kontrolou typů během výpočtu v době kompilace. - Navzdory těmto obavám jsou Zigova jednoduchost a provádění v době kompilace považovány za hlavní výhody, s určitým zájmem o integraci jeho metaprogramovacích schopností s ekosystémem Rustu.“"
+    ],
+    "points": 353,
+    "commentCount": 182,
+    "retryCount": 0,
+    "time": 1736212507
+  },
+  {
+    "id": 42618761,
+    "title": "„Nvidia oznamuje GPU nové generace RTX 5090 a RTX 5080“",
+    "originLink": "https://www.theverge.com/2025/1/6/24337396/nvidia-rtx-5080-5090-5070-ti-5070-price-release-date",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42618761",
+    "commentBody": "",
+    "originSummary": [
+      "„Nvidia představila na CES své grafické karty nové generace řady RTX 50, včetně špičkových modelů RTX 5090 a RTX 5080, s cenami 1 999 a 999 dolarů. - RTX 5090 obsahuje 32 GB paměti GDDR7 a 21 760 CUDA jader, což nabízí dvojnásobnou rychlost oproti svému předchůdci, RTX 4090, zatímco RTX 5080 poskytuje 16 GB paměti a je dvakrát rychlejší než RTX 4080. - Tato řada zavádí novou technologii DLSS 4, která zlepšuje výkon a kvalitu obrazu, a bude k dispozici pro notebooky od března.“"
+    ],
+    "commentSummary": [
+      "„Nvidia představila grafické karty RTX 5090 a RTX 5080, přičemž RTX 5090 je vybavena 32 GB paměti GDDR7 a má tepelný návrhový výkon (TDP) 575 W, zaměřený na spotřebitelské AI úlohy.“",
+      "„RTX 5080 je navržen pro špičkové hraní, nabízí cenově dostupnější variantu s menší pamětí ve srovnání s RTX 5090.“",
+      "„Vysoká poptávka po těchto GPU, zejména pro AI aplikace, může vést k problémům s dostupností, připomínajícím předchozí nedostatky způsobené těžbou kryptoměn.“"
+    ],
+    "points": 329,
+    "commentCount": 367,
+    "retryCount": 0,
+    "time": 1736219531
+  },
+  {
+    "id": 42615538,
+    "title": "„Použil jsem Meta AI, teď Instagram používá můj obličej v reklamách cílených na mě.“",
+    "originLink": "https://old.reddit.com/r/ABoringDystopia/comments/1ht7fft/used_meta_ai_to_edit_a_selfie_now_instagram_is/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42615538",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "„Uživatel Redditu zažil reklamy na Instagramu s vlastním obličejem poté, co použil funkci Meta AI 'představ si mě', což vyvolalo obavy ohledně personalizované reklamy. - Incident vyvolal debatu, která tuto úroveň personalizace reklamy srovnává s filmem 'Minority Report', přičemž názory se rozdělují mezi vnímání jako inovativní nebo invazivní. - Diskuse zdůrazňuje obavy o soukromí a etické důsledky AI v reklamě, s výzvami k přísnějším regulacím na ochranu osobních údajů.“"
+    ],
+    "points": 299,
+    "commentCount": 171,
+    "retryCount": 0,
+    "time": 1736196298
+  },
+  {
+    "id": 42616700,
+    "title": "„Sledování cenové regulace dopravy v NYC“",
+    "originLink": "https://www.congestion-pricing-tracker.com/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42616700",
+    "commentBody": "",
+    "originSummary": [
+      "„Sledovač cenové regulace dopravní zácpy je projekt Benjamina a Joshuaha Moshesových, pod dohledem profesorky Emily Osterové z Brownovy univerzity, zaměřený na cenovou regulaci dopravní zácpy v New Yorku. - Projekt zahrnuje webové skripty a stylové listy, což naznačuje komplexní digitální přístup k prezentaci informací. - Webová stránka je optimalizována pro vyhledávače (SEO) a obsahuje stránku s chybou 404 pro řešení obsahu, který nebyl nalezen.“"
+    ],
+    "commentSummary": [
+      "„Politika zpoplatnění dopravní zácpy v New Yorku je navržena tak, aby snížila dopravní zácpy a generovala příjmy pro zlepšení veřejné dopravy.“",
+      "„Zatímco někteří pozorují okamžité přínosy, jiní tvrdí, že je předčasné hodnotit jeho účinnost kvůli proměnným, jako je počasí a cestování během svátků.“",
+      "„Kritici poukazují na to, že nezměněné poplatky za taxi a sdílenou jízdu a potřeba zlepšení veřejné dopravy zůstávají významnými obavami.“"
+    ],
+    "points": 296,
+    "commentCount": 508,
+    "retryCount": 0,
+    "time": 1736202179
+  },
+  {
+    "id": 42620656,
+    "title": "„Poprvé produkce vytvořená v Blenderu vyhrála Zlatý glóbus“",
+    "originLink": "https://variety.com/2025/film/columns/flow-golden-globe-win-independent-animation-1236266805/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42620656",
+    "commentBody": "",
+    "originSummary": [
+      "„Lotyšský režisér Gints Zilbalodis získal Zlatý glóbus za nejlepší animovaný film s nezávislým animovaným snímkem „Flow“, což představuje významný úspěch pro nezávislé filmy. - „Flow“, vytvořený s skromným rozpočtem 3,7 milionu dolarů pomocí Blenderu, bezplatného softwaru, soutěžil proti produkcím velkých studií, což ukazuje na demokratizaci animace. - Vítězství filmu odráží rostoucí inkluzivitu Zlatých glóbů vůči mezinárodním titulům a mohlo by ovlivnit závod o Oscara za nejlepší animovaný film, čímž by zpochybnilo tradiční dominanci Disneyho.“"
+    ],
+    "commentSummary": [
+      "„Produkce vytvořená pomocí Blenderu získala Zlatý glóbus, což představuje milník pro tento open-source software a zpochybňuje vnímání jeho připravenosti pro profesionální použití. - Film, známý svým vyprávěním a vizuály, získal popularitu v Lotyšsku a vyniká svým nízkým rozpočtem ve srovnání s ostatními animovanými vítězi. - Úspěch filmu, který využívá Blenderův engine EEVEE, vyvolal diskuse o potenciálním dopadu Blenderu na animační průmysl a jeho schopnostech v různorodých produkčních prostředích.“"
+    ],
+    "points": 273,
+    "commentCount": 43,
+    "retryCount": 0,
+    "time": 1736240455
+  },
+  {
+    "id": 42616699,
+    "title": "„Žiji svůj život čtvrt století najednou“",
+    "originLink": "https://tla.systems/blog/2025/01/04/i-live-my-life-a-quarter-century-at-a-time/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42616699",
+    "commentBody": "",
+    "originSummary": [
+      "„Dne 5. ledna 2000 představil Steve Jobs na Macworld Expo uživatelské rozhraní Aqua systému Mac OS X, včetně Docku, s významnými příspěvky od inženýra sídlícího v Apple Cork, Irsko.“",
+      "„Inženýr, který dříve pracoval na DragThing, byl klíčový při přeměně prototypů Basa Ording na funkční kód pro Dock, ale nakonec rezignoval kvůli tlaku spojenému s přestěhováním.“",
+      "„Po odchodu z Applu inženýr oživil DragThing a PCalc, které zůstávají populární, a objevil u sebe nepodepsanou dohodu o mlčenlivosti (NDA).“"
+    ],
+    "commentSummary": [
+      "„Článek pojednává o vývoji Docku společnosti Apple, zdůrazňuje excentričnost a tajnůstkářskou povahu Steva Jobse, včetně toho, že nechal zaměstnance létat mezi Irskem a USA, aby udržel zdání.“",
+      "„Navzdory značnému úsilí byl projekt nakonec zrušen kvůli problémům souvisejícím s umístěním kanceláře.“",
+      "„Vyprávění se také zabývá kontroverzními rozhodnutími Jobse, jeho odkazem ve srovnání se současnými technologickými lídry a širšími tématy, jako jsou kariérní cesty a ageismus v technologickém průmyslu.“"
+    ],
+    "points": 270,
+    "commentCount": 153,
+    "retryCount": 0,
+    "time": 1736202178
+  },
+  {
+    "id": 42615646,
+    "title": "„Návrhy triptychu“",
+    "originLink": "https://alexanderpetros.com/triptych/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42615646",
+    "commentBody": "",
+    "originSummary": [
+      "„Návrhy Triptych od Alexandera Petrose a Carsona Grosse mají za cíl zlepšit schopnost HTML zpracovávat síťové požadavky podporou dalších HTTP metod, jako jsou PUT, PATCH a DELETE ve formulářích.“",
+      "„Návrhy také zahrnují možnost tlačítek pro odesílání HTTP požadavků bez formulářů a umožnění částečné výměny stránek, čímž se HTML více přibližuje principům REST.“",
+      "„Tyto návrhy byly představeny na konferenci Big Sky Dev Con a jsou podrobně popsány v Triptych Polyfill na GitHubu, s průběžnými aktualizacemi specifikací fetch a navigace na podporu těchto vylepšení.“"
+    ],
+    "commentSummary": [
+      "„Návrhy triptychu Alexe Petrose se snaží začlenit koncepty HTMX do specifikace HTML, což umožní HTML zpracovávat HTTP metody jako PUT a DELETE.“",
+      "„Návrh dostává pozitivní zpětnou vazbu od pracovní skupiny pro webové hypertextové aplikace (WHATWG), ale jeho přijetí hlavními prohlížeči, jako jsou Chrome a Safari, je stále nejisté.“",
+      "„Iniciativa si klade za cíl snížit závislost na JavaScriptu tím, že zlepší schopnosti HTML, a přispět tak k širší diskusi o RESTful API a webu řízeném hypermédiemi.“"
+    ],
+    "points": 232,
+    "commentCount": 67,
+    "retryCount": 0,
+    "time": 1736196754
+  },
+  {
+    "id": 42624116,
+    "title": "„Tramway SDK – Nezvyklé spojení mezi enginy Half-Life a Morrowind“",
+    "originLink": "https://racenis.github.io/tram-sdk/why.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42624116",
+    "commentBody": "",
+    "originSummary": [
+      "„Vyvíjí se nový bezplatný open-source herní engine, podobný populárním enginům jako Unreal a Source, s podporou streamování otevřeného světa. - Engine je optimalizován pro moderní hardware, nabízí vysoký výkon, ale zatím není připraven k produkčnímu použití. - Vývojář má v úmyslu dokončit několik velkých projektů pomocí tohoto enginu, i když současný název je pravděpodobně dočasný.“"
+    ],
+    "commentSummary": [
+      "„Tramway SDK je projekt, který spojuje herní enginy Half-Life a Morrowind, aby vytvořil nízkorozpočtový, open-world streaming herní engine, který je zdarma a open source. - Ačkoli je optimalizován pro moderní hardware, Tramway SDK zatím není připraven pro produkční použití, ale jeho cílem je snížit softwarovou zátěž a dopad na životní prostředí podporou staršího hardwaru. - Projekt, licencovaný pod MIT, je oceňován pro svůj retro estetický vzhled a potenciál pro vývoj indie her, přičemž tvůrce vítá zpětnou vazbu a aktualizace pokroku.“"
+    ],
+    "points": 227,
+    "commentCount": 58,
+    "retryCount": 0,
+    "time": 1736266929
+  },
+  {
+    "id": 42618625,
+    "title": "„Používání olova Římskou říší snížilo úroveň IQ po celé Evropě, zjistila studie“",
+    "originLink": "https://www.theguardian.com/science/2025/jan/06/roman-empires-use-of-lead-lowered-iq-levels-across-europe-study-finds",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42618625",
+    "commentBody": "",
+    "originSummary": [
+      "„Studie naznačuje, že používání olova v kovovýrobě Římskou říší způsobilo pokles IQ o 2 až 3 body po celé Evropě během období Pax Romana.“",
+      "„Výzkumníci použili arktické ledovcové vrty k sledování znečištění olovem od roku 500 př. n. l. do roku 600 n. l., což ukazuje na výrazný nárůst během vrcholu Římské říše.“",
+      "„Studie naznačuje, že rozšířená expozice olovu mohla přispět k úpadku Římské říše, přičemž úrovně znečištění klesly po římské éře, ale znovu vzrostly během průmyslové revoluce.“"
+    ],
+    "commentSummary": [
+      "„Studie naznačuje, že používání olova v Římské říši mohlo snížit úrovně IQ v Evropě, ačkoli toto tvrzení vychází z historických úrovní olova a moderních modelů, nikoli z přímých měření IQ ve starověku.“",
+      "„Existuje debata o tom, zda výhody římské infrastruktury mohly převážit škodlivé účinky expozice olovu.“",
+      "„Studie také zkoumá potenciální účinky současných látek, jako je fluorid a plasty, na IQ, přičemž zdůrazňuje složitost hodnocení historických zdravotních dopadů z nepřímých důkazů.“"
+    ],
+    "points": 194,
+    "commentCount": 145,
+    "retryCount": 0,
+    "time": 1736218095
+  },
+  {
+    "id": 42623144,
+    "title": "„Federální rezervní banka NY „Kniha soudného dne“ 2022 prostřednictvím FOIA [pdf]“",
+    "originLink": "https://www.crisesnotes.com/content/files/2023/12/NYFRB-2006.--Doomsday-Book--Searchable.pdf",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42623144",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "„„Doomsday Book“ Federální rezervní banky v New Yorku je právní příručka navržená k tomu, aby pomohla právníkům zvládat právní nejistoty během finančních krizí a zajistila rychlé a efektivní reakce. - Původně určená pro vybrané právníky, je nyní příručka dostupná všem právníkům FRBNY a slouží jako krizový plán podobný plánům reakce na technologické incidenty. - Dokument není sdílen mimo právní oddělení a jeho název naznačuje přípravu na závažné finanční narušení, přičemž Fed si udržuje nezávislost na zákonu o svobodném přístupu k informacím (FOIA) díky své jedinečné roli, a přesto je odpovědný Kongresu.“"
+    ],
+    "points": 183,
+    "commentCount": 131,
+    "retryCount": 0,
+    "time": 1736262587
+  },
+  {
+    "id": 42621627,
+    "title": "„Ukončení našeho programu ověřování faktů třetími stranami a přechod na model Community Notes“",
+    "originLink": "https://about.fb.com/news/2025/01/meta-more-speech-fewer-mistakes/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42621627",
+    "commentBody": "",
+    "originSummary": [
+      "„Meta upřednostňuje svobodu projevu zjednodušením svých systémů moderování obsahu, které byly kritizovány za přílišnou složitost a omezující povahu. - Společnost ukončuje svůj program ověřování faktů třetími stranami v USA a zavádí systém Community Notes, podobný X, který poskytuje kontext k potenciálně zavádějícím příspěvkům prostřednictvím příspěvků uživatelů. - Meta snižuje omezení na politický obsah, zjednodušuje procesy vymáhání, aby se zaměřila na závažná porušení, a personalizuje viditelnost politického obsahu na základě preferencí uživatelů, což je v souladu s vizí Marka Zuckerberga o svobodě projevu.“"
+    ],
+    "commentSummary": [
+      "„Meta přechází ze svého programu ověřování faktů třetími stranami na model Community Notes, podobný strategii Twitteru, aby se potenciálně přizpůsobila politickým změnám a snížila náklady na moderování.“",
+      "„Kritici vyjadřují obavy, že tento posun může vést k většímu množství dezinformací a škodlivého obsahu, zatímco příznivci tvrdí, že by to mohlo posílit svobodu projevu.“",
+      "„Toto rozhodnutí zdůrazňuje probíhající diskuse o moderování obsahu, svobodě projevu a vlivu platforem sociálních médií na formování veřejného diskurzu.“"
+    ],
+    "points": 180,
+    "commentCount": 254,
+    "retryCount": 0,
+    "time": 1736252122
+  }
+]

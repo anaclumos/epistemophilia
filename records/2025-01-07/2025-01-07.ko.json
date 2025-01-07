@@ -1,0 +1,272 @@
+[
+  {
+    "id": 42617645,
+    "title": "나는 LLM으로 프로그래밍하는 방법",
+    "originLink": "https://crawshaw.io/blog/programming-with-llms",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42617645",
+    "commentBody": "",
+    "originSummary": [
+      "저자는 프로그래밍 워크플로에 대형 언어 모델(LLM)을 통합하여 자동 완성, 검색 및 채팅 기반 프로그래밍과 같은 작업에 유용하다고 판단했습니다.",
+      "그들은 반복적인 작업을 자동화하고 프로그래밍 효율성을 향상시킴으로써 생산성을 높이기 위해 설계된 Go 프로그래밍 통합 개발 환경(IDE)인 sketch.dev라는 도구를 개발하고 있습니다.",
+      "LLM은 코드 초안을 생성하고 시험 스타일의 질문을 처리하는 데 효과적이지만, 때때로 오류를 범할 수 있으며, 보다 전문화된 코드와 포괄적인 테스트를 가능하게 함으로써 프로그래밍의 균형을 변화시킵니다."
+    ],
+    "commentSummary": [
+      "대형 언어 모델(LLM)은 일부 소프트웨어 엔지니어들에 의해 생산성을 향상시키는 것으로 인정받고 있으며, 특히 새로운 아이디어를 작성하고 자동 완성 및 채팅 기반 프로그래밍과 같은 작업을 수행하는 데 유용합니다. - 일부 개발자들은 LLM이 제공하는 효율성을 높이 평가하는 반면, 다른 개발자들은 특히 복잡하거나 새로운 문제에 대한 효과에 대해 회의적입니다. - 이 논의는 LLM의 채택에 대한 개발자들 사이의 분열을 강조하며, 일부는 반복적인 작업에 LLM을 수용하고 다른 일부는 전통적인 방법을 선호합니다."
+    ],
+    "points": 624,
+    "commentCount": 238,
+    "retryCount": 0,
+    "time": 1736208469
+  },
+  {
+    "id": 42619139,
+    "title": "엔비디아의 프로젝트 디지츠는 '개인용 AI 슈퍼컴퓨터'입니다.",
+    "originLink": "https://techcrunch.com/2025/01/06/nvidias-project-digits-is-a-personal-ai-computer/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42619139",
+    "commentBody": "",
+    "originSummary": [
+      "엔비디아는 CES 2025에서 GB10 그레이스 블랙웰 슈퍼칩을 특징으로 하는 그레이스 블랙웰 하드웨어 플랫폼에 기반한 소형 '개인 AI 슈퍼컴퓨터'인 프로젝트 디지츠를 공개했습니다.",
+      "이 장치는 AI 연구자, 데이터 과학자 및 학생들에게 적합한 최대 페타플롭의 성능을 제공하며 최대 2,000억 개의 매개변수를 가진 모델을 처리할 수 있습니다.",
+      "가격이 $3,000인 Project Digits는 5월에 출시되며, Nvidia의 리눅스 기반 DGX OS에서 실행되어 Windows 또는 Mac PC에 연결할 수 있습니다."
+    ],
+    "commentSummary": [
+      "엔비디아의 프로젝트 디지츠는 '개인용 AI 슈퍼컴퓨터'로, 가격은 3,000달러이며, 1 PFLOP(FP4 연산)의 블랙웰 GPU, 128GB 통합 DDR5X 메모리, 20개의 ARM 코어, 스태킹을 위한 ConnectX를 특징으로 합니다. - 이 제품은 스타트업과 열성 사용자들을 대상으로 하며, 클라우드 AI 솔루션에 대한 로컬 대안을 제공하며, AI 개발 및 추론 작업을 위한 메모리 용량과 효율성에 중점을 둡니다. - 이 장치는 우분투 기반의 엔비디아 DGX OS에서 작동하며, 로컬 AI 컴퓨팅의 잠재적 게임 체인저로 간주됩니다."
+    ],
+    "points": 515,
+    "commentCount": 380,
+    "retryCount": 0,
+    "time": 1736223245
+  },
+  {
+    "id": 42619652,
+    "title": "정규 표현식으로 구현된 미니맥스 체스 엔진",
+    "originLink": "https://nicholas.carlini.com/writing/2025/regex-chess.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42619652",
+    "commentBody": "",
+    "originSummary": [
+      "니콜라스 칼리니는 84,688개의 정규 표현식을 사용하여 유효한 체스 움직임을 실행하는 체스 엔진인 Regex Chess를 개발하여 정규 표현식의 잠재력을 비전통적인 응용 분야에서 보여주었습니다. - 이 엔진은 스택 연산, 변수 처리 및 조건 실행을 위한 고유한 명령어 세트를 특징으로 하는 정규 표현식 CPU처럼 작동하며, 병렬 이동 생성도 지원합니다. - Regex Chess는 의사 합법적 움직임을 평가하고 점수화하기 위해 단순화된 미니맥스 검색을 사용하여 정규 표현식 기능에 대한 창의적인 탐구를 강조하며, 코드는 GitHub에서 대중에게 공개되어 있습니다."
+    ],
+    "commentSummary": [
+      "니콜라스 칼리니는 정규 표현식을 사용하여 미니맥스 체스 엔진을 개발하여 체스와 같은 복잡한 작업을 처리하는 정규 표현식의 능력을 보여주었습니다. - 이 프로젝트는 폰 승진 및 a파일 이동과 같은 문제를 포함한 버그가 있음에도 불구하고 비전통적인 프로그래밍 도전의 교육적이고 재미있는 측면을 보여줍니다. - 엔진의 2-플라이 검색은 때때로 1수 앞의 체크메이트 위협을 피하지 못하여 그 한계를 드러내지만 동시에 혁신적인 접근 방식을 강조합니다."
+    ],
+    "points": 428,
+    "commentCount": 81,
+    "retryCount": 0,
+    "time": 1736228771
+  },
+  {
+    "id": 42618130,
+    "title": "Zig의 컴타임은 정말 놀랍도록 좋다",
+    "originLink": "https://www.scottredig.com/blog/bonkers_comptime/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42618130",
+    "commentBody": "",
+    "originSummary": [
+      "Scott Redig는 Zig의 'comptime' 기능을 탐구하며, 이는 메타프로그래밍을 가능하게 하여 컴파일 시간 동안 코드 실행을 가능하게 함으로써 생산성을 향상시킨다고 설명합니다. - 그는 'comptime'에 대한 여섯 가지 관점을 제공하며, 코드 읽기와 디버깅을 단순화하는 능력을 강조하고, 이를 제네릭, 부분 평가, 코드 생성과 비교합니다. - Redig는 Zig의 'comptime'이 강력하면서도 단순하다고 결론짓고, Zig의 공식 자료와 표준 라이브러리를 통해 추가 탐구를 권장합니다."
+    ],
+    "commentSummary": [
+      "Zig의 컴파일 타임 프로그래밍(comptime)은 효율성으로 인정받고 있으며, 제네릭, 복잡한 데이터 초기화, 대상별 코드 생성과 같은 기능을 가능하게 합니다. - 비평가들은 Lisp 매크로와 유사한 오용, 파라메트릭성의 파괴, 컴파일 타임 계산 중 재귀적 제네릭 타입 및 타입 검사와 관련된 문제를 지적합니다. - 이러한 우려에도 불구하고, Zig의 단순성과 컴파일 타임 실행은 주요 장점으로 간주되며, Rust의 생태계와의 메타프로그래밍 기능 통합에 대한 관심이 있습니다."
+    ],
+    "points": 353,
+    "commentCount": 182,
+    "retryCount": 0,
+    "time": 1736212507
+  },
+  {
+    "id": 42618761,
+    "title": "엔비디아, 차세대 RTX 5090 및 RTX 5080 GPU 발표",
+    "originLink": "https://www.theverge.com/2025/1/6/24337396/nvidia-rtx-5080-5090-5070-ti-5070-price-release-date",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42618761",
+    "commentBody": "",
+    "originSummary": [
+      "엔비디아는 CES에서 차세대 RTX 50 시리즈 GPU를 공개했으며, 고급형 RTX 5090과 RTX 5080의 가격은 각각 $1,999와 $999입니다. - RTX 5090은 32GB의 GDDR7 메모리와 21,760개의 CUDA 코어를 포함하고 있으며, 이전 모델인 RTX 4090보다 두 배 빠른 속도를 제공합니다. RTX 5080은 16GB의 메모리를 제공하며 RTX 4080보다 두 배 빠릅니다. - 이 시리즈는 성능과 이미지 품질을 향상시키는 새로운 DLSS 4 기술을 도입했으며, 3월부터 노트북용으로 제공될 예정입니다."
+    ],
+    "commentSummary": [
+      "엔비디아는 RTX 5090 및 RTX 5080 GPU를 공개했으며, RTX 5090은 32GB의 GDDR7 메모리와 575W의 열 설계 전력(TDP)을 특징으로 하여 소비자 AI 작업 부하를 목표로 하고 있습니다.",
+      "RTX 5080은 고급 게임을 위해 설계되었으며, RTX 5090에 비해 메모리가 적어 더 저렴한 옵션을 제공합니다.",
+      "특히 AI 애플리케이션을 위한 이러한 GPU에 대한 높은 수요는 암호화폐 채굴로 인한 이전의 부족 사태를 연상시키는 가용성 문제를 초래할 수 있습니다."
+    ],
+    "points": 329,
+    "commentCount": 367,
+    "retryCount": 0,
+    "time": 1736219531
+  },
+  {
+    "id": 42615538,
+    "title": "Meta AI를 사용했더니 이제 인스타그램이 나를 대상으로 한 광고에 내 얼굴을 사용하고 있다",
+    "originLink": "https://old.reddit.com/r/ABoringDystopia/comments/1ht7fft/used_meta_ai_to_edit_a_selfie_now_instagram_is/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42615538",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "한 Reddit 사용자가 Meta AI의 'imagine me' 기능을 사용한 후 자신의 얼굴이 등장하는 인스타그램 광고를 경험하면서 개인화된 광고에 대한 우려가 제기되었습니다. - 이 사건은 영화 '마이너리티 리포트'와 비교되는 광고 개인화 수준에 대한 논쟁을 촉발했으며, 이를 혁신적으로 보는 시각과 침해적으로 보는 시각으로 의견이 나뉘었습니다. - 이 논의는 광고에서 AI의 윤리적 함의와 개인정보 보호에 대한 우려를 강조하며, 개인 데이터를 보호하기 위한 더 엄격한 규제를 요구하는 목소리가 나오고 있습니다."
+    ],
+    "points": 299,
+    "commentCount": 171,
+    "retryCount": 0,
+    "time": 1736196298
+  },
+  {
+    "id": 42616700,
+    "title": "뉴욕시 혼잡 통행료 추적기",
+    "originLink": "https://www.congestion-pricing-tracker.com/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42616700",
+    "commentBody": "",
+    "originSummary": [
+      "혼잡 통행료 추적기는 브라운 대학교의 에밀리 오스터 교수의 감독 하에 벤자민과 조슈아 모시스가 진행하는 프로젝트로, 뉴욕의 혼잡 통행료에 중점을 두고 있습니다. - 이 프로젝트는 웹 스크립트와 스타일시트를 포함하고 있어 정보를 종합적으로 디지털 방식으로 제시하고 있음을 나타냅니다. - 웹페이지는 검색 엔진 최적화(SEO)가 되어 있으며, 찾을 수 없는 콘텐츠를 처리하기 위한 404 오류 페이지를 포함하고 있습니다."
+    ],
+    "commentSummary": [
+      "뉴욕시의 혼잡 통행료 정책은 교통 혼잡을 줄이고 대중교통 개선을 위한 수익을 창출하기 위해 설계되었습니다.",
+      "일부는 즉각적인 이점을 관찰하지만, 다른 사람들은 날씨와 휴일 여행과 같은 변수 때문에 그 효과를 평가하기에는 시기상조라고 주장합니다.",
+      "비평가들은 변하지 않은 택시 및 승차 공유 요금과 대중교통 개선의 필요성이 여전히 중요한 문제로 남아 있다고 지적합니다."
+    ],
+    "points": 296,
+    "commentCount": 508,
+    "retryCount": 0,
+    "time": 1736202179
+  },
+  {
+    "id": 42620656,
+    "title": "블렌더로 제작된 작품이 골든 글로브를 수상한 것은 이번이 처음입니다.",
+    "originLink": "https://variety.com/2025/film/columns/flow-golden-globe-win-independent-animation-1236266805/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42620656",
+    "commentBody": "",
+    "originSummary": [
+      "라트비아 감독 긴츠 질발로디스의 인디 애니메이션 \"Flow\"가 골든 글로브에서 최우수 애니메이션 작품상을 수상하며 독립 영화의 중요한 성과를 강조했습니다. - \"Flow\"는 무료 소프트웨어인 블렌더를 사용하여 370만 달러의 적은 예산으로 제작되었으며, 주요 스튜디오 제작물과 경쟁하여 애니메이션의 민주화를 보여주었습니다. - 이 영화의 승리는 국제 타이틀에 대한 골든 글로브의 포용성이 커지고 있음을 반영하며, 디즈니의 전통적인 지배에 도전하여 애니메이션 장편 오스카 경주에 영향을 미칠 수 있습니다."
+    ],
+    "commentSummary": [
+      "Blender로 제작된 작품이 골든 글로브를 수상하여 오픈 소스 소프트웨어의 이정표를 세우고 전문적인 사용 준비에 대한 인식을 도전했습니다. - 이 영화는 스토리텔링과 비주얼로 주목받았으며, 라트비아에서 인기를 얻고 다른 애니메이션 수상작들에 비해 저예산으로 두드러집니다. - Blender의 EEVEE 엔진을 활용한 이 영화의 성공은 애니메이션 산업에 대한 Blender의 잠재적 영향과 다양한 제작 환경에서의 역량에 대한 논의를 촉발했습니다."
+    ],
+    "points": 273,
+    "commentCount": 43,
+    "retryCount": 0,
+    "time": 1736240455
+  },
+  {
+    "id": 42616699,
+    "title": "나는 내 삶을 25년 단위로 산다",
+    "originLink": "https://tla.systems/blog/2025/01/04/i-live-my-life-a-quarter-century-at-a-time/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42616699",
+    "commentBody": "",
+    "originSummary": [
+      "2000년 1월 5일, 스티브 잡스는 Macworld Expo에서 Mac OS X의 아쿠아 사용자 인터페이스와 Dock을 소개했으며, 이는 아일랜드 코크에 있는 애플 엔지니어의 중요한 기여로 이루어졌습니다.",
+      "이전에 DragThing에서 일했던 엔지니어는 Bas Ording의 프로토타입을 Dock의 기능적인 코드로 변환하는 데 중요한 역할을 했지만, 결국 이주 압박으로 인해 사임했다.",
+      "애플을 떠난 후, 그 엔지니어는 DragThing과 PCalc를 부활시켰고, 이들은 여전히 인기를 끌고 있으며, 서명되지 않은 비밀 유지 계약서(NDA)를 소지하고 있음을 발견했습니다."
+    ],
+    "commentSummary": [
+      "이 기사는 애플의 Dock 개발에 대해 논의하면서, 스티브 잡스의 괴짜 같은 성격과 비밀스러운 성향을 강조하고 있으며, 이를 유지하기 위해 한 직원을 아일랜드와 미국 사이를 오가게 했다는 내용을 포함하고 있다.",
+      "상당한 노력을 기울였음에도 불구하고, 프로젝트는 결국 사무실 위치와 관련된 문제로 취소되었습니다.",
+      "이 서사는 또한 잡스의 논란이 된 결정들, 현재 기술 리더들과 비교한 그의 유산, 그리고 기술 산업에서의 경력 경로와 연령 차별과 같은 더 넓은 주제들을 탐구합니다."
+    ],
+    "points": 270,
+    "commentCount": 153,
+    "retryCount": 0,
+    "time": 1736202178
+  },
+  {
+    "id": 42615646,
+    "title": "삼면화 제안",
+    "originLink": "https://alexanderpetros.com/triptych/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42615646",
+    "commentBody": "",
+    "originSummary": [
+      "알렉산더 페트로스와 카슨 그로스의 트립틱 제안은 폼에서 PUT, PATCH, DELETE와 같은 추가 HTTP 메서드를 지원함으로써 HTML의 네트워크 요청 처리 능력을 향상시키는 것을 목표로 합니다.",
+      "제안에는 양식 없이 HTTP 요청을 할 수 있는 버튼을 활성화하고 부분 페이지 교체를 허용하여 HTML을 REST 원칙에 더 가깝게 맞추는 내용도 포함되어 있습니다.",
+      "이 제안들은 Big Sky Dev Con에서 소개되었으며, GitHub의 Triptych Polyfill에 자세히 설명되어 있습니다. 이러한 개선 사항을 지원하기 위해 fetch 및 탐색 사양에 대한 지속적인 업데이트가 진행 중입니다."
+    ],
+    "commentSummary": [
+      "Alex Petros의 삼부작 제안은 HTMX 개념을 HTML 사양에 통합하여 HTML이 PUT 및 DELETE와 같은 HTTP 메서드를 처리할 수 있도록 하는 것을 목표로 합니다.",
+      "그 제안은 웹 하이퍼텍스트 애플리케이션 기술 워킹 그룹(WHATWG)으로부터 긍정적인 피드백을 받고 있지만, Chrome과 Safari와 같은 주요 브라우저에서의 채택은 여전히 불확실합니다.",
+      "이 이니셔티브는 HTML의 기능을 향상시켜 JavaScript 의존성을 줄이는 것을 목표로 하며, RESTful API와 하이퍼미디어 중심 웹에 대한 광범위한 논의에 기여하고자 합니다."
+    ],
+    "points": 232,
+    "commentCount": 67,
+    "retryCount": 0,
+    "time": 1736196754
+  },
+  {
+    "id": 42624116,
+    "title": "트램웨이 SDK – 하프라이프와 모로윈드 엔진의 불경스러운 결합",
+    "originLink": "https://racenis.github.io/tram-sdk/why.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42624116",
+    "commentBody": "",
+    "originSummary": [
+      "새로운 무료 오픈 소스 게임 엔진이 개발 중이며, 언리얼 및 소스와 같은 인기 있는 엔진과 유사하게 오픈 월드 스트리밍을 지원합니다. - 이 엔진은 최신 하드웨어에 최적화되어 높은 성능을 제공하지만, 아직 실사용 준비는 되어 있지 않습니다. - 개발자는 이 엔진을 사용하여 여러 대형 프로젝트를 완료할 계획이지만, 현재 이름은 임시일 가능성이 높습니다."
+    ],
+    "commentSummary": [
+      "Tramway SDK는 Half-Life와 Morrowind 게임 엔진을 결합하여 저예산의 오픈 월드 스트리밍 게임 엔진을 만드는 프로젝트로, 무료이자 오픈 소스입니다. - 현대 하드웨어에 최적화되어 있지만, Tramway SDK는 아직 실사용 준비가 되어 있지 않으며, 오래된 하드웨어를 지원함으로써 소프트웨어 비대화와 환경적 영향을 줄이는 것을 목표로 하고 있습니다. - MIT 라이선스 하에 있는 이 프로젝트는 레트로 미학과 인디 게임 개발 가능성으로 인해 인정을 받고 있으며, 창작자는 피드백과 진행 상황 업데이트를 환영합니다."
+    ],
+    "points": 227,
+    "commentCount": 58,
+    "retryCount": 0,
+    "time": 1736266929
+  },
+  {
+    "id": 42618625,
+    "title": "연구에 따르면 로마 제국의 납 사용이 유럽 전역의 IQ 수준을 낮췄다",
+    "originLink": "https://www.theguardian.com/science/2025/jan/06/roman-empires-use-of-lead-lowered-iq-levels-across-europe-study-finds",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42618625",
+    "commentBody": "",
+    "originSummary": [
+      "한 연구에 따르면 로마 제국의 금속 가공에서 납 사용이 팍스 로마나 기간 동안 유럽 전역에서 IQ가 2~3포인트 하락하는 원인이 되었다고 합니다.",
+      "연구자들은 북극의 얼음 코어를 사용하여 기원전 500년부터 서기 600년까지의 납 오염을 추적했으며, 로마 제국의 전성기 동안 납 오염이 크게 증가했음을 보여주었습니다.",
+      "연구에 따르면 광범위한 납 노출이 로마 제국의 쇠퇴에 기여했을 수 있으며, 오염 수준은 로마 시대 이후 감소했지만 산업 혁명 동안 다시 증가했다고 합니다."
+    ],
+    "commentSummary": [
+      "한 연구에 따르면 로마 제국의 납 사용이 유럽의 IQ 수준을 낮출 수 있었을 것이라고 합니다. 이는 고대의 직접적인 IQ 측정이 아닌 역사적인 납 수준과 현대 모델에 기반한 것입니다.",
+      "로마 인프라의 장점이 납 노출의 해로운 영향을 능가했을지에 대한 논쟁이 있다.",
+      "이 연구는 또한 불소와 플라스틱과 같은 현대 물질이 IQ에 미치는 잠재적 영향을 탐구하며, 간접적인 증거로부터 역사적 건강 영향을 평가하는 것의 복잡성을 강조합니다."
+    ],
+    "points": 194,
+    "commentCount": 145,
+    "retryCount": 0,
+    "time": 1736218095
+  },
+  {
+    "id": 42623144,
+    "title": "뉴욕 연방준비은행 \"운명의 날 책\" 2022년 FOIA를 통해 [pdf]",
+    "originLink": "https://www.crisesnotes.com/content/files/2023/12/NYFRB-2006.--Doomsday-Book--Searchable.pdf",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42623144",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "뉴욕 연방준비은행의 '둠스데이 북'은 금융 위기 동안 법적 불확실성을 관리하고 신속하고 효과적인 대응을 보장하기 위해 변호사들을 돕기 위해 설계된 법률 가이드입니다. - 처음에는 일부 변호사들을 위해 의도되었으나, 이제는 모든 FRBNY 변호사들이 사용할 수 있으며, 기술 사고 대응 계획과 유사한 위기 대응 매뉴얼로 기능합니다. - 이 문서는 법률 부서 외부에는 공유되지 않으며, 그 이름은 심각한 금융 혼란에 대한 준비를 의미합니다. 연준은 독특한 역할로 인해 정보공개법(FOIA)에서 독립성을 유지하면서도 여전히 의회에 책임을 지고 있습니다."
+    ],
+    "points": 183,
+    "commentCount": 131,
+    "retryCount": 0,
+    "time": 1736262587
+  },
+  {
+    "id": 42621627,
+    "title": "제3자 사실 확인 프로그램을 종료하고 커뮤니티 노트 모델로 전환",
+    "originLink": "https://about.fb.com/news/2025/01/meta-more-speech-fewer-mistakes/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42621627",
+    "commentBody": "",
+    "originSummary": [
+      "메타는 지나치게 복잡하고 제한적이라는 비판을 받아온 콘텐츠 조정 시스템을 단순화하여 자유로운 표현을 우선시하고 있습니다. - 이 회사는 미국에서 제3자 팩트체크 프로그램을 종료하고, 사용자 기여를 통해 잠재적으로 오해의 소지가 있는 게시물에 맥락을 제공하는 X와 유사한 커뮤니티 노트 시스템을 도입하고 있습니다. - 메타는 정치적 콘텐츠에 대한 제한을 줄이고, 심각한 위반에 초점을 맞추어 집행 과정을 단순화하며, 사용자 선호도에 따라 정치적 콘텐츠 가시성을 개인화하여 자유로운 표현에 대한 마크 저커버그의 비전에 부합하고 있습니다."
+    ],
+    "commentSummary": [
+      "메타는 제3자 사실 확인 프로그램에서 트위터의 전략과 유사한 커뮤니티 노트 모델로 전환하고 있으며, 이는 정치적 변화에 맞추고 조정 비용을 절감하기 위한 것으로 보입니다.",
+      "비평가들은 이러한 변화가 더 많은 허위 정보와 유해한 콘텐츠를 초래할 수 있다고 우려하는 반면, 지지자들은 그것이 표현의 자유를 강화할 수 있다고 주장합니다.",
+      "이 결정은 콘텐츠 조정, 표현의 자유, 그리고 공적 담론 형성에 있어 소셜 미디어 플랫폼의 영향력에 대한 지속적인 논의를 부각시킵니다."
+    ],
+    "points": 180,
+    "commentCount": 254,
+    "retryCount": 0,
+    "time": 1736252122
+  }
+]

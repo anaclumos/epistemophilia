@@ -15,12 +15,156 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 06 Jan 2025 19:24:13 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Jan 2025 19:19:44 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/fr.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Mon, 06 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[fr]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-07]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/07&#39;</h2>
+<h1>2025-01-07</h1>
+<h2><a href="https://crawshaw.io/blog/programming-with-llms">Comment je programme avec les LLMs</a></h2>
+<ul>
+<li>L&#39;auteur a intégré des modèles de langage de grande taille (LLM) dans leur flux de travail de programmation, les trouvant bénéfiques pour des tâches telles que l&#39;autocomplétion, la recherche et la programmation guidée par chat.</li>
+<li>Ils développent un outil appelé sketch.dev, un environnement de développement intégré (IDE) pour la programmation en Go, conçu pour améliorer la productivité en automatisant les tâches répétitives et en améliorant l&#39;efficacité de la programmation.</li>
+<li>Les LLM sont efficaces pour générer des brouillons de code et traiter des questions de type examen, bien qu&#39;ils puissent parfois commettre des erreurs, et ils modifient les compromis en programmation en permettant un code plus spécialisé et des tests plus complets.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42617645">Réactions</a></h3>
+<ul>
+<li>Les grands modèles de langage (LLM) sont reconnus par certains ingénieurs logiciels pour améliorer la productivité, notamment dans la rédaction de nouvelles idées et l&#39;exécution de tâches telles que l&#39;autocomplétion et la programmation guidée par chat. - Alors que certains développeurs apprécient l&#39;efficacité que les LLM offrent, d&#39;autres restent sceptiques quant à leur efficacité, surtout pour des problèmes complexes ou nouveaux. - La discussion souligne une division parmi les développeurs concernant l&#39;adoption des LLM, certains les adoptant pour des tâches itératives et d&#39;autres préférant les méthodes traditionnelles.</li>
+</ul>
+<h2><a href="https://techcrunch.com/2025/01/06/nvidias-project-digits-is-a-personal-ai-computer/">Nvidia&#39;s Project Digits est un &#39;superordinateur personnel d&#39;IA&#39;</a></h2>
+<ul>
+<li>Nvidia a dévoilé le Projet Digits au CES 2025, un &quot;superordinateur personnel&quot; compact basé sur la plateforme matérielle Grace Blackwell, doté du Superchip GB10 Grace Blackwell.</li>
+<li>Le dispositif offre jusqu&#39;à un pétaflop de performance, adapté aux chercheurs en IA, aux data scientists et aux étudiants, et peut gérer des modèles avec jusqu&#39;à 200 milliards de paramètres.</li>
+<li>Au prix de 3 000 $, Project Digits sera disponible en mai et pourra se connecter aux PC Windows ou Mac, fonctionnant sous DGX OS de Nvidia basé sur Linux.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42619139">Réactions</a></h3>
+<ul>
+<li>Nvidia&#39;s Project Digits est un &#39;superordinateur personnel d&#39;IA&#39; au prix de 3 000 $, doté d&#39;un GPU Blackwell avec 1 PFLOP (PetaFLOP) de calcul FP4, 128 Go de mémoire unifiée DDR5X, 20 cœurs ARM et ConnectX pour l&#39;empilage. - Il cible les startups et les passionnés, offrant une alternative locale aux solutions d&#39;IA dans le cloud, avec un accent sur la capacité et l&#39;efficacité de la mémoire pour le développement et les tâches d&#39;inférence de l&#39;IA. - L&#39;appareil fonctionne sur le système d&#39;exploitation DGX de Nvidia, basé sur Ubuntu, et est considéré comme un potentiel changeur de jeu pour le calcul local de l&#39;IA.</li>
+</ul>
+<h2><a href="https://nicholas.carlini.com/writing/2025/regex-chess.html">Un moteur d&#39;échecs minimax en expressions régulières</a></h2>
+<ul>
+<li>Nicholas Carlini a développé un moteur d&#39;échecs nommé Regex Chess, utilisant 84 688 expressions régulières pour exécuter des coups d&#39;échecs valides, démontrant le potentiel des regex dans des applications non conventionnelles. - Le moteur fonctionne comme un processeur d&#39;expressions régulières, avec un ensemble d&#39;instructions unique pour les opérations de pile, la gestion des variables et l&#39;exécution conditionnelle, et prend en charge la génération parallèle de coups. - Regex Chess utilise une recherche minimax simplifiée pour évaluer et noter les coups pseudo-légaux, mettant en avant une exploration créative des capacités des regex, avec le code accessible sur GitHub pour consultation publique.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42619652">Réactions</a></h3>
+<ul>
+<li>Nicholas Carlini a développé un moteur d&#39;échecs minimax en utilisant des expressions régulières, démontrant la capacité des regex à gérer des tâches complexes comme les échecs. - Le projet, malgré des bugs tels que des problèmes avec la promotion des pions et les mouvements sur la colonne a, illustre les aspects éducatifs et divertissants des défis de programmation non conventionnels. - La recherche à 2 plis du moteur échoue parfois à éviter les menaces de mat en 1, soulignant ses limites mais aussi son approche innovante.</li>
+</ul>
+<h2><a href="https://www.scottredig.com/blog/bonkers_comptime/">Le comptime de Zig est incroyablement bon</a></h2>
+<ul>
+<li>Scott Redig explore la fonctionnalité &#39;comptime&#39; de Zig, qui améliore la productivité en permettant la métaprogrammation, autorisant l&#39;exécution de code pendant le temps de compilation. - Il propose six perspectives sur &#39;comptime&#39;, soulignant sa capacité à simplifier la lecture et le débogage du code, et le compare aux génériques, à l&#39;évaluation partielle et à la génération de code. - Redig conclut que le &#39;comptime&#39; de Zig est à la fois puissant et simple, recommandant une exploration plus approfondie à travers les ressources officielles de Zig et sa bibliothèque standard.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42618130">Réactions</a></h3>
+<ul>
+<li>Le comptime de Zig, ou programmation au moment de la compilation, est reconnu pour son efficacité, permettant des fonctionnalités telles que les génériques, l&#39;initialisation complexe de données et la génération de code spécifique à la cible. - Les critiques soulignent des problèmes potentiels tels que l&#39;utilisation abusive semblable aux macros Lisp, la rupture de la paramétricité, et les défis liés aux types génériques récursifs et à la vérification des types lors du calcul au moment de la compilation. - Malgré ces préoccupations, la simplicité de Zig et son exécution au moment de la compilation sont considérées comme des avantages majeurs, avec un certain intérêt pour l&#39;intégration de ses capacités de métaprogrammation avec l&#39;écosystème de Rust.</li>
+</ul>
+<h2><a href="https://www.theverge.com/2025/1/6/24337396/nvidia-rtx-5080-5090-5070-ti-5070-price-release-date">Nvidia annonce les GPU RTX 5090 et RTX 5080 de nouvelle génération</a></h2>
+<ul>
+<li>Nvidia a dévoilé ses GPU de nouvelle génération de la série RTX 50 lors du CES, comprenant les modèles haut de gamme RTX 5090 et RTX 5080, respectivement au prix de 1 999 $ et 999 $. - Le RTX 5090 inclut 32 Go de mémoire GDDR7 et 21 760 cœurs CUDA, offrant une vitesse double par rapport à son prédécesseur, le RTX 4090, tandis que le RTX 5080 propose 16 Go de mémoire et est deux fois plus rapide que le RTX 4080. - La série introduit la nouvelle technologie DLSS 4, améliorant les performances et la qualité d&#39;image, et sera disponible pour les ordinateurs portables à partir de mars.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42618761">Réactions</a></h3>
+<ul>
+<li>Nvidia a dévoilé les GPU RTX 5090 et RTX 5080, avec la RTX 5090 dotée de 32 Go de mémoire GDDR7 et d&#39;une puissance thermique de conception (TDP) de 575W, destinée aux charges de travail d&#39;IA pour les consommateurs.</li>
+<li>Le RTX 5080 est conçu pour le jeu haut de gamme, offrant une option plus abordable avec moins de mémoire par rapport au RTX 5090.</li>
+<li>Le fort engouement pour ces GPU, notamment pour les applications d&#39;IA, pourrait entraîner des problèmes de disponibilité, rappelant les pénuries précédentes causées par le minage de cryptomonnaies.</li>
+</ul>
+<h2><a href="https://old.reddit.com/r/ABoringDystopia/comments/1ht7fft/used_meta_ai_to_edit_a_selfie_now_instagram_is/">J&#39;ai utilisé Meta AI, maintenant Instagram utilise mon visage dans des publicités ciblées sur moi.</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42615538">Réactions</a></h3>
+<ul>
+<li>Un utilisateur de Reddit a vu des publicités Instagram mettant en vedette son propre visage après avoir utilisé la fonctionnalité &quot;imagine me&quot; de Meta AI, soulevant des inquiétudes concernant la publicité personnalisée. - L&#39;incident a déclenché un débat comparant ce niveau de personnalisation publicitaire au film &quot;Minority Report&quot;, avec des opinions partagées entre le voir comme innovant ou envahissant. - La discussion souligne les préoccupations en matière de confidentialité et les implications éthiques de l&#39;IA dans la publicité, avec des appels à des réglementations plus strictes pour protéger les données personnelles.</li>
+</ul>
+<h2><a href="https://www.congestion-pricing-tracker.com/">Suivi du péage de congestion de NYC</a></h2>
+<ul>
+<li>Le Congestion Pricing Tracker est un projet de Benjamin et Joshua Moshes, sous la supervision de la professeure Emily Oster de l&#39;Université Brown, se concentrant sur la tarification de la congestion à New York. - Le projet comprend des scripts web et des feuilles de style, indiquant une approche numérique complète pour présenter l&#39;information. - La page web est optimisée pour les moteurs de recherche (SEO) et inclut une page d&#39;erreur 404 pour gérer le contenu non trouvé.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42616700">Réactions</a></h3>
+<ul>
+<li>Le programme de tarification de la congestion de New York est conçu pour réduire la congestion du trafic et générer des revenus pour les améliorations du transport en commun.</li>
+<li>Alors que certains observent des bénéfices immédiats, d&#39;autres soutiennent qu&#39;il est prématuré d&#39;évaluer son efficacité en raison de variables telles que la météo et les voyages de vacances.</li>
+<li>Les critiques soulignent que les tarifs de taxi et de covoiturage inchangés et le besoin d&#39;améliorer les transports en commun restent des préoccupations importantes.</li>
+</ul>
+<h2><a href="https://variety.com/2025/film/columns/flow-golden-globe-win-independent-animation-1236266805/">Première fois qu&#39;une production réalisée avec Blender remporte le Golden Globe</a></h2>
+<ul>
+<li>Le réalisateur letton Gints Zilbalodis a remporté le Golden Globe du meilleur film d&#39;animation avec son film indépendant &quot;Flow&quot;, soulignant une réalisation significative pour les films indépendants. - &quot;Flow&quot;, créé avec un budget modeste de 3,7 millions de dollars en utilisant Blender, un logiciel gratuit, a rivalisé avec des productions de grands studios, illustrant la démocratisation de l&#39;animation. - La victoire du film reflète l&#39;inclusivité croissante des Golden Globes envers les titres internationaux et pourrait influencer la course aux Oscars du meilleur film d&#39;animation, défiant la domination traditionnelle de Disney.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42620656">Réactions</a></h3>
+<ul>
+<li>Une production réalisée avec Blender a remporté un Golden Globe, marquant une étape importante pour le logiciel open-source et remettant en question les perceptions de son aptitude à un usage professionnel. - Le film, reconnu pour sa narration et ses visuels, a gagné en popularité en Lettonie et se distingue par son faible budget comparé à d&#39;autres lauréats animés. - Le succès du film, utilisant le moteur EEVEE de Blender, a suscité des discussions sur l&#39;impact potentiel de Blender sur l&#39;industrie de l&#39;animation et ses capacités dans divers contextes de production.</li>
+</ul>
+<h2><a href="https://tla.systems/blog/2025/01/04/i-live-my-life-a-quarter-century-at-a-time/">Je vis ma vie un quart de siècle à la fois</a></h2>
+<ul>
+<li>Le 5 janvier 2000, Steve Jobs a présenté l&#39;interface utilisateur Aqua de Mac OS X, y compris le Dock, lors du Macworld Expo, avec des contributions significatives d&#39;un ingénieur basé à Apple Cork, en Irlande.</li>
+<li>L&#39;ingénieur, qui avait auparavant travaillé sur DragThing, a joué un rôle clé dans la transformation des prototypes de Bas Ording en code fonctionnel pour le Dock, mais a finalement démissionné en raison des pressions liées à la relocalisation.</li>
+<li>Après avoir quitté Apple, l&#39;ingénieur a relancé DragThing et PCalc, qui continuent d&#39;être populaires, et a découvert un accord de non-divulgation (NDA) non signé en sa possession.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42616699">Réactions</a></h3>
+<ul>
+<li>L&#39;article traite du développement du Dock d&#39;Apple, en mettant l&#39;accent sur l&#39;excentricité et la nature secrète de Steve Jobs, y compris le fait de faire voler un employé entre l&#39;Irlande et les États-Unis pour maintenir une façade.</li>
+<li>Malgré des efforts considérables, le projet a finalement été annulé en raison de problèmes liés à l&#39;emplacement du bureau.</li>
+<li>Le récit explore également les décisions controversées de Jobs, son héritage comparé aux leaders technologiques actuels, et des thèmes plus larges comme les parcours professionnels et l&#39;âgisme dans l&#39;industrie technologique.</li>
+</ul>
+<h2><a href="https://alexanderpetros.com/triptych/">Propositions de triptyque</a></h2>
+<ul>
+<li>Les propositions Triptych par Alexander Petros et Carson Gross visent à améliorer la capacité de HTML à gérer les requêtes réseau en prenant en charge des méthodes HTTP supplémentaires telles que PUT, PATCH et DELETE dans les formulaires.</li>
+<li>Les propositions incluent également la possibilité d&#39;activer des boutons pour effectuer des requêtes HTTP sans formulaires et de permettre des remplacements partiels de pages, alignant ainsi le HTML plus étroitement avec les principes REST.</li>
+<li>Ces propositions ont été présentées lors de la Big Sky Dev Con et sont détaillées dans le Triptych Polyfill sur GitHub, avec des mises à jour continues des spécifications de fetch et de navigation pour soutenir ces améliorations.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42615646">Réactions</a></h3>
+<ul>
+<li>Les propositions de triptyque d&#39;Alex Petros visent à intégrer les concepts HTMX dans la spécification HTML, permettant ainsi à HTML de gérer des méthodes HTTP telles que PUT et DELETE.</li>
+<li>Cette proposition reçoit des retours positifs du groupe de travail sur la technologie des applications hypertextes du Web (WHATWG), mais son adoption par les principaux navigateurs tels que Chrome et Safari reste incertaine.</li>
+<li>L&#39;initiative vise à réduire la dépendance au JavaScript en améliorant les capacités du HTML, contribuant ainsi à la discussion plus large sur les API RESTful et un web axé sur l&#39;hypermédia.</li>
+</ul>
+<h2><a href="https://racenis.github.io/tram-sdk/why.html">Tramway SDK – L&#39;union impie entre les moteurs de Half-Life et Morrowind</a></h2>
+<ul>
+<li>Un nouveau moteur de jeu gratuit et open-source est en cours de développement, similaire aux moteurs populaires comme Unreal et Source, avec un support pour le streaming en monde ouvert. - Le moteur est optimisé pour le matériel moderne, offrant des performances élevées, mais n&#39;est pas encore prêt pour une utilisation en production. - Le développeur a l&#39;intention de réaliser plusieurs grands projets en utilisant ce moteur, bien que le nom actuel soit probablement temporaire.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42624116">Réactions</a></h3>
+<ul>
+<li>Tramway SDK est un projet qui fusionne les moteurs de jeu Half-Life et Morrowind pour créer un moteur de jeu en monde ouvert à faible coût, gratuit et open source. - Bien qu&#39;optimisé pour le matériel moderne, Tramway SDK n&#39;est pas encore prêt pour une utilisation en production, mais il vise à réduire l&#39;encombrement logiciel et l&#39;impact environnemental en prenant en charge le matériel plus ancien. - Le projet, sous licence MIT, est apprécié pour son esthétique rétro et son potentiel pour le développement de jeux indépendants, le créateur étant ouvert aux retours et aux mises à jour de progrès.</li>
+</ul>
+<h2><a href="https://www.theguardian.com/science/2025/jan/06/roman-empires-use-of-lead-lowered-iq-levels-across-europe-study-finds">Une étude révèle que l&#39;utilisation du plomb par l&#39;Empire romain a réduit les niveaux de QI à travers l&#39;Europe</a></h2>
+<ul>
+<li>Une étude indique que l&#39;utilisation du plomb par l&#39;Empire romain dans la métallurgie a entraîné une baisse de 2 à 3 points de QI à travers l&#39;Europe pendant la Pax Romana.</li>
+<li>Les chercheurs ont utilisé des carottes de glace arctique pour suivre la pollution au plomb de 500 av. J. -C. à 600 apr. J. -C., montrant une augmentation significative pendant l&#39;apogée de l&#39;Empire romain.</li>
+<li>Selon l&#39;étude, une exposition généralisée au plomb pourrait avoir contribué au déclin de l&#39;Empire romain, les niveaux de pollution ayant diminué après l&#39;ère romaine mais augmentant à nouveau pendant la Révolution industrielle.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42618625">Réactions</a></h3>
+<ul>
+<li>Une étude indique que l&#39;utilisation du plomb par l&#39;Empire romain pourrait avoir réduit les niveaux de QI en Europe, bien que cela soit basé sur les niveaux historiques de plomb et des modèles modernes plutôt que sur des mesures directes du QI ancien.</li>
+<li>Il y a un débat pour savoir si les avantages de l&#39;infrastructure romaine ont pu surpasser les effets néfastes de l&#39;exposition au plomb.</li>
+<li>Cette étude explore également les effets potentiels de substances contemporaines, telles que le fluorure et les plastiques, sur le QI, en soulignant la complexité d&#39;évaluer les impacts historiques sur la santé à partir de preuves indirectes.</li>
+</ul>
+<h2><a href="https://www.crisesnotes.com/content/files/2023/12/NYFRB-2006.--Doomsday-Book--Searchable.pdf">Banque fédérale de réserve de NY &quot;Livre du Jugement Dernier&quot; 2022 via FOIA [pdf]</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42623144">Réactions</a></h3>
+<ul>
+<li>Le &quot;Doomsday Book&quot; de la Federal Reserve Bank of New York est un guide juridique conçu pour aider les avocats à gérer les incertitudes juridiques lors des crises financières, garantissant des réponses rapides et efficaces. - Initialement destiné à certains avocats, le guide est désormais accessible à tous les avocats de la FRBNY, servant de manuel de crise semblable aux plans de réponse aux incidents technologiques. - Le document n&#39;est pas partagé en dehors de la Fonction Juridique, et son nom signifie une préparation aux perturbations financières graves, la Fed maintenant son indépendance vis-à-vis de la loi sur la liberté de l&#39;information (FOIA) en raison de son rôle unique, tout en restant responsable devant le Congrès.</li>
+</ul>
+<h2><a href="https://about.fb.com/news/2025/01/meta-more-speech-fewer-mistakes/">Mettre fin à notre programme de vérification des faits par des tiers et passer au modèle Community Notes</a></h2>
+<ul>
+<li>Meta donne la priorité à la liberté d&#39;expression en simplifiant ses systèmes de modération de contenu, qui ont été critiqués pour leur complexité excessive et leur caractère restrictif. - L&#39;entreprise met fin à son programme de vérification des faits par des tiers aux États-Unis et introduit un système de Community Notes, similaire à X, pour fournir un contexte aux publications potentiellement trompeuses grâce aux contributions des utilisateurs. - Meta réduit les restrictions sur le contenu politique, simplifie les processus d&#39;application pour se concentrer sur les violations graves, et personnalise la visibilité du contenu politique en fonction des préférences des utilisateurs, en accord avec la vision de Mark Zuckerberg sur la liberté d&#39;expression.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42621627">Réactions</a></h3>
+<ul>
+<li>Meta passe de son programme de vérification des faits par des tiers à un modèle de Community Notes, similaire à la stratégie de Twitter, pour potentiellement s&#39;aligner sur les changements politiques et réduire les dépenses de modération.</li>
+<li>Les critiques expriment des inquiétudes quant au fait que ce changement pourrait entraîner davantage de désinformation et de contenu nuisible, tandis que les partisans soutiennent qu&#39;il pourrait renforcer la liberté d&#39;expression.</li>
+<li>Cette décision met en lumière les discussions en cours sur la modération du contenu, la liberté d&#39;expression et l&#39;influence des plateformes de médias sociaux dans la formation du discours public.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Comment je programme avec les LLMs" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Comment%20je%20programme%20avec%20les%20LLMs&subheading=mardi%207%20janvier%202025%3A%20R%C3%A9sum%C3%A9%20de%20Hacker%20News" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/fr/2025/01/07</link>
+            <guid isPermaLink="false">2025-01-07T00:00:00.000Z</guid>
+            <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-06]]></title>
             <description

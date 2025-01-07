@@ -15,12 +15,156 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 06 Jan 2025 19:24:13 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Jan 2025 19:19:44 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/zh-Hant.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Mon, 06 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-07]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/07&#39;</h2>
+<h1>2025-01-07</h1>
+<h2><a href="https://crawshaw.io/blog/programming-with-llms">「我如何使用 LLMs 進行程式設計」</a></h2>
+<ul>
+<li>作者已將大型語言模型(LLMs)整合到他們的程式設計工作流程中，發現這些模型在自動完成、搜尋和聊天驅動的程式設計等任務中非常有用。</li>
+<li>他們正在開發一個名為 sketch.dev 的工具，這是一個 Go 程式語言的整合開發環境(IDE)，旨在透過自動化重複性任務和提升程式設計效率來增強生產力。</li>
+<li>大型語言模型在生成程式碼草稿和處理考試風格的問題上非常有效，儘管它們偶爾會出錯，但它們透過使程式碼更專業化和測試更全面來改變程式設計中的權衡。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42617645">評論</a></h3>
+<ul>
+<li>「大型語言模型(LLMs)被一些軟體工程師認為能提升生產力，特別是在草擬新想法和執行自動完成及聊天驅動的程式設計等任務時。- 雖然有些開發者欣賞 LLMs 所提供的效率，但也有些人對其效能持懷疑態度，尤其是在面對複雜或新穎問題時。- 這場討論突顯了開發者之間對於 LLMs 採用的分歧，有些人擁抱它們用於反覆性任務，而另一些人則偏好傳統方法。」</li>
+</ul>
+<h2><a href="https://techcrunch.com/2025/01/06/nvidias-project-digits-is-a-personal-ai-computer/">Nvidia 的 Project Digits 是一台「個人 AI 超級電腦」</a></h2>
+<ul>
+<li>Nvidia 在 2025 年 CES 展會上推出了 Project Digits，這是一款基於 Grace Blackwell 硬體平台的緊湊型「個人 AI 超級電腦」，搭載 GB10 Grace Blackwell 超級晶片。</li>
+<li>該裝置提供高達一個PetaFLOP的效能，適合人工智慧研究人員、數據科學家和學生使用，並能處理高達2000億個參數的模型。</li>
+<li>「Project Digits 定價為 3,000 美元，將於五月上市，並可連接至 Windows 或 Mac 電腦，運行於 Nvidia 的基於 Linux 的 DGX 作業系統上。」</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42619139">評論</a></h3>
+<ul>
+<li>Nvidia 的 Project Digits 是一款定價 3,000 美元的「個人 AI 超級電腦」，配備 Blackwell GPU，擁有 1 PFLOP(PetaFLOP)的 FP4 計算能力、128GB 統一 DDR5X 記憶體、20 個 ARM 核心，以及用於堆疊的 ConnectX。- 它的目標是初創公司和愛好者，提供一個本地替代雲端 AI 解決方案的選擇，專注於 AI 開發和推理任務的記憶體容量和效率。- 該設備運行在基於 Ubuntu 的 Nvidia DGX OS 上，被認為是本地 AI 計算的潛在變革者。</li>
+</ul>
+<h2><a href="https://nicholas.carlini.com/writing/2025/regex-chess.html">使用正規表示式的極大極小棋局引擎</a></h2>
+<ul>
+<li>「Nicholas Carlini 開發了一個名為 Regex Chess 的西洋棋引擎，使用了 84,688 個正規表達式來執行有效的棋步，展示了正規表達式在非傳統應用中的潛力。- 該引擎的運作方式類似於正規表達式 CPU，具有獨特的指令集以進行堆疊操作、變數處理和條件執行，並支持平行的棋步生成。- Regex Chess 採用簡化的極大極小搜尋來評估和評分偽合法棋步，突顯了對正規表達式能力的創意探索，程式碼可在 GitHub 上公開查看。」</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42619652">評論</a></h3>
+<ul>
+<li>「Nicholas Carlini 使用正規表示式開發了一個極小化國際象棋引擎，展示了正規表示式在處理像國際象棋這樣複雜任務中的能力。- 儘管該專案存在一些錯誤，例如兵升變和 a 行移動的問題，但它展示了非傳統程式設計挑戰的教育和娛樂方面。- 該引擎的 2 層搜索偶爾無法避免一步將死的威脅，這突顯了其限制，但也顯示了其創新的方法。」</li>
+</ul>
+<h2><a href="https://www.scottredig.com/blog/bonkers_comptime/">「Zig 的編譯時期功能非常出色」</a></h2>
+<ul>
+<li>「Scott Redig 探討了 Zig 的 &#39;comptime&#39; 功能，這項功能透過允許在編譯時執行程式碼來增強生產力，實現元程式設計。- 他從六個角度分析了 &#39;comptime&#39;，強調其簡化程式碼閱讀和除錯的能力，並將其與泛型、部分求值和程式碼生成進行比較。- Redig 總結認為 Zig 的 &#39;comptime&#39; 既強大又簡單，並建議透過 Zig 的官方資源和標準函式庫進一步探索。」</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42618130">評論</a></h3>
+<ul>
+<li>「Zig 的編譯時期程式設計(comptime)因其效率而受到認可，能夠實現泛型、複雜的資料初始化以及針對特定目標的代碼生成等功能。批評者指出潛在問題，例如類似 Lisp 巨集的誤用、破壞參數化，以及在編譯時期計算中遞迴泛型類型和類型檢查的挑戰。儘管存在這些顧慮，Zig 的簡單性和編譯時期執行被認為是主要優勢，有些人對將其元程式設計能力與 Rust 的生態系統整合表示興趣。」</li>
+</ul>
+<h2><a href="https://www.theverge.com/2025/1/6/24337396/nvidia-rtx-5080-5090-5070-ti-5070-price-release-date">Nvidia 宣佈推出次世代 RTX 5090 和 RTX 5080 顯示卡</a></h2>
+<ul>
+<li>「Nvidia 在 CES 上發表了其下一代 RTX 50 系列 GPU，其中包括高階的 RTX 5090 和 RTX 5080，價格分別為 1,999 美元和 999 美元。- RTX 5090 配備 32GB 的 GDDR7 記憶體和 21,760 個 CUDA 核心，速度是其前代 RTX 4090 的兩倍，而 RTX 5080 提供 16GB 的記憶體，速度是 RTX 4080 的兩倍。- 該系列引入了新的 DLSS 4 技術，提升了效能和影像品質，並將於三月開始供應筆記型電腦。」</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42618761">評論</a></h3>
+<ul>
+<li>Nvidia 發布了 RTX 5090 和 RTX 5080 顯示卡，其中 RTX 5090 配備 32GB 的 GDDR7 記憶體和 575W 的熱設計功耗(TDP)，針對消費者 AI 工作負載。</li>
+<li>RTX 5080 專為高端遊戲設計，提供比 RTX 5090 更實惠的選擇，但記憶體較少。</li>
+<li>「對這些 GPU 的高需求，特別是在 AI 應用方面，可能會導致供應問題，讓人想起先前因加密貨幣挖礦而引發的短缺情況。」</li>
+</ul>
+<h2><a href="https://old.reddit.com/r/ABoringDystopia/comments/1ht7fft/used_meta_ai_to_edit_a_selfie_now_instagram_is/">「使用了 Meta AI，現在 Instagram 在針對我的廣告中使用了我的臉」</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42615538">評論</a></h3>
+<ul>
+<li>「一位 Reddit 用戶在使用 Meta AI 的“想像我”功能後，發現 Instagram 廣告中出現了自己的臉，這引發了對個人化廣告的擔憂。此事件引發了一場辯論，將這種廣告個人化程度與電影《關鍵報告》進行比較，意見分歧在於將其視為創新還是侵入性。這場討論強調了隱私問題以及 AI 在廣告中的倫理影響，並呼籲制定更嚴格的法規來保護個人數據。」</li>
+</ul>
+<h2><a href="https://www.congestion-pricing-tracker.com/">紐約市擁擠收費追蹤器</a></h2>
+<ul>
+<li>擁擠收費追蹤器是由 Benjamin 和 Joshua Moshes 在布朗大學教授 Emily Oster 的指導下進行的一個專案，專注於紐約的擁擠收費。- 該專案包含網頁腳本和樣式表，顯示出一種全面的數位化方式來呈現資訊。- 該網頁經過搜尋引擎優化(SEO)，並包含一個 404 錯誤頁面以處理找不到的內容。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42616700">評論</a></h3>
+<ul>
+<li>「紐約市的擁擠收費政策旨在減少交通擁擠並為交通改善籌集資金。」</li>
+<li>雖然有些人觀察到立即的好處，但也有人認為，由於天氣和假期旅行等變數，現在評估其效能還為時過早。</li>
+<li>批評者指出，計程車和共乘費用未變以及需要加強公共交通仍然是重要的關注點。</li>
+</ul>
+<h2><a href="https://variety.com/2025/film/columns/flow-golden-globe-win-independent-animation-1236266805/">Blender 製作的作品首次獲得金球獎</a></h2>
+<ul>
+<li>「拉脫維亞導演金茲·齊爾巴洛迪斯的獨立動畫《Flow》獲得金球獎最佳動畫長片獎，這對獨立電影來說是一項重要成就。- 《Flow》以僅370萬美元的預算，使用免費軟體 Blender 創作，與大型製片廠的作品競爭，展現了動畫製作的民主化。- 該片的勝利反映了金球獎對國際作品日益包容的態度，並可能影響奧斯卡最佳動畫長片的競爭，挑戰迪士尼的傳統霸主地位。」</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42620656">評論</a></h3>
+<ul>
+<li>「一部使用 Blender 製作的作品贏得了金球獎，這標誌著開源軟體的一個里程碑，並挑戰了人們對其專業使用準備程度的看法。這部影片因其故事敘述和視覺效果而受到讚譽，在拉脫維亞獲得了人氣，並因其相較於其他動畫獲獎作品的低預算而脫穎而出。這部影片的成功，利用了 Blender 的 EEVEE 引擎，激起了關於 Blender 對動畫產業潛在影響及其在多樣化製作環境中能力的討論。」</li>
+</ul>
+<h2><a href="https://tla.systems/blog/2025/01/04/i-live-my-life-a-quarter-century-at-a-time/">「我過著每隔四分之一世紀就重新開始的生活」</a></h2>
+<ul>
+<li>「2000 年 1 月 5 日，Steve Jobs 在 Macworld Expo 上介紹了 Mac OS X 的 Aqua 使用者介面，其中包括 Dock，這項發表得到了來自蘋果公司愛爾蘭科克的工程師的重要貢獻。」</li>
+<li>這位曾經參與 DragThing 開發的工程師，在將 Bas Ording 的原型轉化為 Dock 的功能代碼方面發揮了關鍵作用，但最終因為搬遷壓力而辭職。</li>
+<li>離開 Apple 後，這位工程師重新推出了 DragThing 和 PCalc，這兩款產品依然廣受歡迎，並發現自己持有一份未簽署的保密協議(NDA)。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42616699">評論</a></h3>
+<ul>
+<li>這篇文章討論了蘋果 Dock 的開發，強調了史蒂夫·賈伯斯的古怪和保密性，包括為了維持假象而讓一名員工在愛爾蘭和美國之間飛行。</li>
+<li>儘管付出了重大努力，該專案最終因辦公地點相關問題而被取消。</li>
+<li>敘述還深入探討了賈伯斯的爭議性決策、與當前科技領袖相比的遺產，以及職業生涯路徑和科技產業中的年齡歧視等更廣泛的主題。</li>
+</ul>
+<h2><a href="https://alexanderpetros.com/triptych/">三聯畫提案</a></h2>
+<ul>
+<li>Alexander Petros 和 Carson Gross 的三聯畫提案旨在透過在表單中支援額外的 HTTP 方法(如 PUT、PATCH 和 DELETE)，來提升 HTML 處理網路請求的能力。</li>
+<li>這些提案還包括啟用按鈕以在沒有表單的情況下發送 HTTP 請求，並允許部分頁面替換，使 HTML 更加符合 REST 原則。</li>
+<li>「這些提案在 Big Sky Dev Con 上提出，並在 GitHub 上的 Triptych Polyfill 中詳細說明，且持續更新 fetch 和 navigation 規範以支援這些增強功能。」</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42615646">評論</a></h3>
+<ul>
+<li>「Alex Petros 的三聯畫提案旨在將 HTMX 概念納入 HTML 規範，使 HTML 能夠處理像 PUT 和 DELETE 這樣的 HTTP 方法。」</li>
+<li>該提案正獲得網頁超文字應用技術工作小組(WHATWG)的正面回饋，但其是否會被 Chrome 和 Safari 等主要瀏覽器採用仍不確定。</li>
+<li>該倡議旨在透過增強 HTML 的功能來減少對 JavaScript 的依賴，並促進關於 RESTful API 和超媒體驅動網路的廣泛討論。</li>
+</ul>
+<h2><a href="https://racenis.github.io/tram-sdk/why.html">Tramway SDK——Half-Life 和 Morrowind 引擎的不聖聯盟</a></h2>
+<ul>
+<li>「一款新的免費開源遊戲引擎正在開發中，類似於受歡迎的引擎如 Unreal 和 Source，並支援開放世界串流。- 該引擎針對現代硬體進行了優化，提供高效能，但尚未準備好用於生產環境。- 開發者打算使用此引擎完成幾個大型專案，儘管目前的名稱可能是暫時的。」</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42624116">評論</a></h3>
+<ul>
+<li>Tramway SDK 是一個將《半條命》和《魔獸世界》遊戲引擎合併的專案，旨在創建一個低預算、開放世界的串流遊戲引擎，且免費且開源。- 雖然已針對現代硬體進行優化，但 Tramway SDK 尚未準備好用於生產環境，但其目標是透過支援較舊的硬體來減少軟體膨脹和環境影響。- 該專案採用 MIT 授權，因其復古美學和對獨立遊戲開發的潛力而受到讚賞，創作者也歡迎反饋和進度更新。</li>
+</ul>
+<h2><a href="https://www.theguardian.com/science/2025/jan/06/roman-empires-use-of-lead-lowered-iq-levels-across-europe-study-finds">「研究發現，羅馬帝國使用鉛導致全歐洲的智商水平下降」</a></h2>
+<ul>
+<li>「一項研究指出，羅馬帝國在金屬加工中使用鉛，導致在羅馬和平時期歐洲的智商平均下降了2到3分。」</li>
+<li>研究人員利用北極冰芯追蹤從西元前500年到西元600年的鉛污染，顯示在羅馬帝國鼎盛時期有顯著增加。</li>
+<li>研究顯示，廣泛的鉛暴露可能對羅馬帝國的衰落有所貢獻，羅馬時代結束後污染水平有所下降，但在工業革命期間再次上升。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42618625">評論</a></h3>
+<ul>
+<li>「一項研究指出，羅馬帝國使用鉛可能降低了歐洲的智商水平，儘管這是基於歷史鉛含量和現代模型，而非直接的古代智商測量。」</li>
+<li>「關於羅馬基礎設施的優勢是否超過鉛暴露的負面影響，存在著爭論。」</li>
+<li>該研究還探討了當代物質(如氟化物和塑膠)對智商的潛在影響，強調了從間接證據評估歷史健康影響的複雜性。</li>
+</ul>
+<h2><a href="https://www.crisesnotes.com/content/files/2023/12/NYFRB-2006.--Doomsday-Book--Searchable.pdf">紐約聯邦儲備銀行《末日書》2022年通過《資訊自由法》獲得 [pdf]</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42623144">評論</a></h3>
+<ul>
+<li>「紐約聯邦儲備銀行的《末日手冊》是一份法律指南，旨在協助律師在金融危機期間管理法律不確定性，確保迅速且有效的應對。- 最初僅供特定律師使用，該指南現已開放給所有紐約聯邦儲備銀行的律師，作為一種危機應對手冊，類似於科技事件應對計畫。- 該文件不會在法律部門外部分享，其名稱象徵著對嚴重金融動盪的準備，儘管聯邦儲備銀行因其獨特角色而保持獨立於《資訊自由法》(FOIA)之外，但仍需對國會負責。」</li>
+</ul>
+<h2><a href="https://about.fb.com/news/2025/01/meta-more-speech-fewer-mistakes/">結束我們的第三方事實查核計劃，轉向社群筆記模式</a></h2>
+<ul>
+<li>Meta 正在透過簡化其內容審核系統來優先考量言論自由，該系統曾被批評過於複雜和限制性。- 該公司正在結束其在美國的第三方事實查核計畫，並引入類似於 X 的社群註解系統，透過用戶貢獻為可能誤導的貼文提供背景資訊。- Meta 正在減少對政治內容的限制，簡化執法流程以專注於嚴重違規行為，並根據用戶偏好個性化政治內容的可見性，這與馬克·祖克柏對言論自由的願景一致。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42621627">評論</a></h3>
+<ul>
+<li>Meta 正在從其第三方事實查核計畫轉型為社群註記模式，類似於 Twitter 的策略，這可能是為了配合政治變化並降低審核成本。</li>
+<li>批評者表示擔憂，認為這一轉變可能會導致更多的錯誤資訊和有害內容，而支持者則認為這可能會增強言論自由。</li>
+<li>這項決定突顯了關於內容審核、言論自由以及社交媒體平台在塑造公共話語中影響力的持續討論。</li>
+</ul>
+<head>
+  <meta property="og:title" content="「我如何使用 LLMs 進行程式設計」" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E3%80%8C%E6%88%91%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%20LLMs%20%E9%80%B2%E8%A1%8C%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E3%80%8D&subheading=2025%E5%B9%B41%E6%9C%887%E6%97%A5%20%E6%98%9F%E6%9C%9F%E4%BA%8C%3A%20Hacker%20News%20%E6%91%98%E8%A6%81" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/zh/Hant/2025/01/07</link>
+            <guid isPermaLink="false">2025-01-07T00:00:00.000Z</guid>
+            <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-06]]></title>
             <description

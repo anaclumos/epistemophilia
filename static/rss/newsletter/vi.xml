@@ -15,12 +15,156 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 06 Jan 2025 19:24:13 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Jan 2025 19:19:44 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/vi.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Mon, 06 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[vi]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-07]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/07&#39;</h2>
+<h1>2025-01-07</h1>
+<h2><a href="https://crawshaw.io/blog/programming-with-llms">Chương trình của tôi với LLMs như thế nào</a></h2>
+<ul>
+<li>Người viết đã tích hợp các Mô hình Ngôn ngữ Lớn (LLMs) vào quy trình làm việc lập trình của họ, thấy chúng có lợi cho các nhiệm vụ như tự động hoàn thành, tìm kiếm và lập trình dựa trên trò chuyện.</li>
+<li>Họ đang phát triển một công cụ có tên là sketch.dev, một Môi trường Phát triển Tích hợp (IDE) cho lập trình Go được thiết kế để nâng cao năng suất bằng cách tự động hóa các tác vụ lặp đi lặp lại và cải thiện hiệu quả lập trình.</li>
+<li>LLMs có hiệu quả trong việc tạo ra các bản nháp mã và xử lý các câu hỏi kiểu thi, mặc dù đôi khi chúng có thể mắc lỗi, và chúng thay đổi các thỏa hiệp trong lập trình bằng cách cho phép mã chuyên biệt hơn và các bài kiểm tra toàn diện.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42617645">phản ứng</a></h3>
+<ul>
+<li>Những Mô hình Ngôn ngữ Lớn (LLMs) được một số kỹ sư phần mềm công nhận là giúp tăng năng suất, đặc biệt trong việc phác thảo ý tưởng mới và thực hiện các nhiệm vụ như tự động hoàn thành và lập trình dựa trên trò chuyện. - Trong khi một số nhà phát triển đánh giá cao hiệu quả mà LLMs mang lại, những người khác vẫn hoài nghi về tính hiệu quả của chúng, đặc biệt đối với các vấn đề phức tạp hoặc mới lạ. - Cuộc thảo luận nhấn mạnh sự chia rẽ giữa các nhà phát triển về việc áp dụng LLMs, với một số người chấp nhận chúng cho các nhiệm vụ lặp đi lặp lại và những người khác ưa chuộng các phương pháp truyền thống.</li>
+</ul>
+<h2><a href="https://techcrunch.com/2025/01/06/nvidias-project-digits-is-a-personal-ai-computer/">Nvidia&#39;s Project Digits là một &#39;siêu máy tính AI cá nhân&#39;</a></h2>
+<ul>
+<li>Nvidia đã ra mắt Dự án Digits tại CES 2025, một &quot;siêu máy tính AI cá nhân&quot; nhỏ gọn được xây dựng trên nền tảng phần cứng Grace Blackwell, với Superchip GB10 Grace Blackwell.</li>
+<li>Thiết bị cung cấp hiệu suất lên đến một petaflop, phù hợp cho các nhà nghiên cứu AI, nhà khoa học dữ liệu và sinh viên, và có thể xử lý các mô hình với tối đa 200 tỷ tham số.</li>
+<li>Được định giá ở mức 3.000 đô la, Project Digits sẽ có mặt vào tháng Năm và có thể kết nối với các máy tính Windows hoặc Mac, chạy trên hệ điều hành DGX dựa trên Linux của Nvidia.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42619139">phản ứng</a></h3>
+<ul>
+<li>Nvidia&#39;s Project Digits là một &#39;siêu máy tính AI cá nhân&#39; có giá 3.000 USD, được trang bị GPU Blackwell với 1 PFLOP (PetaFLOP) tính toán FP4, bộ nhớ DDR5X hợp nhất 128GB, 20 lõi ARM và ConnectX để xếp chồng. - Nó nhắm đến các công ty khởi nghiệp và những người đam mê, cung cấp một giải pháp thay thế tại chỗ cho các giải pháp AI đám mây, với trọng tâm là dung lượng bộ nhớ và hiệu quả cho các nhiệm vụ phát triển và suy luận AI. - Thiết bị hoạt động trên hệ điều hành DGX của Nvidia, dựa trên Ubuntu, và được coi là một bước đột phá tiềm năng cho tính toán AI tại chỗ.</li>
+</ul>
+<h2><a href="https://nicholas.carlini.com/writing/2025/regex-chess.html">Một công cụ cờ vua minimax trong các biểu thức chính quy</a></h2>
+<ul>
+<li>Nicholas Carlini đã phát triển một công cụ cờ vua mang tên Regex Chess, sử dụng 84.688 biểu thức chính quy để thực hiện các nước đi cờ vua hợp lệ, thể hiện tiềm năng của regex trong các ứng dụng không thông thường. - Công cụ này hoạt động như một CPU biểu thức chính quy, có một tập lệnh độc đáo cho các thao tác ngăn xếp, xử lý biến và thực thi điều kiện, và hỗ trợ tạo nước đi song song. - Regex Chess sử dụng một tìm kiếm minimax đơn giản để đánh giá và chấm điểm các nước đi giả hợp pháp, nhấn mạnh sự khám phá sáng tạo về khả năng của regex, với mã nguồn có sẵn trên GitHub để công chúng xem.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42619652">phản ứng</a></h3>
+<ul>
+<li>Nicholas Carlini đã phát triển một công cụ chơi cờ minimax sử dụng biểu thức chính quy, thể hiện khả năng của regex trong việc xử lý các nhiệm vụ phức tạp như cờ vua. - Dự án, mặc dù có lỗi như vấn đề với việc phong cấp tốt và di chuyển trên cột a, cho thấy các khía cạnh giáo dục và giải trí của những thách thức lập trình không theo lối mòn. - Việc tìm kiếm 2-ply của công cụ đôi khi không tránh được các mối đe dọa chiếu hết trong một nước, làm nổi bật những hạn chế của nó nhưng cũng cho thấy cách tiếp cận sáng tạo.</li>
+</ul>
+<h2><a href="https://www.scottredig.com/blog/bonkers_comptime/">Thời gian biên dịch của Zig cực kỳ tốt</a></h2>
+<ul>
+<li>Scott Redig khám phá tính năng &#39;comptime&#39; của Zig, giúp tăng cường năng suất bằng cách cho phép lập trình siêu dữ liệu, cho phép thực thi mã trong thời gian biên dịch. - Ông cung cấp sáu góc nhìn về &#39;comptime&#39;, nhấn mạnh khả năng của nó trong việc đơn giản hóa việc đọc và gỡ lỗi mã, và so sánh nó với generics, đánh giá từng phần, và tạo mã. - Redig kết luận rằng &#39;comptime&#39; của Zig vừa mạnh mẽ vừa đơn giản, khuyến nghị khám phá thêm thông qua các tài nguyên chính thức và thư viện tiêu chuẩn của Zig.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42618130">phản ứng</a></h3>
+<ul>
+<li>Chương trình thời gian biên dịch (comptime) của Zig được công nhận về hiệu quả, cho phép các tính năng như generics, khởi tạo dữ liệu phức tạp và tạo mã cụ thể cho từng mục tiêu. - Các nhà phê bình nêu bật các vấn đề tiềm ẩn như lạm dụng tương tự như macro của Lisp, phá vỡ tính tham số, và thách thức với các kiểu generic đệ quy và kiểm tra kiểu trong quá trình tính toán thời gian biên dịch. - Mặc dù có những lo ngại này, sự đơn giản và thực thi thời gian biên dịch của Zig được coi là những lợi thế lớn, với một số quan tâm đến việc tích hợp khả năng metaprogramming của nó với hệ sinh thái của Rust.</li>
+</ul>
+<h2><a href="https://www.theverge.com/2025/1/6/24337396/nvidia-rtx-5080-5090-5070-ti-5070-price-release-date">Nvidia công bố GPU thế hệ tiếp theo RTX 5090 và RTX 5080</a></h2>
+<ul>
+<li>Nvidia đã ra mắt dòng GPU RTX 50-series thế hệ tiếp theo tại CES, bao gồm RTX 5090 và RTX 5080 cao cấp, với giá lần lượt là 1.999 USD và 999 USD. - RTX 5090 bao gồm 32GB bộ nhớ GDDR7 và 21.760 lõi CUDA, cung cấp tốc độ gấp đôi so với người tiền nhiệm của nó, RTX 4090, trong khi RTX 5080 cung cấp 16GB bộ nhớ và nhanh gấp đôi so với RTX 4080. - Dòng sản phẩm này giới thiệu công nghệ DLSS 4 mới, cải thiện hiệu suất và chất lượng hình ảnh, và sẽ có sẵn cho máy tính xách tay bắt đầu từ tháng Ba.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42618761">phản ứng</a></h3>
+<ul>
+<li>Nvidia đã ra mắt các GPU RTX 5090 và RTX 5080, với RTX 5090 có bộ nhớ 32GB GDDR7 và công suất thiết kế nhiệt (TDP) 575W, nhắm đến các khối lượng công việc AI tiêu dùng.</li>
+<li>RTX 5080 được thiết kế cho trò chơi cao cấp, cung cấp một lựa chọn phải chăng hơn với ít bộ nhớ hơn so với RTX 5090.</li>
+<li>Những nhu cầu cao đối với các GPU này, đặc biệt là cho các ứng dụng AI, có thể dẫn đến các vấn đề về khả năng cung cấp, gợi nhớ đến những lần thiếu hụt trước đây do khai thác tiền điện tử gây ra.</li>
+</ul>
+<h2><a href="https://old.reddit.com/r/ABoringDystopia/comments/1ht7fft/used_meta_ai_to_edit_a_selfie_now_instagram_is/">Đã sử dụng Meta AI, bây giờ Instagram đang sử dụng khuôn mặt của tôi trên các quảng cáo nhắm mục tiêu đến tôi</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42615538">phản ứng</a></h3>
+<ul>
+<li>Người dùng Reddit đã trải nghiệm quảng cáo trên Instagram có hình ảnh khuôn mặt của chính họ sau khi sử dụng tính năng &quot;imagine me&quot; của Meta AI, làm dấy lên lo ngại về quảng cáo cá nhân hóa. - Sự việc này đã khơi mào một cuộc tranh luận so sánh mức độ cá nhân hóa quảng cáo này với bộ phim &quot;Minority Report,&quot; với ý kiến chia rẽ giữa việc coi đó là sáng tạo hay xâm phạm. - Cuộc thảo luận nhấn mạnh những lo ngại về quyền riêng tư và các tác động đạo đức của AI trong quảng cáo, với những lời kêu gọi cần có các quy định nghiêm ngặt hơn để bảo vệ dữ liệu cá nhân.</li>
+</ul>
+<h2><a href="https://www.congestion-pricing-tracker.com/">Trình theo dõi giá tắc nghẽn NYC</a></h2>
+<ul>
+<li>The Congestion Pricing Tracker là một dự án của Benjamin và Joshua Moshes, dưới sự giám sát của Giáo sư Emily Oster từ Đại học Brown, tập trung vào việc định giá tắc nghẽn giao thông ở New York. - Dự án bao gồm các kịch bản web và bảng định kiểu, cho thấy một cách tiếp cận kỹ thuật số toàn diện để trình bày thông tin. - Trang web được tối ưu hóa cho các công cụ tìm kiếm (SEO) và bao gồm một trang lỗi 404 để xử lý nội dung không tìm thấy.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42616700">phản ứng</a></h3>
+<ul>
+<li>Chính sách định giá tắc nghẽn giao thông của NYC được thiết kế để giảm tắc nghẽn giao thông và tạo ra doanh thu cho việc cải thiện giao thông công cộng.</li>
+<li>Trong khi một số người nhận thấy lợi ích ngay lập tức, những người khác cho rằng việc đánh giá hiệu quả của nó là quá sớm do các biến số như thời tiết và du lịch trong kỳ nghỉ.</li>
+<li>Những nhà phê bình chỉ ra rằng việc giữ nguyên phí taxi và dịch vụ chia sẻ xe cùng với nhu cầu cải thiện giao thông công cộng vẫn là những mối quan tâm đáng kể.</li>
+</ul>
+<h2><a href="https://variety.com/2025/film/columns/flow-golden-globe-win-independent-animation-1236266805/">Đây là lần đầu tiên một sản phẩm được làm bằng Blender giành giải Quả cầu vàng</a></h2>
+<ul>
+<li>Phim hoạt hình độc lập &quot;Flow&quot; của đạo diễn người Latvia Gints Zilbalodis đã giành giải Quả cầu vàng cho phim hoạt hình xuất sắc nhất, đánh dấu một thành tựu đáng kể cho các bộ phim độc lập. - &quot;Flow,&quot; được tạo ra với ngân sách khiêm tốn 3,7 triệu đô la bằng cách sử dụng Blender, một phần mềm miễn phí, đã cạnh tranh với các sản phẩm của các hãng phim lớn, thể hiện sự dân chủ hóa của ngành hoạt hình. - Chiến thắng của bộ phim phản ánh sự bao trùm ngày càng tăng của Quả cầu vàng đối với các tựa phim quốc tế và có thể ảnh hưởng đến cuộc đua Oscar cho phim hoạt hình, thách thức sự thống trị truyền thống của Disney.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42620656">phản ứng</a></h3>
+<ul>
+<li>Một sản phẩm được làm bằng Blender đã giành được giải Quả cầu vàng, đánh dấu một cột mốc quan trọng cho phần mềm mã nguồn mở này và thách thức những quan niệm về sự sẵn sàng của nó cho việc sử dụng chuyên nghiệp. - Bộ phim, được chú ý nhờ cốt truyện và hình ảnh, đã trở nên phổ biến ở Latvia và nổi bật với ngân sách thấp so với các tác phẩm hoạt hình đoạt giải khác. - Thành công của bộ phim, sử dụng động cơ EEVEE của Blender, đã khơi dậy các cuộc thảo luận về tác động tiềm năng của Blender đối với ngành công nghiệp hoạt hình và khả năng của nó trong các bối cảnh sản xuất đa dạng.</li>
+</ul>
+<h2><a href="https://tla.systems/blog/2025/01/04/i-live-my-life-a-quarter-century-at-a-time/">Tôi sống cuộc đời mình từng phần tư thế kỷ một lần</a></h2>
+<ul>
+<li>Vào ngày 5 tháng 1 năm 2000, Steve Jobs đã giới thiệu giao diện người dùng Aqua của Mac OS X, bao gồm cả Dock, tại Macworld Expo, với những đóng góp đáng kể từ một kỹ sư làm việc tại Apple Cork, Ireland.</li>
+<li>Người kỹ sư, người trước đây đã làm việc trên DragThing, đã đóng vai trò quan trọng trong việc chuyển đổi các nguyên mẫu của Bas Ording thành mã chức năng cho Dock, nhưng cuối cùng đã từ chức do áp lực di chuyển.</li>
+<li>Sau khi rời Apple, kỹ sư này đã hồi sinh DragThing và PCalc, những ứng dụng vẫn tiếp tục được ưa chuộng, và phát hiện ra một Thỏa thuận Không Tiết lộ (NDA) chưa ký trong tay họ.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42616699">phản ứng</a></h3>
+<ul>
+<li>Bài báo thảo luận về sự phát triển của Dock của Apple, nhấn mạnh tính lập dị và bản chất bí mật của Steve Jobs, bao gồm việc đưa một nhân viên bay qua lại giữa Ireland và Mỹ để duy trì một vỏ bọc.</li>
+<li>Mặc dù đã có những nỗ lực đáng kể, dự án cuối cùng đã bị hủy bỏ do các vấn đề liên quan đến vị trí văn phòng.</li>
+<li>Cuốn truyện cũng đi sâu vào các quyết định gây tranh cãi của Jobs, di sản của ông so với các nhà lãnh đạo công nghệ hiện tại, và các chủ đề rộng hơn như con đường sự nghiệp và phân biệt tuổi tác trong ngành công nghệ.</li>
+</ul>
+<h2><a href="https://alexanderpetros.com/triptych/">Đề xuất Triptych</a></h2>
+<ul>
+<li>Đề xuất Triptych của Alexander Petros và Carson Gross nhằm cải thiện khả năng xử lý các yêu cầu mạng của HTML bằng cách hỗ trợ các phương thức HTTP bổ sung như PUT, PATCH và DELETE trong các biểu mẫu.</li>
+<li>Những đề xuất này cũng bao gồm việc cho phép các nút thực hiện yêu cầu HTTP mà không cần biểu mẫu và cho phép thay thế một phần trang, giúp HTML gần gũi hơn với các nguyên tắc REST.</li>
+<li>Những đề xuất này đã được giới thiệu tại Big Sky Dev Con và được trình bày chi tiết trong Triptych Polyfill trên GitHub, với các cập nhật liên tục cho các đặc tả fetch và navigation để hỗ trợ những cải tiến này.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42615646">phản ứng</a></h3>
+<ul>
+<li>Đề xuất Triptych của Alex Petros tìm cách tích hợp các khái niệm HTMX vào đặc tả HTML, cho phép HTML xử lý các phương thức HTTP như PUT và DELETE.</li>
+<li>Đề xuất này đang nhận được phản hồi tích cực từ Nhóm Công tác Công nghệ Ứng dụng Siêu văn bản Web (WHATWG), nhưng việc các trình duyệt lớn như Chrome và Safari chấp nhận vẫn còn chưa chắc chắn.</li>
+<li>Chương trình này nhằm giảm sự phụ thuộc vào JavaScript bằng cách nâng cao khả năng của HTML, đóng góp vào cuộc thảo luận rộng hơn về các API RESTful và một web được điều khiển bởi siêu phương tiện.</li>
+</ul>
+<h2><a href="https://racenis.github.io/tram-sdk/why.html">Tramway SDK – Sự Kết Hợp Không Thánh Thiện Giữa Các Động Cơ Half-Life và Morrowind</a></h2>
+<ul>
+<li>Một công cụ game mới, miễn phí và mã nguồn mở đang được phát triển, tương tự như các công cụ phổ biến như Unreal và Source, với hỗ trợ cho việc phát trực tuyến thế giới mở. - Công cụ này được tối ưu hóa cho phần cứng hiện đại, mang lại hiệu suất cao, nhưng chưa sẵn sàng để sử dụng trong sản xuất. - Nhà phát triển dự định hoàn thành một số dự án lớn sử dụng công cụ này, mặc dù tên hiện tại có thể chỉ là tạm thời.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42624116">phản ứng</a></h3>
+<ul>
+<li>Tramway SDK là một dự án kết hợp các công cụ game của Half-Life và Morrowind để tạo ra một công cụ game thế giới mở, phát trực tuyến với ngân sách thấp, miễn phí và mã nguồn mở. - Mặc dù được tối ưu hóa cho phần cứng hiện đại, Tramway SDK vẫn chưa sẵn sàng để sử dụng trong sản xuất, nhưng nó nhằm giảm bớt sự phình to của phần mềm và tác động môi trường bằng cách hỗ trợ phần cứng cũ hơn. - Dự án, được cấp phép theo MIT, được đánh giá cao vì thẩm mỹ cổ điển và tiềm năng cho phát triển game indie, với người tạo ra nó hoan nghênh phản hồi và cập nhật tiến độ.</li>
+</ul>
+<h2><a href="https://www.theguardian.com/science/2025/jan/06/roman-empires-use-of-lead-lowered-iq-levels-across-europe-study-finds">Việc sử dụng chì của Đế chế La Mã đã làm giảm mức độ IQ trên khắp châu Âu, nghiên cứu cho thấy</a></h2>
+<ul>
+<li>Một nghiên cứu chỉ ra rằng việc Đế chế La Mã sử dụng chì trong công việc kim loại đã gây ra sự giảm 2 đến 3 điểm IQ trên khắp châu Âu trong thời kỳ Pax Romana.</li>
+<li>Nhà nghiên cứu đã sử dụng lõi băng Bắc Cực để theo dõi ô nhiễm chì từ năm 500 trước Công nguyên đến năm 600 sau Công nguyên, cho thấy sự gia tăng đáng kể trong thời kỳ đỉnh cao của Đế chế La Mã.</li>
+<li>Nghiên cứu cho thấy rằng việc tiếp xúc rộng rãi với chì có thể đã góp phần vào sự suy tàn của Đế chế La Mã, với mức độ ô nhiễm giảm sau thời kỳ La Mã nhưng lại tăng lên trong cuộc Cách mạng Công nghiệp.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42618625">phản ứng</a></h3>
+<ul>
+<li>Một nghiên cứu chỉ ra rằng việc sử dụng chì của Đế chế La Mã có thể đã làm giảm mức độ IQ ở châu Âu, mặc dù điều này dựa trên mức độ chì trong lịch sử và các mô hình hiện đại hơn là các phép đo IQ cổ đại trực tiếp.</li>
+<li>Hiện có tranh luận về việc liệu những lợi ích của cơ sở hạ tầng La Mã có thể đã vượt qua những tác động có hại của việc tiếp xúc với chì hay không.</li>
+<li>Theo nghiên cứu, cũng khám phá các tác động tiềm năng của các chất đương đại, chẳng hạn như fluoride và nhựa, đối với IQ, nhấn mạnh sự phức tạp của việc đánh giá các tác động sức khỏe lịch sử từ bằng chứng gián tiếp.</li>
+</ul>
+<h2><a href="https://www.crisesnotes.com/content/files/2023/12/NYFRB-2006.--Doomsday-Book--Searchable.pdf">Ngân hàng Dự trữ Liên bang New York &quot;Sách Ngày Tận Thế&quot; 2022 thông qua FOIA [pdf]</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42623144">phản ứng</a></h3>
+<ul>
+<li>Bộ sách &quot;Doomsday Book&quot; của Ngân hàng Dự trữ Liên bang New York là một hướng dẫn pháp lý được thiết kế để hỗ trợ các luật sư trong việc quản lý những bất ổn pháp lý trong các cuộc khủng hoảng tài chính, đảm bảo các phản ứng kịp thời và hiệu quả. - Ban đầu dành cho một số luật sư chọn lọc, hướng dẫn này hiện có sẵn cho tất cả các luật sư của FRBNY, đóng vai trò như một cuốn sách hướng dẫn khủng hoảng tương tự như các kế hoạch ứng phó sự cố công nghệ. - Tài liệu này không được chia sẻ ra ngoài Bộ phận Pháp lý, và tên của nó biểu thị sự chuẩn bị cho những gián đoạn tài chính nghiêm trọng, với Fed duy trì sự độc lập khỏi Đạo luật Tự do Thông tin (FOIA) do vai trò đặc biệt của mình, trong khi vẫn chịu trách nhiệm trước Quốc hội.</li>
+</ul>
+<h2><a href="https://about.fb.com/news/2025/01/meta-more-speech-fewer-mistakes/">Chấm dứt chương trình kiểm tra thực tế của bên thứ ba và chuyển sang mô hình Ghi chú Cộng đồng</a></h2>
+<ul>
+<li>Meta đang ưu tiên tự do ngôn luận bằng cách đơn giản hóa hệ thống kiểm duyệt nội dung của mình, vốn đã bị chỉ trích là quá phức tạp và hạn chế. - Công ty đang chấm dứt chương trình kiểm tra thực tế của bên thứ ba tại Mỹ và giới thiệu hệ thống Community Notes, tương tự như X, để cung cấp ngữ cảnh cho các bài đăng có thể gây hiểu lầm thông qua đóng góp của người dùng. - Meta đang giảm bớt các hạn chế về nội dung chính trị, đơn giản hóa quy trình thực thi để tập trung vào các vi phạm nghiêm trọng, và cá nhân hóa khả năng hiển thị nội dung chính trị dựa trên sở thích của người dùng, phù hợp với tầm nhìn của Mark Zuckerberg về tự do ngôn luận.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42621627">phản ứng</a></h3>
+<ul>
+<li>Meta đang chuyển từ chương trình kiểm tra sự thật của bên thứ ba sang mô hình Community Notes, tương tự như chiến lược của Twitter, nhằm có thể thích ứng với những thay đổi chính trị và cắt giảm chi phí kiểm duyệt.</li>
+<li>Những người chỉ trích bày tỏ lo ngại rằng sự thay đổi này có thể dẫn đến nhiều thông tin sai lệch và nội dung có hại hơn, trong khi những người ủng hộ cho rằng nó có thể củng cố quyền tự do ngôn luận.</li>
+<li>Quyết định này làm nổi bật các cuộc thảo luận đang diễn ra về việc kiểm duyệt nội dung, tự do ngôn luận và ảnh hưởng của các nền tảng truyền thông xã hội trong việc định hình diễn ngôn công cộng.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Chương trình của tôi với LLMs như thế nào" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Ch%C6%B0%C6%A1ng%20tr%C3%ACnh%20c%E1%BB%A7a%20t%C3%B4i%20v%E1%BB%9Bi%20LLMs%20nh%C6%B0%20th%E1%BA%BF%20n%C3%A0o&subheading=Th%E1%BB%A9%20Ba%2C%207%20th%C3%A1ng%201%2C%202025%3A%20T%C3%B3m%20t%E1%BA%AFt%20tin%20t%E1%BB%A9c%20v%E1%BB%81%20hacker" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/vi/2025/01/07</link>
+            <guid isPermaLink="false">2025-01-07T00:00:00.000Z</guid>
+            <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-06]]></title>
             <description

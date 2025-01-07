@@ -15,11 +15,186 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 06 Jan 2025 19:24:13 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Jan 2025 19:19:44 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/story/ko.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Mon, 06 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
         <language><![CDATA[ko]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[나는 LLM으로 프로그래밍하는 방법]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>저자는 프로그래밍 워크플로에 대형 언어 모델(LLM)을 통합하여 자동 완성, 검색 및 채팅 기반 프로그래밍과 같은 작업에 유용하다고 판단했습니다.</li>
+<li>그들은 반복적인 작업을 자동화하고 프로그래밍 효율성을 향상시킴으로써 생산성을 높이기 위해 설계된 Go 프로그래밍 통합 개발 환경(IDE)인 sketch.dev라는 도구를 개발하고 있습니다.</li>
+<li>LLM은 코드 초안을 생성하고 시험 스타일의 질문을 처리하는 데 효과적이지만, 때때로 오류를 범할 수 있으며, 보다 전문화된 코드와 포괄적인 테스트를 가능하게 함으로써 프로그래밍의 균형을 변화시킵니다.</li>
+</ul>
+]]></description>
+            <link>https://crawshaw.io/blog/programming-with-llms</link>
+            <guid isPermaLink="false">2025-01-07T00:00:00.000Z나는 LLM으로 프로그래밍하는 방법</guid>
+            <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[엔비디아의 프로젝트 디지츠는 '개인용 AI 슈퍼컴퓨터'입니다.]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>엔비디아는 CES 2025에서 GB10 그레이스 블랙웰 슈퍼칩을 특징으로 하는 그레이스 블랙웰 하드웨어 플랫폼에 기반한 소형 &#39;개인 AI 슈퍼컴퓨터&#39;인 프로젝트 디지츠를 공개했습니다.</li>
+<li>이 장치는 AI 연구자, 데이터 과학자 및 학생들에게 적합한 최대 페타플롭의 성능을 제공하며 최대 2,000억 개의 매개변수를 가진 모델을 처리할 수 있습니다.</li>
+<li>가격이 $3,000인 Project Digits는 5월에 출시되며, Nvidia의 리눅스 기반 DGX OS에서 실행되어 Windows 또는 Mac PC에 연결할 수 있습니다.</li>
+</ul>
+]]></description>
+            <link>https://techcrunch.com/2025/01/06/nvidias-project-digits-is-a-personal-ai-computer/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-07T00:00:00.000Z엔비디아의 프로젝트 디지츠는 &apos;개인용 AI 슈퍼컴퓨터&apos;입니다.</guid>
+            <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[정규 표현식으로 구현된 미니맥스 체스 엔진]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>니콜라스 칼리니는 84,688개의 정규 표현식을 사용하여 유효한 체스 움직임을 실행하는 체스 엔진인 Regex Chess를 개발하여 정규 표현식의 잠재력을 비전통적인 응용 분야에서 보여주었습니다. - 이 엔진은 스택 연산, 변수 처리 및 조건 실행을 위한 고유한 명령어 세트를 특징으로 하는 정규 표현식 CPU처럼 작동하며, 병렬 이동 생성도 지원합니다. - Regex Chess는 의사 합법적 움직임을 평가하고 점수화하기 위해 단순화된 미니맥스 검색을 사용하여 정규 표현식 기능에 대한 창의적인 탐구를 강조하며, 코드는 GitHub에서 대중에게 공개되어 있습니다.</li>
+</ul>
+]]></description>
+            <link>https://nicholas.carlini.com/writing/2025/regex-chess.html</link>
+            <guid isPermaLink="false">2025-01-07T00:00:00.000Z정규 표현식으로 구현된 미니맥스 체스 엔진</guid>
+            <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Zig의 컴타임은 정말 놀랍도록 좋다]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Scott Redig는 Zig의 &#39;comptime&#39; 기능을 탐구하며, 이는 메타프로그래밍을 가능하게 하여 컴파일 시간 동안 코드 실행을 가능하게 함으로써 생산성을 향상시킨다고 설명합니다. - 그는 &#39;comptime&#39;에 대한 여섯 가지 관점을 제공하며, 코드 읽기와 디버깅을 단순화하는 능력을 강조하고, 이를 제네릭, 부분 평가, 코드 생성과 비교합니다. - Redig는 Zig의 &#39;comptime&#39;이 강력하면서도 단순하다고 결론짓고, Zig의 공식 자료와 표준 라이브러리를 통해 추가 탐구를 권장합니다.</li>
+</ul>
+]]></description>
+            <link>https://www.scottredig.com/blog/bonkers_comptime/</link>
+            <guid isPermaLink="false">2025-01-07T00:00:00.000ZZig의 컴타임은 정말 놀랍도록 좋다</guid>
+            <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[엔비디아, 차세대 RTX 5090 및 RTX 5080 GPU 발표]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>엔비디아는 CES에서 차세대 RTX 50 시리즈 GPU를 공개했으며, 고급형 RTX 5090과 RTX 5080의 가격은 각각 $1,999와 $999입니다. - RTX 5090은 32GB의 GDDR7 메모리와 21,760개의 CUDA 코어를 포함하고 있으며, 이전 모델인 RTX 4090보다 두 배 빠른 속도를 제공합니다. RTX 5080은 16GB의 메모리를 제공하며 RTX 4080보다 두 배 빠릅니다. - 이 시리즈는 성능과 이미지 품질을 향상시키는 새로운 DLSS 4 기술을 도입했으며, 3월부터 노트북용으로 제공될 예정입니다.</li>
+</ul>
+]]></description>
+            <link>https://www.theverge.com/2025/1/6/24337396/nvidia-rtx-5080-5090-5070-ti-5070-price-release-date</link>
+            <guid isPermaLink="false">2025-01-07T00:00:00.000Z엔비디아, 차세대 RTX 5090 및 RTX 5080 GPU 발표</guid>
+            <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title
+      ><![CDATA[Meta AI를 사용했더니 이제 인스타그램이 나를 대상으로 한 광고에 내 얼굴을 사용하고 있다]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link
+      >https://old.reddit.com/r/ABoringDystopia/comments/1ht7fft/used_meta_ai_to_edit_a_selfie_now_instagram_is/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-07T00:00:00.000ZMeta AI를 사용했더니 이제 인스타그램이 나를 대상으로 한 광고에 내 얼굴을 사용하고 있다</guid>
+            <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[뉴욕시 혼잡 통행료 추적기]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>혼잡 통행료 추적기는 브라운 대학교의 에밀리 오스터 교수의 감독 하에 벤자민과 조슈아 모시스가 진행하는 프로젝트로, 뉴욕의 혼잡 통행료에 중점을 두고 있습니다. - 이 프로젝트는 웹 스크립트와 스타일시트를 포함하고 있어 정보를 종합적으로 디지털 방식으로 제시하고 있음을 나타냅니다. - 웹페이지는 검색 엔진 최적화(SEO)가 되어 있으며, 찾을 수 없는 콘텐츠를 처리하기 위한 404 오류 페이지를 포함하고 있습니다.</li>
+</ul>
+]]></description>
+            <link>https://www.congestion-pricing-tracker.com/</link>
+            <guid isPermaLink="false">2025-01-07T00:00:00.000Z뉴욕시 혼잡 통행료 추적기</guid>
+            <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[블렌더로 제작된 작품이 골든 글로브를 수상한 것은 이번이 처음입니다.]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>라트비아 감독 긴츠 질발로디스의 인디 애니메이션 &quot;Flow&quot;가 골든 글로브에서 최우수 애니메이션 작품상을 수상하며 독립 영화의 중요한 성과를 강조했습니다. - &quot;Flow&quot;는 무료 소프트웨어인 블렌더를 사용하여 370만 달러의 적은 예산으로 제작되었으며, 주요 스튜디오 제작물과 경쟁하여 애니메이션의 민주화를 보여주었습니다. - 이 영화의 승리는 국제 타이틀에 대한 골든 글로브의 포용성이 커지고 있음을 반영하며, 디즈니의 전통적인 지배에 도전하여 애니메이션 장편 오스카 경주에 영향을 미칠 수 있습니다.</li>
+</ul>
+]]></description>
+            <link>https://variety.com/2025/film/columns/flow-golden-globe-win-independent-animation-1236266805/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-07T00:00:00.000Z블렌더로 제작된 작품이 골든 글로브를 수상한 것은 이번이 처음입니다.</guid>
+            <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[나는 내 삶을 25년 단위로 산다]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>2000년 1월 5일, 스티브 잡스는 Macworld Expo에서 Mac OS X의 아쿠아 사용자 인터페이스와 Dock을 소개했으며, 이는 아일랜드 코크에 있는 애플 엔지니어의 중요한 기여로 이루어졌습니다.</li>
+<li>이전에 DragThing에서 일했던 엔지니어는 Bas Ording의 프로토타입을 Dock의 기능적인 코드로 변환하는 데 중요한 역할을 했지만, 결국 이주 압박으로 인해 사임했다.</li>
+<li>애플을 떠난 후, 그 엔지니어는 DragThing과 PCalc를 부활시켰고, 이들은 여전히 인기를 끌고 있으며, 서명되지 않은 비밀 유지 계약서(NDA)를 소지하고 있음을 발견했습니다.</li>
+</ul>
+]]></description>
+            <link>https://tla.systems/blog/2025/01/04/i-live-my-life-a-quarter-century-at-a-time/</link>
+            <guid isPermaLink="false">2025-01-07T00:00:00.000Z나는 내 삶을 25년 단위로 산다</guid>
+            <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[삼면화 제안]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>알렉산더 페트로스와 카슨 그로스의 트립틱 제안은 폼에서 PUT, PATCH, DELETE와 같은 추가 HTTP 메서드를 지원함으로써 HTML의 네트워크 요청 처리 능력을 향상시키는 것을 목표로 합니다.</li>
+<li>제안에는 양식 없이 HTTP 요청을 할 수 있는 버튼을 활성화하고 부분 페이지 교체를 허용하여 HTML을 REST 원칙에 더 가깝게 맞추는 내용도 포함되어 있습니다.</li>
+<li>이 제안들은 Big Sky Dev Con에서 소개되었으며, GitHub의 Triptych Polyfill에 자세히 설명되어 있습니다. 이러한 개선 사항을 지원하기 위해 fetch 및 탐색 사양에 대한 지속적인 업데이트가 진행 중입니다.</li>
+</ul>
+]]></description>
+            <link>https://alexanderpetros.com/triptych/</link>
+            <guid isPermaLink="false">2025-01-07T00:00:00.000Z삼면화 제안</guid>
+            <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[트램웨이 SDK – 하프라이프와 모로윈드 엔진의 불경스러운 결합]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>새로운 무료 오픈 소스 게임 엔진이 개발 중이며, 언리얼 및 소스와 같은 인기 있는 엔진과 유사하게 오픈 월드 스트리밍을 지원합니다. - 이 엔진은 최신 하드웨어에 최적화되어 높은 성능을 제공하지만, 아직 실사용 준비는 되어 있지 않습니다. - 개발자는 이 엔진을 사용하여 여러 대형 프로젝트를 완료할 계획이지만, 현재 이름은 임시일 가능성이 높습니다.</li>
+</ul>
+]]></description>
+            <link>https://racenis.github.io/tram-sdk/why.html</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-07T00:00:00.000Z트램웨이 SDK – 하프라이프와 모로윈드 엔진의 불경스러운 결합</guid>
+            <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[연구에 따르면 로마 제국의 납 사용이 유럽 전역의 IQ 수준을 낮췄다]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>한 연구에 따르면 로마 제국의 금속 가공에서 납 사용이 팍스 로마나 기간 동안 유럽 전역에서 IQ가 2~3포인트 하락하는 원인이 되었다고 합니다.</li>
+<li>연구자들은 북극의 얼음 코어를 사용하여 기원전 500년부터 서기 600년까지의 납 오염을 추적했으며, 로마 제국의 전성기 동안 납 오염이 크게 증가했음을 보여주었습니다.</li>
+<li>연구에 따르면 광범위한 납 노출이 로마 제국의 쇠퇴에 기여했을 수 있으며, 오염 수준은 로마 시대 이후 감소했지만 산업 혁명 동안 다시 증가했다고 합니다.</li>
+</ul>
+]]></description>
+            <link
+      >https://www.theguardian.com/science/2025/jan/06/roman-empires-use-of-lead-lowered-iq-levels-across-europe-study-finds</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-07T00:00:00.000Z연구에 따르면 로마 제국의 납 사용이 유럽 전역의 IQ 수준을 낮췄다</guid>
+            <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[뉴욕 연방준비은행 "운명의 날 책" 2022년 FOIA를 통해 [pdf]]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://www.crisesnotes.com/content/files/2023/12/NYFRB-2006.--Doomsday-Book--Searchable.pdf</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-07T00:00:00.000Z뉴욕 연방준비은행 &quot;운명의 날 책&quot; 2022년 FOIA를 통해 [pdf]</guid>
+            <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[제3자 사실 확인 프로그램을 종료하고 커뮤니티 노트 모델로 전환]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>메타는 지나치게 복잡하고 제한적이라는 비판을 받아온 콘텐츠 조정 시스템을 단순화하여 자유로운 표현을 우선시하고 있습니다. - 이 회사는 미국에서 제3자 팩트체크 프로그램을 종료하고, 사용자 기여를 통해 잠재적으로 오해의 소지가 있는 게시물에 맥락을 제공하는 X와 유사한 커뮤니티 노트 시스템을 도입하고 있습니다. - 메타는 정치적 콘텐츠에 대한 제한을 줄이고, 심각한 위반에 초점을 맞추어 집행 과정을 단순화하며, 사용자 선호도에 따라 정치적 콘텐츠 가시성을 개인화하여 자유로운 표현에 대한 마크 저커버그의 비전에 부합하고 있습니다.</li>
+</ul>
+]]></description>
+            <link>https://about.fb.com/news/2025/01/meta-more-speech-fewer-mistakes/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-07T00:00:00.000Z제3자 사실 확인 프로그램을 종료하고 커뮤니티 노트 모델로 전환</guid>
+            <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[둠, 갤러리 체험]]></title>
             <description

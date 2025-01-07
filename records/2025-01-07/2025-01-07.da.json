@@ -1,0 +1,272 @@
+[
+  {
+    "id": 42617645,
+    "title": "Sådan programmerer jeg med LLM'er",
+    "originLink": "https://crawshaw.io/blog/programming-with-llms",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42617645",
+    "commentBody": "",
+    "originSummary": [
+      "Forfatteren har integreret store sprogmodeller (LLMs) i deres programmeringsarbejdsgang og finder dem gavnlige til opgaver som autoudfyldelse, søgning og chat-drevet programmering.",
+      "De udvikler et værktøj kaldet sketch.dev, et Go-programmerings Integrated Development Environment (IDE) designet til at øge produktiviteten ved at automatisere gentagne opgaver og forbedre programmeringseffektiviteten.",
+      "LLM'er er effektive til at generere kodudkast og håndtere eksamenslignende spørgsmål, selvom de lejlighedsvis kan begå fejl, og de ændrer afvejninger i programmering ved at muliggøre mere specialiseret kode og omfattende tests."
+    ],
+    "commentSummary": [
+      "Store sprogmodeller (LLMs) anerkendes af nogle softwareingeniører for at øge produktiviteten, især når det gælder udarbejdelse af nye ideer og udførelse af opgaver som autoudfyldelse og chat-drevet programmering. - Mens nogle udviklere værdsætter den effektivitet, LLMs giver, forbliver andre skeptiske over for deres effektivitet, især ved komplekse eller nye problemer. - Diskussionen fremhæver en splittelse blandt udviklere vedrørende anvendelsen af LLMs, hvor nogle omfavner dem til iterative opgaver, mens andre foretrækker traditionelle metoder."
+    ],
+    "points": 624,
+    "commentCount": 238,
+    "retryCount": 0,
+    "time": 1736208469
+  },
+  {
+    "id": 42619139,
+    "title": "Nvidias Project Digits er en 'personlig AI-supercomputer'",
+    "originLink": "https://techcrunch.com/2025/01/06/nvidias-project-digits-is-a-personal-ai-computer/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42619139",
+    "commentBody": "",
+    "originSummary": [
+      "Nvidia præsenterede Project Digits på CES 2025, en kompakt \"personlig AI-supercomputer\" bygget på Grace Blackwell hardwareplatformen, med GB10 Grace Blackwell Superchip.",
+      "Enheden tilbyder op til en petaflop i ydeevne, velegnet til AI-forskere, dataforskere og studerende, og kan håndtere modeller med op til 200 milliarder parametre.",
+      "Prissat til $3.000 vil Project Digits være tilgængelig i maj og kan tilsluttes Windows- eller Mac-pc'er, der kører på Nvidias Linux-baserede DGX OS."
+    ],
+    "commentSummary": [
+      "Nvidias Project Digits er en 'personlig AI-supercomputer' prissat til $3.000, der har en Blackwell GPU med 1 PFLOP (PetaFLOP) af FP4-beregning, 128GB samlet DDR5X-hukommelse, 20 ARM-kerner og ConnectX til stabling. - Den henvender sig til startups og entusiaster og tilbyder et lokalt alternativ til cloud AI-løsninger med fokus på hukommelseskapacitet og effektivitet til AI-udvikling og inferensopgaver. - Enheden kører på Nvidias DGX OS, baseret på Ubuntu, og betragtes som en potentiel game-changer for lokal AI-computing."
+    ],
+    "points": 515,
+    "commentCount": 380,
+    "retryCount": 0,
+    "time": 1736223245
+  },
+  {
+    "id": 42619652,
+    "title": "En minimax skakmotor i regulære udtryk",
+    "originLink": "https://nicholas.carlini.com/writing/2025/regex-chess.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42619652",
+    "commentBody": "",
+    "originSummary": [
+      "Nicholas Carlini udviklede en skakmotor ved navn Regex Chess, der anvender 84.688 regulære udtryk til at udføre gyldige skaktræk, hvilket viser regex' potentiale i ukonventionelle anvendelser. - Motoren fungerer som en regulær udtryks-CPU, med et unikt instruktionssæt til stakoperationer, variabelhåndtering og betinget udførelse, og understøtter parallel trækgenerering. - Regex Chess anvender en forenklet minimax-søgning til at evaluere og score pseudo-legale træk, hvilket fremhæver en kreativ udforskning af regex' kapaciteter, med koden tilgængelig på GitHub til offentlig visning."
+    ],
+    "commentSummary": [
+      "Nicholas Carlini udviklede en minimax skakmotor ved hjælp af regulære udtryk, hvilket viser regex' evne til at håndtere komplekse opgaver som skak. - Projektet, på trods af fejl som problemer med bondeforvandling og a-linje træk, demonstrerer de uddannelsesmæssige og underholdende aspekter af ukonventionelle programmeringsudfordringer. - Motorens 2-ply søgning undlader lejlighedsvis at undgå mat-i-1 trusler, hvilket fremhæver dens begrænsninger, men også dens innovative tilgang."
+    ],
+    "points": 428,
+    "commentCount": 81,
+    "retryCount": 0,
+    "time": 1736228771
+  },
+  {
+    "id": 42618130,
+    "title": "Zigs comptime er vanvittigt god",
+    "originLink": "https://www.scottredig.com/blog/bonkers_comptime/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42618130",
+    "commentBody": "",
+    "originSummary": [
+      "Scott Redig udforsker Zigs 'comptime'-funktion, som øger produktiviteten ved at muliggøre metaprogrammering, der tillader kodeudførelse under kompileringstid. - Han giver seks perspektiver på 'comptime', fremhæver dens evne til at forenkle kodning og fejlfinding, og sammenligner den med generics, delvis evaluering og kodegenerering. - Redig konkluderer, at Zigs 'comptime' er både kraftfuld og enkel, og anbefaler yderligere udforskning gennem Zigs officielle ressourcer og standardbibliotek."
+    ],
+    "commentSummary": [
+      "Zigs compile-time programmering (comptime) er anerkendt for sin effektivitet, hvilket muliggør funktioner som generics, kompleks datainitialisering og målrettet kodegenerering. - Kritikere fremhæver potentielle problemer såsom misbrug, der minder om Lisp-makroer, brud på parametricitet og udfordringer med rekursive generiske typer og typekontrol under compile-time beregning. - På trods af disse bekymringer betragtes Zigs enkelhed og compile-time udførelse som store fordele, med en vis interesse i at integrere dets metaprogrammeringsmuligheder med Rusts økosystem."
+    ],
+    "points": 353,
+    "commentCount": 182,
+    "retryCount": 0,
+    "time": 1736212507
+  },
+  {
+    "id": 42618761,
+    "title": "Nvidia annoncerer næste generation RTX 5090 og RTX 5080 GPU'er",
+    "originLink": "https://www.theverge.com/2025/1/6/24337396/nvidia-rtx-5080-5090-5070-ti-5070-price-release-date",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42618761",
+    "commentBody": "",
+    "originSummary": [
+      "Nvidia præsenterede sine næste generations RTX 50-serie GPU'er på CES, herunder de avancerede RTX 5090 og RTX 5080, prissat til henholdsvis $1.999 og $999. - RTX 5090 inkluderer 32GB GDDR7 hukommelse og 21.760 CUDA-kerner, hvilket giver dobbelt hastighed i forhold til sin forgænger, RTX 4090, mens RTX 5080 tilbyder 16GB hukommelse og er dobbelt så hurtig som RTX 4080. - Serien introducerer ny DLSS 4-teknologi, der forbedrer ydeevne og billedkvalitet, og vil være tilgængelig for bærbare computere fra marts."
+    ],
+    "commentSummary": [
+      "Nvidia har lanceret RTX 5090 og RTX 5080 GPU'er, hvor RTX 5090 har 32GB GDDR7-hukommelse og en 575W Thermal Design Power (TDP), rettet mod forbruger-AI-arbejdsbelastninger.",
+      "RTX 5080 er designet til high-end gaming og tilbyder en mere overkommelig mulighed med mindre hukommelse sammenlignet med RTX 5090.",
+      "Den høje efterspørgsel efter disse GPU'er, især til AI-applikationer, kan føre til tilgængelighedsproblemer, der minder om tidligere mangler drevet af kryptovaluta-mining."
+    ],
+    "points": 329,
+    "commentCount": 367,
+    "retryCount": 0,
+    "time": 1736219531
+  },
+  {
+    "id": 42615538,
+    "title": "Brugt Meta AI, nu bruger Instagram mit ansigt i annoncer rettet mod mig",
+    "originLink": "https://old.reddit.com/r/ABoringDystopia/comments/1ht7fft/used_meta_ai_to_edit_a_selfie_now_instagram_is/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42615538",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "En Reddit-bruger oplevede Instagram-annoncer med deres eget ansigt efter at have brugt Meta AI's \"imagine me\"-funktion, hvilket rejste bekymringer om personligt tilpasset reklame. - Hændelsen udløste en debat, der sammenlignede dette niveau af annoncepersonalisering med filmen \"Minority Report,\" hvor meningerne var delte mellem at se det som innovativt eller påtrængende. - Diskussionen understreger bekymringer om privatlivets fred og de etiske implikationer af AI i reklame, med opfordringer til strengere reguleringer for at beskytte personlige data."
+    ],
+    "points": 299,
+    "commentCount": 171,
+    "retryCount": 0,
+    "time": 1736196298
+  },
+  {
+    "id": 42616700,
+    "title": "NYC Overbelastningspris Tracker",
+    "originLink": "https://www.congestion-pricing-tracker.com/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42616700",
+    "commentBody": "",
+    "originSummary": [
+      "Congestion Pricing Tracker er et projekt af Benjamin og Joshua Moshes, under vejledning af Brown University Professor Emily Oster, med fokus på trængselsafgifter i New York. - Projektet inkluderer webscripts og stylesheets, hvilket indikerer en omfattende digital tilgang til præsentation af information. - Websiden er optimeret til søgemaskiner (SEO) og inkluderer en 404-fejlside til håndtering af ikke fundet indhold."
+    ],
+    "commentSummary": [
+      "New York Citys trængselsafgiftsordning er designet til at reducere trafikbelastningen og generere indtægter til forbedringer af offentlig transport.",
+      "Mens nogle observerer umiddelbare fordele, hævder andre, at det er for tidligt at vurdere dets effektivitet på grund af faktorer som vejr og ferierejser.",
+      "Kritikere påpeger, at uændrede taxa- og samkørselsgebyrer samt behovet for forbedret offentlig transport fortsat er væsentlige bekymringer."
+    ],
+    "points": 296,
+    "commentCount": 508,
+    "retryCount": 0,
+    "time": 1736202179
+  },
+  {
+    "id": 42620656,
+    "title": "Første gang en produktion lavet med Blender har vundet en Golden Globe",
+    "originLink": "https://variety.com/2025/film/columns/flow-golden-globe-win-independent-animation-1236266805/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42620656",
+    "commentBody": "",
+    "originSummary": [
+      "Den lettiske instruktør Gints Zilbalodis' indie-animation \"Flow\" vandt Golden Globe for bedste animerede film, hvilket fremhæver en betydelig præstation for uafhængige film. - \"Flow,\" skabt med et beskedent budget på 3,7 millioner dollars ved hjælp af Blender, en gratis software, konkurrerede mod store studieproduktioner og viser animationens demokratisering. - Filmens sejr afspejler Golden Globes' voksende inklusivitet over for internationale titler og kan påvirke Oscar-kapløbet for bedste animerede film, hvilket udfordrer Disneys traditionelle dominans."
+    ],
+    "commentSummary": [
+      "En produktion lavet med Blender har vundet en Golden Globe, hvilket markerer en milepæl for den open-source software og udfordrer opfattelserne af dens parathed til professionel brug. - Filmen, der er bemærket for sin fortælling og visuelle stil, har vundet popularitet i Letland og skiller sig ud for sit lave budget sammenlignet med andre animerede vindere. - Filmens succes, der benytter Blenders EEVEE-motor, har antændt diskussioner om Blenders potentielle indflydelse på animationsindustrien og dens kapabiliteter i forskellige produktionsmiljøer."
+    ],
+    "points": 273,
+    "commentCount": 43,
+    "retryCount": 0,
+    "time": 1736240455
+  },
+  {
+    "id": 42616699,
+    "title": "Jeg lever mit liv et kvart århundrede ad gangen",
+    "originLink": "https://tla.systems/blog/2025/01/04/i-live-my-life-a-quarter-century-at-a-time/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42616699",
+    "commentBody": "",
+    "originSummary": [
+      "Den 5. januar 2000 introducerede Steve Jobs Aqua-brugergrænsefladen i Mac OS X, inklusive Docken, på Macworld Expo, med betydelige bidrag fra en ingeniør baseret i Apple Cork, Irland.",
+      "Ingeniøren, som tidligere havde arbejdet på DragThing, spillede en afgørende rolle i at omdanne Bas Ordings prototyper til funktionel kode til Dock, men sagde til sidst op på grund af pres fra en flytning.",
+      "Efter at have forladt Apple genoplivede ingeniøren DragThing og PCalc, som fortsat er populære, og opdagede en usigneret fortrolighedsaftale (NDA) i deres besiddelse."
+    ],
+    "commentSummary": [
+      "Artiklen diskuterer Apples Dock-udvikling og fremhæver Steve Jobs' excentricitet og hemmelighedsfulde natur, herunder at flyve en medarbejder mellem Irland og USA for at opretholde en facade.",
+      "På trods af betydelige anstrengelser blev projektet til sidst aflyst på grund af problemer relateret til kontorets placering.",
+      "Fortællingen dykker også ned i Jobs' kontroversielle beslutninger, hans arv sammenlignet med nuværende teknologiledere, og bredere temaer som karriereveje og aldersdiskrimination i teknologibranchen."
+    ],
+    "points": 270,
+    "commentCount": 153,
+    "retryCount": 0,
+    "time": 1736202178
+  },
+  {
+    "id": 42615646,
+    "title": "Triptykonforslag",
+    "originLink": "https://alexanderpetros.com/triptych/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42615646",
+    "commentBody": "",
+    "originSummary": [
+      "Triptych-forslagene af Alexander Petros og Carson Gross har til formål at forbedre HTML's evne til at håndtere netværksanmodninger ved at understøtte yderligere HTTP-metoder som PUT, PATCH og DELETE i formularer.",
+      "Forslagene inkluderer også at muliggøre knapper til at lave HTTP-anmodninger uden formularer og tillade delvise sideudskiftninger, hvilket bringer HTML tættere på REST-principperne.",
+      "Disse forslag blev introduceret på Big Sky Dev Con og er beskrevet i Triptych Polyfill på GitHub, med løbende opdateringer af fetch- og navigationsspecifikationerne for at understøtte disse forbedringer."
+    ],
+    "commentSummary": [
+      "Alex Petros' Triptych-forslag søger at inkorporere HTMX-koncepter i HTML-specifikationen, hvilket gør det muligt for HTML at håndtere HTTP-metoder som PUT og DELETE.",
+      "Forslaget modtager positive tilbagemeldinger fra Web Hypertext Application Technology Working Group (WHATWG), men dets vedtagelse af større browsere som Chrome og Safari er stadig usikker.",
+      "Initiativet sigter mod at reducere afhængigheden af JavaScript ved at forbedre HTML's kapaciteter, hvilket bidrager til den bredere diskussion om RESTful API'er og en hypermediedrevet web."
+    ],
+    "points": 232,
+    "commentCount": 67,
+    "retryCount": 0,
+    "time": 1736196754
+  },
+  {
+    "id": 42624116,
+    "title": "Tramway SDK – Den Uhellige Union Mellem Half-Life og Morrowind Motorer",
+    "originLink": "https://racenis.github.io/tram-sdk/why.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42624116",
+    "commentBody": "",
+    "originSummary": [
+      "En ny gratis, open-source spilmotor er under udvikling, der ligner populære motorer som Unreal og Source, med støtte til open-world streaming. - Motoren er optimeret til moderne hardware og tilbyder høj ydeevne, men er endnu ikke klar til produktionsbrug. - Udvikleren har til hensigt at færdiggøre flere store projekter ved hjælp af denne motor, selvom det nuværende navn sandsynligvis er midlertidigt."
+    ],
+    "commentSummary": [
+      "Tramway SDK er et projekt, der sammensmelter Half-Life og Morrowind spil-motorerne for at skabe en lavbudget, open-world streaming spil-motor, der er gratis og open source. - Selvom den er optimeret til moderne hardware, er Tramway SDK endnu ikke klar til produktionsbrug, men den sigter mod at reducere software-oppustethed og miljøpåvirkning ved at understøtte ældre hardware. - Projektet, der er licenseret under MIT, værdsættes for sin retroæstetik og potentiale for indie-spiludvikling, hvor skaberen byder feedback og opdateringer om fremskridt velkommen."
+    ],
+    "points": 227,
+    "commentCount": 58,
+    "retryCount": 0,
+    "time": 1736266929
+  },
+  {
+    "id": 42618625,
+    "title": "Romerrigets brug af bly sænkede IQ-niveauer i hele Europa, viser undersøgelse",
+    "originLink": "https://www.theguardian.com/science/2025/jan/06/roman-empires-use-of-lead-lowered-iq-levels-across-europe-study-finds",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42618625",
+    "commentBody": "",
+    "originSummary": [
+      "En undersøgelse indikerer, at det romerske imperiums brug af bly i metalbearbejdning forårsagede et fald på 2 til 3 IQ-point i hele Europa under Pax Romana.",
+      "Forskere brugte iskerner fra Arktis til at spore blyforurening fra 500 f.Kr. til 600 e.Kr., hvilket viste en betydelig stigning under det Romerske Imperiums storhedstid.",
+      "Undersøgelsen antyder, at udbredt blyeksponering kan have bidraget til det Romerske Imperiums fald, med forureningsniveauer der faldt efter den romerske æra, men steg igen under den industrielle revolution."
+    ],
+    "commentSummary": [
+      "En undersøgelse indikerer, at det Romerske Imperiums brug af bly kunne have reduceret IQ-niveauerne i Europa, selvom dette er baseret på historiske blyniveauer og moderne modeller snarere end direkte gamle IQ-målinger.",
+      "Der er debat om, hvorvidt fordelene ved romersk infrastruktur kunne have overgået de skadelige virkninger af blyeksponering.",
+      "Undersøgelsen udforsker også de potentielle effekter af nutidige stoffer, såsom fluorid og plast, på IQ, og understreger kompleksiteten ved at vurdere historiske sundhedspåvirkninger ud fra indirekte beviser."
+    ],
+    "points": 194,
+    "commentCount": 145,
+    "retryCount": 0,
+    "time": 1736218095
+  },
+  {
+    "id": 42623144,
+    "title": "Federal Reserve Bank of NY \"Doomsday Book\" 2022 via FOIA [pdf]",
+    "originLink": "https://www.crisesnotes.com/content/files/2023/12/NYFRB-2006.--Doomsday-Book--Searchable.pdf",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42623144",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Federal Reserve Bank of New Yorks \"Doomsday Book\" er en juridisk vejledning designet til at hjælpe advokater med at håndtere juridiske usikkerheder under finansielle kriser og sikre hurtige og effektive reaktioner. - Oprindeligt beregnet til udvalgte advokater er vejledningen nu tilgængelig for alle FRBNY-advokater og fungerer som en krisehåndbog, der kan sammenlignes med teknologiske hændelsesreaktionsplaner. - Dokumentet deles ikke uden for den juridiske funktion, og dets navn indikerer forberedelse til alvorlige finansielle forstyrrelser, idet Fed opretholder uafhængighed fra Freedom of Information Act (FOIA) på grund af sin unikke rolle, mens den stadig er ansvarlig over for Kongressen."
+    ],
+    "points": 183,
+    "commentCount": 131,
+    "retryCount": 0,
+    "time": 1736262587
+  },
+  {
+    "id": 42621627,
+    "title": "Afslutning af vores tredjeparts faktatjekprogram og overgang til Community Notes-modellen",
+    "originLink": "https://about.fb.com/news/2025/01/meta-more-speech-fewer-mistakes/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42621627",
+    "commentBody": "",
+    "originSummary": [
+      "Meta prioriterer fri ytring ved at forenkle sine indholdsmoderationssystemer, som er blevet kritiseret for at være alt for komplekse og restriktive. - Virksomheden afslutter sit tredjeparts faktatjekprogram i USA og introducerer et Community Notes-system, der ligner X, for at give kontekst til potentielt vildledende opslag gennem brugerbidrag. - Meta reducerer restriktioner på politisk indhold, forenkler håndhævelsesprocesser for at fokusere på alvorlige overtrædelser og personaliserer synligheden af politisk indhold baseret på brugerpræferencer, i tråd med Mark Zuckerbergs vision om fri ytring."
+    ],
+    "commentSummary": [
+      "Meta overgår fra sit tredjeparts faktatjekprogram til en Community Notes-model, der ligner Twitters strategi, for potentielt at tilpasse sig politiske ændringer og reducere omkostningerne til moderation.",
+      "Kritikere udtrykker bekymring for, at dette skift kan resultere i mere misinformation og skadelig indhold, mens tilhængere hævder, at det kunne styrke ytringsfriheden.",
+      "Denne beslutning fremhæver de igangværende diskussioner om indholdsmoderation, ytringsfrihed og de sociale medieplatformes indflydelse på at forme den offentlige diskurs."
+    ],
+    "points": 180,
+    "commentCount": 254,
+    "retryCount": 0,
+    "time": 1736252122
+  }
+]

@@ -15,12 +15,156 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 06 Jan 2025 19:24:13 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Jan 2025 19:19:44 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/cs.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Mon, 06 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[cs]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-07]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/07&#39;</h2>
+<h1>2025-01-07</h1>
+<h2><a href="https://crawshaw.io/blog/programming-with-llms">„Jak programuji s LLM“</a></h2>
+<ul>
+<li>„Autor integroval velké jazykové modely (LLM) do svého programovacího pracovního postupu a zjistil, že jsou užitečné pro úkoly jako automatické doplňování, vyhledávání a programování řízené chatem.“</li>
+<li>„Vyvíjejí nástroj nazvaný sketch.dev, což je integrované vývojové prostředí (IDE) pro programování v jazyce Go, navržené ke zvýšení produktivity automatizací opakujících se úkolů a zlepšení efektivity programování.“</li>
+<li>„LLM jsou účinné při vytváření návrhů kódu a řešení otázek ve stylu zkoušek, i když mohou občas udělat chyby, a mění kompromisy v programování tím, že umožňují vytvářet specializovanější kód a komplexní testy.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42617645">Reakce</a></h3>
+<ul>
+<li>„Velké jazykové modely (LLM) jsou některými softwarovými inženýry uznávány za zvyšování produktivity, zejména při vytváření nových nápadů a provádění úkolů, jako je automatické doplňování a programování řízené chatem. - Zatímco někteří vývojáři oceňují efektivitu, kterou LLM poskytují, jiní zůstávají skeptičtí ohledně jejich účinnosti, zejména u složitých nebo nových problémů. - Diskuse zdůrazňuje rozdělení mezi vývojáři ohledně přijetí LLM, přičemž někteří je přijímají pro iterativní úkoly a jiní upřednostňují tradiční metody.“</li>
+</ul>
+<h2><a href="https://techcrunch.com/2025/01/06/nvidias-project-digits-is-a-personal-ai-computer/">„Projekt Digits od Nvidie je &#39;osobní AI superpočítač&#39;“</a></h2>
+<ul>
+<li>„Nvidia představila na CES 2025 projekt Digits, kompaktní „osobní AI superpočítač“ postavený na hardwarové platformě Grace Blackwell, který obsahuje superčip GB10 Grace Blackwell.“</li>
+<li>„Zařízení nabízí výkon až jeden petaflop, což je vhodné pro výzkumníky v oblasti AI, datové vědce a studenty, a dokáže zpracovat modely s až 200 miliardami parametrů.“</li>
+<li>„S cenou 3 000 dolarů bude Project Digits k dispozici v květnu a může se připojit k počítačům s Windows nebo Mac, přičemž běží na Linuxovém operačním systému DGX od Nvidie.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42619139">Reakce</a></h3>
+<ul>
+<li>„Projekt Digits od Nvidie je &#39;osobní AI superpočítač&#39; s cenou 3 000 dolarů, který obsahuje GPU Blackwell s výkonem 1 PFLOP (PetaFLOP) pro výpočty FP4, 128GB sjednocené paměti DDR5X, 20 ARM jader a ConnectX pro stohování. - Cílí na startupy a nadšence, poskytuje lokální alternativu k cloudovým AI řešením, s důrazem na kapacitu paměti a efektivitu pro úkoly vývoje a inferencí AI. - Zařízení funguje na operačním systému DGX od Nvidie, založeném na Ubuntu, a je považováno za potenciální průlom v oblasti lokálního AI výpočtu.“</li>
+</ul>
+<h2><a href="https://nicholas.carlini.com/writing/2025/regex-chess.html">„Minimaxový šachový engine v regulárních výrazech“</a></h2>
+<ul>
+<li>„Nicholas Carlini vyvinul šachový engine nazvaný Regex Chess, který využívá 84 688 regulárních výrazů k provádění platných šachových tahů, čímž ukazuje potenciál regexu v nekonvenčních aplikacích. - Engine funguje jako CPU regulárních výrazů, obsahuje unikátní instrukční sadu pro operace se zásobníkem, manipulaci s proměnnými a podmíněné provádění, a podporuje paralelní generování tahů. - Regex Chess používá zjednodušené minimaxové vyhledávání k hodnocení a skórování pseudo-legálních tahů, což zdůrazňuje kreativní zkoumání schopností regexu, přičemž kód je dostupný na GitHubu pro veřejné prohlížení.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42619652">Reakce</a></h3>
+<ul>
+<li>„Nicholas Carlini vyvinul šachový engine minimax pomocí regulárních výrazů, čímž ukázal schopnost regexu zvládat složité úkoly, jako je šach. - Projekt, i přes chyby jako problémy s proměnou pěšce a tahy na a-sloupec, demonstruje vzdělávací a zábavné aspekty nekonvenčních programovacích výzev. - Engine s 2-ply vyhledáváním občas nedokáže zabránit hrozbám matu v 1 tahu, což poukazuje na jeho omezení, ale také na jeho inovativní přístup.“</li>
+</ul>
+<h2><a href="https://www.scottredig.com/blog/bonkers_comptime/">„Zigův comptime je šíleně dobrý“</a></h2>
+<ul>
+<li>„Scott Redig zkoumá funkci &#39;comptime&#39; v jazyce Zig, která zvyšuje produktivitu umožněním metaprogramování a umožňuje provádění kódu během doby kompilace. - Poskytuje šest pohledů na &#39;comptime&#39;, zdůrazňuje jeho schopnost zjednodušit čtení a ladění kódu a porovnává jej s generiky, částečným vyhodnocováním a generováním kódu. - Redig dochází k závěru, že &#39;comptime&#39; v jazyce Zig je jak silný, tak jednoduchý, a doporučuje další zkoumání prostřednictvím oficiálních zdrojů a standardní knihovny Zig.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42618130">Reakce</a></h3>
+<ul>
+<li>„Zigovo programování v době kompilace (comptime) je uznáváno pro svou efektivitu, umožňující funkce jako generika, komplexní inicializaci dat a generování kódu specifického pro cílovou platformu. - Kritici poukazují na potenciální problémy, jako je zneužití podobné makrům v Lispu, narušení parametricity a výzvy s rekurzivními generickými typy a kontrolou typů během výpočtu v době kompilace. - Navzdory těmto obavám jsou Zigova jednoduchost a provádění v době kompilace považovány za hlavní výhody, s určitým zájmem o integraci jeho metaprogramovacích schopností s ekosystémem Rustu.“</li>
+</ul>
+<h2><a href="https://www.theverge.com/2025/1/6/24337396/nvidia-rtx-5080-5090-5070-ti-5070-price-release-date">„Nvidia oznamuje GPU nové generace RTX 5090 a RTX 5080“</a></h2>
+<ul>
+<li>„Nvidia představila na CES své grafické karty nové generace řady RTX 50, včetně špičkových modelů RTX 5090 a RTX 5080, s cenami 1 999 a 999 dolarů. - RTX 5090 obsahuje 32 GB paměti GDDR7 a 21 760 CUDA jader, což nabízí dvojnásobnou rychlost oproti svému předchůdci, RTX 4090, zatímco RTX 5080 poskytuje 16 GB paměti a je dvakrát rychlejší než RTX 4080. - Tato řada zavádí novou technologii DLSS 4, která zlepšuje výkon a kvalitu obrazu, a bude k dispozici pro notebooky od března.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42618761">Reakce</a></h3>
+<ul>
+<li>„Nvidia představila grafické karty RTX 5090 a RTX 5080, přičemž RTX 5090 je vybavena 32 GB paměti GDDR7 a má tepelný návrhový výkon (TDP) 575 W, zaměřený na spotřebitelské AI úlohy.“</li>
+<li>„RTX 5080 je navržen pro špičkové hraní, nabízí cenově dostupnější variantu s menší pamětí ve srovnání s RTX 5090.“</li>
+<li>„Vysoká poptávka po těchto GPU, zejména pro AI aplikace, může vést k problémům s dostupností, připomínajícím předchozí nedostatky způsobené těžbou kryptoměn.“</li>
+</ul>
+<h2><a href="https://old.reddit.com/r/ABoringDystopia/comments/1ht7fft/used_meta_ai_to_edit_a_selfie_now_instagram_is/">„Použil jsem Meta AI, teď Instagram používá můj obličej v reklamách cílených na mě.“</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42615538">Reakce</a></h3>
+<ul>
+<li>„Uživatel Redditu zažil reklamy na Instagramu s vlastním obličejem poté, co použil funkci Meta AI &#39;představ si mě&#39;, což vyvolalo obavy ohledně personalizované reklamy. - Incident vyvolal debatu, která tuto úroveň personalizace reklamy srovnává s filmem &#39;Minority Report&#39;, přičemž názory se rozdělují mezi vnímání jako inovativní nebo invazivní. - Diskuse zdůrazňuje obavy o soukromí a etické důsledky AI v reklamě, s výzvami k přísnějším regulacím na ochranu osobních údajů.“</li>
+</ul>
+<h2><a href="https://www.congestion-pricing-tracker.com/">„Sledování cenové regulace dopravy v NYC“</a></h2>
+<ul>
+<li>„Sledovač cenové regulace dopravní zácpy je projekt Benjamina a Joshuaha Moshesových, pod dohledem profesorky Emily Osterové z Brownovy univerzity, zaměřený na cenovou regulaci dopravní zácpy v New Yorku. - Projekt zahrnuje webové skripty a stylové listy, což naznačuje komplexní digitální přístup k prezentaci informací. - Webová stránka je optimalizována pro vyhledávače (SEO) a obsahuje stránku s chybou 404 pro řešení obsahu, který nebyl nalezen.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42616700">Reakce</a></h3>
+<ul>
+<li>„Politika zpoplatnění dopravní zácpy v New Yorku je navržena tak, aby snížila dopravní zácpy a generovala příjmy pro zlepšení veřejné dopravy.“</li>
+<li>„Zatímco někteří pozorují okamžité přínosy, jiní tvrdí, že je předčasné hodnotit jeho účinnost kvůli proměnným, jako je počasí a cestování během svátků.“</li>
+<li>„Kritici poukazují na to, že nezměněné poplatky za taxi a sdílenou jízdu a potřeba zlepšení veřejné dopravy zůstávají významnými obavami.“</li>
+</ul>
+<h2><a href="https://variety.com/2025/film/columns/flow-golden-globe-win-independent-animation-1236266805/">„Poprvé produkce vytvořená v Blenderu vyhrála Zlatý glóbus“</a></h2>
+<ul>
+<li>„Lotyšský režisér Gints Zilbalodis získal Zlatý glóbus za nejlepší animovaný film s nezávislým animovaným snímkem „Flow“, což představuje významný úspěch pro nezávislé filmy. - „Flow“, vytvořený s skromným rozpočtem 3,7 milionu dolarů pomocí Blenderu, bezplatného softwaru, soutěžil proti produkcím velkých studií, což ukazuje na demokratizaci animace. - Vítězství filmu odráží rostoucí inkluzivitu Zlatých glóbů vůči mezinárodním titulům a mohlo by ovlivnit závod o Oscara za nejlepší animovaný film, čímž by zpochybnilo tradiční dominanci Disneyho.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42620656">Reakce</a></h3>
+<ul>
+<li>„Produkce vytvořená pomocí Blenderu získala Zlatý glóbus, což představuje milník pro tento open-source software a zpochybňuje vnímání jeho připravenosti pro profesionální použití. - Film, známý svým vyprávěním a vizuály, získal popularitu v Lotyšsku a vyniká svým nízkým rozpočtem ve srovnání s ostatními animovanými vítězi. - Úspěch filmu, který využívá Blenderův engine EEVEE, vyvolal diskuse o potenciálním dopadu Blenderu na animační průmysl a jeho schopnostech v různorodých produkčních prostředích.“</li>
+</ul>
+<h2><a href="https://tla.systems/blog/2025/01/04/i-live-my-life-a-quarter-century-at-a-time/">„Žiji svůj život čtvrt století najednou“</a></h2>
+<ul>
+<li>„Dne 5. ledna 2000 představil Steve Jobs na Macworld Expo uživatelské rozhraní Aqua systému Mac OS X, včetně Docku, s významnými příspěvky od inženýra sídlícího v Apple Cork, Irsko.“</li>
+<li>„Inženýr, který dříve pracoval na DragThing, byl klíčový při přeměně prototypů Basa Ording na funkční kód pro Dock, ale nakonec rezignoval kvůli tlaku spojenému s přestěhováním.“</li>
+<li>„Po odchodu z Applu inženýr oživil DragThing a PCalc, které zůstávají populární, a objevil u sebe nepodepsanou dohodu o mlčenlivosti (NDA).“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42616699">Reakce</a></h3>
+<ul>
+<li>„Článek pojednává o vývoji Docku společnosti Apple, zdůrazňuje excentričnost a tajnůstkářskou povahu Steva Jobse, včetně toho, že nechal zaměstnance létat mezi Irskem a USA, aby udržel zdání.“</li>
+<li>„Navzdory značnému úsilí byl projekt nakonec zrušen kvůli problémům souvisejícím s umístěním kanceláře.“</li>
+<li>„Vyprávění se také zabývá kontroverzními rozhodnutími Jobse, jeho odkazem ve srovnání se současnými technologickými lídry a širšími tématy, jako jsou kariérní cesty a ageismus v technologickém průmyslu.“</li>
+</ul>
+<h2><a href="https://alexanderpetros.com/triptych/">„Návrhy triptychu“</a></h2>
+<ul>
+<li>„Návrhy Triptych od Alexandera Petrose a Carsona Grosse mají za cíl zlepšit schopnost HTML zpracovávat síťové požadavky podporou dalších HTTP metod, jako jsou PUT, PATCH a DELETE ve formulářích.“</li>
+<li>„Návrhy také zahrnují možnost tlačítek pro odesílání HTTP požadavků bez formulářů a umožnění částečné výměny stránek, čímž se HTML více přibližuje principům REST.“</li>
+<li>„Tyto návrhy byly představeny na konferenci Big Sky Dev Con a jsou podrobně popsány v Triptych Polyfill na GitHubu, s průběžnými aktualizacemi specifikací fetch a navigace na podporu těchto vylepšení.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42615646">Reakce</a></h3>
+<ul>
+<li>„Návrhy triptychu Alexe Petrose se snaží začlenit koncepty HTMX do specifikace HTML, což umožní HTML zpracovávat HTTP metody jako PUT a DELETE.“</li>
+<li>„Návrh dostává pozitivní zpětnou vazbu od pracovní skupiny pro webové hypertextové aplikace (WHATWG), ale jeho přijetí hlavními prohlížeči, jako jsou Chrome a Safari, je stále nejisté.“</li>
+<li>„Iniciativa si klade za cíl snížit závislost na JavaScriptu tím, že zlepší schopnosti HTML, a přispět tak k širší diskusi o RESTful API a webu řízeném hypermédiemi.“</li>
+</ul>
+<h2><a href="https://racenis.github.io/tram-sdk/why.html">„Tramway SDK – Nezvyklé spojení mezi enginy Half-Life a Morrowind“</a></h2>
+<ul>
+<li>„Vyvíjí se nový bezplatný open-source herní engine, podobný populárním enginům jako Unreal a Source, s podporou streamování otevřeného světa. - Engine je optimalizován pro moderní hardware, nabízí vysoký výkon, ale zatím není připraven k produkčnímu použití. - Vývojář má v úmyslu dokončit několik velkých projektů pomocí tohoto enginu, i když současný název je pravděpodobně dočasný.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42624116">Reakce</a></h3>
+<ul>
+<li>„Tramway SDK je projekt, který spojuje herní enginy Half-Life a Morrowind, aby vytvořil nízkorozpočtový, open-world streaming herní engine, který je zdarma a open source. - Ačkoli je optimalizován pro moderní hardware, Tramway SDK zatím není připraven pro produkční použití, ale jeho cílem je snížit softwarovou zátěž a dopad na životní prostředí podporou staršího hardwaru. - Projekt, licencovaný pod MIT, je oceňován pro svůj retro estetický vzhled a potenciál pro vývoj indie her, přičemž tvůrce vítá zpětnou vazbu a aktualizace pokroku.“</li>
+</ul>
+<h2><a href="https://www.theguardian.com/science/2025/jan/06/roman-empires-use-of-lead-lowered-iq-levels-across-europe-study-finds">„Používání olova Římskou říší snížilo úroveň IQ po celé Evropě, zjistila studie“</a></h2>
+<ul>
+<li>„Studie naznačuje, že používání olova v kovovýrobě Římskou říší způsobilo pokles IQ o 2 až 3 body po celé Evropě během období Pax Romana.“</li>
+<li>„Výzkumníci použili arktické ledovcové vrty k sledování znečištění olovem od roku 500 př. n. l. do roku 600 n. l., což ukazuje na výrazný nárůst během vrcholu Římské říše.“</li>
+<li>„Studie naznačuje, že rozšířená expozice olovu mohla přispět k úpadku Římské říše, přičemž úrovně znečištění klesly po římské éře, ale znovu vzrostly během průmyslové revoluce.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42618625">Reakce</a></h3>
+<ul>
+<li>„Studie naznačuje, že používání olova v Římské říši mohlo snížit úrovně IQ v Evropě, ačkoli toto tvrzení vychází z historických úrovní olova a moderních modelů, nikoli z přímých měření IQ ve starověku.“</li>
+<li>„Existuje debata o tom, zda výhody římské infrastruktury mohly převážit škodlivé účinky expozice olovu.“</li>
+<li>„Studie také zkoumá potenciální účinky současných látek, jako je fluorid a plasty, na IQ, přičemž zdůrazňuje složitost hodnocení historických zdravotních dopadů z nepřímých důkazů.“</li>
+</ul>
+<h2><a href="https://www.crisesnotes.com/content/files/2023/12/NYFRB-2006.--Doomsday-Book--Searchable.pdf">„Federální rezervní banka NY „Kniha soudného dne“ 2022 prostřednictvím FOIA [pdf]“</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42623144">Reakce</a></h3>
+<ul>
+<li>„„Doomsday Book“ Federální rezervní banky v New Yorku je právní příručka navržená k tomu, aby pomohla právníkům zvládat právní nejistoty během finančních krizí a zajistila rychlé a efektivní reakce. - Původně určená pro vybrané právníky, je nyní příručka dostupná všem právníkům FRBNY a slouží jako krizový plán podobný plánům reakce na technologické incidenty. - Dokument není sdílen mimo právní oddělení a jeho název naznačuje přípravu na závažné finanční narušení, přičemž Fed si udržuje nezávislost na zákonu o svobodném přístupu k informacím (FOIA) díky své jedinečné roli, a přesto je odpovědný Kongresu.“</li>
+</ul>
+<h2><a href="https://about.fb.com/news/2025/01/meta-more-speech-fewer-mistakes/">„Ukončení našeho programu ověřování faktů třetími stranami a přechod na model Community Notes“</a></h2>
+<ul>
+<li>„Meta upřednostňuje svobodu projevu zjednodušením svých systémů moderování obsahu, které byly kritizovány za přílišnou složitost a omezující povahu. - Společnost ukončuje svůj program ověřování faktů třetími stranami v USA a zavádí systém Community Notes, podobný X, který poskytuje kontext k potenciálně zavádějícím příspěvkům prostřednictvím příspěvků uživatelů. - Meta snižuje omezení na politický obsah, zjednodušuje procesy vymáhání, aby se zaměřila na závažná porušení, a personalizuje viditelnost politického obsahu na základě preferencí uživatelů, což je v souladu s vizí Marka Zuckerberga o svobodě projevu.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42621627">Reakce</a></h3>
+<ul>
+<li>„Meta přechází ze svého programu ověřování faktů třetími stranami na model Community Notes, podobný strategii Twitteru, aby se potenciálně přizpůsobila politickým změnám a snížila náklady na moderování.“</li>
+<li>„Kritici vyjadřují obavy, že tento posun může vést k většímu množství dezinformací a škodlivého obsahu, zatímco příznivci tvrdí, že by to mohlo posílit svobodu projevu.“</li>
+<li>„Toto rozhodnutí zdůrazňuje probíhající diskuse o moderování obsahu, svobodě projevu a vlivu platforem sociálních médií na formování veřejného diskurzu.“</li>
+</ul>
+<head>
+  <meta property="og:title" content="„Jak programuji s LLM“" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EJak%20programuji%20s%20LLM%E2%80%9C&subheading=%C3%BAter%C3%BD%207.%20ledna%202025%3A%20Hacker%20News%20Shrnut%C3%AD" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/cs/2025/01/07</link>
+            <guid isPermaLink="false">2025-01-07T00:00:00.000Z</guid>
+            <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-06]]></title>
             <description

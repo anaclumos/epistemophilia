@@ -15,12 +15,156 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 06 Jan 2025 19:24:13 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Jan 2025 19:19:44 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/tr.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Mon, 06 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[tr]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-07]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/07&#39;</h2>
+<h1>2025-01-07</h1>
+<h2><a href="https://crawshaw.io/blog/programming-with-llms">LLM&#39;lerle Nasıl Program Yaparım</a></h2>
+<ul>
+<li>Yazar, programlama iş akışına Büyük Dil Modellerini (LLM&#39;ler) entegre etmiş ve bunları otomatik tamamlama, arama ve sohbet odaklı programlama gibi görevler için faydalı bulmuştur.</li>
+<li>Üretkenliği artırmak için tekrarlayan görevleri otomatikleştirerek ve programlama verimliliğini artırarak tasarlanmış bir Go programlama Entegre Geliştirme Ortamı (IDE) olan sketch.dev adlı bir araç geliştiriyorlar.</li>
+<li>LLM&#39;ler, kod taslakları oluşturma ve sınav tarzı soruları ele alma konusunda etkilidir, ancak bazen hatalar yapabilirler ve daha özel kodlar ve kapsamlı testler oluşturarak programlamada denge değişikliklerine neden olurlar.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42617645">Tepkiler</a></h3>
+<ul>
+<li>Büyük Dil Modelleri (LLM&#39;ler), bazı yazılım mühendisleri tarafından yeni fikirler tasarlama ve otomatik tamamlama ile sohbet odaklı programlama gibi görevleri yerine getirme konusunda verimliliği artırdığı için tanınmaktadır. - Bazı geliştiriciler LLM&#39;lerin sağladığı verimliliği takdir ederken, diğerleri özellikle karmaşık veya yeni problemler için etkinlikleri konusunda şüpheci kalmaktadır. - Tartışma, LLM&#39;lerin benimsenmesi konusunda geliştiriciler arasında bir bölünmeyi vurgulamakta, bazıları yinelemeli görevler için onları benimserken, diğerleri geleneksel yöntemleri tercih etmektedir.</li>
+</ul>
+<h2><a href="https://techcrunch.com/2025/01/06/nvidias-project-digits-is-a-personal-ai-computer/">Nvidia&#39;nın Project Digits&#39;i &#39;kişisel bir yapay zeka süper bilgisayarıdır&#39;</a></h2>
+<ul>
+<li>Nvidia, CES 2025&#39;te Grace Blackwell donanım platformu üzerine inşa edilmiş, GB10 Grace Blackwell Süperçipini içeren kompakt bir &quot;kişisel AI süper bilgisayarı&quot; olan Project Digits&#39;i tanıttı.</li>
+<li>Bu cihaz, AI araştırmacıları, veri bilimcileri ve öğrenciler için uygun olan ve 200 milyar parametreye kadar modelleri işleyebilen bir petaflop&#39;a kadar performans sunar.</li>
+<li>3.000 $ fiyatla sunulan Project Digits, Mayıs ayında satışa sunulacak ve Nvidia&#39;nın Linux tabanlı DGX OS&#39;unda çalışarak Windows veya Mac bilgisayarlara bağlanabilecek.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42619139">Tepkiler</a></h3>
+<ul>
+<li>Nvidia&#39;nın Project Digits&#39;i, 1 PFLOP (PetaFLOP) FP4 hesaplama gücüne sahip Blackwell GPU, 128GB birleşik DDR5X bellek, 20 ARM çekirdeği ve yığınlama için ConnectX içeren, 3.000 dolarlık &#39;kişisel bir AI süper bilgisayarı&#39;dır. - Başlangıç şirketlerini ve meraklıları hedef alarak, bulut AI çözümlerine yerel bir alternatif sunar ve AI geliştirme ve çıkarım görevleri için bellek kapasitesi ve verimliliğe odaklanır. - Cihaz, Ubuntu tabanlı Nvidia&#39;nın DGX OS&#39;unda çalışır ve yerel AI hesaplaması için potansiyel bir oyun değiştirici olarak kabul edilir.</li>
+</ul>
+<h2><a href="https://nicholas.carlini.com/writing/2025/regex-chess.html">Normal ifadelerde bir minimax satranç motoru</a></h2>
+<ul>
+<li>Nicholas Carlini, geçerli satranç hamlelerini gerçekleştirmek için 84.688 düzenli ifade kullanan Regex Chess adlı bir satranç motoru geliştirdi ve bu, regex&#39;in alışılmadık uygulamalardaki potansiyelini sergiledi. - Motor, yığın işlemleri, değişken yönetimi ve koşullu yürütme için benzersiz bir komut seti içeren bir düzenli ifade CPU&#39;su gibi çalışır ve paralel hamle üretimini destekler. - Regex Chess, regex yeteneklerinin yaratıcı bir keşfini vurgulayan, sahte yasal hamleleri değerlendirmek ve puanlamak için basitleştirilmiş bir minimax arama kullanır ve kod, kamuya açık olarak görüntülenmek üzere GitHub&#39;da erişilebilir durumdadır.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42619652">Tepkiler</a></h3>
+<ul>
+<li>Nicholas Carlini, satranç gibi karmaşık görevleri ele almadaki yeteneğini sergileyen normal ifadeler kullanarak bir minimax satranç motoru geliştirdi. - Piyon terfisi ve a-dosyası hamleleri gibi sorunlar içeren hatalara rağmen, proje alışılmadık programlama zorluklarının eğitici ve eğlenceli yönlerini göstermektedir. - Motorun 2 katmanlı araması bazen 1 hamlede mat tehditlerinden kaçınmayı başaramıyor, bu da sınırlamalarını vurgularken aynı zamanda yenilikçi yaklaşımını da gösteriyor.</li>
+</ul>
+<h2><a href="https://www.scottredig.com/blog/bonkers_comptime/">Zig&#39;in derleme zamanı inanılmaz derecede iyi</a></h2>
+<ul>
+<li>Scott Redig, Zig&#39;in derleme zamanında kod yürütülmesine olanak tanıyan ve metaprogramlamayı mümkün kılarak verimliliği artıran &#39;comptime&#39; özelliğini inceliyor. - &#39;Comptime&#39; hakkında altı bakış açısı sunarak, kod okuma ve hata ayıklamayı basitleştirme yeteneğini vurguluyor ve bunu generics, kısmi değerlendirme ve kod üretimi ile karşılaştırıyor. - Redig, Zig&#39;in &#39;comptime&#39; özelliğinin hem güçlü hem de basit olduğu sonucuna vararak, Zig&#39;in resmi kaynakları ve standart kütüphanesi aracılığıyla daha fazla keşif yapılmasını öneriyor.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42618130">Tepkiler</a></h3>
+<ul>
+<li>Zig&#39;in derleme zamanı programlaması (comptime), jenerikler, karmaşık veri başlatma ve hedefe özgü kod üretimi gibi özellikleri etkinleştiren verimliliği ile tanınır. - Eleştirmenler, Lisp makrolarına benzer yanlış kullanım, parametrisiteyi bozma ve derleme zamanı hesaplama sırasında özyinelemeli jenerik türler ve tür denetimi ile ilgili zorluklar gibi potansiyel sorunlara dikkat çeker. - Bu endişelere rağmen, Zig&#39;in sadeliği ve derleme zamanı yürütümü büyük avantajlar olarak kabul edilir ve bazıları, metaprogramlama yeteneklerini Rust ekosistemi ile entegre etme konusunda ilgi duymaktadır.</li>
+</ul>
+<h2><a href="https://www.theverge.com/2025/1/6/24337396/nvidia-rtx-5080-5090-5070-ti-5070-price-release-date">Nvidia, yeni nesil RTX 5090 ve RTX 5080 GPU&#39;larını duyurdu.</a></h2>
+<ul>
+<li>Nvidia, CES&#39;te bir sonraki nesil RTX 50 serisi GPU&#39;larını tanıttı ve bunlar arasında üst düzey RTX 5090 ve RTX 5080, sırasıyla 1.999 dolar ve 999 dolar fiyatla yer alıyor. - RTX 5090, 32GB GDDR7 bellek ve 21.760 CUDA çekirdeği içeriyor ve selefi RTX 4090&#39;ın iki katı hız sunarken, RTX 5080 ise 16GB bellek sağlıyor ve RTX 4080&#39;in iki katı hızda çalışıyor. - Seri, performans ve görüntü kalitesini artıran yeni DLSS 4 teknolojisini tanıtıyor ve Mart ayından itibaren dizüstü bilgisayarlar için kullanılabilir olacak.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42618761">Tepkiler</a></h3>
+<ul>
+<li>Nvidia, RTX 5090 ve RTX 5080 GPU&#39;larını tanıttı. RTX 5090, 32GB GDDR7 bellek ve 575W Termal Tasarım Gücü (TDP) ile tüketici AI iş yüklerine yönelik olarak sunuluyor.</li>
+<li>RTX 5080, RTX 5090&#39;a kıyasla daha az bellekle daha uygun fiyatlı bir seçenek sunarak üst düzey oyunlar için tasarlanmıştır.</li>
+<li>Bu GPU&#39;lara, özellikle AI uygulamaları için olan yüksek talep, kripto para madenciliği tarafından tetiklenen önceki kıtlıkları hatırlatan erişilebilirlik sorunlarına yol açabilir.</li>
+</ul>
+<h2><a href="https://old.reddit.com/r/ABoringDystopia/comments/1ht7fft/used_meta_ai_to_edit_a_selfie_now_instagram_is/">Meta AI kullanıldı, şimdi Instagram yüzümü bana yönelik reklamlarda kullanıyor</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42615538">Tepkiler</a></h3>
+<ul>
+<li>Bir Reddit kullanıcısı, Meta AI&#39;nin &quot;beni hayal et&quot; özelliğini kullandıktan sonra kendi yüzlerini içeren Instagram reklamlarıyla karşılaştı ve bu durum kişiselleştirilmiş reklamcılıkla ilgili endişeleri artırdı. - Olay, bu düzeydeki reklam kişiselleştirmesini &quot;Azınlık Raporu&quot; filmine benzeten bir tartışmayı ateşledi ve görüşler bunu yenilikçi veya müdahaleci olarak görmek arasında bölündü. - Tartışma, reklamcılıkta yapay zekanın etik sonuçları ve gizlilik endişelerini vurguluyor ve kişisel verilerin korunması için daha sıkı düzenlemeler çağrısında bulunuyor.</li>
+</ul>
+<h2><a href="https://www.congestion-pricing-tracker.com/">NYC Yoğunluk Fiyatlandırma Takipçisi</a></h2>
+<ul>
+<li>Yoğunluk Fiyatlandırma Takipçisi, Brown Üniversitesi Profesörü Emily Oster&#39;in gözetiminde Benjamin ve Joshua Moshes tarafından yürütülen, New York&#39;taki yoğunluk fiyatlandırmasına odaklanan bir projedir. - Proje, bilgileri sunmak için kapsamlı bir dijital yaklaşımı gösteren web betikleri ve stil sayfalarını içermektedir. - Web sayfası, arama motorları için optimize edilmiştir (SEO) ve bulunamayan içerikleri yönetmek için bir 404 hata sayfası içermektedir.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42616700">Tepkiler</a></h3>
+<ul>
+<li>NYC&#39;nin sıkışıklık fiyatlandırma politikası, trafik sıkışıklığını azaltmak ve toplu taşıma iyileştirmeleri için gelir elde etmek amacıyla tasarlanmıştır.</li>
+<li>Kimileri hemen faydalarını gözlemlerken, diğerleri hava durumu ve tatil seyahati gibi değişkenler nedeniyle etkinliğini değerlendirmek için henüz erken olduğunu savunuyor.</li>
+<li>Eleştirmenler, değişmeyen taksi ve araç paylaşım ücretleri ile geliştirilmiş toplu taşıma ihtiyacının önemli endişeler olarak kaldığını belirtiyor.</li>
+</ul>
+<h2><a href="https://variety.com/2025/film/columns/flow-golden-globe-win-independent-animation-1236266805/">Blender ile yapılmış bir yapımın Altın Küre kazandığı ilk sefer</a></h2>
+<ul>
+<li>Letonyalı yönetmen Gints Zilbalodis&#39;in bağımsız animasyonu &quot;Flow&quot;, en iyi animasyon filmi dalında Altın Küre kazandı ve bağımsız filmler için önemli bir başarıyı vurguladı. - Ücretsiz bir yazılım olan Blender kullanılarak mütevazı bir 3,7 milyon dolarlık bütçeyle oluşturulan &quot;Flow&quot;, büyük stüdyo yapımlarıyla rekabet etti ve animasyonun demokratikleşmesini gözler önüne serdi. - Filmin zaferi, Altın Kürelerin uluslararası yapımlara yönelik artan kapsayıcılığını yansıtıyor ve Disney&#39;in geleneksel hakimiyetine meydan okuyarak animasyon filmi Oscar yarışını etkileyebilir.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42620656">Tepkiler</a></h3>
+<ul>
+<li>Blender ile yapılan bir yapım, bir Altın Küre kazanarak açık kaynaklı yazılım için bir dönüm noktası oluşturdu ve profesyonel kullanım için hazır olup olmadığına dair algıları zorladı. - Hikaye anlatımı ve görselliği ile dikkat çeken film, Letonya&#39;da popülerlik kazandı ve diğer animasyon kazananlarına kıyasla düşük bütçesiyle öne çıkıyor. - Blender&#39;ın EEVEE motorunu kullanan filmin başarısı, Blender&#39;ın animasyon endüstrisi üzerindeki potansiyel etkisi ve çeşitli üretim ortamlarındaki yetenekleri hakkında tartışmaları ateşledi.</li>
+</ul>
+<h2><a href="https://tla.systems/blog/2025/01/04/i-live-my-life-a-quarter-century-at-a-time/">Hayatımı çeyrek asırda bir yaşıyorum</a></h2>
+<ul>
+<li>5 Ocak 2000&#39;de Steve Jobs, Macworld Expo&#39;da, Apple Cork, İrlanda&#39;da bulunan bir mühendisin önemli katkılarıyla, Mac OS X&#39;in Aqua kullanıcı arayüzünü, Dock&#39;u da içerecek şekilde tanıttı.</li>
+<li>Mühendis, daha önce DragThing üzerinde çalışmış olan, Bas Ording&#39;in prototiplerini Dock için işlevsel koda dönüştürmede önemli bir rol oynadı, ancak sonunda taşınma baskıları nedeniyle istifa etti.</li>
+<li>Apple&#39;dan ayrıldıktan sonra mühendis, popülerliğini sürdüren DragThing ve PCalc&#39;ı yeniden canlandırdı ve ellerinde imzasız bir Gizlilik Sözleşmesi (NDA) buldu.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42616699">Tepkiler</a></h3>
+<ul>
+<li>Makale, Apple&#39;ın Dock geliştirmesini ele alıyor ve Steve Jobs&#39;un tuhaflıkları ile gizemli doğasına vurgu yapıyor, bir çalışanın bir aldatmacayı sürdürmek için İrlanda ile ABD arasında uçurulmasını da içeriyor.</li>
+<li>Önemli çabalara rağmen, proje nihayetinde ofis konumuyla ilgili sorunlar nedeniyle iptal edildi.</li>
+<li>Anlatı ayrıca Jobs&#39;un tartışmalı kararlarına, mevcut teknoloji liderleriyle karşılaştırıldığında mirasına ve teknoloji endüstrisinde kariyer yolları ve yaş ayrımcılığı gibi daha geniş temalara da değiniyor.</li>
+</ul>
+<h2><a href="https://alexanderpetros.com/triptych/">Üçleme Önerileri</a></h2>
+<ul>
+<li>Alexander Petros ve Carson Gross&#39;un Triptych Önerileri, formlarda PUT, PATCH ve DELETE gibi ek HTTP yöntemlerini destekleyerek HTML&#39;nin ağ isteklerini işleme yeteneğini geliştirmeyi amaçlıyor.</li>
+<li>Öneriler ayrıca, HTML&#39;yi REST ilkeleriyle daha yakından hizalayarak, formlar olmadan HTTP istekleri yapabilen düğmelerin etkinleştirilmesini ve kısmi sayfa değişimlerine izin verilmesini içermektedir.</li>
+<li>Bu öneriler Big Sky Dev Con&#39;da tanıtıldı ve GitHub&#39;daki Triptych Polyfill&#39;de detaylandırıldı, bu geliştirmeleri desteklemek için fetch ve navigasyon spesifikasyonlarına yönelik güncellemeler devam etmektedir.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42615646">Tepkiler</a></h3>
+<ul>
+<li>Alex Petros&#39;un Üçlü Önerileri, HTML&#39;nin PUT ve DELETE gibi HTTP yöntemlerini işlemesini sağlamak amacıyla HTMX kavramlarını HTML spesifikasyonuna dahil etmeyi amaçlamaktadır.</li>
+<li>Teklif, Web Hiper Metin Uygulama Teknolojisi Çalışma Grubu&#39;ndan (WHATWG) olumlu geri bildirimler alıyor, ancak Chrome ve Safari gibi büyük tarayıcılar tarafından benimsenmesi hala belirsiz.</li>
+<li>Bu girişim, HTML&#39;nin yeteneklerini geliştirerek JavaScript bağımlılığını azaltmayı ve RESTful API&#39;ler ile hipermedya odaklı bir web üzerindeki daha geniş tartışmalara katkıda bulunmayı amaçlamaktadır.</li>
+</ul>
+<h2><a href="https://racenis.github.io/tram-sdk/why.html">Tramway SDK – Half-Life ve Morrowind Motorları Arasındaki Kutsal Olmayan Birliktelik</a></h2>
+<ul>
+<li>Unreal ve Source gibi popüler motorlara benzer, açık dünya akışı desteğine sahip yeni bir ücretsiz, açık kaynaklı oyun motoru geliştiriliyor. - Motor, modern donanım için optimize edilmiştir ve yüksek performans sunar, ancak henüz üretim kullanımı için hazır değildir. - Geliştirici, bu motoru kullanarak birkaç büyük projeyi tamamlamayı planlıyor, ancak mevcut ismin muhtemelen geçici olduğu belirtiliyor.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42624116">Tepkiler</a></h3>
+<ul>
+<li>Tramway SDK, Half-Life ve Morrowind oyun motorlarını birleştirerek düşük bütçeli, açık dünya akışlı bir oyun motoru oluşturan ve ücretsiz, açık kaynaklı bir projedir. - Modern donanım için optimize edilmiş olmasına rağmen, Tramway SDK henüz üretim kullanımı için hazır değildir, ancak eski donanımları destekleyerek yazılım şişkinliğini ve çevresel etkiyi azaltmayı hedeflemektedir. - MIT lisansı altında olan proje, retro estetiği ve bağımsız oyun geliştirme potansiyeli ile takdir edilmektedir ve yaratıcısı geri bildirim ve ilerleme güncellemelerini memnuniyetle karşılamaktadır.</li>
+</ul>
+<h2><a href="https://www.theguardian.com/science/2025/jan/06/roman-empires-use-of-lead-lowered-iq-levels-across-europe-study-finds">Çalışma, Roma İmparatorluğu&#39;nun kurşun kullanımının Avrupa genelinde IQ seviyelerini düşürdüğünü ortaya koyuyor</a></h2>
+<ul>
+<li>Bir çalışma, Roma İmparatorluğu&#39;nun metal işçiliğinde kurşun kullanımının Pax Romana sırasında Avrupa genelinde IQ&#39;da 2 ila 3 puanlık bir düşüşe neden olduğunu göstermektedir.</li>
+<li>500 M.Ö. ile 600 M.S. arasındaki kurşun kirliliğini izlemek için araştırmacılar Arktik buz çekirdeklerini kullandı ve Roma İmparatorluğu&#39;nun zirvesinde önemli bir artış gösterdi.</li>
+<li>Çalışma, yaygın kurşun maruziyetinin Roma İmparatorluğu&#39;nun çöküşüne katkıda bulunmuş olabileceğini, kirlilik seviyelerinin Roma sonrası dönemde azaldığını ancak Sanayi Devrimi sırasında yeniden yükseldiğini öne sürüyor.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42618625">Tepkiler</a></h3>
+<ul>
+<li>Bir çalışma, Roma İmparatorluğu&#39;nun kurşun kullanımının Avrupa&#39;daki IQ seviyelerini düşürebileceğini göstermektedir, ancak bu, doğrudan antik IQ ölçümleri yerine tarihsel kurşun seviyeleri ve modern modellere dayanmaktadır.</li>
+<li>Roma altyapısının avantajlarının kurşun maruziyetinin zararlı etkilerini aşmış olabileceği konusunda bir tartışma var.</li>
+<li>Çalışma ayrıca florür ve plastikler gibi çağdaş maddelerin IQ üzerindeki potansiyel etkilerini araştırarak, dolaylı kanıtlardan tarihsel sağlık etkilerini değerlendirmenin karmaşıklığını vurgulamaktadır.</li>
+</ul>
+<h2><a href="https://www.crisesnotes.com/content/files/2023/12/NYFRB-2006.--Doomsday-Book--Searchable.pdf">New York Federal Rezerv Bankası &quot;Kıyamet Kitabı&quot; 2022 FOIA aracılığıyla [pdf]</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42623144">Tepkiler</a></h3>
+<ul>
+<li>New York Federal Reserve Bank&#39;ın &quot;Kıyamet Kitabı&quot;, finansal krizler sırasında hukuki belirsizlikleri yönetmede avukatlara yardımcı olmak için tasarlanmış bir hukuki rehberdir ve hızlı ve etkili yanıtlar sağlanmasını amaçlar. - Başlangıçta belirli avukatlar için tasarlanan rehber, şimdi tüm FRBNY avukatlarına sunulmakta ve teknoloji olay müdahale planlarına benzer bir kriz el kitabı işlevi görmektedir. - Belge, Hukuk İşlevi dışında paylaşılmamaktadır ve adı, ciddi finansal aksaklıklara hazırlığı simgelerken, Fed&#39;in benzersiz rolü nedeniyle Bilgi Edinme Özgürlüğü Yasası&#39;ndan (FOIA) bağımsızlığını koruduğunu, ancak yine de Kongre&#39;ye karşı sorumlu olduğunu belirtmektedir.</li>
+</ul>
+<h2><a href="https://about.fb.com/news/2025/01/meta-more-speech-fewer-mistakes/">Üçüncü taraf gerçek kontrol programımızı sonlandırıp Topluluk Notları modeline geçiyoruz</a></h2>
+<ul>
+<li>Meta, içerik denetleme sistemlerini basitleştirerek ifade özgürlüğünü önceliklendiriyor; bu sistemler, aşırı karmaşık ve kısıtlayıcı oldukları için eleştirilmişti. - Şirket, ABD&#39;deki üçüncü taraf doğrulama programını sonlandırıyor ve kullanıcı katkılarıyla potansiyel olarak yanıltıcı gönderilere bağlam sağlamak için X&#39;e benzer bir Topluluk Notları sistemi tanıtıyor. - Meta, siyasi içerik üzerindeki kısıtlamaları azaltıyor, ciddi ihlallere odaklanmak için uygulama süreçlerini basitleştiriyor ve kullanıcı tercihleri doğrultusunda siyasi içerik görünürlüğünü kişiselleştiriyor; bu, Mark Zuckerberg&#39;in ifade özgürlüğü vizyonuyla uyumlu.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42621627">Tepkiler</a></h3>
+<ul>
+<li>Meta, üçüncü taraf doğrulama programından, Twitter&#39;ın stratejisine benzer şekilde, topluluk notları modeline geçiş yapıyor. Bu değişiklik, muhtemelen siyasi değişikliklerle uyum sağlamak ve moderasyon masraflarını azaltmak amacıyla gerçekleştiriliyor.</li>
+<li>Eleştirmenler, bu değişimin daha fazla yanlış bilgi ve zararlı içerik ile sonuçlanabileceği konusunda endişelerini dile getirirken, destekçiler bunun ifade özgürlüğünü güçlendirebileceğini savunuyor.</li>
+<li>Bu karar, içerik denetimi, ifade özgürlüğü ve sosyal medya platformlarının kamusal söylemi şekillendirmedeki etkisi hakkındaki devam eden tartışmaları vurgulamaktadır.</li>
+</ul>
+<head>
+  <meta property="og:title" content="LLM'lerle Nasıl Program Yaparım" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=LLM'lerle%20Nas%C4%B1l%20Program%20Yapar%C4%B1m&subheading=7%20Ocak%202025%20Sal%C4%B1%3A%20Hacker%20Haber%20%C3%96zeti" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/tr/2025/01/07</link>
+            <guid isPermaLink="false">2025-01-07T00:00:00.000Z</guid>
+            <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-06]]></title>
             <description
