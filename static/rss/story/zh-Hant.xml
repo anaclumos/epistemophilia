@@ -15,11 +15,141 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 07 Jan 2025 19:19:44 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Jan 2025 19:09:18 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/story/zh-Hant.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
         <language><![CDATA[zh-Hant]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[「工程師在大型既有程式碼庫中常犯的錯誤」]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>在大型且已建立的程式碼庫中工作，通常包含數百萬行程式碼並涉及數百名工程師，對軟體工程師來說是一項重大挑戰。- 一個常見的錯誤是缺乏一致性，工程師忽視現有的程式碼模式，孤立地實施功能，這可能導致維護問題並阻礙未來的改進。- 為了在大型程式碼庫中有效地工作，工程師應該研究現有的模式，了解程式碼庫的生產影響，謹慎處理相依性，並仔細移除不必要的程式碼以維持品質和價值。</li>
+</ul>
+]]></description>
+            <link>https://www.seangoedecke.com/large-established-codebases/</link>
+            <guid isPermaLink="false">2025-01-08T00:00:00.000Z「工程師在大型既有程式碼庫中常犯的錯誤」</guid>
+            <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[魔術/悲劇的電子郵件連結：不要讓它們成為唯一的選擇]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>魔法連結提供了一種透過電子郵件連結的無密碼登入方式，增強了安全性，但由於電子郵件延遲和多設備使用，可能會帶來不便。</li>
+<li>他們可能會因鼓勵用戶在工作設備上訪問個人電子郵件而帶來安全風險，這突顯了需要使用一次性密碼(OTPs)等替代方案。</li>
+<li>「為了提升使用者體驗，特別是對於技術熟練的使用者，建議使用通行密鑰作為更靈活且安全的選擇。」</li>
+</ul>
+]]></description>
+            <link>https://recyclebin.zip/posts/annoyinglinks/</link>
+            <guid isPermaLink="false">2025-01-08T00:00:00.000Z魔術/悲劇的電子郵件連結：不要讓它們成為唯一的選擇</guid>
+            <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[1,000 行的作業系統 – 介紹]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>這本書指導讀者從零開始構建一個小型作業系統，涵蓋了如上下文切換、分頁和檔案操作等基本功能，全部使用 C 語言實現，總共約 1,000 行程式碼。</li>
+<li>它強調學習新的除錯技術，特別是針對啟動過程和分頁等挑戰，並在 GitHub 上提供可下載的範例。</li>
+<li>「這本書採用 CC BY 4.0 授權，程式碼則採用 MIT 授權，並要求具備 C 語言和類 UNIX 環境的基礎知識作為前提條件。」</li>
+</ul>
+]]></description>
+            <link>https://operating-system-in-1000-lines.vercel.app/en</link>
+            <guid isPermaLink="false">2025-01-08T00:00:00.000Z1,000 行的作業系統 – 介紹</guid>
+            <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[在雲端以不到 8 美元破解 512 位元的 DKIM 金鑰]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>「一項針對全球前一百萬個網站的 SPF(發件人政策框架)、DKIM(域名密鑰識別郵件)和 DMARC(基於域名的郵件驗證、報告和一致性)記錄的研究顯示，有超過 1,700 個公開的 DKIM 密鑰長度短於 1,024 位元，被認為是不安全的。研究人員成功地使用 Python 和 CADO-NFS 在雲端伺服器上以不到 8 美元的成本破解了 redfin.com 的一個 512 位元的 DKIM 密鑰，展示了短密鑰的脆弱性。該研究強調電子郵件提供商需要拒絕使用短於 1,024 位元的 DKIM 簽名，因為像 Yahoo Mail、Mailfence 和 Tuta 這樣的一些提供商接受了被破解的簽名。」</li>
+</ul>
+]]></description>
+            <link>https://dmarcchecker.app/articles/crack-512-bit-dkim-rsa-key</link>
+            <guid isPermaLink="false">2025-01-08T00:00:00.000Z在雲端以不到 8 美元破解 512 位元的 DKIM 金鑰</guid>
+            <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[微軟將 Bing 偽裝成 Google 以欺騙不注意的搜尋者]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>「據報導，微軟正在改變 Bing 的外觀，使其類似於 Google 的介面，這可能會誤導用戶無意中使用 Bing。這一策略突顯了微軟在與 Google 在搜尋引擎市場中龐大市佔率競爭時所面臨的挑戰。批評者指出，這一策略可能將微軟的商業目標置於提供真實用戶體驗之上。」</li>
+</ul>
+]]></description>
+            <link
+      >https://www.pcworld.com/article/2568916/microsoft-disguises-bing-as-google-to-fool-inattentive-searchers.html</link>
+            <guid isPermaLink="false">2025-01-08T00:00:00.000Z微軟將 Bing 偽裝成 Google 以欺騙不注意的搜尋者</guid>
+            <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[在我的職業生涯中第一次被裁員，而且一年內被裁兩次]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>作者分享了他們在一年內被裁員兩次的經驗，強調保持與前雇主良好關係以及為求職做好準備的重要性。- 潛在裁員的關鍵跡象包括公司缺乏願景、分心、產品使用率低以及突然的公司會議，建議員工應保持警惕。- 對於被裁員者的建議包括更新履歷、申請失業救濟、利用 LinkedIn 和人脈網絡、了解商業模式，以及保持自我價值不僅限於就業。</li>
+</ul>
+]]></description>
+            <link>https://dillonshook.com/laid-off/</link>
+            <guid isPermaLink="false">2025-01-08T00:00:00.000Z在我的職業生涯中第一次被裁員，而且一年內被裁兩次</guid>
+            <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[指尖陀螺]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>「Fidget 是一個基於 Rust 的函式庫，專為處理大規模數學表達式而設計，特別是針對隱式曲面，這些曲面具有緊湊性並支持如聯集和交集等操作。該函式庫分為三個層次：前端(將腳本轉換為位元碼)、後端(高效評估表達式)和示範，並支持 SIMD(單指令多資料流)和自動微分。Fidget 現已在 GitHub 上公開提供，採用 MPL 2.0 授權，未來計劃包括 GPU 整合和改進網格化，鼓勵用戶進行探索和開發。」</li>
+</ul>
+]]></description>
+            <link>https://www.mattkeeter.com/projects/fidget/</link>
+            <guid isPermaLink="false">2025-01-08T00:00:00.000Z指尖陀螺</guid>
+            <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[伺服器復興：2023-2024]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>「Igalia 在 2023 年 1 月接手維護最初由 Mozilla 創建的實驗性瀏覽器引擎 Servo 項目，並對其進行了振興。- 重大進展包括升級依賴項、增強持續整合(CI)和工具、擴大社群支持，以及增加對 Android 和 OpenHarmony 的支持。- 該項目已籌集超過 24,500 美元的捐款，未來目標是成為 Rust 應用程式的預設網頁引擎並開發一個功能齊全的網頁瀏覽器，儘管面臨競爭和資金等挑戰。」</li>
+</ul>
+]]></description>
+            <link>https://blogs.igalia.com/mrego/servo-revival-2023-2024/</link>
+            <guid isPermaLink="false">2025-01-08T00:00:00.000Z伺服器復興：2023-2024</guid>
+            <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[一個多產的語音詐騙團伙的一天]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>「蘋果和谷歌已經發出有關電話詐騙的警告，但一個名為『Crypto Chameleon』的團體利用他們的服務進行網路釣魚攻擊，導致受害者如加密貨幣投資者Tony蒙受重大財務損失，他損失了470萬美元。」</li>
+<li>該網路釣魚團伙使用精密的方法，包括模仿驗證頁面的網路釣魚套件和假冒的 Apple 支援電話，並分配角色如來電者、操作員、排水者和擁有者來執行他們的詐騙行動。</li>
+<li>儘管內部背叛，這些網路犯罪集團仍在像 Telegram 和 Discord 這樣的平台上蓬勃發展，專注於針對富有的個人，特別是擁有加密貨幣資產的人士。</li>
+</ul>
+]]></description>
+            <link>https://krebsonsecurity.com/2025/01/a-day-in-the-life-of-a-prolific-voice-phishing-crew/</link>
+            <guid isPermaLink="false">2025-01-08T00:00:00.000Z一個多產的語音詐騙團伙的一天</guid>
+            <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Streets GL – 3D OpenStreetMap]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://streets.gl/#47.35245,8.50958,21.25,42.00,459.10</link>
+            <guid isPermaLink="false">2025-01-08T00:00:00.000ZStreets GL – 3D OpenStreetMap</guid>
+            <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[再見 Windows 遊戲？SteamOS 正式擴展至 Steam Deck 之外]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>聯想的 Legion Go S 將成為首款非 Valve 裝置，正式採用「由 SteamOS 驅動」，這表明遊戲電腦從 Windows 轉向的重大變革。</li>
+<li>該設備的 SteamOS 版本將更為實惠，起價為 500 美元，相較之下，Windows 版本的價格為 730 美元。</li>
+<li>Valve 計劃推出可供個人安裝的 SteamOS 測試版，這可能會挑戰 Windows 在 PC 遊戲領域的主導地位，促進向 Linux 為基礎的遊戲更廣泛的轉變。</li>
+</ul>
+]]></description>
+            <link
+      >https://arstechnica.com/gaming/2025/01/bye-bye-windows-gaming-steamos-officially-expands-past-the-steam-deck/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-08T00:00:00.000Z再見 Windows 遊戲？SteamOS 正式擴展至 Steam Deck 之外</guid>
+            <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[「我如何使用 LLMs 進行程式設計」]]></title>
             <description

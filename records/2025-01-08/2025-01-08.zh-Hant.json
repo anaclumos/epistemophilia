@@ -1,0 +1,218 @@
+[
+  {
+    "id": 42627227,
+    "title": "「工程師在大型既有程式碼庫中常犯的錯誤」",
+    "originLink": "https://www.seangoedecke.com/large-established-codebases/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42627227",
+    "commentBody": "",
+    "originSummary": [
+      "在大型且已建立的程式碼庫中工作，通常包含數百萬行程式碼並涉及數百名工程師，對軟體工程師來說是一項重大挑戰。- 一個常見的錯誤是缺乏一致性，工程師忽視現有的程式碼模式，孤立地實施功能，這可能導致維護問題並阻礙未來的改進。- 為了在大型程式碼庫中有效地工作，工程師應該研究現有的模式，了解程式碼庫的生產影響，謹慎處理相依性，並仔細移除不必要的程式碼以維持品質和價值。"
+    ],
+    "commentSummary": [
+      "在大型且已建立的程式碼庫中，工程師經常面臨不一致性和未記錄的實踐挑戰，因此需要專注於個人程式碼品質和文件撰寫。- 在改善的同時保持本地一致性是關鍵，特別是當現有程式碼庫不一致時，與更廣泛的團隊互動可以幫助對齊實踐。- 最終目標是提升程式碼庫的功能性和可維護性，這需要務實的態度和對現有模式的適應。"
+    ],
+    "points": 683,
+    "commentCount": 303,
+    "retryCount": 0,
+    "time": 1736282675
+  },
+  {
+    "id": 42627453,
+    "title": "魔術/悲劇的電子郵件連結：不要讓它們成為唯一的選擇",
+    "originLink": "https://recyclebin.zip/posts/annoyinglinks/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42627453",
+    "commentBody": "",
+    "originSummary": [
+      "魔法連結提供了一種透過電子郵件連結的無密碼登入方式，增強了安全性，但由於電子郵件延遲和多設備使用，可能會帶來不便。",
+      "他們可能會因鼓勵用戶在工作設備上訪問個人電子郵件而帶來安全風險，這突顯了需要使用一次性密碼(OTPs)等替代方案。",
+      "「為了提升使用者體驗，特別是對於技術熟練的使用者，建議使用通行密鑰作為更靈活且安全的選擇。」"
+    ],
+    "commentSummary": [
+      "「用於身份驗證的魔術連結，由於電子郵件問題而面臨可靠性問題，並可能推動用戶轉向生物識別技術，這與密碼不同，可能會被法律強制要求。- 通行密鑰被提議作為比魔術連結更安全且更易於使用的替代方案，但其採用仍在進行中，許多服務尚未實施。- 關於在身份驗證方法中平衡安全性和可用性的討論仍然活躍，突顯出尋找最佳解決方案的挑戰。」"
+    ],
+    "points": 653,
+    "commentCount": 460,
+    "retryCount": 0,
+    "time": 1736283984
+  },
+  {
+    "id": 42631873,
+    "title": "1,000 行的作業系統 – 介紹",
+    "originLink": "https://operating-system-in-1000-lines.vercel.app/en",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42631873",
+    "commentBody": "",
+    "originSummary": [
+      "這本書指導讀者從零開始構建一個小型作業系統，涵蓋了如上下文切換、分頁和檔案操作等基本功能，全部使用 C 語言實現，總共約 1,000 行程式碼。",
+      "它強調學習新的除錯技術，特別是針對啟動過程和分頁等挑戰，並在 GitHub 上提供可下載的範例。",
+      "「這本書採用 CC BY 4.0 授權，程式碼則採用 MIT 授權，並要求具備 C 語言和類 UNIX 環境的基礎知識作為前提條件。」"
+    ],
+    "commentSummary": [
+      "《1,000 行的作業系統》是一本指導讀者從零開始使用任何程式語言(不限於 C 語言)創建作業系統的書籍。",
+      "這本書強調作業系統的基本組成部分，避免傳統的 UNIX 類結構，並旨在成為一個引人入勝且富有創意的專案。",
+      "它邀請貢獻和反饋，提供 Markdown 格式的內容，並作為學習和實驗作業系統開發的寶貴資源。"
+    ],
+    "points": 602,
+    "commentCount": 72,
+    "retryCount": 0,
+    "time": 1736320730
+  },
+  {
+    "id": 42633501,
+    "title": "在雲端以不到 8 美元破解 512 位元的 DKIM 金鑰",
+    "originLink": "https://dmarcchecker.app/articles/crack-512-bit-dkim-rsa-key",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42633501",
+    "commentBody": "",
+    "originSummary": [
+      "「一項針對全球前一百萬個網站的 SPF(發件人政策框架)、DKIM(域名密鑰識別郵件)和 DMARC(基於域名的郵件驗證、報告和一致性)記錄的研究顯示，有超過 1,700 個公開的 DKIM 密鑰長度短於 1,024 位元，被認為是不安全的。研究人員成功地使用 Python 和 CADO-NFS 在雲端伺服器上以不到 8 美元的成本破解了 redfin.com 的一個 512 位元的 DKIM 密鑰，展示了短密鑰的脆弱性。該研究強調電子郵件提供商需要拒絕使用短於 1,024 位元的 DKIM 簽名，因為像 Yahoo Mail、Mailfence 和 Tuta 這樣的一些提供商接受了被破解的簽名。」"
+    ],
+    "commentSummary": [
+      "「破解 512 位元的 DKIM(網域金鑰識別郵件)金鑰現在變得相當便宜，使用雲端服務的成本不到 8 美元，這突顯了過時加密方法的脆弱性。」",
+      "討論強調了需要更強的 DKIM 金鑰，以及在安全性與可用性之間取得平衡的挑戰，因為許多系統仍依賴過時的金鑰，這對安全性構成了重大風險。",
+      "「這段對話強調了電子郵件安全的更廣泛影響，以及為了防範不斷演變的威脅而迫切需要更新標準。」"
+    ],
+    "points": 422,
+    "commentCount": 203,
+    "retryCount": 0,
+    "time": 1736339554
+  },
+  {
+    "id": 42626431,
+    "title": "微軟將 Bing 偽裝成 Google 以欺騙不注意的搜尋者",
+    "originLink": "https://www.pcworld.com/article/2568916/microsoft-disguises-bing-as-google-to-fool-inattentive-searchers.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42626431",
+    "commentBody": "",
+    "originSummary": [
+      "「據報導，微軟正在改變 Bing 的外觀，使其類似於 Google 的介面，這可能會誤導用戶無意中使用 Bing。這一策略突顯了微軟在與 Google 在搜尋引擎市場中龐大市佔率競爭時所面臨的挑戰。批評者指出，這一策略可能將微軟的商業目標置於提供真實用戶體驗之上。」"
+    ],
+    "commentSummary": [
+      "微軟正在改變 Bing 的外觀，使其在用戶在 Bing 上搜尋「Google」時看起來更像 Google，藉此利用 Google 的品牌知名度。",
+      "這種策略具有爭議性，有些人認為它具有欺騙性，而另一些人則視其為一種策略性舉措，以保留可能未注意到差異的用戶。",
+      "法律專家指出，雖然 Google 可能會提起訴訟，但在沒有明確的商標侵權情況下，要證明欺騙行為將會很困難，這突顯了 Microsoft 在搜尋引擎市場中的競爭策略。"
+    ],
+    "points": 284,
+    "commentCount": 206,
+    "retryCount": 0,
+    "time": 1736278653
+  },
+  {
+    "id": 42627567,
+    "title": "在我的職業生涯中第一次被裁員，而且一年內被裁兩次",
+    "originLink": "https://dillonshook.com/laid-off/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42627567",
+    "commentBody": "",
+    "originSummary": [
+      "作者分享了他們在一年內被裁員兩次的經驗，強調保持與前雇主良好關係以及為求職做好準備的重要性。- 潛在裁員的關鍵跡象包括公司缺乏願景、分心、產品使用率低以及突然的公司會議，建議員工應保持警惕。- 對於被裁員者的建議包括更新履歷、申請失業救濟、利用 LinkedIn 和人脈網絡、了解商業模式，以及保持自我價值不僅限於就業。"
+    ],
+    "commentSummary": [
+      "作者在一年內經歷了兩次裁員，強調使用簡單、線性的履歷格式以提高應徵者追蹤系統(ATS)的回應率的重要性。- ATS 經常誤解現代履歷格式，這可能對求職結果產生負面影響；簡化履歷並專注於職責描述可以減輕這個問題。- 在充滿挑戰的就業市場中，建立人脈、維持良好關係以及培養多元技能組合是職業穩定性和安全性的關鍵策略。"
+    ],
+    "points": 260,
+    "commentCount": 238,
+    "retryCount": 0,
+    "time": 1736284464
+  },
+  {
+    "id": 42634624,
+    "title": "指尖陀螺",
+    "originLink": "https://www.mattkeeter.com/projects/fidget/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42634624",
+    "commentBody": "",
+    "originSummary": [
+      "「Fidget 是一個基於 Rust 的函式庫，專為處理大規模數學表達式而設計，特別是針對隱式曲面，這些曲面具有緊湊性並支持如聯集和交集等操作。該函式庫分為三個層次：前端(將腳本轉換為位元碼)、後端(高效評估表達式)和示範，並支持 SIMD(單指令多資料流)和自動微分。Fidget 現已在 GitHub 上公開提供，採用 MPL 2.0 授權，未來計劃包括 GPU 整合和改進網格化，鼓勵用戶進行探索和開發。」"
+    ],
+    "commentSummary": [
+      "Fidget 是由 Matt Keeter 主導的一個專案，探索了計算機科學的多個領域，包括資料結構、演算法、編譯器和圖形，因其在 3D 列印和 CAD(電腦輔助設計)等領域的潛在應用而引起了關注。",
+      "雖然由於數據表示不同而不支持 STEP(產品模型數據交換標準)匯出，但 Fidget 提供其他功能，並包含 Rhai 的綁定，這是一種用於 Rust 的腳本語言。",
+      "該專案激發了創意編程的倡議和討論，突顯其在科技社群中的多樣性和創新潛力。"
+    ],
+    "points": 240,
+    "commentCount": 23,
+    "retryCount": 0,
+    "time": 1736346658
+  },
+  {
+    "id": 42628414,
+    "title": "伺服器復興：2023-2024",
+    "originLink": "https://blogs.igalia.com/mrego/servo-revival-2023-2024/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42628414",
+    "commentBody": "",
+    "originSummary": [
+      "「Igalia 在 2023 年 1 月接手維護最初由 Mozilla 創建的實驗性瀏覽器引擎 Servo 項目，並對其進行了振興。- 重大進展包括升級依賴項、增強持續整合(CI)和工具、擴大社群支持，以及增加對 Android 和 OpenHarmony 的支持。- 該項目已籌集超過 24,500 美元的捐款，未來目標是成為 Rust 應用程式的預設網頁引擎並開發一個功能齊全的網頁瀏覽器，儘管面臨競爭和資金等挑戰。」"
+    ],
+    "commentSummary": [
+      "Servo 瀏覽器引擎正在經歷復甦，並進行更新，現在可以通過 Open Collective 和 GitHub 贊助者接受捐款。- Igalia 作為 Servo 的重要貢獻者，也參與了 Chromium 的開發，強調多樣化瀏覽器引擎的重要性。- 儘管之前遭遇挫折，例如 Mozilla 停止其開發，Servo 仍然活躍，並討論用 Rust 重寫的好處以及對未來資金的期望。"
+    ],
+    "points": 238,
+    "commentCount": 83,
+    "retryCount": 0,
+    "time": 1736288712
+  },
+  {
+    "id": 42629163,
+    "title": "一個多產的語音詐騙團伙的一天",
+    "originLink": "https://krebsonsecurity.com/2025/01/a-day-in-the-life-of-a-prolific-voice-phishing-crew/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42629163",
+    "commentBody": "",
+    "originSummary": [
+      "「蘋果和谷歌已經發出有關電話詐騙的警告，但一個名為『Crypto Chameleon』的團體利用他們的服務進行網路釣魚攻擊，導致受害者如加密貨幣投資者Tony蒙受重大財務損失，他損失了470萬美元。」",
+      "該網路釣魚團伙使用精密的方法，包括模仿驗證頁面的網路釣魚套件和假冒的 Apple 支援電話，並分配角色如來電者、操作員、排水者和擁有者來執行他們的詐騙行動。",
+      "儘管內部背叛，這些網路犯罪集團仍在像 Telegram 和 Discord 這樣的平台上蓬勃發展，專注於針對富有的個人，特別是擁有加密貨幣資產的人士。"
+    ],
+    "commentSummary": [
+      "「俄亥俄州一個鄉村加油站成為語音網路釣魚詐騙的受害者，詐騙者冒充該加油站，利用假來電顯示在電話中索取信用卡付款。此事件強調了隨著自動化工具的使用，這類詐騙可能增加的風險，並凸顯了加強安全措施的必要性。知名於揭露網路詐騙的網路安全記者布萊恩·克雷布斯，在Akamai停止為其網站提供DDoS保護後遇到了困難，這促使Google提供支援，突顯了持續存在的網路安全挑戰。」"
+    ],
+    "points": 237,
+    "commentCount": 76,
+    "retryCount": 0,
+    "time": 1736293903
+  },
+  {
+    "id": 42626964,
+    "title": "Streets GL – 3D OpenStreetMap",
+    "originLink": "https://streets.gl/#47.35245,8.50958,21.25,42.00,459.10",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42626964",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Streets GL 是一個 3D OpenStreetMap 專案，讓使用者能夠探索詳細的 3D 地圖。不過，有些使用者指出 OSM 資料過時，且某些功能如橋樑存在問題。",
+      "使用者提出了改進建議，包括使用 Cloudflare 以加快載入速度、更新建築數據，以及整合高程數據以提升視覺體驗。",
+      "該專案支援上傳 GPX 和 FIT 檔案以記錄 GPS 路徑，並允許透過鍵盤和滑鼠控制與地圖互動。"
+    ],
+    "points": 212,
+    "commentCount": 46,
+    "retryCount": 0,
+    "time": 1736281201
+  },
+  {
+    "id": 42633269,
+    "title": "再見 Windows 遊戲？SteamOS 正式擴展至 Steam Deck 之外",
+    "originLink": "https://arstechnica.com/gaming/2025/01/bye-bye-windows-gaming-steamos-officially-expands-past-the-steam-deck/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42633269",
+    "commentBody": "",
+    "originSummary": [
+      "聯想的 Legion Go S 將成為首款非 Valve 裝置，正式採用「由 SteamOS 驅動」，這表明遊戲電腦從 Windows 轉向的重大變革。",
+      "該設備的 SteamOS 版本將更為實惠，起價為 500 美元，相較之下，Windows 版本的價格為 730 美元。",
+      "Valve 計劃推出可供個人安裝的 SteamOS 測試版，這可能會挑戰 Windows 在 PC 遊戲領域的主導地位，促進向 Linux 為基礎的遊戲更廣泛的轉變。"
+    ],
+    "commentSummary": [
+      "「SteamOS 正在將其影響力擴展到 Steam Deck 之外，成為遊戲愛好者眼中 Windows 的一個可靠替代方案。」",
+      "使用 Proton 這個相容層，使得大多數遊戲能夠在 Linux 上高效運行，儘管一些具有核心層級反作弊系統的多人遊戲可能會面臨問題。",
+      "隨著像 Heroic 和 Lutris 這樣的工具簡化了從不同平台獲取遊戲的過程，SteamOS 提供了一種精簡且類似遊戲主機的體驗，隨著更多設備採用它，可能會對 Windows 在遊戲領域的主導地位構成挑戰。"
+    ],
+    "points": 194,
+    "commentCount": 256,
+    "retryCount": 0,
+    "time": 1736337370
+  }
+]

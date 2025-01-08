@@ -15,12 +15,133 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 07 Jan 2025 19:19:44 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Jan 2025 19:09:18 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/it.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[it]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-08]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/08&#39;</h2>
+<h1>2025-01-08</h1>
+<h2><a href="https://www.seangoedecke.com/large-established-codebases/">Errori che gli ingegneri commettono in grandi codebase consolidate</a></h2>
+<ul>
+<li>Il lavoro su grandi codebase consolidate, spesso con milioni di righe di codice e che coinvolgono centinaia di ingegneri, presenta sfide significative per gli ingegneri del software. - Un errore comune è l&#39;incoerenza, dove gli ingegneri ignorano i modelli di codice esistenti e implementano funzionalità in isolamento, il che può portare a problemi di manutenzione e ostacolare miglioramenti futuri. - Per lavorare efficacemente all&#39;interno di grandi codebase, gli ingegneri dovrebbero ricercare i modelli esistenti, comprendere l&#39;impatto produttivo della codebase, essere cauti con le dipendenze e rimuovere con attenzione il codice non necessario per mantenere qualità e valore.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42627227">Reazioni</a></h3>
+<ul>
+<li>Gli ingegneri che lavorano su grandi basi di codice consolidate spesso incontrano sfide legate all&#39;incoerenza e alle pratiche non documentate, il che richiede un&#39;attenzione particolare alla qualità del codice personale e alla documentazione. - Bilanciare i miglioramenti con il mantenimento della coerenza locale è fondamentale, soprattutto quando la base di codice esistente è incoerente, mentre il coinvolgimento con il team più ampio può aiutare ad allineare le pratiche. - L&#39;obiettivo finale è migliorare la funzionalità e la manutenibilità della base di codice, richiedendo pragmatismo e adattamento ai modelli esistenti.</li>
+</ul>
+<h2><a href="https://recyclebin.zip/posts/annoyinglinks/">Link email magici/tragici: non renderli l&#39;unica opzione</a></h2>
+<ul>
+<li>Magic Links forniscono un metodo di accesso senza password tramite link email, offrendo una sicurezza migliorata ma possono risultare scomodi a causa dei ritardi delle email e dell&#39;uso su più dispositivi.</li>
+<li>Potrebbero rappresentare rischi per la sicurezza incoraggiando gli utenti ad accedere alle email personali su dispositivi di lavoro, evidenziando la necessità di alternative come le password monouso (OTP).</li>
+<li>Per migliorare l&#39;esperienza utente, soprattutto per gli utenti esperti di tecnologia, si raccomandano le chiavi di accesso come opzione più flessibile e sicura.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42627453">Reazioni</a></h3>
+<ul>
+<li>Link magici, utilizzati per l&#39;autenticazione, affrontano problemi di affidabilità a causa di problemi con le email e possono spingere gli utenti verso le biometrie, che possono essere legalmente obbligate a differenza delle password. - Le chiavi di accesso sono proposte come un&#39;alternativa più sicura e user-friendly ai link magici, ma la loro adozione è ancora in corso, con molti servizi che devono ancora implementarle. - La discussione sull&#39;equilibrio tra sicurezza e usabilità nei metodi di autenticazione rimane attiva, evidenziando le sfide nel trovare una soluzione ottimale.</li>
+</ul>
+<h2><a href="https://operating-system-in-1000-lines.vercel.app/en">Sistema Operativo in 1.000 Linee – Introduzione</a></h2>
+<ul>
+<li>Il libro guida i lettori nella costruzione di un piccolo sistema operativo da zero, coprendo funzioni essenziali come il cambio di contesto, il paging e le operazioni sui file in C, tutto in circa 1.000 righe di codice.</li>
+<li>Si concentra sull&#39;apprendimento di nuove tecniche di debugging, in particolare per sfide come il processo di avvio e il paging, e fornisce esempi scaricabili su GitHub.</li>
+<li>Il libro è concesso in licenza sotto CC BY 4.0, con codice sotto la licenza MIT, e richiede familiarità con C e un ambiente simile a UNIX come prerequisiti.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42631873">Reazioni</a></h3>
+<ul>
+<li>&quot;Operating System in 1,000 Lines&quot; è un libro che guida i lettori nella creazione di un sistema operativo da zero utilizzando qualsiasi linguaggio di programmazione, non limitato al C.</li>
+<li>Il libro sottolinea i componenti essenziali di un sistema operativo, evitando una struttura tradizionale simile a UNIX, e mira a essere un progetto coinvolgente e creativo.</li>
+<li>Invita contributi e feedback, offrendo contenuti in formato Markdown, e funge da risorsa preziosa per l&#39;apprendimento e la sperimentazione nello sviluppo di sistemi operativi.</li>
+</ul>
+<h2><a href="https://dmarcchecker.app/articles/crack-512-bit-dkim-rsa-key">Craccare una chiave DKIM a 512 bit per meno di 8 dollari nel cloud</a></h2>
+<ul>
+<li>Uno studio sui record SPF (Sender Policy Framework), DKIM (DomainKeys Identified Mail) e DMARC (Domain-based Message Authentication, Reporting, and Conformance) dei primi 1 milione di siti web ha rivelato oltre 1.700 chiavi DKIM pubbliche più corte di 1.024 bit, considerate insicure. - I ricercatori sono riusciti a decifrare una chiave DKIM di 512 bit da redfin.com utilizzando Python e CADO-NFS per meno di 8 dollari su un server cloud, dimostrando la vulnerabilità delle chiavi corte. - Lo studio sottolinea la necessità per i fornitori di servizi email di rifiutare le firme DKIM con chiavi più corte di 1.024 bit, poiché alcuni fornitori come Yahoo Mail, Mailfence e Tuta hanno accettato la firma compromessa.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42633501">Reazioni</a></h3>
+<ul>
+<li>Craccare una chiave DKIM (DomainKeys Identified Mail) a 512 bit è ora accessibile, costando meno di 8 dollari utilizzando i servizi cloud, evidenziando la vulnerabilità dei metodi di crittografia obsoleti.</li>
+<li>Il dibattito sottolinea la necessità di chiavi DKIM più robuste e le sfide nel bilanciare la sicurezza con l&#39;usabilità, poiché molti sistemi si affidano ancora a chiavi obsolete, comportando rischi significativi per la sicurezza.</li>
+<li>La conversazione sottolinea le implicazioni più ampie per la sicurezza delle email e la necessità urgente di standard aggiornati per proteggersi dalle minacce in evoluzione.</li>
+</ul>
+<h2><a href="https://www.pcworld.com/article/2568916/microsoft-disguises-bing-as-google-to-fool-inattentive-searchers.html">Microsoft traveste Bing da Google per ingannare i ricercatori distratti</a></h2>
+<ul>
+<li>Si dice che Microsoft stia modificando l&#39;aspetto di Bing per assomigliare all&#39;interfaccia di Google, potenzialmente inducendo in errore gli utenti a utilizzare Bing involontariamente. - Questa strategia sottolinea le sfide di Microsoft nel competere con la significativa quota di mercato di Google nel settore dei motori di ricerca. - I critici suggeriscono che questa tattica possa dare priorità agli obiettivi aziendali di Microsoft rispetto a fornire un&#39;autentica esperienza utente.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42626431">Reazioni</a></h3>
+<ul>
+<li>Microsoft sta modificando l&#39;aspetto di Bing per assomigliare a Google quando gli utenti cercano &quot;Google&quot; su Bing, sfruttando il riconoscimento del marchio di Google.</li>
+<li>Questa tattica è controversa, con alcuni che la considerano ingannevole e altri come una mossa strategica per trattenere gli utenti che potrebbero non notare la differenza.</li>
+<li>Esperti legali indicano che, sebbene Google potrebbe potenzialmente intentare una causa, dimostrare l&#39;inganno senza una chiara violazione del marchio sarebbe difficile, evidenziando la strategia competitiva di Microsoft nel mercato dei motori di ricerca.</li>
+</ul>
+<h2><a href="https://dillonshook.com/laid-off/">Licenziato per la prima volta nella mia carriera, e due volte in un anno</a></h2>
+<ul>
+<li>L&#39;autore condivide la sua esperienza di essere stato licenziato due volte in un anno, sottolineando l&#39;importanza di mantenere buoni rapporti con i datori di lavoro precedenti e di essere preparati per la ricerca di lavoro. - I segnali chiave di potenziali licenziamenti includono una mancanza di visione aziendale, distrazioni, basso utilizzo del prodotto e riunioni aziendali improvvise, suggerendo che i dipendenti dovrebbero rimanere vigili. - I consigli per chi è stato licenziato includono l&#39;aggiornamento dei curriculum, la richiesta di disoccupazione, l&#39;utilizzo di LinkedIn e del networking, la comprensione dei modelli di business e il mantenimento dell&#39;autostima al di là dell&#39;occupazione.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42627567">Reazioni</a></h3>
+<ul>
+<li>L&#39;autore, avendo vissuto due licenziamenti in un anno, sottolinea l&#39;importanza di utilizzare un formato di curriculum semplice e lineare per migliorare i tassi di risposta dai sistemi di tracciamento dei candidati (ATS). - Gli ATS spesso interpretano erroneamente i formati di curriculum moderni, il che può influire negativamente sui risultati delle domande di lavoro; semplificare i curriculum e concentrarsi sulle responsabilità dei ruoli può mitigare questo problema. - Fare networking, mantenere buone relazioni e costruire un set di competenze diversificato sono strategie cruciali per la stabilità e la sicurezza della carriera in un mercato del lavoro impegnativo.</li>
+</ul>
+<h2><a href="https://www.mattkeeter.com/projects/fidget/">Agitarsi</a></h2>
+<ul>
+<li>Fidget è una libreria basata su Rust progettata per gestire espressioni matematiche su larga scala, in particolare per superfici implicite, che sono compatte e supportano operazioni come unione e intersezione. - La libreria è strutturata in tre livelli: frontend (converte script in bytecode), backend (valuta efficientemente le espressioni) e demo, con supporto per SIMD (Single Instruction, Multiple Data) e differenziazione automatica. - Fidget è ora disponibile pubblicamente su GitHub sotto la licenza MPL 2.0, con piani futuri per l&#39;integrazione GPU e il miglioramento del meshing, incoraggiando l&#39;esplorazione e lo sviluppo da parte degli utenti.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42634624">Reazioni</a></h3>
+<ul>
+<li>Fidget, un progetto di Matt Keeter, esplora diverse aree dell&#39;informatica, tra cui strutture dati, algoritmi, compilatori e grafica, suscitando interesse per le sue potenziali applicazioni in campi come la stampa 3D e il CAD (Computer-Aided Design).</li>
+<li>Sebbene non supporti l&#39;esportazione STEP (Standard per lo scambio di dati del modello di prodotto) a causa delle diverse rappresentazioni dei dati, Fidget offre altre funzionalità e include collegamenti per Rhai, un linguaggio di scripting per Rust.</li>
+<li>Il progetto ha ispirato iniziative di coding creativo e discussioni, mettendo in evidenza la sua versatilità e il potenziale innovativo nella comunità tecnologica.</li>
+</ul>
+<h2><a href="https://blogs.igalia.com/mrego/servo-revival-2023-2024/">Revival del Servo: 2023-2024</a></h2>
+<ul>
+<li>Igalia ha rivitalizzato il progetto Servo, un motore di browser sperimentale inizialmente creato da Mozilla, assumendone la manutenzione nel gennaio 2023. - I progressi significativi includono l&#39;aggiornamento delle dipendenze, il miglioramento dell&#39;integrazione continua (CI) e degli strumenti, l&#39;espansione del supporto della comunità e l&#39;aggiunta del supporto per Android e OpenHarmony. - Il progetto ha raccolto oltre 24.500 dollari in donazioni, con obiettivi futuri di diventare un motore web predefinito per le applicazioni Rust e sviluppare un browser web completo, nonostante le sfide come la concorrenza e il finanziamento.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42628414">Reazioni</a></h3>
+<ul>
+<li>Servo, un motore di browser, sta vivendo una rinascita con aggiornamenti ed è ora in grado di accettare donazioni tramite Open Collective e sponsor di GitHub. - Igalia, un contributore significativo di Servo, è anche coinvolto nello sviluppo di Chromium, sottolineando l&#39;importanza di motori di browser diversificati. - Nonostante precedenti battute d&#39;arresto, come l&#39;interruzione dello sviluppo da parte di Mozilla, Servo rimane attivo, con discussioni sui benefici della riscrittura in Rust e speranze per futuri finanziamenti.</li>
+</ul>
+<h2><a href="https://krebsonsecurity.com/2025/01/a-day-in-the-life-of-a-prolific-voice-phishing-crew/">Una giornata nella vita di una prolifica banda di phishing vocale</a></h2>
+<ul>
+<li>Apple e Google hanno emesso avvertimenti riguardo alle truffe telefoniche, tuttavia un gruppo chiamato &quot;Crypto Chameleon&quot; sfrutta i loro servizi per condurre attacchi di phishing, causando perdite finanziarie significative per vittime come l&#39;investitore in criptovalute Tony, che ha perso 4,7 milioni di dollari.</li>
+<li>I truffatori di phishing utilizzano metodi sofisticati, inclusi kit di phishing che imitano le pagine di autenticazione e false chiamate di supporto Apple, con ruoli come Chiamante, Operatore, Drainer e Proprietario per eseguire le loro truffe.</li>
+<li>Nonostante i tradimenti interni, questi gruppi di criminali informatici continuano a prosperare su piattaforme come Telegram e Discord, concentrandosi su individui facoltosi, in particolare quelli con asset in criptovalute.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42629163">Reazioni</a></h3>
+<ul>
+<li>Una stazione di servizio rurale in Ohio è stata vittima di una truffa di phishing vocale, in cui i truffatori si sono spacciati per la stazione per richiedere pagamenti con carta di credito al telefono utilizzando un ID chiamante falso. - L&#39;incidente sottolinea il potenziale aumento di tali truffe con l&#39;uso di strumenti di automazione, evidenziando la necessità di migliorare le misure di sicurezza. - Il giornalista di cybersecurity Brian Krebs, noto per aver scoperto truffe online, ha incontrato difficoltà quando Akamai ha cessato la protezione DDoS per il suo sito, spingendo Google a fornire supporto, mettendo in luce le sfide continue della cybersecurity.</li>
+</ul>
+<h2><a href="https://streets.gl/#47.35245,8.50958,21.25,42.00,459.10">Streets GL – 3D OpenStreetMap</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42626964">Reazioni</a></h3>
+<ul>
+<li>Streets GL è un progetto OpenStreetMap 3D che consente agli utenti di esplorare mappe 3D dettagliate, anche se alcuni utenti hanno notato che i dati OSM sono obsoleti e che alcune caratteristiche, come i ponti, presentano problemi.</li>
+<li>Gli utenti hanno suggerito miglioramenti, tra cui l&#39;uso di Cloudflare per un caricamento più veloce, l&#39;aggiornamento dei dati degli edifici e l&#39;integrazione dei dati di elevazione per migliorare l&#39;esperienza visiva.</li>
+<li>Il progetto supporta il caricamento di file GPX e FIT per tracce GPS, consentendo l&#39;interazione con la mappa tramite controlli da tastiera e mouse.</li>
+</ul>
+<h2><a href="https://arstechnica.com/gaming/2025/01/bye-bye-windows-gaming-steamos-officially-expands-past-the-steam-deck/">Addio giochi su Windows? SteamOS si espande ufficialmente oltre lo Steam Deck</a></h2>
+<ul>
+<li>Il Legion Go S di Lenovo sarà il primo dispositivo non-Valve ufficialmente &quot;Powered by SteamOS&quot;, indicando un cambiamento significativo da Windows per i PC da gioco.</li>
+<li>La versione SteamOS del dispositivo sarà più conveniente, a partire da $500, rispetto alla versione Windows che costa $730.</li>
+<li>Il piano di Valve di rilasciare una versione beta di SteamOS per installazioni personali potrebbe sfidare il dominio di Windows nel gaming su PC, promuovendo un cambiamento più ampio verso il gaming basato su Linux.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42633269">Reazioni</a></h3>
+<ul>
+<li>SteamOS sta estendendo la sua portata oltre lo Steam Deck, presentandosi come un&#39;alternativa credibile a Windows per gli appassionati di giochi.</li>
+<li>Grazie all&#39;uso di Proton, un livello di compatibilità, la maggior parte dei giochi può funzionare in modo efficiente su Linux, sebbene alcuni giochi multiplayer con sistemi anti-cheat a livello di kernel possano incontrare problemi.</li>
+<li>Con strumenti come Heroic e Lutris che semplificano l&#39;accesso ai giochi da diverse piattaforme, SteamOS offre un&#39;esperienza semplificata, simile a quella di una console, potenzialmente sfidando il dominio di Windows nel settore dei giochi man mano che più dispositivi lo adottano.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Errori che gli ingegneri commettono in grandi codebase consolidate" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Errori%20che%20gli%20ingegneri%20commettono%20in%20grandi%20codebase%20consolidate&subheading=mercoled%C3%AC%208%20gennaio%202025%3A%20Riassunto%20di%20Hacker%20News" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/it/2025/01/08</link>
+            <guid isPermaLink="false">2025-01-08T00:00:00.000Z</guid>
+            <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-07]]></title>
             <description

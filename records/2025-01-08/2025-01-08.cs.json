@@ -1,0 +1,218 @@
+[
+  {
+    "id": 42627227,
+    "title": "„Chyby, které inženýři dělají ve velkých zavedených kódech“",
+    "originLink": "https://www.seangoedecke.com/large-established-codebases/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42627227",
+    "commentBody": "",
+    "originSummary": [
+      "„Práce ve velkých, zavedených kódech, často s miliony řádků kódu a za účasti stovek inženýrů, představuje pro softwarové inženýry značné výzvy. - Běžnou chybou je nekonzistence, kdy inženýři ignorují stávající vzory kódu a implementují funkce izolovaně, což může vést k problémům s údržbou a bránit budoucím vylepšením. - Aby inženýři efektivně pracovali ve velkých kódech, měli by zkoumat stávající vzory, porozumět dopadu kódu na produkci, být opatrní s závislostmi a pečlivě odstraňovat nepotřebný kód, aby udrželi kvalitu a hodnotu.“"
+    ],
+    "commentSummary": [
+      "„Inženýři ve velkých, zavedených kódech často narážejí na problémy s nekonzistencí a nedokumentovanými postupy, což vyžaduje zaměření na osobní kvalitu kódu a dokumentaci. - Klíčové je vyvážit zlepšení s udržením místní konzistence, zejména když je stávající kódová základna nekonzistentní, zatímco zapojení širšího týmu může pomoci sladit postupy. - Konečným cílem je zlepšit funkčnost a udržovatelnost kódové základny, což vyžaduje pragmatismus a přizpůsobení se stávajícím vzorům.“"
+    ],
+    "points": 683,
+    "commentCount": 303,
+    "retryCount": 0,
+    "time": 1736282675
+  },
+  {
+    "id": 42627453,
+    "title": "„Magické/tragické odkazy v e-mailech: nedělejte z nich jedinou možnost“",
+    "originLink": "https://recyclebin.zip/posts/annoyinglinks/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42627453",
+    "commentBody": "",
+    "originSummary": [
+      "„Magické odkazy poskytují metodu přihlášení bez hesla prostřednictvím odkazů v e-mailech, nabízejí zvýšenou bezpečnost, ale mohou být nepohodlné kvůli zpožděním e-mailů a používání na více zařízeních.“",
+      "„Mohou představovat bezpečnostní rizika tím, že povzbuzují uživatele k přístupu k osobním e-mailům na pracovních zařízeních, což zdůrazňuje potřebu alternativ, jako jsou jednorázová hesla (OTP).“",
+      "„Pro lepší uživatelský zážitek, zejména pro technicky zdatné uživatele, se doporučují přístupové klíče jako flexibilnější a bezpečnější možnost.“"
+    ],
+    "commentSummary": [
+      "„Magické odkazy, používané pro autentizaci, čelí problémům s spolehlivostí kvůli problémům s e-mailem a mohou uživatele tlačit směrem k biometrice, která může být právně vynucena na rozdíl od hesel. - Jako bezpečnější a uživatelsky přívětivější alternativa k magickým odkazům jsou navrhovány přístupové klíče, ale jejich přijetí je stále v procesu, přičemž mnoho služeb je ještě neimplementovalo. - Diskuse o vyvážení bezpečnosti a použitelnosti v metodách autentizace zůstává aktivní, což zdůrazňuje výzvy při hledání optimálního řešení.“"
+    ],
+    "points": 653,
+    "commentCount": 460,
+    "retryCount": 0,
+    "time": 1736283984
+  },
+  {
+    "id": 42631873,
+    "title": "„Operační systém v 1 000 řádcích – Úvod“",
+    "originLink": "https://operating-system-in-1000-lines.vercel.app/en",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42631873",
+    "commentBody": "",
+    "originSummary": [
+      "„Kniha provádí čtenáře procesem vytváření malého operačního systému od základů, pokrývá základní funkce jako přepínání kontextu, stránkování a souborové operace v jazyce C, to vše v přibližně 1 000 řádcích kódu.“",
+      "„Zdůrazňuje učení nových technik ladění, zejména pro výzvy jako je proces zavádění a stránkování, a poskytuje ke stažení příklady na GitHubu.“",
+      "„Kniha je licencována pod CC BY 4.0, kód pod licencí MIT a vyžaduje znalost jazyka C a prostředí podobného UNIXu jako předpoklady.“"
+    ],
+    "commentSummary": [
+      "„Operační systém v 1 000 řádcích“ je kniha, která čtenáře provádí tvorbou operačního systému od základu s využitím libovolného programovacího jazyka, nejen omezeného na C.",
+      "„Kniha zdůrazňuje základní komponenty operačního systému, vyhýbá se tradiční struktuře podobné UNIXu a snaží se být poutavým a kreativním projektem.“",
+      "„Vyzývá k příspěvkům a zpětné vazbě, nabízí obsah ve formátu Markdown a slouží jako cenný zdroj pro učení a experimentování s vývojem operačních systémů.“"
+    ],
+    "points": 602,
+    "commentCount": 72,
+    "retryCount": 0,
+    "time": 1736320730
+  },
+  {
+    "id": 42633501,
+    "title": "„Prolomení 512bitového DKIM klíče za méně než 8 dolarů v cloudu“",
+    "originLink": "https://dmarcchecker.app/articles/crack-512-bit-dkim-rsa-key",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42633501",
+    "commentBody": "",
+    "originSummary": [
+      "„Studie SPF (Sender Policy Framework), DKIM (DomainKeys Identified Mail) a DMARC (Domain-based Message Authentication, Reporting, and Conformance) záznamů z top 1 milionu webových stránek odhalila přes 1 700 veřejných DKIM klíčů kratších než 1 024 bitů, které jsou považovány za nezabezpečené. - Výzkumníci úspěšně prolomili 512bitový DKIM klíč z redfin.com pomocí Pythonu a CADO-NFS za méně než 8 dolarů na cloudovém serveru, což demonstruje zranitelnost krátkých klíčů. - Studie zdůrazňuje potřebu, aby poskytovatelé e-mailů odmítali DKIM podpisy s klíči kratšími než 1 024 bitů, protože někteří poskytovatelé jako Yahoo Mail, Mailfence a Tuta přijali kompromitovaný podpis.“"
+    ],
+    "commentSummary": [
+      "„Prolomení 512bitového klíče DKIM (DomainKeys Identified Mail) je nyní cenově dostupné, stojí méně než 8 dolarů při použití cloudových služeb, což poukazuje na zranitelnost zastaralých šifrovacích metod.“",
+      "„Diskuse zdůrazňuje nutnost silnějších DKIM klíčů a výzvy v nalezení rovnováhy mezi bezpečností a použitelností, protože mnoho systémů stále spoléhá na zastaralé klíče, což představuje významná bezpečnostní rizika.“",
+      "„Konverzace zdůrazňuje širší důsledky pro bezpečnost e-mailů a naléhavou potřebu aktualizovaných standardů k ochraně proti vyvíjejícím se hrozbám.“"
+    ],
+    "points": 422,
+    "commentCount": 203,
+    "retryCount": 0,
+    "time": 1736339554
+  },
+  {
+    "id": 42626431,
+    "title": "„Microsoft maskuje Bing jako Google, aby oklamal nepozorné uživatele vyhledávání.“",
+    "originLink": "https://www.pcworld.com/article/2568916/microsoft-disguises-bing-as-google-to-fool-inattentive-searchers.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42626431",
+    "commentBody": "",
+    "originSummary": [
+      "„Microsoft údajně mění vzhled Bingu, aby se podobal rozhraní Googlu, což by mohlo uživatele neúmyslně přimět k používání Bingu. - Tato strategie zdůrazňuje výzvy, kterým Microsoft čelí při konkurenci s významným tržním podílem Googlu v odvětví vyhledávačů. - Kritici naznačují, že tato taktika může upřednostňovat obchodní cíle Microsoftu před poskytováním skutečného uživatelského zážitku.“"
+    ],
+    "commentSummary": [
+      "„Microsoft mění vzhled Bingu, aby připomínal Google, když uživatelé na Bingu hledají „Google“, využívajíc tak rozpoznatelnost značky Google.“",
+      "„Tato taktika je kontroverzní, někteří ji považují za klamavou, zatímco jiní za strategický krok k udržení uživatelů, kteří si možná rozdílu nevšimnou.“",
+      "„Právní experti naznačují, že i když by Google mohl potenciálně podat žalobu, prokázání klamání bez jasného porušení ochranné známky by bylo obtížné, což zdůrazňuje konkurenční strategii Microsoftu na trhu vyhledávačů.“"
+    ],
+    "points": 284,
+    "commentCount": 206,
+    "retryCount": 0,
+    "time": 1736278653
+  },
+  {
+    "id": 42627567,
+    "title": "„Propuštěn poprvé ve své kariéře, a to dvakrát v jednom roce“",
+    "originLink": "https://dillonshook.com/laid-off/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42627567",
+    "commentBody": "",
+    "originSummary": [
+      "„Autor se dělí o svou zkušenost s tím, že byl dvakrát během jednoho roku propuštěn, a zdůrazňuje důležitost udržování dobrých vztahů s bývalými zaměstnavateli a připravenosti na hledání práce. - Klíčové znaky možného propouštění zahrnují nedostatek vize společnosti, rozptýlení, nízké využívání produktů a náhlé firemní schůzky, což naznačuje, že zaměstnanci by měli zůstat ostražití. - Rady pro ty, kteří byli propuštěni, zahrnují aktualizaci životopisů, podání žádosti o podporu v nezaměstnanosti, využívání LinkedIn a networking, porozumění obchodním modelům a udržování sebeúcty nad rámec zaměstnání.“"
+    ],
+    "commentSummary": [
+      "„Autor, který zažil dvě výpovědi během jednoho roku, zdůrazňuje důležitost používání jednoduchého, lineárního formátu životopisu pro zlepšení míry odezvy od systémů pro sledování uchazečů (ATS). - ATS často špatně interpretují moderní formáty životopisů, což může negativně ovlivnit výsledky žádostí o zaměstnání; zjednodušení životopisů a zaměření na pracovní povinnosti může tento problém zmírnit. - Networking, udržování dobrých vztahů a budování rozmanité sady dovedností jsou klíčové strategie pro stabilitu a bezpečnost kariéry na náročném trhu práce.“"
+    ],
+    "points": 260,
+    "commentCount": 238,
+    "retryCount": 0,
+    "time": 1736284464
+  },
+  {
+    "id": 42634624,
+    "title": "„Neposedný“",
+    "originLink": "https://www.mattkeeter.com/projects/fidget/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42634624",
+    "commentBody": "",
+    "originSummary": [
+      "„Fidget je knihovna založená na jazyce Rust, navržená pro zpracování rozsáhlých matematických výrazů, zejména pro implicitní povrchy, které jsou kompaktní a podporují operace jako sjednocení a průnik. Knihovna je strukturována do tří vrstev: frontend (převádí skripty na bytecode), backend (efektivně vyhodnocuje výrazy) a dema, s podporou SIMD (Single Instruction, Multiple Data) a automatické diferenciace. Fidget je nyní veřejně dostupný na GitHubu pod licencí MPL 2.0, s budoucími plány na integraci GPU a vylepšené meshování, což povzbuzuje uživatele k průzkumu a vývoji.“"
+    ],
+    "commentSummary": [
+      "„Fidget, projekt Matta Keetera, zkoumá různé oblasti informatiky, včetně datových struktur, algoritmů, kompilátorů a grafiky, a vzbuzuje zájem díky svým potenciálním aplikacím v oblastech jako 3D tisk a CAD (počítačem podporovaný design).“",
+      "„Ačkoli nepodporuje export STEP (Standard pro výměnu dat modelu produktu) kvůli rozdílným reprezentacím dat, Fidget nabízí jiné funkce a zahrnuje vazby pro Rhai, skriptovací jazyk pro Rust.“",
+      "„Projekt inspiroval iniciativy a diskuse o kreativním programování, čímž zdůraznil svou všestrannost a inovativní potenciál v technologické komunitě.“"
+    ],
+    "points": 240,
+    "commentCount": 23,
+    "retryCount": 0,
+    "time": 1736346658
+  },
+  {
+    "id": 42628414,
+    "title": "„Servo Revival: 2023-2024“",
+    "originLink": "https://blogs.igalia.com/mrego/servo-revival-2023-2024/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42628414",
+    "commentBody": "",
+    "originSummary": [
+      "„Igalia oživila projekt Servo, experimentální prohlížečový engine původně vytvořený Mozillou, tím, že převzala jeho údržbu v lednu 2023. - Významný pokrok zahrnuje aktualizaci závislostí, vylepšení kontinuální integrace (CI) a nástrojů, rozšíření podpory komunity a přidání podpory pro Android a OpenHarmony. - Projekt získal více než 24 500 dolarů v darech, s budoucími cíli stát se výchozím webovým enginem pro aplikace v Rustu a vyvinout plnohodnotný webový prohlížeč, navzdory výzvám, jako je konkurence a financování.“"
+    ],
+    "commentSummary": [
+      "„Servo, engine prohlížeče, zažívá oživení s aktualizacemi a nyní přijímá dary prostřednictvím Open Collective a sponzorů na GitHubu. - Igalia, významný přispěvatel do projektu Servo, se také podílí na vývoji Chromia, čímž zdůrazňuje důležitost různorodých engine prohlížečů. - Navzdory předchozím neúspěchům, jako bylo zastavení jeho vývoje Mozillou, zůstává Servo aktivní, s diskusemi o výhodách přepsání v jazyce Rust a nadějemi na budoucí financování.“"
+    ],
+    "points": 238,
+    "commentCount": 83,
+    "retryCount": 0,
+    "time": 1736288712
+  },
+  {
+    "id": 42629163,
+    "title": "„Den v životě plodné skupiny zabývající se hlasovým phishingem“",
+    "originLink": "https://krebsonsecurity.com/2025/01/a-day-in-the-life-of-a-prolific-voice-phishing-crew/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42629163",
+    "commentBody": "",
+    "originSummary": [
+      "„Apple a Google vydaly varování ohledně telefonních podvodů, přesto skupina nazvaná 'Crypto Chameleon' zneužívá jejich služby k provádění phishingových útoků, což vede k významným finančním ztrátám pro oběti, jako je investor do kryptoměn Tony, který přišel o 4,7 milionu dolarů.“",
+      "„Phishingová skupina používá sofistikované metody, včetně phishingových sad, které napodobují autentizační stránky, a falešných hovorů podpory Apple, s rolemi jako Volající, Operátor, Vypouštěč a Majitel k provedení svých podvodů.“",
+      "„Navzdory vnitřním zradám tyto skupiny kyberzločinců nadále prosperují na platformách jako Telegram a Discord, přičemž se zaměřují na bohaté jednotlivce, zejména ty s kryptoměnovými aktivy.“"
+    ],
+    "commentSummary": [
+      "„Venkovská čerpací stanice v Ohiu se stala obětí podvodného telefonátu, při kterém podvodníci předstírali, že jsou zaměstnanci stanice, aby přes telefon získali platby kreditní kartou pomocí falešného ID volajícího. - Tento incident poukazuje na možný nárůst takových podvodů s využitím automatizačních nástrojů a zdůrazňuje potřebu zlepšení bezpečnostních opatření. - Novinář specializující se na kybernetickou bezpečnost Brian Krebs, známý odhalováním online podvodů, čelil potížím, když společnost Akamai přestala poskytovat ochranu proti DDoS útokům pro jeho web, což přimělo Google k poskytnutí podpory, čímž se zdůrazňují přetrvávající výzvy v oblasti kybernetické bezpečnosti.“"
+    ],
+    "points": 237,
+    "commentCount": 76,
+    "retryCount": 0,
+    "time": 1736293903
+  },
+  {
+    "id": 42626964,
+    "title": "„Streets GL – 3D OpenStreetMap“",
+    "originLink": "https://streets.gl/#47.35245,8.50958,21.25,42.00,459.10",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42626964",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "„Streets GL je 3D projekt OpenStreetMap, který umožňuje uživatelům prozkoumávat detailní 3D mapy, ačkoli někteří uživatelé si všimli, že data OSM jsou zastaralá a některé prvky, jako například mosty, mají problémy.“",
+      "„Uživatelé navrhli vylepšení, včetně použití Cloudflare pro rychlejší načítání, aktualizace dat o budovách a integrace výškových dat pro zlepšení vizuálního zážitku.“",
+      "„Projekt podporuje nahrávání souborů GPX a FIT pro GPS trasy, což umožňuje interakci s mapou pomocí klávesnice a myši.“"
+    ],
+    "points": 212,
+    "commentCount": 46,
+    "retryCount": 0,
+    "time": 1736281201
+  },
+  {
+    "id": 42633269,
+    "title": "„Sbohem Windows hraní? SteamOS se oficiálně rozšiřuje za hranice Steam Decku“",
+    "originLink": "https://arstechnica.com/gaming/2025/01/bye-bye-windows-gaming-steamos-officially-expands-past-the-steam-deck/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42633269",
+    "commentBody": "",
+    "originSummary": [
+      "„Lenovo Legion Go S bude prvním zařízením mimo Valve, které bude oficiálně „Poháněno SteamOS“, což naznačuje významný posun od Windows pro herní PC.“",
+      "„Verze zařízení s operačním systémem SteamOS bude cenově dostupnější, začíná na 500 dolarech, zatímco verze s Windows je oceněna na 730 dolarů.“",
+      "„Plán společnosti Valve vydat beta verzi SteamOS pro osobní instalace by mohl ohrozit dominanci Windows v oblasti PC her a podpořit širší přechod k hraní na platformě Linux.“"
+    ],
+    "commentSummary": [
+      "„SteamOS rozšiřuje svůj dosah i mimo Steam Deck a představuje se jako důvěryhodná alternativa k Windows pro herní nadšence.“",
+      "„Použití Proton, vrstvy kompatibility, umožňuje většině her běžet efektivně na Linuxu, ačkoli některé hry pro více hráčů s anti-cheat systémy na úrovni jádra mohou čelit problémům.“",
+      "„S nástroji jako Heroic a Lutris, které zjednodušují přístup ke hrám z různých platforem, nabízí SteamOS zjednodušený, konzolový zážitek, který by mohl potenciálně ohrozit dominanci Windows v herním sektoru, jakmile ho přijme více zařízení.“"
+    ],
+    "points": 194,
+    "commentCount": 256,
+    "retryCount": 0,
+    "time": 1736337370
+  }
+]

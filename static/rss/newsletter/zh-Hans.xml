@@ -15,12 +15,133 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 07 Jan 2025 19:19:44 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Jan 2025 19:09:19 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/zh-Hans.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[zh-Hans]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-08]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/08&#39;</h2>
+<h1>2025-01-08</h1>
+<h2><a href="https://www.seangoedecke.com/large-established-codebases/">“工程师在大型既有代码库中犯的错误”</a></h2>
+<ul>
+<li>“在大型、成熟的代码库中工作，通常涉及数百万行代码和数百名工程师，这对软件工程师来说是一个重大挑战。- 一个常见的错误是不一致性，工程师忽视现有的代码模式，孤立地实现功能，这可能导致维护问题并阻碍未来的改进。- 为了在大型代码库中有效工作，工程师应研究现有模式，了解代码库的生产影响，谨慎处理依赖关系，并仔细删除不必要的代码以保持质量和价值。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42627227">反应</a></h3>
+<ul>
+<li>“在大型、成熟的代码库中，工程师经常会遇到不一致和未记录的实践带来的挑战，这需要关注个人代码质量和文档编制。- 在现有代码库不一致的情况下，平衡改进与维护本地一致性是关键，同时与更广泛的团队合作可以帮助对齐实践。- 最终目标是提高代码库的功能性和可维护性，这需要务实和适应现有模式。”</li>
+</ul>
+<h2><a href="https://recyclebin.zip/posts/annoyinglinks/">“魔术/悲剧电子邮件链接：不要让它们成为唯一的选择”</a></h2>
+<ul>
+<li>“魔法链接通过电子邮件链接提供无密码登录方法，增强了安全性，但由于电子邮件延迟和多设备使用可能会带来不便。”</li>
+<li>“它们可能通过鼓励用户在工作设备上访问个人电子邮件而带来安全风险，这突显了需要使用一次性密码(OTP)等替代方案。”</li>
+<li>“为了改善用户体验，特别是对于技术娴熟的用户，建议使用通行密钥作为更灵活和安全的选项。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42627453">反应</a></h3>
+<ul>
+<li>“魔术链接用于身份验证，由于电子邮件问题面临可靠性问题，并可能将用户推向生物识别技术，而生物识别技术可能会被法律强制使用，这与密码不同。- Passkeys被提议作为魔术链接的更安全和用户友好的替代方案，但它们的采用仍在进行中，许多服务尚未实施。- 关于在身份验证方法中平衡安全性和可用性的讨论仍然活跃，突显出寻找最佳解决方案的挑战。”</li>
+</ul>
+<h2><a href="https://operating-system-in-1000-lines.vercel.app/en">“1,000行操作系统 – 简介”</a></h2>
+<ul>
+<li>“这本书指导读者从头开始构建一个小型操作系统，涵盖了诸如上下文切换、分页和文件操作等基本功能，所有这些都在大约1000行代码的C语言中实现。”</li>
+<li>“它强调学习新的调试技术，特别是针对启动过程和分页等挑战，并在GitHub上提供可下载的示例。”</li>
+<li>“这本书采用 CC BY 4.0 许可，代码采用 MIT 许可，并要求具备 C 语言和类 UNIX 环境的基础知识。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42631873">反应</a></h3>
+<ul>
+<li>“《1000行代码实现操作系统》是一本指导读者从头开始使用任何编程语言(不限于C语言)创建操作系统的书。”</li>
+<li>这本书强调了操作系统的基本组成部分，避开了传统的类UNIX结构，旨在成为一个引人入胜且富有创意的项目。</li>
+<li>它邀请贡献和反馈，提供Markdown格式的内容，并作为学习和实验操作系统开发的宝贵资源。</li>
+</ul>
+<h2><a href="https://dmarcchecker.app/articles/crack-512-bit-dkim-rsa-key">“在云端以不到8美元破解512位DKIM密钥”</a></h2>
+<ul>
+<li>“对前100万网站的SPF(发件人策略框架)、DKIM(域密钥识别邮件)和DMARC(基于域的消息认证、报告和一致性)记录的研究显示，有超过1,700个公共DKIM密钥短于1,024位，被认为是不安全的。研究人员成功地使用Python和CADO-NFS在云服务器上以不到8美元的成本破解了来自redfin.com的512位DKIM密钥，展示了短密钥的脆弱性。研究强调了电子邮件提供商需要拒绝使用短于1,024位密钥的DKIM签名，因为一些提供商如Yahoo Mail、Mailfence和Tuta接受了被破解的签名。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42633501">反应</a></h3>
+<ul>
+<li>“破解512位DKIM(域名密钥识别邮件)密钥现在变得更加经济实惠，使用云服务的成本不到8美元，这突显了过时加密方法的脆弱性。”</li>
+<li>“讨论强调了需要更强大的DKIM密钥，以及在安全性与可用性之间取得平衡的挑战，因为许多系统仍依赖过时的密钥，这带来了重大的安全风险。”</li>
+<li>“这段对话强调了电子邮件安全的更广泛影响，以及迫切需要更新标准以防范不断演变的威胁。”</li>
+</ul>
+<h2><a href="https://www.pcworld.com/article/2568916/microsoft-disguises-bing-as-google-to-fool-inattentive-searchers.html">“微软将必应伪装成谷歌以欺骗不注意的搜索者”</a></h2>
+<ul>
+<li>“据报道，微软正在改变必应的外观，使其类似于谷歌的界面，这可能会误导用户无意中使用必应。- 这一策略突显了微软在与谷歌在搜索引擎行业中庞大的市场份额竞争时面临的挑战。- 批评者认为，这一策略可能优先考虑微软的商业目标，而不是提供真实的用户体验。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42626431">反应</a></h3>
+<ul>
+<li>“微软正在更改必应的外观，使其在用户在必应上搜索“Google”时看起来更像谷歌，利用谷歌的品牌知名度。”</li>
+<li>“这一策略具有争议性，有些人认为这是欺骗行为，而另一些人则视其为一种战略举措，以留住可能没有注意到差异的用户。”</li>
+<li>“法律专家指出，尽管谷歌可能会提起诉讼，但在没有明确的商标侵权情况下证明欺骗行为将是困难的，这突显了微软在搜索引擎市场中的竞争策略。”</li>
+</ul>
+<h2><a href="https://dillonshook.com/laid-off/">“在我的职业生涯中第一次被解雇，而且一年内被解雇了两次。”</a></h2>
+<ul>
+<li>“作者分享了他们在一年内两次被解雇的经历，强调了与前雇主保持良好关系和为求职做好准备的重要性。- 潜在裁员的关键迹象包括公司缺乏愿景、分心、产品使用率低和突然的公司会议，建议员工保持警惕。- 对于被解雇者的建议包括更新简历、申请失业救济、利用LinkedIn和人脉网络、理解商业模式，以及保持超越就业的自我价值。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42627567">反应</a></h3>
+<ul>
+<li>“作者在一年内经历了两次裁员，强调使用简单、线性的简历格式以提高申请者跟踪系统(ATS)的响应率的重要性。- ATS经常误解现代简历格式，这可能对求职申请结果产生负面影响；简化简历并专注于角色职责可以缓解这一问题。- 在充满挑战的就业市场中，建立人脉、保持良好关系和构建多样化的技能组合是职业稳定和安全的关键策略。”</li>
+</ul>
+<h2><a href="https://www.mattkeeter.com/projects/fidget/">“烦躁”</a></h2>
+<ul>
+<li>“Fidget 是一个基于 Rust 的库，专为处理大规模数学表达式而设计，特别是用于隐式曲面，这些曲面是紧凑的，并支持诸如并集和交集等操作。- 该库分为三个层次：前端(将脚本转换为字节码)、后端(高效评估表达式)和演示，支持 SIMD(单指令多数据)和自动微分。- Fidget 现已在 GitHub 上公开发布，采用 MPL 2.0 许可证，未来计划进行 GPU 集成和改进网格化，鼓励用户探索和开发。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42634624">反应</a></h3>
+<ul>
+<li>“Fidget是由Matt Keeter发起的一个项目，探索了计算机科学的多个领域，包括数据结构、算法、编译器和图形学。由于其在3D打印和CAD(计算机辅助设计)等领域的潜在应用，引起了广泛关注。”</li>
+<li>“尽管由于数据表示不同而不支持STEP(产品模型数据交换标准)导出，Fidget提供了其他功能，并包括Rhai(一种用于Rust的脚本语言)的绑定。”</li>
+<li>“该项目激发了创意编码的倡议和讨论，突显了其在技术社区中的多样性和创新潜力。”</li>
+</ul>
+<h2><a href="https://blogs.igalia.com/mrego/servo-revival-2023-2024/">“伺服复兴：2023-2024”</a></h2>
+<ul>
+<li>“Igalia 在 2023 年 1 月接管了最初由 Mozilla 创建的实验性浏览器引擎 Servo 项目的维护，从而使其焕发了生机。- 重大进展包括升级依赖项、增强持续集成 (CI) 和工具、扩大社区支持，并增加对 Android 和 OpenHarmony 的支持。- 该项目已筹集了超过 24,500 美元的捐款，尽管面临竞争和资金等挑战，未来目标是成为 Rust 应用程序的默认网络引擎并开发一个功能齐全的网络浏览器。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42628414">反应</a></h3>
+<ul>
+<li>“Servo，一个浏览器引擎，正在通过更新复兴，并且现在通过Open Collective和GitHub赞助商接受捐款。- Igalia是Servo的重要贡献者，也参与了Chromium的开发，强调了多样化浏览器引擎的重要性。- 尽管之前遭遇了如Mozilla停止其开发的挫折，Servo仍然活跃，讨论了用Rust重写的好处，并对未来的资金支持抱有希望。”</li>
+</ul>
+<h2><a href="https://krebsonsecurity.com/2025/01/a-day-in-the-life-of-a-prolific-voice-phishing-crew/">“一个高产语音钓鱼团伙的一天”</a></h2>
+<ul>
+<li>“苹果和谷歌已发出有关电话诈骗的警告，但一个名为‘加密变色龙’的团体利用他们的服务进行网络钓鱼攻击，导致受害者如加密货币投资者托尼遭受重大财务损失，他损失了470万美元。”</li>
+<li>“该网络钓鱼团伙使用复杂的方法，包括模仿认证页面的网络钓鱼工具包和假冒苹果支持的电话，角色包括呼叫者、操作员、排水者和所有者，以执行他们的骗局。”</li>
+<li>“尽管内部出现背叛，这些网络犯罪团伙仍在像Telegram和Discord这样的平台上蓬勃发展，专注于针对富有的个人，特别是那些拥有加密货币资产的人。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42629163">反应</a></h3>
+<ul>
+<li>“俄亥俄州一家乡村加油站成为语音网络钓鱼骗局的受害者，骗子冒充加油站，通过电话使用虚假的来电显示来索取信用卡付款。- 这一事件强调了随着自动化工具的使用，此类骗局可能增加的风险，强调了改进安全措施的必要性。- 网络安全记者布莱恩·克雷布斯以揭露网络骗局而闻名，当Akamai停止为他的网站提供DDoS保护时，他遇到了困难，这促使谷歌提供支持，突显了持续的网络安全挑战。”</li>
+</ul>
+<h2><a href="https://streets.gl/#47.35245,8.50958,21.25,42.00,459.10">“街道 GL – 3D OpenStreetMap”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42626964">反应</a></h3>
+<ul>
+<li>“Streets GL 是一个 3D OpenStreetMap 项目，使用户能够探索详细的 3D 地图，不过一些用户注意到 OSM 数据已经过时，并且某些功能(如桥梁)存在问题。”</li>
+<li>“用户提出了一些改进建议，包括使用Cloudflare以加快加载速度、更新建筑数据以及整合海拔数据以提升视觉体验。”</li>
+<li>“该项目支持GPX和FIT文件上传用于GPS轨迹，允许通过键盘和鼠标控制与地图进行交互。”</li>
+</ul>
+<h2><a href="https://arstechnica.com/gaming/2025/01/bye-bye-windows-gaming-steamos-officially-expands-past-the-steam-deck/">“再见，Windows游戏？SteamOS正式扩展到Steam Deck之外”</a></h2>
+<ul>
+<li>“联想的Legion Go S将成为首款官方“由SteamOS驱动”的非Valve设备，这表明游戏PC从Windows向SteamOS的重大转变。”</li>
+<li>“该设备的SteamOS版本将更加实惠，起价为500美元，而Windows版本的价格为730美元。”</li>
+<li>“Valve计划发布SteamOS的测试版供个人安装，这可能会挑战Windows在PC游戏中的主导地位，推动向基于Linux的游戏更广泛的转变。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42633269">反应</a></h3>
+<ul>
+<li>“SteamOS 正在将其影响力扩展到 Steam Deck 之外，成为游戏爱好者眼中 Windows 的一个可靠替代品。”</li>
+<li>“使用Proton兼容层可以让大多数游戏在Linux上高效运行，尽管一些带有内核级反作弊系统的多人游戏可能会遇到问题。”</li>
+<li>“随着像 Heroic 和 Lutris 这样的工具简化了从不同平台访问游戏的过程，SteamOS 提供了一种简化的、类似于游戏机的体验，随着更多设备的采用，它可能会挑战 Windows 在游戏领域的主导地位。”</li>
+</ul>
+<head>
+  <meta property="og:title" content="“工程师在大型既有代码库中犯的错误”" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9C%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%9C%A8%E5%A4%A7%E5%9E%8B%E6%97%A2%E6%9C%89%E4%BB%A3%E7%A0%81%E5%BA%93%E4%B8%AD%E7%8A%AF%E7%9A%84%E9%94%99%E8%AF%AF%E2%80%9D&subheading=2025%E5%B9%B41%E6%9C%888%E6%97%A5%E6%98%9F%E6%9C%9F%E4%B8%89%3A%20%E9%BB%91%E5%AE%A2%E6%96%B0%E9%97%BB%E6%91%98%E8%A6%81" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/zh/Hans/2025/01/08</link>
+            <guid isPermaLink="false">2025-01-08T00:00:00.000Z</guid>
+            <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-07]]></title>
             <description

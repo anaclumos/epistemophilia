@@ -1,0 +1,218 @@
+[
+  {
+    "id": 42627227,
+    "title": "„Fehler, die Ingenieure in großen etablierten Codebasen machen“",
+    "originLink": "https://www.seangoedecke.com/large-established-codebases/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42627227",
+    "commentBody": "",
+    "originSummary": [
+      "„Die Arbeit in großen, etablierten Codebasen, oft mit Millionen von Codezeilen und unter Beteiligung von Hunderten von Ingenieuren, stellt Softwareingenieure vor erhebliche Herausforderungen. - Ein häufiger Fehler ist die Inkonsistenz, bei der Ingenieure bestehende Code-Muster ignorieren und Funktionen isoliert implementieren, was zu Wartungsproblemen führen und zukünftige Verbesserungen behindern kann. - Um effektiv in großen Codebasen zu arbeiten, sollten Ingenieure bestehende Muster recherchieren, die Auswirkungen der Codebasis auf die Produktion verstehen, vorsichtig mit Abhängigkeiten umgehen und unnötigen Code sorgfältig entfernen, um Qualität und Wert zu erhalten.“"
+    ],
+    "commentSummary": [
+      "„Ingenieure in großen, etablierten Codebasen stoßen oft auf Herausforderungen mit Inkonsistenzen und undokumentierten Praktiken, was einen Fokus auf persönliche Codequalität und Dokumentation erfordert. - Das Gleichgewicht zwischen Verbesserungen und der Aufrechterhaltung lokaler Konsistenz ist entscheidend, insbesondere wenn die bestehende Codebasis inkonsistent ist, während die Zusammenarbeit mit dem größeren Team helfen kann, Praktiken abzustimmen. - Das ultimative Ziel ist es, die Funktionalität und Wartbarkeit der Codebasis zu verbessern, was Pragmatismus und Anpassung an bestehende Muster erfordert.“"
+    ],
+    "points": 683,
+    "commentCount": 303,
+    "retryCount": 0,
+    "time": 1736282675
+  },
+  {
+    "id": 42627453,
+    "title": "„Magische/tragische E-Mail-Links: Machen Sie sie nicht zur einzigen Option“",
+    "originLink": "https://recyclebin.zip/posts/annoyinglinks/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42627453",
+    "commentBody": "",
+    "originSummary": [
+      "„Magic Links bieten eine passwortlose Anmeldemethode über E-Mail-Links, die erhöhte Sicherheit bieten, aber aufgrund von E-Mail-Verzögerungen und der Nutzung mehrerer Geräte unpraktisch sein können.“",
+      "„Sie können Sicherheitsrisiken darstellen, indem sie Benutzer dazu ermutigen, persönliche E-Mails auf Arbeitsgeräten zu öffnen, was die Notwendigkeit von Alternativen wie Einmalpasswörtern (OTPs) unterstreicht.“",
+      "„Für ein verbessertes Benutzererlebnis, insbesondere für technisch versierte Nutzer, werden Passkeys als flexiblere und sicherere Option empfohlen.“"
+    ],
+    "commentSummary": [
+      "„Magische Links, die zur Authentifizierung verwendet werden, haben Zuverlässigkeitsprobleme aufgrund von E-Mail-Problemen und können Benutzer in Richtung biometrischer Verfahren drängen, die im Gegensatz zu Passwörtern rechtlich erzwungen werden können. - Passkeys werden als sicherere und benutzerfreundlichere Alternative zu magischen Links vorgeschlagen, aber ihre Einführung ist noch im Gange, da viele Dienste sie noch nicht implementiert haben. - Die Diskussion über das Gleichgewicht zwischen Sicherheit und Benutzerfreundlichkeit bei Authentifizierungsmethoden bleibt aktiv und hebt die Herausforderungen bei der Suche nach einer optimalen Lösung hervor.“"
+    ],
+    "points": 653,
+    "commentCount": 460,
+    "retryCount": 0,
+    "time": 1736283984
+  },
+  {
+    "id": 42631873,
+    "title": "„Betriebssystem in 1.000 Zeilen – Einführung“",
+    "originLink": "https://operating-system-in-1000-lines.vercel.app/en",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42631873",
+    "commentBody": "",
+    "originSummary": [
+      "„Das Buch führt die Leser durch den Aufbau eines kleinen Betriebssystems von Grund auf und behandelt wesentliche Funktionen wie Kontextwechsel, Paging und Dateioperationen in C, alles innerhalb von etwa 1.000 Zeilen Code.“",
+      "„Es betont das Erlernen neuer Debugging-Techniken, insbesondere für Herausforderungen wie den Boot-Prozess und das Paging, und bietet herunterladbare Beispiele auf GitHub.“",
+      "„Das Buch ist unter der Lizenz CC BY 4.0 lizenziert, der Code unter der MIT-Lizenz, und es erfordert Vertrautheit mit C und einer UNIX-ähnlichen Umgebung als Voraussetzungen.“"
+    ],
+    "commentSummary": [
+      "„Betriebssystem in 1.000 Zeilen“ ist ein Buch, das die Leser anleitet, ein Betriebssystem von Grund auf mit einer beliebigen Programmiersprache zu erstellen, nicht nur auf C beschränkt.",
+      "„Das Buch betont wesentliche Komponenten eines Betriebssystems, vermeidet eine traditionelle UNIX-ähnliche Struktur und zielt darauf ab, ein fesselndes und kreatives Projekt zu sein.“",
+      "„Es lädt zu Beiträgen und Feedback ein, bietet Inhalte im Markdown-Format an und dient als wertvolle Ressource zum Lernen und Experimentieren mit der Betriebssystementwicklung.“"
+    ],
+    "points": 602,
+    "commentCount": 72,
+    "retryCount": 0,
+    "time": 1736320730
+  },
+  {
+    "id": 42633501,
+    "title": "„Das Knacken eines 512-Bit-DKIM-Schlüssels für weniger als 8 $ in der Cloud“",
+    "originLink": "https://dmarcchecker.app/articles/crack-512-bit-dkim-rsa-key",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42633501",
+    "commentBody": "",
+    "originSummary": [
+      "„Eine Studie der SPF (Sender Policy Framework), DKIM (DomainKeys Identified Mail) und DMARC (Domain-based Message Authentication, Reporting, and Conformance) Einträge der Top 1 Million Websites ergab über 1.700 öffentliche DKIM-Schlüssel, die kürzer als 1.024 Bit sind und als unsicher gelten. - Forscher knackten erfolgreich einen 512-Bit-DKIM-Schlüssel von redfin.com mit Python und CADO-NFS für weniger als 8 US-Dollar auf einem Cloud-Server, was die Anfälligkeit kurzer Schlüssel demonstriert. - Die Studie betont die Notwendigkeit, dass E-Mail-Anbieter DKIM-Signaturen mit Schlüsseln kürzer als 1.024 Bit ablehnen sollten, da einige Anbieter wie Yahoo Mail, Mailfence und Tuta die kompromittierte Signatur akzeptierten.“"
+    ],
+    "commentSummary": [
+      "„Das Knacken eines 512-Bit-DKIM-Schlüssels (DomainKeys Identified Mail) ist jetzt erschwinglich und kostet weniger als 8 US-Dollar mit Cloud-Diensten, was die Anfälligkeit veralteter Verschlüsselungsmethoden verdeutlicht.“",
+      "„Die Diskussion betont die Notwendigkeit stärkerer DKIM-Schlüssel und die Herausforderungen, die mit der Balance zwischen Sicherheit und Benutzerfreundlichkeit einhergehen, da viele Systeme immer noch auf veraltete Schlüssel angewiesen sind, was erhebliche Sicherheitsrisiken darstellt.“",
+      "„Das Gespräch unterstreicht die weitreichenden Auswirkungen auf die E-Mail-Sicherheit und die dringende Notwendigkeit aktualisierter Standards, um sich gegen sich entwickelnde Bedrohungen zu schützen.“"
+    ],
+    "points": 422,
+    "commentCount": 203,
+    "retryCount": 0,
+    "time": 1736339554
+  },
+  {
+    "id": 42626431,
+    "title": "„Microsoft tarnt Bing als Google, um unaufmerksame Suchende zu täuschen“",
+    "originLink": "https://www.pcworld.com/article/2568916/microsoft-disguises-bing-as-google-to-fool-inattentive-searchers.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42626431",
+    "commentBody": "",
+    "originSummary": [
+      "„Berichten zufolge ändert Microsoft das Erscheinungsbild von Bing, um der Benutzeroberfläche von Google zu ähneln, was möglicherweise dazu führt, dass Nutzer unbeabsichtigt Bing verwenden. - Diese Strategie unterstreicht die Herausforderungen, denen sich Microsoft im Wettbewerb mit Googles erheblichem Marktanteil in der Suchmaschinenbranche gegenübersieht. - Kritiker schlagen vor, dass diese Taktik möglicherweise die Geschäftsziele von Microsoft über die Bereitstellung einer authentischen Benutzererfahrung stellt.“"
+    ],
+    "commentSummary": [
+      "„Microsoft ändert das Erscheinungsbild von Bing, um Google zu ähneln, wenn Nutzer auf Bing nach „Google“ suchen, und nutzt dabei die Markenbekanntheit von Google.“",
+      "„Diese Taktik ist umstritten, da einige sie als täuschend betrachten, während andere sie als strategischen Schachzug sehen, um Nutzer zu halten, die den Unterschied möglicherweise nicht bemerken.“",
+      "„Rechtsexperten weisen darauf hin, dass Google zwar potenziell klagen könnte, es jedoch schwierig wäre, Täuschung ohne eindeutige Markenverletzung nachzuweisen, was die Wettbewerbsstrategie von Microsoft im Suchmaschinenmarkt unterstreicht.“"
+    ],
+    "points": 284,
+    "commentCount": 206,
+    "retryCount": 0,
+    "time": 1736278653
+  },
+  {
+    "id": 42627567,
+    "title": "„Zum ersten Mal in meiner Karriere entlassen, und das gleich zweimal in einem Jahr“",
+    "originLink": "https://dillonshook.com/laid-off/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42627567",
+    "commentBody": "",
+    "originSummary": [
+      "„Der Autor teilt seine Erfahrung, innerhalb eines Jahres zweimal entlassen worden zu sein, und betont die Bedeutung guter Beziehungen zu ehemaligen Arbeitgebern und der Vorbereitung auf die Jobsuche. - Wichtige Anzeichen für mögliche Entlassungen sind ein Mangel an Unternehmensvision, Ablenkungen, geringe Produktnutzung und plötzliche Unternehmensbesprechungen, was darauf hindeutet, dass Mitarbeiter wachsam bleiben sollten. - Ratschläge für Entlassene umfassen das Aktualisieren von Lebensläufen, das Beantragen von Arbeitslosengeld, die Nutzung von LinkedIn und Networking, das Verständnis von Geschäftsmodellen und die Aufrechterhaltung des Selbstwertgefühls über die Beschäftigung hinaus.“"
+    ],
+    "commentSummary": [
+      "„Der Autor, der innerhalb eines Jahres zwei Entlassungen erlebt hat, betont die Bedeutung der Verwendung eines einfachen, linearen Lebenslaufformats, um die Antwortquoten von Bewerber-Tracking-Systemen (ATS) zu verbessern. - ATS interpretieren moderne Lebenslaufformate oft falsch, was sich negativ auf die Ergebnisse von Bewerbungen auswirken kann; die Vereinfachung von Lebensläufen und der Fokus auf Rollenverantwortlichkeiten können dieses Problem mildern. - Networking, die Pflege guter Beziehungen und der Aufbau eines vielfältigen Kompetenzspektrums sind entscheidende Strategien für berufliche Stabilität und Sicherheit in einem herausfordernden Arbeitsmarkt.“"
+    ],
+    "points": 260,
+    "commentCount": 238,
+    "retryCount": 0,
+    "time": 1736284464
+  },
+  {
+    "id": 42634624,
+    "title": "„Zappelphilipp“",
+    "originLink": "https://www.mattkeeter.com/projects/fidget/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42634624",
+    "commentBody": "",
+    "originSummary": [
+      "„Fidget ist eine auf Rust basierende Bibliothek, die für die Handhabung großskaliger mathematischer Ausdrücke entwickelt wurde, insbesondere für implizite Flächen, die kompakt sind und Operationen wie Vereinigung und Schnittmenge unterstützen. - Die Bibliothek ist in drei Schichten strukturiert: Frontend (wandelt Skripte in Bytecode um), Backend (wertet Ausdrücke effizient aus) und Demos, mit Unterstützung für SIMD (Single Instruction, Multiple Data) und automatische Differenzierung. - Fidget ist jetzt öffentlich auf GitHub unter der MPL 2.0-Lizenz verfügbar, mit zukünftigen Plänen für GPU-Integration und verbesserte Vernetzung, um Erkundung und Entwicklung durch Benutzer zu fördern.“"
+    ],
+    "commentSummary": [
+      "„Fidget, ein Projekt von Matt Keeter, erforscht verschiedene Bereiche der Informatik, darunter Datenstrukturen, Algorithmen, Compiler und Grafik, und weckt Interesse aufgrund seiner potenziellen Anwendungen in Bereichen wie 3D-Druck und CAD (Computer-Aided Design).“",
+      "„Obwohl es keinen STEP-Export (Standard für den Austausch von Produktmodelldaten) unterstützt, da die Datenrepräsentationen unterschiedlich sind, bietet Fidget andere Funktionalitäten und enthält Bindungen für Rhai, eine Skriptsprache für Rust.“",
+      "„Das Projekt hat kreative Codierungsinitiativen und Diskussionen inspiriert und hebt seine Vielseitigkeit und sein innovatives Potenzial in der Tech-Community hervor.“"
+    ],
+    "points": 240,
+    "commentCount": 23,
+    "retryCount": 0,
+    "time": 1736346658
+  },
+  {
+    "id": 42628414,
+    "title": "„Servo-Wiederbelebung: 2023-2024“",
+    "originLink": "https://blogs.igalia.com/mrego/servo-revival-2023-2024/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42628414",
+    "commentBody": "",
+    "originSummary": [
+      "„Igalia hat das Servo-Projekt, eine experimentelle Browser-Engine, die ursprünglich von Mozilla erstellt wurde, im Januar 2023 durch die Übernahme der Wartung revitalisiert. - Bedeutende Fortschritte umfassen die Aktualisierung von Abhängigkeiten, die Verbesserung der kontinuierlichen Integration (CI) und der Werkzeuge, die Erweiterung der Gemeinschaftsunterstützung und die Hinzufügung von Unterstützung für Android und OpenHarmony. - Das Projekt hat über 24.500 US-Dollar an Spenden gesammelt, mit zukünftigen Zielen, eine Standard-Web-Engine für Rust-Anwendungen zu werden und einen voll ausgestatteten Webbrowser zu entwickeln, trotz Herausforderungen wie Wettbewerb und Finanzierung.“"
+    ],
+    "commentSummary": [
+      "„Servo, eine Browser-Engine, erlebt eine Wiederbelebung mit Updates und akzeptiert nun Spenden über Open Collective und GitHub-Sponsoren. - Igalia, ein bedeutender Mitwirkender an Servo, ist auch an der Entwicklung von Chromium beteiligt und betont die Bedeutung vielfältiger Browser-Engines. - Trotz früherer Rückschläge, wie dem Entwicklungsstopp durch Mozilla, bleibt Servo aktiv, mit Diskussionen über die Vorteile einer Neuschreibung in Rust und Hoffnungen auf zukünftige Finanzierung.“"
+    ],
+    "points": 238,
+    "commentCount": 83,
+    "retryCount": 0,
+    "time": 1736288712
+  },
+  {
+    "id": 42629163,
+    "title": "„Ein Tag im Leben einer produktiven Voice-Phishing-Bande“",
+    "originLink": "https://krebsonsecurity.com/2025/01/a-day-in-the-life-of-a-prolific-voice-phishing-crew/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42629163",
+    "commentBody": "",
+    "originSummary": [
+      "„Apple und Google haben Warnungen vor Telefonbetrügereien herausgegeben, doch eine Gruppe namens „Crypto Chameleon“ nutzt ihre Dienste, um Phishing-Angriffe durchzuführen, was zu erheblichen finanziellen Verlusten für Opfer wie den Kryptowährungsinvestor Tony führt, der 4,7 Millionen Dollar verlor.“",
+      "„Die Phishing-Bande verwendet ausgeklügelte Methoden, darunter Phishing-Kits, die Authentifizierungsseiten nachahmen, und gefälschte Apple-Support-Anrufe, mit Rollen wie Anrufer, Operator, Drainer und Eigentümer, um ihre Betrügereien auszuführen.“",
+      "„Trotz interner Verrätereien florieren diese Cyberkriminalitätsgruppen weiterhin auf Plattformen wie Telegram und Discord, wobei sie sich darauf konzentrieren, wohlhabende Personen anzugreifen, insbesondere solche mit Kryptowährungsvermögen.“"
+    ],
+    "commentSummary": [
+      "„Eine ländliche Tankstelle in Ohio wurde Opfer eines Voice-Phishing-Betrugs, bei dem Betrüger die Tankstelle imitierten, um über das Telefon mit gefälschter Anrufer-ID Kreditkartenzahlungen zu erbitten. - Der Vorfall unterstreicht das potenzielle Aufkommen solcher Betrügereien mit der Nutzung von Automatisierungstools und betont die Notwendigkeit verbesserter Sicherheitsmaßnahmen. - Der Cybersicherheitsjournalist Brian Krebs, bekannt für die Aufdeckung von Online-Betrügereien, hatte Schwierigkeiten, als Akamai den DDoS-Schutz für seine Website einstellte, was Google dazu veranlasste, Unterstützung zu leisten und die anhaltenden Herausforderungen der Cybersicherheit hervorhob.“"
+    ],
+    "points": 237,
+    "commentCount": 76,
+    "retryCount": 0,
+    "time": 1736293903
+  },
+  {
+    "id": 42626964,
+    "title": "„Streets GL – 3D OpenStreetMap“",
+    "originLink": "https://streets.gl/#47.35245,8.50958,21.25,42.00,459.10",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42626964",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "„Streets GL ist ein 3D-OpenStreetMap-Projekt, das es Nutzern ermöglicht, detaillierte 3D-Karten zu erkunden, obwohl einige Nutzer bemerkt haben, dass die OSM-Daten veraltet sind und bestimmte Funktionen, wie Brücken, Probleme aufweisen.“",
+      "„Benutzer haben Verbesserungen vorgeschlagen, darunter die Nutzung von Cloudflare für schnellere Ladezeiten, die Aktualisierung von Gebäudedaten und die Integration von Höhendaten, um das visuelle Erlebnis zu verbessern.“",
+      "„Das Projekt unterstützt GPX- und FIT-Datei-Uploads für GPS-Tracks und ermöglicht die Interaktion mit der Karte über Tastatur- und Maussteuerung.“"
+    ],
+    "points": 212,
+    "commentCount": 46,
+    "retryCount": 0,
+    "time": 1736281201
+  },
+  {
+    "id": 42633269,
+    "title": "„Bye-bye Windows-Gaming? SteamOS erweitert sich offiziell über das Steam Deck hinaus“",
+    "originLink": "https://arstechnica.com/gaming/2025/01/bye-bye-windows-gaming-steamos-officially-expands-past-the-steam-deck/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42633269",
+    "commentBody": "",
+    "originSummary": [
+      "„Lenovos Legion Go S wird das erste Nicht-Valve-Gerät sein, das offiziell „Powered by SteamOS“ ist, was auf einen bedeutenden Wechsel von Windows für Gaming-PCs hinweist.“",
+      "„Die SteamOS-Version des Geräts wird erschwinglicher sein und bei 500 $ beginnen, verglichen mit der Windows-Version, die mit 730 $ bepreist ist.“",
+      "„Valves Plan, eine Beta-Version von SteamOS für persönliche Installationen zu veröffentlichen, könnte die Dominanz von Windows im PC-Gaming herausfordern und einen breiteren Wechsel hin zu Linux-basiertem Gaming fördern.“"
+    ],
+    "commentSummary": [
+      "„SteamOS erweitert seine Reichweite über das Steam Deck hinaus und präsentiert sich als glaubwürdige Alternative zu Windows für Gaming-Enthusiasten.“",
+      "„Die Verwendung von Proton, einer Kompatibilitätsschicht, ermöglicht es den meisten Spielen, effizient auf Linux zu laufen, obwohl einige Mehrspieler-Spiele mit Kernel-Level-Anti-Cheat-Systemen auf Probleme stoßen können.“",
+      "„Mit Tools wie Heroic und Lutris, die den Zugriff auf Spiele von verschiedenen Plattformen vereinfachen, bietet SteamOS ein optimiertes, konsolenähnliches Erlebnis, das möglicherweise die Dominanz von Windows im Gaming-Sektor herausfordert, da immer mehr Geräte es übernehmen.“"
+    ],
+    "points": 194,
+    "commentCount": 256,
+    "retryCount": 0,
+    "time": 1736337370
+  }
+]

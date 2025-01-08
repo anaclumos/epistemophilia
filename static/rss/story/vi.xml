@@ -15,11 +15,155 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 07 Jan 2025 19:19:44 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Jan 2025 19:09:18 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/story/vi.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
         <language><![CDATA[vi]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Mắc lỗi mà các kỹ sư thường gặp trong các mã nguồn lớn đã được thiết lập]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Việc làm việc trong các mã nguồn lớn, đã được thiết lập, thường với hàng triệu dòng mã và liên quan đến hàng trăm kỹ sư, đặt ra những thách thức đáng kể cho các kỹ sư phần mềm. - Một sai lầm phổ biến là sự không nhất quán, khi các kỹ sư bỏ qua các mẫu mã hiện có và triển khai các tính năng một cách cô lập, điều này có thể dẫn đến các vấn đề bảo trì và cản trở các cải tiến trong tương lai. - Để làm việc hiệu quả trong các mã nguồn lớn, các kỹ sư nên nghiên cứu các mẫu hiện có, hiểu tác động sản xuất của mã nguồn, cẩn thận với các phụ thuộc, và cẩn thận loại bỏ mã không cần thiết để duy trì chất lượng và giá trị.</li>
+</ul>
+]]></description>
+            <link>https://www.seangoedecke.com/large-established-codebases/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-08T00:00:00.000ZMắc lỗi mà các kỹ sư thường gặp trong các mã nguồn lớn đã được thiết lập</guid>
+            <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Liên kết email ma thuật/bi kịch: đừng biến chúng thành lựa chọn duy nhất]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Magic Links cung cấp phương thức đăng nhập không cần mật khẩu thông qua các liên kết email, mang lại bảo mật nâng cao nhưng có thể gây bất tiện do sự chậm trễ của email và việc sử dụng nhiều thiết bị.</li>
+<li>Họ có thể gây ra rủi ro bảo mật bằng cách khuyến khích người dùng truy cập email cá nhân trên thiết bị làm việc, nhấn mạnh sự cần thiết của các giải pháp thay thế như Mật khẩu Một lần (OTPs).</li>
+<li>Để cải thiện trải nghiệm người dùng, đặc biệt là đối với những người dùng am hiểu công nghệ, khóa truy cập được khuyến nghị như một lựa chọn linh hoạt và an toàn hơn.</li>
+</ul>
+]]></description>
+            <link>https://recyclebin.zip/posts/annoyinglinks/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-08T00:00:00.000ZLiên kết email ma thuật/bi kịch: đừng biến chúng thành lựa chọn duy nhất</guid>
+            <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Giới thiệu về Hệ điều hành trong 1.000 dòng]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Bản sách hướng dẫn người đọc xây dựng một hệ điều hành nhỏ từ đầu, bao gồm các chức năng thiết yếu như chuyển đổi ngữ cảnh, phân trang và thao tác tệp trong C, tất cả trong khoảng 1.000 dòng mã.</li>
+<li>Điều này nhấn mạnh việc học các kỹ thuật gỡ lỗi mới, đặc biệt là đối với các thách thức như quá trình khởi động và phân trang, và cung cấp các ví dụ có thể tải xuống trên GitHub.</li>
+<li>Cuốn sách được cấp phép theo CC BY 4.0, với mã nguồn theo giấy phép MIT, và yêu cầu người đọc phải quen thuộc với ngôn ngữ C và môi trường giống UNIX như là điều kiện tiên quyết.</li>
+</ul>
+]]></description>
+            <link>https://operating-system-in-1000-lines.vercel.app/en</link>
+            <guid isPermaLink="false">2025-01-08T00:00:00.000ZGiới thiệu về Hệ điều hành trong 1.000 dòng</guid>
+            <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Phá khóa DKIM 512-bit với chi phí dưới 8 đô la trên đám mây]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Một nghiên cứu về các bản ghi SPF (Sender Policy Framework), DKIM (DomainKeys Identified Mail), và DMARC (Domain-based Message Authentication, Reporting, and Conformance) của 1 triệu trang web hàng đầu đã phát hiện hơn 1.700 khóa DKIM công khai ngắn hơn 1.024 bit, được coi là không an toàn. - Các nhà nghiên cứu đã thành công trong việc bẻ khóa một khóa DKIM 512 bit từ redfin.com bằng cách sử dụng Python và CADO-NFS với chi phí dưới 8 đô la trên một máy chủ đám mây, cho thấy sự dễ bị tổn thương của các khóa ngắn. - Nghiên cứu nhấn mạnh sự cần thiết cho các nhà cung cấp email từ chối các chữ ký DKIM với khóa ngắn hơn 1.024 bit, vì một số nhà cung cấp như Yahoo Mail, Mailfence, và Tuta đã chấp nhận chữ ký bị xâm phạm.</li>
+</ul>
+]]></description>
+            <link>https://dmarcchecker.app/articles/crack-512-bit-dkim-rsa-key</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-08T00:00:00.000ZPhá khóa DKIM 512-bit với chi phí dưới 8 đô la trên đám mây</guid>
+            <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title
+      ><![CDATA[Microsoft ngụy trang Bing thành Google để đánh lừa những người tìm kiếm không chú ý]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Microsoft được cho là đang thay đổi giao diện của Bing để giống với giao diện của Google, có thể khiến người dùng vô tình sử dụng Bing. - Chiến lược này nhấn mạnh những thách thức của Microsoft trong việc cạnh tranh với thị phần đáng kể của Google trong ngành công cụ tìm kiếm. - Các nhà phê bình cho rằng chiến thuật này có thể ưu tiên các mục tiêu kinh doanh của Microsoft hơn là cung cấp trải nghiệm người dùng chân thực.</li>
+</ul>
+]]></description>
+            <link
+      >https://www.pcworld.com/article/2568916/microsoft-disguises-bing-as-google-to-fool-inattentive-searchers.html</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-08T00:00:00.000ZMicrosoft ngụy trang Bing thành Google để đánh lừa những người tìm kiếm không chú ý</guid>
+            <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Thất nghiệp lần đầu tiên trong sự nghiệp của tôi, và hai lần trong một năm]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Người viết chia sẻ kinh nghiệm bị sa thải hai lần trong một năm, nhấn mạnh tầm quan trọng của việc duy trì mối quan hệ tốt với các nhà tuyển dụng cũ và chuẩn bị cho việc tìm kiếm việc làm. - Các dấu hiệu chính của khả năng bị sa thải bao gồm thiếu tầm nhìn của công ty, sự phân tâm, mức độ sử dụng sản phẩm thấp và các cuộc họp công ty đột ngột, gợi ý rằng nhân viên nên cảnh giác. - Lời khuyên cho những người bị sa thải bao gồm cập nhật hồ sơ xin việc, nộp đơn xin trợ cấp thất nghiệp, tận dụng LinkedIn và mạng lưới quan hệ, hiểu mô hình kinh doanh và duy trì giá trị bản thân ngoài công việc.</li>
+</ul>
+]]></description>
+            <link>https://dillonshook.com/laid-off/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-08T00:00:00.000ZThất nghiệp lần đầu tiên trong sự nghiệp của tôi, và hai lần trong một năm</guid>
+            <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Con quay]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Fidget là một thư viện dựa trên Rust được thiết kế để xử lý các biểu thức toán học quy mô lớn, đặc biệt cho các bề mặt ẩn, vốn là các bề mặt nhỏ gọn và hỗ trợ các phép toán như hợp và giao. - Thư viện được cấu trúc thành ba lớp: giao diện (chuyển đổi kịch bản thành bytecode), backend (đánh giá biểu thức một cách hiệu quả), và các bản demo, với sự hỗ trợ cho SIMD (Single Instruction, Multiple Data) và phân biệt tự động. - Fidget hiện có sẵn công khai trên GitHub theo giấy phép MPL 2.0, với kế hoạch tương lai cho tích hợp GPU và cải thiện lưới, khuyến khích sự khám phá và phát triển bởi người dùng.</li>
+</ul>
+]]></description>
+            <link>https://www.mattkeeter.com/projects/fidget/</link>
+            <guid isPermaLink="false">2025-01-08T00:00:00.000ZCon quay</guid>
+            <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Phục Hưng Servo: 2023-2024]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Igalia đã hồi sinh dự án Servo, một động cơ trình duyệt thử nghiệm ban đầu được tạo ra bởi Mozilla, bằng cách tiếp quản việc bảo trì vào tháng 1 năm 2023. - Tiến bộ đáng kể bao gồm nâng cấp các phụ thuộc, cải thiện tích hợp liên tục (CI) và công cụ, mở rộng hỗ trợ cộng đồng, và thêm hỗ trợ cho Android và OpenHarmony. - Dự án đã huy động được hơn 24.500 đô la tiền quyên góp, với các mục tiêu tương lai là trở thành động cơ web mặc định cho các ứng dụng Rust và phát triển một trình duyệt web đầy đủ tính năng, mặc dù gặp phải những thách thức như cạnh tranh và tài trợ.</li>
+</ul>
+]]></description>
+            <link>https://blogs.igalia.com/mrego/servo-revival-2023-2024/</link>
+            <guid isPermaLink="false">2025-01-08T00:00:00.000ZPhục Hưng Servo: 2023-2024</guid>
+            <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Một ngày trong cuộc sống của một nhóm lừa đảo qua giọng nói nổi tiếng]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Apple và Google đã đưa ra cảnh báo về các vụ lừa đảo qua điện thoại, tuy nhiên một nhóm có tên &quot;Crypto Chameleon&quot; đã lợi dụng dịch vụ của họ để thực hiện các cuộc tấn công lừa đảo, dẫn đến tổn thất tài chính đáng kể cho các nạn nhân như nhà đầu tư tiền điện tử Tony, người đã mất 4,7 triệu đô la.</li>
+<li>Nhóm lừa đảo sử dụng các phương pháp tinh vi, bao gồm các bộ công cụ lừa đảo bắt chước các trang xác thực và các cuộc gọi hỗ trợ giả mạo của Apple, với các vai trò như Người gọi, Người điều hành, Người rút tiền và Chủ sở hữu để thực hiện các vụ lừa đảo của họ.</li>
+<li>Mặc dù có những sự phản bội nội bộ, các nhóm tội phạm mạng này vẫn tiếp tục phát triển mạnh trên các nền tảng như Telegram và Discord, với trọng tâm là nhắm vào những cá nhân giàu có, đặc biệt là những người sở hữu tài sản tiền điện tử.</li>
+</ul>
+]]></description>
+            <link>https://krebsonsecurity.com/2025/01/a-day-in-the-life-of-a-prolific-voice-phishing-crew/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-08T00:00:00.000ZMột ngày trong cuộc sống của một nhóm lừa đảo qua giọng nói nổi tiếng</guid>
+            <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Streets GL – 3D OpenStreetMap]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://streets.gl/#47.35245,8.50958,21.25,42.00,459.10</link>
+            <guid isPermaLink="false">2025-01-08T00:00:00.000ZStreets GL – 3D OpenStreetMap</guid>
+            <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title
+      ><![CDATA[Chào tạm biệt chơi game trên Windows? SteamOS chính thức mở rộng ra ngoài Steam Deck]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Lenovo Legion Go S sẽ là thiết bị không phải của Valve đầu tiên chính thức &quot;Được hỗ trợ bởi SteamOS,&quot; cho thấy một sự chuyển đổi đáng kể từ Windows đối với các máy tính chơi game.</li>
+<li>Phiên bản SteamOS của thiết bị sẽ có giá phải chăng hơn, bắt đầu từ $500, so với phiên bản Windows có giá $730.</li>
+<li>Việc Valve lên kế hoạch phát hành phiên bản beta của SteamOS để cài đặt cá nhân có thể thách thức sự thống trị của Windows trong lĩnh vực chơi game trên PC, thúc đẩy một sự chuyển dịch rộng rãi hơn sang chơi game dựa trên Linux.</li>
+</ul>
+]]></description>
+            <link
+      >https://arstechnica.com/gaming/2025/01/bye-bye-windows-gaming-steamos-officially-expands-past-the-steam-deck/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-08T00:00:00.000ZChào tạm biệt chơi game trên Windows? SteamOS chính thức mở rộng ra ngoài Steam Deck</guid>
+            <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Chương trình của tôi với LLMs như thế nào]]></title>
             <description

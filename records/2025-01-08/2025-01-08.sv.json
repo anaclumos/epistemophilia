@@ -1,0 +1,218 @@
+[
+  {
+    "id": 42627227,
+    "title": "Misstag som ingenjörer gör i stora etablerade kodbaser",
+    "originLink": "https://www.seangoedecke.com/large-established-codebases/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42627227",
+    "commentBody": "",
+    "originSummary": [
+      "Att arbeta i stora, etablerade kodbaser, ofta med miljontals rader kod och involverande hundratals ingenjörer, innebär betydande utmaningar för mjukvaruingenjörer. - Ett vanligt misstag är inkonsekvens, där ingenjörer ignorerar befintliga kodmönster och implementerar funktioner isolerat, vilket kan leda till underhållsproblem och hindra framtida förbättringar. - För att effektivt arbeta inom stora kodbaser bör ingenjörer undersöka befintliga mönster, förstå kodbasens produktionspåverkan, vara försiktiga med beroenden och noggrant ta bort onödig kod för att bibehålla kvalitet och värde."
+    ],
+    "commentSummary": [
+      "Ingenjörer i stora, etablerade kodbaser stöter ofta på utmaningar med inkonsekvens och odokumenterade metoder, vilket kräver ett fokus på personlig kodkvalitet och dokumentation. - Att balansera förbättringar med att upprätthålla lokal konsekvens är avgörande, särskilt när den befintliga kodbasen är inkonsekvent, medan engagemang med det bredare teamet kan hjälpa till att anpassa metoder. - Det slutgiltiga målet är att förbättra kodbasens funktionalitet och underhållbarhet, vilket kräver pragmatism och anpassning till befintliga mönster."
+    ],
+    "points": 683,
+    "commentCount": 303,
+    "retryCount": 0,
+    "time": 1736282675
+  },
+  {
+    "id": 42627453,
+    "title": "Magiska/tragiska e-postlänkar: gör dem inte till det enda alternativet",
+    "originLink": "https://recyclebin.zip/posts/annoyinglinks/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42627453",
+    "commentBody": "",
+    "originSummary": [
+      "Magiska länkar erbjuder en lösenordsfri inloggningsmetod via e-postlänkar, vilket ger ökad säkerhet men kan vara besvärligt på grund av e-postförseningar och användning av flera enheter.",
+      "De kan utgöra säkerhetsrisker genom att uppmuntra användare att komma åt personliga e-postmeddelanden på arbetsenheter, vilket understryker behovet av alternativ som engångslösenord (OTP).",
+      "För en förbättrad användarupplevelse, särskilt för tekniskt kunniga användare, rekommenderas lösenordsnycklar som ett mer flexibelt och säkert alternativ."
+    ],
+    "commentSummary": [
+      "Magiska länkar, som används för autentisering, står inför tillförlitlighetsproblem på grund av e-postproblem och kan driva användare mot biometrik, som kan tvingas fram juridiskt till skillnad från lösenord. - Passnycklar föreslås som ett säkrare och mer användarvänligt alternativ till magiska länkar, men deras införande pågår fortfarande, med många tjänster som ännu inte har implementerat dem. - Diskussionen om att balansera säkerhet och användbarhet i autentiseringsmetoder är fortfarande aktiv, vilket belyser utmaningarna i att hitta en optimal lösning."
+    ],
+    "points": 653,
+    "commentCount": 460,
+    "retryCount": 0,
+    "time": 1736283984
+  },
+  {
+    "id": 42631873,
+    "title": "Operativsystem på 1 000 rader – Intro",
+    "originLink": "https://operating-system-in-1000-lines.vercel.app/en",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42631873",
+    "commentBody": "",
+    "originSummary": [
+      "Denna bok vägleder läsarna genom att bygga ett litet operativsystem från grunden, och täcker viktiga funktioner som kontextväxling, paging och filoperationer i C, allt inom cirka 1 000 rader kod.",
+      "Det betonar att lära sig nya felsökningstekniker, särskilt för utmaningar som startprocessen och sidindelning, och erbjuder nedladdningsbara exempel på GitHub.",
+      "Denna bok är licensierad under CC BY 4.0, med kod under MIT-licensen, och kräver förtrogenhet med C och en UNIX-liknande miljö som förkunskaper."
+    ],
+    "commentSummary": [
+      "\"Operativsystem på 1 000 rader\" är en bok som vägleder läsare i att skapa ett operativsystem från grunden med hjälp av vilket programmeringsspråk som helst, inte begränsat till C.",
+      "Den boken betonar viktiga komponenter i ett operativsystem, undviker en traditionell UNIX-liknande struktur och syftar till att vara ett engagerande och kreativt projekt.",
+      "Den inbjuder till bidrag och feedback, erbjuder innehåll i Markdown-format och fungerar som en värdefull resurs för att lära sig och experimentera med OS-utveckling."
+    ],
+    "points": 602,
+    "commentCount": 72,
+    "retryCount": 0,
+    "time": 1736320730
+  },
+  {
+    "id": 42633501,
+    "title": "Knäcka en 512-bitars DKIM-nyckel för mindre än 8 dollar i molnet",
+    "originLink": "https://dmarcchecker.app/articles/crack-512-bit-dkim-rsa-key",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42633501",
+    "commentBody": "",
+    "originSummary": [
+      "En studie av SPF (Sender Policy Framework), DKIM (DomainKeys Identified Mail) och DMARC (Domain-based Message Authentication, Reporting, and Conformance) poster för de 1 miljon största webbplatserna avslöjade över 1 700 offentliga DKIM-nycklar kortare än 1 024 bitar, vilka anses osäkra. - Forskare lyckades knäcka en 512-bitars DKIM-nyckel från redfin.com med hjälp av Python och CADO-NFS för under 8 dollar på en molnserver, vilket demonstrerar sårbarheten hos korta nycklar. - Studien betonar behovet av att e-postleverantörer avvisar DKIM-signaturer med nycklar kortare än 1 024 bitar, eftersom vissa leverantörer som Yahoo Mail, Mailfence och Tuta accepterade den komprometterade signaturen."
+    ],
+    "commentSummary": [
+      "Att knäcka en 512-bitars DKIM (DomainKeys Identified Mail) nyckel är nu överkomligt, och kostar mindre än 8 dollar med hjälp av molntjänster, vilket belyser sårbarheten hos föråldrade krypteringsmetoder.",
+      "Diskussionen betonar nödvändigheten av starkare DKIM-nycklar och utmaningarna i att balansera säkerhet med användarvänlighet, eftersom många system fortfarande förlitar sig på föråldrade nycklar, vilket utgör betydande säkerhetsrisker.",
+      "Konversationen understryker de bredare konsekvenserna för e-postsäkerhet och det akuta behovet av uppdaterade standarder för att skydda mot utvecklande hot."
+    ],
+    "points": 422,
+    "commentCount": 203,
+    "retryCount": 0,
+    "time": 1736339554
+  },
+  {
+    "id": 42626431,
+    "title": "Microsoft maskerar Bing som Google för att lura ouppmärksamma sökare",
+    "originLink": "https://www.pcworld.com/article/2568916/microsoft-disguises-bing-as-google-to-fool-inattentive-searchers.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42626431",
+    "commentBody": "",
+    "originSummary": [
+      "Microsoft rapporteras ändra Bings utseende för att likna Googles gränssnitt, vilket potentiellt kan vilseleda användare att använda Bing oavsiktligt. - Denna strategi understryker Microsofts utmaningar i att konkurrera med Googles betydande marknadsandel inom sökmotorindustrin. - Kritiker menar att denna taktik kan prioritera Microsofts affärsmål framför att erbjuda en äkta användarupplevelse."
+    ],
+    "commentSummary": [
+      "Microsoft ändrar Bings utseende för att likna Google när användare söker efter \"Google\" på Bing, och utnyttjar därmed Googles varumärkesigenkänning.",
+      "Denna taktik är kontroversiell, där vissa ser den som vilseledande och andra som ett strategiskt drag för att behålla användare som kanske inte märker skillnaden.",
+      "Juridiska experter påpekar att även om Google potentiellt skulle kunna stämma, skulle det vara svårt att bevisa bedrägeri utan tydlig varumärkesintrång, vilket belyser Microsofts konkurrensstrategi på sökmotormarknaden."
+    ],
+    "points": 284,
+    "commentCount": 206,
+    "retryCount": 0,
+    "time": 1736278653
+  },
+  {
+    "id": 42627567,
+    "title": "Uppsagd för första gången i min karriär, och två gånger på ett år",
+    "originLink": "https://dillonshook.com/laid-off/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42627567",
+    "commentBody": "",
+    "originSummary": [
+      "Författaren delar med sig av sin erfarenhet av att bli uppsagd två gånger på ett år och betonar vikten av att upprätthålla goda relationer med tidigare arbetsgivare samt att vara förberedd för jobbsökningar. - Viktiga tecken på potentiella uppsägningar inkluderar brist på företagsvision, distraktioner, låg produktanvändning och plötsliga företagsmöten, vilket antyder att anställda bör vara vaksamma. - Råd för de som blivit uppsagda inkluderar att uppdatera CV:n, ansöka om arbetslöshetsersättning, utnyttja LinkedIn och nätverkande, förstå affärsmodeller och att upprätthålla självvärde bortom anställning."
+    ],
+    "commentSummary": [
+      "Författaren, som har upplevt två uppsägningar på ett år, betonar vikten av att använda ett enkelt, linjärt CV-format för att förbättra svarsfrekvensen från Applicant Tracking Systems (ATS). - ATS misstolkar ofta moderna CV-format, vilket kan påverka resultatet av jobbansökningar negativt; att förenkla CV:n och fokusera på arbetsuppgifter kan mildra detta problem. - Nätverkande, att upprätthålla goda relationer och bygga en mångsidig kompetens är avgörande strategier för karriärstabilitet och säkerhet i en utmanande arbetsmarknad."
+    ],
+    "points": 260,
+    "commentCount": 238,
+    "retryCount": 0,
+    "time": 1736284464
+  },
+  {
+    "id": 42634624,
+    "title": "Fippla",
+    "originLink": "https://www.mattkeeter.com/projects/fidget/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42634624",
+    "commentBody": "",
+    "originSummary": [
+      "Fidget är ett Rust-baserat bibliotek utformat för att hantera storskaliga matematiska uttryck, särskilt för implicita ytor, som är kompakta och stöder operationer som union och snitt. - Biblioteket är strukturerat i tre lager: frontend (konverterar skript till bytekod), backend (utvärderar uttryck effektivt) och demos, med stöd för SIMD (Single Instruction, Multiple Data) och automatisk differentiering. - Fidget är nu offentligt tillgängligt på GitHub under MPL 2.0-licensen, med framtida planer för GPU-integration och förbättrad meshing, vilket uppmuntrar användare till utforskning och utveckling."
+    ],
+    "commentSummary": [
+      "Fidget, ett projekt av Matt Keeter, utforskar olika områden inom datavetenskap, inklusive datastrukturer, algoritmer, kompilatorer och grafik, vilket väcker intresse för dess potentiella tillämpningar inom områden som 3D-utskrift och CAD (datorstödd design).",
+      "Även om det inte stöder STEP (Standard för utbyte av produktmodelldata) export på grund av olika datarepresentationer, erbjuder Fidget andra funktioner och inkluderar bindningar för Rhai, ett skriptspråk för Rust.",
+      "Projektet har inspirerat kreativa kodningsinitiativ och diskussioner, vilket belyser dess mångsidighet och innovativa potential inom teknikgemenskapen."
+    ],
+    "points": 240,
+    "commentCount": 23,
+    "retryCount": 0,
+    "time": 1736346658
+  },
+  {
+    "id": 42628414,
+    "title": "Servoåterupplivning: 2023-2024",
+    "originLink": "https://blogs.igalia.com/mrego/servo-revival-2023-2024/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42628414",
+    "commentBody": "",
+    "originSummary": [
+      "Igalia revitaliserade Servo-projektet, en experimentell webbläsarmotor som ursprungligen skapades av Mozilla, genom att ta över dess underhåll i januari 2023. - Betydande framsteg inkluderar uppgradering av beroenden, förbättring av kontinuerlig integration (CI) och verktyg, utökning av gemenskapsstöd och tillägg av stöd för Android och OpenHarmony. - Projektet har samlat in över 24 500 dollar i donationer, med framtida mål att bli en standardwebbmotor för Rust-applikationer och utveckla en fullfjädrad webbläsare, trots utmaningar som konkurrens och finansiering."
+    ],
+    "commentSummary": [
+      "Servo, en webbläsarmotor, upplever en återupplivning med uppdateringar och tar nu emot donationer genom Open Collective och GitHub-sponsorer. - Igalia, en betydande bidragsgivare till Servo, är också involverad i Chromium-utveckling och betonar vikten av olika webbläsarmotorer. - Trots tidigare motgångar, som att Mozilla stoppade dess utveckling, förblir Servo aktiv, med diskussioner om fördelarna med att skriva om i Rust och förhoppningar om framtida finansiering."
+    ],
+    "points": 238,
+    "commentCount": 83,
+    "retryCount": 0,
+    "time": 1736288712
+  },
+  {
+    "id": 42629163,
+    "title": "En dag i livet för en produktiv röstfiskningsgrupp",
+    "originLink": "https://krebsonsecurity.com/2025/01/a-day-in-the-life-of-a-prolific-voice-phishing-crew/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42629163",
+    "commentBody": "",
+    "originSummary": [
+      "Apple och Google har utfärdat varningar om telefonsvindel, men en grupp kallad \"Crypto Chameleon\" utnyttjar deras tjänster för att genomföra nätfiskeattacker, vilket resulterar i betydande ekonomiska förluster för offer som kryptovalutainvesteraren Tony, som förlorade 4,7 miljoner dollar.",
+      "Phishingligan använder sofistikerade metoder, inklusive phishing-kit som efterliknar autentiseringssidor och falska Apple-supportsamtal, med roller som Uppringare, Operatör, Dränerare och Ägare för att genomföra sina bedrägerier.",
+      "Trots interna förräderier fortsätter dessa cyberkriminella grupper att frodas på plattformar som Telegram och Discord, med fokus på att rikta in sig på förmögna individer, särskilt de med kryptovalutatillgångar."
+    ],
+    "commentSummary": [
+      "Ett lantligt bensinstation i Ohio blev offer för en röstfiskebedrägeri, där bedragare utgav sig för att vara stationen för att begära kreditkortsbetalningar via telefon med hjälp av falsk uppringar-ID. - Händelsen understryker den potentiella ökningen av sådana bedrägerier med användning av automatiseringsverktyg, vilket betonar behovet av förbättrade säkerhetsåtgärder. - Cybersäkerhetsjournalisten Brian Krebs, känd för att avslöja onlinebedrägerier, upplevde svårigheter när Akamai upphörde med DDoS-skydd för hans webbplats, vilket fick Google att ge stöd, och belyser de pågående utmaningarna inom cybersäkerhet."
+    ],
+    "points": 237,
+    "commentCount": 76,
+    "retryCount": 0,
+    "time": 1736293903
+  },
+  {
+    "id": 42626964,
+    "title": "Streets GL – 3D OpenStreetMap",
+    "originLink": "https://streets.gl/#47.35245,8.50958,21.25,42.00,459.10",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42626964",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Streets GL är ett 3D OpenStreetMap-projekt som gör det möjligt för användare att utforska detaljerade 3D-kartor, även om vissa användare har noterat att OSM-data är föråldrade och att vissa funktioner, som broar, har problem.",
+      "Användare har föreslagit förbättringar, inklusive att använda Cloudflare för snabbare laddning, uppdatera byggnadsdata och integrera höjddata för att förbättra den visuella upplevelsen.",
+      "Projektet stöder GPX- och FIT-filuppladdningar för GPS-spår, vilket möjliggör interaktion med kartan via tangentbords- och muskontroller."
+    ],
+    "points": 212,
+    "commentCount": 46,
+    "retryCount": 0,
+    "time": 1736281201
+  },
+  {
+    "id": 42633269,
+    "title": "Adjö Windows-spel? SteamOS expanderar officiellt bortom Steam Deck",
+    "originLink": "https://arstechnica.com/gaming/2025/01/bye-bye-windows-gaming-steamos-officially-expands-past-the-steam-deck/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42633269",
+    "commentBody": "",
+    "originSummary": [
+      "Lenovos Legion Go S kommer att vara den första icke-Valve-enheten som officiellt är \"Driven av SteamOS\", vilket indikerar en betydande förändring från Windows för spel-PC.",
+      "SteamOS-versionen av enheten kommer att vara mer prisvärd och börja på $500, jämfört med Windows-versionen som kostar $730.",
+      "Valves plan att släppa en betaversion av SteamOS för personliga installationer kan utmana Windows dominans inom PC-spel, vilket kan främja en bredare övergång mot Linux-baserat spelande."
+    ],
+    "commentSummary": [
+      "SteamOS utökar sin räckvidd bortom Steam Deck och presenterar sig som ett trovärdigt alternativ till Windows för spelentusiaster.",
+      "Användningen av Proton, ett kompatibilitetslager, gör det möjligt för de flesta spel att köras effektivt på Linux, även om vissa flerspelarspel med anti-fusk system på kärnnivå kan stöta på problem.",
+      "Med verktyg som Heroic och Lutris som förenklar tillgången till spel från olika plattformar, erbjuder SteamOS en strömlinjeformad, konsolliknande upplevelse, vilket potentiellt utmanar Windows dominans inom spelbranschen när fler enheter antar det."
+    ],
+    "points": 194,
+    "commentCount": 256,
+    "retryCount": 0,
+    "time": 1736337370
+  }
+]

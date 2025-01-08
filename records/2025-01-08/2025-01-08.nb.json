@@ -1,0 +1,218 @@
+[
+  {
+    "id": 42627227,
+    "title": "Fouten die ingenieurs maken in grote gevestigde codebasissen",
+    "originLink": "https://www.seangoedecke.com/large-established-codebases/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42627227",
+    "commentBody": "",
+    "originSummary": [
+      "Werken in grote, gevestigde codebases, vaak met miljoenen regels code en waarbij honderden ingenieurs betrokken zijn, brengt aanzienlijke uitdagingen met zich mee voor software-ingenieurs. - Een veelgemaakte fout is inconsistentie, waarbij ingenieurs bestaande codepatronen negeren en functies geïsoleerd implementeren, wat kan leiden tot onderhoudsproblemen en toekomstige verbeteringen kan belemmeren. - Om effectief te werken binnen grote codebases, moeten ingenieurs bestaande patronen onderzoeken, de impact van de codebase op de productie begrijpen, voorzichtig zijn met afhankelijkheden en zorgvuldig onnodige code verwijderen om kwaliteit en waarde te behouden."
+    ],
+    "commentSummary": [
+      "Engineers in grote, gevestigde codebases worden vaak geconfronteerd met uitdagingen met inconsistentie en niet-gedocumenteerde praktijken, wat een focus op persoonlijke codekwaliteit en documentatie noodzakelijk maakt. - Het balanceren van verbeteringen met het behouden van lokale consistentie is cruciaal, vooral wanneer de bestaande codebase inconsistent is, terwijl betrokkenheid bij het bredere team kan helpen om praktijken op één lijn te brengen. - Het uiteindelijke doel is om de functionaliteit en onderhoudbaarheid van de codebase te verbeteren, wat pragmatisme en aanpassing aan bestaande patronen vereist."
+    ],
+    "points": 683,
+    "commentCount": 303,
+    "retryCount": 0,
+    "time": 1736282675
+  },
+  {
+    "id": 42627453,
+    "title": "Magische/tragische e-maillinks: maak ze niet de enige optie",
+    "originLink": "https://recyclebin.zip/posts/annoyinglinks/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42627453",
+    "commentBody": "",
+    "originSummary": [
+      "Magic Links bieden een wachtwoordloze inlogmethode via e-maillinks, wat verbeterde beveiliging biedt, maar ongemakkelijk kan zijn vanwege e-mailvertragingen en het gebruik van meerdere apparaten.",
+      "Ze kunnen veiligheidsrisico's met zich meebrengen door gebruikers aan te moedigen persoonlijke e-mails op werkapparaten te openen, wat de noodzaak benadrukt van alternatieven zoals eenmalige wachtwoorden (OTPs).",
+      "Voor een verbeterde gebruikerservaring, vooral voor technisch onderlegde gebruikers, worden toegangssleutels aanbevolen als een flexibelere en veiligere optie."
+    ],
+    "commentSummary": [
+      "Magische lenker, brukt for autentisering, står overfor pålitelighetsproblemer på grunn av e-postproblemer og kan presse brukere mot biometrikk, som kan bli juridisk pålagt i motsetning til passord. - Passnøkler foreslås som et mer sikkert og brukervennlig alternativ til magiske lenker, men deres adopsjon pågår fortsatt, med mange tjenester som ennå ikke har implementert dem. - Diskusjonen om å balansere sikkerhet og brukervennlighet i autentiseringsmetoder forblir aktiv, og fremhever utfordringene med å finne en optimal løsning."
+    ],
+    "points": 653,
+    "commentCount": 460,
+    "retryCount": 0,
+    "time": 1736283984
+  },
+  {
+    "id": 42631873,
+    "title": "Besturingssysteem in 1.000 Regels – Intro",
+    "originLink": "https://operating-system-in-1000-lines.vercel.app/en",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42631873",
+    "commentBody": "",
+    "originSummary": [
+      "Het boek begeleidt lezers bij het bouwen van een klein besturingssysteem vanaf nul, waarbij essentiële functies zoals contextomschakeling, paginering en bestandsbewerkingen in C worden behandeld, allemaal binnen ongeveer 1.000 regels code.",
+      "Het benadrukt het leren van nieuwe foutopsporingstechnieken, met name voor uitdagingen zoals het opstartproces en paginering, en biedt downloadbare voorbeelden op GitHub.",
+      "Het boek is gelicentieerd onder CC BY 4.0, met code onder de MIT-licentie, en vereist bekendheid met C en een UNIX-achtige omgeving als vereisten."
+    ],
+    "commentSummary": [
+      "Het boek 'Operating System in 1,000 Lines' begeleidt lezers bij het creëren van een besturingssysteem vanaf nul met behulp van elke programmeertaal, niet beperkt tot C.",
+      "Het boek legt de nadruk op essentiële componenten van een besturingssysteem, vermijdt een traditionele UNIX-achtige structuur, en streeft ernaar een boeiend en creatief project te zijn.",
+      "Het nodigt uit tot bijdragen en feedback, biedt inhoud in Markdown-indeling en dient als een waardevolle bron voor het leren en experimenteren met OS-ontwikkeling."
+    ],
+    "points": 602,
+    "commentCount": 72,
+    "retryCount": 0,
+    "time": 1736320730
+  },
+  {
+    "id": 42633501,
+    "title": "Een 512-bits DKIM-sleutel kraken voor minder dan $8 in de cloud",
+    "originLink": "https://dmarcchecker.app/articles/crack-512-bit-dkim-rsa-key",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42633501",
+    "commentBody": "",
+    "originSummary": [
+      "Een studie van de SPF (Sender Policy Framework), DKIM (DomainKeys Identified Mail) en DMARC (Domain-based Message Authentication, Reporting, and Conformance) records van de top 1 miljoen websites onthulde meer dan 1.700 publieke DKIM-sleutels korter dan 1.024 bits, die als onveilig worden beschouwd. - Onderzoekers kraakten met succes een 512-bits DKIM-sleutel van redfin.com met behulp van Python en CADO-NFS voor minder dan $8 op een cloudserver, waarmee de kwetsbaarheid van korte sleutels werd aangetoond. - De studie benadrukt de noodzaak voor e-mailproviders om DKIM-handtekeningen met sleutels korter dan 1.024 bits te weigeren, aangezien sommige providers zoals Yahoo Mail, Mailfence en Tuta de gecompromitteerde handtekening accepteerden."
+    ],
+    "commentSummary": [
+      "Het kraken van een 512-bits DKIM (DomainKeys Identified Mail) sleutel is nu betaalbaar, met kosten van minder dan $8 met behulp van clouddiensten, wat de kwetsbaarheid van verouderde versleutelingsmethoden benadrukt.",
+      "De discussie benadrukt de noodzaak van sterkere DKIM-sleutels en de uitdagingen bij het balanceren van beveiliging met bruikbaarheid, aangezien veel systemen nog steeds afhankelijk zijn van verouderde sleutels, wat aanzienlijke beveiligingsrisico's met zich meebrengt.",
+      "Het gesprek benadrukt de bredere implicaties voor e-mailbeveiliging en de dringende behoefte aan bijgewerkte standaarden om te beschermen tegen evoluerende bedreigingen."
+    ],
+    "points": 422,
+    "commentCount": 203,
+    "retryCount": 0,
+    "time": 1736339554
+  },
+  {
+    "id": 42626431,
+    "title": "Microsoft vermomt Bing als Google om onoplettende zoekers te misleiden",
+    "originLink": "https://www.pcworld.com/article/2568916/microsoft-disguises-bing-as-google-to-fool-inattentive-searchers.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42626431",
+    "commentBody": "",
+    "originSummary": [
+      "Microsoft zou naar verluidt het uiterlijk van Bing aanpassen om te lijken op de interface van Google, wat gebruikers mogelijk misleidt om onbedoeld Bing te gebruiken. - Deze strategie benadrukt de uitdagingen van Microsoft om te concurreren met het aanzienlijke marktaandeel van Google in de zoekmachine-industrie. - Critici suggereren dat deze tactiek mogelijk de zakelijke doelstellingen van Microsoft boven het bieden van een authentieke gebruikerservaring stelt."
+    ],
+    "commentSummary": [
+      "Microsoft verandert het uiterlijk van Bing om op Google te lijken wanneer gebruikers op Bing naar 'Google' zoeken, gebruikmakend van de merkbekendheid van Google.",
+      "Deze tactiek is controversieel, waarbij sommigen het als misleidend beschouwen en anderen als een strategische zet om gebruikers te behouden die het verschil misschien niet opmerken.",
+      "Juridiske eksperter indikerer at selv om Google potensielt kunne saksøke, ville det være vanskelig å bevise bedrag uten klar krenkelse av varemerket, noe som fremhever Microsofts konkurransestrategi i søkemotormarkedet."
+    ],
+    "points": 284,
+    "commentCount": 206,
+    "retryCount": 0,
+    "time": 1736278653
+  },
+  {
+    "id": 42627567,
+    "title": "Voor het eerst in mijn carrière ontslagen, en dat twee keer in één jaar",
+    "originLink": "https://dillonshook.com/laid-off/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42627567",
+    "commentBody": "",
+    "originSummary": [
+      "De auteur deler sin erfaring med å bli sagt opp to ganger i løpet av ett år, og understreker viktigheten av å opprettholde gode relasjoner med tidligere arbeidsgivere og være forberedt på jobbsøk. - Viktige tegn på potensielle oppsigelser inkluderer mangel på selskapets visjon, distraksjoner, lav produktbruk og plutselige selskapsmøter, noe som antyder at ansatte bør være årvåkne. - Råd for de som blir sagt opp inkluderer å oppdatere CV-er, søke om arbeidsledighetstrygd, utnytte LinkedIn og nettverksbygging, forstå forretningsmodeller og opprettholde selvverdi utover ansettelse."
+    ],
+    "commentSummary": [
+      "De auteur, som har opplevd to oppsigelser på ett år, understreker viktigheten av å bruke et enkelt, lineært CV-format for å forbedre svarprosenten fra Applicant Tracking Systems (ATS). - ATS feiltolker ofte moderne CV-formater, noe som kan påvirke utfallet av jobbsøknader negativt; forenkling av CV-er og fokus på arbeidsoppgaver kan redusere dette problemet. - Nettverksbygging, opprettholdelse av gode relasjoner og utvikling av et mangfoldig ferdighetssett er avgjørende strategier for karrierestabilitet og sikkerhet i et utfordrende arbeidsmarked."
+    ],
+    "points": 260,
+    "commentCount": 238,
+    "retryCount": 0,
+    "time": 1736284464
+  },
+  {
+    "id": 42634624,
+    "title": "Friemel",
+    "originLink": "https://www.mattkeeter.com/projects/fidget/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42634624",
+    "commentBody": "",
+    "originSummary": [
+      "Fidget er et Rust-basert bibliotek designet for å håndtere storskala matematiske uttrykk, spesielt for implisitte overflater, som er kompakte og støtter operasjoner som union og snitt. - Biblioteket er strukturert i tre lag: frontend (konverterer skript til bytekode), backend (evaluerer uttrykk effektivt), og demoer, med støtte for SIMD (Single Instruction, Multiple Data) og automatisk differensiering. - Fidget er nå offentlig tilgjengelig på GitHub under MPL 2.0-lisensen, med fremtidige planer for GPU-integrasjon og forbedret meshing, som oppmuntrer til utforskning og utvikling av brukere."
+    ],
+    "commentSummary": [
+      "Fidget, een project van Matt Keeter, verkent diverse gebieden van de informatica, waaronder datastructuren, algoritmen, compilers en grafische weergave, en wekt interesse op vanwege de potentiële toepassingen in velden zoals 3D-printen en CAD (Computer-Aided Design).",
+      "Hoewel het geen ondersteuning biedt voor STEP (Standard for the Exchange of Product model data) export vanwege verschillende datarepresentaties, biedt Fidget andere functionaliteiten en bevat het bindings voor Rhai, een scripttaal voor Rust.",
+      "Het project heeft creatieve coderingsinitiatieven en discussies geïnspireerd, waarbij de veelzijdigheid en innovatieve potentieel in de techgemeenschap worden benadrukt."
+    ],
+    "points": 240,
+    "commentCount": 23,
+    "retryCount": 0,
+    "time": 1736346658
+  },
+  {
+    "id": 42628414,
+    "title": "Servo Revival: 2023-2024",
+    "originLink": "https://blogs.igalia.com/mrego/servo-revival-2023-2024/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42628414",
+    "commentBody": "",
+    "originSummary": [
+      "Igalia revitaliserte Servo-prosjektet, en eksperimentell nettlesermotor opprinnelig opprettet av Mozilla, ved å overta vedlikeholdet i januar 2023. - Betydelig fremgang inkluderer oppgradering av avhengigheter, forbedring av kontinuerlig integrasjon (CI) og verktøy, utvidelse av fellesskapsstøtte, og tillegg av støtte for Android og OpenHarmony. - Prosjektet har samlet inn over $24,500 i donasjoner, med fremtidige mål om å bli en standard nettmotor for Rust-applikasjoner og utvikle en fullverdig nettleser, til tross for utfordringer som konkurranse og finansiering."
+    ],
+    "commentSummary": [
+      "Servo, een browser-engine, beleeft een heropleving met updates en accepteert nu donaties via Open Collective en GitHub-sponsors. - Igalia, een belangrijke bijdrager aan Servo, is ook betrokken bij de ontwikkeling van Chromium, wat het belang van diverse browser-engines benadrukt. - Ondanks eerdere tegenslagen, zoals het stopzetten van de ontwikkeling door Mozilla, blijft Servo actief, met discussies over de voordelen van herschrijven in Rust en hoop op toekomstige financiering."
+    ],
+    "points": 238,
+    "commentCount": 83,
+    "retryCount": 0,
+    "time": 1736288712
+  },
+  {
+    "id": 42629163,
+    "title": "Een dag in het leven van een productieve stem-phishingploeg",
+    "originLink": "https://krebsonsecurity.com/2025/01/a-day-in-the-life-of-a-prolific-voice-phishing-crew/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42629163",
+    "commentBody": "",
+    "originSummary": [
+      "Apple en Google hebben waarschuwingen uitgegeven over telefoonscams, maar een groep genaamd \"Crypto Chameleon\" maakt misbruik van hun diensten om phishingaanvallen uit te voeren, wat leidt tot aanzienlijke financiële verliezen voor slachtoffers zoals cryptocurrency-investeerder Tony, die $4,7 miljoen verloor.",
+      "De phishingbende bruker sofistikerte metoder, inkludert phishing-sett som etterligner autentiseringssider og falske Apple-støttesamtaler, med roller som Oppringer, Operatør, Tømmer og Eier for å gjennomføre sine svindler.",
+      "Ondanks interne verraad blijven deze cybercriminele groepen gedijen op platforms zoals Telegram en Discord, met een focus op het richten op rijke individuen, vooral degenen met cryptocurrency-activa."
+    ],
+    "commentSummary": [
+      "Een benzinestation op het platteland van Ohio werd het slachtoffer van een voice phishing scam, waarbij oplichters zich voordeden als het station om via de telefoon creditcardbetalingen te vragen met behulp van een valse beller-ID. - Het incident benadrukt de mogelijke toename van dergelijke oplichting met het gebruik van automatiseringstools, wat de noodzaak van verbeterde beveiligingsmaatregelen onderstreept. - Cybersecurityjournalist Brian Krebs, bekend om het blootleggen van online oplichting, ondervond moeilijkheden toen Akamai stopte met DDoS-bescherming voor zijn site, waardoor Google ondersteuning bood, wat de voortdurende uitdagingen op het gebied van cybersecurity benadrukt."
+    ],
+    "points": 237,
+    "commentCount": 76,
+    "retryCount": 0,
+    "time": 1736293903
+  },
+  {
+    "id": 42626964,
+    "title": "Streets GL – 3D OpenStreetMap",
+    "originLink": "https://streets.gl/#47.35245,8.50958,21.25,42.00,459.10",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42626964",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Streets GL er et 3D OpenStreetMap-prosjekt som gjør det mulig for brukere å utforske detaljerte 3D-kart, selv om noen brukere har bemerket at OSM-dataene er utdaterte og at visse funksjoner, som broer, har problemer.",
+      "Gebruikers hebben verbeteringen voorgesteld, waaronder het gebruik van Cloudflare voor snellere laadtijden, het bijwerken van gebouwgegevens en het integreren van hoogtegegevens om de visuele ervaring te verbeteren.",
+      "Het project ondersteunt GPX- en FIT-bestandsuploads voor GPS-sporen, waardoor interactie met de kaart mogelijk is via toetsenbord- en muisbediening."
+    ],
+    "points": 212,
+    "commentCount": 46,
+    "retryCount": 0,
+    "time": 1736281201
+  },
+  {
+    "id": 42633269,
+    "title": "Vaarwel Windows-gaming? SteamOS breidt officieel uit voorbij de Steam Deck",
+    "originLink": "https://arstechnica.com/gaming/2025/01/bye-bye-windows-gaming-steamos-officially-expands-past-the-steam-deck/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42633269",
+    "commentBody": "",
+    "originSummary": [
+      "Lenovo's Legion Go S zal het eerste niet-Valve apparaat zijn dat officieel \"Powered by SteamOS\" is, wat wijst op een significante verschuiving van Windows voor gaming-pc's.",
+      "De SteamOS-versie van enheten vil være mer prisgunstig, med en startpris på $500, sammenlignet med Windows-versjonen som er priset til $730.",
+      "Het plan van Valve om een bètaversie van SteamOS uit te brengen voor persoonlijke installaties kan de dominantie van Windows in pc-gaming uitdagen en een bredere verschuiving naar Linux-gebaseerd gamen bevorderen."
+    ],
+    "commentSummary": [
+      "SteamOS breidt zich uit voorbij de Steam Deck en presenteert zich als een geloofwaardig alternatief voor Windows voor gamingliefhebbers.",
+      "Het gebruik van Proton, een compatibiliteitslaag, maakt het mogelijk dat de meeste spellen efficiënt draaien op Linux, hoewel sommige multiplayer-spellen met kernel-niveau anti-cheat systemen problemen kunnen ondervinden.",
+      "Met tools zoals Heroic en Lutris die de toegang tot games van verschillende platforms vereenvoudigen, biedt SteamOS een gestroomlijnde, console-achtige ervaring, wat mogelijk de dominantie van Windows in de gamingsector uitdaagt naarmate meer apparaten het adopteren."
+    ],
+    "points": 194,
+    "commentCount": 256,
+    "retryCount": 0,
+    "time": 1736337370
+  }
+]
