@@ -1,0 +1,218 @@
+[
+  {
+    "id": 42663231,
+    "title": "Vær opmærksom på Makefile-effekten",
+    "originLink": "https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42663231",
+    "commentBody": "",
+    "originSummary": [
+      "Effekten af \"Makefile\" beskriver praksis, hvor ingeniører kopierer og ændrer eksisterende komplekse konfigurationer, såsom Makefiles, i stedet for at skabe nye fra bunden. - Denne tilgang er udbredt i forskellige systemer, såsom Continuous Integration/Continuous Deployment (CI/CD) konfigurationer og build-systemer, og kan indikere alt for komplekse eller dårligt designede værktøjer. - Selvom det ikke er iboende negativt, kan Makefile-effekten hæmme læring, komplicere sikkerhed og føre til ineffektiv fejlfinding, hvilket fremhæver behovet for gennemtænkt værktøjsdesign, der tager højde for konfigurerbarhed og brugervenlighed."
+    ],
+    "commentSummary": [
+      "Effekten af 'Makefile' beskriver udvikleres tendens til at kopiere og ændre kode eller konfigurationer uden fuldt ud at forstå dem, ofte på grund af værktøjernes kompleksitet eller sjælden brug.",
+      "Dette fænomen er udbredt inden for programmerings- og konfigurationstasks, hvor udviklere bruger kendte løsninger for at spare tid og kræfter, hvilket potentielt kan føre til kode, der er svær at vedligeholde.",
+      "Diskussionen understreger behovet for at balancere brugen af skabeloner og eksisterende løsninger med at opnå en dybere forståelse af de involverede værktøjer og systemer."
+    ],
+    "points": 238,
+    "commentCount": 203,
+    "retryCount": 0,
+    "time": 1736568792
+  },
+  {
+    "id": 42661185,
+    "title": "Portaler og Quake",
+    "originLink": "https://30fps.net/pages/pvs-portals-and-quake/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42661185",
+    "commentBody": "",
+    "originSummary": [
+      "Artiklen er den første i serien \"Demystifying the PVS\", der fokuserer på Quakes forudberegnede synlighedssystem for at tackle overdraw, hvor pixels gengives flere gange. - Quake bruger portal culling og potentielt synlige sæt (PVS) ved at opdele verden i celler og portaler, forudberegne synlighed for at optimere rendering. - Artiklen introducerer Portal- og Leaf-klasserne i vis.py, en Python-gennemførelse af Quakes synlighedsalgoritme, og fremhæver brugen af en blad-til-blad synlighedsmatrix."
+    ],
+    "commentSummary": [
+      "Quake-niveau-designere anvendte \"hint\"-børster og \"områdeportaler\" for at optimere spillets ydeevne, en teknik der har været grundlæggende i 3D-grafik. - Spil som Prey og Portal bragte portaler i rampelyset for gameplay-mekanik, selvom konceptet har været brugt i rendering siden de tidlige 3D-grafik. - Unreal Engine 1 benyttede zoner til optimering, og nutidige motorer som Unreal Engine 5 fortsætter med at bruge lignende metoder for at forbedre renderingseffektiviteten."
+    ],
+    "points": 183,
+    "commentCount": 48,
+    "retryCount": 0,
+    "time": 1736549293
+  },
+  {
+    "id": 42660335,
+    "title": "Phi-4 fejlrettelser",
+    "originLink": "https://unsloth.ai/blog/phi4",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42660335",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Daniel Hanchen opdagede og løste fejl i Microsofts Phi-4 Large Language Model (LLM), såsom problemer med sætningsafslutninger og chat-skabelon-prompt. - Han konverterede Phi-4 til Llama-arkitekturen, hvilket forbedrede ydeevnen, og delte rettelserne på Hugging Face, en platform for maskinlæringsmodeller. - En Colab-notesbog til finjustering af Phi-4 er tilgængelig, og mens rettelserne forbedrede ydeevnen på nogle benchmarks, reducerede de den på andre; Phi-4-teamet arbejder på at integrere disse forbedringer i den oprindelige model."
+    ],
+    "points": 176,
+    "commentCount": 50,
+    "retryCount": 0,
+    "time": 1736543841
+  },
+  {
+    "id": 42661432,
+    "title": "Meget forkert matematik",
+    "originLink": "https://www.charlespetzold.com/blog/2025/01/Very-Wrong-Math.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42661432",
+    "commentBody": "",
+    "originSummary": [
+      "Et design- og konstruktionsfirma lavede en matematikfejl på Facebook, hvor de fejlagtigt beregnede Jordens radius til 4.333 fod, hvilket førte til en stærkt undervurderet omkreds på lidt over 5 miles.",
+      "Fejlen opstod ved beregning af buelængder uden at bruge Jordens faktiske radius, som er cirka 3.959 miles.",
+      "Indlægget fremhævede, at den ydre bue var mindre end 1% længere end den indre bue, hvilket antyder en potentiel reduktion i flyvetid på grund af nedsat luftmodstand."
+    ],
+    "commentSummary": [
+      "En YouTube-bygger hævdede fejlagtigt, at lodlinjer ville være parallelle på en flad jord, hvilket misforstod Jordens krumning, som er ubetydelig i sådanne målinger. - Diskussionen fremhævede intuitionens svigt i forståelsen af storskala-koncepter og adresserede teorier om en flad jord, misforståelser om tyngdekraften og Jordens rotations indvirkning på flyvning. - Samtalen undersøgte humoristisk vedholdenheden af forkerte overbevisninger og vanskeligheden ved at forklare videnskabelige koncepter til dem, der afviser etableret videnskab."
+    ],
+    "points": 170,
+    "commentCount": 91,
+    "retryCount": 0,
+    "time": 1736550656
+  },
+  {
+    "id": 42660942,
+    "title": "Bygning Bauble",
+    "originLink": "https://ianthehenry.com/posts/bauble/building-bauble/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42660942",
+    "commentBody": "",
+    "originSummary": [
+      "Bauble er et 3D-modellerings- og renderingsværktøj, der anvender signed distance functions (SDF'er) til at skabe komplekse former og animationer. - Oprindeligt et grundlæggende system til generering af GLSL-shadere, er Bauble blevet omskrevet for at inkludere funktioner som 3D-model eksport, interaktiv redigering og brugerdefineret belysning. - Værktøjet understøtter nu webindlejring, interaktiv vektoredigering og tilbyder omfattende dokumentation, hvilket gør det tilgængeligt for kreative projekter og brugere, der er interesserede i 3D-design."
+    ],
+    "commentSummary": [
+      "Building Bauble, et projekt præsenteret på ianthehenry.com, har skabt begejstring ved at fremvise magien og fornøjelsen ved programmering, især inden for kodning og grafik.",
+      "Projektet bliver rost for sin kreativitet og detaljerede beskrivelse, der inspirerer læsere til at genoptage uafsluttede projekter og udforske nye teknologier som Janet (et programmeringssprog) og GLSL (OpenGL Shading Language).",
+      "På trods af nogle tekniske problemer på Safari bliver projektet fejret for sin imponerende udførelse og engagerende udviklingshistorie, hvilket har sat gang i diskussioner om personlige projekter og brugen af RSS-læsere."
+    ],
+    "points": 164,
+    "commentCount": 26,
+    "retryCount": 0,
+    "time": 1736547735
+  },
+  {
+    "id": 42664400,
+    "title": "De fleste binære søgninger og mergesorts er defekte (2006)",
+    "originLink": "https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42664400",
+    "commentBody": "",
+    "originSummary": [
+      "I 2006 identificerede Joshua Bloch en fejl i binærsøgningsalgoritmen, som oprindeligt blev bemærket i Jon Bentleys \"Programming Pearls,\" hvor en overflow opstår, når 'low' og 'high' overstiger den maksimale int-værdi.",
+      "Denne fejl, der påvirker arrays med længder på 2^30 eller mere, var sjælden i 1980'erne, men er mere almindelig i dag og påvirker også mergesort og andre divide-and-conquer-algoritmer.",
+      "Bloch anbefaler at løse problemet ved at beregne midtpunktet som `int mid = low + ((high - low) / 2);`, hvilket fremhæver udfordringerne ved at skrive fejlfri kode og nødvendigheden af grundig testning."
+    ],
+    "commentSummary": [
+      "Adskillige binære søgninger og mergesorts er tilbøjelige til problemer med heltalsoverløb, især i ældre implementeringer, som fremhævet i en artikel fra 2006.",
+      "Artiklen understreger vigtigheden af at tage højde for grænsetilfælde og hardwarebegrænsninger i programmering, hvilket stadig er relevant i dag.",
+      "Udviklere rådes til at bruge indbyggede funktioner eller større heltalstyper for at forhindre sådanne fejl, hvilket understreger behovet for forsigtighed med datatyper og inputstørrelser."
+    ],
+    "points": 143,
+    "commentCount": 136,
+    "retryCount": 0,
+    "time": 1736585205
+  },
+  {
+    "id": 42665367,
+    "title": "Spore dine enheder via Apple FindMy-netværket i Go/TinyGo",
+    "originLink": "https://github.com/hybridgroup/go-haystack",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42665367",
+    "commentBody": "",
+    "originSummary": [
+      "Go Haystack muliggør sporing af personlige Bluetooth-enheder via Apples \"Find My\"-netværk uden at kræve Apple-hardware, ved at anvende OpenHaystack og Macless-Haystack med Go/TinyGo-værktøjer.",
+      "Brugere kan oprette deres egne beacons ved hjælp af TinyGo firmware på hardware som Adafruit Bluefruit boards og BBC Microbit, hvor opsætningen kræver et Apple ID med tofaktorgodkendelse (2FA).",
+      "Processen involverer installation af go-haystack-værktøjet, brug af kommandoer som `haystack scan` til at lokalisere enheder, generering af nøgler, flashing af enheden og upload af en JSON-fil til macless-haystack for enhedens synlighed i web-UI'en."
+    ],
+    "commentSummary": [
+      "Apple FindMy-netværket kan anvendes med Go/TinyGo til at spore enheder, hvilket tilbyder en måde at udvide netværket på uden at skulle bruge en Apple-konto.",
+      "Bekymringer om privatlivets fred afbødes af Apples design, og virksomheden har et stærkt ry for at opretholde brugernes privatliv, selvom nogle brugere forbliver forsigtige over for potentiel overvågning.",
+      "FindMy-netværket fungerer i to dele: Apple-enheder lokaliserer genstande, og brugerenheder uploader lokaliseringsdata til Apple, med en mulighed for brugere at deaktivere funktionen, hvis det ønskes."
+    ],
+    "points": 139,
+    "commentCount": 32,
+    "retryCount": 0,
+    "time": 1736597674
+  },
+  {
+    "id": 42665222,
+    "title": "Staten af Vim",
+    "originLink": "https://lwn.net/SubscriberLink/1002342/a8d8a17f30968b93/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42665222",
+    "commentBody": "",
+    "originSummary": [
+      "Efter Vim-grundlæggeren Bram Moolenaars bortgang i 2023 har Vim-fællesskabet reorganiseret sig for at sikre projektets fortsatte udvikling, med Christian Brabandt som den nuværende vedligeholder. - På VimConf 2024 blev det diskuteret, at teamet er blevet udvidet med fokus på at opdatere Vim-websiden, håndtere sikkerhed og forbedre kommunikationskanaler. - Vim forbliver i vedligeholdelsestilstand, hvor der prioriteres fællesskabets behov og integration af nye funktioner sker med omhu, samtidig med at der fortsat ydes støtte til ICCF Holland, en velgørenhedsorganisation oprettet af Moolenaar."
+    ],
+    "commentSummary": [
+      "Langvarige Vim-brugere reflekterer over editorens fremtid efter skaberen Bram Moolenaars bortgang, hvor nogle er tilfredse med dens nuværende stabilitet, mens andre udforsker alternativer som Neovim for moderne funktioner.",
+      "Neovim får opmærksomhed for sin understøttelse af Lua-scripting og moderne forbedringer, mens nogle brugere overvejer Emacs på grund af den opfattede fragmentering mellem Vim og Neovim.",
+      "Diskussioner blandt brugere omfatter emner som Treesitters ydeevne, Language Server Protocol (LSP) support og sammenligninger med Visual Studio Code (VSCode), hvilket fremhæver fleksibiliteten og stabiliteten af disse editorer."
+    ],
+    "points": 138,
+    "commentCount": 33,
+    "retryCount": 0,
+    "time": 1736595779
+  },
+  {
+    "id": 42659061,
+    "title": "Fladgøring af AST'er og andre compiler-datastrukturer (2023)",
+    "originLink": "https://www.cs.cornell.edu/~asampson/blog/flattening.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42659061",
+    "commentBody": "",
+    "originSummary": [
+      "Indlægget diskuterer datastruktur-fladning, en teknik for compilere, der optimerer abstrakte syntakstræer (AST'er) ved at bruge en enkelt array med indekser i stedet for pointers. - Denne metode forbedrer ydeevnen ved at forbedre hukommelseslokalitet, reducere referencestørrelse og forenkle hukommelsesstyring, hvilket resulterer i en 2,4× hastighedsforøgelse i en mikrobenchmark. - Teknikken anvendes især i Rust-projekter og tilbyder ergonomiske fordele, såsom lettere hukommelsesstyring, og sammenlignes med bytekodefortolkere for yderligere ydeevneforbedringer."
+    ],
+    "commentSummary": [
+      "Diskussionen fokuserer på at optimere abstrakte syntakstræer (AST'er) ved at gemme dem i flade, sammenhængende arrays for at forbedre ydeevne og hukommelseseffektivitet.",
+      "Metoden forbedrer cache-lokalitet og forenkler hukommelsesstyring, hvilket drager sammenligninger til teknikker i sprog som Lisp og Zig-kompilatoren.",
+      "Dialogen refererer også til historiske metoder og lignende teknikker i andre programmeringssprog, og understreger fordelene ved flade datastrukturer for komposabilitet og nem håndtering."
+    ],
+    "points": 137,
+    "commentCount": 36,
+    "retryCount": 0,
+    "time": 1736537030
+  },
+  {
+    "id": 42666572,
+    "title": "Af-smartificering af Marshall Uxbridge Bluetooth-højttaleren",
+    "originLink": "https://tomscii.sig7.se/2025/01/De-smarting-the-Marshall-Uxbridge",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42666572",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Diskussionen fokuserer på at modificere Marshall Uxbridge Bluetooth-højttaleren for at eliminere dens \"smarte\" funktioner, hvilket involverer tekniske aspekter som at designe et printkort (PCB) til digital I2S-indgang.",
+      "Brugere diskuterer rollen af Digital Signal Processing (DSP) i at opnå god lydkvalitet, hvor nogle understreger dens nødvendighed for at kompensere for hardwarebegrænsninger.",
+      "Diskussionen dækker også udfordringerne ved at modificere smarte enheder og overkommeligheden af moderne PCB-produktion og komponenter."
+    ],
+    "points": 119,
+    "commentCount": 33,
+    "retryCount": 0,
+    "time": 1736610122
+  },
+  {
+    "id": 42660377,
+    "title": "OpenAI's bot knuste denne syv-personers virksomheds websted 'som et DDoS-angreb'",
+    "originLink": "https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42660377",
+    "commentBody": "",
+    "originSummary": [
+      "Triplegangers' e-handelswebsted oplevede et DDoS-lignende angreb på grund af OpenAI's bot, der lavede titusindvis af forespørgsler for at skrabe over 65.000 produktsider. - Webstedet manglede en korrekt konfigureret robots.txt-fil til at blokere sådanne bots, hvilket førte til øgede AWS-omkostninger og bekymringer om datasikkerhed. - Denne hændelse understreger vigtigheden af, at AI-virksomheder indhenter tilladelse, før de skraber data, og fungerer som en advarsel for små virksomheder om at overvåge AI-botaktivitet."
+    ],
+    "commentSummary": [
+      "OpenAI's bot forårsagede overdreven trafik på en lille virksomheds hjemmeside, svarende til et Distributed Denial of Service (DDoS) angreb, hvilket fremhæver problemer med AI-bots, der overvælder hjemmesider.",
+      "Virksomheder som Read the Docs har oplevet lignende udfordringer med AI-bots, der genererer massiv trafik, på trods af at de bruger \"robots.txt\" til at håndtere webcrawlere.",
+      "Begivenheden understreger den igangværende debat om at balancere webtilgængelighed med beskyttelse mod aggressiv dataindsamling af AI-virksomheder, da nogle bots ignorerer \"robots.txt,\" hvilket kan føre til potentielle juridiske og økonomiske problemer for små webstedsejere."
+    ],
+    "points": 111,
+    "commentCount": 102,
+    "retryCount": 0,
+    "time": 1736544077
+  }
+]

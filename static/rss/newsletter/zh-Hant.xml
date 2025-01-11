@@ -15,12 +15,132 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Jan 2025 19:07:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jan 2025 19:29:06 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/zh-Hant.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-11]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/11&#39;</h2>
+<h1>2025-01-11</h1>
+<h2><a href="https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect">注意 Makefile 效應</a></h2>
+<ul>
+<li>「Makefile 效應」描述了工程師複製並修改現有複雜配置(如 Makefile)的做法，而不是從頭開始創建新的配置。- 這種方法在各種系統中很常見，例如持續整合/持續部署(CI/CD)配置和建置系統，並可能表明工具過於複雜或設計不佳。- 雖然這種做法本身並非負面，但 Makefile 效應可能阻礙學習、複雜化安全性並導致低效的除錯，這突顯了需要考慮可配置性和易用性的周到工具設計。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42663231">評論</a></h3>
+<ul>
+<li>「Makefile 效應」描述了開發人員在未完全理解的情況下，因工具複雜性或使用頻率低而傾向於複製和修改程式碼或配置的現象。</li>
+<li>這種現象在程式設計和配置任務中廣泛存在，開發人員使用已知的解決方案來節省時間和精力，但可能導致難以維護的程式碼。</li>
+<li>討論強調需要在使用範本和現有解決方案的同時，深入了解所涉及的工具和系統之間取得平衡。</li>
+</ul>
+<h2><a href="https://30fps.net/pages/pvs-portals-and-quake/">傳送門與雷神之鎚</a></h2>
+<ul>
+<li>「這篇文章是“解密 PVS”系列的第一篇，專注於 Quake 的預計算可見性系統，以解決像素多次渲染的過度繪製問題。- Quake 使用門戶剔除和潛在可見集(PVS)，通過將世界劃分為單元和門戶，預計算可見性以優化渲染。- 文章介紹了 vis.py 中的 Portal 和 Leaf 類，這是 Quake 可見性算法的 Python 重新實現，並強調使用葉到葉可見性矩陣。」</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42661185">評論</a></h3>
+<ul>
+<li>「Quake 的關卡設計師使用了“hint”刷子和“區域入口”來優化遊戲性能，這是一種在 3D 圖形中具有基礎性的技術。- 像 Prey 和 Portal 這樣的遊戲將入口帶入了遊戲機制的聚光燈下，儘管這個概念自早期 3D 圖形以來就已在渲染中使用。- Unreal Engine 1 使用區域來進行優化，而當代的引擎如 Unreal Engine 5 繼續使用類似的方法來增強渲染效率。」</li>
+</ul>
+<h2><a href="https://unsloth.ai/blog/phi4">Phi-4 錯誤修正</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42660335">評論</a></h3>
+<ul>
+<li>「Daniel Hanchen 發現並解決了 Microsoft 的 Phi-4 大型語言模型(LLM)中的錯誤，例如句子結尾問題和聊天模板提示。他將 Phi-4 轉換為 Llama 架構，提升了性能，並在 Hugging Face 平台上分享了這些修正。一個用於微調 Phi-4 的 Colab 筆記本已經推出，雖然這些修正提高了某些基準測試的性能，但在其他測試中卻有所下降；Phi-4 團隊正在努力將這些改進整合到原始模型中。」</li>
+</ul>
+<h2><a href="https://www.charlespetzold.com/blog/2025/01/Very-Wrong-Math.html">非常錯誤的數學</a></h2>
+<ul>
+<li>「一家設計和建築公司在 Facebook 上犯了一個數學錯誤，錯誤地計算地球半徑為 4,333 英尺，導致其周長被大幅低估為僅略超過 5 英里。」</li>
+<li>「錯誤源於計算弧長時未使用地球的實際半徑，約為 3,959 英里。」</li>
+<li>該文章指出，外弧比內弧長不到1%，這表明由於空氣阻力減少，飛行時間可能會縮短。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42661432">評論</a></h3>
+<ul>
+<li>一位 YouTube 建築師錯誤地聲稱在平坦的地球上鉛垂線會是平行的，這是對地球曲率的誤解，而在這類測量中曲率是可以忽略不計的。這次討論突顯了在理解大規模概念時直覺的失敗，並探討了平坦地球理論、重力誤解以及地球自轉對飛行的影響。對話幽默地檢視了錯誤信念的持續性以及向拒絕既定科學的人解釋科學概念的困難。</li>
+</ul>
+<h2><a href="https://ianthehenry.com/posts/bauble/building-bauble/">建築裝飾品</a></h2>
+<ul>
+<li>「Bauble 是一款 3D 建模和渲染工具，利用簽名距離函數(SDFs)來創建複雜的形狀和動畫。- 最初是一個用於生成 GLSL 著色器的基本系統，Bauble 已被重寫以包含 3D 模型匯出、互動編輯和自訂光照等功能。- 該工具現在支持網頁嵌入、互動向量編輯，並提供全面的文件說明，使其對於創意項目和對 3D 設計感興趣的用戶來說更加易於使用。」</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42660942">評論</a></h3>
+<ul>
+<li>Building Bauble 是一個在 ianthehenry.com 上展示的專案，透過展示程式設計的魔力和樂趣，特別是在編碼和圖形方面，激發了人們的興奮。</li>
+<li>該專案因其創意和詳細的撰寫而受到讚譽，激勵讀者重新審視未完成的專案並探索新技術，如 Janet(程式語言)和 GLSL(OpenGL著色語言)。</li>
+<li>儘管在 Safari 上出現了一些技術問題，該專案因其令人印象深刻的執行和引人入勝的開發故事而受到讚譽，並引發了關於個人專案和使用 RSS 閱讀器的討論。</li>
+</ul>
+<h2><a href="https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/">「幾乎所有的二元搜尋和合併排序都是有問題的(2006)」</a></h2>
+<ul>
+<li>「在 2006 年，Joshua Bloch 發現了一個二分搜尋演算法中的錯誤，這個錯誤最初是在 Jon Bentley 的《Programming Pearls》中提到的，當 &#39;low&#39; 和 &#39;high&#39; 的和超過整數的最大值時會發生溢位。」</li>
+<li>這個影響長度為 2^30 或以上的陣列的錯誤在 1980 年代很少見，但在今天卻更為常見，也影響到合併排序和其他分治算法。</li>
+<li>Bloch 建議透過計算中點來解決這個問題，方法是使用 <code>int mid = low + ((high - low) / 2);</code>，這強調了撰寫無錯誤程式碼的挑戰以及徹底測試的必要性。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42664400">評論</a></h3>
+<ul>
+<li>許多二元搜尋和合併排序在較舊的實作中容易出現整數溢位問題，這在2006年的一篇文章中被強調指出。</li>
+<li>這篇文章強調在程式設計中考慮邊緣情況和硬體限制的重要性，這在今天仍然具有相關性。</li>
+<li>建議開發人員使用內建函數或較大的整數類型來防止此類錯誤，強調在使用資料類型和輸入大小時需謹慎。</li>
+</ul>
+<h2><a href="https://github.com/hybridgroup/go-haystack">「透過 Apple FindMy 網路在 Go/TinyGo 中追蹤您的裝置」</a></h2>
+<ul>
+<li>Go Haystack 透過 Apple 的「Find My」網路，無需使用 Apple 硬體，即可追蹤個人藍牙裝置，並使用 OpenHaystack 和 Macless-Haystack 搭配 Go/TinyGo 工具。</li>
+<li>使用者可以在像是 Adafruit Bluefruit 板和 BBC Microbit 這類硬體上，使用 TinyGo 韌體來創建自己的信標，設置過程需要具備雙重驗證 (2FA) 的 Apple ID。</li>
+<li>該過程涉及安裝 go-haystack 工具，使用 <code>haystack scan</code> 等指令來定位設備，生成金鑰，燒錄設備，並將 JSON 檔案上傳到 macless-haystack，以便在網頁介面中顯示設備。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42665367">評論</a></h3>
+<ul>
+<li>「Apple FindMy 網路可以與 Go/TinyGo 結合使用來追蹤裝置，提供了一種不需要 Apple 帳號就能擴展網路的方法。」</li>
+<li>隱私問題因蘋果的設計而得到緩解，該公司在維護用戶隱私方面享有良好聲譽，儘管仍有一些用戶對潛在的監控保持警惕。</li>
+<li>「FindMy 網路運作分為兩個部分：Apple 裝置定位物品，以及用戶裝置上傳位置數據到 Apple，並提供用戶選擇是否停用此功能的選項。」</li>
+</ul>
+<h2><a href="https://lwn.net/SubscriberLink/1002342/a8d8a17f30968b93/">Vim 的現狀</a></h2>
+<ul>
+<li>隨著 Vim 創始人 Bram Moolenaar 於 2023 年辭世，Vim 社群已重新組織以確保專案的持續發展，目前由 Christian Brabandt 擔任維護者。在 2024 年的 VimConf 大會上，討論到團隊已擴大，專注於更新 Vim 網站、管理安全性以及加強溝通渠道。Vim 仍處於維護模式，優先考量社群需求並謹慎整合新功能，同時繼續支持由 Moolenaar 創立的慈善機構 ICCF Holland。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42665222">評論</a></h3>
+<ul>
+<li>長期使用 Vim 的用戶在其創作者 Bram Moolenaar 過世後，開始反思這款編輯器的未來。有些人對其目前的穩定性感到滿意，而另一些人則在探索像 Neovim 這樣具有現代功能的替代方案。</li>
+<li>Neovim 因其對 Lua 腳本的支持和現代化增強功能而受到關注，而一些使用者則因為感受到 Vim 和 Neovim 之間的分裂而考慮使用 Emacs。</li>
+<li>用戶之間的討論包括 Treesitter 的效能、語言伺服器協定(LSP)支援，以及與 Visual Studio Code(VSCode)的比較，強調這些編輯器的靈活性和穩定性。</li>
+</ul>
+<h2><a href="https://www.cs.cornell.edu/~asampson/blog/flattening.html">扁平化 AST 和其他編譯器資料結構(2023)</a></h2>
+<ul>
+<li>「這篇文章討論了資料結構扁平化，一種用於編譯器的技術，透過使用單一陣列和索引來取代指標，以優化抽象語法樹(AST)。- 這種方法透過改善記憶體區域性、減少參考大小以及簡化記憶體管理來提升效能，在微基準測試中達到 2.4 倍的加速。- 該技術在 Rust 專案中被廣泛使用，並提供了如更簡單的記憶體管理等便利性，且被拿來與位元碼解釋器進行比較以進一步提升效能。」</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42659061">評論</a></h3>
+<ul>
+<li>討論的重點是透過將抽象語法樹(ASTs)儲存在平坦、連續的陣列中來優化，以提升效能和記憶體效率。</li>
+<li>此方法增強了快取區域性並簡化了記憶體管理，類似於 Lisp 語言和 Zig 編譯器中的技術。</li>
+<li>該對話還提到了歷史方法和其他程式語言中的類似技術，強調了平面資料結構在組合性和易於操作方面的優勢。</li>
+</ul>
+<h2><a href="https://tomscii.sig7.se/2025/01/De-smarting-the-Marshall-Uxbridge">「解除 Marshall Uxbridge 藍牙音箱的智能功能」</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42666572">評論</a></h3>
+<ul>
+<li>討論的重點是修改 Marshall Uxbridge 藍牙音箱以去除其「智慧」功能，涉及設計數位 I2S 輸入的印刷電路板(PCB)等技術方面。</li>
+<li>用戶們正在討論數位信號處理(DSP)在實現良好音質中的角色，有些人強調其在彌補硬體限制方面的必要性。</li>
+<li>對話還涵蓋了修改智慧裝置的挑戰以及現代 PCB 生產和元件的可負擔性。</li>
+</ul>
+<h2><a href="https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/">OpenAI 的機器人將這家七人公司的網站『像 DDoS 攻擊一樣』擊垮</a></h2>
+<ul>
+<li>「Triplegangers 的電子商務網站因 OpenAI 的機器人發起類似 DDoS 的攻擊而受到影響，該機器人發送了數萬次請求以抓取超過 65,000 個產品頁面。- 由於該網站缺乏正確配置的 robots.txt 文件來阻擋此類機器人，導致 AWS 成本增加及對數據安全的擔憂。- 此事件強調了 AI 公司在進行數據抓取前獲得許可的重要性，並對小型企業監控 AI 機器人活動提出了警示。」</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42660377">評論</a></h3>
+<ul>
+<li>OpenAI 的機器人導致一家小公司的網站流量過大，類似於分散式阻斷服務(DDoS)攻擊，突顯了 AI 機器人使網站不堪負荷的問題。</li>
+<li>像 Read the Docs 這樣的公司也面臨著類似的挑戰，即使使用了「robots.txt」來管理網路爬蟲，AI 機器人仍然產生了大量的流量。</li>
+<li>該事件強調了在網路無障礙性與防範 AI 公司進行侵略性資料抓取之間取得平衡的持續辯論，因為有些機器人忽略了「robots.txt」，導致小型網站擁有者面臨潛在的法律和財務問題。</li>
+</ul>
+<head>
+  <meta property="og:title" content="注意 Makefile 效應" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E6%B3%A8%E6%84%8F%20Makefile%20%E6%95%88%E6%87%89&subheading=2025%E5%B9%B41%E6%9C%8811%E6%97%A5%20%E6%98%9F%E6%9C%9F%E5%85%AD%3A%20Hacker%20News%20%E6%91%98%E8%A6%81" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/zh/Hant/2025/01/11</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Z</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-10]]></title>
             <description
@@ -903,104 +1023,6 @@
             <link>https://hn.cho.sh/zh/Hant/2025/01/02</link>
             <guid isPermaLink="false">2025-01-02T00:00:00.000Z</guid>
             <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2025-01-01]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2025/01/01&#39;</h2>
-<h1>2025-01-01</h1>
-<h2><a href="https://news.ycombinator.com/item?id=42562750">2025 新年快樂</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42562750">評論</a></h3>
-<h2><a href="https://doom-captcha.vercel.app/">DOOM 驗證碼</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42566112">評論</a></h3>
-<ul>
-<li>「DOOM CAPTCHA 是一個創意專案，要求使用者玩經典遊戲 DOOM 的一個關卡作為 CAPTCHA 測試，突顯技術技能和懷舊感。- 使用者因缺乏現代控制而感到挑戰，對其實用性和可及性反應不一。- 該專案雖然新穎，但強調了對傳統 CAPTCHA 系統持續的不滿，儘管它是由 Vercel 的 AI 助理和手動遊戲整合所建構。」</li>
-</ul>
-<h2><a href="https://curiouscoding.nl/posts/static-search-tree/">靜態搜尋樹：比二元搜尋更快</a></h2>
-<ul>
-<li>「本文探討了靜態搜尋樹(S+ 樹)的實作與優化，以顯著加快排序資料的搜尋速度，達到比傳統二元搜尋快 40 倍的速度。- 採用了批次處理、預取和手動 SIMD(單指令多資料)等優化技術來提升查詢吞吐量。- 文章還探討了各種樹的佈局、節點大小和記憶體管理策略，並討論了未來工作如分支搜尋和插值搜尋，以進一步提高搜尋效率。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42562847">評論</a></h3>
-<ul>
-<li>「討論強調了由於 Rust 的安全性和效能優勢，演算法內容特別是在靜態搜尋樹方面，從 C/C++ 轉向 Rust 的趨勢。」</li>
-<li>Rust 在低階程式設計中的日益普及受到關注，有些使用者因為易於理解而偏好使用 C 或虛擬碼，而另一些人則重視 Rust 的現代化功能。</li>
-<li>這段對話還探討了 Zig 程式語言的潛力以及學習新語言所面臨的挑戰，反映了程式語言不斷演變的格局。</li>
-</ul>
-<h2><a href="https://openreview.net/forum?id=YXnwlZe0yf&noteId=yrsGpHd0Sf">「當 Putnam 問題稍作變化時，o1-Preview 準確率下降 30%」</a></h2>
-<ul>
-<li>「Putnam-AXIOM 是一個基準測試，旨在使用普特南數學競賽的問題來評估大型語言模型(LLMs)在高階數學推理方面的能力。- 該基準測試包含 236 個原始問題，以及一個包含 52 個修改過問題的變體，以避免數據污染。- OpenAI 的表現最佳模型在原始問題上達到了 41.95% 的準確率，但在修改過的問題上經歷了約 30% 的顯著性能下降，這突顯了適應變化的挑戰。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42565606">評論</a></h3>
-<ul>
-<li>一項研究顯示，當在 Putnam 問題中引入微小變化時，o1-Preview 模型的準確性下降了 30%，這表明大型語言模型(LLMs)在面對小變化時存在挑戰。- 這些發現激起了關於 LLMs 是否能真正推理，或主要依賴於模式匹配和記憶的辯論，類似於人在壓力下的錯誤。- 儘管面臨這些挑戰，像 o1 和 o3 這樣的模型在複雜的數學問題上仍表現良好，但其泛化能力仍在接受審視。</li>
-</ul>
-<h2><a href="https://www.cs.cmu.edu/~pavlo/blog/2025/01/2024-databases-retrospective.html">2024 年的資料庫：年度回顧</a></h2>
-<ul>
-<li>2024 年的資料庫領域經歷了重大變化，包括主要的收購、授權轉變，以及像 Redis、Elasticsearch、Databricks 和 Snowflake 等主要玩家之間持續的競爭。- DuckDB 因其分析查詢而受到歡迎，並整合到 Postgres 中，而值得注意的發佈包括 Amazon Aurora DSQL 和 Microsoft Garnet。- 收購如 Databricks 的 Tabular 和 Supabase 的 OrioleDB 都具有重要意義，儘管有像 OtterTune 關閉這樣的挫折，該行業仍然充滿活力，並有新的專案和資金投入。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42566192">評論</a></h3>
-<ul>
-<li>討論批評了 Redis 的 API，有些人認為這些批評缺乏對 Redis 設計及其獨特資料模型的深入理解。</li>
-<li>Redis 因其在排行榜和即時系統等特定應用中的有效使用而受到認可，儘管有一些對 API 的批評。</li>
-<li>這段對話還探討了更廣泛的資料庫領域，包括新創公司的挑戰、SQL 的角色以及資料庫技術的演變，強調在批評系統之前了解系統的重要性。</li>
-</ul>
-<h2><a href="https://thoughts.wyounas.com/p/books-i-enjoyed-most-in-2024">2024 年我喜愛閱讀的書籍</a></h2>
-<ul>
-<li>這份書單包含多樣化的書籍，涵蓋歷史、哲學、科學和個人敘事，每本書都提供獨特的見解和豐富的體驗。</li>
-<li>亮點包括西塞羅的書信，提供對羅馬生活的見解；Ben-Ari 關於計算機科學邏輯和程式驗證的著作；以及史蒂夫·馬丁關於喜劇成功的回憶錄。</li>
-<li>該收藏還包括皮埃爾·阿多和尼采的哲學探索、埃斯庫羅斯的希臘悲劇，以及厄休拉·勒瑰恩和拉賓德拉納特·泰戈爾的文學作品。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42564687">評論</a></h3>
-<h2><a href="https://mathstodon.xyz/@tao/113721192051328193">陶哲軒：我有一篇論文今天被拒絕了</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42568399">評論</a></h3>
-<ul>
-<li>著名數學家陶哲軒分享了一次論文被拒的經驗，強調了學術界中拒稿的頻繁發生。- 他的故事引發了對同行評審隨機性的討論以及學術出版面臨的挑戰。- 這次對話突顯了拒絕是學術過程中的正常部分，即使是頂尖研究人員也會面臨，並強調分享失敗經驗以應對冒牌者症候群的重要性。</li>
-</ul>
-<h2><a href="https://apiparrot.com/">API Parrot – 自動逆向工程 HTTP API</a></h2>
-<ul>
-<li>&quot;API Parrot 是一個新工具，旨在透過自動識別 API 請求之間的數據關聯並提供圖形化流程表示，來簡化業務流程的自動化。- 它允許使用者記錄請求、定義輸入和輸出，並將這些流程匯出為 JavaScript 代碼，使得過程比手動逆向工程或使用像機器人流程自動化(RPA)等不太理想的技術更為高效。- 該工具基於 Electron 開發，適用於 Windows 和 Linux 平台，並提供逆向工程 USPS API 的教學。&quot;</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42565821">評論</a></h3>
-<ul>
-<li>API Parrot 是一個自動化 HTTP API 逆向工程的工具，透過識別請求之間的數據關聯來促進業務流程的自動化。- 它提供了錄製請求、定義輸入和輸出，以及將流程匯出為 JavaScript 代碼的功能，並具有圖形化流程表示。- API Parrot 目前可在 Windows 和 Linux 上使用，免費提供，未來可能會推出針對企業的「專業版」，並計劃在未來推出 macOS 版本。</li>
-</ul>
-<h2><a href="https://thehill.com/national-security/5061535-virginia-man-arrested-explosives/">「FBI：維吉尼亞州發現該機構歷史上最大規模的自製爆炸物儲藏」</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42562529">評論</a></h3>
-<ul>
-<li>FBI 在維吉尼亞州發現了其歷史上最大規模的自製爆炸物儲藏，這引發了重大的法律和公眾辯論。</li>
-<li>「嫌疑人目前僅被控持有短槍管步槍，因為他的槍械的合法性正在被審查。」</li>
-<li>此案件引發了關於槍支法律、第二修正案以及政府管制與個人權利之間平衡的討論。</li>
-</ul>
-<h2><a href="https://dgl.cx/2024/12/ghostty-terminal-title">似曾相識：我終端機標題中的幽靈 CVE</a></h2>
-<ul>
-<li>「Ghostty 是一款新的終端模擬器，存在一個類似於 2003 年的安全漏洞，允許 ASCII 控制字元執行命令，如開啟應用程式。此問題在 Zsh 和 Bash 的 vi 模式中特別嚴重，但 Ghostty 1.0.1 已透過預設禁用該功能來解決此問題。儘管存在安全漏洞，Ghostty 因其功能而受到讚譽，開發者迅速解決了該問題，並為用戶提供了修正和替代方案。」</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42562743">評論</a></h3>
-<ul>
-<li>討論的重點在於終端機安全漏洞，特別是與轉義序列相關的漏洞，並探討減輕這些風險的方法。- 增強終端機安全性的建議包括採用類似於 CPU 保護環或 OpenBSD 的 pledge() 系統呼叫的系統，這些系統限制功能以防止漏洞利用。- 參與者承認在終端機應用程式中平衡安全性與功能性的挑戰，並表示有興趣進一步探索和合作以改善安全實踐。</li>
-</ul>
-<h2><a href="https://github.com/facebookresearch/large_concept_model">大型概念模型：句子表示空間中的語言建模</a></h2>
-<ul>
-<li>「該資料庫提供大型概念模型(LCM)的實作，這些模型使用“概念”作為語言建模的高階語義表示。」</li>
-<li>「LCM 支援 200 種文字語言和 57 種語音語言，使用 SONAR 嵌入空間，並透過 MSE 回歸和基於擴散的生成等方法進行自回歸句子預測訓練。」</li>
-<li>此資料庫提供安裝說明、資料準備、訓練、微調和評估指導方針，並以 MIT 許可證發布，使用 fairseq2 並提供 UV 和 pip 安裝選項。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42563534">評論</a></h3>
-<ul>
-<li>「大型概念模型專注於以“概念”而非單個詞元來表示語言，旨在增強語義分塊和預測能力。」</li>
-<li>此方法提議使用更高層次的表示來模仿人類的規劃和溝通，可能比傳統的基於符號的模型具有優勢。</li>
-<li>「此方法透過強調明確的階層結構來解決當前大型語言模型(LLM)架構中的限制，以更好地模擬人類的推理。」</li>
-</ul>
-<head>
-  <meta property="og:title" content="2025 新年快樂" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=2025%20%E6%96%B0%E5%B9%B4%E5%BF%AB%E6%A8%82&subheading=2025%E5%B9%B41%E6%9C%881%E6%97%A5%20%E6%98%9F%E6%9C%9F%E4%B8%89%3A%20Hacker%20News%20%E6%91%98%E8%A6%81" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/zh/Hant/2025/01/01</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Z</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

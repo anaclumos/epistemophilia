@@ -15,11 +15,142 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Jan 2025 19:07:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jan 2025 19:29:05 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/story/he.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
         <language><![CDATA[he]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[שים לב להשפעת ה-Makefile]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>האפקט של Makefile&quot; מתאר את הנוהג של מהנדסים להעתיק ולשנות תצורות מורכבות קיימות, כמו Makefiles, במקום ליצור חדשות מאפס. - גישה זו נפוצה במערכות שונות, כגון תצורות של אינטגרציה רציפה/פריסה רציפה (CI/CD) ומערכות בנייה, ויכולה להצביע על כלים מורכבים מדי או מעוצבים בצורה גרועה. - למרות שאין בכך שלילה מובנית, האפקט של Makefile יכול להפריע ללמידה, לסבך את האבטחה ולהוביל לניפוי באגים לא יעיל, מה שמדגיש את הצורך בעיצוב כלים מחושב שמתחשב ביכולת התצורה ובקלות השימוש.</li>
+</ul>
+]]></description>
+            <link>https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Zשים לב להשפעת ה-Makefile</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[פורטלים וקווייק]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>המאמר הוא הראשון בסדרת &quot;פירוק המסתורין של PVS&quot;, המתמקד במערכת הנראות המוקדמת של Quake כדי להתמודד עם ציור יתר, שבו פיקסלים נרנדרים מספר פעמים. - Quake משתמש בחיתוך פורטלים ובסטים של נראות פוטנציאלית (PVS) על ידי חלוקת העולם לתאים ופורטלים, חישוב מוקדם של נראות כדי לייעל את הרינדור. - המאמר מציג את מחלקות Portal ו-Leaf ב-vis.py, יישום מחדש בפייתון של אלגוריתם הנראות של Quake, ומדגיש את השימוש במטריצת נראות עלה לעלה.</li>
+</ul>
+]]></description>
+            <link>https://30fps.net/pages/pvs-portals-and-quake/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Zפורטלים וקווייק</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[עדכוני תיקון באגים Phi-4]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://unsloth.ai/blog/phi4</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Zעדכוני תיקון באגים Phi-4</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[מתמטיקה מאוד שגויה]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>חברת עיצוב ובנייה עשתה טעות מתמטית בפייסבוק, כאשר חישבה בטעות את רדיוס כדור הארץ כ-4,333 רגל, מה שהוביל להערכת היקף נמוכה בהרבה של קצת יותר מ-5 מיילים.</li>
+<li>השגיאה נבעה מחישוב אורכי קשתות מבלי להשתמש ברדיוס האמיתי של כדור הארץ, שהוא כ-3,959 מיילים.</li>
+<li>הפוסט הדגיש שהקשת החיצונית הייתה ארוכה בפחות מ-1% מהקשת הפנימית, מה שמרמז על אפשרות להפחתת זמן הטיסה בשל ירידה בהתנגדות האוויר.</li>
+</ul>
+]]></description>
+            <link>https://www.charlespetzold.com/blog/2025/01/Very-Wrong-Math.html</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Zמתמטיקה מאוד שגויה</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[בניית קישוט]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>באבל הוא כלי לעיצוב ותצוגה תלת-ממדית המשתמש בפונקציות מרחק חתומות (SDFs) ליצירת צורות ואנימציות מורכבות. - במקור מערכת בסיסית ליצירת שיידרים ב-GLSL, באבל נכתב מחדש כדי לכלול תכונות כמו ייצוא מודלים תלת-ממדיים, עריכה אינטראקטיבית ותאורה מותאמת אישית. - הכלי תומך כעת בהטמעה ברשת, עריכת וקטורים אינטראקטיבית ומציע תיעוד מקיף, מה שהופך אותו לנגיש לפרויקטים יצירתיים ולמשתמשים המתעניינים בעיצוב תלת-ממדי.</li>
+</ul>
+]]></description>
+            <link>https://ianthehenry.com/posts/bauble/building-bauble/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Zבניית קישוט</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[כמעט כל החיפושים הבינאריים והמיזוגים השונים שבורים (2006)]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>בשנת 2006, ג&#39;ושוע בלוך זיהה באג באלגוריתם החיפוש הבינארי, שצוין לראשונה בספרו של ג&#39;ון בנטלי &quot;Programming Pearls&quot;, שבו מתרחש גלישה כאשר &#39;low&#39; וhigh&#39; עולים על הערך המרבי של int.</li>
+<li>תקלה זו, המשפיעה על מערכים באורך של 2^30 או יותר, הייתה נדירה בשנות ה-80 אך נפוצה יותר כיום, ומשפיעה גם על מיון מיזוג ואלגוריתמים אחרים של חלוקה וכיבוש.</li>
+<li>בלוך ממליץ לתקן את הבעיה על ידי חישוב נקודת האמצע כ- <code>int mid = low + ((high - low) / 2);</code>, תוך הדגשת האתגרים שבכתיבת קוד ללא שגיאות והצורך בבדיקות מקיפות.</li>
+</ul>
+]]></description>
+            <link
+      >https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000Zכמעט כל החיפושים הבינאריים והמיזוגים השונים שבורים (2006)</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[עקוב אחר המכשירים שלך באמצעות רשת Apple FindMy ב-Go/TinyGo]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Go Haystack מאפשר מעקב אחר מכשירי Bluetooth אישיים דרך רשת &quot;Find My&quot; של אפל ללא צורך בחומרה של אפל, תוך שימוש ב-OpenHaystack ו-Macless-Haystack עם כלים של Go/TinyGo.</li>
+<li>משתמשים יכולים ליצור משואות משלהם באמצעות קושחת TinyGo על חומרה כמו לוחות Adafruit Bluefruit ו-BBC Microbit, כאשר ההגדרה דורשת מזהה Apple עם אימות דו-שלבי (2FA).</li>
+<li>התהליך כולל התקנת הכלי go-haystack, שימוש בפקודות כמו <code>haystack scan</code> לאיתור מכשירים, יצירת מפתחות, הבזקת המכשיר והעלאת קובץ JSON ל-macless-haystack כדי להציג את המכשיר בממשק המשתמש של האינטרנט.</li>
+</ul>
+]]></description>
+            <link>https://github.com/hybridgroup/go-haystack</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000Zעקוב אחר המכשירים שלך באמצעות רשת Apple FindMy ב-Go/TinyGo</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[המצב של וים]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>לאחר פטירתו של מייסד Vim, בראם מולנאר, בשנת 2023, קהילת Vim התארגנה מחדש כדי להבטיח את המשך פיתוח הפרויקט, כאשר כריסטיאן ברבנדט הוא המתחזק הנוכחי. - בכנס VimConf 2024 נדון כי הצוות התרחב, מתמקד בעדכון אתר Vim, בניהול אבטחה ובהגברת ערוצי התקשורת. - Vim נשאר במצב תחזוקה, תוך מתן עדיפות לצרכי הקהילה ושילוב תכונות חדשות בזהירות, תוך המשך תמיכה ב-ICCF הולנד, ארגון צדקה שהוקם על ידי מולנאר.</li>
+</ul>
+]]></description>
+            <link>https://lwn.net/SubscriberLink/1002342/a8d8a17f30968b93/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Zהמצב של וים</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[פישוט ASTs ומבני נתונים אחרים של מהדרים (2023)]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>הפוסט דן בשיטוח מבני נתונים, טכניקה למתרגמים שמבצעת אופטימיזציה של עצי תחביר מופשטים (ASTs) על ידי שימוש במערך יחיד עם אינדקסים במקום מצביעים. - שיטה זו משפרת את הביצועים על ידי שיפור הקרבה בזיכרון, הקטנת גודל ההפניות ופישוט ניהול הזיכרון, מה שמוביל להאצה של פי 2.4 במיקרו-בנצ&#39;מרק. - הטכניקה משמשת במיוחד בפרויקטים של Rust ומציעה יתרונות ארגונומיים, כמו ניהול זיכרון קל יותר, ומשווה למפרשי בייטקוד לשיפור ביצועים נוסף.</li>
+</ul>
+]]></description>
+            <link>https://www.cs.cornell.edu/~asampson/blog/flattening.html</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Zפישוט ASTs ומבני נתונים אחרים של מהדרים (2023)</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[להפוך את רמקול הבלוטות' של מרשל אוקסברידג' לפחות חכם]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://tomscii.sig7.se/2025/01/De-smarting-the-Marshall-Uxbridge</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000Zלהפוך את רמקול הבלוטות&apos; של מרשל אוקסברידג&apos; לפחות חכם</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[הבוט של OpenAI ריסק את אתר האינטרנט של החברה בת שבעה אנשים 'כמו מתקפת DDoS']]></title>
+            <description
+      ><![CDATA[<ul>
+<li>אתר המסחר האלקטרוני של Triplegangers חווה התקפה דמוית DDoS עקב הבוט של OpenAI שביצע עשרות אלפי בקשות לגרד מעל 65,000 דפי מוצרים. - לאתר לא היה קובץ robots.txt מוגדר כראוי לחסימת בוטים כאלה, מה שהוביל לעלויות מוגברות ב-AWS ולחששות לגבי אבטחת נתונים. - האירוע הזה מדגיש את החשיבות של קבלת אישור מחברות AI לפני גרידת נתונים ומשמש כאזהרה לעסקים קטנים לנטר פעילות של בוטים של AI.</li>
+</ul>
+]]></description>
+            <link
+      >https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000Zהבוט של OpenAI ריסק את אתר האינטרנט של החברה בת שבעה אנשים &apos;כמו מתקפת DDoS&apos;</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[רכשתי כוחות על חדשים]]></title>
             <description
@@ -969,125 +1100,6 @@
             <link>https://austinhenley.com/blog/25yearsofai.html</link>
             <guid isPermaLink="false">2025-01-02T00:00:00.000Z25 שנות ההרפתקה שלי ב-AI ו-ML</guid>
             <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ראש השנה שמח 2025]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://news.ycombinator.com/item?id=42562750</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Zראש השנה שמח 2025</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[DOOM CAPTCHA]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://doom-captcha.vercel.app/</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZDOOM CAPTCHA</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[עצים סטטיים לחיפוש: מהירים יותר מחיפוש בינארי]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>המאמר דן ביישום ואופטימיזציה של עצי חיפוש סטטיים (עצי S+) לחיפוש מהיר משמעותית של נתונים ממוינים, תוך השגת מהירויות הגבוהות פי 40 מחיפוש בינארי מסורתי. - טכניקות אופטימיזציה כמו אצירה, קדם-טעינה ו-SIMD ידני (הוראה יחידה, נתונים מרובים) משמשות לשיפור תפוקת השאילתות. - המאמר גם חוקר פריסות עץ שונות, גדלי צמתים ואסטרטגיות ניהול זיכרון, עם דיון על עבודה עתידית כמו חיפוש עם הסתעפויות וחיפוש אינטרפולציה לשיפור נוסף של יעילות החיפוש.</li>
-</ul>
-]]></description>
-            <link>https://curiouscoding.nl/posts/static-search-tree/</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Zעצים סטטיים לחיפוש: מהירים יותר מחיפוש בינארי</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ירידה של 30% בדיוק של תצוגה מקדימה o1 כאשר בעיות פוטנם משתנות מעט]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>פוטנאם-אקסיומה הוא מדד שנועד להעריך מודלים של שפה גדולה (LLMs) על יכולת הנמקה מתמטית מתקדמת באמצעות בעיות מתחרות המתמטיקה של פוטנאם. - המדד כולל 236 בעיות מקוריות וגרסה עם 52 בעיות ששונו כדי למנוע זיהום נתונים. - המודל המוביל של OpenAI השיג דיוק של 41.95% על הבעיות המקוריות אך חווה ירידה משמעותית בביצועים של כ-30% על הבעיות ששונו, מה שמדגיש את האתגרים בהתאמה לשינויים.</li>
-</ul>
-]]></description>
-            <link>https://openreview.net/forum?id=YXnwlZe0yf&amp;noteId=yrsGpHd0Sf</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000Zירידה של 30% בדיוק של תצוגה מקדימה o1 כאשר בעיות פוטנם משתנות מעט</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[מאגרי מידע ב-2024: סקירה שנתית]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>הנוף של מסדי הנתונים בשנת 2024 חווה שינויים משמעותיים, כולל רכישות גדולות, שינויים ברישיונות ותחרות מתמשכת בין שחקנים מרכזיים כמו Redis, Elasticsearch, Databricks ו-Snowflake. - DuckDB זכתה לפופולריות עבור שאילתות אנליטיות, עם אינטגרציות ל-Postgres, בעוד שהשקות בולטות כללו את Amazon Aurora DSQL ו-Microsoft Garnet. - רכישות כמו Tabular על ידי Databricks ו-OrioleDB על ידי Supabase היו משמעותיות, ולמרות מכשולים כמו סגירת OtterTune, התעשייה נשארת דינמית עם פרויקטים ומימון חדשים.</li>
-</ul>
-]]></description>
-            <link>https://www.cs.cmu.edu/~pavlo/blog/2025/01/2024-databases-retrospective.html</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Zמאגרי מידע ב-2024: סקירה שנתית</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ספרים שאהבתי לקרוא ב-2024]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>הרשימה כוללת מגוון רחב של ספרים, כולל היסטוריים, פילוסופיים, מדעיים ונרטיבים אישיים, שכל אחד מהם מציע תובנות ייחודיות וחוויות מעשירות.</li>
-<li>נקודות השיא כוללות את מכתביו של קיקרו לתובנות על החיים הרומיים, את עבודותיו של בן-ארי על לוגיקה במדעי המחשב ואימות תוכניות, ואת זיכרונותיו של סטיב מרטין על הצלחה קומית.</li>
-<li>האוסף כולל גם חקירות פילוסופיות מאת פייר אדו וניטשה, טרגדיות יווניות מאת אייסכילוס, ויצירות ספרותיות מאת אורסולה לה גווין ורבינדרנת טאגור.</li>
-</ul>
-]]></description>
-            <link>https://thoughts.wyounas.com/p/books-i-enjoyed-most-in-2024</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Zספרים שאהבתי לקרוא ב-2024</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[תארנס טאו: אחד המאמרים שלי נדחה היום]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://mathstodon.xyz/@tao/113721192051328193</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Zתארנס טאו: אחד המאמרים שלי נדחה היום</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[API Parrot – הנדסה לאחור אוטומטית של API-ים ב-HTTP]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>API Parrot הוא כלי חדש שנועד לפשט את האוטומציה של תהליכים עסקיים על ידי זיהוי אוטומטי של קשרי נתונים בין בקשות API ומתן ייצוג גרפי של הזרימה. - הוא מאפשר למשתמשים להקליט בקשות, להגדיר קלטים ופלטים, ולייצא את הזרימות הללו כקוד JavaScript, מה שהופך את התהליך ליעיל יותר מאשר הנדסה לאחור ידנית או שימוש בטכנולוגיות פחות אופטימליות כמו אוטומציה של תהליכים רובוטיים (RPA). - הכלי מבוסס על Electron וזמין לפלטפורמות Windows ו-Linux, עם מדריך זמין להנדסה לאחור של ה-API של USPS.</li>
-</ul>
-]]></description>
-            <link>https://apiparrot.com/</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZAPI Parrot – הנדסה לאחור אוטומטית של API-ים ב-HTTP</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[FBI: מאגר חומרי הנפץ הביתיים הגדול ביותר בהיסטוריה של הסוכנות נמצא בווירג'יניה]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://thehill.com/national-security/5061535-virginia-man-arrested-explosives/</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZFBI: מאגר חומרי הנפץ הביתיים הגדול ביותר בהיסטוריה של הסוכנות נמצא בווירג&apos;יניה</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[דז'ה וו: CVEs רפאים בכותרת הטרמינל שלי]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Ghostty, אמולטור טרמינל חדש, הכיל פגיעות אבטחה דומה לאחת מ-2003, שאפשרה לתווי ASCII escape לבצע פקודות כמו פתיחת יישומים. - הבעיה הייתה בעייתית במיוחד עם Zsh ו-Bash במצב vi, אך Ghostty 1.0.1 פתר זאת על ידי השבתת התכונה כברירת מחדל. - למרות פגם האבטחה, Ghostty זוכה לשבחים על תכונותיו, והמתכנת טיפל בבעיה במהירות, סיפק תיקונים ופתרונות למשתמשים.</li>
-</ul>
-]]></description>
-            <link>https://dgl.cx/2024/12/ghostty-terminal-title</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Zדז&apos;ה וו: CVEs רפאים בכותרת הטרמינל שלי</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[מודלים של מושגים גדולים: מידול שפה במרחב ייצוג משפטים]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>המאגר מציע מימושים עבור מודלים של מושגים גדולים (LCM), המשתמשים ב&#39;מושגים&#39; כייצוג סמנטי ברמה גבוהה יותר עבור מידול שפה.</li>
-<li>LCM תומך ב-200 שפות טקסט ו-57 שפות דיבור באמצעות מרחב ההטמעה SONAR, ומאומן לחיזוי משפטים אוטו-רגרסיבי עם שיטות כמו רגרסיית MSE ויצירה מבוססת דיפוזיה.</li>
-<li>המאגר מספק הוראות התקנה, הכנת נתונים, הנחיות לאימון, כיוונון עדין והערכה, ומשוחרר תחת רישיון MIT, תוך שימוש ב-fairseq2 עם אפשרויות התקנה של UV ו-pip.</li>
-</ul>
-]]></description>
-            <link>https://github.com/facebookresearch/large_concept_model</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000Zמודלים של מושגים גדולים: מידול שפה במרחב ייצוג משפטים</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

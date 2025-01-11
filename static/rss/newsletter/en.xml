@@ -15,12 +15,132 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Jan 2025 19:07:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jan 2025 19:29:06 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/en.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-11]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/11&#39;</h2>
+<h1>2025-01-11</h1>
+<h2><a href="https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect">Be Aware of the Makefile Effect</a></h2>
+<ul>
+<li>The &quot;Makefile effect&quot; describes the practice of engineers copying and modifying existing complex configurations, like Makefiles, instead of creating new ones from scratch. - This approach is prevalent in various systems, such as Continuous Integration/Continuous Deployment (CI/CD) configurations and build systems, and can indicate overly complex or poorly designed tools. - While not inherently negative, the Makefile effect can impede learning, complicate security, and lead to inefficient debugging, highlighting the need for thoughtful tool design that considers configurability and ease of use.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42663231">Reactions</a></h3>
+<ul>
+<li>The &quot;Makefile Effect&quot; describes developers&#39; tendency to copy and modify code or configurations without fully understanding them, often due to tool complexity or infrequent use.</li>
+<li>This phenomenon is widespread across programming and configuration tasks, where developers use known solutions to save time and effort, potentially leading to difficult-to-maintain code.</li>
+<li>The discussion emphasizes the need to balance using templates and existing solutions with gaining a deeper understanding of the tools and systems involved.</li>
+</ul>
+<h2><a href="https://30fps.net/pages/pvs-portals-and-quake/">Portals and Quake</a></h2>
+<ul>
+<li>The article is the first in the &quot;Demystifying the PVS&quot; series, focusing on Quake&#39;s precomputed visibility system to address overdraw, where pixels are rendered multiple times. - Quake uses portal culling and potentially visible sets (PVS) by dividing the world into cells and portals, precomputing visibility to optimize rendering. - The article introduces the Portal and Leaf classes in vis.py, a Python reimplementation of Quake&#39;s visibility algorithm, highlighting the use of a leaf-to-leaf visibility matrix.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42661185">Reactions</a></h3>
+<ul>
+<li>Quake level designers utilized &quot;hint&quot; brushes and &quot;area portals&quot; to optimize game performance, a technique that has been foundational in 3D graphics. - Games like Prey and Portal brought portals into the spotlight for gameplay mechanics, though the concept has been used in rendering since early 3D graphics. - Unreal Engine 1 employed zones for optimization, and contemporary engines like Unreal Engine 5 continue to use similar methods to enhance rendering efficiency.</li>
+</ul>
+<h2><a href="https://unsloth.ai/blog/phi4">Phi-4 Bug Fixes</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42660335">Reactions</a></h3>
+<ul>
+<li>Daniel Hanchen discovered and addressed bugs in Microsoft&#39;s Phi-4 Large Language Model (LLM), such as sentence-ending issues and chat template prompts. - He converted Phi-4 to the Llama architecture, enhancing performance, and shared the fixes on Hugging Face, a platform for machine learning models. - A Colab notebook for finetuning Phi-4 is available, and while the fixes improved performance on some benchmarks, they decreased it on others; the Phi-4 team is working to integrate these improvements into the original model.</li>
+</ul>
+<h2><a href="https://www.charlespetzold.com/blog/2025/01/Very-Wrong-Math.html">Very Wrong Math</a></h2>
+<ul>
+<li>A design and construction company made a math error on Facebook, incorrectly calculating the Earth&#39;s radius as 4,333 feet, leading to a vastly underestimated circumference of just over 5 miles.</li>
+<li>The error stemmed from calculating arc lengths without using the Earth&#39;s actual radius, which is approximately 3,959 miles.</li>
+<li>The post highlighted that the outer arc was less than 1% longer than the inner arc, suggesting a potential reduction in flight time due to decreased air resistance.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42661432">Reactions</a></h3>
+<ul>
+<li>A YouTube builder incorrectly claimed that plumb lines would be parallel on a flat Earth, misunderstanding the Earth&#39;s curvature, which is negligible in such measurements. - The discussion highlighted the failure of intuition in understanding large-scale concepts and addressed flat Earth theories, gravity misconceptions, and Earth&#39;s rotation effects on flight. - The conversation humorously examined the persistence of incorrect beliefs and the difficulty of explaining scientific concepts to those who reject established science.</li>
+</ul>
+<h2><a href="https://ianthehenry.com/posts/bauble/building-bauble/">Building Bauble</a></h2>
+<ul>
+<li>Bauble is a 3D modeling and rendering tool that utilizes signed distance functions (SDFs) to create complex shapes and animations. - Initially a basic system for generating GLSL shaders, Bauble has been rewritten to include features like 3D model export, interactive editing, and custom lighting. - The tool now supports web embedding, interactive vector editing, and offers comprehensive documentation, making it accessible for creative projects and users interested in 3D design.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42660942">Reactions</a></h3>
+<ul>
+<li>Building Bauble, a project featured on ianthehenry.com, has generated excitement by showcasing the magic and enjoyment of programming, particularly in coding and graphics.</li>
+<li>The project is praised for its creativity and detailed writeup, inspiring readers to revisit unfinished projects and explore new technologies such as Janet (a programming language) and GLSL (OpenGL Shading Language).</li>
+<li>Despite some technical issues on Safari, the project is celebrated for its impressive execution and engaging development story, sparking discussions about personal projects and the use of RSS readers.</li>
+</ul>
+<h2><a href="https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/">Nearly all binary searches and mergesorts are broken (2006)</a></h2>
+<ul>
+<li>In 2006, Joshua Bloch identified a bug in the binary search algorithm, initially noted in Jon Bentley&#39;s &quot;Programming Pearls,&quot; where an overflow occurs when &#39;low&#39; and &#39;high&#39; exceed the maximum int value.</li>
+<li>This bug, affecting arrays with lengths of 2^30 or more, was rare in the 1980s but is more common today, also impacting mergesort and other divide-and-conquer algorithms.</li>
+<li>Bloch recommends fixing the issue by calculating the midpoint as <code>int mid = low + ((high - low) / 2);</code>, highlighting the challenges of writing error-free code and the necessity of thorough testing.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42664400">Reactions</a></h3>
+<ul>
+<li>Many binary searches and mergesorts are prone to integer overflow issues, especially in older implementations, as highlighted in a 2006 article.&quot;</li>
+<li>The article emphasizes the importance of considering edge cases and hardware limitations in programming, which remains relevant today.&quot;</li>
+<li>Developers are advised to use built-in functions or larger integer types to prevent such bugs, underscoring the need for caution with data types and input sizes.&quot;</li>
+</ul>
+<h2><a href="https://github.com/hybridgroup/go-haystack">Track your devices via Apple FindMy network in Go/TinyGo</a></h2>
+<ul>
+<li>Go Haystack enables tracking of personal Bluetooth devices via Apple&#39;s &quot;Find My&quot; network without requiring Apple hardware, utilizing OpenHaystack and Macless-Haystack with Go/TinyGo tools.</li>
+<li>Users can create their own beacons using TinyGo firmware on hardware like Adafruit Bluefruit boards and BBC Microbit, with setup requiring an Apple ID with two-factor authentication (2FA).</li>
+<li>The process involves installing the go-haystack tool, using commands like <code>haystack scan</code> to locate devices, generating keys, flashing the device, and uploading a JSON file to macless-haystack for device visibility in the web UI.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42665367">Reactions</a></h3>
+<ul>
+<li>The Apple FindMy network can be utilized with Go/TinyGo to track devices, offering a way to expand the network without needing an Apple account.</li>
+<li>Privacy concerns are mitigated by Apple&#39;s design, and the company has a strong reputation for maintaining user privacy, although some users remain wary of potential surveillance.</li>
+<li>The FindMy network operates in two parts: Apple devices locating items and user devices uploading location data to Apple, with an option for users to disable the feature if desired.</li>
+</ul>
+<h2><a href="https://lwn.net/SubscriberLink/1002342/a8d8a17f30968b93/">The State of Vim</a></h2>
+<ul>
+<li>Following the passing of Vim founder Bram Moolenaar in 2023, the Vim community has reorganized to ensure the project&#39;s continued development, with Christian Brabandt as the current maintainer. - At VimConf 2024, it was discussed that the team has expanded, focusing on updating the Vim website, managing security, and enhancing communication channels. - Vim remains in maintenance mode, prioritizing community needs and integrating new features carefully, while continuing to support ICCF Holland, a charity established by Moolenaar.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42665222">Reactions</a></h3>
+<ul>
+<li>Long-time Vim users are reflecting on the editor&#39;s future following the passing of its creator, Bram Moolenaar, with some content with its current stability and others exploring alternatives like Neovim for modern features.</li>
+<li>Neovim is gaining attention for its support of Lua scripting and modern enhancements, while some users are considering Emacs due to perceived fragmentation between Vim and Neovim.</li>
+<li>Discussions among users include topics like Treesitter&#39;s performance, Language Server Protocol (LSP) support, and comparisons with Visual Studio Code (VSCode), highlighting the flexibility and stability of these editors.</li>
+</ul>
+<h2><a href="https://www.cs.cornell.edu/~asampson/blog/flattening.html">Flattening ASTs and other compiler data structures (2023)</a></h2>
+<ul>
+<li>The post discusses data structure flattening, a technique for compilers that optimizes abstract syntax trees (ASTs) by using a single array with indices instead of pointers. - This method enhances performance by improving memory locality, reducing reference size, and simplifying memory management, resulting in a 2.4× speedup in a microbenchmark. - The technique is notably used in Rust projects and offers ergonomic benefits, such as easier memory management, and is compared to bytecode interpreters for further performance improvements.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42659061">Reactions</a></h3>
+<ul>
+<li>The discussion focuses on optimizing Abstract Syntax Trees (ASTs) by storing them in flat, contiguous arrays to improve performance and memory efficiency.</li>
+<li>This method enhances cache locality and simplifies memory management, drawing comparisons to techniques in languages like Lisp and the Zig compiler.</li>
+<li>The conversation also references historical methods and similar techniques in other programming languages, emphasizing the benefits of flat data structures for composability and ease of manipulation.</li>
+</ul>
+<h2><a href="https://tomscii.sig7.se/2025/01/De-smarting-the-Marshall-Uxbridge">De-smarting the Marshall Uxbridge Bluetooth speaker</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42666572">Reactions</a></h3>
+<ul>
+<li>The discussion focuses on modifying the Marshall Uxbridge Bluetooth speaker to eliminate its &quot;smart&quot; features, involving technical aspects like designing a Printed Circuit Board (PCB) for digital I2S input.</li>
+<li>Users debate the role of Digital Signal Processing (DSP) in achieving good sound quality, with some emphasizing its necessity to compensate for hardware limitations.</li>
+<li>The conversation also covers the challenges of modifying smart devices and the affordability of modern PCB production and components.</li>
+</ul>
+<h2><a href="https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/">OpenAI&#39;s bot crushed this seven-person company&#39;s web site &#39;like a DDoS attack&#39;</a></h2>
+<ul>
+<li>Triplegangers&#39; e-commerce site experienced a DDoS-like attack due to OpenAI&#39;s bot making tens of thousands of requests to scrape over 65,000 product pages. - The site lacked a properly configured robots.txt file to block such bots, leading to increased AWS costs and concerns about data security. - This incident underscores the importance of AI companies obtaining permission before data scraping and serves as a warning for small businesses to monitor for AI bot activity.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42660377">Reactions</a></h3>
+<ul>
+<li>OpenAI&#39;s bot caused excessive traffic on a small company&#39;s website, similar to a Distributed Denial of Service (DDoS) attack, highlighting issues with AI bots overwhelming websites.</li>
+<li>Companies like Read the Docs have experienced similar challenges with AI bots generating massive traffic, despite using &quot;robots.txt&quot; to manage web crawlers.</li>
+<li>The incident underscores the ongoing debate on balancing web accessibility with protection against aggressive data scraping by AI companies, as some bots ignore &quot;robots.txt,&quot; leading to potential legal and financial issues for small site owners.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Be Aware of the Makefile Effect" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Be%20Aware%20of%20the%20Makefile%20Effect&subheading=Saturday%2C%20January%2011%2C%202025%3A%20Hacker%20News%20Summary" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/2025/01/11</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Z</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-10]]></title>
             <description
@@ -903,104 +1023,6 @@
             <link>https://hn.cho.sh/2025/01/02</link>
             <guid isPermaLink="false">2025-01-02T00:00:00.000Z</guid>
             <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2025-01-01]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2025/01/01&#39;</h2>
-<h1>2025-01-01</h1>
-<h2><a href="https://news.ycombinator.com/item?id=42562750">Happy New Year 2025</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42562750">Reactions</a></h3>
-<h2><a href="https://doom-captcha.vercel.app/">DOOM CAPTCHA</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42566112">Reactions</a></h3>
-<ul>
-<li>DOOM CAPTCHA is a creative project requiring users to play a level of the classic game DOOM as a CAPTCHA test, highlighting technical skills and nostalgia. - Users find it challenging due to the absence of modern controls, leading to mixed reactions about its practicality and accessibility. - The project, although novel, underscores the persistent dissatisfaction with traditional CAPTCHA systems, despite being built with Vercel&#39;s AI assistant and manual game integration.</li>
-</ul>
-<h2><a href="https://curiouscoding.nl/posts/static-search-tree/">Static search trees: faster than binary search</a></h2>
-<ul>
-<li>The article discusses the implementation and optimization of static search trees (S+ trees) for significantly faster searching of sorted data, achieving speeds 40 times faster than traditional binary search. - Optimization techniques such as batching, prefetching, and manual SIMD (Single Instruction, Multiple Data) are employed to enhance query throughput. - The article also explores various tree layouts, node sizes, and memory management strategies, with a discussion on future work like branchy search and interpolation search to further improve search efficiency.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42562847">Reactions</a></h3>
-<ul>
-<li>The discussion highlights a shift from C/C++ to Rust for algorithmic content, especially in static search trees, due to Rust&#39;s safety and performance benefits.</li>
-<li>Rust&#39;s growing popularity in low-level programming is noted, with some users preferring C or pseudocode for accessibility, while others value Rust&#39;s modern features.</li>
-<li>The conversation also explores the potential of the Zig programming language and the challenges associated with learning new languages, reflecting the evolving landscape of programming languages.</li>
-</ul>
-<h2><a href="https://openreview.net/forum?id=YXnwlZe0yf&noteId=yrsGpHd0Sf">30% Drop In o1-Preview Accuracy When Putnam Problems Are Slightly Variated</a></h2>
-<ul>
-<li>Putnam-AXIOM is a benchmark designed to assess large language models (LLMs) on advanced mathematical reasoning using problems from the Putnam Mathematical Competition. - The benchmark includes 236 original problems and a variation with 52 altered problems to avoid data contamination. - OpenAI&#39;s top-performing model achieved 41.95% accuracy on the original problems but experienced a significant performance drop of approximately 30% on the altered problems, highlighting challenges in adapting to variations.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42565606">Reactions</a></h3>
-<ul>
-<li>A study revealed a 30% decrease in the accuracy of the o1-Preview model on Putnam problems when minor variations were introduced, indicating challenges for Large Language Models (LLMs) with small changes. - The findings fuel the debate on whether LLMs can genuinely reason or if they primarily depend on pattern matching and memorization, similar to human errors under pressure. - Despite these challenges, models like o1 and o3 continue to perform well on complex mathematical problems, though their capacity to generalize is still under scrutiny.</li>
-</ul>
-<h2><a href="https://www.cs.cmu.edu/~pavlo/blog/2025/01/2024-databases-retrospective.html">Databases in 2024: A Year in Review</a></h2>
-<ul>
-<li>The database landscape in 2024 experienced significant changes, including major acquisitions, license shifts, and ongoing rivalries among key players like Redis, Elasticsearch, Databricks, and Snowflake. - DuckDB gained popularity for analytical queries, with integrations into Postgres, while notable releases included Amazon Aurora DSQL and Microsoft Garnet. - Acquisitions such as Tabular by Databricks and OrioleDB by Supabase were significant, and despite setbacks like OtterTune&#39;s closure, the industry remains dynamic with new projects and funding.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42566192">Reactions</a></h3>
-<ul>
-<li>The discussion critiques Redis&#39; API, with some arguing that the criticism lacks a deep understanding of Redis&#39; design and its unique data model.</li>
-<li>Redis is recognized for its effective use in specific applications like leaderboards and real-time systems, despite some API criticisms.</li>
-<li>The conversation also explores the broader database landscape, including challenges for startups, the role of SQL, and the evolution of database technologies, emphasizing the importance of understanding systems before critiquing them.</li>
-</ul>
-<h2><a href="https://thoughts.wyounas.com/p/books-i-enjoyed-most-in-2024">Books I Loved Reading in 2024</a></h2>
-<ul>
-<li>The list features a diverse range of books, including historical, philosophical, scientific, and personal narratives, each offering unique insights and enriching experiences.</li>
-<li>Highlights include Cicero&#39;s letters for insights into Roman life, Ben-Ari&#39;s works on computer science logic and program verification, and Steve Martin&#39;s memoir on comedic success.</li>
-<li>The collection also includes philosophical explorations by Pierre Hadot and Nietzsche, Greek tragedies by Aeschylus, and literary works by Ursula Le Guin and Rabindranath Tagore.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42564687">Reactions</a></h3>
-<h2><a href="https://mathstodon.xyz/@tao/113721192051328193">Terence Tao: One of my papers got declined today</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42568399">Reactions</a></h3>
-<ul>
-<li>Terence Tao, a prominent mathematician, shared an experience of having a paper rejected, underscoring the frequent occurrence of rejections in academia. - His story sparked discussions on the arbitrary nature of peer reviews and the challenges faced in academic publishing. - The conversation highlighted that rejection is a normal part of the academic process, even for leading researchers, and stressed the importance of sharing failures to address imposter syndrome.</li>
-</ul>
-<h2><a href="https://apiparrot.com/">API Parrot – Automatically Reverse Engineer HTTP APIs</a></h2>
-<ul>
-<li>API Parrot is a new tool designed to simplify the automation of business processes by automatically identifying data correlations between API requests and providing a graphical flow representation. - It allows users to record requests, define inputs and outputs, and export these flows as JavaScript code, making the process more efficient than manual reverse engineering or using less optimal technologies like Robotic Process Automation (RPA). - The tool is built on Electron and is available for both Windows and Linux platforms, with a tutorial available for reverse engineering the USPS API.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42565821">Reactions</a></h3>
-<ul>
-<li>API Parrot is a tool that automates the reverse engineering of HTTP APIs, facilitating the automation of business processes by identifying data correlations between requests. - It offers features such as recording requests, defining inputs and outputs, and exporting flows as JavaScript code, with a graphical flow representation. - Currently available for Windows and Linux, API Parrot is free, with a potential &quot;pro&quot; version for businesses, and plans for a macOS release in the future.</li>
-</ul>
-<h2><a href="https://thehill.com/national-security/5061535-virginia-man-arrested-explosives/">FBI: Largest homemade explosives cache in agency history found in Virginia</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42562529">Reactions</a></h3>
-<ul>
-<li>The FBI uncovered the largest cache of homemade explosives in its history in Virginia, leading to significant legal and public debate.</li>
-<li>The suspect is currently only charged with possessing a short-barreled rifle, as the legality of his firearms is being examined.</li>
-<li>The case has ignited discussions on gun laws, the Second Amendment, and the balance between government regulation and individual rights.</li>
-</ul>
-<h2><a href="https://dgl.cx/2024/12/ghostty-terminal-title">Déjà vu: Ghostly CVEs in my terminal title</a></h2>
-<ul>
-<li>Ghostty, a new terminal emulator, had a security vulnerability similar to one from 2003, allowing ASCII escape characters to execute commands like opening applications. - The issue was notably problematic with Zsh and Bash in vi mode, but Ghostty 1.0.1 has resolved this by disabling the feature by default. - Despite the security flaw, Ghostty is commended for its features, and the developer promptly addressed the issue, providing fixes and workarounds for users.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42562743">Reactions</a></h3>
-<ul>
-<li>The discussion centers on terminal security vulnerabilities, particularly those related to escape sequences, and explores ways to mitigate these risks. - Suggestions for enhancing terminal security include adopting systems akin to CPU protection rings or OpenBSD’s pledge() syscall, which limit capabilities to prevent exploits. - Participants acknowledge the challenge of balancing security with functionality in terminal applications and express interest in further exploration and collaboration to improve security practices.</li>
-</ul>
-<h2><a href="https://github.com/facebookresearch/large_concept_model">Large Concept Models: Language modeling in a sentence representation space</a></h2>
-<ul>
-<li>The repository offers implementations for Large Concept Models (LCM), which utilize &quot;concepts&quot; as a higher-level semantic representation for language modeling.</li>
-<li>LCM supports 200 text languages and 57 speech languages using the SONAR embedding space, and is trained for auto-regressive sentence prediction with methods like MSE regression and diffusion-based generation.</li>
-<li>The repository provides installation instructions, data preparation, training, finetuning, and evaluation guidelines, and is released under the MIT license, using fairseq2 with UV and pip installation options.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42563534">Reactions</a></h3>
-<ul>
-<li>Large Concept Models focus on representing language in terms of &quot;concepts&quot; rather than individual tokens, aiming to enhance semantic chunking and prediction.</li>
-<li>This method proposes using higher-level representations to mimic human planning and communication, potentially offering advantages over traditional token-based models.</li>
-<li>The approach addresses limitations in current Large Language Model (LLM) architectures by emphasizing explicit hierarchical structures to better replicate human reasoning.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Happy New Year 2025" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Happy%20New%20Year%202025&subheading=Wednesday%2C%20January%201%2C%202025%3A%20Hacker%20News%20Summary" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/2025/01/01</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Z</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

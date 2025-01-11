@@ -15,12 +15,132 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Jan 2025 19:07:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jan 2025 19:29:06 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/vi.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[vi]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-11]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/11&#39;</h2>
+<h1>2025-01-11</h1>
+<h2><a href="https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect">Bản chất của Hiệu ứng Makefile</a></h2>
+<ul>
+<li>Hiệu ứng Makefile&quot; mô tả thực hành của các kỹ sư sao chép và chỉnh sửa các cấu hình phức tạp hiện có, như Makefile, thay vì tạo mới từ đầu. - Cách tiếp cận này phổ biến trong các hệ thống khác nhau, chẳng hạn như cấu hình Tích hợp Liên tục/Triển khai Liên tục (CI/CD) và hệ thống xây dựng, và có thể chỉ ra các công cụ quá phức tạp hoặc được thiết kế kém. - Mặc dù không phải lúc nào cũng tiêu cực, hiệu ứng Makefile có thể cản trở việc học, làm phức tạp vấn đề bảo mật và dẫn đến gỡ lỗi không hiệu quả, nhấn mạnh nhu cầu thiết kế công cụ cẩn thận mà xem xét khả năng cấu hình và dễ sử dụng.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42663231">phản ứng</a></h3>
+<ul>
+<li>&quot;Hiệu ứng Makefile&quot; mô tả xu hướng của các nhà phát triển sao chép và chỉnh sửa mã hoặc cấu hình mà không hiểu đầy đủ về chúng, thường do sự phức tạp của công cụ hoặc việc sử dụng không thường xuyên.</li>
+<li>Hiện tượng này phổ biến trong các nhiệm vụ lập trình và cấu hình, nơi các nhà phát triển sử dụng các giải pháp đã biết để tiết kiệm thời gian và công sức, có thể dẫn đến mã khó bảo trì.</li>
+<li>Cuộc thảo luận nhấn mạnh sự cần thiết phải cân bằng giữa việc sử dụng các mẫu và giải pháp hiện có với việc đạt được sự hiểu biết sâu hơn về các công cụ và hệ thống liên quan.</li>
+</ul>
+<h2><a href="https://30fps.net/pages/pvs-portals-and-quake/">Portals và Quake</a></h2>
+<ul>
+<li>Bài viết là bài đầu tiên trong loạt bài &quot;Giải mã PVS&quot;, tập trung vào hệ thống hiển thị đã tính toán trước của Quake để giải quyết vấn đề vẽ đè, nơi các pixel được vẽ nhiều lần. - Quake sử dụng cắt xén cổng và các tập hợp có thể nhìn thấy (PVS) bằng cách chia thế giới thành các ô và cổng, tính toán trước khả năng hiển thị để tối ưu hóa việc hiển thị. - Bài viết giới thiệu các lớp Portal và Leaf trong vis.py, một phiên bản tái hiện bằng Python của thuật toán hiển thị của Quake, nhấn mạnh việc sử dụng ma trận hiển thị từ lá đến lá.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42661185">phản ứng</a></h3>
+<ul>
+<li>Những nhà thiết kế cấp độ của Quake đã sử dụng các &quot;bàn chải gợi ý&quot; và &quot;cổng khu vực&quot; để tối ưu hóa hiệu suất trò chơi, một kỹ thuật đã trở thành nền tảng trong đồ họa 3D. - Các trò chơi như Prey và Portal đã đưa các cổng vào tâm điểm cho cơ chế chơi, mặc dù khái niệm này đã được sử dụng trong việc kết xuất từ những ngày đầu của đồ họa 3D. - Unreal Engine 1 đã sử dụng các vùng để tối ưu hóa, và các công cụ hiện đại như Unreal Engine 5 tiếp tục sử dụng các phương pháp tương tự để nâng cao hiệu quả kết xuất.</li>
+</ul>
+<h2><a href="https://unsloth.ai/blog/phi4">Khắc phục lỗi Phi-4</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42660335">phản ứng</a></h3>
+<ul>
+<li>Daniel Hanchen đã phát hiện và khắc phục các lỗi trong Mô hình Ngôn ngữ Lớn (LLM) Phi-4 của Microsoft, như các vấn đề kết thúc câu và các mẫu nhắc nhở trò chuyện. - Anh đã chuyển đổi Phi-4 sang kiến trúc Llama, cải thiện hiệu suất, và chia sẻ các bản sửa lỗi trên Hugging Face, một nền tảng cho các mô hình học máy. - Một sổ tay Colab để tinh chỉnh Phi-4 có sẵn, và mặc dù các bản sửa lỗi đã cải thiện hiệu suất trên một số tiêu chuẩn, chúng lại làm giảm hiệu suất trên các tiêu chuẩn khác; đội ngũ Phi-4 đang làm việc để tích hợp những cải tiến này vào mô hình gốc.</li>
+</ul>
+<h2><a href="https://www.charlespetzold.com/blog/2025/01/Very-Wrong-Math.html">Toán học rất sai</a></h2>
+<ul>
+<li>Một công ty thiết kế và xây dựng đã mắc lỗi toán học trên Facebook, tính sai bán kính Trái Đất là 4.333 feet, dẫn đến chu vi bị đánh giá thấp nghiêm trọng chỉ hơn 5 dặm.</li>
+<li>Nguyên nhân lỗi bắt nguồn từ việc tính toán độ dài cung mà không sử dụng bán kính thực tế của Trái Đất, khoảng 3.959 dặm.</li>
+<li>Đoạn bài viết nhấn mạnh rằng cung ngoài dài hơn cung trong chưa đến 1%, gợi ý khả năng giảm thời gian bay do giảm lực cản không khí.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42661432">phản ứng</a></h3>
+<ul>
+<li>Một người xây dựng trên YouTube đã tuyên bố sai rằng các dây dọi sẽ song song trên một Trái Đất phẳng, hiểu sai về độ cong của Trái Đất, điều này không đáng kể trong các phép đo như vậy. - Cuộc thảo luận đã làm nổi bật sự thất bại của trực giác trong việc hiểu các khái niệm quy mô lớn và đề cập đến các lý thuyết Trái Đất phẳng, những hiểu lầm về trọng lực, và ảnh hưởng của sự quay của Trái Đất đối với chuyến bay. - Cuộc trò chuyện đã hài hước xem xét sự kiên trì của những niềm tin sai lầm và sự khó khăn trong việc giải thích các khái niệm khoa học cho những người từ chối khoa học đã được thiết lập.</li>
+</ul>
+<h2><a href="https://ianthehenry.com/posts/bauble/building-bauble/">Xây dựng Bauble</a></h2>
+<ul>
+<li>Bauble là một công cụ mô hình hóa và kết xuất 3D sử dụng các hàm khoảng cách có dấu (SDFs) để tạo ra các hình dạng và hoạt hình phức tạp. - Ban đầu là một hệ thống cơ bản để tạo ra các shader GLSL, Bauble đã được viết lại để bao gồm các tính năng như xuất mô hình 3D, chỉnh sửa tương tác và chiếu sáng tùy chỉnh. - Công cụ này hiện hỗ trợ nhúng web, chỉnh sửa vector tương tác và cung cấp tài liệu toàn diện, giúp nó dễ tiếp cận cho các dự án sáng tạo và người dùng quan tâm đến thiết kế 3D.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42660942">phản ứng</a></h3>
+<ul>
+<li>Building Bauble, một dự án được giới thiệu trên ianthehenry.com, đã tạo ra sự phấn khích bằng cách thể hiện sự kỳ diệu và niềm vui của lập trình, đặc biệt là trong mã hóa và đồ họa.</li>
+<li>Đề án được khen ngợi vì tính sáng tạo và bài viết chi tiết, truyền cảm hứng cho độc giả quay lại các dự án chưa hoàn thành và khám phá các công nghệ mới như Janet (một ngôn ngữ lập trình) và GLSL (Ngôn ngữ Đổ bóng OpenGL).</li>
+<li>Mặc dù gặp một số vấn đề kỹ thuật trên Safari, dự án vẫn được khen ngợi vì sự thực hiện ấn tượng và câu chuyện phát triển hấp dẫn, khơi dậy các cuộc thảo luận về các dự án cá nhân và việc sử dụng các trình đọc RSS.</li>
+</ul>
+<h2><a href="https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/">Gần như tất cả các tìm kiếm nhị phân và sắp xếp trộn đều bị lỗi (2006)</a></h2>
+<ul>
+<li>Vào năm 2006, Joshua Bloch đã phát hiện ra một lỗi trong thuật toán tìm kiếm nhị phân, ban đầu được ghi nhận trong &quot;Programming Pearls&quot; của Jon Bentley, nơi xảy ra tràn số khi &#39;low&#39; và &#39;high&#39; vượt quá giá trị int tối đa.</li>
+<li>Vấn đề này, ảnh hưởng đến các mảng có độ dài từ 2^30 trở lên, hiếm gặp vào những năm 1980 nhưng ngày nay phổ biến hơn, cũng tác động đến thuật toán sắp xếp trộn và các thuật toán chia để trị khác.</li>
+<li>Bloch khuyến nghị khắc phục vấn đề bằng cách tính điểm giữa là <code>int mid = low + ((high - low) / 2);</code>, nhấn mạnh những thách thức của việc viết mã không có lỗi và sự cần thiết của việc kiểm tra kỹ lưỡng.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42664400">phản ứng</a></h3>
+<ul>
+<li>Rất nhiều tìm kiếm nhị phân và sắp xếp trộn dễ gặp phải các vấn đề tràn số nguyên, đặc biệt là trong các triển khai cũ hơn, như đã được nêu bật trong một bài báo năm 2006.</li>
+<li>Bài báo nhấn mạnh tầm quan trọng của việc xem xét các trường hợp ngoại lệ và giới hạn phần cứng trong lập trình, điều này vẫn còn phù hợp đến ngày nay.</li>
+<li>Nhà phát triển được khuyên nên sử dụng các hàm tích hợp sẵn hoặc các kiểu số nguyên lớn hơn để ngăn chặn các lỗi như vậy, nhấn mạnh sự cần thiết phải thận trọng với các kiểu dữ liệu và kích thước đầu vào.</li>
+</ul>
+<h2><a href="https://github.com/hybridgroup/go-haystack">Theo dõi thiết bị của bạn qua mạng Apple FindMy trong Go/TinyGo</a></h2>
+<ul>
+<li>Go Haystack cho phép theo dõi các thiết bị Bluetooth cá nhân thông qua mạng &quot;Find My&quot; của Apple mà không cần phần cứng của Apple, sử dụng OpenHaystack và Macless-Haystack với các công cụ Go/TinyGo.</li>
+<li>Người dùng có thể tạo các beacon của riêng mình bằng cách sử dụng firmware TinyGo trên phần cứng như bảng mạch Adafruit Bluefruit và BBC Microbit, với việc thiết lập yêu cầu một Apple ID có xác thực hai yếu tố (2FA).</li>
+<li>Quá trình này bao gồm cài đặt công cụ go-haystack, sử dụng các lệnh như <code>haystack scan</code> để định vị thiết bị, tạo khóa, nạp phần mềm cho thiết bị, và tải lên một tệp JSON lên macless-haystack để thiết bị có thể hiển thị trong giao diện web UI.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42665367">phản ứng</a></h3>
+<ul>
+<li>Bạn có thể sử dụng mạng Apple FindMy với Go/TinyGo để theo dõi thiết bị, cung cấp một cách để mở rộng mạng mà không cần tài khoản Apple.</li>
+<li>Những lo ngại về quyền riêng tư được giảm thiểu nhờ thiết kế của Apple, và công ty có danh tiếng mạnh mẽ trong việc duy trì quyền riêng tư của người dùng, mặc dù một số người dùng vẫn cảnh giác với khả năng bị giám sát.</li>
+<li>Network FindMy hoạt động theo hai phần: các thiết bị của Apple định vị các vật dụng và các thiết bị của người dùng tải lên dữ liệu vị trí cho Apple, với tùy chọn cho phép người dùng vô hiệu hóa tính năng này nếu muốn.</li>
+</ul>
+<h2><a href="https://lwn.net/SubscriberLink/1002342/a8d8a17f30968b93/">Trạng thái của Vim</a></h2>
+<ul>
+<li>Sau khi người sáng lập Vim, Bram Moolenaar, qua đời vào năm 2023, cộng đồng Vim đã tái tổ chức để đảm bảo sự phát triển liên tục của dự án, với Christian Brabandt là người bảo trì hiện tại. - Tại VimConf 2024, đã thảo luận rằng đội ngũ đã mở rộng, tập trung vào việc cập nhật trang web Vim, quản lý bảo mật và nâng cao các kênh giao tiếp. - Vim vẫn ở chế độ bảo trì, ưu tiên nhu cầu của cộng đồng và tích hợp các tính năng mới một cách cẩn thận, đồng thời tiếp tục hỗ trợ ICCF Holland, một tổ chức từ thiện do Moolenaar thành lập.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42665222">phản ứng</a></h3>
+<ul>
+<li>Những người dùng Vim lâu năm đang suy ngẫm về tương lai của trình soạn thảo này sau khi người sáng tạo của nó, Bram Moolenaar, qua đời, với một số người hài lòng với sự ổn định hiện tại và những người khác đang khám phá các lựa chọn thay thế như Neovim để có các tính năng hiện đại.</li>
+<li>Neovim đang thu hút sự chú ý nhờ hỗ trợ kịch bản Lua và các cải tiến hiện đại, trong khi một số người dùng đang cân nhắc Emacs do nhận thấy sự phân mảnh giữa Vim và Neovim.</li>
+<li>Thảo luận giữa người dùng bao gồm các chủ đề như hiệu suất của Treesitter, hỗ trợ Giao thức Máy chủ Ngôn ngữ (LSP), và so sánh với Visual Studio Code (VSCode), nhấn mạnh sự linh hoạt và ổn định của các trình soạn thảo này.</li>
+</ul>
+<h2><a href="https://www.cs.cornell.edu/~asampson/blog/flattening.html">Phẳng hóa AST và các cấu trúc dữ liệu trình biên dịch khác (2023)</a></h2>
+<ul>
+<li>Đoạn viết thảo luận về làm phẳng cấu trúc dữ liệu, một kỹ thuật cho trình biên dịch tối ưu hóa cây cú pháp trừu tượng (ASTs) bằng cách sử dụng một mảng đơn với các chỉ số thay vì con trỏ. - Phương pháp này cải thiện hiệu suất bằng cách nâng cao tính cục bộ của bộ nhớ, giảm kích thước tham chiếu và đơn giản hóa quản lý bộ nhớ, dẫn đến tăng tốc độ 2.4 lần trong một thử nghiệm vi mô. - Kỹ thuật này được sử dụng đáng chú ý trong các dự án Rust và mang lại lợi ích về mặt tiện dụng, như quản lý bộ nhớ dễ dàng hơn, và được so sánh với các trình thông dịch bytecode để cải thiện hiệu suất hơn nữa.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42659061">phản ứng</a></h3>
+<ul>
+<li>Cuộc thảo luận tập trung vào việc tối ưu hóa Cây Cú pháp Trừu tượng (AST) bằng cách lưu trữ chúng trong các mảng phẳng, liên tục để cải thiện hiệu suất và hiệu quả bộ nhớ.</li>
+<li>Phương pháp này cải thiện tính cục bộ của bộ nhớ đệm và đơn giản hóa quản lý bộ nhớ, tạo ra sự so sánh với các kỹ thuật trong các ngôn ngữ như Lisp và trình biên dịch Zig.</li>
+<li>Theo cuộc trò chuyện, cũng có nhắc đến các phương pháp lịch sử và các kỹ thuật tương tự trong các ngôn ngữ lập trình khác, nhấn mạnh lợi ích của cấu trúc dữ liệu phẳng đối với khả năng kết hợp và dễ dàng thao tác.</li>
+</ul>
+<h2><a href="https://tomscii.sig7.se/2025/01/De-smarting-the-Marshall-Uxbridge">Giảm bớt tính năng thông minh của loa Bluetooth Marshall Uxbridge</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42666572">phản ứng</a></h3>
+<ul>
+<li>Cuộc thảo luận tập trung vào việc sửa đổi loa Bluetooth Marshall Uxbridge để loại bỏ các tính năng &quot;thông minh&quot; của nó, liên quan đến các khía cạnh kỹ thuật như thiết kế một Bảng Mạch In (PCB) cho đầu vào kỹ thuật số I2S.</li>
+<li>Người dùng tranh luận về vai trò của Xử lý Tín hiệu Số (DSP) trong việc đạt được chất lượng âm thanh tốt, với một số người nhấn mạnh sự cần thiết của nó để bù đắp cho những hạn chế của phần cứng.</li>
+<li>Cuộc trò chuyện cũng đề cập đến những thách thức của việc sửa đổi các thiết bị thông minh và khả năng chi trả của sản xuất PCB hiện đại và các thành phần.</li>
+</ul>
+<h2><a href="https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/">Bot của OpenAI đã làm sập trang web của công ty bảy người này &#39;như một cuộc tấn công DDoS&#39;</a></h2>
+<ul>
+<li>Trang thương mại điện tử của Triplegangers đã trải qua một cuộc tấn công giống như DDoS do bot của OpenAI thực hiện hàng chục nghìn yêu cầu để thu thập dữ liệu từ hơn 65.000 trang sản phẩm. - Trang web thiếu một tệp robots.txt được cấu hình đúng để chặn các bot như vậy, dẫn đến chi phí AWS tăng cao và lo ngại về an ninh dữ liệu. - Sự cố này nhấn mạnh tầm quan trọng của việc các công ty AI cần có sự cho phép trước khi thu thập dữ liệu và là một lời cảnh báo cho các doanh nghiệp nhỏ về việc giám sát hoạt động của bot AI.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42660377">phản ứng</a></h3>
+<ul>
+<li>Bot của OpenAI đã gây ra lưu lượng truy cập quá mức trên trang web của một công ty nhỏ, tương tự như một cuộc tấn công Từ chối Dịch vụ Phân tán (DDoS), làm nổi bật các vấn đề với việc các bot AI làm quá tải các trang web.</li>
+<li>Những công ty như Read the Docs đã gặp phải những thách thức tương tự với các bot AI tạo ra lưu lượng truy cập khổng lồ, mặc dù đã sử dụng &quot;robots.txt&quot; để quản lý các trình thu thập dữ liệu web.</li>
+<li>Vụ việc nhấn mạnh cuộc tranh luận đang diễn ra về việc cân bằng giữa khả năng truy cập web và bảo vệ chống lại việc thu thập dữ liệu mạnh mẽ bởi các công ty AI, khi một số bot bỏ qua &quot;robots.txt,&quot; dẫn đến các vấn đề pháp lý và tài chính tiềm ẩn cho các chủ sở hữu trang web nhỏ.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Bản chất của Hiệu ứng Makefile" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=B%E1%BA%A3n%20ch%E1%BA%A5t%20c%E1%BB%A7a%20Hi%E1%BB%87u%20%E1%BB%A9ng%20Makefile&subheading=Th%E1%BB%A9%20B%E1%BA%A3y%2C%2011%20th%C3%A1ng%201%2C%202025%3A%20T%C3%B3m%20t%E1%BA%AFt%20tin%20t%E1%BB%A9c%20v%E1%BB%81%20hacker" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/vi/2025/01/11</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Z</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-10]]></title>
             <description
@@ -903,104 +1023,6 @@
             <link>https://hn.cho.sh/vi/2025/01/02</link>
             <guid isPermaLink="false">2025-01-02T00:00:00.000Z</guid>
             <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2025-01-01]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2025/01/01&#39;</h2>
-<h1>2025-01-01</h1>
-<h2><a href="https://news.ycombinator.com/item?id=42562750">Chúc mừng năm mới 2025</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42562750">phản ứng</a></h3>
-<h2><a href="https://doom-captcha.vercel.app/">DOOM CAPTCHA</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42566112">phản ứng</a></h3>
-<ul>
-<li>DOOM CAPTCHA là một dự án sáng tạo yêu cầu người dùng chơi một cấp độ của trò chơi cổ điển DOOM như một bài kiểm tra CAPTCHA, nhấn mạnh kỹ năng kỹ thuật và sự hoài niệm. - Người dùng thấy nó thách thức do thiếu các điều khiển hiện đại, dẫn đến những phản ứng trái chiều về tính thực tiễn và khả năng tiếp cận của nó. - Dự án, mặc dù mới lạ, nhấn mạnh sự không hài lòng dai dẳng với các hệ thống CAPTCHA truyền thống, mặc dù được xây dựng với sự trợ giúp của AI của Vercel và tích hợp trò chơi thủ công.</li>
-</ul>
-<h2><a href="https://curiouscoding.nl/posts/static-search-tree/">Những cây tìm kiếm tĩnh: nhanh hơn tìm kiếm nhị phân</a></h2>
-<ul>
-<li>Bài báo thảo luận về việc triển khai và tối ưu hóa cây tìm kiếm tĩnh (cây S+) để tìm kiếm dữ liệu đã sắp xếp nhanh hơn đáng kể, đạt tốc độ nhanh hơn 40 lần so với tìm kiếm nhị phân truyền thống. - Các kỹ thuật tối ưu hóa như gom nhóm, nạp trước, và SIMD thủ công (Đơn lệnh, Đa dữ liệu) được sử dụng để tăng cường thông lượng truy vấn. - Bài báo cũng khám phá các bố trí cây khác nhau, kích thước nút, và chiến lược quản lý bộ nhớ, cùng với thảo luận về công việc tương lai như tìm kiếm phân nhánh và tìm kiếm nội suy để cải thiện hiệu quả tìm kiếm hơn nữa.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42562847">phản ứng</a></h3>
-<ul>
-<li>Cuộc thảo luận nêu bật sự chuyển đổi từ C/C++ sang Rust cho nội dung thuật toán, đặc biệt là trong các cây tìm kiếm tĩnh, do những lợi ích về an toàn và hiệu suất của Rust.</li>
-<li>Rust ngày càng phổ biến trong lập trình cấp thấp, với một số người dùng ưa thích C hoặc mã giả vì tính dễ tiếp cận, trong khi những người khác đánh giá cao các tính năng hiện đại của Rust.</li>
-<li>Cuộc trò chuyện cũng khám phá tiềm năng của ngôn ngữ lập trình Zig và những thách thức liên quan đến việc học các ngôn ngữ mới, phản ánh bối cảnh đang phát triển của các ngôn ngữ lập trình.</li>
-</ul>
-<h2><a href="https://openreview.net/forum?id=YXnwlZe0yf&noteId=yrsGpHd0Sf">Giảm 30% độ chính xác của o1-Preview khi các vấn đề Putnam được biến đổi nhẹ</a></h2>
-<ul>
-<li>Putnam-AXIOM là một tiêu chuẩn được thiết kế để đánh giá các mô hình ngôn ngữ lớn (LLMs) về khả năng suy luận toán học nâng cao bằng cách sử dụng các bài toán từ Cuộc thi Toán học Putnam. - Tiêu chuẩn này bao gồm 236 bài toán gốc và một biến thể với 52 bài toán đã được thay đổi để tránh ô nhiễm dữ liệu. - Mô hình có hiệu suất cao nhất của OpenAI đạt độ chính xác 41,95% trên các bài toán gốc nhưng gặp phải sự sụt giảm hiệu suất đáng kể khoảng 30% trên các bài toán đã thay đổi, nhấn mạnh những thách thức trong việc thích ứng với các biến thể.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42565606">phản ứng</a></h3>
-<ul>
-<li>Một nghiên cứu đã tiết lộ sự giảm 30% độ chính xác của mô hình o1-Preview trên các vấn đề Putnam khi có những biến thể nhỏ được giới thiệu, cho thấy những thách thức đối với các Mô hình Ngôn ngữ Lớn (LLMs) với những thay đổi nhỏ. - Những phát hiện này làm dấy lên cuộc tranh luận về việc liệu LLMs có thực sự có khả năng lý luận hay không, hay chúng chủ yếu phụ thuộc vào việc khớp mẫu và ghi nhớ, tương tự như những lỗi của con người dưới áp lực. - Mặc dù có những thách thức này, các mô hình như o1 và o3 vẫn tiếp tục hoạt động tốt trên các vấn đề toán học phức tạp, mặc dù khả năng tổng quát hóa của chúng vẫn đang được xem xét.</li>
-</ul>
-<h2><a href="https://www.cs.cmu.edu/~pavlo/blog/2025/01/2024-databases-retrospective.html">Những cơ sở dữ liệu năm 2024: Một năm nhìn lại</a></h2>
-<ul>
-<li>Thị trường cơ sở dữ liệu năm 2024 đã trải qua những thay đổi đáng kể, bao gồm các vụ mua lại lớn, thay đổi giấy phép và sự cạnh tranh liên tục giữa các đối thủ chính như Redis, Elasticsearch, Databricks và Snowflake. - DuckDB trở nên phổ biến cho các truy vấn phân tích, với tích hợp vào Postgres, trong khi các bản phát hành đáng chú ý bao gồm Amazon Aurora DSQL và Microsoft Garnet. - Các vụ mua lại như Tabular bởi Databricks và OrioleDB bởi Supabase là đáng kể, và mặc dù có những trở ngại như việc đóng cửa của OtterTune, ngành công nghiệp vẫn năng động với các dự án và nguồn tài trợ mới.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42566192">phản ứng</a></h3>
-<ul>
-<li>Cuộc thảo luận phê bình API của Redis, với một số người cho rằng sự chỉ trích thiếu sự hiểu biết sâu sắc về thiết kế của Redis và mô hình dữ liệu độc đáo của nó.</li>
-<li>Redis được công nhận về việc sử dụng hiệu quả trong các ứng dụng cụ thể như bảng xếp hạng và hệ thống thời gian thực, mặc dù có một số chỉ trích về API.</li>
-<li>Theo cuộc trò chuyện, cũng khám phá bối cảnh cơ sở dữ liệu rộng hơn, bao gồm những thách thức đối với các công ty khởi nghiệp, vai trò của SQL và sự phát triển của các công nghệ cơ sở dữ liệu, nhấn mạnh tầm quan trọng của việc hiểu các hệ thống trước khi phê bình chúng.</li>
-</ul>
-<h2><a href="https://thoughts.wyounas.com/p/books-i-enjoyed-most-in-2024">Những cuốn sách tôi yêu thích đọc trong năm 2024</a></h2>
-<ul>
-<li>Danh sách này bao gồm một loạt các cuốn sách đa dạng, bao gồm lịch sử, triết học, khoa học và các câu chuyện cá nhân, mỗi cuốn đều mang lại những hiểu biết độc đáo và trải nghiệm phong phú.</li>
-<li>Điểm nổi bật bao gồm các bức thư của Cicero để có cái nhìn sâu sắc về cuộc sống La Mã, các tác phẩm của Ben-Ari về logic khoa học máy tính và xác minh chương trình, và hồi ký của Steve Martin về thành công trong hài kịch.</li>
-<li>Trong bộ sưu tập cũng bao gồm các khám phá triết học của Pierre Hadot và Nietzsche, các bi kịch Hy Lạp của Aeschylus, và các tác phẩm văn học của Ursula Le Guin và Rabindranath Tagore.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42564687">phản ứng</a></h3>
-<h2><a href="https://mathstodon.xyz/@tao/113721192051328193">Một trong những bài báo của tôi đã bị từ chối hôm nay</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42568399">phản ứng</a></h3>
-<ul>
-<li>Terence Tao, một nhà toán học nổi tiếng, đã chia sẻ trải nghiệm về việc bị từ chối một bài báo, nhấn mạnh sự thường xuyên xảy ra của việc bị từ chối trong giới học thuật. - Câu chuyện của ông đã khơi dậy các cuộc thảo luận về tính chất tùy tiện của các đánh giá đồng cấp và những thách thức gặp phải trong việc xuất bản học thuật. - Cuộc trò chuyện đã làm nổi bật rằng việc bị từ chối là một phần bình thường của quá trình học thuật, ngay cả đối với các nhà nghiên cứu hàng đầu, và nhấn mạnh tầm quan trọng của việc chia sẻ những thất bại để giải quyết hội chứng kẻ mạo danh.</li>
-</ul>
-<h2><a href="https://apiparrot.com/">API Parrot – Tự động phân tích ngược các API HTTP</a></h2>
-<ul>
-<li>API Parrot là một công cụ mới được thiết kế để đơn giản hóa việc tự động hóa các quy trình kinh doanh bằng cách tự động xác định các mối tương quan dữ liệu giữa các yêu cầu API và cung cấp một biểu đồ luồng. - Nó cho phép người dùng ghi lại các yêu cầu, xác định đầu vào và đầu ra, và xuất các luồng này dưới dạng mã JavaScript, làm cho quá trình này hiệu quả hơn so với việc phân tích ngược thủ công hoặc sử dụng các công nghệ kém tối ưu hơn như Tự động hóa Quy trình Robot (RPA). - Công cụ này được xây dựng trên Electron và có sẵn cho cả nền tảng Windows và Linux, với một hướng dẫn có sẵn để phân tích ngược API của USPS.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42565821">phản ứng</a></h3>
-<ul>
-<li>API Parrot là một công cụ tự động hóa việc dịch ngược các API HTTP, giúp tự động hóa các quy trình kinh doanh bằng cách xác định mối tương quan dữ liệu giữa các yêu cầu. - Nó cung cấp các tính năng như ghi lại yêu cầu, định nghĩa đầu vào và đầu ra, và xuất các luồng dưới dạng mã JavaScript, với một biểu diễn luồng đồ họa. - Hiện có sẵn cho Windows và Linux, API Parrot miễn phí, với khả năng có phiên bản &quot;pro&quot; cho doanh nghiệp, và có kế hoạch phát hành cho macOS trong tương lai.</li>
-</ul>
-<h2><a href="https://thehill.com/national-security/5061535-virginia-man-arrested-explosives/">FBI: Kho chất nổ tự chế lớn nhất trong lịch sử của cơ quan được tìm thấy ở Virginia</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42562529">phản ứng</a></h3>
-<ul>
-<li>FBI đã phát hiện ra kho chất nổ tự chế lớn nhất trong lịch sử của mình tại Virginia, dẫn đến những tranh luận pháp lý và công chúng đáng kể.</li>
-<li>Hiện tại, nghi phạm chỉ bị buộc tội sở hữu một khẩu súng trường nòng ngắn, vì tính hợp pháp của vũ khí của anh ta đang được xem xét.</li>
-<li>Vụ việc đã làm dấy lên các cuộc thảo luận về luật súng, Tu chính án thứ hai, và sự cân bằng giữa quy định của chính phủ và quyền cá nhân.</li>
-</ul>
-<h2><a href="https://dgl.cx/2024/12/ghostty-terminal-title">Déjà vu: CVE ma quái trong tiêu đề terminal của tôi</a></h2>
-<ul>
-<li>Ghostty, một trình giả lập terminal mới, đã có một lỗ hổng bảo mật tương tự như một lỗ hổng từ năm 2003, cho phép các ký tự thoát ASCII thực thi các lệnh như mở ứng dụng. - Vấn đề này đặc biệt gây rắc rối với Zsh và Bash ở chế độ vi, nhưng Ghostty 1.0.1 đã giải quyết điều này bằng cách vô hiệu hóa tính năng theo mặc định. - Mặc dù có lỗ hổng bảo mật, Ghostty được khen ngợi vì các tính năng của nó, và nhà phát triển đã nhanh chóng giải quyết vấn đề, cung cấp các bản sửa lỗi và giải pháp thay thế cho người dùng.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42562743">phản ứng</a></h3>
-<ul>
-<li>Theo thảo luận, trọng tâm là các lỗ hổng bảo mật của terminal, đặc biệt là những lỗ hổng liên quan đến chuỗi thoát, và khám phá các cách để giảm thiểu những rủi ro này. - Các đề xuất để tăng cường bảo mật terminal bao gồm việc áp dụng các hệ thống tương tự như vòng bảo vệ CPU hoặc syscall pledge() của OpenBSD, nhằm hạn chế khả năng để ngăn chặn khai thác. - Những người tham gia thừa nhận thách thức trong việc cân bằng giữa bảo mật và chức năng trong các ứng dụng terminal và bày tỏ sự quan tâm đến việc khám phá và hợp tác thêm để cải thiện các thực hành bảo mật.</li>
-</ul>
-<h2><a href="https://github.com/facebookresearch/large_concept_model">Những Mô Hình Khái Niệm Lớn: Mô hình ngôn ngữ trong không gian biểu diễn câu</a></h2>
-<ul>
-<li>Kho lưu trữ cung cấp các triển khai cho Mô hình Khái niệm Lớn (LCM), sử dụng &quot;khái niệm&quot; như một đại diện ngữ nghĩa cấp cao hơn cho mô hình ngôn ngữ.</li>
-<li>LCM hỗ trợ 200 ngôn ngữ văn bản và 57 ngôn ngữ nói sử dụng không gian nhúng SONAR, và được huấn luyện cho dự đoán câu tự hồi quy với các phương pháp như hồi quy MSE và tạo dựa trên khuếch tán.</li>
-<li>Kho lưu trữ cung cấp hướng dẫn cài đặt, chuẩn bị dữ liệu, huấn luyện, tinh chỉnh và đánh giá, và được phát hành theo giấy phép MIT, sử dụng fairseq2 với các tùy chọn cài đặt UV và pip.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42563534">phản ứng</a></h3>
-<ul>
-<li>Những Mô Hình Khái Niệm Lớn tập trung vào việc biểu diễn ngôn ngữ theo các &quot;khái niệm&quot; thay vì các token riêng lẻ, nhằm nâng cao khả năng phân đoạn ngữ nghĩa và dự đoán.</li>
-<li>Phương pháp này đề xuất sử dụng các biểu diễn cấp cao hơn để bắt chước việc lập kế hoạch và giao tiếp của con người, có thể mang lại lợi thế so với các mô hình dựa trên token truyền thống.</li>
-<li>Phương pháp này giải quyết những hạn chế trong các kiến trúc Mô hình Ngôn ngữ Lớn (LLM) hiện tại bằng cách nhấn mạnh các cấu trúc phân cấp rõ ràng để tái tạo tốt hơn lý luận của con người.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Chúc mừng năm mới 2025" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Ch%C3%BAc%20m%E1%BB%ABng%20n%C4%83m%20m%E1%BB%9Bi%202025&subheading=Th%E1%BB%A9%20T%C6%B0%2C%201%20th%C3%A1ng%201%2C%202025%3A%20T%C3%B3m%20t%E1%BA%AFt%20tin%20t%E1%BB%A9c%20v%E1%BB%81%20hacker" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/vi/2025/01/01</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Z</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

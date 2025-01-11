@@ -15,11 +15,145 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Jan 2025 19:07:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jan 2025 19:29:05 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/story/id.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
         <language><![CDATA[id]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Sadari Efek Makefile]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>The &quot;Makefile effect&quot; menggambarkan praktik para insinyur yang menyalin dan memodifikasi konfigurasi kompleks yang sudah ada, seperti Makefile, daripada membuat yang baru dari awal. - Pendekatan ini lazim dalam berbagai sistem, seperti konfigurasi Continuous Integration/Continuous Deployment (CI/CD) dan sistem build, dan dapat menunjukkan alat yang terlalu kompleks atau dirancang dengan buruk. - Meskipun tidak secara inheren negatif, efek Makefile dapat menghambat pembelajaran, mempersulit keamanan, dan menyebabkan debugging yang tidak efisien, menyoroti perlunya desain alat yang dipikirkan dengan matang yang mempertimbangkan konfigurabilitas dan kemudahan penggunaan.</li>
+</ul>
+]]></description>
+            <link>https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZSadari Efek Makefile</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Portal dan Quake]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Artikel ini adalah yang pertama dalam seri &quot;Demystifying the PVS&quot;, berfokus pada sistem visibilitas prahitung Quake untuk mengatasi overdraw, di mana piksel dirender beberapa kali. - Quake menggunakan portal culling dan set visibilitas potensial (PVS) dengan membagi dunia menjadi sel dan portal, menghitung visibilitas sebelumnya untuk mengoptimalkan rendering. - Artikel ini memperkenalkan kelas Portal dan Leaf dalam vis.py, sebuah penerapan ulang algoritma visibilitas Quake dalam Python, menyoroti penggunaan matriks visibilitas dari daun ke daun.</li>
+</ul>
+]]></description>
+            <link>https://30fps.net/pages/pvs-portals-and-quake/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZPortal dan Quake</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Perbaikan Bug Phi-4]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://unsloth.ai/blog/phi4</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZPerbaikan Bug Phi-4</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Matematika yang Sangat Salah]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Sebuah perusahaan desain dan konstruksi membuat kesalahan matematika di Facebook, salah menghitung jari-jari Bumi sebagai 4.333 kaki, yang mengarah pada perkiraan keliling yang sangat rendah yaitu hanya lebih dari 5 mil.</li>
+<li>Terdapat kesalahan yang berasal dari perhitungan panjang busur tanpa menggunakan radius Bumi yang sebenarnya, yaitu sekitar 3.959 mil.</li>
+<li>Tulisan tersebut menyoroti bahwa busur luar kurang dari 1% lebih panjang daripada busur dalam, menunjukkan potensi pengurangan waktu penerbangan karena berkurangnya hambatan udara.</li>
+</ul>
+]]></description>
+            <link>https://www.charlespetzold.com/blog/2025/01/Very-Wrong-Math.html</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZMatematika yang Sangat Salah</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Bangunan Bauble]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Bauble adalah alat pemodelan dan perenderan 3D yang memanfaatkan fungsi jarak bertanda (SDFs) untuk membuat bentuk dan animasi yang kompleks. - Awalnya merupakan sistem dasar untuk menghasilkan shader GLSL, Bauble telah ditulis ulang untuk menyertakan fitur seperti ekspor model 3D, pengeditan interaktif, dan pencahayaan kustom. - Alat ini sekarang mendukung penyematan web, pengeditan vektor interaktif, dan menawarkan dokumentasi yang komprehensif, membuatnya dapat diakses untuk proyek kreatif dan pengguna yang tertarik pada desain 3D.</li>
+</ul>
+]]></description>
+            <link>https://ianthehenry.com/posts/bauble/building-bauble/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZBangunan Bauble</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Hampir semua pencarian biner dan mergesort rusak (2006)]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Pada tahun 2006, Joshua Bloch mengidentifikasi sebuah bug dalam algoritma pencarian biner, yang awalnya dicatat dalam buku Jon Bentley &quot;Programming Pearls,&quot; di mana terjadi overflow ketika &#39;low&#39; dan &#39;high&#39; melebihi nilai maksimum int.</li>
+<li>Bug ini, yang mempengaruhi array dengan panjang 2^30 atau lebih, jarang terjadi pada tahun 1980-an tetapi lebih umum saat ini, juga mempengaruhi mergesort dan algoritma divide-and-conquer lainnya.</li>
+<li>Bloch merekomendasikan untuk memperbaiki masalah dengan menghitung titik tengah sebagai <code>int mid = low + ((high - low) / 2);</code>, menyoroti tantangan dalam menulis kode bebas kesalahan dan pentingnya pengujian yang menyeluruh.</li>
+</ul>
+]]></description>
+            <link
+      >https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000ZHampir semua pencarian biner dan mergesort rusak (2006)</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Pantau perangkat Anda melalui jaringan Apple FindMy di Go/TinyGo]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Go Haystack memungkinkan pelacakan perangkat Bluetooth pribadi melalui jaringan &quot;Find My&quot; Apple tanpa memerlukan perangkat keras Apple, dengan memanfaatkan OpenHaystack dan Macless-Haystack menggunakan alat Go/TinyGo.</li>
+<li>Pengguna dapat membuat beacon mereka sendiri menggunakan firmware TinyGo pada perangkat keras seperti papan Adafruit Bluefruit dan BBC Microbit, dengan pengaturan yang memerlukan ID Apple dengan autentikasi dua faktor (2FA).</li>
+<li>Proses ini melibatkan pemasangan alat go-haystack, menggunakan perintah seperti <code>haystack scan</code> untuk menemukan perangkat, menghasilkan kunci, mem-flash perangkat, dan mengunggah file JSON ke macless-haystack agar perangkat terlihat di antarmuka web.</li>
+</ul>
+]]></description>
+            <link>https://github.com/hybridgroup/go-haystack</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000ZPantau perangkat Anda melalui jaringan Apple FindMy di Go/TinyGo</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Keadaan Vim]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Setelah wafatnya pendiri Vim, Bram Moolenaar, pada tahun 2023, komunitas Vim telah melakukan reorganisasi untuk memastikan kelanjutan pengembangan proyek tersebut, dengan Christian Brabandt sebagai pemelihara saat ini. - Pada VimConf 2024, dibahas bahwa tim telah berkembang, dengan fokus pada pembaruan situs web Vim, pengelolaan keamanan, dan peningkatan saluran komunikasi. - Vim tetap dalam mode pemeliharaan, memprioritaskan kebutuhan komunitas dan mengintegrasikan fitur baru dengan hati-hati, sambil terus mendukung ICCF Holland, sebuah badan amal yang didirikan oleh Moolenaar.</li>
+</ul>
+]]></description>
+            <link>https://lwn.net/SubscriberLink/1002342/a8d8a17f30968b93/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZKeadaan Vim</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Meratakan AST dan struktur data kompilator lainnya (2023)]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Tulisan tersebut membahas tentang perataan struktur data, sebuah teknik untuk kompiler yang mengoptimalkan pohon sintaksis abstrak (AST) dengan menggunakan satu array dengan indeks alih-alih pointer. - Metode ini meningkatkan kinerja dengan memperbaiki lokalitas memori, mengurangi ukuran referensi, dan menyederhanakan manajemen memori, menghasilkan peningkatan kecepatan 2,4 kali dalam sebuah mikrobenchmark. - Teknik ini terutama digunakan dalam proyek Rust dan menawarkan manfaat ergonomis, seperti manajemen memori yang lebih mudah, dan dibandingkan dengan interpreter bytecode untuk peningkatan kinerja lebih lanjut.</li>
+</ul>
+]]></description>
+            <link>https://www.cs.cornell.edu/~asampson/blog/flattening.html</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000ZMeratakan AST dan struktur data kompilator lainnya (2023)</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Menonaktifkan fitur pintar pada speaker Bluetooth Marshall Uxbridge]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://tomscii.sig7.se/2025/01/De-smarting-the-Marshall-Uxbridge</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000ZMenonaktifkan fitur pintar pada speaker Bluetooth Marshall Uxbridge</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title
+      ><![CDATA[Bot OpenAI menghancurkan situs web perusahaan beranggotakan tujuh orang ini 'seperti serangan DDoS']]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Triplegangers&#39; situs e-commerce mengalami serangan mirip DDoS karena bot OpenAI membuat puluhan ribu permintaan untuk mengikis lebih dari 65.000 halaman produk. - Situs tersebut tidak memiliki file robots.txt yang dikonfigurasi dengan benar untuk memblokir bot semacam itu, yang mengakibatkan peningkatan biaya AWS dan kekhawatiran tentang keamanan data. - Insiden ini menyoroti pentingnya perusahaan AI mendapatkan izin sebelum melakukan pengikisan data dan menjadi peringatan bagi bisnis kecil untuk memantau aktivitas bot AI.</li>
+</ul>
+]]></description>
+            <link
+      >https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000ZBot OpenAI menghancurkan situs web perusahaan beranggotakan tujuh orang ini &apos;seperti serangan DDoS&apos;</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Saya Telah Memperoleh Kekuatan Super Baru]]></title>
             <description
@@ -1007,133 +1141,6 @@
             <link>https://austinhenley.com/blog/25yearsofai.html</link>
             <guid isPermaLink="false">2025-01-02T00:00:00.000ZTantangan 25 tahun saya dalam AI dan ML</guid>
             <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Selamat Tahun Baru 2025]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://news.ycombinator.com/item?id=42562750</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZSelamat Tahun Baru 2025</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[DOOM CAPTCHA]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://doom-captcha.vercel.app/</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZDOOM CAPTCHA</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Tree pencarian statis: lebih cepat daripada pencarian biner]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Tulisan ini membahas tentang penerapan dan optimalisasi pohon pencarian statis (S+ trees) untuk pencarian data yang diurutkan dengan kecepatan yang jauh lebih cepat, mencapai 40 kali lebih cepat dibandingkan pencarian biner tradisional. - Teknik optimalisasi seperti batching, prefetching, dan SIMD (Single Instruction, Multiple Data) manual digunakan untuk meningkatkan throughput kueri. - Artikel ini juga mengeksplorasi berbagai tata letak pohon, ukuran node, dan strategi manajemen memori, dengan diskusi tentang pekerjaan di masa depan seperti pencarian bercabang dan pencarian interpolasi untuk lebih meningkatkan efisiensi pencarian.</li>
-</ul>
-]]></description>
-            <link>https://curiouscoding.nl/posts/static-search-tree/</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZTree pencarian statis: lebih cepat daripada pencarian biner</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title
-      ><![CDATA[Penurunan 30% dalam Akurasi Pratinjau o1 Ketika Masalah Putnam Sedikit Divariasikan]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Putnam-AXIOM adalah tolok ukur yang dirancang untuk menilai model bahasa besar (LLM) dalam penalaran matematika tingkat lanjut menggunakan masalah dari Kompetisi Matematika Putnam. - Tolok ukur ini mencakup 236 masalah asli dan variasi dengan 52 masalah yang diubah untuk menghindari kontaminasi data. - Model berperforma terbaik dari OpenAI mencapai akurasi 41,95% pada masalah asli tetapi mengalami penurunan kinerja yang signifikan sekitar 30% pada masalah yang diubah, menyoroti tantangan dalam beradaptasi dengan variasi.</li>
-</ul>
-]]></description>
-            <link>https://openreview.net/forum?id=YXnwlZe0yf&amp;noteId=yrsGpHd0Sf</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZPenurunan 30% dalam Akurasi Pratinjau o1 Ketika Masalah Putnam Sedikit Divariasikan</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Basis Data di Tahun 2024: Tinjauan Tahunan]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Tahun 2024, lanskap basis data mengalami perubahan signifikan, termasuk akuisisi besar, perubahan lisensi, dan persaingan yang terus berlanjut di antara pemain kunci seperti Redis, Elasticsearch, Databricks, dan Snowflake. - DuckDB mendapatkan popularitas untuk kueri analitis, dengan integrasi ke dalam Postgres, sementara rilis penting termasuk Amazon Aurora DSQL dan Microsoft Garnet. - Akuisisi seperti Tabular oleh Databricks dan OrioleDB oleh Supabase menjadi penting, dan meskipun ada kemunduran seperti penutupan OtterTune, industri ini tetap dinamis dengan proyek dan pendanaan baru.</li>
-</ul>
-]]></description>
-            <link>https://www.cs.cmu.edu/~pavlo/blog/2025/01/2024-databases-retrospective.html</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZBasis Data di Tahun 2024: Tinjauan Tahunan</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Buku yang Saya Suka Baca di 2024]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Daftar tersebut menampilkan beragam buku, termasuk narasi sejarah, filosofis, ilmiah, dan pribadi, masing-masing menawarkan wawasan unik dan pengalaman yang memperkaya.</li>
-<li>Highlight termasuk surat-surat Cicero untuk wawasan tentang kehidupan Romawi, karya-karya Ben-Ari tentang logika ilmu komputer dan verifikasi program, serta memoar Steve Martin tentang kesuksesan komedi.</li>
-<li>Terdapat juga eksplorasi filosofis oleh Pierre Hadot dan Nietzsche, tragedi Yunani oleh Aeschylus, serta karya sastra oleh Ursula Le Guin dan Rabindranath Tagore dalam koleksi tersebut.</li>
-</ul>
-]]></description>
-            <link>https://thoughts.wyounas.com/p/books-i-enjoyed-most-in-2024</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZBuku yang Saya Suka Baca di 2024</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Terence Tao: Salah satu makalah saya ditolak hari ini]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://mathstodon.xyz/@tao/113721192051328193</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZTerence Tao: Salah satu makalah saya ditolak hari ini</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[API Parrot – Secara Otomatis Mereverse Engineering API HTTP]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>API Parrot adalah alat baru yang dirancang untuk menyederhanakan otomatisasi proses bisnis dengan secara otomatis mengidentifikasi korelasi data antara permintaan API dan menyediakan representasi alur grafis. - Alat ini memungkinkan pengguna untuk merekam permintaan, mendefinisikan input dan output, serta mengekspor alur ini sebagai kode JavaScript, membuat proses lebih efisien dibandingkan rekayasa balik manual atau menggunakan teknologi yang kurang optimal seperti Robotic Process Automation (RPA). - Alat ini dibangun di atas Electron dan tersedia untuk platform Windows dan Linux, dengan tutorial yang tersedia untuk rekayasa balik API USPS.</li>
-</ul>
-]]></description>
-            <link>https://apiparrot.com/</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZAPI Parrot – Secara Otomatis Mereverse Engineering API HTTP</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title
-      ><![CDATA[FBI: Temuan bahan peledak buatan sendiri terbesar dalam sejarah agensi ditemukan di Virginia]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://thehill.com/national-security/5061535-virginia-man-arrested-explosives/</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZFBI: Temuan bahan peledak buatan sendiri terbesar dalam sejarah agensi ditemukan di Virginia</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Teks: Déjà vu: CVE hantu di judul terminal saya]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Ghostty, sebuah terminal emulator baru, memiliki kerentanan keamanan yang mirip dengan yang terjadi pada tahun 2003, yang memungkinkan karakter escape ASCII untuk mengeksekusi perintah seperti membuka aplikasi. - Masalah ini sangat bermasalah dengan Zsh dan Bash dalam mode vi, tetapi Ghostty 1.0.1 telah menyelesaikannya dengan menonaktifkan fitur tersebut secara default. - Meskipun ada cacat keamanan, Ghostty dipuji karena fiturnya, dan pengembang dengan cepat menangani masalah ini, menyediakan perbaikan dan solusi untuk pengguna.</li>
-</ul>
-]]></description>
-            <link>https://dgl.cx/2024/12/ghostty-terminal-title</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZTeks: Déjà vu: CVE hantu di judul terminal saya</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Model Konsep Besar: Pemodelan bahasa dalam ruang representasi kalimat]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Terdapat implementasi untuk Model Konsep Besar (LCM) dalam repositori ini, yang memanfaatkan &quot;konsep&quot; sebagai representasi semantik tingkat tinggi untuk pemodelan bahasa.</li>
-<li>LCM mendukung 200 bahasa teks dan 57 bahasa ucapan menggunakan ruang embedding SONAR, dan dilatih untuk prediksi kalimat auto-regresif dengan metode seperti regresi MSE dan generasi berbasis difusi.</li>
-<li>Tepat guna menyediakan petunjuk instalasi, persiapan data, pelatihan, penyempurnaan, dan panduan evaluasi, serta dirilis di bawah lisensi MIT, menggunakan fairseq2 dengan opsi instalasi UV dan pip.</li>
-</ul>
-]]></description>
-            <link>https://github.com/facebookresearch/large_concept_model</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZModel Konsep Besar: Pemodelan bahasa dalam ruang representasi kalimat</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

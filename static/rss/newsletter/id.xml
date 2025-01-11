@@ -15,12 +15,132 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Jan 2025 19:07:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jan 2025 19:29:06 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/id.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[id]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-11]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/11&#39;</h2>
+<h1>2025-01-11</h1>
+<h2><a href="https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect">Sadari Efek Makefile</a></h2>
+<ul>
+<li>The &quot;Makefile effect&quot; menggambarkan praktik para insinyur yang menyalin dan memodifikasi konfigurasi kompleks yang sudah ada, seperti Makefile, daripada membuat yang baru dari awal. - Pendekatan ini lazim dalam berbagai sistem, seperti konfigurasi Continuous Integration/Continuous Deployment (CI/CD) dan sistem build, dan dapat menunjukkan alat yang terlalu kompleks atau dirancang dengan buruk. - Meskipun tidak secara inheren negatif, efek Makefile dapat menghambat pembelajaran, mempersulit keamanan, dan menyebabkan debugging yang tidak efisien, menyoroti perlunya desain alat yang dipikirkan dengan matang yang mempertimbangkan konfigurabilitas dan kemudahan penggunaan.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42663231">Reaksi</a></h3>
+<ul>
+<li>&quot;Efek Makefile&quot; menggambarkan kecenderungan pengembang untuk menyalin dan memodifikasi kode atau konfigurasi tanpa sepenuhnya memahaminya, sering kali karena kompleksitas alat atau penggunaan yang jarang.</li>
+<li>Fenomena ini tersebar luas di seluruh tugas pemrograman dan konfigurasi, di mana para pengembang menggunakan solusi yang sudah dikenal untuk menghemat waktu dan usaha, yang berpotensi mengarah pada kode yang sulit untuk dipelihara.</li>
+<li>Teks tersebut menekankan perlunya menyeimbangkan penggunaan template dan solusi yang ada dengan memperoleh pemahaman yang lebih mendalam tentang alat dan sistem yang terlibat.</li>
+</ul>
+<h2><a href="https://30fps.net/pages/pvs-portals-and-quake/">Portal dan Quake</a></h2>
+<ul>
+<li>Artikel ini adalah yang pertama dalam seri &quot;Demystifying the PVS&quot;, berfokus pada sistem visibilitas prahitung Quake untuk mengatasi overdraw, di mana piksel dirender beberapa kali. - Quake menggunakan portal culling dan set visibilitas potensial (PVS) dengan membagi dunia menjadi sel dan portal, menghitung visibilitas sebelumnya untuk mengoptimalkan rendering. - Artikel ini memperkenalkan kelas Portal dan Leaf dalam vis.py, sebuah penerapan ulang algoritma visibilitas Quake dalam Python, menyoroti penggunaan matriks visibilitas dari daun ke daun.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42661185">Reaksi</a></h3>
+<ul>
+<li>Desainer level Quake memanfaatkan &quot;hint&quot; brushes dan &quot;area portals&quot; untuk mengoptimalkan kinerja game, sebuah teknik yang telah menjadi dasar dalam grafis 3D. - Game seperti Prey dan Portal membawa portal ke sorotan untuk mekanik gameplay, meskipun konsep ini telah digunakan dalam rendering sejak grafis 3D awal. - Unreal Engine 1 menggunakan zona untuk optimasi, dan mesin kontemporer seperti Unreal Engine 5 terus menggunakan metode serupa untuk meningkatkan efisiensi rendering.</li>
+</ul>
+<h2><a href="https://unsloth.ai/blog/phi4">Perbaikan Bug Phi-4</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42660335">Reaksi</a></h3>
+<ul>
+<li>Daniel Hanchen menemukan dan mengatasi bug dalam Model Bahasa Besar (LLM) Phi-4 milik Microsoft, seperti masalah pada akhir kalimat dan prompt template obrolan. - Dia mengonversi Phi-4 ke arsitektur Llama, meningkatkan kinerja, dan membagikan perbaikan tersebut di Hugging Face, sebuah platform untuk model pembelajaran mesin. - Sebuah notebook Colab untuk menyempurnakan Phi-4 tersedia, dan meskipun perbaikan tersebut meningkatkan kinerja pada beberapa tolok ukur, mereka menurunkannya pada yang lain; tim Phi-4 sedang bekerja untuk mengintegrasikan perbaikan ini ke dalam model asli.</li>
+</ul>
+<h2><a href="https://www.charlespetzold.com/blog/2025/01/Very-Wrong-Math.html">Matematika yang Sangat Salah</a></h2>
+<ul>
+<li>Sebuah perusahaan desain dan konstruksi membuat kesalahan matematika di Facebook, salah menghitung jari-jari Bumi sebagai 4.333 kaki, yang mengarah pada perkiraan keliling yang sangat rendah yaitu hanya lebih dari 5 mil.</li>
+<li>Terdapat kesalahan yang berasal dari perhitungan panjang busur tanpa menggunakan radius Bumi yang sebenarnya, yaitu sekitar 3.959 mil.</li>
+<li>Tulisan tersebut menyoroti bahwa busur luar kurang dari 1% lebih panjang daripada busur dalam, menunjukkan potensi pengurangan waktu penerbangan karena berkurangnya hambatan udara.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42661432">Reaksi</a></h3>
+<ul>
+<li>Seorang pembuat konten YouTube secara keliru mengklaim bahwa garis tegak lurus akan sejajar di Bumi datar, salah memahami kelengkungan Bumi, yang sebenarnya dapat diabaikan dalam pengukuran semacam itu. - Diskusi tersebut menyoroti kegagalan intuisi dalam memahami konsep skala besar dan membahas teori Bumi datar, kesalahpahaman tentang gravitasi, dan efek rotasi Bumi pada penerbangan. - Percakapan tersebut dengan humor meneliti ketahanan keyakinan yang salah dan kesulitan menjelaskan konsep ilmiah kepada mereka yang menolak ilmu pengetahuan yang sudah mapan.</li>
+</ul>
+<h2><a href="https://ianthehenry.com/posts/bauble/building-bauble/">Bangunan Bauble</a></h2>
+<ul>
+<li>Bauble adalah alat pemodelan dan perenderan 3D yang memanfaatkan fungsi jarak bertanda (SDFs) untuk membuat bentuk dan animasi yang kompleks. - Awalnya merupakan sistem dasar untuk menghasilkan shader GLSL, Bauble telah ditulis ulang untuk menyertakan fitur seperti ekspor model 3D, pengeditan interaktif, dan pencahayaan kustom. - Alat ini sekarang mendukung penyematan web, pengeditan vektor interaktif, dan menawarkan dokumentasi yang komprehensif, membuatnya dapat diakses untuk proyek kreatif dan pengguna yang tertarik pada desain 3D.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42660942">Reaksi</a></h3>
+<ul>
+<li>Building Bauble, sebuah proyek yang ditampilkan di ianthehenry.com, telah menimbulkan kegembiraan dengan menampilkan keajaiban dan kesenangan dari pemrograman, terutama dalam pengkodean dan grafis.</li>
+<li>Tugas ini dipuji karena kreativitas dan penulisan yang rinci, menginspirasi pembaca untuk mengunjungi kembali proyek yang belum selesai dan menjelajahi teknologi baru seperti Janet (bahasa pemrograman) dan GLSL (OpenGL Shading Language).</li>
+<li>Terlepas dari beberapa masalah teknis pada Safari, proyek ini dipuji karena eksekusinya yang mengesankan dan cerita pengembangannya yang menarik, memicu diskusi tentang proyek pribadi dan penggunaan pembaca RSS.</li>
+</ul>
+<h2><a href="https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/">Hampir semua pencarian biner dan mergesort rusak (2006)</a></h2>
+<ul>
+<li>Pada tahun 2006, Joshua Bloch mengidentifikasi sebuah bug dalam algoritma pencarian biner, yang awalnya dicatat dalam buku Jon Bentley &quot;Programming Pearls,&quot; di mana terjadi overflow ketika &#39;low&#39; dan &#39;high&#39; melebihi nilai maksimum int.</li>
+<li>Bug ini, yang mempengaruhi array dengan panjang 2^30 atau lebih, jarang terjadi pada tahun 1980-an tetapi lebih umum saat ini, juga mempengaruhi mergesort dan algoritma divide-and-conquer lainnya.</li>
+<li>Bloch merekomendasikan untuk memperbaiki masalah dengan menghitung titik tengah sebagai <code>int mid = low + ((high - low) / 2);</code>, menyoroti tantangan dalam menulis kode bebas kesalahan dan pentingnya pengujian yang menyeluruh.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42664400">Reaksi</a></h3>
+<ul>
+<li>Banyak pencarian biner dan mergesort rentan terhadap masalah overflow integer, terutama dalam implementasi yang lebih lama, seperti yang disoroti dalam artikel tahun 2006.</li>
+<li>Tulisan tersebut menekankan pentingnya mempertimbangkan kasus tepi dan keterbatasan perangkat keras dalam pemrograman, yang tetap relevan hingga saat ini.</li>
+<li>Pengembang disarankan untuk menggunakan fungsi bawaan atau tipe bilangan bulat yang lebih besar untuk mencegah bug semacam itu, menekankan perlunya kehati-hatian dengan tipe data dan ukuran input.</li>
+</ul>
+<h2><a href="https://github.com/hybridgroup/go-haystack">Pantau perangkat Anda melalui jaringan Apple FindMy di Go/TinyGo</a></h2>
+<ul>
+<li>Go Haystack memungkinkan pelacakan perangkat Bluetooth pribadi melalui jaringan &quot;Find My&quot; Apple tanpa memerlukan perangkat keras Apple, dengan memanfaatkan OpenHaystack dan Macless-Haystack menggunakan alat Go/TinyGo.</li>
+<li>Pengguna dapat membuat beacon mereka sendiri menggunakan firmware TinyGo pada perangkat keras seperti papan Adafruit Bluefruit dan BBC Microbit, dengan pengaturan yang memerlukan ID Apple dengan autentikasi dua faktor (2FA).</li>
+<li>Proses ini melibatkan pemasangan alat go-haystack, menggunakan perintah seperti <code>haystack scan</code> untuk menemukan perangkat, menghasilkan kunci, mem-flash perangkat, dan mengunggah file JSON ke macless-haystack agar perangkat terlihat di antarmuka web.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42665367">Reaksi</a></h3>
+<ul>
+<li>Jaringan Apple FindMy dapat digunakan dengan Go/TinyGo untuk melacak perangkat, menawarkan cara untuk memperluas jaringan tanpa memerlukan akun Apple.</li>
+<li>Masalah privasi diatasi oleh desain Apple, dan perusahaan ini memiliki reputasi yang kuat dalam menjaga privasi pengguna, meskipun beberapa pengguna tetap waspada terhadap potensi pengawasan.</li>
+<li>Tidak ada teks yang disediakan untuk diterjemahkan.</li>
+</ul>
+<h2><a href="https://lwn.net/SubscriberLink/1002342/a8d8a17f30968b93/">Keadaan Vim</a></h2>
+<ul>
+<li>Setelah wafatnya pendiri Vim, Bram Moolenaar, pada tahun 2023, komunitas Vim telah melakukan reorganisasi untuk memastikan kelanjutan pengembangan proyek tersebut, dengan Christian Brabandt sebagai pemelihara saat ini. - Pada VimConf 2024, dibahas bahwa tim telah berkembang, dengan fokus pada pembaruan situs web Vim, pengelolaan keamanan, dan peningkatan saluran komunikasi. - Vim tetap dalam mode pemeliharaan, memprioritaskan kebutuhan komunitas dan mengintegrasikan fitur baru dengan hati-hati, sambil terus mendukung ICCF Holland, sebuah badan amal yang didirikan oleh Moolenaar.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42665222">Reaksi</a></h3>
+<ul>
+<li>Pengguna Vim yang sudah lama menggunakan editor ini sedang merenungkan masa depan editor tersebut setelah wafatnya penciptanya, Bram Moolenaar. Beberapa merasa puas dengan stabilitasnya saat ini, sementara yang lain menjelajahi alternatif seperti Neovim untuk fitur-fitur modern.</li>
+<li>Neovim mendapatkan perhatian karena dukungannya terhadap skrip Lua dan peningkatan modern, sementara beberapa pengguna mempertimbangkan Emacs karena adanya persepsi fragmentasi antara Vim dan Neovim.</li>
+<li>Diskusi di antara pengguna mencakup topik seperti kinerja Treesitter, dukungan Protokol Server Bahasa (LSP), dan perbandingan dengan Visual Studio Code (VSCode), menyoroti fleksibilitas dan stabilitas editor-editor ini.</li>
+</ul>
+<h2><a href="https://www.cs.cornell.edu/~asampson/blog/flattening.html">Meratakan AST dan struktur data kompilator lainnya (2023)</a></h2>
+<ul>
+<li>Tulisan tersebut membahas tentang perataan struktur data, sebuah teknik untuk kompiler yang mengoptimalkan pohon sintaksis abstrak (AST) dengan menggunakan satu array dengan indeks alih-alih pointer. - Metode ini meningkatkan kinerja dengan memperbaiki lokalitas memori, mengurangi ukuran referensi, dan menyederhanakan manajemen memori, menghasilkan peningkatan kecepatan 2,4 kali dalam sebuah mikrobenchmark. - Teknik ini terutama digunakan dalam proyek Rust dan menawarkan manfaat ergonomis, seperti manajemen memori yang lebih mudah, dan dibandingkan dengan interpreter bytecode untuk peningkatan kinerja lebih lanjut.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42659061">Reaksi</a></h3>
+<ul>
+<li>Teks ini berfokus pada mengoptimalkan Pohon Sintaks Abstrak (AST) dengan menyimpannya dalam array datar yang bersebelahan untuk meningkatkan kinerja dan efisiensi memori.</li>
+<li>Metode ini meningkatkan lokalitas cache dan menyederhanakan manajemen memori, dengan membandingkannya dengan teknik dalam bahasa seperti Lisp dan kompilator Zig.</li>
+<li>Percakapan tersebut juga merujuk pada metode historis dan teknik serupa dalam bahasa pemrograman lain, menekankan manfaat dari struktur data datar untuk komposabilitas dan kemudahan manipulasi.</li>
+</ul>
+<h2><a href="https://tomscii.sig7.se/2025/01/De-smarting-the-Marshall-Uxbridge">Menonaktifkan fitur pintar pada speaker Bluetooth Marshall Uxbridge</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42666572">Reaksi</a></h3>
+<ul>
+<li>Teks tersebut berfokus pada memodifikasi speaker Bluetooth Marshall Uxbridge untuk menghilangkan fitur &quot;pintar&quot;-nya, yang melibatkan aspek teknis seperti merancang Papan Sirkuit Cetak (PCB) untuk input digital I2S.</li>
+<li>Pengguna memperdebatkan peran Pemrosesan Sinyal Digital (DSP) dalam mencapai kualitas suara yang baik, dengan beberapa menekankan pentingnya untuk mengimbangi keterbatasan perangkat keras.</li>
+<li>Teks tersebut juga membahas tantangan dalam memodifikasi perangkat pintar dan keterjangkauan produksi PCB modern serta komponennya.</li>
+</ul>
+<h2><a href="https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/">Bot OpenAI menghancurkan situs web perusahaan beranggotakan tujuh orang ini &#39;seperti serangan DDoS&#39;</a></h2>
+<ul>
+<li>Triplegangers&#39; situs e-commerce mengalami serangan mirip DDoS karena bot OpenAI membuat puluhan ribu permintaan untuk mengikis lebih dari 65.000 halaman produk. - Situs tersebut tidak memiliki file robots.txt yang dikonfigurasi dengan benar untuk memblokir bot semacam itu, yang mengakibatkan peningkatan biaya AWS dan kekhawatiran tentang keamanan data. - Insiden ini menyoroti pentingnya perusahaan AI mendapatkan izin sebelum melakukan pengikisan data dan menjadi peringatan bagi bisnis kecil untuk memantau aktivitas bot AI.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42660377">Reaksi</a></h3>
+<ul>
+<li>Bot OpenAI menyebabkan lalu lintas berlebihan pada situs web perusahaan kecil, mirip dengan serangan Distributed Denial of Service (DDoS), menyoroti masalah dengan bot AI yang membanjiri situs web.</li>
+<li>Perusahaan seperti Read the Docs telah mengalami tantangan serupa dengan bot AI yang menghasilkan lalu lintas besar, meskipun menggunakan &quot;robots.txt&quot; untuk mengelola perayap web.</li>
+<li>Insiden ini menyoroti perdebatan yang sedang berlangsung tentang menyeimbangkan aksesibilitas web dengan perlindungan terhadap pengambilan data agresif oleh perusahaan AI, karena beberapa bot mengabaikan &quot;robots.txt,&quot; yang dapat menyebabkan masalah hukum dan keuangan bagi pemilik situs kecil.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Sadari Efek Makefile" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Sadari%20Efek%20Makefile&subheading=Sabtu%2C%2011%20Januari%202025%3A%20Ringkasan%20Berita%20Peretas" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/id/2025/01/11</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Z</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-10]]></title>
             <description
@@ -903,104 +1023,6 @@
             <link>https://hn.cho.sh/id/2025/01/02</link>
             <guid isPermaLink="false">2025-01-02T00:00:00.000Z</guid>
             <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2025-01-01]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2025/01/01&#39;</h2>
-<h1>2025-01-01</h1>
-<h2><a href="https://news.ycombinator.com/item?id=42562750">Selamat Tahun Baru 2025</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42562750">Reaksi</a></h3>
-<h2><a href="https://doom-captcha.vercel.app/">DOOM CAPTCHA</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42566112">Reaksi</a></h3>
-<ul>
-<li>DOOM CAPTCHA adalah proyek kreatif yang mengharuskan pengguna memainkan level dari game klasik DOOM sebagai tes CAPTCHA, menyoroti keterampilan teknis dan nostalgia. - Pengguna merasa kesulitan karena tidak adanya kontrol modern, yang mengarah pada reaksi beragam tentang kepraktisan dan aksesibilitasnya. - Proyek ini, meskipun baru, menyoroti ketidakpuasan yang terus-menerus terhadap sistem CAPTCHA tradisional, meskipun dibangun dengan asisten AI Vercel dan integrasi game manual.</li>
-</ul>
-<h2><a href="https://curiouscoding.nl/posts/static-search-tree/">Tree pencarian statis: lebih cepat daripada pencarian biner</a></h2>
-<ul>
-<li>Tulisan ini membahas tentang penerapan dan optimalisasi pohon pencarian statis (S+ trees) untuk pencarian data yang diurutkan dengan kecepatan yang jauh lebih cepat, mencapai 40 kali lebih cepat dibandingkan pencarian biner tradisional. - Teknik optimalisasi seperti batching, prefetching, dan SIMD (Single Instruction, Multiple Data) manual digunakan untuk meningkatkan throughput kueri. - Artikel ini juga mengeksplorasi berbagai tata letak pohon, ukuran node, dan strategi manajemen memori, dengan diskusi tentang pekerjaan di masa depan seperti pencarian bercabang dan pencarian interpolasi untuk lebih meningkatkan efisiensi pencarian.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42562847">Reaksi</a></h3>
-<ul>
-<li>Diskusi tersebut menyoroti pergeseran dari C/C++ ke Rust untuk konten algoritmik, terutama dalam pohon pencarian statis, karena manfaat keamanan dan kinerja yang ditawarkan oleh Rust.</li>
-<li>Popularitas Rust yang semakin meningkat dalam pemrograman tingkat rendah dicatat, dengan beberapa pengguna lebih memilih C atau pseudocode untuk aksesibilitas, sementara yang lain menghargai fitur modern Rust.</li>
-<li>Teks tersebut juga mengeksplorasi potensi bahasa pemrograman Zig dan tantangan yang terkait dengan mempelajari bahasa baru, mencerminkan lanskap bahasa pemrograman yang terus berkembang.</li>
-</ul>
-<h2><a href="https://openreview.net/forum?id=YXnwlZe0yf&noteId=yrsGpHd0Sf">Penurunan 30% dalam Akurasi Pratinjau o1 Ketika Masalah Putnam Sedikit Divariasikan</a></h2>
-<ul>
-<li>Putnam-AXIOM adalah tolok ukur yang dirancang untuk menilai model bahasa besar (LLM) dalam penalaran matematika tingkat lanjut menggunakan masalah dari Kompetisi Matematika Putnam. - Tolok ukur ini mencakup 236 masalah asli dan variasi dengan 52 masalah yang diubah untuk menghindari kontaminasi data. - Model berperforma terbaik dari OpenAI mencapai akurasi 41,95% pada masalah asli tetapi mengalami penurunan kinerja yang signifikan sekitar 30% pada masalah yang diubah, menyoroti tantangan dalam beradaptasi dengan variasi.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42565606">Reaksi</a></h3>
-<ul>
-<li>Sebuah studi mengungkapkan penurunan akurasi sebesar 30% pada model o1-Preview dalam masalah Putnam ketika variasi kecil diperkenalkan, menunjukkan tantangan bagi Model Bahasa Besar (LLM) dengan perubahan kecil. - Temuan ini memicu perdebatan tentang apakah LLM benar-benar dapat bernalar atau jika mereka terutama bergantung pada pencocokan pola dan penghafalan, mirip dengan kesalahan manusia di bawah tekanan. - Meskipun menghadapi tantangan ini, model seperti o1 dan o3 terus tampil baik pada masalah matematika yang kompleks, meskipun kapasitas mereka untuk menggeneralisasi masih dalam pengawasan.</li>
-</ul>
-<h2><a href="https://www.cs.cmu.edu/~pavlo/blog/2025/01/2024-databases-retrospective.html">Basis Data di Tahun 2024: Tinjauan Tahunan</a></h2>
-<ul>
-<li>Tahun 2024, lanskap basis data mengalami perubahan signifikan, termasuk akuisisi besar, perubahan lisensi, dan persaingan yang terus berlanjut di antara pemain kunci seperti Redis, Elasticsearch, Databricks, dan Snowflake. - DuckDB mendapatkan popularitas untuk kueri analitis, dengan integrasi ke dalam Postgres, sementara rilis penting termasuk Amazon Aurora DSQL dan Microsoft Garnet. - Akuisisi seperti Tabular oleh Databricks dan OrioleDB oleh Supabase menjadi penting, dan meskipun ada kemunduran seperti penutupan OtterTune, industri ini tetap dinamis dengan proyek dan pendanaan baru.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42566192">Reaksi</a></h3>
-<ul>
-<li>Diskusi tersebut mengkritik API Redis, dengan beberapa pihak berpendapat bahwa kritik tersebut kurang memahami secara mendalam desain Redis dan model datanya yang unik.</li>
-<li>Redis dikenal karena penggunaannya yang efektif dalam aplikasi tertentu seperti papan peringkat dan sistem waktu nyata, meskipun ada beberapa kritik terhadap API-nya.</li>
-<li>Teks tersebut juga mengeksplorasi lanskap basis data yang lebih luas, termasuk tantangan bagi startup, peran SQL, dan evolusi teknologi basis data, dengan menekankan pentingnya memahami sistem sebelum mengkritiknya.</li>
-</ul>
-<h2><a href="https://thoughts.wyounas.com/p/books-i-enjoyed-most-in-2024">Buku yang Saya Suka Baca di 2024</a></h2>
-<ul>
-<li>Daftar tersebut menampilkan beragam buku, termasuk narasi sejarah, filosofis, ilmiah, dan pribadi, masing-masing menawarkan wawasan unik dan pengalaman yang memperkaya.</li>
-<li>Highlight termasuk surat-surat Cicero untuk wawasan tentang kehidupan Romawi, karya-karya Ben-Ari tentang logika ilmu komputer dan verifikasi program, serta memoar Steve Martin tentang kesuksesan komedi.</li>
-<li>Terdapat juga eksplorasi filosofis oleh Pierre Hadot dan Nietzsche, tragedi Yunani oleh Aeschylus, serta karya sastra oleh Ursula Le Guin dan Rabindranath Tagore dalam koleksi tersebut.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42564687">Reaksi</a></h3>
-<h2><a href="https://mathstodon.xyz/@tao/113721192051328193">Terence Tao: Salah satu makalah saya ditolak hari ini</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42568399">Reaksi</a></h3>
-<ul>
-<li>Terence Tao, seorang matematikawan terkemuka, berbagi pengalaman tentang penolakan sebuah makalah, menekankan seringnya terjadi penolakan dalam dunia akademis. - Ceritanya memicu diskusi tentang sifat sewenang-wenang dari tinjauan sejawat dan tantangan yang dihadapi dalam penerbitan akademis. - Percakapan tersebut menyoroti bahwa penolakan adalah bagian normal dari proses akademis, bahkan bagi peneliti terkemuka, dan menekankan pentingnya berbagi kegagalan untuk mengatasi sindrom penipu.</li>
-</ul>
-<h2><a href="https://apiparrot.com/">API Parrot – Secara Otomatis Mereverse Engineering API HTTP</a></h2>
-<ul>
-<li>API Parrot adalah alat baru yang dirancang untuk menyederhanakan otomatisasi proses bisnis dengan secara otomatis mengidentifikasi korelasi data antara permintaan API dan menyediakan representasi alur grafis. - Alat ini memungkinkan pengguna untuk merekam permintaan, mendefinisikan input dan output, serta mengekspor alur ini sebagai kode JavaScript, membuat proses lebih efisien dibandingkan rekayasa balik manual atau menggunakan teknologi yang kurang optimal seperti Robotic Process Automation (RPA). - Alat ini dibangun di atas Electron dan tersedia untuk platform Windows dan Linux, dengan tutorial yang tersedia untuk rekayasa balik API USPS.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42565821">Reaksi</a></h3>
-<ul>
-<li>API Parrot adalah alat yang mengotomatisasi rekayasa balik dari HTTP API, memfasilitasi otomatisasi proses bisnis dengan mengidentifikasi korelasi data antara permintaan. - Alat ini menawarkan fitur seperti merekam permintaan, mendefinisikan input dan output, serta mengekspor alur sebagai kode JavaScript, dengan representasi alur grafis. - Saat ini tersedia untuk Windows dan Linux, API Parrot gratis, dengan kemungkinan versi &quot;pro&quot; untuk bisnis, dan rencana untuk rilis macOS di masa depan.</li>
-</ul>
-<h2><a href="https://thehill.com/national-security/5061535-virginia-man-arrested-explosives/">FBI: Temuan bahan peledak buatan sendiri terbesar dalam sejarah agensi ditemukan di Virginia</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42562529">Reaksi</a></h3>
-<ul>
-<li>Tidak lama ini, FBI menemukan gudang bahan peledak buatan sendiri terbesar dalam sejarahnya di Virginia, yang memicu perdebatan hukum dan publik yang signifikan.</li>
-<li>Tersangka saat ini hanya didakwa memiliki senapan laras pendek, karena legalitas senjatanya sedang diperiksa.</li>
-<li>Teks tersebut telah memicu diskusi tentang undang-undang senjata, Amandemen Kedua, dan keseimbangan antara regulasi pemerintah dan hak individu.</li>
-</ul>
-<h2><a href="https://dgl.cx/2024/12/ghostty-terminal-title">Teks: Déjà vu: CVE hantu di judul terminal saya</a></h2>
-<ul>
-<li>Ghostty, sebuah terminal emulator baru, memiliki kerentanan keamanan yang mirip dengan yang terjadi pada tahun 2003, yang memungkinkan karakter escape ASCII untuk mengeksekusi perintah seperti membuka aplikasi. - Masalah ini sangat bermasalah dengan Zsh dan Bash dalam mode vi, tetapi Ghostty 1.0.1 telah menyelesaikannya dengan menonaktifkan fitur tersebut secara default. - Meskipun ada cacat keamanan, Ghostty dipuji karena fiturnya, dan pengembang dengan cepat menangani masalah ini, menyediakan perbaikan dan solusi untuk pengguna.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42562743">Reaksi</a></h3>
-<ul>
-<li>Teks ini membahas tentang kerentanan keamanan terminal, khususnya yang terkait dengan urutan pelolosan, dan mengeksplorasi cara-cara untuk mengurangi risiko ini. - Saran untuk meningkatkan keamanan terminal termasuk mengadopsi sistem yang mirip dengan cincin perlindungan CPU atau syscall pledge() dari OpenBSD, yang membatasi kemampuan untuk mencegah eksploitasi. - Para peserta mengakui tantangan dalam menyeimbangkan keamanan dengan fungsionalitas dalam aplikasi terminal dan menyatakan minat untuk eksplorasi dan kolaborasi lebih lanjut guna meningkatkan praktik keamanan.</li>
-</ul>
-<h2><a href="https://github.com/facebookresearch/large_concept_model">Model Konsep Besar: Pemodelan bahasa dalam ruang representasi kalimat</a></h2>
-<ul>
-<li>Terdapat implementasi untuk Model Konsep Besar (LCM) dalam repositori ini, yang memanfaatkan &quot;konsep&quot; sebagai representasi semantik tingkat tinggi untuk pemodelan bahasa.</li>
-<li>LCM mendukung 200 bahasa teks dan 57 bahasa ucapan menggunakan ruang embedding SONAR, dan dilatih untuk prediksi kalimat auto-regresif dengan metode seperti regresi MSE dan generasi berbasis difusi.</li>
-<li>Tepat guna menyediakan petunjuk instalasi, persiapan data, pelatihan, penyempurnaan, dan panduan evaluasi, serta dirilis di bawah lisensi MIT, menggunakan fairseq2 dengan opsi instalasi UV dan pip.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42563534">Reaksi</a></h3>
-<ul>
-<li>Model Konsep Besar berfokus pada representasi bahasa dalam bentuk &quot;konsep&quot; daripada token individu, dengan tujuan untuk meningkatkan pengelompokan semantik dan prediksi.</li>
-<li>Metode ini mengusulkan penggunaan representasi tingkat tinggi untuk meniru perencanaan dan komunikasi manusia, yang berpotensi menawarkan keunggulan dibandingkan model berbasis token tradisional.</li>
-<li>Tindakan ini mengatasi keterbatasan dalam arsitektur Model Bahasa Besar (LLM) saat ini dengan menekankan struktur hierarkis yang eksplisit untuk lebih mereplikasi penalaran manusia.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Selamat Tahun Baru 2025" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Selamat%20Tahun%20Baru%202025&subheading=Rabu%2C%201%20Januari%202025%3A%20Ringkasan%20Berita%20Peretas" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/id/2025/01/01</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Z</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

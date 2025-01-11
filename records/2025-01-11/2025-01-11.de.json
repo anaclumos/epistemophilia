@@ -1,0 +1,218 @@
+[
+  {
+    "id": 42663231,
+    "title": "„Seien Sie sich des Makefile-Effekts bewusst“",
+    "originLink": "https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42663231",
+    "commentBody": "",
+    "originSummary": [
+      "„Der „Makefile-Effekt“ beschreibt die Praxis von Ingenieuren, bestehende komplexe Konfigurationen wie Makefiles zu kopieren und zu modifizieren, anstatt neue von Grund auf zu erstellen. - Dieser Ansatz ist in verschiedenen Systemen verbreitet, wie z.B. Continuous Integration/Continuous Deployment (CI/CD)-Konfigurationen und Build-Systemen, und kann auf übermäßig komplexe oder schlecht gestaltete Werkzeuge hinweisen. - Obwohl nicht von Natur aus negativ, kann der Makefile-Effekt das Lernen behindern, die Sicherheit verkomplizieren und zu ineffizientem Debugging führen, was die Notwendigkeit für eine durchdachte Werkzeuggestaltung unterstreicht, die Konfigurierbarkeit und Benutzerfreundlichkeit berücksichtigt.“"
+    ],
+    "commentSummary": [
+      "„Der „Makefile-Effekt“ beschreibt die Tendenz von Entwicklern, Code oder Konfigurationen zu kopieren und zu modifizieren, ohne sie vollständig zu verstehen, oft aufgrund der Komplexität der Werkzeuge oder ihrer seltenen Nutzung.“",
+      "„Dieses Phänomen ist weit verbreitet bei Programmier- und Konfigurationsaufgaben, bei denen Entwickler bekannte Lösungen verwenden, um Zeit und Aufwand zu sparen, was möglicherweise zu schwer wartbarem Code führt.“",
+      "„Die Diskussion betont die Notwendigkeit, die Verwendung von Vorlagen und bestehenden Lösungen mit einem tieferen Verständnis der beteiligten Werkzeuge und Systeme in Einklang zu bringen.“"
+    ],
+    "points": 238,
+    "commentCount": 203,
+    "retryCount": 0,
+    "time": 1736568792
+  },
+  {
+    "id": 42661185,
+    "title": "„Portale und Quake“",
+    "originLink": "https://30fps.net/pages/pvs-portals-and-quake/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42661185",
+    "commentBody": "",
+    "originSummary": [
+      "„Der Artikel ist der erste in der Serie „Demystifying the PVS“ und konzentriert sich auf das vorkomputierte Sichtbarkeitssystem von Quake, um das Überzeichnen zu adressieren, bei dem Pixel mehrfach gerendert werden. - Quake verwendet Portal-Culling und potenziell sichtbare Sets (PVS), indem es die Welt in Zellen und Portale unterteilt und die Sichtbarkeit vorkomputiert, um das Rendering zu optimieren. - Der Artikel führt die Portal- und Leaf-Klassen in vis.py ein, einer Python-Neuimplementierung des Sichtbarkeitsalgorithmus von Quake, und hebt die Verwendung einer Blatt-zu-Blatt-Sichtbarkeitsmatrix hervor.“"
+    ],
+    "commentSummary": [
+      "„Quake-Level-Designer nutzten „Hint“-Pinsel und „Area Portals“, um die Spielleistung zu optimieren, eine Technik, die grundlegend für 3D-Grafiken ist. - Spiele wie Prey und Portal rückten Portale für Spielmechaniken ins Rampenlicht, obwohl das Konzept seit den frühen 3D-Grafiken im Rendering verwendet wird. - Die Unreal Engine 1 verwendete Zonen zur Optimierung, und moderne Engines wie die Unreal Engine 5 nutzen weiterhin ähnliche Methoden, um die Rendering-Effizienz zu verbessern.“"
+    ],
+    "points": 183,
+    "commentCount": 48,
+    "retryCount": 0,
+    "time": 1736549293
+  },
+  {
+    "id": 42660335,
+    "title": "„Phi-4 Fehlerbehebungen“",
+    "originLink": "https://unsloth.ai/blog/phi4",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42660335",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "„Daniel Hanchen entdeckte und behob Fehler im Phi-4 Large Language Model (LLM) von Microsoft, wie etwa Probleme mit Satzenden und Chat-Template-Eingabeaufforderungen. - Er konvertierte Phi-4 in die Llama-Architektur, was die Leistung verbesserte, und teilte die Korrekturen auf Hugging Face, einer Plattform für maschinelle Lernmodelle. - Ein Colab-Notebook zur Feinabstimmung von Phi-4 ist verfügbar, und obwohl die Korrekturen die Leistung bei einigen Benchmarks verbesserten, verschlechterten sie sie bei anderen; das Phi-4-Team arbeitet daran, diese Verbesserungen in das ursprüngliche Modell zu integrieren.“"
+    ],
+    "points": 176,
+    "commentCount": 50,
+    "retryCount": 0,
+    "time": 1736543841
+  },
+  {
+    "id": 42661432,
+    "title": "„Sehr falsche Mathematik“",
+    "originLink": "https://www.charlespetzold.com/blog/2025/01/Very-Wrong-Math.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42661432",
+    "commentBody": "",
+    "originSummary": [
+      "„Ein Design- und Bauunternehmen machte auf Facebook einen mathematischen Fehler, indem es den Erdradius fälschlicherweise mit 4.333 Fuß berechnete, was zu einem stark unterschätzten Umfang von etwas mehr als 5 Meilen führte.“",
+      "„Der Fehler entstand durch die Berechnung von Bogenlängen, ohne den tatsächlichen Erdradius zu verwenden, der ungefähr 3.959 Meilen beträgt.“",
+      "„Der Beitrag hob hervor, dass der äußere Bogen weniger als 1 % länger war als der innere Bogen, was auf eine potenzielle Verkürzung der Flugzeit aufgrund des verringerten Luftwiderstands hindeutet.“"
+    ],
+    "commentSummary": [
+      "„Ein YouTube-Bauer behauptete fälschlicherweise, dass Lotlinien auf einer flachen Erde parallel wären, wobei er die Erdkrümmung missverstand, die bei solchen Messungen vernachlässigbar ist. - Die Diskussion hob das Versagen der Intuition beim Verständnis von groß angelegten Konzepten hervor und behandelte Theorien der flachen Erde, Missverständnisse über die Schwerkraft und die Auswirkungen der Erdrotation auf den Flug. - Das Gespräch untersuchte humorvoll die Hartnäckigkeit falscher Überzeugungen und die Schwierigkeit, wissenschaftliche Konzepte denen zu erklären, die etablierte Wissenschaft ablehnen.“"
+    ],
+    "points": 170,
+    "commentCount": 91,
+    "retryCount": 0,
+    "time": 1736550656
+  },
+  {
+    "id": 42660942,
+    "title": "„Gebäude-Kugel“",
+    "originLink": "https://ianthehenry.com/posts/bauble/building-bauble/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42660942",
+    "commentBody": "",
+    "originSummary": [
+      "„Bauble ist ein 3D-Modellierungs- und Rendering-Tool, das signierte Distanzfunktionen (SDFs) verwendet, um komplexe Formen und Animationen zu erstellen. - Ursprünglich ein einfaches System zur Generierung von GLSL-Shadern, wurde Bauble neu geschrieben, um Funktionen wie den Export von 3D-Modellen, interaktive Bearbeitung und benutzerdefinierte Beleuchtung zu integrieren. - Das Tool unterstützt jetzt die Einbettung ins Web, interaktive Vektorbearbeitung und bietet umfassende Dokumentation, was es für kreative Projekte und Benutzer, die sich für 3D-Design interessieren, zugänglich macht.“"
+    ],
+    "commentSummary": [
+      "„Building Bauble, ein Projekt, das auf ianthehenry.com vorgestellt wird, hat Begeisterung ausgelöst, indem es die Magie und den Spaß am Programmieren, insbesondere im Bereich Codierung und Grafik, zur Schau stellt.“",
+      "„Das Projekt wird für seine Kreativität und die detaillierte Ausarbeitung gelobt, was die Leser dazu inspiriert, unvollendete Projekte erneut aufzugreifen und neue Technologien wie Janet (eine Programmiersprache) und GLSL (OpenGL Shading Language) zu erkunden.“",
+      "„Trotz einiger technischer Probleme mit Safari wird das Projekt für seine beeindruckende Umsetzung und die fesselnde Entwicklungsgeschichte gefeiert, was Diskussionen über persönliche Projekte und die Nutzung von RSS-Readern anregt.“"
+    ],
+    "points": 164,
+    "commentCount": 26,
+    "retryCount": 0,
+    "time": 1736547735
+  },
+  {
+    "id": 42664400,
+    "title": "„Nahezu alle binären Suchvorgänge und Mergesorts sind fehlerhaft (2006)“",
+    "originLink": "https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42664400",
+    "commentBody": "",
+    "originSummary": [
+      "„Im Jahr 2006 identifizierte Joshua Bloch einen Fehler im Binärsuchalgorithmus, der ursprünglich in Jon Bentleys „Programming Pearls“ erwähnt wurde, bei dem ein Überlauf auftritt, wenn ‚low‘ und ‚high‘ den maximalen int-Wert überschreiten.“",
+      "„Dieser Fehler, der Arrays mit einer Länge von 2^30 oder mehr betrifft, war in den 1980er Jahren selten, ist aber heute häufiger und wirkt sich auch auf Mergesort und andere Teile-und-herrsche-Algorithmen aus.“",
+      "„Bloch empfiehlt, das Problem zu beheben, indem der Mittelpunkt als `int mid = low + ((high - low) / 2);` berechnet wird. Er hebt die Herausforderungen hervor, fehlerfreien Code zu schreiben, und die Notwendigkeit gründlicher Tests.“"
+    ],
+    "commentSummary": [
+      "„Viele binäre Suchvorgänge und Mergesorts sind anfällig für Probleme mit Ganzzahlüberläufen, insbesondere in älteren Implementierungen, wie in einem Artikel von 2006 hervorgehoben wurde.“",
+      "„Der Artikel betont die Bedeutung der Berücksichtigung von Randfällen und Hardwarebeschränkungen in der Programmierung, was auch heute noch relevant ist.“",
+      "„Entwicklern wird geraten, eingebaute Funktionen oder größere Ganzzahltypen zu verwenden, um solche Fehler zu vermeiden, was die Notwendigkeit von Vorsicht bei Datentypen und Eingabegrößen unterstreicht.“"
+    ],
+    "points": 143,
+    "commentCount": 136,
+    "retryCount": 0,
+    "time": 1736585205
+  },
+  {
+    "id": 42665367,
+    "title": "„Verfolgen Sie Ihre Geräte über das Apple FindMy-Netzwerk in Go/TinyGo“",
+    "originLink": "https://github.com/hybridgroup/go-haystack",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42665367",
+    "commentBody": "",
+    "originSummary": [
+      "„Go Haystack ermöglicht die Verfolgung persönlicher Bluetooth-Geräte über Apples „Find My“-Netzwerk, ohne dass Apple-Hardware erforderlich ist, indem OpenHaystack und Macless-Haystack mit Go/TinyGo-Tools genutzt werden.“",
+      "„Benutzer können ihre eigenen Beacons mit TinyGo-Firmware auf Hardware wie Adafruit Bluefruit-Boards und BBC Microbit erstellen, wobei für die Einrichtung eine Apple-ID mit Zwei-Faktor-Authentifizierung (2FA) erforderlich ist.“",
+      "„Der Prozess umfasst die Installation des go-haystack-Tools, die Verwendung von Befehlen wie `haystack scan`, um Geräte zu lokalisieren, das Generieren von Schlüsseln, das Flashen des Geräts und das Hochladen einer JSON-Datei zu macless-haystack, um die Sichtbarkeit des Geräts in der Web-Benutzeroberfläche zu gewährleisten.“"
+    ],
+    "commentSummary": [
+      "„Das Apple FindMy-Netzwerk kann mit Go/TinyGo genutzt werden, um Geräte zu verfolgen, und bietet eine Möglichkeit, das Netzwerk zu erweitern, ohne ein Apple-Konto zu benötigen.“",
+      "„Datenschutzbedenken werden durch das Design von Apple gemindert, und das Unternehmen hat einen starken Ruf für die Wahrung der Privatsphäre der Nutzer, obwohl einige Nutzer weiterhin misstrauisch gegenüber potenzieller Überwachung sind.“",
+      "„Das FindMy-Netzwerk funktioniert in zwei Teilen: Apple-Geräte lokalisieren Gegenstände und Benutzergeräte laden Standortdaten zu Apple hoch, wobei Benutzer die Möglichkeit haben, die Funktion bei Bedarf zu deaktivieren.“"
+    ],
+    "points": 139,
+    "commentCount": 32,
+    "retryCount": 0,
+    "time": 1736597674
+  },
+  {
+    "id": 42665222,
+    "title": "„Der Zustand von Vim“",
+    "originLink": "https://lwn.net/SubscriberLink/1002342/a8d8a17f30968b93/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42665222",
+    "commentBody": "",
+    "originSummary": [
+      "„Nach dem Tod des Vim-Gründers Bram Moolenaar im Jahr 2023 hat sich die Vim-Community neu organisiert, um die fortlaufende Entwicklung des Projekts sicherzustellen, wobei Christian Brabandt der derzeitige Betreuer ist. - Auf der VimConf 2024 wurde besprochen, dass das Team erweitert wurde, mit dem Fokus auf die Aktualisierung der Vim-Website, die Verwaltung der Sicherheit und die Verbesserung der Kommunikationskanäle. - Vim bleibt im Wartungsmodus, wobei die Bedürfnisse der Community priorisiert und neue Funktionen sorgfältig integriert werden, während weiterhin die ICCF Holland, eine von Moolenaar gegründete Wohltätigkeitsorganisation, unterstützt wird.“"
+    ],
+    "commentSummary": [
+      "„Langjährige Vim-Nutzer reflektieren über die Zukunft des Editors nach dem Tod seines Schöpfers, Bram Moolenaar. Einige sind mit der aktuellen Stabilität zufrieden, während andere Alternativen wie Neovim für moderne Funktionen erkunden.“",
+      "„Neovim gewinnt an Aufmerksamkeit durch seine Unterstützung von Lua-Skripten und moderne Verbesserungen, während einige Benutzer Emacs in Betracht ziehen aufgrund der wahrgenommenen Fragmentierung zwischen Vim und Neovim.“",
+      "„Diskussionen unter den Nutzern umfassen Themen wie die Leistung von Treesitter, die Unterstützung des Language Server Protocol (LSP) und Vergleiche mit Visual Studio Code (VSCode), wobei die Flexibilität und Stabilität dieser Editoren hervorgehoben wird.“"
+    ],
+    "points": 138,
+    "commentCount": 33,
+    "retryCount": 0,
+    "time": 1736595779
+  },
+  {
+    "id": 42659061,
+    "title": "„Flattening von ASTs und anderen Compiler-Datenstrukturen (2023)“",
+    "originLink": "https://www.cs.cornell.edu/~asampson/blog/flattening.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42659061",
+    "commentBody": "",
+    "originSummary": [
+      "„Der Beitrag behandelt das Flattening von Datenstrukturen, eine Technik für Compiler, die abstrakte Syntaxbäume (ASTs) optimiert, indem sie ein einzelnes Array mit Indizes anstelle von Zeigern verwendet. - Diese Methode verbessert die Leistung durch eine bessere Speicherlokalität, verkleinert die Referenzgröße und vereinfacht das Speichermanagement, was in einem Mikrobenchmark zu einer 2,4-fachen Geschwindigkeitssteigerung führt. - Die Technik wird insbesondere in Rust-Projekten eingesetzt und bietet ergonomische Vorteile, wie eine einfachere Speicherverwaltung, und wird mit Bytecode-Interpretern verglichen, um weitere Leistungsverbesserungen zu erzielen.“"
+    ],
+    "commentSummary": [
+      "„Die Diskussion konzentriert sich darauf, Abstrakte Syntaxbäume (ASTs) zu optimieren, indem sie in flachen, zusammenhängenden Arrays gespeichert werden, um die Leistung und Speichereffizienz zu verbessern.“",
+      "„Diese Methode verbessert die Cache-Lokalität und vereinfacht das Speichermanagement, wobei Vergleiche zu Techniken in Sprachen wie Lisp und dem Zig-Compiler gezogen werden.“",
+      "„Das Gespräch bezieht sich auch auf historische Methoden und ähnliche Techniken in anderen Programmiersprachen und betont die Vorteile flacher Datenstrukturen für die Komponierbarkeit und die einfache Handhabung.“"
+    ],
+    "points": 137,
+    "commentCount": 36,
+    "retryCount": 0,
+    "time": 1736537030
+  },
+  {
+    "id": 42666572,
+    "title": "„Entschlauen des Marshall Uxbridge Bluetooth-Lautsprechers“",
+    "originLink": "https://tomscii.sig7.se/2025/01/De-smarting-the-Marshall-Uxbridge",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42666572",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "„Die Diskussion konzentriert sich darauf, den Marshall Uxbridge Bluetooth-Lautsprecher zu modifizieren, um seine „intelligenten“ Funktionen zu eliminieren, wobei technische Aspekte wie das Entwerfen einer Leiterplatte (PCB) für digitalen I2S-Eingang eine Rolle spielen.“",
+      "„Benutzer diskutieren die Rolle der digitalen Signalverarbeitung (DSP) bei der Erzielung guter Klangqualität, wobei einige ihre Notwendigkeit betonen, um Hardwarebeschränkungen auszugleichen.“",
+      "„Das Gespräch behandelt auch die Herausforderungen bei der Modifizierung von Smart-Geräten und die Erschwinglichkeit der modernen Leiterplattenproduktion und -komponenten.“"
+    ],
+    "points": 119,
+    "commentCount": 33,
+    "retryCount": 0,
+    "time": 1736610122
+  },
+  {
+    "id": 42660377,
+    "title": "„Der Bot von OpenAI hat die Website dieses siebenköpfigen Unternehmens 'wie ein DDoS-Angriff' lahmgelegt.“",
+    "originLink": "https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42660377",
+    "commentBody": "",
+    "originSummary": [
+      "„Die E-Commerce-Website von Triplegangers erlebte einen DDoS-ähnlichen Angriff, da der Bot von OpenAI zehntausende Anfragen stellte, um über 65.000 Produktseiten zu scrapen. - Die Website hatte keine korrekt konfigurierte robots.txt-Datei, um solche Bots zu blockieren, was zu erhöhten AWS-Kosten und Bedenken hinsichtlich der Datensicherheit führte. - Dieser Vorfall unterstreicht die Bedeutung, dass KI-Unternehmen vor dem Scraping von Daten eine Erlaubnis einholen, und dient als Warnung für kleine Unternehmen, die Aktivität von KI-Bots zu überwachen.“"
+    ],
+    "commentSummary": [
+      "„Der Bot von OpenAI verursachte übermäßigen Traffic auf der Website eines kleinen Unternehmens, ähnlich einem Distributed Denial of Service (DDoS)-Angriff, und verdeutlichte damit Probleme, die durch AI-Bots entstehen, die Websites überlasten.“",
+      "„Unternehmen wie Read the Docs haben ähnliche Herausforderungen mit KI-Bots erlebt, die trotz der Verwendung von „robots.txt“ zur Verwaltung von Web-Crawlern massiven Traffic erzeugen.“",
+      "„Der Vorfall unterstreicht die anhaltende Debatte über das Gleichgewicht zwischen Webzugänglichkeit und dem Schutz vor aggressivem Datenscraping durch KI-Unternehmen, da einige Bots die „robots.txt“ ignorieren, was zu potenziellen rechtlichen und finanziellen Problemen für kleine Website-Besitzer führen kann.“"
+    ],
+    "points": 111,
+    "commentCount": 102,
+    "retryCount": 0,
+    "time": 1736544077
+  }
+]

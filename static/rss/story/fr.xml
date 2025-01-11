@@ -15,11 +15,146 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Jan 2025 19:07:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jan 2025 19:29:05 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/story/fr.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
         <language><![CDATA[fr]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Soyez conscient de l'effet Makefile]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Le « Makefile effect » décrit la pratique des ingénieurs qui copient et modifient des configurations complexes existantes, comme les Makefiles, au lieu d&#39;en créer de nouvelles à partir de zéro. - Cette approche est courante dans divers systèmes, tels que les configurations d&#39;Intégration Continue/Déploiement Continu (CI/CD) et les systèmes de construction, et peut indiquer des outils trop complexes ou mal conçus. - Bien que ce ne soit pas intrinsèquement négatif, le Makefile effect peut freiner l&#39;apprentissage, compliquer la sécurité et mener à un débogage inefficace, soulignant la nécessité d&#39;une conception réfléchie des outils qui prend en compte la configurabilité et la facilité d&#39;utilisation.</li>
+</ul>
+]]></description>
+            <link>https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZSoyez conscient de l&apos;effet Makefile</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Portails et Quake]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>« L&#39;article est le premier de la série &quot;Démystifier le PVS&quot;, se concentrant sur le système de visibilité pré-calculée de Quake pour résoudre le surdessin, où les pixels sont rendus plusieurs fois. - Quake utilise le culling par portails et les ensembles potentiellement visibles (PVS) en divisant le monde en cellules et portails, pré-calculant la visibilité pour optimiser le rendu. - L&#39;article présente les classes Portal et Leaf dans vis.py, une réimplémentation en Python de l&#39;algorithme de visibilité de Quake, mettant en avant l&#39;utilisation d&#39;une matrice de visibilité feuille-à-feuille. »</li>
+</ul>
+]]></description>
+            <link>https://30fps.net/pages/pvs-portals-and-quake/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZPortails et Quake</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Corrections de bogues Phi-4]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://unsloth.ai/blog/phi4</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZCorrections de bogues Phi-4</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mathématiques très fausses]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Une entreprise de conception et de construction a commis une erreur mathématique sur Facebook, calculant incorrectement le rayon de la Terre à 4 333 pieds, ce qui a conduit à une circonférence largement sous-estimée de juste un peu plus de 5 miles.</li>
+<li>L&#39;erreur provenait du calcul des longueurs d&#39;arc sans utiliser le rayon réel de la Terre, qui est d&#39;environ 3 959 miles.</li>
+<li>Le message a souligné que l&#39;arc extérieur était moins de 1 % plus long que l&#39;arc intérieur, suggérant une réduction potentielle du temps de vol en raison d&#39;une diminution de la résistance de l&#39;air.</li>
+</ul>
+]]></description>
+            <link>https://www.charlespetzold.com/blog/2025/01/Very-Wrong-Math.html</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZMathématiques très fausses</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Construction de Babiole]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Bauble est un outil de modélisation et de rendu 3D qui utilise des fonctions de distance signée (SDF) pour créer des formes et des animations complexes. - Initialement un système basique pour générer des shaders GLSL, Bauble a été réécrit pour inclure des fonctionnalités telles que l&#39;exportation de modèles 3D, l&#39;édition interactive et l&#39;éclairage personnalisé. - L&#39;outil prend désormais en charge l&#39;intégration web, l&#39;édition vectorielle interactive et offre une documentation complète, le rendant accessible pour des projets créatifs et des utilisateurs intéressés par le design 3D.</li>
+</ul>
+]]></description>
+            <link>https://ianthehenry.com/posts/bauble/building-bauble/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZConstruction de Babiole</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title
+      ><![CDATA[Presque toutes les recherches binaires et les tris par fusion sont défectueux (2006)]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>En 2006, Joshua Bloch a identifié un bug dans l&#39;algorithme de recherche binaire, initialement noté dans &quot;Programming Pearls&quot; de Jon Bentley, où un dépassement se produit lorsque &#39;low&#39; et &#39;high&#39; dépassent la valeur maximale d&#39;un entier.</li>
+<li>Ce bug, affectant les tableaux de longueur 2^30 ou plus, était rare dans les années 1980 mais est plus courant aujourd&#39;hui, impactant également le tri par fusion et d&#39;autres algorithmes de division et de conquête.</li>
+<li>Bloch recommande de résoudre le problème en calculant le point médian comme <code>int mid = low + ((high - low) / 2);</code>, soulignant les défis de l&#39;écriture d&#39;un code sans erreur et la nécessité de tests approfondis.</li>
+</ul>
+]]></description>
+            <link
+      >https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000ZPresque toutes les recherches binaires et les tris par fusion sont défectueux (2006)</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Suivez vos appareils via le réseau Apple FindMy en Go/TinyGo]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Go Haystack permet de suivre des appareils Bluetooth personnels via le réseau &quot;Find My&quot; d&#39;Apple sans nécessiter de matériel Apple, en utilisant OpenHaystack et Macless-Haystack avec les outils Go/TinyGo.</li>
+<li>Les utilisateurs peuvent créer leurs propres balises en utilisant le firmware TinyGo sur du matériel comme les cartes Adafruit Bluefruit et BBC Microbit, l&#39;installation nécessitant un identifiant Apple avec authentification à deux facteurs (2FA).</li>
+<li>Le processus implique l&#39;installation de l&#39;outil go-haystack, l&#39;utilisation de commandes comme <code>haystack scan</code> pour localiser les appareils, la génération de clés, le flashage de l&#39;appareil et le téléchargement d&#39;un fichier JSON sur macless-haystack pour la visibilité de l&#39;appareil dans l&#39;interface utilisateur web.</li>
+</ul>
+]]></description>
+            <link>https://github.com/hybridgroup/go-haystack</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000ZSuivez vos appareils via le réseau Apple FindMy en Go/TinyGo</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Le statut de Vim]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Suite au décès du fondateur de Vim, Bram Moolenaar, en 2023, la communauté Vim s&#39;est réorganisée pour assurer le développement continu du projet, avec Christian Brabandt comme mainteneur actuel. - Lors de VimConf 2024, il a été discuté que l&#39;équipe s&#39;est agrandie, se concentrant sur la mise à jour du site web de Vim, la gestion de la sécurité et l&#39;amélioration des canaux de communication. - Vim reste en mode maintenance, en priorisant les besoins de la communauté et en intégrant de nouvelles fonctionnalités avec précaution, tout en continuant à soutenir ICCF Holland, une association caritative fondée par Moolenaar.</li>
+</ul>
+]]></description>
+            <link>https://lwn.net/SubscriberLink/1002342/a8d8a17f30968b93/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZLe statut de Vim</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Applatissement des AST et autres structures de données du compilateur (2023)]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Le post discute de l&#39;aplatissement des structures de données, une technique pour les compilateurs qui optimise les arbres de syntaxe abstraite (AST) en utilisant un tableau unique avec des indices au lieu de pointeurs. - Cette méthode améliore les performances en optimisant la localité de la mémoire, en réduisant la taille des références et en simplifiant la gestion de la mémoire, ce qui se traduit par une accélération de 2,4× dans un micro-benchmark. - La technique est notamment utilisée dans les projets Rust et offre des avantages ergonomiques, tels qu&#39;une gestion de la mémoire plus facile, et est comparée aux interpréteurs de bytecode pour des améliorations de performance supplémentaires.</li>
+</ul>
+]]></description>
+            <link>https://www.cs.cornell.edu/~asampson/blog/flattening.html</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000ZApplatissement des AST et autres structures de données du compilateur (2023)</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dé-intellectualisation de l'enceinte Bluetooth Marshall Uxbridge]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://tomscii.sig7.se/2025/01/De-smarting-the-Marshall-Uxbridge</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000ZDé-intellectualisation de l&apos;enceinte Bluetooth Marshall Uxbridge</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title
+      ><![CDATA[Le bot d'OpenAI a écrasé le site web de cette entreprise de sept personnes 'comme une attaque DDoS']]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Le site e-commerce de Triplegangers a subi une attaque de type DDoS en raison du bot d&#39;OpenAI qui a effectué des dizaines de milliers de requêtes pour extraire plus de 65 000 pages de produits. - Le site ne disposait pas d&#39;un fichier robots.txt correctement configuré pour bloquer de tels bots, ce qui a entraîné une augmentation des coûts AWS et des préoccupations concernant la sécurité des données. - Cet incident souligne l&#39;importance pour les entreprises d&#39;IA d&#39;obtenir l&#39;autorisation avant de procéder à l&#39;extraction de données et sert d&#39;avertissement pour les petites entreprises afin de surveiller l&#39;activité des bots d&#39;IA.</li>
+</ul>
+]]></description>
+            <link
+      >https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000ZLe bot d&apos;OpenAI a écrasé le site web de cette entreprise de sept personnes &apos;comme une attaque DDoS&apos;</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[J'ai acquis un nouveau superpouvoir]]></title>
             <description
@@ -1006,136 +1141,6 @@
             <link>https://austinhenley.com/blog/25yearsofai.html</link>
             <guid isPermaLink="false">2025-01-02T00:00:00.000ZMon aventure de 25 ans dans l&apos;IA et le ML</guid>
             <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Bonne année 2025]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://news.ycombinator.com/item?id=42562750</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZBonne année 2025</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[DOOM CAPTCHA]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://doom-captcha.vercel.app/</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZDOOM CAPTCHA</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Arbres de recherche statiques : plus rapides que la recherche binaire]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>L&#39;article traite de la mise en œuvre et de l&#39;optimisation des arbres de recherche statiques (arbres S+) pour une recherche de données triées nettement plus rapide, atteignant des vitesses 40 fois supérieures à la recherche binaire traditionnelle. - Des techniques d&#39;optimisation telles que le regroupement, le préchargement et le SIMD manuel (Single Instruction, Multiple Data) sont employées pour améliorer le débit des requêtes. - L&#39;article explore également divers agencements d&#39;arbres, tailles de nœuds et stratégies de gestion de la mémoire, avec une discussion sur les travaux futurs comme la recherche branchée et la recherche par interpolation pour améliorer encore l&#39;efficacité de la recherche.</li>
-</ul>
-]]></description>
-            <link>https://curiouscoding.nl/posts/static-search-tree/</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZArbres de recherche statiques : plus rapides que la recherche binaire</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title
-      ><![CDATA[30 % de baisse de la précision de l'aperçu o1 lorsque les problèmes de Putnam sont légèrement variés]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Putnam-AXIOM est un benchmark conçu pour évaluer les grands modèles de langage (LLM) sur le raisonnement mathématique avancé en utilisant des problèmes du Concours Mathématique Putnam. - Le benchmark comprend 236 problèmes originaux et une variation avec 52 problèmes modifiés pour éviter la contamination des données. - Le modèle le plus performant d&#39;OpenAI a atteint une précision de 41,95 % sur les problèmes originaux, mais a connu une baisse de performance significative d&#39;environ 30 % sur les problèmes modifiés, soulignant les défis d&#39;adaptation aux variations.</li>
-</ul>
-]]></description>
-            <link>https://openreview.net/forum?id=YXnwlZe0yf&amp;noteId=yrsGpHd0Sf</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000Z30 % de baisse de la précision de l&apos;aperçu o1 lorsque les problèmes de Putnam sont légèrement variés</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Les bases de données en 2024 : Une année en revue]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Le paysage des bases de données en 2024 a connu des changements significatifs, y compris des acquisitions majeures, des changements de licences et des rivalités continues parmi les acteurs clés comme Redis, Elasticsearch, Databricks et Snowflake. - DuckDB a gagné en popularité pour les requêtes analytiques, avec des intégrations dans Postgres, tandis que des sorties notables incluaient Amazon Aurora DSQL et Microsoft Garnet. - Des acquisitions telles que Tabular par Databricks et OrioleDB par Supabase ont été significatives, et malgré des revers comme la fermeture d&#39;OtterTune, l&#39;industrie reste dynamique avec de nouveaux projets et financements.</li>
-</ul>
-]]></description>
-            <link>https://www.cs.cmu.edu/~pavlo/blog/2025/01/2024-databases-retrospective.html</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZLes bases de données en 2024 : Une année en revue</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Livres que j'ai adoré lire en 2024]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>« La liste présente une gamme diversifiée de livres, y compris des récits historiques, philosophiques, scientifiques et personnels, chacun offrant des perspectives uniques et des expériences enrichissantes. »</li>
-<li>Les points forts incluent les lettres de Cicéron pour des aperçus sur la vie romaine, les œuvres de Ben-Ari sur la logique en informatique et la vérification de programmes, et les mémoires de Steve Martin sur le succès comique.</li>
-<li>Le recueil comprend également des explorations philosophiques de Pierre Hadot et Nietzsche, des tragédies grecques d&#39;Eschyle, ainsi que des œuvres littéraires d&#39;Ursula Le Guin et Rabindranath Tagore.</li>
-</ul>
-]]></description>
-            <link>https://thoughts.wyounas.com/p/books-i-enjoyed-most-in-2024</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZLivres que j&apos;ai adoré lire en 2024</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Terence Tao : Un de mes articles a été refusé aujourd'hui]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://mathstodon.xyz/@tao/113721192051328193</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZTerence Tao : Un de mes articles a été refusé aujourd&apos;hui</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[API Parrot – Ingénierie inverse automatique des API HTTP]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>API Parrot est un nouvel outil conçu pour simplifier l&#39;automatisation des processus métier en identifiant automatiquement les corrélations de données entre les requêtes API et en fournissant une représentation graphique du flux. - Il permet aux utilisateurs d&#39;enregistrer des requêtes, de définir des entrées et des sorties, et d&#39;exporter ces flux sous forme de code JavaScript, rendant le processus plus efficace que l&#39;ingénierie inverse manuelle ou l&#39;utilisation de technologies moins optimales comme l&#39;automatisation des processus robotiques (RPA). - L&#39;outil est construit sur Electron et est disponible pour les plateformes Windows et Linux, avec un tutoriel disponible pour l&#39;ingénierie inverse de l&#39;API USPS.</li>
-</ul>
-]]></description>
-            <link>https://apiparrot.com/</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZAPI Parrot – Ingénierie inverse automatique des API HTTP</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title
-      ><![CDATA[FBI : La plus grande cache d'explosifs artisanaux de l'histoire de l'agence découverte en Virginie]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://thehill.com/national-security/5061535-virginia-man-arrested-explosives/</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZFBI : La plus grande cache d&apos;explosifs artisanaux de l&apos;histoire de l&apos;agence découverte en Virginie</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Déjà vu : CVE fantômes dans le titre de mon terminal]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Ghostty, un nouvel émulateur de terminal, avait une vulnérabilité de sécurité similaire à celle de 2003, permettant aux caractères d&#39;échappement ASCII d&#39;exécuter des commandes comme l&#39;ouverture d&#39;applications. - Le problème était particulièrement problématique avec Zsh et Bash en mode vi, mais Ghostty 1.0.1 a résolu cela en désactivant la fonctionnalité par défaut. - Malgré la faille de sécurité, Ghostty est salué pour ses fonctionnalités, et le développeur a rapidement abordé le problème, fournissant des correctifs et des solutions de contournement pour les utilisateurs.</li>
-</ul>
-]]></description>
-            <link>https://dgl.cx/2024/12/ghostty-terminal-title</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZDéjà vu : CVE fantômes dans le titre de mon terminal</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title
-      ><![CDATA[Grands modèles conceptuels : Modélisation du langage dans un espace de représentation de phrases]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Le dépôt propose des implémentations pour les Modèles de Concepts Larges (LCM), qui utilisent des « concepts » comme une représentation sémantique de haut niveau pour la modélisation du langage.</li>
-<li>LCM prend en charge 200 langues textuelles et 57 langues vocales en utilisant l&#39;espace d&#39;intégration SONAR, et est entraîné pour la prédiction de phrases auto-régressives avec des méthodes telles que la régression MSE et la génération basée sur la diffusion.</li>
-<li>Le dépôt fournit des instructions d&#39;installation, de préparation des données, de formation, de réglage fin et des directives d&#39;évaluation, et est publié sous la licence MIT, utilisant fairseq2 avec des options d&#39;installation UV et pip.</li>
-</ul>
-]]></description>
-            <link>https://github.com/facebookresearch/large_concept_model</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZGrands modèles conceptuels : Modélisation du langage dans un espace de représentation de phrases</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

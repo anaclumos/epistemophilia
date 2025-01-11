@@ -15,12 +15,132 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Jan 2025 19:07:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jan 2025 19:29:06 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/tr.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[tr]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-11]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/11&#39;</h2>
+<h1>2025-01-11</h1>
+<h2><a href="https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect">Makefile Etkisinin Farkında Olun</a></h2>
+<ul>
+<li>“Makefile etkisi”, mühendislerin sıfırdan yeni bir yapı oluşturmak yerine, mevcut karmaşık yapılandırmaları, örneğin Makefile&#39;ları kopyalayıp değiştirme uygulamasını tanımlar. - Bu yaklaşım, Sürekli Entegrasyon/Sürekli Dağıtım (CI/CD) yapılandırmaları ve derleme sistemleri gibi çeşitli sistemlerde yaygındır ve aşırı karmaşık veya kötü tasarlanmış araçları gösterebilir. - Doğası gereği olumsuz olmasa da, Makefile etkisi öğrenmeyi engelleyebilir, güvenliği karmaşıklaştırabilir ve verimsiz hata ayıklamaya yol açabilir, bu da yapılandırılabilirlik ve kullanım kolaylığını dikkate alan düşünceli araç tasarımının gerekliliğini vurgular.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42663231">Tepkiler</a></h3>
+<ul>
+<li>Makefile Etkisi&quot;, geliştiricilerin genellikle araçların karmaşıklığı veya nadiren kullanılması nedeniyle kod veya yapılandırmaları tam olarak anlamadan kopyalama ve değiştirme eğilimini tanımlar.</li>
+<li>Bu fenomen, geliştiricilerin zaman ve çaba tasarrufu sağlamak için bilinen çözümleri kullandığı, potansiyel olarak bakımı zor koda yol açabilecek programlama ve yapılandırma görevlerinde yaygındır.</li>
+<li>Bu tartışma, kullanılan şablonlar ve mevcut çözümler ile ilgili araçlar ve sistemler hakkında daha derin bir anlayış kazanma ihtiyacını dengelemenin önemini vurgulamaktadır.</li>
+</ul>
+<h2><a href="https://30fps.net/pages/pvs-portals-and-quake/">Portallar ve Deprem</a></h2>
+<ul>
+<li>Makale, piksellerin birden çok kez işlendiği aşırı çizimi ele almak için Quake&#39;in önceden hesaplanmış görünürlük sistemine odaklanan &quot;PVS&#39;yi Anlamak&quot; serisinin ilkidir. - Quake, dünyayı hücrelere ve portallara bölerek, portal kırpma ve potansiyel görünür setler (PVS) kullanarak görünürlüğü önceden hesaplayarak render işlemini optimize eder. - Makale, Quake&#39;in görünürlük algoritmasının Python&#39;da yeniden uygulanması olan vis.py&#39;deki Portal ve Leaf sınıflarını tanıtarak, yapraklar arası görünürlük matrisinin kullanımını vurgular.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42661185">Tepkiler</a></h3>
+<ul>
+<li>Quake seviye tasarımcıları, oyun performansını optimize etmek için &quot;ipucu&quot; fırçaları ve &quot;alan portalları&quot; kullandılar, bu teknik 3D grafiklerde temel bir yöntem olmuştur. - Prey ve Portal gibi oyunlar, oyun mekaniği için portalları ön plana çıkardı, ancak bu konsept erken 3D grafiklerden beri renderlemede kullanılmaktadır. - Unreal Engine 1, optimizasyon için bölgeler kullandı ve günümüz motorları olan Unreal Engine 5 gibi motorlar, renderleme verimliliğini artırmak için benzer yöntemleri kullanmaya devam ediyor.</li>
+</ul>
+<h2><a href="https://unsloth.ai/blog/phi4">Phi-4 Hata Düzeltmeleri</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42660335">Tepkiler</a></h3>
+<ul>
+<li>Daniel Hanchen, Microsoft&#39;un Phi-4 Büyük Dil Modeli&#39;ndeki (LLM) cümle sonlandırma sorunları ve sohbet şablon istemleri gibi hataları keşfetti ve ele aldı. - Phi-4&#39;ü Llama mimarisine dönüştürerek performansı artırdı ve düzeltmeleri makine öğrenimi modelleri için bir platform olan Hugging Face&#39;te paylaştı. - Phi-4&#39;ü ince ayar yapmak için bir Colab defteri mevcut ve düzeltmeler bazı kıyaslamalarda performansı artırırken, diğerlerinde azalttı; Phi-4 ekibi bu iyileştirmeleri orijinal modele entegre etmek için çalışıyor.</li>
+</ul>
+<h2><a href="https://www.charlespetzold.com/blog/2025/01/Very-Wrong-Math.html">Çok Yanlış Matematik</a></h2>
+<ul>
+<li>Bir tasarım ve inşaat şirketi, Facebook&#39;ta matematik hatası yaparak Dünya&#39;nın yarıçapını yanlış bir şekilde 4,333 fit olarak hesapladı ve bu da sadece 5 milin biraz üzerinde büyük ölçüde düşük bir çevre uzunluğuna yol açtı.</li>
+<li>Yanlışlık, yaklaşık 3.959 mil olan Dünya&#39;nın gerçek yarıçapını kullanmadan yay uzunluklarını hesaplamaktan kaynaklandı.</li>
+<li>Yazı, dış yayının iç yaydan %1&#39;den daha az uzun olduğunu vurguladı ve bu durumun azalan hava direnci nedeniyle uçuş süresinde potansiyel bir azalmaya işaret ettiğini öne sürdü.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42661432">Tepkiler</a></h3>
+<ul>
+<li>Bir YouTube yapımcısı, su terazilerinin düz bir Dünya üzerinde paralel olacağını yanlış bir şekilde iddia etti ve bu, Dünya&#39;nın eğriliğini yanlış anlamaktı; bu tür ölçümlerde ihmal edilebilir. - Tartışma, büyük ölçekli kavramları anlamada sezginin başarısızlığını vurguladı ve düz Dünya teorilerini, yerçekimi yanlış anlamalarını ve Dünya&#39;nın dönüşünün uçuş üzerindeki etkilerini ele aldı. - Konuşma, yanlış inançların ısrarını ve yerleşik bilimi reddedenlere bilimsel kavramları açıklamanın zorluğunu mizahi bir şekilde inceledi.</li>
+</ul>
+<h2><a href="https://ianthehenry.com/posts/bauble/building-bauble/">Yapı Süsü</a></h2>
+<ul>
+<li>Bauble, karmaşık şekiller ve animasyonlar oluşturmak için imzalı mesafe fonksiyonlarını (SDF&#39;ler) kullanan bir 3D modelleme ve render aracıdır. - Başlangıçta GLSL gölgelendiricileri oluşturmak için temel bir sistem olan Bauble, 3D model ihracatı, etkileşimli düzenleme ve özel aydınlatma gibi özellikleri içerecek şekilde yeniden yazılmıştır. - Araç artık web gömme, etkileşimli vektör düzenleme desteklemekte ve yaratıcı projeler ve 3D tasarımla ilgilenen kullanıcılar için erişilebilir kılan kapsamlı belgeler sunmaktadır.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42660942">Tepkiler</a></h3>
+<ul>
+<li>ianthehenry.com&#39;da yer alan bir proje olan Building Bauble, özellikle kodlama ve grafiklerde programlamanın büyüsünü ve keyfini sergileyerek heyecan yarattı.</li>
+<li>Proje, yaratıcılığı ve detaylı yazımı nedeniyle övgü alıyor, okuyucuları tamamlanmamış projelere yeniden göz atmaya ve Janet (bir programlama dili) ve GLSL (OpenGL Shading Language) gibi yeni teknolojileri keşfetmeye teşvik ediyor.</li>
+<li>Safari&#39;deki bazı teknik sorunlara rağmen, proje etkileyici uygulaması ve ilgi çekici gelişim hikayesiyle kutlanıyor, kişisel projeler ve RSS okuyucularının kullanımı hakkında tartışmalar başlatıyor.</li>
+</ul>
+<h2><a href="https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/">2006 yılında neredeyse tüm ikili aramalar ve birleştirme sıralamaları bozuldu</a></h2>
+<ul>
+<li>2006 yılında Joshua Bloch, Jon Bentley&#39;nin &quot;Programming Pearls&quot; adlı eserinde ilk kez belirtilen ikili arama algoritmasında, &#39;low&#39; ve &#39;high&#39; maksimum int değerini aştığında bir taşma meydana geldiğini belirten bir hata tespit etti.</li>
+<li>Bu hata, uzunluğu 2^30 veya daha fazla olan dizileri etkileyen, 1980&#39;lerde nadirdi ancak bugün daha yaygındır ve ayrıca mergesort ve diğer böl ve fethet algoritmalarını da etkilemektedir.</li>
+<li>Bloch, sorunu <code>int mid = low + ((high - low) / 2);</code> olarak ortalamayı hesaplayarak çözmeyi öneriyor ve hatasız kod yazmanın zorluklarını ve kapsamlı test yapmanın gerekliliğini vurguluyor.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42664400">Tepkiler</a></h3>
+<ul>
+<li>Birçok ikili arama ve birleştirme sıralaması, özellikle daha eski uygulamalarda, 2006 yılında yayınlanan bir makalede vurgulandığı gibi, tamsayı taşması sorunlarına eğilimlidir.</li>
+<li>Makale, programlamada uç durumlar ve donanım sınırlamalarını dikkate almanın önemini vurguluyor, bu da günümüzde hala geçerliliğini koruyor.</li>
+<li>Yazılımcılara, bu tür hataları önlemek için yerleşik fonksiyonları veya daha büyük tamsayı türlerini kullanmaları tavsiye edilir, bu da veri türleri ve giriş boyutları konusunda dikkatli olma gerekliliğini vurgular.</li>
+</ul>
+<h2><a href="https://github.com/hybridgroup/go-haystack">Apple FindMy ağı üzerinden cihazlarınızı Go/TinyGo ile takip edin</a></h2>
+<ul>
+<li>Go Haystack, OpenHaystack ve Macless-Haystack ile Go/TinyGo araçlarını kullanarak, Apple donanımı gerektirmeden Apple&#39;ın &quot;Find My&quot; ağı üzerinden kişisel Bluetooth cihazlarının takibini sağlar.</li>
+<li>Kullanıcılar, Adafruit Bluefruit kartları ve BBC Microbit gibi donanımlar üzerinde TinyGo yazılımını kullanarak kendi işaretçilerini oluşturabilirler, kurulum için iki faktörlü kimlik doğrulama (2FA) ile bir Apple Kimliği gereklidir.</li>
+<li>Bu süreç, go-haystack aracının kurulmasını, cihazları bulmak için <code>haystack scan</code> gibi komutların kullanılmasını, anahtarların üretilmesini, cihazın flaşlanmasını ve cihazın web arayüzünde görünürlüğü için JSON dosyasının macless-haystack&#39;e yüklenmesini içerir.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42665367">Tepkiler</a></h3>
+<ul>
+<li>Apple FindMy ağı, cihazları izlemek için Go/TinyGo ile kullanılabilir ve bir Apple hesabına ihtiyaç duymadan ağı genişletmenin bir yolunu sunar.</li>
+<li>Apple&#39;ın tasarımı gizlilik endişelerini hafifletiyor ve şirket, kullanıcı gizliliğini koruma konusunda güçlü bir üne sahip, ancak bazı kullanıcılar olası gözetim konusunda temkinli kalıyor.</li>
+<li>FindMy ağı iki bölümde çalışır: Apple cihazları eşyaları bulur ve kullanıcı cihazları konum verilerini Apple&#39;a yükler, kullanıcıların isterlerse bu özelliği devre dışı bırakma seçeneği vardır.</li>
+</ul>
+<h2><a href="https://lwn.net/SubscriberLink/1002342/a8d8a17f30968b93/">Vim&#39;in Durumu</a></h2>
+<ul>
+<li>Vim&#39;in kurucusu Bram Moolenaar&#39;ın 2023&#39;te vefatının ardından, Vim topluluğu projenin devam eden gelişimini sağlamak için yeniden organize oldu ve şu anki sorumlu kişi Christian Brabandt. - VimConf 2024&#39;te, ekibin genişlediği, Vim web sitesinin güncellenmesine, güvenliğin yönetilmesine ve iletişim kanallarının geliştirilmesine odaklanıldığı tartışıldı. - Vim, topluluk ihtiyaçlarını önceliklendirerek ve yeni özellikleri dikkatlice entegre ederek bakım modunda kalmaya devam ediyor ve Moolenaar tarafından kurulan bir hayır kurumu olan ICCF Holland&#39;ı desteklemeye devam ediyor.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42665222">Tepkiler</a></h3>
+<ul>
+<li>Uzun süredir Vim kullanıcıları, yaratıcısı Bram Moolenaar&#39;ın vefatının ardından editörün geleceğini değerlendiriyor; bazıları mevcut kararlılığından memnunken, diğerleri modern özellikler için Neovim gibi alternatifleri araştırıyor.</li>
+<li>Neovim, Lua betik dili desteği ve modern iyileştirmeleri ile dikkat çekiyor, bazı kullanıcılar ise Vim ve Neovim arasındaki algılanan parçalanma nedeniyle Emacs&#39;i düşünüyor.</li>
+<li>Metin: Kullanıcılar arasındaki tartışmalar, Treesitter&#39;ın performansı, Dil Sunucusu Protokolü (LSP) desteği ve Visual Studio Code (VSCode) ile karşılaştırmalar gibi konuları içeriyor ve bu editörlerin esnekliği ve kararlılığına dikkat çekiyor.</li>
+</ul>
+<h2><a href="https://www.cs.cornell.edu/~asampson/blog/flattening.html">AST&#39;leri ve diğer derleyici veri yapılarının düzleştirilmesi (2023)</a></h2>
+<ul>
+<li>Yazı, derleyiciler için soyut sözdizimi ağaçlarını (AST&#39;ler) optimize eden bir teknik olan veri yapısı düzleştirmeyi tartışıyor. - Bu yöntem, bellek yerelliğini iyileştirerek, referans boyutunu azaltarak ve bellek yönetimini basitleştirerek performansı artırır, bir mikro ölçüt testinde 2.4 kat hız artışı sağlar. - Teknik, özellikle Rust projelerinde kullanılır ve daha kolay bellek yönetimi gibi ergonomik faydalar sunar ve daha fazla performans iyileştirmesi için bayt kodu yorumlayıcıları ile karşılaştırılır.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42659061">Tepkiler</a></h3>
+<ul>
+<li>Bu tartışma, performansı ve bellek verimliliğini artırmak için Soyut Sözdizimi Ağaçlarını (AST&#39;ler) düz, bitişik dizilerde depolayarak optimize etmeye odaklanmaktadır.</li>
+<li>Bu yöntem, Lisp gibi dillerdeki ve Zig derleyicisindeki tekniklerle karşılaştırmalar yaparak önbellek yerelliğini artırır ve bellek yönetimini basitleştirir.</li>
+<li>Konuşma ayrıca tarihsel yöntemlere ve diğer programlama dillerindeki benzer tekniklere atıfta bulunarak, düz veri yapılarının birleştirilebilirlik ve manipülasyon kolaylığı açısından faydalarını vurgulamaktadır.</li>
+</ul>
+<h2><a href="https://tomscii.sig7.se/2025/01/De-smarting-the-Marshall-Uxbridge">Marshall Uxbridge Bluetooth hoparlörün akıllı özelliklerini devre dışı bırakma</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42666572">Tepkiler</a></h3>
+<ul>
+<li>Bu tartışma, Marshall Uxbridge Bluetooth hoparlörün &quot;akıllı&quot; özelliklerini ortadan kaldırmak için değiştirilmesine odaklanıyor ve dijital I2S girişi için Baskılı Devre Kartı (PCB) tasarımı gibi teknik unsurları içeriyor.</li>
+<li>Kullanıcılar, iyi ses kalitesine ulaşmada Dijital Sinyal İşleme&#39;nin (DSP) rolünü tartışıyor, bazıları donanım sınırlamalarını telafi etmek için gerekliliğini vurguluyor.</li>
+<li>Konuşma ayrıca akıllı cihazların değiştirilmesinin zorluklarını ve modern PCB üretimi ve bileşenlerinin uygun fiyatlılığını da kapsıyor.</li>
+</ul>
+<h2><a href="https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/">OpenAI&#39;nin botu, bu yedi kişilik şirketin web sitesini &#39;DDoS saldırısı gibi&#39; ezdi.</a></h2>
+<ul>
+<li>Triplegangers&#39;ın e-ticaret sitesi, OpenAI&#39;nin botunun 65.000&#39;den fazla ürün sayfasını kazımak için on binlerce istek yapması nedeniyle DDoS benzeri bir saldırıya maruz kaldı. - Site, bu tür botları engellemek için düzgün yapılandırılmış bir robots.txt dosyasına sahip değildi, bu da artan AWS maliyetlerine ve veri güvenliği endişelerine yol açtı. - Bu olay, AI şirketlerinin veri kazıma işlemi öncesinde izin almasının önemini vurgulamakta ve küçük işletmeler için AI bot etkinliğini izlemeleri konusunda bir uyarı niteliği taşımaktadır.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42660377">Tepkiler</a></h3>
+<ul>
+<li>OpenAI&#39;nin botu, bir küçük şirketin web sitesinde aşırı trafiğe neden olarak, Dağıtılmış Hizmet Reddi (DDoS) saldırısına benzer bir duruma yol açtı ve AI botlarının web sitelerini aşırı yükleme sorunlarını gözler önüne serdi.</li>
+<li>Read the Docs gibi şirketler, web tarayıcılarını yönetmek için &quot;robots.txt&quot; kullanmalarına rağmen, AI botlarının büyük trafik oluşturmasıyla benzer zorluklar yaşamıştır.</li>
+<li>Bu olay, bazı botların &quot;robots.txt&quot; dosyasını görmezden gelmesi nedeniyle küçük site sahipleri için potansiyel yasal ve finansal sorunlara yol açarak, web erişilebilirliğini AI şirketlerinin agresif veri kazımasına karşı koruma ile dengeleme konusundaki devam eden tartışmayı vurguluyor.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Makefile Etkisinin Farkında Olun" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Makefile%20Etkisinin%20Fark%C4%B1nda%20Olun&subheading=11%20Ocak%202025%20Cumartesi%3A%20Hacker%20Haber%20%C3%96zeti" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/tr/2025/01/11</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Z</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-10]]></title>
             <description
@@ -903,104 +1023,6 @@
             <link>https://hn.cho.sh/tr/2025/01/02</link>
             <guid isPermaLink="false">2025-01-02T00:00:00.000Z</guid>
             <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2025-01-01]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2025/01/01&#39;</h2>
-<h1>2025-01-01</h1>
-<h2><a href="https://news.ycombinator.com/item?id=42562750">Mutlu Yıllar 2025</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42562750">Tepkiler</a></h3>
-<h2><a href="https://doom-captcha.vercel.app/">DOOM CAPTCHA</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42566112">Tepkiler</a></h3>
-<ul>
-<li>DOOM CAPTCHA, kullanıcıların klasik DOOM oyununu bir CAPTCHA testi olarak oynamasını gerektiren yaratıcı bir projedir ve teknik becerileri ve nostaljiyi ön plana çıkarır. - Kullanıcılar, modern kontrol eksikliği nedeniyle bunu zorlayıcı bulmakta ve bu da projenin pratikliği ve erişilebilirliği hakkında karışık tepkilere yol açmaktadır. - Yenilikçi olmasına rağmen, proje, Vercel&#39;in yapay zeka asistanı ve manuel oyun entegrasyonu ile oluşturulmuş olmasına rağmen, geleneksel CAPTCHA sistemlerine yönelik sürekli memnuniyetsizliği vurgulamaktadır.</li>
-</ul>
-<h2><a href="https://curiouscoding.nl/posts/static-search-tree/">Statik arama ağaçları: ikili aramadan daha hızlı</a></h2>
-<ul>
-<li>Makalede, sıralanmış verilerin çok daha hızlı aranması için statik arama ağaçlarının (S+ ağaçları) uygulanması ve optimize edilmesi ele alınmakta, geleneksel ikili aramadan 40 kat daha hızlı hızlara ulaşılmaktadır. - Sorgu verimini artırmak için toplu işleme, önyükleme ve manuel SIMD (Tek Komut, Çoklu Veri) gibi optimizasyon teknikleri kullanılmaktadır. - Makalede ayrıca çeşitli ağaç düzenleri, düğüm boyutları ve bellek yönetimi stratejileri incelenmekte, arama verimliliğini daha da artırmak için dallı arama ve enterpolasyon araması gibi gelecekteki çalışmalar tartışılmaktadır.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42562847">Tepkiler</a></h3>
-<ul>
-<li>Metin, özellikle statik arama ağaçlarında, algoritmik içerik için C/C++&#39;dan Rust&#39;a geçişi, Rust&#39;un güvenlik ve performans avantajları nedeniyle vurgulamaktadır.</li>
-<li>Rust&#39;un düşük seviyeli programlamadaki artan popülaritesi dikkat çekiyor, bazı kullanıcılar erişilebilirlik için C veya sözde kodu tercih ederken, diğerleri Rust&#39;un modern özelliklerini değerli buluyor.</li>
-<li>Konuşma ayrıca Zig programlama dilinin potansiyelini ve yeni diller öğrenmeyle ilgili zorlukları, programlama dillerinin gelişen manzarasını yansıtarak inceliyor.</li>
-</ul>
-<h2><a href="https://openreview.net/forum?id=YXnwlZe0yf&noteId=yrsGpHd0Sf">Putnam Problemleri Hafifçe Değiştirildiğinde o1-Önizleme Doğruluğunda %30 Düşüş</a></h2>
-<ul>
-<li>Putnam-AXIOM, Putnam Matematik Yarışması&#39;ndaki problemleri kullanarak büyük dil modellerini (LLM&#39;ler) ileri düzey matematiksel akıl yürütme konusunda değerlendirmek için tasarlanmış bir ölçütüdür. - Bu ölçüt, 236 orijinal problem ve veri kirlenmesini önlemek için değiştirilmiş 52 problem içermektedir. - OpenAI&#39;nin en iyi performans gösteren modeli, orijinal problemler üzerinde %41,95 doğruluk elde etti, ancak değiştirilmiş problemler üzerinde yaklaşık %30&#39;luk önemli bir performans düşüşü yaşadı ve bu da varyasyonlara uyum sağlamadaki zorlukları vurguladı.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42565606">Tepkiler</a></h3>
-<ul>
-<li>Bir çalışma, küçük değişiklikler yapıldığında o1-Preview modelinin Putnam problemlerindeki doğruluğunda %30&#39;luk bir azalma olduğunu ortaya koydu ve bu durum, Büyük Dil Modelleri (LLM&#39;ler) için küçük değişikliklerle ilgili zorlukları gösteriyor. - Bulgular, LLM&#39;lerin gerçekten akıl yürütüp yürütemeyeceği veya esas olarak insan hatalarına benzer şekilde baskı altında kalıpları eşleştirme ve ezberlemeye mi dayandığı konusundaki tartışmaları körüklüyor. - Bu zorluklara rağmen, o1 ve o3 gibi modeller karmaşık matematiksel problemler üzerinde iyi performans göstermeye devam ediyor, ancak genelleme kapasiteleri hala inceleme altında.</li>
-</ul>
-<h2><a href="https://www.cs.cmu.edu/~pavlo/blog/2025/01/2024-databases-retrospective.html">2024&#39;te Veritabanları: Yılın Değerlendirmesi</a></h2>
-<ul>
-<li>2024 yılında veritabanı dünyası, Redis, Elasticsearch, Databricks ve Snowflake gibi önemli oyuncular arasındaki büyük satın almalar, lisans değişiklikleri ve devam eden rekabetlerle önemli değişiklikler yaşadı. - DuckDB, analitik sorgular için popülerlik kazandı ve Postgres ile entegrasyonlar sağladı, Amazon Aurora DSQL ve Microsoft Garnet gibi dikkat çekici sürümler öne çıktı. - Databricks&#39;in Tabular&#39;ı ve Supabase&#39;in OrioleDB&#39;yi satın alması gibi satın almalar önemliydi ve OtterTune&#39;un kapanması gibi aksiliklere rağmen, sektör yeni projeler ve fonlamalarla dinamik kalmaya devam ediyor.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42566192">Tepkiler</a></h3>
-<ul>
-<li>Bu tartışma, Redis&#39;in API&#39;sini eleştiriyor ve bazıları bu eleştirinin, Redis&#39;in tasarımı ve benzersiz veri modeli hakkında derin bir anlayıştan yoksun olduğunu savunuyor.</li>
-<li>Redis, bazı API eleştirilerine rağmen, liderlik tabloları ve gerçek zamanlı sistemler gibi belirli uygulamalardaki etkili kullanımıyla tanınır.</li>
-<li>Konuşma ayrıca, başlangıçlar için zorluklar, SQL&#39;in rolü ve veritabanı teknolojilerinin evrimi de dahil olmak üzere daha geniş veritabanı manzarasını araştırıyor ve sistemleri eleştirmeden önce anlamanın önemini vurguluyor.</li>
-</ul>
-<h2><a href="https://thoughts.wyounas.com/p/books-i-enjoyed-most-in-2024">2024&#39;te Okumayı Sevdiğim Kitaplar</a></h2>
-<ul>
-<li>Liste, her biri benzersiz içgörüler ve zenginleştirici deneyimler sunan tarihsel, felsefi, bilimsel ve kişisel anlatılar dahil olmak üzere çeşitli kitapları içermektedir.</li>
-<li>Öne çıkanlar arasında, Roma yaşamına dair içgörüler için Cicero&#39;nun mektupları, bilgisayar bilimi mantığı ve program doğrulama üzerine Ben-Ari&#39;nin çalışmaları ve komedi başarısı üzerine Steve Martin&#39;in anıları yer alıyor.</li>
-<li>Bu koleksiyon ayrıca Pierre Hadot ve Nietzsche&#39;nin felsefi incelemelerini, Aeschylus&#39;un Yunan trajedilerini ve Ursula Le Guin ile Rabindranath Tagore&#39;un edebi eserlerini içerir.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42564687">Tepkiler</a></h3>
-<h2><a href="https://mathstodon.xyz/@tao/113721192051328193">Terence Tao: Bugün makalelerimden biri reddedildi</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42568399">Tepkiler</a></h3>
-<ul>
-<li>Önde gelen bir matematikçi olan Terence Tao, bir makalesinin reddedilmesi deneyimini paylaşarak akademide sıkça yaşanan reddedilme durumunu vurguladı. - Onun hikayesi, hakem değerlendirmelerinin keyfi doğası ve akademik yayıncılıkta karşılaşılan zorluklar üzerine tartışmalar başlattı. - Konuşma, reddedilmenin, önde gelen araştırmacılar için bile, akademik sürecin normal bir parçası olduğunu ve başarısızlıkların paylaşılmasının sahtekar sendromunu ele almak için önemini vurguladı.</li>
-</ul>
-<h2><a href="https://apiparrot.com/">API Parrot – HTTP API&#39;lerini Otomatik Olarak Tersine Mühendislik Yapın</a></h2>
-<ul>
-<li>API Parrot, API istekleri arasındaki veri korelasyonlarını otomatik olarak tanımlayarak ve grafiksel bir akış temsili sağlayarak iş süreçlerinin otomasyonunu basitleştirmek için tasarlanmış yeni bir araçtır. - Kullanıcıların istekleri kaydetmesine, giriş ve çıkışları tanımlamasına ve bu akışları JavaScript kodu olarak dışa aktarmasına olanak tanır, bu da süreci manuel tersine mühendislik veya Robotik Süreç Otomasyonu (RPA) gibi daha az optimal teknolojiler kullanmaktan daha verimli hale getirir. - Araç Electron üzerine inşa edilmiştir ve hem Windows hem de Linux platformları için mevcuttur, USPS API&#39;sinin tersine mühendisliği için bir eğitim de bulunmaktadır.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42565821">Tepkiler</a></h3>
-<ul>
-<li>API Parrot, HTTP API&#39;lerinin tersine mühendisliğini otomatikleştiren bir araçtır ve istekler arasındaki veri ilişkilerini belirleyerek iş süreçlerinin otomasyonunu kolaylaştırır. - İstekleri kaydetme, giriş ve çıkışları tanımlama ve akışları JavaScript kodu olarak dışa aktarma gibi özellikler sunar, ayrıca grafiksel bir akış gösterimi sağlar. - Şu anda Windows ve Linux için mevcut olan API Parrot, ücretsizdir ve işletmeler için potansiyel bir &quot;pro&quot; sürümü ile gelecekte macOS sürümü planlanmaktadır.</li>
-</ul>
-<h2><a href="https://thehill.com/national-security/5061535-virginia-man-arrested-explosives/">FBI: Ajans tarihindeki en büyük ev yapımı patlayıcı deposu Virginia&#39;da bulundu</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42562529">Tepkiler</a></h3>
-<ul>
-<li>FBI, Virginia&#39;da tarihindeki en büyük el yapımı patlayıcı deposunu ortaya çıkardı ve bu durum önemli yasal ve kamuoyu tartışmalarına yol açtı.</li>
-<li>Şüpheli şu anda yalnızca kısa namlulu tüfek bulundurmakla suçlanıyor, çünkü silahlarının yasallığı inceleniyor.</li>
-<li>Bu dava, silah yasaları, İkinci Değişiklik ve hükümet düzenlemeleri ile bireysel haklar arasındaki denge üzerine tartışmaları ateşledi.</li>
-</ul>
-<h2><a href="https://dgl.cx/2024/12/ghostty-terminal-title">Déjà vu: Terminal başlığımda hayalet CVE&#39;ler</a></h2>
-<ul>
-<li>Ghostty, yeni bir terminal emülatörü, 2003&#39;ten kalma bir güvenlik açığına benzer bir güvenlik açığına sahipti ve ASCII kaçış karakterlerinin uygulamaları açmak gibi komutlar çalıştırmasına izin veriyordu. - Sorun özellikle Zsh ve Bash&#39;in vi modunda problemliydi, ancak Ghostty 1.0.1 bu özelliği varsayılan olarak devre dışı bırakarak bu sorunu çözdü. - Güvenlik açığına rağmen, Ghostty özellikleriyle övülüyor ve geliştirici sorunu hızla ele alarak kullanıcılar için düzeltmeler ve geçici çözümler sağladı.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42562743">Tepkiler</a></h3>
-<ul>
-<li>Bu tartışma, özellikle kaçış dizileriyle ilgili olan terminal güvenlik açıklarına odaklanmakta ve bu riskleri azaltmanın yollarını araştırmaktadır. - Terminal güvenliğini artırmak için öneriler arasında, sömürüleri önlemek amacıyla yetenekleri sınırlayan CPU koruma halkalarına veya OpenBSD&#39;nin pledge() sistem çağrısına benzer sistemlerin benimsenmesi yer almaktadır. - Katılımcılar, terminal uygulamalarında güvenlik ile işlevsellik arasında denge kurmanın zorluğunu kabul etmekte ve güvenlik uygulamalarını iyileştirmek için daha fazla araştırma ve işbirliği yapma konusunda ilgi göstermektedirler.</li>
-</ul>
-<h2><a href="https://github.com/facebookresearch/large_concept_model">Büyük Kavram Modelleri: Cümle temsil alanında dil modelleme</a></h2>
-<ul>
-<li>Depo, dil modellemesi için daha üst düzey bir anlamsal temsil olarak &quot;kavramları&quot; kullanan Büyük Kavram Modelleri (LCM) için uygulamalar sunar.</li>
-<li>LCM, SONAR gömme alanını kullanarak 200 metin dilini ve 57 konuşma dilini destekler ve MSE regresyonu ve difüzyon tabanlı üretim gibi yöntemlerle otomatik regresif cümle tahmini için eğitilmiştir.</li>
-<li>Depo, kurulum talimatları, veri hazırlığı, eğitim, ince ayar ve değerlendirme kılavuzları sağlar ve MIT lisansı altında, UV ve pip kurulum seçenekleriyle fairseq2 kullanılarak yayınlanır.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42563534">Tepkiler</a></h3>
-<ul>
-<li>Büyük Kavram Modelleri, dilin bireysel semboller yerine &quot;kavramlar&quot; açısından temsil edilmesine odaklanarak, anlamsal parçalama ve tahmin yeteneklerini geliştirmeyi amaçlar.</li>
-<li>Bu yöntem, insan planlaması ve iletişimini taklit etmek için daha üst düzey temsillerin kullanılmasını önerir ve bu, geleneksel token tabanlı modellere göre potansiyel avantajlar sunabilir.</li>
-<li>Bu yaklaşım, insan akıl yürütmesini daha iyi taklit etmek için açık hiyerarşik yapılara vurgu yaparak mevcut Büyük Dil Modeli (LLM) mimarilerindeki sınırlamaları ele alır.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Mutlu Yıllar 2025" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Mutlu%20Y%C4%B1llar%202025&subheading=1%20Ocak%202025%20%C3%87ar%C5%9Famba%3A%20Hacker%20Haber%20%C3%96zeti" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/tr/2025/01/01</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Z</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

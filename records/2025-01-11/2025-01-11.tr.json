@@ -1,0 +1,218 @@
+[
+  {
+    "id": 42663231,
+    "title": "Makefile Etkisinin Farkında Olun",
+    "originLink": "https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42663231",
+    "commentBody": "",
+    "originSummary": [
+      "“Makefile etkisi”, mühendislerin sıfırdan yeni bir yapı oluşturmak yerine, mevcut karmaşık yapılandırmaları, örneğin Makefile'ları kopyalayıp değiştirme uygulamasını tanımlar. - Bu yaklaşım, Sürekli Entegrasyon/Sürekli Dağıtım (CI/CD) yapılandırmaları ve derleme sistemleri gibi çeşitli sistemlerde yaygındır ve aşırı karmaşık veya kötü tasarlanmış araçları gösterebilir. - Doğası gereği olumsuz olmasa da, Makefile etkisi öğrenmeyi engelleyebilir, güvenliği karmaşıklaştırabilir ve verimsiz hata ayıklamaya yol açabilir, bu da yapılandırılabilirlik ve kullanım kolaylığını dikkate alan düşünceli araç tasarımının gerekliliğini vurgular."
+    ],
+    "commentSummary": [
+      "Makefile Etkisi\", geliştiricilerin genellikle araçların karmaşıklığı veya nadiren kullanılması nedeniyle kod veya yapılandırmaları tam olarak anlamadan kopyalama ve değiştirme eğilimini tanımlar.",
+      "Bu fenomen, geliştiricilerin zaman ve çaba tasarrufu sağlamak için bilinen çözümleri kullandığı, potansiyel olarak bakımı zor koda yol açabilecek programlama ve yapılandırma görevlerinde yaygındır.",
+      "Bu tartışma, kullanılan şablonlar ve mevcut çözümler ile ilgili araçlar ve sistemler hakkında daha derin bir anlayış kazanma ihtiyacını dengelemenin önemini vurgulamaktadır."
+    ],
+    "points": 238,
+    "commentCount": 203,
+    "retryCount": 0,
+    "time": 1736568792
+  },
+  {
+    "id": 42661185,
+    "title": "Portallar ve Deprem",
+    "originLink": "https://30fps.net/pages/pvs-portals-and-quake/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42661185",
+    "commentBody": "",
+    "originSummary": [
+      "Makale, piksellerin birden çok kez işlendiği aşırı çizimi ele almak için Quake'in önceden hesaplanmış görünürlük sistemine odaklanan \"PVS'yi Anlamak\" serisinin ilkidir. - Quake, dünyayı hücrelere ve portallara bölerek, portal kırpma ve potansiyel görünür setler (PVS) kullanarak görünürlüğü önceden hesaplayarak render işlemini optimize eder. - Makale, Quake'in görünürlük algoritmasının Python'da yeniden uygulanması olan vis.py'deki Portal ve Leaf sınıflarını tanıtarak, yapraklar arası görünürlük matrisinin kullanımını vurgular."
+    ],
+    "commentSummary": [
+      "Quake seviye tasarımcıları, oyun performansını optimize etmek için \"ipucu\" fırçaları ve \"alan portalları\" kullandılar, bu teknik 3D grafiklerde temel bir yöntem olmuştur. - Prey ve Portal gibi oyunlar, oyun mekaniği için portalları ön plana çıkardı, ancak bu konsept erken 3D grafiklerden beri renderlemede kullanılmaktadır. - Unreal Engine 1, optimizasyon için bölgeler kullandı ve günümüz motorları olan Unreal Engine 5 gibi motorlar, renderleme verimliliğini artırmak için benzer yöntemleri kullanmaya devam ediyor."
+    ],
+    "points": 183,
+    "commentCount": 48,
+    "retryCount": 0,
+    "time": 1736549293
+  },
+  {
+    "id": 42660335,
+    "title": "Phi-4 Hata Düzeltmeleri",
+    "originLink": "https://unsloth.ai/blog/phi4",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42660335",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Daniel Hanchen, Microsoft'un Phi-4 Büyük Dil Modeli'ndeki (LLM) cümle sonlandırma sorunları ve sohbet şablon istemleri gibi hataları keşfetti ve ele aldı. - Phi-4'ü Llama mimarisine dönüştürerek performansı artırdı ve düzeltmeleri makine öğrenimi modelleri için bir platform olan Hugging Face'te paylaştı. - Phi-4'ü ince ayar yapmak için bir Colab defteri mevcut ve düzeltmeler bazı kıyaslamalarda performansı artırırken, diğerlerinde azalttı; Phi-4 ekibi bu iyileştirmeleri orijinal modele entegre etmek için çalışıyor."
+    ],
+    "points": 176,
+    "commentCount": 50,
+    "retryCount": 0,
+    "time": 1736543841
+  },
+  {
+    "id": 42661432,
+    "title": "Çok Yanlış Matematik",
+    "originLink": "https://www.charlespetzold.com/blog/2025/01/Very-Wrong-Math.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42661432",
+    "commentBody": "",
+    "originSummary": [
+      "Bir tasarım ve inşaat şirketi, Facebook'ta matematik hatası yaparak Dünya'nın yarıçapını yanlış bir şekilde 4,333 fit olarak hesapladı ve bu da sadece 5 milin biraz üzerinde büyük ölçüde düşük bir çevre uzunluğuna yol açtı.",
+      "Yanlışlık, yaklaşık 3.959 mil olan Dünya'nın gerçek yarıçapını kullanmadan yay uzunluklarını hesaplamaktan kaynaklandı.",
+      "Yazı, dış yayının iç yaydan %1'den daha az uzun olduğunu vurguladı ve bu durumun azalan hava direnci nedeniyle uçuş süresinde potansiyel bir azalmaya işaret ettiğini öne sürdü."
+    ],
+    "commentSummary": [
+      "Bir YouTube yapımcısı, su terazilerinin düz bir Dünya üzerinde paralel olacağını yanlış bir şekilde iddia etti ve bu, Dünya'nın eğriliğini yanlış anlamaktı; bu tür ölçümlerde ihmal edilebilir. - Tartışma, büyük ölçekli kavramları anlamada sezginin başarısızlığını vurguladı ve düz Dünya teorilerini, yerçekimi yanlış anlamalarını ve Dünya'nın dönüşünün uçuş üzerindeki etkilerini ele aldı. - Konuşma, yanlış inançların ısrarını ve yerleşik bilimi reddedenlere bilimsel kavramları açıklamanın zorluğunu mizahi bir şekilde inceledi."
+    ],
+    "points": 170,
+    "commentCount": 91,
+    "retryCount": 0,
+    "time": 1736550656
+  },
+  {
+    "id": 42660942,
+    "title": "Yapı Süsü",
+    "originLink": "https://ianthehenry.com/posts/bauble/building-bauble/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42660942",
+    "commentBody": "",
+    "originSummary": [
+      "Bauble, karmaşık şekiller ve animasyonlar oluşturmak için imzalı mesafe fonksiyonlarını (SDF'ler) kullanan bir 3D modelleme ve render aracıdır. - Başlangıçta GLSL gölgelendiricileri oluşturmak için temel bir sistem olan Bauble, 3D model ihracatı, etkileşimli düzenleme ve özel aydınlatma gibi özellikleri içerecek şekilde yeniden yazılmıştır. - Araç artık web gömme, etkileşimli vektör düzenleme desteklemekte ve yaratıcı projeler ve 3D tasarımla ilgilenen kullanıcılar için erişilebilir kılan kapsamlı belgeler sunmaktadır."
+    ],
+    "commentSummary": [
+      "ianthehenry.com'da yer alan bir proje olan Building Bauble, özellikle kodlama ve grafiklerde programlamanın büyüsünü ve keyfini sergileyerek heyecan yarattı.",
+      "Proje, yaratıcılığı ve detaylı yazımı nedeniyle övgü alıyor, okuyucuları tamamlanmamış projelere yeniden göz atmaya ve Janet (bir programlama dili) ve GLSL (OpenGL Shading Language) gibi yeni teknolojileri keşfetmeye teşvik ediyor.",
+      "Safari'deki bazı teknik sorunlara rağmen, proje etkileyici uygulaması ve ilgi çekici gelişim hikayesiyle kutlanıyor, kişisel projeler ve RSS okuyucularının kullanımı hakkında tartışmalar başlatıyor."
+    ],
+    "points": 164,
+    "commentCount": 26,
+    "retryCount": 0,
+    "time": 1736547735
+  },
+  {
+    "id": 42664400,
+    "title": "2006 yılında neredeyse tüm ikili aramalar ve birleştirme sıralamaları bozuldu",
+    "originLink": "https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42664400",
+    "commentBody": "",
+    "originSummary": [
+      "2006 yılında Joshua Bloch, Jon Bentley'nin \"Programming Pearls\" adlı eserinde ilk kez belirtilen ikili arama algoritmasında, 'low' ve 'high' maksimum int değerini aştığında bir taşma meydana geldiğini belirten bir hata tespit etti.",
+      "Bu hata, uzunluğu 2^30 veya daha fazla olan dizileri etkileyen, 1980'lerde nadirdi ancak bugün daha yaygındır ve ayrıca mergesort ve diğer böl ve fethet algoritmalarını da etkilemektedir.",
+      "Bloch, sorunu `int mid = low + ((high - low) / 2);` olarak ortalamayı hesaplayarak çözmeyi öneriyor ve hatasız kod yazmanın zorluklarını ve kapsamlı test yapmanın gerekliliğini vurguluyor."
+    ],
+    "commentSummary": [
+      "Birçok ikili arama ve birleştirme sıralaması, özellikle daha eski uygulamalarda, 2006 yılında yayınlanan bir makalede vurgulandığı gibi, tamsayı taşması sorunlarına eğilimlidir.",
+      "Makale, programlamada uç durumlar ve donanım sınırlamalarını dikkate almanın önemini vurguluyor, bu da günümüzde hala geçerliliğini koruyor.",
+      "Yazılımcılara, bu tür hataları önlemek için yerleşik fonksiyonları veya daha büyük tamsayı türlerini kullanmaları tavsiye edilir, bu da veri türleri ve giriş boyutları konusunda dikkatli olma gerekliliğini vurgular."
+    ],
+    "points": 143,
+    "commentCount": 136,
+    "retryCount": 0,
+    "time": 1736585205
+  },
+  {
+    "id": 42665367,
+    "title": "Apple FindMy ağı üzerinden cihazlarınızı Go/TinyGo ile takip edin",
+    "originLink": "https://github.com/hybridgroup/go-haystack",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42665367",
+    "commentBody": "",
+    "originSummary": [
+      "Go Haystack, OpenHaystack ve Macless-Haystack ile Go/TinyGo araçlarını kullanarak, Apple donanımı gerektirmeden Apple'ın \"Find My\" ağı üzerinden kişisel Bluetooth cihazlarının takibini sağlar.",
+      "Kullanıcılar, Adafruit Bluefruit kartları ve BBC Microbit gibi donanımlar üzerinde TinyGo yazılımını kullanarak kendi işaretçilerini oluşturabilirler, kurulum için iki faktörlü kimlik doğrulama (2FA) ile bir Apple Kimliği gereklidir.",
+      "Bu süreç, go-haystack aracının kurulmasını, cihazları bulmak için `haystack scan` gibi komutların kullanılmasını, anahtarların üretilmesini, cihazın flaşlanmasını ve cihazın web arayüzünde görünürlüğü için JSON dosyasının macless-haystack'e yüklenmesini içerir."
+    ],
+    "commentSummary": [
+      "Apple FindMy ağı, cihazları izlemek için Go/TinyGo ile kullanılabilir ve bir Apple hesabına ihtiyaç duymadan ağı genişletmenin bir yolunu sunar.",
+      "Apple'ın tasarımı gizlilik endişelerini hafifletiyor ve şirket, kullanıcı gizliliğini koruma konusunda güçlü bir üne sahip, ancak bazı kullanıcılar olası gözetim konusunda temkinli kalıyor.",
+      "FindMy ağı iki bölümde çalışır: Apple cihazları eşyaları bulur ve kullanıcı cihazları konum verilerini Apple'a yükler, kullanıcıların isterlerse bu özelliği devre dışı bırakma seçeneği vardır."
+    ],
+    "points": 139,
+    "commentCount": 32,
+    "retryCount": 0,
+    "time": 1736597674
+  },
+  {
+    "id": 42665222,
+    "title": "Vim'in Durumu",
+    "originLink": "https://lwn.net/SubscriberLink/1002342/a8d8a17f30968b93/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42665222",
+    "commentBody": "",
+    "originSummary": [
+      "Vim'in kurucusu Bram Moolenaar'ın 2023'te vefatının ardından, Vim topluluğu projenin devam eden gelişimini sağlamak için yeniden organize oldu ve şu anki sorumlu kişi Christian Brabandt. - VimConf 2024'te, ekibin genişlediği, Vim web sitesinin güncellenmesine, güvenliğin yönetilmesine ve iletişim kanallarının geliştirilmesine odaklanıldığı tartışıldı. - Vim, topluluk ihtiyaçlarını önceliklendirerek ve yeni özellikleri dikkatlice entegre ederek bakım modunda kalmaya devam ediyor ve Moolenaar tarafından kurulan bir hayır kurumu olan ICCF Holland'ı desteklemeye devam ediyor."
+    ],
+    "commentSummary": [
+      "Uzun süredir Vim kullanıcıları, yaratıcısı Bram Moolenaar'ın vefatının ardından editörün geleceğini değerlendiriyor; bazıları mevcut kararlılığından memnunken, diğerleri modern özellikler için Neovim gibi alternatifleri araştırıyor.",
+      "Neovim, Lua betik dili desteği ve modern iyileştirmeleri ile dikkat çekiyor, bazı kullanıcılar ise Vim ve Neovim arasındaki algılanan parçalanma nedeniyle Emacs'i düşünüyor.",
+      "Metin: Kullanıcılar arasındaki tartışmalar, Treesitter'ın performansı, Dil Sunucusu Protokolü (LSP) desteği ve Visual Studio Code (VSCode) ile karşılaştırmalar gibi konuları içeriyor ve bu editörlerin esnekliği ve kararlılığına dikkat çekiyor."
+    ],
+    "points": 138,
+    "commentCount": 33,
+    "retryCount": 0,
+    "time": 1736595779
+  },
+  {
+    "id": 42659061,
+    "title": "AST'leri ve diğer derleyici veri yapılarının düzleştirilmesi (2023)",
+    "originLink": "https://www.cs.cornell.edu/~asampson/blog/flattening.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42659061",
+    "commentBody": "",
+    "originSummary": [
+      "Yazı, derleyiciler için soyut sözdizimi ağaçlarını (AST'ler) optimize eden bir teknik olan veri yapısı düzleştirmeyi tartışıyor. - Bu yöntem, bellek yerelliğini iyileştirerek, referans boyutunu azaltarak ve bellek yönetimini basitleştirerek performansı artırır, bir mikro ölçüt testinde 2.4 kat hız artışı sağlar. - Teknik, özellikle Rust projelerinde kullanılır ve daha kolay bellek yönetimi gibi ergonomik faydalar sunar ve daha fazla performans iyileştirmesi için bayt kodu yorumlayıcıları ile karşılaştırılır."
+    ],
+    "commentSummary": [
+      "Bu tartışma, performansı ve bellek verimliliğini artırmak için Soyut Sözdizimi Ağaçlarını (AST'ler) düz, bitişik dizilerde depolayarak optimize etmeye odaklanmaktadır.",
+      "Bu yöntem, Lisp gibi dillerdeki ve Zig derleyicisindeki tekniklerle karşılaştırmalar yaparak önbellek yerelliğini artırır ve bellek yönetimini basitleştirir.",
+      "Konuşma ayrıca tarihsel yöntemlere ve diğer programlama dillerindeki benzer tekniklere atıfta bulunarak, düz veri yapılarının birleştirilebilirlik ve manipülasyon kolaylığı açısından faydalarını vurgulamaktadır."
+    ],
+    "points": 137,
+    "commentCount": 36,
+    "retryCount": 0,
+    "time": 1736537030
+  },
+  {
+    "id": 42666572,
+    "title": "Marshall Uxbridge Bluetooth hoparlörün akıllı özelliklerini devre dışı bırakma",
+    "originLink": "https://tomscii.sig7.se/2025/01/De-smarting-the-Marshall-Uxbridge",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42666572",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Bu tartışma, Marshall Uxbridge Bluetooth hoparlörün \"akıllı\" özelliklerini ortadan kaldırmak için değiştirilmesine odaklanıyor ve dijital I2S girişi için Baskılı Devre Kartı (PCB) tasarımı gibi teknik unsurları içeriyor.",
+      "Kullanıcılar, iyi ses kalitesine ulaşmada Dijital Sinyal İşleme'nin (DSP) rolünü tartışıyor, bazıları donanım sınırlamalarını telafi etmek için gerekliliğini vurguluyor.",
+      "Konuşma ayrıca akıllı cihazların değiştirilmesinin zorluklarını ve modern PCB üretimi ve bileşenlerinin uygun fiyatlılığını da kapsıyor."
+    ],
+    "points": 119,
+    "commentCount": 33,
+    "retryCount": 0,
+    "time": 1736610122
+  },
+  {
+    "id": 42660377,
+    "title": "OpenAI'nin botu, bu yedi kişilik şirketin web sitesini 'DDoS saldırısı gibi' ezdi.",
+    "originLink": "https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42660377",
+    "commentBody": "",
+    "originSummary": [
+      "Triplegangers'ın e-ticaret sitesi, OpenAI'nin botunun 65.000'den fazla ürün sayfasını kazımak için on binlerce istek yapması nedeniyle DDoS benzeri bir saldırıya maruz kaldı. - Site, bu tür botları engellemek için düzgün yapılandırılmış bir robots.txt dosyasına sahip değildi, bu da artan AWS maliyetlerine ve veri güvenliği endişelerine yol açtı. - Bu olay, AI şirketlerinin veri kazıma işlemi öncesinde izin almasının önemini vurgulamakta ve küçük işletmeler için AI bot etkinliğini izlemeleri konusunda bir uyarı niteliği taşımaktadır."
+    ],
+    "commentSummary": [
+      "OpenAI'nin botu, bir küçük şirketin web sitesinde aşırı trafiğe neden olarak, Dağıtılmış Hizmet Reddi (DDoS) saldırısına benzer bir duruma yol açtı ve AI botlarının web sitelerini aşırı yükleme sorunlarını gözler önüne serdi.",
+      "Read the Docs gibi şirketler, web tarayıcılarını yönetmek için \"robots.txt\" kullanmalarına rağmen, AI botlarının büyük trafik oluşturmasıyla benzer zorluklar yaşamıştır.",
+      "Bu olay, bazı botların \"robots.txt\" dosyasını görmezden gelmesi nedeniyle küçük site sahipleri için potansiyel yasal ve finansal sorunlara yol açarak, web erişilebilirliğini AI şirketlerinin agresif veri kazımasına karşı koruma ile dengeleme konusundaki devam eden tartışmayı vurguluyor."
+    ],
+    "points": 111,
+    "commentCount": 102,
+    "retryCount": 0,
+    "time": 1736544077
+  }
+]

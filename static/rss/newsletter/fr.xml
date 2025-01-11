@@ -15,12 +15,132 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Jan 2025 19:07:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jan 2025 19:29:06 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/fr.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[fr]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-11]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/11&#39;</h2>
+<h1>2025-01-11</h1>
+<h2><a href="https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect">Soyez conscient de l&#39;effet Makefile</a></h2>
+<ul>
+<li>Le « Makefile effect » décrit la pratique des ingénieurs qui copient et modifient des configurations complexes existantes, comme les Makefiles, au lieu d&#39;en créer de nouvelles à partir de zéro. - Cette approche est courante dans divers systèmes, tels que les configurations d&#39;Intégration Continue/Déploiement Continu (CI/CD) et les systèmes de construction, et peut indiquer des outils trop complexes ou mal conçus. - Bien que ce ne soit pas intrinsèquement négatif, le Makefile effect peut freiner l&#39;apprentissage, compliquer la sécurité et mener à un débogage inefficace, soulignant la nécessité d&#39;une conception réfléchie des outils qui prend en compte la configurabilité et la facilité d&#39;utilisation.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42663231">Réactions</a></h3>
+<ul>
+<li>Le « Makefile Effect » décrit la tendance des développeurs à copier et modifier du code ou des configurations sans les comprendre pleinement, souvent en raison de la complexité des outils ou de leur utilisation peu fréquente.</li>
+<li>Ce phénomène est répandu dans les tâches de programmation et de configuration, où les développeurs utilisent des solutions connues pour gagner du temps et des efforts, ce qui peut potentiellement conduire à un code difficile à maintenir.</li>
+<li>Le débat souligne la nécessité de trouver un équilibre entre l&#39;utilisation de modèles et de solutions existantes et l&#39;acquisition d&#39;une compréhension plus approfondie des outils et systèmes impliqués.</li>
+</ul>
+<h2><a href="https://30fps.net/pages/pvs-portals-and-quake/">Portails et Quake</a></h2>
+<ul>
+<li>« L&#39;article est le premier de la série &quot;Démystifier le PVS&quot;, se concentrant sur le système de visibilité pré-calculée de Quake pour résoudre le surdessin, où les pixels sont rendus plusieurs fois. - Quake utilise le culling par portails et les ensembles potentiellement visibles (PVS) en divisant le monde en cellules et portails, pré-calculant la visibilité pour optimiser le rendu. - L&#39;article présente les classes Portal et Leaf dans vis.py, une réimplémentation en Python de l&#39;algorithme de visibilité de Quake, mettant en avant l&#39;utilisation d&#39;une matrice de visibilité feuille-à-feuille. »</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42661185">Réactions</a></h3>
+<ul>
+<li>Les concepteurs de niveaux de Quake ont utilisé des brosses &quot;hint&quot; et des &quot;portails de zone&quot; pour optimiser les performances du jeu, une technique qui a été fondamentale dans les graphismes 3D. - Des jeux comme Prey et Portal ont mis en lumière les portails pour les mécaniques de jeu, bien que le concept soit utilisé dans le rendu depuis les débuts des graphismes 3D. - L&#39;Unreal Engine 1 a employé des zones pour l&#39;optimisation, et les moteurs contemporains comme l&#39;Unreal Engine 5 continuent d&#39;utiliser des méthodes similaires pour améliorer l&#39;efficacité du rendu.</li>
+</ul>
+<h2><a href="https://unsloth.ai/blog/phi4">Corrections de bogues Phi-4</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42660335">Réactions</a></h3>
+<ul>
+<li>Daniel Hanchen a découvert et résolu des bugs dans le modèle de langage large (LLM) Phi-4 de Microsoft, tels que des problèmes de fin de phrase et des invites de modèle de chat. - Il a converti Phi-4 à l&#39;architecture Llama, améliorant ainsi les performances, et a partagé les correctifs sur Hugging Face, une plateforme pour les modèles d&#39;apprentissage automatique. - Un notebook Colab pour le réglage fin de Phi-4 est disponible, et bien que les correctifs aient amélioré les performances sur certains benchmarks, ils les ont diminuées sur d&#39;autres ; l&#39;équipe Phi-4 travaille à intégrer ces améliorations dans le modèle original.</li>
+</ul>
+<h2><a href="https://www.charlespetzold.com/blog/2025/01/Very-Wrong-Math.html">Mathématiques très fausses</a></h2>
+<ul>
+<li>Une entreprise de conception et de construction a commis une erreur mathématique sur Facebook, calculant incorrectement le rayon de la Terre à 4 333 pieds, ce qui a conduit à une circonférence largement sous-estimée de juste un peu plus de 5 miles.</li>
+<li>L&#39;erreur provenait du calcul des longueurs d&#39;arc sans utiliser le rayon réel de la Terre, qui est d&#39;environ 3 959 miles.</li>
+<li>Le message a souligné que l&#39;arc extérieur était moins de 1 % plus long que l&#39;arc intérieur, suggérant une réduction potentielle du temps de vol en raison d&#39;une diminution de la résistance de l&#39;air.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42661432">Réactions</a></h3>
+<ul>
+<li>Un constructeur sur YouTube a incorrectement affirmé que les fils à plomb seraient parallèles sur une Terre plate, mal comprenant la courbure de la Terre, qui est négligeable dans de telles mesures. - La discussion a mis en évidence l&#39;échec de l&#39;intuition dans la compréhension des concepts à grande échelle et a abordé les théories de la Terre plate, les idées fausses sur la gravité et les effets de la rotation de la Terre sur le vol. - La conversation a examiné avec humour la persistance des croyances incorrectes et la difficulté d&#39;expliquer les concepts scientifiques à ceux qui rejettent la science établie.</li>
+</ul>
+<h2><a href="https://ianthehenry.com/posts/bauble/building-bauble/">Construction de Babiole</a></h2>
+<ul>
+<li>Bauble est un outil de modélisation et de rendu 3D qui utilise des fonctions de distance signée (SDF) pour créer des formes et des animations complexes. - Initialement un système basique pour générer des shaders GLSL, Bauble a été réécrit pour inclure des fonctionnalités telles que l&#39;exportation de modèles 3D, l&#39;édition interactive et l&#39;éclairage personnalisé. - L&#39;outil prend désormais en charge l&#39;intégration web, l&#39;édition vectorielle interactive et offre une documentation complète, le rendant accessible pour des projets créatifs et des utilisateurs intéressés par le design 3D.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42660942">Réactions</a></h3>
+<ul>
+<li>Building Bauble, un projet présenté sur ianthehenry.com, a suscité l&#39;enthousiasme en mettant en avant la magie et le plaisir de la programmation, en particulier dans le codage et les graphismes.</li>
+<li>Le projet est salué pour sa créativité et sa rédaction détaillée, inspirant les lecteurs à revisiter des projets inachevés et à explorer de nouvelles technologies telles que Janet (un langage de programmation) et GLSL (OpenGL Shading Language).</li>
+<li>Malgré quelques problèmes techniques sur Safari, le projet est salué pour son exécution impressionnante et son histoire de développement captivante, suscitant des discussions sur les projets personnels et l&#39;utilisation des lecteurs RSS.</li>
+</ul>
+<h2><a href="https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/">Presque toutes les recherches binaires et les tris par fusion sont défectueux (2006)</a></h2>
+<ul>
+<li>En 2006, Joshua Bloch a identifié un bug dans l&#39;algorithme de recherche binaire, initialement noté dans &quot;Programming Pearls&quot; de Jon Bentley, où un dépassement se produit lorsque &#39;low&#39; et &#39;high&#39; dépassent la valeur maximale d&#39;un entier.</li>
+<li>Ce bug, affectant les tableaux de longueur 2^30 ou plus, était rare dans les années 1980 mais est plus courant aujourd&#39;hui, impactant également le tri par fusion et d&#39;autres algorithmes de division et de conquête.</li>
+<li>Bloch recommande de résoudre le problème en calculant le point médian comme <code>int mid = low + ((high - low) / 2);</code>, soulignant les défis de l&#39;écriture d&#39;un code sans erreur et la nécessité de tests approfondis.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42664400">Réactions</a></h3>
+<ul>
+<li>De nombreuses recherches binaires et tris par fusion sont sujettes à des problèmes de dépassement d&#39;entier, en particulier dans les implémentations plus anciennes, comme le souligne un article de 2006.</li>
+<li>L&#39;article souligne l&#39;importance de prendre en compte les cas limites et les limitations matérielles en programmation, ce qui reste pertinent aujourd&#39;hui.</li>
+<li>Les développeurs sont conseillés d&#39;utiliser des fonctions intégrées ou des types d&#39;entiers plus grands pour prévenir de tels bogues, soulignant la nécessité de faire preuve de prudence avec les types de données et les tailles d&#39;entrée.</li>
+</ul>
+<h2><a href="https://github.com/hybridgroup/go-haystack">Suivez vos appareils via le réseau Apple FindMy en Go/TinyGo</a></h2>
+<ul>
+<li>Go Haystack permet de suivre des appareils Bluetooth personnels via le réseau &quot;Find My&quot; d&#39;Apple sans nécessiter de matériel Apple, en utilisant OpenHaystack et Macless-Haystack avec les outils Go/TinyGo.</li>
+<li>Les utilisateurs peuvent créer leurs propres balises en utilisant le firmware TinyGo sur du matériel comme les cartes Adafruit Bluefruit et BBC Microbit, l&#39;installation nécessitant un identifiant Apple avec authentification à deux facteurs (2FA).</li>
+<li>Le processus implique l&#39;installation de l&#39;outil go-haystack, l&#39;utilisation de commandes comme <code>haystack scan</code> pour localiser les appareils, la génération de clés, le flashage de l&#39;appareil et le téléchargement d&#39;un fichier JSON sur macless-haystack pour la visibilité de l&#39;appareil dans l&#39;interface utilisateur web.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42665367">Réactions</a></h3>
+<ul>
+<li>Le réseau Apple FindMy peut être utilisé avec Go/TinyGo pour suivre des appareils, offrant un moyen d&#39;étendre le réseau sans avoir besoin d&#39;un compte Apple.</li>
+<li>Les préoccupations en matière de confidentialité sont atténuées par la conception d&#39;Apple, et l&#39;entreprise jouit d&#39;une solide réputation pour le maintien de la confidentialité des utilisateurs, bien que certains utilisateurs restent méfiants face à une surveillance potentielle.</li>
+<li>Le réseau FindMy fonctionne en deux parties : les appareils Apple localisent les objets et les appareils des utilisateurs téléchargent les données de localisation vers Apple, avec une option pour les utilisateurs de désactiver la fonctionnalité si désiré.</li>
+</ul>
+<h2><a href="https://lwn.net/SubscriberLink/1002342/a8d8a17f30968b93/">Le statut de Vim</a></h2>
+<ul>
+<li>Suite au décès du fondateur de Vim, Bram Moolenaar, en 2023, la communauté Vim s&#39;est réorganisée pour assurer le développement continu du projet, avec Christian Brabandt comme mainteneur actuel. - Lors de VimConf 2024, il a été discuté que l&#39;équipe s&#39;est agrandie, se concentrant sur la mise à jour du site web de Vim, la gestion de la sécurité et l&#39;amélioration des canaux de communication. - Vim reste en mode maintenance, en priorisant les besoins de la communauté et en intégrant de nouvelles fonctionnalités avec précaution, tout en continuant à soutenir ICCF Holland, une association caritative fondée par Moolenaar.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42665222">Réactions</a></h3>
+<ul>
+<li>Les utilisateurs de Vim de longue date réfléchissent à l&#39;avenir de l&#39;éditeur suite au décès de son créateur, Bram Moolenaar, certains étant satisfaits de sa stabilité actuelle tandis que d&#39;autres explorent des alternatives comme Neovim pour des fonctionnalités modernes.</li>
+<li>Neovim attire l&#39;attention pour son support du scripting Lua et ses améliorations modernes, tandis que certains utilisateurs envisagent Emacs en raison de la fragmentation perçue entre Vim et Neovim.</li>
+<li>Les discussions parmi les utilisateurs incluent des sujets tels que la performance de Treesitter, le support du protocole Language Server (LSP) et des comparaisons avec Visual Studio Code (VSCode), mettant en avant la flexibilité et la stabilité de ces éditeurs.</li>
+</ul>
+<h2><a href="https://www.cs.cornell.edu/~asampson/blog/flattening.html">Applatissement des AST et autres structures de données du compilateur (2023)</a></h2>
+<ul>
+<li>Le post discute de l&#39;aplatissement des structures de données, une technique pour les compilateurs qui optimise les arbres de syntaxe abstraite (AST) en utilisant un tableau unique avec des indices au lieu de pointeurs. - Cette méthode améliore les performances en optimisant la localité de la mémoire, en réduisant la taille des références et en simplifiant la gestion de la mémoire, ce qui se traduit par une accélération de 2,4× dans un micro-benchmark. - La technique est notamment utilisée dans les projets Rust et offre des avantages ergonomiques, tels qu&#39;une gestion de la mémoire plus facile, et est comparée aux interpréteurs de bytecode pour des améliorations de performance supplémentaires.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42659061">Réactions</a></h3>
+<ul>
+<li>Le débat porte sur l&#39;optimisation des arbres syntaxiques abstraits (AST) en les stockant dans des tableaux plats et contigus pour améliorer les performances et l&#39;efficacité de la mémoire.</li>
+<li>Cette méthode améliore la localité du cache et simplifie la gestion de la mémoire, en établissant des comparaisons avec des techniques dans des langages comme Lisp et le compilateur Zig.</li>
+<li>La conversation fait également référence à des méthodes historiques et à des techniques similaires dans d&#39;autres langages de programmation, en soulignant les avantages des structures de données plates pour la composabilité et la facilité de manipulation.</li>
+</ul>
+<h2><a href="https://tomscii.sig7.se/2025/01/De-smarting-the-Marshall-Uxbridge">Dé-intellectualisation de l&#39;enceinte Bluetooth Marshall Uxbridge</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42666572">Réactions</a></h3>
+<ul>
+<li>Le débat porte sur la modification de l&#39;enceinte Bluetooth Marshall Uxbridge pour éliminer ses fonctionnalités &quot;intelligentes&quot;, impliquant des aspects techniques tels que la conception d&#39;un circuit imprimé (PCB) pour l&#39;entrée numérique I2S.</li>
+<li>Les utilisateurs débattent du rôle du traitement numérique du signal (DSP) dans l&#39;obtention d&#39;une bonne qualité sonore, certains soulignant sa nécessité pour compenser les limitations matérielles.</li>
+<li>La conversation aborde également les défis de la modification des appareils intelligents et l&#39;accessibilité financière de la production moderne de PCB et des composants.</li>
+</ul>
+<h2><a href="https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/">Le bot d&#39;OpenAI a écrasé le site web de cette entreprise de sept personnes &#39;comme une attaque DDoS&#39;</a></h2>
+<ul>
+<li>Le site e-commerce de Triplegangers a subi une attaque de type DDoS en raison du bot d&#39;OpenAI qui a effectué des dizaines de milliers de requêtes pour extraire plus de 65 000 pages de produits. - Le site ne disposait pas d&#39;un fichier robots.txt correctement configuré pour bloquer de tels bots, ce qui a entraîné une augmentation des coûts AWS et des préoccupations concernant la sécurité des données. - Cet incident souligne l&#39;importance pour les entreprises d&#39;IA d&#39;obtenir l&#39;autorisation avant de procéder à l&#39;extraction de données et sert d&#39;avertissement pour les petites entreprises afin de surveiller l&#39;activité des bots d&#39;IA.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42660377">Réactions</a></h3>
+<ul>
+<li>Le bot d&#39;OpenAI a provoqué un trafic excessif sur le site web d&#39;une petite entreprise, similaire à une attaque par déni de service distribué (DDoS), soulignant les problèmes liés aux bots d&#39;IA qui submergent les sites web.</li>
+<li>Des entreprises comme Read the Docs ont rencontré des défis similaires avec les bots d&#39;IA générant un trafic massif, malgré l&#39;utilisation de &quot;robots.txt&quot; pour gérer les robots d&#39;exploration web.</li>
+<li>L&#39;incident souligne le débat en cours sur l&#39;équilibre entre l&#39;accessibilité du web et la protection contre le scraping de données agressif par les entreprises d&#39;IA, car certains bots ignorent le fichier &quot;robots.txt&quot;, ce qui peut entraîner des problèmes juridiques et financiers pour les petits propriétaires de sites.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Soyez conscient de l'effet Makefile" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Soyez%20conscient%20de%20l'effet%20Makefile&subheading=samedi%2011%20janvier%202025%3A%20R%C3%A9sum%C3%A9%20de%20Hacker%20News" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/fr/2025/01/11</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Z</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-10]]></title>
             <description
@@ -903,104 +1023,6 @@
             <link>https://hn.cho.sh/fr/2025/01/02</link>
             <guid isPermaLink="false">2025-01-02T00:00:00.000Z</guid>
             <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2025-01-01]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2025/01/01&#39;</h2>
-<h1>2025-01-01</h1>
-<h2><a href="https://news.ycombinator.com/item?id=42562750">Bonne année 2025</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42562750">Réactions</a></h3>
-<h2><a href="https://doom-captcha.vercel.app/">DOOM CAPTCHA</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42566112">Réactions</a></h3>
-<ul>
-<li>DOOM CAPTCHA est un projet créatif qui demande aux utilisateurs de jouer un niveau du jeu classique DOOM comme test CAPTCHA, mettant en avant des compétences techniques et la nostalgie. - Les utilisateurs le trouvent difficile en raison de l&#39;absence de contrôles modernes, ce qui entraîne des réactions mitigées quant à sa praticité et son accessibilité. - Le projet, bien que novateur, souligne l&#39;insatisfaction persistante envers les systèmes CAPTCHA traditionnels, malgré sa construction avec l&#39;assistant AI de Vercel et l&#39;intégration manuelle du jeu.</li>
-</ul>
-<h2><a href="https://curiouscoding.nl/posts/static-search-tree/">Arbres de recherche statiques : plus rapides que la recherche binaire</a></h2>
-<ul>
-<li>L&#39;article traite de la mise en œuvre et de l&#39;optimisation des arbres de recherche statiques (arbres S+) pour une recherche de données triées nettement plus rapide, atteignant des vitesses 40 fois supérieures à la recherche binaire traditionnelle. - Des techniques d&#39;optimisation telles que le regroupement, le préchargement et le SIMD manuel (Single Instruction, Multiple Data) sont employées pour améliorer le débit des requêtes. - L&#39;article explore également divers agencements d&#39;arbres, tailles de nœuds et stratégies de gestion de la mémoire, avec une discussion sur les travaux futurs comme la recherche branchée et la recherche par interpolation pour améliorer encore l&#39;efficacité de la recherche.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42562847">Réactions</a></h3>
-<ul>
-<li>Le débat met en lumière un passage de C/C++ à Rust pour le contenu algorithmique, en particulier dans les arbres de recherche statiques, en raison des avantages de sécurité et de performance de Rust.</li>
-<li>On note la popularité croissante de Rust dans la programmation de bas niveau, certains utilisateurs préférant le C ou le pseudocode pour leur accessibilité, tandis que d&#39;autres apprécient les fonctionnalités modernes de Rust.</li>
-<li>« La conversation explore également le potentiel du langage de programmation Zig et les défis associés à l&#39;apprentissage de nouveaux langages, reflétant le paysage en évolution des langages de programmation. »</li>
-</ul>
-<h2><a href="https://openreview.net/forum?id=YXnwlZe0yf&noteId=yrsGpHd0Sf">30 % de baisse de la précision de l&#39;aperçu o1 lorsque les problèmes de Putnam sont légèrement variés</a></h2>
-<ul>
-<li>Putnam-AXIOM est un benchmark conçu pour évaluer les grands modèles de langage (LLM) sur le raisonnement mathématique avancé en utilisant des problèmes du Concours Mathématique Putnam. - Le benchmark comprend 236 problèmes originaux et une variation avec 52 problèmes modifiés pour éviter la contamination des données. - Le modèle le plus performant d&#39;OpenAI a atteint une précision de 41,95 % sur les problèmes originaux, mais a connu une baisse de performance significative d&#39;environ 30 % sur les problèmes modifiés, soulignant les défis d&#39;adaptation aux variations.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42565606">Réactions</a></h3>
-<ul>
-<li>Une étude a révélé une diminution de 30 % de l&#39;exactitude du modèle o1-Preview sur les problèmes de Putnam lorsque des variations mineures ont été introduites, indiquant des défis pour les grands modèles de langage (LLM) avec de petits changements. - Les résultats alimentent le débat sur la capacité des LLM à raisonner véritablement ou s&#39;ils dépendent principalement de la correspondance de motifs et de la mémorisation, similaire aux erreurs humaines sous pression. - Malgré ces défis, des modèles comme o1 et o3 continuent de bien performer sur des problèmes mathématiques complexes, bien que leur capacité à généraliser soit encore examinée.</li>
-</ul>
-<h2><a href="https://www.cs.cmu.edu/~pavlo/blog/2025/01/2024-databases-retrospective.html">Les bases de données en 2024 : Une année en revue</a></h2>
-<ul>
-<li>Le paysage des bases de données en 2024 a connu des changements significatifs, y compris des acquisitions majeures, des changements de licences et des rivalités continues parmi les acteurs clés comme Redis, Elasticsearch, Databricks et Snowflake. - DuckDB a gagné en popularité pour les requêtes analytiques, avec des intégrations dans Postgres, tandis que des sorties notables incluaient Amazon Aurora DSQL et Microsoft Garnet. - Des acquisitions telles que Tabular par Databricks et OrioleDB par Supabase ont été significatives, et malgré des revers comme la fermeture d&#39;OtterTune, l&#39;industrie reste dynamique avec de nouveaux projets et financements.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42566192">Réactions</a></h3>
-<ul>
-<li>Le débat critique l&#39;API de Redis, certains soutenant que la critique manque d&#39;une compréhension approfondie du design de Redis et de son modèle de données unique.</li>
-<li>Redis est reconnu pour son utilisation efficace dans des applications spécifiques telles que les classements et les systèmes en temps réel, malgré certaines critiques concernant son API.</li>
-<li>La conversation explore également le paysage plus large des bases de données, y compris les défis pour les startups, le rôle du SQL et l&#39;évolution des technologies de bases de données, en soulignant l&#39;importance de comprendre les systèmes avant de les critiquer.</li>
-</ul>
-<h2><a href="https://thoughts.wyounas.com/p/books-i-enjoyed-most-in-2024">Livres que j&#39;ai adoré lire en 2024</a></h2>
-<ul>
-<li>« La liste présente une gamme diversifiée de livres, y compris des récits historiques, philosophiques, scientifiques et personnels, chacun offrant des perspectives uniques et des expériences enrichissantes. »</li>
-<li>Les points forts incluent les lettres de Cicéron pour des aperçus sur la vie romaine, les œuvres de Ben-Ari sur la logique en informatique et la vérification de programmes, et les mémoires de Steve Martin sur le succès comique.</li>
-<li>Le recueil comprend également des explorations philosophiques de Pierre Hadot et Nietzsche, des tragédies grecques d&#39;Eschyle, ainsi que des œuvres littéraires d&#39;Ursula Le Guin et Rabindranath Tagore.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42564687">Réactions</a></h3>
-<h2><a href="https://mathstodon.xyz/@tao/113721192051328193">Terence Tao : Un de mes articles a été refusé aujourd&#39;hui</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42568399">Réactions</a></h3>
-<ul>
-<li>Terence Tao, un mathématicien éminent, a partagé une expérience de rejet d&#39;un article, soulignant la fréquence des rejets dans le milieu universitaire. - Son histoire a suscité des discussions sur la nature arbitraire des évaluations par les pairs et les défis rencontrés dans la publication académique. - La conversation a mis en évidence que le rejet est une partie normale du processus académique, même pour les chercheurs de premier plan, et a souligné l&#39;importance de partager les échecs pour aborder le syndrome de l&#39;imposteur.</li>
-</ul>
-<h2><a href="https://apiparrot.com/">API Parrot – Ingénierie inverse automatique des API HTTP</a></h2>
-<ul>
-<li>API Parrot est un nouvel outil conçu pour simplifier l&#39;automatisation des processus métier en identifiant automatiquement les corrélations de données entre les requêtes API et en fournissant une représentation graphique du flux. - Il permet aux utilisateurs d&#39;enregistrer des requêtes, de définir des entrées et des sorties, et d&#39;exporter ces flux sous forme de code JavaScript, rendant le processus plus efficace que l&#39;ingénierie inverse manuelle ou l&#39;utilisation de technologies moins optimales comme l&#39;automatisation des processus robotiques (RPA). - L&#39;outil est construit sur Electron et est disponible pour les plateformes Windows et Linux, avec un tutoriel disponible pour l&#39;ingénierie inverse de l&#39;API USPS.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42565821">Réactions</a></h3>
-<ul>
-<li>API Parrot est un outil qui automatise l&#39;ingénierie inverse des API HTTP, facilitant l&#39;automatisation des processus métier en identifiant les corrélations de données entre les requêtes. - Il offre des fonctionnalités telles que l&#39;enregistrement des requêtes, la définition des entrées et sorties, et l&#39;exportation des flux sous forme de code JavaScript, avec une représentation graphique des flux. - Actuellement disponible pour Windows et Linux, API Parrot est gratuit, avec une éventuelle version &quot;pro&quot; pour les entreprises, et des plans pour une sortie sur macOS à l&#39;avenir.</li>
-</ul>
-<h2><a href="https://thehill.com/national-security/5061535-virginia-man-arrested-explosives/">FBI : La plus grande cache d&#39;explosifs artisanaux de l&#39;histoire de l&#39;agence découverte en Virginie</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42562529">Réactions</a></h3>
-<ul>
-<li>Le FBI a découvert la plus grande cache d&#39;explosifs artisanaux de son histoire en Virginie, ce qui a conduit à un débat juridique et public important.</li>
-<li>Le suspect est actuellement uniquement accusé de possession d&#39;un fusil à canon court, car la légalité de ses armes à feu est en cours d&#39;examen.</li>
-<li>Le cas a déclenché des discussions sur les lois sur les armes à feu, le deuxième amendement, et l&#39;équilibre entre la réglementation gouvernementale et les droits individuels.</li>
-</ul>
-<h2><a href="https://dgl.cx/2024/12/ghostty-terminal-title">Déjà vu : CVE fantômes dans le titre de mon terminal</a></h2>
-<ul>
-<li>Ghostty, un nouvel émulateur de terminal, avait une vulnérabilité de sécurité similaire à celle de 2003, permettant aux caractères d&#39;échappement ASCII d&#39;exécuter des commandes comme l&#39;ouverture d&#39;applications. - Le problème était particulièrement problématique avec Zsh et Bash en mode vi, mais Ghostty 1.0.1 a résolu cela en désactivant la fonctionnalité par défaut. - Malgré la faille de sécurité, Ghostty est salué pour ses fonctionnalités, et le développeur a rapidement abordé le problème, fournissant des correctifs et des solutions de contournement pour les utilisateurs.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42562743">Réactions</a></h3>
-<ul>
-<li>Les discussions portent sur les vulnérabilités de sécurité des terminaux, en particulier celles liées aux séquences d&#39;échappement, et explorent des moyens de réduire ces risques. - Les suggestions pour améliorer la sécurité des terminaux incluent l&#39;adoption de systèmes similaires aux anneaux de protection des CPU ou à l&#39;appel système pledge() d&#39;OpenBSD, qui limitent les capacités pour prévenir les exploits. - Les participants reconnaissent le défi de concilier sécurité et fonctionnalité dans les applications terminales et expriment leur intérêt pour une exploration et une collaboration plus poussées afin d&#39;améliorer les pratiques de sécurité.</li>
-</ul>
-<h2><a href="https://github.com/facebookresearch/large_concept_model">Grands modèles conceptuels : Modélisation du langage dans un espace de représentation de phrases</a></h2>
-<ul>
-<li>Le dépôt propose des implémentations pour les Modèles de Concepts Larges (LCM), qui utilisent des « concepts » comme une représentation sémantique de haut niveau pour la modélisation du langage.</li>
-<li>LCM prend en charge 200 langues textuelles et 57 langues vocales en utilisant l&#39;espace d&#39;intégration SONAR, et est entraîné pour la prédiction de phrases auto-régressives avec des méthodes telles que la régression MSE et la génération basée sur la diffusion.</li>
-<li>Le dépôt fournit des instructions d&#39;installation, de préparation des données, de formation, de réglage fin et des directives d&#39;évaluation, et est publié sous la licence MIT, utilisant fairseq2 avec des options d&#39;installation UV et pip.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42563534">Réactions</a></h3>
-<ul>
-<li>Les modèles de concepts larges se concentrent sur la représentation du langage en termes de « concepts » plutôt que de jetons individuels, dans le but d&#39;améliorer le découpage sémantique et la prédiction.</li>
-<li>Cette méthode propose d&#39;utiliser des représentations de niveau supérieur pour imiter la planification et la communication humaines, offrant potentiellement des avantages par rapport aux modèles traditionnels basés sur des tokens.</li>
-<li>Cette approche aborde les limitations des architectures actuelles de modèles de langage de grande taille (LLM) en mettant l&#39;accent sur des structures hiérarchiques explicites pour mieux reproduire le raisonnement humain.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Bonne année 2025" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Bonne%20ann%C3%A9e%202025&subheading=mercredi%201%20janvier%202025%3A%20R%C3%A9sum%C3%A9%20de%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/fr/2025/01/01</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Z</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

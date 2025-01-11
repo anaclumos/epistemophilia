@@ -15,11 +15,145 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Jan 2025 19:07:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jan 2025 19:29:05 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/story/nb.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
         <language><![CDATA[nb]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Let op het Makefile-effect]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Het &quot;Makefile-effect&quot; beschrijft de praktijk waarbij ingenieurs bestaande complexe configuraties, zoals Makefiles, kopiëren en aanpassen in plaats van nieuwe vanaf nul te maken. - Deze aanpak is wijdverbreid in verschillende systemen, zoals Continuous Integration/Continuous Deployment (CI/CD) configuraties en buildsystemen, en kan wijzen op te complexe of slecht ontworpen tools. - Hoewel het niet inherent negatief is, kan het Makefile-effect het leren belemmeren, de beveiliging compliceren en leiden tot inefficiënt debuggen, wat de noodzaak benadrukt voor doordacht toolontwerp dat rekening houdt met configureerbaarheid en gebruiksgemak.</li>
+</ul>
+]]></description>
+            <link>https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZLet op het Makefile-effect</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Portalen en Quake]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Het artikel is het eerste in de serie &quot;Demystifying the PVS&quot;, met de focus op Quake&#39;s voorgecalculeerde zichtbaarheidssysteem om overdraw aan te pakken, waarbij pixels meerdere keren worden gerenderd. - Quake maakt gebruik van portal culling en potentieel zichtbare sets (PVS) door de wereld op te delen in cellen en portals, en zichtbaarheid vooraf te berekenen om rendering te optimaliseren. - Het artikel introduceert de Portal- en Leaf-klassen in vis.py, een Python-herimplementatie van Quake&#39;s zichtbaarheidsalgoritme, waarbij de nadruk ligt op het gebruik van een blad-tot-blad zichtbaarheidsmatrix.</li>
+</ul>
+]]></description>
+            <link>https://30fps.net/pages/pvs-portals-and-quake/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZPortalen en Quake</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Phi-4 Bugfixes]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://unsloth.ai/blog/phi4</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZPhi-4 Bugfixes</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Zeer verkeerde wiskunde]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Een ontwerp- en bouwbedrijf maakte een rekenfout op Facebook, waarbij ze de straal van de aarde verkeerd berekenden als 4.333 voet, wat leidde tot een sterk onderschatte omtrek van iets meer dan 5 mijl.</li>
+<li>De fout kwam voort uit het berekenen van booglengtes zonder gebruik te maken van de werkelijke straal van de aarde, die ongeveer 3.959 mijl is.</li>
+<li>De post fremhevet at den ytre buen var mindre enn 1 % lengre enn den indre buen, noe som antyder en potensiell reduksjon i flytid på grunn av redusert luftmotstand.</li>
+</ul>
+]]></description>
+            <link>https://www.charlespetzold.com/blog/2025/01/Very-Wrong-Math.html</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZZeer verkeerde wiskunde</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Building Bauble]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Bauble is een 3D-modellerings- en renderingshulpmiddel dat gebruikmaakt van signed distance functions (SDF&#39;s) om complexe vormen en animaties te creëren. - Aanvankelijk een basissysteem voor het genereren van GLSL-shaders, is Bauble herschreven om functies zoals 3D-model export, interactieve bewerking en aangepaste verlichting op te nemen. - Het hulpmiddel ondersteunt nu webembedding, interactieve vectorbewerking en biedt uitgebreide documentatie, waardoor het toegankelijk is voor creatieve projecten en gebruikers die geïnteresseerd zijn in 3D-ontwerp.</li>
+</ul>
+]]></description>
+            <link>https://ianthehenry.com/posts/bauble/building-bauble/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZBuilding Bauble</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Bijna alle binaire zoekopdrachten en mergesorts zijn kapot (2006)]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>In 2006 identificeerde Joshua Bloch een bug in het binaire zoekalgoritme, aanvankelijk opgemerkt in Jon Bentley&#39;s &#39;Programming Pearls&#39;, waarbij een overflow optreedt wanneer &#39;low&#39; en &#39;high&#39; de maximale int-waarde overschrijden.</li>
+<li>Deze bug, die arrays met lengtes van 2^30 of meer treft, was zeldzaam in de jaren 1980, maar komt tegenwoordig vaker voor en beïnvloedt ook mergesort en andere verdeel-en-heers-algoritmen.</li>
+<li>Bloch raadt aan å løse problemet ved å beregne midtpunktet som <code>int mid = low + ((high - low) / 2);</code>, og fremhever utfordringene med å skrive feilfri kode og nødvendigheten av grundig testing.</li>
+</ul>
+]]></description>
+            <link
+      >https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000ZBijna alle binaire zoekopdrachten en mergesorts zijn kapot (2006)</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Volg je apparaten via het Apple FindMy-netwerk in Go/TinyGo]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Go Haystack stelt het volgen van persoonlijke Bluetooth-apparaten via Apple&#39;s &quot;Find My&quot;-netwerk mogelijk zonder dat Apple-hardware nodig is, door gebruik te maken van OpenHaystack en Macless-Haystack met Go/TinyGo-tools.</li>
+<li>Gebruikers kunnen hun eigen bakens maken met TinyGo-firmware op hardware zoals Adafruit Bluefruit-borden en BBC Microbit, waarbij de installatie een Apple ID met tweefactorauthenticatie (2FA) vereist.</li>
+<li>Het proces omvat het installeren van de go-haystack tool, het gebruik van commando&#39;s zoals <code>haystack scan</code> om apparaten te lokaliseren, het genereren van sleutels, het flashen van het apparaat en het uploaden van een JSON-bestand naar macless-haystack voor zichtbaarheid van het apparaat in de web-UI.</li>
+</ul>
+]]></description>
+            <link>https://github.com/hybridgroup/go-haystack</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000ZVolg je apparaten via het Apple FindMy-netwerk in Go/TinyGo</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[De staat van Vim]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Na het overlijden van Vim-oprichter Bram Moolenaar in 2023, heeft de Vim-gemeenschap zich heringericht om de voortzetting van de ontwikkeling van het project te waarborgen, met Christian Brabandt als de huidige beheerder. - Op VimConf 2024 werd besproken dat het team is uitgebreid, met de nadruk op het bijwerken van de Vim-website, het beheren van de beveiliging en het verbeteren van communicatiekanalen. - Vim blijft in onderhoudsmodus, waarbij de behoeften van de gemeenschap voorop staan en nieuwe functies zorgvuldig worden geïntegreerd, terwijl de ondersteuning voor ICCF Holland, een door Moolenaar opgerichte liefdadigheidsinstelling, wordt voortgezet.</li>
+</ul>
+]]></description>
+            <link>https://lwn.net/SubscriberLink/1002342/a8d8a17f30968b93/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZDe staat van Vim</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Het afvlakken van AST's en andere compiler datastructuren (2023)]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Het bericht bespreekt het afvlakken van datastructuren, een techniek voor compilers die abstracte syntaxisbomen (AST&#39;s) optimaliseert door gebruik te maken van een enkele array met indices in plaats van pointers. - Deze methode verbetert de prestaties door de geheugentoegankelijkheid te verbeteren, de referentiegrootte te verkleinen en het geheugenbeheer te vereenvoudigen, wat resulteert in een 2,4× versnelling in een microbenchmark. - De techniek wordt met name gebruikt in Rust-projecten en biedt ergonomische voordelen, zoals eenvoudiger geheugenbeheer, en wordt vergeleken met bytecode-interpreters voor verdere prestatieverbeteringen.</li>
+</ul>
+]]></description>
+            <link>https://www.cs.cornell.edu/~asampson/blog/flattening.html</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000ZHet afvlakken van AST&apos;s en andere compiler datastructuren (2023)</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[De-smarting van de Marshall Uxbridge Bluetooth-luidspreker]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://tomscii.sig7.se/2025/01/De-smarting-the-Marshall-Uxbridge</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000ZDe-smarting van de Marshall Uxbridge Bluetooth-luidspreker</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title
+      ><![CDATA[De bot van OpenAI verpletterde de website van dit zevenkoppige bedrijf 'als een DDoS-aanval']]></title>
+            <description
+      ><![CDATA[<ul>
+<li>De e-commerce site van Triplegangers onderging een aanval die leek op een DDoS-aanval, veroorzaakt door OpenAI&#39;s bot die tienduizenden verzoeken deed om meer dan 65.000 productpagina&#39;s te scrapen. - De site had geen correct geconfigureerd robots.txt-bestand om dergelijke bots te blokkeren, wat leidde tot verhoogde AWS-kosten en zorgen over databeveiliging. - Dit incident benadrukt het belang voor AI-bedrijven om toestemming te verkrijgen voordat ze data scrapen en dient als waarschuwing voor kleine bedrijven om AI-botactiviteit te monitoren.</li>
+</ul>
+]]></description>
+            <link
+      >https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000ZDe bot van OpenAI verpletterde de website van dit zevenkoppige bedrijf &apos;als een DDoS-aanval&apos;</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Ik heb een nieuwe superkracht verworven]]></title>
             <description
@@ -987,132 +1121,6 @@
             <link>https://austinhenley.com/blog/25yearsofai.html</link>
             <guid isPermaLink="false">2025-01-02T00:00:00.000ZMijn 25-jarige avontuur in AI en ML</guid>
             <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Gelukkig Nieuwjaar 2025]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://news.ycombinator.com/item?id=42562750</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZGelukkig Nieuwjaar 2025</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[DOOM CAPTCHA]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://doom-captcha.vercel.app/</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZDOOM CAPTCHA</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Statische søketrær: raskere enn binærsøk]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Het artikel bespreekt de implementatie en optimalisatie van statische zoekbomen (S+ bomen) voor aanzienlijk snellere zoekopdrachten in gesorteerde gegevens, met snelheden die 40 keer sneller zijn dan traditionele binaire zoekopdrachten. - Optimalisatietechnieken zoals batching, prefetching en handmatige SIMD (Single Instruction, Multiple Data) worden toegepast om de querydoorvoer te verbeteren. - Het artikel verkent ook verschillende boomlay-outs, knoopgroottes en geheugenbeheerstrategieën, met een discussie over toekomstig werk zoals branchy search en interpolatiezoekopdrachten om de zoekefficiëntie verder te verbeteren.</li>
-</ul>
-]]></description>
-            <link>https://curiouscoding.nl/posts/static-search-tree/</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZStatische søketrær: raskere enn binærsøk</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[30% daling in o1-preview nauwkeurigheid wanneer Putnam-problemen licht variëren]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Putnam-AXIOM er en referanse utformet for å vurdere store språkmodeller (LLMs) på avansert matematisk resonnering ved hjelp av problemer fra Putnam Mathematical Competition. - Referansen inkluderer 236 originale problemer og en variant med 52 endrede problemer for å unngå datakontaminering. - OpenAIs best presterende modell oppnådde 41,95 % nøyaktighet på de originale problemene, men opplevde en betydelig ytelsesnedgang på omtrent 30 % på de endrede problemene, noe som fremhever utfordringer med å tilpasse seg variasjoner.</li>
-</ul>
-]]></description>
-            <link>https://openreview.net/forum?id=YXnwlZe0yf&amp;noteId=yrsGpHd0Sf</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000Z30% daling in o1-preview nauwkeurigheid wanneer Putnam-problemen licht variëren</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Databases in 2024: Een jaar in review]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Het database-landschap in 2024 onderging aanzienlijke veranderingen, waaronder grote overnames, verschuivingen in licenties en voortdurende rivaliteiten tussen belangrijke spelers zoals Redis, Elasticsearch, Databricks en Snowflake. - DuckDB won aan populariteit voor analytische queries, met integraties in Postgres, terwijl opmerkelijke releases Amazon Aurora DSQL en Microsoft Garnet omvatten. - Overnames zoals Tabular door Databricks en OrioleDB door Supabase waren significant, en ondanks tegenslagen zoals de sluiting van OtterTune, blijft de industrie dynamisch met nieuwe projecten en financiering.</li>
-</ul>
-]]></description>
-            <link>https://www.cs.cmu.edu/~pavlo/blog/2025/01/2024-databases-retrospective.html</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZDatabases in 2024: Een jaar in review</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Boeken die ik graag las in 2024]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>De lijst bevat een diverse reeks boeken, waaronder historische, filosofische, wetenschappelijke en persoonlijke verhalen, die elk unieke inzichten en verrijkende ervaringen bieden.</li>
-<li>Hoogtepunten zijn onder meer Cicero&#39;s brieven voor inzichten in het Romeinse leven, Ben-Ari&#39;s werken over logica in de computerwetenschap en programma-verificatie, en Steve Martin&#39;s memoires over komisch succes.</li>
-<li>De collectie omvat ook filosofische verkenningen van Pierre Hadot en Nietzsche, Griekse tragedies van Aeschylus, en literaire werken van Ursula Le Guin en Rabindranath Tagore.</li>
-</ul>
-]]></description>
-            <link>https://thoughts.wyounas.com/p/books-i-enjoyed-most-in-2024</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZBoeken die ik graag las in 2024</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Terence Tao: Een van mijn artikelen werd vandaag afgewezen]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://mathstodon.xyz/@tao/113721192051328193</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZTerence Tao: Een van mijn artikelen werd vandaag afgewezen</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[API Parrot – Automatisch reverse-engineer HTTP-API's]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>API Parrot er et nytt verktøy designet for å forenkle automatiseringen av forretningsprosesser ved automatisk å identifisere datakorrelationer mellom API-forespørsler og gi en grafisk flytrepresentasjon. - Det lar brukere ta opp forespørsler, definere innganger og utganger, og eksportere disse flytene som JavaScript-kode, noe som gjør prosessen mer effektiv enn manuell reversering eller bruk av mindre optimale teknologier som Robotic Process Automation (RPA). - Verktøyet er bygget på Electron og er tilgjengelig for både Windows- og Linux-plattformer, med en veiledning tilgjengelig for reversering av USPS API.</li>
-</ul>
-]]></description>
-            <link>https://apiparrot.com/</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZAPI Parrot – Automatisch reverse-engineer HTTP-API&apos;s</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title
-      ><![CDATA[FBI: Grootste zelfgemaakte explosievenopslag in de geschiedenis van het bureau gevonden in Virginia]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://thehill.com/national-security/5061535-virginia-man-arrested-explosives/</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZFBI: Grootste zelfgemaakte explosievenopslag in de geschiedenis van het bureau gevonden in Virginia</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Déjà vu: Spookachtige CVE's in mijn terminaltitel]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Ghostty, een nieuwe terminalemulator, had een beveiligingslek vergelijkbaar met een uit 2003, waardoor ASCII-escape-tekens opdrachten konden uitvoeren zoals het openen van applicaties. - Het probleem was vooral problematisch met Zsh en Bash in vi-modus, maar Ghostty 1.0.1 heeft dit opgelost door de functie standaard uit te schakelen. - Ondanks het beveiligingslek wordt Ghostty geprezen om zijn functies, en de ontwikkelaar heeft het probleem snel aangepakt door oplossingen en workarounds voor gebruikers te bieden.</li>
-</ul>
-]]></description>
-            <link>https://dgl.cx/2024/12/ghostty-terminal-title</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZDéjà vu: Spookachtige CVE&apos;s in mijn terminaltitel</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Grootschalige conceptmodellen: Taalmodellering in een zinsrepresentatieruimte]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>De repository biedt implementaties voor Large Concept Models (LCM), die &#39;concepten&#39; gebruiken als een hoger-niveau semantische representatie voor taalmodellering.</li>
-<li>LCM ondersteunt 200 teksttalen en 57 spraakstalen met behulp van de SONAR-embedruimte, en is getraind voor auto-regressieve zinsvoorspelling met methoden zoals MSE-regressie en diffusie-gebaseerde generatie.</li>
-<li>De repository biedt installasjonsinstruksjoner, dataklargjøring, opplæring, finjustering og evalueringsretningslinjer, og er utgitt under MIT-lisensen, ved bruk av fairseq2 med UV og pip installasjonsalternativer.</li>
-</ul>
-]]></description>
-            <link>https://github.com/facebookresearch/large_concept_model</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZGrootschalige conceptmodellen: Taalmodellering in een zinsrepresentatieruimte</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

@@ -15,11 +15,138 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Jan 2025 19:07:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jan 2025 19:29:05 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/story/zh-Hant.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
         <language><![CDATA[zh-Hant]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[注意 Makefile 效應]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>「Makefile 效應」描述了工程師複製並修改現有複雜配置(如 Makefile)的做法，而不是從頭開始創建新的配置。- 這種方法在各種系統中很常見，例如持續整合/持續部署(CI/CD)配置和建置系統，並可能表明工具過於複雜或設計不佳。- 雖然這種做法本身並非負面，但 Makefile 效應可能阻礙學習、複雜化安全性並導致低效的除錯，這突顯了需要考慮可配置性和易用性的周到工具設計。</li>
+</ul>
+]]></description>
+            <link>https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Z注意 Makefile 效應</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[傳送門與雷神之鎚]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>「這篇文章是“解密 PVS”系列的第一篇，專注於 Quake 的預計算可見性系統，以解決像素多次渲染的過度繪製問題。- Quake 使用門戶剔除和潛在可見集(PVS)，通過將世界劃分為單元和門戶，預計算可見性以優化渲染。- 文章介紹了 vis.py 中的 Portal 和 Leaf 類，這是 Quake 可見性算法的 Python 重新實現，並強調使用葉到葉可見性矩陣。」</li>
+</ul>
+]]></description>
+            <link>https://30fps.net/pages/pvs-portals-and-quake/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Z傳送門與雷神之鎚</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Phi-4 錯誤修正]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://unsloth.ai/blog/phi4</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZPhi-4 錯誤修正</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[非常錯誤的數學]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>「一家設計和建築公司在 Facebook 上犯了一個數學錯誤，錯誤地計算地球半徑為 4,333 英尺，導致其周長被大幅低估為僅略超過 5 英里。」</li>
+<li>「錯誤源於計算弧長時未使用地球的實際半徑，約為 3,959 英里。」</li>
+<li>該文章指出，外弧比內弧長不到1%，這表明由於空氣阻力減少，飛行時間可能會縮短。</li>
+</ul>
+]]></description>
+            <link>https://www.charlespetzold.com/blog/2025/01/Very-Wrong-Math.html</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Z非常錯誤的數學</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[建築裝飾品]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>「Bauble 是一款 3D 建模和渲染工具，利用簽名距離函數(SDFs)來創建複雜的形狀和動畫。- 最初是一個用於生成 GLSL 著色器的基本系統，Bauble 已被重寫以包含 3D 模型匯出、互動編輯和自訂光照等功能。- 該工具現在支持網頁嵌入、互動向量編輯，並提供全面的文件說明，使其對於創意項目和對 3D 設計感興趣的用戶來說更加易於使用。」</li>
+</ul>
+]]></description>
+            <link>https://ianthehenry.com/posts/bauble/building-bauble/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Z建築裝飾品</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[「幾乎所有的二元搜尋和合併排序都是有問題的(2006)」]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>「在 2006 年，Joshua Bloch 發現了一個二分搜尋演算法中的錯誤，這個錯誤最初是在 Jon Bentley 的《Programming Pearls》中提到的，當 &#39;low&#39; 和 &#39;high&#39; 的和超過整數的最大值時會發生溢位。」</li>
+<li>這個影響長度為 2^30 或以上的陣列的錯誤在 1980 年代很少見，但在今天卻更為常見，也影響到合併排序和其他分治算法。</li>
+<li>Bloch 建議透過計算中點來解決這個問題，方法是使用 <code>int mid = low + ((high - low) / 2);</code>，這強調了撰寫無錯誤程式碼的挑戰以及徹底測試的必要性。</li>
+</ul>
+]]></description>
+            <link
+      >https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Z「幾乎所有的二元搜尋和合併排序都是有問題的(2006)」</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[「透過 Apple FindMy 網路在 Go/TinyGo 中追蹤您的裝置」]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Go Haystack 透過 Apple 的「Find My」網路，無需使用 Apple 硬體，即可追蹤個人藍牙裝置，並使用 OpenHaystack 和 Macless-Haystack 搭配 Go/TinyGo 工具。</li>
+<li>使用者可以在像是 Adafruit Bluefruit 板和 BBC Microbit 這類硬體上，使用 TinyGo 韌體來創建自己的信標，設置過程需要具備雙重驗證 (2FA) 的 Apple ID。</li>
+<li>該過程涉及安裝 go-haystack 工具，使用 <code>haystack scan</code> 等指令來定位設備，生成金鑰，燒錄設備，並將 JSON 檔案上傳到 macless-haystack，以便在網頁介面中顯示設備。</li>
+</ul>
+]]></description>
+            <link>https://github.com/hybridgroup/go-haystack</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000Z「透過 Apple FindMy 網路在 Go/TinyGo 中追蹤您的裝置」</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Vim 的現狀]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>隨著 Vim 創始人 Bram Moolenaar 於 2023 年辭世，Vim 社群已重新組織以確保專案的持續發展，目前由 Christian Brabandt 擔任維護者。在 2024 年的 VimConf 大會上，討論到團隊已擴大，專注於更新 Vim 網站、管理安全性以及加強溝通渠道。Vim 仍處於維護模式，優先考量社群需求並謹慎整合新功能，同時繼續支持由 Moolenaar 創立的慈善機構 ICCF Holland。</li>
+</ul>
+]]></description>
+            <link>https://lwn.net/SubscriberLink/1002342/a8d8a17f30968b93/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZVim 的現狀</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[扁平化 AST 和其他編譯器資料結構(2023)]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>「這篇文章討論了資料結構扁平化，一種用於編譯器的技術，透過使用單一陣列和索引來取代指標，以優化抽象語法樹(AST)。- 這種方法透過改善記憶體區域性、減少參考大小以及簡化記憶體管理來提升效能，在微基準測試中達到 2.4 倍的加速。- 該技術在 Rust 專案中被廣泛使用，並提供了如更簡單的記憶體管理等便利性，且被拿來與位元碼解釋器進行比較以進一步提升效能。」</li>
+</ul>
+]]></description>
+            <link>https://www.cs.cornell.edu/~asampson/blog/flattening.html</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Z扁平化 AST 和其他編譯器資料結構(2023)</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[「解除 Marshall Uxbridge 藍牙音箱的智能功能」]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://tomscii.sig7.se/2025/01/De-smarting-the-Marshall-Uxbridge</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Z「解除 Marshall Uxbridge 藍牙音箱的智能功能」</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI 的機器人將這家七人公司的網站『像 DDoS 攻擊一樣』擊垮]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>「Triplegangers 的電子商務網站因 OpenAI 的機器人發起類似 DDoS 的攻擊而受到影響，該機器人發送了數萬次請求以抓取超過 65,000 個產品頁面。- 由於該網站缺乏正確配置的 robots.txt 文件來阻擋此類機器人，導致 AWS 成本增加及對數據安全的擔憂。- 此事件強調了 AI 公司在進行數據抓取前獲得許可的重要性，並對小型企業監控 AI 機器人活動提出了警示。」</li>
+</ul>
+]]></description>
+            <link
+      >https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000ZOpenAI 的機器人將這家七人公司的網站『像 DDoS 攻擊一樣』擊垮</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[我獲得了一種新的超能力]]></title>
             <description
@@ -940,123 +1067,6 @@
             <link>https://austinhenley.com/blog/25yearsofai.html</link>
             <guid isPermaLink="false">2025-01-02T00:00:00.000Z我在人工智慧和機器學習領域的25年冒險</guid>
             <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2025 新年快樂]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://news.ycombinator.com/item?id=42562750</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Z2025 新年快樂</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[DOOM 驗證碼]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://doom-captcha.vercel.app/</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZDOOM 驗證碼</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[靜態搜尋樹：比二元搜尋更快]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>「本文探討了靜態搜尋樹(S+ 樹)的實作與優化，以顯著加快排序資料的搜尋速度，達到比傳統二元搜尋快 40 倍的速度。- 採用了批次處理、預取和手動 SIMD(單指令多資料)等優化技術來提升查詢吞吐量。- 文章還探討了各種樹的佈局、節點大小和記憶體管理策略，並討論了未來工作如分支搜尋和插值搜尋，以進一步提高搜尋效率。」</li>
-</ul>
-]]></description>
-            <link>https://curiouscoding.nl/posts/static-search-tree/</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Z靜態搜尋樹：比二元搜尋更快</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[「當 Putnam 問題稍作變化時，o1-Preview 準確率下降 30%」]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>「Putnam-AXIOM 是一個基準測試，旨在使用普特南數學競賽的問題來評估大型語言模型(LLMs)在高階數學推理方面的能力。- 該基準測試包含 236 個原始問題，以及一個包含 52 個修改過問題的變體，以避免數據污染。- OpenAI 的表現最佳模型在原始問題上達到了 41.95% 的準確率，但在修改過的問題上經歷了約 30% 的顯著性能下降，這突顯了適應變化的挑戰。」</li>
-</ul>
-]]></description>
-            <link>https://openreview.net/forum?id=YXnwlZe0yf&amp;noteId=yrsGpHd0Sf</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000Z「當 Putnam 問題稍作變化時，o1-Preview 準確率下降 30%」</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024 年的資料庫：年度回顧]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>2024 年的資料庫領域經歷了重大變化，包括主要的收購、授權轉變，以及像 Redis、Elasticsearch、Databricks 和 Snowflake 等主要玩家之間持續的競爭。- DuckDB 因其分析查詢而受到歡迎，並整合到 Postgres 中，而值得注意的發佈包括 Amazon Aurora DSQL 和 Microsoft Garnet。- 收購如 Databricks 的 Tabular 和 Supabase 的 OrioleDB 都具有重要意義，儘管有像 OtterTune 關閉這樣的挫折，該行業仍然充滿活力，並有新的專案和資金投入。</li>
-</ul>
-]]></description>
-            <link>https://www.cs.cmu.edu/~pavlo/blog/2025/01/2024-databases-retrospective.html</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Z2024 年的資料庫：年度回顧</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2024 年我喜愛閱讀的書籍]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>這份書單包含多樣化的書籍，涵蓋歷史、哲學、科學和個人敘事，每本書都提供獨特的見解和豐富的體驗。</li>
-<li>亮點包括西塞羅的書信，提供對羅馬生活的見解；Ben-Ari 關於計算機科學邏輯和程式驗證的著作；以及史蒂夫·馬丁關於喜劇成功的回憶錄。</li>
-<li>該收藏還包括皮埃爾·阿多和尼采的哲學探索、埃斯庫羅斯的希臘悲劇，以及厄休拉·勒瑰恩和拉賓德拉納特·泰戈爾的文學作品。</li>
-</ul>
-]]></description>
-            <link>https://thoughts.wyounas.com/p/books-i-enjoyed-most-in-2024</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Z2024 年我喜愛閱讀的書籍</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[陶哲軒：我有一篇論文今天被拒絕了]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://mathstodon.xyz/@tao/113721192051328193</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Z陶哲軒：我有一篇論文今天被拒絕了</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[API Parrot – 自動逆向工程 HTTP API]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>&quot;API Parrot 是一個新工具，旨在透過自動識別 API 請求之間的數據關聯並提供圖形化流程表示，來簡化業務流程的自動化。- 它允許使用者記錄請求、定義輸入和輸出，並將這些流程匯出為 JavaScript 代碼，使得過程比手動逆向工程或使用像機器人流程自動化(RPA)等不太理想的技術更為高效。- 該工具基於 Electron 開發，適用於 Windows 和 Linux 平台，並提供逆向工程 USPS API 的教學。&quot;</li>
-</ul>
-]]></description>
-            <link>https://apiparrot.com/</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZAPI Parrot – 自動逆向工程 HTTP API</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[「FBI：維吉尼亞州發現該機構歷史上最大規模的自製爆炸物儲藏」]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://thehill.com/national-security/5061535-virginia-man-arrested-explosives/</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000Z「FBI：維吉尼亞州發現該機構歷史上最大規模的自製爆炸物儲藏」</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[似曾相識：我終端機標題中的幽靈 CVE]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>「Ghostty 是一款新的終端模擬器，存在一個類似於 2003 年的安全漏洞，允許 ASCII 控制字元執行命令，如開啟應用程式。此問題在 Zsh 和 Bash 的 vi 模式中特別嚴重，但 Ghostty 1.0.1 已透過預設禁用該功能來解決此問題。儘管存在安全漏洞，Ghostty 因其功能而受到讚譽，開發者迅速解決了該問題，並為用戶提供了修正和替代方案。」</li>
-</ul>
-]]></description>
-            <link>https://dgl.cx/2024/12/ghostty-terminal-title</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Z似曾相識：我終端機標題中的幽靈 CVE</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[大型概念模型：句子表示空間中的語言建模]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>「該資料庫提供大型概念模型(LCM)的實作，這些模型使用“概念”作為語言建模的高階語義表示。」</li>
-<li>「LCM 支援 200 種文字語言和 57 種語音語言，使用 SONAR 嵌入空間，並透過 MSE 回歸和基於擴散的生成等方法進行自回歸句子預測訓練。」</li>
-<li>此資料庫提供安裝說明、資料準備、訓練、微調和評估指導方針，並以 MIT 許可證發布，使用 fairseq2 並提供 UV 和 pip 安裝選項。</li>
-</ul>
-]]></description>
-            <link>https://github.com/facebookresearch/large_concept_model</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Z大型概念模型：句子表示空間中的語言建模</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

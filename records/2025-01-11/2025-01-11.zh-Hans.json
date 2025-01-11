@@ -1,0 +1,218 @@
+[
+  {
+    "id": 42663231,
+    "title": "“注意 Makefile 效应”",
+    "originLink": "https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42663231",
+    "commentBody": "",
+    "originSummary": [
+      "“‘Makefile效应’描述了工程师复制和修改现有复杂配置(如Makefile)的做法，而不是从头开始创建新的配置。这种方法在各种系统中很普遍，例如持续集成/持续部署(CI/CD)配置和构建系统，并可能表明工具过于复杂或设计不佳。虽然这种做法本身并不一定是负面的，但Makefile效应可能会阻碍学习，增加安全性复杂性，并导致调试效率低下，这突显了需要进行深思熟虑的工具设计，以考虑可配置性和易用性。”"
+    ],
+    "commentSummary": [
+      "“‘Makefile效应’描述了开发人员在不完全理解代码或配置的情况下，倾向于复制和修改它们的行为，这通常是由于工具的复杂性或使用频率低所导致的。”",
+      "“这种现象在编程和配置任务中广泛存在，开发人员使用已知的解决方案来节省时间和精力，这可能导致难以维护的代码。”",
+      "“讨论强调了在使用模板和现有解决方案的同时，需要深入理解所涉及的工具和系统之间的平衡。”"
+    ],
+    "points": 238,
+    "commentCount": 203,
+    "retryCount": 0,
+    "time": 1736568792
+  },
+  {
+    "id": 42661185,
+    "title": "“传送门和雷神之锤”",
+    "originLink": "https://30fps.net/pages/pvs-portals-and-quake/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42661185",
+    "commentBody": "",
+    "originSummary": [
+      "“这篇文章是“揭开PVS神秘面纱”系列的第一篇，重点介绍Quake的预计算可见性系统，以解决像素多次渲染的过度绘制问题。- Quake通过将世界划分为单元和门户，使用门户剔除和潜在可见集(PVS)，预计算可见性以优化渲染。- 文章介绍了vis.py中的Portal和Leaf类，这是Quake可见性算法的Python重新实现，强调了叶到叶可见性矩阵的使用。”"
+    ],
+    "commentSummary": [
+      "“Quake的关卡设计师利用“提示”画笔和“区域门户”来优化游戏性能，这是一种在3D图形中具有基础性的技术。- 像《Prey》和《Portal》这样的游戏将门户引入了游戏机制的聚光灯下，尽管这一概念自早期3D图形以来就已用于渲染。- Unreal Engine 1使用区域进行优化，而像Unreal Engine 5这样的现代引擎继续使用类似的方法来提高渲染效率。”"
+    ],
+    "points": 183,
+    "commentCount": 48,
+    "retryCount": 0,
+    "time": 1736549293
+  },
+  {
+    "id": 42660335,
+    "title": "“Phi-4 错误修复”",
+    "originLink": "https://unsloth.ai/blog/phi4",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42660335",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "“Daniel Hanchen 发现并解决了微软 Phi-4 大型语言模型(LLM)中的一些问题，例如句子结束问题和聊天模板提示。他将 Phi-4 转换为 Llama 架构，提高了性能，并在 Hugging Face 平台上分享了这些修复。一个用于微调 Phi-4 的 Colab 笔记本也已提供。虽然这些修复在某些基准测试中提高了性能，但在其他测试中却有所下降；Phi-4 团队正在努力将这些改进整合到原始模型中。”"
+    ],
+    "points": 176,
+    "commentCount": 50,
+    "retryCount": 0,
+    "time": 1736543841
+  },
+  {
+    "id": 42661432,
+    "title": "非常错误的数学",
+    "originLink": "https://www.charlespetzold.com/blog/2025/01/Very-Wrong-Math.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42661432",
+    "commentBody": "",
+    "originSummary": [
+      "“某设计和建筑公司在 Facebook 上犯了一个数学错误，错误地将地球半径计算为 4,333 英尺，导致其周长被大大低估，仅略超过 5 英里。”",
+      "“错误源于在计算弧长时没有使用地球的实际半径，地球的实际半径大约为3,959英里。”",
+      "“帖子指出，外弧比内弧长不到1%，这表明由于空气阻力减少，飞行时间可能会缩短。”"
+    ],
+    "commentSummary": [
+      "“一个YouTube建造者错误地声称在平坦的地球上铅垂线会是平行的，误解了地球的曲率，而在这种测量中曲率是可以忽略不计的。- 讨论突出了在理解大规模概念时直觉的失败，并涉及了平坦地球理论、重力误解和地球自转对飞行的影响。- 对话幽默地审视了错误信念的持久性以及向拒绝既定科学的人解释科学概念的困难。”"
+    ],
+    "points": 170,
+    "commentCount": 91,
+    "retryCount": 0,
+    "time": 1736550656
+  },
+  {
+    "id": 42660942,
+    "title": "“建筑装饰物”",
+    "originLink": "https://ianthehenry.com/posts/bauble/building-bauble/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42660942",
+    "commentBody": "",
+    "originSummary": [
+      "“Bauble 是一个3D建模和渲染工具，利用符号距离函数(SDFs)来创建复杂的形状和动画。- 最初是一个用于生成GLSL着色器的基本系统，Bauble 已被重写以包含3D模型导出、交互式编辑和自定义照明等功能。- 该工具现在支持网页嵌入、交互式矢量编辑，并提供全面的文档，使其对创意项目和对3D设计感兴趣的用户更为易用。”"
+    ],
+    "commentSummary": [
+      "“Building Bauble 是一个在 ianthehenry.com 上展示的项目，通过展示编程的魔力和乐趣，特别是在编码和图形方面，引发了人们的兴奋。”",
+      "“该项目因其创造力和详细的写作而受到赞扬，激励读者重新审视未完成的项目，并探索新的技术，如Janet(一种编程语言)和GLSL(OpenGL着色语言)。”",
+      "“尽管在Safari上出现了一些技术问题，该项目因其出色的执行和引人入胜的发展故事而受到赞誉，引发了关于个人项目和RSS阅读器使用的讨论。”"
+    ],
+    "points": 164,
+    "commentCount": 26,
+    "retryCount": 0,
+    "time": 1736547735
+  },
+  {
+    "id": 42664400,
+    "title": "“几乎所有的二分查找和归并排序都是有问题的(2006)”",
+    "originLink": "https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42664400",
+    "commentBody": "",
+    "originSummary": [
+      "“2006年，Joshua Bloch 发现了二分查找算法中的一个错误，这个错误最初是在 Jon Bentley 的《编程珠玑》中提到的，当 'low' 和 'high' 超过最大整数值时会发生溢出。”",
+      "“这个影响长度为2^30或更长的数组的错误在20世纪80年代很少见，但在今天更为常见，也影响了归并排序和其他分治算法。”",
+      "“Bloch建议通过计算中点为`int mid = low + ((high - low) / 2);`来解决问题，强调了编写无错误代码的挑战以及彻底测试的必要性。”"
+    ],
+    "commentSummary": [
+      "“许多二分查找和归并排序容易出现整数溢出问题，特别是在较旧的实现中，正如2006年一篇文章中所强调的那样。”",
+      "文章强调了在编程中考虑边缘情况和硬件限制的重要性，这在今天仍然具有现实意义。",
+      "“建议开发人员使用内置函数或更大的整数类型来防止此类错误，这强调了在处理数据类型和输入大小时需要谨慎。”"
+    ],
+    "points": 143,
+    "commentCount": 136,
+    "retryCount": 0,
+    "time": 1736585205
+  },
+  {
+    "id": 42665367,
+    "title": "通过 Apple FindMy 网络在 Go/TinyGo 中跟踪您的设备",
+    "originLink": "https://github.com/hybridgroup/go-haystack",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42665367",
+    "commentBody": "",
+    "originSummary": [
+      "“Go Haystack 通过使用 OpenHaystack 和 Macless-Haystack 结合 Go/TinyGo 工具，实现了通过苹果的“查找”网络跟踪个人蓝牙设备，而无需苹果硬件。”",
+      "“用户可以使用TinyGo固件在像Adafruit Bluefruit板和BBC Microbit这样的硬件上创建自己的信标，设置时需要一个具有双重身份验证(2FA)的Apple ID。”",
+      "“该过程涉及安装 go-haystack 工具，使用 `haystack scan` 等命令定位设备，生成密钥，刷写设备，并将 JSON 文件上传到 macless-haystack，以便在 Web UI 中查看设备。”"
+    ],
+    "commentSummary": [
+      "“Apple FindMy 网络可以与 Go/TinyGo 一起使用来跟踪设备，提供了一种无需 Apple 账户即可扩展网络的方法。”",
+      "“隐私问题通过苹果的设计得到了缓解，该公司在维护用户隐私方面享有良好的声誉，尽管一些用户仍对潜在的监视保持警惕。”",
+      "“FindMy网络分为两部分：苹果设备定位物品和用户设备将位置信息上传到苹果，用户可以选择禁用该功能。”"
+    ],
+    "points": 139,
+    "commentCount": 32,
+    "retryCount": 0,
+    "time": 1736597674
+  },
+  {
+    "id": 42665222,
+    "title": "“Vim的现状”",
+    "originLink": "https://lwn.net/SubscriberLink/1002342/a8d8a17f30968b93/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42665222",
+    "commentBody": "",
+    "originSummary": [
+      "“随着Vim创始人Bram Moolenaar于2023年去世，Vim社区已重新组织以确保项目的持续发展，目前由Christian Brabandt担任维护者。- 在2024年的VimConf会议上，讨论了团队的扩展，重点是更新Vim网站、管理安全性和增强沟通渠道。- Vim仍处于维护模式，优先考虑社区需求并谨慎整合新功能，同时继续支持由Moolenaar创立的慈善机构ICCF Holland。”"
+    ],
+    "commentSummary": [
+      "“长期使用Vim的用户在其创始人Bram Moolenaar去世后，正在反思编辑器的未来，一些人对其当前的稳定性感到满意，而另一些人则在探索像Neovim这样的现代功能替代品。”",
+      "“Neovim 因其对 Lua 脚本和现代增强功能的支持而受到关注，而一些用户由于认为 Vim 和 Neovim 之间存在分裂，正在考虑使用 Emacs。”",
+      "“用户之间的讨论包括Treesitter的性能、语言服务器协议(LSP)支持，以及与Visual Studio Code(VSCode)的比较，突出了这些编辑器的灵活性和稳定性。”"
+    ],
+    "points": 138,
+    "commentCount": 33,
+    "retryCount": 0,
+    "time": 1736595779
+  },
+  {
+    "id": 42659061,
+    "title": "“展平AST和其他编译器数据结构(2023)”",
+    "originLink": "https://www.cs.cornell.edu/~asampson/blog/flattening.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42659061",
+    "commentBody": "",
+    "originSummary": [
+      "“这篇文章讨论了数据结构扁平化，这是一种编译器优化抽象语法树(ASTs)的技术，通过使用带有索引的单个数组代替指针。- 这种方法通过改善内存局部性、减少引用大小和简化内存管理来提高性能，在微基准测试中实现了2.4倍的加速。- 该技术在Rust项目中被广泛使用，并提供了更好的使用体验，例如更简单的内存管理，并与字节码解释器进行比较以进一步提高性能。”"
+    ],
+    "commentSummary": [
+      "“讨论的重点是通过将抽象语法树(AST)存储在扁平的连续数组中来优化，以提高性能和内存效率。”",
+      "“这种方法增强了缓存局部性并简化了内存管理，与Lisp语言和Zig编译器中的技术相提并论。”",
+      "“对话还提到了历史方法和其他编程语言中的类似技术，强调了平面数据结构在可组合性和易于操作方面的优势。”"
+    ],
+    "points": 137,
+    "commentCount": 36,
+    "retryCount": 0,
+    "time": 1736537030
+  },
+  {
+    "id": 42666572,
+    "title": "去智能化马歇尔Uxbridge蓝牙音箱",
+    "originLink": "https://tomscii.sig7.se/2025/01/De-smarting-the-Marshall-Uxbridge",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42666572",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "“讨论的重点是修改Marshall Uxbridge蓝牙音箱以消除其“智能”功能，涉及技术方面，如为数字I2S输入设计印刷电路板(PCB)。”",
+      "“用户们争论数字信号处理(DSP)在实现良好音质中的作用，一些人强调其在弥补硬件限制方面的必要性。”",
+      "“对话还涉及修改智能设备的挑战以及现代PCB生产和组件的可负担性。”"
+    ],
+    "points": 119,
+    "commentCount": 33,
+    "retryCount": 0,
+    "time": 1736610122
+  },
+  {
+    "id": 42660377,
+    "title": "“OpenAI 的机器人像 DDoS 攻击一样压垮了这家七人公司的网站。”",
+    "originLink": "https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42660377",
+    "commentBody": "",
+    "originSummary": [
+      "“Triplegangers 的电子商务网站因 OpenAI 的机器人发起类似 DDoS 的攻击而受到影响，该机器人发出了数万次请求以抓取超过 65,000 个产品页面。- 由于网站缺乏正确配置的 robots.txt 文件来阻止此类机器人，导致 AWS 成本增加和数据安全问题。- 这一事件强调了 AI 公司在进行数据抓取前获得许可的重要性，并为小型企业监测 AI 机器人活动敲响了警钟。”"
+    ],
+    "commentSummary": [
+      "“OpenAI 的机器人在一家小公司的网站上造成了过多的流量，类似于分布式拒绝服务 (DDoS) 攻击，突显了 AI 机器人压垮网站的问题。”",
+      "“像 Read the Docs 这样的公司尽管使用了“robots.txt”来管理网络爬虫，但仍然面临着 AI 机器人产生大量流量的类似挑战。”",
+      "“该事件强调了在平衡网络可访问性与防止AI公司进行侵略性数据抓取之间的持续争论，因为一些机器人忽略了“robots.txt”，这可能导致小型网站所有者面临潜在的法律和财务问题。”"
+    ],
+    "points": 111,
+    "commentCount": 102,
+    "retryCount": 0,
+    "time": 1736544077
+  }
+]

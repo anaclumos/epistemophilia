@@ -15,11 +15,145 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Jan 2025 19:07:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jan 2025 19:29:05 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/story/it.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
         <language><![CDATA[it]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Essere consapevoli dell'effetto Makefile]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Il &quot;Makefile effect&quot; descrive la pratica degli ingegneri di copiare e modificare configurazioni complesse esistenti, come i Makefile, invece di crearne di nuove da zero. - Questo approccio è prevalente in vari sistemi, come le configurazioni di Continuous Integration/Continuous Deployment (CI/CD) e i sistemi di build, e può indicare strumenti eccessivamente complessi o mal progettati. - Sebbene non sia intrinsecamente negativo, l&#39;effetto Makefile può ostacolare l&#39;apprendimento, complicare la sicurezza e portare a un debug inefficiente, evidenziando la necessità di un design degli strumenti ponderato che consideri la configurabilità e la facilità d&#39;uso.</li>
+</ul>
+]]></description>
+            <link>https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZEssere consapevoli dell&apos;effetto Makefile</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Portali e Quake]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Il articolo è il primo della serie &quot;Demystifying the PVS&quot;, incentrato sul sistema di visibilità precomputato di Quake per affrontare l&#39;overdraw, dove i pixel vengono renderizzati più volte. - Quake utilizza il culling dei portali e i set potenzialmente visibili (PVS) dividendo il mondo in celle e portali, precomputando la visibilità per ottimizzare il rendering. - L&#39;articolo introduce le classi Portal e Leaf in vis.py, una reimplementazione in Python dell&#39;algoritmo di visibilità di Quake, evidenziando l&#39;uso di una matrice di visibilità foglia-a-foglia.</li>
+</ul>
+]]></description>
+            <link>https://30fps.net/pages/pvs-portals-and-quake/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZPortali e Quake</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Correzioni di bug Phi-4]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://unsloth.ai/blog/phi4</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZCorrezioni di bug Phi-4</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Matematica molto sbagliata]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Una società di progettazione e costruzione ha commesso un errore matematico su Facebook, calcolando erroneamente il raggio della Terra come 4.333 piedi, portando a una circonferenza ampiamente sottostimata di poco più di 5 miglia.</li>
+<li>Il errore derivava dal calcolare le lunghezze degli archi senza utilizzare il raggio effettivo della Terra, che è di circa 3.959 miglia.</li>
+<li>Il post ha evidenziato che l&#39;arco esterno era meno dell&#39;1% più lungo dell&#39;arco interno, suggerendo una potenziale riduzione del tempo di volo a causa della diminuzione della resistenza dell&#39;aria.</li>
+</ul>
+]]></description>
+            <link>https://www.charlespetzold.com/blog/2025/01/Very-Wrong-Math.html</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZMatematica molto sbagliata</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Costruzione di Ornamenti]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Bauble è uno strumento di modellazione e rendering 3D che utilizza funzioni di distanza firmata (SDF) per creare forme e animazioni complesse. - Inizialmente un sistema di base per generare shader GLSL, Bauble è stato riscritto per includere funzionalità come l&#39;esportazione di modelli 3D, l&#39;editing interattivo e l&#39;illuminazione personalizzata. - Lo strumento ora supporta l&#39;incorporamento web, l&#39;editing vettoriale interattivo e offre una documentazione completa, rendendolo accessibile per progetti creativi e utenti interessati al design 3D.</li>
+</ul>
+]]></description>
+            <link>https://ianthehenry.com/posts/bauble/building-bauble/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZCostruzione di Ornamenti</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Quasi tutte le ricerche binarie e i mergesort sono difettosi (2006)]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>In 2006, Joshua Bloch ha identificato un bug nell&#39;algoritmo di ricerca binaria, inizialmente notato in &quot;Programming Pearls&quot; di Jon Bentley, dove si verifica un overflow quando &#39;low&#39; e &#39;high&#39; superano il valore massimo di int.</li>
+<li>Questo bug, che colpisce gli array con lunghezze di 2^30 o più, era raro negli anni &#39;80 ma è più comune oggi, influenzando anche mergesort e altri algoritmi divide-et-impera.</li>
+<li>Bloch consiglia di risolvere il problema calcolando il punto medio come <code>int mid = low + ((high - low) / 2);</code>, evidenziando le sfide di scrivere codice privo di errori e la necessità di test approfonditi.</li>
+</ul>
+]]></description>
+            <link
+      >https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000ZQuasi tutte le ricerche binarie e i mergesort sono difettosi (2006)</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Traccia i tuoi dispositivi tramite la rete Apple FindMy in Go/TinyGo]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Go Haystack consente di tracciare dispositivi Bluetooth personali tramite la rete &quot;Find My&quot; di Apple senza richiedere hardware Apple, utilizzando OpenHaystack e Macless-Haystack con strumenti Go/TinyGo.</li>
+<li>Gli utenti possono creare i propri beacon utilizzando il firmware TinyGo su hardware come le schede Adafruit Bluefruit e BBC Microbit, con la configurazione che richiede un ID Apple con autenticazione a due fattori (2FA).</li>
+<li>Il processo prevede l&#39;installazione dello strumento go-haystack, l&#39;utilizzo di comandi come <code>haystack scan</code> per individuare i dispositivi, la generazione di chiavi, il flashing del dispositivo e il caricamento di un file JSON su macless-haystack per la visibilità del dispositivo nell&#39;interfaccia web.</li>
+</ul>
+]]></description>
+            <link>https://github.com/hybridgroup/go-haystack</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000ZTraccia i tuoi dispositivi tramite la rete Apple FindMy in Go/TinyGo</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Lo Stato di Vim]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Alla morte del fondatore di Vim, Bram Moolenaar, nel 2023, la comunità di Vim si è riorganizzata per garantire il continuo sviluppo del progetto, con Christian Brabandt come attuale manutentore. - Alla VimConf 2024, è stato discusso che il team si è ampliato, concentrandosi sull&#39;aggiornamento del sito web di Vim, sulla gestione della sicurezza e sul miglioramento dei canali di comunicazione. - Vim rimane in modalità di manutenzione, dando priorità alle esigenze della comunità e integrando nuove funzionalità con attenzione, continuando a supportare ICCF Holland, un ente di beneficenza fondato da Moolenaar.</li>
+</ul>
+]]></description>
+            <link>https://lwn.net/SubscriberLink/1002342/a8d8a17f30968b93/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZLo Stato di Vim</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Appiattimento degli AST e altre strutture dati del compilatore (2023)]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Il post discute l&#39;appiattimento delle strutture dati, una tecnica per i compilatori che ottimizza gli alberi di sintassi astratta (AST) utilizzando un singolo array con indici invece di puntatori. - Questo metodo migliora le prestazioni migliorando la località della memoria, riducendo la dimensione dei riferimenti e semplificando la gestione della memoria, risultando in un&#39;accelerazione di 2,4 volte in un microbenchmark. - La tecnica è utilizzata in particolare nei progetti Rust e offre vantaggi ergonomici, come una gestione della memoria più semplice, ed è paragonata agli interpreti di bytecode per ulteriori miglioramenti delle prestazioni.</li>
+</ul>
+]]></description>
+            <link>https://www.cs.cornell.edu/~asampson/blog/flattening.html</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000ZAppiattimento degli AST e altre strutture dati del compilatore (2023)</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[De-smarting del diffusore Bluetooth Marshall Uxbridge]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://tomscii.sig7.se/2025/01/De-smarting-the-Marshall-Uxbridge</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000ZDe-smarting del diffusore Bluetooth Marshall Uxbridge</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title
+      ><![CDATA[Il bot di OpenAI ha schiacciato il sito web di questa azienda di sette persone 'come un attacco DDoS']]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Il sito di e-commerce di Triplegangers ha subito un attacco simile a un DDoS a causa del bot di OpenAI che ha effettuato decine di migliaia di richieste per raccogliere dati da oltre 65.000 pagine di prodotti. - Il sito mancava di un file robots.txt configurato correttamente per bloccare tali bot, portando a un aumento dei costi AWS e a preoccupazioni sulla sicurezza dei dati. - Questo incidente sottolinea l&#39;importanza per le aziende di intelligenza artificiale di ottenere il permesso prima di raccogliere dati e serve come avvertimento per le piccole imprese di monitorare l&#39;attività dei bot AI.</li>
+</ul>
+]]></description>
+            <link
+      >https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000ZIl bot di OpenAI ha schiacciato il sito web di questa azienda di sette persone &apos;come un attacco DDoS&apos;</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Ho acquisito un nuovo superpotere]]></title>
             <description
@@ -1004,134 +1138,6 @@
             <link>https://austinhenley.com/blog/25yearsofai.html</link>
             <guid isPermaLink="false">2025-01-02T00:00:00.000ZIl mio viaggio di 25 anni nell&apos;IA e nel ML</guid>
             <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Felice Anno Nuovo 2025]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://news.ycombinator.com/item?id=42562750</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZFelice Anno Nuovo 2025</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[DOOM CAPTCHA]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://doom-captcha.vercel.app/</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZDOOM CAPTCHA</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Alberi di ricerca statici: più veloci della ricerca binaria]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>L&#39;articolo discute l&#39;implementazione e l&#39;ottimizzazione degli alberi di ricerca statici (alberi S+) per una ricerca significativamente più veloce di dati ordinati, raggiungendo velocità 40 volte superiori rispetto alla tradizionale ricerca binaria. - Tecniche di ottimizzazione come il batching, il prefetching e il SIMD manuale (Single Instruction, Multiple Data) sono impiegate per migliorare il throughput delle query. - L&#39;articolo esplora anche vari layout degli alberi, dimensioni dei nodi e strategie di gestione della memoria, con una discussione sul lavoro futuro come la ricerca branchy e la ricerca per interpolazione per migliorare ulteriormente l&#39;efficienza della ricerca.</li>
-</ul>
-]]></description>
-            <link>https://curiouscoding.nl/posts/static-search-tree/</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZAlberi di ricerca statici: più veloci della ricerca binaria</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title
-      ><![CDATA[30% di diminuzione nell'accuratezza di o1-Preview quando i problemi di Putnam sono leggermente variati]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Putnam-AXIOM è un benchmark progettato per valutare i modelli di linguaggio di grandi dimensioni (LLM) sul ragionamento matematico avanzato utilizzando problemi tratti dalla Putnam Mathematical Competition. - Il benchmark include 236 problemi originali e una variazione con 52 problemi modificati per evitare la contaminazione dei dati. - Il modello con le migliori prestazioni di OpenAI ha raggiunto un&#39;accuratezza del 41,95% sui problemi originali, ma ha subito un calo significativo delle prestazioni di circa il 30% sui problemi modificati, evidenziando le sfide nell&#39;adattarsi alle variazioni.</li>
-</ul>
-]]></description>
-            <link>https://openreview.net/forum?id=YXnwlZe0yf&amp;noteId=yrsGpHd0Sf</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000Z30% di diminuzione nell&apos;accuratezza di o1-Preview quando i problemi di Putnam sono leggermente variati</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Database nel 2024: Un anno in rassegna]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Il panorama dei database nel 2024 ha subito cambiamenti significativi, tra cui importanti acquisizioni, cambiamenti di licenza e rivalità in corso tra i principali attori come Redis, Elasticsearch, Databricks e Snowflake. - DuckDB ha guadagnato popolarità per le query analitiche, con integrazioni in Postgres, mentre tra le versioni notevoli si annoverano Amazon Aurora DSQL e Microsoft Garnet. - Acquisizioni come Tabular da parte di Databricks e OrioleDB da parte di Supabase sono state significative, e nonostante battute d&#39;arresto come la chiusura di OtterTune, l&#39;industria rimane dinamica con nuovi progetti e finanziamenti.</li>
-</ul>
-]]></description>
-            <link>https://www.cs.cmu.edu/~pavlo/blog/2025/01/2024-databases-retrospective.html</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZDatabase nel 2024: Un anno in rassegna</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Libri che ho amato leggere nel 2024]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Il elenco presenta una gamma diversificata di libri, tra cui narrativi storici, filosofici, scientifici e personali, ognuno dei quali offre intuizioni uniche ed esperienze arricchenti.</li>
-<li>Tra i punti salienti ci sono le lettere di Cicerone per approfondimenti sulla vita romana, le opere di Ben-Ari sulla logica dell&#39;informatica e la verifica dei programmi, e il memoir di Steve Martin sul successo comico.</li>
-<li>La collezione include anche esplorazioni filosofiche di Pierre Hadot e Nietzsche, tragedie greche di Eschilo e opere letterarie di Ursula Le Guin e Rabindranath Tagore.</li>
-</ul>
-]]></description>
-            <link>https://thoughts.wyounas.com/p/books-i-enjoyed-most-in-2024</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZLibri che ho amato leggere nel 2024</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Terence Tao: Uno dei miei articoli è stato rifiutato oggi]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://mathstodon.xyz/@tao/113721192051328193</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZTerence Tao: Uno dei miei articoli è stato rifiutato oggi</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[API Parrot – Ingegnerizzare automaticamente al contrario le API HTTP]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>API Parrot è un nuovo strumento progettato per semplificare l&#39;automazione dei processi aziendali identificando automaticamente le correlazioni dei dati tra le richieste API e fornendo una rappresentazione grafica del flusso. - Consente agli utenti di registrare le richieste, definire input e output ed esportare questi flussi come codice JavaScript, rendendo il processo più efficiente rispetto all&#39;ingegneria inversa manuale o all&#39;uso di tecnologie meno ottimali come l&#39;Automazione dei Processi Robotici (RPA). - Lo strumento è costruito su Electron ed è disponibile per le piattaforme Windows e Linux, con un tutorial disponibile per l&#39;ingegneria inversa dell&#39;API USPS.</li>
-</ul>
-]]></description>
-            <link>https://apiparrot.com/</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZAPI Parrot – Ingegnerizzare automaticamente al contrario le API HTTP</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title
-      ><![CDATA[FBI: Il più grande deposito di esplosivi artigianali nella storia dell'agenzia trovato in Virginia]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://thehill.com/national-security/5061535-virginia-man-arrested-explosives/</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZFBI: Il più grande deposito di esplosivi artigianali nella storia dell&apos;agenzia trovato in Virginia</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Déjà vu: CVE spettrali nel titolo del mio terminale]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Ghostty, un nuovo emulatore di terminale, aveva una vulnerabilità di sicurezza simile a una del 2003, che permetteva ai caratteri di escape ASCII di eseguire comandi come l&#39;apertura di applicazioni. - Il problema era particolarmente problematico con Zsh e Bash in modalità vi, ma Ghostty 1.0.1 ha risolto questo disabilitando la funzione per impostazione predefinita. - Nonostante la falla di sicurezza, Ghostty è lodato per le sue caratteristiche, e lo sviluppatore ha affrontato prontamente il problema, fornendo correzioni e soluzioni alternative per gli utenti.</li>
-</ul>
-]]></description>
-            <link>https://dgl.cx/2024/12/ghostty-terminal-title</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZDéjà vu: CVE spettrali nel titolo del mio terminale</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title
-      ><![CDATA[Modelli di Concetto di Grandi Dimensioni: Modellazione del linguaggio in uno spazio di rappresentazione delle frasi]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Il repository offre implementazioni per i Modelli di Concetto di Grandi Dimensioni (LCM), che utilizzano i &quot;concetti&quot; come rappresentazione semantica di livello superiore per la modellazione del linguaggio.</li>
-<li>LCM supporta 200 lingue testuali e 57 lingue parlate utilizzando lo spazio di incorporamento SONAR, ed è addestrato per la previsione auto-regressiva delle frasi con metodi come la regressione MSE e la generazione basata sulla diffusione.</li>
-<li>Il repository fornisce istruzioni per l&#39;installazione, la preparazione dei dati, l&#39;addestramento, il finetuning e le linee guida per la valutazione, ed è rilasciato sotto la licenza MIT, utilizzando fairseq2 con opzioni di installazione UV e pip.</li>
-</ul>
-]]></description>
-            <link>https://github.com/facebookresearch/large_concept_model</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZModelli di Concetto di Grandi Dimensioni: Modellazione del linguaggio in uno spazio di rappresentazione delle frasi</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

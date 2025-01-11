@@ -1,0 +1,218 @@
+[
+  {
+    "id": 42663231,
+    "title": "Sea consciente del efecto Makefile",
+    "originLink": "https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42663231",
+    "commentBody": "",
+    "originSummary": [
+      "La 'efecto Makefile' describe la práctica de los ingenieros de copiar y modificar configuraciones complejas existentes, como los Makefiles, en lugar de crear nuevas desde cero. - Este enfoque es prevalente en varios sistemas, como las configuraciones de Integración Continua/Despliegue Continuo (CI/CD) y los sistemas de construcción, y puede indicar herramientas excesivamente complejas o mal diseñadas. - Aunque no es inherentemente negativo, el efecto Makefile puede obstaculizar el aprendizaje, complicar la seguridad y llevar a una depuración ineficiente, destacando la necesidad de un diseño de herramientas reflexivo que considere la configurabilidad y la facilidad de uso."
+    ],
+    "commentSummary": [
+      "La 'Efecto Makefile' describe la tendencia de los desarrolladores a copiar y modificar código o configuraciones sin comprenderlos completamente, a menudo debido a la complejidad de las herramientas o al uso poco frecuente.",
+      "Este fenómeno está muy extendido en las tareas de programación y configuración, donde los desarrolladores utilizan soluciones conocidas para ahorrar tiempo y esfuerzo, lo que potencialmente conduce a un código difícil de mantener.",
+      "La discusión enfatiza la necesidad de equilibrar el uso de plantillas y soluciones existentes con la obtención de una comprensión más profunda de las herramientas y sistemas involucrados."
+    ],
+    "points": 238,
+    "commentCount": 203,
+    "retryCount": 0,
+    "time": 1736568792
+  },
+  {
+    "id": 42661185,
+    "title": "Portales y Quake",
+    "originLink": "https://30fps.net/pages/pvs-portals-and-quake/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42661185",
+    "commentBody": "",
+    "originSummary": [
+      "El artículo es el primero de la serie \"Desmitificando el PVS\", centrado en el sistema de visibilidad precomputada de Quake para abordar el exceso de dibujo, donde los píxeles se renderizan múltiples veces. - Quake utiliza el recorte de portales y conjuntos potencialmente visibles (PVS) dividiendo el mundo en celdas y portales, precomputando la visibilidad para optimizar el renderizado. - El artículo introduce las clases Portal y Leaf en vis.py, una reimplementación en Python del algoritmo de visibilidad de Quake, destacando el uso de una matriz de visibilidad de hoja a hoja."
+    ],
+    "commentSummary": [
+      "Los diseñadores de niveles de Quake utilizaron pinceles de \"pista\" y \"portales de área\" para optimizar el rendimiento del juego, una técnica que ha sido fundamental en los gráficos 3D. - Juegos como Prey y Portal llevaron los portales al centro de atención por sus mecánicas de juego, aunque el concepto se ha utilizado en la representación desde los primeros gráficos 3D. - Unreal Engine 1 empleó zonas para la optimización, y motores contemporáneos como Unreal Engine 5 continúan utilizando métodos similares para mejorar la eficiencia de la representación."
+    ],
+    "points": 183,
+    "commentCount": 48,
+    "retryCount": 0,
+    "time": 1736549293
+  },
+  {
+    "id": 42660335,
+    "title": "Correcciones de errores de Phi-4",
+    "originLink": "https://unsloth.ai/blog/phi4",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42660335",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Daniel Hanchen descubrió y solucionó errores en el modelo de lenguaje grande Phi-4 de Microsoft, como problemas al finalizar oraciones y en las plantillas de chat. - Convirtió Phi-4 a la arquitectura Llama, mejorando el rendimiento, y compartió las correcciones en Hugging Face, una plataforma para modelos de aprendizaje automático. - Hay disponible un cuaderno de Colab para ajustar finamente Phi-4, y aunque las correcciones mejoraron el rendimiento en algunos puntos de referencia, lo disminuyeron en otros; el equipo de Phi-4 está trabajando para integrar estas mejoras en el modelo original."
+    ],
+    "points": 176,
+    "commentCount": 50,
+    "retryCount": 0,
+    "time": 1736543841
+  },
+  {
+    "id": 42661432,
+    "title": "Muy mal matemáticas",
+    "originLink": "https://www.charlespetzold.com/blog/2025/01/Very-Wrong-Math.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42661432",
+    "commentBody": "",
+    "originSummary": [
+      "Una empresa de diseño y construcción cometió un error matemático en Facebook, calculando incorrectamente el radio de la Tierra como 4,333 pies, lo que llevó a una circunferencia enormemente subestimada de poco más de 5 millas.",
+      "La falla se originó al calcular longitudes de arco sin usar el radio real de la Tierra, que es aproximadamente 3,959 millas.",
+      "La publicación destacó que el arco exterior era menos del 1% más largo que el arco interior, lo que sugiere una posible reducción en el tiempo de vuelo debido a la disminución de la resistencia del aire."
+    ],
+    "commentSummary": [
+      "Un constructor de YouTube afirmó incorrectamente que las líneas de plomada serían paralelas en una Tierra plana, malinterpretando la curvatura de la Tierra, que es insignificante en tales mediciones. - La discusión destacó el fracaso de la intuición para comprender conceptos a gran escala y abordó teorías de la Tierra plana, conceptos erróneos sobre la gravedad y los efectos de la rotación de la Tierra en el vuelo. - La conversación examinó humorísticamente la persistencia de creencias incorrectas y la dificultad de explicar conceptos científicos a quienes rechazan la ciencia establecida."
+    ],
+    "points": 170,
+    "commentCount": 91,
+    "retryCount": 0,
+    "time": 1736550656
+  },
+  {
+    "id": 42660942,
+    "title": "Construcción de Adornos",
+    "originLink": "https://ianthehenry.com/posts/bauble/building-bauble/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42660942",
+    "commentBody": "",
+    "originSummary": [
+      "Bauble es una herramienta de modelado y renderizado 3D que utiliza funciones de distancia firmada (SDFs) para crear formas y animaciones complejas. - Inicialmente un sistema básico para generar shaders GLSL, Bauble ha sido reescrito para incluir características como exportación de modelos 3D, edición interactiva e iluminación personalizada. - La herramienta ahora admite la incrustación web, la edición vectorial interactiva y ofrece documentación completa, lo que la hace accesible para proyectos creativos y usuarios interesados en el diseño 3D."
+    ],
+    "commentSummary": [
+      "Building Bauble, un proyecto presentado en ianthehenry.com, ha generado entusiasmo al mostrar la magia y el disfrute de la programación, especialmente en la codificación y los gráficos.",
+      "La creatividad y el detallado informe del proyecto son elogiados, inspirando a los lectores a retomar proyectos inacabados y explorar nuevas tecnologías como Janet (un lenguaje de programación) y GLSL (Lenguaje de Sombreado de OpenGL).",
+      "A pesar de algunos problemas técnicos en Safari, el proyecto es celebrado por su impresionante ejecución y su atractiva historia de desarrollo, lo que ha generado discusiones sobre proyectos personales y el uso de lectores RSS."
+    ],
+    "points": 164,
+    "commentCount": 26,
+    "retryCount": 0,
+    "time": 1736547735
+  },
+  {
+    "id": 42664400,
+    "title": "Casi todas las búsquedas binarias y mergesorts están rotas (2006)",
+    "originLink": "https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42664400",
+    "commentBody": "",
+    "originSummary": [
+      "En 2006, Joshua Bloch identificó un error en el algoritmo de búsqueda binaria, inicialmente señalado en \"Programming Pearls\" de Jon Bentley, donde se produce un desbordamiento cuando 'low' y 'high' superan el valor máximo de int.",
+      "Este error, que afecta a matrices con longitudes de 2^30 o más, era raro en la década de 1980, pero es más común hoy en día, afectando también a mergesort y otros algoritmos de divide y vencerás.",
+      "Bloch recomienda solucionar el problema calculando el punto medio como `int mid = low + ((high - low) / 2);`, destacando los desafíos de escribir código sin errores y la necesidad de realizar pruebas exhaustivas."
+    ],
+    "commentSummary": [
+      "Muchas búsquedas binarias y ordenamientos por mezcla son propensos a problemas de desbordamiento de enteros, especialmente en implementaciones más antiguas, como se destacó en un artículo de 2006.",
+      "La importancia de considerar casos extremos y limitaciones de hardware en la programación, que sigue siendo relevante hoy en día.",
+      "Se aconseja a los desarrolladores que utilicen funciones integradas o tipos de enteros más grandes para prevenir tales errores, lo que subraya la necesidad de tener precaución con los tipos de datos y los tamaños de entrada."
+    ],
+    "points": 143,
+    "commentCount": 136,
+    "retryCount": 0,
+    "time": 1736585205
+  },
+  {
+    "id": 42665367,
+    "title": "Rastrea tus dispositivos a través de la red Apple FindMy en Go/TinyGo",
+    "originLink": "https://github.com/hybridgroup/go-haystack",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42665367",
+    "commentBody": "",
+    "originSummary": [
+      "Go Haystack permite el seguimiento de dispositivos Bluetooth personales a través de la red \"Find My\" de Apple sin necesidad de hardware de Apple, utilizando OpenHaystack y Macless-Haystack con herramientas Go/TinyGo.",
+      "Los usuarios pueden crear sus propios balizas utilizando el firmware de TinyGo en hardware como las placas Adafruit Bluefruit y BBC Microbit, con una configuración que requiere un ID de Apple con autenticación de dos factores (2FA).",
+      "La instalación del proceso implica instalar la herramienta go-haystack, usar comandos como `haystack scan` para localizar dispositivos, generar claves, flashear el dispositivo y subir un archivo JSON a macless-haystack para la visibilidad del dispositivo en la interfaz web."
+    ],
+    "commentSummary": [
+      "La red Apple FindMy se puede utilizar con Go/TinyGo para rastrear dispositivos, ofreciendo una forma de expandir la red sin necesidad de una cuenta de Apple.",
+      "Las preocupaciones sobre la privacidad se mitigan con el diseño de Apple, y la empresa tiene una sólida reputación por mantener la privacidad del usuario, aunque algunos usuarios siguen siendo cautelosos ante la posible vigilancia.",
+      "La red FindMy opera en dos partes: los dispositivos de Apple localizan elementos y los dispositivos de los usuarios suben datos de ubicación a Apple, con una opción para que los usuarios desactiven la función si lo desean."
+    ],
+    "points": 139,
+    "commentCount": 32,
+    "retryCount": 0,
+    "time": 1736597674
+  },
+  {
+    "id": 42665222,
+    "title": "La situación de Vim",
+    "originLink": "https://lwn.net/SubscriberLink/1002342/a8d8a17f30968b93/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42665222",
+    "commentBody": "",
+    "originSummary": [
+      "Tras el fallecimiento del fundador de Vim, Bram Moolenaar, en 2023, la comunidad de Vim se ha reorganizado para asegurar el desarrollo continuo del proyecto, con Christian Brabandt como el mantenedor actual. - En VimConf 2024, se discutió que el equipo se ha expandido, centrándose en actualizar el sitio web de Vim, gestionar la seguridad y mejorar los canales de comunicación. - Vim permanece en modo de mantenimiento, priorizando las necesidades de la comunidad e integrando nuevas características con cuidado, mientras continúa apoyando a ICCF Holland, una organización benéfica establecida por Moolenaar."
+    ],
+    "commentSummary": [
+      "Los usuarios veteranos de Vim están reflexionando sobre el futuro del editor tras el fallecimiento de su creador, Bram Moolenaar, con algunos satisfechos con su estabilidad actual y otros explorando alternativas como Neovim para características modernas.",
+      "Neovim está ganando atención por su soporte de scripting en Lua y mejoras modernas, mientras que algunos usuarios están considerando Emacs debido a la fragmentación percibida entre Vim y Neovim.",
+      "Las discusiones entre los usuarios incluyen temas como el rendimiento de Treesitter, el soporte del Protocolo del Servidor de Lenguaje (LSP) y comparaciones con Visual Studio Code (VSCode), destacando la flexibilidad y estabilidad de estos editores."
+    ],
+    "points": 138,
+    "commentCount": 33,
+    "retryCount": 0,
+    "time": 1736595779
+  },
+  {
+    "id": 42659061,
+    "title": "Flattening ASTs y otras estructuras de datos del compilador (2023)",
+    "originLink": "https://www.cs.cornell.edu/~asampson/blog/flattening.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42659061",
+    "commentBody": "",
+    "originSummary": [
+      "La publicación discute el aplanamiento de estructuras de datos, una técnica para compiladores que optimiza los árboles de sintaxis abstracta (ASTs) utilizando un solo arreglo con índices en lugar de punteros. - Este método mejora el rendimiento al mejorar la localidad de memoria, reducir el tamaño de las referencias y simplificar la gestión de memoria, resultando en un aumento de velocidad de 2.4× en un microbenchmark. - La técnica se utiliza notablemente en proyectos de Rust y ofrece beneficios ergonómicos, como una gestión de memoria más sencilla, y se compara con intérpretes de bytecode para mejorar aún más el rendimiento."
+    ],
+    "commentSummary": [
+      "La discusión se centra en optimizar los Árboles de Sintaxis Abstracta (ASTs) almacenándolos en arreglos planos y contiguos para mejorar el rendimiento y la eficiencia de la memoria.",
+      "Este método mejora la localidad de caché y simplifica la gestión de memoria, estableciendo comparaciones con técnicas en lenguajes como Lisp y el compilador Zig.",
+      "La conversación también hace referencia a métodos históricos y técnicas similares en otros lenguajes de programación, enfatizando los beneficios de las estructuras de datos planas para la composibilidad y la facilidad de manipulación."
+    ],
+    "points": 137,
+    "commentCount": 36,
+    "retryCount": 0,
+    "time": 1736537030
+  },
+  {
+    "id": 42666572,
+    "title": "Desinteligencia del altavoz Bluetooth Marshall Uxbridge",
+    "originLink": "https://tomscii.sig7.se/2025/01/De-smarting-the-Marshall-Uxbridge",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42666572",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "La discusión se centra en modificar el altavoz Bluetooth Marshall Uxbridge para eliminar sus funciones \"inteligentes\", involucrando aspectos técnicos como el diseño de una placa de circuito impreso (PCB) para entrada digital I2S.",
+      "Los usuarios debaten el papel del Procesamiento Digital de Señales (DSP) en lograr una buena calidad de sonido, con algunos enfatizando su necesidad para compensar las limitaciones del hardware.",
+      "La conversación también abarca los desafíos de modificar dispositivos inteligentes y la asequibilidad de la producción moderna de PCB y componentes."
+    ],
+    "points": 119,
+    "commentCount": 33,
+    "retryCount": 0,
+    "time": 1736610122
+  },
+  {
+    "id": 42660377,
+    "title": "El bot de OpenAI aplastó el sitio web de esta empresa de siete personas 'como un ataque DDoS'",
+    "originLink": "https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42660377",
+    "commentBody": "",
+    "originSummary": [
+      "El sitio de comercio electrónico de Triplegangers experimentó un ataque similar a un DDoS debido a que el bot de OpenAI realizó decenas de miles de solicitudes para extraer más de 65,000 páginas de productos. - El sitio carecía de un archivo robots.txt configurado adecuadamente para bloquear tales bots, lo que llevó a un aumento en los costos de AWS y preocupaciones sobre la seguridad de los datos. - Este incidente subraya la importancia de que las empresas de IA obtengan permiso antes de extraer datos y sirve como advertencia para que las pequeñas empresas monitoreen la actividad de los bots de IA."
+    ],
+    "commentSummary": [
+      "El bot de OpenAI causó un tráfico excesivo en el sitio web de una pequeña empresa, similar a un ataque de Denegación de Servicio Distribuido (DDoS), destacando problemas con los bots de IA que saturan los sitios web.",
+      "Empresas como Read the Docs han experimentado desafíos similares con bots de IA que generan un tráfico masivo, a pesar de usar \"robots.txt\" para gestionar los rastreadores web.",
+      "La incidencia subraya el debate en curso sobre cómo equilibrar la accesibilidad web con la protección contra la extracción agresiva de datos por parte de empresas de inteligencia artificial, ya que algunos bots ignoran el \"robots.txt\", lo que lleva a posibles problemas legales y financieros para los propietarios de sitios pequeños."
+    ],
+    "points": 111,
+    "commentCount": 102,
+    "retryCount": 0,
+    "time": 1736544077
+  }
+]

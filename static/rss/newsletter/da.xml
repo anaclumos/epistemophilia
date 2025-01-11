@@ -15,12 +15,132 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Jan 2025 19:07:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jan 2025 19:29:05 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/da.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[da]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-11]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/11&#39;</h2>
+<h1>2025-01-11</h1>
+<h2><a href="https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect">Vær opmærksom på Makefile-effekten</a></h2>
+<ul>
+<li>Effekten af &quot;Makefile&quot; beskriver praksis, hvor ingeniører kopierer og ændrer eksisterende komplekse konfigurationer, såsom Makefiles, i stedet for at skabe nye fra bunden. - Denne tilgang er udbredt i forskellige systemer, såsom Continuous Integration/Continuous Deployment (CI/CD) konfigurationer og build-systemer, og kan indikere alt for komplekse eller dårligt designede værktøjer. - Selvom det ikke er iboende negativt, kan Makefile-effekten hæmme læring, komplicere sikkerhed og føre til ineffektiv fejlfinding, hvilket fremhæver behovet for gennemtænkt værktøjsdesign, der tager højde for konfigurerbarhed og brugervenlighed.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42663231">Reaktioner</a></h3>
+<ul>
+<li>Effekten af &#39;Makefile&#39; beskriver udvikleres tendens til at kopiere og ændre kode eller konfigurationer uden fuldt ud at forstå dem, ofte på grund af værktøjernes kompleksitet eller sjælden brug.</li>
+<li>Dette fænomen er udbredt inden for programmerings- og konfigurationstasks, hvor udviklere bruger kendte løsninger for at spare tid og kræfter, hvilket potentielt kan føre til kode, der er svær at vedligeholde.</li>
+<li>Diskussionen understreger behovet for at balancere brugen af skabeloner og eksisterende løsninger med at opnå en dybere forståelse af de involverede værktøjer og systemer.</li>
+</ul>
+<h2><a href="https://30fps.net/pages/pvs-portals-and-quake/">Portaler og Quake</a></h2>
+<ul>
+<li>Artiklen er den første i serien &quot;Demystifying the PVS&quot;, der fokuserer på Quakes forudberegnede synlighedssystem for at tackle overdraw, hvor pixels gengives flere gange. - Quake bruger portal culling og potentielt synlige sæt (PVS) ved at opdele verden i celler og portaler, forudberegne synlighed for at optimere rendering. - Artiklen introducerer Portal- og Leaf-klasserne i vis.py, en Python-gennemførelse af Quakes synlighedsalgoritme, og fremhæver brugen af en blad-til-blad synlighedsmatrix.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42661185">Reaktioner</a></h3>
+<ul>
+<li>Quake-niveau-designere anvendte &quot;hint&quot;-børster og &quot;områdeportaler&quot; for at optimere spillets ydeevne, en teknik der har været grundlæggende i 3D-grafik. - Spil som Prey og Portal bragte portaler i rampelyset for gameplay-mekanik, selvom konceptet har været brugt i rendering siden de tidlige 3D-grafik. - Unreal Engine 1 benyttede zoner til optimering, og nutidige motorer som Unreal Engine 5 fortsætter med at bruge lignende metoder for at forbedre renderingseffektiviteten.</li>
+</ul>
+<h2><a href="https://unsloth.ai/blog/phi4">Phi-4 fejlrettelser</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42660335">Reaktioner</a></h3>
+<ul>
+<li>Daniel Hanchen opdagede og løste fejl i Microsofts Phi-4 Large Language Model (LLM), såsom problemer med sætningsafslutninger og chat-skabelon-prompt. - Han konverterede Phi-4 til Llama-arkitekturen, hvilket forbedrede ydeevnen, og delte rettelserne på Hugging Face, en platform for maskinlæringsmodeller. - En Colab-notesbog til finjustering af Phi-4 er tilgængelig, og mens rettelserne forbedrede ydeevnen på nogle benchmarks, reducerede de den på andre; Phi-4-teamet arbejder på at integrere disse forbedringer i den oprindelige model.</li>
+</ul>
+<h2><a href="https://www.charlespetzold.com/blog/2025/01/Very-Wrong-Math.html">Meget forkert matematik</a></h2>
+<ul>
+<li>Et design- og konstruktionsfirma lavede en matematikfejl på Facebook, hvor de fejlagtigt beregnede Jordens radius til 4.333 fod, hvilket førte til en stærkt undervurderet omkreds på lidt over 5 miles.</li>
+<li>Fejlen opstod ved beregning af buelængder uden at bruge Jordens faktiske radius, som er cirka 3.959 miles.</li>
+<li>Indlægget fremhævede, at den ydre bue var mindre end 1% længere end den indre bue, hvilket antyder en potentiel reduktion i flyvetid på grund af nedsat luftmodstand.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42661432">Reaktioner</a></h3>
+<ul>
+<li>En YouTube-bygger hævdede fejlagtigt, at lodlinjer ville være parallelle på en flad jord, hvilket misforstod Jordens krumning, som er ubetydelig i sådanne målinger. - Diskussionen fremhævede intuitionens svigt i forståelsen af storskala-koncepter og adresserede teorier om en flad jord, misforståelser om tyngdekraften og Jordens rotations indvirkning på flyvning. - Samtalen undersøgte humoristisk vedholdenheden af forkerte overbevisninger og vanskeligheden ved at forklare videnskabelige koncepter til dem, der afviser etableret videnskab.</li>
+</ul>
+<h2><a href="https://ianthehenry.com/posts/bauble/building-bauble/">Bygning Bauble</a></h2>
+<ul>
+<li>Bauble er et 3D-modellerings- og renderingsværktøj, der anvender signed distance functions (SDF&#39;er) til at skabe komplekse former og animationer. - Oprindeligt et grundlæggende system til generering af GLSL-shadere, er Bauble blevet omskrevet for at inkludere funktioner som 3D-model eksport, interaktiv redigering og brugerdefineret belysning. - Værktøjet understøtter nu webindlejring, interaktiv vektoredigering og tilbyder omfattende dokumentation, hvilket gør det tilgængeligt for kreative projekter og brugere, der er interesserede i 3D-design.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42660942">Reaktioner</a></h3>
+<ul>
+<li>Building Bauble, et projekt præsenteret på ianthehenry.com, har skabt begejstring ved at fremvise magien og fornøjelsen ved programmering, især inden for kodning og grafik.</li>
+<li>Projektet bliver rost for sin kreativitet og detaljerede beskrivelse, der inspirerer læsere til at genoptage uafsluttede projekter og udforske nye teknologier som Janet (et programmeringssprog) og GLSL (OpenGL Shading Language).</li>
+<li>På trods af nogle tekniske problemer på Safari bliver projektet fejret for sin imponerende udførelse og engagerende udviklingshistorie, hvilket har sat gang i diskussioner om personlige projekter og brugen af RSS-læsere.</li>
+</ul>
+<h2><a href="https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/">De fleste binære søgninger og mergesorts er defekte (2006)</a></h2>
+<ul>
+<li>I 2006 identificerede Joshua Bloch en fejl i binærsøgningsalgoritmen, som oprindeligt blev bemærket i Jon Bentleys &quot;Programming Pearls,&quot; hvor en overflow opstår, når &#39;low&#39; og &#39;high&#39; overstiger den maksimale int-værdi.</li>
+<li>Denne fejl, der påvirker arrays med længder på 2^30 eller mere, var sjælden i 1980&#39;erne, men er mere almindelig i dag og påvirker også mergesort og andre divide-and-conquer-algoritmer.</li>
+<li>Bloch anbefaler at løse problemet ved at beregne midtpunktet som <code>int mid = low + ((high - low) / 2);</code>, hvilket fremhæver udfordringerne ved at skrive fejlfri kode og nødvendigheden af grundig testning.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42664400">Reaktioner</a></h3>
+<ul>
+<li>Adskillige binære søgninger og mergesorts er tilbøjelige til problemer med heltalsoverløb, især i ældre implementeringer, som fremhævet i en artikel fra 2006.</li>
+<li>Artiklen understreger vigtigheden af at tage højde for grænsetilfælde og hardwarebegrænsninger i programmering, hvilket stadig er relevant i dag.</li>
+<li>Udviklere rådes til at bruge indbyggede funktioner eller større heltalstyper for at forhindre sådanne fejl, hvilket understreger behovet for forsigtighed med datatyper og inputstørrelser.</li>
+</ul>
+<h2><a href="https://github.com/hybridgroup/go-haystack">Spore dine enheder via Apple FindMy-netværket i Go/TinyGo</a></h2>
+<ul>
+<li>Go Haystack muliggør sporing af personlige Bluetooth-enheder via Apples &quot;Find My&quot;-netværk uden at kræve Apple-hardware, ved at anvende OpenHaystack og Macless-Haystack med Go/TinyGo-værktøjer.</li>
+<li>Brugere kan oprette deres egne beacons ved hjælp af TinyGo firmware på hardware som Adafruit Bluefruit boards og BBC Microbit, hvor opsætningen kræver et Apple ID med tofaktorgodkendelse (2FA).</li>
+<li>Processen involverer installation af go-haystack-værktøjet, brug af kommandoer som <code>haystack scan</code> til at lokalisere enheder, generering af nøgler, flashing af enheden og upload af en JSON-fil til macless-haystack for enhedens synlighed i web-UI&#39;en.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42665367">Reaktioner</a></h3>
+<ul>
+<li>Apple FindMy-netværket kan anvendes med Go/TinyGo til at spore enheder, hvilket tilbyder en måde at udvide netværket på uden at skulle bruge en Apple-konto.</li>
+<li>Bekymringer om privatlivets fred afbødes af Apples design, og virksomheden har et stærkt ry for at opretholde brugernes privatliv, selvom nogle brugere forbliver forsigtige over for potentiel overvågning.</li>
+<li>FindMy-netværket fungerer i to dele: Apple-enheder lokaliserer genstande, og brugerenheder uploader lokaliseringsdata til Apple, med en mulighed for brugere at deaktivere funktionen, hvis det ønskes.</li>
+</ul>
+<h2><a href="https://lwn.net/SubscriberLink/1002342/a8d8a17f30968b93/">Staten af Vim</a></h2>
+<ul>
+<li>Efter Vim-grundlæggeren Bram Moolenaars bortgang i 2023 har Vim-fællesskabet reorganiseret sig for at sikre projektets fortsatte udvikling, med Christian Brabandt som den nuværende vedligeholder. - På VimConf 2024 blev det diskuteret, at teamet er blevet udvidet med fokus på at opdatere Vim-websiden, håndtere sikkerhed og forbedre kommunikationskanaler. - Vim forbliver i vedligeholdelsestilstand, hvor der prioriteres fællesskabets behov og integration af nye funktioner sker med omhu, samtidig med at der fortsat ydes støtte til ICCF Holland, en velgørenhedsorganisation oprettet af Moolenaar.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42665222">Reaktioner</a></h3>
+<ul>
+<li>Langvarige Vim-brugere reflekterer over editorens fremtid efter skaberen Bram Moolenaars bortgang, hvor nogle er tilfredse med dens nuværende stabilitet, mens andre udforsker alternativer som Neovim for moderne funktioner.</li>
+<li>Neovim får opmærksomhed for sin understøttelse af Lua-scripting og moderne forbedringer, mens nogle brugere overvejer Emacs på grund af den opfattede fragmentering mellem Vim og Neovim.</li>
+<li>Diskussioner blandt brugere omfatter emner som Treesitters ydeevne, Language Server Protocol (LSP) support og sammenligninger med Visual Studio Code (VSCode), hvilket fremhæver fleksibiliteten og stabiliteten af disse editorer.</li>
+</ul>
+<h2><a href="https://www.cs.cornell.edu/~asampson/blog/flattening.html">Fladgøring af AST&#39;er og andre compiler-datastrukturer (2023)</a></h2>
+<ul>
+<li>Indlægget diskuterer datastruktur-fladning, en teknik for compilere, der optimerer abstrakte syntakstræer (AST&#39;er) ved at bruge en enkelt array med indekser i stedet for pointers. - Denne metode forbedrer ydeevnen ved at forbedre hukommelseslokalitet, reducere referencestørrelse og forenkle hukommelsesstyring, hvilket resulterer i en 2,4× hastighedsforøgelse i en mikrobenchmark. - Teknikken anvendes især i Rust-projekter og tilbyder ergonomiske fordele, såsom lettere hukommelsesstyring, og sammenlignes med bytekodefortolkere for yderligere ydeevneforbedringer.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42659061">Reaktioner</a></h3>
+<ul>
+<li>Diskussionen fokuserer på at optimere abstrakte syntakstræer (AST&#39;er) ved at gemme dem i flade, sammenhængende arrays for at forbedre ydeevne og hukommelseseffektivitet.</li>
+<li>Metoden forbedrer cache-lokalitet og forenkler hukommelsesstyring, hvilket drager sammenligninger til teknikker i sprog som Lisp og Zig-kompilatoren.</li>
+<li>Dialogen refererer også til historiske metoder og lignende teknikker i andre programmeringssprog, og understreger fordelene ved flade datastrukturer for komposabilitet og nem håndtering.</li>
+</ul>
+<h2><a href="https://tomscii.sig7.se/2025/01/De-smarting-the-Marshall-Uxbridge">Af-smartificering af Marshall Uxbridge Bluetooth-højttaleren</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42666572">Reaktioner</a></h3>
+<ul>
+<li>Diskussionen fokuserer på at modificere Marshall Uxbridge Bluetooth-højttaleren for at eliminere dens &quot;smarte&quot; funktioner, hvilket involverer tekniske aspekter som at designe et printkort (PCB) til digital I2S-indgang.</li>
+<li>Brugere diskuterer rollen af Digital Signal Processing (DSP) i at opnå god lydkvalitet, hvor nogle understreger dens nødvendighed for at kompensere for hardwarebegrænsninger.</li>
+<li>Diskussionen dækker også udfordringerne ved at modificere smarte enheder og overkommeligheden af moderne PCB-produktion og komponenter.</li>
+</ul>
+<h2><a href="https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/">OpenAI&#39;s bot knuste denne syv-personers virksomheds websted &#39;som et DDoS-angreb&#39;</a></h2>
+<ul>
+<li>Triplegangers&#39; e-handelswebsted oplevede et DDoS-lignende angreb på grund af OpenAI&#39;s bot, der lavede titusindvis af forespørgsler for at skrabe over 65.000 produktsider. - Webstedet manglede en korrekt konfigureret robots.txt-fil til at blokere sådanne bots, hvilket førte til øgede AWS-omkostninger og bekymringer om datasikkerhed. - Denne hændelse understreger vigtigheden af, at AI-virksomheder indhenter tilladelse, før de skraber data, og fungerer som en advarsel for små virksomheder om at overvåge AI-botaktivitet.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42660377">Reaktioner</a></h3>
+<ul>
+<li>OpenAI&#39;s bot forårsagede overdreven trafik på en lille virksomheds hjemmeside, svarende til et Distributed Denial of Service (DDoS) angreb, hvilket fremhæver problemer med AI-bots, der overvælder hjemmesider.</li>
+<li>Virksomheder som Read the Docs har oplevet lignende udfordringer med AI-bots, der genererer massiv trafik, på trods af at de bruger &quot;robots.txt&quot; til at håndtere webcrawlere.</li>
+<li>Begivenheden understreger den igangværende debat om at balancere webtilgængelighed med beskyttelse mod aggressiv dataindsamling af AI-virksomheder, da nogle bots ignorerer &quot;robots.txt,&quot; hvilket kan føre til potentielle juridiske og økonomiske problemer for små webstedsejere.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Vær opmærksom på Makefile-effekten" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=V%C3%A6r%20opm%C3%A6rksom%20p%C3%A5%20Makefile-effekten&subheading=l%C3%B8rdag%20den%2011.%20januar%202025%3A%20Resum%C3%A9%20af%20Hacker%20News" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/da/2025/01/11</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Z</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-10]]></title>
             <description
@@ -903,104 +1023,6 @@
             <link>https://hn.cho.sh/da/2025/01/02</link>
             <guid isPermaLink="false">2025-01-02T00:00:00.000Z</guid>
             <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2025-01-01]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2025/01/01&#39;</h2>
-<h1>2025-01-01</h1>
-<h2><a href="https://news.ycombinator.com/item?id=42562750">Godt nytår 2025</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42562750">Reaktioner</a></h3>
-<h2><a href="https://doom-captcha.vercel.app/">DOOM CAPTCHA</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42566112">Reaktioner</a></h3>
-<ul>
-<li>DOOM CAPTCHA er et kreativt projekt, der kræver, at brugerne spiller et niveau af det klassiske spil DOOM som en CAPTCHA-test, hvilket fremhæver tekniske færdigheder og nostalgi. - Brugerne finder det udfordrende på grund af fraværet af moderne kontrolmuligheder, hvilket fører til blandede reaktioner om dets praktiske anvendelighed og tilgængelighed. - Projektet, selvom det er nyskabende, understreger den vedvarende utilfredshed med traditionelle CAPTCHA-systemer, på trods af at det er bygget med Vercels AI-assistent og manuel spilintegration.</li>
-</ul>
-<h2><a href="https://curiouscoding.nl/posts/static-search-tree/">Statisk søgetræer: hurtigere end binær søgning</a></h2>
-<ul>
-<li>Artiklen diskuterer implementeringen og optimeringen af statiske søgetræer (S+ træer) for markant hurtigere søgning i sorteret data, hvilket opnår hastigheder 40 gange hurtigere end traditionel binær søgning. - Optimeringsteknikker som batching, prefetching og manuel SIMD (Single Instruction, Multiple Data) anvendes for at forbedre forespørgselens gennemløb. - Artiklen udforsker også forskellige trælayouts, nodestørrelser og hukommelsesstyringsstrategier, med en diskussion om fremtidigt arbejde som branchy search og interpolationssøgning for yderligere at forbedre søgeeffektiviteten.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42562847">Reaktioner</a></h3>
-<ul>
-<li>Diskussionen fremhæver et skift fra C/C++ til Rust for algoritmisk indhold, især i statiske søgetræer, på grund af Rusts sikkerheds- og ydeevnefordele.</li>
-<li>Rusts voksende popularitet inden for lavniveauprogrammering bemærkes, hvor nogle brugere foretrækker C eller pseudokode for tilgængelighed, mens andre værdsætter Rusts moderne funktioner.</li>
-<li>Dialogen udforsker også potentialet i Zig-programmeringssproget og de udfordringer, der er forbundet med at lære nye sprog, hvilket afspejler det udviklende landskab af programmeringssprog.</li>
-</ul>
-<h2><a href="https://openreview.net/forum?id=YXnwlZe0yf&noteId=yrsGpHd0Sf">30% fald i o1-preview nøjagtighed, når Putnam-problemer er let varierede</a></h2>
-<ul>
-<li>Putnam-AXIOM er en benchmark designet til at vurdere store sprogmodeller (LLMs) på avanceret matematisk ræsonnering ved hjælp af problemer fra Putnam Mathematical Competition. - Benchmarket inkluderer 236 originale problemer og en variation med 52 ændrede problemer for at undgå datakontaminering. - OpenAI&#39;s bedst præsterende model opnåede 41,95% nøjagtighed på de originale problemer, men oplevede et betydeligt fald i ydeevne på cirka 30% på de ændrede problemer, hvilket fremhæver udfordringerne ved at tilpasse sig variationer.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42565606">Reaktioner</a></h3>
-<ul>
-<li>En undersøgelse afslørede en 30% reduktion i nøjagtigheden af o1-Preview-modellen på Putnam-problemer, når der blev introduceret mindre variationer, hvilket indikerer udfordringer for store sprogmodeller (LLM&#39;er) med små ændringer. - Resultaterne giver næring til debatten om, hvorvidt LLM&#39;er virkelig kan ræsonnere, eller om de primært afhænger af mønstergenkendelse og memorering, ligesom menneskelige fejl under pres. - På trods af disse udfordringer fortsætter modeller som o1 og o3 med at klare sig godt på komplekse matematiske problemer, selvom deres evne til at generalisere stadig er under granskning.</li>
-</ul>
-<h2><a href="https://www.cs.cmu.edu/~pavlo/blog/2025/01/2024-databases-retrospective.html">Databaser i 2024: Et år i gennemgang</a></h2>
-<ul>
-<li>Databaselandskabet i 2024 oplevede betydelige ændringer, herunder store opkøb, licensændringer og vedvarende rivaliseringer blandt nøglespillere som Redis, Elasticsearch, Databricks og Snowflake. - DuckDB blev populær til analytiske forespørgsler med integrationer i Postgres, mens bemærkelsesværdige udgivelser omfattede Amazon Aurora DSQL og Microsoft Garnet. - Opkøb som Tabular af Databricks og OrioleDB af Supabase var betydningsfulde, og på trods af tilbageslag som OtterTunes lukning forbliver industrien dynamisk med nye projekter og finansiering.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42566192">Reaktioner</a></h3>
-<ul>
-<li>Diskussionen kritiserer Redis&#39; API, hvor nogle hævder, at kritikken mangler en dyb forståelse af Redis&#39; design og dets unikke datamodel.</li>
-<li>Redis er anerkendt for sin effektive anvendelse i specifikke applikationer som ranglister og realtidssystemer, på trods af nogle kritikpunkter vedrørende API&#39;en.</li>
-<li>Konversationen udforsker også det bredere database-landskab, herunder udfordringer for startups, rollen af SQL og udviklingen af databaseteknologier, med vægt på vigtigheden af at forstå systemer, før man kritiserer dem.</li>
-</ul>
-<h2><a href="https://thoughts.wyounas.com/p/books-i-enjoyed-most-in-2024">De bøger, jeg elskede at læse i 2024</a></h2>
-<ul>
-<li>Listen indeholder en bred vifte af bøger, herunder historiske, filosofiske, videnskabelige og personlige fortællinger, som hver især tilbyder unikke indsigter og berigende oplevelser.</li>
-<li>Highlights inkluderer Ciceros breve for indsigt i det romerske liv, Ben-Aris værker om datalogisk logik og programverifikation, samt Steve Martins erindringer om komisk succes.</li>
-<li>Samlingen inkluderer også filosofiske udforskninger af Pierre Hadot og Nietzsche, græske tragedier af Aischylos samt litterære værker af Ursula Le Guin og Rabindranath Tagore.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42564687">Reaktioner</a></h3>
-<h2><a href="https://mathstodon.xyz/@tao/113721192051328193">Terence Tao: En af mine artikler blev afvist i dag</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42568399">Reaktioner</a></h3>
-<ul>
-<li>Terence Tao, en fremtrædende matematiker, delte en oplevelse med at få en artikel afvist, hvilket understreger den hyppige forekomst af afvisninger i akademia. Hans historie udløste diskussioner om den vilkårlige karakter af fagfællebedømmelser og de udfordringer, der opstår i akademisk udgivelse. Samtalen fremhævede, at afvisning er en normal del af den akademiske proces, selv for førende forskere, og understregede vigtigheden af at dele fiaskoer for at imødegå impostor-syndrom.</li>
-</ul>
-<h2><a href="https://apiparrot.com/">API Parrot – Automatisk reverse engineering af HTTP API&#39;er</a></h2>
-<ul>
-<li>API Parrot er et nyt værktøj designet til at forenkle automatiseringen af forretningsprocesser ved automatisk at identificere datakorrelations mellem API-anmodninger og give en grafisk flowrepræsentation. - Det giver brugerne mulighed for at optage anmodninger, definere input og output, og eksportere disse flows som JavaScript-kode, hvilket gør processen mere effektiv end manuel reverse engineering eller brug af mindre optimale teknologier som Robotic Process Automation (RPA). - Værktøjet er bygget på Electron og er tilgængeligt for både Windows og Linux platforme, med en vejledning tilgængelig for reverse engineering af USPS API.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42565821">Reaktioner</a></h3>
-<ul>
-<li>API Parrot er et værktøj, der automatiserer reverse engineering af HTTP API&#39;er, hvilket letter automatiseringen af forretningsprocesser ved at identificere datakorrelations mellem forespørgsler. - Det tilbyder funktioner som optagelse af forespørgsler, definition af input og output, og eksport af flows som JavaScript-kode med en grafisk flowrepræsentation. - API Parrot er i øjeblikket tilgængelig for Windows og Linux, er gratis, med en potentiel &quot;pro&quot;-version for virksomheder, og der er planer om en macOS-udgivelse i fremtiden.</li>
-</ul>
-<h2><a href="https://thehill.com/national-security/5061535-virginia-man-arrested-explosives/">FBI: Største lager af hjemmelavede sprængstoffer i agenturets historie fundet i Virginia</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42562529">Reaktioner</a></h3>
-<ul>
-<li>FBI afslørede det største lager af hjemmelavede sprængstoffer i sin historie i Virginia, hvilket førte til betydelig juridisk og offentlig debat.</li>
-<li>Den mistænkte er i øjeblikket kun sigtet for at besidde et kortløbet gevær, da lovligheden af hans skydevåben bliver undersøgt.</li>
-<li>Den sag har sat gang i diskussioner om våbenlove, det andet forfatningstillæg og balancen mellem statslig regulering og individuelle rettigheder.</li>
-</ul>
-<h2><a href="https://dgl.cx/2024/12/ghostty-terminal-title">Déjà vu: Spøgelses-CVEs i min terminaltitel</a></h2>
-<ul>
-<li>Ghostty, en ny terminalemulator, havde en sikkerhedssårbarhed, der lignede en fra 2003, som tillod ASCII escape-tegn at udføre kommandoer som at åbne applikationer. - Problemet var særligt problematisk med Zsh og Bash i vi-tilstand, men Ghostty 1.0.1 har løst dette ved at deaktivere funktionen som standard. - På trods af sikkerhedsfejlen bliver Ghostty rost for sine funktioner, og udvikleren adresserede hurtigt problemet ved at levere rettelser og løsninger til brugerne.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42562743">Reaktioner</a></h3>
-<ul>
-<li>Diskussionen fokuserer på sikkerhedssårbarheder i terminaler, især dem relateret til escape-sekvenser, og undersøger måder at mindske disse risici på. - Forslag til at forbedre terminalsikkerheden inkluderer at vedtage systemer, der ligner CPU-beskyttelsesringe eller OpenBSD&#39;s pledge() syscall, som begrænser kapaciteter for at forhindre udnyttelser. - Deltagerne anerkender udfordringen med at balancere sikkerhed med funktionalitet i terminalapplikationer og udtrykker interesse i yderligere udforskning og samarbejde for at forbedre sikkerhedspraksis.</li>
-</ul>
-<h2><a href="https://github.com/facebookresearch/large_concept_model">Store konceptmodeller: Sproglig modellering i et sætningsrepræsentationsrum</a></h2>
-<ul>
-<li>Arkivet tilbyder implementeringer for Large Concept Models (LCM), som anvender &quot;koncepter&quot; som en højere-niveau semantisk repræsentation til sprogmodellering.</li>
-<li>LCM understøtter 200 tekstsprog og 57 talesprog ved hjælp af SONAR-indlejringsrummet og er trænet til auto-regressiv sætningsforudsigelse med metoder som MSE-regression og diffusionsbaseret generering.</li>
-<li>Arkivet indeholder installationsinstruktioner, dataklargøring, træning, finjustering og evalueringsretningslinjer og er udgivet under MIT-licensen, ved brug af fairseq2 med UV og pip installationsmuligheder.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42563534">Reaktioner</a></h3>
-<ul>
-<li>Store konceptmodeller fokuserer på at repræsentere sprog i form af &quot;koncepter&quot; frem for individuelle tokens, med det formål at forbedre semantisk gruppering og forudsigelse.</li>
-<li>Metoden foreslår at bruge højere niveauer af repræsentationer til at efterligne menneskelig planlægning og kommunikation, hvilket potentielt kan tilbyde fordele i forhold til traditionelle token-baserede modeller.</li>
-<li>Tilgangen adresserer begrænsninger i de nuværende arkitekturer for store sprogmodeller (LLM) ved at lægge vægt på eksplicitte hierarkiske strukturer for bedre at efterligne menneskelig ræsonnering.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Godt nytår 2025" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Godt%20nyt%C3%A5r%202025&subheading=onsdag%20den%201.%20januar%202025%3A%20Resum%C3%A9%20af%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/da/2025/01/01</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Z</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

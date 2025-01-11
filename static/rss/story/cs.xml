@@ -15,11 +15,145 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Jan 2025 19:07:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jan 2025 19:29:05 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/story/cs.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
         <language><![CDATA[cs]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[„Buďte si vědomi efektu Makefile“]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>„„Efekt Makefile“ popisuje praxi, kdy inženýři kopírují a upravují existující složité konfigurace, jako jsou Makefiles, místo aby vytvářeli nové od začátku. - Tento přístup je rozšířený v různých systémech, jako jsou konfigurace pro Continuous Integration/Continuous Deployment (CI/CD) a systémy pro sestavování, a může naznačovat příliš složité nebo špatně navržené nástroje. - Ačkoli není inherentně negativní, efekt Makefile může bránit učení, komplikovat bezpečnost a vést k neefektivnímu ladění, což zdůrazňuje potřebu promyšleného návrhu nástrojů, které zohledňují konfigurovatelnost a snadnost použití.“</li>
+</ul>
+]]></description>
+            <link>https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Z„Buďte si vědomi efektu Makefile“</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[„Portály a Quake“]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>„Článek je prvním v sérii „Demystifying the PVS“, zaměřeným na předpočítaný systém viditelnosti ve hře Quake, který řeší problém překreslování, kdy jsou pixely vykreslovány vícekrát. - Quake využívá ořezávání portálů a potenciálně viditelné sady (PVS) tím, že svět dělí na buňky a portály, předpočítává viditelnost pro optimalizaci vykreslování. - Článek představuje třídy Portal a Leaf ve skriptu vis.py, což je Pythonová reimplementace algoritmu viditelnosti z Quake, a zdůrazňuje použití matice viditelnosti mezi listy.“</li>
+</ul>
+]]></description>
+            <link>https://30fps.net/pages/pvs-portals-and-quake/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Z„Portály a Quake“</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[„Opravy chyb Phi-4“]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://unsloth.ai/blog/phi4</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Z„Opravy chyb Phi-4“</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[„Velmi špatná matematika“]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>„Designérská a stavební firma udělala na Facebooku matematickou chybu, když nesprávně vypočítala poloměr Země jako 4 333 stop, což vedlo k výrazně podceněnému obvodu něco málo přes 5 mil.“</li>
+<li>„Chyba vznikla z výpočtu délek oblouků bez použití skutečného poloměru Země, který je přibližně 3 959 mil.“</li>
+<li>„Příspěvek zdůraznil, že vnější oblouk byl o méně než 1 % delší než vnitřní oblouk, což naznačuje možnou redukci doby letu díky sníženému odporu vzduchu.“</li>
+</ul>
+]]></description>
+            <link>https://www.charlespetzold.com/blog/2025/01/Very-Wrong-Math.html</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Z„Velmi špatná matematika“</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[„Stavba Bauble“]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>„Bauble je nástroj pro 3D modelování a renderování, který využívá podepsané vzdálenostní funkce (SDF) k vytváření složitých tvarů a animací. - Původně základní systém pro generování GLSL shaderů byl Bauble přepsán, aby zahrnoval funkce jako export 3D modelů, interaktivní úpravy a vlastní osvětlení. - Nástroj nyní podporuje vkládání na web, interaktivní úpravy vektorů a nabízí komplexní dokumentaci, což jej činí přístupným pro kreativní projekty a uživatele se zájmem o 3D design.“</li>
+</ul>
+]]></description>
+            <link>https://ianthehenry.com/posts/bauble/building-bauble/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Z„Stavba Bauble“</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[„Téměř všechny binární vyhledávání a mergesorty jsou rozbité (2006)“]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>„V roce 2006 Joshua Bloch identifikoval chybu v algoritmu binárního vyhledávání, původně zaznamenanou v knize Jona Bentleyho &#39;Programming Pearls&#39;, kde dochází k přetečení, když &#39;low&#39; a &#39;high&#39; překročí maximální hodnotu int.“</li>
+<li>„Tento bug, který ovlivňuje pole s délkou 2^30 nebo více, byl v 80. letech vzácný, ale dnes je běžnější, což také ovlivňuje mergesort a další algoritmy typu rozděl a panuj.“</li>
+<li>„Bloch doporučuje opravit problém výpočtem středu jako <code>int mid = low + ((high - low) / 2);</code>, čímž zdůrazňuje výzvy při psaní bezchybného kódu a nutnost důkladného testování.“</li>
+</ul>
+]]></description>
+            <link
+      >https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000Z„Téměř všechny binární vyhledávání a mergesorty jsou rozbité (2006)“</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[„Sledujte svá zařízení prostřednictvím sítě Apple FindMy v Go/TinyGo“]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>„Go Haystack umožňuje sledování osobních Bluetooth zařízení prostřednictvím sítě Apple „Find My“ bez potřeby Apple hardwaru, využívající OpenHaystack a Macless-Haystack s nástroji Go/TinyGo.“</li>
+<li>„Uživatelé mohou vytvářet vlastní majáky pomocí firmwaru TinyGo na hardwaru, jako jsou desky Adafruit Bluefruit a BBC Microbit, přičemž nastavení vyžaduje Apple ID s dvoufaktorovou autentizací (2FA).“</li>
+<li>„Proces zahrnuje instalaci nástroje go-haystack, použití příkazů jako <code>haystack scan</code> k vyhledání zařízení, generování klíčů, flashování zařízení a nahrání souboru JSON do macless-haystack pro zviditelnění zařízení v webovém rozhraní.“</li>
+</ul>
+]]></description>
+            <link>https://github.com/hybridgroup/go-haystack</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000Z„Sledujte svá zařízení prostřednictvím sítě Apple FindMy v Go/TinyGo“</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[„Stav editoru Vim“]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>„Po úmrtí zakladatele Vimu Brama Moolenaara v roce 2023 se komunita Vimu reorganizovala, aby zajistila pokračování vývoje projektu, přičemž současným správcem je Christian Brabandt. - Na VimConf 2024 bylo diskutováno, že tým se rozšířil a zaměřuje se na aktualizaci webových stránek Vimu, správu bezpečnosti a zlepšení komunikačních kanálů. - Vim zůstává v režimu údržby, přičemž prioritou jsou potřeby komunity a pečlivá integrace nových funkcí, a zároveň pokračuje v podpoře ICCF Holland, charitativní organizace založené Moolenaarom.“</li>
+</ul>
+]]></description>
+            <link>https://lwn.net/SubscriberLink/1002342/a8d8a17f30968b93/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Z„Stav editoru Vim“</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[„Zplošťování AST a dalších datových struktur kompilátoru (2023)“]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>„Příspěvek se zabývá zplošťováním datových struktur, což je technika pro kompilátory, která optimalizuje abstraktní syntaktické stromy (AST) použitím jednoho pole s indexy namísto ukazatelů. - Tato metoda zvyšuje výkon zlepšením lokality paměti, zmenšením velikosti referencí a zjednodušením správy paměti, což vede k 2,4násobnému zrychlení v mikroběnchmarku. - Technika je výrazně využívána v projektech v jazyce Rust a nabízí ergonomické výhody, jako je snadnější správa paměti, a je srovnávána s interprety bytekódu pro další zlepšení výkonu.“</li>
+</ul>
+]]></description>
+            <link>https://www.cs.cornell.edu/~asampson/blog/flattening.html</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000Z„Zplošťování AST a dalších datových struktur kompilátoru (2023)“</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[„Odstranění chytrých funkcí z Bluetooth reproduktoru Marshall Uxbridge“]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://tomscii.sig7.se/2025/01/De-smarting-the-Marshall-Uxbridge</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000Z„Odstranění chytrých funkcí z Bluetooth reproduktoru Marshall Uxbridge“</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title
+      ><![CDATA[„Bot od OpenAI zničil webové stránky této sedmičlenné společnosti 'jako DDoS útok'“]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>„E-commerce stránka Triplegangers zažila útok podobný DDoS kvůli botovi OpenAI, který provedl desítky tisíc požadavků na získání dat z více než 65 000 produktových stránek. - Stránka neměla správně nakonfigurovaný soubor robots.txt, který by takové boty blokoval, což vedlo ke zvýšeným nákladům na AWS a obavám o bezpečnost dat. - Tento incident zdůrazňuje důležitost toho, aby si AI společnosti vyžádaly povolení před získáváním dat, a slouží jako varování pro malé podniky, aby sledovaly aktivitu AI botů.“</li>
+</ul>
+]]></description>
+            <link
+      >https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000Z„Bot od OpenAI zničil webové stránky této sedmičlenné společnosti &apos;jako DDoS útok&apos;“</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[„Získal jsem novou super schopnost“]]></title>
             <description
@@ -996,132 +1130,6 @@
             <link>https://austinhenley.com/blog/25yearsofai.html</link>
             <guid isPermaLink="false">2025-01-02T00:00:00.000Z„Mých 25 let dobrodružství v oblasti AI a ML“</guid>
             <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[„Šťastný nový rok 2025“]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://news.ycombinator.com/item?id=42562750</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Z„Šťastný nový rok 2025“</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[„DOOM CAPTCHA“]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://doom-captcha.vercel.app/</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Z„DOOM CAPTCHA“</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[„Statické vyhledávací stromy: rychlejší než binární vyhledávání“]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>„Článek se zabývá implementací a optimalizací statických vyhledávacích stromů (S+ stromy) pro výrazně rychlejší vyhledávání v seřazených datech, dosahující rychlostí 40krát vyšších než tradiční binární vyhledávání. - Optimalizační techniky jako dávkování, přednačítání a manuální SIMD (Single Instruction, Multiple Data) jsou využívány k zvýšení propustnosti dotazů. - Článek také zkoumá různé rozvržení stromů, velikosti uzlů a strategie správy paměti, s diskusí o budoucí práci, jako je větvené vyhledávání a interpolace vyhledávání, pro další zlepšení efektivity vyhledávání.“</li>
-</ul>
-]]></description>
-            <link>https://curiouscoding.nl/posts/static-search-tree/</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000Z„Statické vyhledávací stromy: rychlejší než binární vyhledávání“</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[„30% pokles přesnosti o1-preview při mírné variaci Putnamových problémů“]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>„Putnam-AXIOM je benchmark navržený k hodnocení velkých jazykových modelů (LLM) v oblasti pokročilého matematického uvažování pomocí úloh z Putnamovy matematické soutěže. - Benchmark zahrnuje 236 původních úloh a variantu s 52 pozměněnými úlohami, aby se zabránilo kontaminaci dat. - Nejvýkonnější model OpenAI dosáhl 41,95% přesnosti na původních úlohách, ale zaznamenal výrazný pokles výkonu přibližně o 30% u pozměněných úloh, což poukazuje na výzvy při přizpůsobování se variacím.“</li>
-</ul>
-]]></description>
-            <link>https://openreview.net/forum?id=YXnwlZe0yf&amp;noteId=yrsGpHd0Sf</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000Z„30% pokles přesnosti o1-preview při mírné variaci Putnamových problémů“</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[„Databáze v roce 2024: Roční přehled“]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>„Databázová krajina v roce 2024 zažila významné změny, včetně velkých akvizic, změn licencí a pokračujících rivalit mezi klíčovými hráči jako Redis, Elasticsearch, Databricks a Snowflake. - DuckDB získal popularitu pro analytické dotazy, s integracemi do Postgres, zatímco mezi významné vydání patřily Amazon Aurora DSQL a Microsoft Garnet. - Akvizice jako Tabular od Databricks a OrioleDB od Supabase byly významné, a navzdory neúspěchům jako uzavření OtterTune zůstává průmysl dynamický s novými projekty a financováním.“</li>
-</ul>
-]]></description>
-            <link>https://www.cs.cmu.edu/~pavlo/blog/2025/01/2024-databases-retrospective.html</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Z„Databáze v roce 2024: Roční přehled“</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[„Knihy, které jsem rád četl v roce 2024“]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>„Seznam obsahuje rozmanitou škálu knih, včetně historických, filozofických, vědeckých a osobních vyprávění, z nichž každá nabízí jedinečné postřehy a obohacující zážitky.“</li>
-<li>„Mezi nejzajímavější patří Ciceronovy dopisy pro vhled do římského života, Ben-Ariho práce o logice počítačové vědy a ověřování programů a memoáry Stevea Martina o úspěchu v komedii.“</li>
-<li>„Sbírka také zahrnuje filozofické průzkumy od Pierra Hadota a Nietzscheho, řecké tragédie od Aischyla a literární díla od Ursuly Le Guin a Rabíndranátha Thákura.“</li>
-</ul>
-]]></description>
-            <link>https://thoughts.wyounas.com/p/books-i-enjoyed-most-in-2024</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Z„Knihy, které jsem rád četl v roce 2024“</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[„Terence Tao: Jeden z mých článků byl dnes zamítnut.“]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://mathstodon.xyz/@tao/113721192051328193</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000Z„Terence Tao: Jeden z mých článků byl dnes zamítnut.“</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[„API Parrot – Automaticky reverzní inženýrství HTTP API“]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>„API Parrot je nový nástroj navržený k zjednodušení automatizace obchodních procesů automatickým identifikováním datových korelací mezi API požadavky a poskytováním grafického znázornění toku. - Umožňuje uživatelům zaznamenávat požadavky, definovat vstupy a výstupy a exportovat tyto toky jako JavaScriptový kód, což činí proces efektivnějším než manuální reverzní inženýrství nebo používání méně optimálních technologií, jako je Robotic Process Automation (RPA). - Nástroj je postaven na platformě Electron a je dostupný pro Windows i Linux, s dostupným tutoriálem pro reverzní inženýrství API USPS.“</li>
-</ul>
-]]></description>
-            <link>https://apiparrot.com/</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000Z„API Parrot – Automaticky reverzní inženýrství HTTP API“</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title
-      ><![CDATA[„FBI: Největší zásoba podomácku vyrobených výbušnin v historii agentury nalezena ve Virginii“]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://thehill.com/national-security/5061535-virginia-man-arrested-explosives/</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000Z„FBI: Největší zásoba podomácku vyrobených výbušnin v historii agentury nalezena ve Virginii“</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[„Déjà vu: Strašidelné CVE v názvu mého terminálu“]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>„Ghostty, nový terminálový emulátor, měl bezpečnostní zranitelnost podobnou té z roku 2003, která umožňovala ASCII escape znakům spouštět příkazy, jako je otevírání aplikací. - Problém byl obzvláště problematický s Zsh a Bash v režimu vi, ale Ghostty 1.0.1 to vyřešil tím, že tuto funkci ve výchozím nastavení deaktivoval. - Navzdory bezpečnostní chybě je Ghostty chválen za své funkce a vývojář rychle řešil problém, poskytl opravy a řešení pro uživatele.“</li>
-</ul>
-]]></description>
-            <link>https://dgl.cx/2024/12/ghostty-terminal-title</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Z„Déjà vu: Strašidelné CVE v názvu mého terminálu“</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[„Velké konceptuální modely: Jazykové modelování v prostoru reprezentace vět“]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>„Úložiště nabízí implementace pro velké konceptuální modely (LCM), které využívají „koncepty“ jako vyšší úroveň sémantické reprezentace pro modelování jazyka.“</li>
-<li>„LCM podporuje 200 textových jazyků a 57 mluvených jazyků pomocí SONAR embedding prostoru a je trénován pro auto-regresivní predikci vět s metodami jako MSE regrese a generování založené na difuzi.“</li>
-<li>„Úložiště poskytuje pokyny k instalaci, přípravě dat, tréninku, doladění a hodnocení, a je vydáno pod licencí MIT, s použitím fairseq2 s možnostmi instalace UV a pip.“</li>
-</ul>
-]]></description>
-            <link>https://github.com/facebookresearch/large_concept_model</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000Z„Velké konceptuální modely: Jazykové modelování v prostoru reprezentace vět“</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

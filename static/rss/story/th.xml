@@ -15,11 +15,142 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Jan 2025 19:07:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jan 2025 19:29:05 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/story/th.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
         <language><![CDATA[th]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[ระวังผลกระทบของ Makefile]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>คำว่า &quot;Makefile effect&quot; อธิบายถึงการปฏิบัติของวิศวกรที่คัดลอกและปรับเปลี่ยนการตั้งค่าที่ซับซ้อนที่มีอยู่แล้ว เช่น Makefiles แทนที่จะสร้างใหม่ตั้งแต่ต้น - วิธีการนี้แพร่หลายในระบบต่าง ๆ เช่น การตั้งค่าการรวมและการปรับใช้ต่อเนื่อง (CI/CD) และระบบการสร้าง ซึ่งอาจบ่งบอกถึงเครื่องมือที่ซับซ้อนเกินไปหรือออกแบบไม่ดี - แม้จะไม่ใช่เรื่องลบโดยเนื้อแท้ แต่ Makefile effect อาจขัดขวางการเรียนรู้ ทำให้ความปลอดภัยซับซ้อนขึ้น และนำไปสู่การดีบักที่ไม่มีประสิทธิภาพ ซึ่งเน้นถึงความจำเป็นในการออกแบบเครื่องมืออย่างรอบคอบที่คำนึงถึงความสามารถในการกำหนดค่าและความง่ายในการใช้งาน</li>
+</ul>
+]]></description>
+            <link>https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Zระวังผลกระทบของ Makefile</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[พอร์ทัลและเควก]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>บทความนี้เป็นบทความแรกในซีรีส์ &quot;Demystifying the PVS&quot; ที่มุ่งเน้นไปที่ระบบการมองเห็นที่คำนวณล่วงหน้าของ Quake เพื่อแก้ไขปัญหาการวาดทับซ้อน ซึ่งพิกเซลถูกเรนเดอร์หลายครั้ง - Quake ใช้การตัดทอนด้วยพอร์ทัลและชุดที่อาจมองเห็นได้ (PVS) โดยการแบ่งโลกออกเป็นเซลล์และพอร์ทัล คำนวณการมองเห็นล่วงหน้าเพื่อเพิ่มประสิทธิภาพการเรนเดอร์ - บทความนี้แนะนำคลาส Portal และ Leaf ใน vis.py ซึ่งเป็นการนำอัลกอริทึมการมองเห็นของ Quake มาใช้ใหม่ใน Python โดยเน้นการใช้เมทริกซ์การมองเห็นจากใบหนึ่งไปยังอีกใบหนึ่ง</li>
+</ul>
+]]></description>
+            <link>https://30fps.net/pages/pvs-portals-and-quake/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Zพอร์ทัลและเควก</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[การแก้ไขข้อบกพร่อง Phi-4]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://unsloth.ai/blog/phi4</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Zการแก้ไขข้อบกพร่อง Phi-4</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[คณิตศาสตร์ที่ผิดมาก]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>บริษัทออกแบบและก่อสร้างทำข้อผิดพลาดทางคณิตศาสตร์บน Facebook โดยคำนวณรัศมีของโลกผิดเป็น 4,333 ฟุต ทำให้เส้นรอบวงที่คำนวณได้ต่ำกว่าความเป็นจริงอย่างมากเพียงแค่กว่า 5 ไมล์เท่านั้น</li>
+<li>ข้อผิดพลาดเกิดจากการคำนวณความยาวของส่วนโค้งโดยไม่ใช้รัศมีจริงของโลก ซึ่งประมาณ 3,959 ไมล์</li>
+<li>โพสต์ระบุว่าเส้นโค้งด้านนอกยาวกว่าเส้นโค้งด้านในน้อยกว่า 1% ซึ่งบ่งบอกถึงความเป็นไปได้ในการลดเวลาในการบินเนื่องจากความต้านทานอากาศที่ลดลง</li>
+</ul>
+]]></description>
+            <link>https://www.charlespetzold.com/blog/2025/01/Very-Wrong-Math.html</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Zคณิตศาสตร์ที่ผิดมาก</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[การสร้างลูกบอล]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Bauble เป็นเครื่องมือสำหรับการสร้างแบบจำลอง 3 มิติและการเรนเดอร์ที่ใช้ฟังก์ชันระยะทางที่ลงนาม (SDFs) เพื่อสร้างรูปร่างและแอนิเมชันที่ซับซ้อน - เริ่มแรกเป็นระบบพื้นฐานสำหรับการสร้าง GLSL shaders, Bauble ได้รับการเขียนใหม่เพื่อรวมคุณสมบัติต่างๆ เช่น การส่งออกโมเดล 3 มิติ, การแก้ไขแบบโต้ตอบ, และการจัดแสงที่กำหนดเอง - เครื่องมือนี้ตอนนี้รองรับการฝังเว็บ, การแก้ไขเวกเตอร์แบบโต้ตอบ, และมีเอกสารประกอบที่ครอบคลุม ทำให้สามารถเข้าถึงได้สำหรับโครงการสร้างสรรค์และผู้ใช้ที่สนใจในการออกแบบ 3 มิติ</li>
+</ul>
+]]></description>
+            <link>https://ianthehenry.com/posts/bauble/building-bauble/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Zการสร้างลูกบอล</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[การค้นหาแบบทวิภาคและการเรียงลำดับแบบผสานเกือบทั้งหมดมีข้อบกพร่อง (2006)]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>ในปี 2006, Joshua Bloch ได้ระบุข้อบกพร่องในอัลกอริทึมการค้นหาแบบทวิภาค ซึ่งถูกกล่าวถึงครั้งแรกในหนังสือ &quot;Programming Pearls&quot; ของ Jon Bentley โดยที่เกิดการล้นค่าเมื่อ &#39;low&#39; และ &#39;high&#39; เกินค่ามากที่สุดของ int</li>
+<li>บั๊กนี้ซึ่งส่งผลกระทบต่ออาร์เรย์ที่มีความยาว 2^30 หรือมากกว่านั้น เคยพบได้ยากในช่วงทศวรรษ 1980 แต่ปัจจุบันพบได้บ่อยขึ้น และยังส่งผลกระทบต่อการเรียงลำดับแบบผสานและอัลกอริทึมแบบแบ่งและพิชิตอื่น ๆ ด้วย</li>
+<li>Bloch แนะนำให้แก้ปัญหาโดยการคำนวณจุดกึ่งกลางเป็น <code>int mid = low + ((high - low) / 2);</code> ซึ่งเน้นถึงความท้าทายในการเขียนโค้ดที่ปราศจากข้อผิดพลาดและความจำเป็นในการทดสอบอย่างละเอียดถี่ถ้วน</li>
+</ul>
+]]></description>
+            <link
+      >https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000Zการค้นหาแบบทวิภาคและการเรียงลำดับแบบผสานเกือบทั้งหมดมีข้อบกพร่อง (2006)</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ติดตามอุปกรณ์ของคุณผ่านเครือข่าย Apple FindMy ใน Go/TinyGo]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Go Haystack ช่วยให้สามารถติดตามอุปกรณ์ Bluetooth ส่วนบุคคลผ่านเครือข่าย &quot;Find My&quot; ของ Apple โดยไม่ต้องใช้อุปกรณ์ของ Apple โดยใช้ OpenHaystack และ Macless-Haystack ร่วมกับเครื่องมือ Go/TinyGo</li>
+<li>ผู้ใช้สามารถสร้างบีคอนของตนเองโดยใช้เฟิร์มแวร์ TinyGo บนฮาร์ดแวร์เช่นบอร์ด Adafruit Bluefruit และ BBC Microbit โดยการตั้งค่าต้องใช้ Apple ID ที่มีการยืนยันตัวตนสองขั้นตอน (2FA)</li>
+<li>กระบวนการนี้เกี่ยวข้องกับการติดตั้งเครื่องมือ go-haystack โดยใช้คำสั่งเช่น <code>haystack scan</code> เพื่อค้นหาอุปกรณ์ สร้างคีย์ แฟลชอุปกรณ์ และอัปโหลดไฟล์ JSON ไปยัง macless-haystack เพื่อให้เห็นอุปกรณ์ในเว็บ UI</li>
+</ul>
+]]></description>
+            <link>https://github.com/hybridgroup/go-haystack</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000Zติดตามอุปกรณ์ของคุณผ่านเครือข่าย Apple FindMy ใน Go/TinyGo</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[สถานะของ Vim]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>หลังจากการจากไปของ Bram Moolenaar ผู้ก่อตั้ง Vim ในปี 2023 ชุมชน Vim ได้จัดระเบียบใหม่เพื่อให้แน่ใจว่าการพัฒนาของโครงการจะดำเนินต่อไป โดยมี Christian Brabandt เป็นผู้ดูแลในปัจจุบัน - ที่งาน VimConf 2024 ได้มีการพูดคุยกันว่าทีมได้ขยายตัว โดยมุ่งเน้นไปที่การอัปเดตเว็บไซต์ของ Vim การจัดการความปลอดภัย และการปรับปรุงช่องทางการสื่อสาร - Vim ยังคงอยู่ในโหมดการบำรุงรักษา โดยให้ความสำคัญกับความต้องการของชุมชนและการผนวกคุณสมบัติใหม่อย่างระมัดระวัง ในขณะที่ยังคงสนับสนุน ICCF Holland ซึ่งเป็นองค์กรการกุศลที่ก่อตั้งโดย Moolenaar</li>
+</ul>
+]]></description>
+            <link>https://lwn.net/SubscriberLink/1002342/a8d8a17f30968b93/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Zสถานะของ Vim</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[การทำให้ ASTs และโครงสร้างข้อมูลคอมไพเลอร์อื่น ๆ แบนราบ (2023)]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>โพสต์นี้พูดถึงการทำให้โครงสร้างข้อมูลแบนราบ ซึ่งเป็นเทคนิคสำหรับคอมไพเลอร์ที่เพิ่มประสิทธิภาพต้นไม้ไวยากรณ์เชิงนามธรรม (ASTs) โดยใช้อาเรย์เดียวกับดัชนีแทนการใช้พอยน์เตอร์ - วิธีนี้ช่วยเพิ่มประสิทธิภาพโดยการปรับปรุงการเข้าถึงหน่วยความจำ ลดขนาดการอ้างอิง และทำให้การจัดการหน่วยความจำง่ายขึ้น ส่งผลให้มีความเร็วเพิ่มขึ้น 2.4 เท่าในไมโครบีชมาร์ก - เทคนิคนี้ถูกใช้ในโครงการของ Rust อย่างเด่นชัดและมีประโยชน์ในด้านการใช้งาน เช่น การจัดการหน่วยความจำที่ง่ายขึ้น และถูกเปรียบเทียบกับตัวแปลไบต์โค้ดเพื่อการปรับปรุงประสิทธิภาพเพิ่มเติม</li>
+</ul>
+]]></description>
+            <link>https://www.cs.cornell.edu/~asampson/blog/flattening.html</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000Zการทำให้ ASTs และโครงสร้างข้อมูลคอมไพเลอร์อื่น ๆ แบนราบ (2023)</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[การทำให้ลำโพง Marshall Uxbridge Bluetooth ไม่ฉลาด]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://tomscii.sig7.se/2025/01/De-smarting-the-Marshall-Uxbridge</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Zการทำให้ลำโพง Marshall Uxbridge Bluetooth ไม่ฉลาด</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[บอทของ OpenAI ทำให้เว็บไซต์ของบริษัทที่มีพนักงานเจ็ดคนนี้ล่มเหมือนการโจมตี DDoS]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>เว็บไซต์อีคอมเมิร์ซของ Triplegangers ประสบกับการโจมตีคล้าย DDoS เนื่องจากบอทของ OpenAI ทำการร้องขอหลายหมื่นครั้งเพื่อดึงข้อมูลจากหน้าผลิตภัณฑ์กว่า 65,000 หน้า - เว็บไซต์ขาดการตั้งค่าไฟล์ robots.txt ที่เหมาะสมเพื่อบล็อกบอทดังกล่าว ทำให้ค่าใช้จ่าย AWS เพิ่มขึ้นและเกิดความกังวลเกี่ยวกับความปลอดภัยของข้อมูล - เหตุการณ์นี้เน้นย้ำถึงความสำคัญของบริษัท AI ในการขออนุญาตก่อนการดึงข้อมูล และเป็นการเตือนให้ธุรกิจขนาดเล็กเฝ้าระวังกิจกรรมของบอท AI</li>
+</ul>
+]]></description>
+            <link
+      >https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000Zบอทของ OpenAI ทำให้เว็บไซต์ของบริษัทที่มีพนักงานเจ็ดคนนี้ล่มเหมือนการโจมตี DDoS</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[ฉันได้พลังวิเศษใหม่]]></title>
             <description
@@ -982,130 +1113,6 @@
             <link>https://austinhenley.com/blog/25yearsofai.html</link>
             <guid isPermaLink="false">2025-01-02T00:00:00.000Zการผจญภัย 25 ปีของฉันใน AI และ ML</guid>
             <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[สวัสดีปีใหม่ 2025]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://news.ycombinator.com/item?id=42562750</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Zสวัสดีปีใหม่ 2025</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ดูม แคปช่า]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://doom-captcha.vercel.app/</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Zดูม แคปช่า</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ต้นไม้ค้นหาแบบคงที่: เร็วกว่าการค้นหาแบบทวิภาค]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>บทความนี้กล่าวถึงการนำไปใช้และการปรับแต่งต้นไม้ค้นหาแบบสถิต (S+ trees) เพื่อการค้นหาข้อมูลที่เรียงลำดับได้เร็วขึ้นอย่างมาก โดยมีความเร็วถึง 40 เท่าของการค้นหาแบบไบนารีแบบดั้งเดิม - เทคนิคการปรับแต่งเช่นการจัดกลุ่ม, การดึงข้อมูลล่วงหน้า, และ SIMD (Single Instruction, Multiple Data) แบบแมนนวลถูกนำมาใช้เพื่อเพิ่มประสิทธิภาพการประมวลผลคำค้นหา - บทความยังสำรวจรูปแบบต้นไม้ต่างๆ, ขนาดของโหนด, และกลยุทธ์การจัดการหน่วยความจำ พร้อมกับการอภิปรายเกี่ยวกับงานในอนาคตเช่นการค้นหาแบบมีสาขาและการค้นหาแบบแทรกเพื่อปรับปรุงประสิทธิภาพการค้นหาให้ดียิ่งขึ้น</li>
-</ul>
-]]></description>
-            <link>https://curiouscoding.nl/posts/static-search-tree/</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Zต้นไม้ค้นหาแบบคงที่: เร็วกว่าการค้นหาแบบทวิภาค</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ความแม่นยำของการพรีวิว o1 ลดลง 30% เมื่อปัญหา Putnam มีการเปลี่ยนแปลงเล็กน้อย]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Putnam-AXIOM เป็นเกณฑ์มาตรฐานที่ออกแบบมาเพื่อประเมินโมเดลภาษาขนาดใหญ่ (LLMs) ในการใช้เหตุผลทางคณิตศาสตร์ขั้นสูงโดยใช้ปัญหาจากการแข่งขันคณิตศาสตร์ Putnam - เกณฑ์มาตรฐานนี้รวมถึงปัญหาต้นฉบับ 236 ข้อและรูปแบบที่มีการเปลี่ยนแปลง 52 ข้อเพื่อหลีกเลี่ยงการปนเปื้อนของข้อมูล - โมเดลที่มีประสิทธิภาพสูงสุดของ OpenAI ทำได้ 41.95% ความแม่นยำในปัญหาต้นฉบับ แต่ประสบกับการลดลงของประสิทธิภาพอย่างมีนัยสำคัญประมาณ 30% ในปัญหาที่มีการเปลี่ยนแปลง ซึ่งเน้นถึงความท้าทายในการปรับตัวให้เข้ากับความหลากหลาย</li>
-</ul>
-]]></description>
-            <link>https://openreview.net/forum?id=YXnwlZe0yf&amp;noteId=yrsGpHd0Sf</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000Zความแม่นยำของการพรีวิว o1 ลดลง 30% เมื่อปัญหา Putnam มีการเปลี่ยนแปลงเล็กน้อย</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ฐานข้อมูลในปี 2024: สรุปประจำปี]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>ภูมิทัศน์ของฐานข้อมูลในปี 2024 มีการเปลี่ยนแปลงที่สำคัญ รวมถึงการเข้าซื้อกิจการครั้งใหญ่ การเปลี่ยนแปลงใบอนุญาต และการแข่งขันอย่างต่อเนื่องระหว่างผู้เล่นหลักอย่าง Redis, Elasticsearch, Databricks และ Snowflake - DuckDB ได้รับความนิยมสำหรับการวิเคราะห์ข้อมูล โดยมีการผสานรวมเข้ากับ Postgres ในขณะที่การเปิดตัวที่น่าสนใจรวมถึง Amazon Aurora DSQL และ Microsoft Garnet - การเข้าซื้อกิจการเช่น Tabular โดย Databricks และ OrioleDB โดย Supabase มีความสำคัญ และแม้จะมีอุปสรรคเช่นการปิดตัวของ OtterTune อุตสาหกรรมยังคงมีความเคลื่อนไหวด้วยโครงการใหม่และการระดมทุน</li>
-</ul>
-]]></description>
-            <link>https://www.cs.cmu.edu/~pavlo/blog/2025/01/2024-databases-retrospective.html</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Zฐานข้อมูลในปี 2024: สรุปประจำปี</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[หนังสือที่ฉันชอบอ่านในปี 2024]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>รายการนี้ประกอบด้วยหนังสือหลากหลายประเภท รวมถึงประวัติศาสตร์ ปรัชญา วิทยาศาสตร์ และเรื่องเล่าส่วนบุคคล ซึ่งแต่ละเล่มมอบมุมมองที่เป็นเอกลักษณ์และประสบการณ์ที่เสริมสร้างความรู้</li>
-<li>ไฮไลท์รวมถึงจดหมายของซิเซโรเพื่อให้เข้าใจชีวิตชาวโรมัน, ผลงานของเบน-อารีเกี่ยวกับตรรกะวิทยาการคอมพิวเตอร์และการตรวจสอบโปรแกรม, และบันทึกความทรงจำของสตีฟ มาร์ตินเกี่ยวกับความสำเร็จในด้านตลก</li>
-<li>คอลเลกชันนี้ยังรวมถึงการสำรวจทางปรัชญาโดย Pierre Hadot และ Nietzsche, โศกนาฏกรรมกรีกโดย Aeschylus, และผลงานวรรณกรรมโดย Ursula Le Guin และ Rabindranath Tagore</li>
-</ul>
-]]></description>
-            <link>https://thoughts.wyounas.com/p/books-i-enjoyed-most-in-2024</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Zหนังสือที่ฉันชอบอ่านในปี 2024</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[เทอเรนซ์ เทา: หนึ่งในงานวิจัยของฉันถูกปฏิเสธในวันนี้]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://mathstodon.xyz/@tao/113721192051328193</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000Zเทอเรนซ์ เทา: หนึ่งในงานวิจัยของฉันถูกปฏิเสธในวันนี้</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[API Parrot – วิศวกรรมย้อนกลับ HTTP APIs โดยอัตโนมัติ]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>API Parrot เป็นเครื่องมือใหม่ที่ออกแบบมาเพื่อทำให้การทำงานอัตโนมัติของกระบวนการทางธุรกิจง่ายขึ้น โดยการระบุความสัมพันธ์ของข้อมูลระหว่างคำขอ API โดยอัตโนมัติและให้การแสดงผลการไหลในรูปแบบกราฟิก - มันช่วยให้ผู้ใช้สามารถบันทึกคำขอ กำหนดอินพุตและเอาต์พุต และส่งออกการไหลเหล่านี้เป็นโค้ด JavaScript ทำให้กระบวนการมีประสิทธิภาพมากกว่าการวิศวกรรมย้อนกลับด้วยตนเองหรือการใช้เทคโนโลยีที่ไม่เหมาะสมเช่น Robotic Process Automation (RPA) - เครื่องมือนี้สร้างขึ้นบน Electron และสามารถใช้งานได้ทั้งบนแพลตฟอร์ม Windows และ Linux พร้อมด้วยบทแนะนำสำหรับการวิศวกรรมย้อนกลับ USPS API</li>
-</ul>
-]]></description>
-            <link>https://apiparrot.com/</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZAPI Parrot – วิศวกรรมย้อนกลับ HTTP APIs โดยอัตโนมัติ</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title
-      ><![CDATA[เอฟบีไอ: พบคลังวัตถุระเบิดทำเองที่ใหญ่ที่สุดในประวัติศาสตร์ของหน่วยงานในเวอร์จิเนีย]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://thehill.com/national-security/5061535-virginia-man-arrested-explosives/</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000Zเอฟบีไอ: พบคลังวัตถุระเบิดทำเองที่ใหญ่ที่สุดในประวัติศาสตร์ของหน่วยงานในเวอร์จิเนีย</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[เดจาวู: CVE ผีในชื่อเทอร์มินัลของฉัน]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Ghostty, เทอร์มินัลอีมูเลเตอร์ใหม่, มีช่องโหว่ด้านความปลอดภัยคล้ายกับช่องโหว่ในปี 2003 ที่อนุญาตให้ตัวอักษร ASCII escape สามารถรันคำสั่งเช่นการเปิดแอปพลิเคชันได้ - ปัญหานี้มีความรุนแรงโดยเฉพาะกับ Zsh และ Bash ในโหมด vi แต่ Ghostty 1.0.1 ได้แก้ไขปัญหานี้โดยการปิดฟีเจอร์นี้เป็นค่าเริ่มต้น - แม้จะมีข้อบกพร่องด้านความปลอดภัย แต่ Ghostty ก็ได้รับคำชมเชยในเรื่องของฟีเจอร์ และนักพัฒนาได้แก้ไขปัญหาอย่างรวดเร็ว โดยให้การแก้ไขและวิธีแก้ปัญหาสำหรับผู้ใช้</li>
-</ul>
-]]></description>
-            <link>https://dgl.cx/2024/12/ghostty-terminal-title</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Zเดจาวู: CVE ผีในชื่อเทอร์มินัลของฉัน</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[โมเดลแนวคิดขนาดใหญ่: การสร้างแบบจำลองภาษาในพื้นที่การแทนประโยค]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>ที่เก็บข้อมูลนี้มีการใช้งานสำหรับโมเดลแนวคิดขนาดใหญ่ (LCM) ซึ่งใช้ &quot;แนวคิด&quot; เป็นการแทนความหมายในระดับสูงสำหรับการสร้างแบบจำลองภาษา</li>
-<li>LCM รองรับ 200 ภาษาข้อความและ 57 ภาษาพูดโดยใช้พื้นที่ฝังตัว SONAR และได้รับการฝึกฝนสำหรับการทำนายประโยคแบบอัตโนมัติถอยหลังด้วยวิธีการเช่น การถดถอย MSE และการสร้างแบบกระจาย</li>
-<li>ที่เก็บข้อมูลนี้มีคำแนะนำในการติดตั้ง การเตรียมข้อมูล การฝึกอบรม การปรับแต่ง และแนวทางการประเมินผล และเผยแพร่ภายใต้ใบอนุญาต MIT โดยใช้ fairseq2 พร้อมตัวเลือกการติดตั้ง UV และ pip</li>
-</ul>
-]]></description>
-            <link>https://github.com/facebookresearch/large_concept_model</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000Zโมเดลแนวคิดขนาดใหญ่: การสร้างแบบจำลองภาษาในพื้นที่การแทนประโยค</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

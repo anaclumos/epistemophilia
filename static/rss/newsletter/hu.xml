@@ -15,12 +15,132 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Jan 2025 19:07:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jan 2025 19:29:06 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/hu.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[hu]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-11]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/11&#39;</h2>
+<h1>2025-01-11</h1>
+<h2><a href="https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect">„Legyen tisztában a Makefile hatással”</a></h2>
+<ul>
+<li>„A „Makefile hatás” azt a gyakorlatot írja le, amikor a mérnökök meglévő, összetett konfigurációkat, például Makefile-okat másolnak és módosítanak, ahelyett, hogy újakat hoznának létre a semmiből. - Ez a megközelítés elterjedt különböző rendszerekben, mint például a Folyamatos Integráció/Folyamatos Telepítés (CI/CD) konfigurációk és a build rendszerek, és jelezheti a túlzottan összetett vagy rosszul tervezett eszközöket. - Bár önmagában nem negatív, a Makefile hatás akadályozhatja a tanulást, bonyolíthatja a biztonságot, és hatástalan hibakereséshez vezethet, kiemelve a gondos eszköztervezés szükségességét, amely figyelembe veszi a konfigurálhatóságot és a használhatóságot.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42663231">Reakciók</a></h3>
+<ul>
+<li>A „Makefile-hatás” azt a jelenséget írja le, amikor a fejlesztők hajlamosak kódot vagy konfigurációkat másolni és módosítani anélkül, hogy teljesen megértenék azokat, gyakran az eszközök összetettsége vagy ritka használatuk miatt.</li>
+<li>„Ez a jelenség széles körben elterjedt a programozási és konfigurációs feladatok során, ahol a fejlesztők ismert megoldásokat használnak az idő és erőfeszítés megtakarítása érdekében, ami potenciálisan nehezen karbantartható kódhoz vezethet.”</li>
+<li>„A vita hangsúlyozza annak szükségességét, hogy egyensúlyt teremtsünk a sablonok és meglévő megoldások használata, valamint az eszközök és rendszerek mélyebb megértése között.”</li>
+</ul>
+<h2><a href="https://30fps.net/pages/pvs-portals-and-quake/">„Portálok és Quake”</a></h2>
+<ul>
+<li>„A cikk a &quot;Demystifying the PVS&quot; sorozat első része, amely a Quake előre számított láthatósági rendszerére összpontosít, hogy kezelje a túlhúzást, ahol a pixelek többször kerülnek renderelésre. - A Quake portálos levágást és potenciálisan látható készleteket (PVS) használ azáltal, hogy a világot cellákra és portálokra osztja, előre számítva a láthatóságot a renderelés optimalizálása érdekében. - A cikk bemutatja a Portal és Leaf osztályokat a vis.py-ben, a Quake láthatósági algoritmusának Python újraimplementációjában, kiemelve a levélről levélre láthatósági mátrix használatát.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42661185">Reakciók</a></h3>
+<ul>
+<li>„A Quake szinttervezői &quot;hint&quot; ecseteket és &quot;területportálokat&quot; használtak a játék teljesítményének optimalizálására, ami alapvető technika a 3D grafikában. - Az olyan játékok, mint a Prey és a Portal, a portálokat a játékmenet mechanikájának középpontjába helyezték, bár a koncepciót már a korai 3D grafikában is használták a rendereléshez. - Az Unreal Engine 1 zónákat alkalmazott az optimalizálás érdekében, és a modern motorok, mint például az Unreal Engine 5, továbbra is hasonló módszereket használnak a renderelési hatékonyság növelésére.”</li>
+</ul>
+<h2><a href="https://unsloth.ai/blog/phi4">„Phi-4 hibajavítások”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42660335">Reakciók</a></h3>
+<ul>
+<li>„Daniel Hanchen felfedezte és megoldotta a hibákat a Microsoft Phi-4 Nagy Nyelvi Modelljében (LLM), mint például a mondatvégi problémákat és a csevegési sablonokkal kapcsolatos hibákat. - Átalakította a Phi-4-et a Llama architektúrára, javítva ezzel a teljesítményt, és megosztotta a javításokat a Hugging Face platformon, amely gépi tanulási modellek számára készült. - Elérhető egy Colab jegyzetfüzet a Phi-4 finomhangolásához, és bár a javítások javították a teljesítményt néhány mércén, másokon csökkentették azt; a Phi-4 csapata azon dolgozik, hogy ezeket a fejlesztéseket integrálja az eredeti modellbe.”</li>
+</ul>
+<h2><a href="https://www.charlespetzold.com/blog/2025/01/Very-Wrong-Math.html">„Nagyon rossz matematika”</a></h2>
+<ul>
+<li>„Egy tervező és építő cég matematikai hibát követett el a Facebookon, tévesen számítva a Föld sugarát 4,333 lábnak, ami egy jelentősen alábecsült, alig több mint 5 mérföldes kerülethez vezetett.”</li>
+<li>„A hiba abból adódott, hogy az ívhosszakat a Föld tényleges sugara nélkül számították ki, amely körülbelül 3 959 mérföld.”</li>
+<li>„A bejegyzés kiemelte, hogy a külső ív kevesebb mint 1%-kal hosszabb volt, mint a belső ív, ami a légellenállás csökkenése miatt a repülési idő potenciális csökkenését sugallja.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42661432">Reakciók</a></h3>
+<ul>
+<li>„Egy YouTube építő tévesen állította, hogy a függőónok párhuzamosak lennének egy lapos Földön, félreértve a Föld görbületét, amely ilyen méréseknél elhanyagolható. - A vita rávilágított az intuíció kudarcára a nagyszabású fogalmak megértésében, és foglalkozott a lapos Föld elméletekkel, a gravitációs tévhitekkel, valamint a Föld forgásának repülésre gyakorolt hatásaival. - A beszélgetés humorosan vizsgálta a helytelen hiedelmek kitartását és a tudományos fogalmak magyarázatának nehézségeit azok számára, akik elutasítják a bevett tudományt.”</li>
+</ul>
+<h2><a href="https://ianthehenry.com/posts/bauble/building-bauble/">„Építési Dísz”</a></h2>
+<ul>
+<li>„A Bauble egy 3D modellező és renderelő eszköz, amely aláírt távolságfüggvényeket (SDF-eket) használ komplex formák és animációk létrehozására. - Kezdetben egy alapvető rendszer volt GLSL shaderek generálására, de a Bauble-t újraírták, hogy olyan funkciókat tartalmazzon, mint a 3D modell exportálás, interaktív szerkesztés és egyedi világítás. - Az eszköz most már támogatja a webes beágyazást, az interaktív vektorszerkesztést, és átfogó dokumentációt kínál, így elérhetővé válik kreatív projektekhez és a 3D tervezés iránt érdeklődő felhasználók számára.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42660942">Reakciók</a></h3>
+<ul>
+<li>„A Building Bauble, egy projekt, amely az ianthehenry.com oldalon szerepel, izgalmat keltett azáltal, hogy bemutatja a programozás varázsát és élvezetét, különösen a kódolás és a grafika terén.”</li>
+<li>„A projektet dicsérik kreativitásáért és részletes leírásáért, amely arra ösztönzi az olvasókat, hogy térjenek vissza befejezetlen projektjeikhez, és fedezzenek fel új technológiákat, mint például a Janet (egy programozási nyelv) és a GLSL (OpenGL Shading Language).”</li>
+<li>„Annak ellenére, hogy néhány technikai probléma merült fel a Safariban, a projektet lenyűgöző kivitelezése és lebilincselő fejlesztési története miatt ünneplik, ami beszélgetéseket indított el a személyes projektekről és az RSS-olvasók használatáról.”</li>
+</ul>
+<h2><a href="https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/">„Szinte minden bináris keresés és összefésülés hibás (2006)”</a></h2>
+<ul>
+<li>„2006-ban Joshua Bloch azonosított egy hibát a bináris keresési algoritmusban, amelyet először Jon Bentley „Programming Pearls” című művében jegyeztek fel, ahol túlcsordulás következik be, amikor a &#39;low&#39; és &#39;high&#39; meghaladja az int maximális értékét.”</li>
+<li>„Ez a hiba, amely a 2^30 vagy annál hosszabb tömböket érinti, ritka volt az 1980-as években, de ma már gyakoribb, és hatással van a mergesort és más oszd meg és uralkodj algoritmusokra is.”</li>
+<li>„Bloch azt javasolja, hogy a problémát úgy oldjuk meg, hogy a középpontot <code>int mid = low + ((high - low) / 2);</code> formában számoljuk ki, kiemelve a hibamentes kódírás kihívásait és az alapos tesztelés szükségességét.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42664400">Reakciók</a></h3>
+<ul>
+<li>„Sok bináris keresés és összefésülés hajlamos az egész szám túlcsordulási problémákra, különösen a régebbi megvalósításokban, ahogyan azt egy 2006-os cikk is kiemelte.”</li>
+<li>„A cikk hangsúlyozza a szélsőséges esetek és a hardverkorlátok figyelembevételének fontosságát a programozásban, ami ma is releváns.”</li>
+<li>„A fejlesztőknek azt tanácsolják, hogy használjanak beépített függvényeket vagy nagyobb egész típusokat az ilyen hibák elkerülése érdekében, hangsúlyozva az óvatosság szükségességét az adattípusokkal és a bemeneti méretekkel kapcsolatban.”</li>
+</ul>
+<h2><a href="https://github.com/hybridgroup/go-haystack">„Kövesse nyomon eszközeit az Apple FindMy hálózaton keresztül Go/TinyGo használatával”</a></h2>
+<ul>
+<li>„A Go Haystack lehetővé teszi a személyes Bluetooth eszközök nyomon követését az Apple „Find My” hálózatán keresztül anélkül, hogy Apple hardverre lenne szükség, az OpenHaystack és a Macless-Haystack használatával, Go/TinyGo eszközökkel.”</li>
+<li>„A felhasználók saját jeladókat hozhatnak létre TinyGo firmware-rel olyan hardvereken, mint az Adafruit Bluefruit táblák és a BBC Microbit, a beállításhoz pedig egy kétlépcsős azonosítással (2FA) rendelkező Apple ID szükséges.”</li>
+<li>„A folyamat magában foglalja a go-haystack eszköz telepítését, olyan parancsok használatával, mint a <code>haystack scan</code> az eszközök felderítésére, kulcsok generálását, az eszköz flash-elését, és egy JSON fájl feltöltését a macless-haystack-re, hogy az eszköz látható legyen a webes felületen.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42665367">Reakciók</a></h3>
+<ul>
+<li>„Az Apple FindMy hálózat a Go/TinyGo segítségével használható eszközök nyomon követésére, lehetőséget kínálva a hálózat bővítésére Apple-fiók nélkül.”</li>
+<li>„Az adatvédelmi aggályokat az Apple tervezése enyhíti, és a vállalat erős hírnévvel rendelkezik a felhasználói adatvédelem fenntartásában, bár néhány felhasználó továbbra is óvatos a lehetséges megfigyeléssel kapcsolatban.”</li>
+<li>„A FindMy hálózat két részből áll: az Apple eszközök tárgyak helyének meghatározásából és a felhasználói eszközök helyadatok feltöltéséből az Apple-nek, azzal a lehetőséggel, hogy a felhasználók kikapcsolhatják a funkciót, ha szeretnék.”</li>
+</ul>
+<h2><a href="https://lwn.net/SubscriberLink/1002342/a8d8a17f30968b93/">„A Vim állapota”</a></h2>
+<ul>
+<li>„Bram Moolenaar, a Vim alapítójának 2023-as elhunyta után a Vim közösség átszerveződött, hogy biztosítsa a projekt folyamatos fejlesztését, Christian Brabandt jelenlegi karbantartó vezetésével. - A 2024-es VimConf-on megvitatták, hogy a csapat kibővült, és a Vim weboldalának frissítésére, a biztonság kezelésére és a kommunikációs csatornák javítására összpontosít. - A Vim továbbra is karbantartási módban marad, a közösség igényeit helyezi előtérbe, és óvatosan integrálja az új funkciókat, miközben továbbra is támogatja az ICCF Hollandot, Moolenaar által alapított jótékonysági szervezetet.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42665222">Reakciók</a></h3>
+<ul>
+<li>„A hosszú ideje Vim-et használók az editor jövőjéről elmélkednek alkotója, Bram Moolenaar halála után, miközben néhányan elégedettek a jelenlegi stabilitásával, mások pedig modern funkciók miatt alternatívákat, például a Neovim-et keresik.”</li>
+<li>„A Neovim egyre nagyobb figyelmet kap a Lua szkriptek támogatása és a modern fejlesztések miatt, miközben néhány felhasználó az Emacsot fontolgatja a Vim és a Neovim közötti vélt széttagoltság miatt.”</li>
+<li>„A felhasználók közötti beszélgetések olyan témákat érintenek, mint a Treesitter teljesítménye, a Language Server Protocol (LSP) támogatása, valamint összehasonlítások a Visual Studio Code-dal (VSCode), kiemelve ezeknek a szerkesztőknek a rugalmasságát és stabilitását.”</li>
+</ul>
+<h2><a href="https://www.cs.cornell.edu/~asampson/blog/flattening.html">„Absztrakt szintaxisfák és más fordítóprogram-adatszerkezetek laposítása (2023)”</a></h2>
+<ul>
+<li>„A bejegyzés a struktúra laposításáról szól, amely egy olyan technika a fordítók számára, amely optimalizálja az absztrakt szintaxisfákat (AST-ket) egyetlen tömb használatával, mutatók helyett indexekkel. - Ez a módszer javítja a teljesítményt a memória lokalitásának javításával, a hivatkozás méretének csökkentésével és a memória kezelésének egyszerűsítésével, ami egy mikromérőben 2,4-szeres gyorsulást eredményez. - A technikát különösen a Rust projektekben alkalmazzák, és ergonómiai előnyöket kínál, mint például a könnyebb memória kezelés, és összehasonlítják a bájtkód értelmezőkkel a további teljesítményjavítások érdekében.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42659061">Reakciók</a></h3>
+<ul>
+<li>„A vita az Absztrakt Szintaxisfák (AST-k) optimalizálására összpontosít azáltal, hogy azokat lapos, összefüggő tömbökben tárolják a teljesítmény és a memóriahatékonyság javítása érdekében.”</li>
+<li>„Ez a módszer javítja a gyorsítótár helyi használatát és egyszerűsíti a memóriakezelést, összehasonlítva a Lisp nyelvben és a Zig fordítóban alkalmazott technikákkal.”</li>
+<li>„A beszélgetés említi a történelmi módszereket és hasonló technikákat más programozási nyelvekben, hangsúlyozva a lapos adatstruktúrák előnyeit a kompozíció és a könnyű manipuláció szempontjából.”</li>
+</ul>
+<h2><a href="https://tomscii.sig7.se/2025/01/De-smarting-the-Marshall-Uxbridge">„A Marshall Uxbridge Bluetooth hangszóró okos funkcióinak eltávolítása”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42666572">Reakciók</a></h3>
+<ul>
+<li>„A vita a Marshall Uxbridge Bluetooth hangszóró módosítására összpontosít, hogy eltávolítsák annak „okos” funkcióit, technikai szempontokat érintve, mint például egy nyomtatott áramköri lap (PCB) tervezése digitális I2S bemenethez.”</li>
+<li>„A felhasználók vitatják a digitális jelfeldolgozás (DSP) szerepét a jó hangminőség elérésében, néhányan hangsúlyozzák annak szükségességét, hogy kompenzálják a hardver korlátait.”</li>
+<li>„A beszélgetés kitér a okoseszközök módosításának kihívásaira, valamint a modern nyomtatott áramköri lapok gyártásának és alkatrészeinek megfizethetőségére is.”</li>
+</ul>
+<h2><a href="https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/">„Az OpenAI botja úgy zúzta össze ennek a hétfős cégnek a weboldalát, mint egy DDoS támadás.”</a></h2>
+<ul>
+<li>„A Triplegangers e-kereskedelmi oldala DDoS-szerű támadást szenvedett el, mivel az OpenAI botja több tízezer kérést küldött, hogy több mint 65 000 termékoldalt kaparjon le. - Az oldal nem rendelkezett megfelelően konfigurált robots.txt fájllal, amely blokkolhatta volna az ilyen botokat, ami megnövekedett AWS költségeket és adatbiztonsági aggályokat eredményezett. - Ez az eset hangsúlyozza az AI cégek számára az adatok lekaparása előtti engedélykérés fontosságát, és figyelmeztetésként szolgál a kisvállalkozások számára, hogy figyeljék az AI bot tevékenységeket.”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42660377">Reakciók</a></h3>
+<ul>
+<li>„Az OpenAI botja túlzott forgalmat okozott egy kis cég weboldalán, hasonlóan egy elosztott szolgáltatásmegtagadási (DDoS) támadáshoz, rávilágítva az AI botok által okozott problémákra, amelyek túlterhelik a weboldalakat.”</li>
+<li>„A Read the Docs-hoz hasonló cégek hasonló kihívásokkal szembesültek az AI botok által generált hatalmas forgalom miatt, annak ellenére, hogy a webes robotok kezelésére a &quot;robots.txt&quot; fájlt használják.”</li>
+<li>„Az eset rávilágít a folyamatos vitára a webes hozzáférhetőség és az AI cégek általi agresszív adatgyűjtés elleni védelem egyensúlyának megteremtéséről, mivel egyes botok figyelmen kívül hagyják a &quot;robots.txt&quot; fájlt, ami jogi és pénzügyi problémákat okozhat a kis weboldal tulajdonosok számára.”</li>
+</ul>
+<head>
+  <meta property="og:title" content="„Legyen tisztában a Makefile hatással”" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9ELegyen%20tiszt%C3%A1ban%20a%20Makefile%20hat%C3%A1ssal%E2%80%9D&subheading=2025.%20janu%C3%A1r%2011.%2C%20szombat%3A%20Hacker%20News%20%C3%96sszefoglal%C3%B3" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/hu/2025/01/11</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Z</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-10]]></title>
             <description
@@ -903,104 +1023,6 @@
             <link>https://hn.cho.sh/hu/2025/01/02</link>
             <guid isPermaLink="false">2025-01-02T00:00:00.000Z</guid>
             <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2025-01-01]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2025/01/01&#39;</h2>
-<h1>2025-01-01</h1>
-<h2><a href="https://news.ycombinator.com/item?id=42562750">„Boldog új évet 2025”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42562750">Reakciók</a></h3>
-<h2><a href="https://doom-captcha.vercel.app/">„DOOM CAPTCHA”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42566112">Reakciók</a></h3>
-<ul>
-<li>„A DOOM CAPTCHA egy kreatív projekt, amelyben a felhasználóknak a klasszikus DOOM játék egy szintjét kell játszaniuk CAPTCHA tesztként, kiemelve a technikai készségeket és a nosztalgiát. - A felhasználók nehéznek találják a modern irányítások hiánya miatt, ami vegyes reakciókat vált ki a gyakorlatiasságával és hozzáférhetőségével kapcsolatban. - A projekt, bár újszerű, rávilágít a hagyományos CAPTCHA rendszerekkel szembeni tartós elégedetlenségre, annak ellenére, hogy a Vercel AI asszisztensével és manuális játék integrációval készült.”</li>
-</ul>
-<h2><a href="https://curiouscoding.nl/posts/static-search-tree/">„Statikus keresőfák: gyorsabbak, mint a bináris keresés”</a></h2>
-<ul>
-<li>„A cikk a statikus keresőfák (S+ fák) megvalósítását és optimalizálását tárgyalja, amelyek jelentősen gyorsabb keresést tesznek lehetővé rendezett adatok esetén, elérve a hagyományos bináris keresésnél 40-szer gyorsabb sebességet. - Optimalizálási technikák, mint például a kötegelt feldolgozás, az előtöltés és a manuális SIMD (Single Instruction, Multiple Data) alkalmazása növeli a lekérdezések áteresztőképességét. - A cikk különböző faelrendezéseket, csomópontméreteket és memóriakezelési stratégiákat is vizsgál, valamint a jövőbeli munkákról, mint például az elágazásos keresés és az interpolációs keresés, amelyek tovább javíthatják a keresési hatékonyságot.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42562847">Reakciók</a></h3>
-<ul>
-<li>„A vita kiemeli a C/C++-ról Rust-ra való áttérést az algoritmikus tartalmak, különösen a statikus keresési fák esetében, Rust biztonsági és teljesítménybeli előnyei miatt.”</li>
-<li>„A Rust növekvő népszerűsége az alacsony szintű programozásban megfigyelhető, egyes felhasználók a C-t vagy a pszeudokódot részesítik előnyben az elérhetőség miatt, míg mások a Rust modern funkcióit értékelik.”</li>
-<li>„A beszélgetés a Zig programozási nyelv lehetőségeit és az új nyelvek elsajátításával járó kihívásokat is vizsgálja, tükrözve a programozási nyelvek folyamatosan változó környezetét.”</li>
-</ul>
-<h2><a href="https://openreview.net/forum?id=YXnwlZe0yf&noteId=yrsGpHd0Sf">„30%-os csökkenés az o1-előnézeti pontosságban, amikor a Putnam-problémák kissé módosulnak”</a></h2>
-<ul>
-<li>„A Putnam-AXIOM egy olyan mérce, amelyet a nagy nyelvi modellek (LLM-ek) fejlett matematikai érvelési képességeinek értékelésére terveztek a Putnam Matematikai Verseny feladatai alapján. - A mérce 236 eredeti feladatot tartalmaz, valamint egy változatot 52 módosított feladattal, hogy elkerüljék az adatszennyezést. - Az OpenAI legjobban teljesítő modellje 41,95%-os pontosságot ért el az eredeti feladatokon, de jelentős, körülbelül 30%-os teljesítménycsökkenést tapasztalt a módosított feladatokon, ami rávilágít a variációkhoz való alkalmazkodás kihívásaira.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42565606">Reakciók</a></h3>
-<ul>
-<li>„Egy tanulmány kimutatta, hogy az o1-Preview modell pontossága 30%-kal csökkent a Putnam problémákon, amikor kisebb változtatásokat vezettek be, ami rámutat a Nagy Nyelvi Modellek (LLM-ek) kihívásaira a kisebb módosításokkal szemben. - Az eredmények tovább táplálják a vitát arról, hogy az LLM-ek valóban képesek-e érvelni, vagy elsősorban mintázatfelismerésre és memorizálásra támaszkodnak, hasonlóan az emberi hibákhoz nyomás alatt. - E kihívások ellenére az o1 és o3 modellek továbbra is jól teljesítenek összetett matematikai problémákon, bár általánosítási képességük még mindig vizsgálat alatt áll.”</li>
-</ul>
-<h2><a href="https://www.cs.cmu.edu/~pavlo/blog/2025/01/2024-databases-retrospective.html">„Adatbázisok 2024-ben: Évértékelés”</a></h2>
-<ul>
-<li>„A 2024-es adatbázis-piac jelentős változásokon ment keresztül, beleértve a nagy felvásárlásokat, licencváltásokat és a kulcsszereplők, mint a Redis, Elasticsearch, Databricks és Snowflake közötti folyamatos rivalizálást. - A DuckDB népszerűségre tett szert az analitikai lekérdezések terén, integrációkkal a Postgres-be, míg a figyelemre méltó kiadások közé tartozott az Amazon Aurora DSQL és a Microsoft Garnet. - Jelentős felvásárlások történtek, mint például a Tabular a Databricks által és az OrioleDB a Supabase által, és bár voltak visszaesések, mint például az OtterTune bezárása, az iparág továbbra is dinamikus új projektekkel és finanszírozásokkal.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42566192">Reakciók</a></h3>
-<ul>
-<li>„A vita kritizálja a Redis API-ját, néhányan azzal érvelnek, hogy a kritika nem rendelkezik mély megértéssel a Redis tervezéséről és egyedi adatmodelljéről.”</li>
-<li>„A Redis-t elismerik hatékony használatáért olyan speciális alkalmazásokban, mint a ranglisták és valós idejű rendszerek, annak ellenére, hogy néhányan kritikával illetik az API-ját.”</li>
-<li>„A beszélgetés a szélesebb adatbázis-környezetet is feltárja, beleértve a startupok előtt álló kihívásokat, az SQL szerepét és az adatbázis-technológiák fejlődését, hangsúlyozva a rendszerek megértésének fontosságát, mielőtt kritikát fogalmaznánk meg róluk.”</li>
-</ul>
-<h2><a href="https://thoughts.wyounas.com/p/books-i-enjoyed-most-in-2024">„Könyvek, amelyeket 2024-ben szerettem olvasni”</a></h2>
-<ul>
-<li>„A lista különféle könyveket tartalmaz, beleértve a történelmi, filozófiai, tudományos és személyes elbeszéléseket, amelyek mindegyike egyedi betekintést és gazdagító élményeket kínál.”</li>
-<li>„A kiemelt művek közé tartoznak Cicero levelei, amelyek betekintést nyújtanak a római életbe, Ben-Ari munkái a számítástechnikai logikáról és a programok ellenőrzéséről, valamint Steve Martin emlékirata a komikus sikerről.”</li>
-<li>„A gyűjtemény filozófiai kutatásokat is tartalmaz Pierre Hadot és Nietzsche tollából, görög tragédiákat Aiszkhülosztól, valamint irodalmi műveket Ursula Le Guin és Rabindranath Tagore alkotásaiból.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42564687">Reakciók</a></h3>
-<h2><a href="https://mathstodon.xyz/@tao/113721192051328193">„Terence Tao: Az egyik tanulmányomat ma elutasították”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42568399">Reakciók</a></h3>
-<ul>
-<li>„Terence Tao, egy neves matematikus, megosztotta egy olyan élményét, amikor egy tanulmányát elutasították, ezzel hangsúlyozva az elutasítások gyakori előfordulását az akadémiai világban. - Története vitákat indított a szakmai bírálatok önkényes természetéről és az akadémiai publikálás során felmerülő kihívásokról. - A beszélgetés rávilágított arra, hogy az elutasítás az akadémiai folyamat normális része, még a vezető kutatók számára is, és hangsúlyozta a kudarcok megosztásának fontosságát az imposztor szindróma kezelésére.”</li>
-</ul>
-<h2><a href="https://apiparrot.com/">„API Parrot – HTTP API-k automatikus visszafejtése”</a></h2>
-<ul>
-<li>„Az API Parrot egy új eszköz, amelynek célja az üzleti folyamatok automatizálásának egyszerűsítése azáltal, hogy automatikusan azonosítja az API kérések közötti adatkorrelációkat, és grafikus folyamatábrázolást biztosít. - Lehetővé teszi a felhasználók számára a kérések rögzítését, a bemenetek és kimenetek meghatározását, valamint ezeknek a folyamatoknak JavaScript kódként való exportálását, ami hatékonyabbá teszi a folyamatot, mint a manuális visszafejtés vagy a kevésbé optimális technológiák, mint például a Robotic Process Automation (RPA) használata. - Az eszköz Electron alapú, és elérhető mind Windows, mind Linux platformokra, valamint elérhető egy útmutató a USPS API visszafejtéséhez.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42565821">Reakciók</a></h3>
-<ul>
-<li>„Az API Parrot egy olyan eszköz, amely automatizálja a HTTP API-k visszafejtését, megkönnyítve az üzleti folyamatok automatizálását azáltal, hogy azonosítja az adatok közötti összefüggéseket a kérések között. - Olyan funkciókat kínál, mint a kérések rögzítése, a bemenetek és kimenetek meghatározása, valamint a folyamatok JavaScript kódként való exportálása, grafikus folyamatábrázolással. - Jelenleg Windows és Linux rendszerekre érhető el, ingyenes, de egy lehetséges &quot;pro&quot; verzió is készül vállalkozások számára, és a jövőben tervezik a macOS kiadást is.”</li>
-</ul>
-<h2><a href="https://thehill.com/national-security/5061535-virginia-man-arrested-explosives/">„FBI: Az ügynökség történetének legnagyobb házi készítésű robbanóanyag-készletét találták Virginiában”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42562529">Reakciók</a></h3>
-<ul>
-<li>„Az FBI történetének legnagyobb házi készítésű robbanóanyag-készletét fedezte fel Virginiában, ami jelentős jogi és közéleti vitákat váltott ki.”</li>
-<li>„A gyanúsítottat jelenleg csak rövid csövű puska birtoklásával vádolják, mivel a fegyverei jogszerűségét vizsgálják.”</li>
-<li>„Az eset vitákat váltott ki a fegyvertörvényekről, a második alkotmánykiegészítésről, valamint a kormányzati szabályozás és az egyéni jogok közötti egyensúlyról.”</li>
-</ul>
-<h2><a href="https://dgl.cx/2024/12/ghostty-terminal-title">„Déjà vu: Kísérteties CVE-k a terminálom címében”</a></h2>
-<ul>
-<li>„A Ghostty, egy új terminálemulátor, egy 2003-as biztonsági sebezhetőséghez hasonló problémával küzdött, amely lehetővé tette az ASCII escape karakterek számára, hogy parancsokat hajtsanak végre, például alkalmazások megnyitását. - A probléma különösen a Zsh és Bash vi módban volt jelentős, de a Ghostty 1.0.1 ezt megoldotta azzal, hogy alapértelmezés szerint letiltotta a funkciót. - A biztonsági hiba ellenére a Ghostty-t dicsérik a funkciói miatt, és a fejlesztő gyorsan kezelte a problémát, javításokat és megoldásokat biztosítva a felhasználóknak.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42562743">Reakciók</a></h3>
-<ul>
-<li>„A vita a terminál biztonsági sebezhetőségeire összpontosít, különösen azokra, amelyek a vezérlőkarakterekhez kapcsolódnak, és megvizsgálja a kockázatok mérséklésének módjait. - A terminál biztonságának javítására tett javaslatok között szerepel olyan rendszerek alkalmazása, mint a CPU védelmi gyűrűi vagy az OpenBSD pledge() rendszerhívása, amelyek korlátozzák a képességeket a kihasználások megelőzése érdekében. - A résztvevők elismerik a biztonság és a funkcionalitás egyensúlyának kihívását a terminál alkalmazásokban, és érdeklődést mutatnak a biztonsági gyakorlatok további feltárása és együttműködés révén történő javítása iránt.”</li>
-</ul>
-<h2><a href="https://github.com/facebookresearch/large_concept_model">„Nagy koncepciómodellek: Nyelvi modellezés mondat-reprezentációs térben”</a></h2>
-<ul>
-<li>„A tárház implementációkat kínál a Nagy Fogalom Modellekhez (LCM), amelyek a „fogalmakat” használják magasabb szintű szemantikai reprezentációként a nyelvi modellezéshez.”</li>
-<li>„Az LCM 200 szövegnyelvet és 57 beszédnyelvet támogat a SONAR beágyazási tér használatával, és auto-regresszív mondatpredikcióra van betanítva olyan módszerekkel, mint az MSE regresszió és a diffúzió-alapú generálás.”</li>
-<li>„A tároló telepítési útmutatókat, adat-előkészítést, képzési, finomhangolási és értékelési irányelveket biztosít, és az MIT licenc alatt kerül kiadásra, a fairseq2 UV és pip telepítési lehetőségekkel.”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42563534">Reakciók</a></h3>
-<ul>
-<li>„A Nagy Koncepció Modellek a nyelv „koncepciók” szerinti ábrázolására összpontosítanak, nem pedig egyedi tokenekre, céljuk a szemantikai darabolás és előrejelzés javítása.”</li>
-<li>„Ez a módszer azt javasolja, hogy magasabb szintű reprezentációkat használjunk az emberi tervezés és kommunikáció utánzására, ami potenciálisan előnyöket kínálhat a hagyományos token-alapú modellekkel szemben.”</li>
-<li>„A megközelítés a jelenlegi Nagy Nyelvi Modell (LLM) architektúrák korlátait úgy kezeli, hogy hangsúlyt fektet az explicit hierarchikus struktúrákra, hogy jobban utánozza az emberi érvelést.”</li>
-</ul>
-<head>
-  <meta property="og:title" content="„Boldog új évet 2025”" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EBoldog%20%C3%BAj%20%C3%A9vet%202025%E2%80%9D&subheading=2025.%20janu%C3%A1r%201.%2C%20szerda%3A%20Hacker%20News%20%C3%96sszefoglal%C3%B3" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/hu/2025/01/01</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Z</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

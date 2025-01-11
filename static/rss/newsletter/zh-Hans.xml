@@ -15,12 +15,132 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Jan 2025 19:07:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jan 2025 19:29:06 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/zh-Hans.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[zh-Hans]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-11]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/11&#39;</h2>
+<h1>2025-01-11</h1>
+<h2><a href="https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect">“注意 Makefile 效应”</a></h2>
+<ul>
+<li>“‘Makefile效应’描述了工程师复制和修改现有复杂配置(如Makefile)的做法，而不是从头开始创建新的配置。这种方法在各种系统中很普遍，例如持续集成/持续部署(CI/CD)配置和构建系统，并可能表明工具过于复杂或设计不佳。虽然这种做法本身并不一定是负面的，但Makefile效应可能会阻碍学习，增加安全性复杂性，并导致调试效率低下，这突显了需要进行深思熟虑的工具设计，以考虑可配置性和易用性。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42663231">反应</a></h3>
+<ul>
+<li>“‘Makefile效应’描述了开发人员在不完全理解代码或配置的情况下，倾向于复制和修改它们的行为，这通常是由于工具的复杂性或使用频率低所导致的。”</li>
+<li>“这种现象在编程和配置任务中广泛存在，开发人员使用已知的解决方案来节省时间和精力，这可能导致难以维护的代码。”</li>
+<li>“讨论强调了在使用模板和现有解决方案的同时，需要深入理解所涉及的工具和系统之间的平衡。”</li>
+</ul>
+<h2><a href="https://30fps.net/pages/pvs-portals-and-quake/">“传送门和雷神之锤”</a></h2>
+<ul>
+<li>“这篇文章是“揭开PVS神秘面纱”系列的第一篇，重点介绍Quake的预计算可见性系统，以解决像素多次渲染的过度绘制问题。- Quake通过将世界划分为单元和门户，使用门户剔除和潜在可见集(PVS)，预计算可见性以优化渲染。- 文章介绍了vis.py中的Portal和Leaf类，这是Quake可见性算法的Python重新实现，强调了叶到叶可见性矩阵的使用。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42661185">反应</a></h3>
+<ul>
+<li>“Quake的关卡设计师利用“提示”画笔和“区域门户”来优化游戏性能，这是一种在3D图形中具有基础性的技术。- 像《Prey》和《Portal》这样的游戏将门户引入了游戏机制的聚光灯下，尽管这一概念自早期3D图形以来就已用于渲染。- Unreal Engine 1使用区域进行优化，而像Unreal Engine 5这样的现代引擎继续使用类似的方法来提高渲染效率。”</li>
+</ul>
+<h2><a href="https://unsloth.ai/blog/phi4">“Phi-4 错误修复”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42660335">反应</a></h3>
+<ul>
+<li>“Daniel Hanchen 发现并解决了微软 Phi-4 大型语言模型(LLM)中的一些问题，例如句子结束问题和聊天模板提示。他将 Phi-4 转换为 Llama 架构，提高了性能，并在 Hugging Face 平台上分享了这些修复。一个用于微调 Phi-4 的 Colab 笔记本也已提供。虽然这些修复在某些基准测试中提高了性能，但在其他测试中却有所下降；Phi-4 团队正在努力将这些改进整合到原始模型中。”</li>
+</ul>
+<h2><a href="https://www.charlespetzold.com/blog/2025/01/Very-Wrong-Math.html">非常错误的数学</a></h2>
+<ul>
+<li>“某设计和建筑公司在 Facebook 上犯了一个数学错误，错误地将地球半径计算为 4,333 英尺，导致其周长被大大低估，仅略超过 5 英里。”</li>
+<li>“错误源于在计算弧长时没有使用地球的实际半径，地球的实际半径大约为3,959英里。”</li>
+<li>“帖子指出，外弧比内弧长不到1%，这表明由于空气阻力减少，飞行时间可能会缩短。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42661432">反应</a></h3>
+<ul>
+<li>“一个YouTube建造者错误地声称在平坦的地球上铅垂线会是平行的，误解了地球的曲率，而在这种测量中曲率是可以忽略不计的。- 讨论突出了在理解大规模概念时直觉的失败，并涉及了平坦地球理论、重力误解和地球自转对飞行的影响。- 对话幽默地审视了错误信念的持久性以及向拒绝既定科学的人解释科学概念的困难。”</li>
+</ul>
+<h2><a href="https://ianthehenry.com/posts/bauble/building-bauble/">“建筑装饰物”</a></h2>
+<ul>
+<li>“Bauble 是一个3D建模和渲染工具，利用符号距离函数(SDFs)来创建复杂的形状和动画。- 最初是一个用于生成GLSL着色器的基本系统，Bauble 已被重写以包含3D模型导出、交互式编辑和自定义照明等功能。- 该工具现在支持网页嵌入、交互式矢量编辑，并提供全面的文档，使其对创意项目和对3D设计感兴趣的用户更为易用。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42660942">反应</a></h3>
+<ul>
+<li>“Building Bauble 是一个在 ianthehenry.com 上展示的项目，通过展示编程的魔力和乐趣，特别是在编码和图形方面，引发了人们的兴奋。”</li>
+<li>“该项目因其创造力和详细的写作而受到赞扬，激励读者重新审视未完成的项目，并探索新的技术，如Janet(一种编程语言)和GLSL(OpenGL着色语言)。”</li>
+<li>“尽管在Safari上出现了一些技术问题，该项目因其出色的执行和引人入胜的发展故事而受到赞誉，引发了关于个人项目和RSS阅读器使用的讨论。”</li>
+</ul>
+<h2><a href="https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/">“几乎所有的二分查找和归并排序都是有问题的(2006)”</a></h2>
+<ul>
+<li>“2006年，Joshua Bloch 发现了二分查找算法中的一个错误，这个错误最初是在 Jon Bentley 的《编程珠玑》中提到的，当 &#39;low&#39; 和 &#39;high&#39; 超过最大整数值时会发生溢出。”</li>
+<li>“这个影响长度为2^30或更长的数组的错误在20世纪80年代很少见，但在今天更为常见，也影响了归并排序和其他分治算法。”</li>
+<li>“Bloch建议通过计算中点为<code>int mid = low + ((high - low) / 2);</code>来解决问题，强调了编写无错误代码的挑战以及彻底测试的必要性。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42664400">反应</a></h3>
+<ul>
+<li>“许多二分查找和归并排序容易出现整数溢出问题，特别是在较旧的实现中，正如2006年一篇文章中所强调的那样。”</li>
+<li>文章强调了在编程中考虑边缘情况和硬件限制的重要性，这在今天仍然具有现实意义。</li>
+<li>“建议开发人员使用内置函数或更大的整数类型来防止此类错误，这强调了在处理数据类型和输入大小时需要谨慎。”</li>
+</ul>
+<h2><a href="https://github.com/hybridgroup/go-haystack">通过 Apple FindMy 网络在 Go/TinyGo 中跟踪您的设备</a></h2>
+<ul>
+<li>“Go Haystack 通过使用 OpenHaystack 和 Macless-Haystack 结合 Go/TinyGo 工具，实现了通过苹果的“查找”网络跟踪个人蓝牙设备，而无需苹果硬件。”</li>
+<li>“用户可以使用TinyGo固件在像Adafruit Bluefruit板和BBC Microbit这样的硬件上创建自己的信标，设置时需要一个具有双重身份验证(2FA)的Apple ID。”</li>
+<li>“该过程涉及安装 go-haystack 工具，使用 <code>haystack scan</code> 等命令定位设备，生成密钥，刷写设备，并将 JSON 文件上传到 macless-haystack，以便在 Web UI 中查看设备。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42665367">反应</a></h3>
+<ul>
+<li>“Apple FindMy 网络可以与 Go/TinyGo 一起使用来跟踪设备，提供了一种无需 Apple 账户即可扩展网络的方法。”</li>
+<li>“隐私问题通过苹果的设计得到了缓解，该公司在维护用户隐私方面享有良好的声誉，尽管一些用户仍对潜在的监视保持警惕。”</li>
+<li>“FindMy网络分为两部分：苹果设备定位物品和用户设备将位置信息上传到苹果，用户可以选择禁用该功能。”</li>
+</ul>
+<h2><a href="https://lwn.net/SubscriberLink/1002342/a8d8a17f30968b93/">“Vim的现状”</a></h2>
+<ul>
+<li>“随着Vim创始人Bram Moolenaar于2023年去世，Vim社区已重新组织以确保项目的持续发展，目前由Christian Brabandt担任维护者。- 在2024年的VimConf会议上，讨论了团队的扩展，重点是更新Vim网站、管理安全性和增强沟通渠道。- Vim仍处于维护模式，优先考虑社区需求并谨慎整合新功能，同时继续支持由Moolenaar创立的慈善机构ICCF Holland。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42665222">反应</a></h3>
+<ul>
+<li>“长期使用Vim的用户在其创始人Bram Moolenaar去世后，正在反思编辑器的未来，一些人对其当前的稳定性感到满意，而另一些人则在探索像Neovim这样的现代功能替代品。”</li>
+<li>“Neovim 因其对 Lua 脚本和现代增强功能的支持而受到关注，而一些用户由于认为 Vim 和 Neovim 之间存在分裂，正在考虑使用 Emacs。”</li>
+<li>“用户之间的讨论包括Treesitter的性能、语言服务器协议(LSP)支持，以及与Visual Studio Code(VSCode)的比较，突出了这些编辑器的灵活性和稳定性。”</li>
+</ul>
+<h2><a href="https://www.cs.cornell.edu/~asampson/blog/flattening.html">“展平AST和其他编译器数据结构(2023)”</a></h2>
+<ul>
+<li>“这篇文章讨论了数据结构扁平化，这是一种编译器优化抽象语法树(ASTs)的技术，通过使用带有索引的单个数组代替指针。- 这种方法通过改善内存局部性、减少引用大小和简化内存管理来提高性能，在微基准测试中实现了2.4倍的加速。- 该技术在Rust项目中被广泛使用，并提供了更好的使用体验，例如更简单的内存管理，并与字节码解释器进行比较以进一步提高性能。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42659061">反应</a></h3>
+<ul>
+<li>“讨论的重点是通过将抽象语法树(AST)存储在扁平的连续数组中来优化，以提高性能和内存效率。”</li>
+<li>“这种方法增强了缓存局部性并简化了内存管理，与Lisp语言和Zig编译器中的技术相提并论。”</li>
+<li>“对话还提到了历史方法和其他编程语言中的类似技术，强调了平面数据结构在可组合性和易于操作方面的优势。”</li>
+</ul>
+<h2><a href="https://tomscii.sig7.se/2025/01/De-smarting-the-Marshall-Uxbridge">去智能化马歇尔Uxbridge蓝牙音箱</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42666572">反应</a></h3>
+<ul>
+<li>“讨论的重点是修改Marshall Uxbridge蓝牙音箱以消除其“智能”功能，涉及技术方面，如为数字I2S输入设计印刷电路板(PCB)。”</li>
+<li>“用户们争论数字信号处理(DSP)在实现良好音质中的作用，一些人强调其在弥补硬件限制方面的必要性。”</li>
+<li>“对话还涉及修改智能设备的挑战以及现代PCB生产和组件的可负担性。”</li>
+</ul>
+<h2><a href="https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/">“OpenAI 的机器人像 DDoS 攻击一样压垮了这家七人公司的网站。”</a></h2>
+<ul>
+<li>“Triplegangers 的电子商务网站因 OpenAI 的机器人发起类似 DDoS 的攻击而受到影响，该机器人发出了数万次请求以抓取超过 65,000 个产品页面。- 由于网站缺乏正确配置的 robots.txt 文件来阻止此类机器人，导致 AWS 成本增加和数据安全问题。- 这一事件强调了 AI 公司在进行数据抓取前获得许可的重要性，并为小型企业监测 AI 机器人活动敲响了警钟。”</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42660377">反应</a></h3>
+<ul>
+<li>“OpenAI 的机器人在一家小公司的网站上造成了过多的流量，类似于分布式拒绝服务 (DDoS) 攻击，突显了 AI 机器人压垮网站的问题。”</li>
+<li>“像 Read the Docs 这样的公司尽管使用了“robots.txt”来管理网络爬虫，但仍然面临着 AI 机器人产生大量流量的类似挑战。”</li>
+<li>“该事件强调了在平衡网络可访问性与防止AI公司进行侵略性数据抓取之间的持续争论，因为一些机器人忽略了“robots.txt”，这可能导致小型网站所有者面临潜在的法律和财务问题。”</li>
+</ul>
+<head>
+  <meta property="og:title" content="“注意 Makefile 效应”" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9C%E6%B3%A8%E6%84%8F%20Makefile%20%E6%95%88%E5%BA%94%E2%80%9D&subheading=2025%E5%B9%B41%E6%9C%8811%E6%97%A5%E6%98%9F%E6%9C%9F%E5%85%AD%3A%20%E9%BB%91%E5%AE%A2%E6%96%B0%E9%97%BB%E6%91%98%E8%A6%81" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/zh/Hans/2025/01/11</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Z</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-10]]></title>
             <description
@@ -903,104 +1023,6 @@
             <link>https://hn.cho.sh/zh/Hans/2025/01/02</link>
             <guid isPermaLink="false">2025-01-02T00:00:00.000Z</guid>
             <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2025-01-01]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2025/01/01&#39;</h2>
-<h1>2025-01-01</h1>
-<h2><a href="https://news.ycombinator.com/item?id=42562750">“新年快乐 2025”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42562750">反应</a></h3>
-<h2><a href="https://doom-captcha.vercel.app/">“厄运验证码”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42566112">反应</a></h3>
-<ul>
-<li>“DOOM CAPTCHA 是一个创意项目，要求用户通过玩经典游戏 DOOM 的一个关卡来进行 CAPTCHA 测试，突出了技术技能和怀旧情怀。- 由于缺乏现代控制，用户发现这具有挑战性，对其实用性和可访问性反应不一。- 尽管该项目新颖，但它强调了人们对传统 CAPTCHA 系统的持续不满，尽管它是通过 Vercel 的 AI 助手和手动游戏集成构建的。”</li>
-</ul>
-<h2><a href="https://curiouscoding.nl/posts/static-search-tree/">“静态搜索树：比二分搜索更快”</a></h2>
-<ul>
-<li>“文章讨论了静态搜索树(S+树)的实现和优化，以显著加快排序数据的搜索速度，实现比传统二分搜索快40倍的速度。- 采用了批处理、预取和手动SIMD(单指令多数据)等优化技术来提高查询吞吐量。- 文章还探讨了各种树布局、节点大小和内存管理策略，并讨论了未来的工作，如分支搜索和插值搜索，以进一步提高搜索效率。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42562847">反应</a></h3>
-<ul>
-<li>“讨论强调了由于Rust的安全性和性能优势，算法内容特别是静态搜索树从C/C++转向Rust的变化。”</li>
-<li>“Rust在低级编程中的日益流行受到关注，一些用户为了易用性更喜欢使用C或伪代码，而另一些用户则看重Rust的现代特性。”</li>
-<li>“对话还探讨了Zig编程语言的潜力以及学习新语言所面临的挑战，反映了编程语言不断发展的格局。”</li>
-</ul>
-<h2><a href="https://openreview.net/forum?id=YXnwlZe0yf&noteId=yrsGpHd0Sf">“当普特南问题稍有变化时，o1-预览准确率下降30%”</a></h2>
-<ul>
-<li>“Putnam-AXIOM 是一个基准，旨在通过普特南数学竞赛中的问题评估大型语言模型(LLMs)的高级数学推理能力。- 该基准包括236个原始问题和一个包含52个修改问题的变体，以避免数据污染。- OpenAI 的表现最佳模型在原始问题上达到了41.95%的准确率，但在修改问题上表现显著下降了约30%，这突显了适应变化的挑战。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42565606">反应</a></h3>
-<ul>
-<li>“研究显示，当引入细微变化时，o1-Preview模型在Putnam问题上的准确性下降了30%，这表明大型语言模型(LLMs)在面对小变化时存在挑战。- 这些发现激发了关于LLMs是否能够真正推理，还是主要依赖于模式匹配和记忆的争论，这类似于人在压力下的错误。- 尽管存在这些挑战，像o1和o3这样的模型在复杂数学问题上仍表现良好，但它们的泛化能力仍在接受审视。”</li>
-</ul>
-<h2><a href="https://www.cs.cmu.edu/~pavlo/blog/2025/01/2024-databases-retrospective.html">“2024年的数据库：年度回顾”</a></h2>
-<ul>
-<li>“2024年的数据库领域经历了重大变化，包括主要收购、许可证变更以及Redis、Elasticsearch、Databricks和Snowflake等关键参与者之间的持续竞争。- DuckDB因其分析查询而受到欢迎，并与Postgres进行了集成，而值得注意的发布包括Amazon Aurora DSQL和Microsoft Garnet。- Databricks收购Tabular和Supabase收购OrioleDB等收购具有重要意义，尽管像OtterTune关闭这样的挫折，行业仍然充满活力，伴随着新项目和资金的涌入。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42566192">反应</a></h3>
-<ul>
-<li>“讨论批评了 Redis 的 API，有人认为这些批评缺乏对 Redis 设计及其独特数据模型的深入理解。”</li>
-<li>“尽管有一些对API的批评，Redis因其在排行榜和实时系统等特定应用中的有效使用而受到认可。”</li>
-<li>“对话还探讨了更广泛的数据库领域，包括初创企业面临的挑战、SQL的作用以及数据库技术的演变，强调在批评系统之前理解系统的重要性。”</li>
-</ul>
-<h2><a href="https://thoughts.wyounas.com/p/books-i-enjoyed-most-in-2024">我在2024年喜欢阅读的书籍</a></h2>
-<ul>
-<li>“该列表包含各种各样的书籍，包括历史、哲学、科学和个人叙述，每本书都提供独特的见解和丰富的体验。”</li>
-<li>“亮点包括西塞罗的书信，提供了对罗马生活的见解，本-阿里的计算机科学逻辑和程序验证作品，以及史蒂夫·马丁关于喜剧成功的回忆录。”</li>
-<li>“该收藏还包括皮埃尔·阿多和尼采的哲学探索、埃斯库罗斯的希腊悲剧，以及厄休拉·勒古恩和拉宾德拉纳特·泰戈尔的文学作品。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42564687">反应</a></h3>
-<h2><a href="https://mathstodon.xyz/@tao/113721192051328193">“陶哲轩：我今天有一篇论文被拒了”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42568399">反应</a></h3>
-<ul>
-<li>“特伦斯·陶，一位著名的数学家，分享了一次论文被拒的经历，强调了学术界中拒稿的频繁发生。- 他的故事引发了关于同行评审的随意性和学术出版面临的挑战的讨论。- 这场对话突出了拒绝是学术过程中的正常部分，即使是顶尖研究人员也会遇到，并强调了分享失败以应对冒名顶替综合症的重要性。”</li>
-</ul>
-<h2><a href="https://apiparrot.com/">“API Parrot – 自动逆向工程HTTP API”</a></h2>
-<ul>
-<li>API Parrot 是一款新工具，旨在通过自动识别 API 请求之间的数据关联并提供图形化流程表示来简化业务流程的自动化。- 它允许用户记录请求、定义输入和输出，并将这些流程导出为 JavaScript 代码，使得该过程比手动逆向工程或使用像机器人流程自动化(RPA)等不太理想的技术更为高效。- 该工具基于 Electron 构建，适用于 Windows 和 Linux 平台，并提供了逆向工程 USPS API 的教程。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42565821">反应</a></h3>
-<ul>
-<li>“API Parrot 是一种自动化 HTTP API 逆向工程的工具，通过识别请求之间的数据关联来促进业务流程的自动化。- 它提供了录制请求、定义输入和输出以及以 JavaScript 代码导出流程的功能，并具有图形化流程表示。- 目前，API Parrot 可用于 Windows 和 Linux，免费提供，未来可能会推出面向企业的“专业”版本，并计划在未来发布 macOS 版本。”</li>
-</ul>
-<h2><a href="https://thehill.com/national-security/5061535-virginia-man-arrested-explosives/">“FBI：弗吉尼亚发现该机构历史上最大的自制爆炸物储藏”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42562529">反应</a></h3>
-<ul>
-<li>“美国联邦调查局在弗吉尼亚州发现了其历史上最大的自制炸药储藏，这引发了重大的法律和公众辩论。”</li>
-<li>“嫌疑人目前仅被指控持有短管步枪，因为他的枪支的合法性正在接受审查。”</li>
-<li>“此案件引发了关于枪支法律、第二修正案以及政府监管与个人权利之间平衡的讨论。”</li>
-</ul>
-<h2><a href="https://dgl.cx/2024/12/ghostty-terminal-title">“似曾相识：我终端标题中的幽灵CVE”</a></h2>
-<ul>
-<li>“Ghostty，一个新的终端模拟器，存在一个类似于2003年的安全漏洞，允许ASCII转义字符执行诸如打开应用程序的命令。- 这个问题在Zsh和Bash的vi模式下尤其严重，但Ghostty 1.0.1通过默认禁用该功能解决了这个问题。- 尽管存在安全缺陷，Ghostty因其功能而受到称赞，开发者迅速解决了该问题，为用户提供了修复和解决方法。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42562743">反应</a></h3>
-<ul>
-<li>“讨论的重点是终端安全漏洞，特别是与转义序列相关的漏洞，并探讨减轻这些风险的方法。- 增强终端安全性的建议包括采用类似于CPU保护环或OpenBSD的pledge()系统调用的系统，这些系统通过限制功能来防止漏洞利用。- 参与者承认在终端应用程序中平衡安全性与功能性的挑战，并表示有兴趣进一步探索和合作以改进安全实践。”</li>
-</ul>
-<h2><a href="https://github.com/facebookresearch/large_concept_model">“大型概念模型：句子表示空间中的语言建模”</a></h2>
-<ul>
-<li>“该存储库提供了大型概念模型(LCM)的实现，这些模型利用“概念”作为语言建模的高级语义表示。”</li>
-<li>LCM支持200种文本语言和57种语音语言，使用SONAR嵌入空间，并通过MSE回归和基于扩散的生成等方法进行自回归句子预测训练。</li>
-<li>“该存储库提供安装说明、数据准备、训练、微调和评估指南，并在 MIT 许可证下发布，使用 fairseq2，提供 UV 和 pip 安装选项。”</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42563534">反应</a></h3>
-<ul>
-<li>大型概念模型专注于以“概念”而非单个标记来表示语言，旨在增强语义分块和预测。</li>
-<li>“该方法建议使用更高级别的表示来模拟人类的规划和交流，可能比传统的基于标记的模型具有优势。”</li>
-<li>“该方法通过强调显式的层次结构来更好地复制人类推理，从而解决了当前大型语言模型 (LLM) 架构中的局限性。”</li>
-</ul>
-<head>
-  <meta property="og:title" content="“新年快乐 2025”" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9C%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90%202025%E2%80%9D&subheading=2025%E5%B9%B41%E6%9C%881%E6%97%A5%E6%98%9F%E6%9C%9F%E4%B8%89%3A%20%E9%BB%91%E5%AE%A2%E6%96%B0%E9%97%BB%E6%91%98%E8%A6%81" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/zh/Hans/2025/01/01</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Z</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

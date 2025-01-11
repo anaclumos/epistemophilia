@@ -15,11 +15,145 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Jan 2025 19:07:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jan 2025 19:29:05 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/story/vi.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
         <language><![CDATA[vi]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[Bản chất của Hiệu ứng Makefile]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Hiệu ứng Makefile&quot; mô tả thực hành của các kỹ sư sao chép và chỉnh sửa các cấu hình phức tạp hiện có, như Makefile, thay vì tạo mới từ đầu. - Cách tiếp cận này phổ biến trong các hệ thống khác nhau, chẳng hạn như cấu hình Tích hợp Liên tục/Triển khai Liên tục (CI/CD) và hệ thống xây dựng, và có thể chỉ ra các công cụ quá phức tạp hoặc được thiết kế kém. - Mặc dù không phải lúc nào cũng tiêu cực, hiệu ứng Makefile có thể cản trở việc học, làm phức tạp vấn đề bảo mật và dẫn đến gỡ lỗi không hiệu quả, nhấn mạnh nhu cầu thiết kế công cụ cẩn thận mà xem xét khả năng cấu hình và dễ sử dụng.</li>
+</ul>
+]]></description>
+            <link>https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZBản chất của Hiệu ứng Makefile</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Portals và Quake]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Bài viết là bài đầu tiên trong loạt bài &quot;Giải mã PVS&quot;, tập trung vào hệ thống hiển thị đã tính toán trước của Quake để giải quyết vấn đề vẽ đè, nơi các pixel được vẽ nhiều lần. - Quake sử dụng cắt xén cổng và các tập hợp có thể nhìn thấy (PVS) bằng cách chia thế giới thành các ô và cổng, tính toán trước khả năng hiển thị để tối ưu hóa việc hiển thị. - Bài viết giới thiệu các lớp Portal và Leaf trong vis.py, một phiên bản tái hiện bằng Python của thuật toán hiển thị của Quake, nhấn mạnh việc sử dụng ma trận hiển thị từ lá đến lá.</li>
+</ul>
+]]></description>
+            <link>https://30fps.net/pages/pvs-portals-and-quake/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZPortals và Quake</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Khắc phục lỗi Phi-4]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://unsloth.ai/blog/phi4</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZKhắc phục lỗi Phi-4</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Toán học rất sai]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Một công ty thiết kế và xây dựng đã mắc lỗi toán học trên Facebook, tính sai bán kính Trái Đất là 4.333 feet, dẫn đến chu vi bị đánh giá thấp nghiêm trọng chỉ hơn 5 dặm.</li>
+<li>Nguyên nhân lỗi bắt nguồn từ việc tính toán độ dài cung mà không sử dụng bán kính thực tế của Trái Đất, khoảng 3.959 dặm.</li>
+<li>Đoạn bài viết nhấn mạnh rằng cung ngoài dài hơn cung trong chưa đến 1%, gợi ý khả năng giảm thời gian bay do giảm lực cản không khí.</li>
+</ul>
+]]></description>
+            <link>https://www.charlespetzold.com/blog/2025/01/Very-Wrong-Math.html</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZToán học rất sai</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Xây dựng Bauble]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Bauble là một công cụ mô hình hóa và kết xuất 3D sử dụng các hàm khoảng cách có dấu (SDFs) để tạo ra các hình dạng và hoạt hình phức tạp. - Ban đầu là một hệ thống cơ bản để tạo ra các shader GLSL, Bauble đã được viết lại để bao gồm các tính năng như xuất mô hình 3D, chỉnh sửa tương tác và chiếu sáng tùy chỉnh. - Công cụ này hiện hỗ trợ nhúng web, chỉnh sửa vector tương tác và cung cấp tài liệu toàn diện, giúp nó dễ tiếp cận cho các dự án sáng tạo và người dùng quan tâm đến thiết kế 3D.</li>
+</ul>
+]]></description>
+            <link>https://ianthehenry.com/posts/bauble/building-bauble/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZXây dựng Bauble</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Gần như tất cả các tìm kiếm nhị phân và sắp xếp trộn đều bị lỗi (2006)]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Vào năm 2006, Joshua Bloch đã phát hiện ra một lỗi trong thuật toán tìm kiếm nhị phân, ban đầu được ghi nhận trong &quot;Programming Pearls&quot; của Jon Bentley, nơi xảy ra tràn số khi &#39;low&#39; và &#39;high&#39; vượt quá giá trị int tối đa.</li>
+<li>Vấn đề này, ảnh hưởng đến các mảng có độ dài từ 2^30 trở lên, hiếm gặp vào những năm 1980 nhưng ngày nay phổ biến hơn, cũng tác động đến thuật toán sắp xếp trộn và các thuật toán chia để trị khác.</li>
+<li>Bloch khuyến nghị khắc phục vấn đề bằng cách tính điểm giữa là <code>int mid = low + ((high - low) / 2);</code>, nhấn mạnh những thách thức của việc viết mã không có lỗi và sự cần thiết của việc kiểm tra kỹ lưỡng.</li>
+</ul>
+]]></description>
+            <link
+      >https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000ZGần như tất cả các tìm kiếm nhị phân và sắp xếp trộn đều bị lỗi (2006)</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Theo dõi thiết bị của bạn qua mạng Apple FindMy trong Go/TinyGo]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Go Haystack cho phép theo dõi các thiết bị Bluetooth cá nhân thông qua mạng &quot;Find My&quot; của Apple mà không cần phần cứng của Apple, sử dụng OpenHaystack và Macless-Haystack với các công cụ Go/TinyGo.</li>
+<li>Người dùng có thể tạo các beacon của riêng mình bằng cách sử dụng firmware TinyGo trên phần cứng như bảng mạch Adafruit Bluefruit và BBC Microbit, với việc thiết lập yêu cầu một Apple ID có xác thực hai yếu tố (2FA).</li>
+<li>Quá trình này bao gồm cài đặt công cụ go-haystack, sử dụng các lệnh như <code>haystack scan</code> để định vị thiết bị, tạo khóa, nạp phần mềm cho thiết bị, và tải lên một tệp JSON lên macless-haystack để thiết bị có thể hiển thị trong giao diện web UI.</li>
+</ul>
+]]></description>
+            <link>https://github.com/hybridgroup/go-haystack</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000ZTheo dõi thiết bị của bạn qua mạng Apple FindMy trong Go/TinyGo</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Trạng thái của Vim]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Sau khi người sáng lập Vim, Bram Moolenaar, qua đời vào năm 2023, cộng đồng Vim đã tái tổ chức để đảm bảo sự phát triển liên tục của dự án, với Christian Brabandt là người bảo trì hiện tại. - Tại VimConf 2024, đã thảo luận rằng đội ngũ đã mở rộng, tập trung vào việc cập nhật trang web Vim, quản lý bảo mật và nâng cao các kênh giao tiếp. - Vim vẫn ở chế độ bảo trì, ưu tiên nhu cầu của cộng đồng và tích hợp các tính năng mới một cách cẩn thận, đồng thời tiếp tục hỗ trợ ICCF Holland, một tổ chức từ thiện do Moolenaar thành lập.</li>
+</ul>
+]]></description>
+            <link>https://lwn.net/SubscriberLink/1002342/a8d8a17f30968b93/</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000ZTrạng thái của Vim</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Phẳng hóa AST và các cấu trúc dữ liệu trình biên dịch khác (2023)]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Đoạn viết thảo luận về làm phẳng cấu trúc dữ liệu, một kỹ thuật cho trình biên dịch tối ưu hóa cây cú pháp trừu tượng (ASTs) bằng cách sử dụng một mảng đơn với các chỉ số thay vì con trỏ. - Phương pháp này cải thiện hiệu suất bằng cách nâng cao tính cục bộ của bộ nhớ, giảm kích thước tham chiếu và đơn giản hóa quản lý bộ nhớ, dẫn đến tăng tốc độ 2.4 lần trong một thử nghiệm vi mô. - Kỹ thuật này được sử dụng đáng chú ý trong các dự án Rust và mang lại lợi ích về mặt tiện dụng, như quản lý bộ nhớ dễ dàng hơn, và được so sánh với các trình thông dịch bytecode để cải thiện hiệu suất hơn nữa.</li>
+</ul>
+]]></description>
+            <link>https://www.cs.cornell.edu/~asampson/blog/flattening.html</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000ZPhẳng hóa AST và các cấu trúc dữ liệu trình biên dịch khác (2023)</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Giảm bớt tính năng thông minh của loa Bluetooth Marshall Uxbridge]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://tomscii.sig7.se/2025/01/De-smarting-the-Marshall-Uxbridge</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000ZGiảm bớt tính năng thông minh của loa Bluetooth Marshall Uxbridge</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title
+      ><![CDATA[Bot của OpenAI đã làm sập trang web của công ty bảy người này 'như một cuộc tấn công DDoS']]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Trang thương mại điện tử của Triplegangers đã trải qua một cuộc tấn công giống như DDoS do bot của OpenAI thực hiện hàng chục nghìn yêu cầu để thu thập dữ liệu từ hơn 65.000 trang sản phẩm. - Trang web thiếu một tệp robots.txt được cấu hình đúng để chặn các bot như vậy, dẫn đến chi phí AWS tăng cao và lo ngại về an ninh dữ liệu. - Sự cố này nhấn mạnh tầm quan trọng của việc các công ty AI cần có sự cho phép trước khi thu thập dữ liệu và là một lời cảnh báo cho các doanh nghiệp nhỏ về việc giám sát hoạt động của bot AI.</li>
+</ul>
+]]></description>
+            <link
+      >https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-11T00:00:00.000ZBot của OpenAI đã làm sập trang web của công ty bảy người này &apos;như một cuộc tấn công DDoS&apos;</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Tôi đã có một siêu năng lực mới]]></title>
             <description
@@ -1014,130 +1148,6 @@
             <link>https://austinhenley.com/blog/25yearsofai.html</link>
             <guid isPermaLink="false">2025-01-02T00:00:00.000ZCuộc phiêu lưu 25 năm của tôi trong AI và ML</guid>
             <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Chúc mừng năm mới 2025]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://news.ycombinator.com/item?id=42562750</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZChúc mừng năm mới 2025</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[DOOM CAPTCHA]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://doom-captcha.vercel.app/</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZDOOM CAPTCHA</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Những cây tìm kiếm tĩnh: nhanh hơn tìm kiếm nhị phân]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Bài báo thảo luận về việc triển khai và tối ưu hóa cây tìm kiếm tĩnh (cây S+) để tìm kiếm dữ liệu đã sắp xếp nhanh hơn đáng kể, đạt tốc độ nhanh hơn 40 lần so với tìm kiếm nhị phân truyền thống. - Các kỹ thuật tối ưu hóa như gom nhóm, nạp trước, và SIMD thủ công (Đơn lệnh, Đa dữ liệu) được sử dụng để tăng cường thông lượng truy vấn. - Bài báo cũng khám phá các bố trí cây khác nhau, kích thước nút, và chiến lược quản lý bộ nhớ, cùng với thảo luận về công việc tương lai như tìm kiếm phân nhánh và tìm kiếm nội suy để cải thiện hiệu quả tìm kiếm hơn nữa.</li>
-</ul>
-]]></description>
-            <link>https://curiouscoding.nl/posts/static-search-tree/</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZNhững cây tìm kiếm tĩnh: nhanh hơn tìm kiếm nhị phân</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Giảm 30% độ chính xác của o1-Preview khi các vấn đề Putnam được biến đổi nhẹ]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Putnam-AXIOM là một tiêu chuẩn được thiết kế để đánh giá các mô hình ngôn ngữ lớn (LLMs) về khả năng suy luận toán học nâng cao bằng cách sử dụng các bài toán từ Cuộc thi Toán học Putnam. - Tiêu chuẩn này bao gồm 236 bài toán gốc và một biến thể với 52 bài toán đã được thay đổi để tránh ô nhiễm dữ liệu. - Mô hình có hiệu suất cao nhất của OpenAI đạt độ chính xác 41,95% trên các bài toán gốc nhưng gặp phải sự sụt giảm hiệu suất đáng kể khoảng 30% trên các bài toán đã thay đổi, nhấn mạnh những thách thức trong việc thích ứng với các biến thể.</li>
-</ul>
-]]></description>
-            <link>https://openreview.net/forum?id=YXnwlZe0yf&amp;noteId=yrsGpHd0Sf</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZGiảm 30% độ chính xác của o1-Preview khi các vấn đề Putnam được biến đổi nhẹ</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Những cơ sở dữ liệu năm 2024: Một năm nhìn lại]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Thị trường cơ sở dữ liệu năm 2024 đã trải qua những thay đổi đáng kể, bao gồm các vụ mua lại lớn, thay đổi giấy phép và sự cạnh tranh liên tục giữa các đối thủ chính như Redis, Elasticsearch, Databricks và Snowflake. - DuckDB trở nên phổ biến cho các truy vấn phân tích, với tích hợp vào Postgres, trong khi các bản phát hành đáng chú ý bao gồm Amazon Aurora DSQL và Microsoft Garnet. - Các vụ mua lại như Tabular bởi Databricks và OrioleDB bởi Supabase là đáng kể, và mặc dù có những trở ngại như việc đóng cửa của OtterTune, ngành công nghiệp vẫn năng động với các dự án và nguồn tài trợ mới.</li>
-</ul>
-]]></description>
-            <link>https://www.cs.cmu.edu/~pavlo/blog/2025/01/2024-databases-retrospective.html</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZNhững cơ sở dữ liệu năm 2024: Một năm nhìn lại</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Những cuốn sách tôi yêu thích đọc trong năm 2024]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Danh sách này bao gồm một loạt các cuốn sách đa dạng, bao gồm lịch sử, triết học, khoa học và các câu chuyện cá nhân, mỗi cuốn đều mang lại những hiểu biết độc đáo và trải nghiệm phong phú.</li>
-<li>Điểm nổi bật bao gồm các bức thư của Cicero để có cái nhìn sâu sắc về cuộc sống La Mã, các tác phẩm của Ben-Ari về logic khoa học máy tính và xác minh chương trình, và hồi ký của Steve Martin về thành công trong hài kịch.</li>
-<li>Trong bộ sưu tập cũng bao gồm các khám phá triết học của Pierre Hadot và Nietzsche, các bi kịch Hy Lạp của Aeschylus, và các tác phẩm văn học của Ursula Le Guin và Rabindranath Tagore.</li>
-</ul>
-]]></description>
-            <link>https://thoughts.wyounas.com/p/books-i-enjoyed-most-in-2024</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZNhững cuốn sách tôi yêu thích đọc trong năm 2024</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Một trong những bài báo của tôi đã bị từ chối hôm nay]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://mathstodon.xyz/@tao/113721192051328193</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZMột trong những bài báo của tôi đã bị từ chối hôm nay</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[API Parrot – Tự động phân tích ngược các API HTTP]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>API Parrot là một công cụ mới được thiết kế để đơn giản hóa việc tự động hóa các quy trình kinh doanh bằng cách tự động xác định các mối tương quan dữ liệu giữa các yêu cầu API và cung cấp một biểu đồ luồng. - Nó cho phép người dùng ghi lại các yêu cầu, xác định đầu vào và đầu ra, và xuất các luồng này dưới dạng mã JavaScript, làm cho quá trình này hiệu quả hơn so với việc phân tích ngược thủ công hoặc sử dụng các công nghệ kém tối ưu hơn như Tự động hóa Quy trình Robot (RPA). - Công cụ này được xây dựng trên Electron và có sẵn cho cả nền tảng Windows và Linux, với một hướng dẫn có sẵn để phân tích ngược API của USPS.</li>
-</ul>
-]]></description>
-            <link>https://apiparrot.com/</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZAPI Parrot – Tự động phân tích ngược các API HTTP</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title
-      ><![CDATA[FBI: Kho chất nổ tự chế lớn nhất trong lịch sử của cơ quan được tìm thấy ở Virginia]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://thehill.com/national-security/5061535-virginia-man-arrested-explosives/</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZFBI: Kho chất nổ tự chế lớn nhất trong lịch sử của cơ quan được tìm thấy ở Virginia</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Déjà vu: CVE ma quái trong tiêu đề terminal của tôi]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Ghostty, một trình giả lập terminal mới, đã có một lỗ hổng bảo mật tương tự như một lỗ hổng từ năm 2003, cho phép các ký tự thoát ASCII thực thi các lệnh như mở ứng dụng. - Vấn đề này đặc biệt gây rắc rối với Zsh và Bash ở chế độ vi, nhưng Ghostty 1.0.1 đã giải quyết điều này bằng cách vô hiệu hóa tính năng theo mặc định. - Mặc dù có lỗ hổng bảo mật, Ghostty được khen ngợi vì các tính năng của nó, và nhà phát triển đã nhanh chóng giải quyết vấn đề, cung cấp các bản sửa lỗi và giải pháp thay thế cho người dùng.</li>
-</ul>
-]]></description>
-            <link>https://dgl.cx/2024/12/ghostty-terminal-title</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000ZDéjà vu: CVE ma quái trong tiêu đề terminal của tôi</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Những Mô Hình Khái Niệm Lớn: Mô hình ngôn ngữ trong không gian biểu diễn câu]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>Kho lưu trữ cung cấp các triển khai cho Mô hình Khái niệm Lớn (LCM), sử dụng &quot;khái niệm&quot; như một đại diện ngữ nghĩa cấp cao hơn cho mô hình ngôn ngữ.</li>
-<li>LCM hỗ trợ 200 ngôn ngữ văn bản và 57 ngôn ngữ nói sử dụng không gian nhúng SONAR, và được huấn luyện cho dự đoán câu tự hồi quy với các phương pháp như hồi quy MSE và tạo dựa trên khuếch tán.</li>
-<li>Kho lưu trữ cung cấp hướng dẫn cài đặt, chuẩn bị dữ liệu, huấn luyện, tinh chỉnh và đánh giá, và được phát hành theo giấy phép MIT, sử dụng fairseq2 với các tùy chọn cài đặt UV và pip.</li>
-</ul>
-]]></description>
-            <link>https://github.com/facebookresearch/large_concept_model</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-01T00:00:00.000ZNhững Mô Hình Khái Niệm Lớn: Mô hình ngôn ngữ trong không gian biểu diễn câu</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

@@ -15,12 +15,132 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Jan 2025 19:07:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jan 2025 19:29:05 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/cs.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[cs]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-11]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/11&#39;</h2>
+<h1>2025-01-11</h1>
+<h2><a href="https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect">„Buďte si vědomi efektu Makefile“</a></h2>
+<ul>
+<li>„„Efekt Makefile“ popisuje praxi, kdy inženýři kopírují a upravují existující složité konfigurace, jako jsou Makefiles, místo aby vytvářeli nové od začátku. - Tento přístup je rozšířený v různých systémech, jako jsou konfigurace pro Continuous Integration/Continuous Deployment (CI/CD) a systémy pro sestavování, a může naznačovat příliš složité nebo špatně navržené nástroje. - Ačkoli není inherentně negativní, efekt Makefile může bránit učení, komplikovat bezpečnost a vést k neefektivnímu ladění, což zdůrazňuje potřebu promyšleného návrhu nástrojů, které zohledňují konfigurovatelnost a snadnost použití.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42663231">Reakce</a></h3>
+<ul>
+<li>„Efekt Makefile“ popisuje tendenci vývojářů kopírovat a upravovat kód nebo konfigurace, aniž by jim plně rozuměli, často kvůli složitosti nástrojů nebo jejich nečastému používání.“</li>
+<li>„Tento jev je rozšířený v programovacích a konfiguračních úlohách, kde vývojáři používají známá řešení k úspoře času a úsilí, což může vést k obtížně udržovatelnému kódu.“</li>
+<li>„Diskuse zdůrazňuje potřebu vyvážit používání šablon a existujících řešení s hlubším porozuměním nástrojům a systémům, které jsou do toho zapojeny.“</li>
+</ul>
+<h2><a href="https://30fps.net/pages/pvs-portals-and-quake/">„Portály a Quake“</a></h2>
+<ul>
+<li>„Článek je prvním v sérii „Demystifying the PVS“, zaměřeným na předpočítaný systém viditelnosti ve hře Quake, který řeší problém překreslování, kdy jsou pixely vykreslovány vícekrát. - Quake využívá ořezávání portálů a potenciálně viditelné sady (PVS) tím, že svět dělí na buňky a portály, předpočítává viditelnost pro optimalizaci vykreslování. - Článek představuje třídy Portal a Leaf ve skriptu vis.py, což je Pythonová reimplementace algoritmu viditelnosti z Quake, a zdůrazňuje použití matice viditelnosti mezi listy.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42661185">Reakce</a></h3>
+<ul>
+<li>„Návrháři úrovní v Quake využívali „hint“ štětce a „area portály“ k optimalizaci výkonu hry, což je technika, která se stala základem v 3D grafice. - Hry jako Prey a Portal přinesly portály do popředí herních mechanik, ačkoli tento koncept byl používán v renderování již od počátků 3D grafiky. - Unreal Engine 1 používal zóny pro optimalizaci a současné enginy jako Unreal Engine 5 nadále používají podobné metody ke zvýšení efektivity renderování.“</li>
+</ul>
+<h2><a href="https://unsloth.ai/blog/phi4">„Opravy chyb Phi-4“</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42660335">Reakce</a></h3>
+<ul>
+<li>„Daniel Hanchen objevil a vyřešil chyby v Microsoftově velkém jazykovém modelu Phi-4 (LLM), jako jsou problémy s ukončováním vět a šablonami pro chat. Převodem Phi-4 na architekturu Llama zlepšil výkon a sdílel opravy na platformě Hugging Face, která je určena pro modely strojového učení. K dispozici je Colab notebook pro doladění Phi-4, a zatímco opravy zlepšily výkon v některých benchmarcích, v jiných ho snížily; tým Phi-4 pracuje na začlenění těchto vylepšení do původního modelu.“</li>
+</ul>
+<h2><a href="https://www.charlespetzold.com/blog/2025/01/Very-Wrong-Math.html">„Velmi špatná matematika“</a></h2>
+<ul>
+<li>„Designérská a stavební firma udělala na Facebooku matematickou chybu, když nesprávně vypočítala poloměr Země jako 4 333 stop, což vedlo k výrazně podceněnému obvodu něco málo přes 5 mil.“</li>
+<li>„Chyba vznikla z výpočtu délek oblouků bez použití skutečného poloměru Země, který je přibližně 3 959 mil.“</li>
+<li>„Příspěvek zdůraznil, že vnější oblouk byl o méně než 1 % delší než vnitřní oblouk, což naznačuje možnou redukci doby letu díky sníženému odporu vzduchu.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42661432">Reakce</a></h3>
+<ul>
+<li>„Stavitel na YouTube nesprávně tvrdil, že olovnice by byly rovnoběžné na ploché Zemi, což je nedorozumění ohledně zakřivení Země, které je v takových měřeních zanedbatelné. - Diskuse zdůraznila selhání intuice při chápání konceptů ve velkém měřítku a zabývala se teoriemi ploché Země, mylnými představami o gravitaci a vlivy rotace Země na let. - Konverzace humorně zkoumala vytrvalost nesprávných přesvědčení a obtížnost vysvětlování vědeckých konceptů těm, kteří odmítají zavedenou vědu.“</li>
+</ul>
+<h2><a href="https://ianthehenry.com/posts/bauble/building-bauble/">„Stavba Bauble“</a></h2>
+<ul>
+<li>„Bauble je nástroj pro 3D modelování a renderování, který využívá podepsané vzdálenostní funkce (SDF) k vytváření složitých tvarů a animací. - Původně základní systém pro generování GLSL shaderů byl Bauble přepsán, aby zahrnoval funkce jako export 3D modelů, interaktivní úpravy a vlastní osvětlení. - Nástroj nyní podporuje vkládání na web, interaktivní úpravy vektorů a nabízí komplexní dokumentaci, což jej činí přístupným pro kreativní projekty a uživatele se zájmem o 3D design.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42660942">Reakce</a></h3>
+<ul>
+<li>„Projekt Building Bauble, který je představen na ianthehenry.com, vzbudil nadšení tím, že ukazuje kouzlo a radost z programování, zejména v oblasti kódování a grafiky.“</li>
+<li>„Projekt je chválen za svou kreativitu a podrobný popis, který inspiruje čtenáře k tomu, aby se vrátili k nedokončeným projektům a prozkoumali nové technologie, jako je Janet (programovací jazyk) a GLSL (OpenGL Shading Language).“</li>
+<li>„Navzdory některým technickým problémům na Safari je projekt oslavován pro svou působivou realizaci a poutavý vývojový příběh, který vyvolává diskuse o osobních projektech a používání RSS čteček.“</li>
+</ul>
+<h2><a href="https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/">„Téměř všechny binární vyhledávání a mergesorty jsou rozbité (2006)“</a></h2>
+<ul>
+<li>„V roce 2006 Joshua Bloch identifikoval chybu v algoritmu binárního vyhledávání, původně zaznamenanou v knize Jona Bentleyho &#39;Programming Pearls&#39;, kde dochází k přetečení, když &#39;low&#39; a &#39;high&#39; překročí maximální hodnotu int.“</li>
+<li>„Tento bug, který ovlivňuje pole s délkou 2^30 nebo více, byl v 80. letech vzácný, ale dnes je běžnější, což také ovlivňuje mergesort a další algoritmy typu rozděl a panuj.“</li>
+<li>„Bloch doporučuje opravit problém výpočtem středu jako <code>int mid = low + ((high - low) / 2);</code>, čímž zdůrazňuje výzvy při psaní bezchybného kódu a nutnost důkladného testování.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42664400">Reakce</a></h3>
+<ul>
+<li>„Mnoho binárních vyhledávání a mergesortů je náchylných k problémům s přetečením celých čísel, zejména ve starších implementacích, jak bylo zdůrazněno v článku z roku 2006.“</li>
+<li>„Článek zdůrazňuje důležitost zohlednění okrajových případů a hardwarových omezení v programování, což zůstává aktuální i dnes.“</li>
+<li>„Vývojářům se doporučuje používat vestavěné funkce nebo větší celočíselné typy, aby se předešlo takovým chybám, což zdůrazňuje potřebu opatrnosti při práci s datovými typy a velikostmi vstupů.“</li>
+</ul>
+<h2><a href="https://github.com/hybridgroup/go-haystack">„Sledujte svá zařízení prostřednictvím sítě Apple FindMy v Go/TinyGo“</a></h2>
+<ul>
+<li>„Go Haystack umožňuje sledování osobních Bluetooth zařízení prostřednictvím sítě Apple „Find My“ bez potřeby Apple hardwaru, využívající OpenHaystack a Macless-Haystack s nástroji Go/TinyGo.“</li>
+<li>„Uživatelé mohou vytvářet vlastní majáky pomocí firmwaru TinyGo na hardwaru, jako jsou desky Adafruit Bluefruit a BBC Microbit, přičemž nastavení vyžaduje Apple ID s dvoufaktorovou autentizací (2FA).“</li>
+<li>„Proces zahrnuje instalaci nástroje go-haystack, použití příkazů jako <code>haystack scan</code> k vyhledání zařízení, generování klíčů, flashování zařízení a nahrání souboru JSON do macless-haystack pro zviditelnění zařízení v webovém rozhraní.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42665367">Reakce</a></h3>
+<ul>
+<li>„Síť Apple FindMy lze využít s Go/TinyGo k sledování zařízení, což nabízí způsob, jak rozšířit síť bez potřeby Apple účtu.“</li>
+<li>„Obavy o soukromí jsou zmírněny designem společnosti Apple, která má silnou pověst v oblasti ochrany soukromí uživatelů, i když někteří uživatelé zůstávají obezřetní vůči možnému sledování.“</li>
+<li>„Síť FindMy funguje ve dvou částech: zařízení Apple lokalizují předměty a uživatelská zařízení nahrávají lokalizační data do Apple, s možností pro uživatele tuto funkci vypnout, pokud si to přejí.“</li>
+</ul>
+<h2><a href="https://lwn.net/SubscriberLink/1002342/a8d8a17f30968b93/">„Stav editoru Vim“</a></h2>
+<ul>
+<li>„Po úmrtí zakladatele Vimu Brama Moolenaara v roce 2023 se komunita Vimu reorganizovala, aby zajistila pokračování vývoje projektu, přičemž současným správcem je Christian Brabandt. - Na VimConf 2024 bylo diskutováno, že tým se rozšířil a zaměřuje se na aktualizaci webových stránek Vimu, správu bezpečnosti a zlepšení komunikačních kanálů. - Vim zůstává v režimu údržby, přičemž prioritou jsou potřeby komunity a pečlivá integrace nových funkcí, a zároveň pokračuje v podpoře ICCF Holland, charitativní organizace založené Moolenaarom.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42665222">Reakce</a></h3>
+<ul>
+<li>„Dlouholetí uživatelé Vimu přemýšlejí o budoucnosti editoru po úmrtí jeho tvůrce, Brama Moolenaara, přičemž někteří jsou spokojeni s jeho současnou stabilitou a jiní zkoumají alternativy jako Neovim pro moderní funkce.“</li>
+<li>„Neovim získává pozornost díky podpoře skriptování v Lua a moderním vylepšením, zatímco někteří uživatelé zvažují Emacs kvůli vnímané fragmentaci mezi Vim a Neovim.“</li>
+<li>„Diskuse mezi uživateli zahrnují témata jako výkon Treesitteru, podpora Language Server Protocol (LSP) a srovnání s Visual Studio Code (VSCode), což zdůrazňuje flexibilitu a stabilitu těchto editorů.“</li>
+</ul>
+<h2><a href="https://www.cs.cornell.edu/~asampson/blog/flattening.html">„Zplošťování AST a dalších datových struktur kompilátoru (2023)“</a></h2>
+<ul>
+<li>„Příspěvek se zabývá zplošťováním datových struktur, což je technika pro kompilátory, která optimalizuje abstraktní syntaktické stromy (AST) použitím jednoho pole s indexy namísto ukazatelů. - Tato metoda zvyšuje výkon zlepšením lokality paměti, zmenšením velikosti referencí a zjednodušením správy paměti, což vede k 2,4násobnému zrychlení v mikroběnchmarku. - Technika je výrazně využívána v projektech v jazyce Rust a nabízí ergonomické výhody, jako je snadnější správa paměti, a je srovnávána s interprety bytekódu pro další zlepšení výkonu.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42659061">Reakce</a></h3>
+<ul>
+<li>„Diskuse se zaměřuje na optimalizaci abstraktních syntaktických stromů (AST) jejich uložením do plochých, souvislých polí za účelem zlepšení výkonu a efektivity paměti.“</li>
+<li>„Tato metoda zlepšuje lokalitu cache a zjednodušuje správu paměti, přičemž se srovnává s technikami v jazycích jako Lisp a kompilátoru Zig.“</li>
+<li>„Konverzace také odkazuje na historické metody a podobné techniky v jiných programovacích jazycích, zdůrazňujíc výhody plochých datových struktur pro skládání a snadnou manipulaci.“</li>
+</ul>
+<h2><a href="https://tomscii.sig7.se/2025/01/De-smarting-the-Marshall-Uxbridge">„Odstranění chytrých funkcí z Bluetooth reproduktoru Marshall Uxbridge“</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42666572">Reakce</a></h3>
+<ul>
+<li>„Diskuse se zaměřuje na úpravu Bluetooth reproduktoru Marshall Uxbridge za účelem odstranění jeho „chytrých“ funkcí, což zahrnuje technické aspekty, jako je navrhování desky plošných spojů (PCB) pro digitální vstup I2S.“</li>
+<li>„Uživatelé diskutují o roli digitálního zpracování signálu (DSP) při dosahování dobré kvality zvuku, přičemž někteří zdůrazňují jeho nezbytnost pro kompenzaci omezení hardwaru.“</li>
+<li>„Konverzace se také zabývá výzvami při úpravě chytrých zařízení a dostupností moderní výroby PCB a komponentů.“</li>
+</ul>
+<h2><a href="https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/">„Bot od OpenAI zničil webové stránky této sedmičlenné společnosti &#39;jako DDoS útok&#39;“</a></h2>
+<ul>
+<li>„E-commerce stránka Triplegangers zažila útok podobný DDoS kvůli botovi OpenAI, který provedl desítky tisíc požadavků na získání dat z více než 65 000 produktových stránek. - Stránka neměla správně nakonfigurovaný soubor robots.txt, který by takové boty blokoval, což vedlo ke zvýšeným nákladům na AWS a obavám o bezpečnost dat. - Tento incident zdůrazňuje důležitost toho, aby si AI společnosti vyžádaly povolení před získáváním dat, a slouží jako varování pro malé podniky, aby sledovaly aktivitu AI botů.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42660377">Reakce</a></h3>
+<ul>
+<li>„Bot OpenAI způsobil nadměrný provoz na webových stránkách malé společnosti, podobně jako útok typu Distributed Denial of Service (DDoS), což poukazuje na problémy s AI boty, které přetěžují webové stránky.“</li>
+<li>„Společnosti jako Read the Docs zažily podobné výzvy s AI boty, které generují masivní provoz, a to i přes použití &#39;robots.txt&#39; k řízení webových prohledávačů.“</li>
+<li>„Incident zdůrazňuje probíhající debatu o vyvážení přístupnosti webu s ochranou proti agresivnímu sběru dat ze strany AI společností, protože některé boty ignorují &#39;robots.txt&#39;, což vede k potenciálním právním a finančním problémům pro malé vlastníky stránek.“</li>
+</ul>
+<head>
+  <meta property="og:title" content="„Buďte si vědomi efektu Makefile“" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EBu%C4%8Fte%20si%20v%C4%9Bdomi%20efektu%20Makefile%E2%80%9C&subheading=sobota%2011.%20ledna%202025%3A%20Hacker%20News%20Shrnut%C3%AD" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/cs/2025/01/11</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Z</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-10]]></title>
             <description
@@ -903,104 +1023,6 @@
             <link>https://hn.cho.sh/cs/2025/01/02</link>
             <guid isPermaLink="false">2025-01-02T00:00:00.000Z</guid>
             <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2025-01-01]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2025/01/01&#39;</h2>
-<h1>2025-01-01</h1>
-<h2><a href="https://news.ycombinator.com/item?id=42562750">„Šťastný nový rok 2025“</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42562750">Reakce</a></h3>
-<h2><a href="https://doom-captcha.vercel.app/">„DOOM CAPTCHA“</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42566112">Reakce</a></h3>
-<ul>
-<li>„DOOM CAPTCHA je kreativní projekt, který vyžaduje, aby uživatelé hráli úroveň klasické hry DOOM jako test CAPTCHA, čímž zdůrazňuje technické dovednosti a nostalgii. - Uživatelé jej považují za náročný kvůli absenci moderních ovládacích prvků, což vede k různorodým reakcím ohledně jeho praktičnosti a přístupnosti. - Projekt, ačkoliv je novátorský, poukazuje na přetrvávající nespokojenost s tradičními systémy CAPTCHA, přestože byl vytvořen s pomocí AI asistenta od Vercelu a manuální integrace hry.“</li>
-</ul>
-<h2><a href="https://curiouscoding.nl/posts/static-search-tree/">„Statické vyhledávací stromy: rychlejší než binární vyhledávání“</a></h2>
-<ul>
-<li>„Článek se zabývá implementací a optimalizací statických vyhledávacích stromů (S+ stromy) pro výrazně rychlejší vyhledávání v seřazených datech, dosahující rychlostí 40krát vyšších než tradiční binární vyhledávání. - Optimalizační techniky jako dávkování, přednačítání a manuální SIMD (Single Instruction, Multiple Data) jsou využívány k zvýšení propustnosti dotazů. - Článek také zkoumá různé rozvržení stromů, velikosti uzlů a strategie správy paměti, s diskusí o budoucí práci, jako je větvené vyhledávání a interpolace vyhledávání, pro další zlepšení efektivity vyhledávání.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42562847">Reakce</a></h3>
-<ul>
-<li>„Diskuse zdůrazňuje přechod od C/C++ k Rustu pro algoritmický obsah, zejména ve statických vyhledávacích stromech, díky bezpečnostním a výkonnostním výhodám Rustu.“</li>
-<li>„Rostoucí popularita Rustu v nízkoúrovňovém programování je zaznamenána, přičemž někteří uživatelé dávají přednost C nebo pseudokódu pro jeho přístupnost, zatímco jiní oceňují moderní vlastnosti Rustu.“</li>
-<li>„Konverzace také zkoumá potenciál programovacího jazyka Zig a výzvy spojené s učením se novým jazykům, což odráží vyvíjející se prostředí programovacích jazyků.“</li>
-</ul>
-<h2><a href="https://openreview.net/forum?id=YXnwlZe0yf&noteId=yrsGpHd0Sf">„30% pokles přesnosti o1-preview při mírné variaci Putnamových problémů“</a></h2>
-<ul>
-<li>„Putnam-AXIOM je benchmark navržený k hodnocení velkých jazykových modelů (LLM) v oblasti pokročilého matematického uvažování pomocí úloh z Putnamovy matematické soutěže. - Benchmark zahrnuje 236 původních úloh a variantu s 52 pozměněnými úlohami, aby se zabránilo kontaminaci dat. - Nejvýkonnější model OpenAI dosáhl 41,95% přesnosti na původních úlohách, ale zaznamenal výrazný pokles výkonu přibližně o 30% u pozměněných úloh, což poukazuje na výzvy při přizpůsobování se variacím.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42565606">Reakce</a></h3>
-<ul>
-<li>„Studie odhalila 30% pokles přesnosti modelu o1-Preview na problémech Putnam, když byly zavedeny drobné variace, což naznačuje problémy pro velké jazykové modely (LLM) s malými změnami. - Zjištění podněcují debatu o tom, zda LLM skutečně dokážou uvažovat, nebo zda se primárně spoléhají na rozpoznávání vzorů a zapamatování, podobně jako lidské chyby pod tlakem. - Navzdory těmto výzvám modely jako o1 a o3 nadále dobře fungují na složitých matematických problémech, i když jejich schopnost generalizace je stále pod drobnohledem.“</li>
-</ul>
-<h2><a href="https://www.cs.cmu.edu/~pavlo/blog/2025/01/2024-databases-retrospective.html">„Databáze v roce 2024: Roční přehled“</a></h2>
-<ul>
-<li>„Databázová krajina v roce 2024 zažila významné změny, včetně velkých akvizic, změn licencí a pokračujících rivalit mezi klíčovými hráči jako Redis, Elasticsearch, Databricks a Snowflake. - DuckDB získal popularitu pro analytické dotazy, s integracemi do Postgres, zatímco mezi významné vydání patřily Amazon Aurora DSQL a Microsoft Garnet. - Akvizice jako Tabular od Databricks a OrioleDB od Supabase byly významné, a navzdory neúspěchům jako uzavření OtterTune zůstává průmysl dynamický s novými projekty a financováním.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42566192">Reakce</a></h3>
-<ul>
-<li>„Diskuse kritizuje API Redis, přičemž někteří tvrdí, že kritika postrádá hlubší pochopení návrhu Redis a jeho jedinečného datového modelu.“</li>
-<li>„Redis je uznáván pro své efektivní využití ve specifických aplikacích, jako jsou žebříčky a systémy v reálném čase, i přes některé kritiky API.“</li>
-<li>„Konverzace také zkoumá širší oblast databází, včetně výzev pro startupy, roli SQL a vývoj databázových technologií, přičemž zdůrazňuje důležitost porozumění systémům před jejich kritizováním.“</li>
-</ul>
-<h2><a href="https://thoughts.wyounas.com/p/books-i-enjoyed-most-in-2024">„Knihy, které jsem rád četl v roce 2024“</a></h2>
-<ul>
-<li>„Seznam obsahuje rozmanitou škálu knih, včetně historických, filozofických, vědeckých a osobních vyprávění, z nichž každá nabízí jedinečné postřehy a obohacující zážitky.“</li>
-<li>„Mezi nejzajímavější patří Ciceronovy dopisy pro vhled do římského života, Ben-Ariho práce o logice počítačové vědy a ověřování programů a memoáry Stevea Martina o úspěchu v komedii.“</li>
-<li>„Sbírka také zahrnuje filozofické průzkumy od Pierra Hadota a Nietzscheho, řecké tragédie od Aischyla a literární díla od Ursuly Le Guin a Rabíndranátha Thákura.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42564687">Reakce</a></h3>
-<h2><a href="https://mathstodon.xyz/@tao/113721192051328193">„Terence Tao: Jeden z mých článků byl dnes zamítnut.“</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42568399">Reakce</a></h3>
-<ul>
-<li>„Terence Tao, významný matematik, sdílel zkušenost s odmítnutím svého článku, čímž zdůraznil častý výskyt odmítnutí v akademické sféře. Jeho příběh vyvolal diskuse o svévolné povaze recenzních řízení a výzvách, kterým čelí akademické publikování. Rozhovor poukázal na to, že odmítnutí je běžnou součástí akademického procesu, a to i pro přední výzkumníky, a zdůraznil důležitost sdílení neúspěchů k řešení syndromu podvodníka.“</li>
-</ul>
-<h2><a href="https://apiparrot.com/">„API Parrot – Automaticky reverzní inženýrství HTTP API“</a></h2>
-<ul>
-<li>„API Parrot je nový nástroj navržený k zjednodušení automatizace obchodních procesů automatickým identifikováním datových korelací mezi API požadavky a poskytováním grafického znázornění toku. - Umožňuje uživatelům zaznamenávat požadavky, definovat vstupy a výstupy a exportovat tyto toky jako JavaScriptový kód, což činí proces efektivnějším než manuální reverzní inženýrství nebo používání méně optimálních technologií, jako je Robotic Process Automation (RPA). - Nástroj je postaven na platformě Electron a je dostupný pro Windows i Linux, s dostupným tutoriálem pro reverzní inženýrství API USPS.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42565821">Reakce</a></h3>
-<ul>
-<li>„API Parrot je nástroj, který automatizuje reverzní inženýrství HTTP API, což usnadňuje automatizaci obchodních procesů identifikací datových korelací mezi požadavky. - Nabízí funkce jako nahrávání požadavků, definování vstupů a výstupů a export toků jako JavaScriptový kód s grafickým znázorněním toku. - V současné době je k dispozici pro Windows a Linux, API Parrot je zdarma, s možností &quot;pro&quot; verze pro firmy a plány na vydání pro macOS v budoucnu.“</li>
-</ul>
-<h2><a href="https://thehill.com/national-security/5061535-virginia-man-arrested-explosives/">„FBI: Největší zásoba podomácku vyrobených výbušnin v historii agentury nalezena ve Virginii“</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42562529">Reakce</a></h3>
-<ul>
-<li>„FBI odhalila největší zásobu podomácku vyrobených výbušnin ve své historii ve Virginii, což vedlo k významným právním a veřejným debatám.“</li>
-<li>„Podezřelý je v současné době obviněn pouze z držení pušky s krátkou hlavní, protože se zkoumá legalita jeho střelných zbraní.“</li>
-<li>„Případ vyvolal diskuse o zákonech o zbraních, druhém dodatku a rovnováze mezi vládní regulací a individuálními právy.“</li>
-</ul>
-<h2><a href="https://dgl.cx/2024/12/ghostty-terminal-title">„Déjà vu: Strašidelné CVE v názvu mého terminálu“</a></h2>
-<ul>
-<li>„Ghostty, nový terminálový emulátor, měl bezpečnostní zranitelnost podobnou té z roku 2003, která umožňovala ASCII escape znakům spouštět příkazy, jako je otevírání aplikací. - Problém byl obzvláště problematický s Zsh a Bash v režimu vi, ale Ghostty 1.0.1 to vyřešil tím, že tuto funkci ve výchozím nastavení deaktivoval. - Navzdory bezpečnostní chybě je Ghostty chválen za své funkce a vývojář rychle řešil problém, poskytl opravy a řešení pro uživatele.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42562743">Reakce</a></h3>
-<ul>
-<li>„Diskuse se zaměřuje na bezpečnostní zranitelnosti terminálů, zejména ty související s únikovými sekvencemi, a zkoumá způsoby, jak tyto rizika zmírnit. - Návrhy na zlepšení bezpečnosti terminálů zahrnují přijetí systémů podobných ochranným kruhům CPU nebo syscallu pledge() v OpenBSD, které omezují schopnosti, aby se zabránilo zneužití. - Účastníci uznávají výzvu vyvážení bezpečnosti a funkčnosti v terminálových aplikacích a vyjadřují zájem o další zkoumání a spolupráci na zlepšení bezpečnostních praktik.“</li>
-</ul>
-<h2><a href="https://github.com/facebookresearch/large_concept_model">„Velké konceptuální modely: Jazykové modelování v prostoru reprezentace vět“</a></h2>
-<ul>
-<li>„Úložiště nabízí implementace pro velké konceptuální modely (LCM), které využívají „koncepty“ jako vyšší úroveň sémantické reprezentace pro modelování jazyka.“</li>
-<li>„LCM podporuje 200 textových jazyků a 57 mluvených jazyků pomocí SONAR embedding prostoru a je trénován pro auto-regresivní predikci vět s metodami jako MSE regrese a generování založené na difuzi.“</li>
-<li>„Úložiště poskytuje pokyny k instalaci, přípravě dat, tréninku, doladění a hodnocení, a je vydáno pod licencí MIT, s použitím fairseq2 s možnostmi instalace UV a pip.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42563534">Reakce</a></h3>
-<ul>
-<li>„Velké konceptuální modely se zaměřují na reprezentaci jazyka ve formě „konceptů“ spíše než jednotlivých tokenů, s cílem zlepšit sémantické členění a predikci.“</li>
-<li>„Tato metoda navrhuje použití vyšších úrovní reprezentace k napodobení lidského plánování a komunikace, což by mohlo nabídnout výhody oproti tradičním modelům založeným na tokenech.“</li>
-<li>„Tento přístup řeší omezení současných architektur velkých jazykových modelů (LLM) tím, že klade důraz na explicitní hierarchické struktury, aby lépe napodoboval lidské uvažování.“</li>
-</ul>
-<head>
-  <meta property="og:title" content="„Šťastný nový rok 2025“" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9E%C5%A0%C5%A5astn%C3%BD%20nov%C3%BD%20rok%202025%E2%80%9C&subheading=st%C5%99eda%201.%20ledna%202025%3A%20Hacker%20News%20Shrnut%C3%AD" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/cs/2025/01/01</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Z</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

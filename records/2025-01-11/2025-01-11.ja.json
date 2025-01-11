@@ -1,0 +1,218 @@
+[
+  {
+    "id": 42663231,
+    "title": "Makefile効果に注意",
+    "originLink": "https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42663231",
+    "commentBody": "",
+    "originSummary": [
+      "「\"Makefile効果\"は、エンジニアが新しいものをゼロから作成するのではなく、既存の複雑な設定(Makefileなど)をコピーして修正する慣行を指します。このアプローチは、継続的インテグレーション/継続的デプロイメント(CI/CD)設定やビルドシステムなど、さまざまなシステムで一般的であり、過度に複雑または設計が不十分なツールを示すことがあります。必ずしも否定的ではありませんが、Makefile効果は学習を妨げ、セキュリティを複雑にし、非効率的なデバッグにつながる可能性があり、設定可能性と使いやすさを考慮した思慮深いツール設計の必要性を浮き彫りにします。」"
+    ],
+    "commentSummary": [
+      "「\"Makefile効果\"は、ツールの複雑さや使用頻度の低さが原因で、開発者がコードや設定を完全に理解せずにコピーして修正する傾向を説明しています。」",
+      "「この現象はプログラミングや設定作業全般に広がっており、開発者が時間と労力を節約するために既知の解決策を使用することで、メンテナンスが困難なコードにつながる可能性があります。」",
+      "「この議論は、テンプレートや既存のソリューションを使用することと、関与するツールやシステムについての深い理解を得ることのバランスを取る必要性を強調しています。」"
+    ],
+    "points": 238,
+    "commentCount": 203,
+    "retryCount": 0,
+    "time": 1736568792
+  },
+  {
+    "id": 42661185,
+    "title": "ポータルズとクエイク",
+    "originLink": "https://30fps.net/pages/pvs-portals-and-quake/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42661185",
+    "commentBody": "",
+    "originSummary": [
+      "「この記事は「Demystifying the PVS」シリーズの最初の記事で、ピクセルが複数回レンダリングされるオーバードローに対処するためのQuakeの事前計算された可視性システムに焦点を当てています。- Quakeは、ポータルカリングと潜在的可視セット(PVS)を使用して、世界をセルとポータルに分割し、レンダリングを最適化するために可視性を事前計算します。- 記事では、Quakeの可視性アルゴリズムをPythonで再実装したvis.pyのPortalクラスとLeafクラスを紹介し、リーフ間の可視性マトリックスの使用を強調しています。」"
+    ],
+    "commentSummary": [
+      "「Quakeのレベルデザイナーは、ゲームのパフォーマンスを最適化するために「ヒント」ブラシや「エリアポータル」を利用しました。この技術は3Dグラフィックスの基礎となっています。 - PreyやPortalのようなゲームは、ゲームプレイのメカニクスとしてポータルを注目させましたが、この概念は初期の3Dグラフィックスからレンダリングに使用されています。 - Unreal Engine 1は最適化のためにゾーンを採用し、現代のエンジンであるUnreal Engine 5のようなものも、レンダリング効率を向上させるために同様の方法を使用し続けています。」"
+    ],
+    "points": 183,
+    "commentCount": 48,
+    "retryCount": 0,
+    "time": 1736549293
+  },
+  {
+    "id": 42660335,
+    "title": "「Phi-4のバグ修正」",
+    "originLink": "https://unsloth.ai/blog/phi4",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42660335",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "「ダニエル・ハンチェンは、マイクロソフトのPhi-4大規模言語モデル(LLM)のバグ、例えば文末の問題やチャットテンプレートのプロンプトを発見し、対処しました。彼はPhi-4をLlamaアーキテクチャに変換し、パフォーマンスを向上させ、修正を機械学習モデルのプラットフォームであるHugging Faceで共有しました。Phi-4を微調整するためのColabノートブックが利用可能で、修正によりいくつかのベンチマークでパフォーマンスが向上しましたが、他のベンチマークでは低下しました。Phi-4チームはこれらの改善を元のモデルに統合するために取り組んでいます。」"
+    ],
+    "points": 176,
+    "commentCount": 50,
+    "retryCount": 0,
+    "time": 1736543841
+  },
+  {
+    "id": 42661432,
+    "title": "非常に間違った数学",
+    "originLink": "https://www.charlespetzold.com/blog/2025/01/Very-Wrong-Math.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42661432",
+    "commentBody": "",
+    "originSummary": [
+      "「ある設計・建設会社がFacebookで数学の誤りを犯し、地球の半径を誤って4,333フィートと計算し、その結果、地球の円周をわずか5マイル強と大幅に過小評価しました。」",
+      "「誤りは、地球の実際の半径(約3,959マイル)を使用せずに弧の長さを計算したことに起因しています。」",
+      "「投稿は、外側の弧が内側の弧よりも1%未満長いことを強調し、空気抵抗の減少による飛行時間の短縮の可能性を示唆していました。」"
+    ],
+    "commentSummary": [
+      "「あるYouTubeのビルダーが、地球が平らであれば下げ振り線が平行になると誤って主張し、地球の曲率を誤解しましたが、これはそのような測定では無視できるものです。 - この議論は、大規模な概念を理解する際の直感の失敗を浮き彫りにし、平らな地球の理論、重力の誤解、飛行における地球の回転の影響に対処しました。 - 会話は、誤った信念の持続性と、確立された科学を拒否する人々に科学的概念を説明することの難しさをユーモラスに検討しました。」"
+    ],
+    "points": 170,
+    "commentCount": 91,
+    "retryCount": 0,
+    "time": 1736550656
+  },
+  {
+    "id": 42660942,
+    "title": "ビルディング・ボーブル",
+    "originLink": "https://ianthehenry.com/posts/bauble/building-bauble/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42660942",
+    "commentBody": "",
+    "originSummary": [
+      "「Baubleは、符号付き距離関数(SDF)を利用して複雑な形状やアニメーションを作成する3Dモデリングおよびレンダリングツールです。- 当初はGLSLシェーダーを生成する基本的なシステムでしたが、Baubleは3Dモデルのエクスポート、インタラクティブな編集、カスタムライティングなどの機能を含むように書き直されました。- 現在、このツールはウェブ埋め込み、インタラクティブなベクトル編集をサポートし、包括的なドキュメントを提供しているため、クリエイティブなプロジェクトや3Dデザインに興味のあるユーザーにとってアクセスしやすくなっています。」"
+    ],
+    "commentSummary": [
+      "ianthehenry.comに掲載されているプロジェクト、Building Baubleは、特にコーディングとグラフィックスにおけるプログラミングの魔法と楽しさを紹介することで、興奮を生み出しています。",
+      "このプロジェクトは、その創造性と詳細な記述が称賛されており、読者に未完のプロジェクトを再訪し、Janet(プログラミング言語)やGLSL(OpenGLシェーディング言語)などの新しい技術を探求するよう促しています。",
+      "「Safariでいくつかの技術的な問題があるにもかかわらず、このプロジェクトはその見事な実行と魅力的な開発ストーリーで称賛され、個人プロジェクトやRSSリーダーの使用についての議論を引き起こしています。」"
+    ],
+    "points": 164,
+    "commentCount": 26,
+    "retryCount": 0,
+    "time": 1736547735
+  },
+  {
+    "id": 42664400,
+    "title": "「ほぼすべてのバイナリ検索とマージソートは壊れている(2006年)」",
+    "originLink": "https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42664400",
+    "commentBody": "",
+    "originSummary": [
+      "「2006年に、ジョシュア・ブロックは、ジョン・ベントリーの『プログラミング・パールズ』で最初に指摘されたバイナリ検索アルゴリズムのバグを特定しました。このバグは、『low』と『high』が最大のint値を超えたときにオーバーフローが発生するというものでした。」",
+      "このバグは、長さが2^30以上の配列に影響を与えるもので、1980年代には稀でしたが、今日ではより一般的になっており、マージソートや他の分割統治アルゴリズムにも影響を及ぼしています。",
+      "「Blochは、問題を修正するために中間点を`int mid = low + ((high - low) / 2);`として計算することを推奨しており、エラーのないコードを書くことの難しさと徹底的なテストの必要性を強調しています。」"
+    ],
+    "commentSummary": [
+      "「多くのバイナリ検索やマージソートは、特に古い実装において、整数オーバーフローの問題を起こしやすいことが、2006年の記事で指摘されています。」",
+      "「この記事は、プログラミングにおいてエッジケースやハードウェアの制限を考慮することの重要性を強調しており、これは今日でも依然として重要です。」",
+      "「開発者は、そのようなバグを防ぐために組み込み関数やより大きな整数型を使用することが推奨されており、データ型や入力サイズに対する注意の必要性を強調しています。」"
+    ],
+    "points": 143,
+    "commentCount": 136,
+    "retryCount": 0,
+    "time": 1736585205
+  },
+  {
+    "id": 42665367,
+    "title": "「Go/TinyGoでAppleのFindMyネットワークを通じてデバイスを追跡する」",
+    "originLink": "https://github.com/hybridgroup/go-haystack",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42665367",
+    "commentBody": "",
+    "originSummary": [
+      "Go Haystackは、OpenHaystackとMacless-HaystackをGo/TinyGoツールと共に使用することで、Appleのハードウェアを必要とせずに、Appleの「Find My」ネットワークを介して個人のBluetoothデバイスを追跡することを可能にします。",
+      "ユーザーは、Adafruit BluefruitボードやBBC Microbitのようなハードウェア上でTinyGoファームウェアを使用して独自のビーコンを作成できます。セットアップには、2要素認証(2FA)を備えたApple IDが必要です。",
+      "「このプロセスには、go-haystackツールのインストール、`haystack scan`のようなコマンドを使用してデバイスを特定すること、キーの生成、デバイスのフラッシング、そしてデバイスの可視性をウェブUIで確認するためにJSONファイルをmacless-haystackにアップロードすることが含まれます。」"
+    ],
+    "commentSummary": [
+      "「AppleのFindMyネットワークは、Go/TinyGoを使用してデバイスを追跡するために利用でき、Appleアカウントを必要とせずにネットワークを拡張する方法を提供します。」",
+      "「プライバシーの懸念はAppleの設計によって軽減されており、同社はユーザープライバシーを維持する強い評判を持っていますが、一部のユーザーは潜在的な監視に対して依然として警戒しています。」",
+      "「FindMyネットワークは2つの部分で動作します。Appleデバイスがアイテムを特定し、ユーザーデバイスが位置データをAppleにアップロードします。ユーザーが望む場合、この機能を無効にするオプションもあります。」"
+    ],
+    "points": 139,
+    "commentCount": 32,
+    "retryCount": 0,
+    "time": 1736597674
+  },
+  {
+    "id": 42665222,
+    "title": "「Vimの現状」",
+    "originLink": "https://lwn.net/SubscriberLink/1002342/a8d8a17f30968b93/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42665222",
+    "commentBody": "",
+    "originSummary": [
+      "「2023年にVimの創設者であるBram Moolenaarが亡くなった後、Vimコミュニティはプロジェクトの継続的な開発を確保するために再編成され、現在はChristian Brabandtがメンテナーを務めています。- VimConf 2024では、チームが拡大し、Vimのウェブサイトの更新、セキュリティの管理、コミュニケーションチャネルの強化に焦点を当てていることが議論されました。- Vimはメンテナンスモードを維持し、コミュニティのニーズを優先し、新機能を慎重に統合しながら、Moolenaarが設立した慈善団体であるICCF Hollandを引き続き支援しています。」"
+    ],
+    "commentSummary": [
+      "「長年のVimユーザーは、創設者であるBram Moolenaarの逝去を受けてエディターの将来について考えています。現在の安定性に満足している人もいれば、Neovimのような現代的な機能を持つ代替案を模索している人もいます。」",
+      "「NeovimはLuaスクリプティングのサポートと現代的な強化機能で注目を集めており、一部のユーザーはVimとNeovimの間の分裂があると感じてEmacsを検討しています。」",
+      "「ユーザー間の議論には、Treesitterのパフォーマンス、Language Server Protocol(LSP)のサポート、Visual Studio Code(VSCode)との比較などのトピックが含まれており、これらのエディタの柔軟性と安定性が強調されています。」"
+    ],
+    "points": 138,
+    "commentCount": 33,
+    "retryCount": 0,
+    "time": 1736595779
+  },
+  {
+    "id": 42659061,
+    "title": "「ASTのフラット化とその他のコンパイラデータ構造(2023)」",
+    "originLink": "https://www.cs.cornell.edu/~asampson/blog/flattening.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42659061",
+    "commentBody": "",
+    "originSummary": [
+      "「この投稿では、データ構造のフラッテン化について議論しています。これは、コンパイラが抽象構文木(AST)を最適化するために、ポインタの代わりにインデックスを使用した単一の配列を用いる技術です。この方法は、メモリの局所性を改善し、参照サイズを削減し、メモリ管理を簡素化することでパフォーマンスを向上させ、マイクロベンチマークで2.4倍の速度向上をもたらします。この技術は特にRustプロジェクトで使用されており、メモリ管理が容易になるなどのエルゴノミクス上の利点を提供し、さらなるパフォーマンス向上のためにバイトコードインタプリタと比較されています。」"
+    ],
+    "commentSummary": [
+      "「この議論は、パフォーマンスとメモリ効率を向上させるために、抽象構文木(AST)をフラットで連続した配列に格納することによって最適化することに焦点を当てています。」",
+      "「この方法はキャッシュの局所性を高め、メモリ管理を簡素化し、LispやZigコンパイラの技術と比較されます。」",
+      "「この会話では、歴史的な手法や他のプログラミング言語における類似の技術にも言及し、合成性や操作のしやすさのためにフラットなデータ構造の利点を強調しています。」"
+    ],
+    "points": 137,
+    "commentCount": 36,
+    "retryCount": 0,
+    "time": 1736537030
+  },
+  {
+    "id": 42666572,
+    "title": "「マーシャル・アックスブリッジBluetoothスピーカーのスマート機能を解除する」",
+    "originLink": "https://tomscii.sig7.se/2025/01/De-smarting-the-Marshall-Uxbridge",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42666572",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "「この議論は、Marshall Uxbridge Bluetoothスピーカーの「スマート」機能を排除するための改造に焦点を当てており、デジタルI2S入力用のプリント基板(PCB)の設計などの技術的な側面を含んでいます。」",
+      "ユーザーは、良好な音質を達成するためのデジタル信号処理(DSP)の役割について議論しており、一部の人々はハードウェアの制限を補うためにその必要性を強調しています。",
+      "「会話では、スマートデバイスの改造の課題や、現代のPCB生産と部品の手頃さについても触れています。」"
+    ],
+    "points": 119,
+    "commentCount": 33,
+    "retryCount": 0,
+    "time": 1736610122
+  },
+  {
+    "id": 42660377,
+    "title": "OpenAIのボットがこの7人の会社のウェブサイトを『DDoS攻撃のように』圧倒した",
+    "originLink": "https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42660377",
+    "commentBody": "",
+    "originSummary": [
+      "「Triplegangersのeコマースサイトは、OpenAIのボットが65,000以上の製品ページをスクレイピングするために数万件のリクエストを行った結果、DDoSのような攻撃を受けました。サイトにはそのようなボットをブロックするための適切に構成されたrobots.txtファイルがなく、AWSのコストが増加し、データセキュリティに関する懸念が生じました。この事件は、AI企業がデータスクレイピングを行う前に許可を得ることの重要性を強調し、小規模企業にAIボットの活動を監視する警告となります。」"
+    ],
+    "commentSummary": [
+      "「OpenAIのボットが小規模企業のウェブサイトに過剰なトラフィックを引き起こし、分散型サービス拒否(DDoS)攻撃に似た状況を生み出し、AIボットがウェブサイトを圧倒する問題を浮き彫りにしました。」",
+      "Read the Docsのような企業は、ウェブクローラーを管理するために「robots.txt」を使用しているにもかかわらず、AIボットが大量のトラフィックを生成するという同様の課題を経験しています。",
+      "「この事件は、AI企業による攻撃的なデータスクレイピングからの保護とウェブアクセシビリティのバランスを取ることに関する継続的な議論を浮き彫りにしています。一部のボットが「robots.txt」を無視することで、小規模なサイト所有者にとって法的および財政的な問題が生じる可能性があります。」"
+    ],
+    "points": 111,
+    "commentCount": 102,
+    "retryCount": 0,
+    "time": 1736544077
+  }
+]

@@ -15,12 +15,132 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Jan 2025 19:07:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jan 2025 19:29:05 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/de.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[de]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-11]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/11&#39;</h2>
+<h1>2025-01-11</h1>
+<h2><a href="https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect">„Seien Sie sich des Makefile-Effekts bewusst“</a></h2>
+<ul>
+<li>„Der „Makefile-Effekt“ beschreibt die Praxis von Ingenieuren, bestehende komplexe Konfigurationen wie Makefiles zu kopieren und zu modifizieren, anstatt neue von Grund auf zu erstellen. - Dieser Ansatz ist in verschiedenen Systemen verbreitet, wie z.B. Continuous Integration/Continuous Deployment (CI/CD)-Konfigurationen und Build-Systemen, und kann auf übermäßig komplexe oder schlecht gestaltete Werkzeuge hinweisen. - Obwohl nicht von Natur aus negativ, kann der Makefile-Effekt das Lernen behindern, die Sicherheit verkomplizieren und zu ineffizientem Debugging führen, was die Notwendigkeit für eine durchdachte Werkzeuggestaltung unterstreicht, die Konfigurierbarkeit und Benutzerfreundlichkeit berücksichtigt.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42663231">Reaktionen</a></h3>
+<ul>
+<li>„Der „Makefile-Effekt“ beschreibt die Tendenz von Entwicklern, Code oder Konfigurationen zu kopieren und zu modifizieren, ohne sie vollständig zu verstehen, oft aufgrund der Komplexität der Werkzeuge oder ihrer seltenen Nutzung.“</li>
+<li>„Dieses Phänomen ist weit verbreitet bei Programmier- und Konfigurationsaufgaben, bei denen Entwickler bekannte Lösungen verwenden, um Zeit und Aufwand zu sparen, was möglicherweise zu schwer wartbarem Code führt.“</li>
+<li>„Die Diskussion betont die Notwendigkeit, die Verwendung von Vorlagen und bestehenden Lösungen mit einem tieferen Verständnis der beteiligten Werkzeuge und Systeme in Einklang zu bringen.“</li>
+</ul>
+<h2><a href="https://30fps.net/pages/pvs-portals-and-quake/">„Portale und Quake“</a></h2>
+<ul>
+<li>„Der Artikel ist der erste in der Serie „Demystifying the PVS“ und konzentriert sich auf das vorkomputierte Sichtbarkeitssystem von Quake, um das Überzeichnen zu adressieren, bei dem Pixel mehrfach gerendert werden. - Quake verwendet Portal-Culling und potenziell sichtbare Sets (PVS), indem es die Welt in Zellen und Portale unterteilt und die Sichtbarkeit vorkomputiert, um das Rendering zu optimieren. - Der Artikel führt die Portal- und Leaf-Klassen in vis.py ein, einer Python-Neuimplementierung des Sichtbarkeitsalgorithmus von Quake, und hebt die Verwendung einer Blatt-zu-Blatt-Sichtbarkeitsmatrix hervor.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42661185">Reaktionen</a></h3>
+<ul>
+<li>„Quake-Level-Designer nutzten „Hint“-Pinsel und „Area Portals“, um die Spielleistung zu optimieren, eine Technik, die grundlegend für 3D-Grafiken ist. - Spiele wie Prey und Portal rückten Portale für Spielmechaniken ins Rampenlicht, obwohl das Konzept seit den frühen 3D-Grafiken im Rendering verwendet wird. - Die Unreal Engine 1 verwendete Zonen zur Optimierung, und moderne Engines wie die Unreal Engine 5 nutzen weiterhin ähnliche Methoden, um die Rendering-Effizienz zu verbessern.“</li>
+</ul>
+<h2><a href="https://unsloth.ai/blog/phi4">„Phi-4 Fehlerbehebungen“</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42660335">Reaktionen</a></h3>
+<ul>
+<li>„Daniel Hanchen entdeckte und behob Fehler im Phi-4 Large Language Model (LLM) von Microsoft, wie etwa Probleme mit Satzenden und Chat-Template-Eingabeaufforderungen. - Er konvertierte Phi-4 in die Llama-Architektur, was die Leistung verbesserte, und teilte die Korrekturen auf Hugging Face, einer Plattform für maschinelle Lernmodelle. - Ein Colab-Notebook zur Feinabstimmung von Phi-4 ist verfügbar, und obwohl die Korrekturen die Leistung bei einigen Benchmarks verbesserten, verschlechterten sie sie bei anderen; das Phi-4-Team arbeitet daran, diese Verbesserungen in das ursprüngliche Modell zu integrieren.“</li>
+</ul>
+<h2><a href="https://www.charlespetzold.com/blog/2025/01/Very-Wrong-Math.html">„Sehr falsche Mathematik“</a></h2>
+<ul>
+<li>„Ein Design- und Bauunternehmen machte auf Facebook einen mathematischen Fehler, indem es den Erdradius fälschlicherweise mit 4.333 Fuß berechnete, was zu einem stark unterschätzten Umfang von etwas mehr als 5 Meilen führte.“</li>
+<li>„Der Fehler entstand durch die Berechnung von Bogenlängen, ohne den tatsächlichen Erdradius zu verwenden, der ungefähr 3.959 Meilen beträgt.“</li>
+<li>„Der Beitrag hob hervor, dass der äußere Bogen weniger als 1 % länger war als der innere Bogen, was auf eine potenzielle Verkürzung der Flugzeit aufgrund des verringerten Luftwiderstands hindeutet.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42661432">Reaktionen</a></h3>
+<ul>
+<li>„Ein YouTube-Bauer behauptete fälschlicherweise, dass Lotlinien auf einer flachen Erde parallel wären, wobei er die Erdkrümmung missverstand, die bei solchen Messungen vernachlässigbar ist. - Die Diskussion hob das Versagen der Intuition beim Verständnis von groß angelegten Konzepten hervor und behandelte Theorien der flachen Erde, Missverständnisse über die Schwerkraft und die Auswirkungen der Erdrotation auf den Flug. - Das Gespräch untersuchte humorvoll die Hartnäckigkeit falscher Überzeugungen und die Schwierigkeit, wissenschaftliche Konzepte denen zu erklären, die etablierte Wissenschaft ablehnen.“</li>
+</ul>
+<h2><a href="https://ianthehenry.com/posts/bauble/building-bauble/">„Gebäude-Kugel“</a></h2>
+<ul>
+<li>„Bauble ist ein 3D-Modellierungs- und Rendering-Tool, das signierte Distanzfunktionen (SDFs) verwendet, um komplexe Formen und Animationen zu erstellen. - Ursprünglich ein einfaches System zur Generierung von GLSL-Shadern, wurde Bauble neu geschrieben, um Funktionen wie den Export von 3D-Modellen, interaktive Bearbeitung und benutzerdefinierte Beleuchtung zu integrieren. - Das Tool unterstützt jetzt die Einbettung ins Web, interaktive Vektorbearbeitung und bietet umfassende Dokumentation, was es für kreative Projekte und Benutzer, die sich für 3D-Design interessieren, zugänglich macht.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42660942">Reaktionen</a></h3>
+<ul>
+<li>„Building Bauble, ein Projekt, das auf ianthehenry.com vorgestellt wird, hat Begeisterung ausgelöst, indem es die Magie und den Spaß am Programmieren, insbesondere im Bereich Codierung und Grafik, zur Schau stellt.“</li>
+<li>„Das Projekt wird für seine Kreativität und die detaillierte Ausarbeitung gelobt, was die Leser dazu inspiriert, unvollendete Projekte erneut aufzugreifen und neue Technologien wie Janet (eine Programmiersprache) und GLSL (OpenGL Shading Language) zu erkunden.“</li>
+<li>„Trotz einiger technischer Probleme mit Safari wird das Projekt für seine beeindruckende Umsetzung und die fesselnde Entwicklungsgeschichte gefeiert, was Diskussionen über persönliche Projekte und die Nutzung von RSS-Readern anregt.“</li>
+</ul>
+<h2><a href="https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/">„Nahezu alle binären Suchvorgänge und Mergesorts sind fehlerhaft (2006)“</a></h2>
+<ul>
+<li>„Im Jahr 2006 identifizierte Joshua Bloch einen Fehler im Binärsuchalgorithmus, der ursprünglich in Jon Bentleys „Programming Pearls“ erwähnt wurde, bei dem ein Überlauf auftritt, wenn ‚low‘ und ‚high‘ den maximalen int-Wert überschreiten.“</li>
+<li>„Dieser Fehler, der Arrays mit einer Länge von 2^30 oder mehr betrifft, war in den 1980er Jahren selten, ist aber heute häufiger und wirkt sich auch auf Mergesort und andere Teile-und-herrsche-Algorithmen aus.“</li>
+<li>„Bloch empfiehlt, das Problem zu beheben, indem der Mittelpunkt als <code>int mid = low + ((high - low) / 2);</code> berechnet wird. Er hebt die Herausforderungen hervor, fehlerfreien Code zu schreiben, und die Notwendigkeit gründlicher Tests.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42664400">Reaktionen</a></h3>
+<ul>
+<li>„Viele binäre Suchvorgänge und Mergesorts sind anfällig für Probleme mit Ganzzahlüberläufen, insbesondere in älteren Implementierungen, wie in einem Artikel von 2006 hervorgehoben wurde.“</li>
+<li>„Der Artikel betont die Bedeutung der Berücksichtigung von Randfällen und Hardwarebeschränkungen in der Programmierung, was auch heute noch relevant ist.“</li>
+<li>„Entwicklern wird geraten, eingebaute Funktionen oder größere Ganzzahltypen zu verwenden, um solche Fehler zu vermeiden, was die Notwendigkeit von Vorsicht bei Datentypen und Eingabegrößen unterstreicht.“</li>
+</ul>
+<h2><a href="https://github.com/hybridgroup/go-haystack">„Verfolgen Sie Ihre Geräte über das Apple FindMy-Netzwerk in Go/TinyGo“</a></h2>
+<ul>
+<li>„Go Haystack ermöglicht die Verfolgung persönlicher Bluetooth-Geräte über Apples „Find My“-Netzwerk, ohne dass Apple-Hardware erforderlich ist, indem OpenHaystack und Macless-Haystack mit Go/TinyGo-Tools genutzt werden.“</li>
+<li>„Benutzer können ihre eigenen Beacons mit TinyGo-Firmware auf Hardware wie Adafruit Bluefruit-Boards und BBC Microbit erstellen, wobei für die Einrichtung eine Apple-ID mit Zwei-Faktor-Authentifizierung (2FA) erforderlich ist.“</li>
+<li>„Der Prozess umfasst die Installation des go-haystack-Tools, die Verwendung von Befehlen wie <code>haystack scan</code>, um Geräte zu lokalisieren, das Generieren von Schlüsseln, das Flashen des Geräts und das Hochladen einer JSON-Datei zu macless-haystack, um die Sichtbarkeit des Geräts in der Web-Benutzeroberfläche zu gewährleisten.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42665367">Reaktionen</a></h3>
+<ul>
+<li>„Das Apple FindMy-Netzwerk kann mit Go/TinyGo genutzt werden, um Geräte zu verfolgen, und bietet eine Möglichkeit, das Netzwerk zu erweitern, ohne ein Apple-Konto zu benötigen.“</li>
+<li>„Datenschutzbedenken werden durch das Design von Apple gemindert, und das Unternehmen hat einen starken Ruf für die Wahrung der Privatsphäre der Nutzer, obwohl einige Nutzer weiterhin misstrauisch gegenüber potenzieller Überwachung sind.“</li>
+<li>„Das FindMy-Netzwerk funktioniert in zwei Teilen: Apple-Geräte lokalisieren Gegenstände und Benutzergeräte laden Standortdaten zu Apple hoch, wobei Benutzer die Möglichkeit haben, die Funktion bei Bedarf zu deaktivieren.“</li>
+</ul>
+<h2><a href="https://lwn.net/SubscriberLink/1002342/a8d8a17f30968b93/">„Der Zustand von Vim“</a></h2>
+<ul>
+<li>„Nach dem Tod des Vim-Gründers Bram Moolenaar im Jahr 2023 hat sich die Vim-Community neu organisiert, um die fortlaufende Entwicklung des Projekts sicherzustellen, wobei Christian Brabandt der derzeitige Betreuer ist. - Auf der VimConf 2024 wurde besprochen, dass das Team erweitert wurde, mit dem Fokus auf die Aktualisierung der Vim-Website, die Verwaltung der Sicherheit und die Verbesserung der Kommunikationskanäle. - Vim bleibt im Wartungsmodus, wobei die Bedürfnisse der Community priorisiert und neue Funktionen sorgfältig integriert werden, während weiterhin die ICCF Holland, eine von Moolenaar gegründete Wohltätigkeitsorganisation, unterstützt wird.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42665222">Reaktionen</a></h3>
+<ul>
+<li>„Langjährige Vim-Nutzer reflektieren über die Zukunft des Editors nach dem Tod seines Schöpfers, Bram Moolenaar. Einige sind mit der aktuellen Stabilität zufrieden, während andere Alternativen wie Neovim für moderne Funktionen erkunden.“</li>
+<li>„Neovim gewinnt an Aufmerksamkeit durch seine Unterstützung von Lua-Skripten und moderne Verbesserungen, während einige Benutzer Emacs in Betracht ziehen aufgrund der wahrgenommenen Fragmentierung zwischen Vim und Neovim.“</li>
+<li>„Diskussionen unter den Nutzern umfassen Themen wie die Leistung von Treesitter, die Unterstützung des Language Server Protocol (LSP) und Vergleiche mit Visual Studio Code (VSCode), wobei die Flexibilität und Stabilität dieser Editoren hervorgehoben wird.“</li>
+</ul>
+<h2><a href="https://www.cs.cornell.edu/~asampson/blog/flattening.html">„Flattening von ASTs und anderen Compiler-Datenstrukturen (2023)“</a></h2>
+<ul>
+<li>„Der Beitrag behandelt das Flattening von Datenstrukturen, eine Technik für Compiler, die abstrakte Syntaxbäume (ASTs) optimiert, indem sie ein einzelnes Array mit Indizes anstelle von Zeigern verwendet. - Diese Methode verbessert die Leistung durch eine bessere Speicherlokalität, verkleinert die Referenzgröße und vereinfacht das Speichermanagement, was in einem Mikrobenchmark zu einer 2,4-fachen Geschwindigkeitssteigerung führt. - Die Technik wird insbesondere in Rust-Projekten eingesetzt und bietet ergonomische Vorteile, wie eine einfachere Speicherverwaltung, und wird mit Bytecode-Interpretern verglichen, um weitere Leistungsverbesserungen zu erzielen.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42659061">Reaktionen</a></h3>
+<ul>
+<li>„Die Diskussion konzentriert sich darauf, Abstrakte Syntaxbäume (ASTs) zu optimieren, indem sie in flachen, zusammenhängenden Arrays gespeichert werden, um die Leistung und Speichereffizienz zu verbessern.“</li>
+<li>„Diese Methode verbessert die Cache-Lokalität und vereinfacht das Speichermanagement, wobei Vergleiche zu Techniken in Sprachen wie Lisp und dem Zig-Compiler gezogen werden.“</li>
+<li>„Das Gespräch bezieht sich auch auf historische Methoden und ähnliche Techniken in anderen Programmiersprachen und betont die Vorteile flacher Datenstrukturen für die Komponierbarkeit und die einfache Handhabung.“</li>
+</ul>
+<h2><a href="https://tomscii.sig7.se/2025/01/De-smarting-the-Marshall-Uxbridge">„Entschlauen des Marshall Uxbridge Bluetooth-Lautsprechers“</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42666572">Reaktionen</a></h3>
+<ul>
+<li>„Die Diskussion konzentriert sich darauf, den Marshall Uxbridge Bluetooth-Lautsprecher zu modifizieren, um seine „intelligenten“ Funktionen zu eliminieren, wobei technische Aspekte wie das Entwerfen einer Leiterplatte (PCB) für digitalen I2S-Eingang eine Rolle spielen.“</li>
+<li>„Benutzer diskutieren die Rolle der digitalen Signalverarbeitung (DSP) bei der Erzielung guter Klangqualität, wobei einige ihre Notwendigkeit betonen, um Hardwarebeschränkungen auszugleichen.“</li>
+<li>„Das Gespräch behandelt auch die Herausforderungen bei der Modifizierung von Smart-Geräten und die Erschwinglichkeit der modernen Leiterplattenproduktion und -komponenten.“</li>
+</ul>
+<h2><a href="https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/">„Der Bot von OpenAI hat die Website dieses siebenköpfigen Unternehmens &#39;wie ein DDoS-Angriff&#39; lahmgelegt.“</a></h2>
+<ul>
+<li>„Die E-Commerce-Website von Triplegangers erlebte einen DDoS-ähnlichen Angriff, da der Bot von OpenAI zehntausende Anfragen stellte, um über 65.000 Produktseiten zu scrapen. - Die Website hatte keine korrekt konfigurierte robots.txt-Datei, um solche Bots zu blockieren, was zu erhöhten AWS-Kosten und Bedenken hinsichtlich der Datensicherheit führte. - Dieser Vorfall unterstreicht die Bedeutung, dass KI-Unternehmen vor dem Scraping von Daten eine Erlaubnis einholen, und dient als Warnung für kleine Unternehmen, die Aktivität von KI-Bots zu überwachen.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42660377">Reaktionen</a></h3>
+<ul>
+<li>„Der Bot von OpenAI verursachte übermäßigen Traffic auf der Website eines kleinen Unternehmens, ähnlich einem Distributed Denial of Service (DDoS)-Angriff, und verdeutlichte damit Probleme, die durch AI-Bots entstehen, die Websites überlasten.“</li>
+<li>„Unternehmen wie Read the Docs haben ähnliche Herausforderungen mit KI-Bots erlebt, die trotz der Verwendung von „robots.txt“ zur Verwaltung von Web-Crawlern massiven Traffic erzeugen.“</li>
+<li>„Der Vorfall unterstreicht die anhaltende Debatte über das Gleichgewicht zwischen Webzugänglichkeit und dem Schutz vor aggressivem Datenscraping durch KI-Unternehmen, da einige Bots die „robots.txt“ ignorieren, was zu potenziellen rechtlichen und finanziellen Problemen für kleine Website-Besitzer führen kann.“</li>
+</ul>
+<head>
+  <meta property="og:title" content="„Seien Sie sich des Makefile-Effekts bewusst“" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9ESeien%20Sie%20sich%20des%20Makefile-Effekts%20bewusst%E2%80%9C&subheading=Samstag%2C%2011.%20Januar%202025%3A%20Hacker%20News%20Zusammenfassung" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/de/2025/01/11</link>
+            <guid isPermaLink="false">2025-01-11T00:00:00.000Z</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-10]]></title>
             <description
@@ -903,104 +1023,6 @@
             <link>https://hn.cho.sh/de/2025/01/02</link>
             <guid isPermaLink="false">2025-01-02T00:00:00.000Z</guid>
             <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2025-01-01]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2025/01/01&#39;</h2>
-<h1>2025-01-01</h1>
-<h2><a href="https://news.ycombinator.com/item?id=42562750">„Frohes neues Jahr 2025“</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42562750">Reaktionen</a></h3>
-<h2><a href="https://doom-captcha.vercel.app/">„DOOM CAPTCHA“</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42566112">Reaktionen</a></h3>
-<ul>
-<li>„DOOM CAPTCHA ist ein kreatives Projekt, bei dem Benutzer ein Level des klassischen Spiels DOOM als CAPTCHA-Test spielen müssen, was technische Fähigkeiten und Nostalgie hervorhebt. - Benutzer finden es herausfordernd aufgrund des Fehlens moderner Steuerungen, was zu gemischten Reaktionen hinsichtlich seiner Praktikabilität und Zugänglichkeit führt. - Das Projekt, obwohl neuartig, unterstreicht die anhaltende Unzufriedenheit mit traditionellen CAPTCHA-Systemen, obwohl es mit Vercels KI-Assistent und manueller Spielintegration erstellt wurde.“</li>
-</ul>
-<h2><a href="https://curiouscoding.nl/posts/static-search-tree/">„Statische Suchbäume: schneller als binäre Suche“</a></h2>
-<ul>
-<li>„Der Artikel behandelt die Implementierung und Optimierung statischer Suchbäume (S+ Bäume) für eine deutlich schnellere Suche in sortierten Daten, die Geschwindigkeiten 40-mal schneller als die herkömmliche binäre Suche erreicht. - Optimierungstechniken wie Batching, Prefetching und manuelles SIMD (Single Instruction, Multiple Data) werden eingesetzt, um den Durchsatz von Abfragen zu verbessern. - Der Artikel untersucht auch verschiedene Baumlayouts, Knotengrößen und Speicherverwaltungsstrategien und diskutiert zukünftige Arbeiten wie verzweigte Suche und Interpolationssuche, um die Sucheffizienz weiter zu steigern.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42562847">Reaktionen</a></h3>
-<ul>
-<li>„Die Diskussion hebt einen Wechsel von C/C++ zu Rust für algorithmische Inhalte hervor, insbesondere bei statischen Suchbäumen, aufgrund der Sicherheits- und Leistungsverbesserungen von Rust.“</li>
-<li>„Rusts wachsende Beliebtheit in der Low-Level-Programmierung wird bemerkt, wobei einige Benutzer C oder Pseudocode wegen der Zugänglichkeit bevorzugen, während andere die modernen Funktionen von Rust schätzen.“</li>
-<li>„Das Gespräch untersucht auch das Potenzial der Programmiersprache Zig und die Herausforderungen, die mit dem Erlernen neuer Sprachen verbunden sind, und spiegelt die sich entwickelnde Landschaft der Programmiersprachen wider.“</li>
-</ul>
-<h2><a href="https://openreview.net/forum?id=YXnwlZe0yf&noteId=yrsGpHd0Sf">„30% Rückgang der o1-Vorschaugenauigkeit, wenn Putnam-Probleme leicht variiert werden“</a></h2>
-<ul>
-<li>„Putnam-AXIOM ist ein Benchmark, der entwickelt wurde, um große Sprachmodelle (LLMs) anhand fortgeschrittener mathematischer Argumentation mit Problemen aus dem Putnam Mathematical Competition zu bewerten. - Der Benchmark umfasst 236 Originalprobleme und eine Variante mit 52 veränderten Problemen, um Datenverunreinigungen zu vermeiden. - Das leistungsstärkste Modell von OpenAI erreichte eine Genauigkeit von 41,95 % bei den Originalproblemen, erlebte jedoch einen signifikanten Leistungsabfall von etwa 30 % bei den veränderten Problemen, was die Herausforderungen bei der Anpassung an Variationen verdeutlicht.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42565606">Reaktionen</a></h3>
-<ul>
-<li>„Eine Studie ergab einen Rückgang der Genauigkeit des o1-Preview-Modells um 30 % bei Putnam-Problemen, wenn geringfügige Variationen eingeführt wurden, was auf Herausforderungen für große Sprachmodelle (LLMs) bei kleinen Änderungen hinweist. - Die Ergebnisse befeuern die Debatte darüber, ob LLMs wirklich in der Lage sind, zu schlussfolgern, oder ob sie hauptsächlich auf Mustererkennung und Auswendiglernen angewiesen sind, ähnlich wie menschliche Fehler unter Druck. - Trotz dieser Herausforderungen schneiden Modelle wie o1 und o3 weiterhin gut bei komplexen mathematischen Problemen ab, obwohl ihre Fähigkeit zur Generalisierung noch untersucht wird.“</li>
-</ul>
-<h2><a href="https://www.cs.cmu.edu/~pavlo/blog/2025/01/2024-databases-retrospective.html">„Datenbanken im Jahr 2024: Ein Rückblick“</a></h2>
-<ul>
-<li>„Die Datenbanklandschaft im Jahr 2024 erlebte bedeutende Veränderungen, darunter große Übernahmen, Lizenzänderungen und anhaltende Rivalitäten unter den Hauptakteuren wie Redis, Elasticsearch, Databricks und Snowflake. - DuckDB gewann an Beliebtheit für analytische Abfragen, mit Integrationen in Postgres, während bemerkenswerte Veröffentlichungen Amazon Aurora DSQL und Microsoft Garnet umfassten. - Übernahmen wie Tabular durch Databricks und OrioleDB durch Supabase waren bedeutend, und trotz Rückschlägen wie der Schließung von OtterTune bleibt die Branche dynamisch mit neuen Projekten und Finanzierungen.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42566192">Reaktionen</a></h3>
-<ul>
-<li>„Die Diskussion kritisiert die API von Redis, wobei einige argumentieren, dass die Kritik ein tiefes Verständnis des Designs von Redis und seines einzigartigen Datenmodells vermissen lässt.“</li>
-<li>„Redis wird für seine effektive Nutzung in spezifischen Anwendungen wie Bestenlisten und Echtzeitsystemen anerkannt, trotz einiger Kritikpunkte an der API.“</li>
-<li>„Das Gespräch untersucht auch die breitere Datenbanklandschaft, einschließlich der Herausforderungen für Startups, die Rolle von SQL und die Entwicklung von Datenbanktechnologien, wobei die Bedeutung des Verständnisses von Systemen vor ihrer Kritik betont wird.“</li>
-</ul>
-<h2><a href="https://thoughts.wyounas.com/p/books-i-enjoyed-most-in-2024">„Bücher, die ich 2024 gerne gelesen habe“</a></h2>
-<ul>
-<li>„Die Liste umfasst eine vielfältige Auswahl an Büchern, darunter historische, philosophische, wissenschaftliche und persönliche Erzählungen, die jeweils einzigartige Einblicke und bereichernde Erfahrungen bieten.“</li>
-<li>„Zu den Highlights gehören Ciceros Briefe für Einblicke in das römische Leben, Ben-Aris Werke über Logik in der Informatik und Programmverifikation sowie Steve Martins Memoiren über komödiantischen Erfolg.“</li>
-<li>„Die Sammlung umfasst auch philosophische Erkundungen von Pierre Hadot und Nietzsche, griechische Tragödien von Aischylos sowie literarische Werke von Ursula Le Guin und Rabindranath Tagore.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42564687">Reaktionen</a></h3>
-<h2><a href="https://mathstodon.xyz/@tao/113721192051328193">„Terence Tao: Eines meiner Papiere wurde heute abgelehnt“</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42568399">Reaktionen</a></h3>
-<ul>
-<li>„Terence Tao, ein prominenter Mathematiker, teilte eine Erfahrung, bei der ein Papier abgelehnt wurde, und unterstrich damit das häufige Auftreten von Ablehnungen in der Wissenschaft. - Seine Geschichte löste Diskussionen über die willkürliche Natur von Peer-Reviews und die Herausforderungen im akademischen Publikationswesen aus. - Das Gespräch hob hervor, dass Ablehnung ein normaler Teil des akademischen Prozesses ist, selbst für führende Forscher, und betonte die Bedeutung des Teilens von Misserfolgen, um dem Hochstapler-Syndrom entgegenzuwirken.“</li>
-</ul>
-<h2><a href="https://apiparrot.com/">„API Parrot – HTTP-APIs automatisch rückentwickeln“</a></h2>
-<ul>
-<li>„API Parrot ist ein neues Tool, das entwickelt wurde, um die Automatisierung von Geschäftsprozessen zu vereinfachen, indem es automatisch Datenkorrelationen zwischen API-Anfragen identifiziert und eine grafische Flussdarstellung bietet. - Es ermöglicht Benutzern, Anfragen aufzuzeichnen, Eingaben und Ausgaben zu definieren und diese Flüsse als JavaScript-Code zu exportieren, was den Prozess effizienter macht als manuelles Reverse Engineering oder die Verwendung weniger optimaler Technologien wie Robotic Process Automation (RPA). - Das Tool basiert auf Electron und ist sowohl für Windows- als auch für Linux-Plattformen verfügbar, mit einem Tutorial zum Reverse Engineering der USPS-API.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42565821">Reaktionen</a></h3>
-<ul>
-<li>„API Parrot ist ein Tool, das die Reverse-Engineering von HTTP-APIs automatisiert und die Automatisierung von Geschäftsprozessen erleichtert, indem es Datenkorrelationen zwischen Anfragen identifiziert. - Es bietet Funktionen wie das Aufzeichnen von Anfragen, das Definieren von Eingaben und Ausgaben sowie das Exportieren von Abläufen als JavaScript-Code mit einer grafischen Ablaufdarstellung. - Derzeit ist API Parrot für Windows und Linux verfügbar, kostenlos, mit einer potenziellen „Pro“-Version für Unternehmen und Plänen für eine zukünftige macOS-Veröffentlichung.“</li>
-</ul>
-<h2><a href="https://thehill.com/national-security/5061535-virginia-man-arrested-explosives/">„FBI: Größtes selbstgemachtes Sprengstofflager in der Geschichte der Behörde in Virginia gefunden“</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42562529">Reaktionen</a></h3>
-<ul>
-<li>„Das FBI entdeckte in Virginia das größte Lager an selbst hergestellten Sprengstoffen in seiner Geschichte, was zu erheblichen rechtlichen und öffentlichen Debatten führte.“</li>
-<li>„Der Verdächtige ist derzeit nur wegen des Besitzes eines kurzläufigen Gewehrs angeklagt, da die Legalität seiner Schusswaffen überprüft wird.“</li>
-<li>„Der Fall hat Diskussionen über Waffengesetze, den Zweiten Verfassungszusatz und das Gleichgewicht zwischen staatlicher Regulierung und individuellen Rechten entfacht.“</li>
-</ul>
-<h2><a href="https://dgl.cx/2024/12/ghostty-terminal-title">„Déjà-vu: Geisterhafte CVEs in meinem Terminaltitel“</a></h2>
-<ul>
-<li>„Ghostty, ein neuer Terminalemulator, hatte eine Sicherheitslücke, die einer aus dem Jahr 2003 ähnelte und es ermöglichte, dass ASCII-Escape-Zeichen Befehle wie das Öffnen von Anwendungen ausführen konnten. - Das Problem war besonders problematisch mit Zsh und Bash im vi-Modus, aber Ghostty 1.0.1 hat dies behoben, indem die Funktion standardmäßig deaktiviert wurde. - Trotz der Sicherheitslücke wird Ghostty für seine Funktionen gelobt, und der Entwickler hat das Problem umgehend angegangen und den Nutzern Korrekturen und Workarounds bereitgestellt.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42562743">Reaktionen</a></h3>
-<ul>
-<li>„Die Diskussion dreht sich um Sicherheitslücken in Terminals, insbesondere solche, die mit Escape-Sequenzen zusammenhängen, und untersucht Möglichkeiten zur Minderung dieser Risiken. - Vorschläge zur Verbesserung der Terminal-Sicherheit umfassen die Einführung von Systemen, die den Schutzringen von CPUs oder dem pledge()-Syscall von OpenBSD ähneln, welche die Fähigkeiten einschränken, um Exploits zu verhindern. - Die Teilnehmer erkennen die Herausforderung an, Sicherheit und Funktionalität in Terminalanwendungen in Einklang zu bringen, und bekunden Interesse an weiterer Erforschung und Zusammenarbeit, um Sicherheitspraktiken zu verbessern.“</li>
-</ul>
-<h2><a href="https://github.com/facebookresearch/large_concept_model">„Große Konzeptmodelle: Sprachmodellierung in einem Satzrepräsentationsraum“</a></h2>
-<ul>
-<li>„Das Repository bietet Implementierungen für Large Concept Models (LCM), die „Konzepte“ als eine höherstufige semantische Repräsentation für die Sprachmodellierung nutzen.“</li>
-<li>„LCM unterstützt 200 Textsprachen und 57 Sprachsprachen unter Verwendung des SONAR-Einbettungsraums und ist für die autoregressive Satzvorhersage mit Methoden wie MSE-Regression und diffusionsbasierter Generierung trainiert.“</li>
-<li>„Das Repository bietet Installationsanweisungen, Datenvorbereitung, Training, Feinabstimmung und Bewertungsrichtlinien und wird unter der MIT-Lizenz veröffentlicht. Es verwendet fairseq2 mit UV- und Pip-Installationsoptionen.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42563534">Reaktionen</a></h3>
-<ul>
-<li>„Große Konzeptmodelle konzentrieren sich darauf, Sprache in Form von „Konzepten“ statt einzelner Token darzustellen, mit dem Ziel, die semantische Chunking und Vorhersage zu verbessern.“</li>
-<li>„Diese Methode schlägt vor, höherstufige Repräsentationen zu verwenden, um menschliche Planung und Kommunikation nachzuahmen, was möglicherweise Vorteile gegenüber traditionellen tokenbasierten Modellen bietet.“</li>
-<li>„Der Ansatz befasst sich mit den Einschränkungen der aktuellen Architekturen großer Sprachmodelle (LLM), indem er explizite hierarchische Strukturen betont, um menschliches Denken besser nachzubilden.“</li>
-</ul>
-<head>
-  <meta property="og:title" content="„Frohes neues Jahr 2025“" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EFrohes%20neues%20Jahr%202025%E2%80%9C&subheading=Mittwoch%2C%201.%20Januar%202025%3A%20Hacker%20News%20Zusammenfassung" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/de/2025/01/01</link>
-            <guid isPermaLink="false">2025-01-01T00:00:00.000Z</guid>
-            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
