@@ -15,12 +15,160 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 13 Jan 2025 19:11:49 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Jan 2025 19:14:17 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/en.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Mon, 13 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Tue, 14 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-14]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/14&#39;</h2>
+<h1>2025-01-14</h1>
+<h2><a href="https://sourcecodered.com/snyk-malicious-npm-package/">Snyk security researcher deploys malicious NPM packages targeting cursor.com</a></h2>
+<ul>
+<li>A Snyk security researcher released malicious NPM packages targeting Cursor.com, an AI coding company, to collect system data and send it to an attacker-controlled service.</li>
+<li>The packages, identified as &quot;cursor-retrieval,&quot; &quot;cursor-always-local,&quot; and &quot;cursor-shadow-workspace,&quot; were flagged by the OpenSSF package analysis scanner, resulting in advisories MAL-2025-27, MAL-2025-28, and MAL-2025-29.</li>
+<li>This incident highlights the importance of scrutinizing NPM packages before installation to avoid potential security threats.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42690473">Reactions</a></h3>
+<ul>
+<li>A Snyk security researcher released malicious NPM (Node Package Manager) packages aimed at cursor.com, highlighting dependency confusion vulnerabilities. - The incident has sparked a debate on the ethics of security research, particularly regarding the public exposure of environment variables. - Cursor.com clarified they did not authorize the action, and Snyk has since apologized, underscoring the challenges in balancing offensive security research with ethical standards.</li>
+</ul>
+<h2><a href="https://www.howtogeek.com/why-i-switched-to-firefox-and-never-looked-back/">I Switched to Firefox and Never Looked Back</a></h2>
+<ul>
+<li>Firefox is praised for its superior tab management, built-in Pocket feature for saving links, and a privacy-focused email relay, making it a strong alternative to Chrome. - Additional features like a user-friendly screenshot tool, a ChatGPT button, Picture-in-Picture, customizable search options, and smooth scrolling enhance the browsing experience. - Although Firefox lacks Chrome&#39;s web app feature, its thoughtful design and reduced resource demands make it a preferred choice for some users.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42696081">Reactions</a></h3>
+<ul>
+<li>Firefox users face challenges from platforms like YouTube, which may intentionally degrade the experience for non-Google browsers or users employing adblockers. - This trend raises concerns about user autonomy, as it penalizes those opting for an ad-free and surveillance-free web experience. - Firefox offers unique features, such as container tabs, which enhance privacy and usability, making it a favored choice for users seeking independence from major corporate-controlled browsers.</li>
+</ul>
+<h2><a href="https://www.reuters.com/business/retail-consumer/sonos-ceo-patrick-spence-steps-down-after-app-update-debacle-2025-01-13/">Sonos CEO steps down after app update debacle</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42687932">Reactions</a></h3>
+<ul>
+<li>The Sonos CEO has resigned following a controversial app update that required users to replace costly sound systems, causing customer dissatisfaction. - The update introduced a cloud-based system, moving away from the reliable Universal Plug and Play (UPnP), which led to connectivity issues and increased complexity. - This situation underscores the conflict between business strategies and maintaining customer trust, as the CEO transitions to an advisory role with a severance package.</li>
+</ul>
+<h2><a href="https://kevinmunger.substack.com/p/in-the-belly-of-the-mrbeast">In the belly of the MrBeast</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42696691">Reactions</a></h3>
+<ul>
+<li>The essay examines how YouTube&#39;s algorithm influences content creation, using MrBeast as a case study, highlighting a shift towards engagement-driven rather than meaningful content. - It discusses the broader implications for media literacy and the cultural impact of platforms like YouTube and TikTok, suggesting a trend towards superficial and reactionary content. - Various perspectives are considered on the role of algorithms in shaping content and the influence of popular creators on cultural norms.</li>
+</ul>
+<h2><a href="https://www.githubstatus.com/incidents/qd96yfgvmcf9">GitHub Git Operations Are Down</a></h2>
+<ul>
+<li>GitHub faced a Git operations outage on January 13, 2025, due to a configuration change affecting the internal load balancer, lasting from 23:35 to 00:24 UTC. - The issue was resolved by reverting the configuration change, and GitHub is working on improving monitoring and deployment processes to prevent similar incidents. - The outage also affected GitHub&#39;s Actions and Pages services, highlighting the interconnected nature of their platform services.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42691184">Reactions</a></h3>
+<ul>
+<li>GitHub faced a major outage impacting git operations, leading to confusion among developers who initially suspected issues with their SSH keys or local configurations. - The incident underscored the challenges of relying on centralized services, prompting discussions on the advantages of self-hosting and decentralized systems. - Although the issue was resolved, it highlighted concerns about GitHub&#39;s reliability and the risks of depending on third-party platforms for essential tasks.</li>
+</ul>
+<h2><a href="https://github.com/openzfs/zfs/releases/tag/zfs-2.3.0">ZFS 2.3 released with ZFS raidz expansion</a></h2>
+<ul>
+<li>OpenZFS 2.3.0 has been released, introducing significant features such as RAIDZ Expansion, Fast Deduplication, Direct Input/Output, JSON output, and support for long file names. - The release includes essential bug fixes and performance enhancements, compatible with Linux kernels 4.18 - 6.12 and FreeBSD versions 13.3, 14.0 - 14.2. - The update is a collaborative effort from 134 contributors, with comprehensive documentation and a change log available for review.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42694596">Reactions</a></h3>
+<ul>
+<li>ZFS 2.3 has been released, introducing features like RAIDZ expansion, fast deduplication, direct IO, JSON output, and support for long file names. - RAIDZ expansion is particularly notable as it allows users to add new devices to an existing RAIDZ pool without downtime, enhancing storage capacity. - The release is considered a significant advancement for ZFS users, drawing comparisons with other filesystems like Btrfs and Windows Storage Spaces, despite some limitations like the inability to shrink pools.</li>
+</ul>
+<h2><a href="https://docs.linuxserver.io/images/docker-webtop/">Webtop – Alpine,Ubuntu,Fedora,and Arch containers containing full desktop envs</a></h2>
+<ul>
+<li>Linuxserver/webtop provides containers based on Alpine, Ubuntu, Fedora, and Arch with full desktop environments accessible through web browsers, supporting both x86-64 and arm64 architectures.</li>
+<li>Users can select from various desktop environments such as XFCE, KDE, MATE, i3, Openbox, and IceWM by using specific image tags, and access the Webtop via designated URLs.</li>
+<li>Security features include Docker&#39;s seccomp option and authentication setup, with customization options available through environment variables, and support for GPU acceleration with open-source drivers.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42690983">Reactions</a></h3>
+<ul>
+<li>Webtop provides containers with full desktop environments for Alpine, Ubuntu, Fedora, and Arch, suitable for quick setups behind a VPN.</li>
+<li>Users commend Webtop for its speed and ease of use, particularly when used with the Gluetun container for secure connections, but caution against exposing containers to the internet without security measures due to lack of default authentication.</li>
+<li>The project is valued for being open-source and flexible, with users sharing configurations, and alternatives like Kasm and Selkies are noted for similar purposes.</li>
+</ul>
+<h2><a href="https://gizmodo.com/1-in-5-online-job-postings-are-either-fake-or-never-filled-study-finds-2000549706">1 in 5 online job postings are either fake or never filled, study finds</a></h2>
+<ul>
+<li>A recent study indicates that 20% of online job postings are either fake or remain unfilled, adding to job seekers&#39; frustration. - This &quot;ghost job&quot; trend might be a tactic for companies to project an image of growth. - Job platforms such as Greenhouse and LinkedIn have introduced job verification services to assist users in identifying genuine job opportunities.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42697783">Reactions</a></h3>
+<ul>
+<li>A study reveals that 20% of online job postings are either fake or remain unfilled, often due to companies needing to comply with US immigration policies. - Companies may also leave job postings up to find ideal candidates, change requirements, or have pre-selected internal candidates. - The job market is difficult for applicants, who frequently encounter ghosting and automated rejections, prompting calls for regulatory intervention.</li>
+</ul>
+<h2><a href="https://collegetowns.substack.com/p/making-an-intersection-unsafe-for">Making an intersection unsafe for pedestrians to save seconds for drivers</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42698557">Reactions</a></h3>
+<ul>
+<li>The debate centers around whether intersections should prioritize pedestrian safety or driver efficiency, with some favoring light-controlled intersections and pedestrian scrambles over 4-way stops.</li>
+<li>Opinions vary on traffic laws and infrastructure design, with discussions on the safety of jaywalking and the risks associated with right turns on red.</li>
+<li>Some advocate for alternative solutions like roundabouts or adopting Dutch traffic engineering standards to enhance both safety and efficiency.</li>
+</ul>
+<h2><a href="https://db-engines.com/en/blog_post/109">PostgreSQL is the Database Management System of the Year 2024</a></h2>
+<ul>
+<li>PostgreSQL has been awarded DBMS of the Year 2024 by DB-Engines, achieving this recognition for the fifth time, surpassing 423 other database management systems.</li>
+<li>PostgreSQL, with a history spanning nearly 35 years, continues to innovate, as seen in the recent enhancements of PostgreSQL 17, released in September 2024.</li>
+<li>Snowflake and Microsoft secured second and third places, respectively, with Snowflake noted for its cloud-based data warehousing and multi-cloud support, while Microsoft offers robust managed relational databases through Azure SQL Database and SQL Server.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42696080">Reactions</a></h3>
+<ul>
+<li>PostgreSQL has been awarded Database Management System of the Year 2024 by db-engines.com, highlighting its growing popularity and recognition in the industry.</li>
+<li>Users are considering switching from Microsoft SQL Server to PostgreSQL due to high licensing costs and resource limitations, despite potential migration challenges.</li>
+<li>PostgreSQL is favored for its robust features and cost-effectiveness, making it a preferred choice for future projects, although some users explore alternatives like Babelfish to reduce costs.</li>
+</ul>
+<h2><a href="https://trufflesecurity.com/blog/millions-at-risk-due-to-google-s-oauth-flaw">Google’s OAuth login doesn’t protect against purchasing a failed startup domain</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42699099">Reactions</a></h3>
+<ul>
+<li>The discussion highlights a vulnerability in Google’s OAuth login system when a failed startup&#39;s domain is acquired by a new owner, potentially allowing unauthorized access to services.</li>
+<li>This issue arises because Google may not distinguish between the original and new domain owners, affecting any system that uses domain-based authentication.</li>
+<li>A proposed solution is to use unique identifiers that remain constant over time, though the implementation of this solution varies among identity providers.</li>
+</ul>
+<h2><a href="https://www.coryzue.com/writing/solopreneur/">Using coding skills to make passive income</a></h2>
+<ul>
+<li>The author transitioned from a CTO role to a solopreneur, successfully earning more through a portfolio of software products.</li>
+<li>Key strategies include focusing on deep work, starting with small projects, iterating quickly, and dedicating time to marketing efforts.</li>
+<li>The journey emphasizes resilience due to uncertainties, but highlights the unmatched autonomy and freedom of this career path, encouraging those with coding skills to consider it for passive income.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42696822">Reactions</a></h3>
+<ul>
+<li>A user described generating passive income through SEO spam websites using expiring domain names, earning approximately $30k annually, despite ethical concerns and Google&#39;s eventual crackdown.</li>
+<li>The post sparked a debate on passive income, with some users arguing it&#39;s more akin to running a business than truly passive earnings.</li>
+<li>Participants shared experiences and challenges in side projects, highlighting the importance of time, resilience, and strategic planning.</li>
+</ul>
+<h2><a href="https://www.theguardian.com/world/2025/jan/13/spain-proposes-100-tax-on-homes-bought-by-non-eu-residents">Spain proposes 100% tax on homes bought by non-EU residents</a></h2>
+<ul>
+<li>Spain is considering a 100% tax on real estate purchases by non-EU residents, aiming to address the housing crisis and curb speculative buying.</li>
+<li>Prime Minister Pedro Sánchez&#39;s proposal includes expanding social housing and regulating tourist rentals to tackle the disparity between housing prices and incomes.</li>
+<li>The proposal&#39;s future as law is uncertain, with some analysts viewing it as a deterrent to foreign investors rather than a guaranteed legislative change.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42690781">Reactions</a></h3>
+<ul>
+<li>Spain is considering a 100% tax on homes purchased by non-EU residents to tackle housing affordability problems. - Critics suggest that foreign buyers are not the primary cause of high housing prices, citing slow bureaucracy and zoning laws as more significant factors. - The proposal has ignited a debate on the role of foreign ownership in housing markets and its effectiveness in resolving affordability issues.</li>
+</ul>
+<h2><a href="https://www.tomshardware.com/tech-industry/apple-will-soon-receive-made-in-america-chips-from-tsmcs-arizona-fab-company-in-final-stages-of-quality-verification">Apple will soon receive &#39;made in America&#39; chips from TSMC&#39;s Arizona fab</a></h2>
+<ul>
+<li>Apple is testing processors from TSMC&#39;s Arizona facility, with plans for mass production by the first quarter, potentially becoming TSMC&#39;s first U.S. customer for locally manufactured chips. - This initiative aims to bolster U.S. silicon independence, reducing dependency on Taiwan, which is vulnerable to geopolitical and natural risks. - TSMC&#39;s Arizona fab is set to produce advanced 3nm and 2nm chips, with ongoing efforts to enhance local recruitment and partnerships with U.S. universities, although packaging will initially occur in Taiwan until the Peoria facility is operational.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42699977">Reactions</a></h3>
+<ul>
+<li>Apple will receive chips from TSMC&#39;s Arizona plant, but they need to be sent back to Taiwan for packaging due to insufficient U.S. facilities. - Over 50% of the workforce at the Arizona plant is from Taiwan, indicating a gap in the U.S. STEM (Science, Technology, Engineering, and Mathematics) field. - The CHIPS Act initiative, aimed at enhancing U.S. semiconductor manufacturing, faces challenges as the &quot;Made in America&quot; label is questioned due to the packaging process occurring in Taiwan, with plans for U.S. packaging capabilities by 2027.</li>
+</ul>
+<h2><a href="https://gothamist.com/news/43k-fewer-drivers-on-manhattan-roads-after-congestion-pricing-turned-on-mta-says">43K fewer drivers on Manhattan roads after congestion pricing turned on</a></h2>
+<ul>
+<li>After congestion pricing was implemented, there was a 7.5% reduction in drivers entering Manhattan below 60th Street, equating to 43,000 fewer drivers each weekday.</li>
+<li>The reduction in traffic has improved traffic flow and increased bus speeds, with some express buses experiencing higher ridership.</li>
+<li>The Metropolitan Transportation Authority (MTA) uses the toll revenue, estimated at $500 million annually, for transit improvements, despite some political opposition.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42692730">Reactions</a></h3>
+<ul>
+<li>The implementation of congestion pricing in Manhattan has resulted in 43,000 fewer drivers, leading to increased bus speeds and potentially better emergency response times.</li>
+<li>The policy is designed to reduce traffic congestion and improve air quality, though it has sparked debate over its impact on lower-income individuals.</li>
+<li>Proponents argue that the benefits include more efficient public transit and cleaner air, while discussions continue on balancing these advantages with the needs of drivers.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Snyk security researcher deploys malicious NPM packages targeting cursor.com" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Snyk%20security%20researcher%20deploys%20malicious%20NPM%20packages%20targeting%20cursor.com&subheading=Tuesday%2C%20January%2014%2C%202025%3A%20Hacker%20News%20Summary" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/2025/01/14</link>
+            <guid isPermaLink="false">2025-01-14T00:00:00.000Z</guid>
+            <pubDate>Tue, 14 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-13]]></title>
             <description
@@ -1034,66 +1182,6 @@
             <link>https://hn.cho.sh/2025/01/05</link>
             <guid isPermaLink="false">2025-01-05T00:00:00.000Z</guid>
             <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2025-01-04]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2025/01/04&#39;</h2>
-<h1>2025-01-04</h1>
-<h2><a href="https://practicapp.com/carbagepilot-part1/">Self driving 1993 Volvo with open pilot</a></h2>
-<ul>
-<li>A group of friends participated in the Carbage Run 2025 Winter edition, a 6-day rally through Sweden to the polar circle and back to Helsinki, requiring cars to be at least 20 years old and valued under €1000.</li>
-<li>They transformed a 1993 Volvo 940 Estate into a self-driving vehicle using openpilot from comma.ai, incorporating modern components like electric power steering, a Bosch iBooster, and a Tesla radar sensor.</li>
-<li>Future updates will include details on wiring, a custom Engine Control Unit (ECU), and plans to open-source the code, highlighting the project&#39;s innovative approach to retrofitting older vehicles with autonomous technology.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42592910">Reactions</a></h3>
-<ul>
-<li>A 1993 Volvo 940 was retrofitted with OpenPilot, a self-driving technology, highlighting the intersection of classic car design and modern tech.</li>
-<li>The project faced challenges, including updating the brake and steering systems, raising legal and safety concerns, particularly with DIY modifications like welding the steering column.</li>
-<li>The discussion extended to car regulations in Europe, the decline of hotrods in the US, and cultural differences in car modification freedoms, with the project viewed as an inspiring DIY effort despite safety concerns.</li>
-</ul>
-<h2><a href="https://github.com/s-macke/VoxelSpace">VoxelSpace: Terrain rendering algorithm in less than 20 lines of code (2020)</a></h2>
-<ul>
-<li>NovaLogic&#39;s 1992 game Comanche utilized the Voxel Space engine, a 2.5D rendering technique based on ray casting, to create detailed terrains with shading and shadows.</li>
-<li>The Voxel Space engine used height and color maps and a simple rendering algorithm, drawing vertical lines from back to front, which could be optimized for performance.</li>
-<li>The engine&#39;s code is available under the MIT license, but the technology may still be patented in certain regions.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42588956">Reactions</a></h3>
-<ul>
-<li>VoxelSpace is a terrain rendering algorithm notable for its simplicity, requiring less than 20 lines of code, and evokes nostalgia for innovative game development during hardware-limited eras.</li>
-<li>Modern AAA games focus on complex optimizations and market trends, often at the expense of originality, whereas indie games and platforms like PICO-8 provide more creative freedom.</li>
-<li>Despite technological advancements, some developers and players feel that the &quot;magic&quot; of older games is missing, though innovative projects like voxel rendering continue to inspire creativity.</li>
-</ul>
-<h2><a href="https://ameye.dev/notes/rendering-outlines/">How to draw an outline in a video game</a></h2>
-<ul>
-<li>The article discusses five techniques for rendering outlines in Unity, a popular game development platform, highlighting their use in games like Sable and The Last of Us. - Techniques include Rim Effects, Vertex Extrusion, Blurred Buffer, Jump Flood Algorithm, and Edge Detection, each with unique advantages and trade-offs in terms of performance and visual quality. - The article provides insights into balancing these methods for optimal game aesthetics and gameplay support, with additional resources and credits for 3D models included.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42593614">Reactions</a></h3>
-<ul>
-<li>The article explores advanced techniques for drawing outlines in video games, emphasizing the efficiency of the Jump Flood Algorithm (JFA) and Signed Distance Fields (SDFs) over traditional methods. - It delves into stylized 3D graphics, discussing rendering techniques and the potential use of neural networks for lighting and styling. - Contributors provide insights into the historical development of cel shading in games, such as Jet Set Radio, highlighting the evolving intersection of technology and art in 3D graphics.</li>
-</ul>
-<h2><a href="https://anntelnaes.substack.com/p/why-im-quitting-the-washington-post">I&#39;m quitting the Washington Post</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42591221">Reactions</a></h3>
-<ul>
-<li>The author is leaving the Washington Post due to its failure to adapt to the evolving media landscape and its approach to presenting issues, which they believe is ineffective for critical topics like democracy.</li>
-<li>Traditional media, particularly local newspapers, are struggling financially, leading to biased reporting and a decline in public trust, while social media cannot replace the rigorous work of journalism.</li>
-<li>Concerns are raised about the influence of wealthy individuals, such as Jeff Bezos, on media outlets, and the impact of corporate interests on the media&#39;s role in holding power accountable.</li>
-</ul>
-<h2><a href="https://twitter.com/damengchen/status/1875296442417607072">Perplexity got ads</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42589863">Reactions</a></h3>
-<ul>
-<li>Perplexity has introduced advertisements, leading to discussions about the inevitability of ads in online services due to consumer reluctance to pay for ad-free experiences. - Some users find ads intrusive and prefer subscription-based services like Kagi, which offer ad-free search, while others continue to choose free, ad-supported options. - This situation underscores the ongoing debate between ad-supported and subscription-based models in digital services.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Self driving 1993 Volvo with open pilot" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Self%20driving%201993%20Volvo%20with%20open%20pilot&subheading=Saturday%2C%20January%204%2C%202025%3A%20Hacker%20News%20Summary" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/2025/01/04</link>
-            <guid isPermaLink="false">2025-01-04T00:00:00.000Z</guid>
-            <pubDate>Sat, 04 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
