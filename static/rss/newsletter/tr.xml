@@ -15,12 +15,97 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Jan 2025 19:14:17 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Jan 2025 19:10:12 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/tr.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Tue, 14 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[tr]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-15]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/15&#39;</h2>
+<h1>2025-01-15</h1>
+<h2><a href="https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity/">Kosinüs benzerliğini dikkatsizce kullanmayın</a></h2>
+<ul>
+<li>Kosinüs benzerliği, vektörleri karşılaştırmak için kullanılan bir yöntemdir, ancak bağlamı anlamadan kullanıldığında yanıltıcı olabilir, çünkü anlamsal benzerlikleri doğru bir şekilde yakalayamayabilir. - Word2vec veya Büyük Dil Modellerinden (LLM&#39;ler) gelen cümle gömmeleri gibi gömmeler, istenen ilişkileri yansıttıklarından emin olmak için dikkatli ve kasıtlı bir kullanım gerektirir. - Vektör benzerliği sonuçlarını iyileştirmek için, LLM&#39;leri doğrudan kullanmayı, ince ayar yaparak göreve özel gömmeler oluşturmayı ve metnin temiz olduğundan ve gömme işleminden önce istemlerin iyi tasarlandığından emin olmayı düşünün.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42704078">Tepkiler</a></h3>
+<ul>
+<li>Retrieval-Augmented Generation (RAG) uygulamalarında, &quot;anlamsal yeniden sıralayıcı&quot; kullanmak, kosinüs benzerliği kullanıldığında kullanıcı sorgularının eşleştirilmesini geliştirebilir. - Boş içeriğin vektör gömülerini depolamaktan kaçının, çünkü bunlar yanlış eşleşmelere yol açabilir; bazı projeler bu sorunu önlemek için &quot;hiçlik&quot;i temsil eden özel kodlamalar kullanır. - Büyük Dil Modelleri (LLM&#39;ler), çapraz kodlayıcılar, L2 yeniden sıralama modelleri veya grafik tabanlı yöntemler gibi alternatifleri keşfetmek, yalnızca kosinüs benzerliğine güvenmekten daha doğru alma sonuçları sağlayabilir.</li>
+</ul>
+<h2><a href="https://ij.org/press-release/nevada-court-shuts-down-police-use-of-federal-loophole-for-civil-forfeiture/">Mahkeme, Polislerin Federal Açığı Kullanarak Mülkiyetin Hukuksuz El Konulmasını Durdurdu</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42707573">Tepkiler</a></h3>
+<ul>
+<li>Nevada&#39;daki bir mahkeme, polisin, sahibini bir suçla suçlamadan varlıkların el konulmasına olanak tanıyan federal bir boşluktan yararlanmasına karşı karar verdi.</li>
+<li>Bu karar, suçluluğu varsaydığı ve potansiyel olarak yolsuzluğa yol açabileceği için eleştirilen sivil el koyma yasaları üzerindeki tartışmayı vurguluyor.</li>
+<li>Vaka, bir trafik durdurma sırasında bir adamın hayat birikimlerinin el konulmasını içeriyordu ve bu durum, vatandaşların haklarını korumak için yasal işlem ve medya dikkatine ihtiyaç duyulduğunu vurguluyordu.</li>
+</ul>
+<h2><a href="https://www.reuters.com/technology/tiktok-preparing-us-shut-off-sunday-information-reports-2025-01-15/">TikTok, Pazar günü ABD&#39;de kapatılmaya hazırlanıyor</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42710339">Tepkiler</a></h3>
+<ul>
+<li>TikTok, ABD&#39;de olası bir kapatmayla karşı karşıya kalırken, kullanıcılar Xiaohongshu, YouTube Shorts ve Instagram Reels gibi alternatifleri keşfetmeye yöneliyor. - Çin&#39;de popüler olan Xiaohongshu, Batılı izleyiciler için uyarlanmamış olup, Çinli ve ABD&#39;li kullanıcılar arasında doğrudan etkileşimler konusunda endişeler yaratıyor. - ABD hükümeti, TikTok yasağını düşünmesinin nedenleri arasında yabancı etki ve propaganda korkuları da dahil olmak üzere ulusal güvenlik endişelerini gösteriyor.</li>
+</ul>
+<h2><a href="https://claudio.uk/posts/epub-to-audiobook.html">E-kitaplardan sesli kitaplar oluşturmak için Kokoro-82M kullanın</a></h2>
+<ul>
+<li>Kokoro v0.19, 82 milyon parametreye sahip yeni bir metinden sese dönüştürme modelidir ve Amerikan ve İngiliz İngilizcesi, Fransızca, Korece, Japonca ve Mandarin dahil olmak üzere birden fazla dilde yüksek kaliteli ses çıktısı sunmaktadır.</li>
+<li>Claudio Santini, .epub dosyalarını işleyerek ses dosyaları üreten ve e-kitapları sesli kitaplara dönüştüren bir araç olan Audiblez&#39;i geliştirdi. Bu işlem, bir M2 MacBook Pro&#39;da 100.000 kelimelik bir kitap için yaklaşık 2 saat sürmektedir.</li>
+<li>Audiblez, pip aracılığıyla kurulum gerektirir, çeşitli dilleri ve sesleri destekler ve .m4b dosyası oluşturmak için ffmpeg&#39;e ihtiyaç duyar, araç GitHub&#39;da daha fazla geliştirme ve iyileştirme için mevcuttur.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42708773">Tepkiler</a></h3>
+<ul>
+<li>Kokoro-82M, özellikle kurgu dışı eserler için kolaylık sağlayarak e-kitapları sesli kitaplara dönüştürmek üzere tasarlanmış bir yapay zeka aracıdır.</li>
+<li>Yapay zeka tarafından üretilen sesli kitaplar, insan anlatımlı versiyonların bulunmadığı boşlukları doldurabilse de, şu anda insan anlatıcıların sağladığı duygusal derinlik ve karakterden yoksundur.</li>
+<li>Bu araç, yaratıcı meslekler üzerindeki yapay zekanın etkisi konusunda tartışma başlatıyor, tarihsel teknolojik değişimlerle paralellikler kuruyor ve bu alanlarda eğitim ve deneyim fırsatlarının azalmasıyla ilgili endişeleri gündeme getiriyor.</li>
+</ul>
+<h2><a href="https://www.theautopian.com/if-you-ever-see-this-speed-sign-youre-probably-going-to-die/">Kirlenmiş bölgelerde radyasyona maruz kalmayı sınırlamak için insanlara yardımcı olacak yol işaretleri</a></h2>
+<ul>
+<li>MUTCD (Tekdüzen Trafik Kontrol Cihazları El Kitabı), radyolojik kirlenme bölgeleri için tasarlanmış &quot;MAKSİMUM GÜVENLİ HIZI KORUYUN&quot; gibi Soğuk Savaş dönemi işaretlerini içerir.</li>
+<li>Bu işaretler, potansiyel bir nükleer kıyamet sırasında vatandaşları korumak için Sivil Savunma stratejilerinin bir parçasıydı, ancak hiçbir zaman kullanılmadılar.</li>
+<li>Bu işaretlerden bazıları, o dönemin tarihsel korkularını ve hazırlık çabalarını vurgulayarak, hala MUTCD&#39;de Acil Durum Yönetimi işaretleri olarak yer almaktadır.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42704491">Tepkiler</a></h3>
+<ul>
+<li>Yetkililer, bu bölgelerde geçirilen süreyi en aza indirerek radyasyon maruziyetini azaltmak için kirlenmiş alanlardan yüksek hızda geçişi tavsiye eden yol işaretlerini değerlendirmektedir. - Tartışma, Çernobil ve Fukuşima ile paralellikler kurarak radyoaktif tozdan kaynaklanan soluma ve kirlenme endişelerini vurgulamaktadır. - Milliyetçilik ve nükleer caydırıcılık da dahil olmak üzere daha geniş jeopolitik meseleler, tarihi ve mevcut küresel gerilimleri yansıtarak konuşmanın bir parçasıdır.</li>
+</ul>
+<h2><a href="https://wtfhappenedin1971.com/">WTF 1971&#39;de Ne Oldu? (2019)</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42711781">Tepkiler</a></h3>
+<ul>
+<li>1971&#39;de Ne Oldu?&quot; adlı web sitesi, genellikle altın standardının sona ermesiyle ilişkilendirilen, 1971&#39;de başlayan önemli ekonomik ve toplumsal değişiklikleri inceliyor.</li>
+<li>Bu değişikliklerin nedenleri üzerine tartışma, artan yönetici tazminatları, petrol krizi ve ekonomik politikalardaki değişiklikler gibi çeşitli bakış açılarını içermektedir.</li>
+<li>Bu tartışma ayrıca Nixon Şoku&#39;nun etkilerini, kredi ve itibari para biriminin rolünü ve kentleşme ile enerji fiyatları gibi daha geniş faktörleri de ele alıyor.</li>
+</ul>
+<h2><a href="https://philipotoole.com/how-is-rqlite-tested/">rqlite nasıl test edilir</a></h2>
+<ul>
+<li>rqlite, SQLite ve Raft&#39;ı birleştiren hafif bir dağıtılmış veritabanıdır ve yapılandırılmış bir test stratejisi aracılığıyla güvenilirlik ve kaliteye odaklanır. - Test stratejisi, izole bileşenler için birim testlerini, sistem düzeyinde doğrulama için entegrasyon testlerini ve temel işlem kontrolleri için minimal uçtan uca testleri vurgulayan test piramidini takip eder. - rqlite&#39;ın test yaklaşımından alınan önemli dersler arasında testlere erken başlamak, test kodunu basitleştirmek ve deterministikliği sağlamak yer alır; bu da minimal ek yükle yüksek kaliteyi korumaya yardımcı olur.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42703282">Tepkiler</a></h3>
+<ul>
+<li>Bu tartışma, SQLite tabanlı dağıtık bir veritabanı olan rqlite için test stratejilerine odaklanmakta olup, başlangıç testleri, test piramidi ve parametreli ve özellik testlerini vurgulamaktadır.</li>
+<li>Kompleks sistemlerde uçtan uca (E2E) testlerle ilgili zorluklar, rqlite için Go programlama dilinin seçimi ve güvenlik endişeleri vurgulanmaktadır.</li>
+<li>Deterministik simülasyon testi, FoundationDB gibi diğer veritabanlarına referanslarla birlikte, veritabanı güvenilirliği için yüksek bir standart olarak belirtilmekte ve etkili test uygulamaları üzerine çeşitli bakış açılarını sergilemektedir.</li>
+</ul>
+<h2><a href="https://www.vijayp.dev/blog/rewrite-plain-html/">Web sitemi basit HTML ve CSS ile yeniden yazmak</a></h2>
+<ul>
+<li>Yazar, sitelerini basit HTML ve CSS kullanarak yeniden inşa etti, SvelteKit&#39;ten uzaklaşarak siteyi basitleştirdi ve Cloudflare Pages üzerinde barındırdı. - Markdown&#39;u HTML&#39;ye dönüştürmek için Pandoc ve betik yazımı için Python kullandılar, bu da daha küçük bir web sitesi ile sonuçlandı ve varlık boyutunu ~356kb&#39;den ~88kb&#39;ye düşürdü. - Proje, kod tekrarı ve canlı yeniden yükleme eksikliği gibi zorlukları vurguladı ve bu sorunları ele almak için web bileşenleri ve FastAPI&#39;yi keşfetme planları ile, potansiyel olarak Markdown gönderileri ile çerçevesiz bir web sitesi arayanlar için bir şablon olarak hizmet edebilir.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42705077">Tepkiler</a></h3>
+<ul>
+<li>Yazar, sağladığı minimal zaman taahhüdü ve beceri geliştirme avantajlarını takdir ederek, düz HTML ve CSS kullanarak kişisel bir web sitesi yönetmektedir.</li>
+<li>Web sitesi GitHub Pages üzerinde barındırılmakta ve içerik, manuel olarak güncellenmeden önce MS Word&#39;de taslak olarak hazırlanmakta.</li>
+<li>Yazar, Jekyll veya Hugo gibi statik site jeneratörleri ya da sunucu tarafı eklemeleri kullanma önerilerine rağmen, mevcut yöntemlerinin kontrol ve sadeliğini değerli buluyor.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Kosinüs benzerliğini dikkatsizce kullanmayın" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Kosin%C3%BCs%20benzerli%C4%9Fini%20dikkatsizce%20kullanmay%C4%B1n&subheading=15%20Ocak%202025%20%C3%87ar%C5%9Famba%3A%20Hacker%20Haber%20%C3%96zeti" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/tr/2025/01/15</link>
+            <guid isPermaLink="false">2025-01-15T00:00:00.000Z</guid>
+            <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-14]]></title>
             <description
@@ -1120,68 +1205,6 @@
             <link>https://hn.cho.sh/tr/2025/01/06</link>
             <guid isPermaLink="false">2025-01-06T00:00:00.000Z</guid>
             <pubDate>Mon, 06 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2025-01-05]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2025/01/05&#39;</h2>
-<h1>2025-01-05</h1>
-<h2><a href="https://uwaterloo.ca/news/media/no-more-needles-tracking-blood-sugar-your-wrist">Araştırmacılar, glikoz seviyelerini daha doğru bir şekilde algılayabilen giyilebilir teknoloji tasarladı</a></h2>
-<ul>
-<li>Waterloo Üniversitesi&#39;ndeki araştırmacılar, iğne gereksinimini ortadan kaldırarak glikoz seviyelerini invaziv olmayan bir şekilde izlemek için radar teknolojisini kullanan giyilebilir bir cihaz geliştirdiler.</li>
-<li>Dr. George Shaker tarafından yönetilen cihaz, bir radar çipi, sinyal doğruluğunu artırmak için bir meta-yüzey ve hassas glikoz okumaları için AI algoritmaları içermektedir.</li>
-<li>Şu anda USB ile çalışan cihaz, taşınabilirliği artırmak için pille çalışır hale gelmeyi hedefliyor ve nihayetinde ek sağlık ölçümlerini izleyebilir, teknoloji ticarileştirilme çabaları devam ediyor.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42599189">Tepkiler</a></h3>
-<ul>
-<li>Araştırmacılar, parmak delme ve Sürekli Glikoz Monitörlerine (CGM&#39;ler) alternatif sunan, invaziv olmayan glikoz izleme için giyilebilir teknoloji geliştirdiler.</li>
-<li>Teknoloji, klinik uygulamalar için önemli olabilecek, kan dolaşımıyla doğrudan temas olmadan doğru glikoz okumaları sağlamayı amaçlamaktadır.</li>
-<li>Umut verici olsa da, mevcut CGM&#39;lerle karşılaştırıldığında doğruluğu konusunda şüpheler var ve etkinliğini doğrulamak için daha fazla veri ve klinik denemelere ihtiyaç duyuluyor.</li>
-</ul>
-<h2><a href="https://nmn.gl/blog/ai-senior-developer">Yapay zekaya kodu Kıdemli Bir Geliştirici gibi okumayı öğrettiğim gün</a></h2>
-<ul>
-<li>Yapay zeka başlangıçta React kod tabanlarını analiz etmekte zorlandı ve bunlara yeni bir geliştirici gibi yaklaştı. - Kıdemli geliştiricilerin stratejilerini taklit ederek, örneğin temel dosyalara odaklanarak ve değişiklikleri özelliklere göre gruplayarak, yapay zekanın kod analizi önemli ölçüde iyileşti. - Odak noktası, kod üretiminden ziyade kod anlayışını geliştirmek olup, gelecekte teknik borcu tanımlamak ve ekip geleneklerini anlamak planlanmaktadır.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42601847">Tepkiler</a></h3>
-<ul>
-<li>Makale, bir kıdemli geliştiricinin yetkinliğiyle kod okumak ve analiz etmek için yapay zekayı eğitmenin zorluklarını araştırıyor ve tutarlı ve doğru sonuçlar elde etmenin zorluğuna dikkat çekiyor.</li>
-<li>Bu, kod analizinde yapay zeka performansını artırmak için bağlam sağlamanın ve girdileri yapılandırmanın önemini vurgularken, yapay zekanın mevcut yetenekleri hakkındaki şüpheciliği kabul etmektedir.</li>
-<li>Bu tartışma, yapay zekanın performansını doğrulamak için daha fazla deney ve değerlendirme yapılması gerekliliğini vurgulamakta ve yazılım geliştirmede yapay zekanın daha geniş etkilerini ve potansiyel ilerlemelerini ele almaktadır.</li>
-</ul>
-<h2><a href="http://rachelbythebay.com/w/2025/01/04/cruft/">Burada size yük olmadığım web sayfası rahatsızlıkları</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42599102">Tepkiler</a></h3>
-<ul>
-<li>Yazar, kullanıcı deneyimini geliştirmek için yapışkan çubuklar, zorunlu SSL/TLS, açılır pencereler ve gereksiz izleme gibi belirli web özelliklerini kullanmaktan kaçınır.</li>
-<li>HTTPS&#39;in güvenlik için gerekliliği ile eski tarayıcılarla uyumluluk sorunları arasındaki tartışma devam ediyor.</li>
-<li>Bu tartışma, kullanıcı deneyimini modern web uygulamalarıyla dengeleme zorluğunu vurgulamaktadır.</li>
-</ul>
-<h2><a href="https://tailscale.com/blog/how-nat-traversal-works">Nat Geçişi Nasıl Çalışır (2020)</a></h2>
-<ul>
-<li>NAT geçişi, UDP tabanlı protokoller ve doğrudan soket kontrolü kullanarak Ağ Adresi Çeviricileri (NAT&#39;ler) ve güvenlik duvarlarının varlığına rağmen doğrudan cihaz bağlantılarını mümkün kılar.</li>
-<li>STUN (Oturum Geçiş Araçları için NAT) gibi teknikler, genel IP adreslerini keşfetmeye yardımcı olurken, TURN (NAT etrafında Röleler Kullanarak Geçiş) veya Tailscale&#39;in DERP&#39;si gibi röleler daha zorlu NAT&#39;lar için kullanılır.</li>
-<li>ICE (Etkileşimli Bağlantı Kurulumu) protokolü, tüm olası seçenekleri değerlendirerek ve en verimli olanı seçerek bağlantı yollarını optimize eder, uçtan uca şifreleme ve kimlik doğrulama ile sağlam NAT geçişi sağlar.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42600846">Tepkiler</a></h3>
-<ul>
-<li>Makale, TCP&#39;nin (İletim Kontrol Protokolü) biraz daha yüksek karmaşıklığını belirterek, TCP (İletim Kontrol Protokolü) ve UDP (Kullanıcı Datagram Protokolü) delik delme arasındaki farklara vurgu yaparak NAT (Ağ Adresi Çevirisi) geçişini inceliyor.</li>
-<li>NAT&#39;ın bir güvenlik özelliği olarak algılanmasını sorguluyor ve Tailscale&#39;in NAT geçişi yöntemini tartışarak, güvenlik için yalnızca yazılım ACL&#39;lerine (Erişim Kontrol Listeleri) güvenmenin endişelerini gündeme getiriyor.</li>
-<li>Metin, güvenli uç noktaların önemini vurgulamakta ve NAT geçişi bağlamında geleneksel ağ güvenlik stratejilerinin sınırlamalarını eleştirmektedir.</li>
-</ul>
-<h2><a href="https://amanvir.com/guten">Guten: Küçük Bir Gazete Yazıcısı</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42599599">Tepkiler</a></h3>
-<ul>
-<li>Guten, haberleri basılı formda sunarak ekran süresini en aza indirmeyi amaçlayan küçük ölçekli bir gazete yazıcı projesidir. - Proje etrafındaki tartışmalar, termal kağıttaki BPA içeriği hakkındaki endişeleri ve BPA içermeyen alternatiflerin veya darbe ya da nokta vuruşlu yazıcılar gibi farklı baskı teknolojilerinin kullanılmasına yönelik önerileri içermektedir. - Durdurulan Little Printer ile karşılaştırmalar yapılmakta ve Guten&#39;in geliştirici dostu olmasının ve özelleştirme seçeneklerinin artırılması için önerilerde bulunulmakta, termal kağıdın çevresel ve sağlık üzerindeki etkileri de göz önünde bulundurulmaktadır.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Araştırmacılar, glikoz seviyelerini daha doğru bir şekilde algılayabilen giyilebilir teknoloji tasarladı" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Ara%C5%9Ft%C4%B1rmac%C4%B1lar%2C%20glikoz%20seviyelerini%20daha%20do%C4%9Fru%20bir%20%C5%9Fekilde%20alg%C4%B1layabilen%20giyilebilir%20teknoloji%20tasarlad%C4%B1&subheading=5%20Ocak%202025%20Pazar%3A%20Hacker%20Haber%20%C3%96zeti" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/tr/2025/01/05</link>
-            <guid isPermaLink="false">2025-01-05T00:00:00.000Z</guid>
-            <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

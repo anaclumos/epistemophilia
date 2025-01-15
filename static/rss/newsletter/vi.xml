@@ -15,12 +15,97 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Jan 2025 19:14:17 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Jan 2025 19:10:12 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/vi.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Tue, 14 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[vi]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-15]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/15&#39;</h2>
+<h1>2025-01-15</h1>
+<h2><a href="https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity/">Đừng sử dụng độ tương đồng cosine một cách bất cẩn</a></h2>
+<ul>
+<li>Độ tương đồng cosine, một phương pháp so sánh các vector, có thể gây hiểu lầm nếu sử dụng mà không hiểu rõ ngữ cảnh, vì nó có thể không phản ánh chính xác các tương đồng ngữ nghĩa. - Các embedding, chẳng hạn như từ word2vec hoặc embedding câu từ các Mô hình Ngôn ngữ Lớn (LLMs), đòi hỏi phải sử dụng cẩn thận và có chủ đích để đảm bảo chúng phản ánh các mối quan hệ mong muốn. - Để cải thiện kết quả độ tương đồng vector, hãy cân nhắc sử dụng trực tiếp LLMs, tạo các embedding đặc thù cho nhiệm vụ thông qua tinh chỉnh, và đảm bảo văn bản được làm sạch và các prompt được thiết kế tốt trước khi embedding.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42704078">phản ứng</a></h3>
+<ul>
+<li>Trong các ứng dụng Tạo sinh Tăng cường Truy xuất (RAG), việc sử dụng &quot;bộ xếp hạng lại ngữ nghĩa&quot; có thể cải thiện việc khớp các truy vấn của người dùng khi sử dụng độ tương đồng cosine. - Tránh lưu trữ các nhúng vector của nội dung trống, vì chúng có thể dẫn đến các khớp sai; một số dự án sử dụng mã hóa đặc biệt để biểu diễn &quot;sự trống rỗng&quot; nhằm ngăn chặn vấn đề này. - Khám phá các lựa chọn thay thế như Mô hình Ngôn ngữ Lớn (LLM), bộ mã hóa chéo, mô hình xếp hạng lại L2, hoặc các phương pháp dựa trên đồ thị có thể cung cấp kết quả truy xuất chính xác hơn so với chỉ dựa vào độ tương đồng cosine.</li>
+</ul>
+<h2><a href="https://ij.org/press-release/nevada-court-shuts-down-police-use-of-federal-loophole-for-civil-forfeiture/">Toà án Nevada ngăn chặn việc cảnh sát sử dụng lỗ hổng liên bang cho tịch thu dân sự</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42707573">phản ứng</a></h3>
+<ul>
+<li>Một tòa án ở Nevada đã ra phán quyết chống lại việc cảnh sát sử dụng lỗ hổng liên bang cho việc tịch thu dân sự, nơi tài sản bị tịch thu mà không buộc tội chủ sở hữu với một tội phạm.</li>
+<li>Quyết định này nhấn mạnh cuộc tranh luận về các luật tịch thu dân sự, bị chỉ trích vì giả định tội lỗi và có thể dẫn đến tham nhũng.</li>
+<li>Vụ việc liên quan đến số tiền tiết kiệm cả đời của một người đàn ông bị tịch thu trong một lần dừng xe, nhấn mạnh sự cần thiết của hành động pháp lý và sự chú ý của truyền thông để bảo vệ quyền lợi của công dân.</li>
+</ul>
+<h2><a href="https://www.reuters.com/technology/tiktok-preparing-us-shut-off-sunday-information-reports-2025-01-15/">TikTok chuẩn bị cho việc ngừng hoạt động tại Mỹ vào Chủ nhật</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42710339">phản ứng</a></h3>
+<ul>
+<li>TikTok đang đối mặt với khả năng bị đóng cửa tại Mỹ, khiến người dùng tìm kiếm các lựa chọn thay thế như Xiaohongshu, YouTube Shorts và Instagram Reels. - Xiaohongshu, phổ biến ở Trung Quốc, không được thiết kế cho khán giả phương Tây, làm dấy lên lo ngại về các tương tác trực tiếp giữa người dùng Trung Quốc và Mỹ. - Chính phủ Mỹ viện dẫn các mối lo ngại về an ninh quốc gia, bao gồm lo ngại về ảnh hưởng và tuyên truyền từ nước ngoài, là lý do để xem xét lệnh cấm TikTok.</li>
+</ul>
+<h2><a href="https://claudio.uk/posts/epub-to-audiobook.html">Chuyển đổi sách điện tử thành sách nói với Kokoro-82M</a></h2>
+<ul>
+<li>Kokoro v0.19 là một mô hình chuyển văn bản thành giọng nói mới với 82 triệu tham số, cung cấp đầu ra âm thanh chất lượng cao bằng nhiều ngôn ngữ, bao gồm tiếng Anh Mỹ và Anh, tiếng Pháp, tiếng Hàn, tiếng Nhật và tiếng Quan Thoại.</li>
+<li>Claudio Santini đã phát triển Audiblez, một công cụ chuyển đổi sách điện tử thành sách nói bằng cách sử dụng Kokoro, xử lý các tệp .epub và tạo ra các tệp âm thanh, với thời gian chuyển đổi khoảng 2 giờ cho một cuốn sách 100.000 từ trên một chiếc MacBook Pro M2.</li>
+<li>Audiblez yêu cầu cài đặt qua pip, hỗ trợ nhiều ngôn ngữ và giọng nói, và cần ffmpeg để tạo tệp .m4b, với công cụ có sẵn trên GitHub để phát triển và cải tiến thêm.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42708773">phản ứng</a></h3>
+<ul>
+<li>Kokoro-82M là một công cụ AI được thiết kế để chuyển đổi sách điện tử thành sách nói, mang lại sự tiện lợi, đặc biệt là cho các tác phẩm phi hư cấu.</li>
+<li>Trong khi sách nói do AI tạo ra có thể lấp đầy những khoảng trống nơi không có phiên bản do con người kể chuyện, chúng hiện tại thiếu chiều sâu cảm xúc và tính cách mà người kể chuyện con người mang lại.</li>
+<li>Đây là công cụ gây ra cuộc tranh luận về tác động của AI đối với các ngành nghề sáng tạo, so sánh với những thay đổi công nghệ trong lịch sử, và dấy lên lo ngại về việc giảm cơ hội đào tạo và kinh nghiệm trong các lĩnh vực này.</li>
+</ul>
+<h2><a href="https://www.theautopian.com/if-you-ever-see-this-speed-sign-youre-probably-going-to-die/">Biển báo đường để giúp mọi người hạn chế tiếp xúc với bức xạ trong các khu vực bị ô nhiễm</a></h2>
+<ul>
+<li>Cuốn Sổ tay về Thiết bị Kiểm soát Giao thông Đồng nhất (MUTCD) chứa các biển báo từ thời Chiến tranh Lạnh, chẳng hạn như &quot;DUY TRÌ TỐC ĐỘ AN TOÀN TỐI ĐA,&quot; được sử dụng cho các khu vực nhiễm xạ.</li>
+<li>Những biển báo này là một phần của chiến lược Phòng vệ Dân sự nhằm bảo vệ công dân trong trường hợp xảy ra tận thế hạt nhân tiềm tàng, mặc dù chúng chưa bao giờ được sử dụng.</li>
+<li>Một số trong những biển báo này vẫn được bao gồm trong MUTCD như là biển báo Quản lý Khẩn cấp, nhấn mạnh những nỗi sợ hãi lịch sử và các nỗ lực chuẩn bị từ thời kỳ đó.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42704491">phản ứng</a></h3>
+<ul>
+<li>Chính quyền đang xem xét các biển báo đường để khuyến cáo di chuyển tốc độ cao qua các khu vực bị ô nhiễm nhằm giảm thiểu phơi nhiễm phóng xạ bằng cách giảm thời gian ở lại trong những khu vực này. - Cuộc thảo luận này gợi nhớ đến Chernobyl và Fukushima, nhấn mạnh mối lo ngại về việc hít phải và ô nhiễm từ bụi phóng xạ. - Các vấn đề địa chính trị rộng lớn hơn, bao gồm chủ nghĩa dân tộc và sự răn đe hạt nhân, cũng là một phần của cuộc trò chuyện, phản ánh những căng thẳng toàn cầu trong quá khứ và hiện tại.</li>
+</ul>
+<h2><a href="https://wtfhappenedin1971.com/">WTF Đã Xảy Ra Năm 1971? (2019)</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42711781">phản ứng</a></h3>
+<ul>
+<li>Trang web &quot;WTF Happened in 1971?&quot; xem xét những thay đổi kinh tế và xã hội quan trọng bắt đầu từ năm 1971, thường được liên kết với việc chấm dứt tiêu chuẩn vàng.</li>
+<li>Bài thảo luận bao gồm các quan điểm đa dạng về nguyên nhân của những thay đổi này, chẳng hạn như việc tăng lương cho giám đốc điều hành, khủng hoảng dầu mỏ, và những thay đổi trong chính sách kinh tế.</li>
+<li>Cuộc tranh luận cũng xem xét các tác động của cú sốc Nixon, vai trò của tín dụng và tiền tệ pháp định, và các yếu tố rộng hơn như đô thị hóa và giá năng lượng.</li>
+</ul>
+<h2><a href="https://philipotoole.com/how-is-rqlite-tested/">Rqlite được kiểm tra như thế nào</a></h2>
+<ul>
+<li>rqlite là một cơ sở dữ liệu phân tán nhẹ kết hợp SQLite và Raft, tập trung vào độ tin cậy và chất lượng thông qua một chiến lược kiểm thử có cấu trúc. - Chiến lược kiểm thử tuân theo kim tự tháp kiểm thử, nhấn mạnh các bài kiểm thử đơn vị cho các thành phần độc lập, kiểm thử tích hợp để xác nhận cấp hệ thống, và kiểm thử đầu-cuối tối thiểu để kiểm tra hoạt động cơ bản. - Những bài học quan trọng từ cách tiếp cận kiểm thử của rqlite bao gồm bắt đầu kiểm thử sớm, đơn giản hóa mã kiểm thử, và đảm bảo tính quyết định, điều này giúp duy trì chất lượng cao với chi phí tối thiểu.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42703282">phản ứng</a></h3>
+<ul>
+<li>Bài thảo luận tập trung vào các chiến lược kiểm thử cho rqlite, một cơ sở dữ liệu phân tán dựa trên SQLite, nhấn mạnh các bài kiểm thử ban đầu, kim tự tháp kiểm thử, và các bài kiểm thử tham số hóa và thuộc tính.</li>
+<li>Những thách thức với kiểm thử đầu-cuối (E2E) trong các hệ thống phức tạp được nêu bật, cùng với việc lựa chọn ngôn ngữ lập trình Go cho rqlite và các mối quan ngại về bảo mật.</li>
+<li>Kiểm thử mô phỏng quyết định được đề cập như một tiêu chuẩn cao cho độ tin cậy của cơ sở dữ liệu, với các tham chiếu đến các cơ sở dữ liệu khác như FoundationDB, thể hiện các quan điểm đa dạng về các thực hành kiểm thử hiệu quả.</li>
+</ul>
+<h2><a href="https://www.vijayp.dev/blog/rewrite-plain-html/">Viết lại trang web của tôi bằng HTML và CSS thuần túy</a></h2>
+<ul>
+<li>Theo tác giả, họ đã xây dựng lại trang web của mình bằng cách sử dụng HTML và CSS thuần túy, chuyển từ SvelteKit, để đơn giản hóa trang web và lưu trữ nó trên Cloudflare Pages. - Họ đã sử dụng Pandoc để chuyển đổi Markdown sang HTML và Python để viết kịch bản, kết quả là một trang web nhỏ hơn, giảm kích thước tài sản từ khoảng 356kb xuống còn khoảng 88kb. - Dự án đã nêu bật những thách thức như trùng lặp mã và thiếu tính năng tải lại trực tiếp, với kế hoạch khám phá các thành phần web và FastAPI để giải quyết những vấn đề này, có thể đóng vai trò như một mẫu cho những người khác đang tìm kiếm một trang web không có khung với các bài đăng Markdown.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42705077">phản ứng</a></h3>
+<ul>
+<li>Người tác giả duy trì một trang web cá nhân sử dụng HTML và CSS đơn giản, đánh giá cao sự cam kết thời gian tối thiểu và việc rèn luyện kỹ năng mà nó mang lại.</li>
+<li>Trang web được lưu trữ trên GitHub Pages, và nội dung được soạn thảo trong MS Word trước khi được cập nhật thủ công.</li>
+<li>Mặc dù có những gợi ý sử dụng các bao gồm phía máy chủ hoặc các trình tạo trang tĩnh như Jekyll hoặc Hugo, tác giả đánh giá cao sự kiểm soát và đơn giản của phương pháp hiện tại của họ.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Đừng sử dụng độ tương đồng cosine một cách bất cẩn" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%C4%90%E1%BB%ABng%20s%E1%BB%AD%20d%E1%BB%A5ng%20%C4%91%E1%BB%99%20t%C6%B0%C6%A1ng%20%C4%91%E1%BB%93ng%20cosine%20m%E1%BB%99t%20c%C3%A1ch%20b%E1%BA%A5t%20c%E1%BA%A9n&subheading=Th%E1%BB%A9%20T%C6%B0%2C%2015%20th%C3%A1ng%201%2C%202025%3A%20T%C3%B3m%20t%E1%BA%AFt%20tin%20t%E1%BB%A9c%20v%E1%BB%81%20hacker" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/vi/2025/01/15</link>
+            <guid isPermaLink="false">2025-01-15T00:00:00.000Z</guid>
+            <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-14]]></title>
             <description
@@ -1120,68 +1205,6 @@
             <link>https://hn.cho.sh/vi/2025/01/06</link>
             <guid isPermaLink="false">2025-01-06T00:00:00.000Z</guid>
             <pubDate>Mon, 06 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2025-01-05]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2025/01/05&#39;</h2>
-<h1>2025-01-05</h1>
-<h2><a href="https://uwaterloo.ca/news/media/no-more-needles-tracking-blood-sugar-your-wrist">Nhà nghiên cứu thiết kế công nghệ đeo có thể cảm nhận mức đường huyết chính xác hơn</a></h2>
-<ul>
-<li>Nhà nghiên cứu tại Đại học Waterloo đã tạo ra một thiết bị đeo sử dụng công nghệ radar để theo dõi mức đường huyết không xâm lấn, loại bỏ nhu cầu sử dụng kim tiêm.</li>
-<li>Thiết bị, do Tiến sĩ George Shaker dẫn đầu, tích hợp một chip radar, một siêu bề mặt để tăng cường độ chính xác của tín hiệu, và các thuật toán AI để đo đường huyết chính xác.</li>
-<li>Hiện tại được cấp nguồn qua USB, thiết bị này hướng tới việc hoạt động bằng pin để cải thiện tính di động và có thể cuối cùng sẽ theo dõi thêm các chỉ số sức khỏe khác, với các nỗ lực đang được tiến hành để thương mại hóa công nghệ này.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42599189">phản ứng</a></h3>
-<ul>
-<li>Các nhà nghiên cứu đã tạo ra công nghệ đeo được để theo dõi glucose không xâm lấn, cung cấp một lựa chọn thay thế cho việc chích ngón tay và các thiết bị theo dõi glucose liên tục (CGMs).</li>
-<li>Đây là công nghệ nhằm cung cấp các chỉ số đường huyết chính xác mà không cần tiếp xúc trực tiếp với dòng máu, điều này có thể có ý nghĩa quan trọng đối với các ứng dụng lâm sàng.</li>
-<li>Trong khi đầy hứa hẹn, có sự hoài nghi về độ chính xác của nó so với các CGM hiện có, và cần thêm dữ liệu và thử nghiệm lâm sàng để xác nhận hiệu quả của nó.</li>
-</ul>
-<h2><a href="https://nmn.gl/blog/ai-senior-developer">Ngày tôi dạy AI đọc mã như một Nhà phát triển cấp cao</a></h2>
-<ul>
-<li>Ban đầu, AI gặp khó khăn trong việc phân tích các mã nguồn React, tiếp cận chúng như một nhà phát triển mới vào nghề. - Bằng cách mô phỏng các chiến lược của các nhà phát triển cao cấp, chẳng hạn như tập trung vào các tệp cốt lõi và nhóm các thay đổi theo tính năng, khả năng phân tích mã của AI đã được cải thiện đáng kể. - Trọng tâm là nâng cao khả năng hiểu mã thay vì tạo mã, với kế hoạch trong tương lai là xác định nợ kỹ thuật và hiểu các quy ước của nhóm.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42601847">phản ứng</a></h3>
-<ul>
-<li>Bài báo khám phá những thách thức trong việc huấn luyện AI để đọc và phân tích mã với sự thành thạo của một nhà phát triển cao cấp, lưu ý đến khó khăn trong việc đạt được kết quả nhất quán và chính xác.</li>
-<li>Điều này nhấn mạnh tầm quan trọng của việc cung cấp ngữ cảnh và cấu trúc đầu vào để nâng cao hiệu suất của AI trong phân tích mã, đồng thời thừa nhận sự hoài nghi về khả năng hiện tại của AI.</li>
-<li>Theo thảo luận, cần có thêm các thí nghiệm và đánh giá để xác nhận hiệu suất của AI và xem xét các tác động rộng hơn cũng như những tiến bộ tiềm năng của AI trong phát triển phần mềm.</li>
-</ul>
-<h2><a href="http://rachelbythebay.com/w/2025/01/04/cruft/">Những phiền toái trên trang web mà tôi không gây ra cho bạn ở đây</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42599102">phản ứng</a></h3>
-<ul>
-<li>Người viết tránh sử dụng các tính năng web nhất định như thanh dính, SSL/TLS bắt buộc, cửa sổ bật lên và theo dõi không cần thiết để nâng cao trải nghiệm người dùng.</li>
-<li>Hiện đang có một cuộc tranh luận về sự cần thiết của HTTPS đối với bảo mật so với các vấn đề tương thích của nó với các trình duyệt cũ hơn.</li>
-<li>Cuộc thảo luận nêu bật thách thức trong việc cân bằng trải nghiệm người dùng với các thực hành web hiện đại.</li>
-</ul>
-<h2><a href="https://tailscale.com/blog/how-nat-traversal-works">Hoạt động của Nat Traversal (2020)</a></h2>
-<ul>
-<li>NAT traversal cho phép kết nối trực tiếp giữa các thiết bị mặc dù có sự hiện diện của Bộ dịch địa chỉ mạng (NAT) và tường lửa, bằng cách sử dụng các giao thức dựa trên UDP và kiểm soát ổ cắm trực tiếp.</li>
-<li>Những kỹ thuật như STUN (Session Traversal Utilities for NAT) giúp phát hiện địa chỉ IP công cộng, trong khi các relay như TURN (Traversal Using Relays around NAT) hoặc DERP của Tailscale được sử dụng cho các NAT khó khăn hơn.</li>
-<li>ICE (Giao thức Thiết lập Kết nối Tương tác) tối ưu hóa các đường kết nối bằng cách đánh giá tất cả các tùy chọn có thể và chọn ra phương án hiệu quả nhất, đảm bảo vượt qua NAT mạnh mẽ với mã hóa và xác thực đầu cuối.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42600846">phản ứng</a></h3>
-<ul>
-<li>Bài báo khám phá việc vượt qua NAT (Network Address Translation), nhấn mạnh sự khác biệt giữa đục lỗ TCP (Transmission Control Protocol) và UDP (User Datagram Protocol), lưu ý rằng TCP có độ phức tạp cao hơn một chút.</li>
-<li>Nó thách thức nhận thức về NAT như một tính năng bảo mật và thảo luận về phương pháp của Tailscale cho việc vượt qua NAT, nêu lên những lo ngại về việc chỉ phụ thuộc vào ACL (Danh sách Kiểm soát Truy cập) phần mềm cho bảo mật.</li>
-<li>Cuộc thảo luận nêu bật tầm quan trọng của các điểm cuối an toàn và phê bình những hạn chế của các chiến lược bảo mật mạng thông thường trong bối cảnh vượt qua NAT.</li>
-</ul>
-<h2><a href="https://amanvir.com/guten">Guten: Máy in báo nhỏ</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42599599">phản ứng</a></h3>
-<ul>
-<li>Guten là một dự án máy in báo quy mô nhỏ được thiết kế để giảm thiểu thời gian sử dụng màn hình bằng cách cung cấp tin tức dưới dạng in. - Các cuộc thảo luận xung quanh dự án bao gồm lo ngại về hàm lượng BPA trong giấy nhiệt và đề xuất sử dụng các lựa chọn không chứa BPA hoặc các công nghệ in khác như máy in va đập hoặc máy in ma trận điểm. - Có sự so sánh với Little Printer đã ngừng sản xuất, với các khuyến nghị để nâng cao tính thân thiện với nhà phát triển và các tùy chọn tùy chỉnh của Guten, cùng với việc xem xét tác động môi trường và sức khỏe của giấy nhiệt.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Nhà nghiên cứu thiết kế công nghệ đeo có thể cảm nhận mức đường huyết chính xác hơn" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Nh%C3%A0%20nghi%C3%AAn%20c%E1%BB%A9u%20thi%E1%BA%BFt%20k%E1%BA%BF%20c%C3%B4ng%20ngh%E1%BB%87%20%C4%91eo%20c%C3%B3%20th%E1%BB%83%20c%E1%BA%A3m%20nh%E1%BA%ADn%20m%E1%BB%A9c%20%C4%91%C6%B0%E1%BB%9Dng%20huy%E1%BA%BFt%20ch%C3%ADnh%20x%C3%A1c%20h%C6%A1n&subheading=Ch%E1%BB%A7%20Nh%E1%BA%ADt%2C%205%20th%C3%A1ng%201%2C%202025%3A%20T%C3%B3m%20t%E1%BA%AFt%20tin%20t%E1%BB%A9c%20v%E1%BB%81%20hacker" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/vi/2025/01/05</link>
-            <guid isPermaLink="false">2025-01-05T00:00:00.000Z</guid>
-            <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

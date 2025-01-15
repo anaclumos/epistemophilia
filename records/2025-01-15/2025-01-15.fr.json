@@ -1,0 +1,154 @@
+[
+  {
+    "id": 42704078,
+    "title": "N'utilisez pas la similarité cosinus sans précaution",
+    "originLink": "https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42704078",
+    "commentBody": "",
+    "originSummary": [
+      "Le calcul de similarité cosinus, une méthode pour comparer des vecteurs, peut être trompeur s'il est utilisé sans comprendre le contexte, car il peut ne pas refléter avec précision les similarités sémantiques. - Les embeddings, tels que ceux de word2vec ou les embeddings de phrases issus des grands modèles de langage (LLMs), nécessitent une utilisation prudente et intentionnelle pour garantir qu'ils reflètent les relations souhaitées. - Pour améliorer les résultats de similarité vectorielle, envisagez d'utiliser directement les LLMs, de créer des embeddings spécifiques à une tâche par le biais d'un ajustement fin, et assurez-vous que le texte est propre et que les invites sont bien conçues avant l'embedding."
+    ],
+    "commentSummary": [
+      "Dans les applications de génération augmentée par récupération (RAG), l'utilisation d'un « re-classeur sémantique » peut améliorer la correspondance des requêtes des utilisateurs lorsqu'on utilise la similarité cosinus. - Évitez de stocker des embeddings vectoriels de contenu vide, car ils peuvent entraîner de fausses correspondances ; certains projets utilisent des encodages spéciaux pour représenter le « néant » afin de prévenir ce problème. - Explorer des alternatives telles que les grands modèles de langage (LLM), les cross-encodeurs, les modèles de re-classement L2 ou les méthodes basées sur des graphes peut fournir des résultats de récupération plus précis que de se fier uniquement à la similarité cosinus."
+    ],
+    "points": 399,
+    "commentCount": 76,
+    "retryCount": 0,
+    "time": 1736889801
+  },
+  {
+    "id": 42707573,
+    "title": "Un tribunal du Nevada met fin à l'utilisation par la police d'une échappatoire fédérale pour la confiscation civile",
+    "originLink": "https://ij.org/press-release/nevada-court-shuts-down-police-use-of-federal-loophole-for-civil-forfeiture/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42707573",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Un tribunal du Nevada a statué contre l'utilisation par la police d'une échappatoire fédérale pour la confiscation civile, où des biens sont saisis sans inculper le propriétaire d'un crime.",
+      "Cette décision souligne le débat sur les lois de confiscation civile, critiquées pour présumer la culpabilité et pouvant potentiellement mener à la corruption.",
+      "Le cas impliquait les économies de toute une vie d'un homme saisies lors d'un contrôle routier, soulignant la nécessité d'une action en justice et d'une attention médiatique pour protéger les droits des citoyens."
+    ],
+    "points": 369,
+    "commentCount": 196,
+    "retryCount": 0,
+    "time": 1736918124
+  },
+  {
+    "id": 42710339,
+    "title": "TikTok se prépare à une coupure aux États-Unis dimanche",
+    "originLink": "https://www.reuters.com/technology/tiktok-preparing-us-shut-off-sunday-information-reports-2025-01-15/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42710339",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "TikTok est confronté à une éventuelle fermeture aux États-Unis, incitant les utilisateurs à explorer des alternatives comme Xiaohongshu, YouTube Shorts et Instagram Reels. - Xiaohongshu, populaire en Chine, n'est pas adapté aux publics occidentaux, ce qui soulève des inquiétudes quant aux interactions directes entre les utilisateurs chinois et américains. - Le gouvernement américain invoque des préoccupations de sécurité nationale, y compris des craintes d'influence étrangère et de propagande, comme raisons pour envisager une interdiction de TikTok."
+    ],
+    "points": 329,
+    "commentCount": 981,
+    "retryCount": 0,
+    "time": 1736945851
+  },
+  {
+    "id": 42708773,
+    "title": "Générez des livres audio à partir de livres électroniques avec Kokoro-82M",
+    "originLink": "https://claudio.uk/posts/epub-to-audiobook.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42708773",
+    "commentBody": "",
+    "originSummary": [
+      "Kokoro v0.19 est un nouveau modèle de synthèse vocale avec 82 millions de paramètres, offrant une sortie audio de haute qualité dans plusieurs langues, y compris l'anglais américain et britannique, le français, le coréen, le japonais et le mandarin.",
+      "Claudio Santini a développé Audiblez, un outil qui convertit les livres électroniques en livres audio en utilisant Kokoro, traitant les fichiers .epub et générant des fichiers audio, avec un temps de conversion d'environ 2 heures pour un livre de 100 000 mots sur un MacBook Pro M2.",
+      "Audiblez nécessite une installation via pip, prend en charge diverses langues et voix, et nécessite ffmpeg pour la création de fichiers .m4b, avec l'outil disponible sur GitHub pour un développement et des améliorations ultérieurs."
+    ],
+    "commentSummary": [
+      "Kokoro-82M est un outil d'IA conçu pour convertir des livres électroniques en livres audio, offrant ainsi une commodité, notamment pour les œuvres non fictionnelles.",
+      "Bien que les livres audio générés par l'IA puissent combler les lacunes là où il n'existe pas de versions narrées par des humains, ils manquent actuellement de la profondeur émotionnelle et du caractère fournis par les narrateurs humains.",
+      "Cet outil suscite un débat sur l'impact de l'IA sur les professions créatives, établissant des parallèles avec les changements technologiques historiques, et soulève des préoccupations concernant la diminution des opportunités de formation et d'expérience dans ces domaines."
+    ],
+    "points": 323,
+    "commentCount": 194,
+    "retryCount": 0,
+    "time": 1736930858
+  },
+  {
+    "id": 42704491,
+    "title": "Des panneaux de signalisation pour aider les gens à limiter l'exposition aux radiations dans les zones contaminées",
+    "originLink": "https://www.theautopian.com/if-you-ever-see-this-speed-sign-youre-probably-going-to-die/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42704491",
+    "commentBody": "",
+    "originSummary": [
+      "Le Manuel sur les dispositifs de contrôle de la circulation uniformes (MUTCD) contient des panneaux de l'ère de la guerre froide, tels que « MAINTENEZ LA VITESSE MAXIMALE SÉCURITAIRE », destinés aux zones de contamination radiologique.",
+      "Ces panneaux faisaient partie des stratégies de défense civile pour protéger les citoyens lors d'une éventuelle apocalypse nucléaire, bien qu'ils n'aient jamais été utilisés.",
+      "Certains de ces panneaux sont encore inclus dans le MUTCD en tant que panneaux de gestion des urgences, soulignant les peurs historiques et les efforts de préparation de cette période."
+    ],
+    "commentSummary": [
+      "Les autorités envisagent des panneaux de signalisation pour conseiller un passage à grande vitesse à travers les zones contaminées afin de réduire l'exposition aux radiations en minimisant le temps passé dans ces zones. - La discussion établit des parallèles avec Tchernobyl et Fukushima, soulignant les préoccupations concernant l'inhalation et la contamination par la poussière radioactive. - Des enjeux géopolitiques plus larges, y compris le nationalisme et la dissuasion nucléaire, font également partie de la conversation, reflétant les tensions mondiales historiques et actuelles."
+    ],
+    "points": 261,
+    "commentCount": 185,
+    "retryCount": 0,
+    "time": 1736891952
+  },
+  {
+    "id": 42711781,
+    "title": "WTF s'est-il passé en 1971 ? (2019)",
+    "originLink": "https://wtfhappenedin1971.com/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42711781",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Le site web « WTF Happened in 1971? » examine les changements économiques et sociétaux significatifs qui ont commencé en 1971, souvent liés à la fin de l'étalon-or.",
+      "« La discussion inclut des points de vue divers sur les causes de ces changements, tels que l'augmentation des rémunérations des dirigeants, la crise pétrolière et les changements dans les politiques économiques. »",
+      "Le débat prend également en compte les effets du choc Nixon, le rôle du crédit et de la monnaie fiduciaire, ainsi que des facteurs plus larges tels que l'urbanisation et les prix de l'énergie."
+    ],
+    "points": 238,
+    "commentCount": 188,
+    "retryCount": 0,
+    "time": 1736954220
+  },
+  {
+    "id": 42703282,
+    "title": "Comment rqlite est testé",
+    "originLink": "https://philipotoole.com/how-is-rqlite-tested/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42703282",
+    "commentBody": "",
+    "originSummary": [
+      "rqlite est une base de données distribuée légère qui combine SQLite et Raft, en se concentrant sur la fiabilité et la qualité grâce à une stratégie de test structurée. - La stratégie de test suit la pyramide des tests, mettant l'accent sur les tests unitaires pour les composants isolés, les tests d'intégration pour la validation au niveau du système, et des tests de bout en bout minimaux pour les vérifications de fonctionnement de base. - Les leçons clés de l'approche de test de rqlite incluent le démarrage précoce des tests, la simplification du code de test, et l'assurance du déterminisme, ce qui aide à maintenir une haute qualité avec un minimum de surcharge."
+    ],
+    "commentSummary": [
+      "Les discussions portent sur les stratégies de test pour rqlite, une base de données distribuée basée sur SQLite, en mettant l'accent sur les tests initiaux, la pyramide des tests, ainsi que sur les tests paramétrés et de propriété.",
+      "Les défis liés aux tests de bout en bout (E2E) dans les systèmes complexes sont mis en évidence, ainsi que le choix du langage de programmation Go pour rqlite et les préoccupations en matière de sécurité.",
+      "Les tests de simulation déterministe sont mentionnés comme une norme élevée pour la fiabilité des bases de données, avec des références à d'autres bases de données comme FoundationDB, mettant en avant des perspectives diverses sur les pratiques de test efficaces."
+    ],
+    "points": 229,
+    "commentCount": 44,
+    "retryCount": 0,
+    "time": 1736886107
+  },
+  {
+    "id": 42705077,
+    "title": "Réécrire mon site web en HTML et CSS simples",
+    "originLink": "https://www.vijayp.dev/blog/rewrite-plain-html/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42705077",
+    "commentBody": "",
+    "originSummary": [
+      "Le créateur a reconstruit son site web en utilisant du HTML et CSS simples, s'éloignant de SvelteKit, pour simplifier le site et l'héberger sur Cloudflare Pages. - Ils ont utilisé Pandoc pour convertir le Markdown en HTML et Python pour le scripting, ce qui a abouti à un site web plus petit, réduisant la taille des ressources de ~356kb à ~88kb. - Le projet a mis en évidence des défis tels que la duplication de code et l'absence de rechargement en direct, avec des plans pour explorer les composants web et FastAPI pour résoudre ces problèmes, pouvant potentiellement servir de modèle pour d'autres cherchant un site web sans framework avec des publications en Markdown."
+    ],
+    "commentSummary": [
+      "L'auteur maintient un site web personnel en utilisant du HTML et du CSS simples, appréciant l'engagement de temps minimal et l'affûtage des compétences que cela procure.",
+      "Le site web est hébergé sur GitHub Pages, et le contenu est rédigé dans MS Word avant d'être mis à jour manuellement.",
+      "Malgré les suggestions d'utiliser des inclusions côté serveur ou des générateurs de sites statiques comme Jekyll ou Hugo, l'auteur apprécie le contrôle et la simplicité de leur méthode actuelle."
+    ],
+    "points": 180,
+    "commentCount": 167,
+    "retryCount": 0,
+    "time": 1736895439
+  }
+]

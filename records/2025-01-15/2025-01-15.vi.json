@@ -1,0 +1,154 @@
+[
+  {
+    "id": 42704078,
+    "title": "Đừng sử dụng độ tương đồng cosine một cách bất cẩn",
+    "originLink": "https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42704078",
+    "commentBody": "",
+    "originSummary": [
+      "Độ tương đồng cosine, một phương pháp so sánh các vector, có thể gây hiểu lầm nếu sử dụng mà không hiểu rõ ngữ cảnh, vì nó có thể không phản ánh chính xác các tương đồng ngữ nghĩa. - Các embedding, chẳng hạn như từ word2vec hoặc embedding câu từ các Mô hình Ngôn ngữ Lớn (LLMs), đòi hỏi phải sử dụng cẩn thận và có chủ đích để đảm bảo chúng phản ánh các mối quan hệ mong muốn. - Để cải thiện kết quả độ tương đồng vector, hãy cân nhắc sử dụng trực tiếp LLMs, tạo các embedding đặc thù cho nhiệm vụ thông qua tinh chỉnh, và đảm bảo văn bản được làm sạch và các prompt được thiết kế tốt trước khi embedding."
+    ],
+    "commentSummary": [
+      "Trong các ứng dụng Tạo sinh Tăng cường Truy xuất (RAG), việc sử dụng \"bộ xếp hạng lại ngữ nghĩa\" có thể cải thiện việc khớp các truy vấn của người dùng khi sử dụng độ tương đồng cosine. - Tránh lưu trữ các nhúng vector của nội dung trống, vì chúng có thể dẫn đến các khớp sai; một số dự án sử dụng mã hóa đặc biệt để biểu diễn \"sự trống rỗng\" nhằm ngăn chặn vấn đề này. - Khám phá các lựa chọn thay thế như Mô hình Ngôn ngữ Lớn (LLM), bộ mã hóa chéo, mô hình xếp hạng lại L2, hoặc các phương pháp dựa trên đồ thị có thể cung cấp kết quả truy xuất chính xác hơn so với chỉ dựa vào độ tương đồng cosine."
+    ],
+    "points": 399,
+    "commentCount": 76,
+    "retryCount": 0,
+    "time": 1736889801
+  },
+  {
+    "id": 42707573,
+    "title": "Toà án Nevada ngăn chặn việc cảnh sát sử dụng lỗ hổng liên bang cho tịch thu dân sự",
+    "originLink": "https://ij.org/press-release/nevada-court-shuts-down-police-use-of-federal-loophole-for-civil-forfeiture/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42707573",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Một tòa án ở Nevada đã ra phán quyết chống lại việc cảnh sát sử dụng lỗ hổng liên bang cho việc tịch thu dân sự, nơi tài sản bị tịch thu mà không buộc tội chủ sở hữu với một tội phạm.",
+      "Quyết định này nhấn mạnh cuộc tranh luận về các luật tịch thu dân sự, bị chỉ trích vì giả định tội lỗi và có thể dẫn đến tham nhũng.",
+      "Vụ việc liên quan đến số tiền tiết kiệm cả đời của một người đàn ông bị tịch thu trong một lần dừng xe, nhấn mạnh sự cần thiết của hành động pháp lý và sự chú ý của truyền thông để bảo vệ quyền lợi của công dân."
+    ],
+    "points": 369,
+    "commentCount": 196,
+    "retryCount": 0,
+    "time": 1736918124
+  },
+  {
+    "id": 42710339,
+    "title": "TikTok chuẩn bị cho việc ngừng hoạt động tại Mỹ vào Chủ nhật",
+    "originLink": "https://www.reuters.com/technology/tiktok-preparing-us-shut-off-sunday-information-reports-2025-01-15/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42710339",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "TikTok đang đối mặt với khả năng bị đóng cửa tại Mỹ, khiến người dùng tìm kiếm các lựa chọn thay thế như Xiaohongshu, YouTube Shorts và Instagram Reels. - Xiaohongshu, phổ biến ở Trung Quốc, không được thiết kế cho khán giả phương Tây, làm dấy lên lo ngại về các tương tác trực tiếp giữa người dùng Trung Quốc và Mỹ. - Chính phủ Mỹ viện dẫn các mối lo ngại về an ninh quốc gia, bao gồm lo ngại về ảnh hưởng và tuyên truyền từ nước ngoài, là lý do để xem xét lệnh cấm TikTok."
+    ],
+    "points": 329,
+    "commentCount": 981,
+    "retryCount": 0,
+    "time": 1736945851
+  },
+  {
+    "id": 42708773,
+    "title": "Chuyển đổi sách điện tử thành sách nói với Kokoro-82M",
+    "originLink": "https://claudio.uk/posts/epub-to-audiobook.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42708773",
+    "commentBody": "",
+    "originSummary": [
+      "Kokoro v0.19 là một mô hình chuyển văn bản thành giọng nói mới với 82 triệu tham số, cung cấp đầu ra âm thanh chất lượng cao bằng nhiều ngôn ngữ, bao gồm tiếng Anh Mỹ và Anh, tiếng Pháp, tiếng Hàn, tiếng Nhật và tiếng Quan Thoại.",
+      "Claudio Santini đã phát triển Audiblez, một công cụ chuyển đổi sách điện tử thành sách nói bằng cách sử dụng Kokoro, xử lý các tệp .epub và tạo ra các tệp âm thanh, với thời gian chuyển đổi khoảng 2 giờ cho một cuốn sách 100.000 từ trên một chiếc MacBook Pro M2.",
+      "Audiblez yêu cầu cài đặt qua pip, hỗ trợ nhiều ngôn ngữ và giọng nói, và cần ffmpeg để tạo tệp .m4b, với công cụ có sẵn trên GitHub để phát triển và cải tiến thêm."
+    ],
+    "commentSummary": [
+      "Kokoro-82M là một công cụ AI được thiết kế để chuyển đổi sách điện tử thành sách nói, mang lại sự tiện lợi, đặc biệt là cho các tác phẩm phi hư cấu.",
+      "Trong khi sách nói do AI tạo ra có thể lấp đầy những khoảng trống nơi không có phiên bản do con người kể chuyện, chúng hiện tại thiếu chiều sâu cảm xúc và tính cách mà người kể chuyện con người mang lại.",
+      "Đây là công cụ gây ra cuộc tranh luận về tác động của AI đối với các ngành nghề sáng tạo, so sánh với những thay đổi công nghệ trong lịch sử, và dấy lên lo ngại về việc giảm cơ hội đào tạo và kinh nghiệm trong các lĩnh vực này."
+    ],
+    "points": 323,
+    "commentCount": 194,
+    "retryCount": 0,
+    "time": 1736930858
+  },
+  {
+    "id": 42704491,
+    "title": "Biển báo đường để giúp mọi người hạn chế tiếp xúc với bức xạ trong các khu vực bị ô nhiễm",
+    "originLink": "https://www.theautopian.com/if-you-ever-see-this-speed-sign-youre-probably-going-to-die/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42704491",
+    "commentBody": "",
+    "originSummary": [
+      "Cuốn Sổ tay về Thiết bị Kiểm soát Giao thông Đồng nhất (MUTCD) chứa các biển báo từ thời Chiến tranh Lạnh, chẳng hạn như \"DUY TRÌ TỐC ĐỘ AN TOÀN TỐI ĐA,\" được sử dụng cho các khu vực nhiễm xạ.",
+      "Những biển báo này là một phần của chiến lược Phòng vệ Dân sự nhằm bảo vệ công dân trong trường hợp xảy ra tận thế hạt nhân tiềm tàng, mặc dù chúng chưa bao giờ được sử dụng.",
+      "Một số trong những biển báo này vẫn được bao gồm trong MUTCD như là biển báo Quản lý Khẩn cấp, nhấn mạnh những nỗi sợ hãi lịch sử và các nỗ lực chuẩn bị từ thời kỳ đó."
+    ],
+    "commentSummary": [
+      "Chính quyền đang xem xét các biển báo đường để khuyến cáo di chuyển tốc độ cao qua các khu vực bị ô nhiễm nhằm giảm thiểu phơi nhiễm phóng xạ bằng cách giảm thời gian ở lại trong những khu vực này. - Cuộc thảo luận này gợi nhớ đến Chernobyl và Fukushima, nhấn mạnh mối lo ngại về việc hít phải và ô nhiễm từ bụi phóng xạ. - Các vấn đề địa chính trị rộng lớn hơn, bao gồm chủ nghĩa dân tộc và sự răn đe hạt nhân, cũng là một phần của cuộc trò chuyện, phản ánh những căng thẳng toàn cầu trong quá khứ và hiện tại."
+    ],
+    "points": 261,
+    "commentCount": 185,
+    "retryCount": 0,
+    "time": 1736891952
+  },
+  {
+    "id": 42711781,
+    "title": "WTF Đã Xảy Ra Năm 1971? (2019)",
+    "originLink": "https://wtfhappenedin1971.com/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42711781",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Trang web \"WTF Happened in 1971?\" xem xét những thay đổi kinh tế và xã hội quan trọng bắt đầu từ năm 1971, thường được liên kết với việc chấm dứt tiêu chuẩn vàng.",
+      "Bài thảo luận bao gồm các quan điểm đa dạng về nguyên nhân của những thay đổi này, chẳng hạn như việc tăng lương cho giám đốc điều hành, khủng hoảng dầu mỏ, và những thay đổi trong chính sách kinh tế.",
+      "Cuộc tranh luận cũng xem xét các tác động của cú sốc Nixon, vai trò của tín dụng và tiền tệ pháp định, và các yếu tố rộng hơn như đô thị hóa và giá năng lượng."
+    ],
+    "points": 238,
+    "commentCount": 188,
+    "retryCount": 0,
+    "time": 1736954220
+  },
+  {
+    "id": 42703282,
+    "title": "Rqlite được kiểm tra như thế nào",
+    "originLink": "https://philipotoole.com/how-is-rqlite-tested/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42703282",
+    "commentBody": "",
+    "originSummary": [
+      "rqlite là một cơ sở dữ liệu phân tán nhẹ kết hợp SQLite và Raft, tập trung vào độ tin cậy và chất lượng thông qua một chiến lược kiểm thử có cấu trúc. - Chiến lược kiểm thử tuân theo kim tự tháp kiểm thử, nhấn mạnh các bài kiểm thử đơn vị cho các thành phần độc lập, kiểm thử tích hợp để xác nhận cấp hệ thống, và kiểm thử đầu-cuối tối thiểu để kiểm tra hoạt động cơ bản. - Những bài học quan trọng từ cách tiếp cận kiểm thử của rqlite bao gồm bắt đầu kiểm thử sớm, đơn giản hóa mã kiểm thử, và đảm bảo tính quyết định, điều này giúp duy trì chất lượng cao với chi phí tối thiểu."
+    ],
+    "commentSummary": [
+      "Bài thảo luận tập trung vào các chiến lược kiểm thử cho rqlite, một cơ sở dữ liệu phân tán dựa trên SQLite, nhấn mạnh các bài kiểm thử ban đầu, kim tự tháp kiểm thử, và các bài kiểm thử tham số hóa và thuộc tính.",
+      "Những thách thức với kiểm thử đầu-cuối (E2E) trong các hệ thống phức tạp được nêu bật, cùng với việc lựa chọn ngôn ngữ lập trình Go cho rqlite và các mối quan ngại về bảo mật.",
+      "Kiểm thử mô phỏng quyết định được đề cập như một tiêu chuẩn cao cho độ tin cậy của cơ sở dữ liệu, với các tham chiếu đến các cơ sở dữ liệu khác như FoundationDB, thể hiện các quan điểm đa dạng về các thực hành kiểm thử hiệu quả."
+    ],
+    "points": 229,
+    "commentCount": 44,
+    "retryCount": 0,
+    "time": 1736886107
+  },
+  {
+    "id": 42705077,
+    "title": "Viết lại trang web của tôi bằng HTML và CSS thuần túy",
+    "originLink": "https://www.vijayp.dev/blog/rewrite-plain-html/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42705077",
+    "commentBody": "",
+    "originSummary": [
+      "Theo tác giả, họ đã xây dựng lại trang web của mình bằng cách sử dụng HTML và CSS thuần túy, chuyển từ SvelteKit, để đơn giản hóa trang web và lưu trữ nó trên Cloudflare Pages. - Họ đã sử dụng Pandoc để chuyển đổi Markdown sang HTML và Python để viết kịch bản, kết quả là một trang web nhỏ hơn, giảm kích thước tài sản từ khoảng 356kb xuống còn khoảng 88kb. - Dự án đã nêu bật những thách thức như trùng lặp mã và thiếu tính năng tải lại trực tiếp, với kế hoạch khám phá các thành phần web và FastAPI để giải quyết những vấn đề này, có thể đóng vai trò như một mẫu cho những người khác đang tìm kiếm một trang web không có khung với các bài đăng Markdown."
+    ],
+    "commentSummary": [
+      "Người tác giả duy trì một trang web cá nhân sử dụng HTML và CSS đơn giản, đánh giá cao sự cam kết thời gian tối thiểu và việc rèn luyện kỹ năng mà nó mang lại.",
+      "Trang web được lưu trữ trên GitHub Pages, và nội dung được soạn thảo trong MS Word trước khi được cập nhật thủ công.",
+      "Mặc dù có những gợi ý sử dụng các bao gồm phía máy chủ hoặc các trình tạo trang tĩnh như Jekyll hoặc Hugo, tác giả đánh giá cao sự kiểm soát và đơn giản của phương pháp hiện tại của họ."
+    ],
+    "points": 180,
+    "commentCount": 167,
+    "retryCount": 0,
+    "time": 1736895439
+  }
+]

@@ -15,12 +15,97 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Jan 2025 19:14:17 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Jan 2025 19:10:12 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/en.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Tue, 14 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-15]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/15&#39;</h2>
+<h1>2025-01-15</h1>
+<h2><a href="https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity/">Don&#39;t use cosine similarity carelessly</a></h2>
+<ul>
+<li>Cosine similarity, a method for comparing vectors, can be misleading if used without understanding the context, as it may not accurately capture semantic similarities. - Embeddings, such as those from word2vec or sentence embeddings from Large Language Models (LLMs), require careful and intentional use to ensure they reflect the desired relationships. - To improve vector similarity results, consider using LLMs directly, creating task-specific embeddings through fine-tuning, and ensuring text is clean and prompts are well-engineered before embedding.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42704078">Reactions</a></h3>
+<ul>
+<li>In Retrieval-Augmented Generation (RAG) applications, using a &quot;semantic re-ranker&quot; can enhance the matching of user queries when employing cosine similarity. - Avoid storing vector embeddings of empty content, as they can lead to false matches; some projects use special encodings to represent &quot;nothingness&quot; to prevent this issue. - Exploring alternatives such as Large Language Models (LLMs), cross-encoders, L2 re-ranking models, or graph-based methods can provide more accurate retrieval results than relying solely on cosine similarity.</li>
+</ul>
+<h2><a href="https://ij.org/press-release/nevada-court-shuts-down-police-use-of-federal-loophole-for-civil-forfeiture/">Nevada Court Shuts Down Police Use of Federal Loophole for Civil Forfeiture</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42707573">Reactions</a></h3>
+<ul>
+<li>A Nevada court has ruled against police using a federal loophole for civil forfeiture, where assets are seized without charging the owner with a crime.</li>
+<li>This decision underscores the debate over civil forfeiture laws, criticized for assuming guilt and potentially leading to corruption.</li>
+<li>The case involved a man&#39;s life savings seized during a traffic stop, highlighting the need for legal action and media attention to protect citizens&#39; rights.</li>
+</ul>
+<h2><a href="https://www.reuters.com/technology/tiktok-preparing-us-shut-off-sunday-information-reports-2025-01-15/">TikTok preparing for U.S. shut-off on Sunday</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42710339">Reactions</a></h3>
+<ul>
+<li>TikTok is facing a potential shutdown in the U.S., prompting users to explore alternatives like Xiaohongshu, YouTube Shorts, and Instagram Reels. - Xiaohongshu, popular in China, is not tailored for Western audiences, raising concerns about direct interactions between Chinese and U.S. users. - The U.S. government cites national security concerns, including fears of foreign influence and propaganda, as reasons for considering a TikTok ban.</li>
+</ul>
+<h2><a href="https://claudio.uk/posts/epub-to-audiobook.html">Generate audiobooks from E-books with Kokoro-82M</a></h2>
+<ul>
+<li>Kokoro v0.19 is a new text-to-speech model with 82 million parameters, providing high-quality audio output in multiple languages, including American and British English, French, Korean, Japanese, and Mandarin.</li>
+<li>Claudio Santini developed Audiblez, a tool that converts e-books into audiobooks using Kokoro, processing .epub files and generating audio files, with a conversion time of about 2 hours for a 100,000-word book on an M2 MacBook Pro.</li>
+<li>Audiblez requires installation via pip, supports various languages and voices, and needs ffmpeg for .m4b file creation, with the tool available on GitHub for further development and improvements.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42708773">Reactions</a></h3>
+<ul>
+<li>Kokoro-82M is an AI tool designed to convert e-books into audiobooks, offering convenience, particularly for non-fiction works.</li>
+<li>While AI-generated audiobooks can fill gaps where no human-narrated versions exist, they currently lack the emotional depth and character provided by human narrators.</li>
+<li>The tool sparks debate on AI&#39;s impact on creative professions, drawing parallels to historical technological shifts, and raises concerns about diminishing opportunities for training and experience in these fields.</li>
+</ul>
+<h2><a href="https://www.theautopian.com/if-you-ever-see-this-speed-sign-youre-probably-going-to-die/">Road signs to help people limit radiation exposure in contaminated areas</a></h2>
+<ul>
+<li>The Manual on Uniform Traffic Control Devices (MUTCD) contains Cold War-era signs, such as &quot;MAINTAIN TOP SAFE SPEED,&quot; intended for radiological contamination zones.</li>
+<li>These signs were part of Civil Defense strategies to safeguard citizens during a potential nuclear apocalypse, though they were never utilized.</li>
+<li>Some of these signs are still included in the MUTCD as Emergency Management signs, highlighting historical fears and preparedness efforts from that period.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42704491">Reactions</a></h3>
+<ul>
+<li>Authorities are considering road signs to advise high-speed travel through contaminated areas to reduce radiation exposure by minimizing time spent in these zones. - The discussion draws parallels to Chernobyl and Fukushima, emphasizing concerns about inhalation and contamination from radioactive dust. - Broader geopolitical issues, including nationalism and nuclear deterrence, are also part of the conversation, reflecting on historical and current global tensions.</li>
+</ul>
+<h2><a href="https://wtfhappenedin1971.com/">WTF Happened in 1971? (2019)</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42711781">Reactions</a></h3>
+<ul>
+<li>The website &quot;WTF Happened in 1971?&quot; examines significant economic and societal changes beginning in 1971, often linked to the end of the gold standard.</li>
+<li>The discussion includes diverse viewpoints on the causes of these changes, such as increased executive compensation, the oil crisis, and changes in economic policies.</li>
+<li>The debate also considers the effects of the Nixon Shock, the role of credit and fiat currency, and broader factors like urbanization and energy prices.</li>
+</ul>
+<h2><a href="https://philipotoole.com/how-is-rqlite-tested/">How rqlite is tested</a></h2>
+<ul>
+<li>rqlite is a lightweight distributed database that combines SQLite and Raft, focusing on reliability and quality through a structured testing strategy. - The testing strategy follows the testing pyramid, emphasizing unit tests for isolated components, integration tests for system-level validation, and minimal end-to-end tests for basic operation checks. - Key lessons from rqlite&#39;s testing approach include starting testing early, simplifying test code, and ensuring determinism, which helps maintain high quality with minimal overhead.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42703282">Reactions</a></h3>
+<ul>
+<li>The discussion focuses on testing strategies for rqlite, a distributed database based on SQLite, emphasizing initial tests, the testing pyramid, and parametrized and property tests.</li>
+<li>Challenges with end-to-end (E2E) testing in complex systems are highlighted, along with the choice of the Go programming language for rqlite and security concerns.</li>
+<li>Deterministic simulation testing is mentioned as a high standard for database reliability, with references to other databases like FoundationDB, showcasing diverse perspectives on effective testing practices.</li>
+</ul>
+<h2><a href="https://www.vijayp.dev/blog/rewrite-plain-html/">Rewriting my website in plain HTML and CSS</a></h2>
+<ul>
+<li>The author rebuilt their website using plain HTML and CSS, moving away from SvelteKit, to simplify the site and host it on Cloudflare Pages. - They used Pandoc for converting Markdown to HTML and Python for scripting, resulting in a smaller website, reducing asset size from ~356kb to ~88kb. - The project highlighted challenges such as code duplication and lack of live reloading, with plans to explore web components and FastAPI to address these issues, potentially serving as a template for others seeking a framework-free website with Markdown posts.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42705077">Reactions</a></h3>
+<ul>
+<li>The author maintains a personal website using plain HTML and CSS, appreciating the minimal time commitment and skill sharpening it provides.</li>
+<li>The website is hosted on GitHub Pages, and content is drafted in MS Word before being manually updated.</li>
+<li>Despite suggestions to use server-side includes or static site generators like Jekyll or Hugo, the author values the control and simplicity of their current method.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Don't use cosine similarity carelessly" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Don't%20use%20cosine%20similarity%20carelessly&subheading=Wednesday%2C%20January%2015%2C%202025%3A%20Hacker%20News%20Summary" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/2025/01/15</link>
+            <guid isPermaLink="false">2025-01-15T00:00:00.000Z</guid>
+            <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-14]]></title>
             <description
@@ -1120,68 +1205,6 @@
             <link>https://hn.cho.sh/2025/01/06</link>
             <guid isPermaLink="false">2025-01-06T00:00:00.000Z</guid>
             <pubDate>Mon, 06 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2025-01-05]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2025/01/05&#39;</h2>
-<h1>2025-01-05</h1>
-<h2><a href="https://uwaterloo.ca/news/media/no-more-needles-tracking-blood-sugar-your-wrist">Researchers design wearable tech that can sense glucose levels more accurately</a></h2>
-<ul>
-<li>Researchers at the University of Waterloo have created a wearable device that uses radar technology to monitor glucose levels non-invasively, removing the need for needles.</li>
-<li>The device, led by Dr. George Shaker, incorporates a radar chip, a meta-surface for enhanced signal accuracy, and AI algorithms for precise glucose readings.</li>
-<li>Currently USB-powered, the device aims to become battery-operated for improved portability and may eventually monitor additional health metrics, with efforts underway to commercialize the technology.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42599189">Reactions</a></h3>
-<ul>
-<li>Researchers have created wearable technology for non-invasive glucose monitoring, offering an alternative to finger pricking and Continuous Glucose Monitors (CGMs).</li>
-<li>The technology aims to provide accurate glucose readings without direct contact with the bloodstream, which could be significant for clinical applications.</li>
-<li>While promising, there is skepticism about its accuracy compared to existing CGMs, and further data and clinical trials are needed to confirm its effectiveness.</li>
-</ul>
-<h2><a href="https://nmn.gl/blog/ai-senior-developer">The day I taught AI to read code like a Senior Developer</a></h2>
-<ul>
-<li>The AI was initially challenged with analyzing React codebases, approaching them like a novice developer. - By emulating senior developers&#39; strategies, such as focusing on core files and grouping changes by feature, the AI&#39;s code analysis improved significantly. - The focus is on enhancing code understanding rather than generation, with future plans to identify technical debt and comprehend team conventions.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42601847">Reactions</a></h3>
-<ul>
-<li>The article explores the challenges of training AI to read and analyze code with the proficiency of a senior developer, noting the difficulty in achieving consistent and accurate results.</li>
-<li>It stresses the importance of providing context and structuring inputs to enhance AI performance in code analysis, while acknowledging skepticism about AI&#39;s current capabilities.</li>
-<li>The discussion highlights the need for further experimentation and evaluation to validate AI&#39;s performance and considers the broader implications and potential advancements of AI in software development.</li>
-</ul>
-<h2><a href="http://rachelbythebay.com/w/2025/01/04/cruft/">Web page annoyances that I don&#39;t inflict on you here</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42599102">Reactions</a></h3>
-<ul>
-<li>The author avoids using certain web features like sticky bars, forced SSL/TLS, pop-ups, and unnecessary tracking to enhance user experience.</li>
-<li>There is an ongoing debate about the necessity of HTTPS for security versus its compatibility issues with older browsers.</li>
-<li>The discussion highlights the challenge of balancing user experience with modern web practices.</li>
-</ul>
-<h2><a href="https://tailscale.com/blog/how-nat-traversal-works">How Nat Traversal Works (2020)</a></h2>
-<ul>
-<li>NAT traversal enables direct device connections despite the presence of Network Address Translators (NATs) and firewalls, using UDP-based protocols and direct socket control.</li>
-<li>Techniques such as STUN (Session Traversal Utilities for NAT) help in discovering public IP addresses, while relays like TURN (Traversal Using Relays around NAT) or Tailscale&#39;s DERP are used for more challenging NATs.</li>
-<li>The ICE (Interactive Connectivity Establishment) protocol optimizes connection paths by evaluating all possible options and selecting the most efficient one, ensuring robust NAT traversal with end-to-end encryption and authentication.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42600846">Reactions</a></h3>
-<ul>
-<li>The article explores NAT (Network Address Translation) traversal, emphasizing the differences between TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) hole punching, noting TCP&#39;s slightly higher complexity.</li>
-<li>It challenges the perception of NAT as a security feature and discusses Tailscale&#39;s method for NAT traversal, raising concerns about depending solely on software ACLs (Access Control Lists) for security.</li>
-<li>The discussion highlights the importance of secure endpoints and critiques the limitations of conventional network security strategies in the context of NAT traversal.</li>
-</ul>
-<h2><a href="https://amanvir.com/guten">Guten: A Tiny Newspaper Printer</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42599599">Reactions</a></h3>
-<ul>
-<li>Guten is a small-scale newspaper printer project designed to minimize screen time by delivering news in printed form. - Discussions around the project include concerns about the BPA content in thermal paper and suggestions for using BPA-free alternatives or different printing technologies like impact or dot-matrix printers. - Comparisons are made to the discontinued Little Printer, with recommendations for enhancing Guten&#39;s developer-friendliness and customization options, alongside considerations of environmental and health impacts of thermal paper.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Researchers design wearable tech that can sense glucose levels more accurately" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Researchers%20design%20wearable%20tech%20that%20can%20sense%20glucose%20levels%20more%20accurately&subheading=Sunday%2C%20January%205%2C%202025%3A%20Hacker%20News%20Summary" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/2025/01/05</link>
-            <guid isPermaLink="false">2025-01-05T00:00:00.000Z</guid>
-            <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

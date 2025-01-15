@@ -15,12 +15,97 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Jan 2025 19:14:17 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Jan 2025 19:10:12 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/zh-Hant.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Tue, 14 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-15]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/15&#39;</h2>
+<h1>2025-01-15</h1>
+<h2><a href="https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity/">不要隨意使用餘弦相似度</a></h2>
+<ul>
+<li>餘弦相似度是一種用於比較向量的方法，但如果在不了解上下文的情況下使用，可能會產生誤導，因為它可能無法準確捕捉語義上的相似性。- 嵌入技術，例如 word2vec 或大型語言模型(LLMs)的句子嵌入，需要謹慎和有意識地使用，以確保它們反映出所需的關係。- 為了改善向量相似度的結果，可以考慮直接使用 LLMs，通過微調創建特定任務的嵌入，並確保文本在嵌入前是乾淨的且提示設計良好。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42704078">評論</a></h3>
+<ul>
+<li>「在檢索增強生成(RAG)應用中，使用“語義重排序器”可以在使用餘弦相似度時增強用戶查詢的匹配。- 避免存儲空內容的向量嵌入，因為它們可能導致錯誤匹配；一些專案使用特殊編碼來表示“空無”以防止此問題。- 探索大型語言模型(LLM)、交叉編碼器、L2 重排序模型或基於圖形的方法等替代方案，可以比僅依賴餘弦相似度提供更準確的檢索結果。」</li>
+</ul>
+<h2><a href="https://ij.org/press-release/nevada-court-shuts-down-police-use-of-federal-loophole-for-civil-forfeiture/">內華達州法院關閉警方利用聯邦漏洞進行民事沒收的行為</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42707573">評論</a></h3>
+<ul>
+<li>內華達州法院裁定反對警方利用聯邦漏洞進行民事沒收，該漏洞允許在未指控所有者犯罪的情況下沒收資產。</li>
+<li>這項決定強調了對於民事沒收法的爭論，該法因假定有罪並可能導致腐敗而受到批評。</li>
+<li>此案件涉及一名男子在交通攔檢時被扣押的畢生積蓄，強調了採取法律行動和媒體關注以保護公民權利的必要性。</li>
+</ul>
+<h2><a href="https://www.reuters.com/technology/tiktok-preparing-us-shut-off-sunday-information-reports-2025-01-15/">TikTok 準備於週日關閉美國服務</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42710339">評論</a></h3>
+<ul>
+<li>抖音在美國面臨潛在的關閉，促使用戶探索小紅書、YouTube Shorts 和 Instagram Reels 等替代方案。- 小紅書在中國很受歡迎，但並未針對西方觀眾進行調整，這引發了中美用戶之間直接互動的擔憂。- 美國政府以國家安全問題為由，包括對外國影響力和宣傳的擔憂，考慮禁止抖音。</li>
+</ul>
+<h2><a href="https://claudio.uk/posts/epub-to-audiobook.html">「使用 Kokoro-82M 從電子書生成有聲書」</a></h2>
+<ul>
+<li>Kokoro v0.19 是一款新的文字轉語音模型，擁有 8200 萬個參數，能夠提供多語言的高品質音頻輸出，包括美式和英式英語、法語、韓語、日語和中文普通話。</li>
+<li>「Claudio Santini 開發了 Audiblez，一個將電子書轉換為有聲書的工具，使用 Kokoro 處理 .epub 檔案並生成音訊檔案，在 M2 MacBook Pro 上轉換一本 100,000 字的書約需 2 小時。」</li>
+<li>Audiblez 需要透過 pip 安裝，支援多種語言和語音，並需要 ffmpeg 來創建 .m4b 檔案，該工具可在 GitHub 上獲取以進行進一步的開發和改進。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42708773">評論</a></h3>
+<ul>
+<li>Kokoro-82M 是一款 AI 工具，專為將電子書轉換為有聲書而設計，特別適合非小說類作品，提供了便利性。</li>
+<li>雖然 AI 生成的有聲書可以填補沒有真人旁白版本的空缺，但它們目前缺乏由真人旁白所提供的情感深度和角色特質。</li>
+<li>這項工具引發了關於人工智慧對創意職業影響的辯論，並將其與歷史上的技術變革相提並論，同時也引起了對這些領域中培訓和經驗機會減少的擔憂。</li>
+</ul>
+<h2><a href="https://www.theautopian.com/if-you-ever-see-this-speed-sign-youre-probably-going-to-die/">路標幫助人們在受污染地區限制輻射暴露</a></h2>
+<ul>
+<li>《統一交通控制裝置手冊》(MUTCD)包含冷戰時期的標誌，例如「保持最高安全速度」，這些標誌是為輻射污染區域設計的。</li>
+<li>這些標誌是民防策略的一部分，旨在於潛在的核災難中保護市民，儘管它們從未被使用過。</li>
+<li>其中一些標誌仍然被納入《聯邦公路管理局交通控制裝置手冊》(MUTCD)中，作為緊急管理標誌，突顯了那個時期的歷史恐懼和準備工作。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42704491">評論</a></h3>
+<ul>
+<li>當局正在考慮設置路標，以建議在受污染地區高速行駛，藉此透過縮短在這些區域停留的時間來減少輻射暴露。這項討論與切爾諾貝利和福島相似，強調對吸入和放射性塵埃污染的擔憂。更廣泛的地緣政治問題，包括民族主義和核威懾，也在討論中，反映了歷史和當前的全球緊張局勢。</li>
+</ul>
+<h2><a href="https://wtfhappenedin1971.com/">「1971 年發生了什麼事？(2019)」</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42711781">評論</a></h3>
+<ul>
+<li>網站「WTF Happened in 1971?」探討自1971年開始的重大經濟和社會變遷，這些變遷通常與金本位制的結束有關。</li>
+<li>討論中包含了對於這些變化原因的多元觀點，例如高管薪酬增加、石油危機以及經濟政策的變化。</li>
+<li>辯論還考慮了尼克森衝擊的影響、信貸和法定貨幣的角色，以及更廣泛的因素如城市化和能源價格。</li>
+</ul>
+<h2><a href="https://philipotoole.com/how-is-rqlite-tested/">rqlite 如何進行測試</a></h2>
+<ul>
+<li>rqlite 是一個輕量級的分散式資料庫，結合了 SQLite 和 Raft，專注於透過結構化的測試策略來提升可靠性和品質。- 測試策略遵循測試金字塔，強調對獨立元件的單元測試、系統層級驗證的整合測試，以及基本操作檢查的最小端到端測試。- rqlite 測試方法的關鍵教訓包括早期開始測試、簡化測試代碼，以及確保測試的確定性，這有助於在最小的負擔下維持高品質。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42703282">評論</a></h3>
+<ul>
+<li>「討論的重點是針對 rqlite 這個基於 SQLite 的分散式資料庫的測試策略，強調初始測試、測試金字塔，以及參數化測試和屬性測試。」</li>
+<li>在複雜系統中進行端到端(E2E)測試的挑戰被強調出來，並且選擇 Go 程式語言用於 rqlite 以及安全性問題也被提及。</li>
+<li>確定性模擬測試被提及為資料庫可靠性的高標準，並引用了其他資料庫如 FoundationDB，展示了對有效測試實踐的多樣化觀點。</li>
+</ul>
+<h2><a href="https://www.vijayp.dev/blog/rewrite-plain-html/">「將我的網站重寫為純 HTML 和 CSS」</a></h2>
+<ul>
+<li>作者使用純 HTML 和 CSS 重建了他們的網站，從 SvelteKit 過渡，以簡化網站並將其託管在 Cloudflare Pages 上。他們使用 Pandoc 將 Markdown 轉換為 HTML，並使用 Python 進行腳本編寫，最終使網站變得更小，資產大小從約 356kb 減少到約 88kb。這個專案突顯了代碼重複和缺乏即時重新加載等挑戰，並計劃探索 Web 組件和 FastAPI 來解決這些問題，可能作為其他尋求無框架網站且使用 Markdown 發文的人的範本。</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42705077">評論</a></h3>
+<ul>
+<li>作者使用簡單的 HTML 和 CSS 維護個人網站，欣賞其所需的最少時間投入以及能夠提升技能的優點。</li>
+<li>該網站託管在 GitHub Pages 上，內容在 MS Word 中撰寫後手動更新。</li>
+<li>儘管有人建議使用伺服器端包含或像 Jekyll 或 Hugo 這樣的靜態網站生成器，作者仍然重視其當前方法的控制性和簡單性。</li>
+</ul>
+<head>
+  <meta property="og:title" content="不要隨意使用餘弦相似度" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E4%B8%8D%E8%A6%81%E9%9A%A8%E6%84%8F%E4%BD%BF%E7%94%A8%E9%A4%98%E5%BC%A6%E7%9B%B8%E4%BC%BC%E5%BA%A6&subheading=2025%E5%B9%B41%E6%9C%8815%E6%97%A5%20%E6%98%9F%E6%9C%9F%E4%B8%89%3A%20Hacker%20News%20%E6%91%98%E8%A6%81" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/zh/Hant/2025/01/15</link>
+            <guid isPermaLink="false">2025-01-15T00:00:00.000Z</guid>
+            <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-14]]></title>
             <description
@@ -1120,68 +1205,6 @@
             <link>https://hn.cho.sh/zh/Hant/2025/01/06</link>
             <guid isPermaLink="false">2025-01-06T00:00:00.000Z</guid>
             <pubDate>Mon, 06 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2025-01-05]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2025/01/05&#39;</h2>
-<h1>2025-01-05</h1>
-<h2><a href="https://uwaterloo.ca/news/media/no-more-needles-tracking-blood-sugar-your-wrist">研究人員設計出可穿戴技術，能更準確地感測血糖水平</a></h2>
-<ul>
-<li>滑鐵盧大學的研究人員開發了一種可穿戴裝置，利用雷達技術非侵入性地監測血糖水平，免除了使用針頭的需求。</li>
-<li>「該裝置由喬治·沙克博士領導，結合了雷達晶片、用於增強信號準確性的超表面，以及用於精確血糖讀數的 AI 演算法。」</li>
-<li>目前該裝置是以 USB 供電，目標是改為電池供電以提升便攜性，並可能最終監測更多健康指標，目前正努力將這項技術商業化。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42599189">評論</a></h3>
-<ul>
-<li>研究人員已經開發出可穿戴技術，用於非侵入性血糖監測，提供了指尖採血和連續血糖監測儀(CGMs)的替代方案。</li>
-<li>該技術旨在提供不需直接接觸血液的準確血糖讀數，這對臨床應用可能具有重要意義。</li>
-<li>「雖然有前景，但相較於現有的連續血糖監測儀，對其準確性仍存有疑慮，並且需要進一步的數據和臨床試驗來確認其有效性。」</li>
-</ul>
-<h2><a href="https://nmn.gl/blog/ai-senior-developer">我教人工智慧像資深開發者一樣閱讀程式碼的那一天</a></h2>
-<ul>
-<li>AI 最初在分析 React 程式碼庫時面臨挑戰，像新手開發者一樣接近它們。- 通過模仿資深開發者的策略，例如專注於核心文件並按功能分組變更，AI 的程式碼分析能力顯著提升。- 重點在於增強程式碼理解而非生成，未來計畫包括識別技術債務和理解團隊慣例。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42601847">評論</a></h3>
-<ul>
-<li>這篇文章探討了訓練人工智慧以具備資深開發人員的能力來閱讀和分析程式碼所面臨的挑戰，並指出在達成一致且準確的結果方面的困難。</li>
-<li>它強調提供上下文和結構化輸入以提升 AI 在程式碼分析中的性能的重要性，同時也承認對 AI 當前能力的懷疑。</li>
-<li>討論強調了進一步實驗和評估以驗證 AI 表現的必要性，並考慮了 AI 在軟體開發中的更廣泛影響和潛在進展。</li>
-</ul>
-<h2><a href="http://rachelbythebay.com/w/2025/01/04/cruft/">我在這裡不會讓你遭遇的網頁煩擾</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42599102">評論</a></h3>
-<ul>
-<li>作者避免使用某些網頁功能，如固定欄、強制 SSL/TLS、彈出視窗和不必要的追蹤，以提升使用者體驗。</li>
-<li>「目前正在進行一場關於 HTTPS 在安全性上的必要性與其與舊版瀏覽器相容性問題之間的辯論。」</li>
-<li>討論強調了在用戶體驗與現代網頁實踐之間取得平衡的挑戰。</li>
-</ul>
-<h2><a href="https://tailscale.com/blog/how-nat-traversal-works">Nat 穿透技術的運作原理(2020)</a></h2>
-<ul>
-<li>NAT 穿透技術使得即使在存在網路位址轉換器(NAT)和防火牆的情況下，仍能實現設備之間的直接連接，這是透過基於 UDP 的協議和直接套接字控制來達成的。</li>
-<li>技術如 STUN(會話穿越實用工具)有助於發現公共 IP 位址，而像 TURN(使用中繼穿越 NAT)或 Tailscale 的 DERP 這樣的中繼則用於更具挑戰性的 NAT。</li>
-<li>ICE(互動連接建立)協議通過評估所有可能的選項並選擇最有效的路徑來優化連接，確保具有端到端加密和身份驗證的強大 NAT 穿越能力。</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42600846">評論</a></h3>
-<ul>
-<li>這篇文章探討了 NAT(網路位址轉換)穿越，強調了 TCP(傳輸控制協定)和 UDP(使用者資料包協定)打洞之間的差異，並指出 TCP 的複雜性略高一些。</li>
-<li>這挑戰了將 NAT 視為安全功能的觀點，並討論了 Tailscale 的 NAT 穿透方法，對僅依賴軟體 ACLs(存取控制列表)來確保安全性表示擔憂。</li>
-<li>「討論強調了安全端點的重要性，並批評了傳統網路安全策略在 NAT 穿越情境中的局限性。」</li>
-</ul>
-<h2><a href="https://amanvir.com/guten">Guten：一台迷你報紙印表機</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42599599">評論</a></h3>
-<ul>
-<li>Guten 是一個小型報紙印刷專案，旨在透過印刷形式提供新聞，以減少螢幕使用時間。- 關於該專案的討論包括對熱感紙中 BPA 含量的擔憂，以及使用無 BPA 替代品或不同印刷技術(如撞擊式或點陣式印表機)的建議。- 與已停產的 Little Printer 進行比較，並提出增強 Guten 的開發者友好性和自訂選項的建議，同時考量熱感紙對環境和健康的影響。</li>
-</ul>
-<head>
-  <meta property="og:title" content="研究人員設計出可穿戴技術，能更準確地感測血糖水平" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E7%A0%94%E7%A9%B6%E4%BA%BA%E5%93%A1%E8%A8%AD%E8%A8%88%E5%87%BA%E5%8F%AF%E7%A9%BF%E6%88%B4%E6%8A%80%E8%A1%93%EF%BC%8C%E8%83%BD%E6%9B%B4%E6%BA%96%E7%A2%BA%E5%9C%B0%E6%84%9F%E6%B8%AC%E8%A1%80%E7%B3%96%E6%B0%B4%E5%B9%B3&subheading=2025%E5%B9%B41%E6%9C%885%E6%97%A5%20%E6%98%9F%E6%9C%9F%E6%97%A5%3A%20Hacker%20News%20%E6%91%98%E8%A6%81" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/zh/Hant/2025/01/05</link>
-            <guid isPermaLink="false">2025-01-05T00:00:00.000Z</guid>
-            <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

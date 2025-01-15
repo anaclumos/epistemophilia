@@ -1,0 +1,154 @@
+[
+  {
+    "id": 42704078,
+    "title": "Älä käytä kosinissimilariteettia huolimattomasti",
+    "originLink": "https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42704078",
+    "commentBody": "",
+    "originSummary": [
+      "Kosinisamankaltaisuus, menetelmä vektorien vertailuun, voi olla harhaanjohtava, jos sitä käytetään ilman kontekstin ymmärtämistä, sillä se ei välttämättä tarkasti kuvaa semanttisia samankaltaisuuksia. - Upotukset, kuten word2vecistä tai lauseupotukset suurista kielimalleista (LLM), vaativat huolellista ja tarkoituksellista käyttöä varmistaakseen, että ne heijastavat haluttuja suhteita. - Parantaaksesi vektorien samankaltaisuustuloksia, harkitse LLM:ien suoraa käyttöä, tehtäväkohtaisen upotuksen luomista hienosäädön kautta ja varmista, että teksti on puhdasta ja kehotteet ovat hyvin suunniteltuja ennen upotusta."
+    ],
+    "commentSummary": [
+      "Retrieval-Augmented Generation (RAG) -sovelluksissa \"semanttisen uudelleenjärjestäjän\" käyttö voi parantaa käyttäjäkyselyiden vastaavuutta, kun käytetään kosinissimilariteettia. - Vältä tyhjän sisällön vektoriedustusten tallentamista, sillä ne voivat johtaa virheellisiin osumiin; jotkut projektit käyttävät erityisiä koodauksia edustamaan \"tyhjyyttä\" tämän ongelman estämiseksi. - Vaihtoehtojen, kuten suurten kielimallien (LLM), risti-enkoodereiden, L2-uudelleenjärjestelymallien tai graafipohjaisten menetelmien tutkiminen voi tarjota tarkempia hakutuloksia kuin pelkkään kosinissimilariteettiin luottaminen."
+    ],
+    "points": 399,
+    "commentCount": 76,
+    "retryCount": 0,
+    "time": 1736889801
+  },
+  {
+    "id": 42707573,
+    "title": "Nevadan oikeusistuin estää poliisia käyttämästä liittovaltion porsaanreikää siviililunastuksessa",
+    "originLink": "https://ij.org/press-release/nevada-court-shuts-down-police-use-of-federal-loophole-for-civil-forfeiture/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42707573",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Nevadan tuomioistuin on päättänyt poliisin käyttävän liittovaltion porsaanreikää siviililunastuksessa, jossa omaisuutta takavarikoidaan ilman, että omistajaa syytetään rikoksesta.",
+      "Tämä päätös korostaa keskustelua siviililunastuslaeista, joita on kritisoitu syyllisyyden olettamisesta ja mahdollisesti korruptioon johtamisesta.",
+      "Tapauksessa oli kyse miehen elinikäisten säästöjen takavarikoinnista liikennepysäytyksen aikana, mikä korostaa oikeustoimien ja median huomion tarvetta kansalaisten oikeuksien suojelemiseksi."
+    ],
+    "points": 369,
+    "commentCount": 196,
+    "retryCount": 0,
+    "time": 1736918124
+  },
+  {
+    "id": 42710339,
+    "title": "TikTok valmistautuu Yhdysvaltojen sulkemiseen sunnuntaina",
+    "originLink": "https://www.reuters.com/technology/tiktok-preparing-us-shut-off-sunday-information-reports-2025-01-15/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42710339",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "TikTok on mahdollisesti sulkemassa toimintansa Yhdysvalloissa, mikä saa käyttäjät etsimään vaihtoehtoja, kuten Xiaohongshu, YouTube Shorts ja Instagram Reels. - Xiaohongshu, joka on suosittu Kiinassa, ei ole suunnattu länsimaiselle yleisölle, mikä herättää huolta suorista vuorovaikutuksista kiinalaisten ja yhdysvaltalaisten käyttäjien välillä. - Yhdysvaltain hallitus mainitsee kansallisen turvallisuuden huolenaiheiksi, mukaan lukien pelot ulkomaisesta vaikutuksesta ja propagandasta, syinä TikTokin kieltämisen harkitsemiselle."
+    ],
+    "points": 329,
+    "commentCount": 981,
+    "retryCount": 0,
+    "time": 1736945851
+  },
+  {
+    "id": 42708773,
+    "title": "Luo äänikirjoja e-kirjoista Kokoro-82M:llä",
+    "originLink": "https://claudio.uk/posts/epub-to-audiobook.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42708773",
+    "commentBody": "",
+    "originSummary": [
+      "Kokoro v0.19 on uusi tekstistä puheeksi -malli, jossa on 82 miljoonaa parametria ja joka tuottaa korkealaatuista äänilähtöä useilla kielillä, mukaan lukien amerikkalainen ja brittiläinen englanti, ranska, korea, japani ja mandariinikiina.",
+      "Claudio Santini kehitti Audiblez-työkalun, joka muuntaa e-kirjat äänikirjoiksi käyttämällä Kokoroa, käsittelemällä .epub-tiedostoja ja luomalla äänitiedostoja. Muuntamisaika on noin 2 tuntia 100 000 sanan kirjalle M2 MacBook Prolla.",
+      "Audiblez vaatii asennuksen pipin kautta, tukee useita kieliä ja ääniä, ja tarvitsee ffmpeg:n .m4b-tiedostojen luomiseen. Työkalu on saatavilla GitHubissa jatkokehitystä ja parannuksia varten."
+    ],
+    "commentSummary": [
+      "Kokoro-82M on tekoälytyökalu, joka on suunniteltu muuntamaan e-kirjoja äänikirjoiksi, tarjoten erityisesti tietokirjallisuuden osalta kätevyyttä.",
+      "Vaikka tekoälyn tuottamat äänikirjat voivat täyttää aukkoja, joissa ei ole ihmisen kertomia versioita, niistä puuttuu tällä hetkellä ihmiskertojien tarjoama tunnesyvyys ja luonne.",
+      "Työkalu herättää keskustelua tekoälyn vaikutuksesta luoviin ammatteihin, vetäen yhtäläisyyksiä historiallisiin teknologisiin muutoksiin, ja nostaa esiin huolenaiheita koulutus- ja kokemustilaisuuksien vähenemisestä näillä aloilla."
+    ],
+    "points": 323,
+    "commentCount": 194,
+    "retryCount": 0,
+    "time": 1736930858
+  },
+  {
+    "id": 42704491,
+    "title": "Tieliikennemerkit auttamaan ihmisiä rajoittamaan säteilyaltistusta saastuneilla alueilla",
+    "originLink": "https://www.theautopian.com/if-you-ever-see-this-speed-sign-youre-probably-going-to-die/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42704491",
+    "commentBody": "",
+    "originSummary": [
+      "Yhtenäisten liikenteenohjauslaitteiden käsikirja (MUTCD) sisältää kylmän sodan aikaisia merkkejä, kuten \"SÄILYTÄ YLIN TURVALLINEN NOPEUS\", jotka on tarkoitettu säteilykontaminaatioalueille.",
+      "Nämä kyltit olivat osa siviilipuolustusstrategioita, joiden tarkoituksena oli suojella kansalaisia mahdollisen ydinapokalypsin aikana, vaikka niitä ei koskaan käytetty.",
+      "Jotkut näistä merkeistä sisältyvät yhä MUTCD:hen hätätilanteiden hallinnan merkkeinä, korostaen tuon aikakauden historiallisia pelkoja ja valmiustoimia."
+    ],
+    "commentSummary": [
+      "Viranomaiset harkitsevat liikennemerkkejä, jotka neuvoisivat nopeaa matkustamista saastuneiden alueiden läpi säteilyaltistuksen vähentämiseksi minimoimalla näillä alueilla vietetty aika. - Keskustelu tuo esiin yhtäläisyyksiä Tšernobyliin ja Fukushimaan, korostaen huolia radioaktiivisen pölyn hengittämisestä ja saastumisesta. - Laajemmat geopoliittiset kysymykset, mukaan lukien nationalismi ja ydinpelote, ovat myös osa keskustelua, heijastaen historiallisia ja nykyisiä maailmanlaajuisia jännitteitä."
+    ],
+    "points": 261,
+    "commentCount": 185,
+    "retryCount": 0,
+    "time": 1736891952
+  },
+  {
+    "id": 42711781,
+    "title": "WTF tapahtui vuonna 1971? (2019)",
+    "originLink": "https://wtfhappenedin1971.com/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42711781",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Verkkosivusto \"WTF Happened in 1971?\" tutkii merkittäviä taloudellisia ja yhteiskunnallisia muutoksia, jotka alkoivat vuonna 1971 ja jotka usein yhdistetään kultakannan loppumiseen.",
+      "Keskustelu sisältää erilaisia näkökulmia näiden muutosten syihin, kuten johtajien palkkioiden kasvuun, öljykriisiin ja talouspolitiikan muutoksiin.",
+      "Keskustelussa tarkastellaan myös Nixonin shokin vaikutuksia, luoton ja fiat-valuutan roolia sekä laajempia tekijöitä, kuten kaupungistumista ja energian hintoja."
+    ],
+    "points": 238,
+    "commentCount": 188,
+    "retryCount": 0,
+    "time": 1736954220
+  },
+  {
+    "id": 42703282,
+    "title": "Kuinka rqlite testataan",
+    "originLink": "https://philipotoole.com/how-is-rqlite-tested/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42703282",
+    "commentBody": "",
+    "originSummary": [
+      "rqlite on kevyt hajautettu tietokanta, joka yhdistää SQLite:n ja Raftin, keskittyen luotettavuuteen ja laatuun rakenteellisen testausstrategian kautta. - Testausstrategia noudattaa testauspyramidia, korostaen yksikkötestejä eristettyjen komponenttien osalta, integraatiotestejä järjestelmätason validointiin ja vähäisiä end-to-end-testejä perustoimintojen tarkistamiseen. - Keskeisiä oppeja rqlite:n testauslähestymistavasta ovat testauksen aloittaminen aikaisin, testikoodin yksinkertaistaminen ja determinismin varmistaminen, mikä auttaa ylläpitämään korkeaa laatua minimaalisella ylikuormituksella."
+    ],
+    "commentSummary": [
+      "Keskustelu keskittyy rqlite-tietokannan, joka on SQLiteen perustuva hajautettu tietokanta, testausstrategioihin painottaen alkuvaiheen testejä, testauspyramidia sekä parametrisoituja ja ominaisuustestejä.",
+      "Haasteet end-to-end (E2E) -testauksessa monimutkaisissa järjestelmissä tuodaan esiin, samoin kuin Go-ohjelmointikielen valinta rqliteen ja tietoturvaan liittyvät huolenaiheet.",
+      "Deterministinen simulointitestaus mainitaan korkeana standardina tietokantojen luotettavuudelle, viitaten muihin tietokantoihin kuten FoundationDB, esitellen erilaisia näkökulmia tehokkaisiin testauskäytäntöihin."
+    ],
+    "points": 229,
+    "commentCount": 44,
+    "retryCount": 0,
+    "time": 1736886107
+  },
+  {
+    "id": 42705077,
+    "title": "Kirjoitan verkkosivustoni uudelleen pelkällä HTML:llä ja CSS:llä",
+    "originLink": "https://www.vijayp.dev/blog/rewrite-plain-html/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42705077",
+    "commentBody": "",
+    "originSummary": [
+      "Kirjoittaja rakensi verkkosivustonsa uudelleen käyttämällä pelkkää HTML:ää ja CSS:ää, siirtyen pois SvelteKitistä yksinkertaistaakseen sivustoa ja isännöidäkseen sen Cloudflare Pagesilla. - He käyttivät Pandocia muuntaakseen Markdownin HTML:ksi ja Pythonia skriptaukseen, mikä johti pienempään verkkosivustoon, vähentäen resurssien kokoa noin 356 kt:sta noin 88 kt:iin. - Projekti toi esiin haasteita, kuten koodin toistoa ja live-latauksen puutetta, ja suunnitelmissa on tutkia web-komponentteja ja FastAPI:ta näiden ongelmien ratkaisemiseksi, mikä voisi toimia mallina muille, jotka etsivät kehysvapaata verkkosivustoa Markdown-julkaisuilla."
+    ],
+    "commentSummary": [
+      "Kirjoittaja ylläpitää henkilökohtaista verkkosivustoa käyttäen pelkkää HTML:ää ja CSS:ää, arvostaen sen vaatimaa vähäistä ajankäyttöä ja taitojen hiomista.",
+      "Verkkosivusto on isännöity GitHub Pages -palvelussa, ja sisältö laaditaan MS Wordissa ennen manuaalista päivittämistä.",
+      "Huolimatta ehdotuksista käyttää palvelinpuolen sisällytyksiä tai staattisia sivustogeneraattoreita kuten Jekyll tai Hugo, kirjoittaja arvostaa nykyisen menetelmänsä hallintaa ja yksinkertaisuutta."
+    ],
+    "points": 180,
+    "commentCount": 167,
+    "retryCount": 0,
+    "time": 1736895439
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "id": 42704078,
+    "title": "Kosinüs benzerliğini dikkatsizce kullanmayın",
+    "originLink": "https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42704078",
+    "commentBody": "",
+    "originSummary": [
+      "Kosinüs benzerliği, vektörleri karşılaştırmak için kullanılan bir yöntemdir, ancak bağlamı anlamadan kullanıldığında yanıltıcı olabilir, çünkü anlamsal benzerlikleri doğru bir şekilde yakalayamayabilir. - Word2vec veya Büyük Dil Modellerinden (LLM'ler) gelen cümle gömmeleri gibi gömmeler, istenen ilişkileri yansıttıklarından emin olmak için dikkatli ve kasıtlı bir kullanım gerektirir. - Vektör benzerliği sonuçlarını iyileştirmek için, LLM'leri doğrudan kullanmayı, ince ayar yaparak göreve özel gömmeler oluşturmayı ve metnin temiz olduğundan ve gömme işleminden önce istemlerin iyi tasarlandığından emin olmayı düşünün."
+    ],
+    "commentSummary": [
+      "Retrieval-Augmented Generation (RAG) uygulamalarında, \"anlamsal yeniden sıralayıcı\" kullanmak, kosinüs benzerliği kullanıldığında kullanıcı sorgularının eşleştirilmesini geliştirebilir. - Boş içeriğin vektör gömülerini depolamaktan kaçının, çünkü bunlar yanlış eşleşmelere yol açabilir; bazı projeler bu sorunu önlemek için \"hiçlik\"i temsil eden özel kodlamalar kullanır. - Büyük Dil Modelleri (LLM'ler), çapraz kodlayıcılar, L2 yeniden sıralama modelleri veya grafik tabanlı yöntemler gibi alternatifleri keşfetmek, yalnızca kosinüs benzerliğine güvenmekten daha doğru alma sonuçları sağlayabilir."
+    ],
+    "points": 399,
+    "commentCount": 76,
+    "retryCount": 0,
+    "time": 1736889801
+  },
+  {
+    "id": 42707573,
+    "title": "Mahkeme, Polislerin Federal Açığı Kullanarak Mülkiyetin Hukuksuz El Konulmasını Durdurdu",
+    "originLink": "https://ij.org/press-release/nevada-court-shuts-down-police-use-of-federal-loophole-for-civil-forfeiture/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42707573",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Nevada'daki bir mahkeme, polisin, sahibini bir suçla suçlamadan varlıkların el konulmasına olanak tanıyan federal bir boşluktan yararlanmasına karşı karar verdi.",
+      "Bu karar, suçluluğu varsaydığı ve potansiyel olarak yolsuzluğa yol açabileceği için eleştirilen sivil el koyma yasaları üzerindeki tartışmayı vurguluyor.",
+      "Vaka, bir trafik durdurma sırasında bir adamın hayat birikimlerinin el konulmasını içeriyordu ve bu durum, vatandaşların haklarını korumak için yasal işlem ve medya dikkatine ihtiyaç duyulduğunu vurguluyordu."
+    ],
+    "points": 369,
+    "commentCount": 196,
+    "retryCount": 0,
+    "time": 1736918124
+  },
+  {
+    "id": 42710339,
+    "title": "TikTok, Pazar günü ABD'de kapatılmaya hazırlanıyor",
+    "originLink": "https://www.reuters.com/technology/tiktok-preparing-us-shut-off-sunday-information-reports-2025-01-15/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42710339",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "TikTok, ABD'de olası bir kapatmayla karşı karşıya kalırken, kullanıcılar Xiaohongshu, YouTube Shorts ve Instagram Reels gibi alternatifleri keşfetmeye yöneliyor. - Çin'de popüler olan Xiaohongshu, Batılı izleyiciler için uyarlanmamış olup, Çinli ve ABD'li kullanıcılar arasında doğrudan etkileşimler konusunda endişeler yaratıyor. - ABD hükümeti, TikTok yasağını düşünmesinin nedenleri arasında yabancı etki ve propaganda korkuları da dahil olmak üzere ulusal güvenlik endişelerini gösteriyor."
+    ],
+    "points": 329,
+    "commentCount": 981,
+    "retryCount": 0,
+    "time": 1736945851
+  },
+  {
+    "id": 42708773,
+    "title": "E-kitaplardan sesli kitaplar oluşturmak için Kokoro-82M kullanın",
+    "originLink": "https://claudio.uk/posts/epub-to-audiobook.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42708773",
+    "commentBody": "",
+    "originSummary": [
+      "Kokoro v0.19, 82 milyon parametreye sahip yeni bir metinden sese dönüştürme modelidir ve Amerikan ve İngiliz İngilizcesi, Fransızca, Korece, Japonca ve Mandarin dahil olmak üzere birden fazla dilde yüksek kaliteli ses çıktısı sunmaktadır.",
+      "Claudio Santini, .epub dosyalarını işleyerek ses dosyaları üreten ve e-kitapları sesli kitaplara dönüştüren bir araç olan Audiblez'i geliştirdi. Bu işlem, bir M2 MacBook Pro'da 100.000 kelimelik bir kitap için yaklaşık 2 saat sürmektedir.",
+      "Audiblez, pip aracılığıyla kurulum gerektirir, çeşitli dilleri ve sesleri destekler ve .m4b dosyası oluşturmak için ffmpeg'e ihtiyaç duyar, araç GitHub'da daha fazla geliştirme ve iyileştirme için mevcuttur."
+    ],
+    "commentSummary": [
+      "Kokoro-82M, özellikle kurgu dışı eserler için kolaylık sağlayarak e-kitapları sesli kitaplara dönüştürmek üzere tasarlanmış bir yapay zeka aracıdır.",
+      "Yapay zeka tarafından üretilen sesli kitaplar, insan anlatımlı versiyonların bulunmadığı boşlukları doldurabilse de, şu anda insan anlatıcıların sağladığı duygusal derinlik ve karakterden yoksundur.",
+      "Bu araç, yaratıcı meslekler üzerindeki yapay zekanın etkisi konusunda tartışma başlatıyor, tarihsel teknolojik değişimlerle paralellikler kuruyor ve bu alanlarda eğitim ve deneyim fırsatlarının azalmasıyla ilgili endişeleri gündeme getiriyor."
+    ],
+    "points": 323,
+    "commentCount": 194,
+    "retryCount": 0,
+    "time": 1736930858
+  },
+  {
+    "id": 42704491,
+    "title": "Kirlenmiş bölgelerde radyasyona maruz kalmayı sınırlamak için insanlara yardımcı olacak yol işaretleri",
+    "originLink": "https://www.theautopian.com/if-you-ever-see-this-speed-sign-youre-probably-going-to-die/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42704491",
+    "commentBody": "",
+    "originSummary": [
+      "MUTCD (Tekdüzen Trafik Kontrol Cihazları El Kitabı), radyolojik kirlenme bölgeleri için tasarlanmış \"MAKSİMUM GÜVENLİ HIZI KORUYUN\" gibi Soğuk Savaş dönemi işaretlerini içerir.",
+      "Bu işaretler, potansiyel bir nükleer kıyamet sırasında vatandaşları korumak için Sivil Savunma stratejilerinin bir parçasıydı, ancak hiçbir zaman kullanılmadılar.",
+      "Bu işaretlerden bazıları, o dönemin tarihsel korkularını ve hazırlık çabalarını vurgulayarak, hala MUTCD'de Acil Durum Yönetimi işaretleri olarak yer almaktadır."
+    ],
+    "commentSummary": [
+      "Yetkililer, bu bölgelerde geçirilen süreyi en aza indirerek radyasyon maruziyetini azaltmak için kirlenmiş alanlardan yüksek hızda geçişi tavsiye eden yol işaretlerini değerlendirmektedir. - Tartışma, Çernobil ve Fukuşima ile paralellikler kurarak radyoaktif tozdan kaynaklanan soluma ve kirlenme endişelerini vurgulamaktadır. - Milliyetçilik ve nükleer caydırıcılık da dahil olmak üzere daha geniş jeopolitik meseleler, tarihi ve mevcut küresel gerilimleri yansıtarak konuşmanın bir parçasıdır."
+    ],
+    "points": 261,
+    "commentCount": 185,
+    "retryCount": 0,
+    "time": 1736891952
+  },
+  {
+    "id": 42711781,
+    "title": "WTF 1971'de Ne Oldu? (2019)",
+    "originLink": "https://wtfhappenedin1971.com/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42711781",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "1971'de Ne Oldu?\" adlı web sitesi, genellikle altın standardının sona ermesiyle ilişkilendirilen, 1971'de başlayan önemli ekonomik ve toplumsal değişiklikleri inceliyor.",
+      "Bu değişikliklerin nedenleri üzerine tartışma, artan yönetici tazminatları, petrol krizi ve ekonomik politikalardaki değişiklikler gibi çeşitli bakış açılarını içermektedir.",
+      "Bu tartışma ayrıca Nixon Şoku'nun etkilerini, kredi ve itibari para biriminin rolünü ve kentleşme ile enerji fiyatları gibi daha geniş faktörleri de ele alıyor."
+    ],
+    "points": 238,
+    "commentCount": 188,
+    "retryCount": 0,
+    "time": 1736954220
+  },
+  {
+    "id": 42703282,
+    "title": "rqlite nasıl test edilir",
+    "originLink": "https://philipotoole.com/how-is-rqlite-tested/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42703282",
+    "commentBody": "",
+    "originSummary": [
+      "rqlite, SQLite ve Raft'ı birleştiren hafif bir dağıtılmış veritabanıdır ve yapılandırılmış bir test stratejisi aracılığıyla güvenilirlik ve kaliteye odaklanır. - Test stratejisi, izole bileşenler için birim testlerini, sistem düzeyinde doğrulama için entegrasyon testlerini ve temel işlem kontrolleri için minimal uçtan uca testleri vurgulayan test piramidini takip eder. - rqlite'ın test yaklaşımından alınan önemli dersler arasında testlere erken başlamak, test kodunu basitleştirmek ve deterministikliği sağlamak yer alır; bu da minimal ek yükle yüksek kaliteyi korumaya yardımcı olur."
+    ],
+    "commentSummary": [
+      "Bu tartışma, SQLite tabanlı dağıtık bir veritabanı olan rqlite için test stratejilerine odaklanmakta olup, başlangıç testleri, test piramidi ve parametreli ve özellik testlerini vurgulamaktadır.",
+      "Kompleks sistemlerde uçtan uca (E2E) testlerle ilgili zorluklar, rqlite için Go programlama dilinin seçimi ve güvenlik endişeleri vurgulanmaktadır.",
+      "Deterministik simülasyon testi, FoundationDB gibi diğer veritabanlarına referanslarla birlikte, veritabanı güvenilirliği için yüksek bir standart olarak belirtilmekte ve etkili test uygulamaları üzerine çeşitli bakış açılarını sergilemektedir."
+    ],
+    "points": 229,
+    "commentCount": 44,
+    "retryCount": 0,
+    "time": 1736886107
+  },
+  {
+    "id": 42705077,
+    "title": "Web sitemi basit HTML ve CSS ile yeniden yazmak",
+    "originLink": "https://www.vijayp.dev/blog/rewrite-plain-html/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42705077",
+    "commentBody": "",
+    "originSummary": [
+      "Yazar, sitelerini basit HTML ve CSS kullanarak yeniden inşa etti, SvelteKit'ten uzaklaşarak siteyi basitleştirdi ve Cloudflare Pages üzerinde barındırdı. - Markdown'u HTML'ye dönüştürmek için Pandoc ve betik yazımı için Python kullandılar, bu da daha küçük bir web sitesi ile sonuçlandı ve varlık boyutunu ~356kb'den ~88kb'ye düşürdü. - Proje, kod tekrarı ve canlı yeniden yükleme eksikliği gibi zorlukları vurguladı ve bu sorunları ele almak için web bileşenleri ve FastAPI'yi keşfetme planları ile, potansiyel olarak Markdown gönderileri ile çerçevesiz bir web sitesi arayanlar için bir şablon olarak hizmet edebilir."
+    ],
+    "commentSummary": [
+      "Yazar, sağladığı minimal zaman taahhüdü ve beceri geliştirme avantajlarını takdir ederek, düz HTML ve CSS kullanarak kişisel bir web sitesi yönetmektedir.",
+      "Web sitesi GitHub Pages üzerinde barındırılmakta ve içerik, manuel olarak güncellenmeden önce MS Word'de taslak olarak hazırlanmakta.",
+      "Yazar, Jekyll veya Hugo gibi statik site jeneratörleri ya da sunucu tarafı eklemeleri kullanma önerilerine rağmen, mevcut yöntemlerinin kontrol ve sadeliğini değerli buluyor."
+    ],
+    "points": 180,
+    "commentCount": 167,
+    "retryCount": 0,
+    "time": 1736895439
+  }
+]

@@ -15,12 +15,97 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Jan 2025 19:14:17 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Jan 2025 19:10:12 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/cs.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Tue, 14 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[cs]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-15]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/15&#39;</h2>
+<h1>2025-01-15</h1>
+<h2><a href="https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity/">„Nepoužívejte kosinovou podobnost bez rozmyslu“</a></h2>
+<ul>
+<li>„Kosínová podobnost, metoda pro porovnávání vektorů, může být zavádějící, pokud je použita bez pochopení kontextu, protože nemusí přesně zachytit sémantické podobnosti. - Vektory, jako jsou ty z word2vec nebo větné vektory z velkých jazykových modelů (LLM), vyžadují pečlivé a záměrné použití, aby odrážely požadované vztahy. - Pro zlepšení výsledků podobnosti vektorů zvažte přímé použití LLM, vytváření úlohám specifických vektorů prostřednictvím doladění a zajištění, že text je čistý a podněty jsou dobře navrženy před vektorizací.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42704078">Reakce</a></h3>
+<ul>
+<li>„V aplikacích s generováním obohaceným o vyhledávání (RAG) může použití „sémantického re-rankeru“ zlepšit shodu uživatelských dotazů při použití kosinové podobnosti. - Vyhněte se ukládání vektorových vložení prázdného obsahu, protože mohou vést k falešným shodám; některé projekty používají speciální kódování k reprezentaci „nicoty“, aby tomuto problému předešly. - Zkoumání alternativ, jako jsou velké jazykové modely (LLM), křížové enkodéry, modely L2 pro re-ranking nebo metody založené na grafech, může poskytnout přesnější výsledky vyhledávání než spoléhání se pouze na kosinovou podobnost.“</li>
+</ul>
+<h2><a href="https://ij.org/press-release/nevada-court-shuts-down-police-use-of-federal-loophole-for-civil-forfeiture/">„Soud v Nevadě zastavil využívání federální mezery policií pro občanské propadnutí majetku.“</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42707573">Reakce</a></h3>
+<ul>
+<li>„Soud v Nevadě rozhodl proti tomu, aby policie využívala federální mezeru v zákoně pro občanské propadnutí majetku, kdy jsou zabaveny majetky, aniž by byl majitel obviněn z trestného činu.“</li>
+<li>„Toto rozhodnutí zdůrazňuje debatu o zákonech o zabavení majetku, které jsou kritizovány za předpokládání viny a potenciální vedoucí ke korupci.“</li>
+<li>„Případ se týkal zabavení celoživotních úspor muže během silniční kontroly, což zdůrazňuje potřebu právních kroků a mediální pozornosti k ochraně práv občanů.“</li>
+</ul>
+<h2><a href="https://www.reuters.com/technology/tiktok-preparing-us-shut-off-sunday-information-reports-2025-01-15/">„TikTok se připravuje na vypnutí v USA v neděli“</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42710339">Reakce</a></h3>
+<ul>
+<li>„TikTok čelí možnému uzavření v USA, což přimělo uživatele hledat alternativy jako Xiaohongshu, YouTube Shorts a Instagram Reels. - Xiaohongshu, populární v Číně, není přizpůsoben pro západní publikum, což vyvolává obavy z přímých interakcí mezi čínskými a americkými uživateli. - Americká vláda uvádí obavy o národní bezpečnost, včetně strachu z cizího vlivu a propagandy, jako důvody pro zvažování zákazu TikToku.“</li>
+</ul>
+<h2><a href="https://claudio.uk/posts/epub-to-audiobook.html">„Generujte audioknihy z e-knih pomocí Kokoro-82M“</a></h2>
+<ul>
+<li>„Kokoro v0.19 je nový model převodu textu na řeč s 82 miliony parametrů, který poskytuje vysoce kvalitní zvukový výstup v několika jazycích, včetně americké a britské angličtiny, francouzštiny, korejštiny, japonštiny a mandarínštiny.“</li>
+<li>„Claudio Santini vyvinul Audiblez, nástroj, který převádí e-knihy na audioknihy pomocí Kokoro, zpracovává soubory .epub a generuje zvukové soubory, přičemž doba konverze je přibližně 2 hodiny pro knihu o 100 000 slovech na M2 MacBook Pro.“</li>
+<li>„Audiblez vyžaduje instalaci přes pip, podporuje různé jazyky a hlasy a potřebuje ffmpeg pro vytváření souborů .m4b, přičemž nástroj je k dispozici na GitHubu pro další vývoj a vylepšení.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42708773">Reakce</a></h3>
+<ul>
+<li>„Kokoro-82M je nástroj umělé inteligence navržený k převodu e-knih na audioknihy, což nabízí pohodlí, zejména pro literaturu faktu.“</li>
+<li>„Zatímco audioknihy generované umělou inteligencí mohou vyplnit mezery tam, kde neexistují verze namluvené lidmi, v současnosti postrádají emocionální hloubku a charakter, které poskytují lidské hlasy.“</li>
+<li>„Nástroj vyvolává debatu o dopadu AI na kreativní profese, přičemž poukazuje na historické technologické změny, a vyvolává obavy ohledně snižujících se příležitostí pro školení a získávání zkušeností v těchto oblastech.“</li>
+</ul>
+<h2><a href="https://www.theautopian.com/if-you-ever-see-this-speed-sign-youre-probably-going-to-die/">„Dopravní značky pomáhající lidem omezit vystavení radiaci v kontaminovaných oblastech“</a></h2>
+<ul>
+<li>„Příručka pro jednotné dopravní značení (MUTCD) obsahuje značky z doby studené války, jako například &#39;UDRŽUJTE NEJVYŠŠÍ BEZPEČNOU RYCHLOST&#39;, určené pro zóny radiologické kontaminace.“</li>
+<li>„Tyto značky byly součástí strategií civilní obrany k ochraně občanů během potenciální jaderné apokalypsy, i když nikdy nebyly využity.“</li>
+<li>„Některé z těchto značek jsou stále zahrnuty v MUTCD jako značky pro řízení nouzových situací, což zdůrazňuje historické obavy a úsilí o připravenost z toho období.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42704491">Reakce</a></h3>
+<ul>
+<li>„Úřady zvažují umístění dopravních značek, které by doporučovaly vysokorychlostní průjezd kontaminovanými oblastmi, aby se snížila expozice radiaci minimalizací času stráveného v těchto zónách. Diskuse přitom poukazuje na paralely s Černobylem a Fukušimou, zdůrazňujíc obavy z inhalace a kontaminace radioaktivním prachem. Součástí konverzace jsou také širší geopolitické otázky, včetně nacionalismu a jaderného odstrašování, které odrážejí historické a současné globální napětí.“</li>
+</ul>
+<h2><a href="https://wtfhappenedin1971.com/">„Co se sakra stalo v roce 1971? (2019)“</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42711781">Reakce</a></h3>
+<ul>
+<li>„Webová stránka &#39;WTF Happened in 1971?&#39; zkoumá významné ekonomické a společenské změny, které začaly v roce 1971, často spojované s koncem zlatého standardu.“</li>
+<li>„Diskuse zahrnuje různé pohledy na příčiny těchto změn, jako je zvýšená odměna vedoucích pracovníků, ropná krize a změny v hospodářských politikách.“</li>
+<li>„Debata také zvažuje dopady Nixonova šoku, roli úvěru a fiat měny a širší faktory, jako je urbanizace a ceny energií.“</li>
+</ul>
+<h2><a href="https://philipotoole.com/how-is-rqlite-tested/">„Jak je rqlite testováno“</a></h2>
+<ul>
+<li>„rqlite je lehká distribuovaná databáze, která kombinuje SQLite a Raft, zaměřující se na spolehlivost a kvalitu prostřednictvím strukturované testovací strategie. - Testovací strategie následuje testovací pyramidu, kladoucí důraz na jednotkové testy pro izolované komponenty, integrační testy pro ověření na úrovni systému a minimální end-to-end testy pro základní kontrolu operací. - Klíčové poučení z testovacího přístupu rqlite zahrnují zahájení testování včas, zjednodušení testovacího kódu a zajištění determinismu, což pomáhá udržovat vysokou kvalitu s minimálními náklady.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42703282">Reakce</a></h3>
+<ul>
+<li>„Diskuse se zaměřuje na testovací strategie pro rqlite, distribuovanou databázi založenou na SQLite, s důrazem na počáteční testy, testovací pyramidu a parametrizované a vlastnostní testy.“</li>
+<li>„Výzvy spojené s end-to-end (E2E) testováním v komplexních systémech jsou zdůrazněny, spolu s volbou programovacího jazyka Go pro rqlite a obavami o bezpečnost.“</li>
+<li>„Deterministické simulační testování je zmíněno jako vysoký standard pro spolehlivost databází, s odkazy na další databáze jako FoundationDB, které ukazují různé pohledy na efektivní testovací praktiky.“</li>
+</ul>
+<h2><a href="https://www.vijayp.dev/blog/rewrite-plain-html/">„Přepisuji svůj web v čistém HTML a CSS“</a></h2>
+<ul>
+<li>„Autor přestavěl svůj web pomocí čistého HTML a CSS, čímž se vzdálil od SvelteKit, aby zjednodušil stránky a hostoval je na Cloudflare Pages. - Použil Pandoc pro převod Markdownu do HTML a Python pro skriptování, což vedlo k menšímu webu, který snížil velikost souborů z ~356kb na ~88kb. - Projekt zdůraznil výzvy, jako je duplikace kódu a nedostatek živého načítání, s plány prozkoumat webové komponenty a FastAPI k řešení těchto problémů, což by mohlo sloužit jako šablona pro ostatní, kteří hledají web bez rámců s příspěvky v Markdownu.“</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42705077">Reakce</a></h3>
+<ul>
+<li>„Autor udržuje osobní webovou stránku pomocí jednoduchého HTML a CSS, oceňuje minimální časovou náročnost a zlepšování dovedností, které to přináší.“</li>
+<li>„Webová stránka je hostována na GitHub Pages a obsah je připravován v MS Word před ruční aktualizací.“</li>
+<li>„Navzdory návrhům použít server-side includes nebo generátory statických stránek jako Jekyll nebo Hugo, autor si cení kontroly a jednoduchosti své současné metody.“</li>
+</ul>
+<head>
+  <meta property="og:title" content="„Nepoužívejte kosinovou podobnost bez rozmyslu“" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9ENepou%C5%BE%C3%ADvejte%20kosinovou%20podobnost%20bez%20rozmyslu%E2%80%9C&subheading=st%C5%99eda%2015.%20ledna%202025%3A%20Hacker%20News%20Shrnut%C3%AD" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/cs/2025/01/15</link>
+            <guid isPermaLink="false">2025-01-15T00:00:00.000Z</guid>
+            <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-14]]></title>
             <description
@@ -1120,68 +1205,6 @@
             <link>https://hn.cho.sh/cs/2025/01/06</link>
             <guid isPermaLink="false">2025-01-06T00:00:00.000Z</guid>
             <pubDate>Mon, 06 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2025-01-05]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2025/01/05&#39;</h2>
-<h1>2025-01-05</h1>
-<h2><a href="https://uwaterloo.ca/news/media/no-more-needles-tracking-blood-sugar-your-wrist">„Výzkumníci navrhují nositelnou technologii, která dokáže přesněji snímat hladiny glukózy“</a></h2>
-<ul>
-<li>„Výzkumníci z University of Waterloo vytvořili nositelné zařízení, které využívá radarovou technologii k neinvazivnímu monitorování hladiny glukózy, čímž odstraňuje potřebu jehel.“</li>
-<li>„Zařízení, vedené Dr. Georgem Shakerem, zahrnuje radarový čip, metasurface pro zvýšenou přesnost signálu a AI algoritmy pro přesné měření hladiny glukózy.“</li>
-<li>„V současné době napájené přes USB, zařízení se snaží stát bateriově napájeným pro lepší přenosnost a může nakonec monitorovat další zdravotní metriky, přičemž probíhají snahy o komercializaci této technologie.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42599189">Reakce</a></h3>
-<ul>
-<li>„Výzkumníci vytvořili nositelnou technologii pro neinvazivní monitorování glukózy, která nabízí alternativu k píchání do prstu a kontinuálním monitorům glukózy (CGM).“</li>
-<li>„Technologie si klade za cíl poskytovat přesné hodnoty glukózy bez přímého kontaktu s krevním řečištěm, což by mohlo mít význam pro klinické aplikace.“</li>
-<li>„I když je to slibné, existuje skepse ohledně jeho přesnosti ve srovnání se stávajícími CGM a jsou zapotřebí další data a klinické zkoušky k potvrzení jeho účinnosti.“</li>
-</ul>
-<h2><a href="https://nmn.gl/blog/ai-senior-developer">„Den, kdy jsem naučil AI číst kód jako senior vývojář“</a></h2>
-<ul>
-<li>„Umělá inteligence byla zpočátku postavena před výzvu analyzovat kódy v Reactu, přistupujíc k nim jako začínající vývojář. - Napodobováním strategií zkušených vývojářů, jako je zaměření na klíčové soubory a seskupování změn podle funkcí, se analýza kódu umělé inteligence výrazně zlepšila. - Zaměření je na zlepšení porozumění kódu spíše než na jeho generování, s budoucími plány na identifikaci technického dluhu a pochopení týmových konvencí.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42601847">Reakce</a></h3>
-<ul>
-<li>„Článek zkoumá výzvy spojené s trénováním umělé inteligence, aby dokázala číst a analyzovat kód s dovednostmi zkušeného vývojáře, přičemž poukazuje na obtíže při dosahování konzistentních a přesných výsledků.“</li>
-<li>„Zdůrazňuje důležitost poskytování kontextu a strukturování vstupů pro zlepšení výkonu AI při analýze kódu, přičemž uznává skepsi ohledně současných schopností AI.“</li>
-<li>„Diskuse zdůrazňuje potřebu dalšího experimentování a hodnocení k ověření výkonu AI a zvažuje širší důsledky a potenciální pokroky AI v oblasti vývoje softwaru.“</li>
-</ul>
-<h2><a href="http://rachelbythebay.com/w/2025/01/04/cruft/">„Nepříjemnosti webových stránek, které vám zde nezpůsobuji“</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42599102">Reakce</a></h3>
-<ul>
-<li>„Autor se vyhýbá používání určitých webových funkcí, jako jsou lepkavé lišty, vynucené SSL/TLS, vyskakovací okna a zbytečné sledování, aby zlepšil uživatelský zážitek.“</li>
-<li>„Probíhá debata o nutnosti HTTPS pro zabezpečení versus jeho problémy s kompatibilitou se staršími prohlížeči.“</li>
-<li>„Diskuse zdůrazňuje výzvu vyvážení uživatelské zkušenosti s moderními webovými praktikami.“</li>
-</ul>
-<h2><a href="https://tailscale.com/blog/how-nat-traversal-works">„Jak funguje NAT Traversal (2020)“</a></h2>
-<ul>
-<li>„Průchod NAT umožňuje přímé spojení zařízení navzdory přítomnosti překladačů síťových adres (NAT) a firewallů, a to pomocí protokolů založených na UDP a přímé kontrole soketů.“</li>
-<li>„Techniky jako STUN (Session Traversal Utilities for NAT) pomáhají při zjišťování veřejných IP adres, zatímco relé jako TURN (Traversal Using Relays around NAT) nebo Tailscale&#39;s DERP se používají pro složitější NATy.“</li>
-<li>„Protokol ICE (Interactive Connectivity Establishment) optimalizuje cesty připojení tím, že vyhodnocuje všechny možné možnosti a vybírá tu nejefektivnější, čímž zajišťuje spolehlivé překonání NAT s end-to-end šifrováním a autentizací.“</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42600846">Reakce</a></h3>
-<ul>
-<li>„Článek zkoumá průchod NAT (Network Address Translation), zdůrazňuje rozdíly mezi TCP (Transmission Control Protocol) a UDP (User Datagram Protocol) hole punching, přičemž poznamenává, že TCP je mírně složitější.“</li>
-<li>„Zpochybňuje vnímání NAT jako bezpečnostního prvku a diskutuje metodu Tailscale pro překonání NAT, přičemž vyvolává obavy z toho, že se spoléhá pouze na softwarové ACL (seznamy řízení přístupu) pro zabezpečení.“</li>
-<li>„Diskuse zdůrazňuje důležitost zabezpečených koncových bodů a kritizuje omezení konvenčních strategií síťové bezpečnosti v kontextu průchodu NAT.“</li>
-</ul>
-<h2><a href="https://amanvir.com/guten">„Guten: Malá tiskárna novin“</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42599599">Reakce</a></h3>
-<ul>
-<li>„Guten je projekt malého měřítka pro tisk novin, který je navržen tak, aby minimalizoval čas strávený u obrazovky tím, že poskytuje zprávy v tištěné podobě. - Diskuse kolem projektu zahrnují obavy ohledně obsahu BPA v termálním papíru a návrhy na použití alternativ bez BPA nebo různých tiskových technologií, jako jsou nárazové nebo jehličkové tiskárny. - Jsou prováděna srovnání s ukončeným projektem Little Printer, s doporučeními pro zlepšení přívětivosti Guten pro vývojáře a možností přizpůsobení, spolu s úvahami o environmentálních a zdravotních dopadech termálního papíru.“</li>
-</ul>
-<head>
-  <meta property="og:title" content="„Výzkumníci navrhují nositelnou technologii, která dokáže přesněji snímat hladiny glukózy“" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9EV%C3%BDzkumn%C3%ADci%20navrhuj%C3%AD%20nositelnou%20technologii%2C%20kter%C3%A1%20dok%C3%A1%C5%BEe%20p%C5%99esn%C4%9Bji%20sn%C3%ADmat%20hladiny%20gluk%C3%B3zy%E2%80%9C&subheading=ned%C4%9Ble%205.%20ledna%202025%3A%20Hacker%20News%20Shrnut%C3%AD" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/cs/2025/01/05</link>
-            <guid isPermaLink="false">2025-01-05T00:00:00.000Z</guid>
-            <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

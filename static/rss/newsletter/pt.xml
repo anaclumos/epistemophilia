@@ -15,12 +15,97 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Jan 2025 19:14:17 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Jan 2025 19:10:12 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/pt.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Tue, 14 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[pt]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-15]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/15&#39;</h2>
+<h1>2025-01-15</h1>
+<h2><a href="https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity/">Não use a similaridade cosseno de forma descuidada</a></h2>
+<ul>
+<li>Semelhança cosseno, um método para comparar vetores, pode ser enganosa se usada sem entender o contexto, pois pode não capturar com precisão semelhanças semânticas. - Embeddings, como os do word2vec ou embeddings de sentenças de Modelos de Linguagem de Grande Escala (LLMs), requerem uso cuidadoso e intencional para garantir que reflitam os relacionamentos desejados. - Para melhorar os resultados de similaridade de vetores, considere usar LLMs diretamente, criar embeddings específicos para tarefas através de ajuste fino e garantir que o texto esteja limpo e os prompts sejam bem elaborados antes da incorporação.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42704078">Reações</a></h3>
+<ul>
+<li>Em aplicações de Geração Aumentada por Recuperação (RAG), o uso de um &quot;re-ranker semântico&quot; pode melhorar a correspondência de consultas de usuários ao empregar similaridade cosseno. - Evite armazenar embeddings vetoriais de conteúdo vazio, pois podem levar a correspondências falsas; alguns projetos usam codificações especiais para representar &quot;nada&quot; para evitar esse problema. - Explorar alternativas como Modelos de Linguagem de Grande Escala (LLMs), cross-encoders, modelos de re-ranqueamento L2 ou métodos baseados em grafos pode fornecer resultados de recuperação mais precisos do que confiar apenas na similaridade cosseno.</li>
+</ul>
+<h2><a href="https://ij.org/press-release/nevada-court-shuts-down-police-use-of-federal-loophole-for-civil-forfeiture/">Tribunal de Nevada Interrompe Uso de Brecha Federal pela Polícia para Confisco Civil</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42707573">Reações</a></h3>
+<ul>
+<li>A corte de Nevada decidiu contra o uso, pela polícia, de uma brecha federal para confisco civil, onde bens são apreendidos sem acusar o proprietário de um crime.</li>
+<li>Esta decisão destaca o debate sobre as leis de confisco civil, criticadas por presumir culpa e potencialmente levar à corrupção.</li>
+<li>A questão envolveu as economias de uma vida de um homem apreendidas durante uma parada de trânsito, destacando a necessidade de ação legal e atenção da mídia para proteger os direitos dos cidadãos.</li>
+</ul>
+<h2><a href="https://www.reuters.com/technology/tiktok-preparing-us-shut-off-sunday-information-reports-2025-01-15/">TikTok se prepara para desligamento nos EUA no domingo</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42710339">Reações</a></h3>
+<ul>
+<li>TikTok está enfrentando uma possível suspensão nos EUA, levando os usuários a explorar alternativas como Xiaohongshu, YouTube Shorts e Instagram Reels. - Xiaohongshu, popular na China, não é adaptado para o público ocidental, levantando preocupações sobre interações diretas entre usuários chineses e americanos. - O governo dos EUA cita preocupações de segurança nacional, incluindo temores de influência estrangeira e propaganda, como razões para considerar uma proibição do TikTok.</li>
+</ul>
+<h2><a href="https://claudio.uk/posts/epub-to-audiobook.html">Gerar audiolivros a partir de e-books com Kokoro-82M</a></h2>
+<ul>
+<li>Kokoro v0.19 é um novo modelo de conversão de texto em fala com 82 milhões de parâmetros, oferecendo saída de áudio de alta qualidade em vários idiomas, incluindo inglês americano e britânico, francês, coreano, japonês e mandarim.</li>
+<li>Claudio Santini desenvolveu o Audiblez, uma ferramenta que converte e-books em audiolivros usando o Kokoro, processando arquivos .epub e gerando arquivos de áudio, com um tempo de conversão de cerca de 2 horas para um livro de 100.000 palavras em um MacBook Pro M2.</li>
+<li>Audiblez requer instalação via pip, suporta vários idiomas e vozes, e necessita do ffmpeg para a criação de arquivos .m4b, com a ferramenta disponível no GitHub para desenvolvimento e melhorias adicionais.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42708773">Reações</a></h3>
+<ul>
+<li>Kokoro-82M é uma ferramenta de IA projetada para converter e-books em audiolivros, oferecendo conveniência, especialmente para obras de não-ficção.</li>
+<li>Embora os audiolivros gerados por IA possam preencher lacunas onde não existem versões narradas por humanos, eles atualmente carecem da profundidade emocional e do caráter fornecidos por narradores humanos.</li>
+<li>O instrumento provoca debate sobre o impacto da IA nas profissões criativas, traçando paralelos com mudanças tecnológicas históricas e levantando preocupações sobre a diminuição de oportunidades para treinamento e experiência nesses campos.</li>
+</ul>
+<h2><a href="https://www.theautopian.com/if-you-ever-see-this-speed-sign-youre-probably-going-to-die/">Placas de sinalização para ajudar as pessoas a limitar a exposição à radiação em áreas contaminadas</a></h2>
+<ul>
+<li>O Manual sobre Dispositivos de Controle de Tráfego Uniformes (MUTCD) contém sinais da era da Guerra Fria, como &#39;MANTENHA A VELOCIDADE MÁXIMA SEGURA&#39;, destinados a zonas de contaminação radiológica.</li>
+<li>Esses sinais faziam parte das estratégias de Defesa Civil para proteger os cidadãos durante um possível apocalipse nuclear, embora nunca tenham sido utilizados.</li>
+<li>Alguns desses sinais ainda estão incluídos no MUTCD como sinais de Gestão de Emergências, destacando medos históricos e esforços de preparação daquele período.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42704491">Reações</a></h3>
+<ul>
+<li>As autoridades estão considerando sinais de trânsito para aconselhar viagens em alta velocidade através de áreas contaminadas, a fim de reduzir a exposição à radiação minimizando o tempo gasto nessas zonas. - A discussão traça paralelos com Chernobyl e Fukushima, enfatizando preocupações sobre inalação e contaminação por poeira radioativa. - Questões geopolíticas mais amplas, incluindo nacionalismo e dissuasão nuclear, também fazem parte da conversa, refletindo sobre tensões globais históricas e atuais.</li>
+</ul>
+<h2><a href="https://wtfhappenedin1971.com/">Que Diabos Aconteceu em 1971? (2019)</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42711781">Reações</a></h3>
+<ul>
+<li>O site &#39;WTF Happened in 1971?&#39; examina mudanças econômicas e sociais significativas que começaram em 1971, frequentemente associadas ao fim do padrão ouro.</li>
+<li>A discussão inclui diversos pontos de vista sobre as causas dessas mudanças, como o aumento da remuneração dos executivos, a crise do petróleo e as mudanças nas políticas econômicas.</li>
+<li>O debate também considera os efeitos do Choque Nixon, o papel do crédito e da moeda fiduciária, e fatores mais amplos como urbanização e preços de energia.</li>
+</ul>
+<h2><a href="https://philipotoole.com/how-is-rqlite-tested/">Como o rqlite é testado</a></h2>
+<ul>
+<li>rqlite é um banco de dados distribuído leve que combina SQLite e Raft, focando na confiabilidade e qualidade através de uma estratégia de teste estruturada. - A estratégia de teste segue a pirâmide de testes, enfatizando testes unitários para componentes isolados, testes de integração para validação em nível de sistema e testes de ponta a ponta mínimos para verificações básicas de operação. - Lições importantes da abordagem de teste do rqlite incluem começar a testar cedo, simplificar o código de teste e garantir o determinismo, o que ajuda a manter alta qualidade com mínimo esforço.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42703282">Reações</a></h3>
+<ul>
+<li>A discussão foca em estratégias de teste para o rqlite, um banco de dados distribuído baseado no SQLite, enfatizando testes iniciais, a pirâmide de testes, e testes parametrizados e de propriedades.</li>
+<li>Os desafios com testes de ponta a ponta (E2E) em sistemas complexos são destacados, juntamente com a escolha da linguagem de programação Go para rqlite e preocupações de segurança.</li>
+<li>Os testes de simulação determinística são mencionados como um padrão elevado para a confiabilidade de bancos de dados, com referências a outros bancos de dados como o FoundationDB, mostrando perspectivas diversas sobre práticas eficazes de teste.</li>
+</ul>
+<h2><a href="https://www.vijayp.dev/blog/rewrite-plain-html/">Reescrevendo meu site em HTML e CSS puro</a></h2>
+<ul>
+<li>O autor reconstruiu seu site usando HTML e CSS puros, afastando-se do SvelteKit, para simplificar o site e hospedá-lo no Cloudflare Pages. - Eles usaram Pandoc para converter Markdown em HTML e Python para scripts, resultando em um site menor, reduzindo o tamanho dos ativos de ~356kb para ~88kb. - O projeto destacou desafios como duplicação de código e falta de recarregamento ao vivo, com planos de explorar componentes web e FastAPI para resolver essas questões, potencialmente servindo como um modelo para outros que buscam um site sem framework com postagens em Markdown.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42705077">Reações</a></h3>
+<ul>
+<li>O autor mantém um site pessoal usando HTML e CSS simples, apreciando o compromisso mínimo de tempo e o aprimoramento de habilidades que isso proporciona.</li>
+<li>O site é hospedado no GitHub Pages, e o conteúdo é elaborado no MS Word antes de ser atualizado manualmente.</li>
+<li>Apesar das sugestões para usar inclusões do lado do servidor ou geradores de sites estáticos como Jekyll ou Hugo, o autor valoriza o controle e a simplicidade de seu método atual.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Não use a similaridade cosseno de forma descuidada" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=N%C3%A3o%20use%20a%20similaridade%20cosseno%20de%20forma%20descuidada&subheading=quarta-feira%2C%2015%20de%20janeiro%20de%202025%3A%20Resumo%20do%20Hacker%20News" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/pt/2025/01/15</link>
+            <guid isPermaLink="false">2025-01-15T00:00:00.000Z</guid>
+            <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-14]]></title>
             <description
@@ -1120,68 +1205,6 @@
             <link>https://hn.cho.sh/pt/2025/01/06</link>
             <guid isPermaLink="false">2025-01-06T00:00:00.000Z</guid>
             <pubDate>Mon, 06 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2025-01-05]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2025/01/05&#39;</h2>
-<h1>2025-01-05</h1>
-<h2><a href="https://uwaterloo.ca/news/media/no-more-needles-tracking-blood-sugar-your-wrist">Pesquisadores desenvolvem tecnologia vestível que pode detectar níveis de glicose com mais precisão</a></h2>
-<ul>
-<li>Pesquisadores da Universidade de Waterloo criaram um dispositivo vestível que utiliza tecnologia de radar para monitorar os níveis de glicose de forma não invasiva, eliminando a necessidade de agulhas.</li>
-<li>O dispositivo, liderado pelo Dr. George Shaker, incorpora um chip de radar, uma meta-superfície para melhorar a precisão do sinal e algoritmos de IA para leituras precisas de glicose.</li>
-<li>Atualmente alimentado por USB, o dispositivo pretende se tornar operado por bateria para melhorar a portabilidade e pode eventualmente monitorar métricas adicionais de saúde, com esforços em andamento para comercializar a tecnologia.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42599189">Reações</a></h3>
-<ul>
-<li>Pesquisadores criaram tecnologia vestível para monitoramento não invasivo de glicose, oferecendo uma alternativa à punção digital e aos Monitores Contínuos de Glicose (CGMs).</li>
-<li>O objetivo da tecnologia é fornecer leituras precisas de glicose sem contato direto com a corrente sanguínea, o que pode ser significativo para aplicações clínicas.</li>
-<li>Embora promissor, há ceticismo sobre sua precisão em comparação com os CGMs existentes, e são necessários mais dados e ensaios clínicos para confirmar sua eficácia.</li>
-</ul>
-<h2><a href="https://nmn.gl/blog/ai-senior-developer">O dia em que ensinei a IA a ler código como um Desenvolvedor Sênior</a></h2>
-<ul>
-<li>A IA foi inicialmente desafiada a analisar bases de código React, abordando-as como um desenvolvedor novato. - Ao emular estratégias de desenvolvedores seniores, como focar em arquivos principais e agrupar mudanças por funcionalidade, a análise de código da IA melhorou significativamente. - O foco está em aprimorar a compreensão do código em vez de sua geração, com planos futuros para identificar dívidas técnicas e compreender convenções da equipe.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42601847">Reações</a></h3>
-<ul>
-<li>O artigo explora os desafios de treinar IA para ler e analisar código com a proficiência de um desenvolvedor sênior, observando a dificuldade em alcançar resultados consistentes e precisos.</li>
-<li>Destaca a importância de fornecer contexto e estruturar entradas para melhorar o desempenho da IA na análise de código, ao mesmo tempo que reconhece o ceticismo em relação às capacidades atuais da IA.</li>
-<li>A discussão destaca a necessidade de mais experimentação e avaliação para validar o desempenho da IA e considera as implicações mais amplas e os potenciais avanços da IA no desenvolvimento de software.</li>
-</ul>
-<h2><a href="http://rachelbythebay.com/w/2025/01/04/cruft/">Aborrecimentos de páginas da web que eu não imponho a você aqui</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42599102">Reações</a></h3>
-<ul>
-<li>O autor evita usar certos recursos da web, como barras fixas, SSL/TLS forçado, pop-ups e rastreamento desnecessário para melhorar a experiência do usuário.</li>
-<li>Há um debate em andamento sobre a necessidade do HTTPS para segurança versus seus problemas de compatibilidade com navegadores mais antigos.</li>
-<li>A discussão destaca o desafio de equilibrar a experiência do usuário com as práticas modernas da web.</li>
-</ul>
-<h2><a href="https://tailscale.com/blog/how-nat-traversal-works">Como Funciona a Travessia NAT (2020)</a></h2>
-<ul>
-<li>NAT traversal permite conexões diretas entre dispositivos, apesar da presença de Tradutores de Endereços de Rede (NATs) e firewalls, utilizando protocolos baseados em UDP e controle direto de soquetes.</li>
-<li>Técnicas como STUN (Session Traversal Utilities for NAT) ajudam na descoberta de endereços IP públicos, enquanto relays como TURN (Traversal Using Relays around NAT) ou DERP da Tailscale são usados para NATs mais desafiadores.</li>
-<li>O protocolo ICE (Interactive Connectivity Establishment) otimiza os caminhos de conexão avaliando todas as opções possíveis e selecionando a mais eficiente, garantindo uma travessia NAT robusta com criptografia e autenticação de ponta a ponta.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42600846">Reações</a></h3>
-<ul>
-<li>O artigo explora a travessia de NAT (Tradução de Endereços de Rede), enfatizando as diferenças entre o furo de bloqueio de TCP (Protocolo de Controle de Transmissão) e UDP (Protocolo de Datagrama de Usuário), observando a complexidade ligeiramente maior do TCP.</li>
-<li>Desafia a percepção do NAT como um recurso de segurança e discute o método da Tailscale para a travessia de NAT, levantando preocupações sobre depender exclusivamente de ACLs (Listas de Controle de Acesso) de software para segurança.</li>
-<li>A discussão destaca a importância de endpoints seguros e critica as limitações das estratégias convencionais de segurança de rede no contexto da travessia de NAT.</li>
-</ul>
-<h2><a href="https://amanvir.com/guten">Guten: Uma Pequena Impressora de Jornais</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42599599">Reações</a></h3>
-<ul>
-<li>Guten é um projeto de impressora de jornal em pequena escala, projetado para minimizar o tempo de tela ao entregar notícias em formato impresso. - As discussões em torno do projeto incluem preocupações sobre o conteúdo de BPA no papel térmico e sugestões para usar alternativas sem BPA ou diferentes tecnologias de impressão, como impressoras de impacto ou matriciais. - São feitas comparações com a descontinuada Little Printer, com recomendações para melhorar a facilidade de desenvolvimento e as opções de personalização do Guten, juntamente com considerações sobre os impactos ambientais e de saúde do papel térmico.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Pesquisadores desenvolvem tecnologia vestível que pode detectar níveis de glicose com mais precisão" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Pesquisadores%20desenvolvem%20tecnologia%20vest%C3%ADvel%20que%20pode%20detectar%20n%C3%ADveis%20de%20glicose%20com%20mais%20precis%C3%A3o&subheading=domingo%2C%205%20de%20janeiro%20de%202025%3A%20Resumo%20do%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/pt/2025/01/05</link>
-            <guid isPermaLink="false">2025-01-05T00:00:00.000Z</guid>
-            <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

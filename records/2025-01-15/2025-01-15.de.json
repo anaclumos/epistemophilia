@@ -1,0 +1,154 @@
+[
+  {
+    "id": 42704078,
+    "title": "„Verwenden Sie die Kosinus-Ähnlichkeit nicht unbedacht“",
+    "originLink": "https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42704078",
+    "commentBody": "",
+    "originSummary": [
+      "„Kosinus-Ähnlichkeit, eine Methode zum Vergleichen von Vektoren, kann irreführend sein, wenn sie ohne Verständnis des Kontexts verwendet wird, da sie möglicherweise semantische Ähnlichkeiten nicht genau erfasst. - Einbettungen, wie die von word2vec oder Satz-Einbettungen von großen Sprachmodellen (LLMs), erfordern eine sorgfältige und gezielte Verwendung, um sicherzustellen, dass sie die gewünschten Beziehungen widerspiegeln. - Um die Ergebnisse der Vektorähnlichkeit zu verbessern, sollten Sie in Betracht ziehen, LLMs direkt zu verwenden, aufgabenspezifische Einbettungen durch Feinabstimmung zu erstellen und sicherzustellen, dass der Text sauber ist und die Eingabeaufforderungen gut gestaltet sind, bevor sie eingebettet werden.“"
+    ],
+    "commentSummary": [
+      "„In Retrieval-Augmented Generation (RAG)-Anwendungen kann die Verwendung eines „semantischen Re-Rankers“ die Übereinstimmung von Benutzeranfragen verbessern, wenn die Kosinusähnlichkeit eingesetzt wird. - Vermeiden Sie das Speichern von Vektoreinbettungen leerer Inhalte, da diese zu falschen Übereinstimmungen führen können; einige Projekte verwenden spezielle Kodierungen, um „Nichts“ darzustellen und dieses Problem zu verhindern. - Die Erkundung von Alternativen wie großen Sprachmodellen (LLMs), Cross-Encodern, L2-Re-Ranking-Modellen oder graphbasierten Methoden kann genauere Abrufergebnisse liefern, als sich ausschließlich auf die Kosinusähnlichkeit zu verlassen.“"
+    ],
+    "points": 399,
+    "commentCount": 76,
+    "retryCount": 0,
+    "time": 1736889801
+  },
+  {
+    "id": 42707573,
+    "title": "„Nevada-Gericht stoppt Polizeinutzung von Bundes-Schlupfloch für zivilrechtliche Einziehung“",
+    "originLink": "https://ij.org/press-release/nevada-court-shuts-down-police-use-of-federal-loophole-for-civil-forfeiture/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42707573",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "„Ein Gericht in Nevada hat gegen die Nutzung einer bundesstaatlichen Lücke durch die Polizei für zivilrechtliche Einziehung entschieden, bei der Vermögenswerte beschlagnahmt werden, ohne den Eigentümer eines Verbrechens zu beschuldigen.“",
+      "„Diese Entscheidung unterstreicht die Debatte über Gesetze zur zivilrechtlichen Einziehung, die dafür kritisiert werden, Schuld anzunehmen und möglicherweise zu Korruption zu führen.“",
+      "„Der Fall betraf die Lebensersparnisse eines Mannes, die bei einer Verkehrskontrolle beschlagnahmt wurden, was die Notwendigkeit rechtlicher Schritte und medialer Aufmerksamkeit zur Wahrung der Bürgerrechte unterstreicht.“"
+    ],
+    "points": 369,
+    "commentCount": 196,
+    "retryCount": 0,
+    "time": 1736918124
+  },
+  {
+    "id": 42710339,
+    "title": "„TikTok bereitet sich auf die Abschaltung in den USA am Sonntag vor“",
+    "originLink": "https://www.reuters.com/technology/tiktok-preparing-us-shut-off-sunday-information-reports-2025-01-15/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42710339",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "„TikTok steht in den USA vor einer möglichen Abschaltung, was die Nutzer dazu veranlasst, Alternativen wie Xiaohongshu, YouTube Shorts und Instagram Reels zu erkunden. - Xiaohongshu, das in China beliebt ist, ist nicht auf westliche Zielgruppen zugeschnitten, was Bedenken hinsichtlich direkter Interaktionen zwischen chinesischen und US-amerikanischen Nutzern aufwirft. - Die US-Regierung nennt nationale Sicherheitsbedenken, einschließlich der Angst vor ausländischem Einfluss und Propaganda, als Gründe für die Erwägung eines TikTok-Verbots.“"
+    ],
+    "points": 329,
+    "commentCount": 981,
+    "retryCount": 0,
+    "time": 1736945851
+  },
+  {
+    "id": 42708773,
+    "title": "„Erstellen Sie Hörbücher aus E-Books mit Kokoro-82M“",
+    "originLink": "https://claudio.uk/posts/epub-to-audiobook.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42708773",
+    "commentBody": "",
+    "originSummary": [
+      "„Kokoro v0.19 ist ein neues Text-to-Speech-Modell mit 82 Millionen Parametern, das hochwertige Audioausgabe in mehreren Sprachen bietet, darunter amerikanisches und britisches Englisch, Französisch, Koreanisch, Japanisch und Mandarin.“",
+      "„Claudio Santini entwickelte Audiblez, ein Tool, das E-Books in Hörbücher umwandelt, indem es Kokoro verwendet, .epub-Dateien verarbeitet und Audiodateien generiert, mit einer Umwandlungszeit von etwa 2 Stunden für ein Buch mit 100.000 Wörtern auf einem M2 MacBook Pro.“",
+      "„Audiblez erfordert die Installation über pip, unterstützt verschiedene Sprachen und Stimmen und benötigt ffmpeg zur Erstellung von .m4b-Dateien. Das Tool ist auf GitHub für weitere Entwicklung und Verbesserungen verfügbar.“"
+    ],
+    "commentSummary": [
+      "„Kokoro-82M ist ein KI-Tool, das entwickelt wurde, um E-Books in Hörbücher umzuwandeln und bietet insbesondere für Sachbücher Komfort.“",
+      "„Während KI-generierte Hörbücher Lücken füllen können, in denen keine von Menschen erzählten Versionen existieren, fehlt ihnen derzeit die emotionale Tiefe und der Charakter, den menschliche Erzähler bieten.“",
+      "„Das Werkzeug entfacht eine Debatte über den Einfluss von KI auf kreative Berufe, zieht Parallelen zu historischen technologischen Veränderungen und wirft Bedenken hinsichtlich der abnehmenden Möglichkeiten für Ausbildung und Erfahrung in diesen Bereichen auf.“"
+    ],
+    "points": 323,
+    "commentCount": 194,
+    "retryCount": 0,
+    "time": 1736930858
+  },
+  {
+    "id": 42704491,
+    "title": "„Verkehrsschilder, die Menschen helfen, die Strahlenbelastung in kontaminierten Gebieten zu begrenzen“",
+    "originLink": "https://www.theautopian.com/if-you-ever-see-this-speed-sign-youre-probably-going-to-die/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42704491",
+    "commentBody": "",
+    "originSummary": [
+      "„Das Handbuch für einheitliche Verkehrssteuerungsgeräte (MUTCD) enthält Zeichen aus der Zeit des Kalten Krieges, wie „HALTEN SIE DIE HÖCHSTSICHERE GESCHWINDIGKEIT EIN“, die für radiologische Kontaminationszonen vorgesehen sind.“",
+      "„Diese Schilder waren Teil der Zivilschutzstrategien, um die Bürger während eines potenziellen nuklearen Weltuntergangs zu schützen, obwohl sie nie genutzt wurden.“",
+      "„Einige dieser Schilder sind immer noch im MUTCD als Notfallmanagement-Schilder enthalten und heben die historischen Ängste und Vorbereitungsbemühungen aus dieser Zeit hervor.“"
+    ],
+    "commentSummary": [
+      "„Die Behörden erwägen Verkehrsschilder, um auf eine schnelle Durchfahrt durch kontaminierte Gebiete hinzuweisen, um die Strahlenbelastung zu verringern, indem die Verweildauer in diesen Zonen minimiert wird. - Die Diskussion zieht Parallelen zu Tschernobyl und Fukushima und betont die Bedenken hinsichtlich der Inhalation und Kontamination durch radioaktiven Staub. - Größere geopolitische Themen, einschließlich Nationalismus und nukleare Abschreckung, sind ebenfalls Teil des Gesprächs und spiegeln historische und aktuelle globale Spannungen wider.“"
+    ],
+    "points": 261,
+    "commentCount": 185,
+    "retryCount": 0,
+    "time": 1736891952
+  },
+  {
+    "id": 42711781,
+    "title": "„WTF geschah 1971? (2019)“",
+    "originLink": "https://wtfhappenedin1971.com/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42711781",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "„Die Website „WTF Happened in 1971?“ untersucht bedeutende wirtschaftliche und gesellschaftliche Veränderungen, die 1971 begannen und oft mit dem Ende des Goldstandards in Verbindung gebracht werden.“",
+      "„Die Diskussion umfasst unterschiedliche Standpunkte zu den Ursachen dieser Veränderungen, wie zum Beispiel die gestiegene Vergütung von Führungskräften, die Ölkrise und Änderungen in der Wirtschaftspolitik.“",
+      "„Die Debatte berücksichtigt auch die Auswirkungen des Nixon-Schocks, die Rolle von Krediten und Fiat-Währung sowie breitere Faktoren wie Urbanisierung und Energiepreise.“"
+    ],
+    "points": 238,
+    "commentCount": 188,
+    "retryCount": 0,
+    "time": 1736954220
+  },
+  {
+    "id": 42703282,
+    "title": "„Wie rqlite getestet wird“",
+    "originLink": "https://philipotoole.com/how-is-rqlite-tested/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42703282",
+    "commentBody": "",
+    "originSummary": [
+      "„rqlite ist eine leichtgewichtige verteilte Datenbank, die SQLite und Raft kombiniert und sich durch eine strukturierte Teststrategie auf Zuverlässigkeit und Qualität konzentriert. - Die Teststrategie folgt der Testpyramide, wobei der Schwerpunkt auf Unit-Tests für isolierte Komponenten, Integrationstests für die Validierung auf Systemebene und minimalen End-to-End-Tests für grundlegende Funktionsprüfungen liegt. - Wichtige Erkenntnisse aus dem Testansatz von rqlite sind, früh mit dem Testen zu beginnen, den Testcode zu vereinfachen und Determinismus sicherzustellen, was hilft, hohe Qualität mit minimalem Aufwand zu erhalten.“"
+    ],
+    "commentSummary": [
+      "„Die Diskussion konzentriert sich auf Teststrategien für rqlite, eine verteilte Datenbank basierend auf SQLite, wobei der Schwerpunkt auf anfänglichen Tests, der Testpyramide sowie parametrisierten und Eigenschaftstests liegt.“",
+      "„Herausforderungen bei End-to-End (E2E)-Tests in komplexen Systemen werden hervorgehoben, zusammen mit der Wahl der Programmiersprache Go für rqlite und Sicherheitsbedenken.“",
+      "„Deterministische Simulationstests werden als hoher Standard für die Zuverlässigkeit von Datenbanken erwähnt, mit Verweisen auf andere Datenbanken wie FoundationDB, die unterschiedliche Perspektiven auf effektive Testpraktiken aufzeigen.“"
+    ],
+    "points": 229,
+    "commentCount": 44,
+    "retryCount": 0,
+    "time": 1736886107
+  },
+  {
+    "id": 42705077,
+    "title": "„Meine Website in einfachem HTML und CSS neu schreiben“",
+    "originLink": "https://www.vijayp.dev/blog/rewrite-plain-html/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42705077",
+    "commentBody": "",
+    "originSummary": [
+      "„Der Autor hat seine Website mit einfachem HTML und CSS neu aufgebaut und sich von SvelteKit entfernt, um die Seite zu vereinfachen und sie auf Cloudflare Pages zu hosten. - Sie nutzten Pandoc zur Umwandlung von Markdown in HTML und Python für das Scripting, was zu einer kleineren Website führte und die Asset-Größe von ~356kb auf ~88kb reduzierte. - Das Projekt hob Herausforderungen wie Code-Duplikation und das Fehlen von Live-Reloading hervor, mit Plänen, Webkomponenten und FastAPI zu erkunden, um diese Probleme anzugehen, was möglicherweise als Vorlage für andere dienen könnte, die eine frameworkfreie Website mit Markdown-Posts anstreben.“"
+    ],
+    "commentSummary": [
+      "„Der Autor betreibt eine persönliche Website mit einfachem HTML und CSS und schätzt den minimalen Zeitaufwand und die Verbesserung der Fähigkeiten, die dies mit sich bringt.“",
+      "„Die Website wird auf GitHub Pages gehostet, und der Inhalt wird in MS Word entworfen, bevor er manuell aktualisiert wird.“",
+      "„Trotz der Vorschläge, serverseitige Includes oder statische Site-Generatoren wie Jekyll oder Hugo zu verwenden, schätzt der Autor die Kontrolle und Einfachheit seiner aktuellen Methode.“"
+    ],
+    "points": 180,
+    "commentCount": 167,
+    "retryCount": 0,
+    "time": 1736895439
+  }
+]

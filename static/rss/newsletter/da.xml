@@ -15,12 +15,97 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Jan 2025 19:14:17 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Jan 2025 19:10:12 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/da.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Tue, 14 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[da]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-15]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/15&#39;</h2>
+<h1>2025-01-15</h1>
+<h2><a href="https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity/">Brug ikke cosinuslignendehed skødesløst</a></h2>
+<ul>
+<li>Cosinus-similaritet, en metode til at sammenligne vektorer, kan være vildledende, hvis den bruges uden forståelse for konteksten, da den måske ikke nøjagtigt fanger semantiske ligheder. - Indlejrede repræsentationer, såsom dem fra word2vec eller sætningsindlejringer fra store sprogmodeller (LLMs), kræver omhyggelig og bevidst brug for at sikre, at de afspejler de ønskede relationer. - For at forbedre resultaterne af vektorsimilaritet kan man overveje at bruge LLM&#39;er direkte, skabe opgavespecifikke indlejringer gennem finjustering og sikre, at teksten er ren, og at promptene er veludformede, før de indlejres.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42704078">Reaktioner</a></h3>
+<ul>
+<li>I Retrieval-Augmented Generation (RAG) applikationer kan brugen af en &quot;semantisk re-ranker&quot; forbedre matchningen af brugerforespørgsler, når man anvender cosinus-similaritet. - Undgå at gemme vektorembedninger af tomt indhold, da de kan føre til falske match; nogle projekter bruger specielle kodninger til at repræsentere &quot;intethed&quot; for at forhindre dette problem. - At udforske alternativer som store sprogmodeller (LLMs), krydskodere, L2 re-rangeringsmodeller eller grafbaserede metoder kan give mere præcise resultater ved hentning end at stole udelukkende på cosinus-similaritet.</li>
+</ul>
+<h2><a href="https://ij.org/press-release/nevada-court-shuts-down-police-use-of-federal-loophole-for-civil-forfeiture/">Retten i Nevada lukker politiets brug af føderale smuthuller til civil konfiskation</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42707573">Reaktioner</a></h3>
+<ul>
+<li>En domstol i Nevada har afgjort imod politiets brug af et føderalt smuthul for civil konfiskation, hvor aktiver beslaglægges uden at anklage ejeren for en forbrydelse.</li>
+<li>Denne beslutning understreger debatten om love om civil konfiskation, som kritiseres for at antage skyld og potentielt føre til korruption.</li>
+<li>Den sag involverede en mands livsopsparing, der blev beslaglagt under et trafikstop, hvilket understreger behovet for juridiske skridt og medieopmærksomhed for at beskytte borgernes rettigheder.</li>
+</ul>
+<h2><a href="https://www.reuters.com/technology/tiktok-preparing-us-shut-off-sunday-information-reports-2025-01-15/">TikTok forbereder sig på lukning i USA på søndag</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42710339">Reaktioner</a></h3>
+<ul>
+<li>TikTok står over for en potentiel nedlukning i USA, hvilket får brugere til at udforske alternativer som Xiaohongshu, YouTube Shorts og Instagram Reels. - Xiaohongshu, der er populær i Kina, er ikke tilpasset vestlige publikum, hvilket rejser bekymringer om direkte interaktioner mellem kinesiske og amerikanske brugere. - Den amerikanske regering nævner nationale sikkerhedsmæssige bekymringer, herunder frygt for udenlandsk indflydelse og propaganda, som grunde til at overveje et TikTok-forbud.</li>
+</ul>
+<h2><a href="https://claudio.uk/posts/epub-to-audiobook.html">Generer lydbøger fra e-bøger med Kokoro-82M</a></h2>
+<ul>
+<li>Kokoro v0.19 er en ny tekst-til-tale-model med 82 millioner parametre, der leverer lydoutput af høj kvalitet på flere sprog, herunder amerikansk og britisk engelsk, fransk, koreansk, japansk og mandarin.</li>
+<li>Claudio Santini udviklede Audiblez, et værktøj, der konverterer e-bøger til lydbøger ved hjælp af Kokoro, som behandler .epub-filer og genererer lydfiler, med en konverteringstid på omkring 2 timer for en bog på 100.000 ord på en M2 MacBook Pro.</li>
+<li>Audiblez kræver installation via pip, understøtter forskellige sprog og stemmer, og har brug for ffmpeg til oprettelse af .m4b-filer, med værktøjet tilgængeligt på GitHub for yderligere udvikling og forbedringer.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42708773">Reaktioner</a></h3>
+<ul>
+<li>Kokoro-82M er et AI-værktøj designet til at konvertere e-bøger til lydbøger, hvilket tilbyder bekvemmelighed, især for faglitterære værker.</li>
+<li>Mens AI-genererede lydbøger kan udfylde huller, hvor der ikke findes menneskeligt indtalte versioner, mangler de i øjeblikket den følelsesmæssige dybde og karakter, som menneskelige fortællere giver.</li>
+<li>Værktøjet vækker debat om AI&#39;s indvirkning på kreative erhverv, trækker paralleller til historiske teknologiske skift og rejser bekymringer om faldende muligheder for træning og erfaring inden for disse områder.</li>
+</ul>
+<h2><a href="https://www.theautopian.com/if-you-ever-see-this-speed-sign-youre-probably-going-to-die/">Vejskilte til at hjælpe folk med at begrænse strålingseksponering i forurenede områder</a></h2>
+<ul>
+<li>Manualen om ensartede trafikstyringsenheder (MUTCD) indeholder skilte fra den kolde krigs æra, såsom &quot;OPRETHOLD TOP SIKKER HASTIGHED,&quot; beregnet til radiologiske forureningszoner.</li>
+<li>Disse skilte var en del af Civilforsvarets strategier for at beskytte borgere under en potentiel nuklear apokalypse, selvom de aldrig blev brugt.</li>
+<li>Enkelte af disse skilte er stadig inkluderet i MUTCD som skilte til nødberedskab, hvilket fremhæver historiske frygt og beredskabsindsatser fra den periode.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42704491">Reaktioner</a></h3>
+<ul>
+<li>Autoriteterne overvejer vejskilte for at rådgive om højhastighedskørsel gennem forurenede områder for at reducere strålingseksponering ved at minimere den tid, der tilbringes i disse zoner. - Diskussionen trækker paralleller til Tjernobyl og Fukushima og understreger bekymringer om indånding og forurening fra radioaktivt støv. - Større geopolitiske spørgsmål, herunder nationalisme og atomafskrækkelse, er også en del af samtalen, hvilket afspejler historiske og aktuelle globale spændinger.</li>
+</ul>
+<h2><a href="https://wtfhappenedin1971.com/">HVAD skete der i 1971? (2019)</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42711781">Reaktioner</a></h3>
+<ul>
+<li>Websiden &quot;WTF Happened in 1971?&quot; undersøger betydelige økonomiske og samfundsmæssige ændringer, der begyndte i 1971, ofte forbundet med afslutningen på guldstandarden.</li>
+<li>Diskussionen inkluderer forskellige synspunkter på årsagerne til disse ændringer, såsom øget lederkompensation, oliekrisen og ændringer i økonomiske politikker.</li>
+<li>Debatten overvejer også virkningerne af Nixon-chokket, rollen af kredit og fiat-valuta samt bredere faktorer som urbanisering og energipriser.</li>
+</ul>
+<h2><a href="https://philipotoole.com/how-is-rqlite-tested/">Hvordan rqlite testes</a></h2>
+<ul>
+<li>rqlite er en letvægtsdistribueret database, der kombinerer SQLite og Raft, med fokus på pålidelighed og kvalitet gennem en struktureret teststrategi. - Teststrategien følger testpyramiden, med vægt på enhedstests for isolerede komponenter, integrationstests for systemniveauvalidering og minimale end-to-end tests for grundlæggende driftskontroller. - Vigtige erfaringer fra rqlites testtilgang inkluderer at starte test tidligt, forenkle testkode og sikre determinisme, hvilket hjælper med at opretholde høj kvalitet med minimal overhead.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42703282">Reaktioner</a></h3>
+<ul>
+<li>Diskussionen fokuserer på teststrategier for rqlite, en distribueret database baseret på SQLite, med vægt på indledende tests, testpyramiden samt parametre- og egenskabstests.</li>
+<li>Udfordringer med end-to-end (E2E) testning i komplekse systemer fremhæves, sammen med valget af Go-programmeringssproget til rqlite og sikkerhedsbekymringer.</li>
+<li>Deterministisk simuleringstest nævnes som en høj standard for databasens pålidelighed, med henvisninger til andre databaser som FoundationDB, der viser forskellige perspektiver på effektive testpraksisser.</li>
+</ul>
+<h2><a href="https://www.vijayp.dev/blog/rewrite-plain-html/">Omskrivning af min hjemmeside i ren HTML og CSS</a></h2>
+<ul>
+<li>Forfatteren genopbyggede deres hjemmeside ved hjælp af almindelig HTML og CSS, og gik væk fra SvelteKit for at forenkle siden og hoste den på Cloudflare Pages. - De brugte Pandoc til at konvertere Markdown til HTML og Python til scripting, hvilket resulterede i en mindre hjemmeside, der reducerede filstørrelsen fra ~356kb til ~88kb. - Projektet fremhævede udfordringer som kodeduplikering og mangel på live genindlæsning, med planer om at udforske webkomponenter og FastAPI for at løse disse problemer, hvilket potentielt kan tjene som en skabelon for andre, der søger en rammefri hjemmeside med Markdown-indlæg.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42705077">Reaktioner</a></h3>
+<ul>
+<li>Forfatteren vedligeholder en personlig hjemmeside ved hjælp af simpel HTML og CSS og værdsætter den minimale tidsforpligtelse og færdighedsudvikling, det giver.</li>
+<li>Websitet er hostet på GitHub Pages, og indholdet udarbejdes i MS Word, før det manuelt opdateres.</li>
+<li>På trods af forslag om at bruge server-side includes eller statiske site generators som Jekyll eller Hugo, værdsætter forfatteren kontrollen og enkelheden ved deres nuværende metode.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Brug ikke cosinuslignendehed skødesløst" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Brug%20ikke%20cosinuslignendehed%20sk%C3%B8desl%C3%B8st&subheading=onsdag%20den%2015.%20januar%202025%3A%20Resum%C3%A9%20af%20Hacker%20News" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/da/2025/01/15</link>
+            <guid isPermaLink="false">2025-01-15T00:00:00.000Z</guid>
+            <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-14]]></title>
             <description
@@ -1120,68 +1205,6 @@
             <link>https://hn.cho.sh/da/2025/01/06</link>
             <guid isPermaLink="false">2025-01-06T00:00:00.000Z</guid>
             <pubDate>Mon, 06 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2025-01-05]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2025/01/05&#39;</h2>
-<h1>2025-01-05</h1>
-<h2><a href="https://uwaterloo.ca/news/media/no-more-needles-tracking-blood-sugar-your-wrist">Forskere designer bærbar teknologi, der kan måle glukoseniveauer mere præcist</a></h2>
-<ul>
-<li>Forskere ved University of Waterloo har skabt en bærbar enhed, der bruger radarteknologi til at overvåge glukoseniveauer ikke-invasivt, hvilket eliminerer behovet for nåle.</li>
-<li>Enheden, ledet af Dr. George Shaker, indeholder en radarchip, en metasurface for forbedret signalnøjagtighed og AI-algoritmer til præcise glukosemålinger.</li>
-<li>Enheden, der i øjeblikket er USB-drevet, sigter mod at blive batteridrevet for forbedret bærbarhed og kan i sidste ende overvåge yderligere sundhedsmålinger, med bestræbelser i gang på at kommercialisere teknologien.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42599189">Reaktioner</a></h3>
-<ul>
-<li>Forskere har skabt bærbar teknologi til ikke-invasiv glukoseovervågning, hvilket tilbyder et alternativ til fingerprik og kontinuerlige glukosemonitorer (CGM&#39;er).</li>
-<li>Teknologien sigter mod at give præcise glukosemålinger uden direkte kontakt med blodbanen, hvilket kunne være betydningsfuldt for kliniske anvendelser.</li>
-<li>Selvom det er lovende, er der skepsis omkring dets nøjagtighed sammenlignet med eksisterende CGM&#39;er, og yderligere data og kliniske forsøg er nødvendige for at bekræfte dets effektivitet.</li>
-</ul>
-<h2><a href="https://nmn.gl/blog/ai-senior-developer">Den dag jeg lærte AI at læse kode som en seniorudvikler</a></h2>
-<ul>
-<li>AI&#39;en blev oprindeligt udfordret med at analysere React-kodebaser og nærmede sig dem som en nybegynderudvikler. - Ved at efterligne erfarne udvikleres strategier, såsom at fokusere på kernefiler og gruppere ændringer efter funktion, forbedrede AI&#39;ens kodeanalyse sig markant. - Fokus er på at forbedre kodeforståelse frem for generering, med fremtidige planer om at identificere teknisk gæld og forstå teamkonventioner.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42601847">Reaktioner</a></h3>
-<ul>
-<li>Artiklen undersøger udfordringerne ved at træne AI til at læse og analysere kode med en seniorudviklers dygtighed, og bemærker vanskeligheden ved at opnå konsekvente og nøjagtige resultater.</li>
-<li>Det understreger vigtigheden af at give kontekst og strukturere input for at forbedre AI&#39;s ydeevne i kodeanalyse, samtidig med at det anerkender skepsis omkring AI&#39;s nuværende kapaciteter.</li>
-<li>Diskussionen fremhæver behovet for yderligere eksperimentering og evaluering for at validere AI&#39;s ydeevne og overvejer de bredere implikationer og potentielle fremskridt af AI inden for softwareudvikling.</li>
-</ul>
-<h2><a href="http://rachelbythebay.com/w/2025/01/04/cruft/">Websideirritationer, som jeg ikke påfører dig her</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42599102">Reaktioner</a></h3>
-<ul>
-<li>Forfatteren undgår at bruge visse webfunktioner som sticky bars, tvungen SSL/TLS, pop-ups og unødvendig sporing for at forbedre brugeroplevelsen.</li>
-<li>Der er en igangværende debat om nødvendigheden af HTTPS for sikkerhed kontra dets kompatibilitetsproblemer med ældre browsere.</li>
-<li>Diskussionen fremhæver udfordringen ved at balancere brugeroplevelse med moderne webpraksis.</li>
-</ul>
-<h2><a href="https://tailscale.com/blog/how-nat-traversal-works">Sådan fungerer Nat Traversal (2020)</a></h2>
-<ul>
-<li>NAT-gennemtrængning muliggør direkte enhedsforbindelser på trods af tilstedeværelsen af Network Address Translators (NAT&#39;er) og firewalls ved hjælp af UDP-baserede protokoller og direkte socket-kontrol.</li>
-<li>Teknikker som STUN (Session Traversal Utilities for NAT) hjælper med at opdage offentlige IP-adresser, mens relæer som TURN (Traversal Using Relays around NAT) eller Tailscales DERP bruges til mere udfordrende NAT&#39;er.</li>
-<li>ICE (Interactive Connectivity Establishment) protokollen optimerer forbindelsesveje ved at evaluere alle mulige muligheder og vælge den mest effektive, hvilket sikrer robust NAT-gennemtrængning med ende-til-ende kryptering og autentificering.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42600846">Reaktioner</a></h3>
-<ul>
-<li>Artiklen udforsker NAT (Network Address Translation) traversal og understreger forskellene mellem TCP (Transmission Control Protocol) og UDP (User Datagram Protocol) hole punching, idet den bemærker TCP&#39;s lidt højere kompleksitet.</li>
-<li>Det udfordrer opfattelsen af NAT som en sikkerhedsfunktion og diskuterer Tailscales metode til NAT-gennemtrængning, hvilket rejser bekymringer om at stole udelukkende på software-ACL&#39;er (Access Control Lists) for sikkerhed.</li>
-<li>Diskussionen fremhæver vigtigheden af sikre endepunkter og kritiserer begrænsningerne ved konventionelle netværkssikkerhedsstrategier i forbindelse med NAT-gennemgang.</li>
-</ul>
-<h2><a href="https://amanvir.com/guten">Guten: En lille avistrykker</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42599599">Reaktioner</a></h3>
-<ul>
-<li>Guten er et lille projekt for avistrykning, der er designet til at minimere skærmtid ved at levere nyheder i trykt form. - Diskussioner omkring projektet omfatter bekymringer om BPA-indholdet i termisk papir og forslag til at bruge BPA-fri alternativer eller forskellige trykteknologier som impact- eller dot-matrix-printere. - Der foretages sammenligninger med den udgåede Little Printer, med anbefalinger til at forbedre Gutens udviklervenlighed og tilpasningsmuligheder, samt overvejelser om de miljømæssige og sundhedsmæssige påvirkninger af termisk papir.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Forskere designer bærbar teknologi, der kan måle glukoseniveauer mere præcist" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Forskere%20designer%20b%C3%A6rbar%20teknologi%2C%20der%20kan%20m%C3%A5le%20glukoseniveauer%20mere%20pr%C3%A6cist&subheading=s%C3%B8ndag%20den%205.%20januar%202025%3A%20Resum%C3%A9%20af%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/da/2025/01/05</link>
-            <guid isPermaLink="false">2025-01-05T00:00:00.000Z</guid>
-            <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

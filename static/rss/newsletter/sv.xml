@@ -15,12 +15,97 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Jan 2025 19:14:17 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Jan 2025 19:10:12 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/sv.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Tue, 14 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[sv]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-15]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/15&#39;</h2>
+<h1>2025-01-15</h1>
+<h2><a href="https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity/">Använd inte cosinuslikhet vårdslöst</a></h2>
+<ul>
+<li>Kosinuslikhet, en metod för att jämföra vektorer, kan vara vilseledande om den används utan att förstå sammanhanget, eftersom den kanske inte exakt fångar semantiska likheter. - Inbäddningar, såsom de från word2vec eller meningsinbäddningar från stora språkmodeller (LLMs), kräver noggrann och avsiktlig användning för att säkerställa att de återspeglar de önskade relationerna. - För att förbättra resultaten av vektorsimilaritet, överväg att använda LLMs direkt, skapa uppgiftsspecifika inbäddningar genom finjustering, och säkerställ att texten är ren och att uppmaningarna är välkonstruerade innan inbäddning.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42704078">Reaktioner</a></h3>
+<ul>
+<li>I Retrieval-Augmented Generation (RAG)-applikationer kan användningen av en &quot;semantisk omrankare&quot; förbättra matchningen av användarfrågor när man använder cosinuslikhet. - Undvik att lagra vektorinbäddningar av tomt innehåll, eftersom de kan leda till felaktiga matchningar; vissa projekt använder speciella kodningar för att representera &quot;intethet&quot; för att förhindra detta problem. - Att utforska alternativ som stora språkmodeller (LLMs), kors-enkodare, L2-omrankningsmodeller eller grafbaserade metoder kan ge mer exakta återvinningsresultat än att enbart förlita sig på cosinuslikhet.</li>
+</ul>
+<h2><a href="https://ij.org/press-release/nevada-court-shuts-down-police-use-of-federal-loophole-for-civil-forfeiture/">Domstol i Nevada stoppar polisens användning av federal kryphål för civil förverkande</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42707573">Reaktioner</a></h3>
+<ul>
+<li>En domstol i Nevada har beslutat mot att polisen använder ett federalt kryphål för civil förverkande, där tillgångar beslagtas utan att ägaren åtalas för ett brott.</li>
+<li>Detta beslut understryker debatten om lagar för civil förverkande, som kritiseras för att anta skuld och potentiellt leda till korruption.</li>
+<li>Fallet involverade en mans livsbesparingar som beslagtogs under en trafikstopp, vilket belyser behovet av rättsliga åtgärder och medieuppmärksamhet för att skydda medborgarnas rättigheter.</li>
+</ul>
+<h2><a href="https://www.reuters.com/technology/tiktok-preparing-us-shut-off-sunday-information-reports-2025-01-15/">TikTok förbereder sig för avstängning i USA på söndag</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42710339">Reaktioner</a></h3>
+<ul>
+<li>TikTok står inför en potentiell nedstängning i USA, vilket får användare att utforska alternativ som Xiaohongshu, YouTube Shorts och Instagram Reels. - Xiaohongshu, populär i Kina, är inte anpassad för västerländska publiker, vilket väcker oro över direkta interaktioner mellan kinesiska och amerikanska användare. - Den amerikanska regeringen hänvisar till nationella säkerhetsbekymmer, inklusive rädslor för utländskt inflytande och propaganda, som skäl för att överväga ett förbud mot TikTok.</li>
+</ul>
+<h2><a href="https://claudio.uk/posts/epub-to-audiobook.html">Generera ljudböcker från e-böcker med Kokoro-82M</a></h2>
+<ul>
+<li>Kokoro v0.19 är en ny text-till-tal-modell med 82 miljoner parametrar, som erbjuder högkvalitativt ljudutgång på flera språk, inklusive amerikansk och brittisk engelska, franska, koreanska, japanska och mandarin.</li>
+<li>Claudio Santini utvecklade Audiblez, ett verktyg som omvandlar e-böcker till ljudböcker med hjälp av Kokoro, bearbetar .epub-filer och genererar ljudfiler, med en konverteringstid på cirka 2 timmar för en bok på 100 000 ord på en M2 MacBook Pro.</li>
+<li>Audiblez kräver installation via pip, stöder olika språk och röster, och behöver ffmpeg för skapande av .m4b-filer, med verktyget tillgängligt på GitHub för vidare utveckling och förbättringar.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42708773">Reaktioner</a></h3>
+<ul>
+<li>Kokoro-82M är ett AI-verktyg utformat för att omvandla e-böcker till ljudböcker, vilket erbjuder bekvämlighet, särskilt för facklitterära verk.</li>
+<li>Även om AI-genererade ljudböcker kan fylla luckor där inga mänskligt berättade versioner finns, saknar de för närvarande den känslomässiga djup och karaktär som mänskliga berättare erbjuder.</li>
+<li>Verktyget väcker debatt om AI:s påverkan på kreativa yrken, drar paralleller till historiska teknologiska skiften och väcker oro över minskande möjligheter till utbildning och erfarenhet inom dessa områden.</li>
+</ul>
+<h2><a href="https://www.theautopian.com/if-you-ever-see-this-speed-sign-youre-probably-going-to-die/">Vägskyltar för att hjälpa människor att begränsa strålningsexponering i kontaminerade områden</a></h2>
+<ul>
+<li>Handboken om enhetliga trafikstyrningsanordningar (MUTCD) innehåller skyltar från kalla kriget-eran, såsom &quot;UPPRÄTTHÅLL HÖGSTA SÄKRA HASTIGHET,&quot; avsedda för radiologiska kontamineringszoner.</li>
+<li>Dessa skyltar var en del av civilförsvarsstrategier för att skydda medborgare under en potentiell kärnvapenapokalyps, även om de aldrig användes.</li>
+<li>Vissa av dessa skyltar ingår fortfarande i MUTCD som skyltar för krishantering, vilket belyser historiska rädslor och beredskapsinsatser från den perioden.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42704491">Reaktioner</a></h3>
+<ul>
+<li>De ansvariga överväger att sätta upp vägmärken för att rekommendera höghastighetsresor genom kontaminerade områden för att minska strålningsexponeringen genom att minimera tiden som spenderas i dessa zoner. - Diskussionen drar paralleller till Tjernobyl och Fukushima, och betonar oro över inandning och kontaminering från radioaktivt damm. - Bredare geopolitiska frågor, inklusive nationalism och kärnvapenavskräckning, är också en del av samtalet, vilket reflekterar över historiska och nuvarande globala spänningar.</li>
+</ul>
+<h2><a href="https://wtfhappenedin1971.com/">WTF hände 1971? (2019)</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42711781">Reaktioner</a></h3>
+<ul>
+<li>Webbplatsen &quot;WTF Happened in 1971?&quot; undersöker betydande ekonomiska och samhälleliga förändringar som började 1971, ofta kopplade till slutet av guldmyntfoten.</li>
+<li>Diskussionen inkluderar olika synpunkter på orsakerna till dessa förändringar, såsom ökad verkställande kompensation, oljekrisen och förändringar i ekonomiska politiker.</li>
+<li>Debatten tar också upp effekterna av Nixon-chocken, kreditens och fiatvalutans roll samt bredare faktorer som urbanisering och energipriser.</li>
+</ul>
+<h2><a href="https://philipotoole.com/how-is-rqlite-tested/">Hur rqlite testas</a></h2>
+<ul>
+<li>rqlite är en lättviktig distribuerad databas som kombinerar SQLite och Raft, med fokus på tillförlitlighet och kvalitet genom en strukturerad teststrategi. - Teststrategin följer testpyramiden, med betoning på enhetstester för isolerade komponenter, integrationstester för validering på systemnivå, och minimala end-to-end-tester för grundläggande funktionskontroller. - Viktiga lärdomar från rqlites testmetod inkluderar att börja testa tidigt, förenkla testkoden och säkerställa determinism, vilket hjälper till att upprätthålla hög kvalitet med minimal överbelastning.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42703282">Reaktioner</a></h3>
+<ul>
+<li>Diskussionen fokuserar på teststrategier för rqlite, en distribuerad databas baserad på SQLite, med betoning på initiala tester, testpyramiden samt parametriserade och egenskapstester.</li>
+<li>Utmaningar med end-to-end (E2E) testning i komplexa system lyfts fram, tillsammans med valet av programmeringsspråket Go för rqlite och säkerhetsfrågor.</li>
+<li>Deterministisk simuleringstestning nämns som en hög standard för databasens tillförlitlighet, med referenser till andra databaser som FoundationDB, vilket visar på olika perspektiv på effektiva testmetoder.</li>
+</ul>
+<h2><a href="https://www.vijayp.dev/blog/rewrite-plain-html/">Omskriver min webbplats i enkel HTML och CSS</a></h2>
+<ul>
+<li>Författaren byggde om sin webbplats med vanlig HTML och CSS, och övergav SvelteKit, för att förenkla webbplatsen och vara värd för den på Cloudflare Pages. - De använde Pandoc för att konvertera Markdown till HTML och Python för skriptning, vilket resulterade i en mindre webbplats, och minskade storleken på tillgångarna från ~356kb till ~88kb. - Projektet belyste utmaningar som kodduplicering och brist på live-omladdning, med planer på att utforska webbkomponenter och FastAPI för att hantera dessa problem, vilket potentiellt kan fungera som en mall för andra som söker en ramverksfri webbplats med Markdown-inlägg.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42705077">Reaktioner</a></h3>
+<ul>
+<li>Författaren upprätthåller en personlig webbplats med hjälp av enkel HTML och CSS, och uppskattar den minimala tidsåtgången och den färdighetsslipning det ger.</li>
+<li>Webbplatsen är hostad på GitHub Pages, och innehållet utarbetas i MS Word innan det manuellt uppdateras.</li>
+<li>Trots förslag att använda server-side includes eller statiska webbplatsgeneratorer som Jekyll eller Hugo, värdesätter författaren kontrollen och enkelheten i deras nuvarande metod.</li>
+</ul>
+<head>
+  <meta property="og:title" content="Använd inte cosinuslikhet vårdslöst" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Anv%C3%A4nd%20inte%20cosinuslikhet%20v%C3%A5rdsl%C3%B6st&subheading=onsdag%2015%20januari%202025%3A%20Sammanfattning%20av%20Hacker%20News" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/sv/2025/01/15</link>
+            <guid isPermaLink="false">2025-01-15T00:00:00.000Z</guid>
+            <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-14]]></title>
             <description
@@ -1120,68 +1205,6 @@
             <link>https://hn.cho.sh/sv/2025/01/06</link>
             <guid isPermaLink="false">2025-01-06T00:00:00.000Z</guid>
             <pubDate>Mon, 06 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2025-01-05]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2025/01/05&#39;</h2>
-<h1>2025-01-05</h1>
-<h2><a href="https://uwaterloo.ca/news/media/no-more-needles-tracking-blood-sugar-your-wrist">Forskare designar bärbar teknik som kan känna av glukosnivåer mer exakt</a></h2>
-<ul>
-<li>Forskare vid University of Waterloo har skapat en bärbar enhet som använder radarteknik för att övervaka glukosnivåer icke-invasivt, vilket eliminerar behovet av nålar.</li>
-<li>Enheten, ledd av Dr. George Shaker, innehåller ett radarchip, en metasurface för förbättrad signalnoggrannhet och AI-algoritmer för exakta glukosmätningar.</li>
-<li>För närvarande USB-driven, strävar enheten efter att bli batteridriven för förbättrad bärbarhet och kan så småningom övervaka ytterligare hälsomått, med ansträngningar på gång för att kommersialisera teknologin.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42599189">Reaktioner</a></h3>
-<ul>
-<li>Forskare har skapat bärbar teknik för icke-invasiv glukosövervakning, vilket erbjuder ett alternativ till fingerstick och kontinuerliga glukosmonitorer (CGM).</li>
-<li>Tekniken syftar till att ge exakta glukosmätningar utan direkt kontakt med blodomloppet, vilket kan vara betydelsefullt för kliniska tillämpningar.</li>
-<li>Även om det är lovande finns det skepsis kring dess noggrannhet jämfört med befintliga CGM:er, och ytterligare data och kliniska prövningar behövs för att bekräfta dess effektivitet.</li>
-</ul>
-<h2><a href="https://nmn.gl/blog/ai-senior-developer">Den dagen jag lärde AI att läsa kod som en seniorutvecklare</a></h2>
-<ul>
-<li>AI:n ställdes initialt inför utmaningen att analysera React-kodbaser, och närmade sig dem som en nybörjarutvecklare. - Genom att efterlikna seniora utvecklares strategier, såsom att fokusera på kärnfiler och gruppera ändringar efter funktion, förbättrades AI:ns kodanalys avsevärt. - Fokus ligger på att förbättra kodförståelsen snarare än generering, med framtida planer på att identifiera teknisk skuld och förstå teamkonventioner.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42601847">Reaktioner</a></h3>
-<ul>
-<li>Artikeln undersöker utmaningarna med att träna AI att läsa och analysera kod med samma skicklighet som en senior utvecklare, och noterar svårigheten i att uppnå konsekventa och exakta resultat.</li>
-<li>Det betonar vikten av att tillhandahålla kontext och strukturera indata för att förbättra AI-prestanda vid kodanalys, samtidigt som det erkänner skepsis kring AI:s nuvarande kapaciteter.</li>
-<li>Diskussionen belyser behovet av ytterligare experiment och utvärdering för att validera AI:s prestanda och överväger de bredare implikationerna och potentiella framstegen av AI inom mjukvaruutveckling.</li>
-</ul>
-<h2><a href="http://rachelbythebay.com/w/2025/01/04/cruft/">Webbsidesirritationer som jag inte utsätter dig för här</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42599102">Reaktioner</a></h3>
-<ul>
-<li>Författaren undviker att använda vissa webbfunktioner som klibbiga fält, tvingad SSL/TLS, pop-ups och onödig spårning för att förbättra användarupplevelsen.</li>
-<li>Det pågår en debatt om nödvändigheten av HTTPS för säkerhet kontra dess kompatibilitetsproblem med äldre webbläsare.</li>
-<li>Diskussionen belyser utmaningen med att balansera användarupplevelse med moderna webbmetoder.</li>
-</ul>
-<h2><a href="https://tailscale.com/blog/how-nat-traversal-works">Så fungerar NAT Traversal (2020)</a></h2>
-<ul>
-<li>NAT-traversering möjliggör direkta enhetsanslutningar trots närvaron av Network Address Translators (NAT) och brandväggar, genom att använda UDP-baserade protokoll och direkt socket-kontroll.</li>
-<li>Tekniker som STUN (Session Traversal Utilities for NAT) hjälper till att upptäcka offentliga IP-adresser, medan reläer som TURN (Traversal Using Relays around NAT) eller Tailscales DERP används för mer utmanande NAT:er.</li>
-<li>ICE-protokollet (Interactive Connectivity Establishment) optimerar anslutningsvägar genom att utvärdera alla möjliga alternativ och välja det mest effektiva, vilket säkerställer robust NAT-traversering med end-to-end-kryptering och autentisering.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42600846">Reaktioner</a></h3>
-<ul>
-<li>Artikeln utforskar NAT (Network Address Translation) traversal och betonar skillnaderna mellan TCP (Transmission Control Protocol) och UDP (User Datagram Protocol) hole punching, där TCP noteras ha en något högre komplexitet.</li>
-<li>Det utmanar uppfattningen om NAT som en säkerhetsfunktion och diskuterar Tailscales metod för NAT-traversering, vilket väcker oro över att enbart förlita sig på programvaru-ACL:er (Access Control Lists) för säkerhet.</li>
-<li>Diskussionen belyser vikten av säkra ändpunkter och kritiserar begränsningarna hos konventionella nätverkssäkerhetsstrategier i samband med NAT-traversering.</li>
-</ul>
-<h2><a href="https://amanvir.com/guten">Guten: En liten tidningsskrivare</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42599599">Reaktioner</a></h3>
-<ul>
-<li>Guten är ett småskaligt tidningsskrivarprojekt utformat för att minimera skärmtid genom att leverera nyheter i tryckt form. - Diskussioner kring projektet inkluderar oro över BPA-innehållet i termopapper och förslag på att använda BPA-fria alternativ eller olika trycktekniker som slag- eller nålskrivare. - Jämförelser görs med den nedlagda Little Printer, med rekommendationer för att förbättra Gutens utvecklarvänlighet och anpassningsmöjligheter, tillsammans med överväganden om miljö- och hälsoeffekter av termopapper.</li>
-</ul>
-<head>
-  <meta property="og:title" content="Forskare designar bärbar teknik som kan känna av glukosnivåer mer exakt" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=Forskare%20designar%20b%C3%A4rbar%20teknik%20som%20kan%20k%C3%A4nna%20av%20glukosniv%C3%A5er%20mer%20exakt&subheading=s%C3%B6ndag%205%20januari%202025%3A%20Sammanfattning%20av%20Hacker%20News" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/sv/2025/01/05</link>
-            <guid isPermaLink="false">2025-01-05T00:00:00.000Z</guid>
-            <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

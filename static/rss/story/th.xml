@@ -15,11 +15,106 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Jan 2025 19:14:17 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Jan 2025 19:10:12 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/story/th.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Tue, 14 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
         <language><![CDATA[th]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[อย่าใช้ความคล้ายคลึงของโคไซน์อย่างไม่ระมัดระวัง]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>ความคล้ายคลึงของโคไซน์ ซึ่งเป็นวิธีการเปรียบเทียบเวกเตอร์ อาจทำให้เข้าใจผิดได้หากใช้โดยไม่เข้าใจบริบท เนื่องจากอาจไม่สามารถจับความคล้ายคลึงทางความหมายได้อย่างแม่นยำ - การฝัง เช่น จาก word2vec หรือการฝังประโยคจากโมเดลภาษาขนาดใหญ่ (LLMs) ต้องการการใช้งานที่ระมัดระวังและตั้งใจเพื่อให้แน่ใจว่าสะท้อนความสัมพันธ์ที่ต้องการ - เพื่อปรับปรุงผลลัพธ์ความคล้ายคลึงของเวกเตอร์ ควรพิจารณาใช้ LLMs โดยตรง สร้างการฝังที่เฉพาะเจาะจงกับงานผ่านการปรับแต่ง และตรวจสอบให้แน่ใจว่าข้อความสะอาดและคำสั่งได้รับการออกแบบมาอย่างดีก่อนการฝัง</li>
+</ul>
+]]></description>
+            <link>https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity/</link>
+            <guid isPermaLink="false">2025-01-15T00:00:00.000Zอย่าใช้ความคล้ายคลึงของโคไซน์อย่างไม่ระมัดระวัง</guid>
+            <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ศาลเนวาดาปิดกั้นการใช้ช่องโหว่ของรัฐบาลกลางโดยตำรวจสำหรับการยึดทรัพย์สินทางแพ่ง]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link
+      >https://ij.org/press-release/nevada-court-shuts-down-police-use-of-federal-loophole-for-civil-forfeiture/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-15T00:00:00.000Zศาลเนวาดาปิดกั้นการใช้ช่องโหว่ของรัฐบาลกลางโดยตำรวจสำหรับการยึดทรัพย์สินทางแพ่ง</guid>
+            <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ติ๊กต็อกเตรียมพร้อมสำหรับการปิดตัวในสหรัฐอเมริกาในวันอาทิตย์]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link
+      >https://www.reuters.com/technology/tiktok-preparing-us-shut-off-sunday-information-reports-2025-01-15/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-15T00:00:00.000Zติ๊กต็อกเตรียมพร้อมสำหรับการปิดตัวในสหรัฐอเมริกาในวันอาทิตย์</guid>
+            <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[สร้างหนังสือเสียงจากหนังสืออิเล็กทรอนิกส์ด้วย Kokoro-82M]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>Kokoro v0.19 เป็นโมเดลแปลงข้อความเป็นเสียงใหม่ที่มีพารามิเตอร์ 82 ล้านตัว ให้ผลลัพธ์เสียงคุณภาพสูงในหลายภาษา รวมถึงภาษาอังกฤษแบบอเมริกันและอังกฤษแบบบริติช ภาษาฝรั่งเศส ภาษาเกาหลี ภาษาญี่ปุ่น และภาษาจีนกลาง</li>
+<li>Claudio Santini พัฒนา Audiblez ซึ่งเป็นเครื่องมือที่แปลง e-books เป็นหนังสือเสียงโดยใช้ Kokoro โดยประมวลผลไฟล์ .epub และสร้างไฟล์เสียง โดยใช้เวลาประมาณ 2 ชั่วโมงในการแปลงหนังสือที่มีความยาว 100,000 คำบน M2 MacBook Pro</li>
+<li>Audiblez ต้องการการติดตั้งผ่าน pip รองรับภาษาต่างๆ และเสียงหลายแบบ และต้องการ ffmpeg สำหรับการสร้างไฟล์ .m4b โดยเครื่องมือนี้มีให้ใช้งานบน GitHub สำหรับการพัฒนาและปรับปรุงเพิ่มเติม</li>
+</ul>
+]]></description>
+            <link>https://claudio.uk/posts/epub-to-audiobook.html</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-15T00:00:00.000Zสร้างหนังสือเสียงจากหนังสืออิเล็กทรอนิกส์ด้วย Kokoro-82M</guid>
+            <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ป้ายจราจรเพื่อช่วยให้ผู้คนจำกัดการสัมผัสรังสีในพื้นที่ปนเปื้อน]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>คู่มืออุปกรณ์ควบคุมการจราจรแบบสม่ำเสมอ (MUTCD) มีป้ายจากยุคสงครามเย็น เช่น &quot;รักษาความเร็วสูงสุดที่ปลอดภัย&quot; ซึ่งใช้สำหรับเขตปนเปื้อนทางรังสี</li>
+<li>ป้ายเหล่านี้เป็นส่วนหนึ่งของกลยุทธ์การป้องกันพลเรือนเพื่อปกป้องประชาชนในกรณีที่เกิดหายนะนิวเคลียร์ แม้ว่าจะไม่เคยถูกนำมาใช้ก็ตาม</li>
+<li>ป้ายบางส่วนเหล่านี้ยังคงรวมอยู่ใน MUTCD ในฐานะป้ายการจัดการเหตุฉุกเฉิน ซึ่งเน้นถึงความกลัวในประวัติศาสตร์และความพยายามในการเตรียมพร้อมจากช่วงเวลานั้น</li>
+</ul>
+]]></description>
+            <link>https://www.theautopian.com/if-you-ever-see-this-speed-sign-youre-probably-going-to-die/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-15T00:00:00.000Zป้ายจราจรเพื่อช่วยให้ผู้คนจำกัดการสัมผัสรังสีในพื้นที่ปนเปื้อน</guid>
+            <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[เกิดอะไรขึ้นในปี 1971? (2019)]]></title>
+            <description><![CDATA[<p>- </p>
+]]></description>
+            <link>https://wtfhappenedin1971.com/</link>
+            <guid isPermaLink="false">2025-01-15T00:00:00.000Zเกิดอะไรขึ้นในปี 1971? (2019)</guid>
+            <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[วิธีการทดสอบ rqlite]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>rqlite เป็นฐานข้อมูลแบบกระจายที่มีน้ำหนักเบาซึ่งผสมผสาน SQLite และ Raft โดยมุ่งเน้นที่ความน่าเชื่อถือและคุณภาพผ่านกลยุทธ์การทดสอบที่มีโครงสร้าง - กลยุทธ์การทดสอบนี้ปฏิบัติตามพีระมิดการทดสอบ โดยเน้นการทดสอบหน่วยสำหรับส่วนประกอบที่แยกออกมา การทดสอบการรวมสำหรับการตรวจสอบระดับระบบ และการทดสอบแบบ end-to-end ขั้นต่ำสำหรับการตรวจสอบการทำงานพื้นฐาน - บทเรียนสำคัญจากแนวทางการทดสอบของ rqlite รวมถึงการเริ่มการทดสอบตั้งแต่เนิ่นๆ การทำให้โค้ดทดสอบง่ายขึ้น และการรับรองความแน่นอน ซึ่งช่วยรักษาคุณภาพสูงด้วยค่าใช้จ่ายที่น้อยที่สุด</li>
+</ul>
+]]></description>
+            <link>https://philipotoole.com/how-is-rqlite-tested/</link>
+            <guid isPermaLink="false">2025-01-15T00:00:00.000Zวิธีการทดสอบ rqlite</guid>
+            <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[กำลังเขียนเว็บไซต์ของฉันใหม่ด้วย HTML และ CSS ธรรมดา]]></title>
+            <description
+      ><![CDATA[<ul>
+<li>ผู้เขียนได้สร้างเว็บไซต์ของตนใหม่โดยใช้ HTML และ CSS ธรรมดา แทนที่จะใช้ SvelteKit เพื่อทำให้เว็บไซต์ง่ายขึ้นและโฮสต์บน Cloudflare Pages - พวกเขาใช้ Pandoc สำหรับการแปลง Markdown เป็น HTML และ Python สำหรับการเขียนสคริปต์ ส่งผลให้เว็บไซต์มีขนาดเล็กลง ลดขนาดไฟล์จากประมาณ 356kb เหลือประมาณ 88kb - โครงการนี้ได้เน้นถึงความท้าทาย เช่น การทำซ้ำของโค้ดและการขาดการรีโหลดแบบสด โดยมีแผนที่จะสำรวจการใช้ web components และ FastAPI เพื่อแก้ไขปัญหาเหล่านี้ ซึ่งอาจเป็นแม่แบบสำหรับผู้อื่นที่ต้องการเว็บไซต์ที่ไม่มีเฟรมเวิร์กพร้อมโพสต์ Markdown</li>
+</ul>
+]]></description>
+            <link>https://www.vijayp.dev/blog/rewrite-plain-html/</link>
+            <guid
+        isPermaLink="false"
+      >2025-01-15T00:00:00.000Zกำลังเขียนเว็บไซต์ของฉันใหม่ด้วย HTML และ CSS ธรรมดา</guid>
+            <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title
       ><![CDATA[นักวิจัยด้านความปลอดภัยของ Snyk ปล่อยแพ็กเกจ NPM ที่เป็นอันตรายโดยมีเป้าหมายที่ cursor.com]]></title>
@@ -1283,64 +1378,6 @@
             <link>https://crowdhailer.me/2025-01-02/the-evolution-of-a-structural-code-editor/</link>
             <guid isPermaLink="false">2025-01-06T00:00:00.000Zวิวัฒนาการของโปรแกรมแก้ไขโค้ดเชิงโครงสร้าง</guid>
             <pubDate>Mon, 06 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title
-      ><![CDATA[นักวิจัยออกแบบเทคโนโลยีสวมใส่ที่สามารถตรวจจับระดับน้ำตาลในเลือดได้อย่างแม่นยำมากขึ้น]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>นักวิจัยที่มหาวิทยาลัยวอเตอร์ลูได้สร้างอุปกรณ์สวมใส่ที่ใช้เทคโนโลยีเรดาร์เพื่อตรวจสอบระดับน้ำตาลในเลือดโดยไม่ต้องใช้เข็ม</li>
-<li>อุปกรณ์นี้ นำโดย ดร. จอร์จ เชเกอร์ ประกอบด้วยชิพเรดาร์ พื้นผิวเมตาสำหรับเพิ่มความแม่นยำของสัญญาณ และอัลกอริทึม AI สำหรับการอ่านค่ากลูโคสที่แม่นยำ</li>
-<li>ปัจจุบันอุปกรณ์นี้ใช้พลังงานจาก USB โดยมีเป้าหมายที่จะเปลี่ยนเป็นใช้แบตเตอรี่เพื่อเพิ่มความสะดวกในการพกพา และอาจจะสามารถตรวจสอบตัวชี้วัดสุขภาพเพิ่มเติมได้ในอนาคต โดยขณะนี้กำลังมีความพยายามในการทำให้เทคโนโลยีนี้เข้าสู่ตลาด</li>
-</ul>
-]]></description>
-            <link>https://uwaterloo.ca/news/media/no-more-needles-tracking-blood-sugar-your-wrist</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-05T00:00:00.000Zนักวิจัยออกแบบเทคโนโลยีสวมใส่ที่สามารถตรวจจับระดับน้ำตาลในเลือดได้อย่างแม่นยำมากขึ้น</guid>
-            <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[วันที่ฉันสอน AI ให้สามารถอ่านโค้ดได้เหมือนนักพัฒนาระดับอาวุโส]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>ในตอนแรก AI ถูกท้าทายด้วยการวิเคราะห์ฐานโค้ด React โดยเข้าหามันเหมือนนักพัฒนามือใหม่ - โดยการเลียนแบบกลยุทธ์ของนักพัฒนารุ่นพี่ เช่น การมุ่งเน้นไปที่ไฟล์หลักและการจัดกลุ่มการเปลี่ยนแปลงตามฟีเจอร์ การวิเคราะห์โค้ดของ AI จึงพัฒนาขึ้นอย่างมาก - การมุ่งเน้นอยู่ที่การเพิ่มความเข้าใจในโค้ดมากกว่าการสร้าง โดยมีแผนในอนาคตที่จะระบุหนี้ทางเทคนิคและเข้าใจข้อตกลงของทีม</li>
-</ul>
-]]></description>
-            <link>https://nmn.gl/blog/ai-senior-developer</link>
-            <guid
-        isPermaLink="false"
-      >2025-01-05T00:00:00.000Zวันที่ฉันสอน AI ให้สามารถอ่านโค้ดได้เหมือนนักพัฒนาระดับอาวุโส</guid>
-            <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ความรำคาญจากหน้าเว็บที่ฉันไม่ทำให้คุณต้องเจอที่นี่]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>http://rachelbythebay.com/w/2025/01/04/cruft/</link>
-            <guid isPermaLink="false">2025-01-05T00:00:00.000Zความรำคาญจากหน้าเว็บที่ฉันไม่ทำให้คุณต้องเจอที่นี่</guid>
-            <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[วิธีการทำงานของการทะลุผ่าน NAT (2020)]]></title>
-            <description
-      ><![CDATA[<ul>
-<li>การข้าม NAT ช่วยให้การเชื่อมต่ออุปกรณ์โดยตรงเป็นไปได้แม้จะมีตัวแปลที่อยู่เครือข่าย (NATs) และไฟร์วอลล์ โดยใช้โปรโตคอลที่ใช้ UDP และการควบคุมซ็อกเก็ตโดยตรง</li>
-<li>เทคนิคต่างๆ เช่น STUN (Session Traversal Utilities for NAT) ช่วยในการค้นหาที่อยู่ IP สาธารณะ ในขณะที่รีเลย์อย่าง TURN (Traversal Using Relays around NAT) หรือ DERP ของ Tailscale ถูกใช้สำหรับ NAT ที่มีความท้าทายมากขึ้น</li>
-<li>โปรโตคอล ICE (Interactive Connectivity Establishment) ปรับเส้นทางการเชื่อมต่อให้เหมาะสมโดยการประเมินตัวเลือกทั้งหมดที่เป็นไปได้และเลือกตัวเลือกที่มีประสิทธิภาพที่สุด เพื่อให้แน่ใจว่าการข้าม NAT มีความแข็งแกร่งพร้อมการเข้ารหัสและการตรวจสอบสิทธิ์จากต้นทางถึงปลายทาง</li>
-</ul>
-]]></description>
-            <link>https://tailscale.com/blog/how-nat-traversal-works</link>
-            <guid isPermaLink="false">2025-01-05T00:00:00.000Zวิธีการทำงานของการทะลุผ่าน NAT (2020)</guid>
-            <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[กูเทน: เครื่องพิมพ์หนังสือพิมพ์ขนาดเล็ก]]></title>
-            <description><![CDATA[<p>- </p>
-]]></description>
-            <link>https://amanvir.com/guten</link>
-            <guid isPermaLink="false">2025-01-05T00:00:00.000Zกูเทน: เครื่องพิมพ์หนังสือพิมพ์ขนาดเล็ก</guid>
-            <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

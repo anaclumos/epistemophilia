@@ -15,12 +15,97 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Jan 2025 19:14:17 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Jan 2025 19:10:12 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/ko.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Tue, 14 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[ko]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-15]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/15&#39;</h2>
+<h1>2025-01-15</h1>
+<h2><a href="https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity/">코사인 유사도를 함부로 사용하지 마세요</a></h2>
+<ul>
+<li>코사인 유사도는 벡터를 비교하는 방법으로, 문맥을 이해하지 않고 사용하면 의미론적 유사성을 정확하게 포착하지 못할 수 있어 오해를 불러일으킬 수 있습니다. - word2vec이나 대형 언어 모델(LLM)에서 생성된 문장 임베딩과 같은 임베딩은 원하는 관계를 반영하도록 주의 깊고 의도적으로 사용해야 합니다. - 벡터 유사도 결과를 개선하려면 LLM을 직접 사용하고, 미세 조정을 통해 작업별 임베딩을 생성하며, 임베딩 전에 텍스트가 깨끗하고 프롬프트가 잘 설계되었는지 확인하는 것을 고려하십시오.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42704078">반응</a></h3>
+<ul>
+<li>검색 증강 생성(RAG) 애플리케이션에서 &quot;의미 재정렬기&quot;를 사용하면 코사인 유사도를 사용할 때 사용자 쿼리의 매칭을 향상시킬 수 있습니다. - 빈 콘텐츠의 벡터 임베딩을 저장하지 마십시오. 이는 잘못된 매칭을 초래할 수 있습니다. 일부 프로젝트는 이 문제를 방지하기 위해 &quot;무(無)&quot;를 나타내는 특별한 인코딩을 사용합니다. - 대안으로 대형 언어 모델(LLM), 교차 인코더, L2 재정렬 모델 또는 그래프 기반 방법을 탐색하면 코사인 유사도에만 의존하는 것보다 더 정확한 검색 결과를 제공할 수 있습니다.</li>
+</ul>
+<h2><a href="https://ij.org/press-release/nevada-court-shuts-down-police-use-of-federal-loophole-for-civil-forfeiture/">네바다 법원, 민사 몰수에 대한 연방 허점 이용한 경찰의 사용 중단</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42707573">반응</a></h3>
+<ul>
+<li>네바다 법원은 경찰이 범죄 혐의 없이 자산을 압수하는 민사 몰수에 대한 연방 허점을 이용하는 것에 반대하는 판결을 내렸습니다.</li>
+<li>이 결정은 유죄를 가정하고 부패로 이어질 가능성이 있다는 비판을 받는 민사 몰수법에 대한 논쟁을 강조합니다.</li>
+<li>이 사건은 교통 정지 중에 한 남성의 평생 저축이 압수된 사례로, 시민의 권리를 보호하기 위한 법적 조치와 언론의 관심이 필요함을 강조합니다.</li>
+</ul>
+<h2><a href="https://www.reuters.com/technology/tiktok-preparing-us-shut-off-sunday-information-reports-2025-01-15/">틱톡, 일요일에 미국에서의 차단 준비 중</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42710339">반응</a></h3>
+<ul>
+<li>틱톡은 미국에서 잠재적인 폐쇄 위기에 처해 있으며, 사용자들은 샤오홍슈, 유튜브 쇼츠, 인스타그램 릴스와 같은 대안을 모색하고 있습니다. - 중국에서 인기가 있는 샤오홍슈는 서구 관객에게 맞춰져 있지 않아 중국과 미국 사용자 간의 직접적인 상호작용에 대한 우려를 불러일으키고 있습니다. - 미국 정부는 외국의 영향력과 선전 활동에 대한 우려를 포함한 국가 안보 문제를 틱톡 금지 고려의 이유로 제시하고 있습니다.</li>
+</ul>
+<h2><a href="https://claudio.uk/posts/epub-to-audiobook.html">전자책에서 오디오북을 생성하기 위해 Kokoro-82M 사용</a></h2>
+<ul>
+<li>Kokoro v0.19는 8,200만 개의 매개변수를 가진 새로운 텍스트-음성 변환 모델로, 미국 및 영국 영어, 프랑스어, 한국어, 일본어, 중국어(만다린어)를 포함한 여러 언어로 고품질의 오디오 출력을 제공합니다.</li>
+<li>클라우디오 산티니는 코코로를 사용하여 전자책을 오디오북으로 변환하는 도구인 오디블레즈를 개발했습니다. 이 도구는 .epub 파일을 처리하고 오디오 파일을 생성하며, M2 맥북 프로에서 100,000단어의 책을 변환하는 데 약 2시간이 소요됩니다.</li>
+<li>Audiblez는 pip를 통해 설치가 필요하며, 다양한 언어와 음성을 지원하고, .m4b 파일 생성을 위해 ffmpeg가 필요합니다. 이 도구는 GitHub에서 추가 개발 및 개선을 위해 제공됩니다.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42708773">반응</a></h3>
+<ul>
+<li>Kokoro-82M은 전자책을 오디오북으로 변환하도록 설계된 AI 도구로, 특히 논픽션 작품에 편리함을 제공합니다.</li>
+<li>AI 생성 오디오북은 인간 내레이터 버전이 존재하지 않는 곳에서 공백을 메울 수 있지만, 현재로서는 인간 내레이터가 제공하는 감정적 깊이와 개성을 결여하고 있습니다.</li>
+<li>이 도구는 창의적인 직업에 대한 AI의 영향에 대한 논쟁을 불러일으키며, 역사적인 기술 변화와의 유사점을 그리며, 이러한 분야에서의 훈련과 경험 기회의 감소에 대한 우려를 제기합니다.</li>
+</ul>
+<h2><a href="https://www.theautopian.com/if-you-ever-see-this-speed-sign-youre-probably-going-to-die/">오염된 지역에서 방사선 노출을 제한하기 위한 도로 표지판</a></h2>
+<ul>
+<li>통일 교통 제어 장치 매뉴얼(MUTCD)에는 방사능 오염 구역을 위한 &quot;최고 안전 속도 유지&quot;와 같은 냉전 시대의 표지판이 포함되어 있습니다.</li>
+<li>이 표지판들은 잠재적인 핵 종말 동안 시민들을 보호하기 위한 민방위 전략의 일환이었으나, 실제로 사용되지는 않았습니다.</li>
+<li>이 표지판 중 일부는 여전히 MUTCD에 비상 관리 표지판으로 포함되어 있으며, 그 시기의 역사적 두려움과 대비 노력을 강조하고 있습니다.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42704491">반응</a></h3>
+<ul>
+<li>당국은 오염된 지역을 통과할 때 방사선 노출을 줄이기 위해 고속 주행을 권장하는 도로 표지판을 고려하고 있습니다. - 이 논의는 체르노빌과 후쿠시마와의 유사점을 강조하며 방사성 먼지로 인한 흡입 및 오염에 대한 우려를 제기합니다. - 민족주의와 핵 억제력을 포함한 더 넓은 지정학적 문제도 대화의 일부로, 역사적 및 현재의 글로벌 긴장에 대한 반영을 포함하고 있습니다.</li>
+</ul>
+<h2><a href="https://wtfhappenedin1971.com/">WTF 1971년에 무슨 일이 있었나? (2019)</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42711781">반응</a></h3>
+<ul>
+<li>웹사이트 &#39;WTF Happened in 1971?&#39;은 1971년에 시작된 중요한 경제 및 사회적 변화를 조사하며, 이는 종종 금본위제의 종료와 관련이 있습니다.</li>
+<li>토론에는 경영진 보수 증가, 석유 위기, 경제 정책 변화와 같은 이러한 변화의 원인에 대한 다양한 관점이 포함되어 있습니다.</li>
+<li>논쟁은 또한 닉슨 쇼크의 영향, 신용과 법정 화폐의 역할, 그리고 도시화와 에너지 가격과 같은 더 넓은 요인들을 고려합니다.</li>
+</ul>
+<h2><a href="https://philipotoole.com/how-is-rqlite-tested/">rqlite는 어떻게 테스트되는가</a></h2>
+<ul>
+<li>rqlite는 SQLite와 Raft를 결합한 경량 분산 데이터베이스로, 구조화된 테스트 전략을 통해 신뢰성과 품질에 중점을 둡니다. - 이 테스트 전략은 테스트 피라미드를 따르며, 독립된 구성 요소에 대한 단위 테스트, 시스템 수준 검증을 위한 통합 테스트, 기본 작동 검사를 위한 최소한의 종단 간 테스트를 강조합니다. - rqlite의 테스트 접근 방식에서 얻은 주요 교훈은 테스트를 일찍 시작하고, 테스트 코드를 단순화하며, 결정성을 보장하는 것으로, 이는 최소한의 오버헤드로 높은 품질을 유지하는 데 도움이 됩니다.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42703282">반응</a></h3>
+<ul>
+<li>논의는 SQLite를 기반으로 한 분산 데이터베이스인 rqlite의 테스트 전략에 중점을 두며, 초기 테스트, 테스트 피라미드, 매개변수화된 테스트 및 속성 테스트를 강조합니다.</li>
+<li>복잡한 시스템에서의 종단 간(E2E) 테스트의 문제점과 rqlite에 대한 Go 프로그래밍 언어 선택 및 보안 문제에 대해 강조됩니다.</li>
+<li>결정론적 시뮬레이션 테스트는 데이터베이스 신뢰성에 대한 높은 기준으로 언급되며, FoundationDB와 같은 다른 데이터베이스에 대한 참조를 통해 효과적인 테스트 관행에 대한 다양한 관점을 보여줍니다.</li>
+</ul>
+<h2><a href="https://www.vijayp.dev/blog/rewrite-plain-html/">내 웹사이트를 순수 HTML과 CSS로 다시 작성하기</a></h2>
+<ul>
+<li>저자는 SvelteKit에서 벗어나 사이트를 단순화하고 Cloudflare Pages에 호스팅하기 위해 순수 HTML과 CSS를 사용하여 웹사이트를 재구축했습니다. - Markdown을 HTML로 변환하기 위해 Pandoc을 사용하고 스크립팅을 위해 Python을 사용하여 웹사이트 크기를 줄이고 자산 크기를 약 356kb에서 약 88kb로 줄였습니다. - 이 프로젝트는 코드 중복 및 실시간 리로딩 부족과 같은 문제를 강조했으며, 이러한 문제를 해결하기 위해 웹 컴포넌트와 FastAPI를 탐색할 계획을 세우고 있으며, Markdown 게시물이 있는 프레임워크 없는 웹사이트를 찾는 다른 사람들에게 템플릿으로 활용될 수 있습니다.</li>
+</ul>
+<h3><a href="https://news.ycombinator.com/item?id=42705077">반응</a></h3>
+<ul>
+<li>저자는 최소한의 시간 투자와 기술 연마를 제공하는 점을 높이 평가하며, 순수 HTML과 CSS를 사용하여 개인 웹사이트를 유지 관리합니다.</li>
+<li>웹사이트는 GitHub Pages에 호스팅되며, 콘텐츠는 MS Word에서 작성된 후 수동으로 업데이트됩니다.</li>
+<li>서버 사이드 인클루드나 Jekyll 또는 Hugo와 같은 정적 사이트 생성기를 사용하라는 제안에도 불구하고, 저자는 현재 방법의 제어와 단순성을 중요하게 생각합니다.</li>
+</ul>
+<head>
+  <meta property="og:title" content="코사인 유사도를 함부로 사용하지 마세요" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%EC%BD%94%EC%82%AC%EC%9D%B8%20%EC%9C%A0%EC%82%AC%EB%8F%84%EB%A5%BC%20%ED%95%A8%EB%B6%80%EB%A1%9C%20%EC%82%AC%EC%9A%A9%ED%95%98%EC%A7%80%20%EB%A7%88%EC%84%B8%EC%9A%94&subheading=2025%EB%85%84%201%EC%9B%94%2015%EC%9D%BC%20%EC%88%98%EC%9A%94%EC%9D%BC%3A%20%ED%95%B4%EC%BB%A4%EB%89%B4%EC%8A%A4%20%EC%9A%94%EC%95%BD" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/ko/2025/01/15</link>
+            <guid isPermaLink="false">2025-01-15T00:00:00.000Z</guid>
+            <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-14]]></title>
             <description
@@ -1120,68 +1205,6 @@
             <link>https://hn.cho.sh/ko/2025/01/06</link>
             <guid isPermaLink="false">2025-01-06T00:00:00.000Z</guid>
             <pubDate>Mon, 06 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2025-01-05]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2025/01/05&#39;</h2>
-<h1>2025-01-05</h1>
-<h2><a href="https://uwaterloo.ca/news/media/no-more-needles-tracking-blood-sugar-your-wrist">연구자들이 더 정확하게 포도당 수치를 감지할 수 있는 웨어러블 기술을 설계하다</a></h2>
-<ul>
-<li>워털루 대학교의 연구원들이 레이더 기술을 사용하여 비침습적으로 포도당 수치를 모니터링하는 웨어러블 장치를 개발하여 바늘의 필요성을 없앴습니다.</li>
-<li>조지 셰이커 박사가 이끄는 이 장치는 레이더 칩, 신호 정확성을 향상시키기 위한 메타 표면, 그리고 정확한 포도당 측정을 위한 AI 알고리즘을 통합하고 있습니다.</li>
-<li>현재 USB 전원으로 작동하는 이 장치는 휴대성을 개선하기 위해 배터리로 작동하도록 목표하고 있으며, 궁극적으로 추가적인 건강 지표를 모니터링할 수 있을 것으로 보입니다. 기술 상용화를 위한 노력이 진행 중입니다.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42599189">반응</a></h3>
-<ul>
-<li>연구자들은 비침습적인 포도당 모니터링을 위한 웨어러블 기술을 개발하여 손가락 채혈과 연속 혈당 모니터(CGM)에 대한 대안을 제공하고 있습니다.</li>
-<li>이 기술은 혈류와 직접 접촉하지 않고도 정확한 포도당 수치를 제공하는 것을 목표로 하며, 이는 임상 응용에 있어 중요할 수 있습니다.</li>
-<li>유망하지만 기존 CGM과 비교했을 때 정확성에 대한 회의론이 있으며, 그 효과를 확인하기 위해 추가적인 데이터와 임상 시험이 필요합니다.</li>
-</ul>
-<h2><a href="https://nmn.gl/blog/ai-senior-developer">내가 AI에게 시니어 개발자처럼 코드를 읽는 법을 가르친 날</a></h2>
-<ul>
-<li>AI는 처음에 React 코드베이스를 분석하는 데 어려움을 겪었으며, 초보 개발자처럼 접근했습니다. - 핵심 파일에 집중하고 기능별로 변경 사항을 그룹화하는 등 시니어 개발자의 전략을 모방함으로써 AI의 코드 분석 능력이 크게 향상되었습니다. - 코드 생성보다는 코드 이해를 향상시키는 데 중점을 두고 있으며, 향후 기술 부채를 식별하고 팀의 관례를 이해하는 계획이 있습니다.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42601847">반응</a></h3>
-<ul>
-<li>이 기사는 AI가 숙련된 개발자 수준으로 코드를 읽고 분석하도록 훈련하는 데 있어 일관되고 정확한 결과를 얻는 것이 어렵다는 점을 지적하며 그 도전에 대해 탐구하고 있습니다.</li>
-<li>이는 코드 분석에서 AI 성능을 향상시키기 위해 맥락을 제공하고 입력을 구조화하는 것의 중요성을 강조하면서, AI의 현재 능력에 대한 회의론을 인정합니다.</li>
-<li>이 논의는 AI의 성능을 검증하기 위한 추가 실험과 평가의 필요성을 강조하며, 소프트웨어 개발에서 AI의 더 넓은 의미와 잠재적 발전 가능성을 고려합니다.</li>
-</ul>
-<h2><a href="http://rachelbythebay.com/w/2025/01/04/cruft/">여기서 여러분에게 가하지 않는 웹 페이지 성가심</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42599102">반응</a></h3>
-<ul>
-<li>저자는 사용자 경험을 향상시키기 위해 스티키 바, 강제 SSL/TLS, 팝업 및 불필요한 추적과 같은 특정 웹 기능의 사용을 피합니다.</li>
-<li>HTTPS의 보안 필요성과 구형 브라우저와의 호환성 문제에 대한 논쟁이 계속되고 있습니다.</li>
-<li>이 논의는 사용자 경험과 현대 웹 관행의 균형을 맞추는 도전 과제를 강조합니다.</li>
-</ul>
-<h2><a href="https://tailscale.com/blog/how-nat-traversal-works">Nat Traversal 작동 방식 (2020)</a></h2>
-<ul>
-<li>NAT 트래버설은 UDP 기반 프로토콜과 직접 소켓 제어를 사용하여 네트워크 주소 변환기(NAT)와 방화벽이 존재하더라도 장치 간의 직접 연결을 가능하게 합니다.</li>
-<li>STUN(세션 횡단 유틸리티)는 공용 IP 주소를 발견하는 데 도움을 주며, TURN(네트워크 주소 변환 주변의 릴레이 사용)이나 Tailscale의 DERP와 같은 릴레이는 더 복잡한 NAT를 처리하는 데 사용됩니다.</li>
-<li>ICE(Interactive Connectivity Establishment) 프로토콜은 모든 가능한 옵션을 평가하고 가장 효율적인 경로를 선택하여 연결 경로를 최적화하며, 종단 간 암호화 및 인증을 통해 강력한 NAT 트래버설을 보장합니다.</li>
-</ul>
-<h3><a href="https://news.ycombinator.com/item?id=42600846">반응</a></h3>
-<ul>
-<li>이 기사는 NAT(네트워크 주소 변환) 트래버설을 탐구하며, TCP(전송 제어 프로토콜)와 UDP(사용자 데이터그램 프로토콜) 홀 펀칭의 차이점을 강조하고, TCP가 약간 더 복잡하다는 점을 언급하고 있습니다.</li>
-<li>이는 NAT를 보안 기능으로 인식하는 것에 도전하며, Tailscale의 NAT 트래버설 방법을 논의하면서 보안을 위해 소프트웨어 ACL(액세스 제어 목록)에만 의존하는 것에 대한 우려를 제기합니다.</li>
-<li>이 논의는 안전한 엔드포인트의 중요성을 강조하고 NAT 트래버설의 맥락에서 기존 네트워크 보안 전략의 한계를 비판합니다.</li>
-</ul>
-<h2><a href="https://amanvir.com/guten">구텐: 작은 신문 프린터</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42599599">반응</a></h3>
-<ul>
-<li>구텐은 뉴스를 인쇄된 형태로 제공하여 화면 시간을 최소화하기 위해 설계된 소규모 신문 인쇄 프로젝트입니다. - 이 프로젝트와 관련된 논의에는 열전사 용지의 BPA 함량에 대한 우려와 BPA가 없는 대안이나 임팩트 프린터 또는 도트 매트릭스 프린터와 같은 다른 인쇄 기술을 사용하는 제안이 포함됩니다. - 중단된 리틀 프린터와의 비교가 이루어지며, 구텐의 개발자 친화성과 맞춤화 옵션을 향상시키기 위한 권장 사항과 열전사 용지의 환경 및 건강 영향에 대한 고려 사항이 포함됩니다.</li>
-</ul>
-<head>
-  <meta property="og:title" content="연구자들이 더 정확하게 포도당 수치를 감지할 수 있는 웨어러블 기술을 설계하다" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%EC%97%B0%EA%B5%AC%EC%9E%90%EB%93%A4%EC%9D%B4%20%EB%8D%94%20%EC%A0%95%ED%99%95%ED%95%98%EA%B2%8C%20%ED%8F%AC%EB%8F%84%EB%8B%B9%20%EC%88%98%EC%B9%98%EB%A5%BC%20%EA%B0%90%EC%A7%80%ED%95%A0%20%EC%88%98%20%EC%9E%88%EB%8A%94%20%EC%9B%A8%EC%96%B4%EB%9F%AC%EB%B8%94%20%EA%B8%B0%EC%88%A0%EC%9D%84%20%EC%84%A4%EA%B3%84%ED%95%98%EB%8B%A4&subheading=2025%EB%85%84%201%EC%9B%94%205%EC%9D%BC%20%EC%9D%BC%EC%9A%94%EC%9D%BC%3A%20%ED%95%B4%EC%BB%A4%EB%89%B4%EC%8A%A4%20%EC%9A%94%EC%95%BD" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/ko/2025/01/05</link>
-            <guid isPermaLink="false">2025-01-05T00:00:00.000Z</guid>
-            <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
