@@ -32,9 +32,9 @@ enum NotificationChannelType {
 enum KiteStatus {
   /// The Kite is actively scanning or ready to be scanned.
   ACTIVE
-  /// The Kite is paused and not currently running scans.
+  /// The Kite is paused and not currently running scans, but visible at the marketplace.
   PAUSED
-  /// The Kite is archived and not visible or active.
+  /// The Kite is archived and not visible or active, but still exists in the database, and only visible to the owner.
   ARCHIVED
 }
 
@@ -43,7 +43,7 @@ enum KiteStatus {
 /// the user has with other models.
 model User {
   /// The unique identifier for the user.
-  id        String    @id @default(cuid())
+  id        String    @id @default(ulid())
   /// The unique identifier from the Kinde auth provider.
   kindeId   String    @unique
   /// Timestamp when the user record was created.
@@ -71,9 +71,7 @@ model User {
 /// can reference the same Prompt, making it reusable across the system.
 model Prompt {
   /// The unique identifier for the Prompt.
-  id          String    @id @default(cuid())
-  /// A unique handle for referencing this prompt.
-  handle      String    @unique
+  id          String    @id @default(ulid())
   /// A short description or name for the prompt.
   description String?
   /// The actual text/content of the prompt used for post-processing.
@@ -100,9 +98,7 @@ model Prompt {
 /// Each Kite uses a specific strategy to discover stories and can have multiple stories and scouts.
 model Kite {
   /// The unique identifier for the Kite.
-  id          String           @id @default(cuid())
-  /// A unique handle (slug-like) for referencing this Kite publicly.
-  handle      String           @unique
+  id          String           @id @default(ulid())
   /// The human-readable name of the Kite.
   name        String           @db.VarChar(100)
   /// An optional description of what the Kite is monitoring.
@@ -144,9 +140,7 @@ model Kite {
 /// It holds the data about the discovered URL, title, summary, and other meta fields.
 model Story {
   /// The unique identifier for the Story.
-  id        String    @id @default(cuid())
-  /// A unique handle (slug-like) for this Story.
-  handle    String    @unique
+  id        String    @id @default(ulid())
   /// The title of the Story (possibly processed with prompts).
   title     String
   /// The URL where the Story content can be found.
@@ -180,9 +174,7 @@ model Story {
 /// It stores whether the scan was successful and references all discovered Stories.
 model Scout {
   /// The unique identifier for the Scout.
-  id         String  @id @default(cuid())
-  /// A unique handle (slug-like) for this Scout.
-  handle     String  @unique
+  id         String  @id @default(ulid())
   /// Foreign key referencing the Kite that was scanned.
   kiteId     String
   /// Optional foreign key referencing the Run that triggered this Scout.
@@ -211,9 +203,7 @@ model Scout {
 /// Schedules are owned by a User and can be linked to multiple Kites via ScheduleKite.
 model Schedule {
   /// The unique identifier for the Schedule.
-  id            String         @id @default(cuid())
-  /// A unique handle (slug-like) for the Schedule.
-  handle        String         @unique
+  id            String         @id @default(ulid())
   /// A human-readable name for the Schedule.
   name          String         @db.VarChar(100)
   /// The cron expression defining when the Schedule runs.
@@ -244,7 +234,7 @@ model Schedule {
 /// This allows multiple Kites to be associated with a single Schedule and vice versa.
 model ScheduleKite {
   /// The unique identifier for the ScheduleKite record.
-  id         String @id @default(cuid())
+  id         String @id @default(ulid())
   /// Foreign key referencing the Schedule.
   scheduleId String
   /// Foreign key referencing the Kite.
@@ -262,7 +252,7 @@ model ScheduleKite {
 /// When a Schedule runs at its specified cron time, it creates a Run that can trigger multiple Scouts (for multiple Kites).
 model Run {
   /// The unique identifier for the Run.
-  id          String    @id @default(cuid())
+  id          String    @id @default(ulid())
   /// Foreign key referencing the Schedule that triggered this Run.
   scheduleId  String?
   /// Timestamp when the Run started.
@@ -281,9 +271,7 @@ model Run {
 /// It also stores any necessary configuration in the `settings` field.
 model NotificationChannel {
   /// The unique identifier for the NotificationChannel.
-  id           String                  @id @default(cuid())
-  /// A unique handle (slug-like) for the NotificationChannel.
-  handle       String                  @unique
+  id           String                  @id @default(ulid())
   /// A human-readable name for this notification channel.
   name         String                  @db.VarChar(100)
   /// The type of channel: EMAIL, SMS, or SLACK.
@@ -308,7 +296,7 @@ model NotificationChannel {
 /// Subscriptions may optionally reference a specific NotificationChannel for delivering updates.
 model Subscription {
   /// The unique identifier for the Subscription.
-  id                    String  @id @default(cuid())
+  id                    String  @id @default(ulid())
   /// Foreign key referencing the User who is subscribing.
   userId                String
   /// Foreign key referencing the Kite being subscribed to.
