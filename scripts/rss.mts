@@ -23,9 +23,7 @@ const writeStoryRss = async (storyHistory: { [key: string]: Story[] }, locale: s
       rss.item({
         title: story.title,
         guid: new Date(day.replace(/-/g, '/').replace(/T.+/, '')).toISOString() + story.title,
-        description: parse(
-          '- ' + story.originSummary.join('\n- ').replaceAll(/[\u200B\u200C\u200D\u200E\u200F\uFEFF]/g, '')
-        ),
+        description: parse(story.originSummary.join('\n ').replaceAll(/[\u200B\u200C\u200D\u200E\u200F\uFEFF]/g, '')),
         url: (story.originLink ?? story.commentLink).replaceAll('@TrackLink', ''),
         date: new Date(day.replace(/-/g, '/').replace(/T.+/, '')),
       })

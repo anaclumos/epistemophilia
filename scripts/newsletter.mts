@@ -40,7 +40,7 @@ const createHnPreview = (story: Story) => {
 
 const createHnCampaign = async (locale: string, stories: Story[]) => {
   const ONE_MINUTE = 60 * 1000
-  const timeToSend = new Date(new Date().getTime() + 10 * ONE_MINUTE * newsletterDelay[locale] + ONE_MINUTE * 60)
+  const timeToSend = new Date(new Date().getTime() + 5 * ONE_MINUTE * newsletterDelay[locale] + ONE_MINUTE * 10)
 
   const day = new Date().toISOString().split('T')[0]
 
@@ -121,12 +121,12 @@ export const createHnContent = (locale: string, stories: Story[], isEmail = fals
     content += story.originLink !== undefined ? `${h2link}\n\n` : `## ${story.title}\n\n`
 
     for (let j = 0; j < story.originSummary.length; j++) {
-      content += `- ${story.originSummary[j]}\n`
+      content += `${story.originSummary[j]} `
     }
     content += story.commentLink !== undefined ? `\n${h3link}\n\n` : `\n### ${LOCAL_REACTIONS[locale]}\n\n`
 
     for (let j = 0; j < story.commentSummary.length; j++) {
-      content += `- ${story.commentSummary[j]}\n`
+      content += `${story.commentSummary[j]} `
     }
     content += '\n'
   }
