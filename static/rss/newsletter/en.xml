@@ -15,12 +15,64 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 19 Jan 2025 19:08:34 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Jan 2025 19:11:08 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/en.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Sun, 19 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Mon, 20 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-20]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/20&#39;</h2>
+<h1>2025-01-20</h1>
+<h2><a href="https://www.vintagecomputing.com/index.php/archives/3292/the-pc-is-dead-its-time-to-make-computing-personal-again">It&#39;s time to make computing personal again</a></h2>
+<p>The article highlights the decline of personal computing freedom due to surveillance capitalism and Digital Rights Management (DRM), which have transferred control from users to corporations. It contrasts the past era of personal computing, which offered more user freedom, with today&#39;s tech environment dominated by business models that erode privacy. The author advocates for reclaiming digital autonomy through supporting open-source projects, pushing for privacy legislation, and reforming DRM laws to restore personal computing values. </p>
+<h3><a href="https://news.ycombinator.com/item?id=42763095">Reactions</a></h3>
+<p>The article emphasizes the need to return to personal computing, expressing dissatisfaction with corporate influence in the tech industry. It highlights the challenge of community computing, where network effects lock users into specific software ecosystems, such as iOS and Android. Alternatives like Linux and open-source software are discussed, focusing on user control and the difficulties of achieving it in a corporate-dominated environment. </p>
+<h2><a href="https://github.com/deepseek-ai/DeepSeek-R1">DeepSeek-R1</a></h2>
+<p>DeepSeek-R1 and DeepSeek-R1-Zero are first-generation reasoning models, with DeepSeek-R1 addressing issues like repetition and language mixing seen in DeepSeek-R1-Zero. The models, including six distilled versions, are open-sourced, with DeepSeek-R1-Distill-Qwen-32B achieving state-of-the-art results in reasoning, code, and math tasks. These models are available for download on HuggingFace, and users can interact with them via a chat website or an OpenAI-Compatible API, with instructions for local deployment provided. </p>
+<h3><a href="https://news.ycombinator.com/item?id=42768072">Reactions</a></h3>
+<p>DeepSeek-R1 is an advanced reasoning model that improves upon issues like repetition and language mixing by using cold-start data before reinforcement learning. It outperforms the QwQ model in experiments, providing a better user experience and more diverse answer strategies, and is open-sourced under the MIT license for broad evaluation. The model introduces a pipeline for teaching existing models reasoning and alignment with human preferences, with fine-tuned Llama and Qwen models also open-sourced, potentially rivaling OpenAI&#39;s offerings, though data usage and censorship concerns persist. </p>
+<h2><a href="https://josef.cn/blog/uk-talent">UK&#39;s hardware talent is being wasted</a></h2>
+<p>The UK is experiencing a talent drain as top engineering graduates from prestigious universities face lower salaries compared to Silicon Valley, prompting many to switch to higher-paying fields like consulting or finance. This talent misallocation hinders innovation and economic growth, with issues such as geographical constraints, lack of venture capital for hardware, and stagnant traditional engineering firms contributing to the problem. The UK risks losing its best talent to overseas markets, missing the chance to create tech giants, and must act now to leverage its research institutions and engineering talent for a hardware revolution. </p>
+<h3><a href="https://news.ycombinator.com/item?id=42763386">Reactions</a></h3>
+<p>UK hardware talent is underutilized as many engineers transition to software or finance due to the higher barriers and costs associated with hardware startups. This challenge is not exclusive to the UK; globally, hardware startups face slow iteration cycles and high costs, making them less attractive to investors compared to software. UK planning laws and economic policies further impede hardware growth, causing talent to shift to other sectors or countries, while the tech industry often overlooks hardware innovation potential. </p>
+<h2><a href="https://wiki.rossmanngroup.com/wiki/Reverse_Engineering_Bambu_Connect">Reverse Engineering Bambu Connect</a></h2>
+<p>The guide discusses extracting a private key from the Bambu Connect app, an Electron application with known security vulnerabilities. Users are cautioned that the guide may be incomplete or outdated and should be followed at their own risk. The process involves using tools like Ghidra and asarfix to locate and decrypt the obfuscated private key and certificates, with a Python script provided for extraction. </p>
+<h3><a href="https://news.ycombinator.com/item?id=42764602">Reactions</a></h3>
+<p>Bambu Lab is under criticism for implementing restrictions on their 3D printers, mandating the use of their software and Digital Rights Management (DRM) system. Users are concerned that these changes, justified by Bambu as security measures, might lead to subscription models or additional limitations, reducing the printers&#39; openness and hackability. In response, Bambu Lab introduced a &quot;Developer Mode&quot; for advanced users, providing more control over network security, but apprehensions about vendor lock-in and effects on third-party integrations persist. </p>
+<h2><a href="https://www.lesswrong.com/posts/cu2E8wgmbdZbqeWqb/meemi-s-shortform">FrontierMath was funded by OpenAI</a></h2>
+<p>The post highlights a lack of transparency in the collaboration between OpenAI and FrontierMath, with funding details only disclosed after a delay, causing confusion among contributors. Concerns are raised about OpenAI&#39;s potential access to and use of the dataset for training, despite verbal agreements suggesting otherwise, emphasizing the need for written agreements. The discussion underscores the importance of transparency and trust in collaborations, especially those involving AI capabilities, with commitments to improve transparency in future projects. </p>
+<h3><a href="https://news.ycombinator.com/item?id=42763231">Reactions</a></h3>
+<p>FrontierMath, funded by OpenAI, faces scrutiny over potential data contamination in its benchmarks, raising concerns about the integrity of their results. Critics emphasize the importance of transparency and proper separation of training and test data to prevent benchmarks from being manipulated. This situation underscores the necessity for independent and transparent evaluations in AI to maintain credibility. </p>
+<h2><a href="https://blog.gitbutler.com/why-is-git-autocorrect-too-fast-for-formula-one-drivers/">Why is Git Autocorrect too fast for Formula One drivers?</a></h2>
+<p>Git&#39;s autocorrect feature executes a mistyped command after a default delay of 0.1 seconds, which is often too quick for users to cancel. Introduced in 2008, the feature uses a modified Levenshtein distance algorithm to guess the intended command, but defaults to not running any command if mistyped. A proposed patch suggests interpreting a setting of &quot;1&quot; as &quot;immediately&quot; to enhance usability, allowing users to configure the delay or prompt for confirmation. </p>
+<h3><a href="https://news.ycombinator.com/item?id=42760620">Reactions</a></h3>
+<p>Git&#39;s autocorrect feature has a default delay of 100 milliseconds, which is often too quick for users to cancel a mistyped command. Originally intended to interpret a boolean value, the feature now accepts a time delay in deciseconds, causing some confusion among users. This situation underscores the need for clear configuration settings and the difficulties in updating software features without disrupting existing functionality. </p>
+<h2><a href="http://okayfail.com/2025/i-met-pg-once.html">I Met Paul Graham Once</a></h2>
+<p>The author attended Y Combinator in 2015, where they met Paul Graham and received advice on their startup, Appcanary, which was later acquired by GitHub. The author, now a transgender woman, expresses concern over Paul Graham&#39;s recent essay on &quot;Wokeness,&quot; feeling it reflects a rejection of inclusivity in the tech industry. The author is worried about increasing intolerance and potential discrimination in the tech industry but remains committed to living with respect and kindness. </p>
+<h3><a href="https://news.ycombinator.com/item?id=42767507">Reactions</a></h3>
+<p>The discussion centers on Paul Graham&#39;s influence and the perceived shift in values within the tech industry, highlighting disillusionment with tech leaders once seen as visionaries. It addresses the complexities of identity politics, the impact of &quot;wokeness,&quot; and challenges faced by marginalized groups in the tech sector. The text critiques the performative aspects of social justice efforts and the difficulty of balancing personal identity with professional roles, reflecting a broader cultural debate on progress and privilege. </p>
+<h2><a href="https://www.johnwalker.nl/posts/escape-the-walled-garden-with-rss">Escape the walled garden and algorithm black boxes with RSS feeds</a></h2>
+<p>RSS (Really Simple Syndication) and Atom provide decentralized alternatives to centralized social media, allowing users to control their content consumption. Feed readers such as Miniflux, NetNewsWire, and Newsboat enable subscriptions to diverse content sources, including YouTube channels, podcasts, and blogs. Tools like PolitePol can create feeds for websites lacking them, promoting user autonomy in media consumption. </p>
+<h3><a href="https://news.ycombinator.com/item?id=42761219">Reactions</a></h3>
+<p>RSS feeds provide a way to escape algorithm-driven content by allowing users to subscribe to specific topics through &quot;planets,&quot; which aggregate related blogs. While RSS readers like Feedly and Feedbin help manage these feeds, some users find them complex, leading to alternatives like Feedmail that deliver content directly to inboxes. Despite its niche appeal, RSS remains popular among tech enthusiasts for its customizable and user-controlled content experience, with platforms like Mastodon and Bluesky supporting RSS feeds. </p>
+<h2><a href="https://iamvishnu.com/posts/please-dont-force-dark-mode">Please don&#39;t force dark mode</a></h2>
+<p>Website designers are advised not to enforce dark mode on users, as it can cause eye strain, especially with high contrast settings like white text on a black background. The Web Content Accessibility Guidelines (WCAG) currently suggest a minimum contrast ratio but do not address maximum contrast, which may lead to discomfort; this might be addressed in the upcoming WCAG 3.0. Dark mode is beneficial in specific scenarios, such as reading on OLED screens in dark environments or coding with Integrated Development Environments (IDEs) that offer comfortable contrast settings. </p>
+<h3><a href="https://news.ycombinator.com/item?id=42762054">Reactions</a></h3>
+<p>The ongoing debate between dark mode and light mode centers around user comfort, with some finding dark mode straining and others considering light mode too harsh. There is a general agreement that websites should provide both dark and light mode options, respecting individual user preferences. This discussion underscores the significance of customizable settings to cater to diverse user needs and environments. </p>
+<head>
+  <meta property="og:title" content="It's time to make computing personal again" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=It's%20time%20to%20make%20computing%20personal%20again&subheading=Monday%2C%20January%2020%2C%202025%3A%20Hacker%20News%20Summary" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/2025/01/20</link>
+            <guid isPermaLink="false">2025-01-20T00:00:00.000Z</guid>
+            <pubDate>Mon, 20 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-19]]></title>
             <description
@@ -500,34 +552,6 @@
             <link>https://hn.cho.sh/2025/01/11</link>
             <guid isPermaLink="false">2025-01-11T00:00:00.000Z</guid>
             <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2025-01-10]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2025/01/10&#39;</h2>
-<h1>2025-01-10</h1>
-<h2><a href="https://danielwirtz.com/blog/spot-the-difference-superpower">I&#39;ve Acquired a New Superpower</a></h2>
-<p>A Reddit user discovered a technique to easily spot differences in &quot;spot-the-difference&quot; puzzles by crossing their eyes to create a third, shimmering image. This method allows differences to become more apparent, and the user felt it was like gaining a new skill or &quot;superpower&quot; after practicing. The user shared this technique with others, encouraging them to try it by focusing on the middle image created when crossing their eyes. </p>
-<h3><a href="https://news.ycombinator.com/item?id=42655870">Reactions</a></h3>
-<p>A technique to spot differences between two images by crossing one&#39;s eyes, akin to viewing stereograms, was used to win a game machine high score and a free bar tab. This method highlights differences as shimmering or unstable areas, sparking discussions on its applications and challenges, including eye strain and vision difficulties. The conversation expanded to related topics such as stereoscopic vision and the use of similar techniques in different fields. </p>
-<h2><a href="https://annas-archive.org/blog/all-isbns.html">Visualizing All ISBNs</a></h2>
-<p>Anna&#39;s Archive, the largest open library, has visualized all ISBNs to track the progress of book backups, revealing that only 16% of books are backed up so far. A $10,000 bounty is offered for improving the visualization&#39;s zoomability, interactivity, and usability, with prizes for the top three submissions, and all code must be open source. This initiative is crucial for preserving rare books, as Anna&#39;s Archive holds the largest open collection of book metadata. </p>
-<h3><a href="https://news.ycombinator.com/item?id=42652577">Reactions</a></h3>
-<p>The discussion on Hacker News revolves around visualizing ISBNs (International Standard Book Numbers) from Anna&#39;s Archive, with suggestions like using a Hilbert Curve for improved data representation. Users debate the effectiveness of ISBNs for hierarchical data visualization, proposing alternatives such as the Library of Congress system. The conversation also addresses the legality and ethics of Anna&#39;s Archive, which hosts copyrighted material, and the use of Monero cryptocurrency for bounties due to privacy concerns. </p>
-<h2><a href="https://rodneybrooks.com/predictions-scorecard-2025-january-01/">Predictions Scorecard, 2025 January 01</a></h2>
-<p>The author provides an annual update on predictions made in 2018 about self-driving cars, robotics, AI, machine learning, and human space travel, with plans to make new predictions for 2026-2036. Despite significant developments in AI and self-driving cars in 2024, full autonomy and the replacement of human jobs with AI remain distant, with remote human monitoring still necessary for self-driving cars. Human spaceflight progress is slow, with SpaceX&#39;s Starship and NASA&#39;s Artemis facing delays, while Blue Origin&#39;s New Glenn is nearing launch, and suborbital tourism shows limited progress. </p>
-<h3><a href="https://news.ycombinator.com/item?id=42651275">Reactions</a></h3>
-<p>The article examines Rodney Brooks&#39; predictions on AI and robotics, particularly focusing on self-driving cars and AI advancements. - Critics claim Brooks&#39; predictions are vague and self-congratulatory, especially concerning Waymo&#39;s self-driving technology, which some argue is not fully autonomous due to human interventions. - Brooks aims to temper the hype around AI and robotics by highlighting realistic timelines and challenges, while the discussion also considers the economic viability of self-driving technology and its impact on jobs. </p>
-<head>
-  <meta property="og:title" content="I've Acquired a New Superpower" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=I've%20Acquired%20a%20New%20Superpower&subheading=Friday%2C%20January%2010%2C%202025%3A%20Hacker%20News%20Summary" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/2025/01/10</link>
-            <guid isPermaLink="false">2025-01-10T00:00:00.000Z</guid>
-            <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
