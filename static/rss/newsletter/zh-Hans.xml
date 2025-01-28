@@ -15,12 +15,77 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 27 Jan 2025 19:11:34 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Jan 2025 19:11:53 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/zh-Hans.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Mon, 27 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Tue, 28 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[zh-Hans]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-28]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/28&#39;</h2>
+<h1>2025-01-28</h1>
+<h2><a href="https://repebble.com/">“我们正在重新推出Pebble”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42845091">反应</a></h3>
+<p>“Pebble正在通过谷歌的支持复兴，专注于其原有的优势，如可编程性、长电池寿命以及作为手机扩展的功能。” “复兴旨在保持 Pebble 的开源特性，并避免强制性的云订阅，以吸引黑客和技术爱好者。” “社区对Pebble的回归感到兴奋，回顾其独特的功能及其对可穿戴技术的影响。” </p>
+<h2><a href="https://opensource.googleblog.com/2025/01/see-code-that-powered-pebble-smartwatches.html">“谷歌开源了Pebble操作系统”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42845070">反应</a></h3>
+<p>“谷歌已将 Pebble OS 开源，这在粉丝和开发者中激发了对智能手表技术潜在新发展的热情。” “在 GitHub 上发布的版本不包括系统字体和蓝牙堆栈等专有组件，因此无法以其当前形式进行编译。” “此举被视为谷歌的积极姿态，归因于内部努力，并被视为恢复Pebble智能手表生态系统的一步。” </p>
+<h2><a href="https://unsloth.ai/blog/deepseekr1-dynamic">“运行 DeepSeek R1 动态 1.58 位”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42850222">反应</a></h3>
+<p>“DeepSeek R1 Dynamic 1.58-bit实现了80%的体积缩减，并使用双H100以每秒140个token的速度运行，但其速度缓慢和重复问题对其实用性提出了质疑。” “动态量化有助于提高性能，但对可访问性、成本以及模型训练成本的担忧仍然存在，从而引发了审查。” “该模型对市场产生了显著影响，目前正在努力复制其结果，尽管与更大型的模型相比，其性能仍存在争议。” </p>
+<h2><a href="https://simonwillison.net/2025/Jan/27/llamacpp-pr/">DeepSeek R1的代码显示出有希望的结果</a></h2>
+<p>“Xuan-Son Nguyen 为 llama.cpp 提交的拉取请求 (PR) 使用单指令多数据 (SIMD) 指令增强了 WebAssembly (WASM) 的速度，并得到了 DeekSeek-R1 的重要贡献。” “该PR包括一个从API响应构建的动态model_map，消除了对硬编码版本的需求，展示了插件开发中的创新。” “Simon Willison 的博客还涵盖了最近的话题，如开源项目、Anthropic 的 Citations API 和大型语言模型 (LLM) 项目，表明其关注尖端技术讨论。” </p>
+<h3><a href="https://news.ycombinator.com/item?id=42852866">反应</a></h3>
+<p>“DeepSeek R1通过为llama.cpp编写99%的拉取请求(PR)，展示了AI在编码中的潜力，彰显了AI在软件开发中日益增长的作用。” “像aider这样的工具现在负责生成发布中70-82%的新代码，这表明通过AI辅助生产力显著提高。” “尽管有这些进步，人工智能在复杂问题解决和与现有代码库的整合方面仍然需要人类的监督，这表明行业中的工作动态和技能要求正在发生变化。” </p>
+<h2><a href="https://newsletter.languagemodels.co/p/the-illustrated-deepseek-r1">“插图版DeepSeek-R1”</a></h2>
+<p>“DeepSeek-R1 是一款新发布的 AI 模型，通过结构化的三步训练过程强调增强的推理能力：语言建模、监督微调 (SFT) 和偏好调优。该模型结合了长链推理数据、中间推理模型和大规模强化学习 (RL)，通过生成思维标记在推理任务中表现出色。它采用专家混合架构，使其能够高效处理复杂的推理任务，标志着 AI 模型设计的重大进步。” </p>
+<h3><a href="https://news.ycombinator.com/item?id=42845488">反应</a></h3>
+<p>“DeepSeek-R1因其性能和成本效率而引发讨论，与GPT和Gemini等模型相比，一些用户指出其存在典型的大型语言模型(LLM)问题。该模型因其低计算需求和开源特性而引人注目，可能会颠覆AI领域并使AI开发更易于接近。由一家中国对冲基金开发的DeepSeek-R1引发了关于其训练数据和地缘政治影响的问题，尽管其编码能力的评价不一。” </p>
+<h2><a href="https://mlip-cmu.github.io/s2025/">生产中的机器学习(卡内基梅隆大学课程)</a></h2>
+<p>“卡内基梅隆大学在2025年春季开设了一门名为“生产中的机器学习/AI工程”的课程，重点在于构建、部署和维护机器学习驱动的软件产品。该课程强调负责任的AI实践和MLOps(机器学习操作)，涵盖从原型到生产的整个生命周期。课程专为具备数据科学和基础编程技能的学生设计，包含讲座、实验室和小组项目，相关资源可在GitHub上获取。” </p>
+<h3><a href="https://news.ycombinator.com/item?id=42847834">反应</a></h3>
+<p>“CMU的生产中的机器学习课程介绍了Kafka、Docker、Kubernetes和Jenkins等实用工具，强调MLOps(机器学习操作)、可解释性、公平性和监控。” “它作为机器学习和生产系统之间的桥梁，尽管有些人认为它是入门级的，更注重工具集成而非精通。” “有人对某些工具的长期相关性以及课程对数据质量的有限重视表示担忧，但它被认为是计算机科学学生的新入门点。” </p>
+<h2><a href="https://huggingface.co/blog/open-r1">“Open-R1：DeepSeek-R1 的开放复刻版”</a></h2>
+<p>“Open-R1 是一个旨在复制 DeepSeek-R1 的倡议，这是一种与 OpenAI 的 o1 相当的推理模型，专注于透明性和开源合作。” “该项目旨在使用无监督的强化学习(RL)重新创建DeepSeek-R1的数据集和训练流程，这些目前尚未公开。” “Open-R1 鼓励社区贡献，以扩展模型在数学之外的应用，包括编程和医学等领域。” </p>
+<h3><a href="https://news.ycombinator.com/item?id=42849536">反应</a></h3>
+<p>“Open-R1 是一项旨在使用开源原则重建 DeepSeek-R1 模型的计划，尽管它尚未成为一个实际的模型。” “讨论强调了在有限预算下复制人工智能模型的挑战和潜在好处，以及人工智能对教育的影响和更广泛的社会影响。” “这段对话还突显了围绕技术进步的兴奋，以及开源运动在使人工智能对更广泛的受众更易获取方面的作用。” </p>
+<h2><a href="https://rebble.io/2025/01/27/the-future-of-rebble.html">“Rebble的未来”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42845017">反应</a></h3>
+<p>“讨论强调了对Pebble智能手表的怀旧情感，这些手表因其类似电子墨水的屏幕和长电池寿命而受到赞赏，并质疑为何类似技术没有被更广泛地采用。” “人们对Rebble这一社区驱动项目的新硬件潜力以及相关智能手表项目的开源性质感兴趣。” “提到了像 Watchy 和 PineTime 这样的替代品，用户指出了开源智能手表领域面临的软件挑战。” </p>
+<h2><a href="https://anthonydavidadams.substack.com/p/the-alpha-myth-how-captive-wolves">“阿尔法神话：圈养狼如何误导了我们”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42844619">反应</a></h3>
+<p>“狼群中的“阿尔法雄性”概念最初基于圈养研究，但已被揭穿；野生狼群的运作更像是家庭单位，而不是等级结构。” “尽管已被揭穿，“阿尔法”理念仍然存在，因为它在硅谷等竞争激烈的环境中具有吸引力，并与某些社会和心理需求产生共鸣。” “对“阿尔法”神话的持续信仰强调了叙事如何影响我们对社会动态的感知，即使它们是基于错误的假设。” </p>
+<h2><a href="https://www.jvt.me/posts/2025/01/27/go-tools-124/">“Go 1.24 的 go 工具是近年来对生态系统最好的补充之一。”</a></h2>
+<p>“Go 1.24 引入了一个新的 <code>go tool</code> 命令和 <code>go.mod</code> 中的 <code>tool</code> 指令，增强了 Go 生态系统中项目工具的管理。” “此更新通过允许更高效的工具管理和减少不必要的依赖，解决了 <code>tools.go</code> 模式的问题，例如性能影响和依赖树膨胀。” “虽然 <code>go tool</code> 命令通过缓存 <code>go run</code> 调用来提高性能，但人们担心工具依赖被视为间接依赖，这可能导致依赖冲突。” </p>
+<h3><a href="https://news.ycombinator.com/item?id=42845323">反应</a></h3>
+<p>“在 Go 1.24 中引入的“go tool”引发了关于其对依赖管理影响的争论，人们担心合并工具和项目依赖可能导致冲突。” “批评者提出了替代方案，例如使用单独的模块文件或使用像 Nix 这样的工具来改进版本控制。” “Go 的支持者认为，这种方法提供了简单性和有效性，反映了编程语言中依赖管理的更广泛挑战。” </p>
+<h2><a href="https://nemo.foo/blog/day-4-of-an-afternoon-project">“我信任了一个大型语言模型，现在我已经在一个下午的项目上花了4天时间。”</a></h2>
+<p>“作者开始了一个名为Deskthang的项目，打算使用Raspberry Pi Pico、LCD显示屏和RGB LED创建一个桌面设备，同时测试AI的能力。” “像ChatGPT和Claude这样的AI工具最初提供了帮助，但最终导致了一个有缺陷的实现，造成了缓冲区冲突和数据损坏等问题。” “关键的经验教训包括将人工智能视为工具而非副驾驶，理解摩擦和错误在学习中的价值，以及耐心的重要性胜过过度自信。” </p>
+<h3><a href="https://news.ycombinator.com/item?id=42845933">反应</a></h3>
+<p>“大型语言模型(LLM)对于简单任务可能有益，但如果在没有适当监督的情况下依赖它们解决复杂问题，可能会延长项目时间。” 他们在综合信息方面很有效，但在处理小众话题或新知识时可能会遇到困难，这需要用户具备扎实的基础和经验。 “用户必须通过提供明确的提示并批判性地审查输出，以有效利用LLM的全部潜力来保持控制。” </p>
+<h2><a href="https://www.cnbc.com/2025/01/27/nvidia-sheds-almost-600-billion-in-market-cap-biggest-drop-ever.html">“英伟达市值蒸发近6000亿美元”</a></h2>
+<p>“英伟达的市值遭遇了近6000亿美元的历史性损失，因对中国人工智能实验室DeepSeek的竞争担忧，其股价下跌了17%。” “抛售影响了美国更广泛的科技行业，导致戴尔和甲骨文等公司的股价下跌，并导致纳斯达克指数下跌3.1%。” “DeepSeek的新AI模型使用Nvidia的H800芯片开发，增加了竞争担忧，尽管Nvidia之前有所收益，其股票仍受到影响，并使CEO黄仁勋的净资产减少了210亿美元。” </p>
+<h3><a href="https://news.ycombinator.com/item?id=42845681">反应</a></h3>
+<p>“英伟达的市值大幅下降了近6000亿美元，引发了关于公司估值及其是否被高估的争论。” “尽管市场反应不佳，英伟达的GPU仍然在与AI相关的任务中发挥着关键作用，强调了它们在科技行业中的重要性。” “媒体在不考虑通货膨胀的情况下关注大额财务损失可能会产生误导，但即使在大型公司中，英伟达的下滑也是显著的。” </p>
+<h2><a href="https://old.reddit.com/r/LocalLLaMA/comments/1ibnso0/janus_pro_1b_running_100_locally_inbrowser_on/">“Janus Pro 1B 在 WebGPU 上 100% 本地运行于浏览器中”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42852400">反应</a></h3>
+<p>“Janus Pro 1B 是一个在浏览器中使用 WebGPU 本地运行的模型，展示了在浏览器环境中执行 AI 模型的能力。尽管其参数数量较少，限制了其功能，但该模型可以在低端 GPU 上运行，突显了其可访问性。虽然图像生成结果不一致，但能够在浏览器中本地运行此类模型是一个重大的技术进步，不过目前尚不支持移动设备。” </p>
+<h2><a href="https://xyzlabs.substack.com/p/berkeley-researchers-replicate-deepseek">“伯克利研究人员仅用30美元复制DeepSeek R1的核心技术：一个小改动”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42855283">反应</a></h3>
+<p>“伯克利的研究人员成功地以仅30美元的成本复制了DeepSeek R1的核心技术，专注于诸如玩游戏Countdown等特定任务。” “该创新涉及使用强化学习，这是一种机器学习类型，其中代理通过与环境交互来学习，以增强推理模型，尽管其应用仅限于具有可验证解决方案的领域。” “讨论强调了人工智能自我改进的潜力及其对未来人工智能发展的影响，尽管文章的标题具有误导性且缺乏适当的来源链接而受到批评。” </p>
+<head>
+  <meta property="og:title" content="“我们正在重新推出Pebble”" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9C%E6%88%91%E4%BB%AC%E6%AD%A3%E5%9C%A8%E9%87%8D%E6%96%B0%E6%8E%A8%E5%87%BAPebble%E2%80%9D&subheading=2025%E5%B9%B41%E6%9C%8828%E6%97%A5%E6%98%9F%E6%9C%9F%E4%BA%8C%3A%20%E9%BB%91%E5%AE%A2%E6%96%B0%E9%97%BB%E6%91%98%E8%A6%81" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/zh/Hans/2025/01/28</link>
+            <guid isPermaLink="false">2025-01-28T00:00:00.000Z</guid>
+            <pubDate>Tue, 28 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-27]]></title>
             <description
@@ -470,40 +535,6 @@
             <link>https://hn.cho.sh/zh/Hans/2025/01/19</link>
             <guid isPermaLink="false">2025-01-19T00:00:00.000Z</guid>
             <pubDate>Sun, 19 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2025-01-18]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2025/01/18&#39;</h2>
-<h1>2025-01-18</h1>
-<h2><a href="https://blog.railway.com/p/data-center-build-part-one">所以你想建立自己的数据中心</a></h2>
-<p>“铁路公司由于定价、服务限制和支持问题，从谷歌云平台转移到他们自己的数据中心，启动了铁路金属项目。- 九个月后，他们成功在加利福尼亚上线了第一个数据中心，并计划进一步的区域扩展，专注于高效的基础设施管理。- 他们开发了Railyard和MetalCP等工具以简化操作，目前正在招聘基础设施工程职位。” </p>
-<h3><a href="https://news.ycombinator.com/item?id=42743019">反应</a></h3>
-<p>“本文探讨了使用主要云服务(如AWS、Google Cloud和Microsoft Azure)的挑战和优势，特别关注客户支持和服务质量。- 它分享了与数据中心运营相关的经验，强调了硬件和冷却等问题，并强调拥有基础设施以增强控制和成本效率的重要性。- 讨论还深入探讨了构建和管理数据中心的复杂性，包括电力、网络和硬件管理等方面，提供了关于云服务与物理基础设施所有权的利弊的见解。” </p>
-<h2><a href="https://lcamtuf.substack.com/p/investigating-an-evil-rj45-dongle">“调查一个‘邪恶’的RJ45转接器”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42743033">反应</a></h3>
-<p>“lcamtuf.substack.com上的一篇文章探讨了一种最初因伪造FTDI芯片而被怀疑为恶意的RJ45转换器，但后来发现这是过时工程实践的结果。- 文章强调了验证恶意意图声明的挑战，以及耸人听闻的故事如何迅速传播，突显了保持怀疑态度的必要性。- 它还讨论了更广泛的问题，如仇外心理，并提供了关于USB到以太网适配器的见解，包括其性能和潜在的误用。” </p>
-<h2><a href="https://reedybear.bearblog.dev/ive-been-advocating-for-rss-support-and-you-should-too/">“我一直在倡导支持RSS，你也应该这样做。”</a></h2>
-<p>“这篇文章倡导使用RSS(简易信息聚合)订阅源，它允许用户在没有广告或算法的情况下接收来自各种平台的更新。- 作者强调了像GovTrack.us这样的平台成功支持RSS的请求，并鼓励其他人向他们感兴趣的组织请求RSS支持。- 许多平台，如NPR、YouTube、Substack和Blogger，已经支持RSS，使其成为保持信息更新的有价值工具。” </p>
-<h3><a href="https://news.ycombinator.com/item?id=42746222">反应</a></h3>
-<p>“RSS 提要提供了一种无需广告或算法干扰即可获取喜爱创作者内容更新的方法，提供更简洁和个性化的体验。” “尽管像 YouTube 这样的平台提供 RSS 源，但它们通常没有被显著展示，这引发了人们对如果它们变得过于流行可能会被停用的担忧。” “倡导增加对RSS的支持可以帮助确保其持续可用性，并鼓励更多组织采用和维护这一有价值的内容管理工具。” </p>
-<h2><a href="https://www.nutraingredients-asia.com/Article/2025/01/07/higher-potassium-intake-at-dinner-linked-to-fewer-sleep-disturbances/">晚餐摄入更多钾与较少的睡眠障碍有关——研究</a></h2>
-<p>“日本的一项研究利用Asken食物记录应用程序的数据，调查了4,568名成年人中钾和钠摄入与失眠之间的关系。- 研究结果表明，较高的钾摄入量，特别是在晚餐时，与较少的睡眠障碍有关，这通过雅典失眠量表(AIS)进行测量。- 尽管钠摄入量此前已被认为与睡眠问题有关，但这项研究未发现其与AIS评分有显著关联，强调了需要进一步研究饮食对睡眠的影响。” </p>
-<h3><a href="https://news.ycombinator.com/item?id=42742161">反应</a></h3>
-<p>“研究表明，晚餐摄入较高的钾与较少的睡眠障碍有关，这可能是因为钾能够中和胃酸反流。- 这些发现存在争议，一些人认为需要更多的胃酸来防止反流，这表明需要进一步的研究。- 虽然钾可能改善睡眠，但过量摄入可能对心脏构成风险，特别是对于服用特定药物的人；镁补充剂也被提到可以提高睡眠质量。” </p>
-<h2><a href="https://andymasley.substack.com/p/individual-ai-use-is-not-bad-for">“使用ChatGPT对环境无害”</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42745847">反应</a></h3>
-<p>“文章认为，与交通和工业排放等更大问题相比，使用大型语言模型(LLM)ChatGPT的环境影响相对较小。- 它强调需要权衡活动的排放和收益，表明个人使用ChatGPT并不是一个显著的环境问题。- 关于人工智能和数据中心能源使用的更广泛辩论仍在继续，一些人主张提高技术的效率和可持续性。” </p>
-<head>
-  <meta property="og:title" content="所以你想建立自己的数据中心" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E6%89%80%E4%BB%A5%E4%BD%A0%E6%83%B3%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83&subheading=2025%E5%B9%B41%E6%9C%8818%E6%97%A5%E6%98%9F%E6%9C%9F%E5%85%AD%3A%20%E9%BB%91%E5%AE%A2%E6%96%B0%E9%97%BB%E6%91%98%E8%A6%81" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/zh/Hans/2025/01/18</link>
-            <guid isPermaLink="false">2025-01-18T00:00:00.000Z</guid>
-            <pubDate>Sat, 18 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

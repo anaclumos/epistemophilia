@@ -15,12 +15,77 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 27 Jan 2025 19:11:33 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Jan 2025 19:11:53 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/en.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Mon, 27 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Tue, 28 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-28]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/28&#39;</h2>
+<h1>2025-01-28</h1>
+<h2><a href="https://repebble.com/">We&#39;re bringing Pebble back</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42845091">Reactions</a></h3>
+<p>Pebble is being revived with support from Google, focusing on its original strengths such as hackability, long battery life, and serving as a phone extension. The revival aims to maintain Pebble&#39;s open-source nature and avoid mandatory cloud subscriptions, appealing to hackers and tech enthusiasts. The community is excited about Pebble&#39;s return, reflecting on its unique features and influence on wearable technology. </p>
+<h2><a href="https://opensource.googleblog.com/2025/01/see-code-that-powered-pebble-smartwatches.html">Google open-sources the Pebble OS</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42845070">Reactions</a></h3>
+<p>Google has open-sourced the Pebble OS, generating enthusiasm among fans and developers for potential new developments in smartwatch technology. The release on GitHub does not include proprietary components such as system fonts and the Bluetooth stack, so it cannot be compiled in its current form. This move is viewed as a positive gesture from Google, attributed to internal efforts, and is seen as a step towards reviving the Pebble smartwatch ecosystem. </p>
+<h2><a href="https://unsloth.ai/blog/deepseekr1-dynamic">Run DeepSeek R1 Dynamic 1.58-bit</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42850222">Reactions</a></h3>
+<p>DeepSeek R1 Dynamic 1.58-bit achieves an 80% size reduction and operates at 140 tokens per second using dual H100s, but its slow speed and repetition issues raise questions about its practicality. Dynamic quantization aids in performance, yet concerns about accessibility, cost, and the model&#39;s training cost claims persist, leading to scrutiny. The model has a notable impact on the market, with efforts underway to replicate its results, though its performance is debated compared to larger models. </p>
+<h2><a href="https://simonwillison.net/2025/Jan/27/llamacpp-pr/">Promising results from DeepSeek R1 for code</a></h2>
+<p>A pull request (PR) by Xuan-Son Nguyen for llama.cpp enhances WebAssembly (WASM) speed using Single Instruction, Multiple Data (SIMD) instructions, with significant contributions from DeekSeek-R1. The PR includes a dynamic model_map built from API responses, removing the necessity for hardcoded versions, showcasing innovation in plugin development. Simon Willison’s Weblog also covers recent topics such as open source projects, Anthropic&#39;s Citations API, and Large Language Model (LLM) projects, indicating a focus on cutting-edge technology discussions. </p>
+<h3><a href="https://news.ycombinator.com/item?id=42852866">Reactions</a></h3>
+<p>DeepSeek R1 demonstrates AI&#39;s potential in coding by writing 99% of a pull request (PR) for llama.cpp, showcasing AI&#39;s increasing role in software development. Tools like aider are now responsible for generating 70-82% of new code in releases, indicating a significant boost in productivity through AI assistance. Despite these advancements, AI still requires human oversight for complex problem-solving and integration with existing codebases, suggesting a shift in job dynamics and skill requirements in the industry. </p>
+<h2><a href="https://newsletter.languagemodels.co/p/the-illustrated-deepseek-r1">The Illustrated DeepSeek-R1</a></h2>
+<p>DeepSeek-R1 is a newly released AI model emphasizing enhanced reasoning capabilities through a structured three-step training process: language modeling, supervised fine-tuning (SFT), and preference tuning. The model incorporates long chains of reasoning data, an interim reasoning model, and large-scale reinforcement learning (RL), excelling in reasoning tasks by generating thinking tokens. It utilizes a mixture-of-experts architecture, which allows it to efficiently handle complex reasoning tasks, marking a significant advancement in AI model design. </p>
+<h3><a href="https://news.ycombinator.com/item?id=42845488">Reactions</a></h3>
+<p>DeepSeek-R1 is generating discussion due to its performance and cost efficiency compared to models like GPT and Gemini, with some users noting typical large language model (LLM) issues. The model is notable for its low compute requirements and open-source nature, potentially disrupting the AI landscape and making AI development more accessible. Developed by a Chinese hedge fund, DeepSeek-R1 raises questions about its training data and geopolitical implications, despite mixed reviews on its coding capabilities. </p>
+<h2><a href="https://mlip-cmu.github.io/s2025/">Machine Learning in Production (CMU Course)</a></h2>
+<p>Carnegie Mellon University offers a course titled &quot;Machine Learning in Production/AI Engineering&quot; for Spring 2025, focusing on building, deploying, and maintaining machine learning-enabled software products. The course emphasizes responsible AI practices and MLOps (Machine Learning Operations), covering the entire lifecycle from prototype to production. It is designed for students with data science and basic programming skills, featuring lectures, labs, and a group project, with resources available on GitHub. </p>
+<h3><a href="https://news.ycombinator.com/item?id=42847834">Reactions</a></h3>
+<p>The CMU course on Machine Learning in Production introduces practical tools such as Kafka, Docker, Kubernetes, and Jenkins, emphasizing MLOps (Machine Learning Operations), explainability, fairness, and monitoring. It serves as a bridge between machine learning and production systems, although some view it as entry-level and more focused on tool integration than mastery. Concerns are raised about the long-term relevance of certain tools and the course&#39;s limited emphasis on data quality, yet it is considered a new entry point for computer science students. </p>
+<h2><a href="https://huggingface.co/blog/open-r1">Open-R1: an open reproduction of DeepSeek-R1</a></h2>
+<p>Open-R1 is an initiative to replicate DeepSeek-R1, a reasoning model comparable to OpenAI&#39;s o1, focusing on transparency and open-source collaboration. The project seeks to recreate DeepSeek-R1&#39;s datasets and training pipeline, which are currently undisclosed, using reinforcement learning (RL) without human supervision. Open-R1 encourages community contributions to expand the model&#39;s applications beyond mathematics, including fields like coding and medicine. </p>
+<h3><a href="https://news.ycombinator.com/item?id=42849536">Reactions</a></h3>
+<p>Open-R1 is an initiative aimed at recreating the DeepSeek-R1 model using open-source principles, though it is not yet an actual model. The discussion emphasizes the challenges and potential benefits of reproducing AI models on a limited budget, as well as the impact of AI on education and broader societal implications. The conversation also highlights the excitement surrounding technological advancements and the role of the open-source movement in making AI more accessible to a wider audience. </p>
+<h2><a href="https://rebble.io/2025/01/27/the-future-of-rebble.html">The future of Rebble</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42845017">Reactions</a></h3>
+<p>The discussion highlights nostalgia for Pebble smartwatches, appreciated for their e-ink-like screens and long battery life, and questions why similar technology hasn&#39;t been more widely adopted. There is interest in the potential for new hardware from Rebble, a community-driven project, and the open-source nature of related smartwatch projects. Alternatives like Watchy and PineTime are mentioned, with users noting the software challenges faced in the open-source smartwatch space. </p>
+<h2><a href="https://anthonydavidadams.substack.com/p/the-alpha-myth-how-captive-wolves">The Alpha Myth: How captive wolves led us astray</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42844619">Reactions</a></h3>
+<p>The &quot;alpha male&quot; concept in wolves, originally based on captive studies, has been debunked; wild wolf packs function more like family units rather than hierarchical structures. Despite being debunked, the &quot;alpha&quot; idea persists due to its appeal in competitive environments, such as Silicon Valley, and its resonance with certain societal and psychological needs. The continued belief in the &quot;alpha&quot; myth underscores how narratives can influence our perception of social dynamics, even when they are founded on incorrect assumptions. </p>
+<h2><a href="https://www.jvt.me/posts/2025/01/27/go-tools-124/">Go 1.24&#39;s go tool is one of the best additions to the ecosystem in years</a></h2>
+<p>Go 1.24 introduces a new <code>go tool</code> command and <code>tool</code> directive in <code>go.mod</code>, enhancing the management of project tools in the Go ecosystem. This update addresses issues with the <code>tools.go</code> pattern, such as performance impacts and dependency tree bloat, by allowing more efficient tool management and reducing unnecessary dependencies. While the <code>go tool</code> command improves performance by caching <code>go run</code> invocations, there are concerns about tool dependencies being treated as indirect, potentially leading to dependency clashes. </p>
+<h3><a href="https://news.ycombinator.com/item?id=42845323">Reactions</a></h3>
+<p>The introduction of &quot;go tool&quot; in Go 1.24 has led to debates about its impact on dependency management, with concerns about merging tool and project dependencies causing conflicts. Critics propose alternatives such as separate module files or using tools like Nix for improved version control. Supporters of Go&#39;s approach argue it offers simplicity and effectiveness, reflecting broader challenges in dependency management across programming languages. </p>
+<h2><a href="https://nemo.foo/blog/day-4-of-an-afternoon-project">I trusted an LLM, now I&#39;m on day 4 of an afternoon project</a></h2>
+<p>The author embarked on a project called Deskthang, intending to create a desk device using a Raspberry Pi Pico, LCD display, and RGB LEDs, while testing AI&#39;s capabilities. AI tools like ChatGPT and Claude initially assisted but ultimately led to a buggy implementation, causing issues like buffer conflicts and data corruption. Key lessons learned include recognizing AI as a tool rather than a co-pilot, understanding the value of friction and mistakes in learning, and the importance of patience over overconfidence. </p>
+<h3><a href="https://news.ycombinator.com/item?id=42845933">Reactions</a></h3>
+<p>Large Language Models (LLMs) can be beneficial for simple tasks but may extend project timelines if relied upon for complex problems without proper oversight. They are effective at synthesizing information but may struggle with niche topics or new knowledge, requiring users to have strong fundamentals and experience. Users must maintain control by providing clear prompts and critically reviewing outputs to harness the full potential of LLMs effectively. </p>
+<h2><a href="https://www.cnbc.com/2025/01/27/nvidia-sheds-almost-600-billion-in-market-cap-biggest-drop-ever.html">Nvidia sheds almost $600B in market cap</a></h2>
+<p>Nvidia&#39;s market cap suffered a historic loss of nearly $600 billion, with shares dropping 17% due to competition concerns from Chinese AI lab DeepSeek. The sell-off impacted the broader U.S. tech sector, causing declines in companies like Dell and Oracle, and contributing to a 3.1% fall in the Nasdaq index. DeepSeek&#39;s new AI model, developed using Nvidia&#39;s H800 chips, has heightened competition fears, affecting Nvidia&#39;s stock despite its previous gains, and reducing CEO Jensen Huang&#39;s net worth by $21 billion. </p>
+<h3><a href="https://news.ycombinator.com/item?id=42845681">Reactions</a></h3>
+<p>Nvidia&#39;s market cap experienced a significant drop of nearly $600 billion, leading to debates about the company&#39;s valuation and whether it was overvalued. Despite the market reaction, Nvidia&#39;s GPUs continue to be crucial for AI-related tasks, underscoring their importance in the tech industry. The media&#39;s focus on large financial losses without considering inflation can be misleading, but Nvidia&#39;s decline is notable even among major corporations. </p>
+<h2><a href="https://old.reddit.com/r/LocalLLaMA/comments/1ibnso0/janus_pro_1b_running_100_locally_inbrowser_on/">Janus Pro 1B running 100% locally in-browser on WebGPU</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42852400">Reactions</a></h3>
+<p>Janus Pro 1B is a model running locally in-browser using WebGPU, showcasing the capability of executing AI models in a browser environment. Despite its low parameter count, which limits its capabilities, the model can run on low-end GPUs, highlighting its accessibility. While image generation results are inconsistent, the ability to run such models locally in a browser is a significant technological advancement, though it currently does not support mobile devices. </p>
+<h2><a href="https://xyzlabs.substack.com/p/berkeley-researchers-replicate-deepseek">Berkeley Researchers Replicate DeepSeek R1&#39;s Core Tech for Just $30: A Small Mod</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42855283">Reactions</a></h3>
+<p>Berkeley researchers have successfully replicated DeepSeek R1&#39;s core technology for just $30, focusing on specific tasks such as playing the game Countdown. The innovation involves using reinforcement learning, a type of machine learning where an agent learns by interacting with its environment, to enhance reasoning models, though its application is limited to areas with verifiable solutions. The discussion emphasizes the potential for AI self-improvement and its implications for future AI development, despite criticisms of the article&#39;s misleading title and lack of proper source links. </p>
+<head>
+  <meta property="og:title" content="We're bringing Pebble back" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=We're%20bringing%20Pebble%20back&subheading=Tuesday%2C%20January%2028%2C%202025%3A%20Hacker%20News%20Summary" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/2025/01/28</link>
+            <guid isPermaLink="false">2025-01-28T00:00:00.000Z</guid>
+            <pubDate>Tue, 28 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-27]]></title>
             <description
@@ -470,40 +535,6 @@
             <link>https://hn.cho.sh/2025/01/19</link>
             <guid isPermaLink="false">2025-01-19T00:00:00.000Z</guid>
             <pubDate>Sun, 19 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2025-01-18]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2025/01/18&#39;</h2>
-<h1>2025-01-18</h1>
-<h2><a href="https://blog.railway.com/p/data-center-build-part-one">So you want to build your own data center</a></h2>
-<p>Railway transitioned from Google Cloud Platform to their own data centers due to issues with pricing, service limitations, and support, launching the Railway Metal project. - After nine months, they successfully went live with their first data center in California and are planning further regional expansions, focusing on efficient infrastructure management. - They developed tools such as Railyard and MetalCP to streamline operations and are currently hiring for Infrastructure Engineering roles. </p>
-<h3><a href="https://news.ycombinator.com/item?id=42743019">Reactions</a></h3>
-<p>The text explores the challenges and benefits of using major cloud services like AWS, Google Cloud, and Microsoft Azure, particularly focusing on customer support and service quality. - It shares experiences related to data center operations, highlighting issues such as hardware and cooling, and stresses the importance of owning infrastructure for enhanced control and cost efficiency. - The discussion also delves into the complexities of building and managing data centers, including aspects like power, networking, and hardware management, offering insights into the pros and cons of cloud services versus physical infrastructure ownership. </p>
-<h2><a href="https://lcamtuf.substack.com/p/investigating-an-evil-rj45-dongle">Investigating an “evil” RJ45 dongle</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42743033">Reactions</a></h3>
-<p>An article on lcamtuf.substack.com examines an RJ45 dongle initially suspected of being malicious due to counterfeit FTDI chips, but it was found to be a result of outdated engineering practices. - The article emphasizes the challenges in verifying claims of malicious intent and how sensational stories can spread rapidly, highlighting the need for skepticism. - It also discusses broader issues such as xenophobia and provides insights into USB-to-Ethernet adapters, their performance, and potential misuse. </p>
-<h2><a href="https://reedybear.bearblog.dev/ive-been-advocating-for-rss-support-and-you-should-too/">I&#39;ve been advocating for RSS support, and you should too</a></h2>
-<p>The post advocates for the use of RSS (Really Simple Syndication) feeds, which allow users to receive updates from various platforms without ads or algorithms. - The author highlights successful requests for RSS support from platforms like GovTrack.us and encourages others to request RSS from organizations they are interested in. - Many platforms, such as NPR, YouTube, Substack, and Blogger, already support RSS, making it a valuable tool for staying informed. </p>
-<h3><a href="https://news.ycombinator.com/item?id=42746222">Reactions</a></h3>
-<p>RSS feeds provide a way to stay updated on content from favorite creators without the interference of ads or algorithms, offering a more streamlined and personalized experience. Although platforms like YouTube offer RSS feeds, they are often not prominently featured, leading to concerns about their potential discontinuation if they become too popular. Advocating for increased RSS support can help ensure its continued availability and encourage more organizations to adopt and maintain this valuable tool for content management. </p>
-<h2><a href="https://www.nutraingredients-asia.com/Article/2025/01/07/higher-potassium-intake-at-dinner-linked-to-fewer-sleep-disturbances/">Higher potassium intake at dinner linked to fewer sleep disturbances – study</a></h2>
-<p>A Japanese study using data from the Asken food-logging app investigated the relationship between potassium and sodium intake and insomnia in 4,568 adults. - Findings indicated that higher potassium intake, particularly at dinner, was associated with fewer sleep disturbances, as measured by the Athens Insomnia Scale (AIS). - While sodium intake has been previously linked to sleep issues, this study found no significant association with AIS scores, highlighting the need for further research on dietary impacts on sleep. </p>
-<h3><a href="https://news.ycombinator.com/item?id=42742161">Reactions</a></h3>
-<p>A study suggests that higher potassium intake at dinner is associated with fewer sleep disturbances, potentially due to its ability to neutralize stomach acid reflux. - The findings are debated, with some arguing that more stomach acidity is necessary to prevent reflux, indicating the need for further research. - While potassium may improve sleep, excessive intake can pose heart risks, particularly for individuals on specific medications; magnesium supplements are also mentioned for enhancing sleep quality. </p>
-<h2><a href="https://andymasley.substack.com/p/individual-ai-use-is-not-bad-for">Using ChatGPT is not bad for the environment</a></h2>
-<h3><a href="https://news.ycombinator.com/item?id=42745847">Reactions</a></h3>
-<p>The article contends that the environmental impact of using ChatGPT, a large language model (LLM), is relatively minor compared to larger issues such as transportation and industrial emissions. - It emphasizes the need to weigh both the emissions and benefits of activities, suggesting that personal use of ChatGPT is not a significant environmental concern. - The broader debate continues on AI and data center energy use, with some advocating for increased efficiency and sustainability in technology. </p>
-<head>
-  <meta property="og:title" content="So you want to build your own data center" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=So%20you%20want%20to%20build%20your%20own%20data%20center&subheading=Saturday%2C%20January%2018%2C%202025%3A%20Hacker%20News%20Summary" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/2025/01/18</link>
-            <guid isPermaLink="false">2025-01-18T00:00:00.000Z</guid>
-            <pubDate>Sat, 18 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
