@@ -15,12 +15,81 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 29 Jan 2025 19:14:22 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Jan 2025 19:14:46 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/zh-Hans.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Wed, 29 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Thu, 30 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[zh-Hans]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-30]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/30&#39;</h2>
+<h1>2025-01-30</h1>
+<h2><a href="https://developer.mozilla.org/en-US/blog/javascript-temporal-is-coming/">“JavaScript Temporal 即将到来”</a></h2>
+<p>“JavaScript Temporal 是实验性浏览器版本中的一项新功能，旨在改善网页开发人员对日期和时间的处理，解决旧 Date 对象的局限性。” “Temporal 提供精确的日期、时间、持续时间和日历管理，拥有超过200种实用方法，支持各种日历和时区。” “虽然全面的跨浏览器支持仍在进行中，但Firefox在实现方面处于领先地位，开发人员可以使用@js-temporal/polyfill来试验Temporal。” </p>
+<h3><a href="https://news.ycombinator.com/item?id=42876840">反应</a></h3>
+<p>“JavaScript Temporal 是一个新的 API，旨在克服旧的 Date() API 的局限性，灵感来自于 Rust 中的 chrono 和 Java 中的 Joda Time 等高级时间库。” “通过将时间分为朴素时间、瞬时时间和时区时间，引入了一种更复杂但必要的结构，有效解决了夏令时(DST)错误和序列化差异等问题。” “Temporal 有望通过利用 IANA 时区数据库，为 JavaScript 提供一个标准化的内置日期和时间管理解决方案，从而取代 Moment.js、Luxon 和 date-fns 等流行库。” </p>
+<h2><a href="https://www.wiz.io/blog/wiz-research-uncovers-exposed-deepseek-database-leak">“暴露的DeepSeek数据库泄露了敏感信息，包括聊天记录。”</a></h2>
+<p>“Wiz Research在中国AI初创公司DeepSeek的一个公开可访问的ClickHouse数据库中发现了一个安全漏洞，该漏洞暴露了超过一百万行的敏感数据，包括聊天记录和密钥。该数据库是开放且未经身份验证的，存在重大安全风险，但在Wiz Research负责任的披露后迅速得到了保护。此事件强调了在快速采用AI技术过程中面临的安全挑战，突显了在AI日益成为业务运营核心的背景下，采取强有力的安全措施以保护敏感数据的关键需求。” </p>
+<h3><a href="https://news.ycombinator.com/item?id=42871371">反应</a></h3>
+<p>“DeepSeek数据库泄漏揭示了敏感信息，如聊天记录，但已负责任地披露并迅速修补。” “讨论强调了英语在全球编码中的广泛使用，这归因于其在编程语言和工具中的主导地位。” “泄漏事件还引发了关于DeepSeek对NVIDIA股票影响的讨论，以及更广泛的地缘政治担忧，特别是关于中国技术影响力的讨论。” </p>
+<h2><a href="https://www.mediaite.com/news/breaking-commercial-jet-collides-with-police-chopper-near-reagan-airport/">“商用喷气机在里根机场附近与黑鹰直升机相撞”</a></h2>
+<p>“在弗吉尼亚州里根机场附近，一架客机与一架美国陆军黑鹰直升机发生空中碰撞，导致航班中断。” “客机是一架PSA航空公司的庞巴迪CRJ700，载有60名乘客和四名机组人员，而直升机上载有三名士兵。” “至少已找到18具遗体，波托马克河正在进行大规模的搜救行动。” </p>
+<h3><a href="https://news.ycombinator.com/item?id=42874301">反应</a></h3>
+<p>“商业喷气式飞机和一架黑鹰直升机在里根机场附近相撞，引发了对空中交通安全的重大担忧。” 尽管有指示要求直升机保持目视间隔，但碰撞仍然发生，这引发了对空中交通管制程序的讨论。 “这一事件加剧了要求政策变革的呼声，以提高安全性并防止美国空域未来事故的发生。” </p>
+<h2><a href="https://mistral.ai/news/mistral-small-3/">“Mistral Small 3”</a></h2>
+<p>“米斯特拉尔 AI 发布了 Mistral Small 3，这是一款拥有 240 亿参数的模型，经过优化以实现低延迟，并在 Apache 2.0 许可证下发布，提供了一个开源的替代方案，以替代更大的专有模型。” “该模型在生成式人工智能任务中表现出色，在MMLU上实现了超过81%的准确率，延迟为150 tokens/s，适合在诸如RTX 4090或32GB RAM的Macbook等设备上进行本地部署。” “在 Hugging Face、Ollama 和 Kaggle 等平台上可以找到 Mistral Small 3，它被设计用于快速响应的对话辅助以及针对特定领域专业知识的微调。” </p>
+<h3><a href="https://news.ycombinator.com/item?id=42877860">反应</a></h3>
+<p>“Mistral Small 3 是一款新的 AI 模型，优化用于在笔记本电脑上高效运行，可与 Llama 3.3 70B 等模型媲美，并且可以在诸如 M2 MacBook Pro 之类的设备上本地运行。” “该模型在Apache 2.0许可证下开源，具有竞争力的API定价，使其可用于包括金融和医疗保健在内的各种应用。” “讨论强调了其在结构化输出和本地应用中的强大性能，以及开源权重和从开源项目中学习的重要性。” </p>
+<h2><a href="https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html">“Antiqua et Nova：关于人工智能与人类智能关系的注释”</a></h2>
+<p>“该文件从基督教的角度审视人工智能和人类智能，重点关注人工智能带来的伦理和人类学挑战。它强调教会对智能作为神圣礼物的信仰，这对人类尊严至关重要，并强调需要负责任地使用人工智能以造福社会。文本呼吁制定伦理准则，以确保人工智能尊重人类尊严，解决隐私、错误信息及其对劳动和人际关系的影响等问题。” </p>
+<h3><a href="https://news.ycombinator.com/item?id=42877709">反应</a></h3>
+<p>“梵蒂冈的文件《Antiqua et Nova》探讨了人工智能(AI)与人类智能之间的相互作用，强调将人类智能作为神圣礼物的负责任使用。” “虽然承认人工智能的好处，但文件警告了伦理挑战，例如人工智能可能模仿人类创造力并做出自主决策，强调人工智能发展需要尊重人类尊严并服务于共同利益。” “教会警告不要让人工智能成为上帝的替代品，敦促人们谨慎辨别和道德使用，以防止将技术神化，并保持对人类价值观的关注。” </p>
+<h2><a href="https://www.henrikkarlsson.xyz/p/start-a-blog">“给想要开始写博客的朋友的建议”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42872276">反应</a></h3>
+<p>“建议有抱负的博主拥有自己的内容，而不是依赖像Medium或Substack这样的平台，以确保控制权和独立性。” “建议保持一致的写作风格并选择特定的细分市场，以获得更好的结果并吸引忠实的受众。” “POSSE策略(在您自己的网站上发布，然后在其他地方发布)被建议用于推广作品，同时强调写作应以个人满足感为重，而非即时互动。” </p>
+<h2><a href="https://newatlas.com/brain/young-adult-cannabis-brain-function/">“最大规模研究发现，年轻的大麻使用者脑功能下降”</a></h2>
+<p>“科罗拉多大学安舒茨医学中心的一项研究表明，大麻使用可能会损害年轻成年人的大脑功能，特别是影响工作记忆。该研究涉及1,003名参与者和MRI扫描，发现大量和近期使用大麻的用户在记忆任务中表现出较低的大脑活动，影响与情感、认知和社会行为相关的区域。该研究发表在《JAMA Network Open》上，建议在进行认知任务前避免使用大麻可能会提高表现，但大量用户可能会面临戒断症状，这突显了对大麻长期大脑影响的进一步研究的必要性。” </p>
+<h3><a href="https://news.ycombinator.com/item?id=42873697">反应</a></h3>
+<p>“一个重要研究表明，年轻的大麻使用者可能会经历大脑功能减退，尤其是在工作记忆方面。” “该研究无法确凿地确定因果关系，因为它承认可能与焦虑或多动症的自我药疗等因素存在相关性。” “正在进行的辩论质疑大麻是否直接导致认知功能下降，还是与其他生活方式选择有关。” </p>
+<h2><a href="https://thenewstack.io/from-c-to-clojure-new-language-promises-best-of-both/">“从C++到Clojure：Jank语言承诺结合两者的优点”</a></h2>
+<p>“Jeaye Wilkerson，前电子艺界(EA)工程师，正在创建一种名为“jank”的新编程语言，该语言结合了Clojure的交互特性与本地编译，利用了LLVM(低级虚拟机)。 ” “Jank结合了C++、Clojure和Rust的特点，旨在提高性能和可用性，适用于游戏、图形用户界面(GUI)开发和数据科学领域的应用。” “该语言引起了社区的兴趣，其开发路线图包括改进错误报告、与C++的互操作性以及在Linux上的分发，具有在游戏引擎和网络服务中应用的潜力。” </p>
+<h3><a href="https://news.ycombinator.com/item?id=42871743">反应</a></h3>
+<p>“Jank是一种新的编程语言，旨在融合C++和Clojure的优势，强调与C++的无缝互操作性和交互式开发。它利用LLVM(低级虚拟机)的即时编译(JIT)来生成本机二进制文件，从而提高性能和C++集成。该语言仍在开发中，未来计划支持多平台并改进内存管理，这引发了人们对其在游戏开发和本机GUI应用程序中潜力的兴趣。” </p>
+<h2><a href="https://animationobsessive.substack.com/p/making-the-video-that-made-gorillaz">“制作成就了Gorillaz的视频”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42870990">反应</a></h3>
+<p>“Gorillaz，这支虚拟乐队，通过其创新的音乐和动画结合而走红，尤其是《Clint Eastwood》视频。粉丝们对乐队的创意项目充满怀念，比如互动的Flash Kong Studios网站和杰米·休利特独特的艺术作品。由达蒙·阿尔巴恩领导的乐队，尽管多年来不断演变，仍在音乐行业中保持着影响力，拥有永恒的吸引力。” </p>
+<h2><a href="https://lcamtuf.substack.com/p/pcbs-ground-planes-and-you">“印刷电路板、铜箔、接地层和平面以及你”</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42874885">反应</a></h3>
+<p>“文章探讨了印刷电路板(PCB)设计的演变，特别关注铜箔和接地层，这些在现代制造技术的推动下变得更加高效。” “现在使用铜浇注来提高生产速度和一致性，并减少侧蚀，而接地平面对于电磁兼容性(EMC)、电气性能和可制造性设计(DFM)至关重要。” “文章强调了精确技术写作的重要性，并批评了在PCB设计讨论中混合概念的做法。” </p>
+<h2><a href="https://airflow.app/">“Airflow – 直接从macOS将媒体文件流式传输到AirPlay设备”</a></h2>
+<p>“Airflow 是一款视频流应用程序，兼容 Chromecast、Apple TV 和 AirPlay 2 电视，具有 HEVC 流媒体、自适应音频和实时字幕 OCR(光学字符识别)功能。” “它支持4K HDR(高动态范围)和多种音频格式，以最小的CPU使用量提供高质量的播放。” “Airflow 的一次性购买价格为 $19.99，并包含适用于 Android 和 iPhone 的免费遥控应用程序，兼容 macOS 10.12+、64 位 Windows 10+ 和 32 位 Windows 10+。” </p>
+<h3><a href="https://news.ycombinator.com/item?id=42870171">反应</a></h3>
+<p>“Airflow 是一款媒体流应用程序，允许用户将内容从 macOS 流式传输到 AirPlay 和 Chromecast 设备，以其速度和可靠性而闻名。” “用户欣赏 Airflow 的视频拖动功能、大文件处理能力、字幕支持以及与 macOS 和 Windows 的兼容性。” “尽管对其开发状态和用户界面有一些担忧，但最近的更新表明其正在积极开发，许多用户认为与 Beamer 和 AirParrot 等替代品相比，它是一个有价值的购买。” </p>
+<h2><a href="https://github.com/mathesar-foundation/mathesar">“Mathesar – 一个直观的类似电子表格的Postgres数据界面”</a></h2>
+<p>“Mathesar 是一个网络应用程序，它为 PostgreSQL 数据库提供类似电子表格的界面，使用户无需编写代码即可管理数据。” “它是开源的，自托管的，并直接与PostgreSQL集成，通过本机访问控制确保数据安全。” “Mathesar目前处于公开测试阶段，鼓励社区贡献，并由非营利组织Mathesar基金会维护。” </p>
+<h3><a href="https://news.ycombinator.com/item?id=42873312">反应</a></h3>
+<p>“Mathesar 提供了一个类似电子表格的界面用于 Postgres，旨在为非技术用户提供友好的使用体验，使其能够直接在 Postgres 中进行数据编辑、查询和关系管理。” “它是一个基于网络的开源自托管工具，与 DBeaver 或 Metabase 等其他工具不同，专注于易用性和与 Postgres 的深度集成。” “目前，Mathesar 缺乏 UI 自定义和 SQL 编辑器，但计划加入这些功能；它采用 GPLv3 许可证，通过捐赠获得资金，并正在探索可持续的收入选项。” </p>
+<h2><a href="https://blog.documentfoundation.org/blog/2025/01/30/400-million-downloads-and-counting/">“LibreOffice 下载量达 4 亿，并持续增长”</a></h2>
+<p>“LibreOffice 已经达到了一个重要的里程碑，截至2025年1月30日，其下载量已超过4亿次，这突显了其持续的受欢迎程度和实用性。” “在2011年至2014年初期的快速增长之后，LibreOffice的兴趣在停滞后复苏，因为用户欣赏桌面办公套件与云端解决方案并存的价值。” “尽管在2019年面临下载计数器的攻击，LibreOffice仍继续增长，到2024年每年下载量超过3500万次，展示了其韧性和持续的相关性。” </p>
+<h3><a href="https://news.ycombinator.com/item?id=42876998">反应</a></h3>
+<p>“LibreOffice 已经达到了一个重要的里程碑，下载量达到 4 亿次，这表明尽管面临来自 OnlyOffice 等其他办公套件的竞争，它仍被广泛使用。” “用户表达了不同的偏好，有些人喜欢OnlyOffice，因为它与Microsoft Office兼容且界面现代，而另一些人则重视LibreOffice的开源特性及其处理大文件的能力。” “讨论强调了LibreOffice在Linux发行版中的集成、其在个人和专业环境中的实用性及其持续发展，同时也提到了从云端解决方案过渡到本地软件所面临的挑战。” </p>
+<h2><a href="https://www.chriis.dev/opinion/parsing-pdfs-in-elixir-using-rust">“使用 Rust 在 Elixir 中解析 PDF(及更多)”</a></h2>
+<p>“由于缺乏简单的解决方案，在 Elixir 中解析 PDF 是一项挑战，但通过 NIFs(本地实现函数)集成 Rust 提供了一种强大的替代方案。” “结合Rust的速度和效率与Elixir的功能，可以创建一个用于PDF上传的LiveView Elixir应用程序，使用Rust中的Extractous库和Rustler进行集成。” “这种方法强调了两种语言的优势，提供了一种具有成本效益和高效的PDF解析解决方案，完整的实现可在GitHub上获得。” </p>
+<h3><a href="https://news.ycombinator.com/item?id=42871143">反应</a></h3>
+<p>“在 Elixir 中使用 Rust 解析 PDF 提供了一种稳定的解决方案，通过利用 Rust 的可靠性来避免在 BEAM(Bogdan/Björn 的 Erlang 抽象机)虚拟机中崩溃。” “主要的挑战是从PDF中提取复杂数据，例如表格，这超出了简单的文本提取。” “像 Rust 中的 Unstructured 和 Marker 这样的工具正在被探索，以提高模型推理速度并整合视觉功能，同时对用于本地开发的 docker 化 API 表现出兴趣。” </p>
+<head>
+  <meta property="og:title" content="“JavaScript Temporal 即将到来”" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E2%80%9CJavaScript%20Temporal%20%E5%8D%B3%E5%B0%86%E5%88%B0%E6%9D%A5%E2%80%9D&subheading=2025%E5%B9%B41%E6%9C%8830%E6%97%A5%E6%98%9F%E6%9C%9F%E5%9B%9B%3A%20%E9%BB%91%E5%AE%A2%E6%96%B0%E9%97%BB%E6%91%98%E8%A6%81" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/zh/Hans/2025/01/30</link>
+            <guid isPermaLink="false">2025-01-30T00:00:00.000Z</guid>
+            <pubDate>Thu, 30 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-29]]></title>
             <description
@@ -526,58 +595,6 @@
             <link>https://hn.cho.sh/zh/Hans/2025/01/21</link>
             <guid isPermaLink="false">2025-01-21T00:00:00.000Z</guid>
             <pubDate>Tue, 21 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2025-01-20]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2025/01/20&#39;</h2>
-<h1>2025-01-20</h1>
-<h2><a href="https://www.vintagecomputing.com/index.php/archives/3292/the-pc-is-dead-its-time-to-make-computing-personal-again">是时候让计算再次变得个性化了</a></h2>
-<p>“文章强调了由于监视资本主义和数字版权管理(DRM)，个人计算自由的下降，这些因素将控制权从用户转移到了公司。” “它对比了过去个人计算时代提供更多用户自由的情况，与当今由侵蚀隐私的商业模式主导的科技环境。” “作者主张通过支持开源项目、推动隐私立法以及改革DRM法律来恢复个人计算价值，从而重新获得数字自主权。” </p>
-<h3><a href="https://news.ycombinator.com/item?id=42763095">反应</a></h3>
-<p>“文章强调了回归个人计算的必要性，对科技行业中的企业影响表示不满。它突出了社区计算的挑战，其中网络效应将用户锁定在特定的软件生态系统中，如iOS和Android。文章讨论了Linux和开源软件等替代方案，重点关注用户控制以及在企业主导的环境中实现这一目标的困难。” </p>
-<h2><a href="https://github.com/deepseek-ai/DeepSeek-R1">“深度搜索-R1”</a></h2>
-<p>“DeepSeek-R1 和 DeepSeek-R1-Zero 是第一代推理模型，其中 DeepSeek-R1 解决了 DeepSeek-R1-Zero 中出现的重复和语言混合等问题。” “这些模型，包括六个精简版本，都是开源的，其中DeepSeek-R1-Distill-Qwen-32B在推理、代码和数学任务中达到了最先进的成果。” “这些模型可以在 HuggingFace 上下载，用户可以通过聊天网站或兼容 OpenAI 的 API 与它们互动，并提供本地部署的说明。” </p>
-<h3><a href="https://news.ycombinator.com/item?id=42768072">反应</a></h3>
-<p>“DeepSeek-R1 是一种先进的推理模型，通过在强化学习之前使用冷启动数据来改进重复和语言混合等问题。在实验中，它的表现优于 QwQ 模型，提供了更好的用户体验和更丰富的回答策略，并在 MIT 许可证下开源以供广泛评估。该模型引入了一种管道，用于教授现有模型推理和与人类偏好的对齐，经过微调的 Llama 和 Qwen 模型也已开源，可能与 OpenAI 的产品竞争，尽管数据使用和审查问题仍然存在。” </p>
-<h2><a href="https://josef.cn/blog/uk-talent">“英国的硬件人才正在被浪费”</a></h2>
-<p>“英国正面临人才流失的问题，因为来自知名大学的顶尖工程毕业生的薪资水平低于硅谷，这促使许多人转向咨询或金融等高薪领域。这种人才错配阻碍了创新和经济增长，地理限制、硬件领域缺乏风险资本以及传统工程公司停滞不前等问题加剧了这一问题。英国面临着将最优秀的人才流失到海外市场的风险，错失创造科技巨头的机会，必须立即采取行动，利用其研究机构和工程人才推动硬件革命。” </p>
-<h3><a href="https://news.ycombinator.com/item?id=42763386">反应</a></h3>
-<p>“英国的硬件人才未被充分利用，因为许多工程师由于硬件初创企业的高门槛和高成本而转向软件或金融领域。这一挑战并非英国独有；在全球范围内，硬件初创企业面临着缓慢的迭代周期和高昂的成本，使其相比软件对投资者的吸引力较低。英国的规划法律和经济政策进一步阻碍了硬件的发展，导致人才流向其他行业或国家，而科技行业往往忽视了硬件创新的潜力。” </p>
-<h2><a href="https://wiki.rossmanngroup.com/wiki/Reverse_Engineering_Bambu_Connect">逆向工程Bambu Connect</a></h2>
-<p>“该指南讨论了从Bambu Connect应用程序中提取私钥，该应用程序是一个具有已知安全漏洞的Electron应用程序。用户被警告该指南可能不完整或过时，应该自行承担风险。该过程涉及使用Ghidra和asarfix等工具来定位和解密混淆的私钥和证书，并提供了一个用于提取的Python脚本。” </p>
-<h3><a href="https://news.ycombinator.com/item?id=42764602">反应</a></h3>
-<p>“Bambu Lab因对其3D打印机实施限制而受到批评，要求使用他们的软件和数字版权管理(DRM)系统。” “用户担心这些由Bambu以安全措施为理由的更改可能会导致订阅模式或额外限制，从而降低打印机的开放性和可破解性。” “作为回应，Bambu Lab 为高级用户引入了“开发者模式”，提供了对网络安全的更多控制，但对供应商锁定和对第三方集成影响的担忧仍然存在。” </p>
-<h2><a href="https://www.lesswrong.com/posts/cu2E8wgmbdZbqeWqb/meemi-s-shortform">“FrontierMath由OpenAI资助”</a></h2>
-<p>“这篇文章强调了OpenAI与FrontierMath合作中缺乏透明度的问题，资金细节在延迟后才被披露，导致贡献者感到困惑。” “尽管有口头协议表明情况并非如此，但人们对OpenAI可能访问和使用数据集进行训练表示担忧，这强调了书面协议的必要性。” “讨论强调了在合作中透明度和信任的重要性，特别是涉及人工智能能力的合作，并承诺在未来的项目中提高透明度。” </p>
-<h3><a href="https://news.ycombinator.com/item?id=42763231">反应</a></h3>
-<p>“FrontierMath，由OpenAI资助，因其基准测试中可能的数据污染而面临审查，这引发了对其结果完整性的担忧。批评者强调透明性和正确分离训练数据与测试数据的重要性，以防止基准测试被操控。这种情况突显了在人工智能领域进行独立和透明评估以保持可信度的必要性。” </p>
-<h2><a href="https://blog.gitbutler.com/why-is-git-autocorrect-too-fast-for-formula-one-drivers/">“为什么 Git 自动更正对一级方程式赛车手来说太快了？”</a></h2>
-<p>“Git 的自动更正功能在默认延迟 0.1 秒后执行输入错误的命令，这通常太快，用户无法取消。该功能于 2008 年引入，使用修改后的 Levenshtein 距离算法来猜测预期的命令，但如果输入错误，默认情况下不会运行任何命令。一个建议的补丁建议将设置为“1”解释为“立即”以增强可用性，允许用户配置延迟或提示确认。” </p>
-<h3><a href="https://news.ycombinator.com/item?id=42760620">反应</a></h3>
-<p>“Git 的自动更正功能默认延迟为 100 毫秒，这通常对于用户取消输入错误的命令来说太快。该功能最初旨在解释布尔值，但现在接受以十分之一秒为单位的时间延迟，这导致了一些用户的困惑。这种情况强调了清晰配置设置的必要性以及在不破坏现有功能的情况下更新软件功能的困难。” </p>
-<h2><a href="http://okayfail.com/2025/i-met-pg-once.html">“我曾见过保罗·格雷厄姆一次”</a></h2>
-<p>“作者在2015年参加了Y Combinator，在那里他们遇到了Paul Graham，并就他们的创业公司Appcanary获得了建议，该公司后来被GitHub收购。” “作者现在是一名跨性别女性，她对保罗·格雷厄姆最近关于‘觉醒’的文章表示担忧，认为这反映了对科技行业包容性的拒绝。” “作者担心科技行业中日益增加的不容忍和潜在的歧视，但仍然致力于以尊重和善意的态度生活。” </p>
-<h3><a href="https://news.ycombinator.com/item?id=42767507">反应</a></h3>
-<p>“讨论的核心是保罗·格雷厄姆的影响力以及科技行业内价值观的变化，突显出对曾被视为有远见的科技领袖的幻灭感。” “它探讨了身份政治的复杂性、‘觉醒’的影响以及科技行业中边缘化群体面临的挑战。” “该文本批评了社会正义努力中的表演性方面，以及在个人身份与职业角色之间取得平衡的困难，反映了关于进步和特权的更广泛的文化辩论。” </p>
-<h2><a href="https://www.johnwalker.nl/posts/escape-the-walled-garden-with-rss">“通过RSS订阅源逃离围墙花园和算法黑箱”</a></h2>
-<p>“RSS(简易信息聚合)和Atom提供了去中心化的替代方案，相对于中心化的社交媒体，允许用户控制他们的内容消费。像Miniflux、NetNewsWire和Newsboat这样的订阅器可以让用户订阅多样化的内容来源，包括YouTube频道、播客和博客。像PolitePol这样的工具可以为缺乏订阅功能的网站创建订阅源，促进用户在媒体消费中的自主性。” </p>
-<h3><a href="https://news.ycombinator.com/item?id=42761219">反应</a></h3>
-<p>“RSS 提要通过允许用户通过“行星”订阅特定主题来提供一种逃避算法驱动内容的方法，这些“行星”会聚合相关的博客。” “虽然像 Feedly 和 Feedbin 这样的 RSS 阅读器有助于管理这些订阅源，但一些用户觉得它们过于复杂，因此选择了像 Feedmail 这样的替代方案，将内容直接发送到收件箱。” “尽管其吸引力有限，RSS仍然在技术爱好者中很受欢迎，因为它提供了可定制和用户控制的内容体验，像Mastodon和Bluesky这样的平台支持RSS订阅。” </p>
-<h2><a href="https://iamvishnu.com/posts/please-dont-force-dark-mode">“请不要强制使用深色模式”</a></h2>
-<p>“建议网站设计师不要强制用户使用深色模式，因为这可能会导致眼睛疲劳，尤其是在高对比度设置下，如黑色背景上的白色文本。网络内容无障碍指南(WCAG)目前建议最低对比度比率，但没有涉及最大对比度，这可能导致不适；这可能会在即将发布的WCAG 3.0中得到解决。深色模式在特定场景中是有益的，例如在黑暗环境中使用OLED屏幕阅读或在提供舒适对比度设置的集成开发环境(IDE)中进行编码。” </p>
-<h3><a href="https://news.ycombinator.com/item?id=42762054">反应</a></h3>
-<p>“关于深色模式和浅色模式的持续争论集中在用户舒适度上，有些人觉得深色模式让人疲惫，而另一些人则认为浅色模式过于刺眼。” “普遍认为，网站应提供深色和浅色模式选项，以尊重个人用户的偏好。” “这次讨论强调了可定制设置的重要性，以满足不同用户需求和环境。” </p>
-<head>
-  <meta property="og:title" content="是时候让计算再次变得个性化了" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E6%98%AF%E6%97%B6%E5%80%99%E8%AE%A9%E8%AE%A1%E7%AE%97%E5%86%8D%E6%AC%A1%E5%8F%98%E5%BE%97%E4%B8%AA%E6%80%A7%E5%8C%96%E4%BA%86&subheading=2025%E5%B9%B41%E6%9C%8820%E6%97%A5%E6%98%9F%E6%9C%9F%E4%B8%80%3A%20%E9%BB%91%E5%AE%A2%E6%96%B0%E9%97%BB%E6%91%98%E8%A6%81" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/zh/Hans/2025/01/20</link>
-            <guid isPermaLink="false">2025-01-20T00:00:00.000Z</guid>
-            <pubDate>Mon, 20 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

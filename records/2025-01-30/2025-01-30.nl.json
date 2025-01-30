@@ -1,0 +1,288 @@
+[
+  {
+    "id": 42876840,
+    "title": "JavaScript Temporal kommer",
+    "originLink": "https://developer.mozilla.org/en-US/blog/javascript-temporal-is-coming/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42876840",
+    "commentBody": "",
+    "originSummary": [
+      "JavaScript Temporal er en ny funksjon i eksperimentelle nettleserversjoner som tar sikte på å forbedre håndteringen av dato og tid for webutviklere, og adresserer begrensningene til det gamle Date-objektet.",
+      "Temporal gir presis styring av datoer, tider, varigheter og kalendere, med over 200 hjelpemetoder, og støtter ulike kalendere og tidssoner.",
+      "Selv om full støtte for alle nettlesere fortsatt er under utvikling, leder Firefox med den mest avanserte implementeringen, og utviklere kan eksperimentere med Temporal ved å bruke @js-temporal/polyfill."
+    ],
+    "commentSummary": [
+      "JavaScript Temporal er et nytt API designet for å overvinne begrensningene til det gamle Date() API, og henter inspirasjon fra avanserte tidsbiblioteker som chrono i Rust og Joda Time i Java.",
+      "Det introduserer en mer kompleks, men nødvendig struktur ved å skille tid inn i naiv tid, øyeblikk og sonebestemt tid, og adresserer effektivt problemer som sommertid (DST) feil og serialiseringsavvik.",
+      "Temporal forventes å erstatte populære biblioteker som Moment.js, Luxon og date-fns ved å tilby en standardisert, innebygd løsning for håndtering av dato og tid i JavaScript, ved å bruke IANA Time Zone Database."
+    ],
+    "points": 724,
+    "commentCount": 241,
+    "retryCount": 0,
+    "time": 1738236511
+  },
+  {
+    "id": 42871371,
+    "title": "Avslørt DeepSeek-database som lekker sensitiv informasjon, inkludert chathistorikk",
+    "originLink": "https://www.wiz.io/blog/wiz-research-uncovers-exposed-deepseek-database-leak",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42871371",
+    "commentBody": "",
+    "originSummary": [
+      "En sikkerhetssårbarhet ble identifisert av Wiz Research i en offentlig tilgjengelig ClickHouse-database tilhørende DeepSeek, en kinesisk AI-oppstart, som eksponerte over en million linjer med sensitiv data, inkludert chathistorikk og hemmelige nøkler. Databasen var åpen og uten autentisering, noe som utgjorde betydelige sikkerhetsrisikoer, men ble raskt sikret etter Wiz Researchs ansvarlige avsløring. Denne hendelsen understreker sikkerhetsutfordringene ved den raske adopsjonen av AI-teknologier, og fremhever det kritiske behovet for robuste sikkerhetstiltak for å beskytte sensitiv data ettersom AI blir stadig mer integrert i forretningsdrift."
+    ],
+    "commentSummary": [
+      "En lekkasje fra DeepSeek-databasen avslørte sensitiv informasjon, som chathistorikk, men ble ansvarlig avslørt og raskt rettet.",
+      "Diskusjonen understreker den utbredte bruken av engelsk i koding globalt, tilskrevet dens dominans i programmeringsspråk og verktøy.",
+      "Lekkasjen utløste også samtaler om DeepSeeks innvirkning på NVIDIAs aksjer og bredere geopolitiske bekymringer, spesielt med hensyn til Kinas teknologiske innflytelse."
+    ],
+    "points": 642,
+    "commentCount": 442,
+    "retryCount": 0,
+    "time": 1738185936
+  },
+  {
+    "id": 42874301,
+    "title": "Passasjerfly kolliderer med Black Hawk-helikopter nær Reagan flyplass",
+    "originLink": "https://www.mediaite.com/news/breaking-commercial-jet-collides-with-police-chopper-near-reagan-airport/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42874301",
+    "commentBody": "",
+    "originSummary": [
+      "En kollisjon i luften skjedde mellom et passasjerfly og et U.S. Army Black Hawk-helikopter nær Reagan flyplass, Virginia, noe som forårsaket flyforstyrrelser.",
+      "Passasjerflyet, en PSA Airlines Bombardier CRJ700, hadde 60 passasjerer og fire besetningsmedlemmer, mens helikopteret fraktet tre soldater.",
+      "Minst 18 lik er blitt funnet, og en betydelig søke og redningsoperasjon pågår i Potomac-elven."
+    ],
+    "commentSummary": [
+      "Et kommersielt jetfly og et Black Hawk-helikopter kolliderte nær Reagan flyplass, noe som reiser betydelige bekymringer om flytrafikksikkerhet.",
+      "Til tross for instruksjoner om at helikopteret skulle opprettholde visuell separasjon, skjedde kollisjonen, noe som førte til diskusjoner om prosedyrer for flygekontroll.",
+      "Den hendelsen har intensivert kravene om politiske endringer for å forbedre sikkerheten og forhindre fremtidige ulykker i amerikansk luftrom."
+    ],
+    "points": 563,
+    "commentCount": 510,
+    "retryCount": 0,
+    "time": 1738205805
+  },
+  {
+    "id": 42877860,
+    "title": "Små Mistral 3",
+    "originLink": "https://mistral.ai/news/mistral-small-3/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42877860",
+    "commentBody": "",
+    "originSummary": [
+      "Mistral AI har gitt ut Mistral Small 3, en modell med 24 milliarder parametere optimalisert for lav ventetid, under Apache 2.0-lisensen, og tilbyr et åpen kildekode-alternativ til større proprietære modeller.",
+      "Modellen utmerker seg i generative AI-oppgaver, oppnår over 81 % nøyaktighet på MMLU med 150 tokens/s forsinkelse, og er egnet for lokal distribusjon på enheter som en RTX 4090 eller en Macbook med 32 GB RAM.",
+      "Mistral Small 3 er tilgjengelig på plattformer som Hugging Face, Ollama og Kaggle, og er designet for rask-respons samtaleassistanse og finjustering for domenespesifikk ekspertise."
+    ],
+    "commentSummary": [
+      "TEXT: Mistral Small 3 er en ny AI-modell optimalisert for effektiv ytelse på bærbare datamaskiner, som konkurrerer med modeller som Llama 3.3 70B, og kan kjøres lokalt på enheter som M2 MacBook Pro.",
+      "Modellen er åpen kildekode under Apache 2.0-lisensen, med konkurransedyktige API-priser, noe som gjør den tilgjengelig for ulike applikasjoner, inkludert finans og helsevesen.",
+      "Diskusjoner fremhever dens sterke ytelse i strukturert output og lokale applikasjoner, samt betydningen av open-source vekter og læring fra open-source prosjekter."
+    ],
+    "points": 411,
+    "commentCount": 136,
+    "retryCount": 0,
+    "time": 1738246617
+  },
+  {
+    "id": 42877709,
+    "title": "Antiqua et Nova: Notat om forholdet mellom AI og menneskelig intelligens",
+    "originLink": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42877709",
+    "commentBody": "",
+    "originSummary": [
+      "Dokumentet undersøker AI og menneskelig intelligens fra et kristent perspektiv, med fokus på etiske og antropologiske utfordringer AI medfører. Det understreker Kirkens tro på intelligens som en guddommelig gave, essensiell for menneskelig verdighet, og behovet for ansvarlig bruk av AI til samfunnets beste. Teksten etterlyser etiske retningslinjer for å sikre at AI respekterer menneskelig verdighet, og tar opp bekymringer som personvern, feilinformasjon og dens innvirkning på arbeid og relasjoner."
+    ],
+    "commentSummary": [
+      "Vatikanets dokument \"Antiqua et Nova\" undersøker samspillet mellom kunstig intelligens (AI) og menneskelig intelligens, med vekt på ansvarlig bruk av menneskelig intelligens som en guddommelig gave.",
+      "Mens dokumentet anerkjenner fordelene med AI, advarer det om etiske utfordringer, som AI's potensial til å etterligne menneskelig kreativitet og ta autonome beslutninger, og understreker behovet for at AI-utvikling respekterer menneskelig verdighet og tjener det felles beste.",
+      "Kirken advarer mot at AI blir en erstatning for Gud, og oppfordrer til nøye vurdering og etisk bruk for å forhindre at teknologi blir guddommeliggjort og for å opprettholde fokus på menneskelige verdier."
+    ],
+    "points": 290,
+    "commentCount": 254,
+    "retryCount": 0,
+    "time": 1738245687
+  },
+  {
+    "id": 42872276,
+    "title": "Råd til en venn som ønsker å starte en blogg",
+    "originLink": "https://www.henrikkarlsson.xyz/p/start-a-blog",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42872276",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Ambisiøse bloggere blir rådet til å eie sitt eget innhold i stedet for å stole på plattformer som Medium eller Substack, for å sikre kontroll og uavhengighet.",
+      "Konsekvent skriving og valg av en spesifikk nisje anbefales for å oppnå bedre resultater og tiltrekke seg et dedikert publikum.",
+      "POSSE-strategien (Publiser på din egen side, syndiker andre steder) foreslås for å promotere arbeid, samtidig som den understreker viktigheten av å skrive for personlig tilfredsstillelse fremfor umiddelbar engasjement."
+    ],
+    "points": 290,
+    "commentCount": 144,
+    "retryCount": 0,
+    "time": 1738190714
+  },
+  {
+    "id": 42873697,
+    "title": "Yngre cannabisbrukere har redusert hjernefunksjon, viser den største studien hittil",
+    "originLink": "https://newatlas.com/brain/young-adult-cannabis-brain-function/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42873697",
+    "commentBody": "",
+    "originSummary": [
+      "En studie fra University of Colorado Anschutz Medical Campus indikerer at bruk av cannabis kan svekke hjernefunksjonen hos unge voksne, spesielt påvirke arbeidsminnet. Forskningen, som involverte 1 003 deltakere og MR-skanninger, fant at tunge og nylige cannabisbrukere viste redusert hjerneaktivitet under minneoppgaver, noe som påvirker områder relatert til følelser, kognisjon og sosial atferd. Publisert i JAMA Network Open, antyder studien at avholdenhet fra cannabis før kognitive oppgaver kan forbedre ytelsen, men tunge brukere kan oppleve abstinenssymptomer, noe som understreker behovet for videre forskning på cannabisens langsiktige effekter på hjernen."
+    ],
+    "commentSummary": [
+      "En betydelig studie antyder at yngre cannabisbrukere kan oppleve redusert hjernefunksjon, spesielt i arbeidsminnet.",
+      "Studien kan ikke avgjørende fastslå årsakssammenheng, da den erkjenner potensielle korrelasjoner med faktorer som selvmedisinering for angst eller ADHD.",
+      "Den pågående debatten stiller spørsmål ved om cannabis direkte forårsaker redusert kognitiv funksjon, eller om det er assosiert med andre livsstilsvalg."
+    ],
+    "points": 271,
+    "commentCount": 239,
+    "retryCount": 0,
+    "time": 1738200234
+  },
+  {
+    "id": 42871743,
+    "title": "Fra C++ til Clojure: Jank-språket lover det beste fra begge",
+    "originLink": "https://thenewstack.io/from-c-to-clojure-new-language-promises-best-of-both/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42871743",
+    "commentBody": "",
+    "originSummary": [
+      "Jeaye Wilkerson, en tidligere ingeniør hos Electronic Arts (EA), skaper \"jank,\" et nytt programmeringsspråk som kombinerer Clojures interaktive funksjoner med native kompilering, ved å utnytte LLVM (Low-Level Virtual Machine).",
+      "Jank inkorporerer aspekter av C++, Clojure og Rust, med mål om forbedret ytelse og brukervennlighet, og er ment for applikasjoner innen spill, utvikling av grafiske brukergrensesnitt (GUI) og datavitenskap.",
+      "Språket har tiltrukket seg interesse fra samfunnet, med en utviklingsplan som inkluderer forbedret feilmelding, interoperabilitet med C++, og distribusjon på Linux, med potensielle anvendelser i spillmotorer og webtjenester."
+    ],
+    "commentSummary": [
+      "Jank er et nytt programmeringsspråk designet for å kombinere styrkene til C++ og Clojure, med vekt på sømløs interoperabilitet med C++ og interaktiv utvikling. Det benytter Just-In-Time (JIT) kompilering med LLVM (Low-Level Virtual Machine) for å produsere native binærfiler, noe som forbedrer ytelsen og integrasjonen med C++. Språket er fortsatt under utvikling, med fremtidige planer om å støtte flere plattformer og forbedre minnehåndtering, noe som vekker interesse for dets potensial innen spillutvikling og native GUI-applikasjoner."
+    ],
+    "points": 229,
+    "commentCount": 94,
+    "retryCount": 0,
+    "time": 1738187771
+  },
+  {
+    "id": 42870990,
+    "title": "Å lage videoen som gjorde Gorillaz",
+    "originLink": "https://animationobsessive.substack.com/p/making-the-video-that-made-gorillaz",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42870990",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Gorillaz, et virtuelt band, ble populære gjennom sin innovative kombinasjon av musikk og animasjon, spesielt med \"Clint Eastwood\"-videoen. Fans husker med glede bandets kreative prosjekter, som det interaktive Flash Kong Studios-nettstedet og Jamie Hewletts særegne kunstverk. Bandet, ledet av Damon Albarn, fortsetter å være innflytelsesrike i musikkindustrien, og opprettholder en tidløs appell til tross for å ha utviklet seg gjennom årene."
+    ],
+    "points": 206,
+    "commentCount": 47,
+    "retryCount": 0,
+    "time": 1738183853
+  },
+  {
+    "id": 42874885,
+    "title": "PCB-er, kobberfyllinger, jordplan og du",
+    "originLink": "https://lcamtuf.substack.com/p/pcbs-ground-planes-and-you",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42874885",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Artikkelen utforsker utviklingen av design for trykte kretskort (PCB), med særlig fokus på kobberfyllinger og jordplan, som har blitt mer effektive med moderne produksjonsteknikker.",
+      "Det brukes nå kobberstøp for å forbedre produksjonshastigheten, konsistensen og redusere sideetsing, mens jordplan er essensielle for elektromagnetisk kompatibilitet (EMC), elektrisk ytelse og design for produksjon (DFM).",
+      "Artikkelen fremhever viktigheten av presis teknisk skriving og kritiserer sammenblandingen av konsepter i diskusjoner om PCB-design."
+    ],
+    "points": 193,
+    "commentCount": 43,
+    "retryCount": 0,
+    "time": 1738211605
+  },
+  {
+    "id": 42870171,
+    "title": "Airflow – Strøm medier direkte fra macOS til AirPlay-enheter",
+    "originLink": "https://airflow.app/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42870171",
+    "commentBody": "",
+    "originSummary": [
+      "Airflow er en videostrømmingsapplikasjon som er kompatibel med Chromecast, Apple TV og AirPlay 2 TV-er, med funksjoner som HEVC-strømming, adaptiv lyd og sanntids undertekst-OCR (Optical Character Recognition).",
+      "Den støtter 4K HDR (High Dynamic Range) og ulike lydformater, og gir avspilling av høy kvalitet med minimal CPU-bruk.",
+      "Airflow er tilgjengelig for et engangskjøp på $19,99 og inkluderer en gratis fjernkontrollapp for Android og iPhone, kompatibel med macOS 10.12+, 64-bit Windows 10+ og 32-bit Windows 10+."
+    ],
+    "commentSummary": [
+      "Airflow er en mediestrømmingsapplikasjon som lar brukere strømme innhold fra macOS til AirPlay og Chromecast-enheter, kjent for sin hastighet og pålitelighet.",
+      "Brukere setter pris på Airflow for dets evne til å spole i videoer, håndtering av store filer, undertekststøtte og kompatibilitet med både macOS og Windows.",
+      "Til tross for noen bekymringer om utviklingsstatusen og UI-kritikk, indikerer nylige oppdateringer aktiv utvikling, og mange brukere finner det som et verdifullt kjøp sammenlignet med alternativer som Beamer og AirParrot."
+    ],
+    "points": 188,
+    "commentCount": 70,
+    "retryCount": 0,
+    "time": 1738180071
+  },
+  {
+    "id": 42873312,
+    "title": "Mathesar – et intuitivt regnearklignende grensesnitt for Postgres-data",
+    "originLink": "https://github.com/mathesar-foundation/mathesar",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42873312",
+    "commentBody": "",
+    "originSummary": [
+      "Mathesar er en nettapplikasjon som gir et regneark-lignende grensesnitt for PostgreSQL-databaser, slik at brukere kan administrere data uten å måtte kode.",
+      "Det er åpen kildekode, selvhostet, og integreres direkte med PostgreSQL, noe som sikrer datasikkerhet gjennom native tilgangskontroll.",
+      "Mathesar er for tiden i offentlig beta, oppmuntrer til bidrag fra samfunnet, og vedlikeholdes av den ideelle organisasjonen Mathesar Foundation."
+    ],
+    "commentSummary": [
+      "Mathesar tilbyr et grensesnitt som ligner et regneark for Postgres, designet for å være brukervennlig for ikke-tekniske brukere, og muliggjør redigering av data, spørringer og relasjonshåndtering direkte innenfor Postgres.",
+      "Det er et nettbasert, åpen kildekode og selvhostet verktøy, forskjellig fra andre som DBeaver eller Metabase, med fokus på brukervennlighet og dyp integrasjon med Postgres.",
+      "Foreløpig mangler Mathesar UI-tilpasning og en SQL-editor, men planlegger å inkludere disse funksjonene; det er GPLv3-lisensiert og finansiert gjennom donasjoner, og utforsker bærekraftige inntektsmuligheter."
+    ],
+    "points": 182,
+    "commentCount": 42,
+    "retryCount": 0,
+    "time": 1738197113
+  },
+  {
+    "id": 42876998,
+    "title": "LibreOffice 400M nedlastinger, og teller",
+    "originLink": "https://blog.documentfoundation.org/blog/2025/01/30/400-million-downloads-and-counting/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42876998",
+    "commentBody": "",
+    "originSummary": [
+      "LibreOffice har nådd en betydelig milepæl, med over 400 millioner nedlastinger per 30. januar 2025, noe som understreker dens vedvarende popularitet og nytte.",
+      "Etter en innledende rask vekst fra 2011 til 2014, ble interessen for LibreOffice gjenopplivet etter stagnasjon, ettersom brukerne satte pris på verdien av skrivebordskontorpakker ved siden av skybaserte løsninger.",
+      "Til tross for angrep på nedlastningstelleren i 2019, fortsatte LibreOffice å vokse, og oppnådde over 35 millioner nedlastninger årlig innen 2024, noe som viser dens motstandsdyktighet og vedvarende relevans."
+    ],
+    "commentSummary": [
+      "LibreOffice har nådd en betydelig milepæl med 400 millioner nedlastinger, noe som understreker den utbredte bruken til tross for konkurranse fra andre kontorpakker som OnlyOffice.",
+      "Brukere uttrykker ulike preferanser, der noen foretrekker OnlyOffice for dets kompatibilitet med Microsoft Office og moderne grensesnitt, mens andre verdsetter LibreOffice for dets åpen kildekode-natur og evne til å håndtere store filer.",
+      "Diskusjonen fremhever LibreOffices integrasjon i Linux-distribusjoner, dens nytteverdi i både personlige og profesjonelle sammenhenger, og dens pågående utvikling, sammen med utfordringer i overgangen fra skybaserte løsninger til lokal programvare."
+    ],
+    "points": 178,
+    "commentCount": 70,
+    "retryCount": 0,
+    "time": 1738238354
+  },
+  {
+    "id": 42871143,
+    "title": "Parsing av PDF-er (og mer) i Elixir ved bruk av Rust",
+    "originLink": "https://www.chriis.dev/opinion/parsing-pdfs-in-elixir-using-rust",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42871143",
+    "commentBody": "",
+    "originSummary": [
+      "Å analysere PDF-er i Elixir er utfordrende på grunn av mangelen på enkle løsninger, men integrering av Rust gjennom NIF-er (Native Implemented Functions) tilbyr et robust alternativ.",
+      "Den kombinasjonen av Rusts hastighet og effektivitet med Elixirs kapabiliteter tillater opprettelsen av en LiveView Elixir-applikasjon for PDF-opplastinger, ved å bruke Extractous-biblioteket i Rust og Rustler for integrasjon.",
+      "Dette tilnærmingen fremhever styrkene til begge språkene, og gir en kostnadseffektiv og effektiv løsning for PDF-analyse, med full implementering tilgjengelig på GitHub."
+    ],
+    "commentSummary": [
+      "Parsing av PDF-er i Elixir ved bruk av Rust gir en stabil løsning ved å utnytte Rusts pålitelighet for å unngå krasj i BEAM (Bogdan/Björns Erlang Abstract Machine) virtuell maskin.",
+      "Den største utfordringen er å hente ut komplekse data, som tabeller, fra PDF-er, noe som går utover enkel tekstuttrekking.",
+      "Verktøy som Unstructured og Marker i Rust blir utforsket for å forbedre modellens inferenshastighet og integrere visuelle kapabiliteter, med interesse for en dockerisert API for lokal utvikling."
+    ],
+    "points": 168,
+    "commentCount": 14,
+    "retryCount": 0,
+    "time": 1738184728
+  }
+]

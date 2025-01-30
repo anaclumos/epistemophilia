@@ -1,0 +1,288 @@
+[
+  {
+    "id": 42876840,
+    "title": "JavaScript Temporalがやってくる",
+    "originLink": "https://developer.mozilla.org/en-US/blog/javascript-temporal-is-coming/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42876840",
+    "commentBody": "",
+    "originSummary": [
+      "JavaScript Temporalは、ウェブ開発者向けに日付と時間の処理を改善することを目的とした実験的なブラウザリリースの新機能であり、古いDateオブジェクトの制限に対処しています。",
+      "Temporalは、日付、時刻、期間、カレンダーの正確な管理を提供し、200以上のユーティリティメソッドを備え、さまざまなカレンダーとタイムゾーンをサポートしています。",
+      "「完全なクロスブラウザサポートはまだ進行中ですが、Firefoxは最も進んだ実装をリードしており、開発者は@js-temporal/polyfillを使用してTemporalを試すことができます。」"
+    ],
+    "commentSummary": [
+      "JavaScript Temporalは、古いDate() APIの制限を克服するために設計された新しいAPIであり、RustのchronoやJavaのJoda Timeのような高度な時間ライブラリからインスピレーションを得ています。",
+      "「時間をナイーブタイム、インスタント、ゾーンタイムに分けることで、より複雑だが必要な構造を導入し、夏時間(DST)のバグやシリアライズの不一致といった問題に効果的に対処します。」",
+      "「Temporalは、IANAタイムゾーンデータベースを利用して、JavaScriptにおける日付と時間管理のための標準化された組み込みソリューションを提供することで、Moment.js、Luxon、date-fnsといった人気のライブラリに取って代わることが期待されています。」"
+    ],
+    "points": 724,
+    "commentCount": 241,
+    "retryCount": 0,
+    "time": 1738236511
+  },
+  {
+    "id": 42871371,
+    "title": "DeepSeekデータベースが露出し、チャット履歴を含む機密情報が漏洩",
+    "originLink": "https://www.wiz.io/blog/wiz-research-uncovers-exposed-deepseek-database-leak",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42871371",
+    "commentBody": "",
+    "originSummary": [
+      "「Wiz Researchは、中国のAIスタートアップであるDeepSeekの公開アクセス可能なClickHouseデータベースにおいて、チャット履歴や秘密鍵を含む100万行以上の機密データを露出させるセキュリティ脆弱性を特定しました。このデータベースはオープンで認証されておらず、重大なセキュリティリスクを呈していましたが、Wiz Researchの責任ある開示後に迅速に保護されました。この事件は、AI技術の急速な採用におけるセキュリティの課題を浮き彫りにし、AIがビジネス運営にますます不可欠になる中で、機密データを保護するための強力なセキュリティ対策の重要性を強調しています。」"
+    ],
+    "commentSummary": [
+      "「DeepSeekデータベースの漏洩により、チャット履歴などの機密情報が明らかになりましたが、責任を持って開示され、迅速に修正されました。」",
+      "「この議論は、プログラミング言語やツールにおける英語の支配的な地位により、世界中でコーディングに英語が広く使用されていることを強調しています。」",
+      "「このリークは、NVIDIAの株価への影響や、中国の技術的影響力に関する広範な地政学的懸念についての議論も引き起こしました。」"
+    ],
+    "points": 642,
+    "commentCount": 442,
+    "retryCount": 0,
+    "time": 1738185936
+  },
+  {
+    "id": 42874301,
+    "title": "「商業用ジェット機がレーガン空港付近でブラックホークヘリコプターと衝突」",
+    "originLink": "https://www.mediaite.com/news/breaking-commercial-jet-collides-with-police-chopper-near-reagan-airport/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42874301",
+    "commentBody": "",
+    "originSummary": [
+      "「バージニア州のレーガン空港付近で、旅客機と米陸軍のブラックホークヘリコプターが空中衝突し、飛行の混乱を引き起こしました。」",
+      "「旅客機はPSA航空のボンバルディアCRJ700で、60人の乗客と4人の乗員が乗っており、ヘリコプターには3人の兵士が乗っていました。」",
+      "「少なくとも18体の遺体が回収され、ポトマック川で大規模な捜索救助活動が進行中です。」"
+    ],
+    "commentSummary": [
+      "「商業用ジェット機とブラックホークヘリコプターがレーガン空港付近で衝突し、航空交通の安全性に関する重大な懸念が生じています。」",
+      "「ヘリコプターが視覚的な分離を維持するよう指示されていたにもかかわらず、衝突が発生し、航空交通管制手順についての議論が始まった。」",
+      "「この事件は、米国の空域における安全性を高め、将来の事故を防ぐための政策変更を求める声を強めています。」"
+    ],
+    "points": 563,
+    "commentCount": 510,
+    "retryCount": 0,
+    "time": 1738205805
+  },
+  {
+    "id": 42877860,
+    "title": "Mistral Small 3",
+    "originLink": "https://mistral.ai/news/mistral-small-3/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42877860",
+    "commentBody": "",
+    "originSummary": [
+      "Mistral AIは、低遅延に最適化された240億パラメータのモデルであるMistral Small 3をApache 2.0ライセンスの下でリリースし、より大きな独自モデルに対するオープンソースの代替案を提供しています。",
+      "「このモデルは生成AIタスクにおいて優れており、MMLUで81%以上の精度を達成し、150トークン/秒の遅延で動作します。また、RTX 4090や32GB RAMを搭載したMacbookのようなデバイスでのローカル展開に適しています。」",
+      "Mistral Small 3は、Hugging Face、Ollama、Kaggleなどのプラットフォームで利用可能で、迅速な応答の会話支援やドメイン固有の専門知識の微調整のために設計されています。"
+    ],
+    "commentSummary": [
+      "Mistral Small 3は、ラップトップでの効率的なパフォーマンスに最適化された新しいAIモデルで、Llama 3.3 70Bのようなモデルと競合し、M2 MacBook Proなどのデバイスでローカルに実行することができます。",
+      "「このモデルはApache 2.0ライセンスの下でオープンソースであり、競争力のあるAPI価格設定により、金融や医療を含むさまざまなアプリケーションに利用可能です。」",
+      "「議論は、構造化された出力とローカルアプリケーションにおけるその強力なパフォーマンス、ならびにオープンソースの重みとオープンソースプロジェクトから学ぶことの重要性を強調しています。」"
+    ],
+    "points": 411,
+    "commentCount": 136,
+    "retryCount": 0,
+    "time": 1738246617
+  },
+  {
+    "id": 42877709,
+    "title": "「Antiqua et Nova: AIと人間の知能の関係に関する注記」",
+    "originLink": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42877709",
+    "commentBody": "",
+    "originSummary": [
+      "「この文書は、キリスト教の視点からAIと人間の知性を検討し、AIがもたらす倫理的および人類学的な課題に焦点を当てています。知性を神からの贈り物とし、人間の尊厳に不可欠であるとする教会の信念を強調し、社会に利益をもたらすための責任あるAIの使用の必要性を訴えています。テキストは、AIが人間の尊厳を尊重することを保証するための倫理的ガイドラインを求め、プライバシー、誤情報、労働や人間関係への影響といった懸念に対処しています。」"
+    ],
+    "commentSummary": [
+      "「バチカンの文書『Antiqua et Nova』は、人工知能(AI)と人間の知能の相互作用を検討し、人間の知能を神からの贈り物として責任を持って使用することを強調しています。」",
+      "「AIの利点を認めつつ、文書はAIが人間の創造性を模倣し、自律的な決定を下す可能性があるといった倫理的な課題について警告しており、AI開発が人間の尊厳を尊重し、共通の利益に貢献する必要性を強調しています。」",
+      "「教会は、AIが神の代わりになることを警告し、技術を神格化することを防ぎ、人間の価値に焦点を当て続けるために、慎重な識別と倫理的な使用を促しています。」"
+    ],
+    "points": 290,
+    "commentCount": 254,
+    "retryCount": 0,
+    "time": 1738245687
+  },
+  {
+    "id": 42872276,
+    "title": "ブログを始めたい友人へのアドバイス",
+    "originLink": "https://www.henrikkarlsson.xyz/p/start-a-blog",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42872276",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "ブロガー志望者は、MediumやSubstackのようなプラットフォームに頼るのではなく、自分のコンテンツを所有することで、コントロールと独立性を確保することが推奨されています。",
+      "「一貫した執筆と特定のニッチを選ぶことは、より良い結果を達成し、専念したオーディエンスを引き付けるために推奨されます。」",
+      "「POSSE戦略(自分のサイトに公開し、他の場所で配信する)は、作品を宣伝するために提案されており、即時のエンゲージメントよりも個人的な満足のために書くことの重要性を強調しています。」"
+    ],
+    "points": 290,
+    "commentCount": 144,
+    "retryCount": 0,
+    "time": 1738190714
+  },
+  {
+    "id": 42873697,
+    "title": "「若年層の大麻使用者は脳機能が低下していることが、これまでで最大の研究で判明」",
+    "originLink": "https://newatlas.com/brain/young-adult-cannabis-brain-function/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42873697",
+    "commentBody": "",
+    "originSummary": [
+      "「コロラド大学アンシュッツ医療キャンパスによる研究は、若年成人において大麻の使用が脳機能を損なう可能性があり、特に作業記憶に影響を与えることを示しています。この研究は1,003人の参加者とMRIスキャンを用いて行われ、重度かつ最近の大麻使用者は記憶タスク中に脳活動が低下し、感情、認知、社会的行動に関連する領域に影響を与えることが分かりました。JAMA Network Openに発表されたこの研究は、認知タスクの前に大麻を控えることでパフォーマンスが向上する可能性があると示唆していますが、重度の使用者は禁断症状に直面する可能性があり、大麻の長期的な脳への影響についてさらなる研究が必要であることを強調しています。」"
+    ],
+    "commentSummary": [
+      "「重要な研究によると、若い大麻使用者は特に作業記憶において脳機能の低下を経験する可能性があることが示唆されています。」",
+      "この研究は、因果関係を決定的に確立することはできません。なぜなら、不安やADHDに対する自己治療のような要因との潜在的な相関関係を認めているからです。",
+      "「現在進行中の議論では、カンナビスが直接的に認知機能の低下を引き起こすのか、それとも他のライフスタイルの選択と関連しているのかが問われています。」"
+    ],
+    "points": 271,
+    "commentCount": 239,
+    "retryCount": 0,
+    "time": 1738200234
+  },
+  {
+    "id": 42871743,
+    "title": "「C++からClojureへ：Jank言語は両方のベストを約束」",
+    "originLink": "https://thenewstack.io/from-c-to-clojure-new-language-promises-best-of-both/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42871743",
+    "commentBody": "",
+    "originSummary": [
+      "「元エレクトロニック・アーツ(EA)のエンジニアであるジェイ・ウィルカーソンは、Clojureのインタラクティブな機能とネイティブコンパイルを統合し、LLVM(Low-Level Virtual Machine)を活用した新しいプログラミング言語「jank」を開発しています。」",
+      "「Jankは、C++、Clojure、Rustの要素を取り入れ、性能と使いやすさの向上を目指しており、ゲーム、グラフィカルユーザーインターフェース(GUI)開発、データサイエンスのアプリケーションを対象としています。」",
+      "「この言語はコミュニティの関心を集めており、エラー報告の改善、C++との相互運用性、Linuxでの配布を含む開発ロードマップがあり、ゲームエンジンやウェブサービスでの応用が期待されています。」"
+    ],
+    "commentSummary": [
+      "「Jankは、C++とClojureの強みを融合させることを目的とした新しいプログラミング言語で、C++とのシームレスな相互運用性とインタラクティブな開発を強調しています。LLVM(低レベル仮想マシン)を使用したJust-In-Time(JIT)コンパイルを利用してネイティブバイナリを生成し、パフォーマンスとC++の統合を向上させます。この言語はまだ開発中であり、将来的には複数のプラットフォームをサポートし、メモリ管理を改善する計画があり、ゲーム開発やネイティブGUIアプリケーションでの可能性に対する関心を呼び起こしています。」"
+    ],
+    "points": 229,
+    "commentCount": 94,
+    "retryCount": 0,
+    "time": 1738187771
+  },
+  {
+    "id": 42870990,
+    "title": "ゴリラズを作ったビデオを作ること",
+    "originLink": "https://animationobsessive.substack.com/p/making-the-video-that-made-gorillaz",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42870990",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "「ゴリラズは、音楽とアニメーションを革新的に組み合わせたことで人気を博し、特に「クリント・イーストウッド」のビデオで注目を集めました。ファンは、インタラクティブなフラッシュ・コング・スタジオのサイトやジェイミー・ヒューレットの独特なアートワークなど、バンドのクリエイティブなプロジェクトを懐かしく思い出します。デーモン・アルバーンが率いるこのバンドは、年々進化しながらも時代を超えた魅力を保ち、音楽業界に影響を与え続けています。」"
+    ],
+    "points": 206,
+    "commentCount": 47,
+    "retryCount": 0,
+    "time": 1738183853
+  },
+  {
+    "id": 42874885,
+    "title": "PCB、銅箔、グランドプレーン、そしてあなた",
+    "originLink": "https://lcamtuf.substack.com/p/pcbs-ground-planes-and-you",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42874885",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "「この記事は、プリント基板(PCB)設計の進化を探求しており、特に銅箔とグランドプレーンに焦点を当てています。これらは現代の製造技術によってより効率的になっています。」",
+      "「銅の注入は現在、生産速度の向上、一貫性の確保、側面エッチングの削減に利用されており、グラウンドプレーンは電磁両立性(EMC)、電気的性能、製造のための設計(DFM)に不可欠です。」",
+      "「この記事は、正確な技術文書の重要性を強調し、PCB設計の議論における概念の混合を批判しています。」"
+    ],
+    "points": 193,
+    "commentCount": 43,
+    "retryCount": 0,
+    "time": 1738211605
+  },
+  {
+    "id": 42870171,
+    "title": "Airflow – macOSからAirPlayデバイスにメディアファイルを直接ストリーミング",
+    "originLink": "https://airflow.app/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42870171",
+    "commentBody": "",
+    "originSummary": [
+      "Airflowは、Chromecast、Apple TV、AirPlay 2対応テレビと互換性のあるビデオストリーミングアプリケーションで、HEVCストリーミング、適応オーディオ、リアルタイム字幕OCR(光学文字認識)を特徴としています。",
+      "「4K HDR(ハイダイナミックレンジ)およびさまざまなオーディオフォーマットをサポートし、最小限のCPU使用で高品質な再生を提供します。」",
+      "「Airflowは19.99ドルの一回限りの購入で利用可能で、AndroidおよびiPhone用の無料リモートコントロールアプリが含まれています。macOS 10.12+、64ビットWindows 10+、および32ビットWindows 10+と互換性があります。」"
+    ],
+    "commentSummary": [
+      "「Airflowは、macOSからAirPlayおよびChromecastデバイスにコンテンツをストリーミングできるメディアストリーミングアプリケーションで、その速度と信頼性で知られています。」",
+      "「ユーザーは、Airflowのビデオスクラビング機能、大容量ファイルの処理、字幕サポート、macOSとWindowsの両方との互換性を評価しています。」",
+      "「その開発状況やUIに対する批判があるにもかかわらず、最近のアップデートは活発な開発を示しており、多くのユーザーはBeamerやAirParrotのような代替品と比較して価値のある購入と考えています。」"
+    ],
+    "points": 188,
+    "commentCount": 70,
+    "retryCount": 0,
+    "time": 1738180071
+  },
+  {
+    "id": 42873312,
+    "title": "「Mathesar – Postgresデータへの直感的なスプレッドシートのようなインターフェース」",
+    "originLink": "https://github.com/mathesar-foundation/mathesar",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42873312",
+    "commentBody": "",
+    "originSummary": [
+      "「Mathesarは、PostgreSQLデータベース用のスプレッドシートのようなインターフェースを提供するウェブアプリケーションであり、ユーザーがコーディングを必要とせずにデータを管理できるようにします。」",
+      "「これはオープンソースでセルフホスティング可能であり、PostgreSQLと直接統合し、ネイティブのアクセス制御を通じてデータのセキュリティを確保します。」",
+      "「Mathesarは現在パブリックベータ版で、コミュニティからの貢献を奨励しており、非営利団体のMathesar Foundationによって運営されています。」"
+    ],
+    "commentSummary": [
+      "「Mathesarは、非技術的なユーザーにとって使いやすいように設計されたPostgres用のスプレッドシートのようなインターフェースを提供し、Postgres内で直接データの編集、クエリ、および関係管理を可能にします。」",
+      "「それは、ウェブベースのオープンソースで自己ホスト型のツールであり、DBeaverやMetabaseのような他のツールとは異なり、使いやすさとPostgresとの深い統合に重点を置いています。」",
+      "「現在、MathesarにはUIカスタマイズ機能とSQLエディタが欠けていますが、これらの機能を組み込む計画があります。GPLv3ライセンスで提供され、寄付によって資金を調達しており、持続可能な収益オプションを模索しています。」"
+    ],
+    "points": 182,
+    "commentCount": 42,
+    "retryCount": 0,
+    "time": 1738197113
+  },
+  {
+    "id": 42876998,
+    "title": "LibreOffice 4億ダウンロード、そして増加中",
+    "originLink": "https://blog.documentfoundation.org/blog/2025/01/30/400-million-downloads-and-counting/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42876998",
+    "commentBody": "",
+    "originSummary": [
+      "「LibreOfficeは2025年1月30日現在、4億ダウンロードを超えるという重要なマイルストーンを達成し、その持続的な人気と有用性を示しています。」",
+      "「2011年から2014年にかけての急速な成長の後、クラウドベースのソリューションと並んでデスクトップオフィススイートの価値がユーザーに評価され、LibreOfficeへの関心が停滞後に再び高まりました。」",
+      "「2019年にダウンロードカウンターへの攻撃に直面したにもかかわらず、LibreOfficeは成長を続け、2024年までに年間3,500万回以上のダウンロードを達成し、その回復力と継続的な重要性を示しました。」"
+    ],
+    "commentSummary": [
+      "「LibreOfficeは4億回のダウンロードという重要なマイルストーンを達成し、OnlyOfficeのような他のオフィススイートとの競争にもかかわらず、その広範な利用を強調しています。」",
+      "ユーザーの好みはさまざまで、Microsoft Officeとの互換性とモダンなインターフェースを好む人もいれば、オープンソースの性質と大容量ファイルの処理能力を重視するLibreOfficeを評価する人もいます。",
+      "「この議論は、LinuxディストリビューションへのLibreOfficeの統合、その個人およびプロフェッショナルな文脈での有用性、継続的な開発、そしてクラウドベースのソリューションからローカルソフトウェアへの移行における課題を強調しています。」"
+    ],
+    "points": 178,
+    "commentCount": 70,
+    "retryCount": 0,
+    "time": 1738238354
+  },
+  {
+    "id": 42871143,
+    "title": "「ElixirでRustを使用してPDF(およびその他)を解析する」",
+    "originLink": "https://www.chriis.dev/opinion/parsing-pdfs-in-elixir-using-rust",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42871143",
+    "commentBody": "",
+    "originSummary": [
+      "「ElixirでPDFを解析することは、簡単な解決策がないため困難ですが、NIF(ネイティブ実装関数)を通じてRustを統合することで、強力な代替手段を提供します。」",
+      "「Rustの速度と効率性とElixirの機能を組み合わせることで、RustのExtractousライブラリと統合のためのRustlerを使用して、PDFアップロード用のLiveView Elixirアプリケーションを作成することができます。」",
+      "「このアプローチは、両言語の強みを強調し、PDF解析においてコスト効率が高く効率的なソリューションを提供します。完全な実装はGitHubで利用可能です。」"
+    ],
+    "commentSummary": [
+      "「ElixirでPDFを解析する際にRustを使用することは、Rustの信頼性を活用してBEAM(Bogdan/BjörnのErlang抽象マシン)仮想マシンでのクラッシュを回避する安定したソリューションを提供します。」",
+      "「主な課題は、単純なテキストの抽出を超えて、PDFから表のような複雑なデータを抽出することです。」",
+      "「RustのUnstructuredやMarkerのようなツールは、モデル推論速度の向上やビジョン機能の組み込みを目指して探求されており、ローカル開発のためのドッカー化されたAPIへの関心が高まっています。」"
+    ],
+    "points": 168,
+    "commentCount": 14,
+    "retryCount": 0,
+    "time": 1738184728
+  }
+]

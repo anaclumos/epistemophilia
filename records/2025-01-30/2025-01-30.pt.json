@@ -1,0 +1,288 @@
+[
+  {
+    "id": 42876840,
+    "title": "JavaScript Temporal está chegando",
+    "originLink": "https://developer.mozilla.org/en-US/blog/javascript-temporal-is-coming/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42876840",
+    "commentBody": "",
+    "originSummary": [
+      "JavaScript Temporal é um novo recurso em versões experimentais de navegadores, destinado a melhorar o manuseio de datas e horários para desenvolvedores web, abordando as limitações do antigo objeto Date.",
+      "Temporal fornece gerenciamento preciso de datas, horários, durações e calendários, com mais de 200 métodos utilitários, suportando vários calendários e fusos horários.",
+      "Embora o suporte completo entre navegadores ainda esteja em andamento, o Firefox lidera com a implementação mais avançada, e os desenvolvedores podem experimentar o Temporal usando o @js-temporal/polyfill."
+    ],
+    "commentSummary": [
+      "JavaScript Temporal é uma nova API projetada para superar as limitações da antiga API Date(), inspirando-se em bibliotecas de tempo avançadas como chrono em Rust e Joda Time em Java.",
+      "Ele introduz uma estrutura mais complexa, mas necessária, ao separar o tempo em tempo ingênuo, instante e tempo zonado, abordando efetivamente questões como bugs de Horário de Verão (DST) e discrepâncias de serialização.",
+      "Espera-se que o Temporal substitua bibliotecas populares como Moment.js, Luxon e date-fns ao fornecer uma solução padronizada e integrada para gerenciamento de data e hora em JavaScript, utilizando o Banco de Dados de Fuso Horário da IANA."
+    ],
+    "points": 724,
+    "commentCount": 241,
+    "retryCount": 0,
+    "time": 1738236511
+  },
+  {
+    "id": 42871371,
+    "title": "Banco de dados DeepSeek exposto vazando informações sensíveis, incluindo histórico de bate-papo",
+    "originLink": "https://www.wiz.io/blog/wiz-research-uncovers-exposed-deepseek-database-leak",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42871371",
+    "commentBody": "",
+    "originSummary": [
+      "Wiz Research identificou uma vulnerabilidade de segurança em um banco de dados ClickHouse publicamente acessível da DeepSeek, uma startup chinesa de IA, que expôs mais de um milhão de linhas de dados sensíveis, incluindo histórico de conversas e chaves secretas. O banco de dados estava aberto e sem autenticação, apresentando riscos significativos de segurança, mas foi prontamente protegido após a divulgação responsável da Wiz Research. Este incidente ressalta os desafios de segurança na rápida adoção de tecnologias de IA, destacando a necessidade crítica de medidas de segurança robustas para proteger dados sensíveis à medida que a IA se torna cada vez mais integral às operações comerciais."
+    ],
+    "commentSummary": [
+      "Um vazamento no banco de dados DeepSeek revelou informações sensíveis, como histórico de bate-papo, mas foi divulgado de forma responsável e corrigido prontamente.",
+      "A discussão destaca o uso generalizado do inglês na codificação globalmente, atribuído ao seu domínio em linguagens de programação e ferramentas.",
+      "O vazamento também gerou conversas sobre o impacto do DeepSeek nas ações da NVIDIA e preocupações geopolíticas mais amplas, especialmente no que diz respeito à influência tecnológica da China."
+    ],
+    "points": 642,
+    "commentCount": 442,
+    "retryCount": 0,
+    "time": 1738185936
+  },
+  {
+    "id": 42874301,
+    "title": "Jato comercial colide com helicóptero Black Hawk perto do aeroporto Reagan",
+    "originLink": "https://www.mediaite.com/news/breaking-commercial-jet-collides-with-police-chopper-near-reagan-airport/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42874301",
+    "commentBody": "",
+    "originSummary": [
+      "A colisão no ar ocorreu entre um jato de passageiros e um helicóptero Black Hawk do Exército dos EUA perto do Aeroporto Reagan, na Virgínia, causando interrupções nos voos.",
+      "O jato de passageiros, um Bombardier CRJ700 da PSA Airlines, tinha 60 passageiros e quatro membros da tripulação, enquanto o helicóptero transportava três soldados.",
+      "Até agora, 18 corpos foram recuperados, e uma operação significativa de busca e resgate está em andamento no rio Potomac."
+    ],
+    "commentSummary": [
+      "Avião comercial e helicóptero Black Hawk colidem perto do Aeroporto Reagan, levantando preocupações significativas sobre a segurança do tráfego aéreo.",
+      "Apesar das instruções para o helicóptero manter separação visual, a colisão ocorreu, provocando discussões sobre os procedimentos de controle de tráfego aéreo.",
+      "O incidente intensificou os apelos por mudanças nas políticas para aumentar a segurança e prevenir futuros acidentes no espaço aéreo dos EUA."
+    ],
+    "points": 563,
+    "commentCount": 510,
+    "retryCount": 0,
+    "time": 1738205805
+  },
+  {
+    "id": 42877860,
+    "title": "Mistral Small 3",
+    "originLink": "https://mistral.ai/news/mistral-small-3/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42877860",
+    "commentBody": "",
+    "originSummary": [
+      "Mistral AI lançou o Mistral Small 3, um modelo de 24 bilhões de parâmetros otimizado para baixa latência, sob a licença Apache 2.0, oferecendo uma alternativa de código aberto a modelos proprietários maiores.",
+      "O modelo se destaca em tarefas de IA generativa, alcançando mais de 81% de precisão no MMLU com latência de 150 tokens/s, e é adequado para implantação local em dispositivos como um RTX 4090 ou um Macbook com 32GB de RAM.",
+      "Mistral Small 3 está disponível em plataformas como Hugging Face, Ollama e Kaggle, e é projetado para assistência conversacional de resposta rápida e ajuste fino para expertise específica de domínio."
+    ],
+    "commentSummary": [
+      "Mistral Small 3 é um novo modelo de IA otimizado para desempenho eficiente em laptops, rivalizando com modelos como o Llama 3.3 70B, e pode ser executado localmente em dispositivos como o M2 MacBook Pro.",
+      "O modelo é de código aberto sob a licença Apache 2.0, com preços competitivos de API, tornando-o acessível para várias aplicações, incluindo finanças e saúde.",
+      "Discussões destacam seu forte desempenho em saída estruturada e aplicações locais, bem como a importância de pesos de código aberto e aprendizado a partir de projetos de código aberto."
+    ],
+    "points": 411,
+    "commentCount": 136,
+    "retryCount": 0,
+    "time": 1738246617
+  },
+  {
+    "id": 42877709,
+    "title": "Antiqua et Nova: Nota sobre a relação entre a IA e a inteligência humana",
+    "originLink": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42877709",
+    "commentBody": "",
+    "originSummary": [
+      "O documento examina a inteligência artificial e a inteligência humana de uma perspectiva cristã, concentrando-se nos desafios éticos e antropológicos que a IA apresenta. Ele destaca a crença da Igreja na inteligência como um dom divino, essencial para a dignidade humana, e a necessidade de um uso responsável da IA para beneficiar a sociedade. O texto apela por diretrizes éticas para garantir que a IA respeite a dignidade humana, abordando preocupações como privacidade, desinformação e seus efeitos no trabalho e nos relacionamentos."
+    ],
+    "commentSummary": [
+      "O documento do Vaticano 'Antiqua et Nova' examina a interação entre a inteligência artificial (IA) e a inteligência humana, enfatizando o uso responsável da inteligência humana como um dom divino.",
+      "Embora reconheça os benefícios da IA, o documento alerta para os desafios éticos, como o potencial da IA de imitar a criatividade humana e tomar decisões autônomas, enfatizando a necessidade de que o desenvolvimento da IA respeite a dignidade humana e sirva ao bem comum.",
+      "A Igreja adverte contra a IA se tornar um substituto para Deus, instando a um discernimento cuidadoso e uso ético para evitar a divinização da tecnologia e manter o foco nos valores humanos."
+    ],
+    "points": 290,
+    "commentCount": 254,
+    "retryCount": 0,
+    "time": 1738245687
+  },
+  {
+    "id": 42872276,
+    "title": "Conselhos para um amigo que quer começar um blog",
+    "originLink": "https://www.henrikkarlsson.xyz/p/start-a-blog",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42872276",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Aspira-se que blogueiros em potencial possuam seu próprio conteúdo em vez de depender de plataformas como Medium ou Substack, garantindo controle e independência.",
+      "Escrever de forma consistente e selecionar um nicho específico são recomendados para alcançar melhores resultados e atrair um público dedicado.",
+      "O método POSSE (Publicar no Seu Próprio Site, Sindicar em Outros Lugares) é sugerido para promover o trabalho, ao mesmo tempo que enfatiza a importância de escrever para satisfação pessoal em vez de engajamento imediato."
+    ],
+    "points": 290,
+    "commentCount": 144,
+    "retryCount": 0,
+    "time": 1738190714
+  },
+  {
+    "id": 42873697,
+    "title": "Usuários mais jovens de cannabis têm função cerebral reduzida, revela o maior estudo até agora",
+    "originLink": "https://newatlas.com/brain/young-adult-cannabis-brain-function/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42873697",
+    "commentBody": "",
+    "originSummary": [
+      "Um estudo da Universidade do Colorado Anschutz Medical Campus indica que o uso de cannabis pode prejudicar a função cerebral em jovens adultos, afetando particularmente a memória de trabalho. A pesquisa, envolvendo 1.003 participantes e exames de ressonância magnética, descobriu que usuários pesados e recentes de cannabis exibiram atividade cerebral reduzida durante tarefas de memória, impactando áreas relacionadas à emoção, cognição e comportamento social. Publicado no JAMA Network Open, o estudo sugere que abster-se de cannabis antes de tarefas cognitivas pode melhorar o desempenho, mas usuários pesados podem enfrentar sintomas de abstinência, destacando a necessidade de mais pesquisas sobre os efeitos cerebrais a longo prazo da cannabis."
+    ],
+    "commentSummary": [
+      "A significant study suggests that younger cannabis users might experience diminished brain function, especially in working memory.",
+      "O estudo não pode estabelecer causalidade de forma conclusiva, pois reconhece potenciais correlações com fatores como automedicação para ansiedade ou TDAH.",
+      "O debate em andamento questiona se a cannabis causa diretamente a redução da função cognitiva ou se está associada a outras escolhas de estilo de vida."
+    ],
+    "points": 271,
+    "commentCount": 239,
+    "retryCount": 0,
+    "time": 1738200234
+  },
+  {
+    "id": 42871743,
+    "title": "De C++ a Clojure: Linguagem Jank promete o melhor de ambos",
+    "originLink": "https://thenewstack.io/from-c-to-clojure-new-language-promises-best-of-both/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42871743",
+    "commentBody": "",
+    "originSummary": [
+      "Jeaye Wilkerson, um ex-engenheiro da Electronic Arts (EA), está criando \"jank\", uma nova linguagem de programação que combina os recursos interativos do Clojure com a compilação nativa, aproveitando o LLVM (Low-Level Virtual Machine).",
+      "Jank incorpora aspectos de C++, Clojure e Rust, visando melhorar o desempenho e a usabilidade, e é destinado a aplicações em jogos, desenvolvimento de interfaces gráficas de usuário (GUI) e ciência de dados.",
+      "O idioma atraiu o interesse da comunidade, com um roteiro de desenvolvimento que inclui melhorias na geração de relatórios de erros, interoperabilidade com C++ e distribuição no Linux, com aplicações potenciais em motores de jogos e serviços web."
+    ],
+    "commentSummary": [
+      "Jank é uma nova linguagem de programação projetada para unir as forças do C++ e Clojure, enfatizando a interoperabilidade perfeita com C++ e o desenvolvimento interativo. Ela utiliza compilação Just-In-Time (JIT) com LLVM (Low-Level Virtual Machine) para produzir binários nativos, melhorando o desempenho e a integração com C++. A linguagem ainda está em desenvolvimento, com planos futuros para suportar múltiplas plataformas e melhorar o gerenciamento de memória, despertando interesse por seu potencial no desenvolvimento de jogos e aplicações GUI nativas."
+    ],
+    "points": 229,
+    "commentCount": 94,
+    "retryCount": 0,
+    "time": 1738187771
+  },
+  {
+    "id": 42870990,
+    "title": "Fazendo o vídeo que fez Gorillaz",
+    "originLink": "https://animationobsessive.substack.com/p/making-the-video-that-made-gorillaz",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42870990",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "Gorillaz, uma banda virtual, ganhou popularidade através de sua combinação inovadora de música e animação, notavelmente com o vídeo \"Clint Eastwood\". Os fãs lembram com carinho dos projetos criativos da banda, como o site interativo Flash Kong Studios e a arte distinta de Jamie Hewlett. A banda, liderada por Damon Albarn, continua a ser influente na indústria musical, mantendo um apelo atemporal apesar de evoluir ao longo dos anos."
+    ],
+    "points": 206,
+    "commentCount": 47,
+    "retryCount": 0,
+    "time": 1738183853
+  },
+  {
+    "id": 42874885,
+    "title": "PCBs, derramamentos de cobre, planos de terra e você",
+    "originLink": "https://lcamtuf.substack.com/p/pcbs-ground-planes-and-you",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42874885",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "O artigo explora a evolução do design de Placas de Circuito Impresso (PCB), com foco particular em derramamentos de cobre e planos de terra, que se tornaram mais eficientes com as técnicas modernas de fabricação.",
+      "Copper pours são agora usados para aumentar a velocidade de produção, consistência e reduzir a corrosão lateral, enquanto planos de terra são essenciais para Compatibilidade Eletromagnética (EMC), desempenho elétrico e Design para Fabricabilidade (DFM).",
+      "O artigo destaca a importância da escrita técnica precisa e critica a mistura de conceitos nas discussões sobre design de PCB."
+    ],
+    "points": 193,
+    "commentCount": 43,
+    "retryCount": 0,
+    "time": 1738211605
+  },
+  {
+    "id": 42870171,
+    "title": "Airflow – Transmita arquivos de mídia diretamente do macOS para dispositivos AirPlay",
+    "originLink": "https://airflow.app/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42870171",
+    "commentBody": "",
+    "originSummary": [
+      "Airflow é um aplicativo de streaming de vídeo compatível com Chromecast, Apple TV e TVs com AirPlay 2, apresentando streaming HEVC, áudio adaptativo e OCR (Reconhecimento Óptico de Caracteres) de legendas em tempo real.",
+      "Ele suporta 4K HDR (High Dynamic Range) e vários formatos de áudio, proporcionando reprodução de alta qualidade com uso mínimo de CPU.",
+      "Airflow está disponível para compra única por $19,99 e inclui um aplicativo de controle remoto gratuito para Android e iPhone, compatível com macOS 10.12+, Windows 10+ de 64 bits e Windows 10+ de 32 bits."
+    ],
+    "commentSummary": [
+      "Airflow é um aplicativo de streaming de mídia que permite aos usuários transmitir conteúdo do macOS para dispositivos AirPlay e Chromecast, conhecido por sua velocidade e confiabilidade.",
+      "Os usuários apreciam o Airflow por suas capacidades de navegação em vídeos, manuseio de arquivos grandes, suporte a legendas e compatibilidade com macOS e Windows.",
+      "Apesar de algumas preocupações sobre seu status de desenvolvimento e críticas à interface do usuário, atualizações recentes indicam desenvolvimento ativo, e muitos usuários consideram uma compra valiosa em comparação com alternativas como Beamer e AirParrot."
+    ],
+    "points": 188,
+    "commentCount": 70,
+    "retryCount": 0,
+    "time": 1738180071
+  },
+  {
+    "id": 42873312,
+    "title": "Mathesar – uma interface intuitiva semelhante a uma planilha para dados do Postgres",
+    "originLink": "https://github.com/mathesar-foundation/mathesar",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42873312",
+    "commentBody": "",
+    "originSummary": [
+      "Mathesar é um aplicativo web que oferece uma interface semelhante a uma planilha para bancos de dados PostgreSQL, permitindo que os usuários gerenciem dados sem a necessidade de programar.",
+      "É de código aberto, auto-hospedado e integra-se diretamente com o PostgreSQL, garantindo a segurança dos dados por meio de controle de acesso nativo.",
+      "Mathesar está atualmente em beta público, incentivando contribuições da comunidade, e é mantido pela organização sem fins lucrativos Mathesar Foundation."
+    ],
+    "commentSummary": [
+      "Mathesar fornece uma interface semelhante a uma planilha para Postgres, projetada para ser amigável para usuários não técnicos, permitindo a edição de dados, consultas e gerenciamento de relacionamentos diretamente dentro do Postgres.",
+      "É uma ferramenta baseada na web, de código aberto e auto-hospedada, distinta de outras como DBeaver ou Metabase, com foco na facilidade de uso e integração profunda com Postgres.",
+      "Atualmente, o Mathesar não possui personalização de interface de usuário e um editor SQL, mas planeja incorporar esses recursos; é licenciado sob GPLv3 e financiado por meio de doações, explorando opções de receita sustentável."
+    ],
+    "points": 182,
+    "commentCount": 42,
+    "retryCount": 0,
+    "time": 1738197113
+  },
+  {
+    "id": 42876998,
+    "title": "LibreOffice 400M Downloads, e Contando",
+    "originLink": "https://blog.documentfoundation.org/blog/2025/01/30/400-million-downloads-and-counting/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42876998",
+    "commentBody": "",
+    "originSummary": [
+      "LibreOffice alcançou um marco significativo, ultrapassando 400 milhões de downloads em 30 de janeiro de 2025, destacando sua popularidade e utilidade contínuas.",
+      "Após um crescimento inicial rápido de 2011 a 2014, o interesse no LibreOffice reviveu após um período de estagnação, à medida que os usuários passaram a valorizar as suítes de escritório para desktop juntamente com as soluções baseadas em nuvem.",
+      "Apesar de enfrentar ataques ao seu contador de downloads em 2019, o LibreOffice continuou a crescer, alcançando mais de 35 milhões de downloads anuais até 2024, demonstrando sua resiliência e relevância contínua."
+    ],
+    "commentSummary": [
+      "LibreOffice alcançou um marco significativo com 400 milhões de downloads, destacando seu uso generalizado apesar da concorrência de outras suítes de escritório como OnlyOffice.",
+      "Os usuários expressam preferências variadas, com alguns preferindo o OnlyOffice por sua compatibilidade com o Microsoft Office e interface moderna, enquanto outros valorizam o LibreOffice por sua natureza de código aberto e capacidade de lidar com arquivos grandes.",
+      "A discussão destaca a integração do LibreOffice nas distribuições Linux, sua utilidade em contextos pessoais e profissionais, e seu desenvolvimento contínuo, juntamente com os desafios na transição de soluções baseadas em nuvem para software local."
+    ],
+    "points": 178,
+    "commentCount": 70,
+    "retryCount": 0,
+    "time": 1738238354
+  },
+  {
+    "id": 42871143,
+    "title": "Analisando PDFs (e mais) em Elixir usando Rust",
+    "originLink": "https://www.chriis.dev/opinion/parsing-pdfs-in-elixir-using-rust",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42871143",
+    "commentBody": "",
+    "originSummary": [
+      "Analisar PDFs em Elixir é desafiador devido à falta de soluções simples, mas integrar Rust através de NIFs (Funções Implementadas Nativamente) oferece uma alternativa robusta.",
+      "A combinação da velocidade e eficiência do Rust com as capacidades do Elixir permite a criação de uma aplicação LiveView Elixir para uploads de PDF, utilizando a biblioteca Extractous em Rust e Rustler para integração.",
+      "Esta abordagem enfatiza os pontos fortes de ambas as linguagens, proporcionando uma solução econômica e eficiente para análise de PDF, com a implementação completa disponível no GitHub."
+    ],
+    "commentSummary": [
+      "Analisar PDFs em Elixir usando Rust oferece uma solução estável ao utilizar a confiabilidade do Rust para evitar falhas na máquina virtual BEAM (Bogdan/Björn's Erlang Abstract Machine).",
+      "O principal desafio é extrair dados complexos, como tabelas, de PDFs, o que vai além da simples extração de texto.",
+      "Ferramentas como Unstructured e Marker em Rust estão sendo exploradas para melhorar a velocidade de inferência do modelo e incorporar capacidades de visão, com interesse em uma API dockerizada para desenvolvimento local."
+    ],
+    "points": 168,
+    "commentCount": 14,
+    "retryCount": 0,
+    "time": 1738184728
+  }
+]

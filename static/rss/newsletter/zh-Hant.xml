@@ -15,12 +15,81 @@
             <link>https://hn.cho.sh</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 29 Jan 2025 19:14:22 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Jan 2025 19:14:46 GMT</lastBuildDate>
         <atom:link href="https://hn.cho.sh/rss/newsletter/zh-Hant.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Wed, 29 Jan 2025 00:00:00 GMT</pubDate>
+        <pubDate>Thu, 30 Jan 2025 00:00:00 GMT</pubDate>
         <copyright><![CDATA[2023 Sunghyun Cho]]></copyright>
         <language><![CDATA[zh-Hant]]></language>
         <ttl>60</ttl>
+        <item>
+            <title><![CDATA[2025-01-30]]></title>
+            <description
+      ><![CDATA[<hr>
+<h2>slug: &#39;/2025/01/30&#39;</h2>
+<h1>2025-01-30</h1>
+<h2><a href="https://developer.mozilla.org/en-US/blog/javascript-temporal-is-coming/">JavaScript Temporal 即將到來</a></h2>
+<p>JavaScript Temporal 是一項在實驗性瀏覽器版本中推出的新功能，旨在改善網頁開發人員對日期和時間的處理，解決舊有 Date 物件的限制。 Temporal 提供精確的日期、時間、持續時間和日曆管理，擁有超過 200 種實用方法，支援各種日曆和時區。 雖然完整的跨瀏覽器支援仍在進行中，但 Firefox 以最先進的實作領先，開發者可以使用 @js-temporal/polyfill 來試驗 Temporal。 </p>
+<h3><a href="https://news.ycombinator.com/item?id=42876840">評論</a></h3>
+<p>JavaScript Temporal 是一個新的 API，旨在克服舊有 Date() API 的限制，並從 Rust 的 chrono 和 Java 的 Joda Time 等先進的時間庫中汲取靈感。 它通過將時間分為天真時間、瞬時時間和時區時間，引入了一個更複雜但必要的結構，有效地解決了如夏令時間(DST)錯誤和序列化差異等問題。 Temporal 預計將取代像是 Moment.js、Luxon 和 date-fns 等受歡迎的函式庫，透過提供一個標準化的內建解決方案來管理 JavaScript 中的日期和時間，並使用 IANA 時區資料庫。 </p>
+<h2><a href="https://www.wiz.io/blog/wiz-research-uncovers-exposed-deepseek-database-leak">曝光的 DeepSeek 資料庫洩露了敏感資訊，包括聊天記錄</a></h2>
+<p>「Wiz Research 發現中國 AI 新創公司 DeepSeek 的一個公開可訪問的 ClickHouse 資料庫存在安全漏洞，暴露了超過百萬行的敏感數據，包括聊天記錄和密鑰。該資料庫是開放且未經身份驗證的，帶來了重大的安全風險，但在 Wiz Research 負責任的披露後已迅速得到保護。此事件強調了在快速採用 AI 技術過程中的安全挑戰，突顯了在 AI 日益成為商業運營不可或缺的一部分時，採取強大安全措施以保護敏感數據的關鍵需求。」 </p>
+<h3><a href="https://news.ycombinator.com/item?id=42871371">評論</a></h3>
+<p>DeepSeek 資料庫洩漏揭露了敏感資訊，例如聊天記錄，但已負責任地披露並迅速修補。 討論強調了英語在全球程式設計中的廣泛使用，這歸因於其在程式語言和工具中的主導地位。 「這次洩漏事件也引發了關於DeepSeek對NVIDIA股票影響的討論，以及更廣泛的地緣政治擔憂，特別是關於中國科技影響力的問題。」 </p>
+<h2><a href="https://www.mediaite.com/news/breaking-commercial-jet-collides-with-police-chopper-near-reagan-airport/">商用噴射機在雷根機場附近與黑鷹直升機相撞</a></h2>
+<p>「一架客機與一架美國陸軍黑鷹直升機在維吉尼亞州雷根機場附近發生空中相撞，導致航班中斷。」 這架客機是PSA航空公司的龐巴迪CRJ700，載有60名乘客和四名機組人員，而直升機上則有三名士兵。 「目前已經找到了至少18具遺體，波托馬克河正在進行大規模的搜救行動。」 </p>
+<h3><a href="https://news.ycombinator.com/item?id=42874301">評論</a></h3>
+<p>一架商用噴射機與一架黑鷹直升機在雷根機場附近相撞，這引發了對空中交通安全的重大關注。 儘管直升機被指示保持目視間隔，碰撞事件仍然發生，這引發了對空中交通管制程序的討論。 「該事件加強了對政策變革的呼籲，以提升安全性並防止未來在美國空域發生事故。」 </p>
+<h2><a href="https://mistral.ai/news/mistral-small-3/">Mistral Small 3</a></h2>
+<p>Mistral AI 已經發布了 Mistral Small 3，這是一個擁有 240 億參數的模型，經過優化以降低延遲，並在 Apache 2.0 授權下提供，作為大型專有模型的開源替代方案。 該模型在生成式 AI 任務中表現出色，在 MMLU 上達到超過 81% 的準確率，延遲為 150 個 token/s，適合在如 RTX 4090 或擁有 32GB RAM 的 Macbook 等設備上進行本地部署。 Mistral Small 3 可在 Hugging Face、Ollama 和 Kaggle 等平台上使用，專為快速回應的對話協助和針對特定領域專業知識的微調而設計。 </p>
+<h3><a href="https://news.ycombinator.com/item?id=42877860">評論</a></h3>
+<p>Mistral Small 3 是一款新的 AI 模型，專為在筆記型電腦上高效運行而優化，可與 Llama 3.3 70B 等模型競爭，並能在如 M2 MacBook Pro 等設備上本地運行。 該模型在 Apache 2.0 授權下開源，並提供具競爭力的 API 價格，使其可用於各種應用，包括金融和醫療保健。 討論強調其在結構化輸出和本地應用中的強大性能，以及開源權重和從開源專案中學習的重要性。 </p>
+<h2><a href="https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html">Antiqua et Nova：關於人工智慧與人類智慧之間關係的註記</a></h2>
+<p>「該文件從基督教的觀點探討人工智慧與人類智慧，著重於人工智慧帶來的倫理和人類學挑戰。文件強調教會認為智慧是上帝的恩賜，對於人類尊嚴至關重要，並且需要負責任地使用人工智慧以造福社會。文本呼籲制定倫理指導方針，以確保人工智慧尊重人類尊嚴，並解決隱私、錯誤資訊及其對勞動和人際關係的影響等問題。」 </p>
+<h3><a href="https://news.ycombinator.com/item?id=42877709">評論</a></h3>
+<p>梵蒂岡的文件《Antiqua et Nova》探討了人工智慧(AI)與人類智慧之間的互動，強調將人類智慧作為神聖禮物的負責任使用。 在承認人工智慧的益處的同時，文件警告其倫理挑戰，例如人工智慧可能模仿人類創造力並做出自主決策，強調人工智慧的發展需要尊重人類尊嚴並服務於公共利益。 教會警告不要讓人工智慧成為上帝的替代品，並敦促謹慎辨別和倫理使用，以防止神化技術並保持對人類價值的關注。 </p>
+<h2><a href="https://www.henrikkarlsson.xyz/p/start-a-blog">給想要開始寫部落格的朋友的建議</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42872276">評論</a></h3>
+<p>建議有志成為部落客的人擁有自己的內容，而不是依賴像 Medium 或 Substack 這樣的平台，以確保控制權和獨立性。 建議保持一致的寫作風格並選擇特定的利基市場，以獲得更好的結果並吸引忠實的受眾。 POSSE 策略(在自己的網站上發布，然後在其他地方分發)被建議用於推廣作品，同時強調寫作應以個人滿足為重，而非立即的互動參與。 </p>
+<h2><a href="https://newatlas.com/brain/young-adult-cannabis-brain-function/">研究發現，年輕的大麻使用者腦功能下降，這是迄今為止最大規模的研究。</a></h2>
+<p>科羅拉多大學安舒茨醫學校區的一項研究顯示，大麻使用可能會損害年輕成人的大腦功能，特別是影響工作記憶。該研究涉及1,003名參與者和MRI掃描，發現大量和近期使用大麻者在記憶任務中表現出較低的大腦活動，影響到與情感、認知和社會行為相關的區域。這項研究發表在《JAMA Network Open》上，建議在進行認知任務前避免使用大麻可能會提高表現，但大量使用者可能會面臨戒斷症狀，這突顯了進一步研究大麻對大腦長期影響的必要性。 </p>
+<h3><a href="https://news.ycombinator.com/item?id=42873697">評論</a></h3>
+<p>「一項重要研究顯示，年輕的大麻使用者可能會經歷腦功能減退，特別是在工作記憶方面。」 該研究無法確定地建立因果關係，因為它承認可能與焦慮或注意力不足過動症(ADHD)自我藥療等因素存在相關性。 持續的辯論質疑大麻是否直接導致認知功能下降，或是與其他生活方式選擇有關。 </p>
+<h2><a href="https://thenewstack.io/from-c-to-clojure-new-language-promises-best-of-both/">從 C++ 到 Clojure：Jank 語言承諾結合兩者的優點</a></h2>
+<p>「Jeaye Wilkerson，一位前電子藝界(EA)的工程師，正在創建一種名為 &#39;jank&#39; 的新程式語言，該語言結合了 Clojure 的互動特性與原生編譯，並利用 LLVM(低階虛擬機器)。」 Jank 結合了 C++、Clojure 和 Rust 的特點，旨在提升性能和可用性，並適用於遊戲、圖形使用者介面(GUI)開發和資料科學的應用。 該語言引起了社群的興趣，其開發路線圖包括改進錯誤報告、與 C++ 的互操作性以及在 Linux 上的發行，並在遊戲引擎和網路服務中具有潛在應用。 </p>
+<h3><a href="https://news.ycombinator.com/item?id=42871743">評論</a></h3>
+<p>「Jank 是一種新的程式語言，旨在結合 C++ 和 Clojure 的優勢，強調與 C++ 的無縫互操作性和互動式開發。它使用 LLVM(低階虛擬機器)的即時編譯(JIT)來生成原生二進位檔，提升效能並加強與 C++ 的整合。該語言仍在開發中，未來計畫支援多個平台並改善記憶體管理，因其在遊戲開發和原生 GUI 應用程式中的潛力而引起關注。」 </p>
+<h2><a href="https://animationobsessive.substack.com/p/making-the-video-that-made-gorillaz">製作成就 Gorillaz 的影片</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42870990">評論</a></h3>
+<p>Gorillaz 是一個虛擬樂團，透過其音樂與動畫的創新結合而獲得人氣，特別是以《Clint Eastwood》音樂影片而聞名。粉絲們對樂團的創意專案充滿回憶，例如互動式的 Flash Kong Studios 網站以及 Jamie Hewlett 獨特的藝術作品。由 Damon Albarn 領導的樂團在音樂產業中持續具有影響力，儘管多年來不斷演變，仍保持著永恆的吸引力。 </p>
+<h2><a href="https://lcamtuf.substack.com/p/pcbs-ground-planes-and-you">印刷電路板(PCB)、銅箔覆蓋、接地層與你</a></h2>
+<h3><a href="https://news.ycombinator.com/item?id=42874885">評論</a></h3>
+<p>這篇文章探討了印刷電路板(PCB)設計的演變，特別著重於銅箔覆蓋和接地層，隨著現代製造技術的進步，這些設計變得更加高效。 「現在使用銅填充來提升生產速度和一致性，並減少側蝕，而接地平面對於電磁相容性(EMC)、電氣性能和製造可行性設計(DFM)則是必不可少的。」 這篇文章強調了精確技術寫作的重要性，並批評了在 PCB 設計討論中混合概念的做法。 </p>
+<h2><a href="https://airflow.app/">「Airflow – 直接從 macOS 串流媒體檔案到 AirPlay 裝置」</a></h2>
+<p>Airflow 是一款視頻串流應用程式，兼容 Chromecast、Apple TV 和 AirPlay 2 電視，具備 HEVC 串流、自適應音訊和即時字幕光學字符識別(OCR)功能。 「它支援 4K HDR(高動態範圍)和各種音訊格式，提供高品質播放且 CPU 使用率極低。」 Airflow 可一次性購買，價格為 19.99 美元，並包含適用於 Android 和 iPhone 的免費遙控應用程式，兼容 macOS 10.12+、64 位元 Windows 10+ 和 32 位元 Windows 10+。 </p>
+<h3><a href="https://news.ycombinator.com/item?id=42870171">評論</a></h3>
+<p>Airflow 是一款媒體串流應用程式，允許使用者將內容從 macOS 串流到 AirPlay 和 Chromecast 裝置，以其速度和可靠性著稱。 使用者讚賞 Airflow 的影片快轉功能、大檔案處理能力、字幕支援，以及與 macOS 和 Windows 的相容性。 儘管對其開發狀態和使用者介面有一些批評，最近的更新顯示出積極的開發，許多使用者認為與 Beamer 和 AirParrot 等替代方案相比，它是一個有價值的購買選擇。 </p>
+<h2><a href="https://github.com/mathesar-foundation/mathesar">Mathesar – 一個直觀的類似試算表的介面，用於操作 Postgres 資料</a></h2>
+<p>Mathesar 是一個網頁應用程式，提供類似試算表的介面給 PostgreSQL 資料庫，讓使用者能夠在不需要編寫程式碼的情況下管理資料。 「它是開源的、自我託管的，並直接與 PostgreSQL 整合，透過原生存取控制確保資料安全。」 「Mathesar 目前處於公開測試階段，鼓勵社群貢獻，由非營利組織 Mathesar 基金會維護。」 </p>
+<h3><a href="https://news.ycombinator.com/item?id=42873312">評論</a></h3>
+<p>Mathesar 提供了一個類似試算表的介面給 Postgres，專為非技術用戶設計，讓使用者能夠直接在 Postgres 中進行資料編輯、查詢和關係管理。 這是一個基於網頁的開源自託管工具，與 DBeaver 或 Metabase 等其他工具不同，專注於易用性和與 Postgres 的深度整合。 目前，Mathesar 缺乏 UI 自訂功能和 SQL 編輯器，但計劃加入這些功能；它採用 GPLv3 授權，並透過捐款資助，同時探索可持續的收入選項。 </p>
+<h2><a href="https://blog.documentfoundation.org/blog/2025/01/30/400-million-downloads-and-counting/">LibreOffice 下載量達 4 億次，且持續增加中</a></h2>
+<p>截至 2025 年 1 月 30 日，LibreOffice 已達成一個重要的里程碑，下載次數超過 4 億次，這突顯了其持續的受歡迎程度和實用性。 「在經歷了2011年至2014年的初期快速增長後，隨著使用者認識到桌面辦公套件與雲端解決方案並存的價值，對 LibreOffice 的興趣在停滯後重新復甦。」 儘管在 2019 年面臨下載計數器的攻擊，LibreOffice 仍持續成長，到 2024 年每年下載量超過 3,500 萬次，展現其韌性和持續的相關性。 </p>
+<h3><a href="https://news.ycombinator.com/item?id=42876998">評論</a></h3>
+<p>「LibreOffice 已達成一個重要的里程碑，下載次數達到 4 億次，這顯示出其廣泛的使用，即便面臨來自其他辦公套件如 OnlyOffice 的競爭。」 使用者表達了不同的偏好，有些人喜歡 OnlyOffice，因為它與 Microsoft Office 的相容性和現代化介面，而另一些人則重視 LibreOffice 的開源特性及其處理大型檔案的能力。 討論強調了 LibreOffice 在 Linux 發行版中的整合、其在個人和專業環境中的實用性及持續開發，並提到從雲端解決方案轉換到本地軟體的挑戰。 </p>
+<h2><a href="https://www.chriis.dev/opinion/parsing-pdfs-in-elixir-using-rust">「使用 Rust 在 Elixir 中解析 PDF(及更多)」</a></h2>
+<p>在 Elixir 中解析 PDF 是一項挑戰，因為缺乏簡單的解決方案，但透過 NIFs(本地實作函數)整合 Rust 提供了一個穩健的替代方案。 「結合 Rust 的速度和效率與 Elixir 的功能，可以創建一個用於 PDF 上傳的 LiveView Elixir 應用程式，使用 Rust 中的 Extractous 函式庫和 Rustler 進行整合。」 此方法強調了兩種語言的優勢，提供了一個具成本效益且高效的 PDF 解析解決方案，完整的實作可在 GitHub 上獲得。 </p>
+<h3><a href="https://news.ycombinator.com/item?id=42871143">評論</a></h3>
+<p>在 Elixir 中使用 Rust 解析 PDF 提供了一個穩定的解決方案，藉由利用 Rust 的可靠性來避免在 BEAM(Bogdan/Björn 的 Erlang 抽象機器)虛擬機器中發生崩潰。 主要的挑戰在於從 PDF 中提取複雜的數據，例如表格，這超出了簡單的文字提取範疇。 正在探索使用 Rust 中的工具如 Unstructured 和 Marker 來提高模型推理速度並整合視覺功能，同時對於本地開發的容器化 API 也表現出興趣。 </p>
+<head>
+  <meta property="og:title" content="JavaScript Temporal 即將到來" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://og.cho.sh/api/og/?title=JavaScript%20Temporal%20%E5%8D%B3%E5%B0%87%E5%88%B0%E4%BE%86&subheading=2025%E5%B9%B41%E6%9C%8830%E6%97%A5%20%E6%98%9F%E6%9C%9F%E5%9B%9B%3A%20Hacker%20News%20%E6%91%98%E8%A6%81" />
+</head>
+]]></description>
+            <link>https://hn.cho.sh/zh/Hant/2025/01/30</link>
+            <guid isPermaLink="false">2025-01-30T00:00:00.000Z</guid>
+            <pubDate>Thu, 30 Jan 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2025-01-29]]></title>
             <description
@@ -526,58 +595,6 @@
             <link>https://hn.cho.sh/zh/Hant/2025/01/21</link>
             <guid isPermaLink="false">2025-01-21T00:00:00.000Z</guid>
             <pubDate>Tue, 21 Jan 2025 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2025-01-20]]></title>
-            <description
-      ><![CDATA[<hr>
-<h2>slug: &#39;/2025/01/20&#39;</h2>
-<h1>2025-01-20</h1>
-<h2><a href="https://www.vintagecomputing.com/index.php/archives/3292/the-pc-is-dead-its-time-to-make-computing-personal-again">是時候讓計算機再次變得個人化了</a></h2>
-<p>文章強調，由於監控資本主義和數位權利管理(DRM)，個人計算自由正在下降，這些因素將控制權從用戶轉移到了企業手中。 它對比了過去個人電腦時代提供更多使用者自由的情況，與當今由侵蝕隱私的商業模式主導的科技環境。 作者主張透過支持開源專案、推動隱私立法以及改革數位版權管理法來恢復個人運算價值，以重新獲得數位自主權。 </p>
-<h3><a href="https://news.ycombinator.com/item?id=42763095">評論</a></h3>
-<p>這篇文章強調了回歸個人運算的必要性，表達了對科技產業中企業影響的不滿。文章指出社群運算的挑戰，網路效應將使用者鎖定在特定的軟體生態系統中，如 iOS 和 Android。文中討論了 Linux 和開源軟體等替代方案，著重於使用者控制以及在企業主導的環境中實現這一點的困難。 </p>
-<h2><a href="https://github.com/deepseek-ai/DeepSeek-R1">DeepSeek-R1</a></h2>
-<p>DeepSeek-R1 和 DeepSeek-R1-Zero 是第一代推理模型，其中 DeepSeek-R1 解決了在 DeepSeek-R1-Zero 中出現的重複和語言混合等問題。 這些模型，包括六個精簡版本，都是開源的，其中 DeepSeek-R1-Distill-Qwen-32B 在推理、程式碼和數學任務中達到了最先進的成果。 這些模型可以在 HuggingFace 上下載，使用者可以透過聊天網站或 OpenAI 相容的 API 與它們互動，並提供本地部署的說明。 </p>
-<h3><a href="https://news.ycombinator.com/item?id=42768072">評論</a></h3>
-<p>DeepSeek-R1 是一個先進的推理模型，透過在強化學習之前使用冷啟動數據來改善重複和語言混合等問題。在實驗中，它的表現優於 QwQ 模型，提供了更好的用戶體驗和更多樣化的回答策略，並以 MIT 許可證開源以供廣泛評估。該模型引入了一個教導現有模型推理和與人類偏好對齊的流程，並且精調的 Llama 和 Qwen 模型也已開源，可能與 OpenAI 的產品競爭，儘管數據使用和審查問題仍然存在。 </p>
-<h2><a href="https://josef.cn/blog/uk-talent">英國的硬體人才正在被浪費</a></h2>
-<p>英國正面臨人才流失的情況，因為來自知名大學的頂尖工程畢業生面臨的薪資水平低於矽谷，這促使許多人轉向諮詢或金融等高薪領域。這種人才錯置阻礙了創新和經濟增長，地理限制、硬體創業資金不足以及傳統工程公司停滯不前等問題加劇了這一問題。英國有失去其最佳人才至海外市場的風險，錯失創建科技巨頭的機會，必須立即採取行動，利用其研究機構和工程人才來推動硬體革命。 </p>
-<h3><a href="https://news.ycombinator.com/item?id=42763386">評論</a></h3>
-<p>英國的硬體人才未被充分利用，因為許多工程師因硬體創業的高門檻和高成本而轉向軟體或金融領域。這一挑戰並非英國獨有；在全球範圍內，硬體創業公司面臨著緩慢的迭代周期和高昂的成本，使其相較於軟體對投資者的吸引力較低。英國的規劃法規和經濟政策進一步阻礙了硬體的發展，導致人才流向其他行業或國家，而科技產業往往忽視了硬體創新的潛力。 </p>
-<h2><a href="https://wiki.rossmanngroup.com/wiki/Reverse_Engineering_Bambu_Connect">「逆向工程 Bambu Connect」</a></h2>
-<p>本指南討論了如何從 Bambu Connect 應用程式中提取私鑰，這是一個已知存在安全漏洞的 Electron 應用程式。使用者被警告該指南可能不完整或過時，應自行承擔風險。此過程涉及使用 Ghidra 和 asarfix 等工具來定位和解密混淆的私鑰和憑證，並提供了一個 Python 腳本用於提取。 </p>
-<h3><a href="https://news.ycombinator.com/item?id=42764602">評論</a></h3>
-<p>Bambu Lab 因在其 3D 列印機上實施限制而受到批評，要求使用他們的軟體和數位版權管理(DRM)系統。 使用者擔心這些由 Bambu 以安全措施為理由的變更，可能會導致訂閱模式或額外限制，進而降低印表機的開放性和可修改性。 「作為回應，Bambu Lab 為進階用戶推出了「開發者模式」，提供更多的網路安全控制，但對於供應商鎖定和對第三方整合的影響的擔憂仍然存在。」 </p>
-<h2><a href="https://www.lesswrong.com/posts/cu2E8wgmbdZbqeWqb/meemi-s-shortform">FrontierMath 是由 OpenAI 資助的</a></h2>
-<p>這篇文章強調了 OpenAI 與 FrontierMath 之間合作缺乏透明度的問題，資金細節在延遲後才被披露，導致貢獻者感到困惑。 儘管有口頭協議表明情況並非如此，但仍有人對 OpenAI 可能訪問和使用數據集進行訓練表示擔憂，強調需要書面協議。 「討論強調了在合作中透明度和信任的重要性，特別是涉及 AI 能力的合作，並承諾在未來的專案中提高透明度。」 </p>
-<h3><a href="https://news.ycombinator.com/item?id=42763231">評論</a></h3>
-<p>由 OpenAI 資助的 FrontierMath 面臨其基準測試中潛在數據污染的審查，這引發了對其結果完整性的擔憂。批評者強調透明性以及訓練數據與測試數據適當分離的重要性，以防止基準測試被操縱。這種情況強調了在人工智慧領域中進行獨立且透明評估以維持可信度的必要性。 </p>
-<h2><a href="https://blog.gitbutler.com/why-is-git-autocorrect-too-fast-for-formula-one-drivers/">為什麼 Git 自動更正對一級方程式賽車手來說太快了？</a></h2>
-<p>Git 的自動更正功能會在預設的 0.1 秒延遲後執行輸入錯誤的指令，這通常對使用者來說太快而無法取消。該功能於 2008 年引入，使用修改過的 Levenshtein 距離演算法來猜測預期的指令，但預設情況下如果輸入錯誤則不執行任何指令。一個建議的補丁提議將設定值「1」解釋為「立即」以增強可用性，允許使用者配置延遲或提示確認。 </p>
-<h3><a href="https://news.ycombinator.com/item?id=42760620">評論</a></h3>
-<p>「Git 的自動更正功能預設延遲為 100 毫秒，這通常對於使用者來說太快，無法取消輸入錯誤的指令。該功能最初是用來解釋布林值，但現在接受以十分之一秒為單位的時間延遲，這導致使用者有些困惑。這種情況強調了需要清晰的配置設定，以及在不破壞現有功能的情況下更新軟體功能的困難。」 </p>
-<h2><a href="http://okayfail.com/2025/i-met-pg-once.html">我曾經見過 Paul Graham 一次</a></h2>
-<p>作者於 2015 年參加了 Y Combinator，在那裡他們遇見了 Paul Graham，並就他們的創業項目 Appcanary 獲得了建議，該公司後來被 GitHub 收購。 這位作者，現在是一位跨性別女性，對於保羅·格雷厄姆最近關於「覺醒文化」的文章表示擔憂，認為這反映了科技產業對包容性的拒絕。 作者擔心科技產業中日益增加的不寬容和潛在的歧視，但仍然堅持以尊重和善意的態度生活。 </p>
-<h3><a href="https://news.ycombinator.com/item?id=42767507">評論</a></h3>
-<p>討論的重點在於保羅·格雷厄姆的影響力以及科技產業內價值觀的轉變，強調對曾被視為願景領袖的科技領袖的幻滅感。 它探討了身份政治的複雜性、「覺醒」的影響，以及科技行業中弱勢群體面臨的挑戰。 該文本批評了社會正義努力中的表演性質，以及在個人身份與專業角色之間取得平衡的困難，反映了關於進步與特權的更廣泛文化辯論。 </p>
-<h2><a href="https://www.johnwalker.nl/posts/escape-the-walled-garden-with-rss">「透過 RSS 訂閱逃離圍牆花園和演算法黑箱」</a></h2>
-<p>「RSS(簡易資訊聚合)和 Atom 提供了去中心化的替代方案，相較於中心化的社交媒體，讓使用者能夠掌控自己的內容消費。像是 Miniflux、NetNewsWire 和 Newsboat 這類的訂閱器可以讓使用者訂閱多樣的內容來源，包括 YouTube 頻道、播客和部落格。像 PolitePol 這樣的工具可以為缺乏訂閱功能的網站創建訂閱源，促進使用者在媒體消費上的自主性。」 </p>
-<h3><a href="https://news.ycombinator.com/item?id=42761219">評論</a></h3>
-<p>RSS 提要提供了一種逃避演算法驅動內容的方法，讓使用者可以透過「行星」訂閱特定主題，這些行星會聚合相關的部落格。 雖然像 Feedly 和 Feedbin 這樣的 RSS 閱讀器有助於管理這些訂閱源，但有些使用者覺得它們過於複雜，因此選擇了像 Feedmail 這樣的替代方案，直接將內容傳送到收件匣。 儘管其吸引力有限，RSS 仍然在科技愛好者中頗受歡迎，因為它提供了可自訂和用戶控制的內容體驗，像是 Mastodon 和 Bluesky 等平台都支援 RSS 訂閱。 </p>
-<h2><a href="https://iamvishnu.com/posts/please-dont-force-dark-mode">請不要強制使用深色模式</a></h2>
-<p>「建議網站設計師不要強制用戶使用深色模式，因為這可能會導致眼睛疲勞，特別是在高對比度設置下，如白色文字在黑色背景上。網頁內容無障礙指引(WCAG)目前建議最低對比度比率，但未涉及最大對比度，這可能會導致不適；這一點可能會在即將推出的 WCAG 3.0 中得到解決。深色模式在特定情境下是有益的，例如在黑暗環境中使用 OLED 螢幕閱讀或在提供舒適對比設置的整合開發環境(IDEs)中進行編碼。」 </p>
-<h3><a href="https://news.ycombinator.com/item?id=42762054">評論</a></h3>
-<p>關於深色模式和淺色模式的持續辯論主要圍繞使用者的舒適度展開，有些人覺得深色模式讓眼睛疲勞，而另一些人則認為淺色模式過於刺眼。 普遍認同網站應提供深色模式和淺色模式選項，以尊重個別使用者的偏好。 這次討論強調了可自訂設定的重要性，以滿足不同使用者的需求和環境。 </p>
-<head>
-  <meta property="og:title" content="是時候讓計算機再次變得個人化了" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://og.cho.sh/api/og/?title=%E6%98%AF%E6%99%82%E5%80%99%E8%AE%93%E8%A8%88%E7%AE%97%E6%A9%9F%E5%86%8D%E6%AC%A1%E8%AE%8A%E5%BE%97%E5%80%8B%E4%BA%BA%E5%8C%96%E4%BA%86&subheading=2025%E5%B9%B41%E6%9C%8820%E6%97%A5%20%E6%98%9F%E6%9C%9F%E4%B8%80%3A%20Hacker%20News%20%E6%91%98%E8%A6%81" />
-</head>
-]]></description>
-            <link>https://hn.cho.sh/zh/Hant/2025/01/20</link>
-            <guid isPermaLink="false">2025-01-20T00:00:00.000Z</guid>
-            <pubDate>Mon, 20 Jan 2025 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

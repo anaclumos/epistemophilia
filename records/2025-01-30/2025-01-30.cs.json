@@ -1,0 +1,288 @@
+[
+  {
+    "id": 42876840,
+    "title": "„JavaScript Temporal přichází“",
+    "originLink": "https://developer.mozilla.org/en-US/blog/javascript-temporal-is-coming/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42876840",
+    "commentBody": "",
+    "originSummary": [
+      "„JavaScript Temporal je nová funkce v experimentálních verzích prohlížečů, která má za cíl zlepšit práci s daty a časem pro webové vývojáře a řešit omezení starého objektu Date.“",
+      "„Temporal poskytuje přesné řízení dat, časů, trvání a kalendářů s více než 200 užitečnými metodami, podporující různé kalendáře a časová pásma.“",
+      "„Zatímco plná podpora napříč prohlížeči je stále v procesu, Firefox vede s nejpokročilejší implementací a vývojáři mohou experimentovat s Temporal pomocí @js-temporal/polyfill.“"
+    ],
+    "commentSummary": [
+      "„JavaScript Temporal je nové API navržené k překonání omezení starého API Date(), čerpající inspiraci z pokročilých knihoven pro práci s časem, jako je chrono v Rustu a Joda Time v Javě.“",
+      "„Zavádí složitější, ale nezbytnou strukturu tím, že rozděluje čas na naivní čas, okamžik a čas s časovým pásmem, čímž efektivně řeší problémy jako chyby letního času (DST) a nesrovnalosti při serializaci.“",
+      "„Očekává se, že Temporal nahradí populární knihovny jako Moment.js, Luxon a date-fns tím, že poskytne standardizované, vestavěné řešení pro správu dat a času v JavaScriptu, využívající IANA Time Zone Database.“"
+    ],
+    "points": 724,
+    "commentCount": 241,
+    "retryCount": 0,
+    "time": 1738236511
+  },
+  {
+    "id": 42871371,
+    "title": "„Odhalená databáze DeepSeek uniká citlivé informace, včetně historie chatů“",
+    "originLink": "https://www.wiz.io/blog/wiz-research-uncovers-exposed-deepseek-database-leak",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42871371",
+    "commentBody": "",
+    "originSummary": [
+      "„Wiz Research identifikoval bezpečnostní zranitelnost ve veřejně přístupné databázi ClickHouse společnosti DeepSeek, čínského startupu zaměřeného na umělou inteligenci, která odhalila přes milion řádků citlivých dat, včetně historie chatu a tajných klíčů. Databáze byla otevřená a neautentizovaná, což představovalo významná bezpečnostní rizika, ale byla rychle zabezpečena po zodpovědném oznámení ze strany Wiz Research. Tento incident zdůrazňuje bezpečnostní výzvy při rychlém zavádění technologií umělé inteligence a poukazuje na kritickou potřebu robustních bezpečnostních opatření k ochraně citlivých dat, jelikož se umělá inteligence stává stále více nedílnou součástí obchodních operací.“"
+    ],
+    "commentSummary": [
+      "„Únik databáze DeepSeek odhalil citlivé informace, jako je historie chatu, ale byl zodpovědně oznámen a rychle opraven.“",
+      "„Diskuse zdůrazňuje rozšířené používání angličtiny v programování po celém světě, což je přičítáno její dominanci v programovacích jazycích a nástrojích.“",
+      "„Únik také vyvolal diskuse o dopadu DeepSeek na akcie společnosti NVIDIA a širší geopolitické obavy, zejména pokud jde o technologický vliv Číny.“"
+    ],
+    "points": 642,
+    "commentCount": 442,
+    "retryCount": 0,
+    "time": 1738185936
+  },
+  {
+    "id": 42874301,
+    "title": "„Komerční letadlo se srazilo s vrtulníkem Black Hawk poblíž letiště Reagan.“",
+    "originLink": "https://www.mediaite.com/news/breaking-commercial-jet-collides-with-police-chopper-near-reagan-airport/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42874301",
+    "commentBody": "",
+    "originSummary": [
+      "„Ke srážce ve vzduchu došlo mezi osobním letadlem a vrtulníkem U.S. Army Black Hawk poblíž letiště Reagan ve Virginii, což způsobilo narušení letového provozu.“",
+      "„Cestovní letadlo, Bombardier CRJ700 společnosti PSA Airlines, mělo na palubě 60 cestujících a čtyři členy posádky, zatímco vrtulník přepravoval tři vojáky.“",
+      "„Nejméně 18 těl bylo nalezeno a rozsáhlá pátrací a záchranná operace probíhá v řece Potomac.“"
+    ],
+    "commentSummary": [
+      "„Komerční letadlo a vrtulník Black Hawk se srazily poblíž letiště Reagan, což vyvolalo značné obavy o bezpečnost leteckého provozu.“",
+      "„Navzdory pokynům pro vrtulník, aby udržoval vizuální oddělení, došlo ke srážce, což vyvolalo diskuse o postupech řízení letového provozu.“",
+      "„Incident zesílil výzvy k politickým změnám za účelem zvýšení bezpečnosti a prevence budoucích nehod v americkém vzdušném prostoru.“"
+    ],
+    "points": 563,
+    "commentCount": 510,
+    "retryCount": 0,
+    "time": 1738205805
+  },
+  {
+    "id": 42877860,
+    "title": "„Mistral Small 3“",
+    "originLink": "https://mistral.ai/news/mistral-small-3/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42877860",
+    "commentBody": "",
+    "originSummary": [
+      "„Mistral AI vydala Mistral Small 3, model s 24 miliardami parametrů optimalizovaný pro nízkou latenci, pod licencí Apache 2.0, nabízející open-source alternativu k větším proprietárním modelům.“",
+      "„Model vyniká v úlohách generativní AI, dosahuje přes 81% přesnosti na MMLU s latencí 150 tokenů/s a je vhodný pro lokální nasazení na zařízeních jako RTX 4090 nebo Macbook s 32GB RAM.“",
+      "„Mistral Small 3 je k dispozici na platformách jako Hugging Face, Ollama a Kaggle a je navržen pro rychlou odezvu v konverzační asistenci a doladění pro odborné znalosti v konkrétních oblastech.“"
+    ],
+    "commentSummary": [
+      "„Mistral Small 3 je nový AI model optimalizovaný pro efektivní výkon na laptopech, konkuruje modelům jako Llama 3.3 70B a může být provozován lokálně na zařízeních, jako je M2 MacBook Pro.“",
+      "„Model je open-source pod licencí Apache 2.0, s konkurenčními cenami API, což ho činí dostupným pro různé aplikace, včetně financí a zdravotnictví.“",
+      "„Diskuse zdůrazňují jeho silný výkon ve strukturovaném výstupu a místních aplikacích, stejně jako význam open-source vah a učení se z open-source projektů.“"
+    ],
+    "points": 411,
+    "commentCount": 136,
+    "retryCount": 0,
+    "time": 1738246617
+  },
+  {
+    "id": 42877709,
+    "title": "„Antiqua et Nova: Poznámka o vztahu mezi umělou inteligencí a lidskou inteligencí“",
+    "originLink": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42877709",
+    "commentBody": "",
+    "originSummary": [
+      "„Dokument zkoumá umělou inteligenci a lidskou inteligenci z křesťanského pohledu, zaměřuje se na etické a antropologické výzvy, které AI přináší. Zdůrazňuje víru církve v inteligenci jako božský dar, který je zásadní pro lidskou důstojnost, a potřebu zodpovědného využívání AI k prospěchu společnosti. Text vyzývá k etickým směrnicím, které zajistí, že AI bude respektovat lidskou důstojnost, a řeší obavy jako soukromí, dezinformace a její dopady na práci a vztahy.“"
+    ],
+    "commentSummary": [
+      "„Vatikánský dokument „Antiqua et Nova“ zkoumá souhru mezi umělou inteligencí (AI) a lidskou inteligencí, přičemž zdůrazňuje odpovědné využívání lidské inteligence jako božského daru.“",
+      "„Přestože dokument uznává přínosy umělé inteligence, varuje před etickými výzvami, jako je schopnost AI napodobovat lidskou kreativitu a činit autonomní rozhodnutí, a zdůrazňuje potřebu, aby vývoj AI respektoval lidskou důstojnost a sloužil obecnému blahu.“",
+      "„Církev varuje před tím, aby se umělá inteligence nestala náhradou za Boha, a vyzývá k pečlivému rozlišování a etickému využívání, aby se zabránilo zbožštění technologie a udržela se pozornost na lidských hodnotách.“"
+    ],
+    "points": 290,
+    "commentCount": 254,
+    "retryCount": 0,
+    "time": 1738245687
+  },
+  {
+    "id": 42872276,
+    "title": "„Rada pro přítele, který chce začít blogovat“",
+    "originLink": "https://www.henrikkarlsson.xyz/p/start-a-blog",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42872276",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "„Začínající blogeři jsou doporučováni, aby vlastnili svůj obsah, místo aby se spoléhali na platformy jako Medium nebo Substack, čímž si zajistí kontrolu a nezávislost.“",
+      "„Doporučuje se konzistentní psaní a výběr specifického výklenku pro dosažení lepších výsledků a přilákání oddaného publika.“",
+      "„Strategie POSSE (Publikovat na vlastním webu, syndikovat jinde) je navrhována pro propagaci práce, přičemž zdůrazňuje důležitost psaní pro osobní uspokojení nad okamžitou angažovaností.“"
+    ],
+    "points": 290,
+    "commentCount": 144,
+    "retryCount": 0,
+    "time": 1738190714
+  },
+  {
+    "id": 42873697,
+    "title": "„Mladší uživatelé konopí mají sníženou funkci mozku, zjistila dosud největší studie“",
+    "originLink": "https://newatlas.com/brain/young-adult-cannabis-brain-function/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42873697",
+    "commentBody": "",
+    "originSummary": [
+      "„Studie Univerzity Colorado Anschutz Medical Campus naznačuje, že užívání konopí může narušit funkci mozku u mladých dospělých, zejména ovlivňovat pracovní paměť. Výzkum, který zahrnoval 1 003 účastníků a MRI skeny, zjistil, že těžcí a nedávní uživatelé konopí vykazovali sníženou mozkovou aktivitu během paměťových úkolů, což ovlivňuje oblasti související s emocemi, kognicí a sociálním chováním. Studie, publikovaná v JAMA Network Open, naznačuje, že abstinence od konopí před kognitivními úkoly může zlepšit výkon, ale těžcí uživatelé mohou čelit abstinenčním příznakům, což zdůrazňuje potřebu dalšího výzkumu dlouhodobých účinků konopí na mozek.“"
+    ],
+    "commentSummary": [
+      "„Významná studie naznačuje, že mladší uživatelé konopí mohou zažívat sníženou funkci mozku, zejména v oblasti pracovní paměti.“",
+      "„Studie nemůže jednoznačně prokázat příčinnou souvislost, protože uznává možné korelace s faktory, jako je samoléčba úzkosti nebo ADHD.“",
+      "„Probíhající debata zkoumá, zda konopí přímo způsobuje sníženou kognitivní funkci, nebo zda je spojeno s jinými životními volbami.“"
+    ],
+    "points": 271,
+    "commentCount": 239,
+    "retryCount": 0,
+    "time": 1738200234
+  },
+  {
+    "id": 42871743,
+    "title": "„Od C++ k Clojure: Jazyk Jank slibuje to nejlepší z obou“",
+    "originLink": "https://thenewstack.io/from-c-to-clojure-new-language-promises-best-of-both/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42871743",
+    "commentBody": "",
+    "originSummary": [
+      "„Jeaye Wilkerson, bývalý inženýr společnosti Electronic Arts (EA), vytváří 'jank', nový programovací jazyk, který spojuje interaktivní funkce Clojure s nativní kompilací, využívající LLVM (Low-Level Virtual Machine).“",
+      "„Jank zahrnuje aspekty C++, Clojure a Rust, zaměřuje se na zvýšený výkon a použitelnost a je určen pro aplikace v oblasti her, vývoje grafického uživatelského rozhraní (GUI) a datové vědy.“",
+      "„Jazyk vzbudil zájem komunity, s vývojovou cestou, která zahrnuje vylepšené hlášení chyb, interoperabilitu s C++ a distribuci na Linuxu, s potenciálními aplikacemi v herních enginech a webových službách.“"
+    ],
+    "commentSummary": [
+      "„Jank je nový programovací jazyk navržený tak, aby spojil silné stránky C++ a Clojure, s důrazem na bezproblémovou interoperabilitu s C++ a interaktivní vývoj. Využívá Just-In-Time (JIT) kompilaci s LLVM (Low-Level Virtual Machine) k produkci nativních binárních souborů, čímž zvyšuje výkon a integraci s C++. Jazyk je stále ve vývoji, s budoucími plány na podporu více platforem a zlepšení správy paměti, což vyvolává zájem o jeho potenciál v oblasti vývoje her a nativních GUI aplikací.“"
+    ],
+    "points": 229,
+    "commentCount": 94,
+    "retryCount": 0,
+    "time": 1738187771
+  },
+  {
+    "id": 42870990,
+    "title": "„Vytvoření videa, které vytvořilo Gorillaz“",
+    "originLink": "https://animationobsessive.substack.com/p/making-the-video-that-made-gorillaz",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42870990",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "„Gorillaz, virtuální kapela, získala popularitu díky své inovativní kombinaci hudby a animace, zejména s videem „Clint Eastwood“. Fanoušci s láskou vzpomínají na kreativní projekty kapely, jako je interaktivní web Flash Kong Studios a charakteristické umělecké dílo Jamieho Hewletta. Kapela vedená Damonem Albarnem nadále ovlivňuje hudební průmysl a udržuje si nadčasovou přitažlivost, přestože se v průběhu let vyvíjí.“"
+    ],
+    "points": 206,
+    "commentCount": 47,
+    "retryCount": 0,
+    "time": 1738183853
+  },
+  {
+    "id": 42874885,
+    "title": "„PCB, měděné plochy, zemní plochy a vy“",
+    "originLink": "https://lcamtuf.substack.com/p/pcbs-ground-planes-and-you",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42874885",
+    "commentBody": "",
+    "originSummary": [],
+    "commentSummary": [
+      "„Článek zkoumá vývoj návrhu desek plošných spojů (PCB), přičemž se zvláště zaměřuje na měděné výplně a zemní plochy, které se díky moderním výrobním technikám staly efektivnějšími.“",
+      "„Nyní se používají měděné výplně ke zvýšení rychlosti výroby, konzistence a snížení bočního leptání, zatímco zemnící plochy jsou nezbytné pro elektromagnetickou kompatibilitu (EMC), elektrický výkon a návrh pro vyrobitelnost (DFM).“",
+      "„Článek zdůrazňuje důležitost přesného technického psaní a kritizuje míchání konceptů v diskusích o návrhu PCB.“"
+    ],
+    "points": 193,
+    "commentCount": 43,
+    "retryCount": 0,
+    "time": 1738211605
+  },
+  {
+    "id": 42870171,
+    "title": "„Airflow – Streamujte mediální soubory přímo z macOS na zařízení AirPlay“",
+    "originLink": "https://airflow.app/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42870171",
+    "commentBody": "",
+    "originSummary": [
+      "„Airflow je aplikace pro streamování videa kompatibilní s Chromecastem, Apple TV a televizory s AirPlay 2, která nabízí streamování HEVC, adaptivní zvuk a rozpoznávání titulků v reálném čase pomocí OCR (Optical Character Recognition).“",
+      "„Podporuje 4K HDR (vysoký dynamický rozsah) a různé audio formáty, což zajišťuje přehrávání ve vysoké kvalitě s minimálním využitím CPU.“",
+      "„Airflow je k dispozici k jednorázovému nákupu za 19,99 USD a zahrnuje bezplatnou aplikaci pro dálkové ovládání pro Android a iPhone, kompatibilní s macOS 10.12+, 64bitovým Windows 10+ a 32bitovým Windows 10+.“"
+    ],
+    "commentSummary": [
+      "„Airflow je aplikace pro streamování médií, která umožňuje uživatelům streamovat obsah z macOS na zařízení AirPlay a Chromecast, známá svou rychlostí a spolehlivostí.“",
+      "„Uživatelé oceňují Airflow pro jeho schopnosti přetáčení videa, zpracování velkých souborů, podporu titulků a kompatibilitu s macOS i Windows.“",
+      "„Navzdory některým obavám ohledně stavu vývoje a kritice uživatelského rozhraní nedávné aktualizace naznačují aktivní vývoj a mnoho uživatelů jej považuje za hodnotnou koupi ve srovnání s alternativami jako Beamer a AirParrot.“"
+    ],
+    "points": 188,
+    "commentCount": 70,
+    "retryCount": 0,
+    "time": 1738180071
+  },
+  {
+    "id": 42873312,
+    "title": "„Mathesar – intuitivní rozhraní podobné tabulkovému procesoru pro data v Postgresu“",
+    "originLink": "https://github.com/mathesar-foundation/mathesar",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42873312",
+    "commentBody": "",
+    "originSummary": [
+      "„Mathesar je webová aplikace, která poskytuje rozhraní podobné tabulkovému procesoru pro databáze PostgreSQL, což uživatelům umožňuje spravovat data bez nutnosti programování.“",
+      "„Je to open source, samohostitelné a integruje se přímo s PostgreSQL, což zajišťuje bezpečnost dat prostřednictvím nativního řízení přístupu.“",
+      "„Mathesar je momentálně v veřejné beta verzi, podporuje příspěvky od komunity a je spravován neziskovou organizací Mathesar Foundation.“"
+    ],
+    "commentSummary": [
+      "„Mathesar poskytuje rozhraní podobné tabulce pro Postgres, navržené tak, aby bylo uživatelsky přívětivé pro netechnické uživatele, umožňující úpravu dat, dotazování a správu vztahů přímo v rámci Postgres.“",
+      "„Jedná se o webový, open-source a samohostitelný nástroj, odlišný od jiných jako DBeaver nebo Metabase, s důrazem na snadné použití a hlubokou integraci s Postgres.“",
+      "„V současné době Mathesar postrádá přizpůsobení uživatelského rozhraní a SQL editor, ale plánuje tyto funkce začlenit; je licencován pod GPLv3 a financován prostřednictvím darů, přičemž zkoumá možnosti udržitelného příjmu.“"
+    ],
+    "points": 182,
+    "commentCount": 42,
+    "retryCount": 0,
+    "time": 1738197113
+  },
+  {
+    "id": 42876998,
+    "title": "„LibreOffice 400 milionů stažení a počítáme dál“",
+    "originLink": "https://blog.documentfoundation.org/blog/2025/01/30/400-million-downloads-and-counting/",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42876998",
+    "commentBody": "",
+    "originSummary": [
+      "„LibreOffice dosáhl významného milníku, když k 30. lednu 2025 překonal 400 milionů stažení, což zdůrazňuje jeho trvalou popularitu a užitečnost.“",
+      "„Po počátečním rychlém růstu v letech 2011 až 2014 se zájem o LibreOffice po stagnaci znovu oživil, protože uživatelé ocenili hodnotu desktopových kancelářských balíků vedle cloudových řešení.“",
+      "„Navzdory útokům na svůj počítadlo stažení v roce 2019 LibreOffice nadále rostl a do roku 2024 dosáhl více než 35 milionů stažení ročně, což dokazuje jeho odolnost a trvalou relevanci.“"
+    ],
+    "commentSummary": [
+      "„LibreOffice dosáhl významného milníku s 400 miliony stažení, což podtrhuje jeho široké využití navzdory konkurenci od jiných kancelářských balíků, jako je OnlyOffice.“",
+      "„Uživatelé vyjadřují různé preference, přičemž někteří upřednostňují OnlyOffice pro jeho kompatibilitu s Microsoft Office a moderní rozhraní, zatímco jiní oceňují LibreOffice pro jeho open-source povahu a schopnost zpracovávat velké soubory.“",
+      "„Diskuse zdůrazňuje integraci LibreOffice v linuxových distribucích, jeho užitečnost v osobních i profesionálních kontextech a jeho průběžný vývoj, spolu s výzvami při přechodu z cloudových řešení na lokální software.“"
+    ],
+    "points": 178,
+    "commentCount": 70,
+    "retryCount": 0,
+    "time": 1738238354
+  },
+  {
+    "id": 42871143,
+    "title": "„Parsování PDF (a dalších formátů) v Elixiru pomocí Rustu“",
+    "originLink": "https://www.chriis.dev/opinion/parsing-pdfs-in-elixir-using-rust",
+    "originBody": "",
+    "commentLink": "https://news.ycombinator.com/item?id=42871143",
+    "commentBody": "",
+    "originSummary": [
+      "„Parsování PDF v Elixiru je náročné kvůli nedostatku jednoduchých řešení, ale integrace Rustu prostřednictvím NIFs (nativně implementovaných funkcí) nabízí robustní alternativu.“",
+      "„Kombinace rychlosti a efektivity jazyka Rust s možnostmi Elixiru umožňuje vytvoření LiveView Elixir aplikace pro nahrávání PDF, s využitím knihovny Extractous v Rustu a Rustleru pro integraci.“",
+      "„Tento přístup zdůrazňuje silné stránky obou jazyků, poskytuje nákladově efektivní a účinné řešení pro analýzu PDF, přičemž plná implementace je dostupná na GitHubu.“"
+    ],
+    "commentSummary": [
+      "„Parsování PDF v Elixiru pomocí Rustu poskytuje stabilní řešení tím, že využívá spolehlivost Rustu k zabránění pádům ve virtuálním stroji BEAM (Bogdan/Björn's Erlang Abstract Machine).“",
+      "„Hlavní výzvou je extrakce složitých dat, jako jsou tabulky, z PDF, což přesahuje jednoduchou extrakci textu.“",
+      "„Nástroje jako Unstructured a Marker v Rustu jsou zkoumány za účelem zlepšení rychlosti inferencí modelu a začlenění vizuálních schopností, s zájmem o dockerizované API pro lokální vývoj.“"
+    ],
+    "points": 168,
+    "commentCount": 14,
+    "retryCount": 0,
+    "time": 1738184728
+  }
+]
